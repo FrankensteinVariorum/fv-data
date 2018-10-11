@@ -31,5 +31,7 @@ do
 
   echo "$STEP_REQUEST"
 
+  # For each page of JSON results, extract the actual results and append them
+  # as one line per object (using jq's -c flag) to $DL_FILE
   curl -H "$AUTH_HEADER" "$STEP_REQUEST" | jq -c ".rows[]" >> $DL_FILE
 done
