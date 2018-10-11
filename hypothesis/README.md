@@ -1,4 +1,4 @@
-Harvest <hypothes.is> annotations from the Frankenstein Group.
+Harvest [hypothes.is](https://hypothes.is) annotations from the Frankenstein Group.
 
 ## Requirements
 
