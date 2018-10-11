@@ -16,7 +16,8 @@ rm -f $DL_FILE
 # Construct the authorization header
 AUTH_HEADER="Authorization: Bearer $HYPOTHESIS_TOKEN"
 
-# Collect total number of annotations
+# Collect total number of annotations by getting one sample search result
+# and checking the `total` variable returned by hypothes.is
 PING_REQUEST="$HYPOTHESIS_BASE?limit=1&group=$FRANKEN_GROUP&sort=id"
 TOTAL_ANNOTATIONS=$(curl -H "$AUTH_HEADER" "$PING_REQUEST" | jq '.total')
 
