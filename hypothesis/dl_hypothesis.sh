@@ -4,11 +4,13 @@
 
 HYPOTHESIS_TOKEN=$(<.hypothesis_token)
 PAGE_SIZE=200
-HYPOTHESIS_BASE="https://hypothes.is/api/search"
 DL_FILE="hypothesis.json"
-
 # Save group ID to be searched for
 FRANKEN_GROUP="GwWrAWaw"
+
+# Build a base query that only looks within the Frankenstein Group, and then
+# only within ebeshero's site
+HYPOTHESIS_BASE="https://hypothes.is/api/search?sort=id&group=$FRANKEN_GROUP&uri.parts=ebeshero"
 
 # Remove download file if it already exists
 rm -f $DL_FILE
@@ -18,7 +20,7 @@ AUTH_HEADER="Authorization: Bearer $HYPOTHESIS_TOKEN"
 
 # Collect total number of annotations by getting one sample search result
 # and checking the `total` variable returned by hypothes.is
-PING_REQUEST="$HYPOTHESIS_BASE?limit=1&group=$FRANKEN_GROUP&sort=id"
+PING_REQUEST="$HYPOTHESIS_BASE?limit=1"
 TOTAL_ANNOTATIONS=$(curl -H "$AUTH_HEADER" "$PING_REQUEST" | jq '.total')
 
 echo "$TOTAL_ANNOTATIONS to be downloaded"
@@ -28,7 +30,7 @@ for i in `seq 0 ${PAGE_SIZE} ${TOTAL_ANNOTATIONS}`;
 do
   echo "$i"
 
-  STEP_REQUEST="$HYPOTHESIS_BASE?offset=$i&limit=$PAGE_SIZE&group=$FRANKEN_GROUP&sort=id"
+  STEP_REQUEST="$HYPOTHESIS_BASE?offset=$i&limit=$PAGE_SIZE"
 
   echo "$STEP_REQUEST"
 
