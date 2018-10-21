@@ -11,6 +11,7 @@
         
         If batch processing a directory of output files to convert to ascii, use something like:
         for file in *.txt; do iconv -c -f UTF-8 -t ascii//TRANSLIT "$file" > ../spineDataASCII/"$file"; done
+    (On using TRANSLIT with iconv, see https://unix.stackexchange.com/questions/171832/converting-a-utf-8-file-to-ascii-best-effort) 
         -->
       <xsl:result-document method="text" encoding="UTF-8" href="spineData.txt"> 
           <xsl:for-each select="$spineColl/TEI"> 
@@ -26,11 +27,23 @@
 <xsl:template match="app">
     <xsl:value-of select="@xml:id"/><xsl:text>&#x9;</xsl:text>
     <xsl:apply-templates select="rdgGrp"/>
+   <!--This is to output blanks (or NoRG) so we always have 5 tab-separated values for the python script to compare for each possible rdgGrp. Blanks are encoded as a single white-space. -->
+    <xsl:for-each select="(0 to (5 - count(rdgGrp)))">
+        <xsl:text>&#x9;NoRG&#x9; &#x9;</xsl:text>
+    </xsl:for-each>
     <xsl:text>&#10;</xsl:text>
 </xsl:template>
 <xsl:template match="rdgGrp">
     <xsl:value-of select="@xml:id"/><xsl:text>&#x9;</xsl:text>
-    <xsl:variable name="trimmed-nVal" as="xs:string+" select="substring-after(@n, '[') ! substring-before(., ']') "/>
+    <xsl:variable name="trimmed-nVal" as="xs:string">
+        <xsl:choose>
+            <xsl:when test="@n = ['']">
+                <xsl:text> </xsl:text>
+          <!--An empty rdgGrp is interpreted as a single white space.  -->
+            </xsl:when>
+            <xsl:otherwise><xsl:value-of select="substring-after(@n, '[') ! substring-before(., ']')"/></xsl:otherwise>
+        </xsl:choose>
+    </xsl:variable>
     <xsl:variable name="n-tokens" as="xs:string" select="tokenize($trimmed-nVal, ', ') ! translate(., '''', '') => string-join(' ')"/>
     <xsl:value-of select="$n-tokens"/>
     <xsl:text>&#x9;</xsl:text>

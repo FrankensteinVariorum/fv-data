@@ -4,35 +4,45 @@ import xml.etree.ElementTree as ET
 import numpy as np
 from weighted_levenshtein import lev, osa, dam_lev
 
-Root = ET.Element("xml")
-Table = ET.SubElement(Root, "table")
-THRow = ET.SubElement(Table, "tr", id="head")
-TH1 = ET.SubElement(THRow, "th")
-TH1.text = "Locus"
-TH2 = ET.SubElement(THRow, "th")
-TH2.text = "MS to 1828"
-TH3 = ET.SubElement(THRow, "th")
-TH3.text = "MS to 1837"
-TH4 = ET.SubElement(THRow, "th")
-TH4.text = "MS to 1854"
-TH5 = ET.SubElement(THRow, "th")
-TH5.text = "1828 to 1837"
-TH6 = ET.SubElement(THRow, "th")
-TH6.text = "1828 to 1854"
-TH7 = ET.SubElement(THRow, "th")
-TH7.text = "1837 to 1854"
+# ebb: There are five possible rdgGrps for each app location,
+# producing the following possible combinations:
+# RG1 to RG2
+# RG1 to RG3
+# RG1 to RG4
+# RG1 to RG5
+# RG2 to RG3
+# RG2 to RG4
+# RG2 to RG5
+# RG3 to RG4
+# RG3 to RG5
+# RG4 to RG5
+# We'll map these to feature structures elements (from the TEI), like this:
+# <fs feats="appID">
+#    <f
 
-f = open('Rienzi_appTextAll.txt')
+Root = ET.Element("xml")
+
+
+f = open('spineData-ascii.txt')
 f.readline() # read and ignore the first line
 for line in f: # iterate over the remaining lines
 	v = line.split('\t')
-	dist1_2 = distance(v[1], v[2])
-	dist1_3 = distance(v[1], v[3])
-	dist1_4 = distance(v[1], v[4])
-	dist2_3 = distance(v[2], v[3])
-	dist2_4 = distance(v[2], v[4])
-	dist3_4 = distance(v[3], v[4])	
-	TR = ET.SubElement(Table, "tr", title="vars")
+	app = v[0]
+	dist1_2 = distance(v[2], v[4])
+	dist1_3 = distance(v[2], v[6])
+	dist1_4 = distance(v[2], v[8])
+	dist1_5 = distance(v[2], v[10])
+	dist2_3 = distance(v[4], v[6])
+	dist2_4 = distance(v[4], v[8])
+	dist2_5 = distance(v[4], v[10])
+	dist3_4 = distance(v[6], v[8])
+	dist3_5 = distance(v[6], v[10])
+	dist4_5_= distance(v[8], v[10])
+
+
+
+	## OLD element constructions from Mitford experiment:
+	TR = ET.SubElement(Root, "fs", title="vars")
 	TD1 = ET.SubElement(TR, "td")
 	TD1.text = v[0]
 	TD2 = ET.SubElement(TR, "td")
