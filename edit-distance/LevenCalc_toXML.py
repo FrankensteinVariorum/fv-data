@@ -41,7 +41,12 @@ for line in f: # iterate over the remaining lines
     v = line.split('\t')
     app = v[0]
     rg1_2 = v[1] + '::' + v[3]
-    dist1_2 = dam_lev(v[2], v[4])
+    if '#fMS' in rg1_2:
+        transpose_costs = np.full((128, 128), .5, dtype=np.float64)
+        dist1_2 = dam_lev(v[2], v[4])
+    else:
+        transpose_costs = np.ones((128, 128), dtype=np.float64)
+        dist1_2 = dam_lev(v[2], v[4])
 
     rg1_3 = v[1] + '::' + v[5]
     dist1_3 = dam_lev(v[2], v[6])
@@ -86,7 +91,7 @@ for line in f: # iterate over the remaining lines
 #	g.write(lxml.etree.tostring(the_doc, pretty_print=True))
 #print lxml.etree.tostring(the_doc, pretty_print=True)
 tree = ET.ElementTree(Root)
-tree.write('FV_LevDists.xml')
+tree.write('FV_LevDists-weighted.xml')
 f.close()
 
     #TRl = E.tr
