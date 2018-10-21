@@ -68,10 +68,19 @@ for line in f: # iterate over the remaining lines
     dist3_5 = dam_lev(v[6], v[10])
 
     rg4_5 = v[7] + '::' + v[9]
-    dist4_5_= dam_lev(v[8], v[10])
+    dist4_5 = dam_lev(v[8], v[10])
 
     FS = ET.SubElement(Root, 'fs', attrib={'feats': app})
-    fA = ET.SubElement(FS, 'f', attrib={'name': rg1_2, 'fVal': str(dist1_2)})
+    f1_2 = ET.SubElement(FS, 'f', attrib={'name': rg1_2, 'fVal': str(dist1_2)})
+    f1_3 = ET.SubElement(FS, 'f', attrib={'name': rg1_3, 'fVal': str(dist1_3)})
+    f1_4 = ET.SubElement(FS, 'f', attrib={'name': rg1_4, 'fVal': str(dist1_4)})
+    f1_5 = ET.SubElement(FS, 'f', attrib={'name': rg1_5, 'fVal': str(dist1_5)})
+    f2_3 = ET.SubElement(FS, 'f', attrib={'name': rg2_3, 'fVal': str(dist2_3)})
+    f2_4 = ET.SubElement(FS, 'f', attrib={'name': rg2_4, 'fVal': str(dist2_4)})
+    f2_5 = ET.SubElement(FS, 'f', attrib={'name': rg2_5, 'fVal': str(dist2_5)})
+    f3_4 = ET.SubElement(FS, 'f', attrib={'name': rg3_4, 'fVal': str(dist3_4)})
+    f3_5 = ET.SubElement(FS, 'f', attrib={'name': rg3_5, 'fVal': str(dist3_5)})
+    f4_5 = ET.SubElement(FS, 'f', attrib={'name': rg4_5, 'fVal': str(dist4_5)})
 
 #with open('LevDistsRienzi.xml','wb') as g:
 #	g.write(lxml.etree.tostring(the_doc, pretty_print=True))

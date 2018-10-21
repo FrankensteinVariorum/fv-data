@@ -29,15 +29,15 @@
     <xsl:apply-templates select="rdgGrp"/>
    <!--This is to output blanks (or NoRG) so we always have 5 tab-separated values for the python script to compare for each possible rdgGrp. Blanks are encoded as a single white-space. -->
     <xsl:for-each select="(1 to (5 - count(rdgGrp)))">
-        <xsl:text>&#x9;NoRG&#x9; &#x9;</xsl:text>
+        <xsl:text>NoRG&#x9; &#x9;</xsl:text>
     </xsl:for-each>
     <xsl:text>&#10;</xsl:text>
 </xsl:template>
 <xsl:template match="rdgGrp">
-  <!--output rdgGrp identifiers and normalized tokens. If the MS notebook witness is present, flag it with ::fMS appended to the rdgGrp xml:id. -->  
+  <!--output rdgGrp identifiers and normalized tokens. If the MS notebook witness is present, flag it with #fMS appended to the rdgGrp xml:id. -->  
     <xsl:choose>
         <xsl:when test="rdg/@wit='fMS'">
-            <xsl:value-of select="@xml:id"/><xsl:text>::fMS&#x9;</xsl:text>
+            <xsl:value-of select="@xml:id"/><xsl:text>#fMS&#x9;</xsl:text>
         </xsl:when>
         <xsl:otherwise><xsl:value-of select="@xml:id"/><xsl:text>&#x9;</xsl:text></xsl:otherwise></xsl:choose>
     <xsl:variable name="trimmed-nVal" as="xs:string">
