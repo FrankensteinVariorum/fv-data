@@ -7,7 +7,7 @@
         <sch:let name="unweighted" value="doc('FV_LevDists.xml')"/>
  <!--       <sch:let name="weighted" value="doc('FV_LevDists-weighted.xml')"/>-->
    <sch:rule context="f[contains(@name, '#fMS') and not(contains(@name, 'NoRG'))]">
-       <sch:assert test="$unweighted//f[@name = current()/@name]/@fVal ne current()/@fVal" role="information">Here is case where the unweighted version of the levenshtein measurement (<sch:value-of select="$unweighted//f[@name = current()/@name]/@fVal"/>) equals this weighted version.</sch:assert>
+       <sch:report test="$unweighted//f[@name = current()/@name]/@fVal ne current()/@fVal" role="information">Here is case where the unweighted version of the levenshtein measurement (<sch:value-of select="$unweighted//f[@name = current()/@name]/@fVal"/>) does not equal this weighted version.</sch:report>
    </sch:rule>     
     </sch:pattern>
 </sch:schema>

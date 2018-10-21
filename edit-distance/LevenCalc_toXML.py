@@ -31,9 +31,11 @@ transpose_costs = np.ones((128, 128), dtype=np.float64)
 # We'll map these to feature structures elements (from the TEI), like this:
 # <fs feats="appID">
 #    <f
+# 2018-10-21 ebb: Weighting fMS transpositions differently doesn't seem to matter in the output,
+#  at least not so far.
+
 
 Root = ET.Element("xml")
-
 
 f = open('spineData-ascii.txt')
 f.readline() # read and ignore the first line
