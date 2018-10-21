@@ -28,7 +28,7 @@
     <xsl:value-of select="@xml:id"/><xsl:text>&#x9;</xsl:text>
     <xsl:apply-templates select="rdgGrp"/>
    <!--This is to output blanks (or NoRG) so we always have 5 tab-separated values for the python script to compare for each possible rdgGrp. Blanks are encoded as a single white-space. -->
-    <xsl:for-each select="(0 to (5 - count(rdgGrp)))">
+    <xsl:for-each select="(1 to (5 - count(rdgGrp)))">
         <xsl:text>&#x9;NoRG&#x9; &#x9;</xsl:text>
     </xsl:for-each>
     <xsl:text>&#10;</xsl:text>
