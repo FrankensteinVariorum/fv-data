@@ -1,10 +1,8 @@
 import os
 import lxml.etree
-# import lxml.builder
-# E = lxml.builder.ElementMaker()
 import xml.etree.ElementTree as ET
-from Levenshtein import distance
-os.chdir('/Users/ebb8/Documents/GitHub/mitford/drama-transformation')
+import numpy as np
+from weighted_levenshtein import lev, osa, dam_lev
 
 Root = ET.Element("xml")
 Table = ET.SubElement(Root, "table")

@@ -5,13 +5,21 @@
 <xsl:output method="text" encoding="UTF-8"/>
     <xsl:variable name="spineColl" as="document-node()+" select="collection('../standoff_Spine/')"/>
     <xsl:template match="/">
-       <xsl:for-each select="$spineColl/TEI"> 
-           <xsl:variable name="currentSpineFile" as="element()" select="current()"/>
+        <!--2018-10-21 ebb: For now, this XSLT outputs a single tab-separated plain text file, named spineData.txt, with normalized data pulled from each rdgGrp (its @n attribute) in each spine file. The output file will need to be converted to ascii for weighted levenshtein calculations. 
+        Use iconv in the shell (to change curly quotes and other special characters to ASCII format): For a single file:
+        iconv -c -f UTF-8 -t ascii//TRANSLIT spineData.txt  > spineData-ascii.txt
+        
+        If batch processing a directory of output files to convert to ascii, use something like:
+        for file in *.txt; do iconv -c -f UTF-8 -t ascii//TRANSLIT "$file" > ../spineDataASCII/"$file"; done
+        -->
+      <xsl:result-document method="text" encoding="UTF-8" href="spineData.txt"> 
+          <xsl:for-each select="$spineColl/TEI"> 
+            <!-- <xsl:variable name="currentSpineFile" as="element()" select="current()"/>
            <xsl:variable name="filename" as="xs:string" select="$currentSpineFile/base-uri() ! tokenize(., '/')[last()] ! substring-before(., '.')"/>
-           <xsl:result-document method="text" href="spineData/{$filename}.txt">
+           <xsl:result-document method="text" href="spineData/{$filename}.txt">-->
            <xsl:apply-templates select="descendant::app"/>
-           </xsl:result-document>
-       </xsl:for-each>
+           <!--</xsl:result-document>-->
+       </xsl:for-each></xsl:result-document>
     </xsl:template>
     
 
