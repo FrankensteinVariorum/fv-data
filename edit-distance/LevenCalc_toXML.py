@@ -28,52 +28,51 @@ f.readline() # read and ignore the first line
 for line in f: # iterate over the remaining lines
 	v = line.split('\t')
 	app = v[0]
-	dist1_2 = distance(v[2], v[4])
-	dist1_3 = distance(v[2], v[6])
-	dist1_4 = distance(v[2], v[8])
-	dist1_5 = distance(v[2], v[10])
-	dist2_3 = distance(v[4], v[6])
-	dist2_4 = distance(v[4], v[8])
-	dist2_5 = distance(v[4], v[10])
-	dist3_4 = distance(v[6], v[8])
-	dist3_5 = distance(v[6], v[10])
-	dist4_5_= distance(v[8], v[10])
+#	dist1_2 = distance(v[2], v[4])
+#	dist1_3 = distance(v[2], v[6])
+#	dist1_4 = distance(v[2], v[8])
+#	dist1_5 = distance(v[2], v[10])
+#	dist2_3 = distance(v[4], v[6])
+#	dist2_4 = distance(v[4], v[8])
+#	dist2_5 = distance(v[4], v[10])
+#	dist3_4 = distance(v[6], v[8])
+#	dist3_5 = distance(v[6], v[10])
+#	dist4_5_= distance(v[8], v[10])
 
-
+	FS = ET.SubElement(Root, "fs").set("feats", app)
 
 	## OLD element constructions from Mitford experiment:
-	TR = ET.SubElement(Root, "fs", title="vars")
-	TD1 = ET.SubElement(TR, "td")
-	TD1.text = v[0]
-	TD2 = ET.SubElement(TR, "td")
-	TD2.text = str(dist1_2)
-	TD3 = ET.SubElement(TR, "td")
-	TD3.text = str(dist1_3)
-	TD4 = ET.SubElement(TR, "td")
-	TD4.text = str(dist1_4)
-	TD5 = ET.SubElement(TR, "td")
-	TD5.text = str(dist2_3)
-	TD6 = ET.SubElement(TR, "td")
-	TD6.text = str(dist2_4)
-	TD7 = ET.SubElement(TR, "td")
-	TD7.text = str(dist3_4)
-	TRt = ET.SubElement(Table, "tr", title="texts")
-	TDt0 = ET.SubElement(TRt, "td")
-	TDt0.text = v[0]
-	TDt1 = ET.SubElement(TRt, "td")
-	TDt1.text = v[1]
-	TDt2 = ET.SubElement(TRt, "td")
-	TDt2.text = v[2]
-	TDt3 = ET.SubElement(TRt, "td")
-	TDt3.text = v[3]
-	TDt4 = ET.SubElement(TRt, "td")
-	TDt4.text = v[4]
+#	TD1 = ET.SubElement(TR, "td")
+#	TD1.text = v[0]
+#	TD2 = ET.SubElement(TR, "td")
+#	TD2.text = str(dist1_2)
+#	TD3 = ET.SubElement(TR, "td")
+#	TD3.text = str(dist1_3)
+#	TD4 = ET.SubElement(TR, "td")
+#	TD4.text = str(dist1_4)
+#	TD5 = ET.SubElement(TR, "td")
+#	TD5.text = str(dist2_3)
+#	TD6 = ET.SubElement(TR, "td")
+#	TD6.text = str(dist2_4)
+#	TD7 = ET.SubElement(TR, "td")
+#	TD7.text = str(dist3_4)
+#	TRt = ET.SubElement(Table, "tr", title="texts")
+#	TDt0 = ET.SubElement(TRt, "td")
+#	TDt0.text = v[0]
+#	TDt1 = ET.SubElement(TRt, "td")
+#	TDt1.text = v[1]
+#	TDt2 = ET.SubElement(TRt, "td")
+#	TDt2.text = v[2]
+#	TDt3 = ET.SubElement(TRt, "td")
+#	TDt3.text = v[3]
+#	TDt4 = ET.SubElement(TRt, "td")
+#	TDt4.text = v[4]
 	
 #with open('LevDistsRienzi.xml','wb') as g:
 #	g.write(lxml.etree.tostring(the_doc, pretty_print=True))
 #print lxml.etree.tostring(the_doc, pretty_print=True)
 tree = ET.ElementTree(Root)
-tree.write('LevDistsRienziAll.xml')
+tree.write('FV_LevDists.xml')
 f.close()
 
 	#TRl = E.tr
