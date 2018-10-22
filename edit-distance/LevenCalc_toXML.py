@@ -28,12 +28,6 @@ transpose_costs = np.ones((128, 128), dtype=np.float64)
 # RG3 to RG4
 # RG3 to RG5
 # RG4 to RG5
-# We'll map these to feature structures elements (from the TEI), like this:
-# <fs feats="appID">
-#    <f
-# 2018-10-21 ebb: Weighting fMS transpositions differently doesn't seem to matter in the output,
-#  at least not so far.
-
 
 Root = ET.Element("xml")
 
@@ -46,7 +40,7 @@ for line in f: # iterate over the remaining lines
     if '#fMS' in rg1_2:
         print('#fMS is here')
         transpose_costs = np.full((128, 128), 0.25, dtype=np.float64)
-        dist1_2 = dam_lev(v[2], v[4])
+        dist1_2 = dam_lev(v[2], v[4], transpose_costs=transpose_costs)
     else:
         transpose_costs = np.ones((128, 128), dtype=np.float64)
         dist1_2 = dam_lev(v[2], v[4])
@@ -55,7 +49,7 @@ for line in f: # iterate over the remaining lines
     if '#fMS' in rg1_3:
         print('#fMS is here')
         transpose_costs = np.full((128, 128), 0.25, dtype=np.float64)
-        dist1_3 = dam_lev(v[2], v[6])
+        dist1_3 = dam_lev(v[2], v[6], transpose_costs=transpose_costs)
     else:
         transpose_costs = np.ones((128, 128), dtype=np.float64)
         dist1_3 = dam_lev(v[2], v[6])
@@ -64,7 +58,7 @@ for line in f: # iterate over the remaining lines
     if '#fMS' in rg1_4:
         print('#fMS is here')
         transpose_costs = np.full((128, 128), 0.25, dtype=np.float64)
-        dist1_4 = dam_lev(v[2], v[8])
+        dist1_4 = dam_lev(v[2], v[8], transpose_costs=transpose_costs)
     else:
         transpose_costs = np.ones((128, 128), dtype=np.float64)
         dist1_4 = dam_lev(v[2], v[8])
@@ -73,7 +67,7 @@ for line in f: # iterate over the remaining lines
     if '#fMS' in rg1_5:
         print('#fMS is here')
         transpose_costs = np.full((128, 128), 0.25, dtype=np.float64)
-        dist1_5 = dam_lev(v[2], v[10])
+        dist1_5 = dam_lev(v[2], v[10], transpose_costs=transpose_costs)
     else:
         transpose_costs = np.ones((128, 128), dtype=np.float64)
         dist1_5 = dam_lev(v[2], v[10])
@@ -82,7 +76,7 @@ for line in f: # iterate over the remaining lines
     if '#fMS' in rg2_3:
         print('#fMS is here')
         transpose_costs = np.full((128, 128), 0.25, dtype=np.float64)
-        dist2_3 = dam_lev(v[4], v[6])
+        dist2_3 = dam_lev(v[4], v[6], transpose_costs=transpose_costs)
     else:
         transpose_costs = np.ones((128, 128), dtype=np.float64)
         dist2_3 = dam_lev(v[4], v[6])
@@ -91,7 +85,7 @@ for line in f: # iterate over the remaining lines
     if '#fMS' in rg2_4:
         print('#fMS is here')
         transpose_costs = np.full((128, 128), 0.25, dtype=np.float64)
-        dist2_4 = dam_lev(v[4], v[8])
+        dist2_4 = dam_lev(v[4], v[8], transpose_costs=transpose_costs)
     else:
         transpose_costs = np.ones((128, 128), dtype=np.float64)
         dist2_4 = dam_lev(v[4], v[8])
@@ -100,7 +94,7 @@ for line in f: # iterate over the remaining lines
     if '#fMS' in rg2_5:
         print('#fMS is here')
         transpose_costs = np.full((128, 128), 0.25, dtype=np.float64)
-        dist2_5 = dam_lev(v[4], v[10])
+        dist2_5 = dam_lev(v[4], v[10], transpose_costs=transpose_costs)
     else:
         transpose_costs = np.ones((128, 128), dtype=np.float64)
         dist2_5 = dam_lev(v[4], v[10])
@@ -109,7 +103,7 @@ for line in f: # iterate over the remaining lines
     if '#fMS' in rg3_4:
         print('#fMS is here')
         transpose_costs = np.full((128, 128), 0.25, dtype=np.float64)
-        dist3_4 = dam_lev(v[6], v[8])
+        dist3_4 = dam_lev(v[6], v[8], transpose_costs=transpose_costs)
     else:
         transpose_costs = np.ones((128, 128), dtype=np.float64)
         dist3_4 = dam_lev(v[6], v[8])
@@ -118,7 +112,7 @@ for line in f: # iterate over the remaining lines
     if '#fMS' in rg3_5:
         print('#fMS is here')
         transpose_costs = np.full((128, 128), 0.25, dtype=np.float64)
-        dist3_5 = dam_lev(v[6], v[10])
+        dist3_5 = dam_lev(v[6], v[10], transpose_costs=transpose_costs)
     else:
         transpose_costs = np.ones((128, 128), dtype=np.float64)
         dist3_5 = dam_lev(v[6], v[10])
@@ -127,7 +121,7 @@ for line in f: # iterate over the remaining lines
     if '#fMS' in rg4_5:
         print('#fMS is here')
         transpose_costs = np.full((128, 128), 0.25, dtype=np.float64)
-        dist4_5 = dam_lev(v[8], v[10])
+        dist4_5 = dam_lev(v[8], v[10], transpose_costs=transpose_costs)
     else:
         transpose_costs = np.ones((128, 128), dtype=np.float64)
         dist4_5 = dam_lev(v[8], v[10])
@@ -144,9 +138,6 @@ for line in f: # iterate over the remaining lines
     f3_5 = ET.SubElement(FS, 'f', attrib={'name': rg3_5, 'fVal': str(dist3_5)})
     f4_5 = ET.SubElement(FS, 'f', attrib={'name': rg4_5, 'fVal': str(dist4_5)})
 
-#with open('LevDistsRienzi.xml','wb') as g:
-#	g.write(lxml.etree.tostring(the_doc, pretty_print=True))
-#print lxml.etree.tostring(the_doc, pretty_print=True)
 tree = ET.ElementTree(Root)
 tree.write('FV_LevDists-weighted.xml')
 f.close()
