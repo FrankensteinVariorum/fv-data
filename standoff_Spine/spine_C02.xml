@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-     xmlns="http://www.tei-c.org/ns/1.0"
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
      xmlns:mith="http://mith.umd.edu/sc/ns1#"
      xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse">
    <teiHeader>
@@ -24,11 +24,15 @@
    <text>
       <body>
          <ab type="alignmentChunk">
-            <app xmlns:cx="http://interedition.eu/collatex/ns/1.0" xml:id="C02a_app1">
-               <rdgGrp xml:id="C02a_app1_rg1" n="['']">
+            <app xml:id="C02a_app1" n="26">
+               <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
+                       xml:id="C02a_app1_rg1"
+                       n="['']">
                   <rdg wit="#fMS"/>
                </rdgGrp>
-               <rdgGrp xml:id="C02a_app1_rg2" n="['frankenstein;or,', 'themodern']">
+               <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
+                       xml:id="C02a_app1_rg2"
+                       n="['frankenstein;or,', 'themodern']">
                   <rdg wit="#f1818">
                      <ptr target="https://raw.githubusercontent.com/PghFrankenstein/fv-data/master/edition-chunks/P5-f1818_C02.xml#C02a_app1-f1818__I"/>
                      <ptr target="https://raw.githubusercontent.com/PghFrankenstein/fv-data/master/edition-chunks/P5-f1818_C02.xml#C02a_app1-f1818__F"/>
@@ -38,7 +42,9 @@
                      <ptr target="https://raw.githubusercontent.com/PghFrankenstein/fv-data/master/edition-chunks/P5-fThomas_C02.xml#C02a_app1-fThomas__F"/>
                   </rdg>
                </rdgGrp>
-               <rdgGrp xml:id="C02a_app1_rg3" n="['frankenstein;or,the', 'modern']">
+               <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
+                       xml:id="C02a_app1_rg3"
+                       n="['frankenstein;or,the', 'modern']">
                   <rdg wit="#f1823">
                      <ptr target="https://raw.githubusercontent.com/PghFrankenstein/fv-data/master/edition-chunks/P5-f1823_C02.xml#C02a_app1-f1823__I"/>
                      <ptr target="https://raw.githubusercontent.com/PghFrankenstein/fv-data/master/edition-chunks/P5-f1823_C02.xml#C02a_app1-f1823__F"/>
@@ -49,8 +55,10 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xmlns:cx="http://interedition.eu/collatex/ns/1.0" xml:id="C02a_app3">
-               <rdgGrp xml:id="C02a_app3_rg1" n="['i.to']">
+            <app xml:id="C02a_app3" n="1">
+               <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
+                       xml:id="C02a_app3_rg1"
+                       n="['i.to']">
                   <rdg wit="#f1823">
                      <ptr target="https://raw.githubusercontent.com/PghFrankenstein/fv-data/master/edition-chunks/P5-f1823_C02.xml#C02a_app3-f1823__I"/>
                      <ptr target="https://raw.githubusercontent.com/PghFrankenstein/fv-data/master/edition-chunks/P5-f1823_C02.xml#C02a_app3-f1823__F"/>
@@ -60,7 +68,9 @@
                      <ptr target="https://raw.githubusercontent.com/PghFrankenstein/fv-data/master/edition-chunks/P5-f1831_C02.xml#C02a_app3-f1831__F"/>
                   </rdg>
                </rdgGrp>
-               <rdgGrp xml:id="C02a_app3_rg2" n="['ito']">
+               <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
+                       xml:id="C02a_app3_rg2"
+                       n="['ito']">
                   <rdg wit="#f1818">
                      <ptr target="https://raw.githubusercontent.com/PghFrankenstein/fv-data/master/edition-chunks/P5-f1818_C02.xml#C02a_app3-f1818__I"/>
                      <ptr target="https://raw.githubusercontent.com/PghFrankenstein/fv-data/master/edition-chunks/P5-f1818_C02.xml#C02a_app3-f1818__F"/>
@@ -71,14 +81,18 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xmlns:cx="http://interedition.eu/collatex/ns/1.0" xml:id="C02a_app5">
-               <rdgGrp xml:id="C02a_app5_rg1" n="['england.&lt;p/&gt;', 'st.']">
+            <app xml:id="C02a_app5" n="1">
+               <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
+                       xml:id="C02a_app5_rg1"
+                       n="['england.&lt;p/&gt;', 'st.']">
                   <rdg wit="#f1823">
                      <ptr target="https://raw.githubusercontent.com/PghFrankenstein/fv-data/master/edition-chunks/P5-f1823_C02.xml#C02a_app5-f1823__I"/>
                      <ptr target="https://raw.githubusercontent.com/PghFrankenstein/fv-data/master/edition-chunks/P5-f1823_C02.xml#C02a_app5-f1823__F"/>
                   </rdg>
                </rdgGrp>
-               <rdgGrp xml:id="C02a_app5_rg2" n="['england.&lt;p/&gt;st.']">
+               <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
+                       xml:id="C02a_app5_rg2"
+                       n="['england.&lt;p/&gt;st.']">
                   <rdg wit="#f1818">
                      <ptr target="https://raw.githubusercontent.com/PghFrankenstein/fv-data/master/edition-chunks/P5-f1818_C02.xml#C02a_app5-f1818__I"/>
                      <ptr target="https://raw.githubusercontent.com/PghFrankenstein/fv-data/master/edition-chunks/P5-f1818_C02.xml#C02a_app5-f1818__F"/>
@@ -93,16 +107,22 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xmlns:cx="http://interedition.eu/collatex/ns/1.0" xml:id="C02b_app1">
-               <rdgGrp xml:id="C02b_app1_rg1" n="['']">
+            <app xml:id="C02b_app1" n="28">
+               <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
+                       xml:id="C02b_app1_rg1"
+                       n="['']">
                   <rdg wit="#fMS"/>
                </rdgGrp>
-               <rdgGrp xml:id="C02b_app1_rg2" n="['&lt;del&gt;for', 'ever&lt;del&gt;constantly']">
+               <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
+                       xml:id="C02b_app1_rg2"
+                       n="['&lt;del&gt;for', 'ever&lt;del&gt;constantly']">
                   <rdg wit="#fThomas">
                      <ptr target="https://raw.githubusercontent.com/PghFrankenstein/fv-data/master/edition-chunks/P5-fThomas_C02.xml#C02b_app1-fThomas"/>
                   </rdg>
                </rdgGrp>
-               <rdgGrp xml:id="C02b_app1_rg3" n="['for', 'ever']">
+               <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
+                       xml:id="C02b_app1_rg3"
+                       n="['for', 'ever']">
                   <rdg wit="#f1818">
                      <ptr target="https://raw.githubusercontent.com/PghFrankenstein/fv-data/master/edition-chunks/P5-f1818_C02.xml#C02b_app1-f1818"/>
                   </rdg>
@@ -114,17 +134,22 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xmlns:cx="http://interedition.eu/collatex/ns/1.0" xml:id="C02c_app1">
-               <rdgGrp xml:id="C02c_app1_rg1" n="['']">
+            <app xml:id="C02c_app1" n="36">
+               <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
+                       xml:id="C02c_app1_rg1"
+                       n="['']">
                   <rdg wit="#fMS"/>
                </rdgGrp>
-               <rdgGrp xml:id="C02c_app1_rg2"
+               <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
+                       xml:id="C02c_app1_rg2"
                        n="['visible', 'for', 'more', 'than', 'half', 'the', 'year;']">
                   <rdg wit="#fThomas">
                      <ptr target="https://raw.githubusercontent.com/PghFrankenstein/fv-data/master/edition-chunks/P5-fThomas_C02.xml#C02c_app1-fThomas"/>
                   </rdg>
                </rdgGrp>
-               <rdgGrp xml:id="C02c_app1_rg3" n="['visible;']">
+               <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
+                       xml:id="C02c_app1_rg3"
+                       n="['visible;']">
                   <rdg wit="#f1818">
                      <ptr target="https://raw.githubusercontent.com/PghFrankenstein/fv-data/master/edition-chunks/P5-f1818_C02.xml#C02c_app1-f1818"/>
                   </rdg>
@@ -136,8 +161,10 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xmlns:cx="http://interedition.eu/collatex/ns/1.0" xml:id="C02c_app3">
-               <rdgGrp xml:id="C02c_app3_rg1" n="['phenomena']">
+            <app xml:id="C02c_app3" n="1">
+               <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
+                       xml:id="C02c_app3_rg1"
+                       n="['phenomena']">
                   <rdg wit="#f1823">
                      <ptr target="https://raw.githubusercontent.com/PghFrankenstein/fv-data/master/edition-chunks/P5-f1823_C02.xml#C02c_app3-f1823"/>
                   </rdg>
@@ -145,7 +172,9 @@
                      <ptr target="https://raw.githubusercontent.com/PghFrankenstein/fv-data/master/edition-chunks/P5-f1831_C02.xml#C02c_app3-f1831"/>
                   </rdg>
                </rdgGrp>
-               <rdgGrp xml:id="C02c_app3_rg2" n="['phænomena']">
+               <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
+                       xml:id="C02c_app3_rg2"
+                       n="['phænomena']">
                   <rdg wit="#f1818">
                      <ptr target="https://raw.githubusercontent.com/PghFrankenstein/fv-data/master/edition-chunks/P5-f1818_C02.xml#C02c_app3-f1818"/>
                   </rdg>
@@ -154,14 +183,17 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xmlns:cx="http://interedition.eu/collatex/ns/1.0" xml:id="C02c_app5">
-               <rdgGrp xml:id="C02c_app5_rg1"
+            <app xml:id="C02c_app5" n="190">
+               <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
+                       xml:id="C02c_app5_rg1"
                        n="['&lt;del&gt;of', 'eternal', 'light?&lt;del&gt;', '&lt;add&gt;ruled', 'by', 'different', 'laws', 'and', 'in', 'which', 'numerous', 'circumstances', 'enforce', 'a', 'belief', 'that', 'the', 'aspect', 'of', 'nature', 'differs', 'essentially', 'from', 'anything', 'of', 'which', 'we', 'have', 'any', 'experience.&lt;add&gt;']">
                   <rdg wit="#fThomas">
                      <ptr target="https://raw.githubusercontent.com/PghFrankenstein/fv-data/master/edition-chunks/P5-fThomas_C02.xml#C02c_app5-fThomas"/>
                   </rdg>
                </rdgGrp>
-               <rdgGrp xml:id="C02c_app5_rg2" n="['of', 'eternal', 'light?']">
+               <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
+                       xml:id="C02c_app5_rg2"
+                       n="['of', 'eternal', 'light?']">
                   <rdg wit="#f1818">
                      <ptr target="https://raw.githubusercontent.com/PghFrankenstein/fv-data/master/edition-chunks/P5-f1818_C02.xml#C02c_app5-f1818"/>
                   </rdg>
@@ -173,7 +205,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C02d_app1">
+            <app xml:id="C02d_app1" n="1230">
                <rdgGrp xml:id="C02d_app1_rg1" n="['']">
                   <rdg wit="#fMS"/>
                </rdgGrp>
@@ -197,7 +229,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C02d_app2">
+            <app xml:id="C02d_app2" n="1">
                <rdgGrp xml:id="C02d_app2_rg1" n="['tranquillise']">
                   <rdg wit="#f1831">
                      <ptr target="https://raw.githubusercontent.com/PghFrankenstein/fv-data/master/edition-chunks/P5-f1831_C02.xml#C02d_app2-f1831"/>
@@ -215,7 +247,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C02d_app4">
+            <app xml:id="C02d_app4" n="1">
                <rdgGrp xml:id="C02d_app4_rg1" n="['sea-faring']">
                   <rdg wit="#f1818">
                      <ptr target="https://raw.githubusercontent.com/PghFrankenstein/fv-data/master/edition-chunks/P5-f1818_C02.xml#C02d_app4-f1818"/>
@@ -233,7 +265,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C02d_app6">
+            <app xml:id="C02d_app6" n="1">
                <rdgGrp xml:id="C02d_app6_rg1" n="['shakespeare']">
                   <rdg wit="#f1818">
                      <ptr target="https://raw.githubusercontent.com/PghFrankenstein/fv-data/master/edition-chunks/P5-f1818_C02.xml#C02d_app6-f1818"/>
@@ -251,7 +283,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C02d_app8">
+            <app xml:id="C02d_app8" n="1">
                <rdgGrp xml:id="C02d_app8_rg1" n="['voyage,']">
                   <rdg wit="#f1831">
                      <ptr target="https://raw.githubusercontent.com/PghFrankenstein/fv-data/master/edition-chunks/P5-f1831_C02.xml#C02d_app8-f1831"/>
@@ -269,7 +301,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C02d_app10">
+            <app xml:id="C02d_app10" n="1">
                <rdgGrp xml:id="C02d_app10_rg1" n="['theirs']">
                   <rdg wit="#f1831">
                      <ptr target="https://raw.githubusercontent.com/PghFrankenstein/fv-data/master/edition-chunks/P5-f1831_C02.xml#C02d_app10-f1831"/>
@@ -287,7 +319,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C02d_app12">
+            <app xml:id="C02d_app12" n="3">
                <rdgGrp xml:id="C02d_app12_rg1" n="['wrapped']">
                   <rdg wit="#f1831">
                      <ptr target="https://raw.githubusercontent.com/PghFrankenstein/fv-data/master/edition-chunks/P5-f1831_C02.xml#C02d_app12-f1831"/>
@@ -305,7 +337,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C02d_app14">
+            <app xml:id="C02d_app14" n="1">
                <rdgGrp xml:id="C02d_app14_rg1" n="['furs,', 'a']">
                   <rdg wit="#f1818">
                      <ptr target="https://raw.githubusercontent.com/PghFrankenstein/fv-data/master/edition-chunks/P5-f1818_C02.xml#C02d_app14-f1818"/>
@@ -323,7 +355,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C02d_app16">
+            <app xml:id="C02d_app16" n="1">
                <rdgGrp xml:id="C02d_app16_rg1" n="['june:']">
                   <rdg wit="#f1818">
                      <ptr target="https://raw.githubusercontent.com/PghFrankenstein/fv-data/master/edition-chunks/P5-f1818_C02.xml#C02d_app16-f1818"/>
@@ -341,7 +373,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C02d_app18">
+            <app xml:id="C02d_app18" n="1">
                <rdgGrp xml:id="C02d_app18_rg1" n="['excellent']">
                   <rdg wit="#f1831">
                      <ptr target="https://raw.githubusercontent.com/PghFrankenstein/fv-data/master/edition-chunks/P5-f1831_C02.xml#C02d_app18-f1831"/>

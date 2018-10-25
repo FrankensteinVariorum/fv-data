@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-     xmlns="http://www.tei-c.org/ns/1.0"
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
      xmlns:mith="http://mith.umd.edu/sc/ns1#"
      xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse">
    <teiHeader>
@@ -24,7 +24,7 @@
    <text>
       <body>
          <ab type="alignmentChunk">
-            <app xml:id="C10_app2">
+            <app xml:id="C10_app2" n="23">
                <rdgGrp xml:id="C10_app2_rg1" n="['7&lt;shi rend=&#34;sup&#34;&gt;&lt;/shi&gt;&lt;p/&gt;']">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0045.xml#string-range(//tei:zone[@type='main']//tei:line[1],8,10)"/>
@@ -51,7 +51,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C10_app5">
+            <app xml:id="C10_app5" n="1">
                <rdgGrp xml:id="C10_app5_rg1" n="['november', '']">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0045.xml#string-range(//tei:zone[@type='main']//tei:line[2],29,38)"/>
@@ -72,7 +72,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C10_app7">
+            <app xml:id="C10_app7" n="48">
                <rdgGrp xml:id="C10_app7_rg1"
                        n="['&lt;del&gt;the', 'frame', 'on', 'whic&lt;del&gt;', 'my', 'man', 'completeed,.', '&lt;del&gt;and&lt;del&gt;']">
                   <rdg wit="#fMS">
@@ -94,7 +94,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C10_app9">
+            <app xml:id="C10_app9" n="1">
                <rdgGrp xml:id="C10_app9_rg1" n="['agony']">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0045.xml#string-range(//tei:zone[@type='main']//tei:line[5],6,12)"/>
@@ -115,7 +115,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C10_app14">
+            <app xml:id="C10_app14" n="26">
                <rdgGrp xml:id="C10_app14_rg1"
                        n="['me', '&lt;del&gt;and', 'endeavour', 'to&lt;del&gt;that']">
                   <rdg wit="#fMS">
@@ -137,7 +137,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C10_app16">
+            <app xml:id="C10_app16" n="1">
                <rdgGrp xml:id="C10_app16_rg1" n="['might', 'infuse']">
                   <rdg wit="#f1818">
                      <ptr target="https://raw.githubusercontent.com/PghFrankenstein/fv-data/master/edition-chunks/P5-f1818_C10.xml#C10_app16-f1818"/>
@@ -158,7 +158,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C10_app20">
+            <app xml:id="C10_app20" n="1">
                <rdgGrp xml:id="C10_app20_rg1" n="['morning,']">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0045.xml#string-range(//tei:zone[@type='main']//tei:line[9],12,21)"/>
@@ -179,7 +179,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C10_app23">
+            <app xml:id="C10_app23" n="13">
                <rdgGrp xml:id="C10_app23_rg1" n="['window', 'panes,']">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0045.xml#string-range(//tei:zone[@type='main']//tei:line[10],22,36)"/>
@@ -200,7 +200,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C10_app25">
+            <app xml:id="C10_app25" n="1">
                <rdgGrp xml:id="C10_app25_rg1" n="['when', '']">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0045.xml#string-range(//tei:zone[@type='main']//tei:line[11],33,38)"/>
@@ -221,7 +221,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C10_app27">
+            <app xml:id="C10_app27" n="2">
                <rdgGrp xml:id="C10_app27_rg1" n="['half', 'extinguished', 'light']">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0045.xml#string-range(//tei:zone[@type='main']//tei:line[12],23,39)"/>
@@ -243,7 +243,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C10_app29">
+            <app xml:id="C10_app29" n="2">
                <rdgGrp xml:id="C10_app29_rg1" n="['open.—it']">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0045.xml#string-range(//tei:zone[@type='main']//tei:line[14],14,23)"/>
@@ -264,7 +264,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C10_app31">
+            <app xml:id="C10_app31" n="16">
                <rdgGrp xml:id="C10_app31_rg1" n="['limbs.&lt;p/&gt;&lt;del&gt;but', 'how&lt;del&gt;', 'how']">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0045.xml#string-range(//tei:zone[@type='main']//tei:line[16],5,12)"/>
@@ -290,7 +290,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C10_app33">
+            <app xml:id="C10_app33" n="2">
                <rdgGrp xml:id="C10_app33_rg1" n="['', 'emotion']">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0045.xml#string-range(//tei:zone[@type='main']//tei:line[18],0,9)"/>
@@ -311,7 +311,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C10_app35">
+            <app xml:id="C10_app35" n="1">
                <rdgGrp xml:id="C10_app35_rg1" n="['catastrophe,']">
                   <rdg wit="#f1818">
                      <ptr target="https://raw.githubusercontent.com/PghFrankenstein/fv-data/master/edition-chunks/P5-f1818_C10.xml#C10_app35-f1818"/>
@@ -332,7 +332,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C10_app39">
+            <app xml:id="C10_app39" n="1">
                <rdgGrp xml:id="C10_app39_rg1" n="['form.']">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0045.xml#string-range(//tei:zone[@type='main']//tei:line[21],4,10)"/>
@@ -353,7 +353,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C10_app41">
+            <app xml:id="C10_app41" n="1">
                <rdgGrp xml:id="C10_app41_rg1" n="['proportion', '']">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0045.xml#string-range(//tei:zone[@type='main']//tei:line[21],28,39)"/>
@@ -374,7 +374,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C10_app43">
+            <app xml:id="C10_app43" n="12">
                <rdgGrp xml:id="C10_app43_rg1" n="['&lt;del&gt;h&lt;del&gt;', 'as']">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0045.xml#string-range(//tei:zone[@type='main']//tei:line[22],33,38)"/>
@@ -395,7 +395,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C10_app44">
+            <app xml:id="C10_app44" n="56">
                <rdgGrp xml:id="C10_app44_rg1"
                        n="['&lt;del&gt;handsome&lt;del&gt;&lt;del&gt;handsome&lt;del&gt;beautiful.&lt;del&gt;handsome&lt;del&gt;beautiful;', 'great']">
                   <rdg wit="#fMS">
@@ -418,7 +418,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C10_app46">
+            <app xml:id="C10_app46" n="13">
                <rdgGrp xml:id="C10_app46_rg1" n="['&lt;del&gt;dun&lt;del&gt;yellow']">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0045.xml#string-range(//tei:zone[@type='main']//tei:line[24],0,4)"/>
@@ -440,7 +440,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C10_app51">
+            <app xml:id="C10_app51" n="1">
                <rdgGrp xml:id="C10_app51_rg1" n="['black']">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0045.xml#string-range(//tei:zone[@type='left_margin']//tei:line[1],14,20)"/>
@@ -461,7 +461,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C10_app53">
+            <app xml:id="C10_app53" n="4">
                <rdgGrp xml:id="C10_app53_rg1" n="['flowing', 'and']">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0045.xml#string-range(//tei:zone[@type='left_margin']//tei:line[1],22,34)"/>
@@ -482,7 +482,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C10_app55">
+            <app xml:id="C10_app55" n="1">
                <rdgGrp xml:id="C10_app55_rg1" n="['whiteness']">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0045.xml#string-range(//tei:zone[@type='left_margin']//tei:line[1],56,62)"/>
@@ -504,7 +504,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C10_app57">
+            <app xml:id="C10_app57" n="1">
                <rdgGrp xml:id="C10_app57_rg1" n="['luxuriances']">
                   <rdg wit="#f1818">
                      <ptr target="https://raw.githubusercontent.com/PghFrankenstein/fv-data/master/edition-chunks/P5-f1818_C10.xml#C10_app57-f1818"/>
@@ -525,7 +525,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C10_app59">
+            <app xml:id="C10_app59" n="16">
                <rdgGrp xml:id="C10_app59_rg1"
                        n="['&lt;del&gt;fomed&lt;del&gt;', 'formed', 'a', 'more', 'horrid', 'contrast', 'with']">
                   <rdg wit="#fMS">
@@ -549,7 +549,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C10_app61">
+            <app xml:id="C10_app61" n="2">
                <rdgGrp xml:id="C10_app61_rg1" n="['watery', 'eyes,']">
                   <rdg wit="#f1818">
                      <ptr target="https://raw.githubusercontent.com/PghFrankenstein/fv-data/master/edition-chunks/P5-f1818_C10.xml#C10_app61-f1818"/>
@@ -570,7 +570,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C10_app65">
+            <app xml:id="C10_app65" n="1">
                <rdgGrp xml:id="C10_app65_rg1" n="['complexion']">
                   <rdg wit="#f1831">
                      <ptr target="https://raw.githubusercontent.com/PghFrankenstein/fv-data/master/edition-chunks/P5-f1831_C10.xml#C10_app65-f1831"/>
@@ -591,7 +591,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C10_app66">
+            <app xml:id="C10_app66" n="10">
                <rdgGrp xml:id="C10_app66_rg1" n="['&lt;del&gt;and&lt;del&gt;']">
                   <rdg wit="#fThomas">
                      <ptr target="https://raw.githubusercontent.com/PghFrankenstein/fv-data/master/edition-chunks/P5-fThomas_C10.xml#C10_app66-fThomas"/>
@@ -612,7 +612,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C10_app67">
+            <app xml:id="C10_app67" n="3">
                <rdgGrp xml:id="C10_app67_rg1" n="['straight']">
                   <rdg wit="#f1818">
                      <ptr target="https://raw.githubusercontent.com/PghFrankenstein/fv-data/master/edition-chunks/P5-f1818_C10.xml#C10_app67-f1818"/>
@@ -633,7 +633,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C10_app69">
+            <app xml:id="C10_app69" n="96">
                <rdgGrp xml:id="C10_app69_rg1"
                        n="['lips.', 'and', 'the', 'contortions', 'that', 'ever', 'and', 'anon', 'con&lt;del&gt;puls&lt;del&gt;vulsed', 'and', 'deformed', 'his', 'un-human', 'features.&lt;p/&gt;']">
                   <rdg wit="#fThomas">
@@ -659,7 +659,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C10_app73">
+            <app xml:id="C10_app73" n="1">
                <rdgGrp xml:id="C10_app73_rg1" n="['years']">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0046.xml#string-range(//tei:zone[@type='main']//tei:line[6],12,18)"/>
@@ -680,7 +680,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C10_app76">
+            <app xml:id="C10_app76" n="12">
                <rdgGrp xml:id="C10_app76_rg1"
                        n="['&lt;del&gt;f&lt;del&gt;', 'life', 'into', 'an', 'inanimate']">
                   <rdg wit="#fMS">
@@ -702,7 +702,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C10_app79">
+            <app xml:id="C10_app79" n="16">
                <rdgGrp xml:id="C10_app79_rg1"
                        n="['&lt;del&gt;heath&lt;del&gt;', 'health.', 'i', 'had', 'desired']">
                   <rdg wit="#fMS">
@@ -724,7 +724,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C10_app81">
+            <app xml:id="C10_app81" n="22.25">
                <rdgGrp xml:id="C10_app81_rg1"
                        n="['finished,', 'the', 'beauty', 'of', 'the', 'dream', 'vanished,']">
                   <rdg wit="#f1818">
@@ -747,7 +747,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C10_app85">
+            <app xml:id="C10_app85" n="18">
                <rdgGrp xml:id="C10_app85_rg1" n="['&lt;del&gt;creature&lt;del&gt;being']">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0046.xml#string-range(//tei:zone[@type='main']//tei:line[14],37,51)"/>
@@ -768,7 +768,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C10_app88">
+            <app xml:id="C10_app88" n="1">
                <rdgGrp xml:id="C10_app88_rg1" n="['room']">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0046.xml#string-range(//tei:zone[@type='main']//tei:line[15],34,39)"/>
@@ -789,7 +789,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C10_app90">
+            <app xml:id="C10_app90" n="18">
                <rdgGrp xml:id="C10_app90_rg1" n="['&lt;del&gt;remained&lt;del&gt;continued']">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0046.xml#string-range(//tei:zone[@type='main']//tei:line[16],0,18)"/>
@@ -810,7 +810,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C10_app92">
+            <app xml:id="C10_app92" n="3">
                <rdgGrp xml:id="C10_app92_rg1" n="['', 'bed', 'chamber']">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0046.xml#string-range(//tei:zone[@type='main']//tei:line[17],0,13)"/>
@@ -833,7 +833,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C10_app95">
+            <app xml:id="C10_app95" n="14.25">
                <rdgGrp xml:id="C10_app95_rg1" n="['lenght', '&lt;mdel&gt;&lt;/mdel&gt;lassitude', '']">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0046.xml#string-range(//tei:zone[@type='main']//tei:line[18],19,36)"/>
@@ -854,7 +854,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C10_app97">
+            <app xml:id="C10_app97" n="2">
                <rdgGrp xml:id="C10_app97_rg1" n="['', 'endured,']">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0046.xml#string-range(//tei:zone[@type='main']//tei:line[20],0,10)"/>
@@ -875,7 +875,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C10_app99">
+            <app xml:id="C10_app99" n="3">
                <rdgGrp xml:id="C10_app99_rg1" n="['my', '']">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0046.xml#string-range(//tei:zone[@type='main']//tei:line[20],32,35)"/>
@@ -896,7 +896,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C10_app101">
+            <app xml:id="C10_app101" n="1">
                <rdgGrp xml:id="C10_app101_rg1" n="['clothes']">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0046.xml#string-range(//tei:zone[@type='main']//tei:line[21],11,19)"/>
@@ -917,7 +917,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C10_app104">
+            <app xml:id="C10_app104" n="15">
                <rdgGrp xml:id="C10_app104_rg1" n="['&lt;del&gt;feew&lt;del&gt;', 'few', 'moments', 'of']">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0046.xml#string-range(//tei:zone[@type='main']//tei:line[22],3,23)"/>
@@ -938,7 +938,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C10_app105">
+            <app xml:id="C10_app105" n="2">
                <rdgGrp xml:id="C10_app105_rg1" n="['forgetfullness.', '']">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0046.xml#string-range(//tei:zone[@type='main']//tei:line[22],23,39)"/>
@@ -959,7 +959,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C10_app107">
+            <app xml:id="C10_app107" n="1">
                <rdgGrp xml:id="C10_app107_rg1" n="['vain:']">
                   <rdg wit="#f1818">
                      <ptr target="https://raw.githubusercontent.com/PghFrankenstein/fv-data/master/edition-chunks/P5-f1818_C10.xml#C10_app107-f1818"/>
@@ -980,7 +980,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C10_app109">
+            <app xml:id="C10_app109" n="1">
                <rdgGrp xml:id="C10_app109_rg1" n="['slept']">
                   <rdg wit="#f1818">
                      <ptr target="https://raw.githubusercontent.com/PghFrankenstein/fv-data/master/edition-chunks/P5-f1818_C10.xml#C10_app109-f1818"/>
@@ -1001,7 +1001,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C10_app110">
+            <app xml:id="C10_app110" n="1">
                <rdgGrp xml:id="C10_app110_rg1" n="['indeed']">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0046.xml#string-range(//tei:zone[@type='main']//tei:line[23],29,36)"/>
@@ -1022,7 +1022,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C10_app112">
+            <app xml:id="C10_app112" n="10">
                <rdgGrp xml:id="C10_app112_rg1" n="['dreams.', 'i', 'thought']">
                   <rdg wit="#f1818">
                      <ptr target="https://raw.githubusercontent.com/PghFrankenstein/fv-data/master/edition-chunks/P5-f1818_C10.xml#C10_app112-f1818"/>
@@ -1043,7 +1043,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C10_app114">
+            <app xml:id="C10_app114" n="1">
                <rdgGrp xml:id="C10_app114_rg1" n="['elizabeth']">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0046.xml#string-range(//tei:zone[@type='main']//tei:line[25],7,17)"/>
@@ -1064,7 +1064,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C10_app116">
+            <app xml:id="C10_app116" n="1">
                <rdgGrp xml:id="C10_app116_rg1" n="['health']">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0046.xml#string-range(//tei:zone[@type='main']//tei:line[25],34,41)"/>
@@ -1085,7 +1085,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C10_app118">
+            <app xml:id="C10_app118" n="2">
                <rdgGrp xml:id="C10_app118_rg1" n="['', 'ingolstadt;']">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0046.xml#string-range(//tei:zone[@type='main']//tei:line[26],0,13)"/>
@@ -1106,7 +1106,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C10_app120">
+            <app xml:id="C10_app120" n="1">
                <rdgGrp xml:id="C10_app120_rg1" n="['surprised']">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0046.xml#string-range(//tei:zone[@type='main']//tei:line[26],25,35)"/>
@@ -1127,7 +1127,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C10_app122">
+            <app xml:id="C10_app122" n="2">
                <rdgGrp xml:id="C10_app122_rg1" n="['', 'her']">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0046.xml#string-range(//tei:zone[@type='main']//tei:line[27],0,5)"/>
@@ -1148,7 +1148,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C10_app125">
+            <app xml:id="C10_app125" n="1">
                <rdgGrp xml:id="C10_app125_rg1" n="['lips']">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0046.xml#string-range(//tei:zone[@type='main']//tei:line[28],8,13)"/>
@@ -1169,7 +1169,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C10_app127">
+            <app xml:id="C10_app127" n="2">
                <rdgGrp xml:id="C10_app127_rg1" n="['livid']">
                   <rdg wit="#f1818">
                      <ptr target="https://raw.githubusercontent.com/PghFrankenstein/fv-data/master/edition-chunks/P5-f1818_C10.xml#C10_app127-f1818"/>
@@ -1190,7 +1190,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C10_app130">
+            <app xml:id="C10_app130" n="1">
                <rdgGrp xml:id="C10_app130_rg1" n="['change']">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0047.xml#string-range(//tei:zone[@type='main']//tei:line[1],4,11)"/>
@@ -1211,7 +1211,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C10_app133">
+            <app xml:id="C10_app133" n="2">
                <rdgGrp xml:id="C10_app133_rg1" n="['arms:a']">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0047.xml#string-range(//tei:zone[@type='main']//tei:line[2],36,43)"/>
@@ -1233,7 +1233,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C10_app135">
+            <app xml:id="C10_app135" n="2.25">
                <rdgGrp xml:id="C10_app135_rg1" n="['enveloped']">
                   <rdg wit="#f1818">
                      <ptr target="https://raw.githubusercontent.com/PghFrankenstein/fv-data/master/edition-chunks/P5-f1818_C10.xml#C10_app135-f1818"/>
@@ -1254,7 +1254,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C10_app137">
+            <app xml:id="C10_app137" n="1">
                <rdgGrp xml:id="C10_app137_rg1" n="['form']">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0047.xml#string-range(//tei:zone[@type='main']//tei:line[3],25,30)"/>
@@ -1275,7 +1275,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C10_app140">
+            <app xml:id="C10_app140" n="1">
                <rdgGrp xml:id="C10_app140_rg1" n="['grave', 'worms']">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0047.xml#string-range(//tei:zone[@type='main']//tei:line[4],5,17)"/>
@@ -1296,7 +1296,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C10_app143">
+            <app xml:id="C10_app143" n="1">
                <rdgGrp xml:id="C10_app143_rg1" n="['flannel.']">
                   <rdg wit="#f1818">
                      <ptr target="https://raw.githubusercontent.com/PghFrankenstein/fv-data/master/edition-chunks/P5-f1818_C10.xml#C10_app143-f1818"/>
@@ -1317,7 +1317,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C10_app145">
+            <app xml:id="C10_app145" n="1">
                <rdgGrp xml:id="C10_app145_rg1" n="['horror,']">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0047.xml#string-range(//tei:zone[@type='main']//tei:line[5],44,52)"/>
@@ -1338,7 +1338,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C10_app147">
+            <app xml:id="C10_app147" n="21">
                <rdgGrp xml:id="C10_app147_rg1"
                        n="['&lt;del&gt;when', 'i', 'saw&lt;del&gt;', 'cold', 'dew', 'covered', 'my']">
                   <rdg wit="#fMS">
@@ -1360,7 +1360,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C10_app148">
+            <app xml:id="C10_app148" n="1">
                <rdgGrp xml:id="C10_app148_rg1" n="['forehead', '']">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0047.xml#string-range(//tei:zone[@type='main']//tei:line[6],31,40)"/>
@@ -1381,7 +1381,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C10_app150">
+            <app xml:id="C10_app150" n="14">
                <rdgGrp xml:id="C10_app150_rg1" n="['&lt;del&gt;ah&lt;del&gt;', 'chattered']">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0047.xml#string-range(//tei:zone[@type='main']//tei:line[7],10,23)"/>
@@ -1402,7 +1402,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C10_app152">
+            <app xml:id="C10_app152" n="37">
                <rdgGrp xml:id="C10_app152_rg1"
                        n="['&lt;del&gt;was&lt;del&gt;became', 'convul&lt;mdel&gt;&lt;/mdel&gt;sed,']">
                   <rdg wit="#fMS">
@@ -1424,7 +1424,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C10_app153">
+            <app xml:id="C10_app153" n="1">
                <rdgGrp xml:id="C10_app153_rg1" n="['convulsed:']">
                   <rdg wit="#f1831">
                      <ptr target="https://raw.githubusercontent.com/PghFrankenstein/fv-data/master/edition-chunks/P5-f1831_C10.xml#C10_app153-f1831"/>
@@ -1442,7 +1442,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C10_app156">
+            <app xml:id="C10_app156" n="1">
                <rdgGrp xml:id="C10_app156_rg1" n="['moon']">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0047.xml#string-range(//tei:zone[@type='main']//tei:line[9],21,26)"/>
@@ -1463,7 +1463,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C10_app159">
+            <app xml:id="C10_app159" n="1">
                <rdgGrp xml:id="C10_app159_rg1" n="['window', 'shutters,']">
                   <rdg wit="#f1823">
                      <ptr target="https://raw.githubusercontent.com/PghFrankenstein/fv-data/master/edition-chunks/P5-f1823_C10.xml#C10_app159-f1823"/>
@@ -1484,7 +1484,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C10_app165">
+            <app xml:id="C10_app165" n="1">
                <rdgGrp xml:id="C10_app165_rg1" n="['created.']">
                   <rdg wit="#f1818">
                      <ptr target="https://raw.githubusercontent.com/PghFrankenstein/fv-data/master/edition-chunks/P5-f1818_C10.xml#C10_app165-f1818"/>
@@ -1505,7 +1505,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C10_app167">
+            <app xml:id="C10_app167" n="13">
                <rdgGrp xml:id="C10_app167_rg1" n="['hel&lt;mdel&gt;&lt;/mdel&gt;d']">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0047.xml#string-range(//tei:zone[@type='main']//tei:line[12],32,37)"/>
@@ -1526,7 +1526,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C10_app171">
+            <app xml:id="C10_app171" n="8">
                <rdgGrp xml:id="C10_app171_rg1" n="['bed;']">
                   <rdg wit="#f1818">
                      <ptr target="https://raw.githubusercontent.com/PghFrankenstein/fv-data/master/edition-chunks/P5-f1818_C10.xml#C10_app171-f1818"/>
@@ -1547,7 +1547,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C10_app173">
+            <app xml:id="C10_app173" n="2">
                <rdgGrp xml:id="C10_app173_rg1" n="['eyes,']">
                   <rdg wit="#f1818">
                      <ptr target="https://raw.githubusercontent.com/PghFrankenstein/fv-data/master/edition-chunks/P5-f1818_C10.xml#C10_app173-f1818"/>
@@ -1568,7 +1568,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C10_app176">
+            <app xml:id="C10_app176" n="1">
                <rdgGrp xml:id="C10_app176_rg1" n="['called,']">
                   <rdg wit="#f1818">
                      <ptr target="https://raw.githubusercontent.com/PghFrankenstein/fv-data/master/edition-chunks/P5-f1818_C10.xml#C10_app176-f1818"/>
@@ -1589,7 +1589,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C10_app178">
+            <app xml:id="C10_app178" n="3">
                <rdgGrp xml:id="C10_app178_rg1" n="['me.', 'his']">
                   <rdg wit="#f1818">
                      <ptr target="https://raw.githubusercontent.com/PghFrankenstein/fv-data/master/edition-chunks/P5-f1818_C10.xml#C10_app178-f1818"/>
@@ -1610,7 +1610,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C10_app180">
+            <app xml:id="C10_app180" n="1">
                <rdgGrp xml:id="C10_app180_rg1" n="['opened']">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0047.xml#string-range(//tei:zone[@type='main']//tei:line[15],6,13)"/>
@@ -1631,7 +1631,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C10_app182">
+            <app xml:id="C10_app182" n="13">
                <rdgGrp xml:id="C10_app182_rg1" n="['&lt;del&gt;in&lt;del&gt;', 'some']">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0047.xml#string-range(//tei:zone[@type='main']//tei:line[15],29,37)"/>
@@ -1652,7 +1652,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C10_app183">
+            <app xml:id="C10_app183" n="16">
                <rdgGrp xml:id="C10_app183_rg1" n="['&lt;del&gt;words&lt;del&gt;', 'inarticulate']">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0047.xml#string-range(//tei:zone[@type='main']//tei:line[15],37,43)"/>
@@ -1674,7 +1674,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C10_app184">
+            <app xml:id="C10_app184" n="2">
                <rdgGrp xml:id="C10_app184_rg1" n="['', 'sounds']">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0047.xml#string-range(//tei:zone[@type='left_margin']//tei:line[2],0,8)"/>
@@ -1695,7 +1695,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C10_app187">
+            <app xml:id="C10_app187" n="1">
                <rdgGrp xml:id="C10_app187_rg1" n="['spoken']">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0047.xml#string-range(//tei:zone[@type='main']//tei:line[17],12,19)"/>
@@ -1716,7 +1716,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C10_app189">
+            <app xml:id="C10_app189" n="3">
                <rdgGrp xml:id="C10_app189_rg1" n="['', 'hear', '—']">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0047.xml#string-range(//tei:zone[@type='main']//tei:line[18],0,8)"/>
@@ -1737,7 +1737,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C10_app191">
+            <app xml:id="C10_app191" n="14">
                <rdgGrp xml:id="C10_app191_rg1"
                        n="['&lt;del&gt;had&lt;del&gt;', 'hand', 'was', 'stretched']">
                   <rdg wit="#fMS">
@@ -1759,7 +1759,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C10_app192">
+            <app xml:id="C10_app192" n="10">
                <rdgGrp xml:id="C10_app192_rg1" n="['out', '']">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0047.xml#string-range(//tei:zone[@type='main']//tei:line[18],35,39)"/>
@@ -1780,7 +1780,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C10_app194">
+            <app xml:id="C10_app194" n="1">
                <rdgGrp xml:id="C10_app194_rg1" n="['me']">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0047.xml#string-range(//tei:zone[@type='main']//tei:line[19],11,14)"/>
@@ -1801,7 +1801,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C10_app196">
+            <app xml:id="C10_app196" n="1">
                <rdgGrp xml:id="C10_app196_rg1" n="['escaped']">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0047.xml#string-range(//tei:zone[@type='main']//tei:line[19],20,28)"/>
@@ -1822,7 +1822,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C10_app198">
+            <app xml:id="C10_app198" n="14">
                <rdgGrp xml:id="C10_app198_rg1" n="['&lt;del&gt;ran&lt;del&gt;', 'rushed', 'down']">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0047.xml#string-range(//tei:zone[@type='main']//tei:line[19],32,36)"/>
@@ -1844,7 +1844,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C10_app199">
+            <app xml:id="C10_app199" n="28">
                <rdgGrp xml:id="C10_app199_rg1" n="['&lt;del&gt;the&lt;del&gt;', 'stairs&lt;del&gt;case&lt;del&gt;']">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0047.xml#string-range(//tei:zone[@type='main']//tei:line[20],13,28)"/>
@@ -1865,7 +1865,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C10_app201">
+            <app xml:id="C10_app201" n="3">
                <rdgGrp xml:id="C10_app201_rg1" n="['', 'a']">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0047.xml#string-range(//tei:zone[@type='main']//tei:line[21],0,3)"/>
@@ -1886,7 +1886,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C10_app204">
+            <app xml:id="C10_app204" n="1">
                <rdgGrp xml:id="C10_app204_rg1" n="['night']">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0047.xml#string-range(//tei:zone[@type='left_margin']//tei:line[1],23,29)"/>
@@ -1907,7 +1907,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C10_app207">
+            <app xml:id="C10_app207" n="1">
                <rdgGrp xml:id="C10_app207_rg1" n="['agitation,']">
                   <rdg wit="#f1818">
                      <ptr target="https://raw.githubusercontent.com/PghFrankenstein/fv-data/master/edition-chunks/P5-f1818_C10.xml#C10_app207-f1818"/>
@@ -1928,7 +1928,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C10_app210">
+            <app xml:id="C10_app210" n="7">
                <rdgGrp xml:id="C10_app210_rg1" n="['', 'arrival']">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0047.xml#string-range(//tei:zone[@type='main']//tei:line[27],0,9)"/>
@@ -1949,7 +1949,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C10_app213">
+            <app xml:id="C10_app213" n="4">
                <rdgGrp xml:id="C10_app213_rg1" n="['life.&lt;p/&gt;', 'oh!']">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0047.xml#string-range(//tei:zone[@type='main']//tei:line[28],33,39)"/>
@@ -1975,7 +1975,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C10_app217">
+            <app xml:id="C10_app217" n="14">
                <rdgGrp xml:id="C10_app217_rg1" n="['&lt;del&gt;life&lt;del&gt;animation']">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0047.xml#string-range(//tei:zone[@type='main']//tei:line[31],26,40)"/>
@@ -1996,7 +1996,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C10_app219">
+            <app xml:id="C10_app219" n="11">
                <rdgGrp xml:id="C10_app219_rg1" n="['.']">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0048.xml#string-range(//tei:zone[@type='main']//tei:line[1],15,19)"/>
@@ -2017,7 +2017,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C10_app222">
+            <app xml:id="C10_app222" n="25">
                <rdgGrp xml:id="C10_app222_rg1"
                        n="['&lt;del&gt;and', 'i', 'thought&lt;del&gt;', 'he', 'was', 'ugly', 'then.']">
                   <rdg wit="#fMS">
@@ -2040,7 +2040,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C10_app225">
+            <app xml:id="C10_app225" n="14">
                <rdgGrp xml:id="C10_app225_rg1" n="['endued', 'with', 'motion', '']">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0048.xml#string-range(//tei:zone[@type='main']//tei:line[4],17,36)"/>
@@ -2061,7 +2061,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C10_app227">
+            <app xml:id="C10_app227" n="13">
                <rdgGrp xml:id="C10_app227_rg1"
                        n="['&lt;del&gt;to&lt;del&gt;', 'such', 'as', 'even', 'dante']">
                   <rdg wit="#fMS">
@@ -2083,7 +2083,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C10_app229">
+            <app xml:id="C10_app229" n="4">
                <rdgGrp xml:id="C10_app229_rg1" n="['never']">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0048.xml#string-range(//tei:zone[@type='main']//tei:line[6],7,13)"/>
@@ -2104,7 +2104,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C10_app231">
+            <app xml:id="C10_app231" n="4">
                <rdgGrp xml:id="C10_app231_rg1" n="['conceived.&lt;p/&gt;', 'i']">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0048.xml#string-range(//tei:zone[@type='main']//tei:line[6],18,29)"/>
@@ -2130,7 +2130,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C10_app233">
+            <app xml:id="C10_app233" n="2">
                <rdgGrp xml:id="C10_app233_rg1" n="['wretchedly.']">
                   <rdg wit="#f1818">
                      <ptr target="https://raw.githubusercontent.com/PghFrankenstein/fv-data/master/edition-chunks/P5-f1818_C10.xml#C10_app233-f1818"/>
@@ -2151,7 +2151,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C10_app235">
+            <app xml:id="C10_app235" n="1">
                <rdgGrp xml:id="C10_app235_rg1" n="['pulse']">
                   <rdg wit="#f1818">
                      <ptr target="https://raw.githubusercontent.com/PghFrankenstein/fv-data/master/edition-chunks/P5-f1818_C10.xml#C10_app235-f1818"/>
@@ -2172,7 +2172,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C10_app237">
+            <app xml:id="C10_app237" n="2">
                <rdgGrp xml:id="C10_app237_rg1" n="['', 'hardly']">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0048.xml#string-range(//tei:zone[@type='main']//tei:line[9],0,9)"/>
@@ -2193,7 +2193,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C10_app240">
+            <app xml:id="C10_app240" n="1">
                <rdgGrp xml:id="C10_app240_rg1" n="['artery:']">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0048.xml#string-range(//tei:zone[@type='main']//tei:line[10],7,15)"/>
@@ -2214,7 +2214,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C10_app242">
+            <app xml:id="C10_app242" n="1">
                <rdgGrp xml:id="C10_app242_rg1" n="['others']">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0048.xml#string-range(//tei:zone[@type='main']//tei:line[10],18,25)"/>
@@ -2235,7 +2235,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C10_app244">
+            <app xml:id="C10_app244" n="2">
                <rdgGrp xml:id="C10_app244_rg1" n="['sank']">
                   <rdg wit="#f1818">
                      <ptr target="https://raw.githubusercontent.com/PghFrankenstein/fv-data/master/edition-chunks/P5-f1818_C10.xml#C10_app244-f1818"/>
@@ -2256,7 +2256,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C10_app246">
+            <app xml:id="C10_app246" n="15">
                <rdgGrp xml:id="C10_app246_rg1" n="['&lt;del&gt;with&lt;del&gt;thro']">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0048.xml#string-range(//tei:zone[@type='main']//tei:line[11],15,24)"/>
@@ -2277,7 +2277,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C10_app247">
+            <app xml:id="C10_app247" n="35">
                <rdgGrp xml:id="C10_app247_rg1" n="['languor', 'and', 'extreme', 'weakness.']">
                   <rdg wit="#f1818">
                      <ptr target="https://raw.githubusercontent.com/PghFrankenstein/fv-data/master/edition-chunks/P5-f1818_C10.xml#C10_app247-f1818"/>
@@ -2303,7 +2303,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C10_app250">
+            <app xml:id="C10_app250" n="1">
                <rdgGrp xml:id="C10_app250_rg1" n="['horror']">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0048.xml#string-range(//tei:zone[@type='left_margin']//tei:line[3],11,15)"/>
@@ -2325,7 +2325,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C10_app253">
+            <app xml:id="C10_app253" n="63">
                <rdgGrp xml:id="C10_app253_rg1"
                        n="['&lt;del&gt;disapp&lt;del&gt;', 'disappointment:&lt;del&gt;creature', 'as', 'i', 'never', 'before', 'existed.&lt;del&gt;']">
                   <rdg wit="#fMS">
@@ -2350,7 +2350,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C10_app255">
+            <app xml:id="C10_app255" n="8">
                <rdgGrp xml:id="C10_app255_rg1" n="['']">
                   <rdg wit="#fMS"/>
                </rdgGrp>
@@ -2369,7 +2369,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C10_app257">
+            <app xml:id="C10_app257" n="1">
                <rdgGrp xml:id="C10_app257_rg1" n="['space']">
                   <rdg wit="#f1831">
                      <ptr target="https://raw.githubusercontent.com/PghFrankenstein/fv-data/master/edition-chunks/P5-f1831_C10.xml#C10_app257-f1831"/>
@@ -2390,7 +2390,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C10_app260">
+            <app xml:id="C10_app260" n="13">
                <rdgGrp xml:id="C10_app260_rg1" n="['me;']">
                   <rdg wit="#f1818">
                      <ptr target="https://raw.githubusercontent.com/PghFrankenstein/fv-data/master/edition-chunks/P5-f1818_C10.xml#C10_app260-f1818"/>
@@ -2411,7 +2411,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C10_app264">
+            <app xml:id="C10_app264" n="7">
                <rdgGrp xml:id="C10_app264_rg1" n="['complete!&lt;p/&gt;&lt;p/&gt;morning,']">
                   <rdg wit="#f1818">
                      <ptr target="https://raw.githubusercontent.com/PghFrankenstein/fv-data/master/edition-chunks/P5-f1818_C10.xml#C10_app264-f1818__I"/>
@@ -2437,7 +2437,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C10_app266">
+            <app xml:id="C10_app266" n="2">
                <rdgGrp xml:id="C10_app266_rg1" n="['wet', '—']">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0048.xml#string-range(//tei:zone[@type='main']//tei:line[19],22,28)"/>
@@ -2458,7 +2458,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C10_app267">
+            <app xml:id="C10_app267" n="13">
                <rdgGrp xml:id="C10_app267_rg1" n="['at', 'length', 'dawned,', 'and']">
                   <rdg wit="#f1818">
                      <ptr target="https://raw.githubusercontent.com/PghFrankenstein/fv-data/master/edition-chunks/P5-f1818_C10.xml#C10_app267-f1818"/>
@@ -2481,7 +2481,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C10_app270">
+            <app xml:id="C10_app270" n="2">
                <rdgGrp xml:id="C10_app270_rg1" n="['ingolsstadt']">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0048.xml#string-range(//tei:zone[@type='main']//tei:line[21],31,38)"/>
@@ -2503,7 +2503,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C10_app272">
+            <app xml:id="C10_app272" n="18">
                <rdgGrp xml:id="C10_app272_rg1" n="['and', 'clock,']">
                   <rdg wit="#f1818">
                      <ptr target="https://raw.githubusercontent.com/PghFrankenstein/fv-data/master/edition-chunks/P5-f1818_C10.xml#C10_app272-f1818"/>
@@ -2524,7 +2524,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C10_app274">
+            <app xml:id="C10_app274" n="8">
                <rdgGrp xml:id="C10_app274_rg1" n="['', 'pointed', 'to']">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0048.xml#string-range(//tei:zone[@type='main']//tei:line[23],0,12)"/>
@@ -2545,7 +2545,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C10_app276">
+            <app xml:id="C10_app276" n="11">
                <rdgGrp xml:id="C10_app276_rg1" n="['sixth']">
                   <rdg wit="#f1818">
                      <ptr target="https://raw.githubusercontent.com/PghFrankenstein/fv-data/master/edition-chunks/P5-f1818_C10.xml#C10_app276-f1818"/>
@@ -2566,7 +2566,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C10_app279">
+            <app xml:id="C10_app279" n="1">
                <rdgGrp xml:id="C10_app279_rg1" n="['court']">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0048.xml#string-range(//tei:zone[@type='main']//tei:line[24],25,31)"/>
@@ -2587,7 +2587,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C10_app282">
+            <app xml:id="C10_app282" n="2">
                <rdgGrp xml:id="C10_app282_rg1" n="['assylum']">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0048.xml#string-range(//tei:zone[@type='main']//tei:line[25],20,28)"/>
@@ -2608,7 +2608,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C10_app286">
+            <app xml:id="C10_app286" n="1">
                <rdgGrp xml:id="C10_app286_rg1" n="['steps']">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0048.xml#string-range(//tei:zone[@type='main']//tei:line[27],7,13)"/>
@@ -2629,7 +2629,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C10_app288">
+            <app xml:id="C10_app288" n="15">
                <rdgGrp xml:id="C10_app288_rg1"
                        n="['&lt;del&gt;ough&lt;del&gt;', 'sought', 'to', 'avoid', 'the', 'wretch', 'whom', 'i', 'feared', 'every', 'turning']">
                   <rdg wit="#fMS">
@@ -2654,7 +2654,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C10_app289">
+            <app xml:id="C10_app289" n="2">
                <rdgGrp xml:id="C10_app289_rg1" n="['in']">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0048.xml#string-range(//tei:zone[@type='main']//tei:line[29],9,12)"/>
@@ -2675,7 +2675,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C10_app291">
+            <app xml:id="C10_app291" n="13">
                <rdgGrp xml:id="C10_app291_rg1" n="['&lt;del&gt;to&lt;del&gt;', 'return']">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0049.xml#string-range(//tei:zone[@type='main']//tei:line[1],25,35)"/>
@@ -2696,7 +2696,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C10_app293">
+            <app xml:id="C10_app293" n="1">
                <rdgGrp xml:id="C10_app293_rg1" n="['apartment']">
                   <rdg wit="#f1818">
                      <ptr target="https://raw.githubusercontent.com/PghFrankenstein/fv-data/master/edition-chunks/P5-f1818_C10.xml#C10_app293-f1818"/>
@@ -2717,7 +2717,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C10_app295">
+            <app xml:id="C10_app295" n="1">
                <rdgGrp xml:id="C10_app295_rg1" n="['inhabited']">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0049.xml#string-range(//tei:zone[@type='main']//tei:line[2],28,38)"/>
@@ -2738,7 +2738,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C10_app298">
+            <app xml:id="C10_app298" n="1">
                <rdgGrp xml:id="C10_app298_rg1" n="['on']">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0049.xml#string-range(//tei:zone[@type='main']//tei:line[3],24,27)"/>
@@ -2759,7 +2759,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C10_app300">
+            <app xml:id="C10_app300" n="5">
                <rdgGrp xml:id="C10_app300_rg1" n="['wetted']">
                   <rdg wit="#f1818">
                      <ptr target="https://raw.githubusercontent.com/PghFrankenstein/fv-data/master/edition-chunks/P5-f1818_C10.xml#C10_app300-f1818"/>
@@ -2780,7 +2780,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C10_app302">
+            <app xml:id="C10_app302" n="21">
                <rdgGrp xml:id="C10_app302_rg1" n="['&lt;del&gt;drizzling&lt;del&gt;', 'rain']">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0049.xml#string-range(//tei:zone[@type='main']//tei:line[4],15,30)"/>
@@ -2803,7 +2803,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C10_app308">
+            <app xml:id="C10_app308" n="2">
                <rdgGrp xml:id="C10_app308_rg1" n="['time', 'endeavouring']">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0049.xml#string-range(//tei:zone[@type='main']//tei:line[7],10,28)"/>
@@ -2824,7 +2824,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C10_app310">
+            <app xml:id="C10_app310" n="2">
                <rdgGrp xml:id="C10_app310_rg1" n="['', 'exercise']">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0049.xml#string-range(//tei:zone[@type='main']//tei:line[8],0,10)"/>
@@ -2845,7 +2845,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C10_app313">
+            <app xml:id="C10_app313" n="1">
                <rdgGrp xml:id="C10_app313_rg1" n="['streets', '']">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0049.xml#string-range(//tei:zone[@type='main']//tei:line[9],31,39)"/>
@@ -2866,7 +2866,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C10_app316">
+            <app xml:id="C10_app316" n="1">
                <rdgGrp xml:id="C10_app316_rg1" n="['was']">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0049.xml#string-range(//tei:zone[@type='main']//tei:line[11],3,7)"/>
@@ -2887,7 +2887,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C10_app318">
+            <app xml:id="C10_app318" n="1">
                <rdgGrp xml:id="C10_app318_rg1" n="['doing.']">
                   <rdg wit="#f1818">
                      <ptr target="https://raw.githubusercontent.com/PghFrankenstein/fv-data/master/edition-chunks/P5-f1818_C10.xml#C10_app318-f1818"/>
@@ -2908,7 +2908,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C10_app321">
+            <app xml:id="C10_app321" n="14">
                <rdgGrp xml:id="C10_app321_rg1" n="['&lt;del&gt;with&lt;del&gt;in']">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0049.xml#string-range(//tei:zone[@type='main']//tei:line[12],12,20)"/>
@@ -2929,7 +2929,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C10_app323">
+            <app xml:id="C10_app323" n="1">
                <rdgGrp xml:id="C10_app323_rg1" n="['fear']">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0049.xml#string-range(//tei:zone[@type='main']//tei:line[12],36,41)"/>
@@ -2950,7 +2950,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C10_app326">
+            <app xml:id="C10_app326" n="1">
                <rdgGrp xml:id="C10_app326_rg1" n="['steps']">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0049.xml#string-range(//tei:zone[@type='main']//tei:line[13],19,25)"/>
@@ -2971,7 +2971,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C10_app329">
+            <app xml:id="C10_app329" n="19">
                <rdgGrp xml:id="C10_app329_rg1" n="['me,', '&#34;like']">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0049.xml#string-range(//tei:zone[@type='main']//tei:line[14],15,19)"/>
@@ -2999,7 +2999,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C10_app331">
+            <app xml:id="C10_app331" n="1">
                <rdgGrp xml:id="C10_app331_rg1" n="['who']">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0049.xml#string-range(//tei:zone[@type='main']//tei:line[15],11,15)"/>
@@ -3020,7 +3020,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C10_app333">
+            <app xml:id="C10_app333" n="13">
                <rdgGrp xml:id="C10_app333_rg1" n="['lonely', 'road,&lt;l/&gt;&lt;l/&gt;doth']">
                   <rdg wit="#f1818">
                      <ptr target="https://raw.githubusercontent.com/PghFrankenstein/fv-data/master/edition-chunks/P5-f1818_C10.xml#C10_app333-f1818__I"/>
@@ -3046,7 +3046,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C10_app335">
+            <app xml:id="C10_app335" n="10">
                <rdgGrp xml:id="C10_app335_rg1" n="['dread', '&#34;and']">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0049.xml#string-range(//tei:zone[@type='main']//tei:line[16],24,30)"/>
@@ -3072,7 +3072,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C10_app337">
+            <app xml:id="C10_app337" n="1">
                <rdgGrp xml:id="C10_app337_rg1" n="['turned']">
                   <rdg wit="#f1823">
                      <ptr target="https://raw.githubusercontent.com/PghFrankenstein/fv-data/master/edition-chunks/P5-f1823_C10.xml#C10_app337-f1823"/>
@@ -3093,7 +3093,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C10_app338">
+            <app xml:id="C10_app338" n="1">
                <rdgGrp xml:id="C10_app338_rg1" n="['round']">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0049.xml#string-range(//tei:zone[@type='main']//tei:line[17],25,31)"/>
@@ -3114,7 +3114,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C10_app340">
+            <app xml:id="C10_app340" n="11.25">
                <rdgGrp xml:id="C10_app340_rg1" n="['on', '', '&#34;&lt;del&gt;wal&lt;del&gt;and']">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0049.xml#string-range(//tei:zone[@type='main']//tei:line[18],7,10)"/>
@@ -3140,7 +3140,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C10_app342">
+            <app xml:id="C10_app342" n="9">
                <rdgGrp xml:id="C10_app342_rg1" n="['head', '', '&#34;because']">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0049.xml#string-range(//tei:zone[@type='main']//tei:line[19],27,32)"/>
@@ -3166,7 +3166,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C10_app344">
+            <app xml:id="C10_app344" n="8">
                <rdgGrp xml:id="C10_app344_rg1" n="['fiend', '', '&#34;doth']">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0049.xml#string-range(//tei:zone[@type='main']//tei:line[21],0,7)"/>
@@ -3192,7 +3192,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C10_app346">
+            <app xml:id="C10_app346" n="139.5">
                <rdgGrp xml:id="C10_app346_rg1"
                        n="['tread*.&lt;l/&gt;&lt;lg/&gt;&lt;note sid=&#34;novel1_letter4_chapter4_div4_div4_p8_cit1_note1&#34;/&gt;*', '&lt;bibl sid=&#34;novel1_letter4_chapter4_div4_div4_p8_cit1_note1_bibl1&#34;/&gt;coleridge’s']">
                   <rdg wit="#f1818">
@@ -3222,7 +3222,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C10_app348">
+            <app xml:id="C10_app348" n="4">
                <rdgGrp xml:id="C10_app348_rg1"
                        n="['mariner.&#34;&lt;bibl eid=&#34;novel1_letter4_chapter4_div4_div4_p8_cit1_note1_bibl1&#34;/&gt;&lt;note eid=&#34;novel1_letter4_chapter4_div4_div4_p8_cit1_note1&#34;/&gt;&lt;p/&gt;&lt;p/&gt;continuing']">
                   <rdg wit="#f1818">
@@ -3246,7 +3246,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C10_app350">
+            <app xml:id="C10_app350" n="18.25">
                <rdgGrp xml:id="C10_app350_rg1" n="['lenght', '&lt;del&gt;opposite&lt;del&gt;opposite']">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0049.xml#string-range(//tei:zone[@type='main']//tei:line[23],29,36)"/>
@@ -3268,7 +3268,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C10_app355">
+            <app xml:id="C10_app355" n="1">
                <rdgGrp xml:id="C10_app355_rg1" n="['paused']">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0049.xml#string-range(//tei:zone[@type='main']//tei:line[26],3,10)"/>
@@ -3289,7 +3289,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C10_app357">
+            <app xml:id="C10_app357" n="1">
                <rdgGrp xml:id="C10_app357_rg1" n="['why']">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0049.xml#string-range(//tei:zone[@type='main']//tei:line[26],21,25)"/>
@@ -3310,7 +3310,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C10_app365">
+            <app xml:id="C10_app365" n="1">
                <rdgGrp xml:id="C10_app365_rg1" n="['nearer']">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0049.xml#string-range(//tei:zone[@type='main']//tei:line[30],14,21)"/>
@@ -3331,7 +3331,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C10_app368">
+            <app xml:id="C10_app368" n="1">
                <rdgGrp xml:id="C10_app368_rg1" n="['diligence:']">
                   <rdg wit="#f1818">
                      <ptr target="https://raw.githubusercontent.com/PghFrankenstein/fv-data/master/edition-chunks/P5-f1818_C10.xml#C10_app368-f1818"/>
@@ -3352,7 +3352,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C10_app371">
+            <app xml:id="C10_app371" n="32.25">
                <rdgGrp xml:id="C10_app371_rg1"
                        n="['standing,', 'and', &#34;oncoleridge's&#34;, '&#34;ancient', 'mariner.&#34;']">
                   <rdg wit="#fMS">
@@ -3374,7 +3374,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C10_app373">
+            <app xml:id="C10_app373" n="1">
                <rdgGrp xml:id="C10_app373_rg1" n="['door']">
                   <rdg wit="#f1818">
                      <ptr target="https://raw.githubusercontent.com/PghFrankenstein/fv-data/master/edition-chunks/P5-f1818_C10.xml#C10_app373-f1818"/>
@@ -3395,7 +3395,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C10_app375">
+            <app xml:id="C10_app375" n="1">
                <rdgGrp xml:id="C10_app375_rg1" n="['opened']">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0050.xml#string-range(//tei:zone[@type='main']//tei:line[1],17,24)"/>
@@ -3416,7 +3416,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C10_app378">
+            <app xml:id="C10_app378" n="1">
                <rdgGrp xml:id="C10_app378_rg1" n="['who']">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0050.xml#string-range(//tei:zone[@type='main']//tei:line[2],10,14)"/>
@@ -3437,7 +3437,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C10_app380">
+            <app xml:id="C10_app380" n="15">
                <rdgGrp xml:id="C10_app380_rg1" n="['&lt;del&gt;seee&lt;del&gt;', 'seeing']">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0050.xml#string-range(//tei:zone[@type='main']//tei:line[2],17,29)"/>
@@ -3458,7 +3458,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C10_app381">
+            <app xml:id="C10_app381" n="1">
                <rdgGrp xml:id="C10_app381_rg1" n="['me']">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0050.xml#string-range(//tei:zone[@type='main']//tei:line[2],29,32)"/>
@@ -3479,7 +3479,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C10_app384">
+            <app xml:id="C10_app384" n="4">
                <rdgGrp xml:id="C10_app384_rg1" n="['out.']">
                   <rdg wit="#f1818">
                      <ptr target="https://raw.githubusercontent.com/PghFrankenstein/fv-data/master/edition-chunks/P5-f1818_C10.xml#C10_app384-f1818"/>
@@ -3500,7 +3500,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C10_app386">
+            <app xml:id="C10_app386" n="0.25">
                <rdgGrp xml:id="C10_app386_rg1" n="['frankenstein,&#34;']">
                   <rdg wit="#f1818">
                      <ptr target="https://raw.githubusercontent.com/PghFrankenstein/fv-data/master/edition-chunks/P5-f1818_C10.xml#C10_app386-f1818"/>
@@ -3521,7 +3521,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C10_app388">
+            <app xml:id="C10_app388" n="1">
                <rdgGrp xml:id="C10_app388_rg1" n="['he', '']">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0050.xml#string-range(//tei:zone[@type='main']//tei:line[4],35,38)"/>
@@ -3542,7 +3542,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C10_app390">
+            <app xml:id="C10_app390" n="1">
                <rdgGrp xml:id="C10_app390_rg1" n="['you!']">
                   <rdg wit="#f1818">
                      <ptr target="https://raw.githubusercontent.com/PghFrankenstein/fv-data/master/edition-chunks/P5-f1818_C10.xml#C10_app390-f1818"/>
@@ -3563,7 +3563,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C10_app392">
+            <app xml:id="C10_app392" n="2">
                <rdgGrp xml:id="C10_app392_rg1" n="['', '&#34;fortunate']">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0050.xml#string-range(//tei:zone[@type='main']//tei:line[6],0,12)"/>
@@ -3584,7 +3584,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C10_app398">
+            <app xml:id="C10_app398" n="14">
                <rdgGrp xml:id="C10_app398_rg1" n="['&lt;del&gt;see&lt;del&gt;', 'seing', 'clerval:']">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0050.xml#string-range(//tei:zone[@type='main']//tei:line[9],4,23)"/>
@@ -3605,7 +3605,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C10_app401">
+            <app xml:id="C10_app401" n="1">
                <rdgGrp xml:id="C10_app401_rg1" n="['elizabeth']">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0050.xml#string-range(//tei:zone[@type='main']//tei:line[11],6,16)"/>
@@ -3626,7 +3626,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C10_app406">
+            <app xml:id="C10_app406" n="2">
                <rdgGrp xml:id="C10_app406_rg1" n="['misfortune.', '']">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0050.xml#string-range(//tei:zone[@type='main']//tei:line[14],22,34)"/>
@@ -3647,7 +3647,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C10_app408">
+            <app xml:id="C10_app408" n="1">
                <rdgGrp xml:id="C10_app408_rg1" n="['felt', 'suddenly,']">
                   <rdg wit="#f1818">
                      <ptr target="https://raw.githubusercontent.com/PghFrankenstein/fv-data/master/edition-chunks/P5-f1818_C10.xml#C10_app408-f1818"/>
@@ -3668,7 +3668,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C10_app410">
+            <app xml:id="C10_app410" n="17">
                <rdgGrp xml:id="C10_app410_rg1" n="['&lt;del&gt;for&lt;del&gt;duringfor', '']">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0050.xml#string-range(//tei:zone[@type='main']//tei:line[15],41,54)"/>
@@ -3689,7 +3689,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C10_app415">
+            <app xml:id="C10_app415" n="1">
                <rdgGrp xml:id="C10_app415_rg1" n="['manner']">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0050.xml#string-range(//tei:zone[@type='main']//tei:line[18],21,28)"/>
@@ -3710,7 +3710,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C10_app417">
+            <app xml:id="C10_app417" n="2">
                <rdgGrp xml:id="C10_app417_rg1" n="['colledge.', '']">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0050.xml#string-range(//tei:zone[@type='main']//tei:line[19],22,32)"/>
@@ -3731,7 +3731,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C10_app419">
+            <app xml:id="C10_app419" n="33">
                <rdgGrp xml:id="C10_app419_rg1"
                        n="['&lt;del&gt;ran', 'on&lt;del&gt;&lt;del&gt;talked&lt;del&gt;', 'continued']">
                   <rdg wit="#fMS">
@@ -3753,7 +3753,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C10_app421">
+            <app xml:id="C10_app421" n="1">
                <rdgGrp xml:id="C10_app421_rg1" n="['friends']">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0050.xml#string-range(//tei:zone[@type='main']//tei:line[22],1,9)"/>
@@ -3774,7 +3774,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C10_app423">
+            <app xml:id="C10_app423" n="1">
                <rdgGrp xml:id="C10_app423_rg1" n="['own', 'good']">
                   <rdg wit="#f1818">
                      <ptr target="https://raw.githubusercontent.com/PghFrankenstein/fv-data/master/edition-chunks/P5-f1818_C10.xml#C10_app423-f1818"/>
@@ -3795,7 +3795,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C10_app426">
+            <app xml:id="C10_app426" n="7">
                <rdgGrp xml:id="C10_app426_rg1" n="['allowed']">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0050.xml#string-range(//tei:zone[@type='main']//tei:line[23],7,15)"/>
@@ -3816,7 +3816,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C10_app428">
+            <app xml:id="C10_app428" n="4">
                <rdgGrp xml:id="C10_app428_rg1" n="['ingolstadt.']">
                   <rdg wit="#f1818">
                      <ptr target="https://raw.githubusercontent.com/PghFrankenstein/fv-data/master/edition-chunks/P5-f1818_C10.xml#C10_app428-f1818"/>
@@ -3837,7 +3837,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C10_app432">
+            <app xml:id="C10_app432" n="16">
                <rdgGrp xml:id="C10_app432_rg1" n="['&#34;how', 'great']">
                   <rdg wit="#f1818">
                      <ptr target="https://raw.githubusercontent.com/PghFrankenstein/fv-data/master/edition-chunks/P5-f1818_C10.xml#C10_app432-f1818"/>
@@ -3859,7 +3859,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C10_app434">
+            <app xml:id="C10_app434" n="41.5">
                <rdgGrp xml:id="C10_app434_rg1"
                        n="['not', 'with&lt;del&gt;out&lt;del&gt;', 'considerable', '', '&#34;trouble', 'that', 'i', 'persuaded']">
                   <rdg wit="#fMS">
@@ -3882,7 +3882,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C10_app436">
+            <app xml:id="C10_app436" n="2">
                <rdgGrp xml:id="C10_app436_rg1" n="['', '&#34;father']">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0050.xml#string-range(//tei:zone[@type='main']//tei:line[27],0,9)"/>
@@ -3903,7 +3903,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C10_app438">
+            <app xml:id="C10_app438" n="3">
                <rdgGrp xml:id="C10_app438_rg1" n="['all']">
                   <rdg wit="#f1831">
                      <ptr target="https://raw.githubusercontent.com/PghFrankenstein/fv-data/master/edition-chunks/P5-f1831_C10.xml#C10_app438-f1831"/>
@@ -3924,7 +3924,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C10_app439">
+            <app xml:id="C10_app439" n="2">
                <rdgGrp xml:id="C10_app439_rg1" n="['is']">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0050.xml#string-range(//tei:zone[@type='main']//tei:line[27],17,20)"/>
@@ -3942,7 +3942,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C10_app441">
+            <app xml:id="C10_app441" n="2">
                <rdgGrp xml:id="C10_app441_rg1" n="['', '&#34;necessary']">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0050.xml#string-range(//tei:zone[@type='main']//tei:line[28],0,12)"/>
@@ -3963,7 +3963,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C10_app442">
+            <app xml:id="C10_app442" n="12">
                <rdgGrp xml:id="C10_app442_rg1" n="['for', 'a', 'merchant']">
                   <rdg wit="#f1818">
                      <ptr target="https://raw.githubusercontent.com/PghFrankenstein/fv-data/master/edition-chunks/P5-f1818_C10.xml#C10_app442-f1818"/>
@@ -3984,7 +3984,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C10_app444">
+            <app xml:id="C10_app444" n="27">
                <rdgGrp xml:id="C10_app444_rg1"
                        n="['comprised', 'in', 'the', 'noble', 'art', 'of']">
                   <rdg wit="#f1831">
@@ -4006,7 +4006,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C10_app445">
+            <app xml:id="C10_app445" n="13">
                <rdgGrp xml:id="C10_app445_rg1" n="['', '&#34;know', 'nothing']">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0050.xml#string-range(//tei:zone[@type='main']//tei:line[29],0,15)"/>
@@ -4024,7 +4024,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C10_app447">
+            <app xml:id="C10_app447" n="6">
                <rdgGrp xml:id="C10_app447_rg1" n="['book-keeping;', 'and,', 'indeed,']">
                   <rdg wit="#f1818">
                      <ptr target="https://raw.githubusercontent.com/PghFrankenstein/fv-data/master/edition-chunks/P5-f1818_C10.xml#C10_app447-f1818"/>
@@ -4046,7 +4046,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C10_app449">
+            <app xml:id="C10_app449" n="2">
                <rdgGrp xml:id="C10_app449_rg1" n="['', '&#34;incredulous']">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0051.xml#string-range(//tei:zone[@type='main']//tei:line[2],0,14)"/>
@@ -4067,7 +4067,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C10_app451">
+            <app xml:id="C10_app451" n="1">
                <rdgGrp xml:id="C10_app451_rg1" n="['last']">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0051.xml#string-range(//tei:zone[@type='main']//tei:line[2],21,26)"/>
@@ -4088,7 +4088,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C10_app453">
+            <app xml:id="C10_app453" n="18">
                <rdgGrp xml:id="C10_app453_rg1" n="['applications', '', '&#34;was']">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0051.xml#string-range(//tei:zone[@type='main']//tei:line[3],19,32)"/>
@@ -4110,7 +4110,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C10_app455">
+            <app xml:id="C10_app455" n="1">
                <rdgGrp xml:id="C10_app455_rg1" n="['of', 'the']">
                   <rdg wit="#f1818">
                      <ptr target="https://raw.githubusercontent.com/PghFrankenstein/fv-data/master/edition-chunks/P5-f1818_C10.xml#C10_app455-f1818"/>
@@ -4131,7 +4131,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C10_app457">
+            <app xml:id="C10_app457" n="3">
                <rdgGrp xml:id="C10_app457_rg1" n="['school', '', '&#34;master']">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0051.xml#string-range(//tei:zone[@type='main']//tei:line[4],36,43)"/>
@@ -4153,7 +4153,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C10_app459">
+            <app xml:id="C10_app459" n="49">
                <rdgGrp xml:id="C10_app459_rg1" n="['wakefield:', '‘i']">
                   <rdg wit="#f1818">
                      <ptr target="https://raw.githubusercontent.com/PghFrankenstein/fv-data/master/edition-chunks/P5-f1818_C10.xml#C10_app459-f1818"/>
@@ -4179,7 +4179,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C10_app461">
+            <app xml:id="C10_app461" n="19.25">
                <rdgGrp xml:id="C10_app461_rg1"
                        n="['florins', 'a', 'year', 'without', 'greek,', 'i', 'eat']">
                   <rdg wit="#f1818">
@@ -4205,7 +4205,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C10_app463">
+            <app xml:id="C10_app463" n="7">
                <rdgGrp xml:id="C10_app463_rg1" n="['', '&#34;without', 'greek', 'of-', '&#34;but']">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0051.xml#string-range(//tei:zone[@type='left_margin']//tei:line[4],0,16)"/>
@@ -4228,7 +4228,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C10_app465">
+            <app xml:id="C10_app465" n="2">
                <rdgGrp xml:id="C10_app465_rg1" n="['', '&#34;length']">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0051.xml#string-range(//tei:zone[@type='main']//tei:line[9],0,9)"/>
@@ -4249,7 +4249,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C10_app467">
+            <app xml:id="C10_app467" n="3.25">
                <rdgGrp xml:id="C10_app467_rg1" n="['for', '', '&#34;learning,']">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0051.xml#string-range(//tei:zone[@type='main']//tei:line[9],30,34)"/>
@@ -4271,7 +4271,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C10_app471">
+            <app xml:id="C10_app471" n="2">
                <rdgGrp xml:id="C10_app471_rg1" n="['', '&#34;to']">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0051.xml#string-range(//tei:zone[@type='main']//tei:line[11],0,5)"/>
@@ -4292,7 +4292,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C10_app473">
+            <app xml:id="C10_app473" n="1">
                <rdgGrp xml:id="C10_app473_rg1" n="['discovery', 'to']">
                   <rdg wit="#f1818">
                      <ptr target="https://raw.githubusercontent.com/PghFrankenstein/fv-data/master/edition-chunks/P5-f1818_C10.xml#C10_app473-f1818"/>
@@ -4313,7 +4313,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C10_app475">
+            <app xml:id="C10_app475" n="72.25">
                <rdgGrp xml:id="C10_app475_rg1" n="['', '&#34;knowledge.&#34;&lt;p/&gt;', '&#34;and']">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0051.xml#string-range(//tei:zone[@type='main']//tei:line[12],0,14)"/>
@@ -4340,7 +4340,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C10_app477">
+            <app xml:id="C10_app477" n="12">
                <rdgGrp xml:id="C10_app477_rg1"
                        n="['brothers', 'andelizabeth&#34;', 'said', 'i&lt;p/&gt;', '&#34;very', 'well']">
                   <rdg wit="#fMS">
@@ -4369,7 +4369,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C10_app479">
+            <app xml:id="C10_app479" n="14">
                <rdgGrp xml:id="C10_app479_rg1" n="['happy&#34;', 'replied', '', 'he', '&#34;only']">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0051.xml#string-range(//tei:zone[@type='main']//tei:line[15],19,34)"/>
@@ -4391,7 +4391,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C10_app481">
+            <app xml:id="C10_app481" n="14">
                <rdgGrp xml:id="C10_app481_rg1" n="['&lt;del&gt;yo&lt;del&gt;', '&#34;they']">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0051.xml#string-range(//tei:zone[@type='main']//tei:line[16],31,34)"/>
@@ -4413,7 +4413,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C10_app483">
+            <app xml:id="C10_app483" n="6">
                <rdgGrp xml:id="C10_app483_rg1" n="['seldom,', 'and', '&#34;by']">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0051.xml#string-range(//tei:zone[@type='main']//tei:line[17],24,34)"/>
@@ -4435,7 +4435,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C10_app485">
+            <app xml:id="C10_app485" n="1">
                <rdgGrp xml:id="C10_app485_rg1" n="['by,']">
                   <rdg wit="#f1823">
                      <ptr target="https://raw.githubusercontent.com/PghFrankenstein/fv-data/master/edition-chunks/P5-f1823_C10.xml#C10_app485-f1823"/>
@@ -4456,7 +4456,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C10_app487">
+            <app xml:id="C10_app487" n="2">
                <rdgGrp xml:id="C10_app487_rg1" n="['', '&#34;a']">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0051.xml#string-range(//tei:zone[@type='main']//tei:line[19],0,4)"/>
@@ -4477,7 +4477,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C10_app489">
+            <app xml:id="C10_app489" n="5">
                <rdgGrp xml:id="C10_app489_rg1" n="['', '&#34;myself–', 'but']">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0051.xml#string-range(//tei:zone[@type='main']//tei:line[20],0,14)"/>
@@ -4498,7 +4498,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C10_app491">
+            <app xml:id="C10_app491" n="2">
                <rdgGrp xml:id="C10_app491_rg1" n="['frankenstein&#34;', '']">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0051.xml#string-range(//tei:zone[@type='main']//tei:line[20],22,36)"/>
@@ -4519,7 +4519,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C10_app493">
+            <app xml:id="C10_app493" n="1">
                <rdgGrp xml:id="C10_app493_rg1" n="['he']">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0051.xml#string-range(//tei:zone[@type='main']//tei:line[21],11,14)"/>
@@ -4540,7 +4540,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C10_app495">
+            <app xml:id="C10_app495" n="1">
                <rdgGrp xml:id="C10_app495_rg1" n="['short']">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0051.xml#string-range(//tei:zone[@type='main']//tei:line[21],23,29)"/>
@@ -4561,7 +4561,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C10_app497">
+            <app xml:id="C10_app497" n="2">
                <rdgGrp xml:id="C10_app497_rg1" n="['', '&#34;full']">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0051.xml#string-range(//tei:zone[@type='main']//tei:line[22],0,7)"/>
@@ -4582,7 +4582,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C10_app499">
+            <app xml:id="C10_app499" n="1">
                <rdgGrp xml:id="C10_app499_rg1" n="['face']">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0051.xml#string-range(//tei:zone[@type='main']//tei:line[22],13,18)"/>
@@ -4603,7 +4603,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C10_app501">
+            <app xml:id="C10_app501" n="2">
                <rdgGrp xml:id="C10_app501_rg1" n="['', '&#34;remark']">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0051.xml#string-range(//tei:zone[@type='main']//tei:line[23],0,9)"/>
@@ -4624,7 +4624,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C10_app503">
+            <app xml:id="C10_app503" n="4.25">
                <rdgGrp xml:id="C10_app503_rg1" n="['appear;']">
                   <rdg wit="#f1818">
                      <ptr target="https://raw.githubusercontent.com/PghFrankenstein/fv-data/master/edition-chunks/P5-f1818_C10.xml#C10_app503-f1818"/>
@@ -4645,7 +4645,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C10_app505">
+            <app xml:id="C10_app505" n="2">
                <rdgGrp xml:id="C10_app505_rg1" n="['', '&#34;and']">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0051.xml#string-range(//tei:zone[@type='main']//tei:line[24],0,6)"/>
@@ -4666,7 +4666,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C10_app507">
+            <app xml:id="C10_app507" n="6">
                <rdgGrp xml:id="C10_app507_rg1" n="['appear']">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0051.xml#string-range(//tei:zone[@type='main']//tei:line[24],16,23)"/>
@@ -4687,7 +4687,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C10_app509">
+            <app xml:id="C10_app509" n="2">
                <rdgGrp xml:id="C10_app509_rg1" n="['', '&#34;been']">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0051.xml#string-range(//tei:zone[@type='main']//tei:line[25],0,7)"/>
@@ -4708,7 +4708,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C10_app511">
+            <app xml:id="C10_app511" n="4">
                <rdgGrp xml:id="C10_app511_rg1" n="['nights.&#34;&lt;p/&gt;', '&#34;you']">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0051.xml#string-range(//tei:zone[@type='main']//tei:line[25],28,37)"/>
@@ -4734,7 +4734,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C10_app513">
+            <app xml:id="C10_app513" n="1">
                <rdgGrp xml:id="C10_app513_rg1" n="['right&#34;']">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0051.xml#string-range(//tei:zone[@type='main']//tei:line[26],19,26)"/>
@@ -4755,7 +4755,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C10_app514">
+            <app xml:id="C10_app514" n="12">
                <rdgGrp xml:id="C10_app514_rg1" n="['i']">
                   <rdg wit="#f1818">
                      <ptr target="https://raw.githubusercontent.com/PghFrankenstein/fv-data/master/edition-chunks/P5-f1818_C10.xml#C10_app514-f1818"/>
@@ -4777,7 +4777,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C10_app518">
+            <app xml:id="C10_app518" n="48">
                <rdgGrp xml:id="C10_app518_rg1" n="['one', 'occupation,']">
                   <rdg wit="#f1818">
                      <ptr target="https://raw.githubusercontent.com/PghFrankenstein/fv-data/master/edition-chunks/P5-f1818_C10.xml#C10_app518-f1818"/>
@@ -4799,7 +4799,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C10_app520">
+            <app xml:id="C10_app520" n="15">
                <rdgGrp xml:id="C10_app520_rg1"
                        n="['&lt;del&gt;did&lt;del&gt;have', '&#34;not', 'allowedmyself']">
                   <rdg wit="#fMS">
@@ -4823,7 +4823,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C10_app522">
+            <app xml:id="C10_app522" n="1">
                <rdgGrp xml:id="C10_app522_rg1" n="['rest']">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0051.xml#string-range(//tei:zone[@type='main']//tei:line[29],32,37)"/>
@@ -4844,7 +4844,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C10_app524">
+            <app xml:id="C10_app524" n="2">
                <rdgGrp xml:id="C10_app524_rg1" n="['&#34;see;']">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0052.xml#string-range(//tei:zone[@type='main']//tei:line[1],1,7)"/>
@@ -4865,7 +4865,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C10_app526">
+            <app xml:id="C10_app526" n="6">
                <rdgGrp xml:id="C10_app526_rg1" n="['hope']">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0052.xml#string-range(//tei:zone[@type='main']//tei:line[1],31,36)"/>
@@ -4886,7 +4886,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C10_app528">
+            <app xml:id="C10_app528" n="11.25">
                <rdgGrp xml:id="C10_app528_rg1" n="['these', 'employments']">
                   <rdg wit="#f1818">
                      <ptr target="https://raw.githubusercontent.com/PghFrankenstein/fv-data/master/edition-chunks/P5-f1818_C10.xml#C10_app528-f1818"/>
@@ -4908,7 +4908,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C10_app532">
+            <app xml:id="C10_app532" n="25">
                <rdgGrp xml:id="C10_app532_rg1"
                        n="['end,', 'and', 'that', 'i', 'am', 'at', 'length']">
                   <rdg wit="#f1818">
@@ -4933,7 +4933,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C10_app533">
+            <app xml:id="C10_app533" n="1">
                <rdgGrp xml:id="C10_app533_rg1" n="['free.&#34;', '&lt;p/&gt;&lt;p/&gt;i']">
                   <rdg wit="#f1823">
                      <ptr target="https://raw.githubusercontent.com/PghFrankenstein/fv-data/master/edition-chunks/P5-f1823_C10.xml#C10_app533-f1823__I"/>
@@ -4955,7 +4955,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C10_app535">
+            <app xml:id="C10_app535" n="1">
                <rdgGrp xml:id="C10_app535_rg1" n="['excessively:']">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0052.xml#string-range(//tei:zone[@type='main']//tei:line[4],12,25)"/>
@@ -4976,7 +4976,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C10_app537">
+            <app xml:id="C10_app537" n="5">
                <rdgGrp xml:id="C10_app537_rg1" n="['', 'bear']">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0052.xml#string-range(//tei:zone[@type='main']//tei:line[5],0,6)"/>
@@ -4997,7 +4997,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C10_app539">
+            <app xml:id="C10_app539" n="1">
                <rdgGrp xml:id="C10_app539_rg1" n="['of,', 'and']">
                   <rdg wit="#f1818">
                      <ptr target="https://raw.githubusercontent.com/PghFrankenstein/fv-data/master/edition-chunks/P5-f1818_C10.xml#C10_app539-f1818"/>
@@ -5018,7 +5018,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C10_app541">
+            <app xml:id="C10_app541" n="1">
                <rdgGrp xml:id="C10_app541_rg1" n="['to,']">
                   <rdg wit="#f1831">
                      <ptr target="https://raw.githubusercontent.com/PghFrankenstein/fv-data/master/edition-chunks/P5-f1831_C10.xml#C10_app541-f1831"/>
@@ -5039,7 +5039,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C10_app543">
+            <app xml:id="C10_app543" n="1">
                <rdgGrp xml:id="C10_app543_rg1" n="['occurences']">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0052.xml#string-range(//tei:zone[@type='main']//tei:line[6],8,19)"/>
@@ -5060,7 +5060,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C10_app545">
+            <app xml:id="C10_app545" n="12">
                <rdgGrp xml:id="C10_app545_rg1" n="['prece&lt;del&gt;e&lt;del&gt;ding', '']">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0052.xml#string-range(//tei:zone[@type='main']//tei:line[6],26,37)"/>
@@ -5081,7 +5081,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C10_app547">
+            <app xml:id="C10_app547" n="56">
                <rdgGrp xml:id="C10_app547_rg1" n="['i', 'walked']">
                   <rdg wit="#f1818">
                      <ptr target="https://raw.githubusercontent.com/PghFrankenstein/fv-data/master/edition-chunks/P5-f1818_C10.xml#C10_app547-f1818"/>
@@ -5104,7 +5104,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C10_app550">
+            <app xml:id="C10_app550" n="2">
                <rdgGrp xml:id="C10_app550_rg1" n="['colledge.', '']">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0052.xml#string-range(//tei:zone[@type='main']//tei:line[9],27,37)"/>
@@ -5125,7 +5125,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C10_app552">
+            <app xml:id="C10_app552" n="2">
                <rdgGrp xml:id="C10_app552_rg1" n="['reflected', '–']">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0052.xml#string-range(//tei:zone[@type='main']//tei:line[10],8,20)"/>
@@ -5146,7 +5146,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C10_app555">
+            <app xml:id="C10_app555" n="1">
                <rdgGrp xml:id="C10_app555_rg1" n="['shiver']">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0052.xml#string-range(//tei:zone[@type='main']//tei:line[11],4,11)"/>
@@ -5167,7 +5167,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C10_app558">
+            <app xml:id="C10_app558" n="1">
                <rdgGrp xml:id="C10_app558_rg1" n="['apartment']">
                   <rdg wit="#f1818">
                      <ptr target="https://raw.githubusercontent.com/PghFrankenstein/fv-data/master/edition-chunks/P5-f1818_C10.xml#C10_app558-f1818"/>
@@ -5188,7 +5188,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C10_app560">
+            <app xml:id="C10_app560" n="9">
                <rdgGrp xml:id="C10_app560_rg1" n="['still', 'be', 'there,', 'alive,']">
                   <rdg wit="#f1818">
                      <ptr target="https://raw.githubusercontent.com/PghFrankenstein/fv-data/master/edition-chunks/P5-f1818_C10.xml#C10_app560-f1818"/>
@@ -5209,7 +5209,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C10_app563">
+            <app xml:id="C10_app563" n="15">
                <rdgGrp xml:id="C10_app563_rg1" n="['behold', 'this', 'monster;']">
                   <rdg wit="#f1818">
                      <ptr target="https://raw.githubusercontent.com/PghFrankenstein/fv-data/master/edition-chunks/P5-f1818_C10.xml#C10_app563-f1818"/>
@@ -5230,7 +5230,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C10_app565">
+            <app xml:id="C10_app565" n="4">
                <rdgGrp xml:id="C10_app565_rg1" n="['', 'dreaded']">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0052.xml#string-range(//tei:zone[@type='main']//tei:line[15],0,9)"/>
@@ -5251,7 +5251,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C10_app567">
+            <app xml:id="C10_app567" n="47.25">
                <rdgGrp xml:id="C10_app567_rg1"
                        n="['', 'behold', 'the', 'monst&lt;del&gt;h&lt;del&gt;er.', '&lt;del&gt;i', 'therefore&lt;del&gt;']">
                   <rdg wit="#fMS">
@@ -5273,7 +5273,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C10_app569">
+            <app xml:id="C10_app569" n="1">
                <rdgGrp xml:id="C10_app569_rg1" n="['him']">
                   <rdg wit="#f1818">
                      <ptr target="https://raw.githubusercontent.com/PghFrankenstein/fv-data/master/edition-chunks/P5-f1818_C10.xml#C10_app569-f1818"/>
@@ -5294,7 +5294,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C10_app570">
+            <app xml:id="C10_app570" n="2">
                <rdgGrp xml:id="C10_app570_rg1" n="['therefore']">
                   <rdg wit="#f1818">
                      <ptr target="https://raw.githubusercontent.com/PghFrankenstein/fv-data/master/edition-chunks/P5-f1818_C10.xml#C10_app570-f1818"/>
@@ -5317,7 +5317,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C10_app575">
+            <app xml:id="C10_app575" n="16">
                <rdgGrp xml:id="C10_app575_rg1"
                        n="['&lt;del&gt;while&lt;del&gt;', 'i', 'darted', 'up', 'towards']">
                   <rdg wit="#fMS">
@@ -5339,7 +5339,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C10_app580">
+            <app xml:id="C10_app580" n="11">
                <rdgGrp xml:id="C10_app580_rg1" n="['recollected', 'myself.']">
                   <rdg wit="#f1818">
                      <ptr target="https://raw.githubusercontent.com/PghFrankenstein/fv-data/master/edition-chunks/P5-f1818_C10.xml#C10_app580-f1818"/>
@@ -5361,7 +5361,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C10_app582">
+            <app xml:id="C10_app582" n="6">
                <rdgGrp xml:id="C10_app582_rg1" n="['paused']">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0052.xml#string-range(//tei:zone[@type='main']//tei:line[22],16,23)"/>
@@ -5382,7 +5382,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C10_app586">
+            <app xml:id="C10_app586" n="10">
                <rdgGrp xml:id="C10_app586_rg1" n="['forcibly', 'open,']">
                   <rdg wit="#f1818">
                      <ptr target="https://raw.githubusercontent.com/PghFrankenstein/fv-data/master/edition-chunks/P5-f1818_C10.xml#C10_app586-f1818"/>
@@ -5403,7 +5403,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C10_app590">
+            <app xml:id="C10_app590" n="1">
                <rdgGrp xml:id="C10_app590_rg1" n="['side.']">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0052.xml#string-range(//tei:zone[@type='main']//tei:line[27],19,25)"/>
@@ -5424,7 +5424,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C10_app593">
+            <app xml:id="C10_app593" n="2">
                <rdgGrp xml:id="C10_app593_rg1" n="['in', '–']">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0052.xml#string-range(//tei:zone[@type='main']//tei:line[29],0,5)"/>
@@ -5445,7 +5445,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C10_app595">
+            <app xml:id="C10_app595" n="1">
                <rdgGrp xml:id="C10_app595_rg1" n="['apartment']">
                   <rdg wit="#f1818">
                      <ptr target="https://raw.githubusercontent.com/PghFrankenstein/fv-data/master/edition-chunks/P5-f1818_C10.xml#C10_app595-f1818"/>
@@ -5466,7 +5466,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C10_app597">
+            <app xml:id="C10_app597" n="1">
                <rdgGrp xml:id="C10_app597_rg1" n="['empty,']">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0052.xml#string-range(//tei:zone[@type='main']//tei:line[29],24,31)"/>
@@ -5487,7 +5487,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C10_app600">
+            <app xml:id="C10_app600" n="2">
                <rdgGrp xml:id="C10_app600_rg1" n="['bed-room']">
                   <rdg wit="#f1818">
                      <ptr target="https://raw.githubusercontent.com/PghFrankenstein/fv-data/master/edition-chunks/P5-f1818_C10.xml#C10_app600-f1818"/>
@@ -5508,7 +5508,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C10_app603">
+            <app xml:id="C10_app603" n="17">
                <rdgGrp xml:id="C10_app603_rg1"
                        n="['&lt;del&gt;belief&lt;del&gt;', 'believe', 'that', 'so', 'great', 'a']">
                   <rdg wit="#fMS">
@@ -5531,7 +5531,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C10_app604">
+            <app xml:id="C10_app604" n="1">
                <rdgGrp xml:id="C10_app604_rg1" n="['good', 'fortune']">
                   <rdg wit="#f1831">
                      <ptr target="https://raw.githubusercontent.com/PghFrankenstein/fv-data/master/edition-chunks/P5-f1831_C10.xml#C10_app604-f1831"/>
@@ -5552,7 +5552,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C10_app607">
+            <app xml:id="C10_app607" n="13">
                <rdgGrp xml:id="C10_app607_rg1" n="['&lt;del&gt;was&lt;del&gt;became']">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0053.xml#string-range(//tei:zone[@type='main']//tei:line[3],3,13)"/>
@@ -5573,7 +5573,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C10_app610">
+            <app xml:id="C10_app610" n="2">
                <rdgGrp xml:id="C10_app610_rg1" n="['', 'joy']">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0053.xml#string-range(//tei:zone[@type='main']//tei:line[5],0,5)"/>
@@ -5594,7 +5594,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C10_app612">
+            <app xml:id="C10_app612" n="10">
                <rdgGrp xml:id="C10_app612_rg1" n="['clerval.&lt;p/&gt;&lt;p/&gt;we']">
                   <rdg wit="#f1818">
                      <ptr target="https://raw.githubusercontent.com/PghFrankenstein/fv-data/master/edition-chunks/P5-f1818_C10.xml#C10_app612-f1818__I"/>
@@ -5620,7 +5620,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C10_app614">
+            <app xml:id="C10_app614" n="1">
                <rdgGrp xml:id="C10_app614_rg1" n="['room']">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0053.xml#string-range(//tei:zone[@type='main']//tei:line[6],21,26)"/>
@@ -5641,7 +5641,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C10_app615">
+            <app xml:id="C10_app615" n="17">
                <rdgGrp xml:id="C10_app615_rg1" n="['and', 'the', 'servant', presently]">
                   <rdg wit="#f1818">
                      <ptr target="https://raw.githubusercontent.com/PghFrankenstein/fv-data/master/edition-chunks/P5-f1818_C10.xml#C10_app615-f1818"/>
@@ -5664,7 +5664,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C10_app617">
+            <app xml:id="C10_app617" n="2">
                <rdgGrp xml:id="C10_app617_rg1" n="['breakfast:', '']">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0053.xml#string-range(//tei:zone[@type='main']//tei:line[7],24,35)"/>
@@ -5685,7 +5685,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C10_app619">
+            <app xml:id="C10_app619" n="2">
                <rdgGrp xml:id="C10_app619_rg1" n="['me,–i']">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0053.xml#string-range(//tei:zone[@type='main']//tei:line[10],3,9)"/>
@@ -5706,7 +5706,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C10_app621">
+            <app xml:id="C10_app621" n="4">
                <rdgGrp xml:id="C10_app621_rg1" n="['the', 'excess', 'of']">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0053.xml#string-range(//tei:zone[@type='main']//tei:line[11],0,15)"/>
@@ -5727,7 +5727,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C10_app622">
+            <app xml:id="C10_app622" n="1">
                <rdgGrp xml:id="C10_app622_rg1" n="['sensitiveness']">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0053.xml#string-range(//tei:zone[@type='main']//tei:line[11],15,29)"/>
@@ -5748,7 +5748,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C10_app627">
+            <app xml:id="C10_app627" n="2">
                <rdgGrp xml:id="C10_app627_rg1" n="['place', '—']">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0053.xml#string-range(//tei:zone[@type='main']//tei:line[14],10,18)"/>
@@ -5769,7 +5769,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C10_app630">
+            <app xml:id="C10_app630" n="2">
                <rdgGrp xml:id="C10_app630_rg1" n="['hands,', 'and']">
                   <rdg wit="#f1818">
                      <ptr target="https://raw.githubusercontent.com/PghFrankenstein/fv-data/master/edition-chunks/P5-f1818_C10.xml#C10_app630-f1818"/>
@@ -5790,7 +5790,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C10_app634">
+            <app xml:id="C10_app634" n="2">
                <rdgGrp xml:id="C10_app634_rg1" n="['', 'arrival–']">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0053.xml#string-range(//tei:zone[@type='main']//tei:line[18],0,10)"/>
@@ -5811,7 +5811,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C10_app636">
+            <app xml:id="C10_app636" n="14">
                <rdgGrp xml:id="C10_app636_rg1" n="['&lt;del&gt;saw&lt;del&gt;', 'he', 'observed']">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0053.xml#string-range(//tei:zone[@type='main']//tei:line[18],19,35)"/>
@@ -5832,7 +5832,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C10_app638">
+            <app xml:id="C10_app638" n="2">
                <rdgGrp xml:id="C10_app638_rg1" n="['attentively,', 'he']">
                   <rdg wit="#f1818">
                      <ptr target="https://raw.githubusercontent.com/PghFrankenstein/fv-data/master/edition-chunks/P5-f1818_C10.xml#C10_app638-f1818"/>
@@ -5853,7 +5853,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C10_app641">
+            <app xml:id="C10_app641" n="1">
                <rdgGrp xml:id="C10_app641_rg1" n="['account']">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0053.xml#string-range(//tei:zone[@type='main']//tei:line[20],20,28)"/>
@@ -5874,7 +5874,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C10_app644">
+            <app xml:id="C10_app644" n="2">
                <rdgGrp xml:id="C10_app644_rg1" n="['loud', 'unrestrained']">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0053.xml#string-range(//tei:zone[@type='main']//tei:line[21],4,22)"/>
@@ -5895,7 +5895,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C10_app646">
+            <app xml:id="C10_app646" n="1">
                <rdgGrp xml:id="C10_app646_rg1" n="['laughter']">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0053.xml#string-range(//tei:zone[@type='main']//tei:line[21],32,38)"/>
@@ -5917,7 +5917,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C10_app648">
+            <app xml:id="C10_app648" n="5">
                <rdgGrp xml:id="C10_app648_rg1" n="['him.&lt;p/&gt;', 'my']">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0053.xml#string-range(//tei:zone[@type='main']//tei:line[22],30,35)"/>
@@ -5943,7 +5943,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C10_app650">
+            <app xml:id="C10_app650" n="11">
                <rdgGrp xml:id="C10_app650_rg1" n="['frankenstein,&#34;']">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0053.xml#string-range(//tei:zone[@type='main']//tei:line[23],9,24)"/>
@@ -5964,7 +5964,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C10_app652">
+            <app xml:id="C10_app652" n="2">
                <rdgGrp xml:id="C10_app652_rg1" n="['he', '&#34;what', '']">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0053.xml#string-range(//tei:zone[@type='main']//tei:line[23],30,39)"/>
@@ -5985,7 +5985,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C10_app654">
+            <app xml:id="C10_app654" n="4">
                <rdgGrp xml:id="C10_app654_rg1" n="[&#34;god's&#34;, 'sake']">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0053.xml#string-range(//tei:zone[@type='main']//tei:line[24],5,16)"/>
@@ -6006,7 +6006,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C10_app656">
+            <app xml:id="C10_app656" n="14">
                <rdgGrp xml:id="C10_app656_rg1" n="['matter', '&lt;del&gt;for&lt;del&gt;']">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0053.xml#string-range(//tei:zone[@type='main']//tei:line[24],23,34)"/>
@@ -6027,7 +6027,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C10_app659">
+            <app xml:id="C10_app659" n="16">
                <rdgGrp xml:id="C10_app659_rg1" n="['in', 'that', 'manner.']">
                   <rdg wit="#f1818">
                      <ptr target="https://raw.githubusercontent.com/PghFrankenstein/fv-data/master/edition-chunks/P5-f1818_C10.xml#C10_app659-f1818"/>
@@ -6048,7 +6048,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C10_app662">
+            <app xml:id="C10_app662" n="6">
                <rdgGrp xml:id="C10_app662_rg1" n="['this?&#34;&lt;p/&gt;&lt;p/&gt;&#34;do']">
                   <rdg wit="#f1818">
                      <ptr target="https://raw.githubusercontent.com/PghFrankenstein/fv-data/master/edition-chunks/P5-f1818_C10.xml#C10_app662-f1818__I"/>
@@ -6076,7 +6076,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C10_app664">
+            <app xml:id="C10_app664" n="2">
                <rdgGrp xml:id="C10_app664_rg1" n="['me']">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0053.xml#string-range(//tei:zone[@type='main']//tei:line[27],12,15)"/>
@@ -6097,7 +6097,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C10_app666">
+            <app xml:id="C10_app666" n="14">
                <rdgGrp xml:id="C10_app666_rg1" n="['', 'hands&lt;del&gt;fef&lt;del&gt;']">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0053.xml#string-range(//tei:zone[@type='main']//tei:line[28],0,10)"/>
@@ -6118,7 +6118,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C10_app669">
+            <app xml:id="C10_app669" n="24.5">
                <rdgGrp xml:id="C10_app669_rg1"
                        n="['&lt;shi rend=&#34;underline&#34;&gt;the', 'spectre&lt;/shi&gt;']">
                   <rdg wit="#fMS">
@@ -6140,7 +6140,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C10_app671">
+            <app xml:id="C10_app671" n="15">
                <rdgGrp xml:id="C10_app671_rg1" n="['room', '–', '&lt;del&gt;wh&lt;del&gt;', 'he']">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0054.xml#string-range(//tei:zone[@type='main']//tei:line[1],1,14)"/>
@@ -6161,7 +6161,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C10_app673">
+            <app xml:id="C10_app673" n="3">
                <rdgGrp xml:id="C10_app673_rg1" n="['tell!', 'oh']">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0054.xml#string-range(//tei:zone[@type='main']//tei:line[1],18,27)"/>
@@ -6182,7 +6182,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C10_app675">
+            <app xml:id="C10_app675" n="1">
                <rdgGrp xml:id="C10_app675_rg1" n="['me!']">
                   <rdg wit="#f1818">
                      <ptr target="https://raw.githubusercontent.com/PghFrankenstein/fv-data/master/edition-chunks/P5-f1818_C10.xml#C10_app675-f1818"/>
@@ -6203,7 +6203,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C10_app677">
+            <app xml:id="C10_app677" n="13.25">
                <rdgGrp xml:id="C10_app677_rg1" n="['&lt;del&gt;i&lt;del&gt;', 'me&#34;–']">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0054.xml#string-range(//tei:zone[@type='main']//tei:line[2],6,13)"/>
@@ -6224,7 +6224,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C10_app680">
+            <app xml:id="C10_app680" n="1">
                <rdgGrp xml:id="C10_app680_rg1" n="['me']">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0054.xml#string-range(//tei:zone[@type='main']//tei:line[3],16,19)"/>
@@ -6245,7 +6245,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C10_app682">
+            <app xml:id="C10_app682" n="3">
                <rdgGrp xml:id="C10_app682_rg1" n="['furious', '', 'ly']">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0054.xml#string-range(//tei:zone[@type='main']//tei:line[3],31,39)"/>
@@ -6267,7 +6267,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C10_app684">
+            <app xml:id="C10_app684" n="4">
                <rdgGrp xml:id="C10_app684_rg1" n="['fit.&lt;p/&gt;', 'poor']">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0054.xml#string-range(//tei:zone[@type='main']//tei:line[4],21,26)"/>
@@ -6293,7 +6293,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C10_app687">
+            <app xml:id="C10_app687" n="1">
                <rdgGrp xml:id="C10_app687_rg1" n="['feelings.']">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0054.xml#string-range(//tei:zone[@type='main']//tei:line[6],5,15)"/>
@@ -6314,7 +6314,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C10_app689">
+            <app xml:id="C10_app689" n="29">
                <rdgGrp xml:id="C10_app689_rg1" n="['&lt;del&gt;joy&lt;del&gt;&lt;del&gt;meti&lt;del&gt;', 'meeting']">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0054.xml#string-range(//tei:zone[@type='main']//tei:line[6],17,33)"/>
@@ -6335,7 +6335,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C10_app692">
+            <app xml:id="C10_app692" n="4">
                <rdgGrp xml:id="C10_app692_rg1" n="['had', 'anticipated', 'with', 'such']">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0054.xml#string-range(//tei:zone[@type='main']//tei:line[7],4,30)"/>
@@ -6356,7 +6356,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C10_app693">
+            <app xml:id="C10_app693" n="1">
                <rdgGrp xml:id="C10_app693_rg1" n="['joy']">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0054.xml#string-range(//tei:zone[@type='main']//tei:line[7],30,34)"/>
@@ -6377,7 +6377,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C10_app696">
+            <app xml:id="C10_app696" n="12">
                <rdgGrp xml:id="C10_app696_rg1"
                        n="['', 'did', 'not', 'witness', 'his', 'grief']">
                   <rdg wit="#fMS">
@@ -6400,7 +6400,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C10_app698">
+            <app xml:id="C10_app698" n="20">
                <rdgGrp xml:id="C10_app698_rg1" n="['&lt;del&gt;senseless&lt;del&gt;lifeless']">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0054.xml#string-range(//tei:zone[@type='main']//tei:line[10],0,18)"/>
@@ -6421,7 +6421,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C10_app701">
+            <app xml:id="C10_app701" n="18">
                <rdgGrp xml:id="C10_app701_rg1" n="['&lt;del&gt;several&lt;del&gt;', 'a', 'long,', 'long']">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0054.xml#string-range(//tei:zone[@type='main']//tei:line[11],12,33)"/>
@@ -6442,7 +6442,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C10_app702">
+            <app xml:id="C10_app702" n="8">
                <rdgGrp xml:id="C10_app702_rg1" n="['time.&lt;p/&gt;&lt;p/&gt;this']">
                   <rdg wit="#f1818">
                      <ptr target="https://raw.githubusercontent.com/PghFrankenstein/fv-data/master/edition-chunks/P5-f1818_C10.xml#C10_app702-f1818__I"/>
@@ -6469,7 +6469,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C10_app704">
+            <app xml:id="C10_app704" n="2">
                <rdgGrp xml:id="C10_app704_rg1" n="['', 'fever']">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0055.xml#string-range(//tei:zone[@type='main']//tei:line[3],0,7)"/>
@@ -6490,7 +6490,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C10_app707">
+            <app xml:id="C10_app707" n="14">
                <rdgGrp xml:id="C10_app707_rg1" n="['&lt;del&gt;and&lt;del&gt;', 'during', 'all']">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0055.xml#string-range(//tei:zone[@type='main']//tei:line[4],9,24)"/>
@@ -6511,7 +6511,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C10_app708">
+            <app xml:id="C10_app708" n="2">
                <rdgGrp xml:id="C10_app708_rg1" n="['that']">
                   <rdg wit="#f1818">
                      <ptr target="https://raw.githubusercontent.com/PghFrankenstein/fv-data/master/edition-chunks/P5-f1818_C10.xml#C10_app708-f1818"/>
@@ -6532,7 +6532,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C10_app711">
+            <app xml:id="C10_app711" n="13">
                <rdgGrp xml:id="C10_app711_rg1" n="['that', '&lt;del&gt;kn&lt;del&gt;']">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0055.xml#string-range(//tei:zone[@type='main']//tei:line[5],37,42)"/>
@@ -6554,7 +6554,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C10_app713">
+            <app xml:id="C10_app713" n="1">
                <rdgGrp xml:id="C10_app713_rg1" n="['fathers']">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0055.xml#string-range(//tei:zone[@type='main']//tei:line[6],14,22)"/>
@@ -6575,7 +6575,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C10_app715">
+            <app xml:id="C10_app715" n="1">
                <rdgGrp xml:id="C10_app715_rg1" n="['age', '']">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0055.xml#string-range(//tei:zone[@type='main']//tei:line[6],31,35)"/>
@@ -6596,7 +6596,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C10_app717">
+            <app xml:id="C10_app717" n="1">
                <rdgGrp xml:id="C10_app717_rg1" n="['journey']">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0055.xml#string-range(//tei:zone[@type='main']//tei:line[7],29,37)"/>
@@ -6617,7 +6617,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C10_app720">
+            <app xml:id="C10_app720" n="22">
                <rdgGrp xml:id="C10_app720_rg1"
                        n="['wretched', 'my', 'sickness', 'would', 'make', 'elizabeth,']">
                   <rdg wit="#f1818">
@@ -6639,7 +6639,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C10_app722">
+            <app xml:id="C10_app722" n="4">
                <rdgGrp xml:id="C10_app722_rg1"
                        n="['had', 'spared', 'them', 'this', 'grief', 'by']">
                   <rdg wit="#fMS">
@@ -6661,7 +6661,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C10_app723">
+            <app xml:id="C10_app723" n="16">
                <rdgGrp xml:id="C10_app723_rg1" n="['&lt;del&gt;partly&lt;del&gt;concealing']">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0055.xml#string-range(//tei:zone[@type='main']//tei:line[9],32,46)"/>
@@ -6683,7 +6683,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C10_app724">
+            <app xml:id="C10_app724" n="37">
                <rdgGrp xml:id="C10_app724_rg1"
                        n="['&lt;del&gt;the', 'extent', 'of', 'my', 'disorder.&lt;del&gt;the', 'violence', 'of', 'the', 'attack.']">
                   <rdg wit="#fThomas">
@@ -6705,7 +6705,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C10_app727">
+            <app xml:id="C10_app727" n="2">
                <rdgGrp xml:id="C10_app727_rg1" n="['himself,', 'and', '']">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0055.xml#string-range(//tei:zone[@type='main']//tei:line[12],23,36)"/>
@@ -6726,7 +6726,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C10_app729">
+            <app xml:id="C10_app729" n="4">
                <rdgGrp xml:id="C10_app729_rg1" n="['felt']">
                   <rdg wit="#f1818">
                      <ptr target="https://raw.githubusercontent.com/PghFrankenstein/fv-data/master/edition-chunks/P5-f1818_C10.xml#C10_app729-f1818"/>
@@ -6747,7 +6747,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C10_app731">
+            <app xml:id="C10_app731" n="1">
                <rdgGrp xml:id="C10_app731_rg1" n="['recovery', '']">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0055.xml#string-range(//tei:zone[@type='main']//tei:line[13],31,40)"/>
@@ -6768,7 +6768,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C10_app733">
+            <app xml:id="C10_app733" n="1">
                <rdgGrp xml:id="C10_app733_rg1" n="['that']">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0055.xml#string-range(//tei:zone[@type='main']//tei:line[14],18,23)"/>
@@ -6789,7 +6789,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C10_app735">
+            <app xml:id="C10_app735" n="2">
                <rdgGrp xml:id="C10_app735_rg1" n="['', 'harm']">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0055.xml#string-range(//tei:zone[@type='main']//tei:line[15],0,6)"/>
@@ -6810,7 +6810,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C10_app740">
+            <app xml:id="C10_app740" n="1">
                <rdgGrp xml:id="C10_app740_rg1" n="['ill']">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0055.xml#string-range(//tei:zone[@type='main']//tei:line[17],27,31)"/>
@@ -6831,7 +6831,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C10_app742">
+            <app xml:id="C10_app742" n="19">
                <rdgGrp xml:id="C10_app742_rg1" n="['&lt;del&gt;affection&lt;del&gt;and']">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0055.xml#string-range(//tei:zone[@type='main']//tei:line[19],0,11)"/>
@@ -6852,7 +6852,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C10_app747">
+            <app xml:id="C10_app747" n="7">
                <rdgGrp xml:id="C10_app747_rg1" n="['existence']">
                   <rdg wit="#f1818">
                      <ptr target="https://raw.githubusercontent.com/PghFrankenstein/fv-data/master/edition-chunks/P5-f1818_C10.xml#C10_app747-f1818"/>
@@ -6873,7 +6873,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C10_app749">
+            <app xml:id="C10_app749" n="1">
                <rdgGrp xml:id="C10_app749_rg1" n="['my', 'eyes,']">
                   <rdg wit="#f1818">
                      <ptr target="https://raw.githubusercontent.com/PghFrankenstein/fv-data/master/edition-chunks/P5-f1818_C10.xml#C10_app749-f1818"/>
@@ -6894,7 +6894,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C10_app751">
+            <app xml:id="C10_app751" n="20">
                <rdgGrp xml:id="C10_app751_rg1" n="['&lt;del&gt;incessant&lt;del&gt;', 'incessantly']">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0055.xml#string-range(//tei:zone[@type='main']//tei:line[23],20,42)"/>
@@ -6915,7 +6915,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C10_app753">
+            <app xml:id="C10_app753" n="1">
                <rdgGrp xml:id="C10_app753_rg1" n="['doubtless', 'my']">
                   <rdg wit="#f1818">
                      <ptr target="https://raw.githubusercontent.com/PghFrankenstein/fv-data/master/edition-chunks/P5-f1818_C10.xml#C10_app753-f1818"/>
@@ -6936,7 +6936,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C10_app755">
+            <app xml:id="C10_app755" n="28">
                <rdgGrp xml:id="C10_app755_rg1"
                        n="['&lt;del&gt;no&lt;del&gt;&lt;del&gt;doubt&lt;del&gt;', 'surprised']">
                   <rdg wit="#fMS">
@@ -6959,7 +6959,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C10_app756">
+            <app xml:id="C10_app756" n="2">
                <rdgGrp xml:id="C10_app756_rg1" n="['henry', '–']">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0055.xml#string-range(//tei:zone[@type='main']//tei:line[25],11,19)"/>
@@ -6980,7 +6980,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C10_app761">
+            <app xml:id="C10_app761" n="7">
                <rdgGrp xml:id="C10_app761_rg1" n="['disordered', '', 'imagination']">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0055.xml#string-range(//tei:zone[@type='main']//tei:line[26],27,38)"/>
@@ -7002,7 +7002,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C10_app763">
+            <app xml:id="C10_app763" n="16">
                <rdgGrp xml:id="C10_app763_rg1"
                        n="['continuance', 'and', 'pertinacity', 'with', 'which', 'i', 'continually', 'recurred', 'to', 'the', 'same']">
                   <rdg wit="#fMS">
@@ -7027,7 +7027,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C10_app764">
+            <app xml:id="C10_app764" n="38">
                <rdgGrp xml:id="C10_app764_rg1" n="['subject']">
                   <rdg wit="#f1818">
                      <ptr target="https://raw.githubusercontent.com/PghFrankenstein/fv-data/master/edition-chunks/P5-f1818_C10.xml#C10_app764-f1818"/>
@@ -7052,7 +7052,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C10_app770">
+            <app xml:id="C10_app770" n="17">
                <rdgGrp xml:id="C10_app770_rg1" n="['', 'event&lt;p/&gt;&lt;del&gt;it', 'was&lt;del&gt;', 'by']">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0056.xml#string-range(//tei:zone[@type='left_margin']//tei:line[5],0,7)"/>
@@ -7078,7 +7078,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C10_app772">
+            <app xml:id="C10_app772" n="1">
                <rdgGrp xml:id="C10_app772_rg1" n="['degrees']">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0056.xml#string-range(//tei:zone[@type='main']//tei:line[2],20,28)"/>
@@ -7099,7 +7099,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C10_app775">
+            <app xml:id="C10_app775" n="1">
                <rdgGrp xml:id="C10_app775_rg1" n="['relapses']">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0056.xml#string-range(//tei:zone[@type='main']//tei:line[3],10,19)"/>
@@ -7120,7 +7120,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C10_app777">
+            <app xml:id="C10_app777" n="15">
                <rdgGrp xml:id="C10_app777_rg1" n="['friend', '&lt;del&gt;that&lt;del&gt;']">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0056.xml#string-range(//tei:zone[@type='main']//tei:line[4],12,24)"/>
@@ -7141,7 +7141,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C10_app779">
+            <app xml:id="C10_app779" n="5">
                <rdgGrp xml:id="C10_app779_rg1" n="['that', 'the', 'first', 'time', 'i']">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0056.xml#string-range(//tei:zone[@type='main']//tei:line[5],0,23)"/>
@@ -7162,7 +7162,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C10_app780">
+            <app xml:id="C10_app780" n="5">
                <rdgGrp xml:id="C10_app780_rg1" n="['became']">
                   <rdg wit="#f1818">
                      <ptr target="https://raw.githubusercontent.com/PghFrankenstein/fv-data/master/edition-chunks/P5-f1818_C10.xml#C10_app780-f1818"/>
@@ -7183,7 +7183,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C10_app785">
+            <app xml:id="C10_app785" n="1">
                <rdgGrp xml:id="C10_app785_rg1" n="['disappeared']">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0056.xml#string-range(//tei:zone[@type='main']//tei:line[8],19,31)"/>
@@ -7204,7 +7204,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C10_app787">
+            <app xml:id="C10_app787" n="3">
                <rdgGrp xml:id="C10_app787_rg1" n="['']">
                   <rdg wit="#fMS"/>
                </rdgGrp>
@@ -7223,7 +7223,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C10_app790">
+            <app xml:id="C10_app790" n="22">
                <rdgGrp xml:id="C10_app790_rg1"
                        n="['trees', 'that', 'shaded', 'my', 'window.']">
                   <rdg wit="#f1818">
@@ -7245,7 +7245,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C10_app792">
+            <app xml:id="C10_app792" n="1">
                <rdgGrp xml:id="C10_app792_rg1" n="['spring']">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0056.xml#string-range(//tei:zone[@type='main']//tei:line[10],28,35)"/>
@@ -7266,7 +7266,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C10_app795">
+            <app xml:id="C10_app795" n="9">
                <rdgGrp xml:id="C10_app795_rg1" n="['no', 'doubt', 'contributed', 'greatly']">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0056.xml#string-range(//tei:zone[@type='main']//tei:line[11],8,37)"/>
@@ -7287,7 +7287,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C10_app798">
+            <app xml:id="C10_app798" n="1">
                <rdgGrp xml:id="C10_app798_rg1" n="['bosom,']">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0056.xml#string-range(//tei:zone[@type='main']//tei:line[14],7,14)"/>
@@ -7308,7 +7308,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C10_app800">
+            <app xml:id="C10_app800" n="1">
                <rdgGrp xml:id="C10_app800_rg1" n="['disappeared']">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0056.xml#string-range(//tei:zone[@type='main']//tei:line[14],23,35)"/>
@@ -7329,7 +7329,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C10_app804">
+            <app xml:id="C10_app804" n="28">
                <rdgGrp xml:id="C10_app804_rg1"
                        n="['', 'passion', '&lt;del&gt;that', 'consumed', 'me&lt;del&gt;.&lt;p/&gt;', '&#34;dearest']">
                   <rdg wit="#fMS">
@@ -7356,7 +7356,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C10_app806">
+            <app xml:id="C10_app806" n="7">
                <rdgGrp xml:id="C10_app806_rg1" n="['exclaimed', 'i,']">
                   <rdg wit="#f1818">
                      <ptr target="https://raw.githubusercontent.com/PghFrankenstein/fv-data/master/edition-chunks/P5-f1818_C10.xml#C10_app806-f1818"/>
@@ -7377,7 +7377,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C10_app808">
+            <app xml:id="C10_app808" n="1">
                <rdgGrp xml:id="C10_app808_rg1" n="['&#34;how']">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0056.xml#string-range(//tei:zone[@type='main']//tei:line[19],1,6)"/>
@@ -7398,7 +7398,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C10_app810">
+            <app xml:id="C10_app810" n="3">
                <rdgGrp xml:id="C10_app810_rg1" n="['', '&#34;whole', 'winter']">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0056.xml#string-range(//tei:zone[@type='main']//tei:line[20],0,15)"/>
@@ -7419,7 +7419,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C10_app812">
+            <app xml:id="C10_app812" n="19">
                <rdgGrp xml:id="C10_app812_rg1" n="['being', 'spent']">
                   <rdg wit="#f1818">
                      <ptr target="https://raw.githubusercontent.com/PghFrankenstein/fv-data/master/edition-chunks/P5-f1818_C10.xml#C10_app812-f1818"/>
@@ -7441,7 +7441,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C10_app814">
+            <app xml:id="C10_app814" n="1">
                <rdgGrp xml:id="C10_app814_rg1" n="['study']">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0056.xml#string-range(//tei:zone[@type='main']//tei:line[21],8,14)"/>
@@ -7462,7 +7462,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C10_app816">
+            <app xml:id="C10_app816" n="2">
                <rdgGrp xml:id="C10_app816_rg1" n="['', '&#34;has']">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0056.xml#string-range(//tei:zone[@type='main']//tei:line[22],0,6)"/>
@@ -7483,7 +7483,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C10_app818">
+            <app xml:id="C10_app818" n="3">
                <rdgGrp xml:id="C10_app818_rg1" n="['room.', 'how']">
                   <rdg wit="#f1818">
                      <ptr target="https://raw.githubusercontent.com/PghFrankenstein/fv-data/master/edition-chunks/P5-f1818_C10.xml#C10_app818-f1818"/>
@@ -7505,7 +7505,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C10_app820">
+            <app xml:id="C10_app820" n="2">
                <rdgGrp xml:id="C10_app820_rg1" n="['', '&#34;the']">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0056.xml#string-range(//tei:zone[@type='main']//tei:line[24],0,6)"/>
@@ -7526,7 +7526,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C10_app824">
+            <app xml:id="C10_app824" n="15">
                <rdgGrp xml:id="C10_app824_rg1" n="['&lt;del&gt;c&lt;del&gt;occasion', 'of–']">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0056.xml#string-range(//tei:zone[@type='main']//tei:line[25],26,32)"/>
@@ -7548,7 +7548,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C10_app826">
+            <app xml:id="C10_app826" n="4">
                <rdgGrp xml:id="C10_app826_rg1" n="['me.&#34;&lt;p/&gt;', '&#34;you']">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0056.xml#string-range(//tei:zone[@type='main']//tei:line[26],30,35)"/>
@@ -7574,7 +7574,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C10_app828">
+            <app xml:id="C10_app828" n="13">
                <rdgGrp xml:id="C10_app828_rg1" n="['me', 'entirely,', 'if']">
                   <rdg wit="#f1818">
                      <ptr target="https://raw.githubusercontent.com/PghFrankenstein/fv-data/master/edition-chunks/P5-f1818_C10.xml#C10_app828-f1818"/>
@@ -7596,7 +7596,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C10_app830">
+            <app xml:id="C10_app830" n="3">
                <rdgGrp xml:id="C10_app830_rg1" n="['dis', 'compose', 'yourself;', '&#34;but']">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0056.xml#string-range(//tei:zone[@type='main']//tei:line[28],16,38)"/>
@@ -7618,7 +7618,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C10_app832">
+            <app xml:id="C10_app832" n="1">
                <rdgGrp xml:id="C10_app832_rg1" n="['can.']">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0057.xml#string-range(//tei:zone[@type='main']//tei:line[1],30,36)"/>
@@ -7639,7 +7639,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C10_app834">
+            <app xml:id="C10_app834" n="2">
                <rdgGrp xml:id="C10_app834_rg1" n="['', '&#34;since']">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0057.xml#string-range(//tei:zone[@type='main']//tei:line[2],0,8)"/>
@@ -7660,7 +7660,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C10_app836">
+            <app xml:id="C10_app836" n="3">
                <rdgGrp xml:id="C10_app836_rg1" n="['', '&#34;spirits']">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0057.xml#string-range(//tei:zone[@type='main']//tei:line[3],0,10)"/>
@@ -7681,7 +7681,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C10_app838">
+            <app xml:id="C10_app838" n="3">
                <rdgGrp xml:id="C10_app838_rg1" n="['', '&#34;one', 'subject;']">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0057.xml#string-range(//tei:zone[@type='main']//tei:line[4],0,15)"/>
@@ -7702,7 +7702,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C10_app840">
+            <app xml:id="C10_app840" n="5">
                <rdgGrp xml:id="C10_app840_rg1" n="['not?&#34;&lt;p/&gt;', 'i', 'trembled;']">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0057.xml#string-range(//tei:zone[@type='main']//tei:line[4],21,27)"/>
@@ -7728,7 +7728,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C10_app843">
+            <app xml:id="C10_app843" n="38">
                <rdgGrp xml:id="C10_app843_rg1" n="['to', 'an']">
                   <rdg wit="#f1818">
                      <ptr target="https://raw.githubusercontent.com/PghFrankenstein/fv-data/master/edition-chunks/P5-f1818_C10.xml#C10_app843-f1818"/>
@@ -7750,7 +7750,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C10_app845">
+            <app xml:id="C10_app845" n="17">
                <rdgGrp xml:id="C10_app845_rg1" n="['think.', 'do', 'not', 'frighten']">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0057.xml#string-range(//tei:zone[@type='left_margin']//tei:line[1],25,46)"/>
@@ -7776,7 +7776,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C10_app848">
+            <app xml:id="C10_app848" n="0.25">
                <rdgGrp xml:id="C10_app848_rg1" n="['colour,&#34;', 'i']">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0057.xml#string-range(//tei:zone[@type='main']//tei:line[9],14,25)"/>
@@ -7797,7 +7797,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C10_app850">
+            <app xml:id="C10_app850" n="3">
                <rdgGrp xml:id="C10_app850_rg1" n="['', '&#34;it']">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0057.xml#string-range(//tei:zone[@type='main']//tei:line[10],0,5)"/>
@@ -7818,7 +7818,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C10_app852">
+            <app xml:id="C10_app852" n="1">
                <rdgGrp xml:id="C10_app852_rg1" n="['you.']">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0057.xml#string-range(//tei:zone[@type='main']//tei:line[10],20,25)"/>
@@ -7839,7 +7839,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C10_app854">
+            <app xml:id="C10_app854" n="2">
                <rdgGrp xml:id="C10_app854_rg1" n="['', '&#34;and']">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0057.xml#string-range(//tei:zone[@type='main']//tei:line[11],0,6)"/>
@@ -7860,7 +7860,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C10_app856">
+            <app xml:id="C10_app856" n="4">
                <rdgGrp xml:id="C10_app856_rg1" n="['so']">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0057.xml#string-range(//tei:zone[@type='main']//tei:line[11],22,25)"/>
@@ -7881,7 +7881,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C10_app858">
+            <app xml:id="C10_app858" n="15">
                <rdgGrp xml:id="C10_app858_rg1"
                        n="['&#34;&lt;del&gt;rec&lt;del&gt;', 'received', 'a', 'letter', 'from', 'you', 'in']">
                   <rdg wit="#fMS">
@@ -7904,7 +7904,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C10_app859">
+            <app xml:id="C10_app859" n="2">
                <rdgGrp xml:id="C10_app859_rg1" n="['', '&#34;your']">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0057.xml#string-range(//tei:zone[@type='main']//tei:line[13],0,7)"/>
@@ -7925,7 +7925,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C10_app861">
+            <app xml:id="C10_app861" n="9">
                <rdgGrp xml:id="C10_app861_rg1" n="['hand', '–']">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0057.xml#string-range(//tei:zone[@type='main']//tei:line[13],11,18)"/>
@@ -7946,7 +7946,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C10_app863">
+            <app xml:id="C10_app863" n="2">
                <rdgGrp xml:id="C10_app863_rg1" n="['', '&#34;ill']">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0057.xml#string-range(//tei:zone[@type='main']//tei:line[14],0,6)"/>
@@ -7967,7 +7967,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C10_app865">
+            <app xml:id="C10_app865" n="2">
                <rdgGrp xml:id="C10_app865_rg1" n="['', '&#34;at']">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0057.xml#string-range(//tei:zone[@type='main']//tei:line[15],0,5)"/>
@@ -7988,7 +7988,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C10_app867">
+            <app xml:id="C10_app867" n="5">
                <rdgGrp xml:id="C10_app867_rg1" n="['silence.&#34;&lt;p/&gt;', 'is']">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0057.xml#string-range(//tei:zone[@type='main']//tei:line[15],15,25)"/>
@@ -8014,7 +8014,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C10_app869">
+            <app xml:id="C10_app869" n="1">
                <rdgGrp xml:id="C10_app869_rg1" n="['all,']">
                   <rdg wit="#f1831">
                      <ptr target="https://raw.githubusercontent.com/PghFrankenstein/fv-data/master/edition-chunks/P5-f1831_C10.xml#C10_app869-f1831"/>
@@ -8035,7 +8035,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C10_app870">
+            <app xml:id="C10_app870" n="18">
                <rdgGrp xml:id="C10_app870_rg1" n="['&#34;i', 'said', 'smiling', '', '&#34;my']">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0057.xml#string-range(//tei:zone[@type='main']//tei:line[16],14,30)"/>
@@ -8057,7 +8057,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C10_app872">
+            <app xml:id="C10_app872" n="1">
                <rdgGrp xml:id="C10_app872_rg1" n="['henry']">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0057.xml#string-range(//tei:zone[@type='main']//tei:line[17],10,16)"/>
@@ -8080,7 +8080,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C10_app874">
+            <app xml:id="C10_app874" n="2">
                <rdgGrp xml:id="C10_app874_rg1" n="['', '&#34;that']">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0057.xml#string-range(//tei:zone[@type='main']//tei:line[18],0,7)"/>
@@ -8101,7 +8101,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C10_app876">
+            <app xml:id="C10_app876" n="1">
                <rdgGrp xml:id="C10_app876_rg1" n="['thought']">
                   <rdg wit="#f1818">
                      <ptr target="https://raw.githubusercontent.com/PghFrankenstein/fv-data/master/edition-chunks/P5-f1818_C10.xml#C10_app876-f1818"/>
@@ -8122,7 +8122,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C10_app878">
+            <app xml:id="C10_app878" n="16">
                <rdgGrp xml:id="C10_app878_rg1" n="['', '&#34;fly', 'towards&lt;del&gt;that&lt;del&gt;those']">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0057.xml#string-range(//tei:zone[@type='main']//tei:line[19],0,24)"/>
@@ -8143,7 +8143,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C10_app880">
+            <app xml:id="C10_app880" n="2">
                <rdgGrp xml:id="C10_app880_rg1" n="['', '&#34;whom']">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0057.xml#string-range(//tei:zone[@type='main']//tei:line[20],0,7)"/>
@@ -8164,7 +8164,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C10_app882">
+            <app xml:id="C10_app882" n="1">
                <rdgGrp xml:id="C10_app882_rg1" n="['love']">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0057.xml#string-range(//tei:zone[@type='main']//tei:line[20],9,14)"/>
@@ -8185,7 +8185,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C10_app884">
+            <app xml:id="C10_app884" n="2">
                <rdgGrp xml:id="C10_app884_rg1" n="['', '&#34;of']">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0057.xml#string-range(//tei:zone[@type='main']//tei:line[21],0,5)"/>
@@ -8206,7 +8206,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C10_app886">
+            <app xml:id="C10_app886" n="4">
                <rdgGrp xml:id="C10_app886_rg1" n="['love.&#34;&lt;p/&gt;', '&#34;if']">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0057.xml#string-range(//tei:zone[@type='main']//tei:line[21],8,15)"/>
@@ -8232,7 +8232,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C10_app888">
+            <app xml:id="C10_app888" n="11">
                <rdgGrp xml:id="C10_app888_rg1" n="['temper&#34;', '', 'said', 'henry', '&#34;you']">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0057.xml#string-range(//tei:zone[@type='main']//tei:line[22],26,34)"/>
@@ -8254,7 +8254,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C10_app892">
+            <app xml:id="C10_app892" n="10">
                <rdgGrp xml:id="C10_app892_rg1" n="['perhaps', '', '&#34;to']">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0057.xml#string-range(//tei:zone[@type='main']//tei:line[23],30,38)"/>
@@ -8276,7 +8276,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C10_app894">
+            <app xml:id="C10_app894" n="15">
                <rdgGrp xml:id="C10_app894_rg1" n="['&lt;del&gt;here&lt;del&gt;', 'that', 'has', 'been']">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0057.xml#string-range(//tei:zone[@type='main']//tei:line[24],18,37)"/>
@@ -8297,7 +8297,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C10_app895">
+            <app xml:id="C10_app895" n="26">
                <rdgGrp xml:id="C10_app895_rg1" n="['', '&#34;&lt;del&gt;ly&lt;del&gt;', 'lying&lt;del&gt;e&lt;del&gt;']">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0057.xml#string-range(//tei:zone[@type='main']//tei:line[25],0,12)"/>
@@ -8318,7 +8318,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C10_app899">
+            <app xml:id="C10_app899" n="3">
                <rdgGrp xml:id="C10_app899_rg1" n="['', '&#34;cousin']">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0057.xml#string-range(//tei:zone[@type='main']//tei:line[26],0,9)"/>
@@ -8339,7 +8339,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C10_app901">
+            <app xml:id="C10_app901" n="4">
                <rdgGrp xml:id="C10_app901_rg1" n="['believe.&#34;']">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0057.xml#string-range(//tei:zone[@type='main']//tei:line[26],11,21)"/>
