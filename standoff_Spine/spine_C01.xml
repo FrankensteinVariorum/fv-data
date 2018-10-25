@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
+<TEI xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
+     xmlns="http://www.tei-c.org/ns/1.0"
      xmlns:mith="http://mith.umd.edu/sc/ns1#"
      xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse">
    <teiHeader>
@@ -24,102 +24,102 @@
    <text>
       <body>
          <ab type="alignmentChunk">
-            <app xml:id="C01_app1" n="1025">
+            <app xml:id="C01_app1">
                <rdgGrp xml:id="C01_app1_rg1" n="['']">
                   <rdg wit="#fMS"/>
                </rdgGrp>
                <rdgGrp xml:id="C01_app1_rg2"
                        n="['preface.&lt;p/&gt;the', 'event', 'on', 'which', 'this', 'fiction', 'is', 'founded', 'has', 'been', 'supposed,', 'by', 'dr.', 'darwin,', 'and', 'some', 'of', 'the', 'physiological', 'writers', 'of', 'germany,', 'as', 'not', 'of', 'impossible', 'occurrence.', 'i', 'shall', 'not', 'be', 'supposed', 'as', 'according', 'the', 'remotest', 'degree', 'of', 'serious', 'faith', 'to', 'such', 'an', 'imagination;', 'yet,', 'in', 'assuming', 'it', 'as', 'the', 'basis', 'of', 'a', 'work', 'of', 'fancy,', 'i', 'have', 'not', 'considered', 'myself', 'as', 'merely', 'weaving', 'a', 'series', 'of', 'supernatural', 'terrors.', 'the', 'event', 'on', 'which', 'the', 'interest', 'of', 'the', 'story', 'depends', 'is', 'exempt', 'from', 'the', 'disadvantages', 'of', 'a', 'mere', 'tale', 'of', 'spectres', 'or', 'enchantment.', 'it', 'was', 'recommended', 'by', 'the', 'novelty', 'of', 'the', 'situations', 'which', 'it', 'developes;', 'and,', 'however', 'impossible', 'as', 'a', 'physical', 'fact,', 'affords', 'a', 'point', 'of', 'view', 'to', 'the', 'imagination', 'for', 'the', 'delineating', 'of', 'human', 'passions', 'more', 'comprehensive', 'and', 'commanding', 'than', 'any', 'which', 'the', 'ordinary', 'relations', 'of', 'existing', 'events', 'can', 'yield.&lt;p/&gt;&lt;p/&gt;i', 'have', 'thus', 'endeavoured', 'to', 'preserve', 'the', 'truth', 'of', 'the', 'elementary', 'principles', 'of', 'human', 'nature,', 'while', 'i', 'have', 'not', 'scrupled', 'to', 'innovate', 'upon', 'their', 'combinations.', 'the', 'iliad,', 'the', 'tragic', 'poetry', 'of']">
-                  <rdg wit="f1818">
+                  <rdg wit="#f1818">
                      <ptr target="https://raw.githubusercontent.com/PghFrankenstein/fv-data/master/edition-chunks/P5-f1818_C01.xml#C01_app1-f1818__I"/>
                      <ptr target="https://raw.githubusercontent.com/PghFrankenstein/fv-data/master/edition-chunks/P5-f1818_C01.xml#C01_app1-f1818__F"/>
                   </rdg>
-                  <rdg wit="f1823">
+                  <rdg wit="#f1823">
                      <ptr target="https://raw.githubusercontent.com/PghFrankenstein/fv-data/master/edition-chunks/P5-f1823_C01.xml#C01_app1-f1823__I"/>
                      <ptr target="https://raw.githubusercontent.com/PghFrankenstein/fv-data/master/edition-chunks/P5-f1823_C01.xml#C01_app1-f1823__F"/>
                   </rdg>
-                  <rdg wit="fThomas">
+                  <rdg wit="#fThomas">
                      <ptr target="https://raw.githubusercontent.com/PghFrankenstein/fv-data/master/edition-chunks/P5-fThomas_C01.xml#C01_app1-fThomas__I"/>
                      <ptr target="https://raw.githubusercontent.com/PghFrankenstein/fv-data/master/edition-chunks/P5-fThomas_C01.xml#C01_app1-fThomas__F"/>
                   </rdg>
-                  <rdg wit="f1831">
+                  <rdg wit="#f1831">
                      <ptr target="https://raw.githubusercontent.com/PghFrankenstein/fv-data/master/edition-chunks/P5-f1831_C01.xml#C01_app1-f1831__I"/>
                      <ptr target="https://raw.githubusercontent.com/PghFrankenstein/fv-data/master/edition-chunks/P5-f1831_C01.xml#C01_app1-f1831__F"/>
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C01_app2" n="1">
+            <app xml:id="C01_app2">
                <rdgGrp xml:id="C01_app2_rg1" n="['greece,—shakespeare,']">
-                  <rdg wit="f1818">
+                  <rdg wit="#f1818">
                      <ptr target="https://raw.githubusercontent.com/PghFrankenstein/fv-data/master/edition-chunks/P5-f1818_C01.xml#C01_app2-f1818"/>
                   </rdg>
-                  <rdg wit="f1823">
+                  <rdg wit="#f1823">
                      <ptr target="https://raw.githubusercontent.com/PghFrankenstein/fv-data/master/edition-chunks/P5-f1823_C01.xml#C01_app2-f1823"/>
                   </rdg>
-                  <rdg wit="fThomas">
+                  <rdg wit="#fThomas">
                      <ptr target="https://raw.githubusercontent.com/PghFrankenstein/fv-data/master/edition-chunks/P5-fThomas_C01.xml#C01_app2-fThomas"/>
                   </rdg>
                </rdgGrp>
                <rdgGrp xml:id="C01_app2_rg2" n="['greece,—shakspeare,']">
-                  <rdg wit="f1831">
+                  <rdg wit="#f1831">
                      <ptr target="https://raw.githubusercontent.com/PghFrankenstein/fv-data/master/edition-chunks/P5-f1831_C01.xml#C01_app2-f1831"/>
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C01_app4" n="1">
+            <app xml:id="C01_app4">
                <rdgGrp xml:id="C01_app4_rg1" n="['tempest']">
-                  <rdg wit="f1818">
+                  <rdg wit="#f1818">
                      <ptr target="https://raw.githubusercontent.com/PghFrankenstein/fv-data/master/edition-chunks/P5-f1818_C01.xml#C01_app4-f1818"/>
                   </rdg>
-                  <rdg wit="f1823">
+                  <rdg wit="#f1823">
                      <ptr target="https://raw.githubusercontent.com/PghFrankenstein/fv-data/master/edition-chunks/P5-f1823_C01.xml#C01_app4-f1823"/>
                   </rdg>
-                  <rdg wit="fThomas">
+                  <rdg wit="#fThomas">
                      <ptr target="https://raw.githubusercontent.com/PghFrankenstein/fv-data/master/edition-chunks/P5-fThomas_C01.xml#C01_app4-fThomas"/>
                   </rdg>
                </rdgGrp>
                <rdgGrp xml:id="C01_app4_rg2" n="['tempest,']">
-                  <rdg wit="f1831">
+                  <rdg wit="#f1831">
                      <ptr target="https://raw.githubusercontent.com/PghFrankenstein/fv-data/master/edition-chunks/P5-f1831_C01.xml#C01_app4-f1831"/>
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C01_app6" n="1">
+            <app xml:id="C01_app6">
                <rdgGrp xml:id="C01_app6_rg1" n="['commenced']">
-                  <rdg wit="f1818">
+                  <rdg wit="#f1818">
                      <ptr target="https://raw.githubusercontent.com/PghFrankenstein/fv-data/master/edition-chunks/P5-f1818_C01.xml#C01_app6-f1818"/>
                   </rdg>
-                  <rdg wit="fThomas">
+                  <rdg wit="#fThomas">
                      <ptr target="https://raw.githubusercontent.com/PghFrankenstein/fv-data/master/edition-chunks/P5-fThomas_C01.xml#C01_app6-fThomas"/>
                   </rdg>
-                  <rdg wit="f1831">
+                  <rdg wit="#f1831">
                      <ptr target="https://raw.githubusercontent.com/PghFrankenstein/fv-data/master/edition-chunks/P5-f1831_C01.xml#C01_app6-f1831"/>
                   </rdg>
                </rdgGrp>
                <rdgGrp xml:id="C01_app6_rg2" n="['commenced,']">
-                  <rdg wit="f1823">
+                  <rdg wit="#f1823">
                      <ptr target="https://raw.githubusercontent.com/PghFrankenstein/fv-data/master/edition-chunks/P5-f1823_C01.xml#C01_app6-f1823"/>
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C01_app8" n="32">
+            <app xml:id="C01_app8">
                <rdgGrp xml:id="C01_app8_rg1" n="['completed.&lt;p/&gt;']">
-                  <rdg wit="f1818">
+                  <rdg wit="#f1818">
                      <ptr target="https://raw.githubusercontent.com/PghFrankenstein/fv-data/master/edition-chunks/P5-f1818_C01.xml#C01_app8-f1818__I"/>
                      <ptr target="https://raw.githubusercontent.com/PghFrankenstein/fv-data/master/edition-chunks/P5-f1818_C01.xml#C01_app8-f1818__F"/>
                   </rdg>
-                  <rdg wit="f1823">
+                  <rdg wit="#f1823">
                      <ptr target="https://raw.githubusercontent.com/PghFrankenstein/fv-data/master/edition-chunks/P5-f1823_C01.xml#C01_app8-f1823__I"/>
                      <ptr target="https://raw.githubusercontent.com/PghFrankenstein/fv-data/master/edition-chunks/P5-f1823_C01.xml#C01_app8-f1823__F"/>
                   </rdg>
-                  <rdg wit="fThomas">
+                  <rdg wit="#fThomas">
                      <ptr target="https://raw.githubusercontent.com/PghFrankenstein/fv-data/master/edition-chunks/P5-fThomas_C01.xml#C01_app8-fThomas__I"/>
                      <ptr target="https://raw.githubusercontent.com/PghFrankenstein/fv-data/master/edition-chunks/P5-fThomas_C01.xml#C01_app8-fThomas__F"/>
                   </rdg>
                </rdgGrp>
                <rdgGrp xml:id="C01_app8_rg2"
                        n="['completed.&lt;p/&gt;&lt;p/&gt;marlow,', 'september,', '1817.&lt;p/&gt;']">
-                  <rdg wit="f1831">
+                  <rdg wit="#f1831">
                      <ptr target="https://raw.githubusercontent.com/PghFrankenstein/fv-data/master/edition-chunks/P5-f1831_C01.xml#C01_app8-f1831__I"/>
                      <ptr target="https://raw.githubusercontent.com/PghFrankenstein/fv-data/master/edition-chunks/P5-f1831_C01.xml#C01_app8-f1831__F"/>
                   </rdg>
