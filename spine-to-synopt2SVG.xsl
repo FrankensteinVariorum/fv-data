@@ -36,8 +36,8 @@
             <line x1="{position() * $xSpacer}" y1="0" x2="{position() * $xSpacer}" y2="-{@n ! number()}" stroke="red" stroke-width="50"/>    
             
  <xsl:if test="count(current()/preceding-sibling::app) eq 0">
-     <text x="{position() * $xSpacer}" y="200" text-anchor="end" transform="rotate(-45 {position() * $xSpacer}, 15)" style="font-family: Arial;
-              font-size  : 200;"><xsl:value-of select="$collUnit"/></text>  
+     <text x="{position() * $xSpacer}" y="300" text-anchor="end" transform="rotate(-45 {position() * $xSpacer}, 15)" style="font-family: Arial;
+              font-size  : 300;"><xsl:value-of select="$collUnit"/></text>  
         </xsl:if>
           
       </xsl:for-each>           
