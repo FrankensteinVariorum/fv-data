@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../segMarkerTester.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../segMarkerTester.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein" xmlns:mith="http://mith.umd.edu/sc/ns1#" xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -13,7 +13,8 @@
             </availability>
          </publicationStmt>
          <sourceDesc>
-            <p>Produced from collation output: 2018-10-01 10:15:03.568989 </p>
+            <p>Produced from collation output prepared in batch file processing on  2018-10-01 10:15:03.568989 .</p>
+            <p>Edited to correct alignments and prepared for the Frankenstein Variorum spine on  2019-03-17T14:23:51.998-04:00.</p>
          </sourceDesc>
       </fileDesc>
    </teiHeader>
@@ -326,158 +327,170 @@
             <seg part="I" xml:id="C07g_app1-f1818__I">
             </seg>
             <p xml:id="novel1_letter4_chapter1_div4_div1_p14">
-               <seg part="F" xml:id="C07g_app1-f1818__F">I feel </seg>
-               <seg xml:id="C07g_app2-f1818">pleasure in dwelling on the recollections of childhood, before misfortune had tainted </seg>my <seg xml:id="C07g_app4-f1818">mind, and changed its bright visions </seg>of <seg xml:id="C07g_app6-f1818">extensive usefulness into gloomy </seg>and <seg xml:id="C07g_app8-f1818">narrow reflections upon self. </seg>
-               <seg xml:id="C07g_app9-f1818">But, </seg>
-               <seg xml:id="C07g_app10-f1818">in drawing the picture </seg>of <seg xml:id="C07g_app12-f1818">my early days, </seg>I <seg xml:id="C07g_app14-f1818">must not omit to </seg>
-               <seg xml:id="C07g_app15-f1818">record those events which led, by in<pb n="051" xml:id="F1818_v1_063"/>sensible </seg>
-               <seg xml:id="C07g_app16-f1818">steps </seg>to <seg xml:id="C07g_app18-f1818">my after tale of misery: for when </seg>I <seg xml:id="C07g_app20-f1818">would account to myself for the birth </seg>of <seg xml:id="C07g_app22-f1818">that passion, which afterwards ruled my destiny, </seg>I <seg xml:id="C07g_app24-f1818">find it arise, like a mountain river, from ignoble and almost forgotten sources; but, swelling as it proceeded, it became the torrent which, in its course, has swept away all </seg>my <seg part="I" xml:id="C07g_app26-f1818__I">hopes and joys.</seg>
+               <seg part="F" xml:id="C07g_app1-f1818__F">I feel pleasure in dwelling on the recollections of childhood, before misfortune had tainted my mind, and changed its bright visions of extensive usefulness into gloomy and narrow reflections upon self. </seg>
+               <seg xml:id="C07g_app2-f1818">But, in drawing the picture of my early days, I </seg>
+               <seg xml:id="C07g_app3-f1818">must not omit to </seg>
+               <seg xml:id="C07g_app4-f1818">record those events which led, by in<pb n="051" xml:id="F1818_v1_063"/>sensible </seg>
+               <seg xml:id="C07g_app5-f1818">steps </seg>
+               <seg xml:id="C07g_app6-f1818">to my after tale of misery: for when I would account to myself for the birth of that passion, which afterwards ruled my destiny, </seg>
+               <seg part="I" xml:id="C07g_app7-f1818__I">I find it arise, like a mountain river, from ignoble and almost forgotten sources; but, swelling as it proceeded, it became the torrent which, in its course, has swept away all my hopes and joys.</seg>
             </p>
+            <seg part="F" xml:id="C07g_app7-f1818__F"> 
+            </seg>
+            <seg part="I" xml:id="C07g_app8-f1818__I">
+            </seg>
             <p xml:id="novel1_letter4_chapter1_div4_div1_p15">
-               <seg part="F" xml:id="C07g_app26-f1818__F">Natural </seg>philosophy <seg xml:id="C07g_app28-f1818">is the genius that has </seg>regulated my <seg xml:id="C07g_app30-f1818">fate; </seg>I <seg xml:id="C07g_app32-f1818">desire </seg>
-               <seg xml:id="C07g_app33-f1818">therefore, </seg>in this <seg xml:id="C07g_app35-f1818">narration, </seg>to <seg xml:id="C07g_app37-f1818">state </seg>those facts which led to <seg xml:id="C07g_app40-f1818">my predilection </seg>for that science. When I was <seg xml:id="C07g_app43-f1818">thirteen </seg>years <seg xml:id="C07g_app45-f1818">of age, </seg>we all went on a party of pleasure to <seg xml:id="C07g_app48-f1818">the baths near Thonon: </seg>the <seg xml:id="C07g_app50-f1818">inclemency of the weather obliged us to remain a day </seg>confined to the inn. In this house I chanced to find a <seg xml:id="C07g_app53-f1818">volume </seg>of the works of Cornelius Agrippa. <seg xml:id="C07g_app55-f1818">I opened it with </seg>
-               <seg xml:id="C07g_app56-f1818">apathy; the </seg>theory <seg xml:id="C07g_app58-f1818">which </seg>he <seg xml:id="C07g_app60-f1818">attempts </seg>to <seg xml:id="C07g_app62-f1818">demonstrate, </seg>and the <pb n="052" xml:id="F1818_v1_064"/>wonderful facts <seg xml:id="C07g_app64-f1818">which he relates, </seg>soon changed this feeling <seg xml:id="C07g_app66-f1818">into </seg>enthusiasm. A new light <seg xml:id="C07g_app69-f1818">seemed to dawn </seg>upon my <seg xml:id="C07g_app71-f1818">mind; and, </seg>bounding with <seg xml:id="C07g_app73-f1818">joy, </seg>I communicated my discovery to my father. <seg xml:id="C07g_app76-f1818">I cannot help remarking here the many opportunities instructors possess of directing the attention of their pupils to useful knowledge, which they utterly neglect. My father </seg>carelessly at the <seg xml:id="C07g_app78-f1818">title-page </seg>of my <seg xml:id="C07g_app80-f1818">book, </seg>
-               <seg xml:id="C07g_app81-f1818">and </seg>
-               <seg xml:id="C07g_app82-f1818">said, “Ah! </seg>Cornelius <seg xml:id="C07g_app84-f1818">Agrippa! </seg>My dear <seg xml:id="C07g_app86-f1818">Victor, </seg>do not waste your time upon <seg xml:id="C07g_app89-f1818">this; </seg>it is sad <seg part="I" xml:id="C07g_app91-f1818__I">trash.”</seg>
+               <seg part="F" xml:id="C07g_app8-f1818__F">Natural philosophy </seg>
+               <seg xml:id="C07g_app9-f1818">is the genius that has </seg>regulated my <seg xml:id="C07g_app11-f1818">fate; </seg>I <seg xml:id="C07g_app13-f1818">desire </seg>
+               <seg xml:id="C07g_app14-f1818">therefore, </seg>in this <seg xml:id="C07g_app16-f1818">narration, </seg>to <seg xml:id="C07g_app18-f1818">state </seg>those facts which led to <seg xml:id="C07g_app21-f1818">my predilection </seg>for that science. When I was <seg xml:id="C07g_app24-f1818">thirteen </seg>years <seg xml:id="C07g_app26-f1818">of age, </seg>we all went on a party of pleasure to <seg xml:id="C07g_app29-f1818">the baths near Thonon: </seg>the <seg xml:id="C07g_app31-f1818">inclemency of the weather obliged us to remain a day </seg>confined to the inn. In this house I chanced to find a <seg xml:id="C07g_app34-f1818">volume </seg>of the works of Cornelius Agrippa. <seg xml:id="C07g_app36-f1818">I opened it with </seg>
+               <seg xml:id="C07g_app37-f1818">apathy; the </seg>theory <seg xml:id="C07g_app39-f1818">which </seg>he <seg xml:id="C07g_app41-f1818">attempts </seg>to <seg xml:id="C07g_app43-f1818">demonstrate, </seg>and the <pb n="052" xml:id="F1818_v1_064"/>wonderful facts <seg xml:id="C07g_app45-f1818">which he relates, </seg>soon changed this feeling <seg xml:id="C07g_app47-f1818">into </seg>enthusiasm. A new light <seg xml:id="C07g_app50-f1818">seemed to dawn </seg>upon my <seg xml:id="C07g_app52-f1818">mind; and, </seg>bounding with <seg xml:id="C07g_app54-f1818">joy, </seg>I communicated my discovery to my father. <seg xml:id="C07g_app57-f1818">I cannot help remarking here the many opportunities instructors possess of directing the attention of their pupils to useful knowledge, which they utterly neglect. My father </seg>carelessly at the <seg xml:id="C07g_app59-f1818">title-page </seg>of my <seg xml:id="C07g_app61-f1818">book, </seg>
+               <seg xml:id="C07g_app62-f1818">and </seg>
+               <seg xml:id="C07g_app63-f1818">said, “Ah! </seg>Cornelius <seg xml:id="C07g_app65-f1818">Agrippa! </seg>My dear <seg xml:id="C07g_app67-f1818">Victor, </seg>do not waste your time upon <seg xml:id="C07g_app70-f1818">this; </seg>it is sad <seg part="I" xml:id="C07g_app72-f1818__I">trash.”</seg>
             </p>
             <p xml:id="novel1_letter4_chapter1_div4_div1_p16">
-               <seg part="F" xml:id="C07g_app91-f1818__F">If, </seg>instead of this <seg xml:id="C07g_app93-f1818">remark, </seg>my father had taken the pains to <seg xml:id="C07g_app95-f1818">explain </seg>to <seg xml:id="C07g_app97-f1818">me, </seg>that the principles of Agrippa had been entirely <seg xml:id="C07g_app99-f1818">exploded, </seg>and that <seg xml:id="C07g_app101-f1818">a modern system </seg>of science had been <seg xml:id="C07g_app104-f1818">introduced, </seg>which possessed much greater <seg xml:id="C07g_app107-f1818">powers </seg>than the <seg xml:id="C07g_app109-f1818">ancient, </seg>because the powers of the <seg xml:id="C07g_app112-f1818">latter </seg>were <seg xml:id="C07g_app114-f1818">chimerical, while <pb n="053" xml:id="F1818_v1_065"/>those of the </seg>
-               <seg xml:id="C07g_app115-f1818">former were </seg>real and practical; under such <seg xml:id="C07g_app117-f1818">circumstances, </seg>I should certainly have thrown Agrippa aside, <seg xml:id="C07g_app120-f1818">and, </seg>
-               <seg xml:id="C07g_app121-f1818">with </seg>my <seg xml:id="C07g_app123-f1818">imagination </seg>warmed as it <seg xml:id="C07g_app125-f1818">was, </seg>
-               <seg xml:id="C07g_app126-f1818">should </seg>
-               <seg xml:id="C07g_app127-f1818">probably have </seg>
-               <seg xml:id="C07g_app128-f1818">applied </seg>
-               <seg xml:id="C07g_app129-f1818">myself </seg>to <seg xml:id="C07g_app132-f1818">the more </seg>
-               <seg xml:id="C07g_app133-f1818">rational </seg>
-               <seg xml:id="C07g_app134-f1818">theory of chemistry which </seg>
-               <seg xml:id="C07g_app135-f1818">has </seg>
-               <seg xml:id="C07g_app136-f1818">resulted from modern </seg>
-               <seg xml:id="C07g_app137-f1818">discoveries. </seg>
-               <seg xml:id="C07g_app138-f1818">It </seg>is even <seg xml:id="C07g_app140-f1818">possible, </seg>that the train of my ideas <seg xml:id="C07g_app142-f1818">would </seg>never have <seg xml:id="C07g_app144-f1818">received the </seg>fatal impulse <seg xml:id="C07g_app146-f1818">that </seg>led <seg xml:id="C07g_app148-f1818">to my ruin. But the </seg>cursory glance my father had taken of my volume by no means assured me that he was acquainted with <seg xml:id="C07g_app152-f1818">its </seg>contents; and I continued to read with the <seg xml:id="C07g_app155-f1818">greatest </seg>
-               <seg part="I" xml:id="C07g_app156-f1818__I">avidity.</seg>
+               <seg part="F" xml:id="C07g_app72-f1818__F">If, </seg>instead of this <seg xml:id="C07g_app74-f1818">remark, </seg>my father had taken the pains to <seg xml:id="C07g_app76-f1818">explain </seg>to <seg xml:id="C07g_app78-f1818">me, </seg>that the principles of Agrippa had been entirely <seg xml:id="C07g_app80-f1818">exploded, </seg>and that <seg xml:id="C07g_app82-f1818">a modern system </seg>of science had been <seg xml:id="C07g_app85-f1818">introduced, </seg>which possessed much greater <seg xml:id="C07g_app88-f1818">powers </seg>than the <seg xml:id="C07g_app90-f1818">ancient, </seg>because the powers of the <seg xml:id="C07g_app93-f1818">latter </seg>were <seg xml:id="C07g_app95-f1818">chimerical, while <pb n="053" xml:id="F1818_v1_065"/>those of the </seg>
+               <seg xml:id="C07g_app96-f1818">former were </seg>real and practical; under such <seg xml:id="C07g_app98-f1818">circumstances, </seg>I should certainly have thrown Agrippa aside, <seg xml:id="C07g_app101-f1818">and, </seg>
+               <seg xml:id="C07g_app102-f1818">with </seg>my <seg xml:id="C07g_app104-f1818">imagination </seg>warmed as it <seg xml:id="C07g_app106-f1818">was, should probably have applied myself to the more rational theory of chemistry which has resulted from modern discoveries. </seg>It is even <seg xml:id="C07g_app108-f1818">possible, </seg>that the train of my ideas <seg xml:id="C07g_app110-f1818">would </seg>never have <seg xml:id="C07g_app112-f1818">received the </seg>fatal impulse <seg xml:id="C07g_app114-f1818">that </seg>led <seg xml:id="C07g_app116-f1818">to my ruin. But the </seg>cursory glance my father had taken of my volume by no means assured me that he was acquainted with <seg xml:id="C07g_app120-f1818">its </seg>contents; and I continued to read with the <seg xml:id="C07g_app123-f1818">greatest </seg>avidity.</p>
+            <p xml:id="novel1_letter4_chapter1_div4_div1_p17">When I returned home, my first care was to procure <seg xml:id="C07g_app127-f1818">the whole </seg>works of this <seg xml:id="C07g_app129-f1818">author, </seg>and afterwards <seg xml:id="C07g_app131-f1818">of Paracelsus and Albertus Magnus. I read and studied the wild fancies of these </seg>
+               <seg xml:id="C07g_app132-f1818">writers </seg>with <seg xml:id="C07g_app134-f1818">delight; </seg>they appeared to me trea<pb n="054" xml:id="F1818_v1_066"/>sures known to few <seg xml:id="C07g_app137-f1818">beside </seg>
+               <seg xml:id="C07g_app138-f1818">myself; </seg>
+               <seg xml:id="C07g_app139-f1818">and although I often wished to communicate </seg>
+               <seg xml:id="C07g_app140-f1818">these secret stores </seg>
+               <seg xml:id="C07g_app141-f1818">of knowledge </seg>
+               <seg xml:id="C07g_app142-f1818">to </seg>
+               <seg xml:id="C07g_app143-f1818">my </seg>
+               <seg xml:id="C07g_app144-f1818">father, </seg>
+               <seg xml:id="C07g_app145-f1818">yet his indefinite censure </seg>
+               <seg xml:id="C07g_app146-f1818">of </seg>
+               <seg xml:id="C07g_app147-f1818">my </seg>
+               <seg xml:id="C07g_app148-f1818">favourite Agrippa </seg>
+               <seg xml:id="C07g_app149-f1818">always withheld me. </seg>
+               <seg xml:id="C07g_app150-f1818">I disclosed </seg>
+               <seg xml:id="C07g_app151-f1818">my </seg>
+               <seg xml:id="C07g_app152-f1818">discoveries </seg>
+               <seg xml:id="C07g_app153-f1818">to </seg>
+               <seg xml:id="C07g_app154-f1818">Elizabeth, </seg>
+               <seg xml:id="C07g_app155-f1818">therefore, under </seg>
+               <seg xml:id="C07g_app156-f1818">a </seg>
+               <seg xml:id="C07g_app157-f1818">promise of strict secrecy; </seg>
+               <seg xml:id="C07g_app158-f1818">but </seg>
+               <seg xml:id="C07g_app159-f1818">she did </seg>
+               <seg xml:id="C07g_app160-f1818">not </seg>
+               <seg xml:id="C07g_app161-f1818">interest herself </seg>
+               <seg xml:id="C07g_app162-f1818">in </seg>
+               <seg xml:id="C07g_app163-f1818">the </seg>
+               <seg xml:id="C07g_app164-f1818">subject, </seg>
+               <seg xml:id="C07g_app165-f1818">and </seg>
+               <seg xml:id="C07g_app166-f1818">I </seg>
+               <seg xml:id="C07g_app167-f1818">was left by her to pursue </seg>
+               <seg xml:id="C07g_app168-f1818">my studies </seg>
+               <seg part="I" xml:id="C07g_app169-f1818__I">alone.</seg>
             </p>
-            <p xml:id="novel1_letter4_chapter1_div4_div1_p17">
-               <seg part="F" xml:id="C07g_app156-f1818__F">When </seg>I returned home, my first care was to procure <seg xml:id="C07g_app159-f1818">the whole </seg>works of this <seg xml:id="C07g_app161-f1818">author, </seg>and afterwards <seg xml:id="C07g_app163-f1818">of Paracelsus and Albertus Magnus. I read and studied the wild fancies of these </seg>
-               <seg xml:id="C07g_app164-f1818">writers </seg>with <seg xml:id="C07g_app166-f1818">delight; </seg>they appeared to me trea<pb n="054" xml:id="F1818_v1_066"/>sures known to few <seg xml:id="C07g_app169-f1818">beside </seg>
-               <seg xml:id="C07g_app170-f1818">myself; </seg>
-               <seg xml:id="C07g_app171-f1818">and although I often wished to communicate </seg>
-               <seg xml:id="C07g_app172-f1818">these secret stores </seg>
-               <seg xml:id="C07g_app173-f1818">of knowledge </seg>
-               <seg xml:id="C07g_app174-f1818">to </seg>
-               <seg xml:id="C07g_app175-f1818">my </seg>
-               <seg xml:id="C07g_app176-f1818">father, </seg>
-               <seg xml:id="C07g_app177-f1818">yet his indefinite censure </seg>
-               <seg xml:id="C07g_app178-f1818">of </seg>
-               <seg xml:id="C07g_app179-f1818">my </seg>
-               <seg xml:id="C07g_app180-f1818">favourite Agrippa </seg>
-               <seg xml:id="C07g_app181-f1818">always withheld me. </seg>
-               <seg xml:id="C07g_app183-f1818">I disclosed </seg>
-               <seg xml:id="C07g_app184-f1818">my </seg>
-               <seg xml:id="C07g_app185-f1818">discoveries </seg>
-               <seg xml:id="C07g_app186-f1818">to </seg>
-               <seg xml:id="C07g_app187-f1818">Elizabeth, </seg>
-               <seg xml:id="C07g_app188-f1818">therefore, under </seg>
-               <seg xml:id="C07g_app189-f1818">a </seg>
-               <seg xml:id="C07g_app190-f1818">promise </seg>
-               <seg xml:id="C07g_app191-f1818">of </seg>
-               <seg xml:id="C07g_app192-f1818">strict </seg>
-               <seg xml:id="C07g_app193-f1818">secrecy; </seg>
-               <seg xml:id="C07g_app194-f1818">but </seg>
-               <seg xml:id="C07g_app195-f1818">she did </seg>
-               <seg xml:id="C07g_app196-f1818">not </seg>
-               <seg xml:id="C07g_app197-f1818">interest herself </seg>
-               <seg xml:id="C07g_app198-f1818">in </seg>
-               <seg xml:id="C07g_app199-f1818">the </seg>
-               <seg xml:id="C07g_app200-f1818">subject, </seg>
-               <seg xml:id="C07g_app201-f1818">and </seg>
-               <seg xml:id="C07g_app202-f1818">I </seg>
-               <seg xml:id="C07g_app203-f1818">was left by her to pursue </seg>
-               <seg xml:id="C07g_app204-f1818">my studies </seg>
-               <seg part="I" xml:id="C07g_app205-f1818__I">alone.</seg>
-            </p>
+            <seg part="F" xml:id="C07g_app169-f1818__F"> 
+            </seg>
+            <seg part="I" xml:id="C07g_app170-f1818__I">
+            </seg>
             <p xml:id="novel1_letter4_chapter1_div4_div1_p18">
-               <seg part="F" xml:id="C07g_app205-f1818__F">It </seg>may appear <seg xml:id="C07g_app208-f1818">very </seg>
-               <seg xml:id="C07g_app209-f1818">strange, </seg>that <seg xml:id="C07g_app211-f1818">a </seg>
-               <seg xml:id="C07g_app212-f1818">disciple </seg>
-               <seg xml:id="C07g_app213-f1818">of Albertus Magnus </seg>should arise in the eighteenth <seg xml:id="C07g_app216-f1818">century; </seg>but <seg xml:id="C07g_app218-f1818">our family </seg>was not <seg xml:id="C07g_app221-f1818">scientifical, </seg>and I <seg xml:id="C07g_app223-f1818">had </seg>
-               <seg xml:id="C07g_app224-f1818">not attended any of the </seg>
-               <seg xml:id="C07g_app225-f1818">lectures given at </seg>
-               <seg xml:id="C07g_app226-f1818">the schools of </seg>
-               <seg xml:id="C07g_app227-f1818">Geneva. My dreams were </seg>
-               <seg xml:id="C07g_app228-f1818">therefore undisturbed by </seg>
-               <seg xml:id="C07g_app229-f1818">reality; </seg>
-               <seg xml:id="C07g_app230-f1818">and </seg>I entered with the <seg xml:id="C07g_app233-f1818">greatest </seg>diligence into the search of the <seg xml:id="C07g_app236-f1818">philosopher’s </seg>stone and the <seg xml:id="C07g_app238-f1818">elixir </seg>of <seg xml:id="C07g_app240-f1818">life. </seg>But the latter <seg xml:id="C07g_app242-f1818">obtained my </seg>
-               <seg xml:id="C07g_app243-f1818">most </seg>
-               <seg xml:id="C07g_app244-f1818">undi<pb n="055" xml:id="F1818_v1_067"/>vided </seg>
-               <seg xml:id="C07g_app245-f1818">attention: </seg>wealth was an inferior <seg xml:id="C07g_app247-f1818">object; </seg>but what <seg xml:id="C07g_app249-f1818">glory </seg>
-               <seg xml:id="C07g_app250-f1818">would attend </seg>the <seg xml:id="C07g_app252-f1818">discovery, </seg>if I could <seg xml:id="C07g_app254-f1818">banish disease from the human </seg>
-               <seg xml:id="C07g_app255-f1818">frame, </seg>and render man <seg xml:id="C07g_app257-f1818">invulnerable </seg>to <seg xml:id="C07g_app259-f1818">any but </seg>a violent <seg part="I" xml:id="C07g_app261-f1818__I">death!</seg>
+               <seg part="F" xml:id="C07g_app170-f1818__F">It </seg>may appear <seg xml:id="C07g_app172-f1818">very </seg>
+               <seg xml:id="C07g_app173-f1818">strange, </seg>that <seg xml:id="C07g_app175-f1818">a disciple of Albertus Magnus </seg>should arise in the eighteenth <seg xml:id="C07g_app178-f1818">century; </seg>but <seg xml:id="C07g_app180-f1818">our family </seg>was not <seg xml:id="C07g_app182-f1818">scientifical, </seg>and I <seg xml:id="C07g_app184-f1818">had </seg>
+               <seg xml:id="C07g_app185-f1818">not attended any of the </seg>
+               <seg xml:id="C07g_app186-f1818">lectures given at </seg>
+               <seg xml:id="C07g_app187-f1818">the schools of </seg>
+               <seg xml:id="C07g_app188-f1818">Geneva. My dreams were </seg>
+               <seg xml:id="C07g_app189-f1818">therefore undisturbed by </seg>
+               <seg xml:id="C07g_app190-f1818">reality; </seg>
+               <seg xml:id="C07g_app191-f1818">and </seg>I entered with the <seg xml:id="C07g_app194-f1818">greatest </seg>diligence into the search of the <seg xml:id="C07g_app197-f1818">philosopher’s </seg>stone and the <seg xml:id="C07g_app199-f1818">elixir </seg>of <seg xml:id="C07g_app201-f1818">life. </seg>But the latter <seg xml:id="C07g_app203-f1818">obtained my </seg>
+               <seg xml:id="C07g_app204-f1818">most </seg>
+               <seg xml:id="C07g_app205-f1818">undi<pb n="055" xml:id="F1818_v1_067"/>vided </seg>
+               <seg xml:id="C07g_app206-f1818">attention: </seg>wealth was an inferior <seg xml:id="C07g_app208-f1818">object; </seg>but what <seg xml:id="C07g_app210-f1818">glory would attend the </seg>
+               <seg xml:id="C07g_app211-f1818">discovery, </seg>if I could <seg xml:id="C07g_app213-f1818">banish disease from the human </seg>
+               <seg xml:id="C07g_app214-f1818">frame, </seg>and render man <seg xml:id="C07g_app216-f1818">invulnerable </seg>to <seg xml:id="C07g_app218-f1818">any but </seg>a violent <seg part="I" xml:id="C07g_app220-f1818__I">death!</seg>
             </p>
             <p xml:id="novel1_letter4_chapter1_div4_div1_p19">
-               <seg part="F" xml:id="C07g_app261-f1818__F">Nor </seg>were these my only <seg xml:id="C07g_app263-f1818">visions. </seg>The raising of ghosts or devils <seg xml:id="C07g_app266-f1818">was </seg>a promise liberally accorded <seg xml:id="C07g_app268-f1818">by my </seg>favourite <seg xml:id="C07g_app270-f1818">authors, </seg>the fulfilment of which I most eagerly <seg xml:id="C07g_app272-f1818">sought; and </seg>if my incantations were always <seg xml:id="C07g_app274-f1818">unsuccessful, I attributed </seg>the failure rather to my own inexperience <seg xml:id="C07g_app276-f1818">and mistake, than to a want of skill or fidelity in </seg>
-               <seg part="I" xml:id="C07g_app277-f1818__I">my instructors.</seg>
+               <seg part="F" xml:id="C07g_app220-f1818__F">Nor </seg>were these my only <seg xml:id="C07g_app222-f1818">visions. </seg>The raising of ghosts or devils <seg xml:id="C07g_app225-f1818">was </seg>a promise liberally accorded <seg xml:id="C07g_app227-f1818">by my </seg>favourite <seg xml:id="C07g_app229-f1818">authors, </seg>the fulfilment of which I most eagerly <seg xml:id="C07g_app231-f1818">sought; and </seg>if my incantations were always <seg xml:id="C07g_app233-f1818">unsuccessful, I attributed </seg>the failure rather to my own inexperience <seg xml:id="C07g_app235-f1818">and mistake, than to a want of skill or fidelity in </seg>
+               <seg part="I" xml:id="C07g_app236-f1818__I">my instructors.</seg>
             </p>
             <p xml:id="novel1_letter4_chapter1_div4_div1_p20">
-               <seg part="F" xml:id="C07g_app277-f1818__F">The </seg>
-               <seg xml:id="C07g_app278-f1818">natural </seg>
-               <seg xml:id="C07g_app279-f1818">phænomena </seg>
-               <seg xml:id="C07g_app280-f1818">that </seg>
-               <seg xml:id="C07g_app281-f1818">take </seg>
-               <seg xml:id="C07g_app282-f1818">place every day before our eyes did not </seg>
-               <seg xml:id="C07g_app283-f1818">escape </seg>my <seg xml:id="C07g_app285-f1818">examinations. </seg>
-               <seg xml:id="C07g_app286-f1818">Distillation, </seg>
-               <seg xml:id="C07g_app287-f1818">and </seg>
-               <seg xml:id="C07g_app288-f1818">the wonderful effects of steam, processes </seg>
-               <seg xml:id="C07g_app289-f1818">of which </seg>
-               <seg xml:id="C07g_app290-f1818">my </seg>
-               <seg xml:id="C07g_app291-f1818">favourite </seg>
-               <seg xml:id="C07g_app292-f1818">authors were </seg>
-               <seg xml:id="C07g_app293-f1818">utterly ignorant, </seg>
-               <seg xml:id="C07g_app294-f1818">excited my </seg>
-               <seg xml:id="C07g_app295-f1818">astonishment; </seg>
-               <seg xml:id="C07g_app296-f1818">but my utmost </seg>
-               <seg xml:id="C07g_app297-f1818">wonder </seg>was <seg xml:id="C07g_app299-f1818">
-               <pb n="056" xml:id="F1818_v1_068"/>engaged </seg>by <seg xml:id="C07g_app301-f1818">some </seg>
-               <seg xml:id="C07g_app302-f1818">experiments on </seg>an <seg xml:id="C07g_app304-f1818">air-pump, </seg>
-               <seg xml:id="C07g_app305-f1818">which I saw </seg>
-               <seg xml:id="C07g_app306-f1818">employed </seg>
-               <seg xml:id="C07g_app307-f1818">by </seg>a <seg xml:id="C07g_app309-f1818">gentleman whom </seg>
-               <seg xml:id="C07g_app310-f1818">we were </seg>in <seg xml:id="C07g_app312-f1818">the habit </seg>of <seg part="I" xml:id="C07g_app314-f1818__I">visiting.</seg>
+               <seg part="F" xml:id="C07g_app236-f1818__F">The </seg>
+               <seg xml:id="C07g_app237-f1818">natural </seg>
+               <seg xml:id="C07g_app238-f1818">phænomena </seg>
+               <seg xml:id="C07g_app239-f1818">that </seg>
+               <seg xml:id="C07g_app240-f1818">take </seg>
+               <seg xml:id="C07g_app241-f1818">place every day before our eyes did not </seg>
+               <seg xml:id="C07g_app242-f1818">escape </seg>
+               <seg xml:id="C07g_app243-f1818">my </seg>
+               <seg xml:id="C07g_app244-f1818">examinations. </seg>
+               <seg xml:id="C07g_app245-f1818">Distillation, </seg>
+               <seg xml:id="C07g_app246-f1818">and </seg>
+               <seg xml:id="C07g_app247-f1818">the wonderful effects of steam, processes </seg>
+               <seg xml:id="C07g_app248-f1818">of which </seg>
+               <seg xml:id="C07g_app249-f1818">my </seg>
+               <seg xml:id="C07g_app250-f1818">favourite </seg>
+               <seg xml:id="C07g_app251-f1818">authors were </seg>
+               <seg xml:id="C07g_app252-f1818">utterly ignorant, </seg>
+               <seg xml:id="C07g_app253-f1818">excited my </seg>
+               <seg xml:id="C07g_app254-f1818">astonishment; </seg>
+               <seg xml:id="C07g_app255-f1818">but my utmost </seg>
+               <seg xml:id="C07g_app256-f1818">wonder </seg>
+               <seg xml:id="C07g_app257-f1818">was </seg>
+               <seg xml:id="C07g_app258-f1818">
+               <pb n="056" xml:id="F1818_v1_068"/>engaged </seg>
+               <seg xml:id="C07g_app259-f1818">by </seg>
+               <seg xml:id="C07g_app260-f1818">some </seg>
+               <seg xml:id="C07g_app261-f1818">experiments on </seg>
+               <seg xml:id="C07g_app262-f1818">an </seg>
+               <seg xml:id="C07g_app263-f1818">air-pump, </seg>
+               <seg xml:id="C07g_app264-f1818">which I saw </seg>
+               <seg xml:id="C07g_app265-f1818">employed </seg>
+               <seg xml:id="C07g_app266-f1818">by </seg>
+               <seg xml:id="C07g_app267-f1818">a </seg>
+               <seg xml:id="C07g_app268-f1818">gentleman whom </seg>
+               <seg xml:id="C07g_app269-f1818">we were </seg>in <seg xml:id="C07g_app271-f1818">the habit </seg>
+               <seg xml:id="C07g_app272-f1818">of </seg>
+               <seg part="I" xml:id="C07g_app273-f1818__I">visiting.</seg>
             </p>
             <p xml:id="novel1_letter4_chapter1_div4_div1_p21">
-               <seg part="F" xml:id="C07g_app314-f1818__F">The </seg>
-               <seg xml:id="C07g_app315-f1818">ignorance of </seg>
-               <seg xml:id="C07g_app316-f1818">the early </seg>
-               <seg xml:id="C07g_app317-f1818">philosophers on these </seg>and <seg xml:id="C07g_app319-f1818">several other </seg>
-               <seg xml:id="C07g_app320-f1818">points </seg>
-               <seg xml:id="C07g_app321-f1818">served to </seg>
-               <seg xml:id="C07g_app322-f1818">decrease their </seg>
-               <seg xml:id="C07g_app323-f1818">credit with </seg>
-               <seg xml:id="C07g_app324-f1818">me: </seg>
-               <seg xml:id="C07g_app325-f1818">but I could not entirely throw </seg>
-               <seg xml:id="C07g_app326-f1818">them </seg>
-               <seg xml:id="C07g_app327-f1818">aside, </seg>
-               <seg xml:id="C07g_app328-f1818">before </seg>
-               <seg xml:id="C07g_app329-f1818">some other system </seg>
-               <seg xml:id="C07g_app330-f1818">should occupy </seg>
-               <seg xml:id="C07g_app331-f1818">their </seg>
-               <seg xml:id="C07g_app332-f1818">place </seg>
-               <seg xml:id="C07g_app333-f1818">in </seg>my <seg part="I" xml:id="C07g_app335-f1818__I">mind.</seg>
+               <seg part="F" xml:id="C07g_app273-f1818__F">The </seg>
+               <seg xml:id="C07g_app274-f1818">ignorance of </seg>
+               <seg xml:id="C07g_app275-f1818">the early </seg>
+               <seg xml:id="C07g_app276-f1818">philosophers on these </seg>
+               <seg xml:id="C07g_app277-f1818">and </seg>
+               <seg xml:id="C07g_app278-f1818">several other </seg>
+               <seg xml:id="C07g_app279-f1818">points </seg>
+               <seg xml:id="C07g_app280-f1818">served to </seg>
+               <seg xml:id="C07g_app281-f1818">decrease their </seg>
+               <seg xml:id="C07g_app282-f1818">credit with </seg>
+               <seg xml:id="C07g_app283-f1818">me: </seg>
+               <seg xml:id="C07g_app284-f1818">but I could not entirely throw </seg>
+               <seg xml:id="C07g_app285-f1818">them </seg>
+               <seg xml:id="C07g_app286-f1818">aside, </seg>
+               <seg xml:id="C07g_app287-f1818">before </seg>
+               <seg xml:id="C07g_app288-f1818">some other system </seg>
+               <seg xml:id="C07g_app289-f1818">should occupy </seg>
+               <seg xml:id="C07g_app290-f1818">their </seg>
+               <seg xml:id="C07g_app291-f1818">place </seg>
+               <seg xml:id="C07g_app292-f1818">in </seg>
+               <seg part="I" xml:id="C07g_app293-f1818__I">my mind.</seg>
             </p>
+            <seg part="F" xml:id="C07g_app293-f1818__F">
+            </seg>
+            <seg part="I" xml:id="C07g_app294-f1818__I">
+            </seg>
             <p xml:id="novel1_letter4_chapter1_div4_div1_p22">
-               <seg part="F" xml:id="C07g_app335-f1818__F">When </seg>I was about <seg xml:id="C07g_app337-f1818">fifteen </seg>years <seg xml:id="C07g_app339-f1818">old, </seg>we <seg xml:id="C07g_app342-f1818">had retired to </seg>our house near <seg xml:id="C07g_app344-f1818">Belrive, </seg>when we witnessed <seg xml:id="C07g_app346-f1818">a </seg>
-               <seg xml:id="C07g_app347-f1818">most </seg>violent and terrible <seg xml:id="C07g_app349-f1818">thunder-storm. </seg>It advanced from behind <seg xml:id="C07g_app351-f1818">the mountains of Jura; </seg>and the thunder <seg xml:id="C07g_app353-f1818">burst at once with </seg>
-               <seg xml:id="C07g_app354-f1818">frightful </seg>
-               <seg xml:id="C07g_app355-f1818">loudness from </seg>various quarters of the <seg xml:id="C07g_app357-f1818">heavens. </seg>I <seg xml:id="C07g_app359-f1818">remained, </seg>while the storm <seg xml:id="C07g_app361-f1818">lasted, watching </seg>its progress with curiosity and <seg xml:id="C07g_app364-f1818">delight. As </seg>I stood at the <seg xml:id="C07g_app366-f1818">door, on </seg>a sudden I beheld <seg xml:id="C07g_app368-f1818">a </seg>stream of fire issue from an old <seg xml:id="C07g_app371-f1818">and beautiful </seg>
-               <seg xml:id="C07g_app372-f1818">oak, <pb n="057" xml:id="F1818_v1_069"/>which stood </seg>about <seg xml:id="C07g_app374-f1818">twenty yards from </seg>our <seg xml:id="C07g_app376-f1818">house; </seg>and <seg xml:id="C07g_app378-f1818">so </seg>soon as the <seg xml:id="C07g_app380-f1818">dazzling light </seg>
-               <seg xml:id="C07g_app381-f1818">vanished, the oak </seg>
-               <seg xml:id="C07g_app382-f1818">had </seg>
-               <seg xml:id="C07g_app383-f1818">disappeared, </seg>and <seg xml:id="C07g_app385-f1818">nothing remained </seg>but a <seg xml:id="C07g_app387-f1818">blasted </seg>
-               <seg xml:id="C07g_app388-f1818">stump. </seg>When we visited it the next <seg xml:id="C07g_app391-f1818">morning, </seg>we found the <seg xml:id="C07g_app394-f1818">tree shattered in a </seg>singular manner. It was not splintered by the shock, but entirely reduced to thin <seg xml:id="C07g_app397-f1818">ribbands </seg>of wood. <seg xml:id="C07g_app399-f1818">I never </seg>
-               <seg xml:id="C07g_app400-f1818">beheld </seg>
-               <seg xml:id="C07g_app401-f1818">any thing </seg>so utterly <seg part="I" xml:id="C07g_app403-f1818__I">destroyed.</seg>
+               <seg part="F" xml:id="C07g_app294-f1818__F">When </seg>I was about <seg xml:id="C07g_app296-f1818">fifteen </seg>years <seg xml:id="C07g_app298-f1818">old, </seg>we <seg xml:id="C07g_app300-f1818">had retired to </seg>our house near <seg xml:id="C07g_app302-f1818">Belrive, </seg>when we witnessed <seg xml:id="C07g_app304-f1818">a </seg>
+               <seg xml:id="C07g_app305-f1818">most violent and terrible </seg>
+               <seg xml:id="C07g_app306-f1818">thunder-storm. </seg>It advanced from behind <seg xml:id="C07g_app308-f1818">the mountains of Jura; </seg>and the thunder <seg xml:id="C07g_app310-f1818">burst at once with </seg>
+               <seg xml:id="C07g_app311-f1818">frightful </seg>
+               <seg xml:id="C07g_app312-f1818">loudness from </seg>various quarters of the <seg xml:id="C07g_app314-f1818">heavens. </seg>I <seg xml:id="C07g_app316-f1818">remained, </seg>while the storm <seg xml:id="C07g_app318-f1818">lasted, watching </seg>its progress with curiosity and <seg xml:id="C07g_app321-f1818">delight. As </seg>I stood at the <seg xml:id="C07g_app323-f1818">door, on </seg>a sudden I beheld <seg xml:id="C07g_app325-f1818">a </seg>stream of fire issue from an old <seg xml:id="C07g_app328-f1818">and beautiful </seg>
+               <seg xml:id="C07g_app329-f1818">oak, <pb n="057" xml:id="F1818_v1_069"/>which stood </seg>about <seg xml:id="C07g_app331-f1818">twenty yards from </seg>our <seg xml:id="C07g_app333-f1818">house; </seg>and <seg xml:id="C07g_app335-f1818">so </seg>soon as the <seg xml:id="C07g_app337-f1818">dazzling light </seg>
+               <seg xml:id="C07g_app338-f1818">vanished, the oak </seg>
+               <seg xml:id="C07g_app339-f1818">had </seg>
+               <seg xml:id="C07g_app340-f1818">disappeared, </seg>and nothing remained but a <seg xml:id="C07g_app344-f1818">blasted </seg>
+               <seg xml:id="C07g_app345-f1818">stump. </seg>When we visited it the next <seg xml:id="C07g_app348-f1818">morning, </seg>we found the <seg xml:id="C07g_app351-f1818">tree shattered in a </seg>singular manner. It was not splintered by the shock, but entirely reduced to thin <seg xml:id="C07g_app354-f1818">ribbands </seg>of wood. <seg xml:id="C07g_app356-f1818">I never </seg>
+               <seg xml:id="C07g_app357-f1818">beheld </seg>
+               <seg xml:id="C07g_app358-f1818">any thing </seg>so utterly <seg part="I" xml:id="C07g_app360-f1818__I">destroyed.</seg>
             </p>
-            <seg part="F" xml:id="C07g_app403-f1818__F"> 
+            <seg part="F" xml:id="C07g_app360-f1818__F"> 
             </seg>
          
             <seg part="I" xml:id="C07h_app1-f1818__I">

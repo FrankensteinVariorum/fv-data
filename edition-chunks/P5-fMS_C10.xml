@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../segMarkerTester.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../segMarkerTester.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein" xmlns:mith="http://mith.umd.edu/sc/ns1#" xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -13,7 +13,8 @@
             </availability>
          </publicationStmt>
          <sourceDesc>
-            <p>Produced from collation output: 2018-10-01 10:17:43.130750 </p>
+            <p>Produced from collation output prepared in batch file processing on  2018-10-01 10:17:43.130750 .</p>
+            <p>Edited to correct alignments and prepared for the Frankenstein Variorum spine on  2019-03-17T14:23:51.998-04:00.</p>
          </sourceDesc>
       </fileDesc>
    </teiHeader>
@@ -152,194 +153,192 @@
             <lb n="c56-0049__main__18"/>
             <metamark ana="start"/>L<metamark ana="end"/>walks <seg xml:id="C10_app340-fMS">on <lb n="c56-0049__main__19"/> "<del rend="smear" xml:id="c56-0049__main__d2e10662">wal</del>And </seg>turns no more his <seg xml:id="C10_app342-fMS">head <lb n="c56-0049__main__20"/> "Because </seg>he knows a frightful <seg xml:id="C10_app344-fMS">
             <lb n="c56-0049__main__21"/>
-            <metamark ana="start"/>L<metamark ana="end"/>fiend <lb n="c56-0049__main__22"/> "doth </seg>close behind him <seg xml:id="C10_app346-fMS">tread."<metamark ana="start"/>*<metamark ana="end"/>
-            <lb n="c56-0049__main__23"/> Continueing </seg>thus, I came at <seg xml:id="C10_app350-fMS">lenght <lb n="c56-0049__main__24"/>
-            <del rend="strikethrough" xml:id="c56-0049__main__d2e10686">opposite</del>opposite </seg>to the Inn at which the dili<lb n="c56-0049__main__25"/>gences and carriages usually stopped. Here <lb n="c56-0049__main__26"/> I <seg xml:id="C10_app355-fMS">paused </seg>I knew not <seg xml:id="C10_app357-fMS">why </seg>but remained <lb n="c56-0049__main__27"/> some minutes with my eyes fixed on <lb n="c56-0049__main__28"/> a coach that was coming towards me <lb n="c56-0049__main__29"/> from the other end of the street. <lb n="c56-0049__main__30"/> As <mdel ana="start"/>I<mdel ana="end"/>
-            <metamark ana="start" function="insert"/>^<metamark ana="end"/>it drew <seg xml:id="C10_app365-fMS">nearer </seg>I observed that it <lb n="c56-0049__main__31"/> was the Swiss <seg xml:id="C10_app368-fMS">diligence; </seg>it stopped <lb n="c56-0049__main__32"/> just where I was <seg xml:id="C10_app371-fMS">standing, and on<metamark ana="start"/>_______________<metamark ana="end"/>
+            <metamark ana="start"/>L<metamark ana="end"/>fiend <lb n="c56-0049__main__22"/> "doth </seg>close behind him <seg xml:id="C10_app346-fMS">tread."<metamark ana="start"/>*<metamark ana="end"/> 
+            <metamark ana="start"/>_______________<metamark ana="end"/>
             <milestone spanTo="#c56-0049.03" unit="tei:note"/>
             <metamark ana="start"/>*<metamark ana="end"/>Coleridge's "Ancient Mariner."<lb n="c56-0050__main__1"/> 
-            </seg>the <seg xml:id="C10_app373-fMS">doors </seg>being <seg xml:id="C10_app375-fMS">opened </seg>I perceived Henry <lb n="c56-0050__main__2"/> Clerval, <seg xml:id="C10_app378-fMS">who </seg>on <seg xml:id="C10_app380-fMS">
+            </seg>
+            <seg xml:id="C10_app347-fMS">
+            <lb n="c56-0049__main__23"/> Continueing</seg>thus, I came at <seg xml:id="C10_app349-fMS">lenght <lb n="c56-0049__main__24"/>
+            <del rend="strikethrough" xml:id="c56-0049__main__d2e10686">opposite</del>opposite </seg>to the Inn at which the <seg xml:id="C10_app351-fMS">dili<lb n="c56-0049__main__25"/>gences and carriages usually stopped. Here </seg>
+            <lb n="c56-0049__main__26"/> I <seg xml:id="C10_app353-fMS">paused </seg>I knew not <seg xml:id="C10_app355-fMS">why </seg>but remained <lb n="c56-0049__main__27"/> some minutes with my eyes fixed on <lb n="c56-0049__main__28"/> a coach that was coming towards me <lb n="c56-0049__main__29"/> from the other end of the street. <lb n="c56-0049__main__30"/> As <mdel ana="start"/>I<mdel ana="end"/>
+            <metamark ana="start" function="insert"/>^<metamark ana="end"/>it drew <seg xml:id="C10_app363-fMS">nearer </seg>I observed that it <lb n="c56-0049__main__31"/> was the Swiss <seg xml:id="C10_app366-fMS">diligence; </seg>it stopped <lb n="c56-0049__main__32"/> just where I was <seg xml:id="C10_app369-fMS">standing, and on </seg>the <seg xml:id="C10_app371-fMS">doors </seg>being <seg xml:id="C10_app373-fMS">opened </seg>I perceived Henry <lb n="c56-0050__main__2"/> Clerval, <seg xml:id="C10_app376-fMS">who </seg>on <seg xml:id="C10_app378-fMS">
             <del xml:id="c56-0050__main__d2e10762">seee</del> seeing </seg>
-            <seg xml:id="C10_app381-fMS">me </seg>instantly <lb n="c56-0050__main__3"/> sprung <seg xml:id="C10_app384-fMS">out.<milestone unit="tei:p"/>
+            <seg xml:id="C10_app379-fMS">me </seg>instantly <lb n="c56-0050__main__3"/> sprung <seg xml:id="C10_app382-fMS">out.<milestone unit="tei:p"/>
             <lb n="c56-0050__main__4"/> 
-            </seg>"My dear <seg xml:id="C10_app386-fMS">Frankenstien," </seg>exclaimed <seg xml:id="C10_app388-fMS">he <lb n="c56-0050__main__5"/> 
-            </seg>"How glad I am to see <seg xml:id="C10_app390-fMS">you; </seg>how <seg xml:id="C10_app392-fMS">
+            </seg>"My dear <seg xml:id="C10_app384-fMS">Frankenstien," </seg>exclaimed <seg xml:id="C10_app386-fMS">he <lb n="c56-0050__main__5"/> 
+            </seg>"How glad I am to see <seg xml:id="C10_app388-fMS">you; </seg>how <seg xml:id="C10_app390-fMS">
             <lb n="c56-0050__main__6"/> "fortunate </seg>that you should be here at <lb n="c56-0050__main__7"/> the <metamark ana="start" function="insert"/>^<metamark ana="end"/>very moment of my alighting."<milestone unit="tei:p"/>
-            <lb n="c56-0050__main__8"/> Nothing could equal my delight <lb n="c56-0050__main__9"/> on <seg xml:id="C10_app398-fMS">
-            <del rend="strikethrough" xml:id="c56-0050__main__d2e10803">see</del> seing Clerval: </seg>his presence <lb n="c56-0050__main__10"/> brought back to my thoughts my fa<lb n="c56-0050__main__11"/>ther, <seg xml:id="C10_app401-fMS">Elizabeth </seg>and all those scenes <lb n="c56-0050__main__12"/> of home so dear to my recollection. <lb n="c56-0050__main__13"/> I grasped his hand, and in a moment <lb n="c56-0050__main__14"/> forgot my horror and <seg xml:id="C10_app406-fMS">misfortune. <lb n="c56-0050__main__15"/> 
-            </seg>I <seg xml:id="C10_app408-fMS">felt<metamark ana="start" function="insert"/>^<metamark ana="end"/>suddenly, </seg>and for the first time <seg xml:id="C10_app410-fMS">
+            <lb n="c56-0050__main__8"/> Nothing could equal my delight <lb n="c56-0050__main__9"/> on <seg xml:id="C10_app396-fMS">
+            <del rend="strikethrough" xml:id="c56-0050__main__d2e10803">see</del> seing Clerval: </seg>his presence <lb n="c56-0050__main__10"/> brought back to my thoughts my fa<lb n="c56-0050__main__11"/>ther, <seg xml:id="C10_app399-fMS">Elizabeth </seg>and all those scenes <lb n="c56-0050__main__12"/> of home so dear to my recollection. <lb n="c56-0050__main__13"/> I grasped his hand, and in a moment <lb n="c56-0050__main__14"/> forgot my horror and <seg xml:id="C10_app404-fMS">misfortune. <lb n="c56-0050__main__15"/> 
+            </seg>I felt<metamark ana="start" function="insert"/>^<metamark ana="end"/>suddenly, and for the first time <seg xml:id="C10_app408-fMS">
             <del rend="strikethrough" xml:id="c56-0050__main__d2e10838">for</del>duringfor <lb n="c56-0050__main__16"/> 
-            </seg>many months, calm and serene <lb n="c56-0050__main__17"/> joy. I welcomed my friend therefore <lb n="c56-0050__main__18"/> in the most cordial <seg xml:id="C10_app415-fMS">manner </seg>&amp;<lb n="c56-0050__main__19"/> we walked towards my <seg xml:id="C10_app417-fMS">colledge. <lb n="c56-0050__main__20"/> 
-            </seg>Clerval <seg xml:id="C10_app419-fMS">
+            </seg>many months, calm and serene <lb n="c56-0050__main__17"/> joy. I welcomed my <seg xml:id="C10_app411-fMS">friend therefore <lb n="c56-0050__main__18"/> 
+            </seg>in the most cordial <seg xml:id="C10_app413-fMS">manner </seg>&amp;<lb n="c56-0050__main__19"/> we walked towards my <seg xml:id="C10_app415-fMS">colledge. <lb n="c56-0050__main__20"/> 
+            </seg>Clerval <seg xml:id="C10_app417-fMS">
             <del rend="strikethrough" xml:id="c56-0050__main__d2e10859">ran on</del>
             <del rend="strikethrough" xml:id="c56-0050__main__d2e10862">talked</del> continued </seg>
             <lb n="c56-0050__main__21"/> talking for some time about <mdel ana="start"/>my<mdel ana="end"/>our mutual<lb n="c56-0050__main__22"/> 
-            <seg xml:id="C10_app421-fMS">friends </seg>and his <seg xml:id="C10_app423-fMS">owngood </seg>fortune in <lb n="c56-0050__main__23"/> being <seg xml:id="C10_app426-fMS">allowed </seg>to come to <seg xml:id="C10_app428-fMS">Ingolstadt.<milestone unit="tei:p"/>
+            <seg xml:id="C10_app419-fMS">friends </seg>and his owngood fortune in <lb n="c56-0050__main__23"/> being <seg xml:id="C10_app424-fMS">allowed </seg>to come to <seg xml:id="C10_app426-fMS">Ingolstadt.<milestone unit="tei:p"/>
             <lb n="c56-0050__main__24"/> 
-            </seg>"You may believe," said he, <seg xml:id="C10_app432-fMS">
+            </seg>"You may believe," said he, <seg xml:id="C10_app430-fMS">
             <del rend="strikethrough" xml:id="c56-0050__main__d2e10888">"that</del>
-            <lb n="c56-0050__main__25"/> "it </seg>was <seg xml:id="C10_app434-fMS">not with<del rend="strikethrough" xml:id="c56-0050__main__d2e10894">out</del> considerable <lb n="c56-0050__main__26"/> "trouble that I persuaded </seg>my <seg xml:id="C10_app436-fMS">
-            <lb n="c56-0050__main__27"/> "father </seg>that <seg xml:id="C10_app438-fMS">it </seg>
-            <seg xml:id="C10_app439-fMS">is </seg>
-            <seg xml:id="C10_app440-fMS">not absolutely </seg>
-            <seg xml:id="C10_app441-fMS">
-            <lb n="c56-0050__main__28"/> "necessary </seg>
-            <seg xml:id="C10_app442-fMS">for a merchant </seg>
-            <seg xml:id="C10_app444-fMS">to </seg>
-            <seg xml:id="C10_app445-fMS">
-            <lb n="c56-0050__main__29"/> "know nothing </seg>
-            <seg xml:id="C10_app446-fMS">except </seg>
-            <seg xml:id="C10_app447-fMS">bookeeping<lb n="c56-0051__main__1"/> "and indeed </seg>I believe I left him <seg xml:id="C10_app449-fMS">
-            <lb n="c56-0051__main__2"/> "incredulous </seg>to the <seg xml:id="C10_app451-fMS">last </seg>for his con<lb n="c56-0051__main__3"/>stant answer to my <seg xml:id="C10_app453-fMS">applications <lb n="c56-0051__main__4"/> "was </seg>the same as <metamark ana="start" function="insert"/>^<metamark ana="end"/>that <seg xml:id="C10_app455-fMS">ofthe </seg>dutch <seg xml:id="C10_app457-fMS">school <lb n="c56-0051__main__5"/> "master </seg>in the Vicar of <seg xml:id="C10_app459-fMS">Wakefield– <lb n="c56-0051__main__6"/>'I live very well yet I do not know <lb n="c56-0051__main__7"/> "Greek " I </seg>have ten thousand <seg xml:id="C10_app461-fMS">florins– <lb n="c56-0051__left_margin__1"/> "<del rend="smear" xml:id="c56-0051__left_margin__d2e10967">y<shi ana="start" rend="sup"/>r<shi ana="end"/>.</del> with <lb n="c56-0051__left_margin__2"/> "out greek –I <lb n="c56-0051__left_margin__3"/> "eat </seg>heartily <seg xml:id="C10_app463-fMS">
-            <lb n="c56-0051__left_margin__4"/> "without greek <lb n="c56-0051__left_margin__5"/>of-<lb n="c56-0051__main__8"/> "But </seg>his affection for me at <seg xml:id="C10_app465-fMS">
-            <lb n="c56-0051__main__9"/> "length </seg>overcame his dislike <seg xml:id="C10_app467-fMS">for <lb n="c56-0051__main__10"/> "learning, </seg>and he permitted me <seg xml:id="C10_app471-fMS">
+            <lb n="c56-0050__main__25"/> "it </seg>was <seg xml:id="C10_app432-fMS">not with<del rend="strikethrough" xml:id="c56-0050__main__d2e10894">out</del> considerable <lb n="c56-0050__main__26"/> "trouble that I persuaded </seg>my <seg xml:id="C10_app434-fMS">
+            <lb n="c56-0050__main__27"/> "father </seg>that <seg xml:id="C10_app436-fMS">it is not absolutely <lb n="c56-0050__main__28"/> "necessary for a merchant to <lb n="c56-0050__main__29"/> "know nothing except </seg>
+            <seg xml:id="C10_app437-fMS">bookeeping<lb n="c56-0051__main__1"/> "and indeed </seg>I believe I left him <seg xml:id="C10_app439-fMS">
+            <lb n="c56-0051__main__2"/> "incredulous </seg>to the <seg xml:id="C10_app441-fMS">last </seg>for his con<lb n="c56-0051__main__3"/>stant answer to my <seg xml:id="C10_app443-fMS">applications <lb n="c56-0051__main__4"/> "was </seg>the same as <metamark ana="start" function="insert"/>^<metamark ana="end"/>that ofthe dutch <seg xml:id="C10_app447-fMS">school <lb n="c56-0051__main__5"/> "master </seg>in the Vicar of <seg xml:id="C10_app449-fMS">Wakefield– <lb n="c56-0051__main__6"/>'I live very well yet I do not know <lb n="c56-0051__main__7"/> "Greek " I </seg>have ten thousand <seg xml:id="C10_app451-fMS">florins– <lb n="c56-0051__left_margin__1"/> "<del rend="smear" xml:id="c56-0051__left_margin__d2e10967">y<shi ana="start" rend="sup"/>r<shi ana="end"/>.</del> with <lb n="c56-0051__left_margin__2"/> "out greek –I <lb n="c56-0051__left_margin__3"/> "eat </seg>heartily <seg xml:id="C10_app453-fMS">
+            <lb n="c56-0051__left_margin__4"/> "without greek <lb n="c56-0051__left_margin__5"/>of-<lb n="c56-0051__main__8"/> "But </seg>his affection for me at <seg xml:id="C10_app455-fMS">
+            <lb n="c56-0051__main__9"/> "length </seg>overcame his dislike <seg xml:id="C10_app457-fMS">for <lb n="c56-0051__main__10"/> "learning, </seg>and he permitted me <seg xml:id="C10_app461-fMS">
             <lb n="c56-0051__main__11"/> "to </seg>
-            <metamark ana="start" function="insert"/>^<metamark ana="end"/>undertake a voyage of <seg xml:id="C10_app473-fMS">discoveryto </seg>the land of <seg xml:id="C10_app475-fMS">
+            <metamark ana="start" function="insert"/>^<metamark ana="end"/>undertake a voyage of discoveryto the land of <seg xml:id="C10_app465-fMS">
             <lb n="c56-0051__main__12"/> "knowledge."<milestone unit="tei:p"/>
-            <lb n="c56-0051__main__13"/> "And </seg>my father, <seg xml:id="C10_app477-fMS">brothers &amp;Eliza<lb n="c56-0051__main__14"/>beth" said I<milestone unit="tei:p"/>
-            <lb n="c56-0051__main__15"/> "Very well </seg>&amp; very <seg xml:id="C10_app479-fMS">happy" replied <lb n="c56-0051__main__16"/> he "only </seg>a little uneasy that <seg xml:id="C10_app481-fMS">
+            <lb n="c56-0051__main__13"/> "And </seg>my father, <seg xml:id="C10_app467-fMS">brothers &amp;Eliza<lb n="c56-0051__main__14"/>beth" said I<milestone unit="tei:p"/>
+            <lb n="c56-0051__main__15"/> "Very well </seg>&amp; very <seg xml:id="C10_app469-fMS">happy" replied <lb n="c56-0051__main__16"/> he "only </seg>a little uneasy that <seg xml:id="C10_app471-fMS">
             <del rend="strikethrough" xml:id="c56-0051__main__d2e11035">yo</del>
-            <lb n="c56-0051__main__17"/> "they </seg>hear from you so <seg xml:id="C10_app483-fMS">seldom, &amp;<lb n="c56-0051__main__18"/> "by </seg>the <seg xml:id="C10_app485-fMS">bye, </seg>I mean to lecture you <seg xml:id="C10_app487-fMS">
-            <lb n="c56-0051__main__19"/> "a </seg>little upon their account <seg xml:id="C10_app489-fMS">
-            <lb n="c56-0051__main__20"/> "myself– But </seg>my dear <seg xml:id="C10_app491-fMS">Frankenstein" <lb n="c56-0051__main__21"/> 
-            </seg>continued <seg xml:id="C10_app493-fMS">he </seg>stopping <seg xml:id="C10_app495-fMS">short </seg>&amp; gazing <seg xml:id="C10_app497-fMS">
-            <lb n="c56-0051__main__22"/> "full </seg>in my <seg xml:id="C10_app499-fMS">face </seg>"I did not before <seg xml:id="C10_app501-fMS">
-            <lb n="c56-0051__main__23"/> "remark </seg>how very ill you <seg xml:id="C10_app503-fMS">are. </seg>So thin <seg xml:id="C10_app505-fMS">
-            <lb n="c56-0051__main__24"/> "and </seg>pale; you <seg xml:id="C10_app507-fMS">appear </seg>as if you had <seg xml:id="C10_app509-fMS">
-            <lb n="c56-0051__main__25"/> "been </seg>watching for several <seg xml:id="C10_app511-fMS">nights."<milestone unit="tei:p"/>
-            <lb n="c56-0051__main__26"/> "You </seg>have guessed <seg xml:id="C10_app513-fMS">right" </seg>
-            <seg xml:id="C10_app514-fMS">I replied <lb n="c56-0051__main__27"/> "I </seg>have lately been so engaged in <seg xml:id="C10_app518-fMS">
+            <lb n="c56-0051__main__17"/> "they </seg>hear from you so <seg xml:id="C10_app473-fMS">seldom, &amp;<lb n="c56-0051__main__18"/> "by </seg>the <seg xml:id="C10_app475-fMS">bye, </seg>I mean to lecture you <seg xml:id="C10_app477-fMS">
+            <lb n="c56-0051__main__19"/> "a </seg>little upon their account <seg xml:id="C10_app479-fMS">
+            <lb n="c56-0051__main__20"/> "myself– But </seg>my dear <seg xml:id="C10_app481-fMS">Frankenstein" <lb n="c56-0051__main__21"/> 
+            </seg>continued <seg xml:id="C10_app483-fMS">he </seg>stopping <seg xml:id="C10_app485-fMS">short </seg>&amp; gazing <seg xml:id="C10_app487-fMS">
+            <lb n="c56-0051__main__22"/> "full </seg>in my <seg xml:id="C10_app489-fMS">face </seg>"I did not before <seg xml:id="C10_app491-fMS">
+            <lb n="c56-0051__main__23"/> "remark </seg>how very ill you <seg xml:id="C10_app493-fMS">are. </seg>So thin <seg xml:id="C10_app495-fMS">
+            <lb n="c56-0051__main__24"/> "and </seg>pale; you <seg xml:id="C10_app497-fMS">appear </seg>as if you had <seg xml:id="C10_app499-fMS">
+            <lb n="c56-0051__main__25"/> "been </seg>watching for several nights."<milestone unit="tei:p"/>
+            <lb n="c56-0051__main__26"/> "You have guessed <seg xml:id="C10_app503-fMS">right" </seg>
+            <seg xml:id="C10_app504-fMS">I replied <lb n="c56-0051__main__27"/> "I </seg>have lately been so engaged in <seg xml:id="C10_app508-fMS">
             <lb n="c56-0051__main__28"/> "<del rend="strikethrough" xml:id="c56-0051__main__d2e11068">several</del>
             <del rend="strikethrough" xml:id="c56-0051__main__d2e11073">studious</del> one occupation<del rend="strikethrough" xml:id="c56-0051__main__d2e11078">s</del> 
-            </seg>that I <seg xml:id="C10_app520-fMS">
+            </seg>that I <seg xml:id="C10_app510-fMS">
             <del rend="strikethrough" xml:id="c56-0051__main__d2e11083">did</del>
-            <lb n="c56-0051__left_margin__1"/>have<lb n="c56-0051__main__29"/> "not allowed<metamark ana="start" function="insert"/>^<metamark ana="end"/>myself </seg>sufficient <seg xml:id="C10_app522-fMS">rest </seg>as you<lb n="c56-0052__main__1"/> 
-            <seg xml:id="C10_app524-fMS">"see; </seg>but I hope, I sincerely <seg xml:id="C10_app526-fMS">hope </seg>all <seg xml:id="C10_app528-fMS">those <lb n="c56-0052__main__2"/> "occupations </seg>are at an <seg xml:id="C10_app532-fMS">end—I am free <lb n="c56-0052__main__3"/> "now I hope."<milestone unit="tei:p"/>
-            <lb n="c56-0052__main__4"/> I </seg>trembled <seg xml:id="C10_app535-fMS">excessively: </seg>I could not <seg xml:id="C10_app537-fMS">
-            <lb n="c56-0052__main__5"/> bear </seg>to think <seg xml:id="C10_app539-fMS">of,&amp; </seg>far less to allude <seg xml:id="C10_app541-fMS">
-            <lb n="c56-0052__main__6"/> to </seg>the <seg xml:id="C10_app543-fMS">occurences </seg>of the <seg xml:id="C10_app545-fMS">prece<del rend="strikethrough" xml:id="c56-0052__main__d2e11150">e</del>ding <lb n="c56-0052__main__7"/> 
-            </seg>night. <seg xml:id="C10_app547-fMS">
+            <lb n="c56-0051__left_margin__1"/>have<lb n="c56-0051__main__29"/> "not allowed<metamark ana="start" function="insert"/>^<metamark ana="end"/>myself </seg>sufficient <seg xml:id="C10_app512-fMS">rest </seg>as you<lb n="c56-0052__main__1"/> 
+            <seg xml:id="C10_app514-fMS">"see; </seg>but I hope, I sincerely <seg xml:id="C10_app516-fMS">hope </seg>all <seg xml:id="C10_app518-fMS">those <lb n="c56-0052__main__2"/> "occupations </seg>are at an <seg xml:id="C10_app522-fMS">end—I am free <lb n="c56-0052__main__3"/> "now I hope."<milestone unit="tei:p"/>
+            <lb n="c56-0052__main__4"/> I </seg>trembled <seg xml:id="C10_app525-fMS">excessively: </seg>I could not <seg xml:id="C10_app527-fMS">
+            <lb n="c56-0052__main__5"/> bear </seg>to think <seg xml:id="C10_app529-fMS">of,&amp; </seg>far less to allude <seg xml:id="C10_app531-fMS">
+            <lb n="c56-0052__main__6"/> to </seg>the <seg xml:id="C10_app533-fMS">occurences </seg>of the <seg xml:id="C10_app535-fMS">prece<del rend="strikethrough" xml:id="c56-0052__main__d2e11150">e</del>ding <lb n="c56-0052__main__7"/> 
+            </seg>night. <seg xml:id="C10_app537-fMS">
             <del rend="strikethrough" xml:id="c56-0052__main__d2e11156">I continued to walk</del>
-            <del rend="strikethrough" xml:id="c56-0052__main__d2e11159">theire</del> I <lb n="c56-0052__main__8"/> walked therefore </seg>with a quick pace, <lb n="c56-0052__main__9"/> and we soon arrived at my <seg xml:id="C10_app550-fMS">colledge. <lb n="c56-0052__main__10"/> 
-            </seg>I then <seg xml:id="C10_app552-fMS">reflected – </seg>and the thought made <lb n="c56-0052__main__11"/> me <seg xml:id="C10_app555-fMS">shiver </seg>that the creature whom <lb n="c56-0052__main__12"/> I had left in my <seg xml:id="C10_app558-fMS">appartment </seg>might <lb n="c56-0052__main__13"/> 
-            <seg xml:id="C10_app560-fMS">be still there—alive </seg>and walking <lb n="c56-0052__main__14"/> about. I dreaded to <seg xml:id="C10_app563-fMS">see him </seg>but I <seg xml:id="C10_app565-fMS">
-            <lb n="c56-0052__main__15"/> dreaded </seg>still more that Henry should <seg xml:id="C10_app567-fMS">
+            <del rend="strikethrough" xml:id="c56-0052__main__d2e11159">theire</del> I <lb n="c56-0052__main__8"/> walked therefore </seg>with a quick pace, <lb n="c56-0052__main__9"/> and we soon arrived at my <seg xml:id="C10_app540-fMS">colledge. <lb n="c56-0052__main__10"/> 
+            </seg>I then <seg xml:id="C10_app542-fMS">reflected – </seg>and the thought made <lb n="c56-0052__main__11"/> me <seg xml:id="C10_app545-fMS">shiver </seg>that the creature whom <lb n="c56-0052__main__12"/> I had left in my <seg xml:id="C10_app548-fMS">appartment </seg>might <lb n="c56-0052__main__13"/> 
+            <seg xml:id="C10_app550-fMS">be still there—alive </seg>and walking <lb n="c56-0052__main__14"/> about. I dreaded to <seg xml:id="C10_app553-fMS">see him </seg>but I <seg xml:id="C10_app555-fMS">
+            <lb n="c56-0052__main__15"/> dreaded </seg>still more that Henry should <seg xml:id="C10_app557-fMS">
             <lb n="c56-0052__main__16"/> behold the monst<del rend="strikethrough" xml:id="c56-0052__main__d2e11182">h</del>er. <del rend="strikethrough" xml:id="c56-0052__main__d2e11185">I therefore</del>
             <lb n="c56-0052__main__17"/> 
-            </seg>entreat<mdel ana="start"/>ed<mdel ana="end"/>ing <seg xml:id="C10_app569-fMS">him </seg>
-            <seg xml:id="C10_app570-fMS">
-            <metamark ana="start" function="insert"/>^<metamark ana="end"/>thereforeto </seg>remain a few <lb n="c56-0052__main__18"/> minutes at the bottom of the <lb n="c56-0052__main__19"/> stairs, <seg xml:id="C10_app575-fMS">
+            </seg>entreat<mdel ana="start"/>ed<mdel ana="end"/>ing <seg xml:id="C10_app559-fMS">him </seg>
+            <seg xml:id="C10_app560-fMS">
+            <metamark ana="start" function="insert"/>^<metamark ana="end"/>therefore</seg>to remain a few <lb n="c56-0052__main__18"/> minutes at the bottom of the <lb n="c56-0052__main__19"/> stairs, <seg xml:id="C10_app564-fMS">
             <del rend="strikethrough" xml:id="c56-0052__main__d2e11219">while</del> I darted up towards </seg>
-            <lb n="c56-0052__main__20"/> my own room. My hand was already <lb n="c56-0052__main__21"/> on the lock before I <seg xml:id="C10_app580-fMS">recovered <lb n="c56-0052__main__22"/> myself, when </seg>I <seg xml:id="C10_app582-fMS">paused </seg>and a cold <lb n="c56-0052__main__23"/> shivering came over me. I threw <lb n="c56-0052__main__24"/> the door <seg xml:id="C10_app586-fMS">open </seg>as children are accus<lb n="c56-0052__main__25"/>tomed to do when they expect <lb n="c56-0052__main__26"/> a spectre to stand in waiting for <lb n="c56-0052__main__27"/> them on the other <seg xml:id="C10_app590-fMS">side. </seg>But <lb n="c56-0052__main__28"/> nothing appeared. I stepped fearfully <seg xml:id="C10_app593-fMS">
-            <lb n="c56-0052__main__29"/>in – </seg>the <seg xml:id="C10_app595-fMS">appartment </seg>was <seg xml:id="C10_app597-fMS">empty, </seg>and <lb n="c56-0052__main__30"/> my <seg xml:id="C10_app600-fMS">bedroon </seg>was also freed from its <lb n="c56-0052__main__31"/> hideous guest. I could hardly <seg xml:id="C10_app603-fMS">
+            <lb n="c56-0052__main__20"/> my own room. My hand was already <seg xml:id="C10_app566-fMS">
+            <lb n="c56-0052__main__21"/> on the lock </seg>before I <seg xml:id="C10_app568-fMS">recovered <lb n="c56-0052__main__22"/> myself, </seg>
+            <seg xml:id="C10_app569-fMS">when I paused </seg>and a cold <lb n="c56-0052__main__23"/> shivering came over me. I threw <lb n="c56-0052__main__24"/> the door <seg xml:id="C10_app573-fMS">open </seg>as children are accus<lb n="c56-0052__main__25"/>tomed to do when they expect <lb n="c56-0052__main__26"/> a spectre to stand in waiting for <lb n="c56-0052__main__27"/> them on the other <seg xml:id="C10_app577-fMS">side. </seg>But <lb n="c56-0052__main__28"/> nothing appeared. I stepped fearfully <seg xml:id="C10_app580-fMS">
+            <lb n="c56-0052__main__29"/>in – </seg>the <seg xml:id="C10_app582-fMS">appartment </seg>was <seg xml:id="C10_app584-fMS">empty, </seg>and <lb n="c56-0052__main__30"/> my <seg xml:id="C10_app587-fMS">bedroon </seg>was also freed from its <lb n="c56-0052__main__31"/> hideous guest. I could hardly <seg xml:id="C10_app590-fMS">
             <del rend="strikethrough" xml:id="c56-0052__main__d2e11256">belief</del>
             <lb n="c56-0053__main__1"/> believe that so great a </seg>
-            <seg xml:id="C10_app604-fMS">good fortune </seg>
-            <lb n="c56-0053__main__2"/> could have befallen me; but when <lb n="c56-0053__main__3"/> I <seg xml:id="C10_app607-fMS">
-            <del rend="strikethrough" xml:id="c56-0053__main__d2e11275">was</del>became </seg>assured that my enemy had <lb n="c56-0053__main__4"/> indeed fled, I clapped my hands for <seg xml:id="C10_app610-fMS">
-            <lb n="c56-0053__main__5"/> joy </seg>and ran down to <seg xml:id="C10_app612-fMS">Henry.<milestone unit="tei:p"/>
-            <lb n="c56-0053__main__6"/> We </seg>ascended into my <seg xml:id="C10_app614-fMS">room </seg>
-            <seg xml:id="C10_app615-fMS">&amp; present <lb n="c56-0053__main__7"/> ly the servant </seg>brought <seg xml:id="C10_app617-fMS">breakfast: <lb n="c56-0053__main__8"/> 
-            </seg>but I was unable to contain my<lb n="c56-0053__main__9"/>self. It was not joy only that possess<lb n="c56-0053__main__10"/>ed <seg xml:id="C10_app619-fMS">me,–I </seg>felt my flesh tingle with <seg xml:id="C10_app621-fMS">
+            <seg xml:id="C10_app591-fMS">good fortune </seg>
+            <lb n="c56-0053__main__2"/> could have befallen me; but when <lb n="c56-0053__main__3"/> I <seg xml:id="C10_app594-fMS">
+            <del rend="strikethrough" xml:id="c56-0053__main__d2e11275">was</del>became </seg>assured that my enemy had <lb n="c56-0053__main__4"/> indeed fled, I clapped my hands for <seg xml:id="C10_app597-fMS">
+            <lb n="c56-0053__main__5"/> joy </seg>and ran down to <seg xml:id="C10_app599-fMS">Henry.<milestone unit="tei:p"/>
+            <lb n="c56-0053__main__6"/> We </seg>ascended into my <seg xml:id="C10_app601-fMS">room </seg>
+            <seg xml:id="C10_app602-fMS">&amp; present <lb n="c56-0053__main__7"/> ly the servant </seg>brought <seg xml:id="C10_app604-fMS">breakfast: <lb n="c56-0053__main__8"/> 
+            </seg>but I was unable to contain my<lb n="c56-0053__main__9"/>self. It was not joy only that possess<lb n="c56-0053__main__10"/>ed <seg xml:id="C10_app606-fMS">me,–I </seg>felt my flesh tingle with <seg xml:id="C10_app608-fMS">
             <lb n="c56-0053__main__11"/> the excess of </seg>
-            <seg xml:id="C10_app622-fMS">sensitiveness </seg>and my <lb n="c56-0053__main__12"/> pulse beat rapidly. I was unable to <lb n="c56-0053__main__13"/> remain for a single instant in <lb n="c56-0053__main__14"/> the same <seg xml:id="C10_app627-fMS">place — </seg>I jumped over <lb n="c56-0053__main__15"/> the chairs, clapped my <seg xml:id="C10_app630-fMS">hands&amp; </seg>laughed <lb n="c56-0053__main__16"/> aloud. Clerval at first attributed <lb n="c56-0053__main__17"/> my unusual spirits to joy <mdel ana="start"/>at<mdel ana="end"/>on his <seg xml:id="C10_app634-fMS">
-            <lb n="c56-0053__main__18"/> arrival– </seg>but when <seg xml:id="C10_app636-fMS">
+            <seg xml:id="C10_app609-fMS">sensitiveness </seg>and my <lb n="c56-0053__main__12"/> pulse beat rapidly. I was unable to <lb n="c56-0053__main__13"/> remain for a single instant in <lb n="c56-0053__main__14"/> the same <seg xml:id="C10_app614-fMS">place — </seg>I jumped over <lb n="c56-0053__main__15"/> the chairs, clapped my <seg xml:id="C10_app617-fMS">hands&amp; </seg>laughed <lb n="c56-0053__main__16"/> aloud. Clerval at first attributed <lb n="c56-0053__main__17"/> my unusual spirits to joy <mdel ana="start"/>at<mdel ana="end"/>on his <seg xml:id="C10_app621-fMS">
+            <lb n="c56-0053__main__18"/> arrival– </seg>but when <seg xml:id="C10_app623-fMS">
             <del rend="strikethrough" xml:id="c56-0053__main__d2e11341">saw</del> he observed </seg>
-            <lb n="c56-0053__main__19"/> me <metamark ana="start" function="insert"/>^<metamark ana="end"/>more <seg xml:id="C10_app638-fMS">attentivelyhe </seg>saw a wildness in my eyes for <lb n="c56-0053__main__20"/> which he could not <seg xml:id="C10_app641-fMS">account </seg>and <lb n="c56-0053__main__21"/> my <seg xml:id="C10_app644-fMS">loud unrestrained </seg>heartless <seg xml:id="C10_app646-fMS">laugh<lb n="c56-0053__main__22"/>ter </seg>frightened and astonished <seg xml:id="C10_app648-fMS">him.<milestone unit="tei:p"/>
-            <lb n="c56-0053__main__23"/> My </seg>dear <seg xml:id="C10_app650-fMS">Frankenstein," </seg>cried <seg xml:id="C10_app652-fMS">he "What <lb n="c56-0053__main__24"/> 
-            </seg>for <seg xml:id="C10_app654-fMS">God's sake </seg>is the <seg xml:id="C10_app656-fMS">matter <del rend="strikethrough" xml:id="c56-0053__main__d2e11373">for</del> 
-            </seg>do not <lb n="c56-0053__main__25"/> laugh <seg xml:id="C10_app659-fMS">so – <del rend="strikethrough" xml:id="c56-0053__main__d2e11379">What has</del> 
-            </seg>How ill you are! <lb n="c56-0053__main__26"/> What is the cause of all <seg xml:id="C10_app662-fMS">this?<milestone unit="tei:p"/>
-            <lb n="c56-0053__main__27"/> Do </seg>not ask <seg xml:id="C10_app664-fMS">me </seg>cried I, putting my <seg xml:id="C10_app666-fMS">
+            <lb n="c56-0053__main__19"/> me <metamark ana="start" function="insert"/>^<metamark ana="end"/>more <seg xml:id="C10_app625-fMS">attentivelyhe </seg>saw a wildness in my eyes for <lb n="c56-0053__main__20"/> which he could not <seg xml:id="C10_app628-fMS">account </seg>and <lb n="c56-0053__main__21"/> my <seg xml:id="C10_app631-fMS">loud unrestrained </seg>heartless <seg xml:id="C10_app633-fMS">laugh<lb n="c56-0053__main__22"/>ter </seg>frightened and astonished him.<milestone unit="tei:p"/>
+            <lb n="c56-0053__main__23"/> My dear <seg xml:id="C10_app637-fMS">Frankenstein," </seg>cried <seg xml:id="C10_app639-fMS">he "What <lb n="c56-0053__main__24"/> 
+            </seg>for <seg xml:id="C10_app641-fMS">God’s sake </seg>is the <seg xml:id="C10_app643-fMS">matter <del rend="strikethrough" xml:id="c56-0053__main__d2e11373">for</del> 
+            </seg>do not <lb n="c56-0053__main__25"/> laugh <seg xml:id="C10_app646-fMS">so – <del rend="strikethrough" xml:id="c56-0053__main__d2e11379">What has</del> 
+            </seg>How ill you are! <lb n="c56-0053__main__26"/> What is the cause of all <seg xml:id="C10_app649-fMS">this?<milestone unit="tei:p"/>
+            <lb n="c56-0053__main__27"/> Do </seg>not ask <seg xml:id="C10_app651-fMS">me </seg>cried I, putting my <seg xml:id="C10_app653-fMS">
             <lb n="c56-0053__main__28"/> hands<del rend="strikethrough" xml:id="c56-0053__main__d2e11394">fef</del> 
-            </seg>before my eyes, for I thought <lb n="c56-0053__main__29"/> I saw <seg xml:id="C10_app669-fMS">
+            </seg>before my eyes, for I thought <lb n="c56-0053__main__29"/> I saw <seg xml:id="C10_app656-fMS">
             <shi ana="start" rend="underline"/>the spectre<shi ana="end"/> 
             </seg>glide into the<lb n="c56-0054__main__1"/> 
-            <seg xml:id="C10_app671-fMS">room – <del rend="strikethrough" xml:id="c56-0054__main__d2e11412">Wh</del> He </seg>can <seg xml:id="C10_app673-fMS">tell! Oh </seg>save <seg xml:id="C10_app675-fMS">me <lb n="c56-0054__main__2"/> 
-            </seg>save <seg xml:id="C10_app677-fMS">
-            <del rend="strikethrough" xml:id="c56-0054__main__d2e11417">I</del> me"– </seg>I imagined that the <lb n="c56-0054__main__3"/> monster seized <seg xml:id="C10_app680-fMS">me </seg>I struggled <seg xml:id="C10_app682-fMS">furious <lb n="c56-0054__main__4"/> ly </seg>&amp; fell down in a <seg xml:id="C10_app684-fMS">fit.<milestone unit="tei:p"/>
-            <lb n="c56-0054__main__5"/> Poor </seg>Clerval! What must have been <lb n="c56-0054__main__6"/> his <seg xml:id="C10_app687-fMS">feelings. </seg>A <seg xml:id="C10_app689-fMS">
+            <seg xml:id="C10_app658-fMS">room – <del rend="strikethrough" xml:id="c56-0054__main__d2e11412">Wh</del> He </seg>can <seg xml:id="C10_app660-fMS">tell! Oh </seg>save <seg xml:id="C10_app662-fMS">me <lb n="c56-0054__main__2"/> 
+            </seg>save <seg xml:id="C10_app664-fMS">
+            <del rend="strikethrough" xml:id="c56-0054__main__d2e11417">I</del> me"– </seg>I imagined that the <lb n="c56-0054__main__3"/> monster seized <seg xml:id="C10_app667-fMS">me </seg>I struggled furious <lb n="c56-0054__main__4"/> ly &amp; fell down in a fit.<milestone unit="tei:p"/>
+            <lb n="c56-0054__main__5"/> Poor Clerval! What must have been <lb n="c56-0054__main__6"/> his <seg xml:id="C10_app674-fMS">feelings. </seg>A <seg xml:id="C10_app676-fMS">
             <del rend="strikethrough" xml:id="c56-0054__main__d2e11431">joy</del>
-            <del rend="strikethrough" xml:id="c56-0054__main__d2e11434">meti</del> meeting </seg>which <lb n="c56-0054__main__7"/> he <seg xml:id="C10_app692-fMS">had anticipated with such </seg>
-            <seg xml:id="C10_app693-fMS">joy </seg>so <lb n="c56-0054__main__8"/> strangely turned to bitterness. But I <seg xml:id="C10_app696-fMS">
-            <lb n="c56-0054__main__9"/> did not witness his grief </seg>for I was <seg xml:id="C10_app698-fMS">
+            <del rend="strikethrough" xml:id="c56-0054__main__d2e11434">meti</del> meeting </seg>which <lb n="c56-0054__main__7"/> he <seg xml:id="C10_app679-fMS">had anticipated with such </seg>
+            <seg xml:id="C10_app680-fMS">joy </seg>so <lb n="c56-0054__main__8"/> strangely turned to bitterness. But I <seg xml:id="C10_app683-fMS">
+            <lb n="c56-0054__main__9"/> did not witness his grief </seg>for I was <seg xml:id="C10_app685-fMS">
             <lb n="c56-0054__main__10"/>
-            <del rend="strikethrough" xml:id="c56-0054__main__d2e11448">senseless</del>lifeless </seg>and did not recover my <lb n="c56-0054__main__11"/> senses for <seg xml:id="C10_app701-fMS">
+            <del rend="strikethrough" xml:id="c56-0054__main__d2e11448">senseless</del>lifeless </seg>and did not recover my <lb n="c56-0054__main__11"/> senses for <seg xml:id="C10_app688-fMS">
             <del rend="strikethrough" xml:id="c56-0054__main__d2e11458">several</del> a long, long </seg>
-            <seg xml:id="C10_app702-fMS">time.<lb n="c56-0055__main__1"/>
-            <milestone spanTo="#c56-0055.02" unit="tei:head"/>Chap. 7<lb n="c56-0055__main__2"/> This </seg>was the commencement of a nervous <seg xml:id="C10_app704-fMS">
-            <lb n="c56-0055__main__3"/> fever </seg>which confined me for several <lb n="c56-0055__main__4"/> months. <seg xml:id="C10_app707-fMS">
+            <seg xml:id="C10_app689-fMS">time.<lb n="c56-0055__main__1"/>
+            <milestone spanTo="#c56-0055.02" unit="tei:head"/>Chap. 7<lb n="c56-0055__main__2"/> This </seg>was the commencement of a nervous <seg xml:id="C10_app691-fMS">
+            <lb n="c56-0055__main__3"/> fever </seg>which confined me for several <lb n="c56-0055__main__4"/> months. <seg xml:id="C10_app694-fMS">
             <del rend="strikethrough" xml:id="c56-0055__main__d2e11482">And</del> during all </seg>
-            <seg xml:id="C10_app708-fMS">this </seg>time Henry was <lb n="c56-0055__main__5"/> my only nurse. I afterwards learned <seg xml:id="C10_app711-fMS">that <lb n="c56-0055__main__6"/>
+            <seg xml:id="C10_app695-fMS">this </seg>time Henry was <lb n="c56-0055__main__5"/> my only nurse. I afterwards learned <seg xml:id="C10_app698-fMS">that <lb n="c56-0055__main__6"/>
             <del rend="strikethrough" xml:id="c56-0055__main__d2e11489">kn</del> 
-            </seg>knowing my <seg xml:id="C10_app713-fMS">fathers </seg>advanced <seg xml:id="C10_app715-fMS">age <lb n="c56-0055__main__7"/> 
-            </seg>and unfitness for so long a <seg xml:id="C10_app717-fMS">journey </seg>&amp;<lb n="c56-0055__main__8"/> 
-            <seg xml:id="C10_app720-fMS">wretched Elizabeth would be </seg>he <seg xml:id="C10_app722-fMS">
+            </seg>knowing my <seg xml:id="C10_app700-fMS">fathers </seg>advanced <seg xml:id="C10_app702-fMS">age <lb n="c56-0055__main__7"/> 
+            </seg>and unfitness for so long a <seg xml:id="C10_app704-fMS">journey </seg>&amp;<lb n="c56-0055__main__8"/> 
+            <seg xml:id="C10_app707-fMS">wretched Elizabeth would be </seg>he <seg xml:id="C10_app709-fMS">
             <lb n="c56-0055__main__9"/> had spared them this <metamark ana="start" function="insert"/>^<metamark ana="end"/>grief by </seg>
-            <seg xml:id="C10_app723-fMS">
+            <seg xml:id="C10_app710-fMS">
             <del rend="strikethrough" xml:id="c56-0055__main__d2e11511">partly</del>conceal<lb n="c56-0055__main__10"/>ing </seg>
-            <seg xml:id="C10_app724-fMS">the extent of my disorder. </seg>He knew <lb n="c56-0055__main__11"/> that I could not have a more kind <lb n="c56-0055__main__12"/>&amp; attentive nurse than <seg xml:id="C10_app727-fMS">himself, and <lb n="c56-0055__main__13"/> 
-            </seg>firm in the hope he <seg xml:id="C10_app729-fMS">had </seg>of my <seg xml:id="C10_app731-fMS">recovery <lb n="c56-0055__main__14"/> 
-            </seg>he did not doubt <seg xml:id="C10_app733-fMS">that </seg>instead of doing <seg xml:id="C10_app735-fMS">
+            <seg xml:id="C10_app711-fMS">the extent of my disorder. </seg>He knew <lb n="c56-0055__main__11"/> that I could not have a more kind <lb n="c56-0055__main__12"/>&amp; attentive nurse than <seg xml:id="C10_app714-fMS">himself, and <lb n="c56-0055__main__13"/> 
+            </seg>firm in the hope he <seg xml:id="C10_app716-fMS">had </seg>of my <seg xml:id="C10_app718-fMS">recovery <lb n="c56-0055__main__14"/> 
+            </seg>he did not doubt <seg xml:id="C10_app720-fMS">that </seg>instead of doing <seg xml:id="C10_app722-fMS">
             <lb n="c56-0055__main__15"/> harm </seg>he performed the kindest action <lb n="c56-0055__main__16"/> that he could towards them.<milestone unit="tei:p"/>
-            <lb n="c56-0055__main__17"/> But I was in reality very <seg xml:id="C10_app740-fMS">ill </seg>&amp;<lb n="c56-0055__main__18"/> surely nothing but the unbounded <seg xml:id="C10_app742-fMS">
+            <lb n="c56-0055__main__17"/> But I was in reality very <seg xml:id="C10_app727-fMS">ill </seg>&amp;<lb n="c56-0055__main__18"/> surely nothing but the unbounded <seg xml:id="C10_app729-fMS">
             <lb n="c56-0055__main__19"/>
-            <del rend="strikethrough" xml:id="c56-0055__main__d2e11542">affection</del>&amp; </seg>unremitting attentions of <lb n="c56-0055__main__20"/> my friend could have restored me to <lb n="c56-0055__main__21"/> life. The form of the mo<metamark ana="start" function="insert"/>^<metamark ana="end"/>nster on whom <lb n="c56-0055__main__22"/> I had bestowed <seg xml:id="C10_app747-fMS">life </seg>was for ever before <seg xml:id="C10_app749-fMS">
-            <lb n="c56-0055__main__23"/>myeyes, </seg>and I raved <seg xml:id="C10_app751-fMS">
+            <del rend="strikethrough" xml:id="c56-0055__main__d2e11542">affection</del>&amp; </seg>unremitting attentions of <lb n="c56-0055__main__20"/> my friend could have restored me to <lb n="c56-0055__main__21"/> life. The form of the mo<metamark ana="start" function="insert"/>^<metamark ana="end"/>nster on whom <lb n="c56-0055__main__22"/> I had bestowed <seg xml:id="C10_app734-fMS">life </seg>was for ever before <seg xml:id="C10_app736-fMS">
+            <lb n="c56-0055__main__23"/>myeyes, </seg>and I raved <seg xml:id="C10_app738-fMS">
             <del rend="strikethrough" xml:id="c56-0055__main__d2e11570">incessant</del> incessantly </seg>
-            <lb n="c56-0055__main__24"/> concerning him. <seg xml:id="C10_app753-fMS">DoubtlessMy </seg>words <seg xml:id="C10_app755-fMS">
+            <lb n="c56-0055__main__24"/> concerning him. DoubtlessMy words <seg xml:id="C10_app742-fMS">
             <del rend="strikethrough" xml:id="c56-0055__main__d2e11578">no</del>
             <del rend="strikethrough" xml:id="c56-0055__main__d2e11581">doubt</del>
             <lb n="c56-0055__main__25"/> surprised </seg>
-            <seg xml:id="C10_app756-fMS">Henry – </seg>he at first believed <lb n="c56-0055__main__26"/> them the wanderings of my <seg xml:id="C10_app761-fMS">disordered <lb n="c56-0055__main__27"/> imagination </seg>but the <seg xml:id="C10_app763-fMS">continuance <lb n="c56-0055__main__28"/> and per<mdel ana="start"/>n<mdel ana="end"/>tinacity with which I conti<lb n="c56-0055__main__29"/>nually recurred to the same </seg>
-            <seg xml:id="C10_app764-fMS">subject<lb n="c56-0056__main__1"/>
+            <seg xml:id="C10_app743-fMS">Henry – </seg>he at first believed <lb n="c56-0055__main__26"/> them the wanderings of my <seg xml:id="C10_app748-fMS">disordered <lb n="c56-0055__main__27"/> imagination </seg>but the <seg xml:id="C10_app750-fMS">continuance <lb n="c56-0055__main__28"/> and per<mdel ana="start"/>n<mdel ana="end"/>tinacity with which I conti<lb n="c56-0055__main__29"/>nually recurred to the same </seg>
+            <seg xml:id="C10_app751-fMS">subject<lb n="c56-0056__main__1"/>
             <del rend="strikethrough" xml:id="c56-0056__main__d2e11623">astonished him.</del>
             <del rend="strikethrough" xml:id="c56-0056__main__d2e11628">sta</del> 
-            </seg>persuaded him that my<lb n="c56-0056__left_margin__1"/> disorder owed <lb n="c56-0056__left_margin__2"/> its origin to <lb n="c56-0056__left_margin__3"/> some uncommon <lb n="c56-0056__left_margin__4"/>&amp; terrible <seg xml:id="C10_app770-fMS">
+            </seg>persuaded him that my<lb n="c56-0056__left_margin__1"/> disorder owed <lb n="c56-0056__left_margin__2"/> its origin to <lb n="c56-0056__left_margin__3"/> some uncommon <lb n="c56-0056__left_margin__4"/>&amp; terrible <seg xml:id="C10_app757-fMS">
             <lb n="c56-0056__left_margin__5"/> event<milestone unit="tei:p"/>
             <lb n="c56-0056__main__2"/>
-            <del rend="strikethrough" xml:id="c56-0056__main__d2e11657">It was</del> by </seg>very slow <seg xml:id="C10_app772-fMS">degrees </seg>and with <lb n="c56-0056__main__3"/> frequent <seg xml:id="C10_app775-fMS">relapses </seg>that alarmed &amp;<lb n="c56-0056__main__4"/> grieved my <seg xml:id="C10_app777-fMS">friend <del rend="strikethrough" xml:id="c56-0056__main__d2e11664">that</del> 
-            </seg>I recovered. I remember <seg xml:id="C10_app779-fMS">
+            <del rend="strikethrough" xml:id="c56-0056__main__d2e11657">It was</del> by </seg>very slow <seg xml:id="C10_app759-fMS">degrees </seg>and with <lb n="c56-0056__main__3"/> frequent <seg xml:id="C10_app762-fMS">relapses </seg>that alarmed &amp;<lb n="c56-0056__main__4"/> grieved my <seg xml:id="C10_app764-fMS">friend <del rend="strikethrough" xml:id="c56-0056__main__d2e11664">that</del> 
+            </seg>I recovered. I remember <seg xml:id="C10_app766-fMS">
             <lb n="c56-0056__main__5"/> that the first time I </seg>
-            <seg xml:id="C10_app780-fMS">was </seg>capable of <lb n="c56-0056__main__6"/> observing outward objects with any kind <lb n="c56-0056__main__7"/> of pleasure, I perceived that the <lb n="c56-0056__main__8"/> fallen leaves had <seg xml:id="C10_app785-fMS">disappeared </seg>and that <seg xml:id="C10_app787-fMS">
-            <lb n="c56-0056__main__9"/> 
-            </seg>young buds were shooting forth from <lb n="c56-0056__main__10"/> the <seg xml:id="C10_app790-fMS">trees. </seg>It was a divine <seg xml:id="C10_app792-fMS">spring </seg>&amp; the <lb n="c56-0056__main__11"/> season <seg xml:id="C10_app795-fMS">no doubt contributed greatly </seg>
-            <lb n="c56-0056__main__12"/> to my convalescence. I felt also senti<lb n="c56-0056__main__13"/>ments of joy and affection revive <lb n="c56-0056__main__14"/> in my <seg xml:id="C10_app798-fMS">bosom, </seg>my gloom <seg xml:id="C10_app800-fMS">disappeared </seg>and <lb n="c56-0056__main__15"/> in a short time I became as cheerful <lb n="c56-0056__main__16"/> as before I was attacked by the fatal <seg xml:id="C10_app804-fMS">
+            <seg xml:id="C10_app767-fMS">was </seg>capable of <lb n="c56-0056__main__6"/> observing outward objects with any kind <lb n="c56-0056__main__7"/> of pleasure, I perceived that the <lb n="c56-0056__main__8"/> fallen leaves had <seg xml:id="C10_app772-fMS">disappeared </seg>and that <lb n="c56-0056__main__9"/> 
+            <seg xml:id="C10_app774-fMS">young buds were shooting forth from </seg>
+            <seg xml:id="C10_app775-fMS">
+            <lb n="c56-0056__main__10"/> the trees. </seg>It was a divine <seg xml:id="C10_app777-fMS">spring </seg>&amp; the <lb n="c56-0056__main__11"/> season <seg xml:id="C10_app780-fMS">no doubt contributed greatly </seg>
+            <lb n="c56-0056__main__12"/> to my convalescence. I felt also senti<lb n="c56-0056__main__13"/>ments of joy and affection revive <lb n="c56-0056__main__14"/> in my <seg xml:id="C10_app783-fMS">bosom, </seg>my gloom <seg xml:id="C10_app785-fMS">disappeared </seg>and <lb n="c56-0056__main__15"/> in a short time I became as cheerful <lb n="c56-0056__main__16"/> as before I was attacked by the fatal <seg xml:id="C10_app789-fMS">
             <lb n="c56-0056__main__17"/> passion <del rend="strikethrough" xml:id="c56-0056__main__d2e11710">that consumed me</del>.<milestone unit="tei:p"/>
-            <lb n="c56-0056__main__18"/> "Dearest </seg>Clerval," <seg xml:id="C10_app806-fMS">said I </seg>"How kind,<lb n="c56-0056__main__19"/> 
-            <seg xml:id="C10_app808-fMS">"how </seg>very good you are to me. This <seg xml:id="C10_app810-fMS">
-            <lb n="c56-0056__main__20"/> "whole winter </seg>instead of <seg xml:id="C10_app812-fMS">spending it <lb n="c56-0056__main__21"/> "<del rend="strikethrough" xml:id="c56-0056__main__d2e11727">at</del> 
-            </seg>in <seg xml:id="C10_app814-fMS">study </seg>as you promised yourself, <seg xml:id="C10_app816-fMS">
-            <lb n="c56-0056__main__22"/> "has </seg>been consumed in my sick <seg xml:id="C10_app818-fMS">room: <lb n="c56-0056__main__23"/> "how </seg>shall I ever repay you? I feel <seg xml:id="C10_app820-fMS">
-            <lb n="c56-0056__main__24"/> "the </seg>greatest remorse for the disap<lb n="c56-0056__main__25"/>pointment I have been the <seg xml:id="C10_app824-fMS">
-            <del rend="strikethrough" xml:id="c56-0056__main__d2e11743">c</del>occa<lb n="c56-0056__main__26"/>sion of– </seg>But you will forgive <seg xml:id="C10_app826-fMS">me."<milestone unit="tei:p"/>
-            <lb n="c56-0056__main__27"/> "You </seg>will repay <seg xml:id="C10_app828-fMS">me," replied Henry, <lb n="c56-0056__main__28"/> "if </seg>you do not <seg xml:id="C10_app830-fMS">dis compose yourself;<lb n="c56-0057__Pt1__main__1"/> "but </seg>get well as fast as you <seg xml:id="C10_app832-fMS">ca<mdel ana="start"/>m<mdel ana="end"/>n. </seg>And <seg xml:id="C10_app834-fMS">
-            <lb n="c56-0057__Pt1__main__2"/> "since </seg>you appear in such good <seg xml:id="C10_app836-fMS">
-            <lb n="c56-0057__Pt1__main__3"/> "spirits </seg>I may speak to you on <seg xml:id="C10_app838-fMS">
-            <lb n="c56-0057__Pt1__main__4"/> "one subject; </seg>may I <seg xml:id="C10_app840-fMS">not?"<milestone unit="tei:p"/>
-            <lb n="c56-0057__Pt1__main__5"/> I trembled; </seg>one subject! What <lb n="c56-0057__Pt1__main__6"/> could it be? Could he allude <seg xml:id="C10_app843-fMS">to<metamark ana="start" function="insert"/>
-            <metamark ana="end"/>an </seg>object <lb n="c56-0057__Pt1__main__7"/>
-            <lb n="c56-0057__Pt1__left_margin__1"/>on whom I dared not even <seg xml:id="C10_app845-fMS">think. Do not fright<lb n="c56-0057__Pt1__main__8"/>en </seg>yourself," said Clerval, who observed <lb n="c56-0057__Pt1__main__9"/> my change of <seg xml:id="C10_app848-fMS">colour," I </seg>will not mention <seg xml:id="C10_app850-fMS">
-            <lb n="c56-0057__Pt1__main__10"/> "it </seg>if it agitates <seg xml:id="C10_app852-fMS">you. </seg>But your father <seg xml:id="C10_app854-fMS">
-            <lb n="c56-0057__Pt1__main__11"/> "and </seg>cousin would be <seg xml:id="C10_app856-fMS">so </seg>happy if they <seg xml:id="C10_app858-fMS">
+            <lb n="c56-0056__main__18"/> "Dearest </seg>Clerval," <seg xml:id="C10_app791-fMS">said I </seg>"How kind,<lb n="c56-0056__main__19"/> 
+            <seg xml:id="C10_app793-fMS">"how </seg>very good you are to me. This <seg xml:id="C10_app795-fMS">
+            <lb n="c56-0056__main__20"/> "whole winter </seg>instead of <seg xml:id="C10_app797-fMS">spending it <lb n="c56-0056__main__21"/> "<del rend="strikethrough" xml:id="c56-0056__main__d2e11727">at</del> 
+            </seg>in <seg xml:id="C10_app799-fMS">study </seg>as you promised yourself, <seg xml:id="C10_app801-fMS">
+            <lb n="c56-0056__main__22"/> "has </seg>been consumed in my sick <seg xml:id="C10_app803-fMS">room: <lb n="c56-0056__main__23"/> "how </seg>shall I ever repay you? I feel <seg xml:id="C10_app805-fMS">
+            <lb n="c56-0056__main__24"/> "the </seg>greatest remorse for the disap<lb n="c56-0056__main__25"/>pointment I have been the <seg xml:id="C10_app809-fMS">
+            <del rend="strikethrough" xml:id="c56-0056__main__d2e11743">c</del>occa<lb n="c56-0056__main__26"/>sion of– </seg>But you will forgive me."<milestone unit="tei:p"/>
+            <lb n="c56-0056__main__27"/> "You will repay <seg xml:id="C10_app813-fMS">me," replied Henry, <lb n="c56-0056__main__28"/> "if </seg>you do not <seg xml:id="C10_app815-fMS">dis compose yourself;<lb n="c56-0057__Pt1__main__1"/> "but </seg>get well as fast as you <seg xml:id="C10_app817-fMS">ca<mdel ana="start"/>m<mdel ana="end"/>n. </seg>And <seg xml:id="C10_app819-fMS">
+            <lb n="c56-0057__Pt1__main__2"/> "since </seg>you appear in such good <seg xml:id="C10_app821-fMS">
+            <lb n="c56-0057__Pt1__main__3"/> "spirits </seg>I may speak to you on <seg xml:id="C10_app823-fMS">
+            <lb n="c56-0057__Pt1__main__4"/> "one subject; </seg>may I <seg xml:id="C10_app825-fMS">not?"<milestone unit="tei:p"/>
+            <lb n="c56-0057__Pt1__main__5"/> I trembled; </seg>one subject! What <lb n="c56-0057__Pt1__main__6"/> could it be? Could he allude to<metamark ana="start" function="insert"/>
+            <metamark ana="end"/>an object <lb n="c56-0057__Pt1__main__7"/>
+            <lb n="c56-0057__Pt1__left_margin__1"/>on whom I dared not even <seg xml:id="C10_app830-fMS">think. Do not fright<lb n="c56-0057__Pt1__main__8"/>en </seg>yourself," said Clerval, who observed <lb n="c56-0057__Pt1__main__9"/> my change of colour," I will not mention <seg xml:id="C10_app835-fMS">
+            <lb n="c56-0057__Pt1__main__10"/> "it </seg>if it agitates <seg xml:id="C10_app837-fMS">you. </seg>But your father <seg xml:id="C10_app839-fMS">
+            <lb n="c56-0057__Pt1__main__11"/> "and </seg>cousin would be <seg xml:id="C10_app841-fMS">so </seg>happy if they <seg xml:id="C10_app843-fMS">
             <lb n="c56-0057__Pt1__main__12"/> "<del rend="strikethrough" xml:id="c56-0057__Pt1__main__d2e11835">rec</del> received a letter from you in </seg>
-            <seg xml:id="C10_app859-fMS">
-            <lb n="c56-0057__Pt1__main__13"/> "your </seg>own <seg xml:id="C10_app861-fMS">hand – </seg>They hardly know how <seg xml:id="C10_app863-fMS">
-            <lb n="c56-0057__Pt1__main__14"/> "ill </seg>you have been, and are uneasy <seg xml:id="C10_app865-fMS">
-            <lb n="c56-0057__Pt1__main__15"/> "at </seg>your long <seg xml:id="C10_app867-fMS">silence."<milestone unit="tei:p"/>
-            <lb n="c56-0057__Pt1__main__16"/> Is </seg>that <seg xml:id="C10_app869-fMS">all? </seg>
-            <seg xml:id="C10_app870-fMS">"I said smiling <lb n="c56-0057__Pt1__main__17"/> "My </seg>dear <seg xml:id="C10_app872-fMS">Henry </seg>how could you suppose <seg xml:id="C10_app874-fMS">
-            <lb n="c56-0057__Pt1__main__18"/> "that </seg>my first <seg xml:id="C10_app876-fMS">thoughts </seg>would not <seg xml:id="C10_app878-fMS">
+            <seg xml:id="C10_app844-fMS">
+            <lb n="c56-0057__Pt1__main__13"/> "your </seg>own <seg xml:id="C10_app846-fMS">hand – </seg>They hardly know how <seg xml:id="C10_app848-fMS">
+            <lb n="c56-0057__Pt1__main__14"/> "ill </seg>you have been, and are uneasy <seg xml:id="C10_app850-fMS">
+            <lb n="c56-0057__Pt1__main__15"/> "at </seg>your long <seg xml:id="C10_app852-fMS">silence."<milestone unit="tei:p"/>
+            <lb n="c56-0057__Pt1__main__16"/> Is </seg>that <seg xml:id="C10_app854-fMS">all? </seg>
+            <seg xml:id="C10_app855-fMS">"I said smiling <lb n="c56-0057__Pt1__main__17"/> "My </seg>dear <seg xml:id="C10_app857-fMS">Henry </seg>how could you suppose <seg xml:id="C10_app859-fMS">
+            <lb n="c56-0057__Pt1__main__18"/> "that </seg>my first <seg xml:id="C10_app861-fMS">thoughts </seg>would not <seg xml:id="C10_app863-fMS">
             <lb n="c56-0057__Pt1__main__19"/> "fly towards<del rend="strikethrough" xml:id="c56-0057__Pt1__main__d2e11861">that</del>
-            <metamark ana="start" function="insert"/>߶<metamark ana="end"/>those </seg>dear, dear friends <seg xml:id="C10_app880-fMS">
-            <lb n="c56-0057__Pt1__main__20"/> "whom </seg>I <seg xml:id="C10_app882-fMS">love </seg>and who are so deserving <seg xml:id="C10_app884-fMS">
-            <lb n="c56-0057__Pt1__main__21"/> "of </seg>my <seg xml:id="C10_app886-fMS">love."<milestone unit="tei:p"/>
-            <lb n="c56-0057__Pt1__main__22"/> "If </seg>this is your present <seg xml:id="C10_app888-fMS">temper" <lb n="c56-0057__Pt1__main__23"/> said Henry "you </seg>will be glad <seg xml:id="C10_app892-fMS">perhaps <lb n="c56-0057__Pt1__main__24"/> "to </seg>see a letter <seg xml:id="C10_app894-fMS">
+            <metamark ana="start" function="insert"/>߶<metamark ana="end"/>those </seg>dear, dear friends <seg xml:id="C10_app865-fMS">
+            <lb n="c56-0057__Pt1__main__20"/> "whom </seg>I <seg xml:id="C10_app867-fMS">love </seg>and who are so deserving <seg xml:id="C10_app869-fMS">
+            <lb n="c56-0057__Pt1__main__21"/> "of </seg>my love."<milestone unit="tei:p"/>
+            <lb n="c56-0057__Pt1__main__22"/> "If this is your present <seg xml:id="C10_app873-fMS">temper" <lb n="c56-0057__Pt1__main__23"/> said Henry "you </seg>will <seg xml:id="C10_app875-fMS">be glad perhaps <lb n="c56-0057__Pt1__main__24"/> "to </seg>see a letter <seg xml:id="C10_app877-fMS">
             <del rend="strikethrough" xml:id="c56-0057__Pt1__main__d2e11887">here</del> that has been </seg>
-            <seg xml:id="C10_app895-fMS">
+            <seg xml:id="C10_app878-fMS">
             <lb n="c56-0057__Pt1__main__25"/> "<del rend="strikethrough" xml:id="c56-0057__Pt1__main__d2e11892">ly</del> lying<del rend="strikethrough" xml:id="c56-0057__Pt1__main__d2e11895">e</del> 
-            </seg>here some days it is from your <seg xml:id="C10_app899-fMS">
-            <lb n="c56-0057__Pt1__main__26"/> "cousin </seg>I <seg xml:id="C10_app901-fMS">believe." </seg>
+            </seg>here some days it is from your <seg xml:id="C10_app882-fMS">
+            <lb n="c56-0057__Pt1__main__26"/> "cousin </seg>I <seg xml:id="C10_app884-fMS">believe." </seg>
          </div>
       </body>
    </text>
