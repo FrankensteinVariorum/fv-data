@@ -15,6 +15,8 @@ While within the `hypothesis/` directory:
 
 The script will write to a file called `hypothesis.json` with one JSON object per line (aka [JSONlines](http://jsonlines.org/) formatting)
 
+3. `bash digest_hypothesis.bash` will run a jq command to create a summary table of the annotations
+
 ## Sample data
 
 I've saved the first 100 annotations from the Frankenstein group to `sample_hypothesis.json`.
