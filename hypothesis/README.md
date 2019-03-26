@@ -18,3 +18,18 @@ The script will write to a file called `hypothesis.json` with one JSON object pe
 ## Sample data
 
 I've saved the first 100 annotations from the Frankenstein group to `sample_hypothesis.json`.
+
+## Current data
+
+`hypothesis.json` is the full output from the Hypothesis API
+
+`hypothesis.csv` is a table extract with:
+- h.is ID
+- user ID
+- date last updated
+- text
+- tags (`;` delimited)
+- start html container
+- end html container
+- character offset from start container
+- character offset from end container
