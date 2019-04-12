@@ -9,7 +9,8 @@ output: md_document
 knitr::opts_chunk$set(
   echo = FALSE, 
   message = FALSE, 
-  warning = FALSE)
+  warning = FALSE,
+  dev = "svg")
 library(tidyverse)
 library(fs)
 library(rvest)
