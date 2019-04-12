@@ -1,5 +1,7 @@
 Harvest [hypothes.is](https://hypothes.is) annotations from the Frankenstein Group.
 
+## [View annotation stats to date](https://github.com/PghFrankenstein/fv-data/blob/master/hypothesis/annotations_report.md)
+
 ## Requirements
 
 - [curl](https://curl.haxx.se/)
