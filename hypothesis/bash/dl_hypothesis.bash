@@ -7,7 +7,7 @@ PAGE_SIZE=200
 SEARCH_AFTER=""
 DL_FILE="hypothesis.json"
 # Save group ID to be searched for
-FRANKEN_GROUP="GwWrAWaw"
+FRANKEN_GROUP="7AdKKgAm"
 
 # Build a base query that only looks within the Frankenstein Group, and then
 # only within ebeshero's site
