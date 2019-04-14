@@ -4,9 +4,10 @@
 
 HYPOTHESIS_TOKEN=$(<.hypothesis_token)
 PAGE_SIZE=200
+SEARCH_AFTER=""
 DL_FILE="hypothesis.json"
 # Save group ID to be searched for
-FRANKEN_GROUP="GwWrAWaw"
+FRANKEN_GROUP="7AdKKgAm"
 
 # Build a base query that only looks within the Frankenstein Group, and then
 # only within ebeshero's site
@@ -30,11 +31,14 @@ for i in `seq 0 ${PAGE_SIZE} ${TOTAL_ANNOTATIONS}`;
 do
   echo "$i"
 
-  STEP_REQUEST="$HYPOTHESIS_BASE?offset=$i&limit=$PAGE_SIZE"
+  STEP_REQUEST="$HYPOTHESIS_BASE?sort=id&order=asc&search_after=$SEARCH_AFTER&limit=$PAGE_SIZE"
 
   echo "$STEP_REQUEST"
 
   # For each page of JSON results, extract the actual results and append them
   # as one line per object (using jq's -c flag) to $DL_FILE
   curl -H "$AUTH_HEADER" "$STEP_REQUEST" | jq -c ".rows[]" >> $DL_FILE
+
+  SEARCH_AFTER=$(tail -n 1 $DL_FILE | jq -r '.id')
+  jq --slurp '[.[] | .id] | unique | length' $DL_FILE
 done

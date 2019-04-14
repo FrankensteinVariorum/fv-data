@@ -1,5 +1,7 @@
 Harvest [hypothes.is](https://hypothes.is) annotations from the Frankenstein Group.
 
+## [View annotation stats to date](https://github.com/PghFrankenstein/fv-data/blob/master/hypothesis/annotations_report.md)
+
 ## Requirements
 
 - [curl](https://curl.haxx.se/)
@@ -15,6 +17,23 @@ While within the `hypothesis/` directory:
 
 The script will write to a file called `hypothesis.json` with one JSON object per line (aka [JSONlines](http://jsonlines.org/) formatting)
 
+3. `bash digest_hypothesis.bash` will run a jq command to create a summary table of the annotations
+
 ## Sample data
 
 I've saved the first 100 annotations from the Frankenstein group to `sample_hypothesis.json`.
+
+## Current data
+
+`hypothesis.json` is the full output from the Hypothesis API
+
+`hypothesis.csv` is a table extract with:
+- h.is ID
+- user ID
+- date last updated
+- text
+- tags (`;` delimited)
+- start html container
+- end html container
+- character offset from start container
+- character offset from end container
