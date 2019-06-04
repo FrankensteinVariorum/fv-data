@@ -5,7 +5,7 @@
 HYPOTHESIS_TOKEN=$(<.hypothesis_token)
 PAGE_SIZE=200
 SEARCH_AFTER=""
-DL_FILE="hypothesis.json"
+DL_FILE="data/hypothesis.json"
 # Save group ID to be searched for
 FRANKEN_GROUP="7AdKKgAm"
 
