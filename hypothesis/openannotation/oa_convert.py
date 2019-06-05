@@ -53,9 +53,17 @@ for a in his:
         a["uri"]
         == "https://ebeshero.github.io/Pittsburgh_Frankenstein/Frankenstein_1831.html"
     ):
-        sel = [t for t in a["target"][0]["selector"] if t["type"] == "RangeSelector"][0]
-        start_container = convert_1831(sel["startContainer"])
-        end_container = convert_1831(sel["endContainer"])
+        xpath_sel = [
+            t for t in a["target"][0]["selector"] if t["type"] == "RangeSelector"
+        ][0]
+        start_container = convert_1831(xpath_sel["startContainer"])
+        end_container = convert_1831(xpath_sel["endContainer"])
+        start_position = 0
+        end_position = 0
+
+        text_sel = [
+            t for t in a["target"][0]["selector"] if t["type"] == "TextQuoteSelector"
+        ][0]
         obj = {
             "@context": "http://www.w3.org/ns/anno.jsonld",
             "id": f"https://frankensteinvariorum.org/{a['id']}",
@@ -81,6 +89,12 @@ for a in his:
                 "type": "Text",
                 "selector": [
                     {
+                        "type": "TextQuoteSelector",
+                        "prefix": text_sel["prefix"],
+                        "exact": text_sel["exact"],
+                        "suffix": text_sel["suffix"],
+                    },
+                    {
                         "type": "RangeSelector",
                         "startSelector": {
                             "type": "XPathSelector",
@@ -90,7 +104,18 @@ for a in his:
                             "type": "XPathSelector",
                             "value": end_container,
                         },
-                    }
+                    },
+                    {
+                        "type": "RangeSelector",
+                        "startSelector": {
+                            "type": "TextPositionSelector",
+                            "value": start_position,
+                        },
+                        "endSelector": {
+                            "type": "TextPositionSelector",
+                            "value": end_position,
+                        },
+                    },
                 ],
             },
         }
