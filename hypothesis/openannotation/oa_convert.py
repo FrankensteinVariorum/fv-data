@@ -6,24 +6,16 @@ import datetime
 import json
 import re
 import warnings
-import difflib
 from glob import glob
 from os import path
 from lxml import etree, html
 
-# from parsel import Selector
-
 his = []
-
 # Read in the original files from disk
 with open("data/hypothesis.json") as f:
     for line in f:
         his.append(json.loads(line))
 
-# with open("openannotation/sample/orig1831.html") as f:
-#     web_1831 = f.read()
-
-# webfile_1831 = Selector(text=web_1831)
 htmlfile_1831 = html.parse("openannotation/sample/orig1831.html")
 
 # Get all 1831 chunks
@@ -32,18 +24,16 @@ xmlfile_1831 = [
     for p in glob("../variorum-chunks/f1831*.xml")
 ]
 
+# def get_ratio(source, target):
+#     sem = difflib.SequenceMatcher(a=source, b=target)
+#     return sem.ratio()
 
-def get_ratio(source, target):
-    sem = difflib.SequenceMatcher(a=source, b=target)
-    return sem.ratio()
-
-
-def rough_match(source, target):
-    return get_ratio(source, target) >= 0.5
+# def rough_match(source, target):
+#     return get_ratio(source, target) >= 0.5
 
 
-def roughly_within(source, target):
-    return get_ratio()
+# def roughly_within(source, target):
+#     return get_ratio()
 
 
 # Functions for doing node comparison between the html and the xml version.
@@ -51,6 +41,7 @@ def text_content(e):
     """
     Given an etree/html text output from xpath(".../text()"), returns a flat string with all line breaks and fake tags removed
     """
+
     return flatten_text("".join(e))
 
 
@@ -76,56 +67,67 @@ def convert_1831(html_selector):
     return None
 
 
+def spaced_merge(l):
+    for i in range(len(l)):
+        if i != (len(l) - 1):
+            if l[i] != "":
+                if re.search(r" $", l[i]) is None and re.search(r"^[,\.;\"\' ]", l[i + 1]) is None:
+                    l[i] = "".join([l[i], " "])
+    return "".join(l)
+
+
 def sub_html_break(t):
-    return re.sub(r"\n {9}", "", t)
+    splitlines = [r for r in re.split(r" *\n *", t) if r != ""]
+    return spaced_merge(splitlines)
 
 
 def normalize_line_breaks(element):
     """
-    Gets all the subtree text of an element and tosses any pieces that only preresent linebreaks
+    Gets all the subtree text of an element and tosses any pieces that only represent linebreaks
     """
     cleaned_lines = []
     for t in element.itertext():
         if re.search(r"\n", t) is None:
-            cleaned_lines.append[t]
-    return "".join(cleaned_lines)
+            cleaned_lines.append(t)
+    return spaced_merge(cleaned_lines)
 
 
-def find_seg_ids(text_sel):
+def find_seg_ids(text_sel, parsed_xml):
     prefix = sub_html_break(text_sel["prefix"])
     exact = sub_html_break(text_sel["exact"])
     suffix = sub_html_break(text_sel["suffix"])
-    total = "".join([prefix, exact, suffix])
-    start = "".join([prefix, exact])
-    end = "".join([exact, suffix])
+    total = spaced_merge([prefix, exact, suffix])
+    front_text = spaced_merge([prefix, exact])
+    back_text = spaced_merge([exact, suffix])
 
-    pre_seg = None
-    post_seg = None
+    pre_p = None
+    post_p = None
 
-    for c in xmlfile_1831:
-        ctext = normalize_line_breaks(c["tree"])
+    for c in parsed_xml:
+        ctree = c["tree"]
+        ctext = normalize_line_breaks(ctree.getroot())
         # Is the text even in there? If so, do a deeper search
-        if re.search(selection_text, ctext) is not None:
-            print(f"Preliminary match at {c['path']}")
-            ctree = c["tree"]
-            # find seg with the prefix
-            for seg in ctree.iter("{*}p"):
-                seg_text = text_content(seg.xpath("text()"))
-                if re.search(front_text, seg_text) is not None:
-                    pre_seg = seg
-                if re.search(back_text, seg_text) is not None:
-                    post_seg = seg
-                if pre_seg is not None and post_seg is not None:
-                    pre_seg_id = pre_seg.xpath("@xml:id")[0]
-                    post_seg_id = post_seg.xpath("@xml:id")[0]
-                    print(f"{c['path']}: {pre_seg_id} to {post_seg_id}")
+        if re.search(total, ctext) is not None:
+            # find p with the prefix
+            for p in ctree.iter("{*}p"):
+                p_text = normalize_line_breaks(p)
+                if re.search(front_text, p_text) is not None:
+                    pre_p = p
+                if re.search(back_text, p_text) is not None:
+                    post_p = p
+                if pre_p is not None and post_p is not None:
+                    pre_p_id = pre_p.xpath("@xml:id")[0]
+                    post_p_id = post_p.xpath("@xml:id")[0]
+                    # print(f"{c['path']}: {pre_p_id} to {post_p_id}")
                     return {
                         "chunk": c["path"],
-                        "start_seg": pre_seg_id,
-                        "end_seg": post_seg_id,
+                        "start_p": pre_p_id,
+                        "end_p": post_p_id,
                     }
+            print(f"Preliminary match at {c['path']}")
     print("No match found")
-    return {"chunk": None, "start_seg": None, "end_seg": None}
+    print(f"text: {len(total)}")
+    return {"chunk": None, "start_p": None, "end_p": None}
 
 
 jld = []
@@ -147,7 +149,7 @@ for a in his:
             t for t in a["target"][0]["selector"] if t["type"] == "TextQuoteSelector"
         ][0]
 
-        seg_ids = find_seg_ids(text_sel)
+        seg_ids = find_seg_ids(text_sel, xmlfile_1831)
 
         obj = {
             "@context": "http://www.w3.org/ns/anno.jsonld",
@@ -183,11 +185,11 @@ for a in his:
                         "type": "RangeSelector",
                         "startSelector": {
                             "type": "XPathSelector",
-                            "value": seg_ids["start_seg"],
+                            "value": seg_ids["start_p"],
                         },
                         "endSelector": {
                             "type": "XPathSelector",
-                            "value": seg_ids["end_seg"],
+                            "value": seg_ids["end_p"],
                         },
                     },
                     {
