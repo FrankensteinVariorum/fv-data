@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../segMarkerTester.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein" xmlns:mith="http://mith.umd.edu/sc/ns1#" xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Bridge Phase 5: Witness fMS, Collation unit C04</title>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Frankenstein Variorum Project</authority>
+            <date>2018</date>
+            <availability>
+               <licence>Distributed under a Creative Commons
+                                  Attribution-ShareAlike 3.0 Unported License</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Produced from collation output prepared in batch file processing on  2018-10-03 19:23:51.102012 .</p>
+            <p>Edited to correct alignments and prepared for the Frankenstein Variorum spine on  2019-04-23T15:31:45.558-04:00.</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="collation" xml:id="C04"><seg xml:id="C04a_app1-fMS"/><seg xml:id="C04b_app1-fMS"/><seg xml:id="C04c_app1-fMS"/></div>
+      </body>
+   </text>
+</TEI>
