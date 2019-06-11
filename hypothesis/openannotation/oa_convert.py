@@ -9,6 +9,7 @@ import warnings
 from glob import glob
 from os import path
 from lxml import etree, html
+from difflib import SequenceMatcher
 
 his = []
 # Read in the original files from disk
@@ -16,62 +17,38 @@ with open("data/hypothesis.json") as f:
     for line in f:
         his.append(json.loads(line))
 
-htmlfile_1831 = html.parse("openannotation/sample/orig1831.html")
+# htmlfile_1831 = html.parse("openannotation/sample/orig1831.html")
+# htmlfile_1818 = html.parse("openannotation/sample/orig1818.html")
+
+# Get all 1818 chunks
+xmlfile_1818 = [
+    {"path": path.basename(p), "tree": etree.parse(p)}
+    for p in glob("../variorum-chunks-tws/f1818*.xml")
+]
+
 
 # Get all 1831 chunks
 xmlfile_1831 = [
     {"path": path.basename(p), "tree": etree.parse(p)}
-    for p in glob("../variorum-chunks/f1831*.xml")
+    for p in glob("../variorum-chunks-tws/f1831*.xml")
 ]
-
-# def get_ratio(source, target):
-#     sem = difflib.SequenceMatcher(a=source, b=target)
-#     return sem.ratio()
-
-# def rough_match(source, target):
-#     return get_ratio(source, target) >= 0.5
-
-
-# def roughly_within(source, target):
-#     return get_ratio()
-
-
-# Functions for doing node comparison between the html and the xml version.
-def text_content(e):
-    """
-    Given an etree/html text output from xpath(".../text()"), returns a flat string with all line breaks and fake tags removed
-    """
-
-    return flatten_text("".join(e))
 
 
 def flatten_text(s):
     return re.sub(r"\s+", "", re.sub(r"\n", "", s)).strip()
 
 
-def convert_1831(html_selector):
-    html_text = flatten_text(
-        "".join(webfile_1831.xpath(f"/{html_selector}/text()").getall())
-    )
-    try:
-        tail_selector = re.search("/([a-z3]+)\[([0-9]+)\]$", html_selector).groups()
-        tagtype = tail_selector[0]
-        tagno = int(tail_selector[1])
-    except:
-        print(html_selector)
-    for t in xmlfile_1831.iter():
-        t_text = flatten_text("".join(t.xpath("text()")))
-        if t_text == html_text:
-            return xmlfile_1831.getpath(t)
-    print(f"no match found for {html_selector}")
-    return None
-
-
 def spaced_merge(l):
+    """
+    Joins a list of strings together into one string, padding strings with spaces if two strings aren't buffered by a space.
+    """
     for i in range(len(l)):
         if i != (len(l) - 1):
             if l[i] != "":
-                if re.search(r" $", l[i]) is None and re.search(r"^[,\.;\"\' ]", l[i + 1]) is None:
+                if (
+                    re.search(r" $", l[i]) is None
+                    and re.search(r"^[,\.;\"\' ]", l[i + 1]) is None
+                ):
                     l[i] = "".join([l[i], " "])
     return "".join(l)
 
@@ -89,7 +66,21 @@ def normalize_line_breaks(element):
     for t in element.itertext():
         if re.search(r"\n", t) is None:
             cleaned_lines.append(t)
-    return spaced_merge(cleaned_lines)
+    return "".join(cleaned_lines)
+
+
+def find_overlap_offset(a, b):
+    s = SequenceMatcher(a=a, b=b)
+    for mb in s.get_matching_blocks():
+        if mb.size > 0:
+            if (
+                (mb.b == 0 and mb.size == len(b))  # perfect subset
+                or (mb.a == 0 and mb.b + mb.size == len(b))  # overlaps at start
+                or (mb.b == 0 and mb.a + mb.size == len(a))  # overlaps at end
+            ):
+                print(mb)
+                return mb
+    return None
 
 
 def find_seg_ids(text_sel, parsed_xml):
@@ -105,26 +96,30 @@ def find_seg_ids(text_sel, parsed_xml):
 
     for c in parsed_xml:
         ctree = c["tree"]
-        ctext = normalize_line_breaks(ctree.getroot())
-        # Is the text even in there? If so, do a deeper search
-        if re.search(total, ctext) is not None:
-            # find p with the prefix
-            for p in ctree.iter("{*}p"):
-                p_text = normalize_line_breaks(p)
-                if re.search(front_text, p_text) is not None:
-                    pre_p = p
-                if re.search(back_text, p_text) is not None:
-                    post_p = p
-                if pre_p is not None and post_p is not None:
-                    pre_p_id = pre_p.xpath("@xml:id")[0]
-                    post_p_id = post_p.xpath("@xml:id")[0]
-                    # print(f"{c['path']}: {pre_p_id} to {post_p_id}")
-                    return {
-                        "chunk": c["path"],
-                        "start_p": pre_p_id,
-                        "end_p": post_p_id,
-                    }
-            print(f"Preliminary match at {c['path']}")
+        for p in ctree.iter("{*}p"):
+            p_text = normalize_line_breaks(p)
+            pre_overlap = find_overlap_offset(p_text, front_text)
+            exact_overlap = find_overlap_offset(p_text, exact)
+            post_overlap = find_overlap_offset(p_text, back_text)
+            if pre_overlap is not None and exact_overlap is not None:
+                pre_p = p
+                pre_offset = exact_overlap.a
+                print(f"Found pre: {pre_p} + {pre_offset}")
+            if post_overlap is not None and exact_overlap is not None:
+                post_p = p
+                post_offset = exact_overlap.a + exact_overlap.size
+                print(f"Found post: {post_p} + {post_offset}")
+            if pre_p is not None and post_p is not None:
+                pre_p_id = pre_p.get("{http://www.w3.org/XML/1998/namespace}id")
+                post_p_id = post_p.get("{http://www.w3.org/XML/1998/namespace}id")
+                print(f"{c['path']}: \"{exact}\" {pre_p_id} to {post_p_id}")
+                return {
+                    "chunk": c["path"],
+                    "start_p": pre_p_id,
+                    "end_p": post_p_id,
+                    "start_offset": pre_offset,
+                    "end_offset": post_offset,
+                }
     print("No match found")
     print(f"text: {len(total)}")
     return {"chunk": None, "start_p": None, "end_p": None}
@@ -133,80 +128,77 @@ def find_seg_ids(text_sel, parsed_xml):
 jld = []
 # Loop through annotations and pair them to xml nodes
 for a in his:
+    print(a["links"]["incontext"])
+
+    xpath_sel = [t for t in a["target"][0]["selector"] if t["type"] == "RangeSelector"][
+        0
+    ]
+    start_position = 0
+    end_position = 0
+
+    text_sel = [
+        t for t in a["target"][0]["selector"] if t["type"] == "TextQuoteSelector"
+    ][0]
+
     if (
         a["uri"]
         == "https://ebeshero.github.io/Pittsburgh_Frankenstein/Frankenstein_1831.html"
     ):
-        xpath_sel = [
-            t for t in a["target"][0]["selector"] if t["type"] == "RangeSelector"
-        ][0]
-        # start_container = convert_1831(xpath_sel["startContainer"])
-        # end_container = convert_1831(xpath_sel["endContainer"])
-        start_position = 0
-        end_position = 0
-
-        text_sel = [
-            t for t in a["target"][0]["selector"] if t["type"] == "TextQuoteSelector"
-        ][0]
-
         seg_ids = find_seg_ids(text_sel, xmlfile_1831)
+    elif (
+        a["uri"]
+        == "https://ebeshero.github.io/Pittsburgh_Frankenstein/Frankenstein_1818.html"
+    ):
+        seg_ids = find_seg_ids(text_sel, xmlfile_1818)
 
-        obj = {
-            "@context": "http://www.w3.org/ns/anno.jsonld",
-            "id": f"https://frankensteinvariorum.org/{a['id']}",
-            "type": "Annotation",
-            "generator": {
-                "id": "https://frankensteinvariorum.org/",
-                "type": "Software",
-                "name": "Frankenstein Variorum",
-                "homepage": "https://recogito.pelagios.org/",
-            },
-            "generated": a["created"],
-            "body": [
+    # skip write if we can't find a match
+    if seg_ids["chunk"] is None:
+        continue
+
+    obj = {
+        "@context": "http://www.w3.org/ns/anno.jsonld",
+        "id": f"https://frankensteinvariorum.org/{a['id']}",
+        "type": "Annotation",
+        "generator": {
+            "id": "https://frankensteinvariorum.org/",
+            "type": "Software",
+            "name": "Frankenstein Variorum",
+            "homepage": "https://recogito.pelagios.org/",
+        },
+        "generated": a["created"],
+        "body": [
+            {
+                "type": "TextualBody",
+                "value": a["text"],
+                "creator": "https://hypothes.is/users/frankensteinvariorum",
+                "modified": a["updated"],
+                "purpose": "commenting",
+            }
+        ],
+        "target": {
+            "source": a["uri"],
+            "type": "Text",
+            "selector": [
                 {
-                    "type": "TextualBody",
-                    "value": a["text"],
-                    "creator": "https://hypothes.is/users/frankensteinvariorum",
-                    "modified": a["updated"],
-                    "purpose": "commenting",
-                }
+                    "type": "TextQuoteSelector",
+                    "prefix": text_sel["prefix"],
+                    "exact": text_sel["exact"],
+                    "suffix": text_sel["suffix"],
+                },
+                {
+                    "type": "RangeSelector",
+                    "startSelector": {
+                        "type": "XPathSelector",
+                        "value": f"/p[xml:id=\"{seg_ids['start_p']}\"]",
+                    },
+                    "startOffset": seg_ids["start_offset"],
+                    "endSelector": {"type": "XPathSelector", "value": seg_ids["end_p"]},
+                    "endOffset": seg_ids["end_offset"],
+                },
             ],
-            "target": {
-                "source": "https://ebeshero.github.io/Pittsburgh_Frankenstein/1831_full.xml",
-                "type": "Text",
-                "selector": [
-                    {
-                        "type": "TextQuoteSelector",
-                        "prefix": text_sel["prefix"],
-                        "exact": text_sel["exact"],
-                        "suffix": text_sel["suffix"],
-                    },
-                    {
-                        "type": "RangeSelector",
-                        "startSelector": {
-                            "type": "XPathSelector",
-                            "value": seg_ids["start_p"],
-                        },
-                        "endSelector": {
-                            "type": "XPathSelector",
-                            "value": seg_ids["end_p"],
-                        },
-                    },
-                    {
-                        "type": "RangeSelector",
-                        "startSelector": {
-                            "type": "TextPositionSelector",
-                            "value": start_position,
-                        },
-                        "endSelector": {
-                            "type": "TextPositionSelector",
-                            "value": end_position,
-                        },
-                    },
-                ],
-            },
-        }
-        jld.append(obj)
+        },
+    }
+    jld.append(obj)
 
 with open("data/oa.jsonld", "w") as outfile:
     json.dump(jld, outfile, indent=2)
