@@ -189,12 +189,12 @@ for a in his:
                     "type": "RangeSelector",
                     "startSelector": {
                         "type": "XPathSelector",
-                        "value": f"/p[@xml:id=\"{seg_ids['start_p']}\"]",
+                        "value": f"//p[@xml:id='{seg_ids['start_p']}']",
                     },
                     "startOffset": seg_ids["start_offset"],
                     "endSelector": {
                         "type": "XPathSelector",
-                        "value": f"/p[@xml:id=\"{seg_ids['end_p']}\"]",
+                        "value": f"//p[@xml:id='{seg_ids['end_p']}']",
                     },
                     "endOffset": seg_ids["end_offset"],
                 },
