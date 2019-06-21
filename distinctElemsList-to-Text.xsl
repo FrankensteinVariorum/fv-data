@@ -6,8 +6,8 @@
     exclude-result-prefixes="pitt mith" version="3.0">
     <xsl:output method="text" indent="no"/>
 
-    <xsl:variable name="printColl" as="document-node()+" select="collection('variorum-chunks')"/>
-    <xsl:variable name="elemNames" as="xs:string+" select="$printColl//text//*/name() => distinct-values() => sort()"/>
+    <xsl:variable name="printColl" as="document-node()+" select="collection('/home/rviglian/Projects/sga/data/tei/ox/ox-ms_abinger_c58')"/>
+    <xsl:variable name="elemNames" as="xs:string+" select="$printColl//surface//*/name() => distinct-values() => sort()"/>
     
     <xsl:template match="/">
         List of distinct elements in variorum-chunks files,  inside the TEI text element&#10;
