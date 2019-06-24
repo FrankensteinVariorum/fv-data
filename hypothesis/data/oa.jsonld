@@ -1,6 +1,52 @@
 [
   {
     "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "https://frankensteinvariorum.org/-Z8mCl33EemcroMoZYEj5Q",
+    "type": "Annotation",
+    "generator": {
+      "id": "https://frankensteinvariorum.org/",
+      "type": "Software",
+      "name": "Frankenstein Variorum",
+      "homepage": "https://recogito.pelagios.org/"
+    },
+    "generated": "2019-04-13T14:25:23.738169+00:00",
+    "body": [
+      {
+        "type": "TextualBody",
+        "value": "In \"Sinbad's Fourth Voyage,\" from *One Thousand and One Nights*, Sinbad is buried alive with his wife's corpse, following local custom. He sees a light, follows it to a small passage, then escapes. It has been suggested that Victor's allusion refers to his pending marriage with Elizabeth.",
+        "creator": "https://hypothes.is/users/frankensteinvariorum",
+        "modified": "2019-04-13T14:25:23.738169+00:00",
+        "purpose": "commenting"
+      }
+    ],
+    "target": {
+      "source": "https://ebeshero.github.io/Pittsburgh_Frankenstein/Frankenstein_1818.html",
+      "type": "Text",
+      "selector": [
+        {
+          "type": "TextQuoteSelector",
+          "prefix": "at object already accomplished. ",
+          "exact": "I was like the Arabian who had been buried\n         with the dead",
+          "suffix": ", and found a passage to life ai"
+        },
+        {
+          "type": "RangeSelector",
+          "startSelector": {
+            "type": "XPathSelector",
+            "value": "//[@xml:id='F1818_v1_098']"
+          },
+          "startOffset": 75,
+          "endSelector": {
+            "type": "XPathSelector",
+            "value": "//[@xml:id='C09_app406-f1818']"
+          },
+          "endOffset": 33
+        }
+      ]
+    }
+  },
+  {
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "id": "https://frankensteinvariorum.org/03xDdm5bEemmd6N45nSgdg",
     "type": "Annotation",
     "generator": {
@@ -151,9 +197,9 @@
     "body": [
       {
         "type": "TextualBody",
-        "value": "In this addition to the 1831 edition, Shelley explicitly refers to her source, Coleridge's \"The Rime of the Ancient Mariner.\" Walton muses wistfully on the \"dangerous mysteries\" of the ocean, proposing their similarity to poetry, and citing them as the root of his own profound yearnings for the dangerous and sublime discoveries of exploration.",
+        "value": "In this addition to the 1831 edition, Shelley explicitly refers to her poetic source, Samuel Taylor Coleridge's \"The Rime of the Ancient Mariner.\" Walton muses wistfully on the \"dangerous mysteries\" of the ocean, proposing their similarity to poetry like Coleridge's, and citing them as the root of his own profound yearnings for the dangerous and sublime discoveries of exploration.",
         "creator": "https://hypothes.is/users/frankensteinvariorum",
-        "modified": "2019-06-05T21:44:56.291380+00:00",
+        "modified": "2019-06-21T18:48:52.092204+00:00",
         "purpose": "commenting"
       }
     ],
@@ -1025,9 +1071,9 @@
     "body": [
       {
         "type": "TextualBody",
-        "value": "A reference to the legendary Knights of the Roundtable at the Court of King Arthur of Camelot. King Arthur and his Knights are the subject of the canonical medieval text *Le Morte d'Arthur* by Sir Thomas Mallory, published in 1485 by William Caxton. \n\nIn the 1831, this single reference to Mallory replaces a string of citations to chivalric romance in the 1818 edition: \"Orlando, Robin Hood, Amadis, and St. George\"--in both cases, reference serves to underline the permeability of VIctor's fascination with the scientific imagination of the medieval period in the works of Agrippa, et al., and this earlier enchantment with the medieval literary imagination in his childhood.",
+        "value": "Victor refers to the legendary Knights of the Roundtable at the Court of King Arthur of Camelot. King Arthur and his Knights are the subject of the canonical medieval text *Le Morte d'Arthur* by Sir Thomas Mallory, published in 1485 by William Caxton. \n\nIn the 1831, this single reference to Mallory replaces a string of citations to chivalric romance in the 1818 edition: \"Orlando, Robin Hood, Amadis, and St. George\"--in both cases, reference serves to underline the permeability of VIctor's fascination with the scientific imagination of the medieval period in the works of Agrippa, et al., and this earlier enchantment with the medieval literary imagination in his childhood.",
         "creator": "https://hypothes.is/users/frankensteinvariorum",
-        "modified": "2019-06-06T20:24:21.861073+00:00",
+        "modified": "2019-06-24T20:57:37.134641+00:00",
         "purpose": "commenting"
       }
     ],
@@ -1073,7 +1119,7 @@
         "type": "TextualBody",
         "value": "Como is a lake in the north of Italy's Lombardy region. Absent as a locale from the 1818 edition, the family's visit here in the 1831 provides the setting for Elizabeth's adoption as a peasant foundling.",
         "creator": "https://hypothes.is/users/frankensteinvariorum",
-        "modified": "2019-06-06T19:23:48.764759+00:00",
+        "modified": "2019-06-21T19:15:50.633589+00:00",
         "purpose": "commenting"
       }
     ],
@@ -1531,9 +1577,9 @@
     "body": [
       {
         "type": "TextualBody",
-        "value": "Coincidentally, Elizabeth was the name of Percy Shelley's mother. Shelley changes the character's name from Myrtella to Elizabeth in the Draft. In Greek and Roman mythology, myrtle was sacred to the goddess Venus (Aphrodite) and symbolized love.",
+        "value": "Coincidentally, Elizabeth was the name of Percy Shelley's mother. Shelley changes the character's name from Myrtella to Elizabeth in the Draft. In Greek and Roman mythology, the flower myrtle was sacred to the goddess Venus (Aphrodite) and symbolized love.",
         "creator": "https://hypothes.is/users/frankensteinvariorum",
-        "modified": "2019-06-06T19:41:14.675367+00:00",
+        "modified": "2019-06-21T19:20:23.732025+00:00",
         "purpose": "commenting"
       }
     ],
@@ -1623,9 +1669,9 @@
     "body": [
       {
         "type": "TextualBody",
-        "value": "This revision to the 1831 edition elaborates from \"it was not until the decline of life that he thought of marrying \" to \"a variety of circumstances had prevented his marrying early...that he became a husband and the father of a family.\" \n\nThese changes make clear that Victor's father's late marriage is a result of factors beyond his control rather than carelessness or indifference, and further accentuate his familial position as the figurehead of their \"domestic circle\" -- **ADD CITATION?**",
+        "value": "These changes to the 1831 edition make clear that Victor's father's late marriage is a result of factors beyond his control rather than carelessness or indifference, and further accentuate his familial position as the figurehead of their \"domestic circle.\"",
         "creator": "https://hypothes.is/users/frankensteinvariorum",
-        "modified": "2019-06-06T18:52:51.837135+00:00",
+        "modified": "2019-06-21T19:09:56.811184+00:00",
         "purpose": "commenting"
       }
     ],
@@ -1899,9 +1945,9 @@
     "body": [
       {
         "type": "TextualBody",
-        "value": "*PLACEHOLDER* significant addition",
+        "value": "In 1831, Clerval is a much more piteous figure. In this revised version, he feels the loss of his chance to pursue his passions at university bitterly. \n\nIn 1818, Clerval accepts his place as his father's partner in business only somewhat grudgingly, and maintains that, \"a man might be a very good trader, and yet possess a cultivated understanding.\" (**CITATION ADD**)",
         "creator": "https://hypothes.is/users/frankensteinvariorum",
-        "modified": "2019-06-07T21:07:01.130441+00:00",
+        "modified": "2019-06-20T20:13:04.065032+00:00",
         "purpose": "commenting"
       }
     ],
@@ -1945,9 +1991,9 @@
     "body": [
       {
         "type": "TextualBody",
-        "value": "In this revision to the 1831 \"former studies\" is generalized from the specific \"more rational theory of chemistry\" that appears in the 1818 edition.\n\nHowever, it is unclear what \"former studies\" Shelley is intimating here, as the scene with the copy of Agrippa is presented as the fateful moment of genesis for Victor's interest in science. \n\nThus, in the 1818 edition his father's gruff dismissal is presented as the foreclosure of a hypothetical redirection of Victor's curiosity towards \"modern discoveries\" of chemistry as an uncharted *course* of future study, rather than as a rebuke which threw him off the established *track* of his \"former studies.\"",
+        "value": "In this 1831 revision, Victor's expression \"former studies\" is generalized from the specific \"more rational theory of chemistry\" that appears in the 1818 edition. However, it is unclear what \"former studies\" Shelley is intimating here, as the scene with the copy of Agrippa is presented as the fateful moment of genesis for Victor's interest in science. \n\nThus, in the 1818 edition his father's gruff dismissal is presented as the foreclosure of a hypothetical redirection of Victor's curiosity towards \"modern discoveries\" of chemistry as an uncharted *course* of future study, rather than as a rebuke which threw him off the established *track* of his \"former studies.\"",
         "creator": "https://hypothes.is/users/frankensteinvariorum",
-        "modified": "2019-06-06T20:13:22.458558+00:00",
+        "modified": "2019-06-24T20:59:04.051037+00:00",
         "purpose": "commenting"
       }
     ],
@@ -2359,9 +2405,9 @@
     "body": [
       {
         "type": "TextualBody",
-        "value": "Robert's high ambition links him to Victor's vast scientific ambition, one of many affinities they will recognize in each other.",
+        "value": "Walton's exploratory ambitions parallels Victor's scientific ambitions, one of many affinities they recognize in each other.",
         "creator": "https://hypothes.is/users/frankensteinvariorum",
-        "modified": "2019-04-13T14:20:17.507350+00:00",
+        "modified": "2019-06-24T13:18:39.594924+00:00",
         "purpose": "commenting"
       }
     ],
@@ -2405,9 +2451,9 @@
     "body": [
       {
         "type": "TextualBody",
-        "value": "*PLACEHOLDER* -- significant reversal",
+        "value": "In this revision for the 1831 revision, Shelley raises the stakes and reverses Elizabeth's bout of scarlet fever from \"not severe\" to \"severe\" and representing the \"greatest danger\".",
         "creator": "https://hypothes.is/users/frankensteinvariorum",
-        "modified": "2019-06-07T21:02:28.288061+00:00",
+        "modified": "2019-06-21T17:53:50.271200+00:00",
         "purpose": "commenting"
       }
     ],
@@ -2499,7 +2545,7 @@
         "type": "TextualBody",
         "value": "This rather clumsy phrase is revised from the more simply descriptive \"engaged\" in the 1818 edition. \n\n",
         "creator": "https://hypothes.is/users/frankensteinvariorum",
-        "modified": "2019-06-05T22:11:44.954785+00:00",
+        "modified": "2019-06-21T19:07:08.373623+00:00",
         "purpose": "commenting"
       }
     ],
@@ -2543,9 +2589,9 @@
     "body": [
       {
         "type": "TextualBody",
-        "value": "*PLACEHOLDER* -- significant revision, Victor's solitude diminished.",
+        "value": "In this revision to 1831, Victor's initial solitude in Ingolstadt is diminished.",
         "creator": "https://hypothes.is/users/frankensteinvariorum",
-        "modified": "2019-06-07T21:14:46.143542+00:00",
+        "modified": "2019-06-20T19:56:58.958492+00:00",
         "purpose": "commenting"
       }
     ],
@@ -2957,9 +3003,9 @@
     "body": [
       {
         "type": "TextualBody",
-        "value": "In this 1831 amendment to the 1818 edition, Elizabeth changes from Victor's first cousin to his \"more than sister.\" It is unclear exactly why Shelley decided to make the change, but critics have thought that the incestuous relationship between Victor and Elizabeth may have scandalized readers. It is true, however, that incest was of significant fascination to Shelley. Her novella *Mathilda*, published posthumously in 1954, concerns the relationship of a woman with her father. After sending the manuscript to William Godwin, he told Shelley he found the depiction of incest \"disgusting and detestable,\" and refused to return the manuscript to his daughter.\n\nShelley, Mary. *Matilda*; with Mary and Maria, by Mary Wollstonecraft. Ed. Janet Todd. London: Penguin, 1992, p. xvii. ",
+        "value": "In this 1831 amendment to the 1818 edition, Elizabeth changes from Victor's first cousin to his \"more than sister.\" It is unclear exactly why Shelley decided to make the change, but critics have thought that the incestuous relationship between Victor and Elizabeth may have scandalized readers. It is true, however, that incest was of significant fascination to Shelley. Her novella *Mathilda*, published posthumously in 1954, concerns the relationship of a woman with her father. After sending the manuscript to William Godwin, he told Shelley he found the depiction of incest \"disgusting and detestable,\" and refused to return the manuscript to his daughter.\n\nShelley, Mary. *Matilda*; with Mary and Maria, by Mary Wollstonecraft. Ed. Janet Todd. London: Penguin, 1992, p. xvii. WHAT PART OF ABOVE IS JANET TODD?",
         "creator": "https://hypothes.is/users/frankensteinvariorum",
-        "modified": "2019-04-13T14:20:44.043063+00:00",
+        "modified": "2019-06-21T19:19:22.124375+00:00",
         "purpose": "commenting"
       }
     ],
@@ -3051,7 +3097,7 @@
         "type": "TextualBody",
         "value": "The springing of a leak in the 1831 edition replaces the breaking of the ship's mast in the 1818 edition. ",
         "creator": "https://hypothes.is/users/frankensteinvariorum",
-        "modified": "2019-06-05T22:02:45.062881+00:00",
+        "modified": "2019-06-21T18:51:14.604106+00:00",
         "purpose": "commenting"
       }
     ],
@@ -3235,7 +3281,7 @@
         "type": "TextualBody",
         "value": "Shelley added this clarifying passage to the 1831 edition. By rephrasing \u201cglory\u201d as \u201cadvancement in his profession,\u201d Shelley adopts a new expression, not usually found before 1810, indicating a more precise path to famed achievement. It was often used to mean advancement in Her Majesty\u2019s Navy, thus it is especially apt for the lieutenant of Walton\u2019s ship.",
         "creator": "https://hypothes.is/users/frankensteinvariorum",
-        "modified": "2019-06-05T21:38:35.863520+00:00",
+        "modified": "2019-06-21T18:46:03.860245+00:00",
         "purpose": "commenting"
       }
     ],
@@ -3739,9 +3785,9 @@
     "body": [
       {
         "type": "TextualBody",
-        "value": "In this revision for the 1831 edition, Shelley emphasizes the affect Victor has on Walton and stresses Victor's weakened state.",
+        "value": "In this revision for the 1831 edition, Shelley emphasizes the effect Victor has on Walton and stresses Victor's weakened state.",
         "creator": "https://hypothes.is/users/frankensteinvariorum",
-        "modified": "2019-06-05T22:16:03.092889+00:00",
+        "modified": "2019-06-21T19:07:50.128218+00:00",
         "purpose": "commenting"
       }
     ],
@@ -4181,52 +4227,6 @@
             "value": "//[@xml:id='C08a_app109-f1818']"
           },
           "endOffset": 7
-        }
-      ]
-    }
-  },
-  {
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "https://frankensteinvariorum.org/huLPcl33EemIlAsY8fY8PQ",
-    "type": "Annotation",
-    "generator": {
-      "id": "https://frankensteinvariorum.org/",
-      "type": "Software",
-      "name": "Frankenstein Variorum",
-      "homepage": "https://recogito.pelagios.org/"
-    },
-    "generated": "2019-04-13T14:22:11.217991+00:00",
-    "body": [
-      {
-        "type": "TextualBody",
-        "value": "With this revision in the 1831 addition, Shelley underlines the moral lesson Victor hopes to impart upon Walton. ",
-        "creator": "https://hypothes.is/users/frankensteinvariorum",
-        "modified": "2019-06-05T22:14:37.197785+00:00",
-        "purpose": "commenting"
-      }
-    ],
-    "target": {
-      "source": "https://ebeshero.github.io/Pittsburgh_Frankenstein/Frankenstein_1831.html",
-      "type": "Text",
-      "selector": [
-        {
-          "type": "TextQuoteSelector",
-          "prefix": "\n         me\n         what I am,",
-          "exact": " I imagine that you may deduce an apt moral from my tale; one that may direct\n         you if you succeed in your undertaking, and console you in case of failure",
-          "suffix": ". Prepare\n         to\n         h"
-        },
-        {
-          "type": "RangeSelector",
-          "startSelector": {
-            "type": "XPathSelector",
-            "value": "//[@xml:id='C06g_app1-f1831']"
-          },
-          "startOffset": 126,
-          "endSelector": {
-            "type": "XPathSelector",
-            "value": "//[@xml:id='C06g_app1-f1831']"
-          },
-          "endOffset": 277
         }
       ]
     }
@@ -5027,9 +5027,9 @@
     "body": [
       {
         "type": "TextualBody",
-        "value": "*PLACEHOLDER* -- strange revision, which makes prose clumsier. (similar to \"imperatively occupied\" for \"engaged\" ",
+        "value": "Another strange revision, which makes prose clumsier.\n(see: \"imperatively occupied\" for \"engaged\") **NOTE: Can we link to annotations w/in annotations?** ",
         "creator": "https://hypothes.is/users/frankensteinvariorum",
-        "modified": "2019-06-07T21:10:50.361338+00:00",
+        "modified": "2019-06-20T19:51:37.367969+00:00",
         "purpose": "commenting"
       }
     ],
@@ -5211,9 +5211,9 @@
     "body": [
       {
         "type": "TextualBody",
-        "value": "Roncesvalles, a small village in Northern Spain, was the site of the Battle of Rocevaux Pass (798), in which the rear guard of Charlemagne's army was defeated by Basque Tribes. WHAT is the connection to King Arthur here?",
+        "value": "Roncesvalles, a small village in Northern Spain, was the site of the Battle of Rocevaux Pass (798), in which the rear guard of Charlemagne's army was defeated by Basque Tribes. ",
         "creator": "https://hypothes.is/users/frankensteinvariorum",
-        "modified": "2019-06-04T14:05:12.698844+00:00",
+        "modified": "2019-06-24T20:55:58.240674+00:00",
         "purpose": "commenting"
       }
     ],
@@ -5259,7 +5259,7 @@
         "type": "TextualBody",
         "value": "Shelley again appears at pains to stress Elizabeth's differences in both color and kind from the Italian \"dark-leaved\" brambles.",
         "creator": "https://hypothes.is/users/frankensteinvariorum",
-        "modified": "2019-06-06T19:38:35.455971+00:00",
+        "modified": "2019-06-21T19:17:48.405164+00:00",
         "purpose": "commenting"
       }
     ],
@@ -5533,9 +5533,9 @@
     "body": [
       {
         "type": "TextualBody",
-        "value": "In the 1818 edition, Walton doubts--in parenthesis--that he will be able to receive future letters from Margaret. The doubt disappears from the 1831 edition. ",
+        "value": "In the 1818 edition, Walton had doubted that he would be able to receive future letters from Margaret. The doubt now disappears from the 1831 edition. ",
         "creator": "https://hypothes.is/users/frankensteinvariorum",
-        "modified": "2019-06-05T22:02:56.290880+00:00",
+        "modified": "2019-06-21T18:50:27.153815+00:00",
         "purpose": "commenting"
       }
     ],
@@ -5579,9 +5579,9 @@
     "body": [
       {
         "type": "TextualBody",
-        "value": "From the French \"countryside\"; that is, a country house.",
+        "value": "*Campagne* is French for \"countryside\"; that is, a country house.*Italic*",
         "creator": "https://hypothes.is/users/frankensteinvariorum",
-        "modified": "2019-06-06T20:24:28.947859+00:00",
+        "modified": "2019-06-24T20:55:24.122573+00:00",
         "purpose": "commenting"
       }
     ],
