@@ -1,52 +1,6 @@
 [
   {
     "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "https://frankensteinvariorum.org/-Z8mCl33EemcroMoZYEj5Q",
-    "type": "Annotation",
-    "generator": {
-      "id": "https://frankensteinvariorum.org/",
-      "type": "Software",
-      "name": "Frankenstein Variorum",
-      "homepage": "https://recogito.pelagios.org/"
-    },
-    "generated": "2019-04-13T14:25:23.738169+00:00",
-    "body": [
-      {
-        "type": "TextualBody",
-        "value": "In \"Sinbad's Fourth Voyage,\" from *One Thousand and One Nights*, Sinbad is buried alive with his wife's corpse, following local custom. He sees a light, follows it to a small passage, then escapes. It has been suggested that Victor's allusion refers to his pending marriage with Elizabeth.",
-        "creator": "https://hypothes.is/users/frankensteinvariorum",
-        "modified": "2019-04-13T14:25:23.738169+00:00",
-        "purpose": "commenting"
-      }
-    ],
-    "target": {
-      "source": "https://ebeshero.github.io/Pittsburgh_Frankenstein/Frankenstein_1818.html",
-      "type": "Text",
-      "selector": [
-        {
-          "type": "TextQuoteSelector",
-          "prefix": "at object already accomplished. ",
-          "exact": "I was like the Arabian who had been buried\n         with the dead",
-          "suffix": ", and found a passage to life ai"
-        },
-        {
-          "type": "RangeSelector",
-          "startSelector": {
-            "type": "XPathSelector",
-            "value": "//p[@xml:id='novel1_letter4_chapter3_div4_div3_p5']"
-          },
-          "startOffset": 774,
-          "endSelector": {
-            "type": "XPathSelector",
-            "value": "//p[@xml:id='novel1_letter4_chapter3_div4_div3_p5']"
-          },
-          "endOffset": 830
-        }
-      ]
-    }
-  },
-  {
-    "@context": "http://www.w3.org/ns/anno.jsonld",
     "id": "https://frankensteinvariorum.org/03xDdm5bEemmd6N45nSgdg",
     "type": "Annotation",
     "generator": {
@@ -79,14 +33,14 @@
           "type": "RangeSelector",
           "startSelector": {
             "type": "XPathSelector",
-            "value": "//p[@xml:id='novel1_letter4_chapter3_div4_div3_p10']"
+            "value": "//[@xml:id='C09_app746-f1818']"
           },
-          "startOffset": 503,
+          "startOffset": 22,
           "endSelector": {
             "type": "XPathSelector",
-            "value": "//p[@xml:id='novel1_letter4_chapter3_div4_div3_p10']"
+            "value": "//[@xml:id='C09_app759-f1818']"
           },
-          "endOffset": 652
+          "endOffset": 4
         }
       ]
     }
@@ -125,14 +79,14 @@
           "type": "RangeSelector",
           "startSelector": {
             "type": "XPathSelector",
-            "value": "//p[@xml:id='novel1_letter4_chapter1_div4_div1_p22']"
+            "value": "//[@xml:id='C07g_app302-f1818']"
           },
-          "startOffset": 69,
+          "startOffset": 0,
           "endSelector": {
             "type": "XPathSelector",
-            "value": "//p[@xml:id='novel1_letter4_chapter1_div4_div1_p22']"
+            "value": "//[@xml:id='C07g_app302-f1818']"
           },
-          "endOffset": 77
+          "endOffset": 8
         }
       ]
     }
@@ -171,12 +125,12 @@
           "type": "RangeSelector",
           "startSelector": {
             "type": "XPathSelector",
-            "value": "//p[@xml:id='novel1_letter4_chapter1_div4_div1_p3']"
+            "value": "//[@xml:id='C07a_app24-f1818__F']"
           },
           "startOffset": 220,
           "endSelector": {
             "type": "XPathSelector",
-            "value": "//p[@xml:id='novel1_letter4_chapter1_div4_div1_p3']"
+            "value": "//[@xml:id='C07a_app24-f1818__F']"
           },
           "endOffset": 225
         }
@@ -217,14 +171,14 @@
           "type": "RangeSelector",
           "startSelector": {
             "type": "XPathSelector",
-            "value": "//p[@xml:id='novel1_letter2_div2_p7']"
+            "value": "//[@xml:id='C03e_app13-f1831__I']"
           },
-          "startOffset": 371,
+          "startOffset": 8,
           "endSelector": {
             "type": "XPathSelector",
-            "value": "//p[@xml:id='novel1_letter2_div2_p7']"
+            "value": "//[@xml:id='C03e_app13-f1831__F']"
           },
-          "endOffset": 1070
+          "endOffset": 39
         }
       ]
     }
@@ -263,14 +217,60 @@
           "type": "RangeSelector",
           "startSelector": {
             "type": "XPathSelector",
-            "value": "//p[@xml:id='novel1_letter4_chapter1_div4_div1_p7']"
+            "value": "//[@xml:id='C07b_app10-f1818__I']"
           },
-          "startOffset": 847,
+          "startOffset": 207,
           "endSelector": {
             "type": "XPathSelector",
-            "value": "//p[@xml:id='novel1_letter4_chapter1_div4_div1_p7']"
+            "value": "//[@xml:id='C07b_app10-f1818__I']"
           },
-          "endOffset": 857
+          "endOffset": 217
+        }
+      ]
+    }
+  },
+  {
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "https://frankensteinvariorum.org/2UxTyF33EemgAo8nI9W8uw",
+    "type": "Annotation",
+    "generator": {
+      "id": "https://frankensteinvariorum.org/",
+      "type": "Software",
+      "name": "Frankenstein Variorum",
+      "homepage": "https://recogito.pelagios.org/"
+    },
+    "generated": "2019-04-13T14:24:29.492250+00:00",
+    "body": [
+      {
+        "type": "TextualBody",
+        "value": "In 1816 the eruption of the volcano Mount Tambora (Indonesia) created extreme weather around the world in what came to be called \"the year without a summer.\" See Gillen D'Arcy Wood, *Tambora: The Eruption that Changed the World,* (Princeton University Press, 2015). Food shortages and cold affected millions of Europeans.",
+        "creator": "https://hypothes.is/users/frankensteinvariorum",
+        "modified": "2019-04-13T14:24:29.492250+00:00",
+        "purpose": "commenting"
+      }
+    ],
+    "target": {
+      "source": "https://ebeshero.github.io/Pittsburgh_Frankenstein/Frankenstein_1818.html",
+      "type": "Text",
+      "selector": [
+        {
+          "type": "TextQuoteSelector",
+          "prefix": "        the environs of Geneva. ",
+          "exact": "The season was cold and rainy",
+          "suffix": ", and in the evenings we crowded"
+        },
+        {
+          "type": "RangeSelector",
+          "startSelector": {
+            "type": "XPathSelector",
+            "value": "//[@xml:id='F1818_v1_011']"
+          },
+          "startOffset": 251,
+          "endSelector": {
+            "type": "XPathSelector",
+            "value": "//[@xml:id='F1818_v1_011']"
+          },
+          "endOffset": 280
         }
       ]
     }
@@ -309,14 +309,14 @@
           "type": "RangeSelector",
           "startSelector": {
             "type": "XPathSelector",
-            "value": "//p[@xml:id='novel1_letter4_chapter2_div4_div2_p1']"
+            "value": "//[@xml:id='C08a_app33-f1818']"
           },
-          "startOffset": 536,
+          "startOffset": 15,
           "endSelector": {
             "type": "XPathSelector",
-            "value": "//p[@xml:id='novel1_letter4_chapter2_div4_div2_p1']"
+            "value": "//[@xml:id='C08a_app35-f1818']"
           },
-          "endOffset": 549
+          "endOffset": 5
         }
       ]
     }
@@ -355,14 +355,14 @@
           "type": "RangeSelector",
           "startSelector": {
             "type": "XPathSelector",
-            "value": "//p[@xml:id='novel1_letter4_chapter4_div4_div4_p4']"
+            "value": "//[@xml:id='C10_app213-f1818__F']"
           },
-          "startOffset": 62,
+          "startOffset": 58,
           "endSelector": {
             "type": "XPathSelector",
-            "value": "//p[@xml:id='novel1_letter4_chapter4_div4_div4_p4']"
+            "value": "//[@xml:id='C10_app213-f1818__F']"
           },
-          "endOffset": 67
+          "endOffset": 63
         }
       ]
     }
@@ -401,14 +401,14 @@
           "type": "RangeSelector",
           "startSelector": {
             "type": "XPathSelector",
-            "value": "//p[@xml:id='novel1_letter4_chapter3_div4_div3_p12']"
+            "value": "//[@xml:id='C09_app849-f1818']"
           },
-          "startOffset": 874,
+          "startOffset": 0,
           "endSelector": {
             "type": "XPathSelector",
-            "value": "//p[@xml:id='novel1_letter4_chapter3_div4_div3_p12']"
+            "value": "//[@xml:id='C09_app852-f1818']"
           },
-          "endOffset": 909
+          "endOffset": 7
         }
       ]
     }
@@ -447,14 +447,14 @@
           "type": "RangeSelector",
           "startSelector": {
             "type": "XPathSelector",
-            "value": "//p[@xml:id='novel1_letter4_chapter1_div4_div1_p11']"
+            "value": "//[@xml:id='C07e_app50-f1818']"
           },
-          "startOffset": 599,
+          "startOffset": 0,
           "endSelector": {
             "type": "XPathSelector",
-            "value": "//p[@xml:id='novel1_letter4_chapter1_div4_div1_p11']"
+            "value": "//[@xml:id='C07e_app50-f1818']"
           },
-          "endOffset": 609
+          "endOffset": 10
         }
       ]
     }
@@ -493,14 +493,14 @@
           "type": "RangeSelector",
           "startSelector": {
             "type": "XPathSelector",
-            "value": "//p[@xml:id='novel1_letter2_div2_p3']"
+            "value": "//[@xml:id='F1818_v1_023']"
           },
-          "startOffset": 453,
+          "startOffset": 347,
           "endSelector": {
             "type": "XPathSelector",
-            "value": "//p[@xml:id='novel1_letter2_div2_p3']"
+            "value": "//[@xml:id='C03a_app7-f1818']"
           },
-          "endOffset": 512
+          "endOffset": 8
         }
       ]
     }
@@ -539,14 +539,60 @@
           "type": "RangeSelector",
           "startSelector": {
             "type": "XPathSelector",
-            "value": "//p[@xml:id='novel1_letter4_chapter1_div4_div1_p9']"
+            "value": "//[@xml:id='novel1_letter4_chapter1_div4_div1_p9']"
           },
           "startOffset": 15,
           "endSelector": {
             "type": "XPathSelector",
-            "value": "//p[@xml:id='novel1_letter4_chapter1_div4_div1_p9']"
+            "value": "//[@xml:id='novel1_letter4_chapter1_div4_div1_p9']"
           },
           "endOffset": 32
+        }
+      ]
+    }
+  },
+  {
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "https://frankensteinvariorum.org/7to2Vl33Eem2PJccOo3dlw",
+    "type": "Annotation",
+    "generator": {
+      "id": "https://frankensteinvariorum.org/",
+      "type": "Software",
+      "name": "Frankenstein Variorum",
+      "homepage": "https://recogito.pelagios.org/"
+    },
+    "generated": "2019-04-13T14:25:05.658427+00:00",
+    "body": [
+      {
+        "type": "TextualBody",
+        "value": "For discussion. Query whether comment should be included to compare Walton's estimation with Victor's own estimation later in the novel.",
+        "creator": "https://hypothes.is/users/frankensteinvariorum",
+        "modified": "2019-04-13T14:25:05.658427+00:00",
+        "purpose": "commenting"
+      }
+    ],
+    "target": {
+      "source": "https://ebeshero.github.io/Pittsburgh_Frankenstein/Frankenstein_1818.html",
+      "type": "Text",
+      "selector": [
+        {
+          "type": "TextQuoteSelector",
+          "prefix": "       find exceedingly useful. ",
+          "exact": "There is no pedantry in his manner; but all he does appears\n         to\n         spring solely from the interest he instinctively takes in the welfare of those who\n         surround him",
+          "suffix": ". He is often overcome by gloom,"
+        },
+        {
+          "type": "RangeSelector",
+          "startSelector": {
+            "type": "XPathSelector",
+            "value": "//[@xml:id='C06b_app1-f1818']"
+          },
+          "startOffset": 225,
+          "endSelector": {
+            "type": "XPathSelector",
+            "value": "//[@xml:id='C06b_app1-f1818']"
+          },
+          "endOffset": 383
         }
       ]
     }
@@ -585,14 +631,106 @@
           "type": "RangeSelector",
           "startSelector": {
             "type": "XPathSelector",
-            "value": "//p[@xml:id='novel1_letter4_chapter3_div4_div3_p9']"
+            "value": "//[@xml:id='C09_app706-f1818']"
           },
-          "startOffset": 1526,
+          "startOffset": 4,
           "endSelector": {
             "type": "XPathSelector",
-            "value": "//p[@xml:id='novel1_letter4_chapter3_div4_div3_p9']"
+            "value": "//[@xml:id='C09_app711-f1818']"
           },
-          "endOffset": 1589
+          "endOffset": 10
+        }
+      ]
+    }
+  },
+  {
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "https://frankensteinvariorum.org/8FR-fl33EemhKGNHdhoiYw",
+    "type": "Annotation",
+    "generator": {
+      "id": "https://frankensteinvariorum.org/",
+      "type": "Software",
+      "name": "Frankenstein Variorum",
+      "homepage": "https://recogito.pelagios.org/"
+    },
+    "generated": "2019-04-13T14:25:08.131704+00:00",
+    "body": [
+      {
+        "type": "TextualBody",
+        "value": "The implication would seem to be that formal education is better than being self-educated, and that someone trying to learn on their own might have difficultly separating fiction from fact.\n",
+        "creator": "https://hypothes.is/users/frankensteinvariorum",
+        "modified": "2019-04-13T14:25:08.131704+00:00",
+        "purpose": "commenting"
+      }
+    ],
+    "target": {
+      "source": "https://ebeshero.github.io/Pittsburgh_Frankenstein/Frankenstein_1818.html",
+      "type": "Text",
+      "selector": [
+        {
+          "type": "TextQuoteSelector",
+          "prefix": "        eighteenth century; but ",
+          "exact": "our family was not scientifical, and I had not attended any\n         of\n         the lectures given at the schools of Geneva. My dreams were therefore undisturbed\n         by\n         reality",
+          "suffix": "; and I entered with the greates"
+        },
+        {
+          "type": "RangeSelector",
+          "startSelector": {
+            "type": "XPathSelector",
+            "value": "//[@xml:id='C07g_app180-f1818']"
+          },
+          "startOffset": 0,
+          "endSelector": {
+            "type": "XPathSelector",
+            "value": "//[@xml:id='C07g_app190-f1818']"
+          },
+          "endOffset": 7
+        }
+      ]
+    }
+  },
+  {
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "https://frankensteinvariorum.org/8pnciF33EemPj4t-fpyQOA",
+    "type": "Annotation",
+    "generator": {
+      "id": "https://frankensteinvariorum.org/",
+      "type": "Software",
+      "name": "Frankenstein Variorum",
+      "homepage": "https://recogito.pelagios.org/"
+    },
+    "generated": "2019-04-13T14:25:11.904870+00:00",
+    "body": [
+      {
+        "type": "TextualBody",
+        "value": "Victor refers to Italian Dante Alighieri's (1265-1321) *Divine Comedy* in which the poet journeys through the nine circles of Hell.",
+        "creator": "https://hypothes.is/users/frankensteinvariorum",
+        "modified": "2019-04-13T14:25:11.904870+00:00",
+        "purpose": "commenting"
+      }
+    ],
+    "target": {
+      "source": "https://ebeshero.github.io/Pittsburgh_Frankenstein/Frankenstein_1818.html",
+      "type": "Text",
+      "selector": [
+        {
+          "type": "TextQuoteSelector",
+          "prefix": "    became a thing such as even ",
+          "exact": "Dante ",
+          "suffix": "could not have conceived.\n      "
+        },
+        {
+          "type": "RangeSelector",
+          "startSelector": {
+            "type": "XPathSelector",
+            "value": "//[@xml:id='C10_app227-f1818']"
+          },
+          "startOffset": 13,
+          "endSelector": {
+            "type": "XPathSelector",
+            "value": "//[@xml:id='C10_app227-f1818']"
+          },
+          "endOffset": 18
         }
       ]
     }
@@ -631,14 +769,60 @@
           "type": "RangeSelector",
           "startSelector": {
             "type": "XPathSelector",
-            "value": "//p[@xml:id='novel1_letter4_chapter3_div4_div3_p6']"
+            "value": "//[@xml:id='C09_app437-f1818']"
           },
-          "startOffset": 387,
+          "startOffset": 35,
           "endSelector": {
             "type": "XPathSelector",
-            "value": "//p[@xml:id='novel1_letter4_chapter3_div4_div3_p6']"
+            "value": "//[@xml:id='C09_app444-f1818']"
           },
-          "endOffset": 494
+          "endOffset": 9
+        }
+      ]
+    }
+  },
+  {
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "https://frankensteinvariorum.org/A57xvF34Eemiov8Qq9ynxA",
+    "type": "Annotation",
+    "generator": {
+      "id": "https://frankensteinvariorum.org/",
+      "type": "Software",
+      "name": "Frankenstein Variorum",
+      "homepage": "https://recogito.pelagios.org/"
+    },
+    "generated": "2019-04-13T14:25:40.491744+00:00",
+    "body": [
+      {
+        "type": "TextualBody",
+        "value": "Research other German physicians.",
+        "creator": "https://hypothes.is/users/frankensteinvariorum",
+        "modified": "2019-04-13T14:25:40.491744+00:00",
+        "purpose": "commenting"
+      }
+    ],
+    "target": {
+      "source": "https://ebeshero.github.io/Pittsburgh_Frankenstein/Frankenstein_1818.html",
+      "type": "Text",
+      "selector": [
+        {
+          "type": "TextQuoteSelector",
+          "prefix": "    Dr. Darwin, and some of the ",
+          "exact": "physiological writers of Germany",
+          "suffix": ", as not of impossible\n         "
+        },
+        {
+          "type": "RangeSelector",
+          "startSelector": {
+            "type": "XPathSelector",
+            "value": "//[@xml:id='preface1_p1_hi1']"
+          },
+          "startOffset": 90,
+          "endSelector": {
+            "type": "XPathSelector",
+            "value": "//[@xml:id='preface1_p1_hi1']"
+          },
+          "endOffset": 122
         }
       ]
     }
@@ -677,14 +861,60 @@
           "type": "RangeSelector",
           "startSelector": {
             "type": "XPathSelector",
-            "value": "//p[@xml:id='novel1_letter4_chapter1_div4_div1_p10']"
+            "value": "//[@xml:id='novel1_letter4_chapter1_div4_div1_p10']"
           },
           "startOffset": 638,
           "endSelector": {
             "type": "XPathSelector",
-            "value": "//p[@xml:id='novel1_letter4_chapter1_div4_div1_p10']"
+            "value": "//[@xml:id='novel1_letter4_chapter1_div4_div1_p10']"
           },
           "endOffset": 655
+        }
+      ]
+    }
+  },
+  {
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "https://frankensteinvariorum.org/BdWCKl34EemxSXul778pfg",
+    "type": "Annotation",
+    "generator": {
+      "id": "https://frankensteinvariorum.org/",
+      "type": "Software",
+      "name": "Frankenstein Variorum",
+      "homepage": "https://recogito.pelagios.org/"
+    },
+    "generated": "2019-04-13T14:25:44.148861+00:00",
+    "body": [
+      {
+        "type": "TextualBody",
+        "value": "Paracelsus was a medieval German theologian and scientist (1200-1280) DETAILS; Albertus Magnus was XXX details.",
+        "creator": "https://hypothes.is/users/frankensteinvariorum",
+        "modified": "2019-04-13T14:25:44.148861+00:00",
+        "purpose": "commenting"
+      }
+    ],
+    "target": {
+      "source": "https://ebeshero.github.io/Pittsburgh_Frankenstein/Frankenstein_1818.html",
+      "type": "Text",
+      "selector": [
+        {
+          "type": "TextQuoteSelector",
+          "prefix": "     and\n         afterwards of ",
+          "exact": "Paracelsus and Albertus Magnus",
+          "suffix": ". I read and studied the wild fa"
+        },
+        {
+          "type": "RangeSelector",
+          "startSelector": {
+            "type": "XPathSelector",
+            "value": "//[@xml:id='C07g_app131-f1818']"
+          },
+          "startOffset": 3,
+          "endSelector": {
+            "type": "XPathSelector",
+            "value": "//[@xml:id='C07g_app131-f1818']"
+          },
+          "endOffset": 33
         }
       ]
     }
@@ -723,14 +953,60 @@
           "type": "RangeSelector",
           "startSelector": {
             "type": "XPathSelector",
-            "value": "//p[@xml:id='novel1_letter4_chapter1_div4_div1_p9']"
+            "value": "//[@xml:id='novel1_letter4_chapter1_div4_div1_p9_hi1']"
           },
-          "startOffset": 539,
+          "startOffset": 0,
           "endSelector": {
             "type": "XPathSelector",
-            "value": "//p[@xml:id='novel1_letter4_chapter1_div4_div1_p9']"
+            "value": "//[@xml:id='novel1_letter4_chapter1_div4_div1_p9_hi1']"
           },
-          "endOffset": 561
+          "endOffset": 22
+        }
+      ]
+    }
+  },
+  {
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "https://frankensteinvariorum.org/D9ztOl34EemxT-OeuJ1D3Q",
+    "type": "Annotation",
+    "generator": {
+      "id": "https://frankensteinvariorum.org/",
+      "type": "Software",
+      "name": "Frankenstein Variorum",
+      "homepage": "https://recogito.pelagios.org/"
+    },
+    "generated": "2019-04-13T14:26:01.029220+00:00",
+    "body": [
+      {
+        "type": "TextualBody",
+        "value": "Compare John 8:12: \"Then spake Jesus again unto them, saying, I am the light of the world: he that followeth me shall not walk in darkness, but shall have the light of life.\" *King James Version*\n\nThe concept of \"eternal light\" also ties in with the myth of Prometheus and is a reference to the principles of the Age of Enlightenment as the simultaneous literal and figurative 'enlightening' brought by education, adventure, and discovery.\n",
+        "creator": "https://hypothes.is/users/frankensteinvariorum",
+        "modified": "2019-04-13T14:26:01.029220+00:00",
+        "purpose": "commenting"
+      }
+    ],
+    "target": {
+      "source": "https://ebeshero.github.io/Pittsburgh_Frankenstein/Frankenstein_1818.html",
+      "type": "Text",
+      "selector": [
+        {
+          "type": "TextQuoteSelector",
+          "prefix": "       expected in a country of ",
+          "exact": "eternal light",
+          "suffix": "? I may there discover the wondr"
+        },
+        {
+          "type": "RangeSelector",
+          "startSelector": {
+            "type": "XPathSelector",
+            "value": "//[@xml:id='C02c_app5-f1818']"
+          },
+          "startOffset": 3,
+          "endSelector": {
+            "type": "XPathSelector",
+            "value": "//[@xml:id='C02c_app5-f1818']"
+          },
+          "endOffset": 16
         }
       ]
     }
@@ -769,14 +1045,14 @@
           "type": "RangeSelector",
           "startSelector": {
             "type": "XPathSelector",
-            "value": "//p[@xml:id='novel1_letter4_chapter2_div4_div2_p2']"
+            "value": "//[@xml:id='C07e_app44-f1831__I']"
           },
-          "startOffset": 1056,
+          "startOffset": 128,
           "endSelector": {
             "type": "XPathSelector",
-            "value": "//p[@xml:id='novel1_letter4_chapter2_div4_div2_p2']"
+            "value": "//[@xml:id='C07e_app44-f1831__I']"
           },
-          "endOffset": 1082
+          "endOffset": 154
         }
       ]
     }
@@ -815,12 +1091,12 @@
           "type": "RangeSelector",
           "startSelector": {
             "type": "XPathSelector",
-            "value": "//p[@xml:id='novel1_letter4_chapter1_div4_div1_p8']"
+            "value": "//[@xml:id='novel1_letter4_chapter1_div4_div1_p8']"
           },
           "startOffset": 255,
           "endSelector": {
             "type": "XPathSelector",
-            "value": "//p[@xml:id='novel1_letter4_chapter1_div4_div1_p8']"
+            "value": "//[@xml:id='novel1_letter4_chapter1_div4_div1_p8']"
           },
           "endOffset": 267
         }
@@ -861,14 +1137,14 @@
           "type": "RangeSelector",
           "startSelector": {
             "type": "XPathSelector",
-            "value": "//p[@xml:id='novel1_letter4_chapter3_div4_div3_p12']"
+            "value": "//[@xml:id='C09_app852-f1818']"
           },
-          "startOffset": 911,
+          "startOffset": 0,
           "endSelector": {
             "type": "XPathSelector",
-            "value": "//p[@xml:id='novel1_letter4_chapter3_div4_div3_p12']"
+            "value": "//[@xml:id='C09_app855-f1818']"
           },
-          "endOffset": 960
+          "endOffset": 9
         }
       ]
     }
@@ -907,60 +1183,14 @@
           "type": "RangeSelector",
           "startSelector": {
             "type": "XPathSelector",
-            "value": "//p[@xml:id='novel1_letter4_chapter1_div4_div1_p25']"
+            "value": "//[@xml:id='C07h_app51-f1818']"
           },
-          "startOffset": 48,
+          "startOffset": 14,
           "endSelector": {
             "type": "XPathSelector",
-            "value": "//p[@xml:id='novel1_letter4_chapter1_div4_div1_p25']"
+            "value": "//[@xml:id='C07h_app52-f1818']"
           },
-          "endOffset": 92
-        }
-      ]
-    }
-  },
-  {
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "https://frankensteinvariorum.org/ErIEtIloEemqJw8jgRv_kA",
-    "type": "Annotation",
-    "generator": {
-      "id": "https://frankensteinvariorum.org/",
-      "type": "Software",
-      "name": "Frankenstein Variorum",
-      "homepage": "https://recogito.pelagios.org/"
-    },
-    "generated": "2019-06-07T21:06:09.412002+00:00",
-    "body": [
-      {
-        "type": "TextualBody",
-        "value": "*PLACEHOLDER* significant addition",
-        "creator": "https://hypothes.is/users/frankensteinvariorum",
-        "modified": "2019-06-07T21:06:09.412002+00:00",
-        "purpose": "commenting"
-      }
-    ],
-    "target": {
-      "source": "https://ebeshero.github.io/Pittsburgh_Frankenstein/Frankenstein_1831.html",
-      "type": "Text",
-      "selector": [
-        {
-          "type": "TextQuoteSelector",
-          "prefix": "father a respite of some weeks. ",
-          "exact": "It appeared to\n         me\n         sacrilege so soon to leave the repose, akin to death, of the house of mourning, and\n         to\n         rush into the thick of life. I was new to sorrow, but it did not the less alarm me.\n         I\n         was unwilling to quit the sight of those that remained to me; and, above all, I desired\n         to see my sweet Elizabeth in some degree consoled.\n      \n      \n      She indeed veiled her grief, and strove to act the comforter to us all. She looked\n         steadily on life, and assumed its duties with courage and zeal. She devoted herself\n         to\n         those whom she had been taught to call her uncle and 31cousins. Never was she so enchanting as at this time, when she recalled the sunshine\n         of her smiles and spent them upon us. She forgot even her own regret in her endeavours\n         to make us forget.\n      ",
-          "suffix": "\n      \n      The day of my depa"
-        },
-        {
-          "type": "RangeSelector",
-          "startSelector": {
-            "type": "XPathSelector",
-            "value": "//p[@xml:id='novel1_letter4_chapter3_div4_div3_p4']"
-          },
-          "startOffset": 152,
-          "endSelector": {
-            "type": "XPathSelector",
-            "value": "//p[@xml:id='novel1_letter4_chapter3_div4_div3_p4']"
-          },
-          "endOffset": 481
+          "endOffset": 18
         }
       ]
     }
@@ -999,14 +1229,60 @@
           "type": "RangeSelector",
           "startSelector": {
             "type": "XPathSelector",
-            "value": "//p[@xml:id='novel1_letter4_chapter1_div4_div1_p11']"
+            "value": "//[@xml:id='C07e_app51-f1818']"
           },
-          "startOffset": 611,
+          "startOffset": 0,
           "endSelector": {
             "type": "XPathSelector",
-            "value": "//p[@xml:id='novel1_letter4_chapter1_div4_div1_p11']"
+            "value": "//[@xml:id='C07e_app51-f1818']"
           },
-          "endOffset": 617
+          "endOffset": 6
+        }
+      ]
+    }
+  },
+  {
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "https://frankensteinvariorum.org/FH1tiF34EemVEjt3vveL1g",
+    "type": "Annotation",
+    "generator": {
+      "id": "https://frankensteinvariorum.org/",
+      "type": "Software",
+      "name": "Frankenstein Variorum",
+      "homepage": "https://recogito.pelagios.org/"
+    },
+    "generated": "2019-04-13T14:26:08.821870+00:00",
+    "body": [
+      {
+        "type": "TextualBody",
+        "value": "In this passage from Part VI of \"The Rime of the Ancient Mariner,\" the Mariner faces the apparition of the dead sailors -- as if in a \"charnel-dungeon\"--standing to rebuke him for their deaths. ",
+        "creator": "https://hypothes.is/users/frankensteinvariorum",
+        "modified": "2019-04-13T14:26:08.821870+00:00",
+        "purpose": "commenting"
+      }
+    ],
+    "target": {
+      "source": "https://ebeshero.github.io/Pittsburgh_Frankenstein/Frankenstein_1818.html",
+      "type": "Text",
+      "selector": [
+        {
+          "type": "TextQuoteSelector",
+          "prefix": "urns no more his head;\n         ",
+          "exact": "Because he knows a frightful fiend\n         Doth close behind him tread",
+          "suffix": "*.* Coleridge\u2019s \u201cAncient Mariner"
+        },
+        {
+          "type": "RangeSelector",
+          "startSelector": {
+            "type": "XPathSelector",
+            "value": "//[@xml:id='C10_app342-f1818__F']"
+          },
+          "startOffset": 0,
+          "endSelector": {
+            "type": "XPathSelector",
+            "value": "//[@xml:id='C10_app346-f1818__I']"
+          },
+          "endOffset": 5
         }
       ]
     }
@@ -1045,14 +1321,14 @@
           "type": "RangeSelector",
           "startSelector": {
             "type": "XPathSelector",
-            "value": "//p[@xml:id='novel1_letter4_chapter1_div4_div1_p18']"
+            "value": "//[@xml:id='C07g_app197-f1818']"
           },
-          "startOffset": 329,
+          "startOffset": 0,
           "endSelector": {
             "type": "XPathSelector",
-            "value": "//p[@xml:id='novel1_letter4_chapter1_div4_div1_p18']"
+            "value": "//[@xml:id='C07g_app197-f1818']"
           },
-          "endOffset": 348
+          "endOffset": 5
         }
       ]
     }
@@ -1091,14 +1367,14 @@
           "type": "RangeSelector",
           "startSelector": {
             "type": "XPathSelector",
-            "value": "//p[@xml:id='novel1_letter4_div4_p4']"
+            "value": "//[@xml:id='C05_app6-f1818__I']"
           },
-          "startOffset": 494,
+          "startOffset": 385,
           "endSelector": {
             "type": "XPathSelector",
-            "value": "//p[@xml:id='novel1_letter4_div4_p4']"
+            "value": "//[@xml:id='C05_app6-f1818__I']"
           },
-          "endOffset": 548
+          "endOffset": 439
         }
       ]
     }
@@ -1137,14 +1413,14 @@
           "type": "RangeSelector",
           "startSelector": {
             "type": "XPathSelector",
-            "value": "//p[@xml:id='novel1_letter4_chapter1_div4_div1_p20']"
+            "value": "//[@xml:id='C07g_app263-f1818']"
           },
-          "startOffset": 293,
+          "startOffset": 0,
           "endSelector": {
             "type": "XPathSelector",
-            "value": "//p[@xml:id='novel1_letter4_chapter1_div4_div1_p20']"
+            "value": "//[@xml:id='C07g_app263-f1818']"
           },
-          "endOffset": 301
+          "endOffset": 8
         }
       ]
     }
@@ -1183,14 +1459,14 @@
           "type": "RangeSelector",
           "startSelector": {
             "type": "XPathSelector",
-            "value": "//p[@xml:id='novel1_letter4_chapter4_div4_div4_p3']"
+            "value": "//[@xml:id='C10_app127-f1818']"
           },
-          "startOffset": 1048,
+          "startOffset": 23,
           "endSelector": {
             "type": "XPathSelector",
-            "value": "//p[@xml:id='novel1_letter4_chapter4_div4_div4_p3']"
+            "value": "//[@xml:id='C10_app133-f1818']"
           },
-          "endOffset": 1146
+          "endOffset": 4
         }
       ]
     }
@@ -1229,14 +1505,14 @@
           "type": "RangeSelector",
           "startSelector": {
             "type": "XPathSelector",
-            "value": "//p[@xml:id='novel1_letter4_chapter2_div4_div2_p1']"
+            "value": "//[@xml:id='C08a_app89-f1818']"
           },
-          "startOffset": 1176,
+          "startOffset": 0,
           "endSelector": {
             "type": "XPathSelector",
-            "value": "//p[@xml:id='novel1_letter4_chapter2_div4_div2_p1']"
+            "value": "//[@xml:id='C08a_app89-f1818']"
           },
-          "endOffset": 1186
+          "endOffset": 9
         }
       ]
     }
@@ -1275,14 +1551,14 @@
           "type": "RangeSelector",
           "startSelector": {
             "type": "XPathSelector",
-            "value": "//p[@xml:id='novel1_letter4_chapter1_div4_div1_p11']"
+            "value": "//[@xml:id='novel1_letter4_chapter1_div4_div1_p10']"
           },
-          "startOffset": 16,
+          "startOffset": 638,
           "endSelector": {
             "type": "XPathSelector",
-            "value": "//p[@xml:id='novel1_letter4_chapter1_div4_div1_p11']"
+            "value": "//[@xml:id='novel1_letter4_chapter1_div4_div1_p10']"
           },
-          "endOffset": 25
+          "endOffset": 647
         }
       ]
     }
@@ -1321,60 +1597,14 @@
           "type": "RangeSelector",
           "startSelector": {
             "type": "XPathSelector",
-            "value": "//p[@xml:id='novel1_letter1_div1_p4']"
+            "value": "//[@xml:id='F1818_v1_017']"
           },
-          "startOffset": 400,
+          "startOffset": 65,
           "endSelector": {
             "type": "XPathSelector",
-            "value": "//p[@xml:id='novel1_letter1_div1_p4']"
+            "value": "//[@xml:id='F1818_v1_017']"
           },
-          "endOffset": 483
-        }
-      ]
-    }
-  },
-  {
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "https://frankensteinvariorum.org/JREVxF33EemZLe84758NEQ",
-    "type": "Annotation",
-    "generator": {
-      "id": "https://frankensteinvariorum.org/",
-      "type": "Software",
-      "name": "Frankenstein Variorum",
-      "homepage": "https://recogito.pelagios.org/"
-    },
-    "generated": "2019-04-13T14:19:27.085936+00:00",
-    "body": [
-      {
-        "type": "TextualBody",
-        "value": "The first appearance of the Creature, distant but distinct, surprises the ship's crew, who assume they are too far into the inhospitable Arctic for life to persist. ",
-        "creator": "https://hypothes.is/users/frankensteinvariorum",
-        "modified": "2019-04-13T14:19:27.085936+00:00",
-        "purpose": "commenting"
-      }
-    ],
-    "target": {
-      "source": "https://ebeshero.github.io/Pittsburgh_Frankenstein/Frankenstein_1818.html",
-      "type": "Text",
-      "selector": [
-        {
-          "type": "TextQuoteSelector",
-          "prefix": "the ice.\n      \n      \n      023",
-          "exact": "This appearance excited our unqualified wonder. We\n         were, as we believed, many hundred miles from any land; but this apparition seemed\n         to\n         denote that it was not, in reality, so distant as we had supposed",
-          "suffix": ". Shut in, however,\n         by\n"
-        },
-        {
-          "type": "RangeSelector",
-          "startSelector": {
-            "type": "XPathSelector",
-            "value": "//p[@xml:id='novel1_letter4_div4_p5']"
-          },
-          "startOffset": 0,
-          "endSelector": {
-            "type": "XPathSelector",
-            "value": "//p[@xml:id='novel1_letter4_div4_p5']"
-          },
-          "endOffset": 202
+          "endOffset": 148
         }
       ]
     }
@@ -1413,14 +1643,60 @@
           "type": "RangeSelector",
           "startSelector": {
             "type": "XPathSelector",
-            "value": "//p[@xml:id='novel1_letter4_chapter1_div4_div1_p1']"
+            "value": "//[@xml:id='C07a_app6-f1831']"
           },
-          "startOffset": 416,
+          "startOffset": 0,
           "endSelector": {
             "type": "XPathSelector",
-            "value": "//p[@xml:id='novel1_letter4_chapter1_div4_div1_p1']"
+            "value": "//[@xml:id='C07a_app14-f1831__I']"
           },
-          "endOffset": 566
+          "endOffset": 19
+        }
+      ]
+    }
+  },
+  {
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "https://frankensteinvariorum.org/KTA-oF33EemrAj9gdd7nSw",
+    "type": "Annotation",
+    "generator": {
+      "id": "https://frankensteinvariorum.org/",
+      "type": "Software",
+      "name": "Frankenstein Variorum",
+      "homepage": "https://recogito.pelagios.org/"
+    },
+    "generated": "2019-04-13T14:19:34.061857+00:00",
+    "body": [
+      {
+        "type": "TextualBody",
+        "value": "should annotate, will be \"handsome\" in MS",
+        "creator": "https://hypothes.is/users/frankensteinvariorum",
+        "modified": "2019-04-13T14:19:34.061857+00:00",
+        "purpose": "commenting"
+      }
+    ],
+    "target": {
+      "source": "https://ebeshero.github.io/Pittsburgh_Frankenstein/Frankenstein_1818.html",
+      "type": "Text",
+      "selector": [
+        {
+          "type": "TextQuoteSelector",
+          "prefix": "cted his features as beautiful. ",
+          "exact": "Beautiful!",
+          "suffix": "\u2014Great God! His\n         yellow "
+        },
+        {
+          "type": "RangeSelector",
+          "startSelector": {
+            "type": "XPathSelector",
+            "value": "//[@xml:id='C10_app44-f1818']"
+          },
+          "startOffset": 11,
+          "endSelector": {
+            "type": "XPathSelector",
+            "value": "//[@xml:id='C10_app44-f1818']"
+          },
+          "endOffset": 21
         }
       ]
     }
@@ -1459,14 +1735,14 @@
           "type": "RangeSelector",
           "startSelector": {
             "type": "XPathSelector",
-            "value": "//p[@xml:id='novel1_letter4_chapter2_div4_div2_p1']"
+            "value": "//[@xml:id='C08a_app10-f1818']"
           },
-          "startOffset": 99,
+          "startOffset": 17,
           "endSelector": {
             "type": "XPathSelector",
-            "value": "//p[@xml:id='novel1_letter4_chapter2_div4_div2_p1']"
+            "value": "//[@xml:id='C08a_app10-f1818']"
           },
-          "endOffset": 123
+          "endOffset": 41
         }
       ]
     }
@@ -1505,14 +1781,60 @@
           "type": "RangeSelector",
           "startSelector": {
             "type": "XPathSelector",
-            "value": "//p[@xml:id='preface1_p1']"
+            "value": "//[@xml:id='preface1_p1_hi1']"
           },
-          "startOffset": 65,
+          "startOffset": 62,
           "endSelector": {
             "type": "XPathSelector",
-            "value": "//p[@xml:id='preface1_p1']"
+            "value": "//[@xml:id='preface1_p1_hi1']"
           },
-          "endOffset": 75
+          "endOffset": 72
+        }
+      ]
+    }
+  },
+  {
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "https://frankensteinvariorum.org/LccTdl33Eemilrf6ZPzcJA",
+    "type": "Annotation",
+    "generator": {
+      "id": "https://frankensteinvariorum.org/",
+      "type": "Software",
+      "name": "Frankenstein Variorum",
+      "homepage": "https://recogito.pelagios.org/"
+    },
+    "generated": "2019-04-13T14:19:41.754671+00:00",
+    "body": [
+      {
+        "type": "TextualBody",
+        "value": "The death of Victor's mother, caused by her catching Elizabeth's scarlet fever, would lead in Victor's mind to a morbid association between the two women. It appears more vividly in Victor's nightmare in  Book 1, Chapter 4, associated there with his first horror at beholding his creature. On the maternal and even incestuous dimensions of this passage, see also ",
+        "creator": "https://hypothes.is/users/frankensteinvariorum",
+        "modified": "2019-04-13T14:19:41.754671+00:00",
+        "purpose": "commenting"
+      }
+    ],
+    "target": {
+      "source": "https://ebeshero.github.io/Pittsburgh_Frankenstein/Frankenstein_1818.html",
+      "type": "Text",
+      "selector": [
+        {
+          "type": "TextQuoteSelector",
+          "prefix": "        fatal. On the third day ",
+          "exact": "my mother sickened",
+          "suffix": "; her fever was very malignant, "
+        },
+        {
+          "type": "RangeSelector",
+          "startSelector": {
+            "type": "XPathSelector",
+            "value": "//[@xml:id='C08a_app76-f1818']"
+          },
+          "startOffset": 17,
+          "endSelector": {
+            "type": "XPathSelector",
+            "value": "//[@xml:id='C08a_app78-f1818']"
+          },
+          "endOffset": 8
         }
       ]
     }
@@ -1551,14 +1873,60 @@
           "type": "RangeSelector",
           "startSelector": {
             "type": "XPathSelector",
-            "value": "//p[@xml:id='novel1_letter4_chapter2_div4_div2_p4']"
+            "value": "//[@xml:id='C08d_app27-f1818__I']"
           },
-          "startOffset": 417,
+          "startOffset": 0,
           "endSelector": {
             "type": "XPathSelector",
-            "value": "//p[@xml:id='novel1_letter4_chapter2_div4_div2_p4']"
+            "value": "//[@xml:id='C08d_app27-f1818__I']"
           },
-          "endOffset": 441
+          "endOffset": 24
+        }
+      ]
+    }
+  },
+  {
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "https://frankensteinvariorum.org/MYIofoloEem8iF_l51l3eg",
+    "type": "Annotation",
+    "generator": {
+      "id": "https://frankensteinvariorum.org/",
+      "type": "Software",
+      "name": "Frankenstein Variorum",
+      "homepage": "https://recogito.pelagios.org/"
+    },
+    "generated": "2019-06-07T21:07:01.130441+00:00",
+    "body": [
+      {
+        "type": "TextualBody",
+        "value": "*PLACEHOLDER* significant addition",
+        "creator": "https://hypothes.is/users/frankensteinvariorum",
+        "modified": "2019-06-07T21:07:01.130441+00:00",
+        "purpose": "commenting"
+      }
+    ],
+    "target": {
+      "source": "https://ebeshero.github.io/Pittsburgh_Frankenstein/Frankenstein_1831.html",
+      "type": "Text",
+      "selector": [
+        {
+          "type": "TextQuoteSelector",
+          "prefix": "my departure at length arrived. ",
+          "exact": "Clerval spent the last evening with us.\n         He\n         had endeavoured to persuade his father to permit him to accompany me, and to become\n         my\n         fellow student; but in vain. His father was a narrow-minded trader, and saw idleness\n         and\n         ruin in the aspirations and ambition of his son. Henry deeply felt the misfortune\n         of\n         being debarred from a liberal education. He said little; but when he spoke, I read\n         in\n         his kindling eye and in his animated glance a restrained but firm resolve, not to\n         be\n         chained to the miserable details of commerce.\n      \n      \n      We sat late. We could not tear ourselves away from each other, nor persuade ourselves\n         to say the word \u201cFarewell!\u201d It was said; and we retired under the pretence of seeking\n         repose, each fancying that the other was deceived: but when at morning\u2019s dawn I\n         descended to the carriage which was to convey me away, they were all there\u2014my father\n         again to bless me, Clerval to press my hand once more, my Elizabeth to renew her\n         entreaties that I would write often, and to bestow the last feminine attentions on\n         her\n         playmate and friend.\n      \n      \n      ",
+          "suffix": "I threw myself into the chaise t"
+        },
+        {
+          "type": "RangeSelector",
+          "startSelector": {
+            "type": "XPathSelector",
+            "value": "//[@xml:id='C08d_app3-f1831__I']"
+          },
+          "startOffset": 0,
+          "endSelector": {
+            "type": "XPathSelector",
+            "value": "//[@xml:id='novel1_letter4_chapter3_div4_div3_p7']"
+          },
+          "endOffset": 525
         }
       ]
     }
@@ -1597,14 +1965,60 @@
           "type": "RangeSelector",
           "startSelector": {
             "type": "XPathSelector",
-            "value": "//p[@xml:id='novel1_letter4_chapter2_div4_div2_p8']"
+            "value": "//[@xml:id='C07g_app102-f1831']"
           },
-          "startOffset": 423,
+          "startOffset": 0,
           "endSelector": {
             "type": "XPathSelector",
-            "value": "//p[@xml:id='novel1_letter4_chapter2_div4_div2_p8']"
+            "value": "//[@xml:id='C07g_app106-f1831']"
           },
-          "endOffset": 525
+          "endOffset": 58
+        }
+      ]
+    }
+  },
+  {
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "https://frankensteinvariorum.org/NauXBl33Eemf-ZNX_QWGHg",
+    "type": "Annotation",
+    "generator": {
+      "id": "https://frankensteinvariorum.org/",
+      "type": "Software",
+      "name": "Frankenstein Variorum",
+      "homepage": "https://recogito.pelagios.org/"
+    },
+    "generated": "2019-04-13T14:19:54.946629+00:00",
+    "body": [
+      {
+        "type": "TextualBody",
+        "value": "Victor's tells a teleological story about the path his life has taken.",
+        "creator": "https://hypothes.is/users/frankensteinvariorum",
+        "modified": "2019-04-13T14:19:54.946629+00:00",
+        "purpose": "commenting"
+      }
+    ],
+    "target": {
+      "source": "https://ebeshero.github.io/Pittsburgh_Frankenstein/Frankenstein_1818.html",
+      "type": "Text",
+      "selector": [
+        {
+          "type": "TextQuoteSelector",
+          "prefix": "ch afterwards ruled my destiny, ",
+          "exact": "I find it arise, like a\n         mountain river, from ignoble and almost forgotten sources; but, swelling as it\n         proceeded, it became the torrent which, in its course, has swept away all my hopes\n         and\n         joys",
+          "suffix": ".\n      \n      \n      Natural ph"
+        },
+        {
+          "type": "RangeSelector",
+          "startSelector": {
+            "type": "XPathSelector",
+            "value": "//[@xml:id='C07g_app7-f1818__I']"
+          },
+          "startOffset": 0,
+          "endSelector": {
+            "type": "XPathSelector",
+            "value": "//[@xml:id='C07g_app7-f1818__I']"
+          },
+          "endOffset": 194
         }
       ]
     }
@@ -1643,14 +2057,14 @@
           "type": "RangeSelector",
           "startSelector": {
             "type": "XPathSelector",
-            "value": "//p[@xml:id='novel1_letter4_chapter1_div4_div1_p16']"
+            "value": "//[@xml:id='C07g_app78-f1818']"
           },
-          "startOffset": 81,
+          "startOffset": 5,
           "endSelector": {
             "type": "XPathSelector",
-            "value": "//p[@xml:id='novel1_letter4_chapter1_div4_div1_p16']"
+            "value": "//[@xml:id='C07g_app78-f1818']"
           },
-          "endOffset": 106
+          "endOffset": 30
         }
       ]
     }
@@ -1689,14 +2103,14 @@
           "type": "RangeSelector",
           "startSelector": {
             "type": "XPathSelector",
-            "value": "//p[@xml:id='novel1_letter4_chapter3_div4_div3_p7']"
+            "value": "//[@xml:id='C09_app473-f1818']"
           },
-          "startOffset": 241,
+          "startOffset": 0,
           "endSelector": {
             "type": "XPathSelector",
-            "value": "//p[@xml:id='novel1_letter4_chapter3_div4_div3_p7']"
+            "value": "//[@xml:id='C09_app479-f1818']"
           },
-          "endOffset": 357
+          "endOffset": 21
         }
       ]
     }
@@ -1735,14 +2149,14 @@
           "type": "RangeSelector",
           "startSelector": {
             "type": "XPathSelector",
-            "value": "//p[@xml:id='novel1_letter4_chapter3_div4_div3_p7']"
+            "value": "//[@xml:id='C09_app532-f1818']"
           },
-          "startOffset": 1195,
+          "startOffset": 0,
           "endSelector": {
             "type": "XPathSelector",
-            "value": "//p[@xml:id='novel1_letter4_chapter3_div4_div3_p7']"
+            "value": "//[@xml:id='C09_app534-f1818']"
           },
-          "endOffset": 1264
+          "endOffset": 35
         }
       ]
     }
@@ -1781,14 +2195,14 @@
           "type": "RangeSelector",
           "startSelector": {
             "type": "XPathSelector",
-            "value": "//p[@xml:id='novel1_letter4_chapter4_div4_div4_p10']"
+            "value": "//[@xml:id='C10_app449-f1818']"
           },
-          "startOffset": 920,
+          "startOffset": 11,
           "endSelector": {
             "type": "XPathSelector",
-            "value": "//p[@xml:id='novel1_letter4_chapter4_div4_div4_p10']"
+            "value": "//[@xml:id='C10_app453-f1818']"
           },
-          "endOffset": 1001
+          "endOffset": 15
         }
       ]
     }
@@ -1827,60 +2241,14 @@
           "type": "RangeSelector",
           "startSelector": {
             "type": "XPathSelector",
-            "value": "//p[@xml:id='novel1_letter4_chapter3_div4_div3_p8']"
-          },
-          "startOffset": 339,
-          "endSelector": {
-            "type": "XPathSelector",
-            "value": "//p[@xml:id='novel1_letter4_chapter3_div4_div3_p8']"
-          },
-          "endOffset": 366
-        }
-      ]
-    }
-  },
-  {
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "https://frankensteinvariorum.org/Q-I98l33Eemrr9ehWS993g",
-    "type": "Annotation",
-    "generator": {
-      "id": "https://frankensteinvariorum.org/",
-      "type": "Software",
-      "name": "Frankenstein Variorum",
-      "homepage": "https://recogito.pelagios.org/"
-    },
-    "generated": "2019-04-13T14:20:18.813221+00:00",
-    "body": [
-      {
-        "type": "TextualBody",
-        "value": "In this 1831 amendment, Elizabeth's nobility appears to be recognizable in her physiognomy. \n\n*EDIT: In particular, she is described as thin of frame, fair of skin, and possessed of golden hair and blue eyes.*  \n\n**NOTE: do we need to flesh this annotation out more to bring in racial implications of these markers as signifiers of \"whiteness\" -- e.g. doesn't Linnaeus' *Systema naturae* (1758) infamously contain a hierarchy of homo sapiens based on skin color?**",
-        "creator": "https://hypothes.is/users/frankensteinvariorum",
-        "modified": "2019-06-06T19:39:05.903638+00:00",
-        "purpose": "commenting"
-      }
-    ],
-    "target": {
-      "source": "https://ebeshero.github.io/Pittsburgh_Frankenstein/Frankenstein_1831.html",
-      "type": "Text",
-      "selector": [
-        {
-          "type": "TextQuoteSelector",
-          "prefix": "s thin, and very fair.\n         ",
-          "exact": "Her\n         hair was the brightest living gold, and, despite the poverty of her clothing, seemed\n         to\n         set a crown of distinction on her head. Her brow was clear and ample, her blue eyes\n         cloudless, and her lips and the moulding of her face so expressive of sensibility\n         and\n         sweetness, that none could behold her without looking on her as of a distinct species,\n         a\n         being heaven-sent, and bearing a celestial stamp in all her features.\n      \n      \n      22The peasant woman, perceiving that my mother fixed\n         eyes of wonder and admiration on this lovely girl, eagerly communicated her history.\n         She\n         was not her child, but the daughter of a Milanese nobleman. Her mother was a German,\n         and\n         had died on giving her birth. The infant had been placed with these good people to\n         nurse: they were better off then",
-          "suffix": ". They had not been long married"
-        },
-        {
-          "type": "RangeSelector",
-          "startSelector": {
-            "type": "XPathSelector",
-            "value": "//p[@xml:id='novel1_letter4_chapter1_div4_div1_p9']"
+            "value": "//[@xml:id='C09_app575-f1818']"
           },
           "startOffset": 0,
           "endSelector": {
             "type": "XPathSelector",
-            "value": "//p[@xml:id='novel1_letter4_chapter1_div4_div1_p9']"
+            "value": "//[@xml:id='C09_app577-f1818']"
           },
-          "endOffset": 344
+          "endOffset": 5
         }
       ]
     }
@@ -1919,14 +2287,14 @@
           "type": "RangeSelector",
           "startSelector": {
             "type": "XPathSelector",
-            "value": "//p[@xml:id='novel1_letter4_chapter1_div4_div1_p11']"
+            "value": "//[@xml:id='C07e_app49-f1818']"
           },
-          "startOffset": 590,
+          "startOffset": 0,
           "endSelector": {
             "type": "XPathSelector",
-            "value": "//p[@xml:id='novel1_letter4_chapter1_div4_div1_p11']"
+            "value": "//[@xml:id='C07e_app49-f1818']"
           },
-          "endOffset": 597
+          "endOffset": 7
         }
       ]
     }
@@ -1965,14 +2333,60 @@
           "type": "RangeSelector",
           "startSelector": {
             "type": "XPathSelector",
-            "value": "//p[@xml:id='novel1_letter4_div4_p4']"
+            "value": "//[@xml:id='C05_app6-f1818__I']"
           },
-          "startOffset": 494,
+          "startOffset": 385,
           "endSelector": {
             "type": "XPathSelector",
-            "value": "//p[@xml:id='novel1_letter4_div4_p4']"
+            "value": "//[@xml:id='C05_app6-f1818__I']"
           },
-          "endOffset": 548
+          "endOffset": 439
+        }
+      ]
+    }
+  },
+  {
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "https://frankensteinvariorum.org/Qx84wF33EemYIG_5O7HWZw",
+    "type": "Annotation",
+    "generator": {
+      "id": "https://frankensteinvariorum.org/",
+      "type": "Software",
+      "name": "Frankenstein Variorum",
+      "homepage": "https://recogito.pelagios.org/"
+    },
+    "generated": "2019-04-13T14:20:17.507350+00:00",
+    "body": [
+      {
+        "type": "TextualBody",
+        "value": "Robert's high ambition links him to Victor's vast scientific ambition, one of many affinities they will recognize in each other.",
+        "creator": "https://hypothes.is/users/frankensteinvariorum",
+        "modified": "2019-04-13T14:20:17.507350+00:00",
+        "purpose": "commenting"
+      }
+    ],
+    "target": {
+      "source": "https://ebeshero.github.io/Pittsburgh_Frankenstein/Frankenstein_1818.html",
+      "type": "Text",
+      "selector": [
+        {
+          "type": "TextQuoteSelector",
+          "prefix": " \n      And now, dear Margaret, ",
+          "exact": "do I not deserve to accomplish some great purpose",
+          "suffix": "? My life\n         might\n       "
+        },
+        {
+          "type": "RangeSelector",
+          "startSelector": {
+            "type": "XPathSelector",
+            "value": "//[@xml:id='C02d_app7-f1818__F']"
+          },
+          "startOffset": 24,
+          "endSelector": {
+            "type": "XPathSelector",
+            "value": "//[@xml:id='C02d_app7-f1818__F']"
+          },
+          "endOffset": 73
         }
       ]
     }
@@ -2011,14 +2425,14 @@
           "type": "RangeSelector",
           "startSelector": {
             "type": "XPathSelector",
-            "value": "//p[@xml:id='novel1_letter4_chapter3_div4_div3_p2']"
+            "value": "//[@xml:id='C08a_app37-f1831']"
           },
-          "startOffset": 40,
+          "startOffset": 0,
           "endSelector": {
             "type": "XPathSelector",
-            "value": "//p[@xml:id='novel1_letter4_chapter3_div4_div3_p2']"
+            "value": "//[@xml:id='C08a_app41-f1831']"
           },
-          "endOffset": 99
+          "endOffset": 27
         }
       ]
     }
@@ -2057,14 +2471,14 @@
           "type": "RangeSelector",
           "startSelector": {
             "type": "XPathSelector",
-            "value": "//p[@xml:id='novel1_letter4_chapter3_div4_div3_p9']"
+            "value": "//[@xml:id='C09_app273-f1818']"
           },
-          "startOffset": 1084,
+          "startOffset": 0,
           "endSelector": {
             "type": "XPathSelector",
-            "value": "//p[@xml:id='novel1_letter4_chapter3_div4_div3_p9']"
+            "value": "//[@xml:id='C09_app274-f1818']"
           },
-          "endOffset": 1098
+          "endOffset": 6
         }
       ]
     }
@@ -2103,14 +2517,14 @@
           "type": "RangeSelector",
           "startSelector": {
             "type": "XPathSelector",
-            "value": "//p[@xml:id='novel1_letter4_div4_p38']"
+            "value": "//[@xml:id='C06h_app7-f1831']"
           },
-          "startOffset": 185,
+          "startOffset": 0,
           "endSelector": {
             "type": "XPathSelector",
-            "value": "//p[@xml:id='novel1_letter4_div4_p38']"
+            "value": "//[@xml:id='C06h_app7-f1831']"
           },
-          "endOffset": 219
+          "endOffset": 34
         }
       ]
     }
@@ -2149,14 +2563,14 @@
           "type": "RangeSelector",
           "startSelector": {
             "type": "XPathSelector",
-            "value": "//p[@xml:id='novel1_letter4_chapter3_div4_div3_p14']"
+            "value": "//[@xml:id='C08g_app41-f1831']"
           },
-          "startOffset": 60,
+          "startOffset": 18,
           "endSelector": {
             "type": "XPathSelector",
-            "value": "//p[@xml:id='novel1_letter4_chapter3_div4_div3_p14']"
+            "value": "//[@xml:id='C08g_app45-f1831']"
           },
-          "endOffset": 204
+          "endOffset": 13
         }
       ]
     }
@@ -2195,14 +2609,14 @@
           "type": "RangeSelector",
           "startSelector": {
             "type": "XPathSelector",
-            "value": "//p[@xml:id='novel1_letter4_chapter3_div4_div3_p3']"
+            "value": "//[@xml:id='C09_app221-f1818']"
           },
-          "startOffset": 579,
+          "startOffset": 10,
           "endSelector": {
             "type": "XPathSelector",
-            "value": "//p[@xml:id='novel1_letter4_chapter3_div4_div3_p3']"
+            "value": "//[@xml:id='C09_app221-f1818']"
           },
-          "endOffset": 589
+          "endOffset": 20
         }
       ]
     }
@@ -2241,12 +2655,12 @@
           "type": "RangeSelector",
           "startSelector": {
             "type": "XPathSelector",
-            "value": "//p[@xml:id='novel1_letter4_chapter1_div4_div1_p6']"
+            "value": "//[@xml:id='novel1_letter4_chapter1_div4_div1_p6']"
           },
           "startOffset": 44,
           "endSelector": {
             "type": "XPathSelector",
-            "value": "//p[@xml:id='novel1_letter4_chapter1_div4_div1_p6']"
+            "value": "//[@xml:id='novel1_letter4_chapter1_div4_div1_p6']"
           },
           "endOffset": 66
         }
@@ -2287,14 +2701,60 @@
           "type": "RangeSelector",
           "startSelector": {
             "type": "XPathSelector",
-            "value": "//p[@xml:id='novel1_letter4_chapter1_div4_div1_p8']"
+            "value": "//[@xml:id='C07b_app10-f1818__F']"
           },
           "startOffset": 87,
           "endSelector": {
             "type": "XPathSelector",
-            "value": "//p[@xml:id='novel1_letter4_chapter1_div4_div1_p8']"
+            "value": "//[@xml:id='C07b_app10-f1818__F']"
           },
           "endOffset": 103
+        }
+      ]
+    }
+  },
+  {
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "https://frankensteinvariorum.org/TAe8jF33EemVCKed1j5BYw",
+    "type": "Annotation",
+    "generator": {
+      "id": "https://frankensteinvariorum.org/",
+      "type": "Software",
+      "name": "Frankenstein Variorum",
+      "homepage": "https://recogito.pelagios.org/"
+    },
+    "generated": "2019-04-13T14:20:32.355045+00:00",
+    "body": [
+      {
+        "type": "TextualBody",
+        "value": "Percy seems at least a little disingenuous here, suggesting the novel that follows accords to the known \"elementary principles of human nature\". In reality, however, the concept of reality, science, and genre play operating in the novel calls to mind the stratification of \"the Fantastic\" in fiction, set down by French-Bulgarian literary theorist Tzvetan Todorov (1939-2017).",
+        "creator": "https://hypothes.is/users/frankensteinvariorum",
+        "modified": "2019-04-13T14:20:32.355045+00:00",
+        "purpose": "commenting"
+      }
+    ],
+    "target": {
+      "source": "https://ebeshero.github.io/Pittsburgh_Frankenstein/Frankenstein_1818.html",
+      "type": "Text",
+      "selector": [
+        {
+          "type": "TextQuoteSelector",
+          "prefix": "   while I have not scrupled to ",
+          "exact": "innovate upon their combinations",
+          "suffix": ". The Iliad, the tragic poetry o"
+        },
+        {
+          "type": "RangeSelector",
+          "startSelector": {
+            "type": "XPathSelector",
+            "value": "//[@xml:id='C01_app1-f1818__F']"
+          },
+          "startOffset": 121,
+          "endSelector": {
+            "type": "XPathSelector",
+            "value": "//[@xml:id='C01_app1-f1818__F']"
+          },
+          "endOffset": 153
         }
       ]
     }
@@ -2333,14 +2793,14 @@
           "type": "RangeSelector",
           "startSelector": {
             "type": "XPathSelector",
-            "value": "//p[@xml:id='novel1_letter4_chapter3_div4_div3_p12']"
+            "value": "//[@xml:id='C09_app843-f1818']"
           },
-          "startOffset": 823,
+          "startOffset": 4,
           "endSelector": {
             "type": "XPathSelector",
-            "value": "//p[@xml:id='novel1_letter4_chapter3_div4_div3_p12']"
+            "value": "//[@xml:id='C09_app845-f1818']"
           },
-          "endOffset": 842
+          "endOffset": 10
         }
       ]
     }
@@ -2379,14 +2839,14 @@
           "type": "RangeSelector",
           "startSelector": {
             "type": "XPathSelector",
-            "value": "//p[@xml:id='novel1_letter4_chapter3_div4_div3_p8']"
+            "value": "//[@xml:id='C09_app566-f1818']"
           },
-          "startOffset": 250,
+          "startOffset": 49,
           "endSelector": {
             "type": "XPathSelector",
-            "value": "//p[@xml:id='novel1_letter4_chapter3_div4_div3_p8']"
+            "value": "//[@xml:id='C09_app572-f1818']"
           },
-          "endOffset": 304
+          "endOffset": 10
         }
       ]
     }
@@ -2425,14 +2885,14 @@
           "type": "RangeSelector",
           "startSelector": {
             "type": "XPathSelector",
-            "value": "//p[@xml:id='novel1_letter4_chapter1_div4_div1_p2']"
+            "value": "//[@xml:id='C07a_app15-f1818']"
           },
-          "startOffset": 560,
+          "startOffset": 557,
           "endSelector": {
             "type": "XPathSelector",
-            "value": "//p[@xml:id='novel1_letter4_chapter1_div4_div1_p2']"
+            "value": "//[@xml:id='C07a_app15-f1818']"
           },
-          "endOffset": 567
+          "endOffset": 564
         }
       ]
     }
@@ -2471,14 +2931,60 @@
           "type": "RangeSelector",
           "startSelector": {
             "type": "XPathSelector",
-            "value": "//p[@xml:id='novel1_letter4_chapter3_div4_div3_p12']"
+            "value": "//[@xml:id='C09_app855-f1818']"
           },
-          "startOffset": 966,
+          "startOffset": 4,
           "endSelector": {
             "type": "XPathSelector",
-            "value": "//p[@xml:id='novel1_letter4_chapter3_div4_div3_p12']"
+            "value": "//[@xml:id='C09_app858-f1818__I']"
           },
-          "endOffset": 1019
+          "endOffset": 9
+        }
+      ]
+    }
+  },
+  {
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "https://frankensteinvariorum.org/UvV-gF33EemyTW-MnTAVYw",
+    "type": "Annotation",
+    "generator": {
+      "id": "https://frankensteinvariorum.org/",
+      "type": "Software",
+      "name": "Frankenstein Variorum",
+      "homepage": "https://recogito.pelagios.org/"
+    },
+    "generated": "2019-04-13T14:20:44.043063+00:00",
+    "body": [
+      {
+        "type": "TextualBody",
+        "value": "In this 1831 amendment to the 1818 edition, Elizabeth changes from Victor's first cousin to his \"more than sister.\" It is unclear exactly why Shelley decided to make the change, but critics have thought that the incestuous relationship between Victor and Elizabeth may have scandalized readers. It is true, however, that incest was of significant fascination to Shelley. Her novella *Mathilda*, published posthumously in 1954, concerns the relationship of a woman with her father. After sending the manuscript to William Godwin, he told Shelley he found the depiction of incest \"disgusting and detestable,\" and refused to return the manuscript to his daughter.\n\nShelley, Mary. *Matilda*; with Mary and Maria, by Mary Wollstonecraft. Ed. Janet Todd. London: Penguin, 1992, p. xvii. ",
+        "creator": "https://hypothes.is/users/frankensteinvariorum",
+        "modified": "2019-04-13T14:20:44.043063+00:00",
+        "purpose": "commenting"
+      }
+    ],
+    "target": {
+      "source": "https://ebeshero.github.io/Pittsburgh_Frankenstein/Frankenstein_1831.html",
+      "type": "Text",
+      "selector": [
+        {
+          "type": "TextQuoteSelector",
+          "prefix": "e of my\n         parents\u2019 house\u2014",
+          "exact": "my more than sister",
+          "suffix": "\u2014the beautiful and adored compan"
+        },
+        {
+          "type": "RangeSelector",
+          "startSelector": {
+            "type": "XPathSelector",
+            "value": "//[@xml:id='novel1_letter4_chapter1_div4_div1_p10']"
+          },
+          "startOffset": 695,
+          "endSelector": {
+            "type": "XPathSelector",
+            "value": "//[@xml:id='novel1_letter4_chapter1_div4_div1_p10']"
+          },
+          "endOffset": 714
         }
       ]
     }
@@ -2517,14 +3023,60 @@
           "type": "RangeSelector",
           "startSelector": {
             "type": "XPathSelector",
-            "value": "//p[@xml:id='novel1_letter4_chapter2_div4_div2_p14']"
+            "value": "//[@xml:id='C08g_app162-f1818']"
           },
-          "startOffset": 327,
+          "startOffset": 0,
           "endSelector": {
             "type": "XPathSelector",
-            "value": "//p[@xml:id='novel1_letter4_chapter2_div4_div2_p14']"
+            "value": "//[@xml:id='C08g_app162-f1818']"
           },
-          "endOffset": 337
+          "endOffset": 10
+        }
+      ]
+    }
+  },
+  {
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "https://frankensteinvariorum.org/WHsNFl33EemIknsGCUW3gA",
+    "type": "Annotation",
+    "generator": {
+      "id": "https://frankensteinvariorum.org/",
+      "type": "Software",
+      "name": "Frankenstein Variorum",
+      "homepage": "https://recogito.pelagios.org/"
+    },
+    "generated": "2019-04-13T14:20:53.314114+00:00",
+    "body": [
+      {
+        "type": "TextualBody",
+        "value": "The springing of a leak in the 1831 edition replaces the breaking of the ship's mast in the 1818 edition. ",
+        "creator": "https://hypothes.is/users/frankensteinvariorum",
+        "modified": "2019-06-05T22:02:45.062881+00:00",
+        "purpose": "commenting"
+      }
+    ],
+    "target": {
+      "source": "https://ebeshero.github.io/Pittsburgh_Frankenstein/Frankenstein_1831.html",
+      "type": "Text",
+      "selector": [
+        {
+          "type": "TextQuoteSelector",
+          "prefix": "  two\n         stiff gales, and ",
+          "exact": "the springing of a leak",
+          "suffix": ", are accidents which experience"
+        },
+        {
+          "type": "RangeSelector",
+          "startSelector": {
+            "type": "XPathSelector",
+            "value": "//[@xml:id='C04a_app13-f1831']"
+          },
+          "startOffset": 11,
+          "endSelector": {
+            "type": "XPathSelector",
+            "value": "//[@xml:id='C04a_app16-f1831']"
+          },
+          "endOffset": 4
         }
       ]
     }
@@ -2563,14 +3115,60 @@
           "type": "RangeSelector",
           "startSelector": {
             "type": "XPathSelector",
-            "value": "//p[@xml:id='novel1_letter4_chapter1_div4_div1_p15']"
+            "value": "//[@xml:id='C07g_app65-f1818']"
           },
-          "startOffset": 928,
+          "startOffset": 0,
           "endSelector": {
             "type": "XPathSelector",
-            "value": "//p[@xml:id='novel1_letter4_chapter1_div4_div1_p15']"
+            "value": "//[@xml:id='C07g_app67-f1818']"
           },
-          "endOffset": 942
+          "endOffset": 6
+        }
+      ]
+    }
+  },
+  {
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "https://frankensteinvariorum.org/X9SnlIb1EemCYM-rgK1N7g",
+    "type": "Annotation",
+    "generator": {
+      "id": "https://frankensteinvariorum.org/",
+      "type": "Software",
+      "name": "Frankenstein Variorum",
+      "homepage": "https://recogito.pelagios.org/"
+    },
+    "generated": "2019-06-04T18:20:04.382308+00:00",
+    "body": [
+      {
+        "type": "TextualBody",
+        "value": "The name has been corrected several places in the Draft, it was originally \"Beaumont.\" -- *REVISE for style*",
+        "creator": "https://hypothes.is/users/frankensteinvariorum",
+        "modified": "2019-06-04T18:20:04.382308+00:00",
+        "purpose": "commenting"
+      }
+    ],
+    "target": {
+      "source": "https://ebeshero.github.io/Pittsburgh_Frankenstein/Frankenstein_1818.html",
+      "type": "Text",
+      "selector": [
+        {
+          "type": "TextQuoteSelector",
+          "prefix": "verty. This man, whose name was\n",
+          "exact": "         Beaufort",
+          "suffix": ", was of a proud and unbending d"
+        },
+        {
+          "type": "RangeSelector",
+          "startSelector": {
+            "type": "XPathSelector",
+            "value": "//[@xml:id='C07a_app15-f1818']"
+          },
+          "startOffset": 251,
+          "endSelector": {
+            "type": "XPathSelector",
+            "value": "//[@xml:id='C07a_app15-f1818']"
+          },
+          "endOffset": 259
         }
       ]
     }
@@ -2609,14 +3207,14 @@
           "type": "RangeSelector",
           "startSelector": {
             "type": "XPathSelector",
-            "value": "//p[@xml:id='novel1_letter4_chapter2_div4_div2_p6']"
+            "value": "//[@xml:id='C08e_app1-f1818__F']"
           },
-          "startOffset": 24,
+          "startOffset": 22,
           "endSelector": {
             "type": "XPathSelector",
-            "value": "//p[@xml:id='novel1_letter4_chapter2_div4_div2_p6']"
+            "value": "//[@xml:id='C08e_app1-f1818__F']"
           },
-          "endOffset": 30
+          "endOffset": 28
         }
       ]
     }
@@ -2655,14 +3253,14 @@
           "type": "RangeSelector",
           "startSelector": {
             "type": "XPathSelector",
-            "value": "//p[@xml:id='novel1_letter2_div2_p4']"
+            "value": "//[@xml:id='C03a_app10-f1831']"
           },
-          "startOffset": 342,
+          "startOffset": 10,
           "endSelector": {
             "type": "XPathSelector",
-            "value": "//p[@xml:id='novel1_letter2_div2_p4']"
+            "value": "//[@xml:id='C03a_app10-f1831']"
           },
-          "endOffset": 428
+          "endOffset": 96
         }
       ]
     }
@@ -2701,14 +3299,14 @@
           "type": "RangeSelector",
           "startSelector": {
             "type": "XPathSelector",
-            "value": "//p[@xml:id='novel1_letter4_chapter1_div4_div1_p11']"
+            "value": "//[@xml:id='C07e_app52-f1818']"
           },
-          "startOffset": 623,
+          "startOffset": 4,
           "endSelector": {
             "type": "XPathSelector",
-            "value": "//p[@xml:id='novel1_letter4_chapter1_div4_div1_p11']"
+            "value": "//[@xml:id='C07e_app53-f1818__I']"
           },
-          "endOffset": 633
+          "endOffset": 6
         }
       ]
     }
@@ -2747,14 +3345,14 @@
           "type": "RangeSelector",
           "startSelector": {
             "type": "XPathSelector",
-            "value": "//p[@xml:id='novel1_letter4_chapter1_div4_div1_p18']"
+            "value": "//[@xml:id='C07g_app208-f1818']"
           },
-          "startOffset": 461,
+          "startOffset": 4,
           "endSelector": {
             "type": "XPathSelector",
-            "value": "//p[@xml:id='novel1_letter4_chapter1_div4_div1_p18']"
+            "value": "//[@xml:id='C07g_app211-f1818']"
           },
-          "endOffset": 498
+          "endOffset": 9
         }
       ]
     }
@@ -2793,14 +3391,60 @@
           "type": "RangeSelector",
           "startSelector": {
             "type": "XPathSelector",
-            "value": "//p[@xml:id='novel1_letter4_chapter3_div4_div3_p8']"
+            "value": "//[@xml:id='C09_app593-f1818']"
           },
-          "startOffset": 618,
+          "startOffset": 64,
           "endSelector": {
             "type": "XPathSelector",
-            "value": "//p[@xml:id='novel1_letter4_chapter3_div4_div3_p8']"
+            "value": "//[@xml:id='C09_app593-f1818']"
           },
-          "endOffset": 628
+          "endOffset": 74
+        }
+      ]
+    }
+  },
+  {
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "https://frankensteinvariorum.org/_OCq5IicEemJ7DvdXXL3Kg",
+    "type": "Annotation",
+    "generator": {
+      "id": "https://frankensteinvariorum.org/",
+      "type": "Software",
+      "name": "Frankenstein Variorum",
+      "homepage": "https://recogito.pelagios.org/"
+    },
+    "generated": "2019-06-06T20:52:24.885955+00:00",
+    "body": [
+      {
+        "type": "TextualBody",
+        "value": "*Placeholder* -- generate annotation on Galvani",
+        "creator": "https://hypothes.is/users/frankensteinvariorum",
+        "modified": "2019-06-06T20:52:24.885955+00:00",
+        "purpose": "commenting"
+      }
+    ],
+    "target": {
+      "source": "https://ebeshero.github.io/Pittsburgh_Frankenstein/Frankenstein_1831.html",
+      "type": "Text",
+      "selector": [
+        {
+          "type": "TextQuoteSelector",
+          "prefix": "     subject of electricity and ",
+          "exact": "galvanism",
+          "suffix": ", which was at once new and asto"
+        },
+        {
+          "type": "RangeSelector",
+          "startSelector": {
+            "type": "XPathSelector",
+            "value": "//[@xml:id='novel1_letter4_chapter2_div4_div2_p14']"
+          },
+          "startOffset": 284,
+          "endSelector": {
+            "type": "XPathSelector",
+            "value": "//[@xml:id='novel1_letter4_chapter2_div4_div2_p14']"
+          },
+          "endOffset": 293
         }
       ]
     }
@@ -2839,14 +3483,14 @@
           "type": "RangeSelector",
           "startSelector": {
             "type": "XPathSelector",
-            "value": "//p[@xml:id='novel1_letter4_chapter2_div4_div2_p9']"
+            "value": "//[@xml:id='C07g_app139-f1831__I']"
           },
-          "startOffset": 511,
+          "startOffset": 253,
           "endSelector": {
             "type": "XPathSelector",
-            "value": "//p[@xml:id='novel1_letter4_chapter2_div4_div2_p9']"
+            "value": "//[@xml:id='C07g_app139-f1831__I']"
           },
-          "endOffset": 527
+          "endOffset": 269
         }
       ]
     }
@@ -2885,14 +3529,14 @@
           "type": "RangeSelector",
           "startSelector": {
             "type": "XPathSelector",
-            "value": "//p[@xml:id='novel1_letter4_chapter1_div4_div1_p22']"
+            "value": "//[@xml:id='C07g_app308-f1818']"
           },
-          "startOffset": 180,
+          "startOffset": 17,
           "endSelector": {
             "type": "XPathSelector",
-            "value": "//p[@xml:id='novel1_letter4_chapter1_div4_div1_p22']"
+            "value": "//[@xml:id='C07g_app308-f1818']"
           },
-          "endOffset": 184
+          "endOffset": 21
         }
       ]
     }
@@ -2931,14 +3575,14 @@
           "type": "RangeSelector",
           "startSelector": {
             "type": "XPathSelector",
-            "value": "//p[@xml:id='novel1_letter4_chapter1_div4_div1_p18']"
+            "value": "//[@xml:id='C07g_app199-f1818']"
           },
-          "startOffset": 357,
+          "startOffset": 0,
           "endSelector": {
             "type": "XPathSelector",
-            "value": "//p[@xml:id='novel1_letter4_chapter1_div4_div1_p18']"
+            "value": "//[@xml:id='C07g_app201-f1818']"
           },
-          "endOffset": 371
+          "endOffset": 4
         }
       ]
     }
@@ -2977,14 +3621,106 @@
           "type": "RangeSelector",
           "startSelector": {
             "type": "XPathSelector",
-            "value": "//p[@xml:id='preface1_p4']"
+            "value": "//[@xml:id='F1818_v1_011']"
           },
           "startOffset": 385,
           "endSelector": {
             "type": "XPathSelector",
-            "value": "//p[@xml:id='preface1_p4']"
+            "value": "//[@xml:id='F1818_v1_011']"
           },
           "endOffset": 410
+        }
+      ]
+    }
+  },
+  {
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "https://frankensteinvariorum.org/bkzk_F33EemrBadu0DhP8g",
+    "type": "Annotation",
+    "generator": {
+      "id": "https://frankensteinvariorum.org/",
+      "type": "Software",
+      "name": "Frankenstein Variorum",
+      "homepage": "https://recogito.pelagios.org/"
+    },
+    "generated": "2019-04-13T14:21:30.011231+00:00",
+    "body": [
+      {
+        "type": "TextualBody",
+        "value": "Victor seems to regard himself as godlike in his research. Subsequently, he advances a personal ethics of creation in relation to the specific \"raw\" material he uses for his experiments, and to the source of the \"raw\" material.",
+        "creator": "https://hypothes.is/users/frankensteinvariorum",
+        "modified": "2019-04-13T14:21:30.011231+00:00",
+        "purpose": "commenting"
+      }
+    ],
+    "target": {
+      "source": "https://ebeshero.github.io/Pittsburgh_Frankenstein/Frankenstein_1818.html",
+      "type": "Text",
+      "selector": [
+        {
+          "type": "TextQuoteSelector",
+          "prefix": " prospect which it illustrated, ",
+          "exact": "I was surprised that among so many\n         men\n         of genius, who had directed their inquiries towards the same science, that I alone\n         should be reserved to discover so astonishing a secret.",
+          "suffix": "\n      \n      \n      Remember, I"
+        },
+        {
+          "type": "RangeSelector",
+          "startSelector": {
+            "type": "XPathSelector",
+            "value": "//[@xml:id='C09_app307-f1818']"
+          },
+          "startOffset": 57,
+          "endSelector": {
+            "type": "XPathSelector",
+            "value": "//[@xml:id='C09_app325-f1818__I']"
+          },
+          "endOffset": 9
+        }
+      ]
+    }
+  },
+  {
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "https://frankensteinvariorum.org/cTizvF33EemimTvTTZkT_w",
+    "type": "Annotation",
+    "generator": {
+      "id": "https://frankensteinvariorum.org/",
+      "type": "Software",
+      "name": "Frankenstein Variorum",
+      "homepage": "https://recogito.pelagios.org/"
+    },
+    "generated": "2019-04-13T14:21:34.905975+00:00",
+    "body": [
+      {
+        "type": "TextualBody",
+        "value": "The idea of \"domestic affection\" will be the most important virtue for Mary Shelley, one that is repeatedly violated by Victor Frankenstein's disregard of family responsibility, including the care of his own creation, the Creature.",
+        "creator": "https://hypothes.is/users/frankensteinvariorum",
+        "modified": "2019-04-13T14:21:34.905975+00:00",
+        "purpose": "commenting"
+      }
+    ],
+    "target": {
+      "source": "https://ebeshero.github.io/Pittsburgh_Frankenstein/Frankenstein_1818.html",
+      "type": "Text",
+      "selector": [
+        {
+          "type": "TextQuoteSelector",
+          "prefix": "    the\n         amiableness of ",
+          "exact": "domestic affection",
+          "suffix": ", and the excellence of universa"
+        },
+        {
+          "type": "RangeSelector",
+          "startSelector": {
+            "type": "XPathSelector",
+            "value": "//[@xml:id='F1818_v1_010']"
+          },
+          "startOffset": 332,
+          "endSelector": {
+            "type": "XPathSelector",
+            "value": "//[@xml:id='F1818_v1_010']"
+          },
+          "endOffset": 350
         }
       ]
     }
@@ -3023,14 +3759,14 @@
           "type": "RangeSelector",
           "startSelector": {
             "type": "XPathSelector",
-            "value": "//p[@xml:id='novel1_letter4_div4_p38']"
+            "value": "//[@xml:id='C06h_app11-f1831__I']"
           },
-          "startOffset": 553,
+          "startOffset": 5,
           "endSelector": {
             "type": "XPathSelector",
-            "value": "//p[@xml:id='novel1_letter4_div4_p38']"
+            "value": "//[@xml:id='C06h_app11-f1831__I']"
           },
-          "endOffset": 932
+          "endOffset": 384
         }
       ]
     }
@@ -3069,14 +3805,14 @@
           "type": "RangeSelector",
           "startSelector": {
             "type": "XPathSelector",
-            "value": "//p[@xml:id='novel1_letter1_div1_p5']"
+            "value": "//[@xml:id='C02d_app7-f1818__I']"
           },
-          "startOffset": 407,
+          "startOffset": 101,
           "endSelector": {
             "type": "XPathSelector",
-            "value": "//p[@xml:id='novel1_letter1_div1_p5']"
+            "value": "//[@xml:id='C02d_app7-f1818__I']"
           },
-          "endOffset": 534
+          "endOffset": 228
         }
       ]
     }
@@ -3115,14 +3851,60 @@
           "type": "RangeSelector",
           "startSelector": {
             "type": "XPathSelector",
-            "value": "//p[@xml:id='novel1_letter4_chapter1_div4_div1_p1']"
+            "value": "//[@xml:id='novel1_letter4_chapter1_div4_div1_p1_hi1']"
           },
-          "startOffset": 145,
+          "startOffset": 140,
           "endSelector": {
             "type": "XPathSelector",
-            "value": "//p[@xml:id='novel1_letter4_chapter1_div4_div1_p1']"
+            "value": "//[@xml:id='novel1_letter4_chapter1_div4_div1_p1_hi1']"
           },
-          "endOffset": 152
+          "endOffset": 147
+        }
+      ]
+    }
+  },
+  {
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "https://frankensteinvariorum.org/ect46F33EemEV_Ok7CxFUA",
+    "type": "Annotation",
+    "generator": {
+      "id": "https://frankensteinvariorum.org/",
+      "type": "Software",
+      "name": "Frankenstein Variorum",
+      "homepage": "https://recogito.pelagios.org/"
+    },
+    "generated": "2019-04-13T14:21:49.275857+00:00",
+    "body": [
+      {
+        "type": "TextualBody",
+        "value": "Along with the reference to Coleridge's \"Rime of the Ancient Manner\", Victor's hopeless plight reminds us somewhat of William Cowper's (1731-1800) \"The Castaway\" (1799). Victor, however, does not perish \"each alone\", but rather in the company of his new friend Walton. The Creature, by contrast, chooses to perish alone.",
+        "creator": "https://hypothes.is/users/frankensteinvariorum",
+        "modified": "2019-04-13T14:21:49.275857+00:00",
+        "purpose": "commenting"
+      }
+    ],
+    "target": {
+      "source": "https://ebeshero.github.io/Pittsburgh_Frankenstein/Frankenstein_1818.html",
+      "type": "Text",
+      "selector": [
+        {
+          "type": "TextQuoteSelector",
+          "prefix": "eck, the master said,\n         \u201c",
+          "exact": "Here\n         is our captain, and he will not allow you to perish on the open sea",
+          "suffix": ".\u201d\n      \n      \n      On percei"
+        },
+        {
+          "type": "RangeSelector",
+          "startSelector": {
+            "type": "XPathSelector",
+            "value": "//[@xml:id='F1818_v1_036']"
+          },
+          "startOffset": 466,
+          "endSelector": {
+            "type": "XPathSelector",
+            "value": "//[@xml:id='F1818_v1_036']"
+          },
+          "endOffset": 538
         }
       ]
     }
@@ -3161,14 +3943,14 @@
           "type": "RangeSelector",
           "startSelector": {
             "type": "XPathSelector",
-            "value": "//p[@xml:id='novel1_letter4_chapter2_div4_div2_p2']"
+            "value": "//[@xml:id='C07e_app44-f1831__I']"
           },
-          "startOffset": 1088,
+          "startOffset": 160,
           "endSelector": {
             "type": "XPathSelector",
-            "value": "//p[@xml:id='novel1_letter4_chapter2_div4_div2_p2']"
+            "value": "//[@xml:id='C07e_app44-f1831__I']"
           },
-          "endOffset": 1189
+          "endOffset": 261
         }
       ]
     }
@@ -3207,14 +3989,14 @@
           "type": "RangeSelector",
           "startSelector": {
             "type": "XPathSelector",
-            "value": "//p[@xml:id='novel1_letter4_chapter3_div4_div3_p8']"
+            "value": "//[@xml:id='C09_app579-f1818']"
           },
-          "startOffset": 384,
+          "startOffset": 16,
           "endSelector": {
             "type": "XPathSelector",
-            "value": "//p[@xml:id='novel1_letter4_chapter3_div4_div3_p8']"
+            "value": "//[@xml:id='C09_app579-f1818']"
           },
-          "endOffset": 430
+          "endOffset": 40
         }
       ]
     }
@@ -3253,14 +4035,14 @@
           "type": "RangeSelector",
           "startSelector": {
             "type": "XPathSelector",
-            "value": "//p[@xml:id='novel1_letter4_chapter4_div4_div4_p9']"
+            "value": "//[@xml:id='C10_app351-f1818']"
           },
-          "startOffset": 67,
+          "startOffset": 0,
           "endSelector": {
             "type": "XPathSelector",
-            "value": "//p[@xml:id='novel1_letter4_chapter4_div4_div4_p9']"
+            "value": "//[@xml:id='C10_app351-f1818']"
           },
-          "endOffset": 85
+          "endOffset": 18
         }
       ]
     }
@@ -3299,14 +4081,14 @@
           "type": "RangeSelector",
           "startSelector": {
             "type": "XPathSelector",
-            "value": "//p[@xml:id='novel1_letter4_chapter1_div4_div1_p18']"
+            "value": "//[@xml:id='C07g_app131-f1818']"
           },
-          "startOffset": 47,
+          "startOffset": 18,
           "endSelector": {
             "type": "XPathSelector",
-            "value": "//p[@xml:id='novel1_letter4_chapter1_div4_div1_p18']"
+            "value": "//[@xml:id='C07g_app131-f1818']"
           },
-          "endOffset": 62
+          "endOffset": 33
         }
       ]
     }
@@ -3345,14 +4127,14 @@
           "type": "RangeSelector",
           "startSelector": {
             "type": "XPathSelector",
-            "value": "//p[@xml:id='novel1_letter2_div2_p8']"
+            "value": "//[@xml:id='C03f_app2-f1818']"
           },
-          "startOffset": 95,
+          "startOffset": 89,
           "endSelector": {
             "type": "XPathSelector",
-            "value": "//p[@xml:id='novel1_letter2_div2_p8']"
+            "value": "//[@xml:id='C03f_app2-f1818']"
           },
-          "endOffset": 121
+          "endOffset": 115
         }
       ]
     }
@@ -3391,14 +4173,14 @@
           "type": "RangeSelector",
           "startSelector": {
             "type": "XPathSelector",
-            "value": "//p[@xml:id='novel1_letter4_chapter2_div4_div2_p1']"
+            "value": "//[@xml:id='C08a_app103-f1818']"
           },
-          "startOffset": 1425,
+          "startOffset": 0,
           "endSelector": {
             "type": "XPathSelector",
-            "value": "//p[@xml:id='novel1_letter4_chapter2_div4_div2_p1']"
+            "value": "//[@xml:id='C08a_app109-f1818']"
           },
-          "endOffset": 1493
+          "endOffset": 7
         }
       ]
     }
@@ -3437,14 +4219,244 @@
           "type": "RangeSelector",
           "startSelector": {
             "type": "XPathSelector",
-            "value": "//p[@xml:id='novel1_letter4_div4_p35']"
+            "value": "//[@xml:id='C06g_app1-f1831']"
           },
-          "startOffset": 625,
+          "startOffset": 126,
           "endSelector": {
             "type": "XPathSelector",
-            "value": "//p[@xml:id='novel1_letter4_div4_p35']"
+            "value": "//[@xml:id='C06g_app1-f1831']"
           },
-          "endOffset": 777
+          "endOffset": 277
+        }
+      ]
+    }
+  },
+  {
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "https://frankensteinvariorum.org/i9tBOl33Eemjuh9AqA-pGQ",
+    "type": "Annotation",
+    "generator": {
+      "id": "https://frankensteinvariorum.org/",
+      "type": "Software",
+      "name": "Frankenstein Variorum",
+      "homepage": "https://recogito.pelagios.org/"
+    },
+    "generated": "2019-04-13T14:22:19.564189+00:00",
+    "body": [
+      {
+        "type": "TextualBody",
+        "value": "Victor recognizes that grave robbing and animal torture are \"loathsome activities,\" but imagining the \"great object\" of their results overpowers his conscious. Here, Shelley seems to explore the relation between imagination, morality, and convention, and to what extent feelings express what ought to be done morally.",
+        "creator": "https://hypothes.is/users/frankensteinvariorum",
+        "modified": "2019-04-13T14:22:19.564189+00:00",
+        "purpose": "commenting"
+      }
+    ],
+    "target": {
+      "source": "https://ebeshero.github.io/Pittsburgh_Frankenstein/Frankenstein_1818.html",
+      "type": "Text",
+      "selector": [
+        {
+          "type": "TextQuoteSelector",
+          "prefix": "   thoughts from my employment, ",
+          "exact": "loathsome in itself, but which had taken an irresistible\n         hold of my imagination",
+          "suffix": ". I wished, as it were, to procr"
+        },
+        {
+          "type": "RangeSelector",
+          "startSelector": {
+            "type": "XPathSelector",
+            "value": "//[@xml:id='C09_app778-f1818']"
+          },
+          "startOffset": 0,
+          "endSelector": {
+            "type": "XPathSelector",
+            "value": "//[@xml:id='C09_app784-f1818']"
+          },
+          "endOffset": 11
+        }
+      ]
+    }
+  },
+  {
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "https://frankensteinvariorum.org/ibtYLF33Eem_qleuQgU2hQ",
+    "type": "Annotation",
+    "generator": {
+      "id": "https://frankensteinvariorum.org/",
+      "type": "Software",
+      "name": "Frankenstein Variorum",
+      "homepage": "https://recogito.pelagios.org/"
+    },
+    "generated": "2019-04-13T14:22:16.037233+00:00",
+    "body": [
+      {
+        "type": "TextualBody",
+        "value": "The first reference in the novel to Victor's surname.",
+        "creator": "https://hypothes.is/users/frankensteinvariorum",
+        "modified": "2019-05-04T12:40:32.471115+00:00",
+        "purpose": "commenting"
+      }
+    ],
+    "target": {
+      "source": "https://ebeshero.github.io/Pittsburgh_Frankenstein/Frankenstein_1818.html",
+      "type": "Text",
+      "selector": [
+        {
+          "type": "TextQuoteSelector",
+          "prefix": "eing me, instantly sprung out. \u201c",
+          "exact": "My dear Frankenstein",
+          "suffix": ",\u201d exclaimed he, \u201chow\n         g"
+        },
+        {
+          "type": "RangeSelector",
+          "startSelector": {
+            "type": "XPathSelector",
+            "value": "//[@xml:id='C10_app382-f1818']"
+          },
+          "startOffset": 1,
+          "endSelector": {
+            "type": "XPathSelector",
+            "value": "//[@xml:id='C10_app384-f1818']"
+          },
+          "endOffset": 12
+        }
+      ]
+    }
+  },
+  {
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "https://frankensteinvariorum.org/iyJsRl33Eem_1uNcMQgljw",
+    "type": "Annotation",
+    "generator": {
+      "id": "https://frankensteinvariorum.org/",
+      "type": "Software",
+      "name": "Frankenstein Variorum",
+      "homepage": "https://recogito.pelagios.org/"
+    },
+    "generated": "2019-04-13T14:22:18.383466+00:00",
+    "body": [
+      {
+        "type": "TextualBody",
+        "value": "The magnetic charge of the North Pole, which causes the needle of a compass to point north. Until William Gilbert (1540-1603) discovered the magnetism of the earth's poles, it was a common conception that the needle on the compass moved by force of magic. In Shelley's time, the source of the earth's magnetism was a mystery and many adventurers, such as Shelley's Robert, set out to the North and South Poles seeking answers and concomitant glory. ",
+        "creator": "https://hypothes.is/users/frankensteinvariorum",
+        "modified": "2019-04-13T14:22:18.383466+00:00",
+        "purpose": "commenting"
+      }
+    ],
+    "target": {
+      "source": "https://ebeshero.github.io/Pittsburgh_Frankenstein/Frankenstein_1818.html",
+      "type": "Text",
+      "selector": [
+        {
+          "type": "TextQuoteSelector",
+          "prefix": "         months are requisite; o",
+          "exact": "r by ascertaining the secret of the magnet",
+          "suffix": ", which, if at all\n         poss"
+        },
+        {
+          "type": "RangeSelector",
+          "startSelector": {
+            "type": "XPathSelector",
+            "value": "//[@xml:id='F1818_v1_016']"
+          },
+          "startOffset": 362,
+          "endSelector": {
+            "type": "XPathSelector",
+            "value": "//[@xml:id='F1818_v1_016']"
+          },
+          "endOffset": 404
+        }
+      ]
+    }
+  },
+  {
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "https://frankensteinvariorum.org/jWpEQl33EemuacMCHxEWug",
+    "type": "Annotation",
+    "generator": {
+      "id": "https://frankensteinvariorum.org/",
+      "type": "Software",
+      "name": "Frankenstein Variorum",
+      "homepage": "https://recogito.pelagios.org/"
+    },
+    "generated": "2019-04-13T14:22:22.201004+00:00",
+    "body": [
+      {
+        "type": "TextualBody",
+        "value": "Lord Byron and John Polidori. ",
+        "creator": "https://hypothes.is/users/frankensteinvariorum",
+        "modified": "2019-04-13T14:22:22.201004+00:00",
+        "purpose": "commenting"
+      }
+    ],
+    "target": {
+      "source": "https://ebeshero.github.io/Pittsburgh_Frankenstein/Frankenstein_1818.html",
+      "type": "Text",
+      "selector": [
+        {
+          "type": "TextQuoteSelector",
+          "prefix": "         of\n         imitation. ",
+          "exact": "Two other friends ",
+          "suffix": "(a tale from the pen of one of w"
+        },
+        {
+          "type": "RangeSelector",
+          "startSelector": {
+            "type": "XPathSelector",
+            "value": "//[@xml:id='F1818_v1_011']"
+          },
+          "startOffset": 507,
+          "endSelector": {
+            "type": "XPathSelector",
+            "value": "//[@xml:id='F1818_v1_011']"
+          },
+          "endOffset": 524
+        }
+      ]
+    }
+  },
+  {
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "https://frankensteinvariorum.org/jiOhEl33EemZL2Ppg8dhEA",
+    "type": "Annotation",
+    "generator": {
+      "id": "https://frankensteinvariorum.org/",
+      "type": "Software",
+      "name": "Frankenstein Variorum",
+      "homepage": "https://recogito.pelagios.org/"
+    },
+    "generated": "2019-04-13T14:22:23.405348+00:00",
+    "body": [
+      {
+        "type": "TextualBody",
+        "value": "The early modern English physician William Harvey (1578-1627) made several valuable contributions to the medical sciences, including the circulation of blood in the human body. In *De Motu Cordis* (1628), Harvey sets down his landmark experiments; in these, Harvey used ligatures to stem blood flow to better understand how the heart works to pump blood throughout the human body. ",
+        "creator": "https://hypothes.is/users/frankensteinvariorum",
+        "modified": "2019-04-13T14:22:23.405348+00:00",
+        "purpose": "commenting"
+      }
+    ],
+    "target": {
+      "source": "https://ebeshero.github.io/Pittsburgh_Frankenstein/Frankenstein_1818.html",
+      "type": "Text",
+      "selector": [
+        {
+          "type": "TextQuoteSelector",
+          "prefix": "s; they have discovered how the ",
+          "exact": "blood circulate",
+          "suffix": "s, and the nature\n         of th"
+        },
+        {
+          "type": "RangeSelector",
+          "startSelector": {
+            "type": "XPathSelector",
+            "value": "//[@xml:id='C08g_app179-f1818']"
+          },
+          "startOffset": 0,
+          "endSelector": {
+            "type": "XPathSelector",
+            "value": "//[@xml:id='C08g_app179-f1818']"
+          },
+          "endOffset": 15
         }
       ]
     }
@@ -3483,14 +4495,14 @@
           "type": "RangeSelector",
           "startSelector": {
             "type": "XPathSelector",
-            "value": "//p[@xml:id='novel1_letter4_chapter1_div4_div1_p15']"
+            "value": "//[@xml:id='C07g_app34-f1818']"
           },
-          "startOffset": 398,
+          "startOffset": 16,
           "endSelector": {
             "type": "XPathSelector",
-            "value": "//p[@xml:id='novel1_letter4_chapter1_div4_div1_p15']"
+            "value": "//[@xml:id='C07g_app34-f1818']"
           },
-          "endOffset": 415
+          "endOffset": 33
         }
       ]
     }
@@ -3529,60 +4541,14 @@
           "type": "RangeSelector",
           "startSelector": {
             "type": "XPathSelector",
-            "value": "//p[@xml:id='novel1_letter4_chapter1_div4_div1_p15']"
+            "value": "//[@xml:id='C07g_app8-f1818__F']"
           },
           "startOffset": 0,
           "endSelector": {
             "type": "XPathSelector",
-            "value": "//p[@xml:id='novel1_letter4_chapter1_div4_div1_p15']"
+            "value": "//[@xml:id='C07g_app11-f1818']"
           },
-          "endOffset": 59
-        }
-      ]
-    }
-  },
-  {
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "https://frankensteinvariorum.org/lN4iDF33EemVDyfFZYTVgg",
-    "type": "Annotation",
-    "generator": {
-      "id": "https://frankensteinvariorum.org/",
-      "type": "Software",
-      "name": "Frankenstein Variorum",
-      "homepage": "https://recogito.pelagios.org/"
-    },
-    "generated": "2019-04-13T14:22:34.718195+00:00",
-    "body": [
-      {
-        "type": "TextualBody",
-        "value": "In this lengthy addition to the 1831 edition, Shelley gives more color to Victor's manner and countenance while in the company of Walton. Victor's grief at Walton's boundless ambition foreshadows and parallels Victor's own thirst for knowledge while at university.",
-        "creator": "https://hypothes.is/users/frankensteinvariorum",
-        "modified": "2019-06-06T17:17:55.188696+00:00",
-        "purpose": "commenting"
-      }
-    ],
-    "target": {
-      "source": "https://ebeshero.github.io/Pittsburgh_Frankenstein/Frankenstein_1831.html",
-      "type": "Text",
-      "selector": [
-        {
-          "type": "TextQuoteSelector",
-          "prefix": "he projects of\n         others. ",
-          "exact": "He has frequently conversed with me on mine, which I have communicated to\n         him\n         without disguise. He entered attentively into all my arguments in favour of my eventual\n         success, and into every minute detail of the measures I had taken to secure it. I\n         was\n         easily led by the sympathy which he evinced, to use the language of my heart; to give\n         utterance to the burning ardour of my soul; and to say, with all the fervour that\n         warmed\n         me, how gladly I would sacrifice my fortune, my existence, my every hope, to the\n         furtherance of my enterprise. One man\u2019s life or death were but a small price to pay\n         for\n         the acquirement of the knowledge which I sought; for the dominion I should acquire\n         and\n         transmit over the elemental foes of our race. As I spoke, a dark gloom spread over\n         my\n         listener\u2019s countenance. At first I perceived that he tried to suppress his emotion;\n         he\n         placed his hands before his eyes; and my voice quivered and failed me, as I beheld\n         tears\n         trickle fast from between his fingers,\u2014a groan burst from his heaving breast. I paused;\n         \u2014at length he spoke, in broken accents:\u2014\u201cUnhappy man! Do you share my madness? Have\n         you\n         drank also of the intoxicating draught? Hear me,\u2014let me reveal my tale, and you will\n         dash the cup from your lips!\u201d\n      \n      \n      Such words, you may imagine, strongly excited my curiosity; but the paroxysm of grief\n         that had seized the stranger overcame his weakened powers, and many hours of repose\n         and\n         tranquil conversation were necessary to restore his composure.\n      \n      \n      Having conquered the violence of his feelings, he appeared to despise himself for\n         being\n         the slave of passion; and quelling the dark tyranny of despair, he led me again to\n         converse concerning myself personally. He asked me the history of my earlier years.\n         The\n         tale was quickly told: 16but it awakened various trains of\n         reflection. I spoke of my desire of finding a friend\u2014of my thirst for a more intimate\n         sympathy with a fellow mind than had ever fallen to my lot; and expressed my conviction\n         that a man could boast of little happiness, who did not enjoy this blessing.\n      \n      \n      \u201cI agree with you,\u201d replied the stranger; \u201cwe are unfashioned creatures, but half\n         made\n         up, if one wiser, better, dearer than ourselves\u2014such a friend ought to be\u2014do not lend\n         his aid to perfectionate our weak and faulty natures.",
-          "suffix": " I once had a friend, the most\n "
-        },
-        {
-          "type": "RangeSelector",
-          "startSelector": {
-            "type": "XPathSelector",
-            "value": "//p[@xml:id='novel1_letter4_div4_p27']"
-          },
-          "startOffset": 269,
-          "endSelector": {
-            "type": "XPathSelector",
-            "value": "//p[@xml:id='novel1_letter4_div4_p27']"
-          },
-          "endOffset": 1504
+          "endOffset": 4
         }
       ]
     }
@@ -3621,14 +4587,60 @@
           "type": "RangeSelector",
           "startSelector": {
             "type": "XPathSelector",
-            "value": "//p[@xml:id='novel1_letter4_chapter2_div4_div2_p2']"
+            "value": "//[@xml:id='C07e_app4-f1831']"
           },
-          "startOffset": 623,
+          "startOffset": 0,
           "endSelector": {
             "type": "XPathSelector",
-            "value": "//p[@xml:id='novel1_letter4_chapter2_div4_div2_p2']"
+            "value": "//[@xml:id='C07e_app13-f1831']"
           },
-          "endOffset": 636
+          "endOffset": 7
+        }
+      ]
+    }
+  },
+  {
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "https://frankensteinvariorum.org/mYOD4IlpEem-6hc1ZeFltg",
+    "type": "Annotation",
+    "generator": {
+      "id": "https://frankensteinvariorum.org/",
+      "type": "Software",
+      "name": "Frankenstein Variorum",
+      "homepage": "https://recogito.pelagios.org/"
+    },
+    "generated": "2019-06-07T21:17:05.107807+00:00",
+    "body": [
+      {
+        "type": "TextualBody",
+        "value": "**NOTE: borderline for inclusion?**",
+        "creator": "https://hypothes.is/users/frankensteinvariorum",
+        "modified": "2019-06-07T21:17:05.107807+00:00",
+        "purpose": "commenting"
+      }
+    ],
+    "target": {
+      "source": "https://ebeshero.github.io/Pittsburgh_Frankenstein/Frankenstein_1831.html",
+      "type": "Text",
+      "selector": [
+        {
+          "type": "TextQuoteSelector",
+          "prefix": "    the greatest affability and ",
+          "exact": "kindness. I gave him pretty nearly the same account of\n         my\n         former pursuits as I had given to his fellow-professor. ",
+          "suffix": "He heard with attention the\n    "
+        },
+        {
+          "type": "RangeSelector",
+          "startSelector": {
+            "type": "XPathSelector",
+            "value": "//[@xml:id='C08i_app18-f1831']"
+          },
+          "startOffset": 0,
+          "endSelector": {
+            "type": "XPathSelector",
+            "value": "//[@xml:id='C08i_app19-f1831']"
+          },
+          "endOffset": 103
         }
       ]
     }
@@ -3667,12 +4679,12 @@
           "type": "RangeSelector",
           "startSelector": {
             "type": "XPathSelector",
-            "value": "//p[@xml:id='novel1_letter4_chapter1_div4_div1_p8']"
+            "value": "//[@xml:id='novel1_letter4_chapter1_div4_div1_p8']"
           },
           "startOffset": 998,
           "endSelector": {
             "type": "XPathSelector",
-            "value": "//p[@xml:id='novel1_letter4_chapter1_div4_div1_p8']"
+            "value": "//[@xml:id='novel1_letter4_chapter1_div4_div1_p8']"
           },
           "endOffset": 1108
         }
@@ -3713,14 +4725,14 @@
           "type": "RangeSelector",
           "startSelector": {
             "type": "XPathSelector",
-            "value": "//p[@xml:id='novel1_letter4_div4_p28']"
+            "value": "//[@xml:id='C06d_app1-f1818__I']"
           },
-          "startOffset": 124,
+          "startOffset": 0,
           "endSelector": {
             "type": "XPathSelector",
-            "value": "//p[@xml:id='novel1_letter4_div4_p28']"
+            "value": "//[@xml:id='C06d_app1-f1818__I']"
           },
-          "endOffset": 180
+          "endOffset": 55
         }
       ]
     }
@@ -3759,14 +4771,60 @@
           "type": "RangeSelector",
           "startSelector": {
             "type": "XPathSelector",
-            "value": "//p[@xml:id='novel1_letter1_div1_p3']"
+            "value": "//[@xml:id='C02d_app1-f1818__I']"
           },
-          "startOffset": 1168,
+          "startOffset": 0,
           "endSelector": {
             "type": "XPathSelector",
-            "value": "//p[@xml:id='novel1_letter1_div1_p3']"
+            "value": "//[@xml:id='C02d_app1-f1818__I']"
           },
-          "endOffset": 1233
+          "endOffset": 65
+        }
+      ]
+    }
+  },
+  {
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "https://frankensteinvariorum.org/r7fAfl33EemW3ivPaddLLg",
+    "type": "Annotation",
+    "generator": {
+      "id": "https://frankensteinvariorum.org/",
+      "type": "Software",
+      "name": "Frankenstein Variorum",
+      "homepage": "https://recogito.pelagios.org/"
+    },
+    "generated": "2019-04-13T14:23:19.751193+00:00",
+    "body": [
+      {
+        "type": "TextualBody",
+        "value": "His isolation from social ties or any scientific community makes it possible for Victor to conduct his grisly experiments in the first place. At the same time, VIctor's choice points toward the later fate of the creature as a vagrant, who is incapable of socializing because he has been born outside of society. Ultimately, Victor and the creature are left with a no pathways back to social life and its affections.",
+        "creator": "https://hypothes.is/users/frankensteinvariorum",
+        "modified": "2019-05-04T10:54:15.604034+00:00",
+        "purpose": "commenting"
+      }
+    ],
+    "target": {
+      "source": "https://ebeshero.github.io/Pittsburgh_Frankenstein/Frankenstein_1818.html",
+      "type": "Text",
+      "selector": [
+        {
+          "type": "TextQuoteSelector",
+          "prefix": " dedicated\n         myself; and ",
+          "exact": "the moon gazed on my midnight labours, while, with unrelaxed and breathless\n         eagerness, I pursued nature to her hiding places. Who shall conceive the horrors of\n         my\n         secret toil",
+          "suffix": ", as I dabbled among the unhallo"
+        },
+        {
+          "type": "RangeSelector",
+          "startSelector": {
+            "type": "XPathSelector",
+            "value": "//[@xml:id='C09_app627-f1818']"
+          },
+          "startOffset": 4,
+          "endSelector": {
+            "type": "XPathSelector",
+            "value": "//[@xml:id='C09_app638-f1818']"
+          },
+          "endOffset": 4
         }
       ]
     }
@@ -3805,14 +4863,14 @@
           "type": "RangeSelector",
           "startSelector": {
             "type": "XPathSelector",
-            "value": "//p[@xml:id='novel1_letter4_chapter1_div4_div1_p5']"
+            "value": "//[@xml:id='C07a_app30-f1818__I']"
           },
-          "startOffset": 561,
+          "startOffset": 79,
           "endSelector": {
             "type": "XPathSelector",
-            "value": "//p[@xml:id='novel1_letter4_chapter1_div4_div1_p5']"
+            "value": "//[@xml:id='C07a_app30-f1818__I']"
           },
-          "endOffset": 612
+          "endOffset": 130
         }
       ]
     }
@@ -3851,14 +4909,14 @@
           "type": "RangeSelector",
           "startSelector": {
             "type": "XPathSelector",
-            "value": "//p[@xml:id='novel1_letter4_chapter2_div4_div2_p11']"
+            "value": "//[@xml:id='C08a_app134-f1818']"
           },
-          "startOffset": 289,
+          "startOffset": 0,
           "endSelector": {
             "type": "XPathSelector",
-            "value": "//p[@xml:id='novel1_letter4_chapter2_div4_div2_p11']"
+            "value": "//[@xml:id='C08a_app134-f1818']"
           },
-          "endOffset": 300
+          "endOffset": 11
         }
       ]
     }
@@ -3897,14 +4955,14 @@
           "type": "RangeSelector",
           "startSelector": {
             "type": "XPathSelector",
-            "value": "//p[@xml:id='novel1_letter4_div4_p33']"
+            "value": "//[@xml:id='C06f_app9-f1818']"
           },
-          "startOffset": 256,
+          "startOffset": 73,
           "endSelector": {
             "type": "XPathSelector",
-            "value": "//p[@xml:id='novel1_letter4_div4_p33']"
+            "value": "//[@xml:id='C06f_app11-f1818']"
           },
-          "endOffset": 289
+          "endOffset": 20
         }
       ]
     }
@@ -3943,60 +5001,14 @@
           "type": "RangeSelector",
           "startSelector": {
             "type": "XPathSelector",
-            "value": "//p[@xml:id='novel1_letter4_chapter1_div4_div1_p23']"
-          },
-          "startOffset": 158,
-          "endSelector": {
-            "type": "XPathSelector",
-            "value": "//p[@xml:id='novel1_letter4_chapter1_div4_div1_p23']"
-          },
-          "endOffset": 172
-        }
-      ]
-    }
-  },
-  {
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "https://frankensteinvariorum.org/ty3qml33EemqOntFMeZgGQ",
-    "type": "Annotation",
-    "generator": {
-      "id": "https://frankensteinvariorum.org/",
-      "type": "Software",
-      "name": "Frankenstein Variorum",
-      "homepage": "https://recogito.pelagios.org/"
-    },
-    "generated": "2019-04-13T14:23:32.232951+00:00",
-    "body": [
-      {
-        "type": "TextualBody",
-        "value": "One of the northernmost cities in Russia, St. Petersburgh, along with the city Archangel mentioned below, suggest a journey with theological overtones as Robert Walton moves ever closer on his expedition to his aim of discovering the principle of life, magnetism, and thus symbolically the seat of God.",
-        "creator": "https://hypothes.is/users/frankensteinvariorum",
-        "modified": "2019-04-13T14:23:32.232951+00:00",
-        "purpose": "commenting"
-      }
-    ],
-    "target": {
-      "source": "https://ebeshero.github.io/Pittsburgh_Frankenstein/Frankenstein_1818.html",
-      "type": "Text",
-      "selector": [
-        {
-          "type": "TextQuoteSelector",
-          "prefix": " Saville, England.\n      \n      ",
-          "exact": "St. Petersburgh",
-          "suffix": ", Dec. 11th, 17\u2014.\n      \n      Y"
-        },
-        {
-          "type": "RangeSelector",
-          "startSelector": {
-            "type": "XPathSelector",
-            "value": "//p[@xml:id='novel1_letter1_div1_p1']"
+            "value": "//[@xml:id='C07h_app13-f1818']"
           },
           "startOffset": 0,
           "endSelector": {
             "type": "XPathSelector",
-            "value": "//p[@xml:id='novel1_letter1_div1_p1']"
+            "value": "//[@xml:id='C07h_app13-f1818']"
           },
-          "endOffset": 15
+          "endOffset": 14
         }
       ]
     }
@@ -4035,14 +5047,14 @@
           "type": "RangeSelector",
           "startSelector": {
             "type": "XPathSelector",
-            "value": "//p[@xml:id='novel1_letter4_chapter3_div4_div3_p13']"
+            "value": "//[@xml:id='C08e_app215-f1831']"
           },
-          "startOffset": 119,
+          "startOffset": 0,
           "endSelector": {
             "type": "XPathSelector",
-            "value": "//p[@xml:id='novel1_letter4_chapter3_div4_div3_p13']"
+            "value": "//[@xml:id='C08e_app217-f1831']"
           },
-          "endOffset": 215
+          "endOffset": 78
         }
       ]
     }
@@ -4081,14 +5093,14 @@
           "type": "RangeSelector",
           "startSelector": {
             "type": "XPathSelector",
-            "value": "//p[@xml:id='preface1_p2']"
+            "value": "//[@xml:id='preface1_p2_hi4']"
           },
-          "startOffset": 332,
+          "startOffset": 37,
           "endSelector": {
             "type": "XPathSelector",
-            "value": "//p[@xml:id='preface1_p2']"
+            "value": "//[@xml:id='preface1_p2_hi4']"
           },
-          "endOffset": 348
+          "endOffset": 53
         }
       ]
     }
@@ -4127,14 +5139,14 @@
           "type": "RangeSelector",
           "startSelector": {
             "type": "XPathSelector",
-            "value": "//p[@xml:id='novel1_letter4_chapter3_div4_div3_p1']"
+            "value": "//[@xml:id='C09_app40-f1818']"
           },
-          "startOffset": 746,
+          "startOffset": 0,
           "endSelector": {
             "type": "XPathSelector",
-            "value": "//p[@xml:id='novel1_letter4_chapter3_div4_div3_p1']"
+            "value": "//[@xml:id='C09_app51-f1818']"
           },
-          "endOffset": 875
+          "endOffset": 10
         }
       ]
     }
@@ -4173,14 +5185,14 @@
           "type": "RangeSelector",
           "startSelector": {
             "type": "XPathSelector",
-            "value": "//p[@xml:id='novel1_letter4_chapter1_div4_div1_p13']"
+            "value": "//[@xml:id='C07f_app1-f1818__F']"
           },
           "startOffset": 0,
           "endSelector": {
             "type": "XPathSelector",
-            "value": "//p[@xml:id='novel1_letter4_chapter1_div4_div1_p13']"
+            "value": "//[@xml:id='C07f_app6-f1818']"
           },
-          "endOffset": 66
+          "endOffset": 7
         }
       ]
     }
@@ -4219,14 +5231,14 @@
           "type": "RangeSelector",
           "startSelector": {
             "type": "XPathSelector",
-            "value": "//p[@xml:id='novel1_letter4_chapter2_div4_div2_p2']"
+            "value": "//[@xml:id='C07e_app44-f1831__I']"
           },
-          "startOffset": 1035,
+          "startOffset": 107,
           "endSelector": {
             "type": "XPathSelector",
-            "value": "//p[@xml:id='novel1_letter4_chapter2_div4_div2_p2']"
+            "value": "//[@xml:id='C07e_app44-f1831__I']"
           },
-          "endOffset": 1047
+          "endOffset": 119
         }
       ]
     }
@@ -4265,14 +5277,14 @@
           "type": "RangeSelector",
           "startSelector": {
             "type": "XPathSelector",
-            "value": "//p[@xml:id='novel1_letter4_chapter1_div4_div1_p9']"
+            "value": "//[@xml:id='novel1_letter4_chapter1_div4_div1_p9_hi1']"
           },
-          "startOffset": 884,
+          "startOffset": 323,
           "endSelector": {
             "type": "XPathSelector",
-            "value": "//p[@xml:id='novel1_letter4_chapter1_div4_div1_p9']"
+            "value": "//[@xml:id='novel1_letter4_chapter1_div4_div1_p9_hi1']"
           },
-          "endOffset": 937
+          "endOffset": 376
         }
       ]
     }
@@ -4311,21 +5323,21 @@
           "type": "RangeSelector",
           "startSelector": {
             "type": "XPathSelector",
-            "value": "//p[@xml:id='novel1_letter4_chapter3_div4_div3_p7']"
+            "value": "//[@xml:id='C09_app368-f1818']"
           },
-          "startOffset": 475,
+          "startOffset": 3,
           "endSelector": {
             "type": "XPathSelector",
-            "value": "//p[@xml:id='novel1_letter4_chapter3_div4_div3_p7']"
+            "value": "//[@xml:id='C09_app370-f1818']"
           },
-          "endOffset": 510
+          "endOffset": 1
         }
       ]
     }
   },
   {
     "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "https://frankensteinvariorum.org/wyk8yF33Eem3uG8y4X8OyQ",
+    "id": "https://frankensteinvariorum.org/x5IdwF33EemVEa-SvNaehw",
     "type": "Annotation",
     "generator": {
       "id": "https://frankensteinvariorum.org/",
@@ -4333,13 +5345,13 @@
       "name": "Frankenstein Variorum",
       "homepage": "https://recogito.pelagios.org/"
     },
-    "generated": "2019-04-13T14:23:52.358756+00:00",
+    "generated": "2019-04-13T14:23:59.779025+00:00",
     "body": [
       {
         "type": "TextualBody",
-        "value": "Audiences and reviewers first took the novel to be written by Percy Shelley. According to Mary Shelley in her 1831 edition of the novel, Percy wrote the entirety of this 1818 Preface, which would reappear in all future editions. We now know that he also revised passages from Mary's manuscript before printing in 1818. For details of his revisions, see Charles Robinson, ed., *The Original Frankenstein *Italic** (New York: Vintage Classics, 2009): 44-252.",
+        "value": "In the ancient Greece it was common practice to enslave entire populations of a conquered nation. Greece was conquered by the Romans in 146 CE.",
         "creator": "https://hypothes.is/users/frankensteinvariorum",
-        "modified": "2019-04-13T14:23:52.358756+00:00",
+        "modified": "2019-04-13T14:23:59.779025+00:00",
         "purpose": "commenting"
       }
     ],
@@ -4349,22 +5361,22 @@
       "selector": [
         {
           "type": "TextQuoteSelector",
-          "prefix": "      by\n         \n      \n      ",
-          "exact": "THE AUTHOR.",
-          "suffix": "\n      \n      \n      \n      \n   "
+          "prefix": "       his domestic affections, ",
+          "exact": "Greece had not been enslaved",
+          "suffix": "; C\u00e6sar would have spared his\n  "
         },
         {
           "type": "RangeSelector",
           "startSelector": {
             "type": "XPathSelector",
-            "value": "//p[@xml:id='novel1_letter1_div1_p12']"
+            "value": "//[@xml:id='C09_app845-f1818']"
           },
           "startOffset": 0,
           "endSelector": {
             "type": "XPathSelector",
-            "value": "//p[@xml:id='novel1_letter1_div1_p12']"
+            "value": "//[@xml:id='C09_app849-f1818']"
           },
-          "endOffset": 2
+          "endOffset": 8
         }
       ]
     }
@@ -4403,14 +5415,14 @@
           "type": "RangeSelector",
           "startSelector": {
             "type": "XPathSelector",
-            "value": "//p[@xml:id='novel1_letter4_chapter1_div4_div1_p16']"
+            "value": "//[@xml:id='C07g_app106-f1818']"
           },
-          "startOffset": 461,
+          "startOffset": 5,
           "endSelector": {
             "type": "XPathSelector",
-            "value": "//p[@xml:id='novel1_letter4_chapter1_div4_div1_p16']"
+            "value": "//[@xml:id='C07g_app106-f1818']"
           },
-          "endOffset": 538
+          "endOffset": 81
         }
       ]
     }
@@ -4449,14 +5461,14 @@
           "type": "RangeSelector",
           "startSelector": {
             "type": "XPathSelector",
-            "value": "//p[@xml:id='novel1_letter4_chapter1_div4_div1_p19']"
+            "value": "//[@xml:id='C07g_app222-f1818']"
           },
-          "startOffset": 32,
+          "startOffset": 0,
           "endSelector": {
             "type": "XPathSelector",
-            "value": "//p[@xml:id='novel1_letter4_chapter1_div4_div1_p19']"
+            "value": "//[@xml:id='C07g_app222-f1818']"
           },
-          "endOffset": 63
+          "endOffset": 31
         }
       ]
     }
@@ -4495,14 +5507,14 @@
           "type": "RangeSelector",
           "startSelector": {
             "type": "XPathSelector",
-            "value": "//p[@xml:id='novel1_letter4_chapter1_div4_div1_p12']"
+            "value": "//[@xml:id='C07e_app102-f1818']"
           },
-          "startOffset": 538,
+          "startOffset": 0,
           "endSelector": {
             "type": "XPathSelector",
-            "value": "//p[@xml:id='novel1_letter4_chapter1_div4_div1_p12']"
+            "value": "//[@xml:id='C07e_app103-f1818']"
           },
-          "endOffset": 566
+          "endOffset": 7
         }
       ]
     }
@@ -4541,14 +5553,14 @@
           "type": "RangeSelector",
           "startSelector": {
             "type": "XPathSelector",
-            "value": "//p[@xml:id='novel1_letter2_div2_p8']"
+            "value": "//[@xml:id='C03f_app3-f1831']"
           },
-          "startOffset": 312,
+          "startOffset": 37,
           "endSelector": {
             "type": "XPathSelector",
-            "value": "//p[@xml:id='novel1_letter2_div2_p8']"
+            "value": "//[@xml:id='C03f_app5-f1831__I']"
           },
-          "endOffset": 400
+          "endOffset": 61
         }
       ]
     }
@@ -4587,60 +5599,14 @@
           "type": "RangeSelector",
           "startSelector": {
             "type": "XPathSelector",
-            "value": "//p[@xml:id='novel1_letter4_chapter2_div4_div2_p2']"
+            "value": "//[@xml:id='C07d_app58-f1831__F']"
           },
           "startOffset": 190,
           "endSelector": {
             "type": "XPathSelector",
-            "value": "//p[@xml:id='novel1_letter4_chapter2_div4_div2_p2']"
+            "value": "//[@xml:id='C07d_app58-f1831__F']"
           },
-          "endOffset": 199
-        }
-      ]
-    }
-  },
-  {
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "https://frankensteinvariorum.org/zl7QboiYEema8VsevtahBg",
-    "type": "Annotation",
-    "generator": {
-      "id": "https://frankensteinvariorum.org/",
-      "type": "Software",
-      "name": "Frankenstein Variorum",
-      "homepage": "https://recogito.pelagios.org/"
-    },
-    "generated": "2019-06-06T20:22:28.986641+00:00",
-    "body": [
-      {
-        "type": "TextualBody",
-        "value": "In this revision for the 1831 edition, Victor narrates a period of exploration and disillusionment with the emergent discourse of modern rational science, encapsulated here by the figure of Newton. \n\nIn contrast to the empirical mode of natural philosophy emerging at this time, Victor yearns to engage with the natural world through a modicum of mystery and wonder. \n\n**NOTE: not sure if i'm being a bit anachronistic here w/ \"science\".**",
-        "creator": "https://hypothes.is/users/frankensteinvariorum",
-        "modified": "2019-06-06T20:22:28.986641+00:00",
-        "purpose": "commenting"
-      }
-    ],
-    "target": {
-      "source": "https://ebeshero.github.io/Pittsburgh_Frankenstein/Frankenstein_1831.html",
-      "type": "Text",
-      "selector": [
-        {
-          "type": "TextQuoteSelector",
-          "prefix": "res known to few beside myself.\n",
-          "exact": "         I\n         have described myself as always having been embued with a fervent longing to penetrate\n         the secrets of nature. In spite of the intense labour and wonderful discoveries of\n         modern philosophers, I always came from my studies discontented and unsatisfied. Sir\n         Isaac Newton is said to have avowed that he felt like a child picking up shells beside\n         the great and unexplored ocean of truth. Those of his successors in each branch of\n         natural philosophy with whom I was acquainted, appeared even to my boy\u2019s apprehensions,\n         as tyros engaged in the same pursuit.\n      \n      \n      The untaught peasant beheld the elements around him, and was acquainted with their\n         practical uses. The most learned philosopher knew little more. He had partially unveiled\n         the face of Nature, but her immortal lineaments were still a wonder and a mystery.\n         He\n         might dissect, anatomise, and give names; but, not to speak of a final cause, causes\n         in\n         their secondary and tertiary grades were 27utterly\n         unknown to him. I had gazed upon the fortifications and impediments that seemed to\n         keep\n         human beings from entering the citadel of nature, and rashly and ignorantly I had\n         repined.\n      \n      \n      But here were books, and here were men who had penetrated deeper and knew more. I\n         took\n         their word for all that they averred, and I became their disciple. It may appear strange\n         that such should arise in the eighteenth century; but while I followed the routine\n         of\n         education in the schools of Geneva, I was, to a great degree, self taught with regard\n         to\n         my favourite studies. My father was not scientific, and I was left to struggle with\n         a\n         child\u2019s blindness, added to a student\u2019s thirst for knowledge. Under the guidance of\n         my\n         new preceptors,",
-          "suffix": " I entered with the greatest dil"
-        },
-        {
-          "type": "RangeSelector",
-          "startSelector": {
-            "type": "XPathSelector",
-            "value": "//p[@xml:id='novel1_letter4_chapter2_div4_div2_p11']"
-          },
-          "startOffset": 0,
-          "endSelector": {
-            "type": "XPathSelector",
-            "value": "//p[@xml:id='novel1_letter4_chapter2_div4_div2_p11']"
-          },
-          "endOffset": 539
+          "endOffset": 198
         }
       ]
     }
