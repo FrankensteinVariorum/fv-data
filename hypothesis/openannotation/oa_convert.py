@@ -17,21 +17,30 @@ with open("data/hypothesis.json") as f:
     for line in f:
         his.append(json.loads(line))
 
-# htmlfile_1831 = html.parse("openannotation/sample/orig1831.html")
-# htmlfile_1818 = html.parse("openannotation/sample/orig1818.html")
+
+def sub_ws(l):
+    """
+    Joins a list of strings into one string and removes every single whitesapce, for doing a rough comparison of an annotation context to a potential chunk
+    """
+    return re.sub(r"\s", "", "".join(l))
+
+
+def get_xml_texts(p):
+    cpath = path.basename(p)
+    tree = etree.parse(p)
+    texts = [
+        t for t in tree.getroot().xpath("//text()") if re.match(r"^\n\s*$", t) is None
+    ]
+    # chunk text as a single character stream to aid rough matching
+    nows = sub_ws(texts)
+
+    return {"path": cpath, "tree": tree, "texts": texts, "nows": nows}
+
 
 # Get all 1818 chunks
-xmlfile_1818 = [
-    {"path": path.basename(p), "tree": etree.parse(p)}
-    for p in glob("../variorum-chunks-tws/f1818*.xml")
-]
+xmlfile_1818 = [get_xml_texts(p) for p in glob("../variorum-chunks-tws/f1818*.xml")]
 
-
-# Get all 1831 chunks
-xmlfile_1831 = [
-    {"path": path.basename(p), "tree": etree.parse(p)}
-    for p in glob("../variorum-chunks-tws/f1831*.xml")
-]
+xmlfile_1831 = [get_xml_texts(p) for p in glob("../variorum-chunks-tws/f1831*.xml")]
 
 
 def flatten_text(s):
@@ -53,9 +62,8 @@ def spaced_merge(l):
     return "".join(l)
 
 
-def sub_html_break(t):
-    splitlines = [r for r in re.split(r" *\n *", t) if r != ""]
-    return spaced_merge(splitlines)
+def flatten_hypothesis_text(t):
+    return re.sub(r"\n\s+", " ", t)
 
 
 def normalize_line_breaks(element):
@@ -70,6 +78,9 @@ def normalize_line_breaks(element):
 
 
 def find_overlap_offset(a, b):
+    """
+    Given two texts, returns a match index if b is a perfect subset of a, or if b overlaps at the start or the end of a. If b appears in the middle of a, this returns None.
+    """
     s = SequenceMatcher(a=a, b=b)
     for mb in s.get_matching_blocks():
         if mb.size > 0:
@@ -84,47 +95,61 @@ def find_overlap_offset(a, b):
 
 
 def find_seg_ids(text_sel, parsed_xml):
-    prefix = sub_html_break(text_sel["prefix"])
-    exact = sub_html_break(text_sel["exact"])
-    suffix = sub_html_break(text_sel["suffix"])
-    total = spaced_merge([prefix, exact, suffix])
+    prefix = text_sel["prefix"]
+    exact = text_sel["exact"]
+    suffix = text_sel["suffix"]
+    single_string = sub_ws([prefix, exact, suffix])
+
+    trimmed_exact = flatten_hypothesis_text(exact)
+
     front_text = spaced_merge([prefix, exact])
     back_text = spaced_merge([exact, suffix])
 
-    pre_p = None
-    post_p = None
+    start_ele = None
+    final_ele = None
 
     for c in parsed_xml:
-        ctree = c["tree"]
-        for p in ctree.iter("{*}p"):
-            p_text = normalize_line_breaks(p)
-            pre_overlap = find_overlap_offset(p_text, front_text)
-            exact_overlap = find_overlap_offset(p_text, exact)
-            post_overlap = find_overlap_offset(p_text, back_text)
-            if pre_overlap is not None and exact_overlap is not None:
-                pre_p = p
-                pre_offset = exact_overlap.a
-                print(f"Found pre: {pre_p} + {pre_offset}")
-            if post_overlap is not None and exact_overlap is not None:
-                post_p = p
-                post_offset = exact_overlap.a + exact_overlap.size
-                print(f"Found post: {post_p} + {post_offset}")
-            if pre_p is not None and post_p is not None:
-                pre_p_id = pre_p.get("{http://www.w3.org/XML/1998/namespace}id")
-                post_p_id = post_p.get("{http://www.w3.org/XML/1998/namespace}id")
-                print(f"{c['path']}: \"{exact}\" {pre_p_id} to {post_p_id}")
-                return {
-                    "chunk": c["path"],
-                    "start_p": pre_p_id,
-                    "end_p": post_p_id,
-                    "start_offset": pre_offset,
-                    "end_offset": post_offset,
-                }
-    print("No match found")
-    print(f"text: {len(total)}")
-    return {"chunk": None, "start_p": None, "end_p": None}
+        print(f"Checking {c['path']}")
+        # First check if the ws-stripped annotation is present in the chunk at all
+        if find_overlap_offset(c["nows"], single_string):
+            print(f"Potential match found")
+            for i, ele in enumerate(c["texts"]):
+                exact_overlap = find_overlap_offset(ele, trimmed_exact)
+                if exact_overlap is not None:
+                    # If this is an overlap at the start of the annotation and we've not yet found the starting element, register the starting element
+                    if exact_overlap.b == 0 and start_ele is None:
+                        start_ele = ele.getparent()
+                        start_offset = exact_overlap.a
+                        print(f"Found pre: {start_ele} + {start_offset}")
+                    # If an overlap at the end of the annotation and
+                    if (
+                        exact_overlap.b + exact_overlap.size == len(trimmed_exact)
+                    ) and final_ele is None:
+                        final_ele = ele.getparent()
+                        final_offset = exact_overlap.a + exact_overlap.size
+                        print(f"Found post: {final_ele} + {final_offset}")
+                if start_ele is not None and final_ele is not None:
+                    start_ele_id = start_ele.get(
+                        "{http://www.w3.org/XML/1998/namespace}id"
+                    )
+                    final_ele_id = final_ele.get(
+                        "{http://www.w3.org/XML/1998/namespace}id"
+                    )
+                    print(f"{c['path']}: \"{exact}\" {start_ele_id} to {final_ele_id}")
+                    return {
+                        "chunk": c["path"],
+                        "start_ele": start_ele_id,
+                        "final_ele": final_ele_id,
+                        "start_offset": start_offset,
+                        "end_offset": final_offset,
+                    }
+        else:
+            print("no match found in this chunk")
+
+    return {"chunk": None, "start_ele": None, "final_ele": None}
 
 
+nomatch = []
 jld = []
 # Loop through annotations and pair them to xml nodes
 for a in his:
@@ -133,12 +158,14 @@ for a in his:
     xpath_sel = [t for t in a["target"][0]["selector"] if t["type"] == "RangeSelector"][
         0
     ]
-    start_position = 0
-    end_position = 0
+    start_eleosition = 0
+    final_eleosition = 0
 
     text_sel = [
         t for t in a["target"][0]["selector"] if t["type"] == "TextQuoteSelector"
     ][0]
+
+    print(text_sel["exact"])
 
     if (
         a["uri"]
@@ -153,6 +180,7 @@ for a in his:
 
     # skip write if we can't find a match
     if seg_ids["chunk"] is None:
+        nomatch.append(a)
         continue
 
     obj = {
@@ -189,12 +217,12 @@ for a in his:
                     "type": "RangeSelector",
                     "startSelector": {
                         "type": "XPathSelector",
-                        "value": f"//p[@xml:id='{seg_ids['start_p']}']",
+                        "value": f"//p[@xml:id='{seg_ids['start_ele']}']",
                     },
                     "startOffset": seg_ids["start_offset"],
                     "endSelector": {
                         "type": "XPathSelector",
-                        "value": f"//p[@xml:id='{seg_ids['end_p']}']",
+                        "value": f"//p[@xml:id='{seg_ids['final_ele']}']",
                     },
                     "endOffset": seg_ids["end_offset"],
                 },
@@ -205,3 +233,6 @@ for a in his:
 
 with open("data/oa.jsonld", "w") as outfile:
     json.dump(jld, outfile, indent=2)
+
+with open("data/nomatch.json", "w") as outfile:
+    json.dump(nomatch, outfile, indent=2)
