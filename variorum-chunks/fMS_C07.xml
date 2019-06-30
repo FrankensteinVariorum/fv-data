@@ -1,4 +1,4 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="fMS-C07">
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xml:id="fMS-C07">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -51,7 +51,7 @@
    </teiHeader>
    <sourceDoc>
       <?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5364" lry="7104" partOf="#ox-frankenstein_volume_i" ulx="0" uly="0" mith:folio="4r" mith:shelfmark="MS. Abinger c. 56" xml:base="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0011.xml" xml:id="ox-ms_abinger_c56-0011">
-  <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c56/ms_abinger_c56-0011.jp2"></graphic>
+  <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c56/ms_abinger_c56-0011.jp2"/>
 
   <zone rend="bordered" type="pagination">
     <line>41</line>
@@ -67,11 +67,11 @@
     <line>it always through <mod>
         <del rend="strikethrough">the</del>
         <add place="superlinear">her</add>
-      </mod> intercession <delSpan rend="strikethrough" spanTo="#c56-0011.02"></delSpan>of</line>
-    <line>Elizabeth<anchor xml:id="c56-0011.02"></anchor><del rend="strikethrough"> For me I loved he</del>
-      <delSpan rend="strikethrough" spanTo="#c56-0011.03"></delSpan>We agreed</line>
-    <line>perfectly although there were many<anchor xml:id="c56-0011.03"></anchor>
-      <anchor xml:id="c56-0011.04"></anchor></line>
+      </mod> intercession <delSpan rend="strikethrough" spanTo="#c56-0011.02"/>of</line>
+    <line>Elizabeth<anchor xml:id="c56-0011.02"/><del rend="strikethrough"> For me I loved he</del>
+      <delSpan rend="strikethrough" spanTo="#c56-0011.03"/>We agreed</line>
+    <line>perfectly although there were many<anchor xml:id="c56-0011.03"/>
+      <anchor xml:id="c56-0011.04"/></line>
     <line rend="right"><add hand="#pbs" place="interlinear"><del rend="strikethrough">There</del>
         For, although</add></line>
     <line>was a great dissimilitude in our</line>
@@ -87,12 +87,12 @@
         <del rend="strikethrough">lasted</del>
         <add hand="#pbs" place="superlinear">endured</add>
       </mod>
-      <mod spanTo="#c56-0011.11"></mod><delSpan rend="strikethrough" spanTo="#c56-0011.12"></delSpan>my
+      <mod spanTo="#c56-0011.11"/><delSpan rend="strikethrough" spanTo="#c56-0011.12"/>my
       amusements</line>
     <line>were studying old books of chemistry</line>
     <line>and natural magic those of Elizabeth were</line>
-    <line>dra wing &amp; music.<space extent="3" unit="char"></space><anchor xml:id="c56-0011.12"></anchor><add hand="#pbs" place="superlinear"><metamark function="displacement" xml:id="c56-0011.13">X</metamark></add><anchor xml:id="c56-0011.11"></anchor></line>
-    <milestone unit="tei:p"></milestone>
+    <line>dra wing &amp; music.<space extent="3" unit="char"/><anchor xml:id="c56-0011.12"/><add hand="#pbs" place="superlinear"><metamark function="displacement" xml:id="c56-0011.13">X</metamark></add><anchor xml:id="c56-0011.11"/></line>
+    <milestone unit="tei:p"/>
     <line rend="indent1"><del instant="true" rend="strikethrough">When I</del>
       <del instant="true" rend="strikethrough">I had</del> My brothers were consi</line>
     <line>derably younger than myself but I had</line>
@@ -130,37 +130,37 @@
   </zone>
 
   <zone corresp="#c56-0011.04" lrx="1289" lry="687" type="left_margin" ulx="0" uly="46">
-    <addSpan hand="#pbs" spanTo="#c56-0011.05"></addSpan>
-    <metamark function="displacement" spanTo="#c56-0011.06" xml:id="c56-0011.07"></metamark>
+    <addSpan hand="#pbs" spanTo="#c56-0011.05"/>
+    <metamark function="displacement" spanTo="#c56-0011.06" xml:id="c56-0011.07"/>
     <line rend="right">X</line>
     <line rend="right">X</line>
-    <anchor xml:id="c56-0011.06"></anchor>
-    <anchor xml:id="c56-0011.05"></anchor>
+    <anchor xml:id="c56-0011.06"/>
+    <anchor xml:id="c56-0011.05"/>
   </zone>
 
   <zone corresp="#c56-0011.09" lrx="1289" lry="1804" type="left_margin" ulx="0" uly="811">
-    <addSpan hand="#pbs" spanTo="#c56-0011.10"></addSpan>
+    <addSpan hand="#pbs" spanTo="#c56-0011.10"/>
     <line rend="right"><metamark>X</metamark> yet</line>
     <line>there was an</line>
     <line>harmony in</line>
     <line>that very diss</line>
     <line>imilitude–</line>
     <line><metamark function="separate">_____________</metamark></line>
-    <anchor xml:id="c56-0011.10"></anchor>
+    <anchor xml:id="c56-0011.10"/>
   </zone>
 
   <zone corresp="#c56-0011.07" type="left_margin">
-    <addSpan hand="#pbs" spanTo="#c56-0011.08"></addSpan>
+    <addSpan hand="#pbs" spanTo="#c56-0011.08"/>
     <line><metamark function="displacement">X</metamark> We were strangers</line>
     <line>to any species</line>
     <line><metamark>X</metamark> of disunion</line>
     <line>or dispute</line>
     <line><metamark function="separate">_____________</metamark></line>
-    <anchor xml:id="c56-0011.08"></anchor>
+    <anchor xml:id="c56-0011.08"/>
   </zone>
 
   <zone corresp="#c56-0011.13" type="left_margin">
-    <addSpan hand="#pbs" spanTo="#c56-0011.14"></addSpan>
+    <addSpan hand="#pbs" spanTo="#c56-0011.14"/>
     <line><metamark function="displacement">X</metamark></line>
     <line>I delighted in</line>
     <line>investigating</line>
@@ -183,11 +183,11 @@
     <line>she sought to</line>
     <line>people with</line>
     <line>imaginations of</line>
-    <line>her own.</line><anchor xml:id="c56-0011.14"></anchor>
+    <line>her own.</line><anchor xml:id="c56-0011.14"/>
   </zone>
 </surface>
       <?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5364" lry="7104" partOf="#ox-frankenstein_volume_i" ulx="0" uly="0" mith:folio="4v" mith:shelfmark="MS. Abinger c. 56" xml:base="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0012.xml" xml:id="ox-ms_abinger_c56-0012">
-  <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c56/ms_abinger_c56-0012.jp2"></graphic>
+  <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c56/ms_abinger_c56-0012.jp2"/>
   <zone rend="bordered" type="pagination"><line>42</line></zone>
   <zone type="main">
     <line>than mine. – <mod>
@@ -214,9 +214,9 @@
     <line><mod>
         <del rend="strikethrough">would</del>
         <add hand="#pbs" place="superlinear">might not</add>
-      </mod> outstrip her, but <mod spanTo="#c56-0012.01"></mod><del type="overwritten">she</del><add hand="#pbs" place="intralinear">by</add><del next="#c56-0012.02" rend="strikethrough">was</del><add hand="#pbs" place="superlinear">the</add><anchor xml:id="c56-0012.03"></anchor></line>
-    <line><del rend="strikethrough" xml:id="c56-0012.02">knew how</del><anchor xml:id="c56-0012.01"></anchor> pleas<mod xml:space="preserve"><del type="overwritten">ed</del><add hand="#pbs" place="intralinear">ing</add></mod> her Aunt <delSpan rend="strikethrough" spanTo="#c56-0012.04"></delSpan>would</line>
-    <line>be<anchor xml:id="c56-0012.04"></anchor> by <mod>
+      </mod> outstrip her, but <mod spanTo="#c56-0012.01"/><del type="overwritten">she</del><add hand="#pbs" place="intralinear">by</add><del next="#c56-0012.02" rend="strikethrough">was</del><add hand="#pbs" place="superlinear">the</add><anchor xml:id="c56-0012.03"/></line>
+    <line><del rend="strikethrough" xml:id="c56-0012.02">knew how</del><anchor xml:id="c56-0012.01"/> pleas<mod xml:space="preserve"><del type="overwritten">ed</del><add hand="#pbs" place="intralinear">ing</add></mod> her Aunt <delSpan rend="strikethrough" spanTo="#c56-0012.04"/>would</line>
+    <line>be<anchor xml:id="c56-0012.04"/> by <mod>
         <del rend="strikethrough">a painting</del>
         <add hand="#pbs" place="superlinear">the representation</add>
       </mod> of some <del rend="strikethrough">of her</del></line>
@@ -254,8 +254,8 @@
     <line>memory. <mod>
       <add hand="#pbs" place="superlinear"><metamark function="displacement" xml:id="c56-0012.05">X</metamark></add>
         <del rend="strikethrough">I include</del></mod>
-      <del rend="strikethrough">Hen</del> Henry <mod spanTo="#c56-0012.07"></mod><del next="#c56-0012.08" rend="strikethrough">Carignan</del><add place="superlinear">Clerval,</add></line>
-    <line><del rend="strikethrough" xml:id="c56-0012.08">in this account</del><anchor xml:id="c56-0012.07"></anchor> for <mod>
+      <del rend="strikethrough">Hen</del> Henry <mod spanTo="#c56-0012.07"/><del next="#c56-0012.08" rend="strikethrough">Carignan</del><add place="superlinear">Clerval,</add></line>
+    <line><del rend="strikethrough" xml:id="c56-0012.08">in this account</del><anchor xml:id="c56-0012.07"/> for <mod>
         <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add place="superlinear">he</add>
       </mod> was<del rend="strikethrough">con</del> constantly</line>
@@ -269,7 +269,7 @@
   </zone>
 
   <zone corresp="#c56-0012.05" type="left_margin">
-    <addSpan spanTo="#c56-0012.06"></addSpan>
+    <addSpan spanTo="#c56-0012.06"/>
     <line><add hand="#pbs" place="superlinear"><metamark function="displacement">X</metamark></add>In <mod>
         <del rend="strikethrough">this</del>
         <add hand="#pbs" place="superlinear">the</add>
@@ -277,12 +277,12 @@
     <line>tion of our do</line>
     <line>mestic circle</line>
     <line>I include</line>
-    <anchor xml:id="c56-0012.06"></anchor>
+    <anchor xml:id="c56-0012.06"/>
   </zone>
 
 </surface>
       <?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5364" lry="7104" partOf="#ox-frankenstein_volume_i" ulx="0" uly="0" mith:folio="5r" mith:shelfmark="MS. Abinger c. 56" xml:base="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0013.xml" xml:id="ox-ms_abinger_c56-0013">
-  <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c56/ms_abinger_c56-0013.jp2"></graphic>
+  <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c56/ms_abinger_c56-0013.jp2"/>
   <zone rend="bordered" type="pagination"><line>43</line></zone>
   <zone type="library"><line>5</line></zone>
   <zone type="main">
@@ -296,19 +296,19 @@
     <line>house and we were never com</line>
     <line>pletely happy when Clerval was</line>
     <line>absent.</line>
-    <milestone unit="tei:p"></milestone>
-    <delSpan rend="vertical_line" spanTo="#c56-0013.01"></delSpan>
-    <delSpan rend="strikethrough" spanTo="#c56-0013.02"></delSpan>
+    <milestone unit="tei:p"/>
+    <delSpan rend="vertical_line" spanTo="#c56-0013.01"/>
+    <delSpan rend="strikethrough" spanTo="#c56-0013.02"/>
     <line rend="indent1">In this account of my early</line>
-    <line>youth I wish particularly to <mod spanTo="#c56-0013.03"></mod>men</line>
-    <line>tion <anchor xml:id="c56-0013.04"></anchor><anchor xml:id="c56-0013.03"></anchor> those
-        circumstances<anchor xml:id="c56-0013.02"></anchor> which</line>
+    <line>youth I wish particularly to <mod spanTo="#c56-0013.03"/>men</line>
+    <line>tion <anchor xml:id="c56-0013.04"/><anchor xml:id="c56-0013.03"/> those
+        circumstances<anchor xml:id="c56-0013.02"/> which</line>
     <line>led to and nourished my taste</line>
     <line>for that science which was</line>
     <line>the principal amusement of my</line>
-    <line>boyish days and in <delSpan rend="strikethrough" spanTo="#c56-0013.05"></delSpan>the end
+    <line>boyish days and in <delSpan rend="strikethrough" spanTo="#c56-0013.05"/>the end
       deci</line>
-    <line>ded my destiny<anchor xml:id="c56-0013.05"></anchor>. I mentioned before</line>
+    <line>ded my destiny<anchor xml:id="c56-0013.05"/>. I mentioned before</line>
     <line>my taste for old books of chemist</line>
     <line>ry and natural magic and I remem</line>
     <line>ber very well that I learned latin</line>
@@ -320,8 +320,8 @@
     <line>given in Geneva and athough</line>
     <line>I did not understand them the</line>
     <line>experiments never failed to</line>
-    <line>attract my attention.<anchor xml:id="c56-0013.01"></anchor><del next="#c56-0013.06" rend="strikethrough">I reme<mod><add place="sublinear"><metamark function="insert">^</metamark></add><add hand="#pbs" place="superlinear">m</add></mod>ber</del></line>
-    <line><del rend="strikethrough" xml:id="c56-0013.06">also</del><milestone unit="tei:p"></milestone><metamark function="paragraph"> [</metamark><mod>
+    <line>attract my attention.<anchor xml:id="c56-0013.01"/><del next="#c56-0013.06" rend="strikethrough">I reme<mod><add place="sublinear"><metamark function="insert">^</metamark></add><add hand="#pbs" place="superlinear">m</add></mod>ber</del></line>
+    <line><del rend="strikethrough" xml:id="c56-0013.06">also</del><milestone unit="tei:p"/><metamark function="paragraph"> [</metamark><mod>
         <del rend="overwritten">w</del>
         <add place="intralinear">W</add>
       </mod>hen I was about <mod>
@@ -339,26 +339,26 @@
     <line><del rend="strikethrough"><add>record </add></del></line></zone>
 </surface>
       <?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5088" lry="7082" partOf="#ox-frankenstein_volume_i" ulx="0" uly="0" mith:folio="1r" mith:shelfmark="MS. Abinger c. 56" xml:base="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0005.xml" xml:id="ox-ms_abinger_c56-0005">
-  <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c56/ms_abinger_c56-0005.jp2"></graphic>
+  <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c56/ms_abinger_c56-0005.jp2"/>
   <zone type="library"><line>1</line></zone>
 
   <zone type="main">
-    <handShift medium="pen" new="#mws"></handShift>
-    <line rend="center"><milestone spanTo="#c56-0005.06" unit="tei:head"></milestone>Chapt. 2<anchor xml:id="c56-0005.06"></anchor></line>
+    <handShift medium="pen" new="#mws"/>
+    <line rend="center"><milestone spanTo="#c56-0005.06" unit="tei:head"/>Chapt. 2<anchor xml:id="c56-0005.06"/></line>
     <line>Those events which materially influence our fu</line>
     <line>ture destinies <del rend="strikethrough">are</del> often <mod>
         <del rend="strikethrough">caused</del>
         <del rend="strikethrough">by slight or</del>
         <add hand="#pbs" place="superlinear">derive thier origin from a</add>
       </mod> tri</line>
-    <line>vial occurence<del rend="strikethrough">s</del>. <mod spanTo="#c56-0005.01"></mod><del next="#c56-0005.02" rend="strikethrough">Strange as the</del>
+    <line>vial occurence<del rend="strikethrough">s</del>. <mod spanTo="#c56-0005.01"/><del next="#c56-0005.02" rend="strikethrough">Strange as the</del>
       <mod>
         <add place="sublinear"><metamark function="insert">^</metamark></add>
         <del rend="strikethrough"><add place="superlinear">statement of the</add></del>
       </mod>
       <del next="#c56-0005.03" rend="strikethrough" xml:id="c56-0005.02">simple fact</del></line>
     <line><del rend="strikethrough" xml:id="c56-0005.03">may appear my fate had been</del>
-      <del rend="strikethrough">Chemist</del><anchor xml:id="c56-0005.01"></anchor> Natu</line>
+      <del rend="strikethrough">Chemist</del><anchor xml:id="c56-0005.01"/> Natu</line>
     <line>ral philosophy <del rend="strikethrough">has</del> is the genius that has</line>
     <line>regulated my fate I <mod>
         <del rend="strikethrough">wish</del>
@@ -430,7 +430,7 @@
   </zone>
 </surface>
       <?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5088" lry="7082" partOf="#ox-frankenstein_volume_i" ulx="0" uly="0" mith:folio="1v" mith:shelfmark="MS. Abinger c. 56" xml:base="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0006.xml" xml:id="ox-ms_abinger_c56-0006">
-  <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c56/ms_abinger_c56-0006.jp2"></graphic>
+  <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c56/ms_abinger_c56-0006.jp2"/>
   <zone type="main">
     <line>Agrippa had been entirely exploded. <del rend="strikethrough">And</del></line>
     <line><del rend="strikethrough">aan</del> and that <mod>
@@ -447,14 +447,14 @@
     <line>warmed as it was
 	<mod xml:space="preserve"><del rend="overwritten">w</del><add hand="#pbs" place="intralinear">sh</add></mod>ould probably have</line>
     <line>aplied myself to <del rend="strikethrough">m</del> the more <del rend="strikethrough">ra</del> rational</line>
-    <line>theory of chemistry which <mod spanTo="#c56-0006.04"></mod><del next="#c56-0006.01" rend="strikethrough">has at present</del>
+    <line>theory of chemistry which <mod spanTo="#c56-0006.04"/><del next="#c56-0006.01" rend="strikethrough">has at present</del>
       <add hand="#pbs" next="#c56-0006.02" place="superlinear">has resulted from modern
         discoveries</add></line>
     <line><del rend="strikethrough" xml:id="c56-0006.01">the approbation of the learned.</del>
       <add hand="#pbs" next="#c56-0006.03" place="superlinear" xml:id="c56-0006.02">It is even
         possible that the train of my ideas might never have recieved</add>
       <add hand="#pbs" place="sublinear" xml:id="c56-0006.03">that fatal impulse which led me to my
-        ruin.</add><anchor xml:id="c56-0006.04"></anchor> But the</line>
+        ruin.</add><anchor xml:id="c56-0006.04"/> But the</line>
     <line>cursory glance my father had taken of</line>
     <line>my volume by no means assured me</line>
     <line>that he was acquainted with <mod>
@@ -463,7 +463,7 @@
         <add place="superlinear">its</add>
       </mod> contents;</line>
     <line>and I continued to read with the greatest</line>
-    <line>avidity. <milestone unit="tei:p"></milestone><metamark function="paragraph">[</metamark>When I
+    <line>avidity. <milestone unit="tei:p"/><metamark function="paragraph">[</metamark>When I
       returned home, my first</line>
     <line>care was to procure <mod>
         <del rend="strikethrough">this</del>
@@ -487,7 +487,7 @@
   </zone>
 </surface>
       <?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5088" lry="7082" partOf="#ox-frankenstein_volume_i" ulx="0" uly="0" mith:folio="2r" mith:shelfmark="MS. Abinger c. 56" xml:base="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0007.xml" xml:id="ox-ms_abinger_c56-0007">
-  <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c56/ms_abinger_c56-0007.jp2"></graphic>
+  <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c56/ms_abinger_c56-0007.jp2"/>
 
   <zone type="library"><line>2</line></zone>
 
@@ -502,7 +502,7 @@
         <add hand="#pbs" place="superlinear">the subject,</add>
       </mod> and I was left by her to pursue</line>
     <line>my studies alone. –</line>
-    <milestone unit="tei:p"></milestone>
+    <milestone unit="tei:p"/>
     <line rend="indent1">It may appear very strange that a desci</line>
     <line>ple of Albertus Magnus should arise in the</line>
     <line>eighteenth century, but our family was not</line>
@@ -515,10 +515,10 @@
     <line>with the greates diligence into the search</line>
     <line> of the philosophers stone and the <add hand="#pbs" place="superlinear"><note>or if you
           chose petrum philosophale</note></add>
-      <mod spanTo="#c56-0007.01"></mod>
+      <mod spanTo="#c56-0007.01"/>
       <del next="#c56-0007.02" rend="strikethrough">elizer vi</del>
       <add hand="#pbs" place="superlinear">elixer of life</add></line>
-    <line><del rend=" strikethrough" xml:id="c56-0007.02">tæ</del><anchor xml:id="c56-0007.01"></anchor>. But the latter obtained my most undi</line>
+    <line><del rend=" strikethrough" xml:id="c56-0007.02">tæ</del><anchor xml:id="c56-0007.01"/>. But the latter obtained my most undi</line>
     <line>ved attention; wealth was an inferior</line>
     <line>object but what would be the glory</line>
     <line> of the discovery if I could <del rend=" strikethrough">besto</del>
@@ -529,21 +529,21 @@
         <del rend=" strikethrough">by</del>
         <add place="superlinear">invunerable to</add>
       </mod> any</line>
-    <damage type="tear"></damage>
+    <damage type="tear"/>
   </zone>
 
 </surface>
       <?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5088" lry="7082" partOf="#ox-frankenstein_volume_i" ulx="0" uly="0" mith:folio="2v" mith:shelfmark="MS. Abinger c. 56" xml:base="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0008.xml" xml:id="ox-ms_abinger_c56-0008">
-  <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c56/ms_abinger_c56-0008.jp2"></graphic>
+  <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c56/ms_abinger_c56-0008.jp2"/>
   <zone type="main">
     <line><mod>
-        <del rend="overwritten"><unclear extent="2" unit="chars"></unclear></del>
+        <del rend="overwritten"><unclear extent="2" unit="chars"/></del>
         <add place="intralinear">b</add>
         <add hand="#pbs" place="sublinear">ut a</add>
       </mod> violent death.</line>
-    <milestone unit="tei:p"></milestone>
+    <milestone unit="tei:p"/>
     <line rend="indent1">Nor were these my only visions, the</line>
-    <line>raising of ghosts or devils <mod spanTo="#c56-0008.01"></mod><add place="sublinear"><metamark function="insert">^</metamark></add>
+    <line>raising of ghosts or devils <mod spanTo="#c56-0008.01"/><add place="sublinear"><metamark function="insert">^</metamark></add>
       <del next="#c56-0008.02" rend="strikethrough">was also a favour</del><add hand="#pbs" next="#c56-0008.05" place="superlinear">was a promise liberally accorded by</add></line>
     <line><del next="#c56-0008.03" rend="strikethrough" xml:id="c56-0008.02">ite</del>
       <del next="#c56-0008.04" rend="strikethrough" xml:id="c56-0008.03">pursuit</del>
@@ -551,7 +551,7 @@
       <del rend="strikethrough" xml:id="c56-0008.04">If I never saw any</del><add hand="#pbs" next="#c56-0008.06" place="superlinear" xml:id="c56-0008.05">my favourite authors; the
         fulfilment of which I most eagerly sought;</add></line>
     <line><add hand="#pbs" place="superlinear" xml:id="c56-0008.06">&amp; if my incantations were
-        always unsuccessful</add><anchor xml:id="c56-0008.01"></anchor>attributed <mod>
+        always unsuccessful</add><anchor xml:id="c56-0008.01"/>attributed <mod>
         <del rend="strikethrough">it</del>
         <add hand="#pbs" place="sublinear">the failure</add>
       </mod> rather to my own inexperience</line>
@@ -563,10 +563,10 @@
         <add hand="#pbs" place="superlinear">or fidelity</add>
       </mod> in</line>
     <line>my instructor<add hand="#pbs" place="intralinear">s</add>.</line>
-    <milestone unit="tei:p"></milestone>
+    <milestone unit="tei:p"/>
     <line rend="indent1"><del rend="strikethrough">When I was about fifteen my
         f</del></line>
-    <milestone unit="tei:p"></milestone>
+    <milestone unit="tei:p"/>
     <line rend="indent1">The natural phænonema that takes</line>
     <line>place every day before our eyes did not</line>
     <line>escape my exa<mod xml:space="preserve"><del rend="overwritten">n</del><add hand="#pbs" place="intralinear">m</add></mod>i<mod><del rend="overwritten">m</del><add hand="#pbs" place="intralinear">n</add></mod>ations. 
@@ -592,15 +592,15 @@
         <del rend="strikethrough">used</del>
       </mod> by a gentleman whom </line>
     <line>we were in the habit of visiting.</line>
-    <milestone unit="tei:p"></milestone>
+    <milestone unit="tei:p"/>
     <line rend="indent1">The ignorance of my philosopher<mod xml:space="preserve"><del rend="overwritten">es</del><add hand="#pbs" place="intralinear">s</add></mod>
 	on these</line>
     <line>and several other points, served to decrease</line>
-    <damage></damage>
+    <damage/>
   </zone>
 </surface>
       <?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5088" lry="7082" partOf="#ox-frankenstein_volume_i" ulx="0" uly="0" mith:folio="3r" mith:shelfmark="MS. Abinger c. 56" xml:base="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0009.xml" xml:id="ox-ms_abinger_c56-0009">
-  <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c56/ms_abinger_c56-0009.jp2"></graphic>
+  <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c56/ms_abinger_c56-0009.jp2"/>
   <zone type="library"><line>3</line></zone>
   <zone type="main">
     <line><mod>
@@ -625,8 +625,8 @@
         <del rend="overwritten">.</del>
         <add hand="#pbs" place="intralinear">,</add>
       </mod>
-      <unclear extent="1" unit="chars"></unclear> in my mind–</line>
-    <milestone unit="tei:p"></milestone>
+      <unclear extent="1" unit="chars"/> in my mind–</line>
+    <milestone unit="tei:p"/>
     <line rend="indent3"><mod>
         <del rend="strikethrough">An</del>
         <del rend="unmarked">d</del>
@@ -637,7 +637,7 @@
     <line><mod>
         <del rend="strikethrough">what</del>
         <add place="sublinear"><metamark function="insert">^</metamark></add>
-        <add hand="#pbs" place="superlinear">the nature <space extent="3" unit="chars"></space> &amp; the
+        <add hand="#pbs" place="superlinear">the nature <space extent="3" unit="chars"/> &amp; the
           origin of</add>
       </mod> thunder and lightening. <del rend="strikethrough">was.</del> He</line>
     <line>replied, electricity; describing at the same</line>
@@ -652,7 +652,7 @@
         <add hand="#pbs" place="superlinear">which</add>
       </mod> drew down</line>
     <line>that fluid from the clouds.</line>
-    <milestone unit="tei:p"></milestone>
+    <milestone unit="tei:p"/>
     <line rend="indent2">This last <del rend="strikethrough">blow</del>
       <del rend="strikethrough">st</del> stroke compleated</line>
     <line>the overthrow of Cornelius Agrippa, Albertus</line>
@@ -665,27 +665,27 @@
         <add hand="#pbs" place="superlinear">disinclination</add>
       </mod> was influenced by the following</line>
     <line>circumstance.</line>
-    <milestone unit="tei:p"></milestone>
+    <milestone unit="tei:p"/>
     <line rend="indent2">My father expressed a wish that I</line>
     <line>should attend a course of lectures upon</line>
     <line>natural philosophy, to which I <mod>
         <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add hand="#pbs" place="superlinear">cheerfully</add>
-      </mod>consented <delSpan rend="strikethrough" spanTo="#c56-0009.02"></delSpan>and</line>
-    <line><delSpan rend="vertical_line" spanTo="#c56-0009.01"></delSpan>one evening<anchor xml:id="c56-0009.02"></anchor> that I spent in town at the</line>
-    <line>house of Clerval's father I <delSpan rend="strikethrough" spanTo="#c56-0009.03"></delSpan>heard
+      </mod>consented <delSpan rend="strikethrough" spanTo="#c56-0009.02"/>and</line>
+    <line><delSpan rend="vertical_line" spanTo="#c56-0009.01"/>one evening<anchor xml:id="c56-0009.02"/> that I spent in town at the</line>
+    <line>house of Clerval's father I <delSpan rend="strikethrough" spanTo="#c56-0009.03"/>heard
       that</line>
-    <line>M<hi rend="sup">r</hi> — was lef at<anchor xml:id="c56-0009.03"></anchor> met M. <del rend="strikethrough">O P</del> a proficient</line>
+    <line>M<hi rend="sup">r</hi> — was lef at<anchor xml:id="c56-0009.03"/> met M. <del rend="strikethrough">O P</del> a proficient</line>
     <line>in Chemistry who left the company at</line>
     <line>an early hour to <del rend="strikethrough">h</del> give his lecture upon</line>
     <line>tha<mod>
         <del rend="overwritten">n</del>
         <add place="intralinear">t</add>
-      </mod> science enquiring as he went out<anchor xml:id="c56-0009.01"></anchor></line>
+      </mod> science enquiring as he went out<anchor xml:id="c56-0009.01"/></line>
   </zone>
 </surface>
       <?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5364" lry="7104" partOf="#ox-frankenstein_volume_i" ulx="0" uly="0" mith:folio="5r" mith:shelfmark="MS. Abinger c. 56" xml:base="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0013.xml" xml:id="ox-ms_abinger_c56-0013">
-  <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c56/ms_abinger_c56-0013.jp2"></graphic>
+  <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c56/ms_abinger_c56-0013.jp2"/>
   <zone rend="bordered" type="pagination"><line>43</line></zone>
   <zone type="library"><line>5</line></zone>
   <zone type="main">
@@ -699,19 +699,19 @@
     <line>house and we were never com</line>
     <line>pletely happy when Clerval was</line>
     <line>absent.</line>
-    <milestone unit="tei:p"></milestone>
-    <delSpan rend="vertical_line" spanTo="#c56-0013.01"></delSpan>
-    <delSpan rend="strikethrough" spanTo="#c56-0013.02"></delSpan>
+    <milestone unit="tei:p"/>
+    <delSpan rend="vertical_line" spanTo="#c56-0013.01"/>
+    <delSpan rend="strikethrough" spanTo="#c56-0013.02"/>
     <line rend="indent1">In this account of my early</line>
-    <line>youth I wish particularly to <mod spanTo="#c56-0013.03"></mod>men</line>
-    <line>tion <anchor xml:id="c56-0013.04"></anchor><anchor xml:id="c56-0013.03"></anchor> those
-        circumstances<anchor xml:id="c56-0013.02"></anchor> which</line>
+    <line>youth I wish particularly to <mod spanTo="#c56-0013.03"/>men</line>
+    <line>tion <anchor xml:id="c56-0013.04"/><anchor xml:id="c56-0013.03"/> those
+        circumstances<anchor xml:id="c56-0013.02"/> which</line>
     <line>led to and nourished my taste</line>
     <line>for that science which was</line>
     <line>the principal amusement of my</line>
-    <line>boyish days and in <delSpan rend="strikethrough" spanTo="#c56-0013.05"></delSpan>the end
+    <line>boyish days and in <delSpan rend="strikethrough" spanTo="#c56-0013.05"/>the end
       deci</line>
-    <line>ded my destiny<anchor xml:id="c56-0013.05"></anchor>. I mentioned before</line>
+    <line>ded my destiny<anchor xml:id="c56-0013.05"/>. I mentioned before</line>
     <line>my taste for old books of chemist</line>
     <line>ry and natural magic and I remem</line>
     <line>ber very well that I learned latin</line>
@@ -723,8 +723,8 @@
     <line>given in Geneva and athough</line>
     <line>I did not understand them the</line>
     <line>experiments never failed to</line>
-    <line>attract my attention.<anchor xml:id="c56-0013.01"></anchor><del next="#c56-0013.06" rend="strikethrough">I reme<mod><add place="sublinear"><metamark function="insert">^</metamark></add><add hand="#pbs" place="superlinear">m</add></mod>ber</del></line>
-    <line><del rend="strikethrough" xml:id="c56-0013.06">also</del><milestone unit="tei:p"></milestone><metamark function="paragraph"> [</metamark><mod>
+    <line>attract my attention.<anchor xml:id="c56-0013.01"/><del next="#c56-0013.06" rend="strikethrough">I reme<mod><add place="sublinear"><metamark function="insert">^</metamark></add><add hand="#pbs" place="superlinear">m</add></mod>ber</del></line>
+    <line><del rend="strikethrough" xml:id="c56-0013.06">also</del><milestone unit="tei:p"/><metamark function="paragraph"> [</metamark><mod>
         <del rend="overwritten">w</del>
         <add place="intralinear">W</add>
       </mod>hen I was about <mod>
@@ -742,32 +742,32 @@
     <line><del rend="strikethrough"><add>record </add></del></line></zone>
 </surface>
       <?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5364" lry="7104" partOf="#ox-frankenstein_volume_i" ulx="0" uly="0" mith:folio="5v" mith:shelfmark="MS. Abinger c. 56" xml:base="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0014.xml" xml:id="ox-ms_abinger_c56-0014">
-    <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c56/ms_abinger_c56-0014.jp2"></graphic>
+    <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c56/ms_abinger_c56-0014.jp2"/>
     <zone rend="bordered" type="pagination"><line>44</line></zone>
     <zone type="main">
-        <line>it advanced from behind Jura <delSpan rend="strikethrough" spanTo="#c56-0014.01"></delSpan>and</line>
-        <line>the<anchor xml:id="c56-0014.01"></anchor> and the thunder <delSpan rend="strikethrough" spanTo="#c56-0014.02"></delSpan>was heard at</line>
-        <line>once from<anchor xml:id="c56-0014.02"></anchor>
+        <line>it advanced from behind Jura <delSpan rend="strikethrough" spanTo="#c56-0014.01"/>and</line>
+        <line>the<anchor xml:id="c56-0014.01"/> and the thunder <delSpan rend="strikethrough" spanTo="#c56-0014.02"/>was heard at</line>
+        <line>once from<anchor xml:id="c56-0014.02"/>
             <del rend="strikethrough">the <unclear>d</unclear></del>
-            <delSpan spanTo="#c56-0014.03"></delSpan><del rend="strikethrough">several quarte</del><del rend="unmarked">rs</del></line>
-        <line>of the heavens and<anchor xml:id="c56-0014.03"></anchor> burst <add place="superlinear">at
+            <delSpan spanTo="#c56-0014.03"/><del rend="strikethrough">several quarte</del><del rend="unmarked">rs</del></line>
+        <line>of the heavens and<anchor xml:id="c56-0014.03"/> burst <add place="superlinear">at
                 once</add> with <del rend="strikethrough">and</del></line>
         <line>frightful loudness.<mod>
             <add place="sublinear"><metamark function="insert">^</metamark></add>
                 <add place="superlinear">from various quarters of the heavens</add>
-            </mod> I <delSpan rend="strikethrough" spanTo="#c56-0014.04"></delSpan>witnessed th<mod>
+            </mod> I <delSpan rend="strikethrough" spanTo="#c56-0014.04"/>witnessed th<mod>
                 <del rend="overwritten">is</del>
                 <add place="intralinear">e</add>
             </mod></line>
-        <line>elemental<anchor xml:id="c56-0014.04"></anchor>
+        <line>elemental<anchor xml:id="c56-0014.04"/>
             <del rend="strikethrough">storm with pleasure</del></line>
         <line>and remain<add place="intralinear">ed</add> while <mod>
                 <del rend="strikethrough">it</del>
                 <add hand="#pbs" place="superlinear">the storm</add>
-            </mod> lasted <mod spanTo="#c56-0014.05"></mod><del next="#c56-0014.06" rend="strikethrough">at</del><add place="superlinear">watching its</add><anchor xml:id="c56-0014.07"></anchor></line>
+            </mod> lasted <mod spanTo="#c56-0014.05"/><del next="#c56-0014.06" rend="strikethrough">at</del><add place="superlinear">watching its</add><anchor xml:id="c56-0014.07"/></line>
         <line><del rend="strikethrough" xml:id="c56-0014.06">the door</del>
-            <del rend="strikethrough">watchin</del><del rend="unmarked">g</del><anchor xml:id="c56-0014.05"></anchor>. <mod spanTo="#c56-0014.09"></mod><del next="#c56-0014.10" rend="strikethrough">When it was most</del><add hand="#pbs" next="#c56-0014.15" place="superlinear">As I stood at the door</add></line>
-        <line><del rend="strikethrough" xml:id="c56-0014.10">violent</del>,<add hand="#pbs" place="superlinear" xml:id="c56-0014.15">on a sudden</add><anchor xml:id="c56-0014.09"></anchor> I
+            <del rend="strikethrough">watchin</del><del rend="unmarked">g</del><anchor xml:id="c56-0014.05"/>. <mod spanTo="#c56-0014.09"/><del next="#c56-0014.10" rend="strikethrough">When it was most</del><add hand="#pbs" next="#c56-0014.15" place="superlinear">As I stood at the door</add></line>
+        <line><del rend="strikethrough" xml:id="c56-0014.10">violent</del>,<add hand="#pbs" place="superlinear" xml:id="c56-0014.15">on a sudden</add><anchor xml:id="c56-0014.09"/> I
             beheld <mod>
                 <del rend="strikethrough">the</del>
                 <add place="sublinear"><metamark function="insert">^</metamark></add>
@@ -801,7 +801,7 @@
         <line><del rend="strikethrough">C</del> I never saw any thing so utterly</line>
         <line>destroyed. The catastrophe of the</line>
         <line>tree excited my extreme astonish</line>
-        <line>ment <delSpan rend="vertical_line" spanTo="#c56-0014.11"></delSpan><del next="#c56-0014.12" rend="strikethrough">and</del><mod>
+        <line>ment <delSpan rend="vertical_line" spanTo="#c56-0014.11"/><del next="#c56-0014.12" rend="strikethrough">and</del><mod>
                 <del next="#c56-0014.13" rend="strikethrough" xml:id="c56-0014.12">caused</del>
                 <add place="sublinear"><metamark function="insert">^</metamark></add>
                 <add place="superlinear">induced</add>
@@ -817,23 +817,23 @@
         <line><del rend="strikethrough">clamatio</del> planation of th<mod>
                 <del rend="overwritten">e</del>
                 <add place="intralinear">i</add>
-            </mod>se sort of<anchor xml:id="c56-0014.11"></anchor></line>
+            </mod>se sort of<anchor xml:id="c56-0014.11"/></line>
     </zone>
 
     <zone corresp="#c56-0014.07" type="left_margin">
-        <addSpan spanTo="#c56-0014.08"></addSpan>
+        <addSpan spanTo="#c56-0014.08"/>
         <line> its progress</line>
         <line>with curiosity</line>
         <line> &amp; delight</line>
-        <anchor xml:id="c56-0014.08"></anchor>
+        <anchor xml:id="c56-0014.08"/>
     </zone>
 </surface>
       <?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5364" lry="7104" partOf="#ox-frankenstein_volume_i" ulx="0" uly="0" mith:folio="6r" mith:shelfmark="MS. Abinger c. 56" xml:base="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0015.xml" xml:id="ox-ms_abinger_c56-0015">
-  <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c56/ms_abinger_c56-0015.jp2"></graphic>
+  <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c56/ms_abinger_c56-0015.jp2"/>
   <zone rend="bordered" type="pagination"><line>45</line></zone>
   <zone type="library"><line>6</line></zone>
   <zone type="main">
-    <delSpan rend="vertical_line" spanTo="#c56-0015.01"></delSpan>
+    <delSpan rend="vertical_line" spanTo="#c56-0015.01"/>
     <line>phænonema. On Elizabeth and</line>
     <line>Clerval it produced a <del rend="strikethrough">di</del> very different</line>
     <line>effect. They admired the beauty</line>
@@ -841,21 +841,21 @@
     <line>analyze its causes. Henry said that</line>
     <line>the Fairies and giants were at</line>
     <line>war and Elizabeth attempted</line>
-    <line>a picture of it.</line><anchor xml:id="c56-0015.01"></anchor>
-    <milestone unit="tei:p"></milestone>
-    <delSpan rend="vertical_line" spanTo="#c56-0015.02"></delSpan>
+    <line>a picture of it.</line><anchor xml:id="c56-0015.01"/>
+    <milestone unit="tei:p"/>
+    <delSpan rend="vertical_line" spanTo="#c56-0015.02"/>
     <line rend="indent1">As I grew older my attempts</line>
     <line>in science were of a higher nature.</line>
     <line>I <del rend="strikethrough">endeavou</del> produced little earthquakes</line>
     <line>and tried every kind of combination</line>
     <line>of gasses <del rend="strikethrough">to</del> and elements to ascertain</line>
-    <line>the results.</line><anchor xml:id="c56-0015.02"></anchor>
-    <milestone unit="tei:p"></milestone>
-    <line rend="indent1"><delSpan rend="strikethrough" spanTo="#c56-0015.03"></delSpan>As I
+    <line>the results.</line><anchor xml:id="c56-0015.02"/>
+    <milestone unit="tei:p"/>
+    <line rend="indent1"><delSpan rend="strikethrough" spanTo="#c56-0015.03"/>As I
       before mentioned my brothers</line>
     <line>were much younger than myself.</line>
-    <line>Ernest the second of our family was five</line><anchor xml:id="c56-0015.03"></anchor>
-    <milestone unit="tei:p"></milestone>
+    <line>Ernest the second of our family was five</line><anchor xml:id="c56-0015.03"/>
+    <milestone unit="tei:p"/>
     <line rend="indent1">Another task <mod>
         <del rend="strikethrough">soon</del>
         <add place="sublinear"><metamark function="insert">^</metamark></add>
@@ -883,7 +883,7 @@
   </zone>
 </surface>
       <?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5088" lry="7082" partOf="#ox-frankenstein_volume_i" ulx="0" uly="0" mith:folio="3r" mith:shelfmark="MS. Abinger c. 56" xml:base="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0009.xml" xml:id="ox-ms_abinger_c56-0009">
-  <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c56/ms_abinger_c56-0009.jp2"></graphic>
+  <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c56/ms_abinger_c56-0009.jp2"/>
   <zone type="library"><line>3</line></zone>
   <zone type="main">
     <line><mod>
@@ -908,8 +908,8 @@
         <del rend="overwritten">.</del>
         <add hand="#pbs" place="intralinear">,</add>
       </mod>
-      <unclear extent="1" unit="chars"></unclear> in my mind–</line>
-    <milestone unit="tei:p"></milestone>
+      <unclear extent="1" unit="chars"/> in my mind–</line>
+    <milestone unit="tei:p"/>
     <line rend="indent3"><mod>
         <del rend="strikethrough">An</del>
         <del rend="unmarked">d</del>
@@ -920,7 +920,7 @@
     <line><mod>
         <del rend="strikethrough">what</del>
         <add place="sublinear"><metamark function="insert">^</metamark></add>
-        <add hand="#pbs" place="superlinear">the nature <space extent="3" unit="chars"></space> &amp; the
+        <add hand="#pbs" place="superlinear">the nature <space extent="3" unit="chars"/> &amp; the
           origin of</add>
       </mod> thunder and lightening. <del rend="strikethrough">was.</del> He</line>
     <line>replied, electricity; describing at the same</line>
@@ -935,7 +935,7 @@
         <add hand="#pbs" place="superlinear">which</add>
       </mod> drew down</line>
     <line>that fluid from the clouds.</line>
-    <milestone unit="tei:p"></milestone>
+    <milestone unit="tei:p"/>
     <line rend="indent2">This last <del rend="strikethrough">blow</del>
       <del rend="strikethrough">st</del> stroke compleated</line>
     <line>the overthrow of Cornelius Agrippa, Albertus</line>
@@ -948,31 +948,31 @@
         <add hand="#pbs" place="superlinear">disinclination</add>
       </mod> was influenced by the following</line>
     <line>circumstance.</line>
-    <milestone unit="tei:p"></milestone>
+    <milestone unit="tei:p"/>
     <line rend="indent2">My father expressed a wish that I</line>
     <line>should attend a course of lectures upon</line>
     <line>natural philosophy, to which I <mod>
         <add place="sublinear"><metamark function="insert">^</metamark></add>
         <add hand="#pbs" place="superlinear">cheerfully</add>
-      </mod>consented <delSpan rend="strikethrough" spanTo="#c56-0009.02"></delSpan>and</line>
-    <line><delSpan rend="vertical_line" spanTo="#c56-0009.01"></delSpan>one evening<anchor xml:id="c56-0009.02"></anchor> that I spent in town at the</line>
-    <line>house of Clerval's father I <delSpan rend="strikethrough" spanTo="#c56-0009.03"></delSpan>heard
+      </mod>consented <delSpan rend="strikethrough" spanTo="#c56-0009.02"/>and</line>
+    <line><delSpan rend="vertical_line" spanTo="#c56-0009.01"/>one evening<anchor xml:id="c56-0009.02"/> that I spent in town at the</line>
+    <line>house of Clerval's father I <delSpan rend="strikethrough" spanTo="#c56-0009.03"/>heard
       that</line>
-    <line>M<hi rend="sup">r</hi> — was lef at<anchor xml:id="c56-0009.03"></anchor> met M. <del rend="strikethrough">O P</del> a proficient</line>
+    <line>M<hi rend="sup">r</hi> — was lef at<anchor xml:id="c56-0009.03"/> met M. <del rend="strikethrough">O P</del> a proficient</line>
     <line>in Chemistry who left the company at</line>
     <line>an early hour to <del rend="strikethrough">h</del> give his lecture upon</line>
     <line>tha<mod>
         <del rend="overwritten">n</del>
         <add place="intralinear">t</add>
-      </mod> science enquiring as he went out<anchor xml:id="c56-0009.01"></anchor></line>
+      </mod> science enquiring as he went out<anchor xml:id="c56-0009.01"/></line>
   </zone>
 </surface>
       <?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5088" lry="7082" partOf="#ox-frankenstein_volume_i" ulx="0" uly="0" mith:folio="3v" mith:shelfmark="MS. Abinger c. 56" xml:base="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0010.xml" xml:id="ox-ms_abinger_c56-0010">
-  <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c56/ms_abinger_c56-0010.jp2"></graphic>
+  <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c56/ms_abinger_c56-0010.jp2"/>
   <zone type="library"><line>3<hi rend="sup">v</hi></line></zone>
 
   <zone type="main">
-    <line><mod spanTo="#c56-0010.04"></mod><del rend="strikethrough">if any one would <unclear extent="5" unit="chars"></unclear>
+    <line><mod spanTo="#c56-0010.04"/><del rend="strikethrough">if any one would <unclear extent="5" unit="chars"/>
         <unclear>him</unclear> I went</del>
       <del rend="unmarked">but</del><add hand="#pbs" next="#c56-0010.01" place="superlinear">Some
         accident prevented my attending the <del rend="strikethrough">series of</del> these
@@ -982,7 +982,7 @@
       <add hand="#pbs" next="#c56-0010.02" place="superlinear" xml:id="c56-0010.01">until <del rend="strikethrough">they were nearly over </del>
         <del rend="strikethrough">they</del> it was nearly finihsed. The</add></line>
     <line><del rend="strikethrough" xml:id="c56-0010.03">last</del><add hand="#pbs" place="superlinear" xml:id="c56-0010.02">lecture which I attended being thus <del rend="strikethrough">the</del> almost the last <del rend="strikethrough">in his
-        </del></add><anchor xml:id="c56-0010.04"></anchor> in his course <mod>
+        </del></add><anchor xml:id="c56-0010.04"/> in his course <mod>
         <add><metamark function="insert">^</metamark></add>
         <add hand="#pbs" place="sublinear">was entirely incomprehensible to me.</add>
       </mod> – the professor talked</line>
@@ -1000,7 +1000,7 @@
     <line>disgusted with <del rend="strikethrough">the appearance</del>
       <del rend="strikethrough">of</del> a science</line>
     <line>that appeared to me to contain only words.</line>
-    <milestone unit="tei:p"></milestone>
+    <milestone unit="tei:p"/>
     <line rend="indent1">From this time untill I went to</line>
     <line>Colledge I entirely neglected my formerly</line>
     <line>adored study of <mod>
@@ -1016,7 +1016,7 @@
       </mod></line>
     <line>in my estimation <add hand="#pbs" place="intralinear">of nearly equal interest &amp;
         utility.</add></line>
-    <milestone unit="tei:p"></milestone>
+    <milestone unit="tei:p"/>
     <line rend="indent2">My <mod>
         <del rend="strikethrough">studies</del>
         <add hand="#pbs" place="superlinear">occupations</add>
@@ -1049,11 +1049,11 @@
   </zone>
 </surface>
       <?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5364" lry="7104" partOf="#ox-frankenstein_volume_i" ulx="0" uly="0" mith:folio="6r" mith:shelfmark="MS. Abinger c. 56" xml:base="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0015.xml" xml:id="ox-ms_abinger_c56-0015">
-  <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c56/ms_abinger_c56-0015.jp2"></graphic>
+  <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c56/ms_abinger_c56-0015.jp2"/>
   <zone rend="bordered" type="pagination"><line>45</line></zone>
   <zone type="library"><line>6</line></zone>
   <zone type="main">
-    <delSpan rend="vertical_line" spanTo="#c56-0015.01"></delSpan>
+    <delSpan rend="vertical_line" spanTo="#c56-0015.01"/>
     <line>phænonema. On Elizabeth and</line>
     <line>Clerval it produced a <del rend="strikethrough">di</del> very different</line>
     <line>effect. They admired the beauty</line>
@@ -1061,21 +1061,21 @@
     <line>analyze its causes. Henry said that</line>
     <line>the Fairies and giants were at</line>
     <line>war and Elizabeth attempted</line>
-    <line>a picture of it.</line><anchor xml:id="c56-0015.01"></anchor>
-    <milestone unit="tei:p"></milestone>
-    <delSpan rend="vertical_line" spanTo="#c56-0015.02"></delSpan>
+    <line>a picture of it.</line><anchor xml:id="c56-0015.01"/>
+    <milestone unit="tei:p"/>
+    <delSpan rend="vertical_line" spanTo="#c56-0015.02"/>
     <line rend="indent1">As I grew older my attempts</line>
     <line>in science were of a higher nature.</line>
     <line>I <del rend="strikethrough">endeavou</del> produced little earthquakes</line>
     <line>and tried every kind of combination</line>
     <line>of gasses <del rend="strikethrough">to</del> and elements to ascertain</line>
-    <line>the results.</line><anchor xml:id="c56-0015.02"></anchor>
-    <milestone unit="tei:p"></milestone>
-    <line rend="indent1"><delSpan rend="strikethrough" spanTo="#c56-0015.03"></delSpan>As I
+    <line>the results.</line><anchor xml:id="c56-0015.02"/>
+    <milestone unit="tei:p"/>
+    <line rend="indent1"><delSpan rend="strikethrough" spanTo="#c56-0015.03"/>As I
       before mentioned my brothers</line>
     <line>were much younger than myself.</line>
-    <line>Ernest the second of our family was five</line><anchor xml:id="c56-0015.03"></anchor>
-    <milestone unit="tei:p"></milestone>
+    <line>Ernest the second of our family was five</line><anchor xml:id="c56-0015.03"/>
+    <milestone unit="tei:p"/>
     <line rend="indent1">Another task <mod>
         <del rend="strikethrough">soon</del>
         <add place="sublinear"><metamark function="insert">^</metamark></add>
@@ -1103,7 +1103,7 @@
   </zone>
 </surface>
       <?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5364" lry="7104" partOf="#ox-frankenstein_volume_i" ulx="0" uly="0" mith:folio="6v" mith:shelfmark="MS. Abinger c. 56" xml:base="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0016.xml" xml:id="ox-ms_abinger_c56-0016">
-  <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c56/ms_abinger_c56-0016.jp2"></graphic>
+  <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c56/ms_abinger_c56-0016.jp2"/>
   <zone rend="bordered" type="pagination"><line>46</line></zone>
   <zone type="main">
     <line>and <del rend="strikethrough">affectionate</del> endearing manners</line>
@@ -1114,7 +1114,7 @@
     <line>and my mother partook of our</line>
     <line>enjoyments. <mod>
         <del rend="strikethrough">we were all equal</del>
-        <anchor xml:id="c56-0016.01"></anchor>
+        <anchor xml:id="c56-0016.01"/>
       </mod> the</line>
     <line>voice of command was never heard</line>
     <line>among us but mutual affection</line>
@@ -1123,7 +1123,7 @@
     <line>other.</line>
   </zone>
   <zone corresp="#c56-0016.01" type="left_margin">
-    <addSpan spanTo="#c56-0016.02"></addSpan>
+    <addSpan spanTo="#c56-0016.02"/>
     <line><mod>
         <del rend="strikethrough">we none</del>
         <add place="superlinear">neither</add>
@@ -1132,7 +1132,7 @@
     <line>an envied</line>
     <line>preheminence</line>
     <line>over the other</line>
-    <anchor xml:id="c56-0016.02"></anchor></zone>
+    <anchor xml:id="c56-0016.02"/></zone>
 </surface>
    </sourceDoc>
 </TEI>
