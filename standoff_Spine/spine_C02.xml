@@ -26,8 +26,10 @@
       <body>
          <ab type="alignmentChunk">
             <app xml:id="C02a_app1" n="28">
-               <rdgGrp n="['0']">
-                  <rdg xmlns:cx="http://interedition.eu/collatex/ns/1.0" wit="#fMS"/>
+               <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
+                       xml:id="C02a_app1_rg1"
+                       n="['']">
+                  <rdg wit="#fMS"/>
                </rdgGrp>
                <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
                        xml:id="C02a_app1_rg2"
@@ -77,8 +79,10 @@
                </rdgGrp>
             </app>
             <app xml:id="C02b_app1" n="28">
-               <rdgGrp n="['0']">
-                  <rdg xmlns:cx="http://interedition.eu/collatex/ns/1.0" wit="#fMS"/>
+               <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
+                       xml:id="C02b_app1_rg1"
+                       n="['']">
+                  <rdg wit="#fMS"/>
                </rdgGrp>
                <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
                        xml:id="C02b_app1_rg2"
@@ -102,8 +106,10 @@
                </rdgGrp>
             </app>
             <app xml:id="C02c_app1" n="36">
-               <rdgGrp n="['0']">
-                  <rdg xmlns:cx="http://interedition.eu/collatex/ns/1.0" wit="#fMS"/>
+               <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
+                       xml:id="C02c_app1_rg1"
+                       n="['']">
+                  <rdg wit="#fMS"/>
                </rdgGrp>
                <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
                        xml:id="C02c_app1_rg2"
@@ -171,7 +177,7 @@
                </rdgGrp>
             </app>
             <app xml:id="C02d_app1" n="1230">
-               <rdgGrp n="['0']">
+               <rdgGrp xml:id="C02d_app1_rg1" n="['']">
                   <rdg wit="#fMS"/>
                </rdgGrp>
                <rdgGrp xml:id="C02d_app1_rg2"
