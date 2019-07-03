@@ -21,7 +21,7 @@
    </xsl:for-each>  
  </xsl:template> 
     <xsl:template match="rdg[@wit='#fMS']">
-      <rdg wit="{@wit}">  <xsl:value-of select="parent::rdgGrp/@n ! translate(., '[]', '') ! tokenize(., ', ') => string-join(' ')"/>
+      <rdg wit="{@wit}">  <xsl:value-of select="parent::rdgGrp/@n ! translate(., ''&apos;', '') ! translate(., '[]', '') ! tokenize(., ', ') => string-join(' ')"/>
         <xsl:apply-templates/></rdg>
     </xsl:template>
    <xsl:template match="rdg[@wit='#fMS']/ptr">
