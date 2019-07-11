@@ -35,7 +35,7 @@ The variable below reads a document storing string-length measurements for each 
     <xsl:variable name="colorArray" as="xs:string+" select="concat($color_MS, ', ', $color_1818, ', ', $color_Thom, ', ', $color_1823, ', ', $color_1831)"/>
     
     <xsl:template match="/">
-        <svg width="1500" height="1300" viewBox="0 0 2200 2550">
+        <svg width="1500" height="1300" viewBox="0 0 3300 2600">
             <!-- 2019-07-11 original viewbox values: 0 0 2200 2550; transform/translate was -100, 50. updated above for slide presentation -->
             <g id="wrapper" transform="translate(-200, 50)">
         
