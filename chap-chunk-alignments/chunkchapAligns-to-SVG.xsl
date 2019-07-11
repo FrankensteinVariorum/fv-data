@@ -17,24 +17,27 @@ The variable below reads a document storing string-length measurements for each 
         This makes 4 columns @200 = 800 wide -->
    
    <!--COLORS -->
-    <xsl:variable name="color_MS" as="xs:string" select="concat('#', '8380E2')"/>
-    <xsl:variable name="color_1818" as="xs:string" select="concat('#', 'FDB27B')"/>
-    <xsl:variable name="color_Thom" as="xs:string" select="concat('#', 'c96464')"/>
-    <!-- ebb: This is meant to be tomato red. 
+    <xsl:variable name="color_MS" as="xs:string" select="concat('#', '8383DB')"/>
+    <!-- ebb: my color: 8383E2  -->
+    <xsl:variable name="color_1818" as="xs:string" select="concat('#', 'FDB27A')"/>
+    <!-- ebb: my color: FDB27B -->
+    <xsl:variable name="color_Thom" as="xs:string" select="concat('#', 'E377BF')"/>
+    <!-- ebb: my color: c96464 This is meant to be tomato red. 
         Agile design flat for Thomas was originally soft green: #98C99F. 
         I'm moving this to green to replace their 1823.
       -->
-    <xsl:variable name="color_1823" as="xs:string" select="concat('#', '98C99F')"/>
-    <!-- ebb: Agile's original color for this was aqua. I'm replacing it with their green that
+    <xsl:variable name="color_1823" as="xs:string" select="concat('#', '6FBCC0')"/>
+    <!-- ebb: my color: 98C99F Agile's original color for this was aqua. I'm replacing it with their green that
         they originally used in Thomas. -->
-    <xsl:variable name="color_1831" as="xs:string" select="concat('#', '4650bf')"/>
-    <!-- ebb: Agile's original carnivalesque pink (#E378BF) looks weird with the red I selected for Thomas, so I'm trying navy blue ('#1825ba') and a soft dark blue-grey (#024e82) and a purplish blue.
+    <xsl:variable name="color_1831" as="xs:string" select="concat('#', 'D95369')"/>
+    <!-- ebb: my color: 4650bf Agile's original carnivalesque pink (#E378BF) looks weird with the red I selected for Thomas, so I'm trying navy blue ('#1825ba') and a soft dark blue-grey (#024e82) and a purplish blue.
     -->
     <xsl:variable name="colorArray" as="xs:string+" select="concat($color_MS, ', ', $color_1818, ', ', $color_Thom, ', ', $color_1823, ', ', $color_1831)"/>
     
     <xsl:template match="/">
         <svg width="1500" height="1300" viewBox="0 0 2200 2550">
-            <g id="wrapper" transform="translate(-100, 50)">
+            <!-- 2019-07-11 original viewbox values: 0 0 2200 2550; transform/translate was -100, 50. updated above for slide presentation -->
+            <g id="wrapper" transform="translate(-200, 50)">
         
           <xsl:for-each select="$collChunkUnits">
               <xsl:sort select="@xml:id"/>
