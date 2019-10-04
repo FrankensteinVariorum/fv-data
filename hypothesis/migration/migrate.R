@@ -15,10 +15,16 @@ h_api <- "https://api.hypothes.is/api/annotations"
 all_his <- stream_in(file("hypothesis/data/hypothesis.json"), simplifyVector = FALSE) %>% 
   keep(~is.null(.x$references))
 
+
 h_token = paste("Bearer", Sys.getenv("FV_HIS_TOKEN"))
 
 fv_ii_group <- "7AdKKgAm"
 fv_acct <- "acct:frankensteinvariorum@hypothes.is"
+
+# map(all_his, function(h) {
+#   DELETE(str_glue("https://hypothes.is/api/annotations/{h$id}"), add_headers(Authorization = h_token))
+#   Sys.sleep(0.5)
+# })
 
 # Set permissions so that the new annotation belongs to the FV II group
 h_permissions <- list(
@@ -34,7 +40,8 @@ repost <- function(h, api_url, key) {
     text = h$text,
     target = h$target,
     group = fv_ii_group,
-    permissions = h_permissions
+    permissions = h_permissions,
+    tags = h$tags
   ) %>% 
     toJSON(auto_unbox = TRUE) %>% 
     POST(api_url, add_headers(Authorization = key), body = ., encode = "json")
