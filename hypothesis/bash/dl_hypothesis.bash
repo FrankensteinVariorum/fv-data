@@ -11,7 +11,7 @@ FRANKEN_GROUP="7AdKKgAm"
 
 # Build a base query that only looks within the Frankenstein Group, and then
 # only within ebeshero's site
-HYPOTHESIS_BASE="https://hypothes.is/api/search?sort=id&group=$FRANKEN_GROUP&uri.parts=ebeshero"
+HYPOTHESIS_BASE="https://hypothes.is/api/search?sort=id&group=$FRANKEN_GROUP&uri.parts=frankensteinvariorum"
 
 # Remove download file if it already exists
 rm -f $DL_FILE
