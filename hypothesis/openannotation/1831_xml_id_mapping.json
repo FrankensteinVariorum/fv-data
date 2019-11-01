@@ -1,0 +1,2334 @@
+[
+ {
+  "@context": "http://www.w3.org/ns/anno.jsonld",
+  "id": "https://frankensteinvariorum.org/YBpDtObKEemMeQdAFxyd1w",
+  "type": "Annotation",
+  "generator": {
+   "id": "https://frankensteinvariorum.org/",
+   "type": "Software",
+   "name": "Frankenstein Variorum",
+   "homepage": "https://recogito.pelagios.org/"
+  },
+  "generated": "2019-10-04T17:14:08.105469+00:00",
+  "body": [
+   {
+    "type": "TextualBody",
+    "value": "Shelley added this clarifying passage to the 1831 edition. By rephrasing \u201cglory\u201d as \u201cadvancement in his profession,\u201d Shelley adopts a new expression, not usually found before 1810, indicating a more precise path to famed achievement. It was often used to mean advancement in Her Majesty\u2019s Navy, thus it is especially apt for the lieutenant of Walton\u2019s ship.",
+    "creator": "https://hypothes.is/users/frankensteinvariorum",
+    "modified": "2019-10-04T17:14:08.105469+00:00",
+    "purpose": "commenting"
+   }
+  ],
+  "target": {
+   "source": "https://frankensteinvariorum.github.io/fv-collation/Frankenstein_1831.html",
+   "type": "Text",
+   "selector": [
+    {
+     "type": "TextQuoteSelector",
+     "prefix": " he is madly desirous of glory: ",
+     "exact": "or rather,\n         to word\n         my phrase more characteristically, of advancement in his profession",
+     "suffix": ". He is an Englishman,\n         "
+    },
+    {
+     "type": "RangeSelector",
+     "startSelector": {
+      "type": "XPathSelector",
+      "value": "//[@xml:id='novel1_letter2_div2_p4']"
+     },
+     "endSelector": {
+      "type": "XPathSelector",
+      "value": "//[@xml:id='novel1_letter2_div2_p4']"
+     }
+    }
+   ]
+  },
+  "diagnostic": {
+   "note": "not for open annotation consumption",
+   "html_p_index": [
+    40,
+    40
+   ],
+   "p_offset": -19,
+   "xml_text_content": "<ns2:p xmlns:ns2=\"http://www.tei-c.org/ns/1.0\" xml:id=\"novel1_letter2_div2_p4\">\n               <ns2:seg part=\"F\" xml:id=\"C03a_app9-f1831__F\">Well, these are useless complaints; I shall certainly find no friend on the wide ocean, nor even here in Archangel, among merchants and seamen. Yet some feelings, unallied to the dross of human nature, beat even in these rugged bosoms. My lieutenant, for instance, is a man of wonderful courage and enterprise; he is madly desirous </ns2:seg>\n               <ns2:seg xml:id=\"C03a_app10-f1831\">of glory: or rather, to word my phrase more characteristically, of advancement in his profession. </ns2:seg>\n               <ns2:seg part=\"I\" xml:id=\"C03a_app11-f1831__I\">He is an Englishman, and in the midst of national and professional prejudices, unsoftened by cultivation, retains some of the noblest endowments of humanity. I first became acquainted with him on board a whale vessel: finding that he was unemployed in this city, I easily engaged him to assist in my enterprise.</ns2:seg>\n            </ns2:p>\n            "
+  }
+ },
+ {
+  "@context": "http://www.w3.org/ns/anno.jsonld",
+  "id": "https://frankensteinvariorum.org/EcO3LObKEemGdfsrnbQC0g",
+  "type": "Annotation",
+  "generator": {
+   "id": "https://frankensteinvariorum.org/",
+   "type": "Software",
+   "name": "Frankenstein Variorum",
+   "homepage": "https://recogito.pelagios.org/"
+  },
+  "generated": "2019-10-04T17:11:56.648071+00:00",
+  "body": [
+   {
+    "type": "TextualBody",
+    "value": "In this addition to the 1831 edition, Walton\u2019s earlier largely admiring portrait of the shipmaster was qualified by remembering that he did not have a wide moral frame of reference, having lived his life only on a ship, so his qualities fell somewhat short of being \u201cnoble.\u201d But 1831 darkens the portrait by making him ignorant and careless while orientalizing him (\u201csilent as a Turk\u201d). This is one of many passages in 1831 that replace a liberal generosity toward her several of her characters with a more harshly conservative, intolerant stance. ",
+    "creator": "https://hypothes.is/users/frankensteinvariorum",
+    "modified": "2019-10-04T17:11:56.648071+00:00",
+    "purpose": "commenting"
+   }
+  ],
+  "target": {
+   "source": "https://frankensteinvariorum.github.io/fv-collation/Frankenstein_1831.html",
+   "type": "Text",
+   "selector": [
+    {
+     "type": "TextQuoteSelector",
+     "prefix": " exclaim. He is so; but then he ",
+     "exact": "is wholly uneducated: he is as silent as a Turk,\n         and a\n         kind of ignorant carelessness attends him, which, while it renders his conduct the\n         more\n         astonishing, detracts from the interest and sympathy which otherwise he would command.",
+     "suffix": "\n      \n      \n      Yet do not "
+    },
+    {
+     "type": "RangeSelector",
+     "startSelector": {
+      "type": "XPathSelector",
+      "value": "//[@xml:id='novel1_letter2_div2_p5']"
+     },
+     "endSelector": {
+      "type": "XPathSelector",
+      "value": "//[@xml:id='novel1_letter2_div2_p5']"
+     }
+    }
+   ]
+  },
+  "diagnostic": {
+   "note": "not for open annotation consumption",
+   "html_p_index": [
+    41,
+    41
+   ],
+   "p_offset": -19,
+   "xml_text_content": "<ns2:p xmlns:ns2=\"http://www.tei-c.org/ns/1.0\" xml:id=\"novel1_letter2_div2_p5\">\n               <ns2:seg part=\"F\" xml:id=\"C03a_app11-f1831__F\">The master is a person of an excellent disposition, and is remarkable in the ship for his </ns2:seg>\n               <ns2:seg xml:id=\"C03a_app12-f1831\">gentleness </ns2:seg>\n               <ns2:seg xml:id=\"C03a_app13-f1831\">and the mild<ns2:pb n=\"8\" xml:id=\"F1831_v_024\"/>ness of his discipline. </ns2:seg>\n         \n               <ns2:seg xml:id=\"C03b_app1-f1831\">This circumstance, added to his well known integrity and dauntless courage, made me very desirous to engage him. A youth passed in solitude, my best years spent under your gentle and feminine fosterage, has so refined the groundwork of my character, that I cannot overcome an intense distaste to the usual brutality exercised on board ship: I have never believed it to be necessary; and when I heard of a mariner equally noted for his kindliness of heart, and the respect and obedience paid to him by his crew, I felt myself peculiarly fortunate in being able to secure his services. I heard of him first in rather a romantic manner, from a lady who owes to him the happiness of her life. This, briefly, is his story.</ns2:seg>\n         \n               <ns2:seg xml:id=\"C03c_app1-f1831\">Some years ago he loved a young Russian lady, of moderate fortune; and having amassed a considerable sum in prize-money, the father of the girl consented to the match. He saw his mistress once before the destined ceremony; but she was bathed in tears, and, throwing herself at his feet, entreated him to spare her, confessing at the same time that she loved another, but that he was poor, and that her father would never consent to the union. My generous friend reassured the suppliant, and on being informed of the name of her </ns2:seg>\n               <ns2:seg xml:id=\"C03c_app2-f1831\">lover, </ns2:seg>\n               <ns2:seg xml:id=\"C03c_app3-f1831\">instantly abandoned his pursuit. He had already bought a farm with his </ns2:seg>\n               <ns2:seg xml:id=\"C03c_app4-f1831\">money, on </ns2:seg>\n               <ns2:seg xml:id=\"C03c_app5-f1831\">which he had designed to pass the remainder of his life; but he bestowed the whole on his rival, together with the remains of his prize-money to purchase stock, and then himself solicited the young woman&#8217;s father to consent to her marriage with her lover. But the old man decidedly refused, thinking himself bound in honour to my friend; who, when he found the father inexorable, quitted his country, nor returned until he heard that his former mistress was married according to her inclinations. &#8220;What a noble fellow!&#8221; you will exclaim. He is so; but then he </ns2:seg>\n         \n               <ns2:seg part=\"I\" xml:id=\"C03d_app1-f1831__I\">is wholly uneducated: he is as silent as a Turk, and a kind of ignorant carelessness attends him, which, while it renders his conduct the more astonishing, detracts from the interest and sympathy which otherwise he would command.</ns2:seg>\n            </ns2:p>\n            "
+  }
+ },
+ {
+  "@context": "http://www.w3.org/ns/anno.jsonld",
+  "id": "https://frankensteinvariorum.org/zE6AfObKEemTNR8BDy8nkw",
+  "type": "Annotation",
+  "generator": {
+   "id": "https://frankensteinvariorum.org/",
+   "type": "Software",
+   "name": "Frankenstein Variorum",
+   "homepage": "https://recogito.pelagios.org/"
+  },
+  "generated": "2019-10-04T17:17:09.677431+00:00",
+  "body": [
+   {
+    "type": "TextualBody",
+    "value": "In this addition to the 1831 edition, Walton turns the focus of this passage about the ship\u2019s master onto himself and how his older sister fostered him somewhat like a mother and helped build his character. Where 1818 says little about Mrs. Saville\u2019s character, Walton now likens her to Elizabeth, who will also act as a mother figure to Victor Frankenstein after his own mother\u2019s death. The 1831 edition more strongly accentuates the domestic world throughout the new version. ",
+    "creator": "https://hypothes.is/users/frankensteinvariorum",
+    "modified": "2019-10-04T17:17:09.677431+00:00",
+    "purpose": "commenting"
+   }
+  ],
+  "target": {
+   "source": "https://frankensteinvariorum.github.io/fv-collation/Frankenstein_1831.html",
+   "type": "Text",
+   "selector": [
+    {
+     "type": "TextQuoteSelector",
+     "prefix": "he mild8ness of his discipline. ",
+     "exact": "This\n         circumstance, added to his well known integrity and dauntless courage, made me very\n         desirous to engage him. A youth passed in solitude, my best years spent under your\n         gentle\n         and feminine fosterage, has so refined the groundwork of my character, that I cannot\n         overcome an intense distaste to the usual brutality exercised on board ship: I have\n         never\n         believed it to be necessary; and when I heard of a mariner equally noted for his\n         kindliness of heart, and the respect and obedience paid to him by his crew, I felt\n         myself\n         peculiarly fortunate in being able to secure his services. I heard of him first in\n         rather\n         a romantic manner, from a lady who owes to him the happiness of her life. This, briefly,\n         is his story.",
+     "suffix": " Some years ago he loved a young"
+    },
+    {
+     "type": "RangeSelector",
+     "startSelector": {
+      "type": "XPathSelector",
+      "value": "//[@xml:id='novel1_letter2_div2_p5']"
+     },
+     "endSelector": {
+      "type": "XPathSelector",
+      "value": "//[@xml:id='novel1_letter2_div2_p5']"
+     }
+    }
+   ]
+  },
+  "diagnostic": {
+   "note": "not for open annotation consumption",
+   "html_p_index": [
+    41,
+    41
+   ],
+   "p_offset": -19,
+   "xml_text_content": "<ns2:p xmlns:ns2=\"http://www.tei-c.org/ns/1.0\" xml:id=\"novel1_letter2_div2_p5\">\n               <ns2:seg part=\"F\" xml:id=\"C03a_app11-f1831__F\">The master is a person of an excellent disposition, and is remarkable in the ship for his </ns2:seg>\n               <ns2:seg xml:id=\"C03a_app12-f1831\">gentleness </ns2:seg>\n               <ns2:seg xml:id=\"C03a_app13-f1831\">and the mild<ns2:pb n=\"8\" xml:id=\"F1831_v_024\"/>ness of his discipline. </ns2:seg>\n         \n               <ns2:seg xml:id=\"C03b_app1-f1831\">This circumstance, added to his well known integrity and dauntless courage, made me very desirous to engage him. A youth passed in solitude, my best years spent under your gentle and feminine fosterage, has so refined the groundwork of my character, that I cannot overcome an intense distaste to the usual brutality exercised on board ship: I have never believed it to be necessary; and when I heard of a mariner equally noted for his kindliness of heart, and the respect and obedience paid to him by his crew, I felt myself peculiarly fortunate in being able to secure his services. I heard of him first in rather a romantic manner, from a lady who owes to him the happiness of her life. This, briefly, is his story.</ns2:seg>\n         \n               <ns2:seg xml:id=\"C03c_app1-f1831\">Some years ago he loved a young Russian lady, of moderate fortune; and having amassed a considerable sum in prize-money, the father of the girl consented to the match. He saw his mistress once before the destined ceremony; but she was bathed in tears, and, throwing herself at his feet, entreated him to spare her, confessing at the same time that she loved another, but that he was poor, and that her father would never consent to the union. My generous friend reassured the suppliant, and on being informed of the name of her </ns2:seg>\n               <ns2:seg xml:id=\"C03c_app2-f1831\">lover, </ns2:seg>\n               <ns2:seg xml:id=\"C03c_app3-f1831\">instantly abandoned his pursuit. He had already bought a farm with his </ns2:seg>\n               <ns2:seg xml:id=\"C03c_app4-f1831\">money, on </ns2:seg>\n               <ns2:seg xml:id=\"C03c_app5-f1831\">which he had designed to pass the remainder of his life; but he bestowed the whole on his rival, together with the remains of his prize-money to purchase stock, and then himself solicited the young woman&#8217;s father to consent to her marriage with her lover. But the old man decidedly refused, thinking himself bound in honour to my friend; who, when he found the father inexorable, quitted his country, nor returned until he heard that his former mistress was married according to her inclinations. &#8220;What a noble fellow!&#8221; you will exclaim. He is so; but then he </ns2:seg>\n         \n               <ns2:seg part=\"I\" xml:id=\"C03d_app1-f1831__I\">is wholly uneducated: he is as silent as a Turk, and a kind of ignorant carelessness attends him, which, while it renders his conduct the more astonishing, detracts from the interest and sympathy which otherwise he would command.</ns2:seg>\n            </ns2:p>\n            "
+  }
+ },
+ {
+  "@context": "http://www.w3.org/ns/anno.jsonld",
+  "id": "https://frankensteinvariorum.org/5sORqubJEemUB2MLsZlyow",
+  "type": "Annotation",
+  "generator": {
+   "id": "https://frankensteinvariorum.org/",
+   "type": "Software",
+   "name": "Frankenstein Variorum",
+   "homepage": "https://recogito.pelagios.org/"
+  },
+  "generated": "2019-10-04T17:10:44.499820+00:00",
+  "body": [
+   {
+    "type": "TextualBody",
+    "value": "In this addition to the 1831 edition, Shelley explicitly refers to her poetic source, Samuel Taylor Coleridge's \"The Rime of the Ancient Mariner.\" Walton muses wistfully on the \"dangerous mysteries\" of the ocean, proposing their similarity to poetry like Coleridge's, and citing them as the root of his own profound yearnings for the dangerous and sublime discoveries of exploration.",
+    "creator": "https://hypothes.is/users/frankensteinvariorum",
+    "modified": "2019-10-04T17:10:44.499820+00:00",
+    "purpose": "commenting"
+   }
+  ],
+  "target": {
+   "source": "https://frankensteinvariorum.github.io/fv-collation/Frankenstein_1831.html",
+   "type": "Text",
+   "selector": [
+    {
+     "type": "TextQuoteSelector",
+     "prefix": "alarmed\n         for my safety, ",
+     "exact": "or if I should come back to you as worn and woful as the \u201cAncient Mariner?\u201d\n         You will smile at my allusion; but I will disclose a secret. I have often attributed\n         my\n         attachment to, my passionate enthusiasm for, the dangerous mysteries of the ocean,\n         to that\n         production of the most imaginative of modern poets. There is something at work in\n         my soul,\n         which I do not understand. I am practically industrious\u2014pains-taking;\u2014a workman to\n         execute with perseverance and labour:\u2014but besides this, there is a love for the\n         marvellous, a belief in the marvellous, intertwined in all my projects, which hurries\n         me\n         out of the common pathways of men, even to the wild sea and unvisited regions I am\n         about\n         to explore. \n      \n      \n      But to return to dearer considerations.",
+     "suffix": " Shall I meet you again, after h"
+    },
+    {
+     "type": "RangeSelector",
+     "startSelector": {
+      "type": "XPathSelector",
+      "value": "//[@xml:id='novel1_letter2_div2_p7']"
+     },
+     "endSelector": {
+      "type": "XPathSelector",
+      "value": "//[@xml:id='novel1_letter2_div2_p8']"
+     }
+    }
+   ]
+  },
+  "diagnostic": {
+   "note": "not for open annotation consumption",
+   "html_p_index": [
+    43,
+    44
+   ],
+   "p_offset": -19,
+   "xml_text_content": "<ns2:p xmlns:ns2=\"http://www.tei-c.org/ns/1.0\" xml:id=\"novel1_letter2_div2_p7\">\n               <ns2:seg part=\"F\" xml:id=\"C03e_app10-f1831__F\">I cannot describe to you my sensations on the near prospect of my undertaking. It is impossible to communicate to you a conception of the trembling sensation, half pleasurable and half fearful, with which I am preparing to depart. I am going to unexplored regions, to &#8220;the land of mist and </ns2:seg>\n               <ns2:seg xml:id=\"C03e_app11-f1831\">snow;&#8221; </ns2:seg>\n               <ns2:seg xml:id=\"C03e_app12-f1831\">but I shall kill no albatross, therefore do not be alarmed for my </ns2:seg>\n               <ns2:seg part=\"I\" xml:id=\"C03e_app13-f1831__I\">safety, or if I should come back to you as worn and woful as the &#8220;Ancient Mariner?&#8221; You will smile at my allusion; but I will disclose a secret. I have often attributed my attachment to, my passionate enthusiasm for, the dangerous mysteries of the ocean, to that production of the most imaginative of modern poets. There is something at work in my soul, which I do not understand. I am practically industrious&#8212;pains-taking;&#8212;a workman to execute with perseverance and labour:&#8212;but besides this, there is a love for the marvellous, a belief in the marvellous, intertwined in all my projects, which hurries me out of the common pathways of men, even to the wild sea and unvisited regions I am about to explore. </ns2:seg>\n            </ns2:p> \n            "
+  }
+ },
+ {
+  "@context": "http://www.w3.org/ns/anno.jsonld",
+  "id": "https://frankensteinvariorum.org/2otq9ubKEemcAA-rtFgfBA",
+  "type": "Annotation",
+  "generator": {
+   "id": "https://frankensteinvariorum.org/",
+   "type": "Software",
+   "name": "Frankenstein Variorum",
+   "homepage": "https://recogito.pelagios.org/"
+  },
+  "generated": "2019-10-04T17:17:33.543606+00:00",
+  "body": [
+   {
+    "type": "TextualBody",
+    "value": "In the 1818 edition, Walton had doubted that he would be able to receive future letters from Margaret. The doubt now disappears from the 1831 edition. ",
+    "creator": "https://hypothes.is/users/frankensteinvariorum",
+    "modified": "2019-10-04T17:17:33.543606+00:00",
+    "purpose": "commenting"
+   }
+  ],
+  "target": {
+   "source": "https://frankensteinvariorum.github.io/fv-collation/Frankenstein_1831.html",
+   "type": "Text",
+   "selector": [
+    {
+     "type": "TextQuoteSelector",
+     "prefix": "ite to me by every opportunity: ",
+     "exact": "I may receive your letters on some\n         occasions when I need them most to support my spirits",
+     "suffix": ". I love you very tenderly. Reme"
+    },
+    {
+     "type": "RangeSelector",
+     "startSelector": {
+      "type": "XPathSelector",
+      "value": "//[@xml:id='novel1_letter2_div2_p8']"
+     },
+     "endSelector": {
+      "type": "XPathSelector",
+      "value": "//[@xml:id='novel1_letter2_div2_p8']"
+     }
+    }
+   ]
+  },
+  "diagnostic": {
+   "note": "not for open annotation consumption",
+   "html_p_index": [
+    44,
+    44
+   ],
+   "p_offset": -19,
+   "xml_text_content": "<ns2:p xmlns:ns2=\"http://www.tei-c.org/ns/1.0\" xml:id=\"novel1_letter2_div2_p8\">\n               <ns2:seg part=\"F\" xml:id=\"C03e_app13-f1831__F\">But to return to dearer considerations.</ns2:seg>\n         \n               <ns2:seg xml:id=\"C03f_app1-f1831\">Shall </ns2:seg>\n               <ns2:seg xml:id=\"C03f_app2-f1831\">I meet you again, after having traversed immense seas, and returned by the most southern cape of Africa or America? I dare not expect such success, yet I cannot bear to look on the reverse of the picture. Continue for the present </ns2:seg>\n               <ns2:seg xml:id=\"C03f_app3-f1831\">to write to me by every opportunity: I may receive your letters </ns2:seg>\n               <ns2:seg part=\"I\" xml:id=\"C03f_app5-f1831__I\">on some occasions when I need them most to support my spirits. I love you very tenderly. Remember me with affection, should you never hear from me again.</ns2:seg>\n            </ns2:p>\n            "
+  }
+ },
+ {
+  "@context": "http://www.w3.org/ns/anno.jsonld",
+  "id": "https://frankensteinvariorum.org/XEqUtObKEem7LxvDsro_fA",
+  "type": "Annotation",
+  "generator": {
+   "id": "https://frankensteinvariorum.org/",
+   "type": "Software",
+   "name": "Frankenstein Variorum",
+   "homepage": "https://recogito.pelagios.org/"
+  },
+  "generated": "2019-10-04T17:14:01.731048+00:00",
+  "body": [
+   {
+    "type": "TextualBody",
+    "value": "\"The springing of a leak\" in the 1831 version replaces \"the breaking of the mast\" in the 1818 edition. Shelley had begun revising this phrase in the Thomas copy by pencilling in \"carrying away of the mast,\" but she discards any reference to the mast in 1831.",
+    "creator": "https://hypothes.is/users/frankensteinvariorum",
+    "modified": "2019-10-04T17:14:01.731048+00:00",
+    "purpose": "commenting"
+   }
+  ],
+  "target": {
+   "source": "https://frankensteinvariorum.github.io/fv-collation/Frankenstein_1831.html",
+   "type": "Text",
+   "selector": [
+    {
+     "type": "TextQuoteSelector",
+     "prefix": "  two\n         stiff gales, and ",
+     "exact": "the springing of a leak",
+     "suffix": ", are accidents which experience"
+    },
+    {
+     "type": "RangeSelector",
+     "startSelector": {
+      "type": "XPathSelector",
+      "value": "//[@xml:id='novel1_letter3_div3_p4']"
+     },
+     "endSelector": {
+      "type": "XPathSelector",
+      "value": "//[@xml:id='novel1_letter3_div3_p4']"
+     }
+    }
+   ]
+  },
+  "diagnostic": {
+   "note": "not for open annotation consumption",
+   "html_p_index": [
+    50,
+    50
+   ],
+   "p_offset": -19,
+   "xml_text_content": "<ns3:p xmlns:ns3=\"http://www.tei-c.org/ns/1.0\" xml:id=\"novel1_letter3_div3_p4\">\n               <ns3:seg part=\"F\" xml:id=\"C04a_app8-f1831__F\">No </ns3:seg>\n               <ns3:seg xml:id=\"C04a_app9-f1831\">incidents have hitherto befallen </ns3:seg>\n               <ns3:seg xml:id=\"C04a_app10-f1831\">us </ns3:seg>\n               <ns3:seg xml:id=\"C04a_app11-f1831\">that would make a figure in a letter. One or </ns3:seg>\n               <ns3:seg xml:id=\"C04a_app12-f1831\">two stiff </ns3:seg>\n               <ns3:seg xml:id=\"C04a_app13-f1831\">gales, and the </ns3:seg>\n               <ns3:seg xml:id=\"C04a_app14-f1831\">springing </ns3:seg>\n               <ns3:seg xml:id=\"C04a_app15-f1831\">of a </ns3:seg>\n               <ns3:seg xml:id=\"C04a_app16-f1831\">leak, </ns3:seg>\n               <ns3:seg xml:id=\"C04a_app17-f1831\">are accidents which experienced navigators scarcely remember to record; and I shall be well </ns3:seg>\n               <ns3:seg xml:id=\"C04a_app18-f1831\">content </ns3:seg>\n               <ns3:seg part=\"I\" xml:id=\"C04a_app19-f1831__I\">if nothing worse happen to us during our voyage.</ns3:seg>\n            </ns3:p>\n            "
+  }
+ },
+ {
+  "@context": "http://www.w3.org/ns/anno.jsonld",
+  "id": "https://frankensteinvariorum.org/kgv00ObKEemQ6gsNd6GeMA",
+  "type": "Annotation",
+  "generator": {
+   "id": "https://frankensteinvariorum.org/",
+   "type": "Software",
+   "name": "Frankenstein Variorum",
+   "homepage": "https://recogito.pelagios.org/"
+  },
+  "generated": "2019-10-04T17:15:31.917419+00:00",
+  "body": [
+   {
+    "type": "TextualBody",
+    "value": "This 1831 addition further emphasizes Walton\u2019s bravado, pride, and ethos as an Arctic explorer. The dichotomy of rational man and untamed nature extends throughout the text. The change makes Walton further resemble Victor, who also acts on a \u201cdetermined heart and resolved will\u201d despite the consequences. \n",
+    "creator": "https://hypothes.is/users/frankensteinvariorum",
+    "modified": "2019-10-04T17:15:31.917419+00:00",
+    "purpose": "commenting"
+   }
+  ],
+  "target": {
+   "source": "https://frankensteinvariorum.github.io/fv-collation/Frankenstein_1831.html",
+   "type": "Text",
+   "selector": [
+    {
+     "type": "TextQuoteSelector",
+     "prefix": "nd prudent.\n      \n      \n      ",
+     "exact": "But success shall crown my endeavours. Wherefore not? Thus far I\n         have gone, tracing a secure way over the pathless seas: the very stars themselves\n         being\n         witnesses and testimonies of my triumph. Why not still proceed over the untamed yet\n         obedient element? What can stop the determined heart and resolved will of man?\n      \n      \n      My swelling heart involuntarily pours itself out thus. But I must finish. Heaven bless\n         my\n         beloved sister!",
+     "suffix": "\n      \n      \n      R.W.\n      "
+    },
+    {
+     "type": "RangeSelector",
+     "startSelector": {
+      "type": "XPathSelector",
+      "value": "//[@xml:id='novel1_letter3_div3_p6']"
+     },
+     "endSelector": {
+      "type": "XPathSelector",
+      "value": "//[@xml:id='novel1_letter3_div3_p7']"
+     }
+    }
+   ]
+  },
+  "diagnostic": {
+   "note": "not for open annotation consumption",
+   "html_p_index": [
+    52,
+    53
+   ],
+   "p_offset": -19,
+   "xml_text_content": "<ns3:p xmlns:ns3=\"http://www.tei-c.org/ns/1.0\" xml:id=\"novel1_letter3_div3_p6\">But success <ns3:hi xml:id=\"novel1_letter3_div3_p6_hi1\">shall</ns3:hi> crown my endeavours. Wherefore not? Thus far I have gone, tracing a secure way over the pathless seas: the very stars themselves being witnesses and testimonies of my triumph. Why not still proceed over the untamed yet obedient element? What can stop the determined heart and resolved will of man?</ns3:p> \n            "
+  }
+ },
+ {
+  "@context": "http://www.w3.org/ns/anno.jsonld",
+  "id": "https://frankensteinvariorum.org/p0IlcubKEemTEg8LRsPJDQ",
+  "type": "Annotation",
+  "generator": {
+   "id": "https://frankensteinvariorum.org/",
+   "type": "Software",
+   "name": "Frankenstein Variorum",
+   "homepage": "https://recogito.pelagios.org/"
+  },
+  "generated": "2019-10-04T17:16:07.500770+00:00",
+  "body": [
+   {
+    "type": "TextualBody",
+    "value": "The change from Victor\u2019s countenance as seeming \u201cvery eager\u201d (1818) to \u201ca new spirit of life animated the decaying frame...\u201d (1831) prefigures the same \"animation\" of the Creature later in Volume 1. \n**FIX TYPO in TEXT**--DELETE \"THE\"\n\"time the a new\"\n",
+    "creator": "https://hypothes.is/users/frankensteinvariorum",
+    "modified": "2019-10-04T17:16:07.500770+00:00",
+    "purpose": "commenting"
+   }
+  ],
+  "target": {
+   "source": "https://frankensteinvariorum.github.io/fv-collation/Frankenstein_1831.html",
+   "type": "Text",
+   "selector": [
+    {
+     "type": "TextQuoteSelector",
+     "prefix": "      \n      From this time the ",
+     "exact": "a new spirit of life animated the decaying frame of the stranger.\n         He\n         manifested the greatest eagerness",
+     "suffix": " to be upon deck, to watch for t"
+    },
+    {
+     "type": "RangeSelector",
+     "startSelector": {
+      "type": "XPathSelector",
+      "value": "//[@xml:id='novel1_letter4_div4_p21']"
+     },
+     "endSelector": {
+      "type": "XPathSelector",
+      "value": "//[@xml:id='novel1_letter4_div4_p21']"
+     }
+    }
+   ]
+  },
+  "diagnostic": {
+   "note": "not for open annotation consumption",
+   "html_p_index": [
+    75,
+    75
+   ],
+   "p_offset": -19,
+   "xml_text_content": "<ns4:p xmlns:ns4=\"http://www.tei-c.org/ns/1.0\" xml:id=\"novel1_letter4_div4_p21\">\n               <ns4:seg part=\"F\" xml:id=\"C05_app22-f1831__F\">From this time </ns4:seg>\n               <ns4:seg xml:id=\"C05_app23-f1831\">a new spirit of life animated the decaying frame of the stranger. He manifested the greatest eagerness </ns4:seg>\n               <ns4:seg xml:id=\"C05_app24-f1831\">to be upon deck, to watch for the sledge which had before appeared; but I have persuaded him to remain in the cabin, for he is far too weak to sustain the rawness of the atmosphere. </ns4:seg>\n               <ns4:seg part=\"I\" xml:id=\"C05_app26-f1831__I\">I have promised that some one should watch for him, and give him instant notice if any new object should appear in sight.</ns4:seg>\n            </ns4:p>\n            "
+  }
+ },
+ {
+  "@context": "http://www.w3.org/ns/anno.jsonld",
+  "id": "https://frankensteinvariorum.org/oHraIubKEemwqtvXtMGedA",
+  "type": "Annotation",
+  "generator": {
+   "id": "https://frankensteinvariorum.org/",
+   "type": "Software",
+   "name": "Frankenstein Variorum",
+   "homepage": "https://recogito.pelagios.org/"
+  },
+  "generated": "2019-10-04T17:15:56.113390+00:00",
+  "body": [
+   {
+    "type": "TextualBody",
+    "value": "In this lengthy addition to the 1831 edition, Walton's brazen willingness to sacrifice the life of a human being to realize his own ambition for knowledge more strongly motivates Victor to \"reveal my tale\" as a powerful lesson to teach Walton's naive hopes for glory. The passage underscores the symbiotic \"madness\" that the mariner and the scientist share.",
+    "creator": "https://hypothes.is/users/frankensteinvariorum",
+    "modified": "2019-10-04T17:15:56.113390+00:00",
+    "purpose": "commenting"
+   }
+  ],
+  "target": {
+   "source": "https://frankensteinvariorum.github.io/fv-collation/Frankenstein_1831.html",
+   "type": "Text",
+   "selector": [
+    {
+     "type": "TextQuoteSelector",
+     "prefix": "he projects of\n         others. ",
+     "exact": "He has frequently conversed with me on mine, which I have communicated to\n         him\n         without disguise. He entered attentively into all my arguments in favour of my eventual\n         success, and into every minute detail of the measures I had taken to secure it. I\n         was\n         easily led by the sympathy which he evinced, to use the language of my heart; to give\n         utterance to the burning ardour of my soul; and to say, with all the fervour that\n         warmed\n         me, how gladly I would sacrifice my fortune, my existence, my every hope, to the\n         furtherance of my enterprise. One man\u2019s life or death were but a small price to pay\n         for\n         the acquirement of the knowledge which I sought; for the dominion I should acquire\n         and\n         transmit over the elemental foes of our race. As I spoke, a dark gloom spread over\n         my\n         listener\u2019s countenance. At first I perceived that he tried to suppress his emotion;\n         he\n         placed his hands before his eyes; and my voice quivered and failed me, as I beheld\n         tears\n         trickle fast from between his fingers,\u2014a groan burst from his heaving breast. I paused;\n         \u2014at length he spoke, in broken accents:\u2014\u201cUnhappy man! Do you share my madness? Have\n         you\n         drank also of the intoxicating draught? Hear me,\u2014let me reveal my tale, and you will\n         dash the cup from your lips!\u201d\n      \n      \n      Such words, you may imagine, strongly excited my curiosity; but the paroxysm of grief\n         that had seized the stranger overcame his weakened powers, and many hours of repose\n         and\n         tranquil conversation were necessary to restore his composure.\n      \n      \n      Having conquered the violence of his feelings, he appeared to despise himself for\n         being\n         the slave of passion; and quelling the dark tyranny of despair, he led me again to\n         converse concerning myself personally. He asked me the history of my earlier years.\n         The\n         tale was quickly told: 16but it awakened various trains of\n         reflection. I spoke of my desire of finding a friend\u2014of my thirst for a more intimate\n         sympathy with a fellow mind than had ever fallen to my lot; and expressed my conviction\n         that a man could boast of little happiness, who did not enjoy this blessing.\n      \n      \n      \u201cI agree with you,\u201d replied the stranger; \u201cwe are unfashioned creatures, but half\n         made\n         up, if one wiser, better, dearer than ourselves\u2014such a friend ought to be\u2014do not lend\n         his aid to perfectionate our weak and faulty natures.",
+     "suffix": " I once had a friend, the most\n "
+    },
+    {
+     "type": "RangeSelector",
+     "startSelector": {
+      "type": "XPathSelector",
+      "value": "//[@xml:id='novel1_letter4_div4_p27']"
+     },
+     "endSelector": {
+      "type": "XPathSelector",
+      "value": "//[@xml:id='novel1_letter4_div4_p30']"
+     }
+    }
+   ]
+  },
+  "diagnostic": {
+   "note": "not for open annotation consumption",
+   "html_p_index": [
+    81,
+    84
+   ],
+   "p_offset": -19,
+   "xml_text_content": "<ns5:p xmlns:ns5=\"http://www.tei-c.org/ns/1.0\" xml:id=\"novel1_letter4_div4_p27\">\n               <ns5:seg part=\"F\" xml:id=\"C06a_app5-f1831__F\">He is now much recovered from his illness, and is continually on the deck, apparently watching for the sledge that preceded his own. Yet, although unhappy, he is not so utterly occupied by his own misery, but that he interests himself deeply in the </ns5:seg>\n               <ns5:seg xml:id=\"C06a_app6-f1831\">projects </ns5:seg>\n               <ns5:seg xml:id=\"C06a_app7-f1831\">of others. He has </ns5:seg>\n         \n               <ns5:seg part=\"I\" xml:id=\"C06b_app1-f1831__I\">frequently conversed with me on mine, which I have communicated to him without disguise. He entered attentively into all my arguments in favour of my eventual success, and into every minute detail of the measures I had taken to secure it. I was easily led by the sympathy which he evinced, to use the language of my heart; to give utterance to the burning ardour of my soul; and to say, with all the fervour that warmed me, how gladly I would sacrifice my fortune, my existence, my every hope, to the furtherance of my enterprise. One man&#8217;s life or death were but a small price to pay for the acquirement of the knowledge which I sought; for the dominion I should acquire and transmit over the elemental foes of our race. As I spoke, a dark gloom spread over my listener&#8217;s countenance. At first I perceived that he tried to suppress his emotion; he placed his hands before his eyes; and my voice quivered and failed me, as I beheld tears trickle fast from between his fingers,&#8212;a groan burst from his heaving breast. I paused; &#8212;at length he spoke, in broken accents:&#8212;&#8220;Unhappy man! Do you share my madness? Have you drank also of the intoxicating draught? Hear me,&#8212;let me reveal my tale, and you will dash the cup from your lips!&#8221;</ns5:seg>\n            </ns5:p> \n            "
+  }
+ },
+ {
+  "@context": "http://www.w3.org/ns/anno.jsonld",
+  "id": "https://frankensteinvariorum.org/O9denObKEemi_xMlNKuE2Q",
+  "type": "Annotation",
+  "generator": {
+   "id": "https://frankensteinvariorum.org/",
+   "type": "Software",
+   "name": "Frankenstein Variorum",
+   "homepage": "https://recogito.pelagios.org/"
+  },
+  "generated": "2019-10-04T17:13:07.286214+00:00",
+  "body": [
+   {
+    "type": "TextualBody",
+    "value": "In this 1831 revision, Walton more explicitly attributes exceptional emotional and intellectual powers to Victor than his letters in the 1818 edition make apparent. ",
+    "creator": "https://hypothes.is/users/frankensteinvariorum",
+    "modified": "2019-10-04T17:13:07.286214+00:00",
+    "purpose": "commenting"
+   }
+  ],
+  "target": {
+   "source": "https://frankensteinvariorum.github.io/fv-collation/Frankenstein_1831.html",
+   "type": "Text",
+   "selector": [
+    {
+     "type": "TextQuoteSelector",
+     "prefix": "oncerning this divine wanderer? ",
+     "exact": "You would\n         not, if you saw him. You have been tutored and refined by books and retirement from\n         the\n         world, and you are, therefore, somewhat fastidious; but this only renders you the\n         more fit\n         to appreciate the extraordinary merits of this wonderful man. Sometimes I have endeavoured\n         to discover what quality it is which he possesses, that elevates him so immeasurably\n         above\n         any other person I ever knew. I believe it to be an intuitive discernment; a quick\n         but\n         never-failing power of judgment; a penetration into the causes of things, unequalled\n         for\n         clearness and precision; add to this a facility of expression, and a voice whose varied\n         intonations are soul-subduing music.",
+     "suffix": "\n      \n      \n      17August 19"
+    },
+    {
+     "type": "RangeSelector",
+     "startSelector": {
+      "type": "XPathSelector",
+      "value": "//[@xml:id='novel1_letter4_div4_p33']"
+     },
+     "endSelector": {
+      "type": "XPathSelector",
+      "value": "//[@xml:id='novel1_letter4_div4_p33']"
+     }
+    }
+   ]
+  },
+  "diagnostic": {
+   "note": "not for open annotation consumption",
+   "html_p_index": [
+    87,
+    87
+   ],
+   "p_offset": -19,
+   "xml_text_content": "<ns5:p xmlns:ns5=\"http://www.tei-c.org/ns/1.0\" xml:id=\"novel1_letter4_div4_p33\">\n               <ns5:seg part=\"F\" xml:id=\"C06d_app3-f1831__F\">Will you </ns5:seg>\n               <ns5:seg xml:id=\"C06d_app4-f1831\">smile </ns5:seg>\n               <ns5:seg xml:id=\"C06d_app5-f1831\">at the enthusiasm I express concerning this divine wanderer? </ns5:seg>\n         \n               <ns5:seg part=\"I\" xml:id=\"C06e_app1-f1831__I\">You would not, if you saw him. You have been tutored and refined by books and retirement from the world, and you are, therefore, somewhat fastidious; but this only renders you the more fit to appreciate the extraordinary merits of this wonderful man. Sometimes I have endeavoured to discover what quality it is which he possesses, that elevates him so immeasurably above any other person I ever knew. I believe it to be an intuitive discernment; a quick but never-failing power of judgment; a penetration into the causes of things, unequalled for clearness and precision; add to this a facility of expression, and a voice whose varied intonations are soul-subduing music.</ns5:seg>\n            </ns5:p>\n            "
+  }
+ },
+ {
+  "@context": "http://www.w3.org/ns/anno.jsonld",
+  "id": "https://frankensteinvariorum.org/uDf1yObKEemFDC8mM7aS7A",
+  "type": "Annotation",
+  "generator": {
+   "id": "https://frankensteinvariorum.org/",
+   "type": "Software",
+   "name": "Frankenstein Variorum",
+   "homepage": "https://recogito.pelagios.org/"
+  },
+  "generated": "2019-10-04T17:16:35.955663+00:00",
+  "body": [
+   {
+    "type": "TextualBody",
+    "value": "In this revision, the 1831 edition makes Victor far more explicit about the parallels between his own quest for knowledge as power and Walton's expedition. Victor also attributes this insight to the sublime context of their Arctic location. The 1818 edition only suggests Walton will learn from Victor's story. \n",
+    "creator": "https://hypothes.is/users/frankensteinvariorum",
+    "modified": "2019-10-04T17:16:35.955663+00:00",
+    "purpose": "commenting"
+   }
+  ],
+  "target": {
+   "source": "https://frankensteinvariorum.github.io/fv-collation/Frankenstein_1831.html",
+   "type": "Text",
+   "selector": [
+    {
+     "type": "TextQuoteSelector",
+     "prefix": "ers will be useful to you; yet, ",
+     "exact": "when I reflect\n         that you\n         are pursuing the same course, exposing yourself to the same dangers which have rendered\n         me\n         what I am, I imagine that you may deduce an apt moral from my tale; one that may direct\n         you if you succeed in your undertaking, and console you in case of failure. Prepare\n         to\n         hear of occurrences which are usually deemed marvellous. Were we among the tamer scenes\n         of\n         nature, I might fear to encounter your unbelief, perhaps your ridicule; but many things\n         will appear possible in these wild and mysterious regions, which would provoke the\n         laughter of those unacquainted with the ever-varied powers of nature:\u2014nor can I doubt\n         bu",
+     "suffix": "t that my tale conveys in its se"
+    },
+    {
+     "type": "RangeSelector",
+     "startSelector": {
+      "type": "XPathSelector",
+      "value": "//[@xml:id='novel1_letter4_div4_p35']"
+     },
+     "endSelector": {
+      "type": "XPathSelector",
+      "value": "//[@xml:id='novel1_letter4_div4_p35']"
+     }
+    }
+   ]
+  },
+  "diagnostic": {
+   "note": "not for open annotation consumption",
+   "html_p_index": [
+    89,
+    89
+   ],
+   "p_offset": -19,
+   "xml_text_content": "<ns5:p xmlns:ns5=\"http://www.tei-c.org/ns/1.0\" xml:id=\"novel1_letter4_div4_p35\">\n               <ns5:seg part=\"F\" xml:id=\"C06f_app3-f1831__F\">Yesterday the stranger said to me, &#8220;You may easily perceive, Captain Walton, that I </ns5:seg>\n               <ns5:seg xml:id=\"C06f_app4-f1831\">have suffered </ns5:seg>\n               <ns5:seg xml:id=\"C06f_app5-f1831\">great and unparalleled misfortunes. I had determined, </ns5:seg>\n               <ns5:seg xml:id=\"C06f_app6-f1831\">at one time, </ns5:seg>\n               <ns5:seg xml:id=\"C06f_app7-f1831\">that the memory </ns5:seg>\n               <ns5:seg xml:id=\"C06f_app8-f1831\">of these </ns5:seg>\n               <ns5:seg xml:id=\"C06f_app9-f1831\">evils should die with me; but you have won me to alter my determination. You </ns5:seg>\n               <ns5:seg xml:id=\"C06f_app10-f1831\">seek for </ns5:seg>\n               <ns5:seg xml:id=\"C06f_app11-f1831\">knowledge and wisdom, as I once did; and I ardently hope that the gratification </ns5:seg>\n               <ns5:seg xml:id=\"C06f_app12-f1831\">of your </ns5:seg>\n               <ns5:seg xml:id=\"C06f_app13-f1831\">wishes may not be a serpent to sting you, as mine has been. I do not know that </ns5:seg>\n               <ns5:seg xml:id=\"C06f_app14-f1831\">the relation </ns5:seg>\n               <ns5:seg xml:id=\"C06f_app15-f1831\">of my </ns5:seg>\n               <ns5:seg xml:id=\"C06f_app16-f1831\">disasters </ns5:seg>\n               <ns5:seg xml:id=\"C06f_app17-f1831\">will be useful to </ns5:seg>\n               <ns5:seg xml:id=\"C06f_app18-f1831\">you; </ns5:seg>\n               <ns5:seg xml:id=\"C06f_app19-f1831\">yet, </ns5:seg>\n         \n               <ns5:seg xml:id=\"C06g_app1-f1831\">when I reflect that you are pursuing the same course, exposing yourself to the same dangers which have rendered me what I am, I imagine that you may deduce an apt moral from my tale; one that may direct you if you succeed in your undertaking, and console you in case of failure. Prepare to hear of occurrences which are usually deemed marvellous. Were we among the tamer scenes of nature, I might fear to encounter your unbelief, perhaps your ridicule; but many things will appear possible in these wild and mysterious regions, which would provoke the laughter of those unacquainted with the ever-varied powers of nature:&#8212;nor can I</ns5:seg>\n         \n               <ns5:seg xml:id=\"C06h_app1-f1831\">doubt but </ns5:seg>\n               <ns5:seg part=\"I\" xml:id=\"C06h_app2-f1831__I\">that my tale conveys in its series internal evidence of the truth of the events of which it is composed.&#8221;</ns5:seg>\n            </ns5:p>\n            "
+  }
+ },
+ {
+  "@context": "http://www.w3.org/ns/anno.jsonld",
+  "id": "https://frankensteinvariorum.org/fELT5ObKEem89kPoPdsDoQ",
+  "type": "Annotation",
+  "generator": {
+   "id": "https://frankensteinvariorum.org/",
+   "type": "Software",
+   "name": "Frankenstein Variorum",
+   "homepage": "https://recogito.pelagios.org/"
+  },
+  "generated": "2019-10-04T17:14:55.367650+00:00",
+  "body": [
+   {
+    "type": "TextualBody",
+    "value": "In this revision for the 1831 edition, Shelley emphasizes the effect Victor has on Walton and stresses Victor's weakened state.",
+    "creator": "https://hypothes.is/users/frankensteinvariorum",
+    "modified": "2019-10-04T17:14:55.367650+00:00",
+    "purpose": "commenting"
+   }
+  ],
+  "target": {
+   "source": "https://frankensteinvariorum.github.io/fv-collation/Frankenstein_1831.html",
+   "type": "Text",
+   "selector": [
+    {
+     "type": "TextQuoteSelector",
+     "prefix": "l I read it in some future day! ",
+     "exact": "Even now, as I commence\n         my task,\n         his full-toned voice swells in my ears; his lustrous eyes dwell on me with all their\n         melancholy sweetness; I see his thin hand raised in animation, while the lineaments\n         of his\n         face are irradiated by the soul within. Strange and harrowing must be his story; frightful\n         the storm which embraced the gallant vessel on its course, and wrecked it\u2014thus!",
+     "suffix": "\n      \n      \n      \n      \n   "
+    },
+    {
+     "type": "RangeSelector",
+     "startSelector": {
+      "type": "XPathSelector",
+      "value": "//[@xml:id='novel1_letter4_div4_p38']"
+     },
+     "endSelector": {
+      "type": "XPathSelector",
+      "value": "//[@xml:id='novel1_letter4_div4_p38']"
+     }
+    }
+   ]
+  },
+  "diagnostic": {
+   "note": "not for open annotation consumption",
+   "html_p_index": [
+    92,
+    92
+   ],
+   "p_offset": -19,
+   "xml_text_content": "<ns5:p xmlns:ns5=\"http://www.tei-c.org/ns/1.0\" xml:id=\"novel1_letter4_div4_p38\">\n               <ns5:seg part=\"F\" xml:id=\"C06h_app5-f1831__F\">\n               <ns5:pb n=\"18\" xml:id=\"F1831_v_034\"/>He </ns5:seg>\n               <ns5:seg xml:id=\"C06h_app6-f1831\">then told me, that he would commence his narrative the next day when I should be at leisure. This promise drew from me the warmest thanks. I have resolved every night, when I am not </ns5:seg>\n               <ns5:seg xml:id=\"C06h_app7-f1831\">imperatively occupied by my duties, </ns5:seg>\n               <ns5:seg xml:id=\"C06h_app8-f1831\">to record, as nearly as possible in his own words, what he has related during the day. If I should be engaged, I will at least make notes. This manuscript will doubtless afford you the greatest </ns5:seg>\n               <ns5:seg xml:id=\"C06h_app9-f1831\">pleasure: </ns5:seg>\n               <ns5:seg xml:id=\"C06h_app10-f1831\">but to me, who know him, and who hear it from his own lips, with what interest and sympathy shall I read it in some future </ns5:seg>\n               <ns5:seg part=\"I\" xml:id=\"C06h_app11-f1831__I\">day! Even now, as I commence my task, his full-toned voice swells in my ears; his lustrous eyes dwell on me with all their melancholy sweetness; I see his thin hand raised in animation, while the lineaments of his face are irradiated by the soul within. Strange and harrowing must be his story; frightful the storm which embraced the gallant vessel on its course, and wrecked it&#8212;thus!</ns5:seg>\n            </ns5:p>\n            "
+  }
+ },
+ {
+  "@context": "http://www.w3.org/ns/anno.jsonld",
+  "id": "https://frankensteinvariorum.org/LN8sdubKEemTERcMJMXIEw",
+  "type": "Annotation",
+  "generator": {
+   "id": "https://frankensteinvariorum.org/",
+   "type": "Software",
+   "name": "Frankenstein Variorum",
+   "homepage": "https://recogito.pelagios.org/"
+  },
+  "generated": "2019-10-04T17:12:42.125091+00:00",
+  "body": [
+   {
+    "type": "TextualBody",
+    "value": "These changes to the 1831 edition make clear that Victor's father's late marriage is a result of factors beyond his control rather than carelessness or indifference, and further accentuate his familial position as the figurehead of their \"domestic circle.\"",
+    "creator": "https://hypothes.is/users/frankensteinvariorum",
+    "modified": "2019-10-04T17:12:42.125091+00:00",
+    "purpose": "commenting"
+   }
+  ],
+  "target": {
+   "source": "https://frankensteinvariorum.github.io/fv-collation/Frankenstein_1831.html",
+   "type": "Text",
+   "selector": [
+    {
+     "type": "TextQuoteSelector",
+     "prefix": "\n         his\n         country; ",
+     "exact": "a variety of circumstances had prevented his marrying early, nor was it until\n         the decline of life that he became a husband and the father of a family.\n",
+     "suffix": "      \n      \n      As the circu"
+    },
+    {
+     "type": "RangeSelector",
+     "startSelector": {
+      "type": "XPathSelector",
+      "value": "//[@xml:id='novel1_letter4_chapter1_div4_div1_p1']"
+     },
+     "endSelector": {
+      "type": "XPathSelector",
+      "value": "//[@xml:id='novel1_letter4_chapter1_div4_div1_p1']"
+     }
+    }
+   ]
+  },
+  "diagnostic": {
+   "note": "not for open annotation consumption",
+   "html_p_index": [
+    93,
+    93
+   ],
+   "p_offset": -19,
+   "xml_text_content": "<ns6:p xmlns:ns6=\"http://www.tei-c.org/ns/1.0\" xml:id=\"novel1_letter4_chapter1_div4_div1_p1\">\n               <ns6:seg part=\"F\" xml:id=\"C07a_app2-f1831__F\"> I </ns6:seg>\n               <ns6:seg xml:id=\"C07a_app3-f1831\">\n               <ns6:hi xml:id=\"novel1_letter4_chapter1_div4_div1_p1_hi1\">AM</ns6:hi> by birth a Genevese; and my family is one of the most distinguished of that republic. My ancestors had been for many years counsellors and syndics; and my father had filled several public situations with honour and reputation. He was respected by all who knew </ns6:seg>\n               <ns6:seg xml:id=\"C07a_app4-f1831\">him, </ns6:seg>\n               <ns6:seg xml:id=\"C07a_app5-f1831\">for his integrity and indefatigable attention to public business. He passed his younger days perpetually occupied by the affairs of his country; </ns6:seg>\n               <ns6:seg xml:id=\"C07a_app6-f1831\">a variety of circumstances had prevented his marrying early, nor </ns6:seg>\n               <ns6:seg xml:id=\"C07a_app7-f1831\">was </ns6:seg>\n               <ns6:seg xml:id=\"C07a_app8-f1831\">it </ns6:seg>\n               <ns6:seg xml:id=\"C07a_app9-f1831\">until the decline of life that he </ns6:seg>\n               <ns6:seg xml:id=\"C07a_app10-f1831\">became a husband </ns6:seg>\n               <ns6:seg xml:id=\"C07a_app11-f1831\">and </ns6:seg>\n               <ns6:seg xml:id=\"C07a_app13-f1831\">the </ns6:seg>\n               <ns6:seg part=\"I\" xml:id=\"C07a_app14-f1831__I\">father of a family.</ns6:seg>\n            </ns6:p>\n            "
+  }
+ },
+ {
+  "@context": "http://www.w3.org/ns/anno.jsonld",
+  "id": "https://frankensteinvariorum.org/iS-ZoubKEemvdls1pVMR6w",
+  "type": "Annotation",
+  "generator": {
+   "id": "https://frankensteinvariorum.org/",
+   "type": "Software",
+   "name": "Frankenstein Variorum",
+   "homepage": "https://recogito.pelagios.org/"
+  },
+  "generated": "2019-10-04T17:15:17.019873+00:00",
+  "body": [
+   {
+    "type": "TextualBody",
+    "value": "This substantial revision in 1831 seems to place greater blame on Beaufort for his condition as a matter of \"false pride\", implying that Beaufort's sins have betrayed the affection that once united thim with Victor's father. In the 1818 version, his father's primary concern is for the loss of Beaufort's company and his contributions to Genevese society.",
+    "creator": "https://hypothes.is/users/frankensteinvariorum",
+    "modified": "2019-10-04T17:15:17.019873+00:00",
+    "purpose": "commenting"
+   }
+  ],
+  "target": {
+   "source": "https://frankensteinvariorum.github.io/fv-collation/Frankenstein_1831.html",
+   "type": "Text",
+   "selector": [
+    {
+     "type": "TextQuoteSelector",
+     "prefix": "ortunate\n         circumstances.",
+     "exact": " He bitterly deplored the false pride which led his friend to a conduct\n         so\n         little worthy of the affection that united them. He lost no time in endeavouring to\n         seek\n         him out, with the hope of persuading him to begin the world again through his credit\n         and\n         assistance.",
+     "suffix": "\n      \n      \n      Beaufort ha"
+    },
+    {
+     "type": "RangeSelector",
+     "startSelector": {
+      "type": "XPathSelector",
+      "value": "//[@xml:id='novel1_letter4_chapter1_div4_div1_p2']"
+     },
+     "endSelector": {
+      "type": "XPathSelector",
+      "value": "//[@xml:id='novel1_letter4_chapter1_div4_div1_p2']"
+     }
+    }
+   ]
+  },
+  "diagnostic": {
+   "note": "not for open annotation consumption",
+   "html_p_index": [
+    94,
+    94
+   ],
+   "p_offset": -19,
+   "xml_text_content": "<ns6:p xmlns:ns6=\"http://www.tei-c.org/ns/1.0\" xml:id=\"novel1_letter4_chapter1_div4_div1_p2\">\n               <ns6:seg part=\"F\" xml:id=\"C07a_app14-f1831__F\">As </ns6:seg>\n               <ns6:seg xml:id=\"C07a_app15-f1831\">the circumstances of his marriage illustrate his character, I cannot refrain from relating them. One of his most intimate friends was a merchant, who, from a flourishing state, fell, through numerous mischances, into poverty. This man, whose name was Beaufort, was of a proud and unbending disposition, and could not bear to live in poverty and oblivion in the same country where he had formerly been distinguished for his rank and magni<ns6:pb n=\"19\" xml:id=\"F1831_v_035\"/>ficence. Having paid his debts, therefore, in the most honourable manner, he retreated with his daughter to the town of Lucerne, where he lived unknown and in wretchedness. My father loved Beaufort with the truest friendship, and was deeply grieved by his retreat in these unfortunate circumstances. He </ns6:seg>\n               <ns6:seg xml:id=\"C07a_app16-f1831\">bitterly deplored </ns6:seg>\n               <ns6:seg xml:id=\"C07a_app17-f1831\">the </ns6:seg>\n               <ns6:seg xml:id=\"C07a_app18-f1831\">false pride which led his friend to a conduct so little worthy </ns6:seg>\n               <ns6:seg xml:id=\"C07a_app19-f1831\">of </ns6:seg>\n               <ns6:seg xml:id=\"C07a_app20-f1831\">the affection that united them. He lost no time in endeavouring </ns6:seg>\n               <ns6:seg xml:id=\"C07a_app21-f1831\">to seek him </ns6:seg>\n               <ns6:seg xml:id=\"C07a_app22-f1831\">out, </ns6:seg>\n               <ns6:seg xml:id=\"C07a_app23-f1831\">with the hope of persuading </ns6:seg>\n               <ns6:seg part=\"I\" xml:id=\"C07a_app24-f1831__I\">him to begin the world again through his credit and assistance.</ns6:seg>\n            </ns6:p>\n            "
+  }
+ },
+ {
+  "@context": "http://www.w3.org/ns/anno.jsonld",
+  "id": "https://frankensteinvariorum.org/6FscpObJEemVk68GaJ-A-w",
+  "type": "Annotation",
+  "generator": {
+   "id": "https://frankensteinvariorum.org/",
+   "type": "Software",
+   "name": "Frankenstein Variorum",
+   "homepage": "https://recogito.pelagios.org/"
+  },
+  "generated": "2019-10-04T17:10:47.213771+00:00",
+  "body": [
+   {
+    "type": "TextualBody",
+    "value": "The next 11 paragraphs have been heavily altered from the 1818 edition. See individual comments.",
+    "creator": "https://hypothes.is/users/frankensteinvariorum",
+    "modified": "2019-10-04T17:10:47.213771+00:00",
+    "purpose": "commenting"
+   }
+  ],
+  "target": {
+   "source": "https://frankensteinvariorum.github.io/fv-collation/Frankenstein_1831.html",
+   "type": "Text",
+   "selector": [
+    {
+     "type": "TextQuoteSelector",
+     "prefix": "e his wife.\n      \n      \n      ",
+     "exact": "There was a considerable difference between the ages of my parents, but this\n         circumstance seemed to unite them only closer in bonds of devoted affection. There\n         was a\n         sense of justice in my father\u2019s upright mind, which rendered it necessary that he\n         should\n         approve highly to love strongly. Perhaps during former years he had suffered from\n         the\n         late-discovered unworthiness of one beloved, and so was disposed to set a greater\n         value\n         on tried worth. There was a show of gratitude and worship in his attachment to my\n         mother, differing wholly from the doating fondness of age, for it was inspired by\n         reverence for her virtues, and a desire to be the means of, in some degree, recompensing\n         her for the sorrows she had endured, but which gave inexpressible grace to his behaviour\n         to her. Every thing was made to yield to her wishes and her convenience. He strove\n         to\n         shelter her, as a fair exotic is sheltered by the gardener, from every rougher wind,\n         and\n         to surround her with all that could tend to excite pleasurable emotion in her soft\n         and\n         benevolent mind. Her health, and even the tranquillity of her hitherto constant spirit,\n         had been shaken by what she had gone through. During the two years that had elapsed\n         previous to their marriage my father had gradually relinquished all his public\n         functions; and immediately after their union they sought the pleasant climate of Italy,\n         and the change of scene and interest attendant on a tour through that land of wonders,\n         as a restorative for her weakened frame.\n      \n      \n      From Italy they visited Germany and France. I, their eldest child, was born at Naples,\n         and as an infant accompanied them in their rambles. I remained for several years their\n         only child. Much as they were attached to each other, they seemed to draw inexhaustible\n         stores of affection from a very mine of love to bestow them upon me. My mother\u2019s tender\n         caresses, and my father\u2019s smile of benevolent pleasure while regarding me, are my\n         first\n         recollections. I was their plaything and their idol, and something better\u201421their child, the innocent and helpless creature bestowed\n         on them by Heaven, whom to bring up to good, and whose future lot it was in their\n         hands\n         to direct to happiness or misery, according as they fulfilled their duties towards\n         me.\n         With this deep consciousness of what they owed towards the being to which they had\n         given\n         life, added to the active spirit of tenderness that animated both, it may be imagined\n         that while during every hour of my infant life I received a lesson of patience, of\n         charity, and of self-control, I was so guided by a silken cord, that all seemed but\n         one\n         train of enjoyment to me.\n      \n      \n      For a long time I was their only care. My mother had much desire to have a daughter,\n         but I continued their single offspring. When I was about five years old, while making\n         an\n         excursion beyond the frontiers of Italy, they passed a week on the shores of the Lake\n         of\n         Como. Their benevolent disposition often made them enter the cottages of the poor.\n         This,\n         to my mother, was more than a duty; it was a necessity, a passion,\u2014remembering what\n         she had suffered, and how she had been relieved,\u2014for her to act in her turn the\n         guardian angel to the afflicted. During one of their walks a poor cot in the foldings\n         of\n         a vale attracted their notice, as being singularly disconsolate, while the number\n         of\n         half-clothed children gathered about it, spoke of penury in its worst shape. One day,\n         when my father had gone by himself to Milan, my mother, accompanied by me, visited\n         this\n         abode. She found a peasant and his wife, hard working, bent down by care and labour,\n         distributing a scanty meal to five hungry babes. Among these there was one which\n         attracted my mother far above all the rest. She appeared of a different stock. The\n         four\n         others were dark-eyed, hardy little vagrants; this child was thin, and very fair.\n         Her\n         hair was the brightest living gold, and, despite the poverty of her clothing, seemed\n         to\n         set a crown of distinction on her head. Her brow was clear and ample, her blue eyes\n         cloudless, and her lips and the moulding of her face so expressive of sensibility\n         and\n         sweetness, that none could behold her without looking on her as of a distinct species,\n         a\n         being heaven-sent, and bearing a celestial stamp in all her features.\n      \n      \n      22The peasant woman, perceiving that my mother fixed\n         eyes of wonder and admiration on this lovely girl, eagerly communicated her history.\n         She\n         was not her child, but the daughter of a Milanese nobleman. Her mother was a German,\n         and\n         had died on giving her birth. The infant had been placed with these good people to\n         nurse: they were better off then. They had not been long married, and their eldest\n         child\n         was but just born. The father of their charge was one of those Italians nursed in\n         the\n         memory of the antique glory of Italy,\u2014one among the schiavi ognor\n            frementi, who exerted himself to obtain the liberty of his country. He became the\n         victim of its weakness. Whether he had died, or still lingered in the dungeons of\n         Austria, was not known. His property was confiscated, his child became an orphan and\n         a\n         beggar. She continued with her foster parents, and bloomed in their rude abode, fairer\n         than a garden rose among dark-leaved brambles.\n      \n      \n      When my father returned from Milan, he found playing with me in the hall of our villa,\n         a child fairer than pictured cherub\u2014a creature who seemed to shed radiance from her\n         looks, and whose form and motions were lighter than the chamois of the hills. The\n         apparition was soon explained. With his permission my mother prevailed on her rustic\n         guardians to yield their charge to her. They were fond of the sweet orphan. Her presence\n         had seemed a blessing to them; but it would be unfair to her to keep her in poverty\n         and\n         want, when Providence afforded her such powerful protection. They consulted their\n         village priest, and the result was, that Elizabeth Lavenza became the inmate of my\n         parents\u2019 house\u2014my more than sister\u2014the beautiful and adored companion of all my\n         occupations and my pleasures.\n      \n      \n      Every one loved Elizabeth. The passionate and almost reverential attachment with which\n         all regarded her became, while I shared it, my pride and my delight. On the evening\n         previous to her being brought to my home, my mother had said playfully,\u2014\u201cI have a\n         pretty present for my Victor\u2014to-morrow he shall have it.\u201d And when, on the morrow,\n         she\n         presented Elizabeth to me as her promised gift, I, with childish seriousness,\n         interpreted her words literally, and looked upon Elizabeth as mine\u2014mine to protect,\n         love, and 23cherish. All praises bestowed on her, I\n         received as made to a possession of my own. We called each other familiarly by the\n         name\n         of cousin. No word, no expression could body forth the kind of relation in which she\n         stood to me\u2014my more than sister, since till death she was to be mine only.\n      \n      \n      \n      \n      \n      CHAPTER II.\n      \n       We were brought up together; there was not quite a year\n         difference in our ages. I need not say that we were strangers to any species of disunion\n         or dispute. Harmony was the soul of our companionship, and the diversity and contrast\n         that subsisted in our characters drew us nearer together. Elizabeth was of a calmer\n         and\n         more concentrated disposition; but, with all my ardour, I was capable of a more intense\n         application, and was more deeply smitten with the thirst for knowledge. She busied\n         herself with following the aerial creations of the poets; and in the majestic and\n         wondrous scenes which surrounded our Swiss home\u2014the sublime shapes of the mountains;\n         the changes of the seasons; tempest and calm; the silence of winter, and the life\n         and\n         turbulence of our Alpine summers,\u2014she found ample scope for admiration and delight.\n         While my companion contemplated with a serious and satisfied spirit the magnificent\n         appearances of things, I delighted in investigating their causes. The world was to\n         me a\n         secret which I desired to divine. Curiosity, earnest research to learn the hidden\n         laws\n         of nature, gladness akin to rapture, as they were unfolded to me, are among the earliest\n         sensations I can remember.\n      \n      \n      On the birth of a second son, my junior by seven years, my parents gave up entirely\n         their wandering life, and fixed themselves in their native country. We possessed a\n         house\n         in Geneva, and a campagne on Belrive, the eastern shore of the\n         lake, at the distance of rather more than a league from the city. We resided principally\n         in the latter, and 24the lives of my parents were passed\n         in considerable seclusion. It was my temper to avoid a crowd, and to attach myself\n         fervently to a few. I was indifferent, therefore, to my schoolfellows in general;\n         but I\n         united myself in the bonds of the closest friendship to one among them. Henry Clerval\n         was the son of a merchant of Geneva. He was a boy of singular talent and fancy. He\n         loved\n         enterprise, hardship, and even danger, for its own sake. He was deeply read in books\n         of\n         chivalry and romance. He composed heroic songs, and began to write many a tale of\n         enchantment and knightly adventure. He tried to make us act plays, and to enter into\n         masquerades, in which the characters were drawn from the heroes of Roncesvalles, of\n         the\n         Round Table of King Arthur, and the chivalrous train who shed their blood to redeem\n         the\n         holy sepulchre from the hands of the infidels.\n      \n      \n      No human being could have passed a happier childhood than myself. My parents were\n         possessed by the very spirit of kindness and indulgence. We felt that they were not\n         the\n         tyrants to rule our lot according to their caprice, but the agents and creators of\n         all\n         the many delights which we enjoyed. When I mingled with other families, I distinctly\n         discerned how peculiarly fortunate my lot was, and gratitude assisted the developement\n         of filial love.\n      \n      \n      My temper was sometimes violent, and my passions vehement; but by some law in my\n         temperature they were turned, not towards childish pursuits, but to an eager desire\n         to\n         learn, and not to learn all things indiscriminately. I confess that neither the\n         structure of languages, nor the code of governments, nor the politics of various states,\n         possessed attractions for me. It was the secrets of heaven and earth that I desired\n         to\n         learn; and whether it was the outward substance of things, or the inner spirit of\n         nature\n         and the mysterious soul of man that occupied me, still my enquiries were directed\n         to the\n         metaphysical, or, in its highest sense, the physical secrets of the world.\n      \n      \n      Meanwhile Clerval occupied himself, so to speak, with the moral relations of things.\n         The busy stage of life, the virtues of heroes, and the actions of men, were his theme;\n         and his hope and his dream was to become one among those 25whose names are recorded in story, as the gallant and adventurous benefactors of our\n         species. The saintly soul of Elizabeth shone like a shrine-dedicated lamp in our\n         peaceful home. Her sympathy was ours; her smile, her soft voice, the sweet glance\n         of her\n         celestial eyes, were ever there to bless and animate us. She was the living spirit\n         of\n         love to soften and attract: I might have become sullen in my study, rough through\n         the\n         ardour of my nature, but that she was there to subdue me to a semblance of her own\n         gentleness. And Clerval\u2014could aught ill entrench on the noble spirit of Clerval?\u2014yet\n         he might not have been so perfectly humane, so thoughtful in his generosity\u2014so full\n         of\n         kindness and tenderness amidst his passion for adventurous exploit, had she not unfolded\n         to him the real loveliness of beneficence, and made the doing good the end and aim\n         of\n         his soaring ambition.",
+     "suffix": "\n      \n      \n      I feel exqu"
+    },
+    {
+     "type": "RangeSelector",
+     "startSelector": {
+      "type": "XPathSelector",
+      "value": "//[@xml:id='novel1_letter4_chapter1_div4_div1_p6']"
+     },
+     "endSelector": {
+      "type": "XPathSelector",
+      "value": "//[@xml:id='novel1_letter4_chapter2_div4_div2_p5']"
+     }
+    }
+   ]
+  },
+  "diagnostic": {
+   "note": "not for open annotation consumption",
+   "html_p_index": [
+    98,
+    108
+   ],
+   "p_offset": -19,
+   "xml_text_content": "<ns6:p xmlns:ns6=\"http://www.tei-c.org/ns/1.0\" xml:id=\"novel1_letter4_chapter1_div4_div1_p6\">There was a considerable difference between the ages of my parents, but this circumstance seemed to unite them only closer in bonds of devoted affection. There was a sense of justice in my father&#8217;s upright mind, which rendered it necessary that he should approve highly to love strongly. Perhaps during former years he had suffered from the late-discovered unworthiness of one beloved, and so was disposed to set a greater value on tried worth. There was a show of gratitude and worship in his attachment to my mother, differing wholly from the doating fondness of age, for it was inspired by reverence for her virtues, and a desire to be the means of, in some degree, recompensing her for the sorrows she had endured, but which gave inexpressible grace to his behaviour to her. Every thing was made to yield to her wishes and her convenience. He strove to shelter her, as a fair exotic is sheltered by the gardener, from every rougher wind, and to surround her with all that could tend to excite pleasurable emotion in her soft and benevolent mind. Her health, and even the tranquillity of her hitherto constant spirit, had been shaken by what she had gone through. During the two years that had elapsed previous to their marriage my father had gradually relinquished all his public functions; and immediately after their union they sought the pleasant climate of Italy, and the change of scene and interest attendant on a tour through that land of wonders, as a restorative for her weakened frame.</ns6:p> \n            "
+  }
+ },
+ {
+  "@context": "http://www.w3.org/ns/anno.jsonld",
+  "id": "https://frankensteinvariorum.org/_6BwqObJEemGdIvVRq47vw",
+  "type": "Annotation",
+  "generator": {
+   "id": "https://frankensteinvariorum.org/",
+   "type": "Software",
+   "name": "Frankenstein Variorum",
+   "homepage": "https://recogito.pelagios.org/"
+  },
+  "generated": "2019-10-04T17:11:26.282646+00:00",
+  "body": [
+   {
+    "type": "TextualBody",
+    "value": "In the 1818 edition Victor says that he was \"by birth a Genevese,\" his only reference to his own birth. The implication there is that he was born in Geneva, but the 1831 edition instead places his birth in Naples. Soon afterward we learn that when his family discovered Elizabeth, her mother is Italian. ",
+    "creator": "https://hypothes.is/users/frankensteinvariorum",
+    "modified": "2019-10-04T17:11:26.282646+00:00",
+    "purpose": "commenting"
+   }
+  ],
+  "target": {
+   "source": "https://frankensteinvariorum.github.io/fv-collation/Frankenstein_1831.html",
+   "type": "Text",
+   "selector": [
+    {
+     "type": "TextQuoteSelector",
+     "prefix": "ened frame.\n      \n      \n      ",
+     "exact": "From Italy they visited Germany and France. I, their eldest child, was born at Naples",
+     "suffix": ",\n         and as an infant acco"
+    },
+    {
+     "type": "RangeSelector",
+     "startSelector": {
+      "type": "XPathSelector",
+      "value": "//[@xml:id='novel1_letter4_chapter1_div4_div1_p7']"
+     },
+     "endSelector": {
+      "type": "XPathSelector",
+      "value": "//[@xml:id='novel1_letter4_chapter1_div4_div1_p7']"
+     }
+    }
+   ]
+  },
+  "diagnostic": {
+   "note": "not for open annotation consumption",
+   "html_p_index": [
+    99,
+    99
+   ],
+   "p_offset": -19,
+   "xml_text_content": "<ns6:p xmlns:ns6=\"http://www.tei-c.org/ns/1.0\" xml:id=\"novel1_letter4_chapter1_div4_div1_p7\">From Italy they visited Germany and France. I, their eldest child, was born at Naples, and as an infant accompanied them in their rambles. I remained for several years their only child. Much as they were attached to each other, they seemed to draw inexhaustible stores of affection from a very mine of love to bestow them upon me. My mother&#8217;s tender caresses, and my father&#8217;s smile of benevolent pleasure while regarding me, are my first recollections. I was their plaything and their idol, and something better&#8212;<ns6:pb xml:id=\"F1831_v_037\" n=\"21\"/>their child, the innocent and helpless creature bestowed on them by Heaven, whom to bring up to good, and whose future lot it was in their hands to direct to happiness or misery, according as they fulfilled their duties towards me. With this deep consciousness of what they owed towards the being to which they had given life, added to the active spirit of tenderness that animated both, it may be imagined that while during every hour of my infant life I received a lesson of patience, of charity, and of self-control, I was so guided by a silken cord, that all seemed but one train of enjoyment to me.</ns6:p> \n            "
+  }
+ },
+ {
+  "@context": "http://www.w3.org/ns/anno.jsonld",
+  "id": "https://frankensteinvariorum.org/FL0DeubKEemjJecutxSgAw",
+  "type": "Annotation",
+  "generator": {
+   "id": "https://frankensteinvariorum.org/",
+   "type": "Software",
+   "name": "Frankenstein Variorum",
+   "homepage": "https://recogito.pelagios.org/"
+  },
+  "generated": "2019-10-04T17:12:01.682641+00:00",
+  "body": [
+   {
+    "type": "TextualBody",
+    "value": "Como is a lake in the north of Italy's Lombardy region. Absent as a locale from the 1818 edition, the family's visit here in the 1831 provides the setting for Elizabeth's adoption as a peasant foundling.",
+    "creator": "https://hypothes.is/users/frankensteinvariorum",
+    "modified": "2019-10-04T17:12:01.682641+00:00",
+    "purpose": "commenting"
+   }
+  ],
+  "target": {
+   "source": "https://frankensteinvariorum.github.io/fv-collation/Frankenstein_1831.html",
+   "type": "Text",
+   "selector": [
+    {
+     "type": "TextQuoteSelector",
+     "prefix": "sed a week on the shores of the ",
+     "exact": "Lake\n         of\n         Como",
+     "suffix": ". Their benevolent disposition o"
+    },
+    {
+     "type": "RangeSelector",
+     "startSelector": {
+      "type": "XPathSelector",
+      "value": "//[@xml:id='novel1_letter4_chapter1_div4_div1_p8']"
+     },
+     "endSelector": {
+      "type": "XPathSelector",
+      "value": "//[@xml:id='novel1_letter4_chapter1_div4_div1_p8']"
+     }
+    }
+   ]
+  },
+  "diagnostic": {
+   "note": "not for open annotation consumption",
+   "html_p_index": [
+    100,
+    100
+   ],
+   "p_offset": -19,
+   "xml_text_content": "<ns6:p xmlns:ns6=\"http://www.tei-c.org/ns/1.0\" xml:id=\"novel1_letter4_chapter1_div4_div1_p8\">For a long time I was their only care. My mother had much desire to have a daughter, but I continued their single offspring. When I was about five years old, while making an excursion beyond the frontiers of Italy, they passed a week on the shores of the Lake of Como. Their benevolent disposition often made them enter the cottages of the poor. This, to my mother, was more than a duty; it was a necessity, a passion,&#8212;remembering what she had suffered, and how she had been relieved,&#8212;for her to act in her turn the guardian angel to the afflicted. During one of their walks a poor cot in the foldings of a vale attracted their notice, as being singularly disconsolate, while the number of half-clothed children gathered about it, spoke of penury in its worst shape. One day, when my father had gone by himself to Milan, my mother, accompanied by me, visited this abode. She found a peasant and his wife, hard working, bent down by care and labour, distributing a scanty meal to five hungry babes. Among these there was one which attracted my mother far above all the rest. She appeared of a different stock. The four others were dark-eyed, hardy little vagrants; this child was thin, and very fair. Her hair was the brightest living gold, and, despite the poverty of her clothing, seemed to set a crown of distinction on her head. Her brow was clear and ample, her blue eyes cloudless, and her lips and the moulding of her face so expressive of sensibility and sweetness, that none could behold her without looking on her as of a distinct species, a being heaven-sent, and bearing a celestial stamp in all her features.</ns6:p> \n            "
+  }
+ },
+ {
+  "@context": "http://www.w3.org/ns/anno.jsonld",
+  "id": "https://frankensteinvariorum.org/RUTSNObKEemcZgN5D_d_ZQ",
+  "type": "Annotation",
+  "generator": {
+   "id": "https://frankensteinvariorum.org/",
+   "type": "Software",
+   "name": "Frankenstein Variorum",
+   "homepage": "https://recogito.pelagios.org/"
+  },
+  "generated": "2019-10-04T17:13:23.112980+00:00",
+  "body": [
+   {
+    "type": "TextualBody",
+    "value": "In 1831, the foundling Elizabeth's nobility appears to be recognizable in her physiognomy. Her features are described in terms that might be read as typical markers of whiteness: \u201cthin of frame, fair of skin, and possessed of golden hair and blue eyes.\u201d \n\nDuring the early 19th century the field of \u201crace science\u201d was already established and growing. For instance, Linnaeus\u2019 *Systema naturae* (1758) infamously contains a hierarchy of homo sapiens based on skin color.\n\nIn discussions of these contextual sources in the \u201crace science,\u201d scholars have often focused on the Creature as a symbol of the racialized other. This alteration to Elizabeth\u2019s description in 1831 lends further credence to these readings by positioning Elizabeth, the spiritually and racially pure female, as has his ultimate victim.   \n\nSee, for instance: Mellor, Anne K. \u201cFrankenstein, Racial Science, and the Yellow Peril\u201d in Frankenstein Norton Critical Edition, 2nd Edition, ed. J. Paul Hunter (New York & London: W.W. Norton & Company, 2012), 481-489.",
+    "creator": "https://hypothes.is/users/frankensteinvariorum",
+    "modified": "2019-10-04T17:13:23.112980+00:00",
+    "purpose": "commenting"
+   }
+  ],
+  "target": {
+   "source": "https://frankensteinvariorum.github.io/fv-collation/Frankenstein_1831.html",
+   "type": "Text",
+   "selector": [
+    {
+     "type": "TextQuoteSelector",
+     "prefix": "s thin, and very fair.\n         ",
+     "exact": "Her\n         hair was the brightest living gold, and, despite the poverty of her clothing, seemed\n         to\n         set a crown of distinction on her head. Her brow was clear and ample, her blue eyes\n         cloudless, and her lips and the moulding of her face so expressive of sensibility\n         and\n         sweetness, that none could behold her without looking on her as of a distinct species,\n         a\n         being heaven-sent, and bearing a celestial stamp in all her features.\n      \n      \n      22The peasant woman, perceiving that my mother fixed\n         eyes of wonder and admiration on this lovely girl, eagerly communicated her history.\n         She\n         was not her child, but the daughter of a Milanese nobleman. Her mother was a German,\n         and\n         had died on giving her birth. The infant had been placed with these good people to\n         nurse: they were better off then",
+     "suffix": ". They had not been long married"
+    },
+    {
+     "type": "RangeSelector",
+     "startSelector": {
+      "type": "XPathSelector",
+      "value": "//[@xml:id='novel1_letter4_chapter1_div4_div1_p8']"
+     },
+     "endSelector": {
+      "type": "XPathSelector",
+      "value": "//[@xml:id='novel1_letter4_chapter1_div4_div1_p9']"
+     }
+    }
+   ]
+  },
+  "diagnostic": {
+   "note": "not for open annotation consumption",
+   "html_p_index": [
+    100,
+    101
+   ],
+   "p_offset": -19,
+   "xml_text_content": "<ns6:p xmlns:ns6=\"http://www.tei-c.org/ns/1.0\" xml:id=\"novel1_letter4_chapter1_div4_div1_p8\">For a long time I was their only care. My mother had much desire to have a daughter, but I continued their single offspring. When I was about five years old, while making an excursion beyond the frontiers of Italy, they passed a week on the shores of the Lake of Como. Their benevolent disposition often made them enter the cottages of the poor. This, to my mother, was more than a duty; it was a necessity, a passion,&#8212;remembering what she had suffered, and how she had been relieved,&#8212;for her to act in her turn the guardian angel to the afflicted. During one of their walks a poor cot in the foldings of a vale attracted their notice, as being singularly disconsolate, while the number of half-clothed children gathered about it, spoke of penury in its worst shape. One day, when my father had gone by himself to Milan, my mother, accompanied by me, visited this abode. She found a peasant and his wife, hard working, bent down by care and labour, distributing a scanty meal to five hungry babes. Among these there was one which attracted my mother far above all the rest. She appeared of a different stock. The four others were dark-eyed, hardy little vagrants; this child was thin, and very fair. Her hair was the brightest living gold, and, despite the poverty of her clothing, seemed to set a crown of distinction on her head. Her brow was clear and ample, her blue eyes cloudless, and her lips and the moulding of her face so expressive of sensibility and sweetness, that none could behold her without looking on her as of a distinct species, a being heaven-sent, and bearing a celestial stamp in all her features.</ns6:p> \n            "
+  }
+ },
+ {
+  "@context": "http://www.w3.org/ns/anno.jsonld",
+  "id": "https://frankensteinvariorum.org/sa_aBObKEemNrl_USnejVw",
+  "type": "Annotation",
+  "generator": {
+   "id": "https://frankensteinvariorum.org/",
+   "type": "Software",
+   "name": "Frankenstein Variorum",
+   "homepage": "https://recogito.pelagios.org/"
+  },
+  "generated": "2019-10-04T17:16:25.012504+00:00",
+  "body": [
+   {
+    "type": "TextualBody",
+    "value": "In 1831 Shelley makes one of the most controversial revisions of the 1818 edition.  In the 1818, Elizabeth is a blood relation--Victor's first cousin--since she is the daughter of his father's brother. In the 1831 edition, Elizabeth is instead \"discovered\" by Caroline. Caroline notices a comely blonde girl \"of a different stock\" among the dark-eyed, Italian \"vagrants.\" When Caroline learns that Elizabeth is the daughter of a Milanese nobleman and a German woman she decides that Elizabeth and Victor should someday marry. Thus the potential implication of incest in 1818, when Victor eventually weds his cousin, is erased in 1831.  \n\nSee, for instance: \n\nKetterer, David \"Thematic Anatomy: Intrinsic Structures\" in *Frankenstein: Bloom's Major Literary Characters,* ed. Harold Bloom (Philadelphia: Chelsea House, 2004), 33-54; Richardson, Alan \"Rethinking Romantic Incest: Human Universals, Literary Representation, and the Biology of Mind.\" *New Literary History* 31, no.3 (2000): 553-572;  Twitchell, James B. *Forbidden Partners: The Incest Taboo in Modern Culture* (New York: Columbia UP, 1987).\n",
+    "creator": "https://hypothes.is/users/frankensteinvariorum",
+    "modified": "2019-10-04T17:16:25.012504+00:00",
+    "purpose": "commenting"
+   }
+  ],
+  "target": {
+   "source": "https://frankensteinvariorum.github.io/fv-collation/Frankenstein_1831.html",
+   "type": "Text",
+   "selector": [
+    {
+     "type": "TextQuoteSelector",
+     "prefix": "anty meal to five hungry babes. ",
+     "exact": "Among these there was one which\n         attracted my mother far above all the rest. She appeared of a different stock.",
+     "suffix": " The\n         four\n         othe"
+    },
+    {
+     "type": "RangeSelector",
+     "startSelector": {
+      "type": "XPathSelector",
+      "value": "//[@xml:id='novel1_letter4_chapter1_div4_div1_p8']"
+     },
+     "endSelector": {
+      "type": "XPathSelector",
+      "value": "//[@xml:id='novel1_letter4_chapter1_div4_div1_p8']"
+     }
+    }
+   ]
+  },
+  "diagnostic": {
+   "note": "not for open annotation consumption",
+   "html_p_index": [
+    100,
+    100
+   ],
+   "p_offset": -19,
+   "xml_text_content": "<ns6:p xmlns:ns6=\"http://www.tei-c.org/ns/1.0\" xml:id=\"novel1_letter4_chapter1_div4_div1_p8\">For a long time I was their only care. My mother had much desire to have a daughter, but I continued their single offspring. When I was about five years old, while making an excursion beyond the frontiers of Italy, they passed a week on the shores of the Lake of Como. Their benevolent disposition often made them enter the cottages of the poor. This, to my mother, was more than a duty; it was a necessity, a passion,&#8212;remembering what she had suffered, and how she had been relieved,&#8212;for her to act in her turn the guardian angel to the afflicted. During one of their walks a poor cot in the foldings of a vale attracted their notice, as being singularly disconsolate, while the number of half-clothed children gathered about it, spoke of penury in its worst shape. One day, when my father had gone by himself to Milan, my mother, accompanied by me, visited this abode. She found a peasant and his wife, hard working, bent down by care and labour, distributing a scanty meal to five hungry babes. Among these there was one which attracted my mother far above all the rest. She appeared of a different stock. The four others were dark-eyed, hardy little vagrants; this child was thin, and very fair. Her hair was the brightest living gold, and, despite the poverty of her clothing, seemed to set a crown of distinction on her head. Her brow was clear and ample, her blue eyes cloudless, and her lips and the moulding of her face so expressive of sensibility and sweetness, that none could behold her without looking on her as of a distinct species, a being heaven-sent, and bearing a celestial stamp in all her features.</ns6:p> \n            "
+  }
+ },
+ {
+  "@context": "http://www.w3.org/ns/anno.jsonld",
+  "id": "https://frankensteinvariorum.org/DP-WrObKEemNVPc00LcWjw",
+  "type": "Annotation",
+  "generator": {
+   "id": "https://frankensteinvariorum.org/",
+   "type": "Software",
+   "name": "Frankenstein Variorum",
+   "homepage": "https://recogito.pelagios.org/"
+  },
+  "generated": "2019-10-04T17:11:48.715386+00:00",
+  "body": [
+   {
+    "type": "TextualBody",
+    "value": "From the Italian, \"slaves forever agitating\". Shelley's reference here may be referring to the Austro-Hungarian annexation of Lombardy. The \"enslavement\" of the Italian province occurred as a consequence of decisions made at the Congress of Vienna (1814-1815).",
+    "creator": "https://hypothes.is/users/frankensteinvariorum",
+    "modified": "2019-10-04T17:11:48.715386+00:00",
+    "purpose": "commenting"
+   }
+  ],
+  "target": {
+   "source": "https://frankensteinvariorum.github.io/fv-collation/Frankenstein_1831.html",
+   "type": "Text",
+   "selector": [
+    {
+     "type": "TextQuoteSelector",
+     "prefix": "e glory of Italy,\u2014one among the ",
+     "exact": "schiavi ognor\n            frementi",
+     "suffix": ", who exerted himself to obtain "
+    },
+    {
+     "type": "RangeSelector",
+     "startSelector": {
+      "type": "XPathSelector",
+      "value": "//[@xml:id='novel1_letter4_chapter1_div4_div1_p9']"
+     },
+     "endSelector": {
+      "type": "XPathSelector",
+      "value": "//[@xml:id='novel1_letter4_chapter1_div4_div1_p9']"
+     }
+    }
+   ]
+  },
+  "diagnostic": {
+   "note": "not for open annotation consumption",
+   "html_p_index": [
+    101,
+    101
+   ],
+   "p_offset": -19,
+   "xml_text_content": "<ns6:p xmlns:ns6=\"http://www.tei-c.org/ns/1.0\" xml:id=\"novel1_letter4_chapter1_div4_div1_p9\"> \n               <ns6:pb xml:id=\"F1831_v_038\" n=\"22\"/>The peasant woman, perceiving that my mother fixed eyes of wonder and admiration on this lovely girl, eagerly communicated her history. She was not her child, but the daughter of a Milanese nobleman. Her mother was a German, and had died on giving her birth. The infant had been placed with these good people to nurse: they were better off then. They had not been long married, and their eldest child was but just born. The father of their charge was one of those Italians nursed in the memory of the antique glory of Italy,&#8212;one among the <ns6:hi xml:id=\"novel1_letter4_chapter1_div4_div1_p9_hi1\">schiavi ognor frementi</ns6:hi>, who exerted himself to obtain the liberty of his country. He became the victim of its weakness. Whether he had died, or still lingered in the dungeons of Austria, was not known. His property was confiscated, his child became an orphan and a beggar. She continued with her foster parents, and bloomed in their rude abode, fairer than a garden rose among dark-leaved brambles.</ns6:p> \n            "
+  }
+ },
+ {
+  "@context": "http://www.w3.org/ns/anno.jsonld",
+  "id": "https://frankensteinvariorum.org/IqXfUubKEemlABflXAgnxA",
+  "type": "Annotation",
+  "generator": {
+   "id": "https://frankensteinvariorum.org/",
+   "type": "Software",
+   "name": "Frankenstein Variorum",
+   "homepage": "https://recogito.pelagios.org/"
+  },
+  "generated": "2019-10-04T17:12:25.013008+00:00",
+  "body": [
+   {
+    "type": "TextualBody",
+    "value": "Elizabeth was also the name of Percy Shelley's mother. Mary changed the character's name from Myrtella to Elizabeth in the manuscript, unless this change was one of Percy's suggested changes. In Greek and Roman mythology, the flower myrtle was sacred to the goddess Venus (Aphrodite) and symbolized love.",
+    "creator": "https://hypothes.is/users/frankensteinvariorum",
+    "modified": "2019-10-04T17:12:25.013008+00:00",
+    "purpose": "commenting"
+   }
+  ],
+  "target": {
+   "source": "https://frankensteinvariorum.github.io/fv-collation/Frankenstein_1831.html",
+   "type": "Text",
+   "selector": [
+    {
+     "type": "TextQuoteSelector",
+     "prefix": "  \n      \n      Every one loved ",
+     "exact": "Elizabeth",
+     "suffix": ". The passionate and almost reve"
+    },
+    {
+     "type": "RangeSelector",
+     "startSelector": {
+      "type": "XPathSelector",
+      "value": "//[@xml:id='novel1_letter4_chapter1_div4_div1_p11']"
+     },
+     "endSelector": {
+      "type": "XPathSelector",
+      "value": "//[@xml:id='novel1_letter4_chapter1_div4_div1_p11']"
+     }
+    }
+   ]
+  },
+  "diagnostic": {
+   "note": "not for open annotation consumption",
+   "html_p_index": [
+    103,
+    103
+   ],
+   "p_offset": -19,
+   "xml_text_content": "<ns6:p xmlns:ns6=\"http://www.tei-c.org/ns/1.0\" xml:id=\"novel1_letter4_chapter1_div4_div1_p11\">Every one loved Elizabeth. The passionate and almost reverential attachment with which all regarded her became, while I shared it, my pride and my delight. On the evening previous to her being brought to my home, my mother had said playfully,&#8212;&#8220;I have a pretty present for my Victor&#8212;to-morrow he shall have it.&#8221; And when, on the morrow, she presented Elizabeth to me as her promised gift, I, with childish seriousness, interpreted her words literally, and looked upon Elizabeth as mine&#8212;mine to protect, love, and <ns6:pb xml:id=\"F1831_v_039\" n=\"23\"/>cherish. All praises bestowed on her, I received as made to a possession of my own. We called each other familiarly by the name of cousin. No word, no expression could body forth the kind of relation in which she stood to me&#8212;my more than sister, since till death she was to be mine only.</ns6:p> \n            "
+  }
+ },
+ {
+  "@context": "http://www.w3.org/ns/anno.jsonld",
+  "id": "https://frankensteinvariorum.org/_uplYObJEemM6ecSScLu9Q",
+  "type": "Annotation",
+  "generator": {
+   "id": "https://frankensteinvariorum.org/",
+   "type": "Software",
+   "name": "Frankenstein Variorum",
+   "homepage": "https://recogito.pelagios.org/"
+  },
+  "generated": "2019-10-04T17:11:25.065111+00:00",
+  "body": [
+   {
+    "type": "TextualBody",
+    "value": "When Victor calls Elizabeth \"cousin\" in the 1831 edition, the word is a term of endearment but not a term to take literally, since they have no blood relation. The term likely carries over, but with an entirely changed meaning, from the 1818 edition where Elizabeth actually is Victor's cousin (the daughter of his father's brother).\n\nIt is true, however, that incest was of significant fascination to Shelley. Her novella *Mathilda*, published posthumously in 1954, concerns the relationship of a woman with her father. After sending the manuscript of Mathilda to William Godwin, he told Shelley he found the depiction of incest \"disgusting and detestable,\" and refused to return the manuscript to his daughter.\n\nSee Janet Todd's edition of Mary's novel:Shelley, Mary. *Matilda; with Mary and Maria*, by Mary Wollstonecraft. Ed. Janet Todd. London: Penguin, 1992, p. xvii. ",
+    "creator": "https://hypothes.is/users/frankensteinvariorum",
+    "modified": "2019-10-04T17:11:25.065111+00:00",
+    "purpose": "commenting"
+   }
+  ],
+  "target": {
+   "source": "https://frankensteinvariorum.github.io/fv-collation/Frankenstein_1831.html",
+   "type": "Text",
+   "selector": [
+    {
+     "type": "TextQuoteSelector",
+     "prefix": ",\n         love, and 23cherish. ",
+     "exact": "All praises bestowed on her, I\n         received as made to a possession of my own. We called each other familiarly by the\n         name\n         of cousin",
+     "suffix": ". No word, no expression could b"
+    },
+    {
+     "type": "RangeSelector",
+     "startSelector": {
+      "type": "XPathSelector",
+      "value": "//[@xml:id='novel1_letter4_chapter1_div4_div1_p11']"
+     },
+     "endSelector": {
+      "type": "XPathSelector",
+      "value": "//[@xml:id='novel1_letter4_chapter1_div4_div1_p11']"
+     }
+    }
+   ]
+  },
+  "diagnostic": {
+   "note": "not for open annotation consumption",
+   "html_p_index": [
+    103,
+    103
+   ],
+   "p_offset": -19,
+   "xml_text_content": "<ns6:p xmlns:ns6=\"http://www.tei-c.org/ns/1.0\" xml:id=\"novel1_letter4_chapter1_div4_div1_p11\">Every one loved Elizabeth. The passionate and almost reverential attachment with which all regarded her became, while I shared it, my pride and my delight. On the evening previous to her being brought to my home, my mother had said playfully,&#8212;&#8220;I have a pretty present for my Victor&#8212;to-morrow he shall have it.&#8221; And when, on the morrow, she presented Elizabeth to me as her promised gift, I, with childish seriousness, interpreted her words literally, and looked upon Elizabeth as mine&#8212;mine to protect, love, and <ns6:pb xml:id=\"F1831_v_039\" n=\"23\"/>cherish. All praises bestowed on her, I received as made to a possession of my own. We called each other familiarly by the name of cousin. No word, no expression could body forth the kind of relation in which she stood to me&#8212;my more than sister, since till death she was to be mine only.</ns6:p> \n            "
+  }
+ },
+ {
+  "@context": "http://www.w3.org/ns/anno.jsonld",
+  "id": "https://frankensteinvariorum.org/3A7_0ubKEemRf6Pjj9jIgw",
+  "type": "Annotation",
+  "generator": {
+   "id": "https://frankensteinvariorum.org/",
+   "type": "Software",
+   "name": "Frankenstein Variorum",
+   "homepage": "https://recogito.pelagios.org/"
+  },
+  "generated": "2019-10-04T17:17:36.062998+00:00",
+  "body": [
+   {
+    "type": "TextualBody",
+    "value": "*Campagne* is French for \"countryside\"; that is, a country house.",
+    "creator": "https://hypothes.is/users/frankensteinvariorum",
+    "modified": "2019-10-04T17:17:36.062998+00:00",
+    "purpose": "commenting"
+   }
+  ],
+  "target": {
+   "source": "https://frankensteinvariorum.github.io/fv-collation/Frankenstein_1831.html",
+   "type": "Text",
+   "selector": [
+    {
+     "type": "TextQuoteSelector",
+     "prefix": "house\n         in Geneva, and a ",
+     "exact": "campagne ",
+     "suffix": "on Belrive, the eastern shore of"
+    },
+    {
+     "type": "RangeSelector",
+     "startSelector": {
+      "type": "XPathSelector",
+      "value": "//[@xml:id='novel1_letter4_chapter2_div4_div2_p2']"
+     },
+     "endSelector": {
+      "type": "XPathSelector",
+      "value": "//[@xml:id='novel1_letter4_chapter2_div4_div2_p2']"
+     }
+    }
+   ]
+  },
+  "diagnostic": {
+   "note": "not for open annotation consumption",
+   "html_p_index": [
+    105,
+    105
+   ],
+   "p_offset": -19,
+   "xml_text_content": "<ns6:p xmlns:ns6=\"http://www.tei-c.org/ns/1.0\" xml:id=\"novel1_letter4_chapter2_div4_div2_p2\">\n               <ns6:seg part=\"F\" xml:id=\"C07d_app58-f1831__F\">On the birth of a second son, my junior by seven years, my parents gave up entirely their wandering life, and fixed themselves in their native country. We possessed a house in Geneva, and a campagne on Belrive, the eastern shore of the lake, at the distance of rather more than a league from the city. We resided principally in the latter, and the lives of my parents were passed in considerable seclusion. It was my temper to avoid a crowd, and to attach myself fervently to a few. </ns6:seg>\n         \n               <ns6:seg xml:id=\"C07e_app1-f1831\">I was indifferent, therefore, to my schoolfellows in general; </ns6:seg>\n               <ns6:seg xml:id=\"C07e_app4-f1831\">but I united myself in the bonds of the closest friendship to one among them. </ns6:seg>Henry <ns6:seg xml:id=\"C07e_app13-f1831\">Clerval </ns6:seg>was the <ns6:seg xml:id=\"C07e_app15-f1831\">son </ns6:seg>of a merchant <ns6:seg xml:id=\"C07e_app17-f1831\">of </ns6:seg>\n               <ns6:seg xml:id=\"C07e_app18-f1831\">Geneva. </ns6:seg>He was a boy of singular talent <ns6:seg xml:id=\"C07e_app24-f1831\">and fancy. He loved enterprise, hardship, even danger, for its own sake. </ns6:seg>\n               <ns6:seg xml:id=\"C07e_app37-f1831\">He was deeply read </ns6:seg>in books of <ns6:seg xml:id=\"C07e_app39-f1831\">chivalry and romance. He composed heroic songs, and began to write many a tale of enchantment and knightly adventure. </ns6:seg>\n               <ns6:seg part=\"I\" xml:id=\"C07e_app44-f1831__I\">He tried to make us act plays, and to enter into masquerades, the characters were drawn from the heroes of Roncesvalles, of the Round Table of King Arthur, and the chivalrous train who shed their blood to redeem the holy sepulchre from the hands of the infidels.</ns6:seg>\n            </ns6:p>\n            "
+  }
+ },
+ {
+  "@context": "http://www.w3.org/ns/anno.jsonld",
+  "id": "https://frankensteinvariorum.org/Eppx9ObKEemIkavGNxLfOw",
+  "type": "Annotation",
+  "generator": {
+   "id": "https://frankensteinvariorum.org/",
+   "type": "Software",
+   "name": "Frankenstein Variorum",
+   "homepage": "https://recogito.pelagios.org/"
+  },
+  "generated": "2019-10-04T17:11:58.054752+00:00",
+  "body": [
+   {
+    "type": "TextualBody",
+    "value": "Victor refers to the legendary Knights of the Roundtable at the Court of King Arthur of Camelot. King Arthur and his Knights are the subject of the canonical medieval text *Le Morte d'Arthur* by Sir Thomas Mallory, published in 1485 by William Caxton. \n\nIn the 1831, this single reference to Mallory replaces a string of citations to chivalric romance in the 1818 edition: \"Orlando, Robin Hood, Amadis, and St. George\"--in both cases, these references serve to underline VIctor's fascination with the scientific imagination of the medieval period in the works of Agrippa, et al., through this earlier enchantment with the medieval literary imagination in his childhood.",
+    "creator": "https://hypothes.is/users/frankensteinvariorum",
+    "modified": "2019-10-04T17:11:58.054752+00:00",
+    "purpose": "commenting"
+   }
+  ],
+  "target": {
+   "source": "https://frankensteinvariorum.github.io/fv-collation/Frankenstein_1831.html",
+   "type": "Text",
+   "selector": [
+    {
+     "type": "TextQuoteSelector",
+     "prefix": "alles, of\n         the\n         ",
+     "exact": "Round Table of King Arthur",
+     "suffix": ", and the chivalrous train who s"
+    },
+    {
+     "type": "RangeSelector",
+     "startSelector": {
+      "type": "XPathSelector",
+      "value": "//[@xml:id='novel1_letter4_chapter2_div4_div2_p2']"
+     },
+     "endSelector": {
+      "type": "XPathSelector",
+      "value": "//[@xml:id='novel1_letter4_chapter2_div4_div2_p2']"
+     }
+    }
+   ]
+  },
+  "diagnostic": {
+   "note": "not for open annotation consumption",
+   "html_p_index": [
+    105,
+    105
+   ],
+   "p_offset": -19,
+   "xml_text_content": "<ns6:p xmlns:ns6=\"http://www.tei-c.org/ns/1.0\" xml:id=\"novel1_letter4_chapter2_div4_div2_p2\">\n               <ns6:seg part=\"F\" xml:id=\"C07d_app58-f1831__F\">On the birth of a second son, my junior by seven years, my parents gave up entirely their wandering life, and fixed themselves in their native country. We possessed a house in Geneva, and a campagne on Belrive, the eastern shore of the lake, at the distance of rather more than a league from the city. We resided principally in the latter, and the lives of my parents were passed in considerable seclusion. It was my temper to avoid a crowd, and to attach myself fervently to a few. </ns6:seg>\n         \n               <ns6:seg xml:id=\"C07e_app1-f1831\">I was indifferent, therefore, to my schoolfellows in general; </ns6:seg>\n               <ns6:seg xml:id=\"C07e_app4-f1831\">but I united myself in the bonds of the closest friendship to one among them. </ns6:seg>Henry <ns6:seg xml:id=\"C07e_app13-f1831\">Clerval </ns6:seg>was the <ns6:seg xml:id=\"C07e_app15-f1831\">son </ns6:seg>of a merchant <ns6:seg xml:id=\"C07e_app17-f1831\">of </ns6:seg>\n               <ns6:seg xml:id=\"C07e_app18-f1831\">Geneva. </ns6:seg>He was a boy of singular talent <ns6:seg xml:id=\"C07e_app24-f1831\">and fancy. He loved enterprise, hardship, even danger, for its own sake. </ns6:seg>\n               <ns6:seg xml:id=\"C07e_app37-f1831\">He was deeply read </ns6:seg>in books of <ns6:seg xml:id=\"C07e_app39-f1831\">chivalry and romance. He composed heroic songs, and began to write many a tale of enchantment and knightly adventure. </ns6:seg>\n               <ns6:seg part=\"I\" xml:id=\"C07e_app44-f1831__I\">He tried to make us act plays, and to enter into masquerades, the characters were drawn from the heroes of Roncesvalles, of the Round Table of King Arthur, and the chivalrous train who shed their blood to redeem the holy sepulchre from the hands of the infidels.</ns6:seg>\n            </ns6:p>\n            "
+  }
+ },
+ {
+  "@context": "http://www.w3.org/ns/anno.jsonld",
+  "id": "https://frankensteinvariorum.org/hMg75ObKEemLTINMXD9seQ",
+  "type": "Annotation",
+  "generator": {
+   "id": "https://frankensteinvariorum.org/",
+   "type": "Software",
+   "name": "Frankenstein Variorum",
+   "homepage": "https://recogito.pelagios.org/"
+  },
+  "generated": "2019-10-04T17:15:09.672669+00:00",
+  "body": [
+   {
+    "type": "TextualBody",
+    "value": "The 1818 edition cites popular romance heroes admired by the young Henry Clerval, but the 1831 text replaces these with a religious reference to the holy wars of the Crusades, which took place in the twelfth and thirteenth centuries. The \"chivalrous train\" refers to the Christian knights of Europe who sought to regain control over the Holy Lands of the Levant.  This passage is one of many places where Mary's 1831 revision becomes more explicitly religious than was the novel's original text.",
+    "creator": "https://hypothes.is/users/frankensteinvariorum",
+    "modified": "2019-10-04T17:15:09.672669+00:00",
+    "purpose": "commenting"
+   }
+  ],
+  "target": {
+   "source": "https://frankensteinvariorum.github.io/fv-collation/Frankenstein_1831.html",
+   "type": "Text",
+   "selector": [
+    {
+     "type": "TextQuoteSelector",
+     "prefix": "Round Table of King Arthur, and ",
+     "exact": "the chivalrous train who shed their blood to redeem\n         the\n         holy sepulchre from the hands of the infidels",
+     "suffix": ".\n      \n      \n      No human b"
+    },
+    {
+     "type": "RangeSelector",
+     "startSelector": {
+      "type": "XPathSelector",
+      "value": "//[@xml:id='novel1_letter4_chapter2_div4_div2_p2']"
+     },
+     "endSelector": {
+      "type": "XPathSelector",
+      "value": "//[@xml:id='novel1_letter4_chapter2_div4_div2_p2']"
+     }
+    }
+   ]
+  },
+  "diagnostic": {
+   "note": "not for open annotation consumption",
+   "html_p_index": [
+    105,
+    105
+   ],
+   "p_offset": -19,
+   "xml_text_content": "<ns6:p xmlns:ns6=\"http://www.tei-c.org/ns/1.0\" xml:id=\"novel1_letter4_chapter2_div4_div2_p2\">\n               <ns6:seg part=\"F\" xml:id=\"C07d_app58-f1831__F\">On the birth of a second son, my junior by seven years, my parents gave up entirely their wandering life, and fixed themselves in their native country. We possessed a house in Geneva, and a campagne on Belrive, the eastern shore of the lake, at the distance of rather more than a league from the city. We resided principally in the latter, and the lives of my parents were passed in considerable seclusion. It was my temper to avoid a crowd, and to attach myself fervently to a few. </ns6:seg>\n         \n               <ns6:seg xml:id=\"C07e_app1-f1831\">I was indifferent, therefore, to my schoolfellows in general; </ns6:seg>\n               <ns6:seg xml:id=\"C07e_app4-f1831\">but I united myself in the bonds of the closest friendship to one among them. </ns6:seg>Henry <ns6:seg xml:id=\"C07e_app13-f1831\">Clerval </ns6:seg>was the <ns6:seg xml:id=\"C07e_app15-f1831\">son </ns6:seg>of a merchant <ns6:seg xml:id=\"C07e_app17-f1831\">of </ns6:seg>\n               <ns6:seg xml:id=\"C07e_app18-f1831\">Geneva. </ns6:seg>He was a boy of singular talent <ns6:seg xml:id=\"C07e_app24-f1831\">and fancy. He loved enterprise, hardship, even danger, for its own sake. </ns6:seg>\n               <ns6:seg xml:id=\"C07e_app37-f1831\">He was deeply read </ns6:seg>in books of <ns6:seg xml:id=\"C07e_app39-f1831\">chivalry and romance. He composed heroic songs, and began to write many a tale of enchantment and knightly adventure. </ns6:seg>\n               <ns6:seg part=\"I\" xml:id=\"C07e_app44-f1831__I\">He tried to make us act plays, and to enter into masquerades, the characters were drawn from the heroes of Roncesvalles, of the Round Table of King Arthur, and the chivalrous train who shed their blood to redeem the holy sepulchre from the hands of the infidels.</ns6:seg>\n            </ns6:p>\n            "
+  }
+ },
+ {
+  "@context": "http://www.w3.org/ns/anno.jsonld",
+  "id": "https://frankensteinvariorum.org/yW7tYObKEemjAmvrzpGMkg",
+  "type": "Annotation",
+  "generator": {
+   "id": "https://frankensteinvariorum.org/",
+   "type": "Software",
+   "name": "Frankenstein Variorum",
+   "homepage": "https://recogito.pelagios.org/"
+  },
+  "generated": "2019-10-04T17:17:04.840223+00:00",
+  "body": [
+   {
+    "type": "TextualBody",
+    "value": "Roncesvalles, a small village in Northern Spain, was the site of the Battle of Roncevaux Pass (1798), in which the rear guard of Charlemagne's army was defeated by Basque Tribes. ",
+    "creator": "https://hypothes.is/users/frankensteinvariorum",
+    "modified": "2019-10-04T17:17:04.840223+00:00",
+    "purpose": "commenting"
+   }
+  ],
+  "target": {
+   "source": "https://frankensteinvariorum.github.io/fv-collation/Frankenstein_1831.html",
+   "type": "Text",
+   "selector": [
+    {
+     "type": "TextQuoteSelector",
+     "prefix": "s were drawn from the heroes of ",
+     "exact": "Roncesvalles",
+     "suffix": ", of\n         the\n         Round"
+    },
+    {
+     "type": "RangeSelector",
+     "startSelector": {
+      "type": "XPathSelector",
+      "value": "//[@xml:id='novel1_letter4_chapter2_div4_div2_p2']"
+     },
+     "endSelector": {
+      "type": "XPathSelector",
+      "value": "//[@xml:id='novel1_letter4_chapter2_div4_div2_p2']"
+     }
+    }
+   ]
+  },
+  "diagnostic": {
+   "note": "not for open annotation consumption",
+   "html_p_index": [
+    105,
+    105
+   ],
+   "p_offset": -19,
+   "xml_text_content": "<ns6:p xmlns:ns6=\"http://www.tei-c.org/ns/1.0\" xml:id=\"novel1_letter4_chapter2_div4_div2_p2\">\n               <ns6:seg part=\"F\" xml:id=\"C07d_app58-f1831__F\">On the birth of a second son, my junior by seven years, my parents gave up entirely their wandering life, and fixed themselves in their native country. We possessed a house in Geneva, and a campagne on Belrive, the eastern shore of the lake, at the distance of rather more than a league from the city. We resided principally in the latter, and the lives of my parents were passed in considerable seclusion. It was my temper to avoid a crowd, and to attach myself fervently to a few. </ns6:seg>\n         \n               <ns6:seg xml:id=\"C07e_app1-f1831\">I was indifferent, therefore, to my schoolfellows in general; </ns6:seg>\n               <ns6:seg xml:id=\"C07e_app4-f1831\">but I united myself in the bonds of the closest friendship to one among them. </ns6:seg>Henry <ns6:seg xml:id=\"C07e_app13-f1831\">Clerval </ns6:seg>was the <ns6:seg xml:id=\"C07e_app15-f1831\">son </ns6:seg>of a merchant <ns6:seg xml:id=\"C07e_app17-f1831\">of </ns6:seg>\n               <ns6:seg xml:id=\"C07e_app18-f1831\">Geneva. </ns6:seg>He was a boy of singular talent <ns6:seg xml:id=\"C07e_app24-f1831\">and fancy. He loved enterprise, hardship, even danger, for its own sake. </ns6:seg>\n               <ns6:seg xml:id=\"C07e_app37-f1831\">He was deeply read </ns6:seg>in books of <ns6:seg xml:id=\"C07e_app39-f1831\">chivalry and romance. He composed heroic songs, and began to write many a tale of enchantment and knightly adventure. </ns6:seg>\n               <ns6:seg part=\"I\" xml:id=\"C07e_app44-f1831__I\">He tried to make us act plays, and to enter into masquerades, the characters were drawn from the heroes of Roncesvalles, of the Round Table of King Arthur, and the chivalrous train who shed their blood to redeem the holy sepulchre from the hands of the infidels.</ns6:seg>\n            </ns6:p>\n            "
+  }
+ },
+ {
+  "@context": "http://www.w3.org/ns/anno.jsonld",
+  "id": "https://frankensteinvariorum.org/AnIGhObKEem98HdyXvYt_w",
+  "type": "Annotation",
+  "generator": {
+   "id": "https://frankensteinvariorum.org/",
+   "type": "Software",
+   "name": "Frankenstein Variorum",
+   "homepage": "https://recogito.pelagios.org/"
+  },
+  "generated": "2019-10-04T17:11:31.005730+00:00",
+  "body": [
+   {
+    "type": "TextualBody",
+    "value": "This passage, which generalizes about the pleasure of Victor's childhood, replaces in 1831 a detailed account of how Victor's parents educated their children in languages, mathematics, and other knowledges in the 1818 edition. The loss of that passage from 1818 leaves it unclear how Victor's childhood may have prepared him for a dedication to science as an adult student. Shelley first ventures with this revision in a similarly brief revision in the Thomas copy, which portrays their childhood as full of religious devotion rather than Enlightenment education.",
+    "creator": "https://hypothes.is/users/frankensteinvariorum",
+    "modified": "2019-10-04T17:11:31.005730+00:00",
+    "purpose": "commenting"
+   }
+  ],
+  "target": {
+   "source": "https://frankensteinvariorum.github.io/fv-collation/Frankenstein_1831.html",
+   "type": "Text",
+   "selector": [
+    {
+     "type": "TextQuoteSelector",
+     "prefix": "e infidels.\n      \n      \n      ",
+     "exact": "No human being could have passed a happier childhood than myself. My parents were\n         possessed by the very spirit of kindness and indulgence. We felt that they were not\n         the\n         tyrants to rule our lot according to their caprice, but the agents and creators of\n         all\n         the many delights which we enjoyed. When I mingled with other families, I distinctly\n         discerned how peculiarly fortunate my lot was, and gratitude assisted the developement\n         of filial love.\n      ",
+     "suffix": "\n      \n      My temper was some"
+    },
+    {
+     "type": "RangeSelector",
+     "startSelector": {
+      "type": "XPathSelector",
+      "value": "//[@xml:id='novel1_letter4_chapter2_div4_div2_p3']"
+     },
+     "endSelector": {
+      "type": "XPathSelector",
+      "value": "//[@xml:id='novel1_letter4_chapter2_div4_div2_p3']"
+     }
+    }
+   ]
+  },
+  "diagnostic": {
+   "note": "not for open annotation consumption",
+   "html_p_index": [
+    106,
+    106
+   ],
+   "p_offset": -19,
+   "xml_text_content": "<ns6:p xmlns:ns6=\"http://www.tei-c.org/ns/1.0\" xml:id=\"novel1_letter4_chapter2_div4_div2_p3\">No human being could have passed a happier childhood than myself. My parents were possessed by the very spirit of kindness and indulgence. We felt that they were not the tyrants to rule our lot according to their caprice, but the agents and creators of all the many delights which we enjoyed. When I mingled with other families, I distinctly discerned how peculiarly fortunate my lot was, and gratitude assisted the developement of filial love.</ns6:p> \n            "
+  }
+ },
+ {
+  "@context": "http://www.w3.org/ns/anno.jsonld",
+  "id": "https://frankensteinvariorum.org/ONWqKObKEemDq0dsv_fJTQ",
+  "type": "Annotation",
+  "generator": {
+   "id": "https://frankensteinvariorum.org/",
+   "type": "Software",
+   "name": "Frankenstein Variorum",
+   "homepage": "https://recogito.pelagios.org/"
+  },
+  "generated": "2019-10-04T17:13:02.243307+00:00",
+  "body": [
+   {
+    "type": "TextualBody",
+    "value": "In this 1831 revision, Victor's expression \"former studies\" is generalized from the specific \"more rational theory of chemistry\" that appears in the 1818 edition. However, it is unclear what \"former studies\" Shelley is intimating here, as the scene with the copy of Agrippa is presented as the fateful moment of genesis for Victor's interest in science. \n\nThus, in the 1818 edition his father's gruff dismissal is presented as the foreclosure of a hypothetical redirection of Victor's curiosity towards \"modern discoveries\" of chemistry as an uncharted *course* of future study, rather than as a rebuke which threw him off the established *track* of his \"former studies.\"",
+    "creator": "https://hypothes.is/users/frankensteinvariorum",
+    "modified": "2019-10-04T17:13:02.243307+00:00",
+    "purpose": "commenting"
+   }
+  ],
+  "target": {
+   "source": "https://frankensteinvariorum.github.io/fv-collation/Frankenstein_1831.html",
+   "type": "Text",
+   "selector": [
+    {
+     "type": "TextQuoteSelector",
+     "prefix": " have thrown Agrippa aside, and ",
+     "exact": "have\n         contented my imagination, warmed as it was, by returning with greater ardour to my\n         former studies",
+     "suffix": ". It is even possible, that the "
+    },
+    {
+     "type": "RangeSelector",
+     "startSelector": {
+      "type": "XPathSelector",
+      "value": "//[@xml:id='novel1_letter4_chapter2_div4_div2_p8']"
+     },
+     "endSelector": {
+      "type": "XPathSelector",
+      "value": "//[@xml:id='novel1_letter4_chapter2_div4_div2_p8']"
+     }
+    }
+   ]
+  },
+  "diagnostic": {
+   "note": "not for open annotation consumption",
+   "html_p_index": [
+    111,
+    111
+   ],
+   "p_offset": -19,
+   "xml_text_content": "<ns6:p xmlns:ns6=\"http://www.tei-c.org/ns/1.0\" xml:id=\"novel1_letter4_chapter2_div4_div2_p8\">\n               <ns6:seg part=\"F\" xml:id=\"C07g_app72-f1831__F\">If, </ns6:seg>instead of this <ns6:seg xml:id=\"C07g_app74-f1831\">remark, </ns6:seg>my father had taken the pains to <ns6:seg xml:id=\"C07g_app76-f1831\">explain </ns6:seg>to <ns6:seg xml:id=\"C07g_app78-f1831\">me, </ns6:seg>that the principles of Agrippa had been entirely <ns6:seg xml:id=\"C07g_app80-f1831\">exploded, </ns6:seg>and that <ns6:seg xml:id=\"C07g_app82-f1831\">a modern system </ns6:seg>of science had been <ns6:seg xml:id=\"C07g_app85-f1831\">introduced, </ns6:seg>which possessed much greater <ns6:seg xml:id=\"C07g_app88-f1831\">powers </ns6:seg>than the <ns6:seg xml:id=\"C07g_app90-f1831\">ancient, </ns6:seg>because the powers of the <ns6:seg xml:id=\"C07g_app93-f1831\">latter </ns6:seg>were <ns6:seg xml:id=\"C07g_app95-f1831\">chimerical, while those of the </ns6:seg>\n               <ns6:seg xml:id=\"C07g_app96-f1831\">former were </ns6:seg>real and practical; under such <ns6:seg xml:id=\"C07g_app98-f1831\">circumstances, </ns6:seg>I should certainly have thrown Agrippa aside, <ns6:seg xml:id=\"C07g_app101-f1831\">and </ns6:seg>\n               <ns6:seg xml:id=\"C07g_app102-f1831\">have contented </ns6:seg>my <ns6:seg xml:id=\"C07g_app104-f1831\">imagination, </ns6:seg>warmed as it <ns6:seg xml:id=\"C07g_app106-f1831\">was, by returning with greater ardour to my former studies. </ns6:seg>It is even <ns6:seg xml:id=\"C07g_app108-f1831\">possible, </ns6:seg>that the train of my ideas <ns6:seg xml:id=\"C07g_app110-f1831\">would </ns6:seg>never have <ns6:seg xml:id=\"C07g_app112-f1831\">received the </ns6:seg>fatal impulse <ns6:seg xml:id=\"C07g_app114-f1831\">that </ns6:seg>led <ns6:seg xml:id=\"C07g_app116-f1831\">to my ruin. But the </ns6:seg>cursory glance my father had taken of my volume by no means assured me that he was acquainted with <ns6:seg xml:id=\"C07g_app120-f1831\">its </ns6:seg>contents; and I continued to read with the <ns6:seg xml:id=\"C07g_app123-f1831\">greatest </ns6:seg>avidity.</ns6:p>\n            "
+  }
+ },
+ {
+  "@context": "http://www.w3.org/ns/anno.jsonld",
+  "id": "https://frankensteinvariorum.org/3YfyJObKEemIkr9EVdKbcg",
+  "type": "Annotation",
+  "generator": {
+   "id": "https://frankensteinvariorum.org/",
+   "type": "Software",
+   "name": "Frankenstein Variorum",
+   "homepage": "https://recogito.pelagios.org/"
+  },
+  "generated": "2019-10-04T17:17:38.514633+00:00",
+  "body": [
+   {
+    "type": "TextualBody",
+    "value": "In this revision for the 1831 edition, Victor narrates a period of exploration and disillusionment with the emergent discourse of modern rational science, encapsulated here by the figure of Newton. \n",
+    "creator": "https://hypothes.is/users/frankensteinvariorum",
+    "modified": "2019-10-04T17:17:38.514633+00:00",
+    "purpose": "commenting"
+   }
+  ],
+  "target": {
+   "source": "https://frankensteinvariorum.github.io/fv-collation/Frankenstein_1831.html",
+   "type": "Text",
+   "selector": [
+    {
+     "type": "TextQuoteSelector",
+     "prefix": "res known to few beside myself.\n",
+     "exact": "         I\n         have described myself as always having been embued with a fervent longing to penetrate\n         the secrets of nature. In spite of the intense labour and wonderful discoveries of\n         modern philosophers, I always came from my studies discontented and unsatisfied. Sir\n         Isaac Newton is said to have avowed that he felt like a child picking up shells beside\n         the great and unexplored ocean of truth. Those of his successors in each branch of\n         natural philosophy with whom I was acquainted, appeared even to my boy\u2019s apprehensions,\n         as tyros engaged in the same pursuit.\n      \n      \n      The untaught peasant beheld the elements around him, and was acquainted with their\n         practical uses. The most learned philosopher knew little more. He had partially unveiled\n         the face of Nature, but her immortal lineaments were still a wonder and a mystery.\n         He\n         might dissect, anatomise, and give names; but, not to speak of a final cause, causes\n         in\n         their secondary and tertiary grades were 27utterly\n         unknown to him. I had gazed upon the fortifications and impediments that seemed to\n         keep\n         human beings from entering the citadel of nature, and rashly and ignorantly I had\n         repined.\n      \n      \n      But here were books, and here were men who had penetrated deeper and knew more. I\n         took\n         their word for all that they averred, and I became their disciple. It may appear strange\n         that such should arise in the eighteenth century; but while I followed the routine\n         of\n         education in the schools of Geneva, I was, to a great degree, self taught with regard\n         to\n         my favourite studies. My father was not scientific, and I was left to struggle with\n         a\n         child\u2019s blindness, added to a student\u2019s thirst for knowledge. Under the guidance of\n         my\n         new preceptors,",
+     "suffix": " I entered with the greatest dil"
+    },
+    {
+     "type": "RangeSelector",
+     "startSelector": {
+      "type": "XPathSelector",
+      "value": "//[@xml:id='novel1_letter4_chapter2_div4_div2_p9']"
+     },
+     "endSelector": {
+      "type": "XPathSelector",
+      "value": "//[@xml:id='novel1_letter4_chapter2_div4_div2_p11']"
+     }
+    }
+   ]
+  },
+  "diagnostic": {
+   "note": "not for open annotation consumption",
+   "html_p_index": [
+    112,
+    114
+   ],
+   "p_offset": -19,
+   "xml_text_content": "<ns6:p xmlns:ns6=\"http://www.tei-c.org/ns/1.0\" xml:id=\"novel1_letter4_chapter2_div4_div2_p9\">When I returned home, my first care was to procure <ns6:seg xml:id=\"C07g_app127-f1831\">the whole </ns6:seg>works of this <ns6:seg xml:id=\"C07g_app129-f1831\">author, </ns6:seg>and afterwards <ns6:seg xml:id=\"C07g_app131-f1831\">of Paracelsus and Albertus Magnus. I read and studied the wild fancies of these </ns6:seg>\n               <ns6:seg xml:id=\"C07g_app132-f1831\">writers </ns6:seg>with <ns6:seg xml:id=\"C07g_app134-f1831\">delight; </ns6:seg>they appeared to me treasures known to few <ns6:seg xml:id=\"C07g_app137-f1831\">beside </ns6:seg>\n               <ns6:seg xml:id=\"C07g_app138-f1831\">myself. </ns6:seg>\n               <ns6:seg part=\"I\" xml:id=\"C07g_app139-f1831__I\">I have described myself as always having been embued with a fervent longing to penetrate the secrets of nature. In spite of the intense labour and wonderful discoveries of modern philosophers, I always came from my studies discontented and unsatisfied. Sir Isaac Newton is said to have avowed that he felt like a child picking up shells beside the great and unexplored ocean of truth. Those of his successors in each branch of natural philosophy with whom I was acquainted, appeared even to my boy&#8217;s apprehensions, as tyros engaged in the same pursuit.</ns6:seg>\n            </ns6:p>\n            "
+  }
+ },
+ {
+  "@context": "http://www.w3.org/ns/anno.jsonld",
+  "id": "https://frankensteinvariorum.org/bK5HpubKEem0zhMLo0NVHw",
+  "type": "Annotation",
+  "generator": {
+   "id": "https://frankensteinvariorum.org/",
+   "type": "Software",
+   "name": "Frankenstein Variorum",
+   "homepage": "https://recogito.pelagios.org/"
+  },
+  "generated": "2019-10-04T17:14:29.196653+00:00",
+  "body": [
+   {
+    "type": "TextualBody",
+    "value": "Sir Isaac Newton (1642-1727) was a natural philosopher and is widely considered one of the most prominent figures of the Enlightenment and the scientific revolution. ",
+    "creator": "https://hypothes.is/users/frankensteinvariorum",
+    "modified": "2019-10-04T17:14:29.196653+00:00",
+    "purpose": "commenting"
+   }
+  ],
+  "target": {
+   "source": "https://frankensteinvariorum.github.io/fv-collation/Frankenstein_1831.html",
+   "type": "Text",
+   "selector": [
+    {
+     "type": "TextQuoteSelector",
+     "prefix": "s discontented and unsatisfied. ",
+     "exact": "Sir\n         Isaac Newton",
+     "suffix": " is said to have avowed that he "
+    },
+    {
+     "type": "RangeSelector",
+     "startSelector": {
+      "type": "XPathSelector",
+      "value": "//[@xml:id='novel1_letter4_chapter2_div4_div2_p9']"
+     },
+     "endSelector": {
+      "type": "XPathSelector",
+      "value": "//[@xml:id='novel1_letter4_chapter2_div4_div2_p9']"
+     }
+    }
+   ]
+  },
+  "diagnostic": {
+   "note": "not for open annotation consumption",
+   "html_p_index": [
+    112,
+    112
+   ],
+   "p_offset": -19,
+   "xml_text_content": "<ns6:p xmlns:ns6=\"http://www.tei-c.org/ns/1.0\" xml:id=\"novel1_letter4_chapter2_div4_div2_p9\">When I returned home, my first care was to procure <ns6:seg xml:id=\"C07g_app127-f1831\">the whole </ns6:seg>works of this <ns6:seg xml:id=\"C07g_app129-f1831\">author, </ns6:seg>and afterwards <ns6:seg xml:id=\"C07g_app131-f1831\">of Paracelsus and Albertus Magnus. I read and studied the wild fancies of these </ns6:seg>\n               <ns6:seg xml:id=\"C07g_app132-f1831\">writers </ns6:seg>with <ns6:seg xml:id=\"C07g_app134-f1831\">delight; </ns6:seg>they appeared to me treasures known to few <ns6:seg xml:id=\"C07g_app137-f1831\">beside </ns6:seg>\n               <ns6:seg xml:id=\"C07g_app138-f1831\">myself. </ns6:seg>\n               <ns6:seg part=\"I\" xml:id=\"C07g_app139-f1831__I\">I have described myself as always having been embued with a fervent longing to penetrate the secrets of nature. In spite of the intense labour and wonderful discoveries of modern philosophers, I always came from my studies discontented and unsatisfied. Sir Isaac Newton is said to have avowed that he felt like a child picking up shells beside the great and unexplored ocean of truth. Those of his successors in each branch of natural philosophy with whom I was acquainted, appeared even to my boy&#8217;s apprehensions, as tyros engaged in the same pursuit.</ns6:seg>\n            </ns6:p>\n            "
+  }
+ },
+ {
+  "@context": "http://www.w3.org/ns/anno.jsonld",
+  "id": "https://frankensteinvariorum.org/kKllFObKEemwqTcUwMMyJw",
+  "type": "Annotation",
+  "generator": {
+   "id": "https://frankensteinvariorum.org/",
+   "type": "Software",
+   "name": "Frankenstein Variorum",
+   "homepage": "https://recogito.pelagios.org/"
+  },
+  "generated": "2019-10-04T17:15:29.599061+00:00",
+  "body": [
+   {
+    "type": "TextualBody",
+    "value": "The 1831 edition adds references to \"exploded systems\" and \"contradictory theories\" that underscore Victor's engagement with kinds of science animated by imagination and wonder rather than critical restraint or careful study.\n\nIn the tale of the blasted stump that follows this passage, as with his discovery of the copy of Agrippa, once again Victor's fate is presented as the result of a confluence of his childlike enthusiasm and cosmic accident.  ",
+    "creator": "https://hypothes.is/users/frankensteinvariorum",
+    "modified": "2019-10-04T17:15:29.599061+00:00",
+    "purpose": "commenting"
+   }
+  ],
+  "target": {
+   "source": "https://frankensteinvariorum.github.io/fv-collation/Frankenstein_1831.html",
+   "type": "Text",
+   "selector": [
+    {
+     "type": "TextQuoteSelector",
+     "prefix": " or fidelity in my instructors. ",
+     "exact": "And\n         thus for a time I was occupied by exploded systems, mingling, like an unadept, a\n         thousand contradictory theories, and floundering desperately in a very slough of\n         multifarious knowledge, guided by an ardent imagination and childish reasoning, till\n         an\n         accident again changed the current of my ideas.\n      ",
+     "suffix": "\n      \n      When I was about f"
+    },
+    {
+     "type": "RangeSelector",
+     "startSelector": {
+      "type": "XPathSelector",
+      "value": "//[@xml:id='novel1_letter4_chapter2_div4_div2_p12']"
+     },
+     "endSelector": {
+      "type": "XPathSelector",
+      "value": "//[@xml:id='novel1_letter4_chapter2_div4_div2_p12']"
+     }
+    }
+   ]
+  },
+  "diagnostic": {
+   "note": "not for open annotation consumption",
+   "html_p_index": [
+    115,
+    115
+   ],
+   "p_offset": -19,
+   "xml_text_content": "<ns6:p xmlns:ns6=\"http://www.tei-c.org/ns/1.0\" xml:id=\"novel1_letter4_chapter2_div4_div2_p12\">\n               <ns6:seg part=\"F\" xml:id=\"C07g_app220-f1831__F\">Nor </ns6:seg>were these my only <ns6:seg xml:id=\"C07g_app222-f1831\">visions. </ns6:seg>The raising of ghosts or devils <ns6:seg xml:id=\"C07g_app225-f1831\">was </ns6:seg>a promise liberally accorded <ns6:seg xml:id=\"C07g_app227-f1831\">by my </ns6:seg>favourite <ns6:seg xml:id=\"C07g_app229-f1831\">authors, </ns6:seg>the fulfilment of which I most eagerly <ns6:seg xml:id=\"C07g_app231-f1831\">sought; and </ns6:seg>if my incantations were always <ns6:seg xml:id=\"C07g_app233-f1831\">unsuccessful, I attributed </ns6:seg>the failure rather to my own inexperience <ns6:seg xml:id=\"C07g_app235-f1831\">and mistake, than to a want of skill or fidelity in </ns6:seg>\n               <ns6:seg part=\"I\" xml:id=\"C07g_app236-f1831__I\">my instructors. And thus for a time I was occupied by exploded systems, mingling, like an unadept, a thousand contradictory theories, and floundering desperately a very slough of multifarious knowledge, guided by an ardent imagination and childish reasoning, till an accident again changed the current of my ideas.</ns6:seg>\n            </ns6:p>\n            "
+  }
+ },
+ {
+  "@context": "http://www.w3.org/ns/anno.jsonld",
+  "id": "https://frankensteinvariorum.org/BWCk1ubKEemDqMdZ3P_JEw",
+  "type": "Annotation",
+  "generator": {
+   "id": "https://frankensteinvariorum.org/",
+   "type": "Software",
+   "name": "Frankenstein Variorum",
+   "homepage": "https://recogito.pelagios.org/"
+  },
+  "generated": "2019-10-04T17:11:35.843791+00:00",
+  "body": [
+   {
+    "type": "TextualBody",
+    "value": "In this section, in 1831 three paragraphs of text replace a five-paragraph section in 1818.\n\nAwed by the destructive power of the lightning-blast and their companions discourse on galvanism, Victor throws aside the \"tormenting studies\" of both medieval alchemy and  natural philosophy which had hitherto fueled his sense of wonder and formed the basis of his intellectual obsessions. Turning instead to mathematics, he enjoys a brief respite from his torments, but his former desires will overtake him again.",
+    "creator": "https://hypothes.is/users/frankensteinvariorum",
+    "modified": "2019-10-04T17:11:35.843791+00:00",
+    "purpose": "commenting"
+   }
+  ],
+  "target": {
+   "source": "https://frankensteinvariorum.github.io/fv-collation/Frankenstein_1831.html",
+   "type": "Text",
+   "selector": [
+    {
+     "type": "TextQuoteSelector",
+     "prefix": " destroyed.\n      \n      \n      ",
+     "exact": "Before this I was not unacquainted with the more obvious laws of electricity. On this\n         occasion a man of great research in natural philosophy was with us, and, excited by\n         this\n         catastrophe, he entered on the explanation of a theory which he had formed on the\n         subject of electricity and galvanism, which was at once new and astonishing to me.\n         All\n         that he said threw greatly into the shade Cornelius Agrippa, Albertus Magnus, and\n         Paracelsus, the lords of my imagination; but by some fatality the overthrow of these\n         men\n         disinclined me to pursue my accustomed studies. It seemed to me as if nothing would\n         or\n         could ever be known. All that had so long engaged my attention suddenly grew despicable.\n         By one of those caprices of the mind, which we are perhaps most subject to in early\n         youth, I at once gave up my former occupations; set down natural history and all its\n         progeny as a deformed and abortive creation; and entertained the greatest disdain\n         for a\n         would-be science, which could never even step within the threshold of real knowledge.\n         In\n         this mood of mind I betook myself to the mathematics, and the branches of study\n         appertaining to that science, as being built upon secure foundations, and so worthy\n         of\n         my consideration.\n      \n      \n      Thus strangely are our souls constructed, and by such slight ligaments are we bound\n         to\n         prosperity or ruin. When I look back, it seems to me as if this almost miraculous\n         change\n         of inclination and will was the immediate suggestion of the guardian angel of my life\u2014\n         the last effort made by the spirit of preservation to avert the storm that was even\n         then\n         hanging in the stars, and ready to envelope me. Her victory was announced by an unusual\n         tranquillity and gladness of soul, which followed the relinquishing of my ancient\n         and\n         latterly tormenting studies. It was thus that I was to be taught to associate evil\n         with\n         their prosecution, happiness with their disregard.\n      \n      \n      29It was a strong effort of the spirit of good; but it\n         was ineffectual. Destiny was too potent, and her immutable laws had decreed my utter\n         and\n         terrible destruction.\n",
+     "suffix": "      \n      \n      \n      \n    "
+    },
+    {
+     "type": "RangeSelector",
+     "startSelector": {
+      "type": "XPathSelector",
+      "value": "//[@xml:id='novel1_letter4_chapter2_div4_div2_p14']"
+     },
+     "endSelector": {
+      "type": "XPathSelector",
+      "value": "//[@xml:id='novel1_letter4_chapter2_div4_div2_p16']"
+     }
+    }
+   ]
+  },
+  "diagnostic": {
+   "note": "not for open annotation consumption",
+   "html_p_index": [
+    117,
+    119
+   ],
+   "p_offset": -19,
+   "xml_text_content": "<ns6:p xmlns:ns6=\"http://www.tei-c.org/ns/1.0\" xml:id=\"novel1_letter4_chapter2_div4_div2_p14\">Before this I was not unacquainted with the more obvious laws of electricity. On this occasion a man of great research in natural philosophy was with us, and, excited by this catastrophe, he entered on the explanation of a theory which he had formed on the subject of electricity and galvanism, which was at once new and astonishing to me. All that he said threw greatly into the shade Cornelius Agrippa, Albertus Magnus, and Paracelsus, the lords of my imagination; but by some fatality the overthrow of these men disinclined me to pursue my accustomed studies. It seemed to me as if nothing would or could ever be known. All that had so long engaged my attention suddenly grew despicable. By one of those caprices of the mind, which we are perhaps most subject to in early youth, I at once gave up my former occupations; set down natural history and all its progeny as a deformed and abortive creation; and entertained the greatest disdain for a would-be science, which could never even step within the threshold of real knowledge. In this mood of mind I betook myself to the mathematics, and the branches of study appertaining to that science, as being built upon secure foundations, and so worthy of my consideration.</ns6:p> \n            "
+  }
+ },
+ {
+  "@context": "http://www.w3.org/ns/anno.jsonld",
+  "id": "https://frankensteinvariorum.org/azAGMObKEemhKUcmKyblTw",
+  "type": "Annotation",
+  "generator": {
+   "id": "https://frankensteinvariorum.org/",
+   "type": "Software",
+   "name": "Frankenstein Variorum",
+   "homepage": "https://recogito.pelagios.org/"
+  },
+  "generated": "2019-10-04T17:14:26.708922+00:00",
+  "body": [
+   {
+    "type": "TextualBody",
+    "value": "Luigi Galvani (1737-1798) was an Italian scientist who is generally credited with making pioneering discoveries in the study of bio-electricity, most famously passing electric current through a pair of frog\u2019s legs to stimulate a muscular response.\n\nBy the early 19th century Galvani\u2019s ideas had gained currency in England. In one infamous 1818 experiment, the corpse of a deceased criminal named Matthew Clydesdale was revivified briefly with the use of electric current. High profile scientific events such as this might explain the insertion of the otherwise anachronistic reference to \u201cgalvanism\u201d in 1831.\n\n",
+    "creator": "https://hypothes.is/users/frankensteinvariorum",
+    "modified": "2019-10-04T17:14:26.708922+00:00",
+    "purpose": "commenting"
+   }
+  ],
+  "target": {
+   "source": "https://frankensteinvariorum.github.io/fv-collation/Frankenstein_1831.html",
+   "type": "Text",
+   "selector": [
+    {
+     "type": "TextQuoteSelector",
+     "prefix": "     subject of electricity and ",
+     "exact": "galvanism",
+     "suffix": ", which was at once new and asto"
+    },
+    {
+     "type": "RangeSelector",
+     "startSelector": {
+      "type": "XPathSelector",
+      "value": "//[@xml:id='novel1_letter4_chapter2_div4_div2_p14']"
+     },
+     "endSelector": {
+      "type": "XPathSelector",
+      "value": "//[@xml:id='novel1_letter4_chapter2_div4_div2_p14']"
+     }
+    }
+   ]
+  },
+  "diagnostic": {
+   "note": "not for open annotation consumption",
+   "html_p_index": [
+    117,
+    117
+   ],
+   "p_offset": -19,
+   "xml_text_content": "<ns6:p xmlns:ns6=\"http://www.tei-c.org/ns/1.0\" xml:id=\"novel1_letter4_chapter2_div4_div2_p14\">Before this I was not unacquainted with the more obvious laws of electricity. On this occasion a man of great research in natural philosophy was with us, and, excited by this catastrophe, he entered on the explanation of a theory which he had formed on the subject of electricity and galvanism, which was at once new and astonishing to me. All that he said threw greatly into the shade Cornelius Agrippa, Albertus Magnus, and Paracelsus, the lords of my imagination; but by some fatality the overthrow of these men disinclined me to pursue my accustomed studies. It seemed to me as if nothing would or could ever be known. All that had so long engaged my attention suddenly grew despicable. By one of those caprices of the mind, which we are perhaps most subject to in early youth, I at once gave up my former occupations; set down natural history and all its progeny as a deformed and abortive creation; and entertained the greatest disdain for a would-be science, which could never even step within the threshold of real knowledge. In this mood of mind I betook myself to the mathematics, and the branches of study appertaining to that science, as being built upon secure foundations, and so worthy of my consideration.</ns6:p> \n            "
+  }
+ },
+ {
+  "@context": "http://www.w3.org/ns/anno.jsonld",
+  "id": "https://frankensteinvariorum.org/SmNtZubKEempB-fIij2KEQ",
+  "type": "Annotation",
+  "generator": {
+   "id": "https://frankensteinvariorum.org/",
+   "type": "Software",
+   "name": "Frankenstein Variorum",
+   "homepage": "https://recogito.pelagios.org/"
+  },
+  "generated": "2019-10-04T17:13:31.687767+00:00",
+  "body": [
+   {
+    "type": "TextualBody",
+    "value": "In this 1831 revision, Shelley reverses Elizabeth's bout of scarlet fever from \"not severe\" to \"severe\" so that it represents the \"greatest danger\" to her health.\n\nIn the 1818 edition, Elizabeth is the indirect cause of both her biological mother and stepmother's death. Her mother dies in childbirth, while Victor's mother falls fatally ill after caring for Elizabeth during her bout of scarlet fever. \n",
+    "creator": "https://hypothes.is/users/frankensteinvariorum",
+    "modified": "2019-10-04T17:13:31.687767+00:00",
+    "purpose": "commenting"
+   }
+  ],
+  "target": {
+   "source": "https://frankensteinvariorum.github.io/fv-collation/Frankenstein_1831.html",
+   "type": "Text",
+   "selector": [
+    {
+     "type": "TextQuoteSelector",
+     "prefix": "h had caught the scarlet fever; ",
+     "exact": "her illness was severe, and she was in the\n         greatest danger.",
+     "suffix": " During her illness, many argume"
+    },
+    {
+     "type": "RangeSelector",
+     "startSelector": {
+      "type": "XPathSelector",
+      "value": "//[@xml:id='novel1_letter4_chapter3_div4_div3_p2']"
+     },
+     "endSelector": {
+      "type": "XPathSelector",
+      "value": "//[@xml:id='novel1_letter4_chapter3_div4_div3_p2']"
+     }
+    }
+   ]
+  },
+  "diagnostic": {
+   "note": "not for open annotation consumption",
+   "html_p_index": [
+    121,
+    121
+   ],
+   "p_offset": -19,
+   "xml_text_content": "<ns7:p xmlns:ns7=\"http://www.tei-c.org/ns/1.0\" xml:id=\"novel1_letter4_chapter3_div4_div3_p2\">\n               <ns7:seg part=\"F\" xml:id=\"C08a_app33-f1831__F\">Elizabeth </ns7:seg>had caught the scarlet <ns7:seg xml:id=\"C08a_app35-f1831\">fever; </ns7:seg>\n               <ns7:seg xml:id=\"C08a_app37-f1831\">her illness was </ns7:seg>\n               <ns7:seg xml:id=\"C08a_app39-f1831\">severe, </ns7:seg>and she <ns7:seg xml:id=\"C08a_app41-f1831\">was in the greatest danger. </ns7:seg>During her <ns7:seg xml:id=\"C08a_app43-f1831\">illness, </ns7:seg>\n               <ns7:seg xml:id=\"C08a_app44-f1831\">many arguments </ns7:seg>had been urged to persuade my mother <ns7:seg xml:id=\"C08a_app47-f1831\">to </ns7:seg>refrain from <ns7:seg xml:id=\"C08a_app49-f1831\">attending </ns7:seg>upon her. She <ns7:seg xml:id=\"C08a_app52-f1831\">had, at first, </ns7:seg>yielded <ns7:seg xml:id=\"C08a_app54-f1831\">to </ns7:seg>our <ns7:seg xml:id=\"C08a_app56-f1831\">entreaties; </ns7:seg>but when she <ns7:seg xml:id=\"C08a_app59-f1831\">heard that </ns7:seg>\n               <ns7:seg xml:id=\"C08a_app60-f1831\">the life of her </ns7:seg>favourite was <ns7:seg xml:id=\"C08a_app62-f1831\">menaced, </ns7:seg>she could no longer <ns7:seg xml:id=\"C08a_app65-f1831\">control </ns7:seg>her <ns7:seg xml:id=\"C08a_app67-f1831\">anxiety. She attended </ns7:seg>her <ns7:seg xml:id=\"C08a_app70-f1831\">sick bed,&#8212;her watchful attentions triumphed over </ns7:seg>\n               <ns7:seg xml:id=\"C08a_app71-f1831\">the </ns7:seg>\n               <ns7:seg xml:id=\"C08a_app72-f1831\">malignity </ns7:seg>of <ns7:seg xml:id=\"C08a_app74-f1831\">the distemper,&#8212;Elizabeth was saved, but </ns7:seg>the consequences of this imprudence were <ns7:seg xml:id=\"C08a_app76-f1831\">fatal to her preserver. </ns7:seg>On the third day my mother <ns7:seg xml:id=\"C08a_app78-f1831\">sickened; </ns7:seg>her fever was <ns7:seg xml:id=\"C08a_app80-f1831\">accompanied by the most alarming symptoms, </ns7:seg>and the looks of her <ns7:seg xml:id=\"C08a_app82-f1831\">medical attendants prognosticated the </ns7:seg>\n               <ns7:seg xml:id=\"C08a_app83-f1831\">worst </ns7:seg>\n               <ns7:seg xml:id=\"C08a_app84-f1831\">event. </ns7:seg>On her <ns7:seg xml:id=\"C08a_app86-f1831\">death-bed </ns7:seg>the fortitude and benignity <ns7:seg xml:id=\"C08a_app88-f1831\">of this </ns7:seg>\n               <ns7:seg xml:id=\"C08a_app89-f1831\">best of women </ns7:seg>did not desert her. She joined the hands of Elizabeth and <ns7:seg xml:id=\"C08a_app93-f1831\">myself:&#8212;&#8220;My </ns7:seg>\n               <ns7:seg xml:id=\"C08a_app95-f1831\">children,&#8221; </ns7:seg>she <ns7:seg xml:id=\"C08a_app97-f1831\">said, &#8220;my </ns7:seg>firmest hopes of <ns7:seg xml:id=\"C08a_app99-f1831\">future </ns7:seg>happiness were <ns7:seg xml:id=\"C08a_app101-f1831\">placed on the prospect of your union. This expectation will </ns7:seg>now be the consolation of <ns7:seg xml:id=\"C08a_app103-f1831\">your father. </ns7:seg>Elizabeth, my <ns7:seg xml:id=\"C08a_app105-f1831\">love, you must </ns7:seg>supply my place to <ns7:seg xml:id=\"C08a_app107-f1831\">my </ns7:seg>\n               <ns7:seg xml:id=\"C08a_app108-f1831\">younger </ns7:seg>\n               <ns7:seg xml:id=\"C08a_app109-f1831\">children. </ns7:seg>Alas! I <ns7:seg xml:id=\"C08a_app111-f1831\">regret </ns7:seg>\n               <ns7:seg xml:id=\"C08a_app112-f1831\">that </ns7:seg>I am taken from <ns7:seg xml:id=\"C08a_app114-f1831\">you; and, </ns7:seg>happy and <ns7:seg xml:id=\"C08a_app116-f1831\">beloved </ns7:seg>as I <ns7:seg xml:id=\"C08a_app118-f1831\">have been, <ns7:pb n=\"30\" xml:id=\"F1831_v_046\"/>is </ns7:seg>it not hard to quit you all? But <ns7:seg xml:id=\"C08a_app120-f1831\">these </ns7:seg>are not thoughts befitting <ns7:seg xml:id=\"C08a_app122-f1831\">me; I </ns7:seg>will endeavour to resign myself <ns7:seg xml:id=\"C08a_app124-f1831\">cheerfully to </ns7:seg>\n               <ns7:seg xml:id=\"C08a_app125-f1831\">death, </ns7:seg>and will indulge a hope <ns7:seg xml:id=\"C08a_app127-f1831\">of meeting you </ns7:seg>\n               <ns7:seg xml:id=\"C08a_app128-f1831\">in </ns7:seg>another <ns7:seg part=\"I\" xml:id=\"C08a_app130-f1831__I\">world.&#8221;</ns7:seg>\n            </ns7:p>\n            "
+  }
+ },
+ {
+  "@context": "http://www.w3.org/ns/anno.jsonld",
+  "id": "https://frankensteinvariorum.org/GRmfeObKEemQ5C-tN2eNpg",
+  "type": "Annotation",
+  "generator": {
+   "id": "https://frankensteinvariorum.org/",
+   "type": "Software",
+   "name": "Frankenstein Variorum",
+   "homepage": "https://recogito.pelagios.org/"
+  },
+  "generated": "2019-10-04T17:12:09.012654+00:00",
+  "body": [
+   {
+    "type": "TextualBody",
+    "value": "In this revision for 1831 Elizabeth's comportment following her mother's death is altered slightly from an \"imperious duty\" to give care to her family, to a willfully \"veiled\" grief in an effort to forget her sorrows.",
+    "creator": "https://hypothes.is/users/frankensteinvariorum",
+    "modified": "2019-10-04T17:12:09.012654+00:00",
+    "purpose": "commenting"
+   }
+  ],
+  "target": {
+   "source": "https://frankensteinvariorum.github.io/fv-collation/Frankenstein_1831.html",
+   "type": "Text",
+   "selector": [
+    {
+     "type": "TextQuoteSelector",
+     "prefix": "father a respite of some weeks. ",
+     "exact": "It appeared to\n         me\n         sacrilege so soon to leave the repose, akin to death, of the house of mourning, and\n         to\n         rush into the thick of life. I was new to sorrow, but it did not the less alarm me.\n         I\n         was unwilling to quit the sight of those that remained to me; and, above all, I desired\n         to see my sweet Elizabeth in some degree consoled.\n      \n      \n      She indeed veiled her grief, and strove to act the comforter to us all. She looked\n         steadily on life, and assumed its duties with courage and zeal. She devoted herself\n         to\n         those whom she had been taught to call her uncle and 31cousins. Never was she so enchanting as at this time, when she recalled the sunshine\n         of her smiles and spent them upon us. She forgot even her own regret in her endeavours\n         to make us forget.\n      ",
+     "suffix": "\n      \n      The day of my depa"
+    },
+    {
+     "type": "RangeSelector",
+     "startSelector": {
+      "type": "XPathSelector",
+      "value": "//[@xml:id='novel1_letter4_chapter3_div4_div3_p4']"
+     },
+     "endSelector": {
+      "type": "XPathSelector",
+      "value": "//[@xml:id='novel1_letter4_chapter3_div4_div3_p5']"
+     }
+    }
+   ]
+  },
+  "diagnostic": {
+   "note": "not for open annotation consumption",
+   "html_p_index": [
+    123,
+    124
+   ],
+   "p_offset": -19,
+   "xml_text_content": "<ns7:p xmlns:ns7=\"http://www.tei-c.org/ns/1.0\" xml:id=\"novel1_letter4_chapter3_div4_div3_p4\">\n               <ns7:seg part=\"F\" xml:id=\"C08a_app215-f1831__F\">My </ns7:seg>\n               <ns7:seg xml:id=\"C08a_app216-f1831\">departure for </ns7:seg>\n               <ns7:seg xml:id=\"C08a_app217-f1831\">Ingolstadt, </ns7:seg>which had been deferred by these <ns7:seg xml:id=\"C08a_app220-f1831\">events, </ns7:seg>was now again determined <ns7:seg xml:id=\"C08a_app223-f1831\">upon. </ns7:seg>I <ns7:seg xml:id=\"C08a_app225-f1831\">obtained from my father </ns7:seg>\n               <ns7:seg xml:id=\"C08a_app226-f1831\">a </ns7:seg>respite of some weeks. \n            <ns7:seg part=\"I\" xml:id=\"C08b_app1-f1831__I\">It appeared to me sacrilege so soon to leave the repose, akin to death, of the house of mourning, and to rush into the thick of life. I was new to sorrow, but it did not the less alarm me. I was unwilling to quit the sight of those that remained to me; and, above all, I desired to see my sweet Elizabeth in some degree consoled.</ns7:seg>\n            </ns7:p> \n            "
+  }
+ },
+ {
+  "@context": "http://www.w3.org/ns/anno.jsonld",
+  "id": "https://frankensteinvariorum.org/Nc5-LObKEem2IBcQA2GMvw",
+  "type": "Annotation",
+  "generator": {
+   "id": "https://frankensteinvariorum.org/",
+   "type": "Software",
+   "name": "Frankenstein Variorum",
+   "homepage": "https://recogito.pelagios.org/"
+  },
+  "generated": "2019-10-04T17:12:57.141798+00:00",
+  "body": [
+   {
+    "type": "TextualBody",
+    "value": "In the 1831 revision, Henry Clerval is a more pitiable figure., acutely feeling the loss of his chance to pursue his passions in university studies. ",
+    "creator": "https://hypothes.is/users/frankensteinvariorum",
+    "modified": "2019-10-04T17:12:57.141798+00:00",
+    "purpose": "commenting"
+   }
+  ],
+  "target": {
+   "source": "https://frankensteinvariorum.github.io/fv-collation/Frankenstein_1831.html",
+   "type": "Text",
+   "selector": [
+    {
+     "type": "TextQuoteSelector",
+     "prefix": "my departure at length arrived. ",
+     "exact": "Clerval spent the last evening with us.\n         He\n         had endeavoured to persuade his father to permit him to accompany me, and to become\n         my\n         fellow student; but in vain. His father was a narrow-minded trader, and saw idleness\n         and\n         ruin in the aspirations and ambition of his son. Henry deeply felt the misfortune\n         of\n         being debarred from a liberal education. He said little; but when he spoke, I read\n         in\n         his kindling eye and in his animated glance a restrained but firm resolve, not to\n         be\n         chained to the miserable details of commerce.\n      \n      \n      We sat late. We could not tear ourselves away from each other, nor persuade ourselves\n         to say the word \u201cFarewell!\u201d It was said; and we retired under the pretence of seeking\n         repose, each fancying that the other was deceived: but when at morning\u2019s dawn I\n         descended to the carriage which was to convey me away, they were all there\u2014my father\n         again to bless me, Clerval to press my hand once more, my Elizabeth to renew her\n         entreaties that I would write often, and to bestow the last feminine attentions on\n         her\n         playmate and friend.\n      \n      \n      ",
+     "suffix": "I threw myself into the chaise t"
+    },
+    {
+     "type": "RangeSelector",
+     "startSelector": {
+      "type": "XPathSelector",
+      "value": "//[@xml:id='novel1_letter4_chapter3_div4_div3_p6']"
+     },
+     "endSelector": {
+      "type": "XPathSelector",
+      "value": "//[@xml:id='novel1_letter4_chapter3_div4_div3_p8']"
+     }
+    }
+   ]
+  },
+  "diagnostic": {
+   "note": "not for open annotation consumption",
+   "html_p_index": [
+    125,
+    127
+   ],
+   "p_offset": -19,
+   "xml_text_content": "<ns7:p xmlns:ns7=\"http://www.tei-c.org/ns/1.0\" xml:id=\"novel1_letter4_chapter3_div4_div3_p6\">\n               <ns7:seg part=\"F\" xml:id=\"C08c_app7-f1831__F\">The </ns7:seg>day of my departure at <ns7:seg xml:id=\"C08c_app14-f1831\">length arrived. </ns7:seg>\n         \n               <ns7:seg xml:id=\"C08d_app1-f1831\"> \n               </ns7:seg>\n               <ns7:seg part=\"I\" xml:id=\"C08d_app3-f1831__I\">Clerval spent the last evening with us. He had endeavoured to persuade his father to permit him to accompany me, and to become my fellow student; but in vain. His father was a narrow-minded trader, and saw idleness and ruin in the aspirations and ambition of his son. Henry deeply felt the misfortune of being debarred from a liberal education. He said little; but when he spoke, I read in his kindling eye and in his animated glance a restrained but firm resolve, not to be chained to the miserable details of commerce.</ns7:seg>\n            </ns7:p>\n            "
+  }
+ },
+ {
+  "@context": "http://www.w3.org/ns/anno.jsonld",
+  "id": "https://frankensteinvariorum.org/eKEzcObKEem7MPcjXYMtbw",
+  "type": "Annotation",
+  "generator": {
+   "id": "https://frankensteinvariorum.org/",
+   "type": "Software",
+   "name": "Frankenstein Variorum",
+   "homepage": "https://recogito.pelagios.org/"
+  },
+  "generated": "2019-10-04T17:14:49.272863+00:00",
+  "body": [
+   {
+    "type": "TextualBody",
+    "value": "In the 1831 edition, the portrayal of Professor M.Krempe becomes even more unflattering than it was in the 1818 version, showing him to be \"uncouth\" and Victor's evil \"Angel of Destruction.\"",
+    "creator": "https://hypothes.is/users/frankensteinvariorum",
+    "modified": "2019-10-04T17:14:49.272863+00:00",
+    "purpose": "commenting"
+   }
+  ],
+  "target": {
+   "source": "https://frankensteinvariorum.github.io/fv-collation/Frankenstein_1831.html",
+   "type": "Text",
+   "selector": [
+    {
+     "type": "TextQuoteSelector",
+     "prefix": "      of\n         the principal ",
+     "exact": "professors. Chance\u2014or rather the evil influence, the Angel of\n         Destruction, which asserted omnipotent sway over me from the moment I turned my\n         reluctant steps from my father\u2019s door\u2014led me first to M. Krempe, professor of natural\n         philosophy. He was an uncouth man, but deeply embued in the secrets of his science.\n         He\n         asked me several questions concerning my progress in the different branches of science\n         appertaining to natural philosophy. I replied carelessly; and, partly in contempt,\n         mentioned the names of my alchymists as the principal authors I had studied.",
+     "suffix": " The\n         professor stared: "
+    },
+    {
+     "type": "RangeSelector",
+     "startSelector": {
+      "type": "XPathSelector",
+      "value": "//[@xml:id='novel1_letter4_chapter3_div4_div3_p10']"
+     },
+     "endSelector": {
+      "type": "XPathSelector",
+      "value": "//[@xml:id='novel1_letter4_chapter3_div4_div3_p10']"
+     }
+    }
+   ]
+  },
+  "diagnostic": {
+   "note": "not for open annotation consumption",
+   "html_p_index": [
+    129,
+    129
+   ],
+   "p_offset": -19,
+   "xml_text_content": "<ns7:p xmlns:ns7=\"http://www.tei-c.org/ns/1.0\" xml:id=\"novel1_letter4_chapter3_div4_div3_p10\">\n               <ns7:seg part=\"F\" xml:id=\"C08e_app84-f1831__F\">The </ns7:seg>next morning I delivered my letters of <ns7:seg xml:id=\"C08e_app87-f1831\">introduction, </ns7:seg>and paid a visit to some of the principal <ns7:seg xml:id=\"C08e_app91-f1831\">professors. </ns7:seg>\n               <ns7:seg xml:id=\"C08e_app92-f1831\">Chance&#8212;or rather the evil influence, the Angel of Destruction, which asserted omnipotent sway over me from the moment I turned my reluctant steps from my father&#8217;s door&#8212;led me first </ns7:seg>to M. <ns7:seg xml:id=\"C08e_app94-f1831\">Krempe, </ns7:seg>\n               <ns7:seg xml:id=\"C08e_app95-f1831\">professor of </ns7:seg>natural philosophy. He <ns7:seg xml:id=\"C08e_app98-f1831\">was an uncouth man, but deeply embued in the secrets of his science. He </ns7:seg>asked me several questions concerning my progress in the <ns7:seg xml:id=\"C08e_app103-f1831\">different branches of science appertaining to natural philosophy. </ns7:seg>\n               <ns7:seg xml:id=\"C08e_app104-f1831\">I replied carelessly; and, partly in contempt, mentioned the names of my alchymists as </ns7:seg>the <ns7:seg xml:id=\"C08e_app108-f1831\">principal </ns7:seg>authors I had <ns7:seg xml:id=\"C08e_app110-f1831\">studied. </ns7:seg>The professor <ns7:seg xml:id=\"C08e_app113-f1831\">stared: </ns7:seg>&#8220;Have <ns7:seg xml:id=\"C08e_app115-f1831\">you,&#8221; </ns7:seg>he <ns7:seg xml:id=\"C08e_app117-f1831\">said, &#8220;really spent your </ns7:seg>time in studying such <ns7:seg part=\"I\" xml:id=\"C08e_app119-f1831__I\">nonsense?&#8221;</ns7:seg>\n            </ns7:p>\n            "
+  }
+ },
+ {
+  "@context": "http://www.w3.org/ns/anno.jsonld",
+  "id": "https://frankensteinvariorum.org/_JLbMObJEemWTfNAFK0czQ",
+  "type": "Annotation",
+  "generator": {
+   "id": "https://frankensteinvariorum.org/",
+   "type": "Software",
+   "name": "Frankenstein Variorum",
+   "homepage": "https://recogito.pelagios.org/"
+  },
+  "generated": "2019-10-04T17:11:21.135812+00:00",
+  "body": [
+   {
+    "type": "TextualBody",
+    "value": "Shelley adds this 1831 passage in which she traces Victor's fascination with alchemy and outmoded scientific ideas to an impetuous childhood, while the 1818 edition shows Victor reading the ancient sciences as an adult.",
+    "creator": "https://hypothes.is/users/frankensteinvariorum",
+    "modified": "2019-10-04T17:11:21.135812+00:00",
+    "purpose": "commenting"
+   }
+  ],
+  "target": {
+   "source": "https://frankensteinvariorum.github.io/fv-collation/Frankenstein_1831.html",
+   "type": "Text",
+   "selector": [
+    {
+     "type": "TextQuoteSelector",
+     "prefix": " prepossess me in favour of his ",
+     "exact": "pursuits. In rather a too\n         philosophical and connected a strain, perhaps, I have given an account of the\n         conclusions I had come to concerning them in my early years. As a child, I had not\n         been\n         content with the results promised by the modern professors of natural science. With\n         a\n         confusion of ideas only to be accounted for by my extreme youth, and my want of a\n         guide\n         on such matters, I had retrod the steps of knowledge along the paths of time, and\n         exchanged the discoveries of recent enquirers for the dreams of forgotten alchymists.\n",
+     "suffix": "         Besides, I had a contem"
+    },
+    {
+     "type": "RangeSelector",
+     "startSelector": {
+      "type": "XPathSelector",
+      "value": "//[@xml:id='novel1_letter4_chapter3_div4_div3_p13']"
+     },
+     "endSelector": {
+      "type": "XPathSelector",
+      "value": "//[@xml:id='novel1_letter4_chapter3_div4_div3_p13']"
+     }
+    }
+   ]
+  },
+  "diagnostic": {
+   "note": "not for open annotation consumption",
+   "html_p_index": [
+    132,
+    132
+   ],
+   "p_offset": -19,
+   "xml_text_content": "<ns7:p xmlns:ns7=\"http://www.tei-c.org/ns/1.0\" xml:id=\"novel1_letter4_chapter3_div4_div3_p13\">\n               <ns7:seg part=\"F\" xml:id=\"C08e_app203-f1831__F\">\n               <ns7:pb n=\"33\" xml:id=\"F1831_v_049\"/>I </ns7:seg>returned <ns7:seg xml:id=\"C08e_app205-f1831\">home, </ns7:seg>not <ns7:seg xml:id=\"C08e_app207-f1831\">disappointed, </ns7:seg>for <ns7:seg xml:id=\"C08e_app209-f1831\">I have said that I had long considered </ns7:seg>\n               <ns7:seg xml:id=\"C08e_app210-f1831\">those </ns7:seg>authors useless <ns7:seg xml:id=\"C08e_app212-f1831\">whom </ns7:seg>the professor <ns7:seg xml:id=\"C08e_app215-f1831\">reprobated; </ns7:seg>but I <ns7:seg xml:id=\"C08e_app217-f1831\">returned, not at all the more inclined to recur to these studies in any shape. </ns7:seg>M. Krempe was a little squat <ns7:seg xml:id=\"C08e_app224-f1831\">man, </ns7:seg>with a gruff voice and <ns7:seg xml:id=\"C08e_app226-f1831\">a repulsive </ns7:seg>\n               <ns7:seg xml:id=\"C08e_app227-f1831\">countenance; </ns7:seg>the <ns7:seg xml:id=\"C08e_app229-f1831\">teacher, therefore, </ns7:seg>did not prepossess me in favour of his \n            <ns7:seg xml:id=\"C08f_app1-f1831\">pursuits. In rather a too philosophical and connected a strain, perhaps, I have given an account of the conclusions I had come to concerning them in my early years. As a child, I had not been content with the results promised by the modern professors of natural science. With a confusion of ideas only to be accounted for by my extreme youth, and my want of a guide on such matters, I had retrod the steps of knowledge along the paths of time, and exchanged the discoveries of recent enquirers for the dreams of forgotten alchymists. </ns7:seg>\n         \n               <ns7:seg xml:id=\"C08g_app1-f1831\">Besides, </ns7:seg>I had a contempt for the uses of modern <ns7:seg xml:id=\"C08g_app4-f1831\">natural </ns7:seg>philosophy. It was very <ns7:seg xml:id=\"C08g_app6-f1831\">different, </ns7:seg>when <ns7:seg xml:id=\"C08g_app8-f1831\">the </ns7:seg>masters of the science sought immortality and <ns7:seg xml:id=\"C08g_app12-f1831\">power; </ns7:seg>such <ns7:seg xml:id=\"C08g_app14-f1831\">views, </ns7:seg>although <ns7:seg xml:id=\"C08g_app16-f1831\">futile, </ns7:seg>were <ns7:seg xml:id=\"C08g_app18-f1831\">grand: </ns7:seg>but now the scene was <ns7:seg xml:id=\"C08g_app20-f1831\">changed. </ns7:seg>The <ns7:seg xml:id=\"C08g_app22-f1831\">ambition of </ns7:seg>\n               <ns7:seg xml:id=\"C08g_app23-f1831\">the </ns7:seg>\n               <ns7:seg xml:id=\"C08g_app24-f1831\">enquirer </ns7:seg>seemed to limit itself to the annihilation of those visions on which my interest in science was chiefly founded. I was required to exchange chimeras of boundless <ns7:seg xml:id=\"C08g_app35-f1831\">grandeur </ns7:seg>for realities of little <ns7:seg part=\"I\" xml:id=\"C08g_app38-f1831__I\">worth.</ns7:seg>\n            </ns7:p>\n            "
+  }
+ },
+ {
+  "@context": "http://www.w3.org/ns/anno.jsonld",
+  "id": "https://frankensteinvariorum.org/TLTj9ubKEemEhhck218i3A",
+  "type": "Annotation",
+  "generator": {
+   "id": "https://frankensteinvariorum.org/",
+   "type": "Software",
+   "name": "Frankenstein Variorum",
+   "homepage": "https://recogito.pelagios.org/"
+  },
+  "generated": "2019-10-04T17:13:35.505667+00:00",
+  "body": [
+   {
+    "type": "TextualBody",
+    "value": "In this addition to 1831, Shelley emphasizes the importance of Ingolstadt as Victor's university-town environment during his medical training.",
+    "creator": "https://hypothes.is/users/frankensteinvariorum",
+    "modified": "2019-10-04T17:13:35.505667+00:00",
+    "purpose": "commenting"
+   }
+  ],
+  "target": {
+   "source": "https://frankensteinvariorum.github.io/fv-collation/Frankenstein_1831.html",
+   "type": "Text",
+   "selector": [
+    {
+     "type": "TextQuoteSelector",
+     "prefix": "ing the first two or three days ",
+     "exact": "of my residence at\n         Ingolstadt, which were chiefly spent in becoming acquainted with the localities, and\n         the\n         principal residents in my new abode.",
+     "suffix": " But as the ensuing week commenc"
+    },
+    {
+     "type": "RangeSelector",
+     "startSelector": {
+      "type": "XPathSelector",
+      "value": "//[@xml:id='novel1_letter4_chapter3_div4_div3_p14']"
+     },
+     "endSelector": {
+      "type": "XPathSelector",
+      "value": "//[@xml:id='novel1_letter4_chapter3_div4_div3_p14']"
+     }
+    }
+   ]
+  },
+  "diagnostic": {
+   "note": "not for open annotation consumption",
+   "html_p_index": [
+    133,
+    133
+   ],
+   "p_offset": -19,
+   "xml_text_content": "<ns7:p xmlns:ns7=\"http://www.tei-c.org/ns/1.0\" xml:id=\"novel1_letter4_chapter3_div4_div3_p14\">\n               <ns7:seg part=\"F\" xml:id=\"C08g_app38-f1831__F\">Such </ns7:seg>were my reflections during <ns7:seg xml:id=\"C08g_app40-f1831\">the first </ns7:seg>\n               <ns7:seg xml:id=\"C08g_app41-f1831\">two or three days of my residence at Ingolstadt, which were chiefly </ns7:seg>spent <ns7:seg xml:id=\"C08g_app43-f1831\">in becoming acquainted with the localities, and the principal residents </ns7:seg>\n               <ns7:seg xml:id=\"C08g_app44-f1831\">in </ns7:seg>\n               <ns7:seg xml:id=\"C08g_app45-f1831\">my new abode. </ns7:seg>But <ns7:seg xml:id=\"C08g_app47-f1831\">as the </ns7:seg>\n               <ns7:seg xml:id=\"C08g_app48-f1831\">ensuing </ns7:seg>week <ns7:seg xml:id=\"C08g_app50-f1831\">commenced, </ns7:seg>I thought of the information <ns7:seg xml:id=\"C08g_app52-f1831\">which </ns7:seg>M. <ns7:seg xml:id=\"C08g_app54-f1831\">Krempe </ns7:seg>had given me concerning the <ns7:seg xml:id=\"C08g_app57-f1831\">lectures. </ns7:seg>And although I could not consent to go and hear that little conceited fellow deliver sentences out of a <ns7:seg xml:id=\"C08g_app62-f1831\">pulpit, </ns7:seg>I recollected what he had said of M. <ns7:seg xml:id=\"C08g_app65-f1831\">Waldman, </ns7:seg>whom I had never <ns7:seg xml:id=\"C08g_app68-f1831\">seen, </ns7:seg>\n               <ns7:seg xml:id=\"C08g_app69-f1831\">as he had </ns7:seg>hitherto <ns7:seg xml:id=\"C08g_app71-f1831\">been </ns7:seg>out of <ns7:seg part=\"I\" xml:id=\"C08g_app73-f1831__I\">town.</ns7:seg>\n            </ns7:p>\n            "
+  }
+ },
+ {
+  "@context": "http://www.w3.org/ns/anno.jsonld",
+  "id": "https://frankensteinvariorum.org/cqhoEubKEemPA3v-HCNfUw",
+  "type": "Annotation",
+  "generator": {
+   "id": "https://frankensteinvariorum.org/",
+   "type": "Software",
+   "name": "Frankenstein Variorum",
+   "homepage": "https://recogito.pelagios.org/"
+  },
+  "generated": "2019-10-04T17:14:39.236763+00:00",
+  "body": [
+   {
+    "type": "TextualBody",
+    "value": "In this lengthy addition to 1831, Victor experiences an early flash of ruinous ambition during the chemistry lecture by M. Waldman. The new picture of Waldman as an evil force belongs to a pattern of provoking suspicion about scientific education in the 1831 edition that did not appear in the 1818.",
+    "creator": "https://hypothes.is/users/frankensteinvariorum",
+    "modified": "2019-10-04T17:14:39.236763+00:00",
+    "purpose": "commenting"
+   }
+  ],
+  "target": {
+   "source": "https://frankensteinvariorum.github.io/fv-collation/Frankenstein_1831.html",
+   "type": "Text",
+   "selector": [
+    {
+     "type": "TextQuoteSelector",
+     "prefix": "n shadows.\u201d\n      \n      \n      ",
+     "exact": "Such were the professor\u2019s words\u2014rather let me say such the words of fate, enounced\n         to\n         destroy me. As he went on, I felt as if my soul were grappling with a palpable enemy;\n         one by one the various keys were touched which formed the mechanism of my being: chord\n         after chord was sounded, and soon my mind was filled with one thought, one conception,\n         one purpose. So much has been done, exclaimed the soul of Frankenstein,\u2014more, far\n         more, will I achieve: treading in the steps already marked, I will pioneer a new way,\n         explore unknown powers, and unfold to the world the deepest mysteries of creation.\n      \n      \n      I closed not my eyes that night. My internal being was in a state of insurrection\n         and\n         turmoil; I felt that order would thence arise, but I had no power to produce it. By\n         degrees, after the morning\u2019s dawn, sleep came. I awoke, and my yesternight\u2019s thoughts\n         were as a dream. There only 35remained a resolution to\n         return to my ancient studies, and to devote myself to a science for which I believed\n         myself to possess a natural talent. On the same day, I paid M. Waldman a visit.",
+     "suffix": " His\n         manners in private"
+    },
+    {
+     "type": "RangeSelector",
+     "startSelector": {
+      "type": "XPathSelector",
+      "value": "//[@xml:id='novel1_letter4_chapter3_div4_div3_p17']"
+     },
+     "endSelector": {
+      "type": "XPathSelector",
+      "value": "//[@xml:id='novel1_letter4_chapter3_div4_div3_p18']"
+     }
+    }
+   ]
+  },
+  "diagnostic": {
+   "note": "not for open annotation consumption",
+   "html_p_index": [
+    136,
+    137
+   ],
+   "p_offset": -19,
+   "xml_text_content": "<ns7:p xmlns:ns7=\"http://www.tei-c.org/ns/1.0\" xml:id=\"novel1_letter4_chapter3_div4_div3_p17\">Such were the professor&#8217;s words&#8212;rather let me say such the words of fate, enounced to destroy me. As he went on, I felt as if my soul were grappling with a palpable enemy; one by one the various keys were touched which formed the mechanism of my being: chord after chord was sounded, and soon my mind was filled with one thought, one conception, one purpose. So much has been done, exclaimed the soul of Frankenstein,&#8212;more, far more, will I achieve: treading in the steps already marked, I will pioneer a new way, explore unknown powers, and unfold to the world the deepest mysteries of creation.</ns7:p> \n            "
+  }
+ },
+ {
+  "@context": "http://www.w3.org/ns/anno.jsonld",
+  "id": "https://frankensteinvariorum.org/54pddubJEemPApdKeN8djg",
+  "type": "Annotation",
+  "generator": {
+   "id": "https://frankensteinvariorum.org/",
+   "type": "Software",
+   "name": "Frankenstein Variorum",
+   "homepage": "https://recogito.pelagios.org/"
+  },
+  "generated": "2019-10-04T17:10:45.836687+00:00",
+  "body": [
+   {
+    "type": "TextualBody",
+    "value": "This revision to 1831 emphasizes the great pains Victor takes with his manners when seeking guidance from M. Waldman.",
+    "creator": "https://hypothes.is/users/frankensteinvariorum",
+    "modified": "2019-10-04T17:10:45.836687+00:00",
+    "purpose": "commenting"
+   }
+  ],
+  "target": {
+   "source": "https://frankensteinvariorum.github.io/fv-collation/Frankenstein_1831.html",
+   "type": "Text",
+   "selector": [
+    {
+     "type": "TextQuoteSelector",
+     "prefix": "ainst modern\n         chemists; ",
+     "exact": "I expressed myself in measured terms, with the modesty and deference due\n         from\n         a youth to his instructor, without letting escape (inexperience in life would have\n         made\n         me ashamed) any of the enthusiasm which stimulated my intended labours. I requested\n         his\n         advice concerning the books I ought to procure.\n      ",
+     "suffix": "\n      \n      \u201cI am happy,\u201d said"
+    },
+    {
+     "type": "RangeSelector",
+     "startSelector": {
+      "type": "XPathSelector",
+      "value": "//[@xml:id='novel1_letter4_chapter3_div4_div3_p18']"
+     },
+     "endSelector": {
+      "type": "XPathSelector",
+      "value": "//[@xml:id='novel1_letter4_chapter3_div4_div3_p18']"
+     }
+    }
+   ]
+  },
+  "diagnostic": {
+   "note": "not for open annotation consumption",
+   "html_p_index": [
+    137,
+    137
+   ],
+   "p_offset": -19,
+   "xml_text_content": "<ns7:p xmlns:ns7=\"http://www.tei-c.org/ns/1.0\" xml:id=\"novel1_letter4_chapter3_div4_div3_p18\">\n               <ns7:seg part=\"F\" xml:id=\"C08h_app1-f1831__F\">I closed not my eyes that night. My internal being was in a state of insurrection and turmoil; I felt that order would thence arise, but I had no power to produce it. By degrees, after the morning&#8217;s dawn, sleep came. I awoke, and my yesternight&#8217;s thoughts were as a dream. There only <ns7:pb xml:id=\"F1831_v_051\" n=\"35\"/>remained a resolution to return to my ancient studies, and to devote myself to a science for which I believed myself to possess a natural talent. </ns7:seg>\n         \n               <ns7:seg xml:id=\"C08i_app1-f1831\">On the same day, I </ns7:seg>paid <ns7:seg xml:id=\"C08i_app3-f1831\">M. Waldman </ns7:seg>a <ns7:seg xml:id=\"C08i_app5-f1831\">visit. </ns7:seg>His manners in private were even more mild and attractive than in <ns7:seg xml:id=\"C08i_app8-f1831\">public; </ns7:seg>for there was a certain dignity in his <ns7:seg xml:id=\"C08i_app11-f1831\">mien </ns7:seg>during his <ns7:seg xml:id=\"C08i_app13-f1831\">lecture, </ns7:seg>which <ns7:seg xml:id=\"C08i_app15-f1831\">in his own house </ns7:seg>was replaced by the greatest <ns7:seg xml:id=\"C08i_app17-f1831\">affability and </ns7:seg>\n               <ns7:seg xml:id=\"C08i_app18-f1831\">kindness. </ns7:seg>\n               <ns7:seg xml:id=\"C08i_app19-f1831\">I gave him pretty nearly the same account of my former pursuits as I had given to his fellow-professor. He heard </ns7:seg>\n               <ns7:seg xml:id=\"C08i_app20-f1831\">with attention </ns7:seg>\n               <ns7:seg xml:id=\"C08i_app21-f1831\">the </ns7:seg>little narration concerning my <ns7:seg xml:id=\"C08i_app24-f1831\">studies, and </ns7:seg>smiled at the names of Cornelius <ns7:seg xml:id=\"C08i_app27-f1831\">Agrippa </ns7:seg>and <ns7:seg xml:id=\"C08i_app29-f1831\">Paracelsus, </ns7:seg>but without the contempt that <ns7:seg xml:id=\"C08i_app32-f1831\">M. </ns7:seg>Krempe had <ns7:seg xml:id=\"C08i_app34-f1831\">exhibited. </ns7:seg>He <ns7:seg xml:id=\"C08i_app36-f1831\">said, </ns7:seg>that <ns7:seg xml:id=\"C08i_app38-f1831\">&#8220;these </ns7:seg>were men to whose indefatigable zeal <ns7:seg xml:id=\"C08i_app42-f1831\">modern philosophers </ns7:seg>were indebted for most of the foundations of their <ns7:seg xml:id=\"C08i_app47-f1831\">knowledge. They had left </ns7:seg>to us, as an easier <ns7:seg xml:id=\"C08i_app50-f1831\">task, </ns7:seg>to give new names, and arrange in <ns7:seg xml:id=\"C08i_app54-f1831\">connected classifications, </ns7:seg>the facts which they <ns7:seg xml:id=\"C08i_app57-f1831\">in </ns7:seg>a great degree had been the instruments of bringing to light. The labours of men of <ns7:seg xml:id=\"C08i_app64-f1831\">genius, </ns7:seg>however erroneously <ns7:seg xml:id=\"C08i_app66-f1831\">directed, </ns7:seg>scarcely ever <ns7:seg xml:id=\"C08i_app68-f1831\">fail in </ns7:seg>ultimately turning to the solid advantage of <ns7:seg xml:id=\"C08i_app72-f1831\">mankind.&#8221; I </ns7:seg>listened <ns7:seg xml:id=\"C08i_app74-f1831\">to his statement, which was delivered </ns7:seg>without <ns7:seg xml:id=\"C08i_app76-f1831\">any </ns7:seg>presumption <ns7:seg xml:id=\"C08i_app78-f1831\">or affectation; </ns7:seg>and then <ns7:seg xml:id=\"C08i_app80-f1831\">added, </ns7:seg>that his lecture had removed my <ns7:seg xml:id=\"C08i_app83-f1831\">prejudices </ns7:seg>against modern <ns7:seg xml:id=\"C08i_app85-f1831\">chemists; </ns7:seg>\n         \n               <ns7:seg xml:id=\"C08j_app1-f1831\">I expressed myself in measured terms, with the modesty and deference due from a youth to his instructor, without letting escape (inexperience in life would have made me ashamed) any of the enthusiasm which stimulated my intended labours.</ns7:seg>\n               <ns7:seg xml:id=\"C08j_app2-f1831\">I </ns7:seg>\n               <ns7:seg xml:id=\"C08j_app5-f1831\">requested </ns7:seg>his advice concerning the books I ought to <ns7:seg part=\"I\" xml:id=\"C08j_app8-f1831__I\">procure.</ns7:seg>\n            </ns7:p>\n            "
+  }
+ },
+ {
+  "@context": "http://www.w3.org/ns/anno.jsonld",
+  "id": "https://frankensteinvariorum.org/hvVCcubKEemNrDdYtz-O0Q",
+  "type": "Annotation",
+  "generator": {
+   "id": "https://frankensteinvariorum.org/",
+   "type": "Software",
+   "name": "Frankenstein Variorum",
+   "homepage": "https://recogito.pelagios.org/"
+  },
+  "generated": "2019-10-04T17:15:13.309516+00:00",
+  "body": [
+   {
+    "type": "TextualBody",
+    "value": "In this 1831 revision, M. Waldman's influence depends less on his personality or charisma and more on his capabilities as a teacher.",
+    "creator": "https://hypothes.is/users/frankensteinvariorum",
+    "modified": "2019-10-04T17:15:13.309516+00:00",
+    "purpose": "commenting"
+   }
+  ],
+  "target": {
+   "source": "https://frankensteinvariorum.github.io/fv-collation/Frankenstein_1831.html",
+   "type": "Text",
+   "selector": [
+    {
+     "type": "TextQuoteSelector",
+     "prefix": "very idea of\n         pedantry. ",
+     "exact": "In a thousand ways he smoothed for me the path of knowledge, and made the\n         most\n         abstruse enquiries clear and facile to my apprehension. My application was at first\n         fluctuating and uncertain; it gained strength as I proceeded, and soon",
+     "suffix": " became so ardent\n         and e"
+    },
+    {
+     "type": "RangeSelector",
+     "startSelector": {
+      "type": "XPathSelector",
+      "value": "//[@xml:id='novel1_letter4_chapter4_div4_div4_p1']"
+     },
+     "endSelector": {
+      "type": "XPathSelector",
+      "value": "//[@xml:id='novel1_letter4_chapter4_div4_div4_p1']"
+     }
+    }
+   ]
+  },
+  "diagnostic": {
+   "note": "not for open annotation consumption",
+   "html_p_index": [
+    141,
+    141
+   ],
+   "p_offset": -19,
+   "xml_text_content": "<ns8:p xmlns:ns8=\"http://www.tei-c.org/ns/1.0\" xml:id=\"novel1_letter4_chapter4_div4_div4_p1\">\n               <ns8:seg part=\"F\" xml:id=\"C09_app2-f1831__F\">F<ns8:hi xml:id=\"novel1_letter4_chapter4_div4_div4_p1_hi1\">ROM</ns8:hi> \n               </ns8:seg>this day natural <ns8:seg xml:id=\"C09_app5-f1831\">philosophy, </ns8:seg>and particularly <ns8:seg xml:id=\"C09_app7-f1831\">chemistry, in the most comprehensive sense of the term, </ns8:seg>became nearly my sole <ns8:seg xml:id=\"C09_app9-f1831\">occupation. </ns8:seg>I read with ardour <ns8:seg xml:id=\"C09_app11-f1831\">those </ns8:seg>\n               <ns8:seg xml:id=\"C09_app12-f1831\">works, </ns8:seg>so full of genius and <ns8:seg xml:id=\"C09_app14-f1831\">discrimination, which modern inquirers have written </ns8:seg>on these subjects. I attended the lectures, and cultivated the <ns8:seg xml:id=\"C09_app16-f1831\">acquaintance, </ns8:seg>of the men of science of the university; and I found even in <ns8:seg xml:id=\"C09_app20-f1831\">M. </ns8:seg>Krempe a great deal of sound sense and real <ns8:seg xml:id=\"C09_app23-f1831\">information, combined, </ns8:seg>it is <ns8:seg xml:id=\"C09_app25-f1831\">true, </ns8:seg>with a repulsive <ns8:seg xml:id=\"C09_app27-f1831\">physiognomy </ns8:seg>and manners, but not on that account the less valuable. In M. Waldman I found a true friend. His gentleness was never tinged by <ns8:seg xml:id=\"C09_app32-f1831\">dogmatism; </ns8:seg>and his instructions were given with an air of frankness and good <ns8:seg xml:id=\"C09_app36-f1831\">nature, </ns8:seg>that banished every idea of <ns8:seg xml:id=\"C09_app39-f1831\">pedantry. In a thousand ways he smoothed for me the path of knowledge, and made the most abstruse enquiries clear and facile to my apprehension. My application was at first fluctuating and uncertain; it gained strength as I proceeded, </ns8:seg>and <ns8:seg xml:id=\"C09_app77-f1831\">soon </ns8:seg>became so ardent and <ns8:seg xml:id=\"C09_app80-f1831\">eager, </ns8:seg>that the stars often <ns8:seg xml:id=\"C09_app82-f1831\">disappeared </ns8:seg>in the light of morning <ns8:seg xml:id=\"C09_app85-f1831\">whilst </ns8:seg>I was yet <ns8:seg xml:id=\"C09_app87-f1831\">engaged </ns8:seg>in my <ns8:seg part=\"I\" xml:id=\"C09_app89-f1831__I\">laboratory.</ns8:seg>\n            </ns8:p>\n            "
+  }
+ },
+ {
+  "@context": "http://www.w3.org/ns/anno.jsonld",
+  "id": "https://frankensteinvariorum.org/PIlCYObKEemlYytvZF1YMw",
+  "type": "Annotation",
+  "generator": {
+   "id": "https://frankensteinvariorum.org/",
+   "type": "Software",
+   "name": "Frankenstein Variorum",
+   "homepage": "https://recogito.pelagios.org/"
+  },
+  "generated": "2019-10-04T17:13:08.472651+00:00",
+  "body": [
+   {
+    "type": "TextualBody",
+    "value": "in this revision to 1831 Victor's physical deterioration, as a result of his obsessive work and research, is more clearly linked to a deteriorating mental state as well. ",
+    "creator": "https://hypothes.is/users/frankensteinvariorum",
+    "modified": "2019-10-04T17:13:08.472651+00:00",
+    "purpose": "commenting"
+   }
+  ],
+  "target": {
+   "source": "https://frankensteinvariorum.github.io/fv-collation/Frankenstein_1831.html",
+   "type": "Text",
+   "selector": [
+    {
+     "type": "TextQuoteSelector",
+     "prefix": "      to a most painful degree; ",
+     "exact": "the fall of a leaf startled me, and I shunned my\n         fellow-creatures as if I had been guilty of a crime. Sometimes I grew alarmed at the\n         wreck I perceived that I had become; the energy of my purpose alone sustained me:\n         my\n         labours would soon end, and I believed that exercise and amusement would then drive\n         away\n         incipient disease;",
+     "suffix": " and I promised myself both of t"
+    },
+    {
+     "type": "RangeSelector",
+     "startSelector": {
+      "type": "XPathSelector",
+      "value": "//[@xml:id='novel1_letter4_chapter4_div4_div4_p14']"
+     },
+     "endSelector": {
+      "type": "XPathSelector",
+      "value": "//[@xml:id='novel1_letter4_chapter4_div4_div4_p14']"
+     }
+    }
+   ]
+  },
+  "diagnostic": {
+   "note": "not for open annotation consumption",
+   "html_p_index": [
+    154,
+    154
+   ],
+   "p_offset": -19,
+   "xml_text_content": "<ns8:p xmlns:ns8=\"http://www.tei-c.org/ns/1.0\" xml:id=\"novel1_letter4_chapter4_div4_div4_p14\">\n               <ns8:seg part=\"F\" xml:id=\"C09_app865-f1831__F\">My </ns8:seg>father made no reproach in his <ns8:seg xml:id=\"C09_app867-f1831\">letters, </ns8:seg>\n               <ns8:seg xml:id=\"C09_app868-f1831\">and only took notice of my </ns8:seg>silence by <ns8:seg xml:id=\"C09_app870-f1831\">enquiring </ns8:seg>\n               <ns8:seg xml:id=\"C09_app871-f1831\">into my occupations more particularly than before. </ns8:seg>\n               <ns8:seg xml:id=\"C09_app872-f1831\">Winter, spring, </ns8:seg>and summer passed away during my <ns8:seg xml:id=\"C09_app875-f1831\">labours; </ns8:seg>but I did not watch the blossom or the expanding leaves&#8212;sights which before <ns8:seg xml:id=\"C09_app881-f1831\">always yielded </ns8:seg>me supreme <ns8:seg xml:id=\"C09_app883-f1831\">delight&#8212;so </ns8:seg>\n               <ns8:seg xml:id=\"C09_app884-f1831\">deeply </ns8:seg>was I <ns8:seg xml:id=\"C09_app886-f1831\">engrossed </ns8:seg>in my occupation. The leaves of that year <ns8:seg xml:id=\"C09_app888-f1831\">had </ns8:seg>withered before my work drew near <ns8:seg xml:id=\"C09_app891-f1831\">to </ns8:seg>a <ns8:seg xml:id=\"C09_app893-f1831\">close; </ns8:seg>and now every day <ns8:seg xml:id=\"C09_app895-f1831\">showed </ns8:seg>me more plainly how well I had succeeded. But my enthusiasm was checked by my <ns8:seg xml:id=\"C09_app898-f1831\">anxiety, </ns8:seg>and I appeared rather like one doomed by slavery to toil in the <ns8:seg xml:id=\"C09_app902-f1831\">mines, </ns8:seg>or any other <ns8:seg xml:id=\"C09_app904-f1831\">unwholesome trade, </ns8:seg>than an artist occupied <ns8:seg xml:id=\"C09_app907-f1831\">by </ns8:seg>his favourite employment. Every <ns8:seg xml:id=\"C09_app910-f1831\">night </ns8:seg>\n               <ns8:seg xml:id=\"C09_app911-f1831\">I was oppressed by a slow fever, </ns8:seg>and I became <ns8:seg xml:id=\"C09_app913-f1831\">nervous </ns8:seg>to a <ns8:seg xml:id=\"C09_app915-f1831\">most painful degree; the fall of a leaf startled me, and I shunned my fellow-creatures as if I had been guilty of a crime. Sometimes I grew alarmed at the wreck I perceived that I had become; the energy of my purpose alone sustained me: my labours would soon end, and I perceived that I had become; the energy of my purpose alone sustained me: my labours would soon end, and </ns8:seg>I believed that exercise and amusement would <ns8:seg xml:id=\"C09_app921-f1831\">then </ns8:seg>\n               <ns8:seg xml:id=\"C09_app922-f1831\">drive away </ns8:seg>\n               <ns8:seg xml:id=\"C09_app923-f1831\">incipient disease; </ns8:seg>and I promised myself both of <ns8:seg xml:id=\"C09_app926-f1831\">these </ns8:seg>when my creation should be <ns8:seg part=\"I\" xml:id=\"C09_app928-f1831__I\">complete.</ns8:seg>\n            </ns8:p>\n            "
+  }
+ },
+ {
+  "@context": "http://www.w3.org/ns/anno.jsonld",
+  "id": "https://frankensteinvariorum.org/qvNMvubKEemNrdNCZXmtHg",
+  "type": "Annotation",
+  "generator": {
+   "id": "https://frankensteinvariorum.org/",
+   "type": "Software",
+   "name": "Frankenstein Variorum",
+   "homepage": "https://recogito.pelagios.org/"
+  },
+  "generated": "2019-10-04T17:16:13.640192+00:00",
+  "body": [
+   {
+    "type": "TextualBody",
+    "value": "**This appears as footnote, w/ asterisk at the bottom of page in 1818--so, presumably this formatting is carried over in 1831 here?**\n\nhttps://www.themorgan.org/collection/frankenstein/60\n\nIS THIS IN THE ORIGINAL TEXT? WHY DOES IT APPEAR THIS WAY? OR DID IT APPEAR AS A FOOTNOTE TO THE 1831 PAGE, WHICH MAKES SENSE. BUT WE NEED TO CHECK ORIGINAL PRINT TEXT, OR ASK ELISA",
+    "creator": "https://hypothes.is/users/frankensteinvariorum",
+    "modified": "2019-10-04T17:16:13.640192+00:00",
+    "purpose": "commenting"
+   }
+  ],
+  "target": {
+   "source": "https://frankensteinvariorum.github.io/fv-collation/Frankenstein_1831.html",
+   "type": "Text",
+   "selector": [
+    {
+     "type": "TextQuoteSelector",
+     "prefix": "ind him tread*.*\n               ",
+     "exact": "Coleridge\u2019s \u201cAncient Mariner.\u201d",
+     "suffix": "\n      \n      Continuing thus, I"
+    },
+    {
+     "type": "RangeSelector",
+     "startSelector": {
+      "type": "XPathSelector",
+      "value": "//[@xml:id='novel1_letter4_chapter5_div4_div5_p8']"
+     },
+     "endSelector": {
+      "type": "XPathSelector",
+      "value": "//[@xml:id='novel1_letter4_chapter5_div4_div5_p8']"
+     }
+    }
+   ]
+  },
+  "diagnostic": {
+   "note": "not for open annotation consumption",
+   "html_p_index": [
+    162,
+    162
+   ],
+   "p_offset": -19,
+   "xml_text_content": "<ns9:p xmlns:ns9=\"http://www.tei-c.org/ns/1.0\" xml:id=\"novel1_letter4_chapter5_div4_div5_p8\">\n               <ns9:cit xml:id=\"novel1_letter4_chapter5_div4_div5_p8_cit1\">\n                  <ns9:quote xml:id=\"novel1_letter4_chapter5_div4_div5_p8_cit1_quote1\">\n                     <ns9:lg xml:id=\"novel1_letter4_chapter5_div4_div5_p8_cit1_quote1_lg1\">\n                        <ns9:l xml:id=\"novel1_letter4_chapter5_div4_div5_p8_cit1_quote1_lg1_l1\">\n                           <ns9:seg part=\"F\" xml:id=\"C10_app329-f1831__F\">Like </ns9:seg>one <ns9:seg xml:id=\"C10_app331-f1831\">who, </ns9:seg>on a <ns9:seg part=\"I\" xml:id=\"C10_app333-f1831__I\">lonely road,</ns9:seg>\n                        </ns9:l>\n                        <ns9:l xml:id=\"novel1_letter4_chapter5_div4_div5_p8_cit1_quote1_lg1_l2\">\n                           <ns9:seg part=\"F\" xml:id=\"C10_app333-f1831__F\">Doth </ns9:seg>walk in fear and <ns9:seg part=\"I\" xml:id=\"C10_app335-f1831__I\">dread,</ns9:seg>\n                        </ns9:l>\n                        <ns9:l xml:id=\"novel1_letter4_chapter5_div4_div5_p8_cit1_quote1_lg1_l3\">\n                           <ns9:seg part=\"F\" xml:id=\"C10_app335-f1831__F\">And, </ns9:seg>having once <ns9:seg xml:id=\"C10_app337-f1831\">turned </ns9:seg>\n                           <ns9:seg xml:id=\"C10_app338-f1831\">round, </ns9:seg>walks <ns9:seg part=\"I\" xml:id=\"C10_app340-f1831__I\">on,</ns9:seg>\n                        </ns9:l>\n                        <ns9:l xml:id=\"novel1_letter4_chapter5_div4_div5_p8_cit1_quote1_lg1_l4\">\n                           <ns9:seg part=\"F\" xml:id=\"C10_app340-f1831__F\">And </ns9:seg>turns no more his <ns9:seg part=\"I\" xml:id=\"C10_app342-f1831__I\">head;</ns9:seg>\n                        </ns9:l>\n                        <ns9:l xml:id=\"novel1_letter4_chapter5_div4_div5_p8_cit1_quote1_lg1_l5\">\n                           <ns9:seg part=\"F\" xml:id=\"C10_app342-f1831__F\">Because </ns9:seg>he knows a frightful <ns9:seg part=\"I\" xml:id=\"C10_app344-f1831__I\">fiend</ns9:seg>\n                        </ns9:l>\n                        <ns9:l xml:id=\"novel1_letter4_chapter5_div4_div5_p8_cit1_quote1_lg1_l6\">\n                           <ns9:seg part=\"F\" xml:id=\"C10_app344-f1831__F\">Doth </ns9:seg>close behind him <ns9:seg part=\"I\" xml:id=\"C10_app346-f1831__I\">tread*.</ns9:seg>\n                        </ns9:l>\n                     </ns9:lg>\n                  </ns9:quote>\n                  <ns9:note xml:id=\"novel1_letter4_chapter5_div4_div5_p8_cit1_note1\">*<ns9:bibl xml:id=\"novel1_letter4_chapter5_div4_div5_p8_cit1_note1_bibl1\">Coleridge&#8217;s &#8220;Ancient Mariner.&#8221;</ns9:bibl>\n                  </ns9:note>\n               </ns9:cit>\n            </ns9:p>\n            "
+  }
+ }
+]

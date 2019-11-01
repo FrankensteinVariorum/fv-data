@@ -153,13 +153,14 @@ class OpenAnnotation:
             }
             for a in self.annotations
             if a.p_index is not None
-            and self.collation.p_id(a.start_p_index() + self.p_offset)
+            and self.collation.p_id(a.start_p_index() + self.p_offset) is not None
+            and a.start_p_index() + self.p_offset > 0
         ]
 
 
 his = Hypothesis("hypothesis/data/hypothesis.json")
 c1818 = Collation(globstring="variorum-chunks/f1818*", witness="1818")
-oa1818 = OpenAnnotation(annotations=his, collation=c1818)
+oa1818 = OpenAnnotation(annotations=his, collation=c1818, p_offset=-1)
 
 json.dump(
     oa1818.generate_oa(),
@@ -168,7 +169,7 @@ json.dump(
 )
 
 c1831 = Collation(globstring="variorum-chunks/f1831*", witness="1831")
-oa1831 = OpenAnnotation(annotations=his, collation=c1831)
+oa1831 = OpenAnnotation(annotations=his, collation=c1831, p_offset=-19)
 json.dump(
     oa1831.generate_oa(),
     open("hypothesis/openannotation/1831_xml_id_mapping.json", "w"),
