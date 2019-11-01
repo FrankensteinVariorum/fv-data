@@ -1,5 +1,7 @@
 """
-Script to convert hypothes.is API json into http://www.openannotation.org/spec/core/ JSON-:D
+Script to convert hypothes.is API json into http://www.openannotation.org/spec/core/ JSON-LD
+
+LEGACY FILE FROM JUNE 2019 - attempted to use string matching to get exact offsets from XML elements. Replaced by a rougher heuristic that only tries to match p elements in the HTML to the XML.
 """
 
 import datetime
@@ -85,13 +87,17 @@ def find_overlap_offset(a, b):
     sm = SequenceMatcher(a=a, b=b)
     mb = sm.find_longest_match(0, len(a), 0, len(b))
     return {
-       "match": mb,
-       "no_match": mb.size <= 0,
-       "perfect_subset": mb.b == 0 and mb.size == len(sm.b),
-       "perfect_superset": mb.a == 0 and mb.size == len(sm.a) and mb.b > 0 and mb.b + mb.size < len(sm.b),
-       "overlap_start": mb.a == 0 and mb.b + mb.size == len(sm.b),
-       "overlap_end": mb.b == 0 and mb.a + mb.size == len(sm.a),
+        "match": mb,
+        "no_match": mb.size <= 0,
+        "perfect_subset": mb.b == 0 and mb.size == len(sm.b),
+        "perfect_superset": mb.a == 0
+        and mb.size == len(sm.a)
+        and mb.b > 0
+        and mb.b + mb.size < len(sm.b),
+        "overlap_start": mb.a == 0 and mb.b + mb.size == len(sm.b),
+        "overlap_end": mb.b == 0 and mb.a + mb.size == len(sm.a),
     }
+
 
 def evaluate_chunk(chunk_texts, exact, i=0, results={}):
     print(f"{i} in {len(chunk_texts)}")
@@ -105,16 +111,19 @@ def evaluate_chunk(chunk_texts, exact, i=0, results={}):
     exact_attempt = find_overlap_offset(chunk_texts[i], exact)
     print(exact_attempt)
     ele = chunk_texts[i].getparent()
-
     if exact_attempt["no_match"]:
         if "start_ele" in results:
             results = {}
         results = evaluate_chunk(chunk_texts, exact, i + 1, results)
     elif exact_attempt["perfect_subset"]:
-        print(f"Found potential element at {ele} *{exact}*: element text reads: {chunk_texts[i]} ")
+        print(
+            f"Found potential element at {ele} *{exact}*: element text reads: {chunk_texts[i]} "
+        )
         results["start_ele"] = ele
         results["start_offset"] = exact_attempt["match"].a
-        print(f"Found closing element at {ele} *{exact}*: element text reads: {chunk_texts[i]} ")
+        print(
+            f"Found closing element at {ele} *{exact}*: element text reads: {chunk_texts[i]} "
+        )
         results["final_ele"] = ele
         results["final_offset"] = exact_attempt["match"].a + exact_attempt["match"].size
         return results
@@ -122,9 +131,13 @@ def evaluate_chunk(chunk_texts, exact, i=0, results={}):
         results = evaluate_chunk(chunk_texts, exact, i + 1, results)
     elif exact_attempt["overlap_start"]:
         if "start_ele" in results:
-            print(f"Found closing element at {ele} *{exact}*: element text reads: {chunk_texts[i]} ")
+            print(
+                f"Found closing element at {ele} *{exact}*: element text reads: {chunk_texts[i]} "
+            )
             results["final_ele"] = ele
-            results["final_offset"] = exact_attempt["match"].a + exact_attempt["match"].size
+            results["final_offset"] = (
+                exact_attempt["match"].a + exact_attempt["match"].size
+            )
             return results
         else:
             results = {}
@@ -134,7 +147,9 @@ def evaluate_chunk(chunk_texts, exact, i=0, results={}):
             results = {}
             results = evaluate_chunk(chunk_texts, exact, i + 1, results)
         else:
-            print(f"Found potential element at {ele} *{exact}*: element text reads: {chunk_texts[i]} ")
+            print(
+                f"Found potential element at {ele} *{exact}*: element text reads: {chunk_texts[i]} "
+            )
             results["start_ele"] = ele
             results["start_offset"] = exact_attempt["match"].a
             results = evaluate_chunk(chunk_texts, exact, i + 1, results)
@@ -142,9 +157,7 @@ def evaluate_chunk(chunk_texts, exact, i=0, results={}):
         if "start_ele" in results:
             results = {}
         results = evaluate_chunk(chunk_texts, exact, i + 1, results)
-
     return results
-
 
 
 def find_seg_ids(text_sel, parsed_xml):
@@ -167,13 +180,18 @@ def find_seg_ids(text_sel, parsed_xml):
         if find_overlap_offset(c["nows"], single_string)["perfect_subset"]:
             print(f"Potential match found")
             provisional_results = evaluate_chunk(c["texts"], exact=trimmed_exact)
-            if "start_ele" in provisional_results and "final_ele" in provisional_results:
+            if (
+                "start_ele" in provisional_results
+                and "final_ele" in provisional_results
+            ):
                 return {
                     "chunk": c["path"],
                     "start_ele": provisional_results["start_ele"].get(
-                        "{http://www.w3.org/XML/1998/namespace}id"),
+                        "{http://www.w3.org/XML/1998/namespace}id"
+                    ),
                     "final_ele": provisional_results["final_ele"].get(
-                        "{http://www.w3.org/XML/1998/namespace}id"),
+                        "{http://www.w3.org/XML/1998/namespace}id"
+                    ),
                     "start_offset": provisional_results["start_offset"],
                     "end_offset": provisional_results["final_offset"],
                 }
@@ -183,6 +201,7 @@ def find_seg_ids(text_sel, parsed_xml):
             print("no match found in this chunk")
 
     return {"chunk": None, "start_ele": None, "final_ele": None}
+
 
 missedmatch = []
 nomatch = []
