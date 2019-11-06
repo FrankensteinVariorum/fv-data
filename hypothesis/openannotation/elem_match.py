@@ -95,20 +95,20 @@ class Collation:
         self.witness = witness
 
     def p_only(self):
-        return self.tree.xpath("//p")
+        return self.tree.xpath("//n:p", namespaces=self.ns)
 
     def head_only(self):
-        return self.tree.xpath("//head")
+        return self.tree.xpath("//n:head", namespaces=self.ns)
 
     def p_id(self, index):
         try:
-            return self.p_only()[index].xpath("./@xml:id")[0]
+            return self.p_only()[index].xpath("./@xml:id", namespaces=self.ns)[0]
         except:
             return None
 
     def head_id(self, index):
         try:
-            return self.head_only()[index].xpath("./@xml:id")[0]
+            return self.head_only()[index].xpath("./@xml:id", namespaces=self.ns)[0]
         except:
             return None
 
@@ -123,12 +123,16 @@ class OpenAnnotation:
     def diagnostic(self, xml_id):
         try:
             return etree.tostring(
-                self.collation.tree.xpath(f"//*[@xml:id='{xml_id}']")[0]
+                self.collation.tree.xpath(
+                    f"//*[@xml:id='{xml_id}']", namespaces=self.collation.ns
+                )[0]
             ).decode("utf-8")
         except:
             return xml_id
 
-    def oa_template(self, a, start_xml_id, end_xml_id):
+    def oa_template(
+        self, a, start_xml_id, end_xml_id, start_html_index, end_html_index
+    ):
         return {
             "@context": "http://www.w3.org/ns/anno.jsonld",
             "id": f"https://frankensteinvariorum.org/{a.data['id']}",
@@ -174,6 +178,7 @@ class OpenAnnotation:
             },
             "diagnostic": {
                 "note": "not for open annotation consumption",
+                "html": {"start": start_html_index, "end": end_html_index},
                 "xml_text_content": self.diagnostic(start_xml_id),
             },
         }
@@ -184,20 +189,24 @@ class OpenAnnotation:
         for a in self.annotations.p_sort(self.collation.witness):
             start_xml_id = self.collation.p_id(a.start_p_index() + self.p_offset)
             end_xml_id = self.collation.p_id(a.end_p_index() + self.p_offset)
-            oa.append(self.oa_template(a, start_xml_id, end_xml_id))
+            oa.append(
+                self.oa_template(a, start_xml_id, end_xml_id, a.start_c(), a.end_c())
+            )
         # Match all the head elements
         for a in self.annotations.head_sort(self.collation.witness):
             start_xml_id = self.collation.head_id(
                 a.start_head_index() + self.head_offset
             )
             end_xml_id = self.collation.head_id(a.end_head_index() + self.head_offset)
-            oa.append(self.oa_template(a, start_xml_id, end_xml_id))
+            oa.append(
+                self.oa_template(a, start_xml_id, end_xml_id, a.start_c(), a.end_c())
+            )
         return oa
 
 
 his = Hypothesis("hypothesis/data/hypothesis.json")
 c1818 = Collation(xml_path="hypothesis/migration/xml-ids/1818_full.xml", witness="1818")
-oa1818 = OpenAnnotation(annotations=his, collation=c1818, p_offset=-1)
+oa1818 = OpenAnnotation(annotations=his, collation=c1818, p_offset=-1, head_offset=0)
 
 json.dump(
     oa1818.generate_oa(),
