@@ -43,14 +43,14 @@ class Annotation:
     def end_p_index(self):
         return self.pull_index("p", "end")
 
-    def div_index(self):
-        return self.start_div_index()
+    def head_index(self):
+        return self.start_head_index()
 
-    def start_div_index(self):
-        self.pull_index("div", "start")
+    def start_head_index(self):
+        return self.pull_index("h3", "start")
 
-    def end_div_index(self):
-        self.pull_index("div", "end")
+    def end_head_index(self):
+        return self.pull_index("h3", "end")
 
     def pull_index(self, element, position):
         if position == "start":
@@ -77,14 +77,14 @@ class Hypothesis:
             key=lambda x: x.p_index(),
         )
 
-    def div_sort(self, witness_id):
+    def head_sort(self, witness_id):
         return sorted(
             [
                 a
                 for a in self.annotations
-                if a.div_index() is not None and a.witness == witness_id
+                if a.head_index() is not None and a.witness == witness_id
             ],
-            key=lambda x: x.div_index(),
+            key=lambda x: x.head_index(),
         )
 
 
@@ -97,21 +97,38 @@ class Collation:
     def p_only(self):
         return self.tree.xpath("//p")
 
+    def head_only(self):
+        return self.tree.xpath("//head")
+
     def p_id(self, index):
         try:
             return self.p_only()[index].xpath("./@xml:id")[0]
         except:
             return None
 
+    def head_id(self, index):
+        try:
+            return self.head_only()[index].xpath("./@xml:id")[0]
+        except:
+            return None
+
 
 class OpenAnnotation:
-    def __init__(self, annotations, collation, p_offset=-1, div_offset=0):
+    def __init__(self, annotations, collation, p_offset=-1, head_offset=0):
         self.collation = collation
-        self.annotations
+        self.annotations = annotations
         self.p_offset = p_offset
-        self.div_offset = div_offset
+        self.head_offset = head_offset
 
-    def oa_template(a, start_xml_id, end_xml_id):
+    def diagnostic(self, xml_id):
+        try:
+            return etree.tostring(
+                self.collation.tree.xpath(f"//*[@xml:id='{xml_id}']")[0]
+            ).decode("utf-8")
+        except:
+            return xml_id
+
+    def oa_template(self, a, start_xml_id, end_xml_id):
         return {
             "@context": "http://www.w3.org/ns/anno.jsonld",
             "id": f"https://frankensteinvariorum.org/{a.data['id']}",
@@ -157,22 +174,24 @@ class OpenAnnotation:
             },
             "diagnostic": {
                 "note": "not for open annotation consumption",
-                "xml_text_content": etree.tostring(
-                    self.collation.tree.xpath("//*[@xml:id='{start_xml_id}']")[0]
-                ).decode("utf-8"),
+                "xml_text_content": self.diagnostic(start_xml_id),
             },
         }
 
     def generate_oa(self):
         oa = []
-        for a in self.annotations.p_sort():
+        # Match all the p elements
+        for a in self.annotations.p_sort(self.collation.witness):
             start_xml_id = self.collation.p_id(a.start_p_index() + self.p_offset)
             end_xml_id = self.collation.p_id(a.end_p_index() + self.p_offset)
-            oa.append(oa_template(a, start_xml_id, end_xml_id))
-        for a in self.annotations.div_sort():
-            start_xml_id = self.collation.div_id(a.start_div_index() + self.div_offset)
-            end_xml_id = self.collation.div_id(a.end_div_index() + self.div_offset)
-            oa.append(oa_template(a, start_xml_id, end_xml_id))
+            oa.append(self.oa_template(a, start_xml_id, end_xml_id))
+        # Match all the head elements
+        for a in self.annotations.head_sort(self.collation.witness):
+            start_xml_id = self.collation.head_id(
+                a.start_head_index() + self.head_offset
+            )
+            end_xml_id = self.collation.head_id(a.end_head_index() + self.head_offset)
+            oa.append(self.oa_template(a, start_xml_id, end_xml_id))
         return oa
 
 
