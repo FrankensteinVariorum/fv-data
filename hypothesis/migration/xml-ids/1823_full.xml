@@ -1,21 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xml>
-  
-  <header>
-      <include href="standOff_Includes/1823_header.xml" parse="xml"/>
-  </header>
-  <text>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude"><!--ebb: for standoff inclusion, add XInclude namespace to root element: xmlns:xi='http://www.w3.org/2001/XInclude', and apply
+                        xi: namespace prefix to include elements in the document.-->
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Uncollated TEI: 1823 edition</title>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Frankenstein Variorum Project</authority>
+            <date>2019-11-05T20:01:03.209-05:00</date>
+            <availability>
+               <licence>Distributed under a Creative Commons
+                                    Attribution-ShareAlike 3.0 Unported License</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>The source is an XML file of one complete print edition of Frankenstein prior to flattening all elements for collation. The source document is not in any namespace. Where div elements would be expected in a TEI document to structure the full edition, these are represented by milestone markers signalling the beginning and end of a text division.</p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>This TEI was produced to assist migration of hypothes.is annotations made on distinct HTML editions prior to collation. The document contains TEI elements representing the basic structure of each edition file as they appear in the Variorum edition, but lacking the markup of variorum "hotspots" indicating loci of variance with other editions. Currently this TEI document is not valid against the TEI All schema because div elements are absent, having been flattened to milestone start and end markers. Also, there are include elements present that are not active because they are not in the xi:include namespace. To activate them, apply the xi: namespace prefix to include elements in the document, and (in the oXygen XML Editor) run canonicalize to resolve them. The include elements are currently here as placeholders representing more material present in each edition (such as title pages and backmatter) that was not part of the collation process.</p>
+      </encodingDesc>
+   </teiHeader>
+   <text>
       <anchor type="collate" xml:id="C01"/>
-      <milestone unit="volume" n="1"/>
+      <milestone unit="volume" n="1" xml:id="milestone1"/>
       <milestone unit="frontmatter" type="start" n="1"/>
-      <include href="standOff_Includes/1823_frontMatter1.xml" parse="xml"/>
+      <include href="https://raw.githubusercontent.com/FrankensteinVariorum/fv-collation/master/collateXPrep/standOff_Includes/1823_frontMatter1.xml"
+               parse="xml"/>
       <milestone unit="frontmatter" type="end" n="1"/>
       <pb xml:id="F1823_v1_012"/>
       <milestone unit="preface" type="start" n="1"/>
       <head xml:id="preface1_head1">PREFACE.</head>
       
 
-      <p xml:id="preface1_p1">T<hi xml:id="preface1_p1_hi1">HE</hi> event on which this fiction is founded has been supposed, by
+      <p xml:id="preface1_p1">T<hi rend="smallcaps" xml:id="preface1_p1_hi1">HE</hi> event on which this fiction is founded has been supposed, by
         Dr. Darwin, and some of the physiological writers of Germany, as not of impossible
         occurrence. I shall not be supposed as according the remotest degree of serious faith to
         such an imagination; yet, in assuming it as the basis of a work of fancy, I have not
@@ -64,15 +83,15 @@
       <pb xml:id="F1823_v1_020"/>
       <head xml:id="novel1_head1">FRANKENSTEIN;</head>
       <head xml:id="novel1_head2">
-         <hi xml:id="novel1_head2_hi1">OR</hi>,</head>
+         <hi rend="smallcaps" xml:id="novel1_head2_hi1">OR</hi>,</head>
       <head xml:id="novel1_head3">THE MODERN PROMETHEUS.</head>
       
       <milestone unit="letter" type="start" n="1"/>
         <head xml:id="novel1_letter1_head1">LETTER I.</head>
         <head xml:id="novel1_letter1_head2">
-         <hi xml:id="novel1_letter1_head2_hi1">To Mrs</hi>. S<hi xml:id="novel1_letter1_head2_hi2">AVILLE</hi>, <hi xml:id="novel1_letter1_head2_hi3">England</hi>.</head>
+         <hi rend="italic" xml:id="novel1_letter1_head2_hi1">To Mrs</hi>. S<hi rend="smallcaps" xml:id="novel1_letter1_head2_hi2">AVILLE</hi>, <hi rend="italic" xml:id="novel1_letter1_head2_hi3">England</hi>.</head>
         <p xml:id="novel1_letter1_p1"> St. Petersburgh, Dec. 11th, 17—.</p>
-        <p xml:id="novel1_letter1_p2">Y<hi xml:id="novel1_letter1_p2_hi1">OU</hi> will rejoice to hear that no disaster has accompanied the
+        <p xml:id="novel1_letter1_p2">Y<hi rend="smallcaps" xml:id="novel1_letter1_p2_hi1">OU</hi> will rejoice to hear that no disaster has accompanied the
           commencement of an enterprise which you have regarded with such evil forebodings. I
           arrived here yesterday; and my first task is to assure my dear sister of my welfare, and
           increasing confidence in the success of my undertaking.</p>
@@ -153,14 +172,14 @@
         <p xml:id="novel1_letter1_p10">Farewell, my dear, excellent, Margaret. Heaven shower down blessings on you, and save me,
           that I may again and again testify my gratitude for all your love and kindness.</p>
         <p xml:id="novel1_letter1_p11">Your affectionate brother,</p>
-        <p xml:id="novel1_letter1_p12">R. W<hi xml:id="novel1_letter1_p12_hi1">ALTON</hi>.</p>
+        <p xml:id="novel1_letter1_p12">R. W<hi rend="smallcaps" xml:id="novel1_letter1_p12_hi1">ALTON</hi>.</p>
       <milestone unit="letter" type="end" n="1"/>
       <anchor type="collate" xml:id="C03"/>
       <pb xml:id="F1823_v1_029" n="10"/>
       <milestone unit="letter" type="start" n="2"/>
         <head xml:id="novel1_letter2_head1">LETTER II.</head>
         <head xml:id="novel1_letter2_head2">
-         <hi xml:id="novel1_letter2_head2_hi1">To Mrs.</hi> S<hi xml:id="novel1_letter2_head2_hi2">AVILLE</hi>, <hi xml:id="novel1_letter2_head2_hi3">England</hi>.</head>
+         <hi rend="italic" xml:id="novel1_letter2_head2_hi1">To Mrs.</hi> S<hi rend="smallcaps" xml:id="novel1_letter2_head2_hi2">AVILLE</hi>, <hi rend="italic" xml:id="novel1_letter2_head2_hi3">England</hi>.</head>
         <p xml:id="novel1_letter2_p1">Archangel, 28th March, 17—.</p>
         <p xml:id="novel1_letter2_p2">How slowly the time passes here, encompassed as I am by frost and snow; yet a second step
           is taken towards my enterprise. I have hired a vessel, and am occupied in collecting my
@@ -184,7 +203,7 @@
           acquainted with more languages than that of my native country. Now I am twenty-eight, and
           am in reality more illiterate than many school-boys of fifteen. It is true that I have
           thought more, and that my day dreams are more extended and magnificent; but they want (as
-          the painters call it) <hi xml:id="novel1_letter2_p3_hi1">keeping;</hi> and I greatly need a friend who
+          the painters call it) <hi rend="italic" xml:id="novel1_letter2_p3_hi1">keeping;</hi> and I greatly need a friend who
           would have sense enough not to despise me as romantic, and affection <pb xml:id="F1823_v1_032" n="13"/>enough for me to endeavour to regulate my mind.</p>
         <p xml:id="novel1_letter2_p4">Well, these are useless complaints; I shall certainly find no friend on the wide ocean,
           nor even here in Archangel, among merchants and seamen. Yet some feelings, unallied to the
@@ -234,19 +253,19 @@
           some occasions when I need them most to support my spirits. I love you very tenderly.
           Remember me with affection, should you never hear from me again.</p>
         <p xml:id="novel1_letter2_p9">Your affectionate brother,</p>
-        <p xml:id="novel1_letter2_p10">R<hi xml:id="novel1_letter2_p10_hi1">OBERT</hi> W<hi xml:id="novel1_letter2_p10_hi2">ALTON</hi>.</p>
+        <p xml:id="novel1_letter2_p10">R<hi rend="smallcaps" xml:id="novel1_letter2_p10_hi1">OBERT</hi> W<hi rend="smallcaps" xml:id="novel1_letter2_p10_hi2">ALTON</hi>.</p>
       <milestone unit="letter" type="end" n="2"/>
       <anchor type="collate" xml:id="C04"/>
       <pb xml:id="F1823_v1_037" n="18"/>
       <milestone unit="letter" type="start" n="3"/>
         <head xml:id="novel1_letter3_head1">LETTER III.</head>
-        <ab xml:id="novel1_letter3_ab1">
-         <hi xml:id="novel1_letter3_ab1_hi1">To Mrs.</hi> S<hi xml:id="novel1_letter3_ab1_hi2">AVILLE</hi>, <hi xml:id="novel1_letter3_ab1_hi3">England.</hi>
+        <ab rend="center" xml:id="novel1_letter3_ab1">
+         <hi rend="italic" xml:id="novel1_letter3_ab1_hi1">To Mrs.</hi> S<hi rend="smallcaps" xml:id="novel1_letter3_ab1_hi2">AVILLE</hi>, <hi rend="italic" xml:id="novel1_letter3_ab1_hi3">England.</hi>
       </ab>
         <p xml:id="novel1_letter3_p1">July 7th, 17—.</p>
         <p xml:id="novel1_letter3_p2">
-         <hi xml:id="novel1_letter3_p2_hi1">MY DEAR SISTER</hi>,</p>
-        <p xml:id="novel1_letter3_p3">I <hi xml:id="novel1_letter3_p3_hi1">WRITE</hi> a few lines in haste, to say that I am safe, and well
+         <hi rend="smallcaps" xml:id="novel1_letter3_p2_hi1">MY DEAR SISTER</hi>,</p>
+        <p xml:id="novel1_letter3_p3">I <hi rend="smallcaps" xml:id="novel1_letter3_p3_hi1">WRITE</hi> a few lines in haste, to say that I am safe, and well
           advanced on my voyage. This letter will reach England by a merchant-man now on its
           homeward voyage from Archangel; more fortunate than I, who may not see my native land,
           perhaps, for many years. I am, however, in good spirits: my men are bold, and apparently
@@ -271,8 +290,8 @@
       <milestone unit="letter" type="start" n="4"/>
         <head xml:id="novel1_letter4_head1">LETTER IV.</head>
         <head xml:id="novel1_letter4_head2">
-          <ab xml:id="novel1_letter4_head2_ab1">
-            <hi xml:id="novel1_letter4_head2_ab1_hi1">To Mrs.</hi> S<hi xml:id="novel1_letter4_head2_ab1_hi2">AVILLE</hi>, <hi xml:id="novel1_letter4_head2_ab1_hi3">England.</hi>
+          <ab rend="center" xml:id="novel1_letter4_head2_ab1">
+            <hi rend="italic" xml:id="novel1_letter4_head2_ab1_hi1">To Mrs.</hi> S<hi rend="smallcaps" xml:id="novel1_letter4_head2_ab1_hi2">AVILLE</hi>, <hi rend="italic" xml:id="novel1_letter4_head2_ab1_hi3">England.</hi>
          </ab>
         </head>
         <p xml:id="novel1_letter4_p1">August 5th, 17—.</p>
@@ -450,13 +469,13 @@
         <pb xml:id="F1823_v1_058" n="39"/>
         <head xml:id="novel1_letter4_head3">FRANKENSTEIN;</head>
         <head xml:id="novel1_letter4_head4">
-         <hi xml:id="novel1_letter4_head4_hi1">OR</hi>,</head>
+         <hi rend="smallcaps" xml:id="novel1_letter4_head4_hi1">OR</hi>,</head>
         <head xml:id="novel1_letter4_head5">THE MODERN PROMETHEUS.</head>
         
         <anchor type="collate" xml:id="C07"/>
         <milestone unit="chapter" type="start" n="1"/>
           <head xml:id="novel1_letter4_chapter1_head1">CHAPTER I.</head>
-          <p xml:id="novel1_letter4_chapter1_p1">I <hi xml:id="novel1_letter4_chapter1_p1_hi1">AM</hi> by birth a Genevese; and my family is one of the most
+          <p xml:id="novel1_letter4_chapter1_p1">I <hi rend="smallcaps" xml:id="novel1_letter4_chapter1_p1_hi1">AM</hi> by birth a Genevese; and my family is one of the most
             distinguished of that republic. My ancestors had been for many years counsellors and
             syndics; and my father had filled several public situations with honour and reputation.
             He was respected by all who knew him for his integrity and indefatigable attention to
@@ -677,7 +696,7 @@
         <milestone unit="chapter" type="start" n="2"/>
           <pb xml:id="F1823_v1_080" n="61"/>
           <head xml:id="novel1_letter4_chapter2_head1">CHAPTER II.</head>
-          <p xml:id="novel1_letter4_chapter2_p1">W<hi xml:id="novel1_letter4_chapter2_p1_hi1">HEN</hi> I had attained the age of seventeen, my parents resolved
+          <p xml:id="novel1_letter4_chapter2_p1">W<hi rend="smallcaps" xml:id="novel1_letter4_chapter2_p1_hi1">HEN</hi> I had attained the age of seventeen, my parents resolved
             that I should become a student at the university of Ingolstadt. I had hitherto attended
             the schools of Geneva; but my father thought it necessary, for the completion of my
             education, that I should be made acquainted with other customs than those of my native
@@ -1030,7 +1049,7 @@
         <anchor type="collate" xml:id="C10"/>
         <milestone unit="chapter" type="start" n="4"/>
           <head xml:id="novel1_letter4_chapter4_head1">CHAPTER IV.</head>
-          <p xml:id="novel1_letter4_chapter4_p1">I<hi xml:id="novel1_letter4_chapter4_p1_hi1">T</hi> was on a dreary night of November, that I beheld the
+          <p xml:id="novel1_letter4_chapter4_p1">I<hi rend="smallcaps" xml:id="novel1_letter4_chapter4_p1_hi1">T</hi> was on a dreary night of November, that I beheld the
             accomplishment of my toils. With an anxiety that almost amounted to agony, I collected
             the instruments of life around me, that I might infuse a spark of being into the
             lifeless thing that lay at my feet. It was already one in the morning; the rain pattered
@@ -1099,12 +1118,12 @@
             <cit xml:id="novel1_letter4_chapter4_p8_cit1">
               <quote xml:id="novel1_letter4_chapter4_p8_cit1_quote1">
                 <lg xml:id="novel1_letter4_chapter4_p8_cit1_quote1_lg1">
-                  <l xml:id="novel1_letter4_chapter4_p8_cit1_quote1_lg1_l1">Like one who, on a lonely road,</l>
-                  <l xml:id="novel1_letter4_chapter4_p8_cit1_quote1_lg1_l2">Doth walk in fear and dread,</l>
-                  <l xml:id="novel1_letter4_chapter4_p8_cit1_quote1_lg1_l3">And, having once turned round, walks on,</l>
-                  <l xml:id="novel1_letter4_chapter4_p8_cit1_quote1_lg1_l4">And turns no more his head;</l>
-                  <l xml:id="novel1_letter4_chapter4_p8_cit1_quote1_lg1_l5">Because he knows a frightful fiend</l>
-                  <l xml:id="novel1_letter4_chapter4_p8_cit1_quote1_lg1_l6">Doth close behind him tread*.</l>
+                  <l rend="i2" xml:id="novel1_letter4_chapter4_p8_cit1_quote1_lg1_l1">Like one who, on a lonely road,</l>
+                  <l rend="i5" xml:id="novel1_letter4_chapter4_p8_cit1_quote1_lg1_l2">Doth walk in fear and dread,</l>
+                  <l rend="i2" xml:id="novel1_letter4_chapter4_p8_cit1_quote1_lg1_l3">And, having once turned round, walks on,</l>
+                  <l rend="i5" xml:id="novel1_letter4_chapter4_p8_cit1_quote1_lg1_l4">And turns no more his head;</l>
+                  <l rend="i2" xml:id="novel1_letter4_chapter4_p8_cit1_quote1_lg1_l5">Because he knows a frightful fiend</l>
+                  <l rend="i5" xml:id="novel1_letter4_chapter4_p8_cit1_quote1_lg1_l6">Doth close behind him tread*.</l>
                 </lg>
               </quote>
               <note xml:id="novel1_letter4_chapter4_p8_cit1_note1">* <bibl xml:id="novel1_letter4_chapter4_p8_cit1_note1_bibl1">Coleridge’s “Ancient Mariner.”</bibl>
@@ -1168,7 +1187,7 @@
           <p xml:id="novel1_letter4_chapter4_p16">“My dear Victor,” cried he, “what, for God’s sake, is the matter? Do not laugh in that
             manner. How ill you are! What is the cause of all this?</p>
           <p xml:id="novel1_letter4_chapter4_p17">“Do not ask me,” cried I, putting my hands before my eyes, for I thought I saw the
-            dreaded spectre glide into the room; “<hi xml:id="novel1_letter4_chapter4_p17_hi1">he</hi> can tell.—Oh, save me!
+            dreaded spectre glide into the room; “<hi rend="italic" xml:id="novel1_letter4_chapter4_p17_hi1">he</hi> can tell.—Oh, save me!
             save me!” I imagined that the monster seized me; I struggled furiously, and fell down in
             a fit.</p>
           <p xml:id="novel1_letter4_chapter4_p18">Poor Clerval! what must have been his feelings? A meeting, which he anticipated with
@@ -1220,11 +1239,11 @@
         <anchor type="collate" xml:id="C11"/>
         <milestone unit="chapter" type="start" n="5"/>
           <head xml:id="novel1_letter4_chapter5_head1">CHAPTER V.</head>
-          <p xml:id="novel1_letter4_chapter5_p1">C<hi xml:id="novel1_letter4_chapter5_p1_hi1">LERVAL</hi> then put the following letter into my hands.</p>
+          <p xml:id="novel1_letter4_chapter5_p1">C<hi rend="smallcaps" xml:id="novel1_letter4_chapter5_p1_hi1">LERVAL</hi> then put the following letter into my hands.</p>
           <p xml:id="novel1_letter4_chapter5_p2">
-            <ab xml:id="novel1_letter4_chapter5_p2_ab1">“<hi xml:id="novel1_letter4_chapter5_p2_ab1_hi1">To</hi> V. F<hi xml:id="novel1_letter4_chapter5_p2_ab1_hi2">RANKENSTEIN</hi>.</ab>
+            <ab rend="center" xml:id="novel1_letter4_chapter5_p2_ab1">“<hi rend="italic" xml:id="novel1_letter4_chapter5_p2_ab1_hi1">To</hi> V. F<hi rend="smallcaps" xml:id="novel1_letter4_chapter5_p2_ab1_hi2">RANKENSTEIN</hi>.</ab>
           </p>
-          <p xml:id="novel1_letter4_chapter5_p3">“<hi xml:id="novel1_letter4_chapter5_p3_hi1">MY DEAR COUSIN</hi>,</p>
+          <p xml:id="novel1_letter4_chapter5_p3">“<hi rend="smallcaps" xml:id="novel1_letter4_chapter5_p3_hi1">MY DEAR COUSIN</hi>,</p>
           <p xml:id="novel1_letter4_chapter5_p4">“I cannot describe to you the uneasiness we have all felt concerning your health. We
             cannot help imagining that your friend Clerval conceals the extent of your disorder: for
             it is now several months since we have seen your hand-writing; and all this time you
@@ -1305,7 +1324,7 @@
           <p xml:id="novel1_letter4_chapter5_p10">“I must say also a few words to you, my dear cousin, of little darling William. I wish
             you could see him; he is very tall of his age, with sweet laughing blue eyes, dark
             eye-lashes, and curling hair. When he smiles, two little dimples appear on each cheek,
-            which are rosy with health. He has already had one or two little <hi xml:id="novel1_letter4_chapter5_p10_hi1">wives</hi>, but Louisa Biron is his favourite, a pretty little girl of five years of
+            which are rosy with health. He has already had one or two little <hi rend="italic" xml:id="novel1_letter4_chapter5_p10_hi1">wives</hi>, but Louisa Biron is his favourite, a pretty little girl of five years of
             age.</p>
           <p xml:id="novel1_letter4_chapter5_p11">“Now, dear Victor, I dare say you wish to be indulged in a little gossip concerning the
             good people of Geneva. The pretty Miss Mansfield has already <pb xml:id="F1823_v1_142" n="123"/>received the congratulatory visits on her approaching marriage with a young
@@ -1320,7 +1339,7 @@
             write yourself, and make your father and all <pb xml:id="F1823_v1_143" n="124"/>of us
             happy; or——I cannot bear to think of the other side of the question; my tears already
             flow. Adieu, my dearest cousin.</p>
-          <p xml:id="novel1_letter4_chapter5_p13">“E<hi xml:id="novel1_letter4_chapter5_p13_hi1">LIZABETH</hi> L<hi xml:id="novel1_letter4_chapter5_p13_hi2">AVENZA</hi>.</p>
+          <p xml:id="novel1_letter4_chapter5_p13">“E<hi rend="smallcaps" xml:id="novel1_letter4_chapter5_p13_hi1">LIZABETH</hi> L<hi rend="smallcaps" xml:id="novel1_letter4_chapter5_p13_hi2">AVENZA</hi>.</p>
           <p xml:id="novel1_letter4_chapter5_p14"> “Geneva,
             March 18th, 17—.</p>
           <anchor type="collate" xml:id="C12"/>
@@ -1423,11 +1442,11 @@
         <anchor type="collate" xml:id="C13"/>
         <milestone unit="chapter" type="start" n="6"/>
           <head xml:id="novel1_letter4_chapter6_head1">CHAPTER VI.</head>
-          <p xml:id="novel1_letter4_chapter6_p1">O<hi xml:id="novel1_letter4_chapter6_p1_hi1">N</hi>, my return, I found the following letter from my
+          <p xml:id="novel1_letter4_chapter6_p1">O<hi rend="smallcaps" xml:id="novel1_letter4_chapter6_p1_hi1">N</hi>, my return, I found the following letter from my
             father:—</p>
-          <ab xml:id="novel1_letter4_chapter6_ab1">
-         <hi xml:id="novel1_letter4_chapter6_ab1_hi1">”To</hi> V. F<hi xml:id="novel1_letter4_chapter6_ab1_hi2">RANKENSTEIN</hi>.</ab>
-          <p xml:id="novel1_letter4_chapter6_p2">“<hi xml:id="novel1_letter4_chapter6_p2_hi1">MY DEAR VICTOR,</hi>
+          <ab rend="center" xml:id="novel1_letter4_chapter6_ab1">
+         <hi rend="italic" xml:id="novel1_letter4_chapter6_ab1_hi1">”To</hi> V. F<hi rend="smallcaps" xml:id="novel1_letter4_chapter6_ab1_hi2">RANKENSTEIN</hi>.</ab>
+          <p xml:id="novel1_letter4_chapter6_p2">“<hi rend="smallcaps" xml:id="novel1_letter4_chapter6_p2_hi1">MY DEAR VICTOR,</hi>
       </p>
           <p xml:id="novel1_letter4_chapter6_p3">“You have probably waited impatiently for a letter to fix the date of your return to
             us; and I was at first tempted to write only a few lines, merely mentioning the day on
@@ -1479,7 +1498,7 @@
             of festering, the wounds of our minds. Enter the house of mourning, my friend, but with
             kindness and affection for those who love you, and not with hatred for your enemies.</p>
           <p xml:id="novel1_letter4_chapter6_p12">“Your affectionate and afflicted father,</p>
-          <p xml:id="novel1_letter4_chapter6_p13">A<hi xml:id="novel1_letter4_chapter6_p13_hi1">LPHONSE</hi> F<hi xml:id="novel1_letter4_chapter6_p13_hi2">RANKENSTEIN</hi>.</p>
+          <p xml:id="novel1_letter4_chapter6_p13">A<hi rend="smallcaps" xml:id="novel1_letter4_chapter6_p13_hi1">LPHONSE</hi> F<hi rend="smallcaps" xml:id="novel1_letter4_chapter6_p13_hi2">RANKENSTEIN</hi>.</p>
           <p xml:id="novel1_letter4_chapter6_p14">“Geneva, May 12th, 17—.”</p>
           <p xml:id="novel1_letter4_chapter6_p15">Clerval, who had watched my countenance as I read this letter, was surprised to observe
             the despair that succeeded to the joy I at first expressed on receiving news from my
@@ -1565,7 +1584,7 @@
             given life. What did he there? Could he be (I shuddered at the conception) the murderer
             of my brother? No sooner did that idea cross my imagination, than I became convinced of
             its truth; my teeth chattered, and I was forced to lean against a tree for support. The
-            figure passed me quickly, and I lost it in the gloom. Nothing in human <pb xml:id="F1823_v1_167" n="148"/>shape could have destroyed that fair child. <hi xml:id="novel1_letter4_chapter6_p29_hi1">He</hi> was the murderer! I could not doubt it. The mere presence of the
+            figure passed me quickly, and I lost it in the gloom. Nothing in human <pb xml:id="F1823_v1_167" n="148"/>shape could have destroyed that fair child. <hi rend="italic" xml:id="novel1_letter4_chapter6_p29_hi1">He</hi> was the murderer! I could not doubt it. The mere presence of the
             idea was an irresistible proof of the fact. I thought of pursuing the devil; but it
             would have been in vain, for another flash discovered him to me hanging among the rocks
             of the nearly perpendicular ascent of Mont Salêve, a hill that bounds Plainpalais on the
@@ -1694,7 +1713,7 @@
         <anchor type="collate" xml:id="C14"/>
         <milestone unit="chapter" type="start" n="7"/>
           <head xml:id="novel1_letter4_chapter7_head1">CHAPTER VII.</head>
-          <p xml:id="novel1_letter4_chapter7_p1">W<hi xml:id="novel1_letter4_chapter7_p1_hi1">E</hi> passed a few sad hours, until eleven o’clock, when the
+          <p xml:id="novel1_letter4_chapter7_p1">W<hi rend="smallcaps" xml:id="novel1_letter4_chapter7_p1_hi1">E</hi> passed a few sad hours, until eleven o’clock, when the
             trial was to commence. My father and the rest of the family being obliged to attend as
             witnesses, I accompanied them to the court. During the whole of this wretched mockery of
             justice I suffered living torture. It was to be decided, whether the result of my
@@ -1867,7 +1886,7 @@
               mock<pb xml:id="F1823_v1_196" n="177"/>eries! when one creature is murdered, another
             is immediately deprived of life in a slow torturing manner; then the executioners, their
             hands yet reeking with the blood of innocence, believe that they have done a great deed.
-            They call this <hi xml:id="novel1_letter4_chapter7_p26_hi1">retribution</hi>. Hateful name! When that word is
+            They call this <hi rend="italic" xml:id="novel1_letter4_chapter7_p26_hi1">retribution</hi>. Hateful name! When that word is
             pronounced, I know greater and more horrid punishments are going to be inflicted than
             the gloomiest tyrant has ever invented to satiate his utmost revenge. Yet this is not
             consolation for you, my Justine, unless indeed that you may glory in escaping from so
@@ -1917,7 +1936,7 @@
         <anchor type="collate" xml:id="C15"/>
         <milestone unit="chapter" type="start" n="8"/>
           <head xml:id="novel1_letter4_chapter8_head1">CHAPTER VIII.</head>
-          <p xml:id="novel1_letter4_chapter8_p1">N<hi xml:id="novel1_letter4_chapter8_p1_hi1">OTHING</hi> is more painful to the human mind, than, after the
+          <p xml:id="novel1_letter4_chapter8_p1">N<hi rend="smallcaps" xml:id="novel1_letter4_chapter8_p1_hi1">OTHING</hi> is more painful to the human mind, than, after the
             feelings have been worked up by a quick succession of events, the dead calmness of
             inaction and certainty which follows, and deprives the soul both of hope and fear.
             Justine died; she rested; and I was alive. The blood flowed freely in my veins, but a
@@ -2047,7 +2066,7 @@
             fields. Immense glaciers approached the road; <pb xml:id="F1823_v1_214" n="195"/>we
             heard the rumbling thunder of the falling avelânche, and marked the smoke of its
             passage. Mont Blanc, the supreme and magnificent Mont Blanc, raised itself from the
-            surrounding <hi xml:id="novel1_letter4_chapter8_p13_hi1">aiguilles</hi>, and its tremendous <hi xml:id="novel1_letter4_chapter8_p13_hi2">dome</hi> overlooked the valley.</p>
+            surrounding <hi rend="italic" xml:id="novel1_letter4_chapter8_p13_hi1">aiguilles</hi>, and its tremendous <hi rend="italic" xml:id="novel1_letter4_chapter8_p13_hi2">dome</hi> overlooked the valley.</p>
           <p xml:id="novel1_letter4_chapter8_p14">During this journey, I sometimes joined Elizabeth, and exerted myself to point out to
             her the various beauties of the scene. I often suffered my mule to lag behind, and
             indulged in the misery of reflection. At other times I spurred on the animal before my
@@ -2065,7 +2084,7 @@
         <pb xml:id="F1823_v1_216" n="197"/>
         <milestone unit="chapter" type="start" n="9"/>
           <head xml:id="novel1_letter4_chapter9_head1">CHAPTER IX.</head>
-          <p xml:id="novel1_letter4_chapter9_p1">T<hi xml:id="novel1_letter4_chapter9_p1_hi1">HE</hi> next day, contrary to the prognostications of our guides,
+          <p xml:id="novel1_letter4_chapter9_p1">T<hi rend="smallcaps" xml:id="novel1_letter4_chapter9_p1_hi1">HE</hi> next day, contrary to the prognostications of our guides,
             was fine, although clouded. We visited the source of the Arveiron, and rode about the
             valley until evening. These sublime and magnificent scenes afforded me the greatest
             consolation that I was capable of receiving. They elevated me from all littleness of
@@ -2108,13 +2127,13 @@
             chance word or scene that that word may convey to us.</p>
           <lg xml:id="novel1_letter4_chapter9_lg1">
             <l xml:id="novel1_letter4_chapter9_lg1_l1">We rest; a dream has power to poison sleep.</l>
-            <l xml:id="novel1_letter4_chapter9_lg1_l2">We rise; one wand’ring thought pollutes the day.</l>
+            <l rend="i2" xml:id="novel1_letter4_chapter9_lg1_l2">We rise; one wand’ring thought pollutes the day.</l>
             <l xml:id="novel1_letter4_chapter9_lg1_l3">We feel, conceive, or reason; laugh or weep,</l>
-            <l xml:id="novel1_letter4_chapter9_lg1_l4">Embrace fond woe, or cast our cares away;</l>
+            <l rend="i2" xml:id="novel1_letter4_chapter9_lg1_l4">Embrace fond woe, or cast our cares away;</l>
             <l xml:id="novel1_letter4_chapter9_lg1_l5">It is the same: for, be it joy or sorrow,</l>
-            <l xml:id="novel1_letter4_chapter9_lg1_l6">The path of its departure still is free.</l>
+            <l rend="i2" xml:id="novel1_letter4_chapter9_lg1_l6">The path of its departure still is free.</l>
             <l xml:id="novel1_letter4_chapter9_lg1_l7">Man’s yesterday may ne’er be like his morrow;</l>
-            <l xml:id="novel1_letter4_chapter9_lg1_l8">Nought may endure but mutability!</l>
+            <l rend="i2" xml:id="novel1_letter4_chapter9_lg1_l8">Nought may endure but mutability!</l>
           </lg>
           <p xml:id="novel1_letter4_chapter9_p4">
          <pb xml:id="F1823_v1_221" n="202"/>It was nearly noon when I arrived at the top of the
@@ -2230,7 +2249,7 @@
         <anchor type="collate" xml:id="C17"/>
         <milestone unit="chapter" type="start" n="10"/>
           <head xml:id="novel1_letter4_chapter10_head1">CHAPTER X.</head>
-          <p xml:id="novel1_letter4_chapter10_p1">“I<hi xml:id="novel1_letter4_chapter10_p1_hi1">T</hi> is with considerable difficulty that I remember the original æra of my being: all
+          <p xml:id="novel1_letter4_chapter10_p1">“I<hi rend="smallcaps" xml:id="novel1_letter4_chapter10_p1_hi1">T</hi> is with considerable difficulty that I remember the original æra of my being: all
             the events of that period appear confused and indistinct. A strange multiplicity of
             sensations seized me, and I saw, felt, heard, and smelt, at the same time; and it was,
             indeed, a long time before I learned to distinguish between the operations of my various
@@ -2433,7 +2452,7 @@
         <anchor type="collate" xml:id="C18"/>
         <milestone unit="chapter" type="start" n="11"/>
           <head xml:id="novel1_letter4_chapter11_head1">CHAPTER XI.</head>
-          <p xml:id="novel1_letter4_chapter11_p1">“I <hi xml:id="novel1_letter4_chapter11_p1_hi1">LAY</hi> on my straw, but I could not sleep. I thought of the
+          <p xml:id="novel1_letter4_chapter11_p1">“I <hi rend="smallcaps" xml:id="novel1_letter4_chapter11_p1_hi1">LAY</hi> on my straw, but I could not sleep. I thought of the
             occurrences of the day. What chiefly struck me was the gentle manners of these people;
             and I longed to join them, but dared not. I remembered too well the treatment I had
             suffered the night before from the barbarous villagers, and resolved, whatever course of
@@ -2496,11 +2515,11 @@
             application, however, and after having re<pb xml:id="F1823_v1_259" n="240"/>mained
             during the space of several revolutions of the moon in my hovel, I discovered the names
             that were given to some of the most familiar objects of discourse; I learned and applied
-            the words, <hi xml:id="novel1_letter4_chapter11_p9_hi1">fire</hi>, <hi xml:id="novel1_letter4_chapter11_p9_hi2">milk</hi>, <hi xml:id="novel1_letter4_chapter11_p9_hi3">bread</hi>, and <hi xml:id="novel1_letter4_chapter11_p9_hi4">wood</hi>. I learned also the names of the
+            the words, <hi rend="italic" xml:id="novel1_letter4_chapter11_p9_hi1">fire</hi>, <hi rend="italic" xml:id="novel1_letter4_chapter11_p9_hi2">milk</hi>, <hi rend="italic" xml:id="novel1_letter4_chapter11_p9_hi3">bread</hi>, and <hi rend="italic" xml:id="novel1_letter4_chapter11_p9_hi4">wood</hi>. I learned also the names of the
             cottagers themselves. The youth and his companion had each of them several names, but
-            the old man had only one, which was <hi xml:id="novel1_letter4_chapter11_p9_hi5">father</hi>. The girl was called <hi xml:id="novel1_letter4_chapter11_p9_hi6">sister</hi>, or <hi xml:id="novel1_letter4_chapter11_p9_hi7">Agatha</hi>; and the youth <hi xml:id="novel1_letter4_chapter11_p9_hi8">Felix</hi>, <hi xml:id="novel1_letter4_chapter11_p9_hi9">brother</hi>, or <hi xml:id="novel1_letter4_chapter11_p9_hi10">son</hi>. I cannot describe the delight I felt when I learned the ideas appropriated
+            the old man had only one, which was <hi rend="italic" xml:id="novel1_letter4_chapter11_p9_hi5">father</hi>. The girl was called <hi rend="italic" xml:id="novel1_letter4_chapter11_p9_hi6">sister</hi>, or <hi rend="italic" xml:id="novel1_letter4_chapter11_p9_hi7">Agatha</hi>; and the youth <hi rend="italic" xml:id="novel1_letter4_chapter11_p9_hi8">Felix</hi>, <hi rend="italic" xml:id="novel1_letter4_chapter11_p9_hi9">brother</hi>, or <hi rend="italic" xml:id="novel1_letter4_chapter11_p9_hi10">son</hi>. I cannot describe the delight I felt when I learned the ideas appropriated
             to each of these sounds, and was able to pronounce them. I distinguished several other
-            words, without being able as yet to understand or apply them; such as <hi xml:id="novel1_letter4_chapter11_p9_hi11">good</hi>, <hi xml:id="novel1_letter4_chapter11_p9_hi12">dearest</hi>, <hi xml:id="novel1_letter4_chapter11_p9_hi13">unhappy</hi>.</p>
+            words, without being able as yet to understand or apply them; such as <hi rend="italic" xml:id="novel1_letter4_chapter11_p9_hi11">good</hi>, <hi rend="italic" xml:id="novel1_letter4_chapter11_p9_hi12">dearest</hi>, <hi rend="italic" xml:id="novel1_letter4_chapter11_p9_hi13">unhappy</hi>.</p>
           <p xml:id="novel1_letter4_chapter11_p10">“I spent the winter in this manner. The gentle manners and beauty of the <pb xml:id="F1823_v1_260" n="240"/>cottagers greatly endeared them to me: when they were
             unhappy, I felt depressed; when they rejoiced, I sympathized in their joys. I saw few
             human beings beside them; and if any other happened to enter the cottage, their harsh
@@ -2559,7 +2578,7 @@
             my own food and fuel for the cottage. When I returned, as often as it was necessary, I
             cleared their path from the snow, and performed those offices that I had seen done by
             Felix. I afterwards found that these labours, performed by an invisible hand, greatly
-            astonished them; and once or twice I heard them, on these <pb xml:id="F1823_v1_266" n="246"/>occasions, utter the words <hi xml:id="novel1_letter4_chapter11_p16_hi1">good spirit</hi>, <hi xml:id="novel1_letter4_chapter11_p16_hi2">wonderful</hi>; but I did not then understand the signification of these
+            astonished them; and once or twice I heard them, on these <pb xml:id="F1823_v1_266" n="246"/>occasions, utter the words <hi rend="italic" xml:id="novel1_letter4_chapter11_p16_hi1">good spirit</hi>, <hi rend="italic" xml:id="novel1_letter4_chapter11_p16_hi2">wonderful</hi>; but I did not then understand the signification of these
             terms.</p>
           <p xml:id="novel1_letter4_chapter11_p17">“My thoughts now became more active, and I longed to discover the motives and feelings
             of these lovely creatures; I was inquisitive to know why Felix appeared so miserable,
@@ -2587,16 +2606,17 @@
             the future gilded by bright rays of hope, and anticipations of joy.”</p>
         <milestone unit="chapter" type="end" n="11"/>
         <head xml:id="novel1_letter4_head6">
-          <hi xml:id="novel1_letter4_head6_hi1">END OF VOL. I.</hi>
+          <hi rend="smallcaps" xml:id="novel1_letter4_head6_hi1">END OF VOL. I.</hi>
         </head>
-        <milestone unit="volume" n="2"/>
+        <milestone unit="volume" n="2" xml:id="novel1_letter4_milestone1"/>
         <milestone unit="frontmatter" type="start" n="2"/>
-          <include href="standOff_Includes/1823_frontMatter2.xml" parse="xml"/>
+          <include href="https://raw.githubusercontent.com/FrankensteinVariorum/fv-collation/master/collateXPrep/standOff_Includes/1823_frontMatter2.xml"
+               parse="xml"/>
         <milestone unit="frontmatter" type="end" n="2"/>
         <anchor type="collate" xml:id="C19"/>
         <milestone unit="chapter" type="start" n="12"/>
           <head xml:id="novel1_letter4_chapter12_head1">CHAPTER I.</head>
-          <p xml:id="novel1_letter4_chapter12_p1">“I <hi xml:id="novel1_letter4_chapter12_p1_hi1">NOW</hi> hasten to the more moving part of my story. I shall
+          <p xml:id="novel1_letter4_chapter12_p1">“I <hi rend="smallcaps" xml:id="novel1_letter4_chapter12_p1_hi1">NOW</hi> hasten to the more moving part of my story. I shall
             relate events, that impressed me with feelings which, from what I had been, have made me
             what I am.</p>
           <p xml:id="novel1_letter4_chapter12_p2">“Spring advanced rapidly; the weather became fine, and the skies cloudless. It
@@ -2679,7 +2699,7 @@
           <p xml:id="novel1_letter4_chapter12_p13">“While I improved in speech, I also <pb xml:id="F1823_v2_282" n="9"/>learned the
             science of letters, as it was taught to the stranger; and this opened before me a wide
             field for wonder and delight.</p>
-          <p xml:id="novel1_letter4_chapter12_p14">“The book from which Felix instructed Safie was Volney’s <hi xml:id="novel1_letter4_chapter12_p14_hi1">Ruins of
+          <p xml:id="novel1_letter4_chapter12_p14">“The book from which Felix instructed Safie was Volney’s <hi rend="italic" xml:id="novel1_letter4_chapter12_p14_hi1">Ruins of
               Empires</hi>. I should not have understood the purport of this book, had not Felix, in
             reading it, given very minute explanations. He had chosen this work, he said, because
             the declamatory style was framed in imitation of the eastern authors. Through this work
@@ -2751,7 +2771,7 @@
         <anchor type="collate" xml:id="C20"/>
         <milestone unit="chapter" type="start" n="13"/>
           <head xml:id="novel1_letter4_chapter13_head1">CHAPTER II.</head>
-          <p xml:id="novel1_letter4_chapter13_p1">“S<hi xml:id="novel1_letter4_chapter13_p1_hi1">OME</hi> time elapsed before I learned the history of my friends. It was one which could
+          <p xml:id="novel1_letter4_chapter13_p1">“S<hi rend="smallcaps" xml:id="novel1_letter4_chapter13_p1_hi1">OME</hi> time elapsed before I learned the history of my friends. It was one which could
             not fail to impress itself deeply on my mind, unfolding as it did a number of circumstances,
             each interesting and wonderful to one so utterly inexperienced as I was.</p>
           <p xml:id="novel1_letter4_chapter13_p2">“The name of the old man was De Lacey. He was descended from a good family in France,
@@ -2888,7 +2908,7 @@
         <pb xml:id="F1823_v2_303" n="30"/>
         <milestone unit="chapter" type="start" n="14"/>
           <head xml:id="novel1_letter4_chapter14_head1">CHAPTER III.</head>
-          <p xml:id="novel1_letter4_chapter14_p1">“S<hi xml:id="novel1_letter4_chapter14_p1_hi1">UCH</hi> was the history of my beloved cottagers. It impressed me deeply. I learned, from
+          <p xml:id="novel1_letter4_chapter14_p1">“S<hi rend="smallcaps" xml:id="novel1_letter4_chapter14_p1_hi1">UCH</hi> was the history of my beloved cottagers. It impressed me deeply. I learned, from
             the views of social life which it developed, to admire their virtues, and to deprecate
             the vices of mankind.</p>
           <p xml:id="novel1_letter4_chapter14_p2">“As yet I looked upon crime as a distant evil; benevolence and generosity were ever
@@ -2901,14 +2921,14 @@
             own food, and brought home firing for my protectors, I found on the ground a leathern
             portmanteau, containing several articles of dress and some books. I eagerly seized the
             prize, and returned with it to my hovel. Fortunately the books were written in the
-            language the elements of which I had acquired at the cottage; they consisted of <hi xml:id="novel1_letter4_chapter14_p3_hi1">Paradise Lost</hi>, a volume of <hi xml:id="novel1_letter4_chapter14_p3_hi2">Plutarch's Lives</hi>,
-            and the <hi xml:id="novel1_letter4_chapter14_p3_hi3">Sorrows of Werter</hi>. The possession of these treasures gave
+            language the elements of which I had acquired at the cottage; they consisted of <hi rend="italic" xml:id="novel1_letter4_chapter14_p3_hi1">Paradise Lost</hi>, a volume of <hi rend="italic" xml:id="novel1_letter4_chapter14_p3_hi2">Plutarch's Lives</hi>,
+            and the <hi rend="italic" xml:id="novel1_letter4_chapter14_p3_hi3">Sorrows of Werter</hi>. The possession of these treasures gave
             me extreme delight; I now continually studied and exercised my mind upon these
             histories, whilst my friends were employed in their ordinary occupations.</p>
           <p xml:id="novel1_letter4_chapter14_p4">
          <pb xml:id="F1823_v2_305" n="32"/>“I can hardly describe to you the effect of these
             books. They produced in me an infinity of new images and feelings, that sometimes raised
-            me to ecstasy, but more frequently sunk me into the lowest dejection. In the <hi xml:id="novel1_letter4_chapter14_p4_hi1">Sorrows of Werter</hi>, besides the interest of its simple and affecting
+            me to ecstasy, but more frequently sunk me into the lowest dejection. In the <hi rend="italic" xml:id="novel1_letter4_chapter14_p4_hi1">Sorrows of Werter</hi>, besides the interest of its simple and affecting
             story, so many opinions are canvassed, and so many lights thrown upon what had hitherto
             been to me obscure subjects, that I found in it a never-ending source of speculation and
             astonishment. The gentle and domestic manners it described, combined with lofty
@@ -2928,9 +2948,9 @@
             My person was hideous, and my stature <pb xml:id="F1823_v2_307" n="34"/>gigantic: what
             did this mean? Who was I? What was I? Whence did I come? What was my destination? These
             questions continually recurred, but I was unable to solve them.</p>
-          <p xml:id="novel1_letter4_chapter14_p6">“The volume of <hi xml:id="novel1_letter4_chapter14_p6_hi1">Plutarch’s Lives</hi> which I possessed contained the
+          <p xml:id="novel1_letter4_chapter14_p6">“The volume of <hi rend="italic" xml:id="novel1_letter4_chapter14_p6_hi1">Plutarch’s Lives</hi> which I possessed contained the
             histories of the first founders of the ancient republics. This book had a far different
-            effect upon me from the <hi xml:id="novel1_letter4_chapter14_p6_hi2">Sorrows of Werter</hi>. I learned from
+            effect upon me from the <hi rend="italic" xml:id="novel1_letter4_chapter14_p6_hi2">Sorrows of Werter</hi>. I learned from
             Werter’s imaginations despondency and gloom: but Plutarch taught me high thoughts; he
             elevated me above the wretched sphere of my own reflections, to admire and love the
             heroes of past ages. Many things I read surpassed my understanding and experience. I had
@@ -2946,7 +2966,7 @@
             impressions to take a firm hold on my mind; perhaps, if my first introduction to
             humanity had been made by a young soldier, burning for glory and <pb xml:id="F1823_v2_309" n="36"/>slaughter, I should have been imbued with different
             sensations.</p>
-          <p xml:id="novel1_letter4_chapter14_p7">“But <hi xml:id="novel1_letter4_chapter14_p7_hi1">Paradise Lost</hi> excited different and far deeper emotions. I
+          <p xml:id="novel1_letter4_chapter14_p7">“But <hi rend="italic" xml:id="novel1_letter4_chapter14_p7_hi1">Paradise Lost</hi> excited different and far deeper emotions. I
             read it, as I had read the other volumes which had fallen into my hands, as a true
             history. It moved every feeling of wonder and awe, that the picture of an omnipotent God
             warring with his creatures was capable of exciting. I often referred the several
@@ -2968,7 +2988,7 @@
             circumstances which produced it is set in view; the minutest description of my odious
             and loathsome person is given, in language which painted your own horrors, and rendered
             mine indelible. I sickened as I read. ‘Hateful day when I received life!’ I exclaimed in
-            agony. ‘Cursed creator! Why did you form a monster so hideous that even <hi xml:id="novel1_letter4_chapter14_p8_hi1">you</hi> turned from
+            agony. ‘Cursed creator! Why did you form a monster so hideous that even <hi rend="italic" xml:id="novel1_letter4_chapter14_p8_hi1">you</hi> turned from
             me in disgust? God in pity made man beautiful and alluring, after his own image; but my
             form is a filthy type of yours, more horrid even from the very resemblance. Satan had
             his companions, fellow-devils, to admire and encourage him; but I am solitary and
@@ -3121,7 +3141,7 @@
         <milestone unit="chapter" type="start" n="15"/>
           <pb xml:id="F1823_v2_325" n="51"/>
           <head xml:id="novel1_letter4_chapter15_head1">CHAPTER IV.</head>
-          <p xml:id="novel1_letter4_chapter15_p1">“C<hi xml:id="novel1_letter4_chapter15_p1_hi1">URSED</hi>, cursed creator! Why did I live? Why, in that instant, did I not extinguish the
+          <p xml:id="novel1_letter4_chapter15_p1">“C<hi rend="smallcaps" xml:id="novel1_letter4_chapter15_p1_hi1">URSED</hi>, cursed creator! Why did I live? Why, in that instant, did I not extinguish the
             spark of existence which you had so wantonly bestowed? I know not; despair had not yet
             taken possession of me; my feelings were those of rage and revenge. I could with
             pleasure have destroyed the cottage and its inhabitants, and have glutted myself with
@@ -3344,7 +3364,7 @@
         <milestone unit="chapter" type="start" n="16"/>
           <pb xml:id="F1823_v2_347" n="74"/>
           <head xml:id="novel1_letter4_chapter16_head1">CHAPTER V.</head>
-          <p xml:id="novel1_letter4_chapter16_p1">T<hi xml:id="novel1_letter4_chapter16_p1_hi1">HE</hi> being finished speaking, and fixed his looks upon me in expectation of a reply. But
+          <p xml:id="novel1_letter4_chapter16_p1">T<hi rend="smallcaps" xml:id="novel1_letter4_chapter16_p1_hi1">HE</hi> being finished speaking, and fixed his looks upon me in expectation of a reply. But
             I was bewildered, perplexed, and unable to arrange my ideas sufficiently to understand
             the full extent of his proposition. He continued—</p>
           <p xml:id="novel1_letter4_chapter16_p2">“You must create a female for me, with whom I can live in the interchange of those
@@ -3375,7 +3395,7 @@
             face was wrinkled into contortions too horrible for human eyes to behold; but presently
             he calmed himself, and proceeded—</p>
           <p xml:id="novel1_letter4_chapter16_p7">“I intended to reason. This passion is detrimental to me; for you do not reflect that
-              <hi xml:id="novel1_letter4_chapter16_p7_hi1">you</hi> are the cause of its excess. If any being felt emotions of
+              <hi rend="italic" xml:id="novel1_letter4_chapter16_p7_hi1">you</hi> are the cause of its excess. If any being felt emotions of
             benevolence towards me, I should return them an hundred and an hundred fold; for that
             one creature’s sake, I would make peace with the whole kind! But I now indulge in dreams
             of bliss that cannot be realized. What I ask of you is reasonable and moderate; I demand
@@ -3488,7 +3508,7 @@
         <milestone unit="chapter" type="start" n="17"/>
           <pb xml:id="F1823_v2_362" n="89"/>
           <head xml:id="novel1_letter4_chapter17_head1">CHAPTER VI.</head>
-          <p xml:id="novel1_letter4_chapter17_p1">D<hi xml:id="novel1_letter4_chapter17_p1_hi1">AY</hi> after day, week after week, passed away on my return to Geneva; and I could not
+          <p xml:id="novel1_letter4_chapter17_p1">D<hi rend="smallcaps" xml:id="novel1_letter4_chapter17_p1_hi1">AY</hi> after day, week after week, passed away on my return to Geneva; and I could not
             collect the courage to recommence my work. I feared the vengeance of the disappointed
             fiend, yet I was unable to overcome my repugnance to the task which was enjoined me. I
             found that I could not compose a female without again devoting several months to
@@ -3704,7 +3724,7 @@
         <milestone unit="chapter" type="start" n="18"/>
           <pb xml:id="F1823_v2_382" n="109"/>
           <head xml:id="novel1_letter4_chapter18_head1">CHAPTER VII.</head>
-          <p xml:id="novel1_letter4_chapter18_p1">L<hi xml:id="novel1_letter4_chapter18_p1_hi1">ONDON</hi> was our present point of rest; we determined to remain several months in this
+          <p xml:id="novel1_letter4_chapter18_p1">L<hi rend="smallcaps" xml:id="novel1_letter4_chapter18_p1_hi1">ONDON</hi> was our present point of rest; we determined to remain several months in this
             wonderful and celebrated city. Clerval desired the intercourse of the men of genius and
             talent who flourished at this time; but this was with me a secondary object; I was
             principally occupied with the means of obtaining the information necessary for the
@@ -3765,7 +3785,7 @@
             embosomed among aged trees.</p>
           <p xml:id="novel1_letter4_chapter18_p8">I enjoyed this scene; and yet my enjoyment was embittered both by the memory of the
             past, and the anticipation of the future. I was formed for peaceful happiness. During my
-            youthful days discontent never visited my mind; and if I was ever overcome by <hi xml:id="novel1_letter4_chapter18_p8_hi1">ennui</hi>, the sight of what is beautiful in nature, or the study of
+            youthful days discontent never visited my mind; and if I was ever overcome by <hi rend="italic" xml:id="novel1_letter4_chapter18_p8_hi1">ennui</hi>, the sight of what is beautiful in nature, or the study of
             what is excellent and sublime in the productions of man, could always interest my heart,
             and communicate elasticity to my spirits. But I am a blasted tree; the bolt has entered
             my soul; and I felt then that I should survive to exhibit, what I shall soon cease to
@@ -3891,7 +3911,7 @@
         <milestone unit="chapter" type="start" n="19"/>
           <pb xml:id="F1823_v2_401" n="128"/>
           <head xml:id="novel1_letter4_chapter19_head1">CHAPTER VIII.</head>
-          <p xml:id="novel1_letter4_chapter19_p1">I <hi xml:id="novel1_letter4_chapter19_p1_hi1">SAT</hi> one evening in my laboratory; the sun had set, and the moon was just rising from
+          <p xml:id="novel1_letter4_chapter19_p1">I <hi rend="smallcaps" xml:id="novel1_letter4_chapter19_p1_hi1">SAT</hi> one evening in my laboratory; the sun had set, and the moon was just rising from
             the sea; I had not sufficient light for my employment, and I remained idle, in a pause
             of consideration of whether I should leave my labour for the night, or hasten its
             conclusion by an unremitting attention to it. As I sat, a train of reflection occurred
@@ -3991,7 +4011,7 @@
             sting me. Why had I not followed him, and closed with him in mortal strife? But I had
             suffered him to depart, and he had directed his course towards the main land. I
             shuddered to <pb xml:id="F1823_v2_411" n="138"/>think who might be the next victim
-            sacrificed to his insatiate revenge. And then I thought again of his words—“<hi xml:id="novel1_letter4_chapter19_p18_hi1">I will be with you on your wedding-night</hi>.” That then was the period
+            sacrificed to his insatiate revenge. And then I thought again of his words—“<hi rend="italic" xml:id="novel1_letter4_chapter19_p18_hi1">I will be with you on your wedding-night</hi>.” That then was the period
             fixed for the fulfilment of my destiny. In that hour I should die, and at once satisfy
             and extinguish his malice. The prospect did not move me to fear; yet when I thought of
             my beloved Elizabeth,—of her tears and endless sorrow, when she should find her lover so
@@ -4138,7 +4158,7 @@
         <milestone unit="chapter" type="start" n="20"/>
           <pb xml:id="F1823_v2_425" n="152"/>
           <head xml:id="novel1_letter4_chapter20_head1">CHAPTER IX.</head>
-          <p xml:id="novel1_letter4_chapter20_p1">I <hi xml:id="novel1_letter4_chapter20_p1_hi1">WAS</hi> soon introduced into the presence of the magistrate, an old benevolent man, with
+          <p xml:id="novel1_letter4_chapter20_p1">I <hi rend="smallcaps" xml:id="novel1_letter4_chapter20_p1_hi1">WAS</hi> soon introduced into the presence of the magistrate, an old benevolent man, with
             calm and mild manners. He looked upon me, however, with some degree of severity: and
             then, turning towards my conductors, he asked who appeared as witnesses on this
             occasion.</p>
@@ -4363,7 +4383,7 @@
           <p xml:id="novel1_letter4_chapter20_p46">My father tried to awaken in me the feelings of affection. He talked of <pb xml:id="F1823_v2_447" n="174"/>Geneva, which I should soon visit—of Elizabeth, and
             Ernest; but these words only drew deep groans from me. Sometimes, indeed, I felt a wish
             for happiness; and thought, with melancholy delight, of my beloved cousin; or longed,
-            with a devouring <hi xml:id="novel1_letter4_chapter20_p46_hi1">maladie du pays</hi>, to see once more the blue lake
+            with a devouring <hi rend="italic" xml:id="novel1_letter4_chapter20_p46_hi1">maladie du pays</hi>, to see once more the blue lake
             and rapid Rhone, that had been so dear to me in early childhood: but my general state of
             feeling was a torpor, in which a prison was as welcome a residence as the divinest scene
             in nature; and these fits were seldom interrupted, but by paroxysms of anguish and
@@ -4408,7 +4428,7 @@
         <milestone unit="chapter" type="start" n="21"/>
           <pb xml:id="F1823_v2_452" n="179"/>
           <head xml:id="novel1_letter4_chapter21_head1">CHAPTER X.</head>
-          <p xml:id="novel1_letter4_chapter21_p1">W<hi xml:id="novel1_letter4_chapter21_p1_hi1">E</hi> had resolved not to go to London, but to cross the country to Portsmouth, and thence
+          <p xml:id="novel1_letter4_chapter21_p1">W<hi rend="smallcaps" xml:id="novel1_letter4_chapter21_p1_hi1">E</hi> had resolved not to go to London, but to cross the country to Portsmouth, and thence
             to embark for Havre. I preferred this plan principally because I dreaded to see again
             those places in which I had enjoyed a few moments of tranquillity with my beloved
             Clerval. I thought with horror of seeing again those persons whom we had been accustomed
@@ -4457,8 +4477,8 @@
             following letter from Elizabeth:—</p>
           <anchor type="collate" xml:id="C29"/>
           <pb xml:id="F1823_v2_457" n="184"/>
-          <p xml:id="novel1_letter4_chapter21_p10">“<hi xml:id="novel1_letter4_chapter21_p10_hi1">To</hi> V<hi xml:id="novel1_letter4_chapter21_p10_hi2">ICTOR</hi> F<hi xml:id="novel1_letter4_chapter21_p10_hi3">RANKENSTEIN</hi>.</p>
-          <p xml:id="novel1_letter4_chapter21_p11">“<hi xml:id="novel1_letter4_chapter21_p11_hi1">MY DEAR FRIEND</hi>,</p>
+          <p xml:id="novel1_letter4_chapter21_p10">“<hi rend="italic" xml:id="novel1_letter4_chapter21_p10_hi1">To</hi> V<hi rend="smallcaps" xml:id="novel1_letter4_chapter21_p10_hi2">ICTOR</hi> F<hi rend="smallcaps" xml:id="novel1_letter4_chapter21_p10_hi3">RANKENSTEIN</hi>.</p>
+          <p xml:id="novel1_letter4_chapter21_p11">“<hi rend="smallcaps" xml:id="novel1_letter4_chapter21_p11_hi1">MY DEAR FRIEND</hi>,</p>
           <p xml:id="novel1_letter4_chapter21_p12">“It gave me the greatest pleasure to receive a letter from my uncle dated at Paris; you
             are no longer at a formidable distance, and I may hope to see you in less than a
             fortnight. My poor cousin, how much you must have suffered! I expect to see you looking
@@ -4493,7 +4513,7 @@
             But it is your happiness I desire as well as my own, when I declare to you, that our
             marriage would render me eternally miserable, unless it were the dictate of your own
             free choice. Even now I weep to think, that, borne down as you are by the cruelest
-            misfortunes, you may stifle, by the word <hi xml:id="novel1_letter4_chapter21_p16_hi1">honour</hi>, all hope of that
+            misfortunes, you may stifle, by the word <hi rend="italic" xml:id="novel1_letter4_chapter21_p16_hi1">honour</hi>, all hope of that
             love and happiness which would alone restore you to yourself. I, who have so interested
             an affection for you, may increase your miseries tenfold, by being an obstacle to your
             wishes. Ah, Vic<pb xml:id="F1823_v2_461" n="188"/>tor, be assured that your cousin and
@@ -4504,9 +4524,9 @@
             even until you come, if it will give you pain. My uncle will send me news of your
             health; and if I see but one smile on your lips when we meet, occasioned by this or any
             other exertion of mine, I shall need no other happiness.</p>
-          <p xml:id="novel1_letter4_chapter21_p18">“E<hi xml:id="novel1_letter4_chapter21_p18_hi1">LIZABETH</hi> L<hi xml:id="novel1_letter4_chapter21_p18_hi2">AVENZA</hi>.</p>
+          <p xml:id="novel1_letter4_chapter21_p18">“E<hi rend="smallcaps" xml:id="novel1_letter4_chapter21_p18_hi1">LIZABETH</hi> L<hi rend="smallcaps" xml:id="novel1_letter4_chapter21_p18_hi2">AVENZA</hi>.</p>
           <p xml:id="novel1_letter4_chapter21_p19">“Geneva, May 18th, 17—.”</p>
-          <p xml:id="novel1_letter4_chapter21_p20">This letter revived in my memory what I had before forgotten, the threat <pb xml:id="F1823_v2_462" n="189"/>of the fiend—“<hi xml:id="novel1_letter4_chapter21_p20_hi1">I will be with you on
+          <p xml:id="novel1_letter4_chapter21_p20">This letter revived in my memory what I had before forgotten, the threat <pb xml:id="F1823_v2_462" n="189"/>of the fiend—“<hi rend="italic" xml:id="novel1_letter4_chapter21_p20_hi1">I will be with you on
               your wedding-night!</hi>” Such was my sentence, and on that night would the dæmon
             employ every art to destroy me, and tear me from the glimpse of happiness which promised
             partly to console my sufferings. On that night he had determined to consummate his
@@ -4525,7 +4545,7 @@
             yet, again, I considered whether my marriage would hasten my fate. My destruction might
             indeed arrive a few months sooner; but if my torturer should suspect that I postponed
             it, influenced by his menaces, he would surely find other, and perhaps more dreadful
-            means of revenge. He had vowed <hi xml:id="novel1_letter4_chapter21_p21_hi1">to be with me on my wedding-night</hi>,
+            means of revenge. He had vowed <hi rend="italic" xml:id="novel1_letter4_chapter21_p21_hi1">to be with me on my wedding-night</hi>,
             yet he did not consider that threat as binding him to peace in <pb xml:id="F1823_v2_464" n="191"/>the meantime; for, as if to show me that he was not yet satiated with blood,
             he had murdered Clerval immediately after the enunciation of his threats. I resolved,
             therefore, that if my immediate union with my cousin would conduce either to hers or my
@@ -4572,7 +4592,7 @@
             of whom we have been so cruelly deprived.”</p>
           <p xml:id="novel1_letter4_chapter21_p30">Such were the lessons of my father. But to me the remembrance of the threat returned:
             nor can you wonder, that, omnipotent as the fiend had yet been in his deeds of blood, I
-            should almost regard him as invincible; and that when he had pronounced the words, “<hi xml:id="novel1_letter4_chapter21_p30_hi1">I shall be with you on your wedding-night</hi>,” I should regard the
+            should almost regard him as invincible; and that when he had pronounced the words, “<hi rend="italic" xml:id="novel1_letter4_chapter21_p30_hi1">I shall be with you on your wedding-night</hi>,” I should regard the
             threatened fate as unavoidable. But death was no evil to me, if the loss of Elizabeth
             were balanced with it; and I therefore, with a contented and even cheerful countenance,
             agreed with my father, that if my cousin would consent, the ceremony should take place
@@ -4655,7 +4675,7 @@
         <milestone unit="chapter" type="start" n="22"/>
           <pb xml:id="F1823_v2_477" n="204"/>
           <head xml:id="novel1_letter4_chapter22_head1">CHAPTER XI.</head>
-          <p xml:id="novel1_letter4_chapter22_p1">I<hi xml:id="novel1_letter4_chapter22_p1_hi1">T</hi> was eight o’clock when we landed; we walked for a short time on the shore, enjoying
+          <p xml:id="novel1_letter4_chapter22_p1">I<hi rend="smallcaps" xml:id="novel1_letter4_chapter22_p1_hi1">T</hi> was eight o’clock when we landed; we walked for a short time on the shore, enjoying
             the transitory light, and then retired to the inn, and contemplated the lovely scene of
             waters, woods, and mountains, obscured in darkness, yet still displaying their black
             outlines.</p>
@@ -4746,7 +4766,7 @@
             hope of future happiness: no creature had ever been so miserable as I was; so frightful
             an event is single in the history of man.</p>
           <p xml:id="novel1_letter4_chapter22_p15">But why should I dwell upon the incidents that followed this last overwhelming event.
-            Mine has been a tale of horrors; I have reached their <hi xml:id="novel1_letter4_chapter22_p15_hi1">acme</hi>, and
+            Mine has been a tale of horrors; I have reached their <hi rend="italic" xml:id="novel1_letter4_chapter22_p15_hi1">acme</hi>, and
             what I must now relate can but be tedious to you. Know that, one by one, my friends were
             snatched away; I was left desolate. My own strength is exhausted; and I must tell, in a
             few words, what remains of my hideous narration.</p>
@@ -4838,7 +4858,7 @@
         <milestone unit="chapter" type="start" n="23"/>
           <pb xml:id="F1823_v2_495" n="222"/>
           <head xml:id="novel1_letter4_chapter23_head1">CHAPTER XII</head>
-          <p xml:id="novel1_letter4_chapter23_p1">M<hi xml:id="novel1_letter4_chapter23_p1_hi1">Y</hi> present situation was one in which all voluntary thought was swallowed up and lost.
+          <p xml:id="novel1_letter4_chapter23_p1">M<hi rend="smallcaps" xml:id="novel1_letter4_chapter23_p1_hi1">Y</hi> present situation was one in which all voluntary thought was swallowed up and lost.
             I was hurried away by fury; revenge alone endowed me with strength and composure; it
             moulded my feelings, and allowed me to be calculating and calm, at periods when
             otherwise delirium or death would have been my portion.</p>
@@ -5048,9 +5068,9 @@
         <milestone unit="chapter" type="end" n="23"/>
         <anchor type="collate" xml:id="C32"/>
         <pb xml:id="F1823_v2_516" n="243"/>
-        <head xml:id="novel1_letter4_head7">W<hi xml:id="novel1_letter4_head7_hi1">ALTON</hi>, <hi xml:id="novel1_letter4_head7_hi2">in continuation</hi>.</head>
+        <head xml:id="novel1_letter4_head7">W<hi rend="smallcaps" xml:id="novel1_letter4_head7_hi1">ALTON</hi>, <hi rend="italic" xml:id="novel1_letter4_head7_hi2">in continuation</hi>.</head>
         <p xml:id="novel1_letter4_p37">August 26th, 17—.</p>
-        <p xml:id="novel1_letter4_p38">Y<hi xml:id="novel1_letter4_p38_hi1">OU</hi> have read this strange and terrific story, Margaret; and do
+        <p xml:id="novel1_letter4_p38">Y<hi rend="smallcaps" xml:id="novel1_letter4_p38_hi1">OU</hi> have read this strange and terrific story, Margaret; and do
           you not feel your blood congeal with horror, like that which even now curdles mine?
           Sometimes, seized with sudden agony, he could not continue his tale; at others, his voice
           broken, yet piercing, uttered with difficulty the words so replete with agony. His fine
@@ -5133,7 +5153,7 @@
         <anchor type="collate" xml:id="C33"/>
         <p xml:id="novel1_letter4_p47">September 2d.</p>
         <p xml:id="novel1_letter4_p48">
-         <hi xml:id="novel1_letter4_p48_hi1">MY BELOVED SISTER</hi>,</p>
+         <hi rend="smallcaps" xml:id="novel1_letter4_p48_hi1">MY BELOVED SISTER</hi>,</p>
         <p xml:id="novel1_letter4_p49">I write to you, encompassed by peril, and ignorant whether I am ever doomed to see again
           dear England, and the dearer friends that inhabit it. I <pb xml:id="F1823_v2_525" n="252"/>am surrounded by mountains of ice, which admit of no escape, and threaten every moment
           to crush my vessel. The brave fellows, whom I have persuaded to be my companions, look
@@ -5417,7 +5437,8 @@
       <milestone unit="letter" type="end" n="4"/>
       <milestone unit="novel" type="end" n="1"/>
       <milestone unit="backmatter" type="start" n="1"/>
-      <include href="standOff_Includes/1823_backMatter.xml" parse="xml"/>
+      <include href="https://raw.githubusercontent.com/FrankensteinVariorum/fv-collation/master/collateXPrep/standOff_Includes/1823_backMatter.xml"
+               parse="xml"/>
       <milestone unit="backmatter" type="end" n="1"/>
   </text>
-</xml>
+</TEI>
