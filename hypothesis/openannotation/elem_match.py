@@ -199,9 +199,7 @@ class OpenAnnotation:
             )
             end_xml_id = self.collation.head_id(a.end_head_index() + self.head_offset)
             oa.append(
-                self.oa_template(
-                    a, start_xml_id, end_xml_id, a.start_head_index(), a.end_c()
-                )
+                self.oa_template(a, start_xml_id, end_xml_id, a.start_c(), a.end_c())
             )
         return oa
 
