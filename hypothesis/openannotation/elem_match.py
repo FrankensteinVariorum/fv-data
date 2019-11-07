@@ -187,34 +187,28 @@ class OpenAnnotation:
         oa = []
         # Match all the p elements
         for a in self.annotations.p_sort(self.collation.witness):
-            if a.start_p_index() + self.p_offset >= 0:
-                start_xml_id = self.collation.p_id(a.start_p_index() + self.p_offset)
-                end_xml_id = self.collation.p_id(a.end_p_index() + self.p_offset)
-                oa.append(
-                    self.oa_template(
-                        a, start_xml_id, end_xml_id, a.start_c(), a.end_c()
-                    )
-                )
+            start_xml_id = self.collation.p_id(a.start_p_index() + self.p_offset)
+            end_xml_id = self.collation.p_id(a.end_p_index() + self.p_offset)
+            oa.append(
+                self.oa_template(a, start_xml_id, end_xml_id, a.start_c(), a.end_c())
+            )
         # Match all the head elements
         for a in self.annotations.head_sort(self.collation.witness):
-            if a.start_head_index() + self.head_offset >= 0:
-                start_xml_id = self.collation.head_id(
-                    a.start_head_index() + self.head_offset
+            start_xml_id = self.collation.head_id(
+                a.start_head_index() + self.head_offset
+            )
+            end_xml_id = self.collation.head_id(a.end_head_index() + self.head_offset)
+            oa.append(
+                self.oa_template(
+                    a, start_xml_id, end_xml_id, a.start_head_index(), a.end_c()
                 )
-                end_xml_id = self.collation.head_id(
-                    a.end_head_index() + self.head_offset
-                )
-                oa.append(
-                    self.oa_template(
-                        a, start_xml_id, end_xml_id, a.start_c(), a.end_c()
-                    )
-                )
+            )
         return oa
 
 
 his = Hypothesis("hypothesis/data/hypothesis.json")
 c1818 = Collation(xml_path="hypothesis/migration/xml-ids/1818_full.xml", witness="1818")
-oa1818 = OpenAnnotation(annotations=his, collation=c1818, p_offset=-1, head_offset=1)
+oa1818 = OpenAnnotation(annotations=his, collation=c1818, p_offset=1, head_offset=0)
 
 json.dump(
     oa1818.generate_oa(),
@@ -224,7 +218,7 @@ json.dump(
 
 c1831 = Collation(xml_path="hypothesis/migration/xml-ids/1831_full.xml", witness="1831")
 # Note the large offset to skip over the preface on the 1831 witness
-oa1831 = OpenAnnotation(annotations=his, collation=c1831, p_offset=-17, head_offset=-9)
+oa1831 = OpenAnnotation(annotations=his, collation=c1831, p_offset=1, head_offset=-1)
 json.dump(
     oa1831.generate_oa(),
     open("hypothesis/openannotation/1831_xml_id_mapping.json", "w"),

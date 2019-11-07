@@ -1,6 +1,682 @@
 [
  {
   "@context": "http://www.w3.org/ns/anno.jsonld",
+  "id": "https://frankensteinvariorum.org/MUvYVObKEemVu28BqcgBJw",
+  "type": "Annotation",
+  "generator": {
+   "id": "https://frankensteinvariorum.org/",
+   "type": "Software",
+   "name": "Frankenstein Variorum",
+   "homepage": "https://recogito.pelagios.org/"
+  },
+  "generated": "2019-10-04T17:12:49.601410+00:00",
+  "body": [
+   {
+    "type": "TextualBody",
+    "value": "Mary Shelley's parents were the political philosopher William Godwin (1756-1836) and the feminist writer Mary Wollstonecraft (1759-1797), who also wrote important novels (Godwin's *Things as They Are: The Adventures of Caleb Williams* (1794) and Wollstonecraft's *Maria, or the Wrongs of Woman* (1798). ",
+    "creator": "https://hypothes.is/users/frankensteinvariorum",
+    "modified": "2019-10-04T17:12:49.601410+00:00",
+    "purpose": "commenting"
+   }
+  ],
+  "target": {
+   "source": "https://frankensteinvariorum.github.io/fv-collation/Frankenstein_1831.html",
+   "type": "Text",
+   "selector": [
+    {
+     "type": "TextQuoteSelector",
+     "prefix": "    It is not singular that, as ",
+     "exact": "the daughter of two persons of distinguished literary\n         celebrity",
+     "suffix": ", I should very early in life ha"
+    },
+    {
+     "type": "RangeSelector",
+     "startSelector": {
+      "type": "XPathSelector",
+      "value": "//*[@xml:id='introduction1_p2']"
+     },
+     "endSelector": {
+      "type": "XPathSelector",
+      "value": "//*[@xml:id='introduction1_p2']"
+     }
+    }
+   ]
+  },
+  "diagnostic": {
+   "note": "not for open annotation consumption",
+   "html": {
+    "start": "/p[2]",
+    "end": "/p[2]"
+   },
+   "xml_text_content": "<p xmlns=\"http://www.tei-c.org/ns/1.0\" xmlns:xi=\"http://www.w3.org/2001/XInclude\" xml:id=\"introduction1_p2\">It is not singular that, as the daughter of two persons of distinguished literary\n        celebrity, I should very early in life have thought of writing. As a child I scribbled; and\n        my favourite pastime, during the hours given me for recreation, was to &#8220;write stories.&#8221;\n        Still I had a dearer pleasure than this, which was the formation of castles in the air&#8212;the\n        indulging in waking dreams&#8212;the following up trains of thought, which had for their subject\n        the formation of a succession of imaginary incidents. My dreams were at once more fantastic\n        and agreeable than my writings. In the latter I was a close imitator&#8212;rather doing<pb n=\"vi\" xml:id=\"F1831_v_010\"/> as others had done, than putting down the suggestions of my\n        own mind. What I wrote was intended at least for one other eye&#8212;my childhood&#8217;s companion and\n        friend; but my dreams were all my own; I accounted for them to nobody; they were my refuge\n        when annoyed&#8212;my dearest pleasure when free.</p>\n      "
+  }
+ },
+ {
+  "@context": "http://www.w3.org/ns/anno.jsonld",
+  "id": "https://frankensteinvariorum.org/iG-FwubKEemRfq8Y2UJHgA",
+  "type": "Annotation",
+  "generator": {
+   "id": "https://frankensteinvariorum.org/",
+   "type": "Software",
+   "name": "Frankenstein Variorum",
+   "homepage": "https://recogito.pelagios.org/"
+  },
+  "generated": "2019-10-04T17:15:15.796638+00:00",
+  "body": [
+   {
+    "type": "TextualBody",
+    "value": "Scotland's longest river, the River Tay extended from western Scotland to the town of Dundee on the east coast.",
+    "creator": "https://hypothes.is/users/frankensteinvariorum",
+    "modified": "2019-10-04T17:15:15.796638+00:00",
+    "purpose": "commenting"
+   }
+  ],
+  "target": {
+   "source": "https://frankensteinvariorum.github.io/fv-collation/Frankenstein_1831.html",
+   "type": "Text",
+   "selector": [
+    {
+     "type": "TextQuoteSelector",
+     "prefix": "n the\n         blank and dreary ",
+     "exact": "northern shores of the Tay, near Dundee",
+     "suffix": ". Blank and dreary on retrospect"
+    },
+    {
+     "type": "RangeSelector",
+     "startSelector": {
+      "type": "XPathSelector",
+      "value": "//*[@xml:id='introduction1_p3']"
+     },
+     "endSelector": {
+      "type": "XPathSelector",
+      "value": "//*[@xml:id='introduction1_p3']"
+     }
+    }
+   ]
+  },
+  "diagnostic": {
+   "note": "not for open annotation consumption",
+   "html": {
+    "start": "/p[3]",
+    "end": "/p[3]"
+   },
+   "xml_text_content": "<p xmlns=\"http://www.tei-c.org/ns/1.0\" xmlns:xi=\"http://www.w3.org/2001/XInclude\" xml:id=\"introduction1_p3\">I lived principally in the country as a girl, and passed a considerable time in Scotland. I\n        made occasional visits to the more picturesque parts; but my habitual residence was on the\n        blank and dreary northern shores of the Tay, near Dundee. Blank and dreary on retrospection\n        I call them; they were not so to me then. They were the eyry of freedom, and the pleasant\n        region where unheeded I could commune with the creatures of my fancy. I wrote then&#8212;but in a\n        most common-place style. It was beneath the trees of the grounds belonging to our house, or\n        on the bleak sides of the woodless mountains near, that my true compositions, the airy\n        flights of my imagination, were born and fostered. I did not make myself the heroine of my\n        tales. Life appeared to me too common-place an affair as regarded myself. I could not figure\n        to myself that romantic woes or wonderful events would ever be my lot; but I was not\n        confined to my own identity, and I could people the hours with creations far more\n        interesting to me at that age, than my own sensations.</p>\n      "
+  }
+ },
+ {
+  "@context": "http://www.w3.org/ns/anno.jsonld",
+  "id": "https://frankensteinvariorum.org/I1zj5ubKEem7LSuOtmoMZw",
+  "type": "Annotation",
+  "generator": {
+   "id": "https://frankensteinvariorum.org/",
+   "type": "Software",
+   "name": "Frankenstein Variorum",
+   "homepage": "https://recogito.pelagios.org/"
+  },
+  "generated": "2019-10-04T17:12:26.203129+00:00",
+  "body": [
+   {
+    "type": "TextualBody",
+    "value": "Mary Godwin met Percy Bysshe Shelley in 1814, at the age of sixteen and they married at the end of 1816, after she had turned nineteen.",
+    "creator": "https://hypothes.is/users/frankensteinvariorum",
+    "modified": "2019-10-04T17:12:26.203129+00:00",
+    "purpose": "commenting"
+   }
+  ],
+  "target": {
+   "source": "https://frankensteinvariorum.github.io/fv-collation/Frankenstein_1831.html",
+   "type": "Text",
+   "selector": [
+    {
+     "type": "TextQuoteSelector",
+     "prefix": "lity stood in place of fiction. ",
+     "exact": "My husband,",
+     "suffix": "\n         however, was from the "
+    },
+    {
+     "type": "RangeSelector",
+     "startSelector": {
+      "type": "XPathSelector",
+      "value": "//*[@xml:id='introduction1_p4']"
+     },
+     "endSelector": {
+      "type": "XPathSelector",
+      "value": "//*[@xml:id='introduction1_p4']"
+     }
+    }
+   ]
+  },
+  "diagnostic": {
+   "note": "not for open annotation consumption",
+   "html": {
+    "start": "/p[4]",
+    "end": "/p[4]"
+   },
+   "xml_text_content": "<p xmlns=\"http://www.tei-c.org/ns/1.0\" xmlns:xi=\"http://www.w3.org/2001/XInclude\" xml:id=\"introduction1_p4\">After this my life became busier, and reality stood in place of fiction. My husband,\n        however, was from the first, very anxious that I should prove myself worthy of my parentage,\n        and enrol myself on the page of fame. He was for ever inciting me to obtain literary\n        reputation, which even on my own part I cared for then,<pb n=\"vii\" xml:id=\"F1831_v_011\"/>\n        though since I have become infinitely indifferent to it. At this time he desired that I\n        should write, not so much with the idea that I could produce any thing worthy of notice, but\n        that he might himself judge how far I possessed the promise of better things hereafter.\n        Still I did nothing. Travelling, and the cares of a family, occupied my time; and study, in\n        the way of reading, or improving my ideas in communication with his far more cultivated\n        mind, was all of literary employment that engaged my attention.</p>\n      "
+  }
+ },
+ {
+  "@context": "http://www.w3.org/ns/anno.jsonld",
+  "id": "https://frankensteinvariorum.org/9hB4qObJEemuz7uuRdmBXA",
+  "type": "Annotation",
+  "generator": {
+   "id": "https://frankensteinvariorum.org/",
+   "type": "Software",
+   "name": "Frankenstein Variorum",
+   "homepage": "https://recogito.pelagios.org/"
+  },
+  "generated": "2019-10-04T17:11:10.154764+00:00",
+  "body": [
+   {
+    "type": "TextualBody",
+    "value": "Lord Byron (1788-1824) had published the first two cantos of *Childe Harold's Pilgrimage,* a poetic sensation across Europe that give him instant celebrity, in 1812. Canto 3 would be published in 1816 and Canto 4 in 1818.",
+    "creator": "https://hypothes.is/users/frankensteinvariorum",
+    "modified": "2019-10-04T17:11:10.154764+00:00",
+    "purpose": "commenting"
+   }
+  ],
+  "target": {
+   "source": "https://frankensteinvariorum.github.io/fv-collation/Frankenstein_1831.html",
+   "type": "Text",
+   "selector": [
+    {
+     "type": "TextQuoteSelector",
+     "prefix": "or wandering on its shores; and ",
+     "exact": "Lord\n         Byron,\n         who was writing the third canto of Childe Harold",
+     "suffix": ", was the only one among us who "
+    },
+    {
+     "type": "RangeSelector",
+     "startSelector": {
+      "type": "XPathSelector",
+      "value": "//*[@xml:id='introduction1_p5']"
+     },
+     "endSelector": {
+      "type": "XPathSelector",
+      "value": "//*[@xml:id='introduction1_p5']"
+     }
+    }
+   ]
+  },
+  "diagnostic": {
+   "note": "not for open annotation consumption",
+   "html": {
+    "start": "/p[5]",
+    "end": "/p[5]"
+   },
+   "xml_text_content": "<p xmlns=\"http://www.tei-c.org/ns/1.0\" xmlns:xi=\"http://www.w3.org/2001/XInclude\" xml:id=\"introduction1_p5\">In the summer of 1816, we visited Switzerland, and became the neighbours of Lord Byron. At\n        first we spent our pleasant hours on the lake, or wandering on its shores; and Lord Byron,\n        who was writing the third canto of Childe Harold, was the only one among us who put his\n        thoughts upon paper. These, as he brought them successively to us, clothed in all the light\n        and harmony of poetry, seemed to stamp as divine the glories of heaven and earth, whose\n        influences we partook with him.</p>\n      "
+  }
+ },
+ {
+  "@context": "http://www.w3.org/ns/anno.jsonld",
+  "id": "https://frankensteinvariorum.org/pEAuyObKEempDJMynG9AyQ",
+  "type": "Annotation",
+  "generator": {
+   "id": "https://frankensteinvariorum.org/",
+   "type": "Software",
+   "name": "Frankenstein Variorum",
+   "homepage": "https://recogito.pelagios.org/"
+  },
+  "generated": "2019-10-04T17:16:02.436792+00:00",
+  "body": [
+   {
+    "type": "TextualBody",
+    "value": "Mary Shelley understates the weather emergency in 1816, which was often called \"the year without a summer.\" Following the eruption of Mt. Tambora in Indonesia, Europe's weather turned cold and wet enough to destroy crops and induce famine among populations across the continent. For a vivid account, see Gillen D'Arcy Wood, *Tambora: The Eruption that Changed the World* (Princeton University Press, 2014).\n",
+    "creator": "https://hypothes.is/users/frankensteinvariorum",
+    "modified": "2019-10-04T17:16:02.436792+00:00",
+    "purpose": "commenting"
+   }
+  ],
+  "target": {
+   "source": "https://frankensteinvariorum.github.io/fv-collation/Frankenstein_1831.html",
+   "type": "Text",
+   "selector": [
+    {
+     "type": "TextQuoteSelector",
+     "prefix": "    \n      \n      But it proved ",
+     "exact": "a wet, ungenial summer",
+     "suffix": ", and incessant rain often confi"
+    },
+    {
+     "type": "RangeSelector",
+     "startSelector": {
+      "type": "XPathSelector",
+      "value": "//*[@xml:id='introduction1_p6']"
+     },
+     "endSelector": {
+      "type": "XPathSelector",
+      "value": "//*[@xml:id='introduction1_p6']"
+     }
+    }
+   ]
+  },
+  "diagnostic": {
+   "note": "not for open annotation consumption",
+   "html": {
+    "start": "/p[6]",
+    "end": "/p[6]"
+   },
+   "xml_text_content": "<p xmlns=\"http://www.tei-c.org/ns/1.0\" xmlns:xi=\"http://www.w3.org/2001/XInclude\" xml:id=\"introduction1_p6\">But it proved a wet, ungenial summer, and incessant rain often confined us for days to the\n        house. Some volumes of ghost stories, translated from the German into French, fell into our\n        hands. There was the History of the Inconstant Lover, who, when he thought to clasp the\n        bride to whom he had pledged his vows, found himself in the arms of the pale ghost of her\n        whom he had deserted. There was the tale of the sinful founder of his race, whose miserable\n        doom it was to bestow the kiss of death on all the younger sons of his fated house, just\n        when they reached the age of promise. His gigantic, shadowy form, clothed like the ghost in\n        Hamlet, in complete armour, but with the<pb n=\"viii\" xml:id=\"F1831_v_012\"/> beaver up, was\n        seen at midnight, by the moon&#8217;s fitful beams, to advance slowly along the gloomy avenue. The\n        shape was lost beneath the shadow of the castle walls; but soon a gate swung back, a step\n        was heard, the door of the chamber opened, and he advanced to the couch of the blooming\n        youths, cradled in healthy sleep. Eternal sorrow sat upon his face as he bent down and\n        kissed the forehead of the boys, who from that hour withered like flowers snapt upon the\n        stalk. I have not seen these stories since then; but their incidents are as fresh in my mind\n        as if I had read them yesterday.</p>\n      "
+  }
+ },
+ {
+  "@context": "http://www.w3.org/ns/anno.jsonld",
+  "id": "https://frankensteinvariorum.org/FilWlubKEem89Nv3i3NiCw",
+  "type": "Annotation",
+  "generator": {
+   "id": "https://frankensteinvariorum.org/",
+   "type": "Software",
+   "name": "Frankenstein Variorum",
+   "homepage": "https://recogito.pelagios.org/"
+  },
+  "generated": "2019-10-04T17:12:04.077368+00:00",
+  "body": [
+   {
+    "type": "TextualBody",
+    "value": "Along with Percy Shelley and Mary, Lord Byron, his sister Claire Clairmont, and their friend John Polidori huddled in the Villa Diodati on the shore of Lake Geneva and vowed to write ghost stories modeled on the German horror tales of the volume *Fantasmagoriana* (1812).  While Percy Shelley and Lord Byron did not fulfill their vow to write such tales, Polidori wrote the kernel of \"The Vampyre\" (published in 1819), while Mary wrote the first draft of *Frankenstein*.",
+    "creator": "https://hypothes.is/users/frankensteinvariorum",
+    "modified": "2019-10-04T17:12:04.077368+00:00",
+    "purpose": "commenting"
+   }
+  ],
+  "target": {
+   "source": "https://frankensteinvariorum.github.io/fv-collation/Frankenstein_1831.html",
+   "type": "Text",
+   "selector": [
+    {
+     "type": "TextQuoteSelector",
+     "prefix": " yesterday.\n      \n      \n      ",
+     "exact": "\u201cWe will each write a ghost story,\u201d said Lord Byron",
+     "suffix": "; and his proposition was accede"
+    },
+    {
+     "type": "RangeSelector",
+     "startSelector": {
+      "type": "XPathSelector",
+      "value": "//*[@xml:id='introduction1_p7']"
+     },
+     "endSelector": {
+      "type": "XPathSelector",
+      "value": "//*[@xml:id='introduction1_p7']"
+     }
+    }
+   ]
+  },
+  "diagnostic": {
+   "note": "not for open annotation consumption",
+   "html": {
+    "start": "/p[7]",
+    "end": "/p[7]"
+   },
+   "xml_text_content": "<p xmlns=\"http://www.tei-c.org/ns/1.0\" xmlns:xi=\"http://www.w3.org/2001/XInclude\" xml:id=\"introduction1_p7\">&#8220;We will each write a ghost story,&#8221; said Lord Byron; and his proposition was acceded to.\n        There were four of us. The noble author began a tale, a fragment of which he printed at the\n        end of his poem of Mazeppa. Shelley, more apt to embody ideas and sentiments in the radiance\n        of brilliant imagery, and in the music of the most melodious verse that adorns our language,\n        than to invent the machinery of a story, commenced one founded on the experiences of his\n        early life. Poor Polidori had some terrible idea about a skull-headed lady, who was so\n        punished for peeping through a key-hole&#8212;what to see I forget&#8212;something very shocking and\n        wrong of course; but when she was reduced to a worse condition than the renowned Tom of\n        Coventry, he did not know what to do with her, and was obliged to despatch her to the tomb\n        of the Capulets, the only place for which she was fitted. The illustrious poets also,\n        annoyed by the platitude of prose, speedily relinquished their uncongenial task.</p>\n      "
+  }
+ },
+ {
+  "@context": "http://www.w3.org/ns/anno.jsonld",
+  "id": "https://frankensteinvariorum.org/Y_6v4ubKEemzKNMzbHRkjw",
+  "type": "Annotation",
+  "generator": {
+   "id": "https://frankensteinvariorum.org/",
+   "type": "Software",
+   "name": "Frankenstein Variorum",
+   "homepage": "https://recogito.pelagios.org/"
+  },
+  "generated": "2019-10-04T17:14:14.661241+00:00",
+  "body": [
+   {
+    "type": "TextualBody",
+    "value": "Byron's narrative poem *Mazeppa* would be published in 1819.",
+    "creator": "https://hypothes.is/users/frankensteinvariorum",
+    "modified": "2019-10-04T17:14:14.661241+00:00",
+    "purpose": "commenting"
+   }
+  ],
+  "target": {
+   "source": "https://frankensteinvariorum.github.io/fv-collation/Frankenstein_1831.html",
+   "type": "Text",
+   "selector": [
+    {
+     "type": "TextQuoteSelector",
+     "prefix": "the\n         end of his poem of ",
+     "exact": "Mazeppa",
+     "suffix": ". Shelley, more apt to embody id"
+    },
+    {
+     "type": "RangeSelector",
+     "startSelector": {
+      "type": "XPathSelector",
+      "value": "//*[@xml:id='introduction1_p7']"
+     },
+     "endSelector": {
+      "type": "XPathSelector",
+      "value": "//*[@xml:id='introduction1_p7']"
+     }
+    }
+   ]
+  },
+  "diagnostic": {
+   "note": "not for open annotation consumption",
+   "html": {
+    "start": "/p[7]",
+    "end": "/p[7]"
+   },
+   "xml_text_content": "<p xmlns=\"http://www.tei-c.org/ns/1.0\" xmlns:xi=\"http://www.w3.org/2001/XInclude\" xml:id=\"introduction1_p7\">&#8220;We will each write a ghost story,&#8221; said Lord Byron; and his proposition was acceded to.\n        There were four of us. The noble author began a tale, a fragment of which he printed at the\n        end of his poem of Mazeppa. Shelley, more apt to embody ideas and sentiments in the radiance\n        of brilliant imagery, and in the music of the most melodious verse that adorns our language,\n        than to invent the machinery of a story, commenced one founded on the experiences of his\n        early life. Poor Polidori had some terrible idea about a skull-headed lady, who was so\n        punished for peeping through a key-hole&#8212;what to see I forget&#8212;something very shocking and\n        wrong of course; but when she was reduced to a worse condition than the renowned Tom of\n        Coventry, he did not know what to do with her, and was obliged to despatch her to the tomb\n        of the Capulets, the only place for which she was fitted. The illustrious poets also,\n        annoyed by the platitude of prose, speedily relinquished their uncongenial task.</p>\n      "
+  }
+ },
+ {
+  "@context": "http://www.w3.org/ns/anno.jsonld",
+  "id": "https://frankensteinvariorum.org/E1QGUObKEemrgwPE3PaWog",
+  "type": "Annotation",
+  "generator": {
+   "id": "https://frankensteinvariorum.org/",
+   "type": "Software",
+   "name": "Frankenstein Variorum",
+   "homepage": "https://recogito.pelagios.org/"
+  },
+  "generated": "2019-10-04T17:11:59.332889+00:00",
+  "body": [
+   {
+    "type": "TextualBody",
+    "value": "Shelley cites a characteristic expression, such as the homily \"every thing must have a beginning,\" that was first voiced by Sancho Panza in Miguel de Cervantes's *Don Quixote* (1605).",
+    "creator": "https://hypothes.is/users/frankensteinvariorum",
+    "modified": "2019-10-04T17:11:59.332889+00:00",
+    "purpose": "commenting"
+   }
+  ],
+  "target": {
+   "source": "https://frankensteinvariorum.github.io/fv-collation/Frankenstein_1831.html",
+   "type": "Text",
+   "selector": [
+    {
+     "type": "TextQuoteSelector",
+     "prefix": "must have a beginning, to speak ",
+     "exact": "in Sanchean phrase",
+     "suffix": "; and that beginning\n         mu"
+    },
+    {
+     "type": "RangeSelector",
+     "startSelector": {
+      "type": "XPathSelector",
+      "value": "//*[@xml:id='introduction1_p9']"
+     },
+     "endSelector": {
+      "type": "XPathSelector",
+      "value": "//*[@xml:id='introduction1_p9']"
+     }
+    }
+   ]
+  },
+  "diagnostic": {
+   "note": "not for open annotation consumption",
+   "html": {
+    "start": "/p[9]",
+    "end": "/p[9]"
+   },
+   "xml_text_content": "<p xmlns=\"http://www.tei-c.org/ns/1.0\" xmlns:xi=\"http://www.w3.org/2001/XInclude\" xml:id=\"introduction1_p9\">Every thing must have a beginning, to speak in Sanchean phrase; and that beginning must be\n        linked to something that went before. The Hindoos give the world an elephant to support it,\n        but they make the elephant stand upon a tortoise. Invention, it must be humbly admitted,\n        does not consist in creating out of void, but out of chaos; the materials must, in the first\n        place, be afforded: it can give form to dark, shapeless substances, but cannot bring into\n        being the substance itself. In all matters of discovery and invention, even of those that\n        appertain to the imagination, we are continually reminded of the story of Columbus and his\n        egg. Invention consists in the capacity of seizing on the capabilities of a subject, and in\n        the power of moulding and fashioning ideas suggested to it.</p>\n      "
+  }
+ },
+ {
+  "@context": "http://www.w3.org/ns/anno.jsonld",
+  "id": "https://frankensteinvariorum.org/JBH_JObKEemrhYNkrmAb4g",
+  "type": "Annotation",
+  "generator": {
+   "id": "https://frankensteinvariorum.org/",
+   "type": "Software",
+   "name": "Frankenstein Variorum",
+   "homepage": "https://recogito.pelagios.org/"
+  },
+  "generated": "2019-10-04T17:12:27.416275+00:00",
+  "body": [
+   {
+    "type": "TextualBody",
+    "value": "Shelley refers to the idea that a brilliant or unexpected discovery appears simple after the fact. Challenged to stand an egg up on its end, Columbus flattened the tip of the egg; only then did the act look easy. ",
+    "creator": "https://hypothes.is/users/frankensteinvariorum",
+    "modified": "2019-10-04T17:12:27.416275+00:00",
+    "purpose": "commenting"
+   }
+  ],
+  "target": {
+   "source": "https://frankensteinvariorum.github.io/fv-collation/Frankenstein_1831.html",
+   "type": "Text",
+   "selector": [
+    {
+     "type": "TextQuoteSelector",
+     "prefix": " we are continually reminded of ",
+     "exact": "the story of Columbus\n         and his\n         egg",
+     "suffix": ". Invention consists in the capa"
+    },
+    {
+     "type": "RangeSelector",
+     "startSelector": {
+      "type": "XPathSelector",
+      "value": "//*[@xml:id='introduction1_p9']"
+     },
+     "endSelector": {
+      "type": "XPathSelector",
+      "value": "//*[@xml:id='introduction1_p9']"
+     }
+    }
+   ]
+  },
+  "diagnostic": {
+   "note": "not for open annotation consumption",
+   "html": {
+    "start": "/p[9]",
+    "end": "/p[9]"
+   },
+   "xml_text_content": "<p xmlns=\"http://www.tei-c.org/ns/1.0\" xmlns:xi=\"http://www.w3.org/2001/XInclude\" xml:id=\"introduction1_p9\">Every thing must have a beginning, to speak in Sanchean phrase; and that beginning must be\n        linked to something that went before. The Hindoos give the world an elephant to support it,\n        but they make the elephant stand upon a tortoise. Invention, it must be humbly admitted,\n        does not consist in creating out of void, but out of chaos; the materials must, in the first\n        place, be afforded: it can give form to dark, shapeless substances, but cannot bring into\n        being the substance itself. In all matters of discovery and invention, even of those that\n        appertain to the imagination, we are continually reminded of the story of Columbus and his\n        egg. Invention consists in the capacity of seizing on the capabilities of a subject, and in\n        the power of moulding and fashioning ideas suggested to it.</p>\n      "
+  }
+ },
+ {
+  "@context": "http://www.w3.org/ns/anno.jsonld",
+  "id": "https://frankensteinvariorum.org/nCb-iObKEemTM8NCL5SOJg",
+  "type": "Annotation",
+  "generator": {
+   "id": "https://frankensteinvariorum.org/",
+   "type": "Software",
+   "name": "Frankenstein Variorum",
+   "homepage": "https://recogito.pelagios.org/"
+  },
+  "generated": "2019-10-04T17:15:48.888954+00:00",
+  "body": [
+   {
+    "type": "TextualBody",
+    "value": "Shelley refers to Erasmus Darwin (1731-1802), the polymath poet, inventor, and scientist who controversially speculated on the materialist idea of life's origins in matter.",
+    "creator": "https://hypothes.is/users/frankensteinvariorum",
+    "modified": "2019-10-04T17:15:48.888954+00:00",
+    "purpose": "commenting"
+   }
+  ],
+  "target": {
+   "source": "https://frankensteinvariorum.github.io/fv-collation/Frankenstein_1831.html",
+   "type": "Text",
+   "selector": [
+    {
+     "type": "TextQuoteSelector",
+     "prefix": "periments\n         of\n         x",
+     "exact": "Dr. Darwin",
+     "suffix": ", (I speak not of what the Docto"
+    },
+    {
+     "type": "RangeSelector",
+     "startSelector": {
+      "type": "XPathSelector",
+      "value": "//*[@xml:id='introduction1_p10']"
+     },
+     "endSelector": {
+      "type": "XPathSelector",
+      "value": "//*[@xml:id='introduction1_p10']"
+     }
+    }
+   ]
+  },
+  "diagnostic": {
+   "note": "not for open annotation consumption",
+   "html": {
+    "start": "/p[10]",
+    "end": "/p[10]"
+   },
+   "xml_text_content": "<p xmlns=\"http://www.tei-c.org/ns/1.0\" xmlns:xi=\"http://www.w3.org/2001/XInclude\" xml:id=\"introduction1_p10\">Many and long were the conversations between Lord Byron and Shelley, to which I was a\n        devout but nearly silent listener. During one of these, various philosophical doctrines were\n        discussed, and among others the nature of the principle of life, and whether there was any\n        probability of its ever being discovered and communicated. They talked of the experiments of\n        <pb n=\"x\" xml:id=\"F1831_v_014\"/>Dr. Darwin, (I speak not of what the Doctor really did, or\n        said that he did, but, as more to my purpose, of what was then spoken of as having been done\n        by him,) who preserved a piece of vermicelli in a glass case, till by some extraordinary\n        means it began to move with voluntary motion. Not thus, after all, would life be given.\n        Perhaps a corpse would be re-animated; galvanism had given token of such things: perhaps the\n        component parts of a creature might be manufactured, brought together, and endued with vital\n        warmth.</p>\n      "
+  }
+ },
+ {
+  "@context": "http://www.w3.org/ns/anno.jsonld",
+  "id": "https://frankensteinvariorum.org/SDqI2ubKEemxeYNIWM3ixQ",
+  "type": "Annotation",
+  "generator": {
+   "id": "https://frankensteinvariorum.org/",
+   "type": "Software",
+   "name": "Frankenstein Variorum",
+   "homepage": "https://recogito.pelagios.org/"
+  },
+  "generated": "2019-10-04T17:13:28.057684+00:00",
+  "body": [
+   {
+    "type": "TextualBody",
+    "value": "The 1818 edition of *Frankenstein* was published anonymously, and early readers and reviewers often attributed it to Percy Shelley, not Mary. According to Mary in 1831 (and subsequent scholarship), Percy did largely write the 1818 \"Preface,\" and it is now estimated by Charles Robinson that Percy contributed between 4000 and 5000 words to Mary's 72,000 word manuscript. See Robinson, ed., *The Original Frankenstein; or, the Modern Prometheus*, by Mary Shelley (with Percy Shelley) [New York: VIntage Classics, 2009].",
+    "creator": "https://hypothes.is/users/frankensteinvariorum",
+    "modified": "2019-10-04T17:13:28.057684+00:00",
+    "purpose": "commenting"
+   }
+  ],
+  "target": {
+   "source": "https://frankensteinvariorum.github.io/fv-collation/Frankenstein_1831.html",
+   "type": "Text",
+   "selector": [
+    {
+     "type": "TextQuoteSelector",
+     "prefix": "         I\n         must except ",
+     "exact": "the preface. As far as I can recollect, it was entirely written by him.\n      ",
+     "suffix": "\n      \n      xiiAnd now, once a"
+    },
+    {
+     "type": "RangeSelector",
+     "startSelector": {
+      "type": "XPathSelector",
+      "value": "//*[@xml:id='introduction1_p14']"
+     },
+     "endSelector": {
+      "type": "XPathSelector",
+      "value": "//*[@xml:id='introduction1_p14']"
+     }
+    }
+   ]
+  },
+  "diagnostic": {
+   "note": "not for open annotation consumption",
+   "html": {
+    "start": "/p[14]",
+    "end": "/p[14]"
+   },
+   "xml_text_content": "<p xmlns=\"http://www.tei-c.org/ns/1.0\" xmlns:xi=\"http://www.w3.org/2001/XInclude\" xml:id=\"introduction1_p14\">At first I thought but of a few pages &#8212; of a short tale; but Shelley urged me to develope\n        the idea at greater length. I certainly did not owe the suggestion of one incident, nor\n        scarcely of one train of feeling, to my husband, and yet but for his incitement, it would\n        never have taken the form in which it was presented to the world. From this declaration I\n        must except the preface. As far as I can recollect, it was entirely written by him.</p>\n      "
+  }
+ },
+ {
+  "@context": "http://www.w3.org/ns/anno.jsonld",
+  "id": "https://frankensteinvariorum.org/4lkw1ObJEemMdVsnUDhJCQ",
+  "type": "Annotation",
+  "generator": {
+   "id": "https://frankensteinvariorum.org/",
+   "type": "Software",
+   "name": "Frankenstein Variorum",
+   "homepage": "https://recogito.pelagios.org/"
+  },
+  "generated": "2019-10-04T17:10:37.154517+00:00",
+  "body": [
+   {
+    "type": "TextualBody",
+    "value": "Critics have written provocatively about this phrase, arguing that it refers not only to her fictional creation of the Creature, but to the novel itself as her own literary \"progeny,\" and it thus testifies to her deeply ambivalent feelings about the novel she authored. For a classic statement of this idea, see Mary Poovey, \"My Hideous Progeny: The Lady and the Monster\" in *The Proper Lady and the Woman Writer: Ideology as Style in the Works of Mary Wollstonecraft, Mary Shelley, and Jane Austen* (Chicago: Univ. of Chicago Press, 1984), pp. 114-42.",
+    "creator": "https://hypothes.is/users/frankensteinvariorum",
+    "modified": "2019-10-04T17:10:37.154517+00:00",
+    "purpose": "commenting"
+   }
+  ],
+  "target": {
+   "source": "https://frankensteinvariorum.github.io/fv-collation/Frankenstein_1831.html",
+   "type": "Text",
+   "selector": [
+    {
+     "type": "TextQuoteSelector",
+     "prefix": "  xiiAnd now, once again, I bid ",
+     "exact": "my hideous progeny",
+     "suffix": " go forth\n         and prosper. "
+    },
+    {
+     "type": "RangeSelector",
+     "startSelector": {
+      "type": "XPathSelector",
+      "value": "//*[@xml:id='introduction1_p15']"
+     },
+     "endSelector": {
+      "type": "XPathSelector",
+      "value": "//*[@xml:id='introduction1_p15']"
+     }
+    }
+   ]
+  },
+  "diagnostic": {
+   "note": "not for open annotation consumption",
+   "html": {
+    "start": "/p[15]",
+    "end": "/p[15]"
+   },
+   "xml_text_content": "<p xmlns=\"http://www.tei-c.org/ns/1.0\" xmlns:xi=\"http://www.w3.org/2001/XInclude\" xml:id=\"introduction1_p15\">\n         <pb n=\"xii\" xml:id=\"F1831_v_016\"/>And now, once again, I bid my hideous progeny go forth\n        and prosper. I have an affection for it, for it was the offspring of happy days, when death\n        and grief were but words, which found no true echo in my heart. Its several pages speak of\n        many a walk, many a drive, and many a conversation, when I was not alone; and my companion\n        was one who, in this world, I shall never see more. But this is for myself; my readers have\n        nothing to do with these associations.</p>\n      "
+  }
+ },
+ {
+  "@context": "http://www.w3.org/ns/anno.jsonld",
+  "id": "https://frankensteinvariorum.org/hYGYvubKEemuMxefGX3e9A",
+  "type": "Annotation",
+  "generator": {
+   "id": "https://frankensteinvariorum.org/",
+   "type": "Software",
+   "name": "Frankenstein Variorum",
+   "homepage": "https://recogito.pelagios.org/"
+  },
+  "generated": "2019-10-04T17:15:10.841275+00:00",
+  "body": [
+   {
+    "type": "TextualBody",
+    "value": "Mary Shelley believed she did not substantially alter the story but only improved its concision and style. Modern critics, as our later annotations to 1831 will show, have strongly differed with her on this point, arguing that her revisions substantively changed the political tenor of the story, its gender and familial relationships, and its moral implications. For one influential example of this argument, see Marilyn Butler's introduction to the 2009 Oxford World's Classics edition of the 1818 text,\n",
+    "creator": "https://hypothes.is/users/frankensteinvariorum",
+    "modified": "2019-10-04T17:15:10.841275+00:00",
+    "purpose": "commenting"
+   }
+  ],
+  "target": {
+   "source": "https://frankensteinvariorum.github.io/fv-collation/Frankenstein_1831.html",
+   "type": "Text",
+   "selector": [
+    {
+     "type": "TextQuoteSelector",
+     "prefix": "  I will add but one word as to ",
+     "exact": "the alterations I have made. They are principally those\n         of\n         style. I have changed no portion of the story, nor introduced any new ideas or\n         circumstances.",
+     "suffix": " I have mended the language wher"
+    },
+    {
+     "type": "RangeSelector",
+     "startSelector": {
+      "type": "XPathSelector",
+      "value": "//*[@xml:id='introduction1_p16']"
+     },
+     "endSelector": {
+      "type": "XPathSelector",
+      "value": "//*[@xml:id='introduction1_p16']"
+     }
+    }
+   ]
+  },
+  "diagnostic": {
+   "note": "not for open annotation consumption",
+   "html": {
+    "start": "/p[16]",
+    "end": "/p[16]"
+   },
+   "xml_text_content": "<p xmlns=\"http://www.tei-c.org/ns/1.0\" xmlns:xi=\"http://www.w3.org/2001/XInclude\" xml:id=\"introduction1_p16\">I will add but one word as to the alterations I have made. They are principally those of\n        style. I have changed no portion of the story, nor introduced any new ideas or\n        circumstances. I have mended the language where it was so bald as to interfere with the\n        interest of the narrative; and these changes occur almost exclusively in the beginning of\n        the first volume. Throughout they are entirely confined to such parts as are mere adjuncts\n        to the story, leaving the core and substance of it untouched.</p>\n      "
+  }
+ },
+ {
+  "@context": "http://www.w3.org/ns/anno.jsonld",
   "id": "https://frankensteinvariorum.org/YBpDtObKEemMeQdAFxyd1w",
   "type": "Annotation",
   "generator": {
@@ -100,7 +776,7 @@
     "start": "/p[41]",
     "end": "/p[41]"
    },
-   "xml_text_content": "<p xmlns=\"http://www.tei-c.org/ns/1.0\" xmlns:xi=\"http://www.w3.org/2001/XInclude\" xml:id=\"novel1_letter2_p5\">The master is a person of an excellent disposition, and is remarkable in the ship for his\n          gentleness and the mild<pb xml:id=\"F1831_v_024\" n=\"8\"/>ness of his discipline. This\n          circumstance, added to his well known integrity and dauntless courage, made me very\n          desirous to engage him. A youth passed in solitude, my best years spent under your gentle\n          and feminine fosterage, has so refined the groundwork of my character, that I cannot\n          overcome an intense distaste to the usual brutality exercised on board ship: I have never\n          believed it to be necessary; and when I heard of a mariner equally noted for his\n          kindliness of heart, and the respect and obedience paid to him by his crew, I felt myself\n          peculiarly fortunate in being able to secure his services. I heard of him first in rather\n          a romantic manner, from a lady who owes to him the happiness of her life. This, briefly,\n          is his story. Some years ago he loved a young Russian lady, of moderate fortune; and\n          having amassed a considerable sum in prize-money, the father of the girl consented to the\n          match. He saw his mistress once before the destined ceremony; but she was bathed in tears,\n          and, throwing herself at his feet, entreated him to spare her, confessing at the same time\n          that she loved another, but that he was poor, and that her father would never consent to\n          the union. My generous friend reassured the suppliant, and on being informed of the name\n          of her lover, instantly abandoned his pursuit. He had already bought a farm with his\n          money, on which he had designed to pass the remainder of his life; but he bestowed the\n          whole on his rival, together with the remains of his prize-money to purchase stock, and\n          then himself solicited the young woman&#8217;s father to consent to her marriage with her lover.\n          But the old man decidedly refused, thinking himself bound in honour to my friend; who,\n          when he found the father inexorable, quitted his country, nor returned until he heard that\n          his former mistress was married according to her inclinations. &#8220;What a noble fellow!&#8221; you\n          will exclaim. He is so; but then he is wholly uneducated: he is as silent as a Turk, and a\n          kind of ignorant carelessness attends him, which, while it renders his conduct the more\n          astonishing, detracts from the interest and sympathy which otherwise he would command.</p>\n        "
+   "xml_text_content": "<p xmlns=\"http://www.tei-c.org/ns/1.0\" xmlns:xi=\"http://www.w3.org/2001/XInclude\" xml:id=\"novel1_letter2_p5\">The master is a person of an excellent disposition, and is remarkable in the ship for his\n          gentleness and the mild<pb n=\"8\" xml:id=\"F1831_v_024\"/>ness of his discipline. This\n          circumstance, added to his well known integrity and dauntless courage, made me very\n          desirous to engage him. A youth passed in solitude, my best years spent under your gentle\n          and feminine fosterage, has so refined the groundwork of my character, that I cannot\n          overcome an intense distaste to the usual brutality exercised on board ship: I have never\n          believed it to be necessary; and when I heard of a mariner equally noted for his\n          kindliness of heart, and the respect and obedience paid to him by his crew, I felt myself\n          peculiarly fortunate in being able to secure his services. I heard of him first in rather\n          a romantic manner, from a lady who owes to him the happiness of her life. This, briefly,\n          is his story. Some years ago he loved a young Russian lady, of moderate fortune; and\n          having amassed a considerable sum in prize-money, the father of the girl consented to the\n          match. He saw his mistress once before the destined ceremony; but she was bathed in tears,\n          and, throwing herself at his feet, entreated him to spare her, confessing at the same time\n          that she loved another, but that he was poor, and that her father would never consent to\n          the union. My generous friend reassured the suppliant, and on being informed of the name\n          of her lover, instantly abandoned his pursuit. He had already bought a farm with his\n          money, on which he had designed to pass the remainder of his life; but he bestowed the\n          whole on his rival, together with the remains of his prize-money to purchase stock, and\n          then himself solicited the young woman&#8217;s father to consent to her marriage with her lover.\n          But the old man decidedly refused, thinking himself bound in honour to my friend; who,\n          when he found the father inexorable, quitted his country, nor returned until he heard that\n          his former mistress was married according to her inclinations. &#8220;What a noble fellow!&#8221; you\n          will exclaim. He is so; but then he is wholly uneducated: he is as silent as a Turk, and a\n          kind of ignorant carelessness attends him, which, while it renders his conduct the more\n          astonishing, detracts from the interest and sympathy which otherwise he would command.</p>\n        "
   }
  },
  {
@@ -152,7 +828,7 @@
     "start": "/p[41]",
     "end": "/p[41]"
    },
-   "xml_text_content": "<p xmlns=\"http://www.tei-c.org/ns/1.0\" xmlns:xi=\"http://www.w3.org/2001/XInclude\" xml:id=\"novel1_letter2_p5\">The master is a person of an excellent disposition, and is remarkable in the ship for his\n          gentleness and the mild<pb xml:id=\"F1831_v_024\" n=\"8\"/>ness of his discipline. This\n          circumstance, added to his well known integrity and dauntless courage, made me very\n          desirous to engage him. A youth passed in solitude, my best years spent under your gentle\n          and feminine fosterage, has so refined the groundwork of my character, that I cannot\n          overcome an intense distaste to the usual brutality exercised on board ship: I have never\n          believed it to be necessary; and when I heard of a mariner equally noted for his\n          kindliness of heart, and the respect and obedience paid to him by his crew, I felt myself\n          peculiarly fortunate in being able to secure his services. I heard of him first in rather\n          a romantic manner, from a lady who owes to him the happiness of her life. This, briefly,\n          is his story. Some years ago he loved a young Russian lady, of moderate fortune; and\n          having amassed a considerable sum in prize-money, the father of the girl consented to the\n          match. He saw his mistress once before the destined ceremony; but she was bathed in tears,\n          and, throwing herself at his feet, entreated him to spare her, confessing at the same time\n          that she loved another, but that he was poor, and that her father would never consent to\n          the union. My generous friend reassured the suppliant, and on being informed of the name\n          of her lover, instantly abandoned his pursuit. He had already bought a farm with his\n          money, on which he had designed to pass the remainder of his life; but he bestowed the\n          whole on his rival, together with the remains of his prize-money to purchase stock, and\n          then himself solicited the young woman&#8217;s father to consent to her marriage with her lover.\n          But the old man decidedly refused, thinking himself bound in honour to my friend; who,\n          when he found the father inexorable, quitted his country, nor returned until he heard that\n          his former mistress was married according to her inclinations. &#8220;What a noble fellow!&#8221; you\n          will exclaim. He is so; but then he is wholly uneducated: he is as silent as a Turk, and a\n          kind of ignorant carelessness attends him, which, while it renders his conduct the more\n          astonishing, detracts from the interest and sympathy which otherwise he would command.</p>\n        "
+   "xml_text_content": "<p xmlns=\"http://www.tei-c.org/ns/1.0\" xmlns:xi=\"http://www.w3.org/2001/XInclude\" xml:id=\"novel1_letter2_p5\">The master is a person of an excellent disposition, and is remarkable in the ship for his\n          gentleness and the mild<pb n=\"8\" xml:id=\"F1831_v_024\"/>ness of his discipline. This\n          circumstance, added to his well known integrity and dauntless courage, made me very\n          desirous to engage him. A youth passed in solitude, my best years spent under your gentle\n          and feminine fosterage, has so refined the groundwork of my character, that I cannot\n          overcome an intense distaste to the usual brutality exercised on board ship: I have never\n          believed it to be necessary; and when I heard of a mariner equally noted for his\n          kindliness of heart, and the respect and obedience paid to him by his crew, I felt myself\n          peculiarly fortunate in being able to secure his services. I heard of him first in rather\n          a romantic manner, from a lady who owes to him the happiness of her life. This, briefly,\n          is his story. Some years ago he loved a young Russian lady, of moderate fortune; and\n          having amassed a considerable sum in prize-money, the father of the girl consented to the\n          match. He saw his mistress once before the destined ceremony; but she was bathed in tears,\n          and, throwing herself at his feet, entreated him to spare her, confessing at the same time\n          that she loved another, but that he was poor, and that her father would never consent to\n          the union. My generous friend reassured the suppliant, and on being informed of the name\n          of her lover, instantly abandoned his pursuit. He had already bought a farm with his\n          money, on which he had designed to pass the remainder of his life; but he bestowed the\n          whole on his rival, together with the remains of his prize-money to purchase stock, and\n          then himself solicited the young woman&#8217;s father to consent to her marriage with her lover.\n          But the old man decidedly refused, thinking himself bound in honour to my friend; who,\n          when he found the father inexorable, quitted his country, nor returned until he heard that\n          his former mistress was married according to her inclinations. &#8220;What a noble fellow!&#8221; you\n          will exclaim. He is so; but then he is wholly uneducated: he is as silent as a Turk, and a\n          kind of ignorant carelessness attends him, which, while it renders his conduct the more\n          astonishing, detracts from the interest and sympathy which otherwise he would command.</p>\n        "
   }
  },
  {
@@ -620,7 +1296,7 @@
     "start": "/p[92]",
     "end": "/p[92]"
    },
-   "xml_text_content": "<p xmlns=\"http://www.tei-c.org/ns/1.0\" xmlns:xi=\"http://www.w3.org/2001/XInclude\" xml:id=\"novel1_letter4_p38\">\n         <pb xml:id=\"F1831_v_034\" n=\"18\"/>He then told me, that he would commence his narrative\n          the next day when I should be at leisure. This promise drew from me the warmest thanks. I\n          have resolved every night, when I am not imperatively occupied by my duties, to record, as\n          nearly as possible in his own words, what he has related during the day. If I should be\n          engaged, I will at least make notes. This manuscript will doubtless afford you the\n          greatest pleasure: but to me, who know him, and who hear it from his own lips, with what\n          interest and sympathy shall I read it in some future day! Even now, as I commence my task,\n          his full-toned voice swells in my ears; his lustrous eyes dwell on me with all their\n          melancholy sweetness; I see his thin hand raised in animation, while the lineaments of his\n          face are irradiated by the soul within. Strange and harrowing must be his story; frightful\n          the storm which embraced the gallant vessel on its course, and wrecked it&#8212;thus!</p>\n        "
+   "xml_text_content": "<p xmlns=\"http://www.tei-c.org/ns/1.0\" xmlns:xi=\"http://www.w3.org/2001/XInclude\" xml:id=\"novel1_letter4_p38\">\n         <pb n=\"18\" xml:id=\"F1831_v_034\"/>He then told me, that he would commence his narrative\n          the next day when I should be at leisure. This promise drew from me the warmest thanks. I\n          have resolved every night, when I am not imperatively occupied by my duties, to record, as\n          nearly as possible in his own words, what he has related during the day. If I should be\n          engaged, I will at least make notes. This manuscript will doubtless afford you the\n          greatest pleasure: but to me, who know him, and who hear it from his own lips, with what\n          interest and sympathy shall I read it in some future day! Even now, as I commence my task,\n          his full-toned voice swells in my ears; his lustrous eyes dwell on me with all their\n          melancholy sweetness; I see his thin hand raised in animation, while the lineaments of his\n          face are irradiated by the soul within. Strange and harrowing must be his story; frightful\n          the storm which embraced the gallant vessel on its course, and wrecked it&#8212;thus!</p>\n        "
   }
  },
  {
@@ -724,7 +1400,7 @@
     "start": "/p[94]",
     "end": "/p[94]"
    },
-   "xml_text_content": "<p xmlns=\"http://www.tei-c.org/ns/1.0\" xmlns:xi=\"http://www.w3.org/2001/XInclude\" xml:id=\"novel1_letter4_chapter1_p2\">As the circumstances of his marriage illustrate his character, I cannot refrain from\n            relating them. One of his most intimate friends was a merchant, who, from a flourishing\n            state, fell, through numerous mischances, into poverty. This man, whose name was\n            Beaufort, was of a proud and unbending disposition, and could not bear to live in\n            poverty and oblivion in the same country where he had formerly been distinguished for\n            his rank and magni<pb xml:id=\"F1831_v_035\" n=\"19\"/>ficence. Having paid his debts,\n            therefore, in the most honourable manner, he retreated with his daughter to the town of\n            Lucerne, where he lived unknown and in wretchedness. My father loved Beaufort with the\n            truest friendship, and was deeply grieved by his retreat in these unfortunate\n            circumstances. He bitterly deplored the false pride which led his friend to a conduct so\n            little worthy of the affection that united them. He lost no time in endeavouring to seek\n            him out, with the hope of persuading him to begin the world again through his credit and\n            assistance.</p>\n          "
+   "xml_text_content": "<p xmlns=\"http://www.tei-c.org/ns/1.0\" xmlns:xi=\"http://www.w3.org/2001/XInclude\" xml:id=\"novel1_letter4_chapter1_p2\">As the circumstances of his marriage illustrate his character, I cannot refrain from\n            relating them. One of his most intimate friends was a merchant, who, from a flourishing\n            state, fell, through numerous mischances, into poverty. This man, whose name was\n            Beaufort, was of a proud and unbending disposition, and could not bear to live in\n            poverty and oblivion in the same country where he had formerly been distinguished for\n            his rank and magni<pb n=\"19\" xml:id=\"F1831_v_035\"/>ficence. Having paid his debts,\n            therefore, in the most honourable manner, he retreated with his daughter to the town of\n            Lucerne, where he lived unknown and in wretchedness. My father loved Beaufort with the\n            truest friendship, and was deeply grieved by his retreat in these unfortunate\n            circumstances. He bitterly deplored the false pride which led his friend to a conduct so\n            little worthy of the affection that united them. He lost no time in endeavouring to seek\n            him out, with the hope of persuading him to begin the world again through his credit and\n            assistance.</p>\n          "
   }
  },
  {
@@ -828,7 +1504,7 @@
     "start": "/p[99]",
     "end": "/p[99]"
    },
-   "xml_text_content": "<p xmlns=\"http://www.tei-c.org/ns/1.0\" xmlns:xi=\"http://www.w3.org/2001/XInclude\" xml:id=\"novel1_letter4_chapter1_p7\">From Italy they visited Germany and France. I, their eldest child, was born at Naples,\n            and as an infant accompanied them in their rambles. I remained for several years their\n            only child. Much as they were attached to each other, they seemed to draw inexhaustible\n            stores of affection from a very mine of love to bestow them upon me. My mother&#8217;s tender\n            caresses, and my father&#8217;s smile of benevolent pleasure while regarding me, are my first\n            recollections. I was their plaything and their idol, and something better&#8212;<pb xml:id=\"F1831_v_037\" n=\"21\"/>their child, the innocent and helpless creature bestowed\n            on them by Heaven, whom to bring up to good, and whose future lot it was in their hands\n            to direct to happiness or misery, according as they fulfilled their duties towards me.\n            With this deep consciousness of what they owed towards the being to which they had given\n            life, added to the active spirit of tenderness that animated both, it may be imagined\n            that while during every hour of my infant life I received a lesson of patience, of\n            charity, and of self-control, I was so guided by a silken cord, that all seemed but one\n            train of enjoyment to me.</p>\n          "
+   "xml_text_content": "<p xmlns=\"http://www.tei-c.org/ns/1.0\" xmlns:xi=\"http://www.w3.org/2001/XInclude\" xml:id=\"novel1_letter4_chapter1_p7\">From Italy they visited Germany and France. I, their eldest child, was born at Naples,\n            and as an infant accompanied them in their rambles. I remained for several years their\n            only child. Much as they were attached to each other, they seemed to draw inexhaustible\n            stores of affection from a very mine of love to bestow them upon me. My mother&#8217;s tender\n            caresses, and my father&#8217;s smile of benevolent pleasure while regarding me, are my first\n            recollections. I was their plaything and their idol, and something better&#8212;<pb n=\"21\" xml:id=\"F1831_v_037\"/>their child, the innocent and helpless creature bestowed\n            on them by Heaven, whom to bring up to good, and whose future lot it was in their hands\n            to direct to happiness or misery, according as they fulfilled their duties towards me.\n            With this deep consciousness of what they owed towards the being to which they had given\n            life, added to the active spirit of tenderness that animated both, it may be imagined\n            that while during every hour of my infant life I received a lesson of patience, of\n            charity, and of self-control, I was so guided by a silken cord, that all seemed but one\n            train of enjoyment to me.</p>\n          "
   }
  },
  {
@@ -1036,7 +1712,7 @@
     "start": "/p[101]/i[1]",
     "end": "/p[101]/i[1]"
    },
-   "xml_text_content": "<p xmlns=\"http://www.tei-c.org/ns/1.0\" xmlns:xi=\"http://www.w3.org/2001/XInclude\" xml:id=\"novel1_letter4_chapter1_p9\">\n         <pb xml:id=\"F1831_v_038\" n=\"22\"/>The peasant woman, perceiving that my mother fixed\n            eyes of wonder and admiration on this lovely girl, eagerly communicated her history. She\n            was not her child, but the daughter of a Milanese nobleman. Her mother was a German, and\n            had died on giving her birth. The infant had been placed with these good people to\n            nurse: they were better off then. They had not been long married, and their eldest child\n            was but just born. The father of their charge was one of those Italians nursed in the\n            memory of the antique glory of Italy,&#8212;one among the <hi rend=\"italic\" xml:id=\"novel1_letter4_chapter1_p9_hi1\">schiavi ognor\n              frementi</hi>, who exerted himself to obtain the liberty of his country. He became the\n            victim of its weakness. Whether he had died, or still lingered in the dungeons of\n            Austria, was not known. His property was confiscated, his child became an orphan and a\n            beggar. She continued with her foster parents, and bloomed in their rude abode, fairer\n            than a garden rose among dark-leaved brambles.</p>\n          "
+   "xml_text_content": "<p xmlns=\"http://www.tei-c.org/ns/1.0\" xmlns:xi=\"http://www.w3.org/2001/XInclude\" xml:id=\"novel1_letter4_chapter1_p9\">\n         <pb n=\"22\" xml:id=\"F1831_v_038\"/>The peasant woman, perceiving that my mother fixed\n            eyes of wonder and admiration on this lovely girl, eagerly communicated her history. She\n            was not her child, but the daughter of a Milanese nobleman. Her mother was a German, and\n            had died on giving her birth. The infant had been placed with these good people to\n            nurse: they were better off then. They had not been long married, and their eldest child\n            was but just born. The father of their charge was one of those Italians nursed in the\n            memory of the antique glory of Italy,&#8212;one among the <hi rend=\"italic\" xml:id=\"novel1_letter4_chapter1_p9_hi1\">schiavi ognor\n              frementi</hi>, who exerted himself to obtain the liberty of his country. He became the\n            victim of its weakness. Whether he had died, or still lingered in the dungeons of\n            Austria, was not known. His property was confiscated, his child became an orphan and a\n            beggar. She continued with her foster parents, and bloomed in their rude abode, fairer\n            than a garden rose among dark-leaved brambles.</p>\n          "
   }
  },
  {
@@ -1088,7 +1764,7 @@
     "start": "/p[103]",
     "end": "/p[103]"
    },
-   "xml_text_content": "<p xmlns=\"http://www.tei-c.org/ns/1.0\" xmlns:xi=\"http://www.w3.org/2001/XInclude\" xml:id=\"novel1_letter4_chapter1_p11\">Every one loved Elizabeth. The passionate and almost reverential attachment with which\n            all regarded her became, while I shared it, my pride and my delight. On the evening\n            previous to her being brought to my home, my mother had said playfully,&#8212;&#8220;I have a\n            pretty present for my Victor&#8212;to-morrow he shall have it.&#8221; And when, on the morrow, she\n            presented Elizabeth to me as her promised gift, I, with childish seriousness,\n            interpreted her words literally, and looked upon Elizabeth as mine&#8212;mine to protect,\n            love, and <pb xml:id=\"F1831_v_039\" n=\"23\"/>cherish. All praises bestowed on her, I\n            received as made to a possession of my own. We called each other familiarly by the name\n            of cousin. No word, no expression could body forth the kind of relation in which she\n            stood to me&#8212;my more than sister, since till death she was to be mine only.</p>\n          \n        "
+   "xml_text_content": "<p xmlns=\"http://www.tei-c.org/ns/1.0\" xmlns:xi=\"http://www.w3.org/2001/XInclude\" xml:id=\"novel1_letter4_chapter1_p11\">Every one loved Elizabeth. The passionate and almost reverential attachment with which\n            all regarded her became, while I shared it, my pride and my delight. On the evening\n            previous to her being brought to my home, my mother had said playfully,&#8212;&#8220;I have a\n            pretty present for my Victor&#8212;to-morrow he shall have it.&#8221; And when, on the morrow, she\n            presented Elizabeth to me as her promised gift, I, with childish seriousness,\n            interpreted her words literally, and looked upon Elizabeth as mine&#8212;mine to protect,\n            love, and <pb n=\"23\" xml:id=\"F1831_v_039\"/>cherish. All praises bestowed on her, I\n            received as made to a possession of my own. We called each other familiarly by the name\n            of cousin. No word, no expression could body forth the kind of relation in which she\n            stood to me&#8212;my more than sister, since till death she was to be mine only.</p>\n          \n        "
   }
  },
  {
@@ -1140,7 +1816,7 @@
     "start": "/p[103]",
     "end": "/p[103]"
    },
-   "xml_text_content": "<p xmlns=\"http://www.tei-c.org/ns/1.0\" xmlns:xi=\"http://www.w3.org/2001/XInclude\" xml:id=\"novel1_letter4_chapter1_p11\">Every one loved Elizabeth. The passionate and almost reverential attachment with which\n            all regarded her became, while I shared it, my pride and my delight. On the evening\n            previous to her being brought to my home, my mother had said playfully,&#8212;&#8220;I have a\n            pretty present for my Victor&#8212;to-morrow he shall have it.&#8221; And when, on the morrow, she\n            presented Elizabeth to me as her promised gift, I, with childish seriousness,\n            interpreted her words literally, and looked upon Elizabeth as mine&#8212;mine to protect,\n            love, and <pb xml:id=\"F1831_v_039\" n=\"23\"/>cherish. All praises bestowed on her, I\n            received as made to a possession of my own. We called each other familiarly by the name\n            of cousin. No word, no expression could body forth the kind of relation in which she\n            stood to me&#8212;my more than sister, since till death she was to be mine only.</p>\n          \n        "
+   "xml_text_content": "<p xmlns=\"http://www.tei-c.org/ns/1.0\" xmlns:xi=\"http://www.w3.org/2001/XInclude\" xml:id=\"novel1_letter4_chapter1_p11\">Every one loved Elizabeth. The passionate and almost reverential attachment with which\n            all regarded her became, while I shared it, my pride and my delight. On the evening\n            previous to her being brought to my home, my mother had said playfully,&#8212;&#8220;I have a\n            pretty present for my Victor&#8212;to-morrow he shall have it.&#8221; And when, on the morrow, she\n            presented Elizabeth to me as her promised gift, I, with childish seriousness,\n            interpreted her words literally, and looked upon Elizabeth as mine&#8212;mine to protect,\n            love, and <pb n=\"23\" xml:id=\"F1831_v_039\"/>cherish. All praises bestowed on her, I\n            received as made to a possession of my own. We called each other familiarly by the name\n            of cousin. No word, no expression could body forth the kind of relation in which she\n            stood to me&#8212;my more than sister, since till death she was to be mine only.</p>\n          \n        "
   }
  },
  {
@@ -1192,7 +1868,7 @@
     "start": "/p[105]/i[1]",
     "end": "/p[105]"
    },
-   "xml_text_content": "<p xmlns=\"http://www.tei-c.org/ns/1.0\" xmlns:xi=\"http://www.w3.org/2001/XInclude\" xml:id=\"novel1_letter4_chapter2_p2\">On the birth of a second son, my junior by seven years, my parents gave up entirely\n            their wandering life, and fixed themselves in their native country. We possessed a house\n            in Geneva, and a <hi rend=\"italic\" xml:id=\"novel1_letter4_chapter2_p2_hi1\">campagne</hi> on Belrive, the eastern shore of the\n            lake, at the distance of rather more than a league from the city. We resided principally\n            in the latter, and <pb xml:id=\"F1831_v_040\" n=\"24\"/>the lives of my parents were passed\n            in considerable seclusion. It was my temper to avoid a crowd, and to attach myself\n            fervently to a few. I was indifferent, therefore, to my schoolfellows in general; but I\n            united myself in the bonds of the closest friendship to one among them. Henry Clerval\n            was the son of a merchant of Geneva. He was a boy of singular talent and fancy. He loved\n            enterprise, hardship, and even danger, for its own sake. He was deeply read in books of\n            chivalry and romance. He composed heroic songs, and began to write many a tale of\n            enchantment and knightly adventure. He tried to make us act plays, and to enter into\n            masquerades, in which the characters were drawn from the heroes of Roncesvalles, of the\n            Round Table of King Arthur, and the chivalrous train who shed their blood to redeem the\n            holy sepulchre from the hands of the infidels.</p>\n          "
+   "xml_text_content": "<p xmlns=\"http://www.tei-c.org/ns/1.0\" xmlns:xi=\"http://www.w3.org/2001/XInclude\" xml:id=\"novel1_letter4_chapter2_p2\">On the birth of a second son, my junior by seven years, my parents gave up entirely\n            their wandering life, and fixed themselves in their native country. We possessed a house\n            in Geneva, and a <hi rend=\"italic\" xml:id=\"novel1_letter4_chapter2_p2_hi1\">campagne</hi> on Belrive, the eastern shore of the\n            lake, at the distance of rather more than a league from the city. We resided principally\n            in the latter, and <pb n=\"24\" xml:id=\"F1831_v_040\"/>the lives of my parents were passed\n            in considerable seclusion. It was my temper to avoid a crowd, and to attach myself\n            fervently to a few. I was indifferent, therefore, to my schoolfellows in general; but I\n            united myself in the bonds of the closest friendship to one among them. Henry Clerval\n            was the son of a merchant of Geneva. He was a boy of singular talent and fancy. He loved\n            enterprise, hardship, and even danger, for its own sake. He was deeply read in books of\n            chivalry and romance. He composed heroic songs, and began to write many a tale of\n            enchantment and knightly adventure. He tried to make us act plays, and to enter into\n            masquerades, in which the characters were drawn from the heroes of Roncesvalles, of the\n            Round Table of King Arthur, and the chivalrous train who shed their blood to redeem the\n            holy sepulchre from the hands of the infidels.</p>\n          "
   }
  },
  {
@@ -1244,7 +1920,7 @@
     "start": "/p[105]",
     "end": "/p[105]"
    },
-   "xml_text_content": "<p xmlns=\"http://www.tei-c.org/ns/1.0\" xmlns:xi=\"http://www.w3.org/2001/XInclude\" xml:id=\"novel1_letter4_chapter2_p2\">On the birth of a second son, my junior by seven years, my parents gave up entirely\n            their wandering life, and fixed themselves in their native country. We possessed a house\n            in Geneva, and a <hi rend=\"italic\" xml:id=\"novel1_letter4_chapter2_p2_hi1\">campagne</hi> on Belrive, the eastern shore of the\n            lake, at the distance of rather more than a league from the city. We resided principally\n            in the latter, and <pb xml:id=\"F1831_v_040\" n=\"24\"/>the lives of my parents were passed\n            in considerable seclusion. It was my temper to avoid a crowd, and to attach myself\n            fervently to a few. I was indifferent, therefore, to my schoolfellows in general; but I\n            united myself in the bonds of the closest friendship to one among them. Henry Clerval\n            was the son of a merchant of Geneva. He was a boy of singular talent and fancy. He loved\n            enterprise, hardship, and even danger, for its own sake. He was deeply read in books of\n            chivalry and romance. He composed heroic songs, and began to write many a tale of\n            enchantment and knightly adventure. He tried to make us act plays, and to enter into\n            masquerades, in which the characters were drawn from the heroes of Roncesvalles, of the\n            Round Table of King Arthur, and the chivalrous train who shed their blood to redeem the\n            holy sepulchre from the hands of the infidels.</p>\n          "
+   "xml_text_content": "<p xmlns=\"http://www.tei-c.org/ns/1.0\" xmlns:xi=\"http://www.w3.org/2001/XInclude\" xml:id=\"novel1_letter4_chapter2_p2\">On the birth of a second son, my junior by seven years, my parents gave up entirely\n            their wandering life, and fixed themselves in their native country. We possessed a house\n            in Geneva, and a <hi rend=\"italic\" xml:id=\"novel1_letter4_chapter2_p2_hi1\">campagne</hi> on Belrive, the eastern shore of the\n            lake, at the distance of rather more than a league from the city. We resided principally\n            in the latter, and <pb n=\"24\" xml:id=\"F1831_v_040\"/>the lives of my parents were passed\n            in considerable seclusion. It was my temper to avoid a crowd, and to attach myself\n            fervently to a few. I was indifferent, therefore, to my schoolfellows in general; but I\n            united myself in the bonds of the closest friendship to one among them. Henry Clerval\n            was the son of a merchant of Geneva. He was a boy of singular talent and fancy. He loved\n            enterprise, hardship, and even danger, for its own sake. He was deeply read in books of\n            chivalry and romance. He composed heroic songs, and began to write many a tale of\n            enchantment and knightly adventure. He tried to make us act plays, and to enter into\n            masquerades, in which the characters were drawn from the heroes of Roncesvalles, of the\n            Round Table of King Arthur, and the chivalrous train who shed their blood to redeem the\n            holy sepulchre from the hands of the infidels.</p>\n          "
   }
  },
  {
@@ -1296,7 +1972,7 @@
     "start": "/p[105]",
     "end": "/p[105]"
    },
-   "xml_text_content": "<p xmlns=\"http://www.tei-c.org/ns/1.0\" xmlns:xi=\"http://www.w3.org/2001/XInclude\" xml:id=\"novel1_letter4_chapter2_p2\">On the birth of a second son, my junior by seven years, my parents gave up entirely\n            their wandering life, and fixed themselves in their native country. We possessed a house\n            in Geneva, and a <hi rend=\"italic\" xml:id=\"novel1_letter4_chapter2_p2_hi1\">campagne</hi> on Belrive, the eastern shore of the\n            lake, at the distance of rather more than a league from the city. We resided principally\n            in the latter, and <pb xml:id=\"F1831_v_040\" n=\"24\"/>the lives of my parents were passed\n            in considerable seclusion. It was my temper to avoid a crowd, and to attach myself\n            fervently to a few. I was indifferent, therefore, to my schoolfellows in general; but I\n            united myself in the bonds of the closest friendship to one among them. Henry Clerval\n            was the son of a merchant of Geneva. He was a boy of singular talent and fancy. He loved\n            enterprise, hardship, and even danger, for its own sake. He was deeply read in books of\n            chivalry and romance. He composed heroic songs, and began to write many a tale of\n            enchantment and knightly adventure. He tried to make us act plays, and to enter into\n            masquerades, in which the characters were drawn from the heroes of Roncesvalles, of the\n            Round Table of King Arthur, and the chivalrous train who shed their blood to redeem the\n            holy sepulchre from the hands of the infidels.</p>\n          "
+   "xml_text_content": "<p xmlns=\"http://www.tei-c.org/ns/1.0\" xmlns:xi=\"http://www.w3.org/2001/XInclude\" xml:id=\"novel1_letter4_chapter2_p2\">On the birth of a second son, my junior by seven years, my parents gave up entirely\n            their wandering life, and fixed themselves in their native country. We possessed a house\n            in Geneva, and a <hi rend=\"italic\" xml:id=\"novel1_letter4_chapter2_p2_hi1\">campagne</hi> on Belrive, the eastern shore of the\n            lake, at the distance of rather more than a league from the city. We resided principally\n            in the latter, and <pb n=\"24\" xml:id=\"F1831_v_040\"/>the lives of my parents were passed\n            in considerable seclusion. It was my temper to avoid a crowd, and to attach myself\n            fervently to a few. I was indifferent, therefore, to my schoolfellows in general; but I\n            united myself in the bonds of the closest friendship to one among them. Henry Clerval\n            was the son of a merchant of Geneva. He was a boy of singular talent and fancy. He loved\n            enterprise, hardship, and even danger, for its own sake. He was deeply read in books of\n            chivalry and romance. He composed heroic songs, and began to write many a tale of\n            enchantment and knightly adventure. He tried to make us act plays, and to enter into\n            masquerades, in which the characters were drawn from the heroes of Roncesvalles, of the\n            Round Table of King Arthur, and the chivalrous train who shed their blood to redeem the\n            holy sepulchre from the hands of the infidels.</p>\n          "
   }
  },
  {
@@ -1348,7 +2024,7 @@
     "start": "/p[105]",
     "end": "/p[105]"
    },
-   "xml_text_content": "<p xmlns=\"http://www.tei-c.org/ns/1.0\" xmlns:xi=\"http://www.w3.org/2001/XInclude\" xml:id=\"novel1_letter4_chapter2_p2\">On the birth of a second son, my junior by seven years, my parents gave up entirely\n            their wandering life, and fixed themselves in their native country. We possessed a house\n            in Geneva, and a <hi rend=\"italic\" xml:id=\"novel1_letter4_chapter2_p2_hi1\">campagne</hi> on Belrive, the eastern shore of the\n            lake, at the distance of rather more than a league from the city. We resided principally\n            in the latter, and <pb xml:id=\"F1831_v_040\" n=\"24\"/>the lives of my parents were passed\n            in considerable seclusion. It was my temper to avoid a crowd, and to attach myself\n            fervently to a few. I was indifferent, therefore, to my schoolfellows in general; but I\n            united myself in the bonds of the closest friendship to one among them. Henry Clerval\n            was the son of a merchant of Geneva. He was a boy of singular talent and fancy. He loved\n            enterprise, hardship, and even danger, for its own sake. He was deeply read in books of\n            chivalry and romance. He composed heroic songs, and began to write many a tale of\n            enchantment and knightly adventure. He tried to make us act plays, and to enter into\n            masquerades, in which the characters were drawn from the heroes of Roncesvalles, of the\n            Round Table of King Arthur, and the chivalrous train who shed their blood to redeem the\n            holy sepulchre from the hands of the infidels.</p>\n          "
+   "xml_text_content": "<p xmlns=\"http://www.tei-c.org/ns/1.0\" xmlns:xi=\"http://www.w3.org/2001/XInclude\" xml:id=\"novel1_letter4_chapter2_p2\">On the birth of a second son, my junior by seven years, my parents gave up entirely\n            their wandering life, and fixed themselves in their native country. We possessed a house\n            in Geneva, and a <hi rend=\"italic\" xml:id=\"novel1_letter4_chapter2_p2_hi1\">campagne</hi> on Belrive, the eastern shore of the\n            lake, at the distance of rather more than a league from the city. We resided principally\n            in the latter, and <pb n=\"24\" xml:id=\"F1831_v_040\"/>the lives of my parents were passed\n            in considerable seclusion. It was my temper to avoid a crowd, and to attach myself\n            fervently to a few. I was indifferent, therefore, to my schoolfellows in general; but I\n            united myself in the bonds of the closest friendship to one among them. Henry Clerval\n            was the son of a merchant of Geneva. He was a boy of singular talent and fancy. He loved\n            enterprise, hardship, and even danger, for its own sake. He was deeply read in books of\n            chivalry and romance. He composed heroic songs, and began to write many a tale of\n            enchantment and knightly adventure. He tried to make us act plays, and to enter into\n            masquerades, in which the characters were drawn from the heroes of Roncesvalles, of the\n            Round Table of King Arthur, and the chivalrous train who shed their blood to redeem the\n            holy sepulchre from the hands of the infidels.</p>\n          "
   }
  },
  {
@@ -1764,7 +2440,7 @@
     "start": "/p[121]",
     "end": "/p[121]"
    },
-   "xml_text_content": "<p xmlns=\"http://www.tei-c.org/ns/1.0\" xmlns:xi=\"http://www.w3.org/2001/XInclude\" xml:id=\"novel1_letter4_chapter3_p2\">Elizabeth had caught the scarlet fever; her illness was severe, and she was in the\n            greatest danger. During her illness, many arguments had been urged to persuade my mother\n            to refrain from attending upon her. She had, at first, yielded to our entreaties; but\n            when she heard that the life of her favourite was menaced, she could no longer control\n            her anxiety. She attended her sick bed,&#8212;her watchful attentions triumphed over the\n            malignity of the distemper,&#8212;Elizabeth was saved, but the consequences of this\n            imprudence were fatal to her preserver. On the third day my mother sickened; her fever\n            was accompanied by the most alarming symptoms, and the looks of her medical attendants\n            prognosticated the worst event. On her death-bed the fortitude and benignity of this\n            best of women did not desert her. She joined the hands of Elizabeth and myself:&#8212;&#8220;My\n            children,&#8221; she said, &#8220;my firmest hopes of future happiness were placed on the prospect\n            of your union. This expectation will now be the consolation of your father. Elizabeth,\n            my love, you must supply my place to my younger children. Alas! I regret that I am taken\n            from you; and, happy and beloved as I have been, <pb xml:id=\"F1831_v_046\" n=\"30\"/>is it\n            not hard to quit you all? But these are not thoughts befitting me; I will endeavour to\n            resign myself cheerfully to death, and will indulge a hope of meeting you in another\n            world.&#8221;</p>\n          "
+   "xml_text_content": "<p xmlns=\"http://www.tei-c.org/ns/1.0\" xmlns:xi=\"http://www.w3.org/2001/XInclude\" xml:id=\"novel1_letter4_chapter3_p2\">Elizabeth had caught the scarlet fever; her illness was severe, and she was in the\n            greatest danger. During her illness, many arguments had been urged to persuade my mother\n            to refrain from attending upon her. She had, at first, yielded to our entreaties; but\n            when she heard that the life of her favourite was menaced, she could no longer control\n            her anxiety. She attended her sick bed,&#8212;her watchful attentions triumphed over the\n            malignity of the distemper,&#8212;Elizabeth was saved, but the consequences of this\n            imprudence were fatal to her preserver. On the third day my mother sickened; her fever\n            was accompanied by the most alarming symptoms, and the looks of her medical attendants\n            prognosticated the worst event. On her death-bed the fortitude and benignity of this\n            best of women did not desert her. She joined the hands of Elizabeth and myself:&#8212;&#8220;My\n            children,&#8221; she said, &#8220;my firmest hopes of future happiness were placed on the prospect\n            of your union. This expectation will now be the consolation of your father. Elizabeth,\n            my love, you must supply my place to my younger children. Alas! I regret that I am taken\n            from you; and, happy and beloved as I have been, <pb n=\"30\" xml:id=\"F1831_v_046\"/>is it\n            not hard to quit you all? But these are not thoughts befitting me; I will endeavour to\n            resign myself cheerfully to death, and will indulge a hope of meeting you in another\n            world.&#8221;</p>\n          "
   }
  },
  {
@@ -1972,7 +2648,7 @@
     "start": "/p[132]",
     "end": "/p[132]"
    },
-   "xml_text_content": "<p xmlns=\"http://www.tei-c.org/ns/1.0\" xmlns:xi=\"http://www.w3.org/2001/XInclude\" xml:id=\"novel1_letter4_chapter3_p13\">\n         <pb xml:id=\"F1831_v_049\" n=\"33\"/>I returned home, not disappointed, for I have said\n            that I had long considered those authors useless whom the professor reprobated; but I\n            returned, not at all the more inclined to recur to these studies in any shape. M. Krempe\n            was a little squat man, with a gruff voice and a repulsive countenance; the teacher,\n            therefore, did not prepossess me in favour of his pursuits. In rather a too\n            philosophical and connected a strain, perhaps, I have given an account of the\n            conclusions I had come to concerning them in my early years. As a child, I had not been\n            content with the results promised by the modern professors of natural science. With a\n            confusion of ideas only to be accounted for by my extreme youth, and my want of a guide\n            on such matters, I had retrod the steps of knowledge along the paths of time, and\n            exchanged the discoveries of recent enquirers for the dreams of forgotten alchymists.\n            Besides, I had a contempt for the uses of modern natural philosophy. It was very\n            different, when the masters of the science sought immortality and power; such views,\n            although futile, were grand: but now the scene was changed. The ambition of the enquirer\n            seemed to limit itself to the annihilation of those visions on which my interest in\n            science was chiefly founded. I was required to exchange chimeras of boundless grandeur\n            for realities of little worth.</p>\n          "
+   "xml_text_content": "<p xmlns=\"http://www.tei-c.org/ns/1.0\" xmlns:xi=\"http://www.w3.org/2001/XInclude\" xml:id=\"novel1_letter4_chapter3_p13\">\n         <pb n=\"33\" xml:id=\"F1831_v_049\"/>I returned home, not disappointed, for I have said\n            that I had long considered those authors useless whom the professor reprobated; but I\n            returned, not at all the more inclined to recur to these studies in any shape. M. Krempe\n            was a little squat man, with a gruff voice and a repulsive countenance; the teacher,\n            therefore, did not prepossess me in favour of his pursuits. In rather a too\n            philosophical and connected a strain, perhaps, I have given an account of the\n            conclusions I had come to concerning them in my early years. As a child, I had not been\n            content with the results promised by the modern professors of natural science. With a\n            confusion of ideas only to be accounted for by my extreme youth, and my want of a guide\n            on such matters, I had retrod the steps of knowledge along the paths of time, and\n            exchanged the discoveries of recent enquirers for the dreams of forgotten alchymists.\n            Besides, I had a contempt for the uses of modern natural philosophy. It was very\n            different, when the masters of the science sought immortality and power; such views,\n            although futile, were grand: but now the scene was changed. The ambition of the enquirer\n            seemed to limit itself to the annihilation of those visions on which my interest in\n            science was chiefly founded. I was required to exchange chimeras of boundless grandeur\n            for realities of little worth.</p>\n          "
   }
  },
  {
@@ -2128,7 +2804,7 @@
     "start": "/p[137]",
     "end": "/p[137]"
    },
-   "xml_text_content": "<p xmlns=\"http://www.tei-c.org/ns/1.0\" xmlns:xi=\"http://www.w3.org/2001/XInclude\" xml:id=\"novel1_letter4_chapter3_p18\">I closed not my eyes that night. My internal being was in a state of insurrection and\n            turmoil; I felt that order would thence arise, but I had no power to produce it. By\n            degrees, after the morning&#8217;s dawn, sleep came. I awoke, and my yesternight&#8217;s thoughts\n            were as a dream. There only <pb xml:id=\"F1831_v_051\" n=\"35\"/>remained a resolution to\n            return to my ancient studies, and to devote myself to a science for which I believed\n            myself to possess a natural talent. On the same day, I paid M. Waldman a visit. His\n            manners in private were even more mild and attractive than in public; for there was a\n            certain dignity in his mien during his lecture, which in his own house was replaced by\n            the greatest affability and kindness. I gave him pretty nearly the same account of my\n            former pursuits as I had given to his fellow-professor. He heard with attention the\n            little narration concerning my studies, and smiled at the names of Cornelius Agrippa and\n            Paracelsus, but without the contempt that M. Krempe had exhibited. He said, that &#8220;these\n            were men to whose indefatigable zeal modern philosophers were indebted for most of the\n            foundations of their knowledge. They had left to us, as an easier task, to give new\n            names, and arrange in connected classifications, the facts which they in a great degree\n            had been the instruments of bringing to light. The labours of men of genius, however\n            erroneously directed, scarcely ever fail in ultimately turning to the solid advantage of\n            mankind.&#8221; I listened to his statement, which was delivered without any presumption or\n            affectation; and then added, that his lecture had removed my prejudices against modern\n            chemists; I expressed myself in measured terms, with the modesty and deference due from\n            a youth to his instructor, without letting escape (inexperience in life would have made\n            me ashamed) any of the enthusiasm which stimulated my intended labours. I requested his\n            advice concerning the books I ought to procure.</p>\n          "
+   "xml_text_content": "<p xmlns=\"http://www.tei-c.org/ns/1.0\" xmlns:xi=\"http://www.w3.org/2001/XInclude\" xml:id=\"novel1_letter4_chapter3_p18\">I closed not my eyes that night. My internal being was in a state of insurrection and\n            turmoil; I felt that order would thence arise, but I had no power to produce it. By\n            degrees, after the morning&#8217;s dawn, sleep came. I awoke, and my yesternight&#8217;s thoughts\n            were as a dream. There only <pb n=\"35\" xml:id=\"F1831_v_051\"/>remained a resolution to\n            return to my ancient studies, and to devote myself to a science for which I believed\n            myself to possess a natural talent. On the same day, I paid M. Waldman a visit. His\n            manners in private were even more mild and attractive than in public; for there was a\n            certain dignity in his mien during his lecture, which in his own house was replaced by\n            the greatest affability and kindness. I gave him pretty nearly the same account of my\n            former pursuits as I had given to his fellow-professor. He heard with attention the\n            little narration concerning my studies, and smiled at the names of Cornelius Agrippa and\n            Paracelsus, but without the contempt that M. Krempe had exhibited. He said, that &#8220;these\n            were men to whose indefatigable zeal modern philosophers were indebted for most of the\n            foundations of their knowledge. They had left to us, as an easier task, to give new\n            names, and arrange in connected classifications, the facts which they in a great degree\n            had been the instruments of bringing to light. The labours of men of genius, however\n            erroneously directed, scarcely ever fail in ultimately turning to the solid advantage of\n            mankind.&#8221; I listened to his statement, which was delivered without any presumption or\n            affectation; and then added, that his lecture had removed my prejudices against modern\n            chemists; I expressed myself in measured terms, with the modesty and deference due from\n            a youth to his instructor, without letting escape (inexperience in life would have made\n            me ashamed) any of the enthusiasm which stimulated my intended labours. I requested his\n            advice concerning the books I ought to procure.</p>\n          "
   }
  },
  {
@@ -2440,7 +3116,7 @@
     "start": "/p[199]",
     "end": "/p[199]"
    },
-   "xml_text_content": "<p xmlns=\"http://www.tei-c.org/ns/1.0\" xmlns:xi=\"http://www.w3.org/2001/XInclude\" xml:id=\"novel1_letter4_chapter6_p18\">Clerval had never sympathised in my tastes for natural science; and his literary\n            pursuits differed wholly from those which had occupied me. He came to the university\n            with the design of making himself complete master of the oriental languages, as thus he\n            should open a field for the plan of life he had marked out for himself. Resolved to\n            pursue no inglorious career, he turned his eyes toward the East, as affording scope for\n            his spirit of enterprise. The Persian, Arabic, and Sanscrit languages engaged his\n            attention, and I was easily induced to enter on the same studies. Idleness had ever been\n            irksome to me, and now that I wished to fly from reflection, and hated my former\n            studies, I felt great relief in being the fellow-pupil with my friend, and found not\n            only instruction but consolation in the works of the orientalists. I did not, like him,\n            attempt a critical knowledge of their dialects, for I did not contemplate making any\n            other use of them than temporary amusement. I read merely to understand their meaning,\n            and they well repaid my labours. Their melancholy is soothing, and their joy elevating,\n            to a degree I never experienced in studying the authors of any other country. When you\n            read their writings, life appears to consist in a warm sun and a garden of roses,&#8212;in the\n            smiles and frowns of a fair enemy, and the fire that consumes your own heart. How\n            different from the manly and heroical poetry of Greece and Rome!<pb xml:id=\"F1831_v_071\" n=\"55\"/>\n      </p>\n          "
+   "xml_text_content": "<p xmlns=\"http://www.tei-c.org/ns/1.0\" xmlns:xi=\"http://www.w3.org/2001/XInclude\" xml:id=\"novel1_letter4_chapter6_p18\">Clerval had never sympathised in my tastes for natural science; and his literary\n            pursuits differed wholly from those which had occupied me. He came to the university\n            with the design of making himself complete master of the oriental languages, as thus he\n            should open a field for the plan of life he had marked out for himself. Resolved to\n            pursue no inglorious career, he turned his eyes toward the East, as affording scope for\n            his spirit of enterprise. The Persian, Arabic, and Sanscrit languages engaged his\n            attention, and I was easily induced to enter on the same studies. Idleness had ever been\n            irksome to me, and now that I wished to fly from reflection, and hated my former\n            studies, I felt great relief in being the fellow-pupil with my friend, and found not\n            only instruction but consolation in the works of the orientalists. I did not, like him,\n            attempt a critical knowledge of their dialects, for I did not contemplate making any\n            other use of them than temporary amusement. I read merely to understand their meaning,\n            and they well repaid my labours. Their melancholy is soothing, and their joy elevating,\n            to a degree I never experienced in studying the authors of any other country. When you\n            read their writings, life appears to consist in a warm sun and a garden of roses,&#8212;in the\n            smiles and frowns of a fair enemy, and the fire that consumes your own heart. How\n            different from the manly and heroical poetry of Greece and Rome!<pb n=\"55\" xml:id=\"F1831_v_071\"/>\n      </p>\n          "
   }
  },
  {
@@ -2492,7 +3168,7 @@
     "start": "/p[224]",
     "end": "/p[224]"
    },
-   "xml_text_content": "<p xmlns=\"http://www.tei-c.org/ns/1.0\" xmlns:xi=\"http://www.w3.org/2001/XInclude\" xml:id=\"novel1_letter4_chapter7_p20\">During our walk, Clerval endeavoured to say a few words of consolation; he could only\n            express his heartfelt sympathy. &#8220;Poor William!&#8221; said he, &#8220;dear lovely child, <pb xml:id=\"F1831_v_075\" n=\"59\"/>he now sleeps with his angel mother! Who that had seen\n            him bright and joyous in his young beauty, but must weep over his untimely loss! To die\n            so miserably; to feel the murderer&#8217;s grasp! How much more a murderer, that could destroy\n            such radiant innocence! Poor little fellow! one only consolation have we; his friends\n            mourn and weep, but he is at rest. The pang is over, his sufferings are at an end for\n            ever. A sod covers his gentle form, and he knows no pain. He can no longer be a subject\n            for pity; we must reserve that for his miserable survivors.&#8221;</p>\n          "
+   "xml_text_content": "<p xmlns=\"http://www.tei-c.org/ns/1.0\" xmlns:xi=\"http://www.w3.org/2001/XInclude\" xml:id=\"novel1_letter4_chapter7_p20\">During our walk, Clerval endeavoured to say a few words of consolation; he could only\n            express his heartfelt sympathy. &#8220;Poor William!&#8221; said he, &#8220;dear lovely child, <pb n=\"59\" xml:id=\"F1831_v_075\"/>he now sleeps with his angel mother! Who that had seen\n            him bright and joyous in his young beauty, but must weep over his untimely loss! To die\n            so miserably; to feel the murderer&#8217;s grasp! How much more a murderer, that could destroy\n            such radiant innocence! Poor little fellow! one only consolation have we; his friends\n            mourn and weep, but he is at rest. The pang is over, his sufferings are at an end for\n            ever. A sod covers his gentle form, and he knows no pain. He can no longer be a subject\n            for pity; we must reserve that for his miserable survivors.&#8221;</p>\n          "
   }
  },
  {
@@ -2596,7 +3272,7 @@
     "start": "/p[238]",
     "end": "/p[240]"
    },
-   "xml_text_content": "<p xmlns=\"http://www.tei-c.org/ns/1.0\" xmlns:xi=\"http://www.w3.org/2001/XInclude\" xml:id=\"novel1_letter4_chapter7_p34\">Six years had elapsed, passed as a dream but for one indelible trace, and I stood in\n            the same place where I had last embraced my father before my departure for Ingolstadt.\n            Beloved and venerable parent! He still remained to me. <pb xml:id=\"F1831_v_079\" n=\"63\"/>I gazed on the picture of my mother, which stood over the mantel-piece. It was an\n            historical subject, painted at my father&#8217;s desire, and represented Caroline Beaufort in\n            an agony of despair, kneeling by the coffin of her dead father. Her garb was rustic, and\n            her cheek pale; but there was an air of dignity and beauty, that hardly permitted the\n            sentiment of pity. Below this picture was a miniature of William; and my tears flowed\n            when I looked upon it. While I was thus engaged, Ernest entered: he had heard me arrive,\n            and hastened to welcome me. He expressed a sorrowful delight to see me: &#8220;Welcome, my\n            dearest Victor,&#8221; said he. &#8220;Ah! I wish you had come three months ago, and then you would\n            have found us all joyous and delighted. You come to us now to share a misery which\n            nothing can alleviate; yet your presence will, I hope, revive our father, who seems\n            sinking under his misfortune; and your persuasions will induce poor Elizabeth to cease\n            her vain and tormenting self-accusations.&#8212;Poor William! he was our darling and our\n            pride!&#8221;</p>\n          "
+   "xml_text_content": "<p xmlns=\"http://www.tei-c.org/ns/1.0\" xmlns:xi=\"http://www.w3.org/2001/XInclude\" xml:id=\"novel1_letter4_chapter7_p34\">Six years had elapsed, passed as a dream but for one indelible trace, and I stood in\n            the same place where I had last embraced my father before my departure for Ingolstadt.\n            Beloved and venerable parent! He still remained to me. <pb n=\"63\" xml:id=\"F1831_v_079\"/>I gazed on the picture of my mother, which stood over the mantel-piece. It was an\n            historical subject, painted at my father&#8217;s desire, and represented Caroline Beaufort in\n            an agony of despair, kneeling by the coffin of her dead father. Her garb was rustic, and\n            her cheek pale; but there was an air of dignity and beauty, that hardly permitted the\n            sentiment of pity. Below this picture was a miniature of William; and my tears flowed\n            when I looked upon it. While I was thus engaged, Ernest entered: he had heard me arrive,\n            and hastened to welcome me. He expressed a sorrowful delight to see me: &#8220;Welcome, my\n            dearest Victor,&#8221; said he. &#8220;Ah! I wish you had come three months ago, and then you would\n            have found us all joyous and delighted. You come to us now to share a misery which\n            nothing can alleviate; yet your presence will, I hope, revive our father, who seems\n            sinking under his misfortune; and your persuasions will induce poor Elizabeth to cease\n            her vain and tormenting self-accusations.&#8212;Poor William! he was our darling and our\n            pride!&#8221;</p>\n          "
   }
  },
  {
@@ -2804,7 +3480,7 @@
     "start": "/p[261]",
     "end": "/p[261]"
    },
-   "xml_text_content": "<p xmlns=\"http://www.tei-c.org/ns/1.0\" xmlns:xi=\"http://www.w3.org/2001/XInclude\" xml:id=\"novel1_letter4_chapter8_p6\">She then related that, by the permission of Elizabeth, she had passed the evening of\n            the night on which the <pb xml:id=\"F1831_v_084\" n=\"68\"/>murder had been committed at the\n            house of an aunt at Ch&#234;ne, a village situated at about a league from Geneva. On her\n            return, at about nine o&#8217;clock, she met a man, who asked her if she had seen any thing of\n            the child who was lost. She was alarmed by this account, and passed several hours in\n            looking for him, when the gates of Geneva were shut, and she was forced to remain\n            several hours of the night in a barn belonging to a cottage, being unwilling to call up\n            the inhabitants, to whom she was well known. Most of the night she spent here watching;\n            towards morning she believed that she slept for a few minutes; some steps disturbed her,\n            and she awoke. It was dawn, and she quitted her asylum, that she might again endeavour\n            to find my brother. If she had gone near the spot where his body lay, it was without her\n            knowledge. That she had been bewildered when questioned by the market-woman was not\n            surprising, since she had passed a sleepless night, and the fate of poor William was yet\n            uncertain. Concerning the picture she could give no account.</p>\n          "
+   "xml_text_content": "<p xmlns=\"http://www.tei-c.org/ns/1.0\" xmlns:xi=\"http://www.w3.org/2001/XInclude\" xml:id=\"novel1_letter4_chapter8_p6\">She then related that, by the permission of Elizabeth, she had passed the evening of\n            the night on which the <pb n=\"68\" xml:id=\"F1831_v_084\"/>murder had been committed at the\n            house of an aunt at Ch&#234;ne, a village situated at about a league from Geneva. On her\n            return, at about nine o&#8217;clock, she met a man, who asked her if she had seen any thing of\n            the child who was lost. She was alarmed by this account, and passed several hours in\n            looking for him, when the gates of Geneva were shut, and she was forced to remain\n            several hours of the night in a barn belonging to a cottage, being unwilling to call up\n            the inhabitants, to whom she was well known. Most of the night she spent here watching;\n            towards morning she believed that she slept for a few minutes; some steps disturbed her,\n            and she awoke. It was dawn, and she quitted her asylum, that she might again endeavour\n            to find my brother. If she had gone near the spot where his body lay, it was without her\n            knowledge. That she had been bewildered when questioned by the market-woman was not\n            surprising, since she had passed a sleepless night, and the fate of poor William was yet\n            uncertain. Concerning the picture she could give no account.</p>\n          "
   }
  },
  {
@@ -3064,7 +3740,7 @@
     "start": "/p[290]",
     "end": "/p[290]"
    },
-   "xml_text_content": "<p xmlns=\"http://www.tei-c.org/ns/1.0\" xmlns:xi=\"http://www.w3.org/2001/XInclude\" xml:id=\"novel1_letter4_chapter9_p2\">\n         <pb xml:id=\"F1831_v_091\" n=\"75\"/>This state of mind preyed upon my health, which had\n            perhaps never entirely recovered from the first shock it had sustained. I shunned the\n            face of man; all sound of joy or complacency was torture to me; solitude was my only\n            consolation&#8212;deep, dark, deathlike solitude.</p>\n          "
+   "xml_text_content": "<p xmlns=\"http://www.tei-c.org/ns/1.0\" xmlns:xi=\"http://www.w3.org/2001/XInclude\" xml:id=\"novel1_letter4_chapter9_p2\">\n         <pb n=\"75\" xml:id=\"F1831_v_091\"/>This state of mind preyed upon my health, which had\n            perhaps never entirely recovered from the first shock it had sustained. I shunned the\n            face of man; all sound of joy or complacency was torture to me; solitude was my only\n            consolation&#8212;deep, dark, deathlike solitude.</p>\n          "
   }
  },
  {
@@ -3220,7 +3896,7 @@
     "start": "/p[295]",
     "end": "/p[295]"
    },
-   "xml_text_content": "<p xmlns=\"http://www.tei-c.org/ns/1.0\" xmlns:xi=\"http://www.w3.org/2001/XInclude\" xml:id=\"novel1_letter4_chapter9_p7\">Our house was the house of mourning. My father&#8217;s health was deeply shaken by the horror\n            of the recent events. Elizabeth was sad and desponding; she no longer took delight in\n            her ordinary occupations; all pleasure seemed to her sacrilege toward the dead; eternal\n            woe and tears she then thought was the just tribute she should pay to innocence so\n            blasted and destroyed. She was no longer that happy creature, who in earlier youth\n            wandered with me on the banks of the lake, and talked with ecstasy of our future\n            prospects. The first of those sorrows which are <pb xml:id=\"F1831_v_093\" n=\"77\"/>sent to\n            wean us from the earth, had visited her, and its dimming influence quenched her dearest\n            smiles.</p>\n          "
+   "xml_text_content": "<p xmlns=\"http://www.tei-c.org/ns/1.0\" xmlns:xi=\"http://www.w3.org/2001/XInclude\" xml:id=\"novel1_letter4_chapter9_p7\">Our house was the house of mourning. My father&#8217;s health was deeply shaken by the horror\n            of the recent events. Elizabeth was sad and desponding; she no longer took delight in\n            her ordinary occupations; all pleasure seemed to her sacrilege toward the dead; eternal\n            woe and tears she then thought was the just tribute she should pay to innocence so\n            blasted and destroyed. She was no longer that happy creature, who in earlier youth\n            wandered with me on the banks of the lake, and talked with ecstasy of our future\n            prospects. The first of those sorrows which are <pb n=\"77\" xml:id=\"F1831_v_093\"/>sent to\n            wean us from the earth, had visited her, and its dimming influence quenched her dearest\n            smiles.</p>\n          "
   }
  },
  {
@@ -3272,7 +3948,7 @@
     "start": "/p[297]",
     "end": "/p[301]"
    },
-   "xml_text_content": "<p xmlns=\"http://www.tei-c.org/ns/1.0\" xmlns:xi=\"http://www.w3.org/2001/XInclude\" xml:id=\"novel1_letter4_chapter9_p9\">I listened to this discourse with the extremest agony. I, not in deed, but in effect,\n            was the true murderer. Elizabeth read my anguish in my countenance, and kindly taking my\n            hand, said, &#8220;My dearest friend, you must calm yourself. These events have affected me,\n            God knows how deeply; but I am not so wretched as you are. There is an expression of\n            despair, and sometimes of revenge, in your countenance, that makes me tremble. Dear\n            Victor, banish these dark passions. Remember the friends around you, <pb xml:id=\"F1831_v_094\" n=\"78\"/>who centre all their hopes in you. Have we lost the power\n            of rendering you happy? Ah! while we love&#8212;while we are true to each other, here in this\n            land of peace and beauty, your native country, we may reap every tranquil blessing,&#8212;what\n            can disturb our peace?&#8221;</p>\n          "
+   "xml_text_content": "<p xmlns=\"http://www.tei-c.org/ns/1.0\" xmlns:xi=\"http://www.w3.org/2001/XInclude\" xml:id=\"novel1_letter4_chapter9_p9\">I listened to this discourse with the extremest agony. I, not in deed, but in effect,\n            was the true murderer. Elizabeth read my anguish in my countenance, and kindly taking my\n            hand, said, &#8220;My dearest friend, you must calm yourself. These events have affected me,\n            God knows how deeply; but I am not so wretched as you are. There is an expression of\n            despair, and sometimes of revenge, in your countenance, that makes me tremble. Dear\n            Victor, banish these dark passions. Remember the friends around you, <pb n=\"78\" xml:id=\"F1831_v_094\"/>who centre all their hopes in you. Have we lost the power\n            of rendering you happy? Ah! while we love&#8212;while we are true to each other, here in this\n            land of peace and beauty, your native country, we may reap every tranquil blessing,&#8212;what\n            can disturb our peace?&#8221;</p>\n          "
   }
  },
  {
@@ -3428,7 +4104,7 @@
     "start": "/p[304]",
     "end": "/p[304]"
    },
-   "xml_text_content": "<p xmlns=\"http://www.tei-c.org/ns/1.0\" xmlns:xi=\"http://www.w3.org/2001/XInclude\" xml:id=\"novel1_letter4_chapter9_p16\">At length I arrived at the village of Chamounix. Exhaustion succeeded to the extreme\n            fatigue both of body and <pb xml:id=\"F1831_v_096\" n=\"80\"/>of mind which I had endured.\n            For a short space of time I remained at the window, watching the pallid lightnings that\n            played above Mont Blanc, and listening to the rushing of the Arve, which pursued its\n            noisy way beneath. The same lulling sounds acted as a lullaby to my too keen sensations:\n            when I placed my head upon my pillow, sleep crept over me; I felt it as it came, and\n            blest the giver of oblivion. </p>\n        "
+   "xml_text_content": "<p xmlns=\"http://www.tei-c.org/ns/1.0\" xmlns:xi=\"http://www.w3.org/2001/XInclude\" xml:id=\"novel1_letter4_chapter9_p16\">At length I arrived at the village of Chamounix. Exhaustion succeeded to the extreme\n            fatigue both of body and <pb n=\"80\" xml:id=\"F1831_v_096\"/>of mind which I had endured.\n            For a short space of time I remained at the window, watching the pallid lightnings that\n            played above Mont Blanc, and listening to the rushing of the Arve, which pursued its\n            noisy way beneath. The same lulling sounds acted as a lullaby to my too keen sensations:\n            when I placed my head upon my pillow, sleep crept over me; I felt it as it came, and\n            blest the giver of oblivion. </p>\n        "
   }
  },
  {
@@ -3532,7 +4208,7 @@
     "start": "/p[306]",
     "end": "/p[306]"
    },
-   "xml_text_content": "<p xmlns=\"http://www.tei-c.org/ns/1.0\" xmlns:xi=\"http://www.w3.org/2001/XInclude\" xml:id=\"novel1_letter4_chapter10_p2\">Where had they fled when the next morning I awoke? <pb xml:id=\"F1831_v_097\" n=\"81\"/>All\n            of soul-inspiriting fled with sleep, and dark melancholy clouded every thought. The rain\n            was pouring in torrents, and thick mists hid the summits of the mountains, so that I\n            even saw not the faces of those mighty friends. Still I would penetrate their misty\n            veil, and seek them in their cloudy retreats. What were rain and storm to me? My mule\n            was brought to the door, and I resolved to ascend to the summit of Montanvert. I\n            remembered the effect that the view of the tremendous and ever-moving glacier had\n            produced upon my mind when I first saw it. It had then filled me with a sublime ecstasy,\n            that gave wings to the soul, and allowed it to soar from the obscure world to light and\n            joy. The sight of the awful and majestic in nature had indeed always the effect of\n            solemnising my mind, and causing me to forget the passing cares of life. I determined to\n            go without a guide, for I was well acquainted with the path, and the presence of another\n            would destroy the solitary grandeur of the scene.</p>\n          "
+   "xml_text_content": "<p xmlns=\"http://www.tei-c.org/ns/1.0\" xmlns:xi=\"http://www.w3.org/2001/XInclude\" xml:id=\"novel1_letter4_chapter10_p2\">Where had they fled when the next morning I awoke? <pb n=\"81\" xml:id=\"F1831_v_097\"/>All\n            of soul-inspiriting fled with sleep, and dark melancholy clouded every thought. The rain\n            was pouring in torrents, and thick mists hid the summits of the mountains, so that I\n            even saw not the faces of those mighty friends. Still I would penetrate their misty\n            veil, and seek them in their cloudy retreats. What were rain and storm to me? My mule\n            was brought to the door, and I resolved to ascend to the summit of Montanvert. I\n            remembered the effect that the view of the tremendous and ever-moving glacier had\n            produced upon my mind when I first saw it. It had then filled me with a sublime ecstasy,\n            that gave wings to the soul, and allowed it to soar from the obscure world to light and\n            joy. The sight of the awful and majestic in nature had indeed always the effect of\n            solemnising my mind, and causing me to forget the passing cares of life. I determined to\n            go without a guide, for I was well acquainted with the path, and the presence of another\n            would destroy the solitary grandeur of the scene.</p>\n          "
   }
  },
  {
@@ -3740,7 +4416,7 @@
     "start": "/p[492]",
     "end": "/p[492]"
    },
-   "xml_text_content": "<p xmlns=\"http://www.tei-c.org/ns/1.0\" xmlns:xi=\"http://www.w3.org/2001/XInclude\" xml:id=\"novel1_letter4_chapter17_p17\">&#8220;I swear,&#8221; he cried, &#8220;by the sun, and by the blue sky of Heaven, and by the fire of\n            love that burns my heart, that if you grant my prayer, while they exist you shall <pb xml:id=\"F1831_v_146\" n=\"130\"/>never behold me again. Depart to your home, and commence\n            your labours: I shall watch their progress with unutterable anxiety; and fear not but\n            that when you are ready I shall appear.&#8221;</p>\n          "
+   "xml_text_content": "<p xmlns=\"http://www.tei-c.org/ns/1.0\" xmlns:xi=\"http://www.w3.org/2001/XInclude\" xml:id=\"novel1_letter4_chapter17_p17\">&#8220;I swear,&#8221; he cried, &#8220;by the sun, and by the blue sky of Heaven, and by the fire of\n            love that burns my heart, that if you grant my prayer, while they exist you shall <pb n=\"130\" xml:id=\"F1831_v_146\"/>never behold me again. Depart to your home, and commence\n            your labours: I shall watch their progress with unutterable anxiety; and fear not but\n            that when you are ready I shall appear.&#8221;</p>\n          "
   }
  },
  {
@@ -3792,7 +4468,7 @@
     "start": "/p[496]",
     "end": "/p[496]"
    },
-   "xml_text_content": "<p xmlns=\"http://www.tei-c.org/ns/1.0\" xmlns:xi=\"http://www.w3.org/2001/XInclude\" xml:id=\"novel1_letter4_chapter17_p21\">Morning dawned before I arrived at the village of Chamounix; I took no rest, but\n            returned immediately to Geneva. Even in my own heart I could give no expression to my\n            sensations&#8212;they weighed on me with a mountain&#8217;s weight, and their excess destroyed my\n            agony beneath them. Thus I returned home, and entering the house, presented myself to\n            the family. My haggard and wild appearance awoke intense alarm; but I answered no\n              ques<pb xml:id=\"F1831_v_147\" n=\"131\"/>tion, scarcely did I speak. I felt as if I were\n            placed under a ban&#8212;as if I had no right to claim their sympathies&#8212;as if never more might\n            I enjoy companionship with them. Yet even thus I loved them to adoration; and to save\n            them, I resolved to dedicate myself to my most abhorred task. The prospect of such an\n            occupation made every other circumstance of existence pass before me like a dream; and\n            that thought only had to me the reality of life.</p>\n        "
+   "xml_text_content": "<p xmlns=\"http://www.tei-c.org/ns/1.0\" xmlns:xi=\"http://www.w3.org/2001/XInclude\" xml:id=\"novel1_letter4_chapter17_p21\">Morning dawned before I arrived at the village of Chamounix; I took no rest, but\n            returned immediately to Geneva. Even in my own heart I could give no expression to my\n            sensations&#8212;they weighed on me with a mountain&#8217;s weight, and their excess destroyed my\n            agony beneath them. Thus I returned home, and entering the house, presented myself to\n            the family. My haggard and wild appearance awoke intense alarm; but I answered no\n              ques<pb n=\"131\" xml:id=\"F1831_v_147\"/>tion, scarcely did I speak. I felt as if I were\n            placed under a ban&#8212;as if I had no right to claim their sympathies&#8212;as if never more might\n            I enjoy companionship with them. Yet even thus I loved them to adoration; and to save\n            them, I resolved to dedicate myself to my most abhorred task. The prospect of such an\n            occupation made every other circumstance of existence pass before me like a dream; and\n            that thought only had to me the reality of life.</p>\n        "
   }
  },
  {
@@ -3844,7 +4520,7 @@
     "start": "/p[497]",
     "end": "/p[497]"
    },
-   "xml_text_content": "<p xmlns=\"http://www.tei-c.org/ns/1.0\" xmlns:xi=\"http://www.w3.org/2001/XInclude\" xml:id=\"novel1_letter4_chapter18_p1\">D<hi rend=\"smallcaps\" xml:id=\"novel1_letter4_chapter18_p1_hi1\">AY</hi> after day, week after week, passed away on my return to\n            Geneva; and I could not collect the courage to recommence my work. I feared the\n            vengeance of the disappointed fiend, yet I was unable to overcome my repugnance to the\n            task which was enjoined me. I found that I could not compose a female without again\n            devoting several months to profound study and laborious disquisition. I had heard of\n            some discoveries having been made by an English philosopher, the knowledge of which was\n            material to my success, and I sometimes thought of obtaining my father&#8217;s consent to\n            visit England for this purpose; but I clung to every pretence of delay, and shrunk from\n            taking the first step in an undertaking whose immediate necessity began to appear less\n            absolute to me. A change indeed had taken place in me: my health, which had hitherto\n            declined, was now much restored; and my spirits, when unchecked by the memory of my\n            unhappy promise, rose proportionably. My father saw this change with pleasure, and he\n            turned his thoughts towards the best method of eradicating the remains of my melancholy,\n            which every now and then would return by fits, and with a devouring blackness overcast\n            the approaching sunshine. At these moments I took refuge in the most perfect solitude. I\n            passed whole days on the lake alone in a little boat, watching the clouds, and listening\n            to the rippling of the waves, silent and listless. But the fresh air and bright sun\n            seldom failed to restore me to some degree <pb xml:id=\"F1831_v_148\" n=\"132\"/>of\n            composure; and, on my return, I met the salutations of my friends with a readier smile\n            and a more cheerful heart.</p>\n          "
+   "xml_text_content": "<p xmlns=\"http://www.tei-c.org/ns/1.0\" xmlns:xi=\"http://www.w3.org/2001/XInclude\" xml:id=\"novel1_letter4_chapter18_p1\">D<hi rend=\"smallcaps\" xml:id=\"novel1_letter4_chapter18_p1_hi1\">AY</hi> after day, week after week, passed away on my return to\n            Geneva; and I could not collect the courage to recommence my work. I feared the\n            vengeance of the disappointed fiend, yet I was unable to overcome my repugnance to the\n            task which was enjoined me. I found that I could not compose a female without again\n            devoting several months to profound study and laborious disquisition. I had heard of\n            some discoveries having been made by an English philosopher, the knowledge of which was\n            material to my success, and I sometimes thought of obtaining my father&#8217;s consent to\n            visit England for this purpose; but I clung to every pretence of delay, and shrunk from\n            taking the first step in an undertaking whose immediate necessity began to appear less\n            absolute to me. A change indeed had taken place in me: my health, which had hitherto\n            declined, was now much restored; and my spirits, when unchecked by the memory of my\n            unhappy promise, rose proportionably. My father saw this change with pleasure, and he\n            turned his thoughts towards the best method of eradicating the remains of my melancholy,\n            which every now and then would return by fits, and with a devouring blackness overcast\n            the approaching sunshine. At these moments I took refuge in the most perfect solitude. I\n            passed whole days on the lake alone in a little boat, watching the clouds, and listening\n            to the rippling of the waves, silent and listless. But the fresh air and bright sun\n            seldom failed to restore me to some degree <pb n=\"132\" xml:id=\"F1831_v_148\"/>of\n            composure; and, on my return, I met the salutations of my friends with a readier smile\n            and a more cheerful heart.</p>\n          "
   }
  },
  {
@@ -3948,7 +4624,7 @@
     "start": "/p[505]",
     "end": "/p[505]"
    },
-   "xml_text_content": "<p xmlns=\"http://www.tei-c.org/ns/1.0\" xmlns:xi=\"http://www.w3.org/2001/XInclude\" xml:id=\"novel1_letter4_chapter18_p9\">I remembered also the necessity imposed upon me of either journeying to England, or\n            entering into a long correspondence with those philosophers of that country, whose\n            knowledge and discoveries were of indispensable use to me in my present undertaking. The\n            latter method of obtaining the desired intelligence was dilatory and unsatisfactory:\n            besides, I had an insurmountable aversion to the idea of engaging myself in my loathsome\n            task in my father&#8217;s house, while in habits of familiar intercourse with those I loved. I\n            knew that a thousand fearful accidents might occur, the slightest of which would\n            disclose a tale to thrill all connected with me with horror. I was aware also that I\n            should often lose all self-command, all capacity of hiding the harrowing sensations that\n            would possess me during the progress of my unearthly occupation. I must absent myself\n            from all I loved while thus employed. Once <pb xml:id=\"F1831_v_150\" n=\"134\"/>commenced,\n            it would quickly be achieved, and I might be restored to my family in peace and\n            happiness. My promise fulfilled, the monster would depart for ever. Or (so my fond fancy\n            imaged) some accident might meanwhile occur to destroy him, and put an end to my slavery\n            for ever.</p>\n          "
+   "xml_text_content": "<p xmlns=\"http://www.tei-c.org/ns/1.0\" xmlns:xi=\"http://www.w3.org/2001/XInclude\" xml:id=\"novel1_letter4_chapter18_p9\">I remembered also the necessity imposed upon me of either journeying to England, or\n            entering into a long correspondence with those philosophers of that country, whose\n            knowledge and discoveries were of indispensable use to me in my present undertaking. The\n            latter method of obtaining the desired intelligence was dilatory and unsatisfactory:\n            besides, I had an insurmountable aversion to the idea of engaging myself in my loathsome\n            task in my father&#8217;s house, while in habits of familiar intercourse with those I loved. I\n            knew that a thousand fearful accidents might occur, the slightest of which would\n            disclose a tale to thrill all connected with me with horror. I was aware also that I\n            should often lose all self-command, all capacity of hiding the harrowing sensations that\n            would possess me during the progress of my unearthly occupation. I must absent myself\n            from all I loved while thus employed. Once <pb n=\"134\" xml:id=\"F1831_v_150\"/>commenced,\n            it would quickly be achieved, and I might be restored to my family in peace and\n            happiness. My promise fulfilled, the monster would depart for ever. Or (so my fond fancy\n            imaged) some accident might meanwhile occur to destroy him, and put an end to my slavery\n            for ever.</p>\n          "
   }
  },
  {
@@ -4156,7 +4832,7 @@
     "start": "/p[515]",
     "end": "/p[515]"
    },
-   "xml_text_content": "<p xmlns=\"http://www.tei-c.org/ns/1.0\" xmlns:xi=\"http://www.w3.org/2001/XInclude\" xml:id=\"novel1_letter4_chapter18_p19\">Clerval! beloved friend! even now it delights me to record your words, and to dwell on\n            the praise of which you are so eminently deserving. He was a being formed in the\n              <quote xml:id=\"novel1_letter4_chapter18_p19_quote1\">&#8220;very poetry of nature.&#8221;</quote> His wild and enthusiastic imagination was\n            chastened by the sensibility of his heart. His soul overflowed with ardent affections,\n            and his friendship was of that devoted and wondrous nature that the worldly-minded teach\n            us to look for only in the imagination. But even human sympathies were not sufficient to\n            satisfy his eager mind. The scenery of external nature, which others regard only with\n            admiration, he loved with ardour:&#8212; <pb xml:id=\"F1831_v_154\" n=\"138\"/>\n         <cit xml:id=\"novel1_letter4_chapter18_p19_cit1\">\n            <quote xml:id=\"novel1_letter4_chapter18_p19_cit1_quote1\">\n               <lg xml:id=\"novel1_letter4_chapter18_p19_cit1_quote1_lg1\">\n                  <l xml:id=\"novel1_letter4_chapter18_p19_cit1_quote1_lg1_l1\">&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8220;The sounding cataract</l>\n                  <l xml:id=\"novel1_letter4_chapter18_p19_cit1_quote1_lg1_l2\">Haunted him like a passion: the tall rock,</l>\n                  <l xml:id=\"novel1_letter4_chapter18_p19_cit1_quote1_lg1_l3\">The mountain, and the deep and gloomy wood,</l>\n                  <l xml:id=\"novel1_letter4_chapter18_p19_cit1_quote1_lg1_l4\">Their colours and their forms, were then to him</l>\n                  <l xml:id=\"novel1_letter4_chapter18_p19_cit1_quote1_lg1_l5\">An appetite; a feeling, and a love,</l>\n                  <l xml:id=\"novel1_letter4_chapter18_p19_cit1_quote1_lg1_l6\">That had no need of a remoter charm,</l>\n                  <l xml:id=\"novel1_letter4_chapter18_p19_cit1_quote1_lg1_l7\">By thought supplied, or any interest</l>\n                  <l xml:id=\"novel1_letter4_chapter18_p19_cit1_quote1_lg1_l8\">Unborrow&#8217;d from the eye*.&#8221;</l>\n               </lg>\n            </quote>\n            <note xml:id=\"novel1_letter4_chapter18_p19_cit1_note1\">* <bibl xml:id=\"novel1_letter4_chapter18_p19_cit1_note1_bibl1\">Wordsworth&#8217;s Tintern\n                  Abbey.</bibl>\n            </note>\n         </cit>\n      </p>\n          "
+   "xml_text_content": "<p xmlns=\"http://www.tei-c.org/ns/1.0\" xmlns:xi=\"http://www.w3.org/2001/XInclude\" xml:id=\"novel1_letter4_chapter18_p19\">Clerval! beloved friend! even now it delights me to record your words, and to dwell on\n            the praise of which you are so eminently deserving. He was a being formed in the\n              <quote xml:id=\"novel1_letter4_chapter18_p19_quote1\">&#8220;very poetry of nature.&#8221;</quote> His wild and enthusiastic imagination was\n            chastened by the sensibility of his heart. His soul overflowed with ardent affections,\n            and his friendship was of that devoted and wondrous nature that the worldly-minded teach\n            us to look for only in the imagination. But even human sympathies were not sufficient to\n            satisfy his eager mind. The scenery of external nature, which others regard only with\n            admiration, he loved with ardour:&#8212; <pb n=\"138\" xml:id=\"F1831_v_154\"/>\n         <cit xml:id=\"novel1_letter4_chapter18_p19_cit1\">\n            <quote xml:id=\"novel1_letter4_chapter18_p19_cit1_quote1\">\n               <lg xml:id=\"novel1_letter4_chapter18_p19_cit1_quote1_lg1\">\n                  <l xml:id=\"novel1_letter4_chapter18_p19_cit1_quote1_lg1_l1\">&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8220;The sounding cataract</l>\n                  <l xml:id=\"novel1_letter4_chapter18_p19_cit1_quote1_lg1_l2\">Haunted him like a passion: the tall rock,</l>\n                  <l xml:id=\"novel1_letter4_chapter18_p19_cit1_quote1_lg1_l3\">The mountain, and the deep and gloomy wood,</l>\n                  <l xml:id=\"novel1_letter4_chapter18_p19_cit1_quote1_lg1_l4\">Their colours and their forms, were then to him</l>\n                  <l xml:id=\"novel1_letter4_chapter18_p19_cit1_quote1_lg1_l5\">An appetite; a feeling, and a love,</l>\n                  <l xml:id=\"novel1_letter4_chapter18_p19_cit1_quote1_lg1_l6\">That had no need of a remoter charm,</l>\n                  <l xml:id=\"novel1_letter4_chapter18_p19_cit1_quote1_lg1_l7\">By thought supplied, or any interest</l>\n                  <l xml:id=\"novel1_letter4_chapter18_p19_cit1_quote1_lg1_l8\">Unborrow&#8217;d from the eye*.&#8221;</l>\n               </lg>\n            </quote>\n            <note xml:id=\"novel1_letter4_chapter18_p19_cit1_note1\">* <bibl xml:id=\"novel1_letter4_chapter18_p19_cit1_note1_bibl1\">Wordsworth&#8217;s Tintern\n                  Abbey.</bibl>\n            </note>\n         </cit>\n      </p>\n          "
   }
  },
  {
@@ -4208,7 +4884,7 @@
     "start": "/p[523]",
     "end": "/p[523]"
    },
-   "xml_text_content": "<p xmlns=\"http://www.tei-c.org/ns/1.0\" xmlns:xi=\"http://www.w3.org/2001/XInclude\" xml:id=\"novel1_letter4_chapter19_p3\">But in Clerval I saw the image of my former self; he was inquisitive, and anxious to\n            gain experience and instruction. The difference of manners which he observed was to him\n            an inexhaustible source of instruction and amusement. He was also pursuing an object he\n            had long had in view. His design was to visit India, in the belief that he had in his\n            knowledge of its various languages, and in the views he had taken of its society, the\n            means of materially assisting the progress of European colonisation and trade. In\n            Britain only could he further the execution of his plan. He was for ever busy; and the\n            only check to his enjoyments was my sorrowful and dejected mind. I tried to conceal this\n            as much as possible, that I might not debar him from the <pb xml:id=\"F1831_v_156\" n=\"140\"/>pleasures natural to one, who was entering on a new scene of life,\n            undisturbed by any care or bitter recollection. I often refused to accompany him,\n            alleging another engagement, that I might remain alone. I now also began to collect the\n            materials necessary for my new creation, and this was to me like the torture of single\n            drops of water continually falling on the head. Every thought that was devoted to it was\n            an extreme anguish, and every word that I spoke in allusion to it caused my lips to\n            quiver, and my heart to palpitate.</p>\n          "
+   "xml_text_content": "<p xmlns=\"http://www.tei-c.org/ns/1.0\" xmlns:xi=\"http://www.w3.org/2001/XInclude\" xml:id=\"novel1_letter4_chapter19_p3\">But in Clerval I saw the image of my former self; he was inquisitive, and anxious to\n            gain experience and instruction. The difference of manners which he observed was to him\n            an inexhaustible source of instruction and amusement. He was also pursuing an object he\n            had long had in view. His design was to visit India, in the belief that he had in his\n            knowledge of its various languages, and in the views he had taken of its society, the\n            means of materially assisting the progress of European colonisation and trade. In\n            Britain only could he further the execution of his plan. He was for ever busy; and the\n            only check to his enjoyments was my sorrowful and dejected mind. I tried to conceal this\n            as much as possible, that I might not debar him from the <pb n=\"140\" xml:id=\"F1831_v_156\"/>pleasures natural to one, who was entering on a new scene of life,\n            undisturbed by any care or bitter recollection. I often refused to accompany him,\n            alleging another engagement, that I might remain alone. I now also began to collect the\n            materials necessary for my new creation, and this was to me like the torture of single\n            drops of water continually falling on the head. Every thought that was devoted to it was\n            an extreme anguish, and every word that I spoke in allusion to it caused my lips to\n            quiver, and my heart to palpitate.</p>\n          "
   }
  },
  {
@@ -4260,7 +4936,7 @@
     "start": "/p[527]",
     "end": "/p[527]"
    },
-   "xml_text_content": "<p xmlns=\"http://www.tei-c.org/ns/1.0\" xmlns:xi=\"http://www.w3.org/2001/XInclude\" xml:id=\"novel1_letter4_chapter19_p7\">From thence we proceeded to Oxford. As we entered this city, our minds were filled with\n            the remembrance of the events that had been transacted there more than a century and a\n            half before. It was here that Charles I. had collected his forces. This city had\n            remained faithful to <pb xml:id=\"F1831_v_157\" n=\"141\"/>him, after the whole nation had\n            forsaken his cause to join the standard of parliament and liberty. The memory of that\n            unfortunate king, and his companions, the amiable Falkland, the insolent Goring, his\n            queen, and son, gave a peculiar interest to every part of the city, which they might be\n            supposed to have inhabited. The spirit of elder days found a dwelling here, and we\n            delighted to trace its footsteps. If these feelings had not found an imaginary\n            gratification, the appearance of the city had yet in itself sufficient beauty to obtain\n            our admiration. The colleges are ancient and picturesque; the streets are almost\n            magnificent; and the lovely Isis, which flows beside it through meadows of exquisite\n            verdure, is spread forth into a placid expanse of waters, which reflects its majestic\n            assemblage of towers, and spires, and domes, embosomed among aged trees.</p>\n          "
+   "xml_text_content": "<p xmlns=\"http://www.tei-c.org/ns/1.0\" xmlns:xi=\"http://www.w3.org/2001/XInclude\" xml:id=\"novel1_letter4_chapter19_p7\">From thence we proceeded to Oxford. As we entered this city, our minds were filled with\n            the remembrance of the events that had been transacted there more than a century and a\n            half before. It was here that Charles I. had collected his forces. This city had\n            remained faithful to <pb n=\"141\" xml:id=\"F1831_v_157\"/>him, after the whole nation had\n            forsaken his cause to join the standard of parliament and liberty. The memory of that\n            unfortunate king, and his companions, the amiable Falkland, the insolent Goring, his\n            queen, and son, gave a peculiar interest to every part of the city, which they might be\n            supposed to have inhabited. The spirit of elder days found a dwelling here, and we\n            delighted to trace its footsteps. If these feelings had not found an imaginary\n            gratification, the appearance of the city had yet in itself sufficient beauty to obtain\n            our admiration. The colleges are ancient and picturesque; the streets are almost\n            magnificent; and the lovely Isis, which flows beside it through meadows of exquisite\n            verdure, is spread forth into a placid expanse of waters, which reflects its majestic\n            assemblage of towers, and spires, and domes, embosomed among aged trees.</p>\n          "
   }
  },
  {
@@ -4520,7 +5196,7 @@
     "start": "/p[628]",
     "end": "/p[628]"
    },
-   "xml_text_content": "<p xmlns=\"http://www.tei-c.org/ns/1.0\" xmlns:xi=\"http://www.w3.org/2001/XInclude\" xml:id=\"novel1_letter4_chapter21_p48\">Still, as I urged our leaving Ireland with such inquietude and impatience, my father\n            thought it best to yield. We took our passage on board a vessel bound for\n            Havre-de-Grace, and sailed with a fair wind from the Irish shores. <pb xml:id=\"F1831_v_180\" n=\"164\"/>It was midnight. I lay on the deck, looking at the\n            stars, and listening to the dashing of the waves. I hailed the darkness that shut\n            Ireland from my sight; and my pulse beat with a feverish joy when I reflected that I\n            should soon see Geneva. The past appeared to me in the light of a frightful dream; yet\n            the vessel in which I was, the wind that blew me from the detested shore of Ireland, and\n            the sea which surrounded me, told me too forcibly that I was deceived by no vision, and\n            that Clerval, my friend and dearest companion, had fallen a victim to me and the monster\n            of my creation. I repassed, in my memory, my whole life; my quiet happiness while\n            residing with my family in Geneva, the death of my mother, and my departure for\n            Ingolstadt. I remembered, shuddering, the mad enthusiasm that hurried me on to the\n            creation of my hideous enemy, and I called to mind the night in which he first lived. I\n            was unable to pursue the train of thought; a thousand feelings pressed upon me, and I\n            wept bitterly.</p>\n          "
+   "xml_text_content": "<p xmlns=\"http://www.tei-c.org/ns/1.0\" xmlns:xi=\"http://www.w3.org/2001/XInclude\" xml:id=\"novel1_letter4_chapter21_p48\">Still, as I urged our leaving Ireland with such inquietude and impatience, my father\n            thought it best to yield. We took our passage on board a vessel bound for\n            Havre-de-Grace, and sailed with a fair wind from the Irish shores. <pb n=\"164\" xml:id=\"F1831_v_180\"/>It was midnight. I lay on the deck, looking at the\n            stars, and listening to the dashing of the waves. I hailed the darkness that shut\n            Ireland from my sight; and my pulse beat with a feverish joy when I reflected that I\n            should soon see Geneva. The past appeared to me in the light of a frightful dream; yet\n            the vessel in which I was, the wind that blew me from the detested shore of Ireland, and\n            the sea which surrounded me, told me too forcibly that I was deceived by no vision, and\n            that Clerval, my friend and dearest companion, had fallen a victim to me and the monster\n            of my creation. I repassed, in my memory, my whole life; my quiet happiness while\n            residing with my family in Geneva, the death of my mother, and my departure for\n            Ingolstadt. I remembered, shuddering, the mad enthusiasm that hurried me on to the\n            creation of my hideous enemy, and I called to mind the night in which he first lived. I\n            was unable to pursue the train of thought; a thousand feelings pressed upon me, and I\n            wept bitterly.</p>\n          "
   }
  },
  {
@@ -4676,7 +5352,7 @@
     "start": "/p[633]",
     "end": "/p[633]"
    },
-   "xml_text_content": "<p xmlns=\"http://www.tei-c.org/ns/1.0\" xmlns:xi=\"http://www.w3.org/2001/XInclude\" xml:id=\"novel1_letter4_chapter22_p4\">My father had often, during my imprisonment, heard me make the same assertion; when I\n            thus accused myself, he sometimes seemed to desire an explanation, and at others he\n            appeared to consider it as the offspring of delirium, and that, during my illness, some\n            idea of this kind had presented itself to my imagination, the remembrance of which I\n            preserved in my convalescence. I avoided explanation, <pb xml:id=\"F1831_v_182\" n=\"166\"/>and maintained a continual silence concerning the wretch I had created. I had a\n            persuasion that I should be supposed mad; and this in itself would for ever have chained\n            my tongue. But, besides, I could not bring myself to disclose a secret which would fill\n            my hearer with consternation, and make fear and unnatural horror the inmates of his\n            breast. I checked, therefore, my impatient thirst for sympathy, and was silent when I\n            would have given the world to have confided the fatal secret. Yet still words like those\n            I have recorded, would burst uncontrollably from me. I could offer no explanation of\n            them; but their truth in part relieved the burden of my mysterious woe.</p>\n          "
+   "xml_text_content": "<p xmlns=\"http://www.tei-c.org/ns/1.0\" xmlns:xi=\"http://www.w3.org/2001/XInclude\" xml:id=\"novel1_letter4_chapter22_p4\">My father had often, during my imprisonment, heard me make the same assertion; when I\n            thus accused myself, he sometimes seemed to desire an explanation, and at others he\n            appeared to consider it as the offspring of delirium, and that, during my illness, some\n            idea of this kind had presented itself to my imagination, the remembrance of which I\n            preserved in my convalescence. I avoided explanation, <pb n=\"166\" xml:id=\"F1831_v_182\"/>and maintained a continual silence concerning the wretch I had created. I had a\n            persuasion that I should be supposed mad; and this in itself would for ever have chained\n            my tongue. But, besides, I could not bring myself to disclose a secret which would fill\n            my hearer with consternation, and make fear and unnatural horror the inmates of his\n            breast. I checked, therefore, my impatient thirst for sympathy, and was silent when I\n            would have given the world to have confided the fatal secret. Yet still words like those\n            I have recorded, would burst uncontrollably from me. I could offer no explanation of\n            them; but their truth in part relieved the burden of my mysterious woe.</p>\n          "
   }
  },
  {
@@ -4728,7 +5404,7 @@
     "start": "/p[633]",
     "end": "/p[633]"
    },
-   "xml_text_content": "<p xmlns=\"http://www.tei-c.org/ns/1.0\" xmlns:xi=\"http://www.w3.org/2001/XInclude\" xml:id=\"novel1_letter4_chapter22_p4\">My father had often, during my imprisonment, heard me make the same assertion; when I\n            thus accused myself, he sometimes seemed to desire an explanation, and at others he\n            appeared to consider it as the offspring of delirium, and that, during my illness, some\n            idea of this kind had presented itself to my imagination, the remembrance of which I\n            preserved in my convalescence. I avoided explanation, <pb xml:id=\"F1831_v_182\" n=\"166\"/>and maintained a continual silence concerning the wretch I had created. I had a\n            persuasion that I should be supposed mad; and this in itself would for ever have chained\n            my tongue. But, besides, I could not bring myself to disclose a secret which would fill\n            my hearer with consternation, and make fear and unnatural horror the inmates of his\n            breast. I checked, therefore, my impatient thirst for sympathy, and was silent when I\n            would have given the world to have confided the fatal secret. Yet still words like those\n            I have recorded, would burst uncontrollably from me. I could offer no explanation of\n            them; but their truth in part relieved the burden of my mysterious woe.</p>\n          "
+   "xml_text_content": "<p xmlns=\"http://www.tei-c.org/ns/1.0\" xmlns:xi=\"http://www.w3.org/2001/XInclude\" xml:id=\"novel1_letter4_chapter22_p4\">My father had often, during my imprisonment, heard me make the same assertion; when I\n            thus accused myself, he sometimes seemed to desire an explanation, and at others he\n            appeared to consider it as the offspring of delirium, and that, during my illness, some\n            idea of this kind had presented itself to my imagination, the remembrance of which I\n            preserved in my convalescence. I avoided explanation, <pb n=\"166\" xml:id=\"F1831_v_182\"/>and maintained a continual silence concerning the wretch I had created. I had a\n            persuasion that I should be supposed mad; and this in itself would for ever have chained\n            my tongue. But, besides, I could not bring myself to disclose a secret which would fill\n            my hearer with consternation, and make fear and unnatural horror the inmates of his\n            breast. I checked, therefore, my impatient thirst for sympathy, and was silent when I\n            would have given the world to have confided the fatal secret. Yet still words like those\n            I have recorded, would burst uncontrollably from me. I could offer no explanation of\n            them; but their truth in part relieved the burden of my mysterious woe.</p>\n          "
   }
  },
  {
@@ -4832,7 +5508,7 @@
     "start": "/p[661]",
     "end": "/p[661]"
    },
-   "xml_text_content": "<p xmlns=\"http://www.tei-c.org/ns/1.0\" xmlns:xi=\"http://www.w3.org/2001/XInclude\" xml:id=\"novel1_letter4_chapter22_p32\">Preparations were made for the event; congratulatory visits were received; and all wore\n            a smiling appearance. I shut up, as well as I could, in my own heart the anxiety that\n            preyed there, and entered with seeming earnestness into the plans of my father, although\n            they might only serve as the decorations of my tragedy. Through my father&#8217;s exertions, a\n            part of the inheritance of Elizabeth had been restored to her by the Austrian\n            government. A small possession on the shores of Como belonged to her. It was agreed\n            that, immediately after our union, we should proceed <pb xml:id=\"F1831_v_188\" n=\"172\"/>to Villa Lavenza, and spend our first days of happiness beside the beautiful lake near\n            which it stood.</p>\n          "
+   "xml_text_content": "<p xmlns=\"http://www.tei-c.org/ns/1.0\" xmlns:xi=\"http://www.w3.org/2001/XInclude\" xml:id=\"novel1_letter4_chapter22_p32\">Preparations were made for the event; congratulatory visits were received; and all wore\n            a smiling appearance. I shut up, as well as I could, in my own heart the anxiety that\n            preyed there, and entered with seeming earnestness into the plans of my father, although\n            they might only serve as the decorations of my tragedy. Through my father&#8217;s exertions, a\n            part of the inheritance of Elizabeth had been restored to her by the Austrian\n            government. A small possession on the shores of Como belonged to her. It was agreed\n            that, immediately after our union, we should proceed <pb n=\"172\" xml:id=\"F1831_v_188\"/>to Villa Lavenza, and spend our first days of happiness beside the beautiful lake near\n            which it stood.</p>\n          "
   }
  },
  {
@@ -5092,7 +5768,7 @@
     "start": "/p[683]",
     "end": "/p[683]"
    },
-   "xml_text_content": "<p xmlns=\"http://www.tei-c.org/ns/1.0\" xmlns:xi=\"http://www.w3.org/2001/XInclude\" xml:id=\"novel1_letter4_chapter23_p13\">After an interval, I arose, and, as if by instinct, crawled into the room where the\n            corpse of my beloved lay. There were women weeping around&#8212;I hung over it, and joined my\n            sad tears to theirs&#8212;all this time no distinct idea presented itself to my mind; but my\n            thoughts rambled to various subjects, reflecting confusedly on my misfortunes, and their\n            cause. I was bewildered in a cloud of wonder and horror. The death of William, the\n            execution of Justine, the murder of Clerval, and lastly of my wife; even at that moment\n            I knew not that my only remaining friends were safe from the malignity of the fiend; my\n            father even now might be writhing under his grasp, and Ernest might be dead at his feet.\n            This idea made me shudder, and re<pb xml:id=\"F1831_v_193\" n=\"177\"/>called me to action.\n            I started up, and resolved to return to Geneva with all possible speed.</p>\n          "
+   "xml_text_content": "<p xmlns=\"http://www.tei-c.org/ns/1.0\" xmlns:xi=\"http://www.w3.org/2001/XInclude\" xml:id=\"novel1_letter4_chapter23_p13\">After an interval, I arose, and, as if by instinct, crawled into the room where the\n            corpse of my beloved lay. There were women weeping around&#8212;I hung over it, and joined my\n            sad tears to theirs&#8212;all this time no distinct idea presented itself to my mind; but my\n            thoughts rambled to various subjects, reflecting confusedly on my misfortunes, and their\n            cause. I was bewildered in a cloud of wonder and horror. The death of William, the\n            execution of Justine, the murder of Clerval, and lastly of my wife; even at that moment\n            I knew not that my only remaining friends were safe from the malignity of the fiend; my\n            father even now might be writhing under his grasp, and Ernest might be dead at his feet.\n            This idea made me shudder, and re<pb n=\"177\" xml:id=\"F1831_v_193\"/>called me to action.\n            I started up, and resolved to return to Geneva with all possible speed.</p>\n          "
   }
  },
  {
@@ -5144,7 +5820,7 @@
     "start": "/p[686]",
     "end": "/p[686]"
    },
-   "xml_text_content": "<p xmlns=\"http://www.tei-c.org/ns/1.0\" xmlns:xi=\"http://www.w3.org/2001/XInclude\" xml:id=\"novel1_letter4_chapter23_p16\">I arrived at Geneva. My father and Ernest yet lived; but the former sunk under the\n            tidings that I bore. I see him now, excellent and venerable old man! his eyes wandered\n            in vacancy, for they had lost their charm and their delight&#8212;his Elizabeth, his more than\n            daughter, whom he doated on with all that affection which a man feels, who in the\n            decline of life, having few affections, clings more earnestly to those that remain.\n            Cursed, cursed be the fiend <pb xml:id=\"F1831_v_194\" n=\"178\"/>that brought misery on his\n            grey hairs, and doomed him to waste in wretchedness! He could not live under the horrors\n            that were accumulated around him; the springs of existence suddenly gave way: he was\n            unable to rise from his bed, and in a few days he died in my arms.</p>\n          "
+   "xml_text_content": "<p xmlns=\"http://www.tei-c.org/ns/1.0\" xmlns:xi=\"http://www.w3.org/2001/XInclude\" xml:id=\"novel1_letter4_chapter23_p16\">I arrived at Geneva. My father and Ernest yet lived; but the former sunk under the\n            tidings that I bore. I see him now, excellent and venerable old man! his eyes wandered\n            in vacancy, for they had lost their charm and their delight&#8212;his Elizabeth, his more than\n            daughter, whom he doated on with all that affection which a man feels, who in the\n            decline of life, having few affections, clings more earnestly to those that remain.\n            Cursed, cursed be the fiend <pb n=\"178\" xml:id=\"F1831_v_194\"/>that brought misery on his\n            grey hairs, and doomed him to waste in wretchedness! He could not live under the horrors\n            that were accumulated around him; the springs of existence suddenly gave way: he was\n            unable to rise from his bed, and in a few days he died in my arms.</p>\n          "
   }
  },
  {
@@ -5196,7 +5872,7 @@
     "start": "/p[686]",
     "end": "/p[686]"
    },
-   "xml_text_content": "<p xmlns=\"http://www.tei-c.org/ns/1.0\" xmlns:xi=\"http://www.w3.org/2001/XInclude\" xml:id=\"novel1_letter4_chapter23_p16\">I arrived at Geneva. My father and Ernest yet lived; but the former sunk under the\n            tidings that I bore. I see him now, excellent and venerable old man! his eyes wandered\n            in vacancy, for they had lost their charm and their delight&#8212;his Elizabeth, his more than\n            daughter, whom he doated on with all that affection which a man feels, who in the\n            decline of life, having few affections, clings more earnestly to those that remain.\n            Cursed, cursed be the fiend <pb xml:id=\"F1831_v_194\" n=\"178\"/>that brought misery on his\n            grey hairs, and doomed him to waste in wretchedness! He could not live under the horrors\n            that were accumulated around him; the springs of existence suddenly gave way: he was\n            unable to rise from his bed, and in a few days he died in my arms.</p>\n          "
+   "xml_text_content": "<p xmlns=\"http://www.tei-c.org/ns/1.0\" xmlns:xi=\"http://www.w3.org/2001/XInclude\" xml:id=\"novel1_letter4_chapter23_p16\">I arrived at Geneva. My father and Ernest yet lived; but the former sunk under the\n            tidings that I bore. I see him now, excellent and venerable old man! his eyes wandered\n            in vacancy, for they had lost their charm and their delight&#8212;his Elizabeth, his more than\n            daughter, whom he doated on with all that affection which a man feels, who in the\n            decline of life, having few affections, clings more earnestly to those that remain.\n            Cursed, cursed be the fiend <pb n=\"178\" xml:id=\"F1831_v_194\"/>that brought misery on his\n            grey hairs, and doomed him to waste in wretchedness! He could not live under the horrors\n            that were accumulated around him; the springs of existence suddenly gave way: he was\n            unable to rise from his bed, and in a few days he died in my arms.</p>\n          "
   }
  },
  {
@@ -5300,7 +5976,7 @@
     "start": "/p[739]",
     "end": "/p[740]"
    },
-   "xml_text_content": "<p xmlns=\"http://www.tei-c.org/ns/1.0\" xmlns:xi=\"http://www.w3.org/2001/XInclude\" xml:id=\"novel1_letter4_p51\">I write to you, encompassed by peril, and ignorant whether I am ever doomed to see again\n          dear England, and the dearer friends that inhabit it. I am surrounded by mountains of ice,\n          which admit of no escape, and threaten every moment to crush my vessel. The brave fellows,\n          whom I have persuaded to be my companions, look towards me for aid; but I have none to\n          bestow. There is something terribly appalling in our situation, yet my courage and hopes\n          do not desert me. Yet it is terrible to reflect <pb xml:id=\"F1831_v_208\" n=\"192\"/>that the\n          lives of all these men are endangered through me. If we are lost, my mad schemes are the\n          cause.</p>\n        "
+   "xml_text_content": "<p xmlns=\"http://www.tei-c.org/ns/1.0\" xmlns:xi=\"http://www.w3.org/2001/XInclude\" xml:id=\"novel1_letter4_p51\">I write to you, encompassed by peril, and ignorant whether I am ever doomed to see again\n          dear England, and the dearer friends that inhabit it. I am surrounded by mountains of ice,\n          which admit of no escape, and threaten every moment to crush my vessel. The brave fellows,\n          whom I have persuaded to be my companions, look towards me for aid; but I have none to\n          bestow. There is something terribly appalling in our situation, yet my courage and hopes\n          do not desert me. Yet it is terrible to reflect <pb n=\"192\" xml:id=\"F1831_v_208\"/>that the\n          lives of all these men are endangered through me. If we are lost, my mad schemes are the\n          cause.</p>\n        "
   }
  },
  {
@@ -5409,6 +6085,214 @@
  },
  {
   "@context": "http://www.w3.org/ns/anno.jsonld",
+  "id": "https://frankensteinvariorum.org/3MWIkubKEemlBmfYuZuOvw",
+  "type": "Annotation",
+  "generator": {
+   "id": "https://frankensteinvariorum.org/",
+   "type": "Software",
+   "name": "Frankenstein Variorum",
+   "homepage": "https://recogito.pelagios.org/"
+  },
+  "generated": "2019-10-04T17:17:37.279213+00:00",
+  "body": [
+   {
+    "type": "TextualBody",
+    "value": "The first title page in the 1831 edition lists only a short version of the original title--*Frankenstein*--and Mary Shelley's name as author. A second title page following this one gives the original full title and identifies Mary only as \"The Author of The Last Man, Perkin Warbeck, &tc. &c.\" This format was typical of the book series in which the 1831 edition of the novel appeared: Henry Colburn's and Richard Bentley's \"Standard Novels.\"  All books in the series have well-illustrated frontispieces and first title pages, followed by a more detailed title page without illustrations.  It was this publishing format that launched Frankenstein as a widely reprinted popular novel.",
+    "creator": "https://hypothes.is/users/frankensteinvariorum",
+    "modified": "2019-10-04T17:17:37.279213+00:00",
+    "purpose": "commenting"
+   }
+  ],
+  "target": {
+   "source": "https://frankensteinvariorum.github.io/fv-collation/Frankenstein_1831.html",
+   "type": "Text",
+   "selector": [
+    {
+     "type": "TextQuoteSelector",
+     "prefix": "tley, 1831.\n      \n      \n      ",
+     "exact": "FRANKENSTEIN,\n      \n      \n      by\n      \n      \n      MARY W. SHELLEY.",
+     "suffix": "\n      \n      \n      \n      \n   "
+    },
+    {
+     "type": "RangeSelector",
+     "startSelector": {
+      "type": "XPathSelector",
+      "value": "//*[@xml:id='frontmatter1_head2']"
+     },
+     "endSelector": {
+      "type": "XPathSelector",
+      "value": "//*[@xml:id='frontmatter1_head4']"
+     }
+    }
+   ]
+  },
+  "diagnostic": {
+   "note": "not for open annotation consumption",
+   "html": {
+    "start": 2,
+    "end": "/h3[4]"
+   },
+   "xml_text_content": "<head xmlns=\"http://www.tei-c.org/ns/1.0\" xmlns:xi=\"http://www.w3.org/2001/XInclude\" xml:id=\"frontmatter1_head2\">FRANKENSTEIN,</head>\n    \n      "
+  }
+ },
+ {
+  "@context": "http://www.w3.org/ns/anno.jsonld",
+  "id": "https://frankensteinvariorum.org/CF4t1ObKEemWi9-XndMdCA",
+  "type": "Annotation",
+  "generator": {
+   "id": "https://frankensteinvariorum.org/",
+   "type": "Software",
+   "name": "Frankenstein Variorum",
+   "homepage": "https://recogito.pelagios.org/"
+  },
+  "generated": "2019-10-04T17:11:40.912592+00:00",
+  "body": [
+   {
+    "type": "TextualBody",
+    "value": "This second title page in 1831 gives the original full title of the novel and identifies Mary only as the author of her subsequent novels. ",
+    "creator": "https://hypothes.is/users/frankensteinvariorum",
+    "modified": "2019-10-04T17:11:40.912592+00:00",
+    "purpose": "commenting"
+   }
+  ],
+  "target": {
+   "source": "https://frankensteinvariorum.github.io/fv-collation/Frankenstein_1831.html",
+   "type": "Text",
+   "selector": [
+    {
+     "type": "TextQuoteSelector",
+     "prefix": "    \n      \n      \n      \n      ",
+     "exact": "FRANKENSTEIN: or, THE MODERN PROMETHEUS.\n      \n      \n      \n      \n      by the author of THE LAST MAN, PERKIN WARBECK &c. &c.",
+     "suffix": "\n      \n      \n      \n      revi"
+    },
+    {
+     "type": "RangeSelector",
+     "startSelector": {
+      "type": "XPathSelector",
+      "value": "//*[@xml:id='frontmatter1_head5']"
+     },
+     "endSelector": {
+      "type": "XPathSelector",
+      "value": "//*[@xml:id='frontmatter1_head6']"
+     }
+    }
+   ]
+  },
+  "diagnostic": {
+   "note": "not for open annotation consumption",
+   "html": {
+    "start": 5,
+    "end": "/h3[6]"
+   },
+   "xml_text_content": "<head xmlns=\"http://www.tei-c.org/ns/1.0\" xmlns:xi=\"http://www.w3.org/2001/XInclude\" xml:id=\"frontmatter1_head5\">FRANKENSTEIN: <hi rend=\"smallcaps\" xml:id=\"frontmatter1_head5_hi1\">OR</hi>, THE MODERN PROMETHEUS.</head>\n      "
+  }
+ },
+ {
+  "@context": "http://www.w3.org/ns/anno.jsonld",
+  "id": "https://frankensteinvariorum.org/oTZAFObKEemuoOtUuXss5Q",
+  "type": "Annotation",
+  "generator": {
+   "id": "https://frankensteinvariorum.org/",
+   "type": "Software",
+   "name": "Frankenstein Variorum",
+   "homepage": "https://recogito.pelagios.org/"
+  },
+  "generated": "2019-10-04T17:15:57.354797+00:00",
+  "body": [
+   {
+    "type": "TextualBody",
+    "value": "While the 1818 version was published anonymously, its author unknown to the public, the 1831 title page identifies Mary Shelley as now a famed novelist, citing the science-fiction novel *The Last Man* (1826) and the historical novel *The Fortunes of Perkin Warbeck* (1830).",
+    "creator": "https://hypothes.is/users/frankensteinvariorum",
+    "modified": "2019-10-04T17:15:57.354797+00:00",
+    "purpose": "commenting"
+   }
+  ],
+  "target": {
+   "source": "https://frankensteinvariorum.github.io/fv-collation/Frankenstein_1831.html",
+   "type": "Text",
+   "selector": [
+    {
+     "type": "TextQuoteSelector",
+     "prefix": " \n      \n      \n      \n      by ",
+     "exact": "the author of THE LAST MAN, PERKIN WARBECK &c. &c.",
+     "suffix": "\n      \n      \n      \n      revi"
+    },
+    {
+     "type": "RangeSelector",
+     "startSelector": {
+      "type": "XPathSelector",
+      "value": "//*[@xml:id='frontmatter1_head6']"
+     },
+     "endSelector": {
+      "type": "XPathSelector",
+      "value": "//*[@xml:id='frontmatter1_head6']"
+     }
+    }
+   ]
+  },
+  "diagnostic": {
+   "note": "not for open annotation consumption",
+   "html": {
+    "start": 6,
+    "end": "/h3[6]"
+   },
+   "xml_text_content": "<head xmlns=\"http://www.tei-c.org/ns/1.0\" xmlns:xi=\"http://www.w3.org/2001/XInclude\" xml:id=\"frontmatter1_head6\">\n         <hi rend=\"smallcaps\" xml:id=\"frontmatter1_head6_hi1\">BY THE AUTHOR OF</hi> THE LAST MAN, PERKIN WARBECK &amp;c. &amp;c.</head>\n    \n      "
+  }
+ },
+ {
+  "@context": "http://www.w3.org/ns/anno.jsonld",
+  "id": "https://frankensteinvariorum.org/EPjRTObKEemFCHOFDvPZPA",
+  "type": "Annotation",
+  "generator": {
+   "id": "https://frankensteinvariorum.org/",
+   "type": "Software",
+   "name": "Frankenstein Variorum",
+   "homepage": "https://recogito.pelagios.org/"
+  },
+  "generated": "2019-10-04T17:11:55.272170+00:00",
+  "body": [
+   {
+    "type": "TextualBody",
+    "value": "The 1831 edition has two illustrations, the frontispiece and the picture on the first title page, crafted by T. Holst and W. Chevalier, engravers for Coburn's and Bentley's Standard Novels series.",
+    "creator": "https://hypothes.is/users/frankensteinvariorum",
+    "modified": "2019-10-04T17:11:55.272170+00:00",
+    "purpose": "commenting"
+   }
+  ],
+  "target": {
+   "source": "https://frankensteinvariorum.github.io/fv-collation/Frankenstein_1831.html",
+   "type": "Text",
+   "selector": [
+    {
+     "type": "TextQuoteSelector",
+     "prefix": " \n      revised, corrected, and ",
+     "exact": "illustrated ",
+     "suffix": "with a new introduction, by the "
+    },
+    {
+     "type": "RangeSelector",
+     "startSelector": {
+      "type": "XPathSelector",
+      "value": "//*[@xml:id='frontmatter1_head7']"
+     },
+     "endSelector": {
+      "type": "XPathSelector",
+      "value": "//*[@xml:id='frontmatter1_head7']"
+     }
+    }
+   ]
+  },
+  "diagnostic": {
+   "note": "not for open annotation consumption",
+   "html": {
+    "start": 7,
+    "end": "/h3[7]/span[1]"
+   },
+   "xml_text_content": "<head xmlns=\"http://www.tei-c.org/ns/1.0\" xmlns:xi=\"http://www.w3.org/2001/XInclude\" xml:id=\"frontmatter1_head7\">\n         <hi rend=\"smallcaps\" xml:id=\"frontmatter1_head7_hi1\">REVISED, CORRECTED, AND ILLUSTRATED WITH A NEW INTRODUCTION, BY THE AUTHOR.</hi>\n      </head>\n      "
+  }
+ },
+ {
+  "@context": "http://www.w3.org/ns/anno.jsonld",
   "id": "https://frankensteinvariorum.org/xn8ZmubKEemuNQuXZweykw",
   "type": "Annotation",
   "generator": {
@@ -5453,7 +6337,7 @@
   "diagnostic": {
    "note": "not for open annotation consumption",
    "html": {
-    "start": "/h3[9]",
+    "start": 9,
     "end": "/h3[9]"
    },
    "xml_text_content": "<head xmlns=\"http://www.tei-c.org/ns/1.0\" xmlns:xi=\"http://www.w3.org/2001/XInclude\" xml:id=\"preface1_head1\">PREFACE.</head>\n      \n      "
@@ -5505,7 +6389,7 @@
   "diagnostic": {
    "note": "not for open annotation consumption",
    "html": {
-    "start": "/h3[21]",
+    "start": 21,
     "end": "/h3[21]"
    },
    "xml_text_content": "<head xmlns=\"http://www.tei-c.org/ns/1.0\" xmlns:xi=\"http://www.w3.org/2001/XInclude\" xml:id=\"novel1_letter4_chapter1_head1\">CHAPTER I.</head>\n          "
