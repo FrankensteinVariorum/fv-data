@@ -8,7 +8,7 @@
          </titleStmt>
          <publicationStmt>
             <authority>Frankenstein Variorum Project</authority>
-            <date>2019-11-05T20:01:03.209-05:00</date>
+            <date>2019-11-07T09:34:42.928-05:00</date>
             <availability>
                <licence>Distributed under a Creative Commons
                                     Attribution-ShareAlike 3.0 Unported License</licence>
@@ -26,7 +26,7 @@
       <anchor type="collate" xml:id="C01"/>
       <milestone unit="volume" n="1" xml:id="milestone1"/>
       <milestone unit="frontmatter" type="start" n="1"/>
-      <include href="https://raw.githubusercontent.com/FrankensteinVariorum/fv-collation/master/collateXPrep/standOff_Includes/1818_frontMatter1.xml"
+      <include href="https://raw.githubusercontent.com/FrankensteinVariorum/fv-collation/master/collateXPrep/../standOff_Includes/1818_frontMatter1.xml"
                parse="xml"/>
       <milestone unit="frontmatter" type="end" n="1"/>
       <milestone unit="preface" type="start" n="1"/>
@@ -1932,7 +1932,7 @@
 
         <milestone unit="volume" n="2" xml:id="novel1_letter4_milestone1"/>
         <milestone unit="frontmatter" type="start" n="2"/>
-          <include href="https://raw.githubusercontent.com/FrankensteinVariorum/fv-collation/master/collateXPrep/standOff_Includes/1818_frontMatter2.xml"
+          <include href="https://raw.githubusercontent.com/FrankensteinVariorum/fv-collation/master/collateXPrep/../standOff_Includes/1818_frontMatter2.xml"
                parse="xml"/>
         <milestone unit="frontmatter" type="end" n="2"/>
         <anchor type="collate" xml:id="C15"/>
@@ -3522,7 +3522,7 @@
         <head xml:id="novel1_letter4_head7">END OF VOL. II</head>
         <milestone unit="volume" n="3" xml:id="novel1_letter4_milestone2"/>
         <milestone unit="frontmatter" type="start" n="3"/>
-          <include href="https://raw.githubusercontent.com/FrankensteinVariorum/fv-collation/master/collateXPrep/standOff_Includes/1818_frontMatter3.xml"
+          <include href="https://raw.githubusercontent.com/FrankensteinVariorum/fv-collation/master/collateXPrep/../standOff_Includes/1818_frontMatter3.xml"
                parse="xml"/>
         <milestone unit="frontmatter" type="end" n="3"/>
       <anchor type="collate" xml:id="C24"/>
@@ -5465,7 +5465,7 @@
       <milestone unit="novel" type="end" n="1"/>
 
       <milestone unit="backmatter" type="start" n="1"/>
-      <include href="https://raw.githubusercontent.com/FrankensteinVariorum/fv-collation/master/collateXPrep/standOff_Includes/1818_backMatter.xml"
+      <include href="https://raw.githubusercontent.com/FrankensteinVariorum/fv-collation/master/collateXPrep/../standOff_Includes/1818_backMatter.xml"
                parse="xml"/>
       <milestone unit="backmatter" type="end" n="1"/>
 
