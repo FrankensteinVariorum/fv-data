@@ -4,11 +4,11 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Uncollated TEI: 1831 edition</title>
+            <title>Uncollated TEI:  edition</title>
          </titleStmt>
          <publicationStmt>
             <authority>Frankenstein Variorum Project</authority>
-            <date>2019-11-07T09:42:00.773-05:00</date>
+            <date>2019-11-07T14:45:10.033-05:00</date>
             <availability>
                <licence>Distributed under a Creative Commons
                                     Attribution-ShareAlike 3.0 Unported License</licence>
@@ -24,10 +24,62 @@
    </teiHeader>
    <text>
       <anchor type="collate" xml:id="C01"/>
-      <milestone unit="frontmatter" type="start" n="1"/>
-      <include href="https://raw.githubusercontent.com/FrankensteinVariorum/fv-collation/master/collateXPrep/standOff_Includes/1831_frontMatter.xml"
-               parse="xml"/>
+      <milestone unit="frontmatter" type="start" n="1"/>  
+      <pb xml:id="F1831_v_005"/>
+      <!--illustration of Victor Frankenstein exiting the room as the Creature awakens.-->
+      <!--caption bottom left: T Holst, del-->
+      <!--caption bottom right: W Chevalier, sculp.-->
+    
+      <head xml:id="frontmatter1_head1">FRANKENSTEIN.</head>
+    
+      <ab rend="italic" xml:id="frontmatter1_ab1">By the glimmer of the half-extinguished</ab>
+      <ab rend="italic" xml:id="frontmatter1_ab2">light, I saw the dull yellow eye of the</ab>
+      <ab rend="italic" xml:id="frontmatter1_ab3">creature open; it breathed hard, and a</ab>
+      <ab rend="italic" xml:id="frontmatter1_ab4">convulsive motion agitated its limbs,</ab>
+      <ab rend="italic" xml:id="frontmatter1_ab5">* * * I rushed out of the room.</ab>
+      <ab rend="italic" xml:id="frontmatter1_ab6">Page 43.</ab>
+      <ab rend="italic" xml:id="frontmatter1_ab7">London. Published by H Colburn and R Bentley, 1831.</ab>
+      <pb xml:id="F1831_v_006"/>
+      <head xml:id="frontmatter1_head2">FRANKENSTEIN,</head>
+    
+      <head xml:id="frontmatter1_head3">
+         <hi rend="smallcaps" xml:id="frontmatter1_head3_hi1">BY</hi>
+      </head>
+    
+      <head xml:id="frontmatter1_head4">MARY W. SHELLEY.</head>
+    
+      <!--illustration of Victor Frankenstein leaving his childhood home-->
+      <!--caption bottom left: T Holst, del.-->
+      <!--caption bottom right: W chevalier, sc-->
+      <ab rend="italic" xml:id="frontmatter1_ab8">The day of my departure at length arrived</ab>
+      <ab rend="italic" xml:id="frontmatter1_ab9">Page 31.</ab>
+    
+      <ab rend="center" xml:id="frontmatter1_ab10">LONDON:</ab>
+      <ab rend="center" xml:id="frontmatter1_ab11">COLBURN AND BENTLEY.</ab>
+      <ab rend="center" xml:id="frontmatter1_ab12">NEW BURLINGTON STREET.</ab>
+      <ab rend="center" xml:id="frontmatter1_ab13">1831.</ab>
+      <pb xml:id="F1831_v_007"/>
+      <!--blank page -->
+      <pb xml:id="F1831_v_008"/>
+      <head xml:id="frontmatter1_head5">FRANKENSTEIN: <hi rend="smallcaps" xml:id="frontmatter1_head5_hi1">OR</hi>, THE MODERN PROMETHEUS.</head>
+      <!--ebb: centered underscore a few lines below-->
+    
+      <head xml:id="frontmatter1_head6">
+         <hi rend="smallcaps" xml:id="frontmatter1_head6_hi1">BY THE AUTHOR OF</hi> THE LAST MAN, PERKIN WARBECK &amp;c. &amp;c.</head>
+    
+      <head xml:id="frontmatter1_head7">
+         <hi rend="smallcaps" xml:id="frontmatter1_head7_hi1">REVISED, CORRECTED, AND ILLUSTRATED WITH A NEW INTRODUCTION, BY THE AUTHOR.</hi>
+      </head>
+      <!--ebb: centered underscore a few lines below-->
+    
+      <ab rend="center" xml:id="frontmatter1_ab14">LONDON:</ab>
+      <ab rend="center" xml:id="frontmatter1_ab15">HENRY COLBURN AND RICHARD BENTLEY,</ab>
+      <ab rend="center" xml:id="frontmatter1_ab16">NEW BURLINGTON STREET:</ab>
+      <ab rend="center" xml:id="frontmatter1_ab17">BELL AND BRADFUTE, EDINBURGH;</ab>
+      <ab rend="center" xml:id="frontmatter1_ab18">AND CUMMING, DUBLIN.</ab>
+      <ab rend="center" xml:id="frontmatter1_ab19">1831.</ab>
       <milestone unit="frontmatter" type="end" n="1"/>
+    
      <milestone unit="introduction" type="start" n="1"/>
       <pb xml:id="F1831_v_009"/>
       <head xml:id="introduction1_head1">INTRODUCTION.</head>
@@ -5716,9 +5768,13 @@
         <head xml:id="novel1_letter4_head4">THE END.</head>
       <milestone unit="letter" type="end" n="4"/>
       <milestone unit="novel" type="end" n="1"/>
-       <milestone unit="backmatter" type="start" n="1"/>
-        <include href="https://raw.githubusercontent.com/FrankensteinVariorum/fv-collation/master/collateXPrep/standOff_Includes/1831_backMatter.xml"
-               parse="xml"/>
-       <milestone unit="backmatter" type="end" n="1"/>
+        <milestone unit="backmatter" type="start" n="1"/>
+      <ab rend="center" xml:id="backmatter1_ab1">L<hi rend="smallcaps" xml:id="backmatter1_ab1_hi1">ONDON</hi>:</ab>
+    
+      <ab rend="center" xml:id="backmatter1_ab2">Printed by A. &amp; R. Spottiswoode,</ab>
+    
+      <ab rend="center" xml:id="backmatter1_ab3">New-Street-Square.</ab>
+      <milestone unit="backmatter" type="end" n="1"/>
+       
   </text>
 </TEI>
