@@ -205,7 +205,7 @@ class OpenAnnotation:
                 "id": "https://frankensteinvariorum.github.io/viewer",
                 "type": "Software",
                 "name": "Frankenstein Variorum",
-                "homepage": "https://recogito.pelagios.org/",
+                "homepage": "https://github.com/FrankensteinVariorum/fv-data",
             },
             "generated": a.data["created"],
             "body": body_content,
