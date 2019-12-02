@@ -308,7 +308,10 @@ regrouped_annotations = groupby(bulk_annotations, lambda x: x["target"]["source"
 
 for group, grpr in regrouped_annotations:
     fn = re.match(r".+fv-collation/(.+)\.html", group).groups()[0]
-    annotations = [g for g in grpr]
+    annotations = []
+    for i, g in enumerate(grpr):
+        g["id"] = g["id"] + str(i + 1)
+        annotations.append(g)
     json.dump(
         annotations,
         open(f"hypothesis/openannotation/{fn}_xml_id_mapping.json", "w"),
