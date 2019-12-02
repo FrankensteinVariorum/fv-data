@@ -1,0 +1,3761 @@
+[
+ {
+  "@context": "http://www.w3.org/ns/anno.jsonld",
+  "id": "https://frankensteinvariorum.github.io/annotations/1823/1",
+  "type": "Annotation",
+  "generator": {
+   "id": "https://frankensteinvariorum.github.io/viewer",
+   "type": "Software",
+   "name": "Frankenstein Variorum",
+   "homepage": "https://github.com/FrankensteinVariorum/fv-data"
+  },
+  "generated": "2019-10-04T17:11:15.855647+00:00",
+  "body": [
+   {
+    "type": "TextualBody",
+    "purpose": "tagging",
+    "value": "change-ann"
+   },
+   {
+    "type": "TextualBody",
+    "purpose": "tagging",
+    "value": "English Revolution"
+   },
+   {
+    "type": "TextualBody",
+    "purpose": "tagging",
+    "value": "jk"
+   },
+   {
+    "type": "TextualBody",
+    "purpose": "tagging",
+    "value": "1831 edition"
+   },
+   {
+    "type": "TextualBody",
+    "value": "Sir Thomas Gower, 2nd Baronet (c. 1605\u20131672) twice served as the High Sheriff of Yorkshire and supported the Royalist cause during the Civil War. In his 1823 edition of Shelley's novel, her father William Godwin changed \"Gower\" to \"Goring,\" the name of another Royalist leader in the Civil War, and the 1823 change is retained in the 1831 revision of the novel.",
+    "creator": "https://hypothes.is/users/frankensteinvariorum",
+    "modified": "2019-10-04T17:11:15.855647+00:00",
+    "purpose": "commenting"
+   }
+  ],
+  "target": {
+   "source": "https://frankensteinvariorum.github.io/fv-collation/1823.html",
+   "type": "Text",
+   "selector": [
+    {
+     "type": "RangeSelector",
+     "startSelector": {
+      "type": "XPathSelector",
+      "value": "//*[@xml:id='novel1_letter4_chapter18_p7']"
+     },
+     "endSelector": {
+      "type": "XPathSelector",
+      "value": "//*[@xml:id='novel1_letter4_chapter18_p7']"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "@context": "http://www.w3.org/ns/anno.jsonld",
+  "id": "https://frankensteinvariorum.github.io/annotations/1823/2",
+  "type": "Annotation",
+  "generator": {
+   "id": "https://frankensteinvariorum.github.io/viewer",
+   "type": "Software",
+   "name": "Frankenstein Variorum",
+   "homepage": "https://github.com/FrankensteinVariorum/fv-data"
+  },
+  "generated": "2019-10-04T17:14:08.105469+00:00",
+  "body": [
+   {
+    "type": "TextualBody",
+    "purpose": "tagging",
+    "value": "change-ann"
+   },
+   {
+    "type": "TextualBody",
+    "purpose": "tagging",
+    "value": "jk"
+   },
+   {
+    "type": "TextualBody",
+    "value": "Shelley added this clarifying passage to the 1831 edition. By rephrasing \u201cglory\u201d as \u201cadvancement in his profession,\u201d Shelley adopts a new expression, not usually found before 1810, indicating a more precise path to famed achievement. It was often used to mean advancement in Her Majesty\u2019s Navy, thus it is especially apt for the lieutenant of Walton\u2019s ship.",
+    "creator": "https://hypothes.is/users/frankensteinvariorum",
+    "modified": "2019-10-04T17:14:08.105469+00:00",
+    "purpose": "commenting"
+   }
+  ],
+  "target": {
+   "source": "https://frankensteinvariorum.github.io/fv-collation/1823.html",
+   "type": "Text",
+   "selector": [
+    {
+     "type": "RangeSelector",
+     "startSelector": {
+      "type": "XPathSelector",
+      "value": "//*[@xml:id='novel1_letter2_p4']"
+     },
+     "endSelector": {
+      "type": "XPathSelector",
+      "value": "//*[@xml:id='novel1_letter2_p4']"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "@context": "http://www.w3.org/ns/anno.jsonld",
+  "id": "https://frankensteinvariorum.github.io/annotations/1823/3",
+  "type": "Annotation",
+  "generator": {
+   "id": "https://frankensteinvariorum.github.io/viewer",
+   "type": "Software",
+   "name": "Frankenstein Variorum",
+   "homepage": "https://github.com/FrankensteinVariorum/fv-data"
+  },
+  "generated": "2019-10-04T17:11:56.648071+00:00",
+  "body": [
+   {
+    "type": "TextualBody",
+    "purpose": "tagging",
+    "value": "change-ann"
+   },
+   {
+    "type": "TextualBody",
+    "purpose": "tagging",
+    "value": "orientalism"
+   },
+   {
+    "type": "TextualBody",
+    "purpose": "tagging",
+    "value": "jk"
+   },
+   {
+    "type": "TextualBody",
+    "value": "In this addition to the 1831 edition, Walton\u2019s earlier largely admiring portrait of the shipmaster was qualified by remembering that he did not have a wide moral frame of reference, having lived his life only on a ship, so his qualities fell somewhat short of being \u201cnoble.\u201d But 1831 darkens the portrait by making him ignorant and careless while orientalizing him (\u201csilent as a Turk\u201d). This is one of many passages in 1831 that replace a liberal generosity toward her several of her characters with a more harshly conservative, intolerant stance. ",
+    "creator": "https://hypothes.is/users/frankensteinvariorum",
+    "modified": "2019-10-04T17:11:56.648071+00:00",
+    "purpose": "commenting"
+   }
+  ],
+  "target": {
+   "source": "https://frankensteinvariorum.github.io/fv-collation/1823.html",
+   "type": "Text",
+   "selector": [
+    {
+     "type": "RangeSelector",
+     "startSelector": {
+      "type": "XPathSelector",
+      "value": "//*[@xml:id='novel1_letter2_p5']"
+     },
+     "endSelector": {
+      "type": "XPathSelector",
+      "value": "//*[@xml:id='novel1_letter2_p5']"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "@context": "http://www.w3.org/ns/anno.jsonld",
+  "id": "https://frankensteinvariorum.github.io/annotations/1823/4",
+  "type": "Annotation",
+  "generator": {
+   "id": "https://frankensteinvariorum.github.io/viewer",
+   "type": "Software",
+   "name": "Frankenstein Variorum",
+   "homepage": "https://github.com/FrankensteinVariorum/fv-data"
+  },
+  "generated": "2019-10-04T17:17:09.677431+00:00",
+  "body": [
+   {
+    "type": "TextualBody",
+    "purpose": "tagging",
+    "value": "family"
+   },
+   {
+    "type": "TextualBody",
+    "purpose": "tagging",
+    "value": "domestic affections"
+   },
+   {
+    "type": "TextualBody",
+    "purpose": "tagging",
+    "value": "change-ann"
+   },
+   {
+    "type": "TextualBody",
+    "purpose": "tagging",
+    "value": "jk"
+   },
+   {
+    "type": "TextualBody",
+    "value": "In this addition to the 1831 edition, Walton turns the focus of this passage about the ship\u2019s master onto himself and how his older sister fostered him somewhat like a mother and helped build his character. Where 1818 says little about Mrs. Saville\u2019s character, Walton now likens her to Elizabeth, who will also act as a mother figure to Victor Frankenstein after his own mother\u2019s death. The 1831 edition more strongly accentuates the domestic world throughout the new version. ",
+    "creator": "https://hypothes.is/users/frankensteinvariorum",
+    "modified": "2019-10-04T17:17:09.677431+00:00",
+    "purpose": "commenting"
+   }
+  ],
+  "target": {
+   "source": "https://frankensteinvariorum.github.io/fv-collation/1823.html",
+   "type": "Text",
+   "selector": [
+    {
+     "type": "RangeSelector",
+     "startSelector": {
+      "type": "XPathSelector",
+      "value": "//*[@xml:id='novel1_letter2_p5']"
+     },
+     "endSelector": {
+      "type": "XPathSelector",
+      "value": "//*[@xml:id='novel1_letter2_p5']"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "@context": "http://www.w3.org/ns/anno.jsonld",
+  "id": "https://frankensteinvariorum.github.io/annotations/1823/5",
+  "type": "Annotation",
+  "generator": {
+   "id": "https://frankensteinvariorum.github.io/viewer",
+   "type": "Software",
+   "name": "Frankenstein Variorum",
+   "homepage": "https://github.com/FrankensteinVariorum/fv-data"
+  },
+  "generated": "2019-10-04T17:10:44.499820+00:00",
+  "body": [
+   {
+    "type": "TextualBody",
+    "purpose": "tagging",
+    "value": "poetry"
+   },
+   {
+    "type": "TextualBody",
+    "purpose": "tagging",
+    "value": "Samuel Taylor Coleridge"
+   },
+   {
+    "type": "TextualBody",
+    "purpose": "tagging",
+    "value": "change-ann"
+   },
+   {
+    "type": "TextualBody",
+    "purpose": "tagging",
+    "value": "jk"
+   },
+   {
+    "type": "TextualBody",
+    "value": "In this addition to the 1831 edition, Shelley explicitly refers to her poetic source, Samuel Taylor Coleridge's \"The Rime of the Ancient Mariner.\" Walton muses wistfully on the \"dangerous mysteries\" of the ocean, proposing their similarity to poetry like Coleridge's, and citing them as the root of his own profound yearnings for the dangerous and sublime discoveries of exploration.",
+    "creator": "https://hypothes.is/users/frankensteinvariorum",
+    "modified": "2019-10-04T17:10:44.499820+00:00",
+    "purpose": "commenting"
+   }
+  ],
+  "target": {
+   "source": "https://frankensteinvariorum.github.io/fv-collation/1823.html",
+   "type": "Text",
+   "selector": [
+    {
+     "type": "RangeSelector",
+     "startSelector": {
+      "type": "XPathSelector",
+      "value": "//*[@xml:id='novel1_letter2_p7']"
+     },
+     "endSelector": {
+      "type": "XPathSelector",
+      "value": "//*[@xml:id='novel1_letter2_p8']"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "@context": "http://www.w3.org/ns/anno.jsonld",
+  "id": "https://frankensteinvariorum.github.io/annotations/1823/6",
+  "type": "Annotation",
+  "generator": {
+   "id": "https://frankensteinvariorum.github.io/viewer",
+   "type": "Software",
+   "name": "Frankenstein Variorum",
+   "homepage": "https://github.com/FrankensteinVariorum/fv-data"
+  },
+  "generated": "2019-10-04T17:17:33.543606+00:00",
+  "body": [
+   {
+    "type": "TextualBody",
+    "purpose": "tagging",
+    "value": "change-ann"
+   },
+   {
+    "type": "TextualBody",
+    "purpose": "tagging",
+    "value": "jk"
+   },
+   {
+    "type": "TextualBody",
+    "value": "In the 1818 edition, Walton had doubted that he would be able to receive future letters from Margaret. The doubt now disappears from the 1831 edition. ",
+    "creator": "https://hypothes.is/users/frankensteinvariorum",
+    "modified": "2019-10-04T17:17:33.543606+00:00",
+    "purpose": "commenting"
+   }
+  ],
+  "target": {
+   "source": "https://frankensteinvariorum.github.io/fv-collation/1823.html",
+   "type": "Text",
+   "selector": [
+    {
+     "type": "RangeSelector",
+     "startSelector": {
+      "type": "XPathSelector",
+      "value": "//*[@xml:id='novel1_letter2_p8']"
+     },
+     "endSelector": {
+      "type": "XPathSelector",
+      "value": "//*[@xml:id='novel1_letter2_p8']"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "@context": "http://www.w3.org/ns/anno.jsonld",
+  "id": "https://frankensteinvariorum.github.io/annotations/1823/7",
+  "type": "Annotation",
+  "generator": {
+   "id": "https://frankensteinvariorum.github.io/viewer",
+   "type": "Software",
+   "name": "Frankenstein Variorum",
+   "homepage": "https://github.com/FrankensteinVariorum/fv-data"
+  },
+  "generated": "2019-10-04T17:14:01.731048+00:00",
+  "body": [
+   {
+    "type": "TextualBody",
+    "purpose": "tagging",
+    "value": "change-ann"
+   },
+   {
+    "type": "TextualBody",
+    "purpose": "tagging",
+    "value": "jk"
+   },
+   {
+    "type": "TextualBody",
+    "value": "\"The springing of a leak\" in the 1831 version replaces \"the breaking of the mast\" in the 1818 edition. Shelley had begun revising this phrase in the Thomas copy by pencilling in \"carrying away of the mast,\" but she discards any reference to the mast in 1831.",
+    "creator": "https://hypothes.is/users/frankensteinvariorum",
+    "modified": "2019-10-04T17:14:01.731048+00:00",
+    "purpose": "commenting"
+   }
+  ],
+  "target": {
+   "source": "https://frankensteinvariorum.github.io/fv-collation/1823.html",
+   "type": "Text",
+   "selector": [
+    {
+     "type": "RangeSelector",
+     "startSelector": {
+      "type": "XPathSelector",
+      "value": "//*[@xml:id='novel1_letter3_p4']"
+     },
+     "endSelector": {
+      "type": "XPathSelector",
+      "value": "//*[@xml:id='novel1_letter3_p4']"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "@context": "http://www.w3.org/ns/anno.jsonld",
+  "id": "https://frankensteinvariorum.github.io/annotations/1823/8",
+  "type": "Annotation",
+  "generator": {
+   "id": "https://frankensteinvariorum.github.io/viewer",
+   "type": "Software",
+   "name": "Frankenstein Variorum",
+   "homepage": "https://github.com/FrankensteinVariorum/fv-data"
+  },
+  "generated": "2019-10-04T17:15:31.917419+00:00",
+  "body": [
+   {
+    "type": "TextualBody",
+    "purpose": "tagging",
+    "value": "change-ann"
+   },
+   {
+    "type": "TextualBody",
+    "purpose": "tagging",
+    "value": "jk"
+   },
+   {
+    "type": "TextualBody",
+    "value": "This 1831 addition further emphasizes Walton\u2019s bravado, pride, and ethos as an Arctic explorer. The dichotomy of rational man and untamed nature extends throughout the text. The change makes Walton further resemble Victor, who also acts on a \u201cdetermined heart and resolved will\u201d despite the consequences. \n",
+    "creator": "https://hypothes.is/users/frankensteinvariorum",
+    "modified": "2019-10-04T17:15:31.917419+00:00",
+    "purpose": "commenting"
+   }
+  ],
+  "target": {
+   "source": "https://frankensteinvariorum.github.io/fv-collation/1823.html",
+   "type": "Text",
+   "selector": [
+    {
+     "type": "RangeSelector",
+     "startSelector": {
+      "type": "XPathSelector",
+      "value": "//*[@xml:id='novel1_letter3_p6']"
+     },
+     "endSelector": {
+      "type": "XPathSelector",
+      "value": "//*[@xml:id='novel1_letter3_p7']"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "@context": "http://www.w3.org/ns/anno.jsonld",
+  "id": "https://frankensteinvariorum.github.io/annotations/1823/9",
+  "type": "Annotation",
+  "generator": {
+   "id": "https://frankensteinvariorum.github.io/viewer",
+   "type": "Software",
+   "name": "Frankenstein Variorum",
+   "homepage": "https://github.com/FrankensteinVariorum/fv-data"
+  },
+  "generated": "2019-10-04T17:16:07.500770+00:00",
+  "body": [
+   {
+    "type": "TextualBody",
+    "purpose": "tagging",
+    "value": "change-ann"
+   },
+   {
+    "type": "TextualBody",
+    "purpose": "tagging",
+    "value": "ERROR"
+   },
+   {
+    "type": "TextualBody",
+    "purpose": "tagging",
+    "value": "jk"
+   },
+   {
+    "type": "TextualBody",
+    "value": "The change from Victor\u2019s countenance as seeming \u201cvery eager\u201d (1818) to \u201ca new spirit of life animated the decaying frame...\u201d (1831) prefigures the same \"animation\" of the Creature later in Volume 1. \n**FIX TYPO in TEXT**--DELETE \"THE\"\n\"time the a new\"\n",
+    "creator": "https://hypothes.is/users/frankensteinvariorum",
+    "modified": "2019-10-04T17:16:07.500770+00:00",
+    "purpose": "commenting"
+   }
+  ],
+  "target": {
+   "source": "https://frankensteinvariorum.github.io/fv-collation/1823.html",
+   "type": "Text",
+   "selector": [
+    {
+     "type": "RangeSelector",
+     "startSelector": {
+      "type": "XPathSelector",
+      "value": "//*[@xml:id='novel1_letter4_p21']"
+     },
+     "endSelector": {
+      "type": "XPathSelector",
+      "value": "//*[@xml:id='novel1_letter4_p21']"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "@context": "http://www.w3.org/ns/anno.jsonld",
+  "id": "https://frankensteinvariorum.github.io/annotations/1823/10",
+  "type": "Annotation",
+  "generator": {
+   "id": "https://frankensteinvariorum.github.io/viewer",
+   "type": "Software",
+   "name": "Frankenstein Variorum",
+   "homepage": "https://github.com/FrankensteinVariorum/fv-data"
+  },
+  "generated": "2019-10-04T17:15:56.113390+00:00",
+  "body": [
+   {
+    "type": "TextualBody",
+    "purpose": "tagging",
+    "value": "change-ann"
+   },
+   {
+    "type": "TextualBody",
+    "purpose": "tagging",
+    "value": "jk"
+   },
+   {
+    "type": "TextualBody",
+    "value": "In this lengthy addition to the 1831 edition, Walton's brazen willingness to sacrifice the life of a human being to realize his own ambition for knowledge more strongly motivates Victor to \"reveal my tale\" as a powerful lesson to teach Walton's naive hopes for glory. The passage underscores the symbiotic \"madness\" that the mariner and the scientist share.",
+    "creator": "https://hypothes.is/users/frankensteinvariorum",
+    "modified": "2019-10-04T17:15:56.113390+00:00",
+    "purpose": "commenting"
+   }
+  ],
+  "target": {
+   "source": "https://frankensteinvariorum.github.io/fv-collation/1823.html",
+   "type": "Text",
+   "selector": [
+    {
+     "type": "RangeSelector",
+     "startSelector": {
+      "type": "XPathSelector",
+      "value": "//*[@xml:id='novel1_letter4_p27']"
+     },
+     "endSelector": {
+      "type": "XPathSelector",
+      "value": "//*[@xml:id='novel1_letter4_p30']"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "@context": "http://www.w3.org/ns/anno.jsonld",
+  "id": "https://frankensteinvariorum.github.io/annotations/1823/11",
+  "type": "Annotation",
+  "generator": {
+   "id": "https://frankensteinvariorum.github.io/viewer",
+   "type": "Software",
+   "name": "Frankenstein Variorum",
+   "homepage": "https://github.com/FrankensteinVariorum/fv-data"
+  },
+  "generated": "2019-10-04T17:13:07.286214+00:00",
+  "body": [
+   {
+    "type": "TextualBody",
+    "purpose": "tagging",
+    "value": "change-ann"
+   },
+   {
+    "type": "TextualBody",
+    "purpose": "tagging",
+    "value": "jk"
+   },
+   {
+    "type": "TextualBody",
+    "value": "In this 1831 revision, Walton more explicitly attributes exceptional emotional and intellectual powers to Victor than his letters in the 1818 edition make apparent. ",
+    "creator": "https://hypothes.is/users/frankensteinvariorum",
+    "modified": "2019-10-04T17:13:07.286214+00:00",
+    "purpose": "commenting"
+   }
+  ],
+  "target": {
+   "source": "https://frankensteinvariorum.github.io/fv-collation/1823.html",
+   "type": "Text",
+   "selector": [
+    {
+     "type": "RangeSelector",
+     "startSelector": {
+      "type": "XPathSelector",
+      "value": "//*[@xml:id='novel1_letter4_p33']"
+     },
+     "endSelector": {
+      "type": "XPathSelector",
+      "value": "//*[@xml:id='novel1_letter4_p33']"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "@context": "http://www.w3.org/ns/anno.jsonld",
+  "id": "https://frankensteinvariorum.github.io/annotations/1823/12",
+  "type": "Annotation",
+  "generator": {
+   "id": "https://frankensteinvariorum.github.io/viewer",
+   "type": "Software",
+   "name": "Frankenstein Variorum",
+   "homepage": "https://github.com/FrankensteinVariorum/fv-data"
+  },
+  "generated": "2019-10-04T17:16:35.955663+00:00",
+  "body": [
+   {
+    "type": "TextualBody",
+    "purpose": "tagging",
+    "value": "change-ann"
+   },
+   {
+    "type": "TextualBody",
+    "purpose": "tagging",
+    "value": "sublime"
+   },
+   {
+    "type": "TextualBody",
+    "purpose": "tagging",
+    "value": "nature"
+   },
+   {
+    "type": "TextualBody",
+    "purpose": "tagging",
+    "value": "JK?"
+   },
+   {
+    "type": "TextualBody",
+    "value": "In this revision, the 1831 edition makes Victor far more explicit about the parallels between his own quest for knowledge as power and Walton's expedition. Victor also attributes this insight to the sublime context of their Arctic location. The 1818 edition only suggests Walton will learn from Victor's story. \n",
+    "creator": "https://hypothes.is/users/frankensteinvariorum",
+    "modified": "2019-10-04T17:16:35.955663+00:00",
+    "purpose": "commenting"
+   }
+  ],
+  "target": {
+   "source": "https://frankensteinvariorum.github.io/fv-collation/1823.html",
+   "type": "Text",
+   "selector": [
+    {
+     "type": "RangeSelector",
+     "startSelector": {
+      "type": "XPathSelector",
+      "value": "//*[@xml:id='novel1_letter4_p35']"
+     },
+     "endSelector": {
+      "type": "XPathSelector",
+      "value": "//*[@xml:id='novel1_letter4_p35']"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "@context": "http://www.w3.org/ns/anno.jsonld",
+  "id": "https://frankensteinvariorum.github.io/annotations/1823/13",
+  "type": "Annotation",
+  "generator": {
+   "id": "https://frankensteinvariorum.github.io/viewer",
+   "type": "Software",
+   "name": "Frankenstein Variorum",
+   "homepage": "https://github.com/FrankensteinVariorum/fv-data"
+  },
+  "generated": "2019-10-04T17:14:55.367650+00:00",
+  "body": [
+   {
+    "type": "TextualBody",
+    "purpose": "tagging",
+    "value": "change-ann"
+   },
+   {
+    "type": "TextualBody",
+    "purpose": "tagging",
+    "value": "jk"
+   },
+   {
+    "type": "TextualBody",
+    "value": "In this revision for the 1831 edition, Shelley emphasizes the effect Victor has on Walton and stresses Victor's weakened state.",
+    "creator": "https://hypothes.is/users/frankensteinvariorum",
+    "modified": "2019-10-04T17:14:55.367650+00:00",
+    "purpose": "commenting"
+   }
+  ],
+  "target": {
+   "source": "https://frankensteinvariorum.github.io/fv-collation/1823.html",
+   "type": "Text",
+   "selector": [
+    {
+     "type": "RangeSelector",
+     "startSelector": {
+      "type": "XPathSelector",
+      "value": "//*[@xml:id='novel1_letter4_p38']"
+     },
+     "endSelector": {
+      "type": "XPathSelector",
+      "value": "//*[@xml:id='novel1_letter4_p38']"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "@context": "http://www.w3.org/ns/anno.jsonld",
+  "id": "https://frankensteinvariorum.github.io/annotations/1823/14",
+  "type": "Annotation",
+  "generator": {
+   "id": "https://frankensteinvariorum.github.io/viewer",
+   "type": "Software",
+   "name": "Frankenstein Variorum",
+   "homepage": "https://github.com/FrankensteinVariorum/fv-data"
+  },
+  "generated": "2019-10-04T17:12:42.125091+00:00",
+  "body": [
+   {
+    "type": "TextualBody",
+    "purpose": "tagging",
+    "value": "change-ann"
+   },
+   {
+    "type": "TextualBody",
+    "purpose": "tagging",
+    "value": "family"
+   },
+   {
+    "type": "TextualBody",
+    "purpose": "tagging",
+    "value": "jk"
+   },
+   {
+    "type": "TextualBody",
+    "value": "These changes to the 1831 edition make clear that Victor's father's late marriage is a result of factors beyond his control rather than carelessness or indifference, and further accentuate his familial position as the figurehead of their \"domestic circle.\"",
+    "creator": "https://hypothes.is/users/frankensteinvariorum",
+    "modified": "2019-10-04T17:12:42.125091+00:00",
+    "purpose": "commenting"
+   }
+  ],
+  "target": {
+   "source": "https://frankensteinvariorum.github.io/fv-collation/1823.html",
+   "type": "Text",
+   "selector": [
+    {
+     "type": "RangeSelector",
+     "startSelector": {
+      "type": "XPathSelector",
+      "value": "//*[@xml:id='novel1_letter4_chapter1_p1']"
+     },
+     "endSelector": {
+      "type": "XPathSelector",
+      "value": "//*[@xml:id='novel1_letter4_chapter1_p1']"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "@context": "http://www.w3.org/ns/anno.jsonld",
+  "id": "https://frankensteinvariorum.github.io/annotations/1823/15",
+  "type": "Annotation",
+  "generator": {
+   "id": "https://frankensteinvariorum.github.io/viewer",
+   "type": "Software",
+   "name": "Frankenstein Variorum",
+   "homepage": "https://github.com/FrankensteinVariorum/fv-data"
+  },
+  "generated": "2019-10-04T17:15:17.019873+00:00",
+  "body": [
+   {
+    "type": "TextualBody",
+    "purpose": "tagging",
+    "value": "change-ann"
+   },
+   {
+    "type": "TextualBody",
+    "purpose": "tagging",
+    "value": "Geneva"
+   },
+   {
+    "type": "TextualBody",
+    "purpose": "tagging",
+    "value": "jk"
+   },
+   {
+    "type": "TextualBody",
+    "value": "This substantial revision in 1831 seems to place greater blame on Beaufort for his condition as a matter of \"false pride\", implying that Beaufort's sins have betrayed the affection that once united thim with Victor's father. In the 1818 version, his father's primary concern is for the loss of Beaufort's company and his contributions to Genevese society.",
+    "creator": "https://hypothes.is/users/frankensteinvariorum",
+    "modified": "2019-10-04T17:15:17.019873+00:00",
+    "purpose": "commenting"
+   }
+  ],
+  "target": {
+   "source": "https://frankensteinvariorum.github.io/fv-collation/1823.html",
+   "type": "Text",
+   "selector": [
+    {
+     "type": "RangeSelector",
+     "startSelector": {
+      "type": "XPathSelector",
+      "value": "//*[@xml:id='novel1_letter4_chapter1_p2']"
+     },
+     "endSelector": {
+      "type": "XPathSelector",
+      "value": "//*[@xml:id='novel1_letter4_chapter1_p2']"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "@context": "http://www.w3.org/ns/anno.jsonld",
+  "id": "https://frankensteinvariorum.github.io/annotations/1823/16",
+  "type": "Annotation",
+  "generator": {
+   "id": "https://frankensteinvariorum.github.io/viewer",
+   "type": "Software",
+   "name": "Frankenstein Variorum",
+   "homepage": "https://github.com/FrankensteinVariorum/fv-data"
+  },
+  "generated": "2019-10-04T17:10:47.213771+00:00",
+  "body": [
+   {
+    "type": "TextualBody",
+    "purpose": "tagging",
+    "value": "change-ann"
+   },
+   {
+    "type": "TextualBody",
+    "purpose": "tagging",
+    "value": "jk"
+   },
+   {
+    "type": "TextualBody",
+    "value": "The next 11 paragraphs have been heavily altered from the 1818 edition. See individual comments.",
+    "creator": "https://hypothes.is/users/frankensteinvariorum",
+    "modified": "2019-10-04T17:10:47.213771+00:00",
+    "purpose": "commenting"
+   }
+  ],
+  "target": {
+   "source": "https://frankensteinvariorum.github.io/fv-collation/1823.html",
+   "type": "Text",
+   "selector": [
+    {
+     "type": "RangeSelector",
+     "startSelector": {
+      "type": "XPathSelector",
+      "value": "//*[@xml:id='novel1_letter4_chapter1_p6']"
+     },
+     "endSelector": {
+      "type": "XPathSelector",
+      "value": "//*[@xml:id='novel1_letter4_chapter2_p5']"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "@context": "http://www.w3.org/ns/anno.jsonld",
+  "id": "https://frankensteinvariorum.github.io/annotations/1823/17",
+  "type": "Annotation",
+  "generator": {
+   "id": "https://frankensteinvariorum.github.io/viewer",
+   "type": "Software",
+   "name": "Frankenstein Variorum",
+   "homepage": "https://github.com/FrankensteinVariorum/fv-data"
+  },
+  "generated": "2019-10-04T17:13:23.112980+00:00",
+  "body": [
+   {
+    "type": "TextualBody",
+    "purpose": "tagging",
+    "value": "change-ann"
+   },
+   {
+    "type": "TextualBody",
+    "purpose": "tagging",
+    "value": "race"
+   },
+   {
+    "type": "TextualBody",
+    "purpose": "tagging",
+    "value": "whiteness"
+   },
+   {
+    "type": "TextualBody",
+    "purpose": "tagging",
+    "value": "jk"
+   },
+   {
+    "type": "TextualBody",
+    "value": "In 1831, the foundling Elizabeth's nobility appears to be recognizable in her physiognomy. Her features are described in terms that might be read as typical markers of whiteness: \u201cthin of frame, fair of skin, and possessed of golden hair and blue eyes.\u201d \n\nDuring the early 19th century the field of \u201crace science\u201d was already established and growing. For instance, Linnaeus\u2019 *Systema naturae* (1758) infamously contains a hierarchy of homo sapiens based on skin color.\n\nIn discussions of these contextual sources in the \u201crace science,\u201d scholars have often focused on the Creature as a symbol of the racialized other. This alteration to Elizabeth\u2019s description in 1831 lends further credence to these readings by positioning Elizabeth, the spiritually and racially pure female, as has his ultimate victim.   \n\nSee, for instance: Mellor, Anne K. \u201cFrankenstein, Racial Science, and the Yellow Peril\u201d in Frankenstein Norton Critical Edition, 2nd Edition, ed. J. Paul Hunter (New York & London: W.W. Norton & Company, 2012), 481-489.",
+    "creator": "https://hypothes.is/users/frankensteinvariorum",
+    "modified": "2019-10-04T17:13:23.112980+00:00",
+    "purpose": "commenting"
+   }
+  ],
+  "target": {
+   "source": "https://frankensteinvariorum.github.io/fv-collation/1823.html",
+   "type": "Text",
+   "selector": [
+    {
+     "type": "RangeSelector",
+     "startSelector": {
+      "type": "XPathSelector",
+      "value": "//*[@xml:id='novel1_letter4_chapter1_p8']"
+     },
+     "endSelector": {
+      "type": "XPathSelector",
+      "value": "//*[@xml:id='novel1_letter4_chapter1_p9']"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "@context": "http://www.w3.org/ns/anno.jsonld",
+  "id": "https://frankensteinvariorum.github.io/annotations/1823/18",
+  "type": "Annotation",
+  "generator": {
+   "id": "https://frankensteinvariorum.github.io/viewer",
+   "type": "Software",
+   "name": "Frankenstein Variorum",
+   "homepage": "https://github.com/FrankensteinVariorum/fv-data"
+  },
+  "generated": "2019-10-04T17:11:48.715386+00:00",
+  "body": [
+   {
+    "type": "TextualBody",
+    "purpose": "tagging",
+    "value": "change-ann"
+   },
+   {
+    "type": "TextualBody",
+    "purpose": "tagging",
+    "value": "jk"
+   },
+   {
+    "type": "TextualBody",
+    "value": "From the Italian, \"slaves forever agitating\". Shelley's reference here may be referring to the Austro-Hungarian annexation of Lombardy. The \"enslavement\" of the Italian province occurred as a consequence of decisions made at the Congress of Vienna (1814-1815).",
+    "creator": "https://hypothes.is/users/frankensteinvariorum",
+    "modified": "2019-10-04T17:11:48.715386+00:00",
+    "purpose": "commenting"
+   }
+  ],
+  "target": {
+   "source": "https://frankensteinvariorum.github.io/fv-collation/1823.html",
+   "type": "Text",
+   "selector": [
+    {
+     "type": "RangeSelector",
+     "startSelector": {
+      "type": "XPathSelector",
+      "value": "//*[@xml:id='novel1_letter4_chapter1_p9']"
+     },
+     "endSelector": {
+      "type": "XPathSelector",
+      "value": "//*[@xml:id='novel1_letter4_chapter1_p9']"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "@context": "http://www.w3.org/ns/anno.jsonld",
+  "id": "https://frankensteinvariorum.github.io/annotations/1823/19",
+  "type": "Annotation",
+  "generator": {
+   "id": "https://frankensteinvariorum.github.io/viewer",
+   "type": "Software",
+   "name": "Frankenstein Variorum",
+   "homepage": "https://github.com/FrankensteinVariorum/fv-data"
+  },
+  "generated": "2019-10-04T17:12:25.013008+00:00",
+  "body": [
+   {
+    "type": "TextualBody",
+    "purpose": "tagging",
+    "value": "Draft"
+   },
+   {
+    "type": "TextualBody",
+    "purpose": "tagging",
+    "value": "Elizabeth"
+   },
+   {
+    "type": "TextualBody",
+    "purpose": "tagging",
+    "value": "change-ann"
+   },
+   {
+    "type": "TextualBody",
+    "purpose": "tagging",
+    "value": "jk"
+   },
+   {
+    "type": "TextualBody",
+    "value": "Elizabeth was also the name of Percy Shelley's mother. Mary changed the character's name from Myrtella to Elizabeth in the manuscript, unless this change was one of Percy's suggested changes. In Greek and Roman mythology, the flower myrtle was sacred to the goddess Venus (Aphrodite) and symbolized love.",
+    "creator": "https://hypothes.is/users/frankensteinvariorum",
+    "modified": "2019-10-04T17:12:25.013008+00:00",
+    "purpose": "commenting"
+   }
+  ],
+  "target": {
+   "source": "https://frankensteinvariorum.github.io/fv-collation/1823.html",
+   "type": "Text",
+   "selector": [
+    {
+     "type": "RangeSelector",
+     "startSelector": {
+      "type": "XPathSelector",
+      "value": "//*[@xml:id='novel1_letter4_chapter1_p11']"
+     },
+     "endSelector": {
+      "type": "XPathSelector",
+      "value": "//*[@xml:id='novel1_letter4_chapter1_p11']"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "@context": "http://www.w3.org/ns/anno.jsonld",
+  "id": "https://frankensteinvariorum.github.io/annotations/1823/20",
+  "type": "Annotation",
+  "generator": {
+   "id": "https://frankensteinvariorum.github.io/viewer",
+   "type": "Software",
+   "name": "Frankenstein Variorum",
+   "homepage": "https://github.com/FrankensteinVariorum/fv-data"
+  },
+  "generated": "2019-10-04T17:11:25.065111+00:00",
+  "body": [
+   {
+    "type": "TextualBody",
+    "purpose": "tagging",
+    "value": "change-ann"
+   },
+   {
+    "type": "TextualBody",
+    "purpose": "tagging",
+    "value": "domestic affections"
+   },
+   {
+    "type": "TextualBody",
+    "purpose": "tagging",
+    "value": "jk"
+   },
+   {
+    "type": "TextualBody",
+    "purpose": "tagging",
+    "value": "incest"
+   },
+   {
+    "type": "TextualBody",
+    "value": "When Victor calls Elizabeth \"cousin\" in the 1831 edition, the word is a term of endearment but not a term to take literally, since they have no blood relation. The term likely carries over, but with an entirely changed meaning, from the 1818 edition where Elizabeth actually is Victor's cousin (the daughter of his father's brother).\n\nIt is true, however, that incest was of significant fascination to Shelley. Her novella *Mathilda*, published posthumously in 1954, concerns the relationship of a woman with her father. After sending the manuscript of Mathilda to William Godwin, he told Shelley he found the depiction of incest \"disgusting and detestable,\" and refused to return the manuscript to his daughter.\n\nSee Janet Todd's edition of Mary's novel:Shelley, Mary. *Matilda; with Mary and Maria*, by Mary Wollstonecraft. Ed. Janet Todd. London: Penguin, 1992, p. xvii. ",
+    "creator": "https://hypothes.is/users/frankensteinvariorum",
+    "modified": "2019-10-04T17:11:25.065111+00:00",
+    "purpose": "commenting"
+   }
+  ],
+  "target": {
+   "source": "https://frankensteinvariorum.github.io/fv-collation/1823.html",
+   "type": "Text",
+   "selector": [
+    {
+     "type": "RangeSelector",
+     "startSelector": {
+      "type": "XPathSelector",
+      "value": "//*[@xml:id='novel1_letter4_chapter1_p11']"
+     },
+     "endSelector": {
+      "type": "XPathSelector",
+      "value": "//*[@xml:id='novel1_letter4_chapter1_p11']"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "@context": "http://www.w3.org/ns/anno.jsonld",
+  "id": "https://frankensteinvariorum.github.io/annotations/1823/21",
+  "type": "Annotation",
+  "generator": {
+   "id": "https://frankensteinvariorum.github.io/viewer",
+   "type": "Software",
+   "name": "Frankenstein Variorum",
+   "homepage": "https://github.com/FrankensteinVariorum/fv-data"
+  },
+  "generated": "2019-10-04T17:13:02.243307+00:00",
+  "body": [
+   {
+    "type": "TextualBody",
+    "purpose": "tagging",
+    "value": "education"
+   },
+   {
+    "type": "TextualBody",
+    "purpose": "tagging",
+    "value": "change-ann"
+   },
+   {
+    "type": "TextualBody",
+    "purpose": "tagging",
+    "value": "father"
+   },
+   {
+    "type": "TextualBody",
+    "purpose": "tagging",
+    "value": "jk"
+   },
+   {
+    "type": "TextualBody",
+    "value": "In this 1831 revision, Victor's expression \"former studies\" is generalized from the specific \"more rational theory of chemistry\" that appears in the 1818 edition. However, it is unclear what \"former studies\" Shelley is intimating here, as the scene with the copy of Agrippa is presented as the fateful moment of genesis for Victor's interest in science. \n\nThus, in the 1818 edition his father's gruff dismissal is presented as the foreclosure of a hypothetical redirection of Victor's curiosity towards \"modern discoveries\" of chemistry as an uncharted *course* of future study, rather than as a rebuke which threw him off the established *track* of his \"former studies.\"",
+    "creator": "https://hypothes.is/users/frankensteinvariorum",
+    "modified": "2019-10-04T17:13:02.243307+00:00",
+    "purpose": "commenting"
+   }
+  ],
+  "target": {
+   "source": "https://frankensteinvariorum.github.io/fv-collation/1823.html",
+   "type": "Text",
+   "selector": [
+    {
+     "type": "RangeSelector",
+     "startSelector": {
+      "type": "XPathSelector",
+      "value": "//*[@xml:id='novel1_letter4_chapter2_p8']"
+     },
+     "endSelector": {
+      "type": "XPathSelector",
+      "value": "//*[@xml:id='novel1_letter4_chapter2_p8']"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "@context": "http://www.w3.org/ns/anno.jsonld",
+  "id": "https://frankensteinvariorum.github.io/annotations/1823/22",
+  "type": "Annotation",
+  "generator": {
+   "id": "https://frankensteinvariorum.github.io/viewer",
+   "type": "Software",
+   "name": "Frankenstein Variorum",
+   "homepage": "https://github.com/FrankensteinVariorum/fv-data"
+  },
+  "generated": "2019-10-04T17:17:38.514633+00:00",
+  "body": [
+   {
+    "type": "TextualBody",
+    "purpose": "tagging",
+    "value": "change-ann"
+   },
+   {
+    "type": "TextualBody",
+    "purpose": "tagging",
+    "value": "Newton"
+   },
+   {
+    "type": "TextualBody",
+    "purpose": "tagging",
+    "value": "science"
+   },
+   {
+    "type": "TextualBody",
+    "purpose": "tagging",
+    "value": "jk"
+   },
+   {
+    "type": "TextualBody",
+    "value": "In this revision for the 1831 edition, Victor narrates a period of exploration and disillusionment with the emergent discourse of modern rational science, encapsulated here by the figure of Newton. \n",
+    "creator": "https://hypothes.is/users/frankensteinvariorum",
+    "modified": "2019-10-04T17:17:38.514633+00:00",
+    "purpose": "commenting"
+   }
+  ],
+  "target": {
+   "source": "https://frankensteinvariorum.github.io/fv-collation/1823.html",
+   "type": "Text",
+   "selector": [
+    {
+     "type": "RangeSelector",
+     "startSelector": {
+      "type": "XPathSelector",
+      "value": "//*[@xml:id='novel1_letter4_chapter2_p9']"
+     },
+     "endSelector": {
+      "type": "XPathSelector",
+      "value": "//*[@xml:id='novel1_letter4_chapter2_p11']"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "@context": "http://www.w3.org/ns/anno.jsonld",
+  "id": "https://frankensteinvariorum.github.io/annotations/1823/23",
+  "type": "Annotation",
+  "generator": {
+   "id": "https://frankensteinvariorum.github.io/viewer",
+   "type": "Software",
+   "name": "Frankenstein Variorum",
+   "homepage": "https://github.com/FrankensteinVariorum/fv-data"
+  },
+  "generated": "2019-10-04T17:15:29.599061+00:00",
+  "body": [
+   {
+    "type": "TextualBody",
+    "purpose": "tagging",
+    "value": "change-ann"
+   },
+   {
+    "type": "TextualBody",
+    "purpose": "tagging",
+    "value": "jk"
+   },
+   {
+    "type": "TextualBody",
+    "value": "The 1831 edition adds references to \"exploded systems\" and \"contradictory theories\" that underscore Victor's engagement with kinds of science animated by imagination and wonder rather than critical restraint or careful study.\n\nIn the tale of the blasted stump that follows this passage, as with his discovery of the copy of Agrippa, once again Victor's fate is presented as the result of a confluence of his childlike enthusiasm and cosmic accident.  ",
+    "creator": "https://hypothes.is/users/frankensteinvariorum",
+    "modified": "2019-10-04T17:15:29.599061+00:00",
+    "purpose": "commenting"
+   }
+  ],
+  "target": {
+   "source": "https://frankensteinvariorum.github.io/fv-collation/1823.html",
+   "type": "Text",
+   "selector": [
+    {
+     "type": "RangeSelector",
+     "startSelector": {
+      "type": "XPathSelector",
+      "value": "//*[@xml:id='novel1_letter4_chapter2_p12']"
+     },
+     "endSelector": {
+      "type": "XPathSelector",
+      "value": "//*[@xml:id='novel1_letter4_chapter2_p12']"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "@context": "http://www.w3.org/ns/anno.jsonld",
+  "id": "https://frankensteinvariorum.github.io/annotations/1823/24",
+  "type": "Annotation",
+  "generator": {
+   "id": "https://frankensteinvariorum.github.io/viewer",
+   "type": "Software",
+   "name": "Frankenstein Variorum",
+   "homepage": "https://github.com/FrankensteinVariorum/fv-data"
+  },
+  "generated": "2019-10-04T17:11:35.843791+00:00",
+  "body": [
+   {
+    "type": "TextualBody",
+    "purpose": "tagging",
+    "value": "electricity"
+   },
+   {
+    "type": "TextualBody",
+    "purpose": "tagging",
+    "value": "Galvani"
+   },
+   {
+    "type": "TextualBody",
+    "purpose": "tagging",
+    "value": "science"
+   },
+   {
+    "type": "TextualBody",
+    "purpose": "tagging",
+    "value": "jk"
+   },
+   {
+    "type": "TextualBody",
+    "purpose": "tagging",
+    "value": "change-ann"
+   },
+   {
+    "type": "TextualBody",
+    "value": "In this section, in 1831 three paragraphs of text replace a five-paragraph section in 1818.\n\nAwed by the destructive power of the lightning-blast and their companions discourse on galvanism, Victor throws aside the \"tormenting studies\" of both medieval alchemy and  natural philosophy which had hitherto fueled his sense of wonder and formed the basis of his intellectual obsessions. Turning instead to mathematics, he enjoys a brief respite from his torments, but his former desires will overtake him again.",
+    "creator": "https://hypothes.is/users/frankensteinvariorum",
+    "modified": "2019-10-04T17:11:35.843791+00:00",
+    "purpose": "commenting"
+   }
+  ],
+  "target": {
+   "source": "https://frankensteinvariorum.github.io/fv-collation/1823.html",
+   "type": "Text",
+   "selector": [
+    {
+     "type": "RangeSelector",
+     "startSelector": {
+      "type": "XPathSelector",
+      "value": "//*[@xml:id='novel1_letter4_chapter2_p14']"
+     },
+     "endSelector": {
+      "type": "XPathSelector",
+      "value": "//*[@xml:id='novel1_letter4_chapter2_p16']"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "@context": "http://www.w3.org/ns/anno.jsonld",
+  "id": "https://frankensteinvariorum.github.io/annotations/1823/25",
+  "type": "Annotation",
+  "generator": {
+   "id": "https://frankensteinvariorum.github.io/viewer",
+   "type": "Software",
+   "name": "Frankenstein Variorum",
+   "homepage": "https://github.com/FrankensteinVariorum/fv-data"
+  },
+  "generated": "2019-10-04T17:13:31.687767+00:00",
+  "body": [
+   {
+    "type": "TextualBody",
+    "purpose": "tagging",
+    "value": "change-ann"
+   },
+   {
+    "type": "TextualBody",
+    "purpose": "tagging",
+    "value": "jk"
+   },
+   {
+    "type": "TextualBody",
+    "value": "In this 1831 revision, Shelley reverses Elizabeth's bout of scarlet fever from \"not severe\" to \"severe\" so that it represents the \"greatest danger\" to her health.\n\nIn the 1818 edition, Elizabeth is the indirect cause of both her biological mother and stepmother's death. Her mother dies in childbirth, while Victor's mother falls fatally ill after caring for Elizabeth during her bout of scarlet fever. \n",
+    "creator": "https://hypothes.is/users/frankensteinvariorum",
+    "modified": "2019-10-04T17:13:31.687767+00:00",
+    "purpose": "commenting"
+   }
+  ],
+  "target": {
+   "source": "https://frankensteinvariorum.github.io/fv-collation/1823.html",
+   "type": "Text",
+   "selector": [
+    {
+     "type": "RangeSelector",
+     "startSelector": {
+      "type": "XPathSelector",
+      "value": "//*[@xml:id='novel1_letter4_chapter3_p2']"
+     },
+     "endSelector": {
+      "type": "XPathSelector",
+      "value": "//*[@xml:id='novel1_letter4_chapter3_p2']"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "@context": "http://www.w3.org/ns/anno.jsonld",
+  "id": "https://frankensteinvariorum.github.io/annotations/1823/26",
+  "type": "Annotation",
+  "generator": {
+   "id": "https://frankensteinvariorum.github.io/viewer",
+   "type": "Software",
+   "name": "Frankenstein Variorum",
+   "homepage": "https://github.com/FrankensteinVariorum/fv-data"
+  },
+  "generated": "2019-10-04T17:12:09.012654+00:00",
+  "body": [
+   {
+    "type": "TextualBody",
+    "purpose": "tagging",
+    "value": "change-ann"
+   },
+   {
+    "type": "TextualBody",
+    "purpose": "tagging",
+    "value": "Elizabeth"
+   },
+   {
+    "type": "TextualBody",
+    "purpose": "tagging",
+    "value": "domestic affections"
+   },
+   {
+    "type": "TextualBody",
+    "purpose": "tagging",
+    "value": "jk"
+   },
+   {
+    "type": "TextualBody",
+    "value": "In this revision for 1831 Elizabeth's comportment following her mother's death is altered slightly from an \"imperious duty\" to give care to her family, to a willfully \"veiled\" grief in an effort to forget her sorrows.",
+    "creator": "https://hypothes.is/users/frankensteinvariorum",
+    "modified": "2019-10-04T17:12:09.012654+00:00",
+    "purpose": "commenting"
+   }
+  ],
+  "target": {
+   "source": "https://frankensteinvariorum.github.io/fv-collation/1823.html",
+   "type": "Text",
+   "selector": [
+    {
+     "type": "RangeSelector",
+     "startSelector": {
+      "type": "XPathSelector",
+      "value": "//*[@xml:id='novel1_letter4_chapter3_p4']"
+     },
+     "endSelector": {
+      "type": "XPathSelector",
+      "value": "//*[@xml:id='novel1_letter4_chapter3_p5']"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "@context": "http://www.w3.org/ns/anno.jsonld",
+  "id": "https://frankensteinvariorum.github.io/annotations/1823/27",
+  "type": "Annotation",
+  "generator": {
+   "id": "https://frankensteinvariorum.github.io/viewer",
+   "type": "Software",
+   "name": "Frankenstein Variorum",
+   "homepage": "https://github.com/FrankensteinVariorum/fv-data"
+  },
+  "generated": "2019-10-04T17:12:57.141798+00:00",
+  "body": [
+   {
+    "type": "TextualBody",
+    "purpose": "tagging",
+    "value": "change-ann"
+   },
+   {
+    "type": "TextualBody",
+    "purpose": "tagging",
+    "value": "Clerval"
+   },
+   {
+    "type": "TextualBody",
+    "purpose": "tagging",
+    "value": "citation"
+   },
+   {
+    "type": "TextualBody",
+    "purpose": "tagging",
+    "value": "jk"
+   },
+   {
+    "type": "TextualBody",
+    "value": "In the 1831 revision, Henry Clerval is a more pitiable figure., acutely feeling the loss of his chance to pursue his passions in university studies. ",
+    "creator": "https://hypothes.is/users/frankensteinvariorum",
+    "modified": "2019-10-04T17:12:57.141798+00:00",
+    "purpose": "commenting"
+   }
+  ],
+  "target": {
+   "source": "https://frankensteinvariorum.github.io/fv-collation/1823.html",
+   "type": "Text",
+   "selector": [
+    {
+     "type": "RangeSelector",
+     "startSelector": {
+      "type": "XPathSelector",
+      "value": "//*[@xml:id='novel1_letter4_chapter3_p6']"
+     },
+     "endSelector": {
+      "type": "XPathSelector",
+      "value": "//*[@xml:id='novel1_letter4_chapter3_p8']"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "@context": "http://www.w3.org/ns/anno.jsonld",
+  "id": "https://frankensteinvariorum.github.io/annotations/1823/28",
+  "type": "Annotation",
+  "generator": {
+   "id": "https://frankensteinvariorum.github.io/viewer",
+   "type": "Software",
+   "name": "Frankenstein Variorum",
+   "homepage": "https://github.com/FrankensteinVariorum/fv-data"
+  },
+  "generated": "2019-10-04T17:14:49.272863+00:00",
+  "body": [
+   {
+    "type": "TextualBody",
+    "purpose": "tagging",
+    "value": "change-ann"
+   },
+   {
+    "type": "TextualBody",
+    "purpose": "tagging",
+    "value": "jk"
+   },
+   {
+    "type": "TextualBody",
+    "value": "In the 1831 edition, the portrayal of Professor M.Krempe becomes even more unflattering than it was in the 1818 version, showing him to be \"uncouth\" and Victor's evil \"Angel of Destruction.\"",
+    "creator": "https://hypothes.is/users/frankensteinvariorum",
+    "modified": "2019-10-04T17:14:49.272863+00:00",
+    "purpose": "commenting"
+   }
+  ],
+  "target": {
+   "source": "https://frankensteinvariorum.github.io/fv-collation/1823.html",
+   "type": "Text",
+   "selector": [
+    {
+     "type": "RangeSelector",
+     "startSelector": {
+      "type": "XPathSelector",
+      "value": "//*[@xml:id='novel1_letter4_chapter3_p10']"
+     },
+     "endSelector": {
+      "type": "XPathSelector",
+      "value": "//*[@xml:id='novel1_letter4_chapter3_p10']"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "@context": "http://www.w3.org/ns/anno.jsonld",
+  "id": "https://frankensteinvariorum.github.io/annotations/1823/29",
+  "type": "Annotation",
+  "generator": {
+   "id": "https://frankensteinvariorum.github.io/viewer",
+   "type": "Software",
+   "name": "Frankenstein Variorum",
+   "homepage": "https://github.com/FrankensteinVariorum/fv-data"
+  },
+  "generated": "2019-10-04T17:11:21.135812+00:00",
+  "body": [
+   {
+    "type": "TextualBody",
+    "purpose": "tagging",
+    "value": "change-ann"
+   },
+   {
+    "type": "TextualBody",
+    "purpose": "tagging",
+    "value": "science"
+   },
+   {
+    "type": "TextualBody",
+    "purpose": "tagging",
+    "value": "education"
+   },
+   {
+    "type": "TextualBody",
+    "purpose": "tagging",
+    "value": "Victor"
+   },
+   {
+    "type": "TextualBody",
+    "purpose": "tagging",
+    "value": "jk"
+   },
+   {
+    "type": "TextualBody",
+    "value": "Shelley adds this 1831 passage in which she traces Victor's fascination with alchemy and outmoded scientific ideas to an impetuous childhood, while the 1818 edition shows Victor reading the ancient sciences as an adult.",
+    "creator": "https://hypothes.is/users/frankensteinvariorum",
+    "modified": "2019-10-04T17:11:21.135812+00:00",
+    "purpose": "commenting"
+   }
+  ],
+  "target": {
+   "source": "https://frankensteinvariorum.github.io/fv-collation/1823.html",
+   "type": "Text",
+   "selector": [
+    {
+     "type": "RangeSelector",
+     "startSelector": {
+      "type": "XPathSelector",
+      "value": "//*[@xml:id='novel1_letter4_chapter3_p13']"
+     },
+     "endSelector": {
+      "type": "XPathSelector",
+      "value": "//*[@xml:id='novel1_letter4_chapter3_p13']"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "@context": "http://www.w3.org/ns/anno.jsonld",
+  "id": "https://frankensteinvariorum.github.io/annotations/1823/30",
+  "type": "Annotation",
+  "generator": {
+   "id": "https://frankensteinvariorum.github.io/viewer",
+   "type": "Software",
+   "name": "Frankenstein Variorum",
+   "homepage": "https://github.com/FrankensteinVariorum/fv-data"
+  },
+  "generated": "2019-10-04T17:13:35.505667+00:00",
+  "body": [
+   {
+    "type": "TextualBody",
+    "purpose": "tagging",
+    "value": "change-ann"
+   },
+   {
+    "type": "TextualBody",
+    "purpose": "tagging",
+    "value": "Victor"
+   },
+   {
+    "type": "TextualBody",
+    "purpose": "tagging",
+    "value": "jk"
+   },
+   {
+    "type": "TextualBody",
+    "value": "In this addition to 1831, Shelley emphasizes the importance of Ingolstadt as Victor's university-town environment during his medical training.",
+    "creator": "https://hypothes.is/users/frankensteinvariorum",
+    "modified": "2019-10-04T17:13:35.505667+00:00",
+    "purpose": "commenting"
+   }
+  ],
+  "target": {
+   "source": "https://frankensteinvariorum.github.io/fv-collation/1823.html",
+   "type": "Text",
+   "selector": [
+    {
+     "type": "RangeSelector",
+     "startSelector": {
+      "type": "XPathSelector",
+      "value": "//*[@xml:id='novel1_letter4_chapter3_p14']"
+     },
+     "endSelector": {
+      "type": "XPathSelector",
+      "value": "//*[@xml:id='novel1_letter4_chapter3_p14']"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "@context": "http://www.w3.org/ns/anno.jsonld",
+  "id": "https://frankensteinvariorum.github.io/annotations/1823/31",
+  "type": "Annotation",
+  "generator": {
+   "id": "https://frankensteinvariorum.github.io/viewer",
+   "type": "Software",
+   "name": "Frankenstein Variorum",
+   "homepage": "https://github.com/FrankensteinVariorum/fv-data"
+  },
+  "generated": "2019-10-04T17:15:13.309516+00:00",
+  "body": [
+   {
+    "type": "TextualBody",
+    "purpose": "tagging",
+    "value": "change-ann"
+   },
+   {
+    "type": "TextualBody",
+    "purpose": "tagging",
+    "value": "education"
+   },
+   {
+    "type": "TextualBody",
+    "purpose": "tagging",
+    "value": "science"
+   },
+   {
+    "type": "TextualBody",
+    "purpose": "tagging",
+    "value": "jk"
+   },
+   {
+    "type": "TextualBody",
+    "value": "In this 1831 revision, M. Waldman's influence depends less on his personality or charisma and more on his capabilities as a teacher.",
+    "creator": "https://hypothes.is/users/frankensteinvariorum",
+    "modified": "2019-10-04T17:15:13.309516+00:00",
+    "purpose": "commenting"
+   }
+  ],
+  "target": {
+   "source": "https://frankensteinvariorum.github.io/fv-collation/1823.html",
+   "type": "Text",
+   "selector": [
+    {
+     "type": "RangeSelector",
+     "startSelector": {
+      "type": "XPathSelector",
+      "value": "//*[@xml:id='novel1_letter4_chapter4_p1']"
+     },
+     "endSelector": {
+      "type": "XPathSelector",
+      "value": "//*[@xml:id='novel1_letter4_chapter4_p1']"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "@context": "http://www.w3.org/ns/anno.jsonld",
+  "id": "https://frankensteinvariorum.github.io/annotations/1823/32",
+  "type": "Annotation",
+  "generator": {
+   "id": "https://frankensteinvariorum.github.io/viewer",
+   "type": "Software",
+   "name": "Frankenstein Variorum",
+   "homepage": "https://github.com/FrankensteinVariorum/fv-data"
+  },
+  "generated": "2019-10-04T17:13:08.472651+00:00",
+  "body": [
+   {
+    "type": "TextualBody",
+    "purpose": "tagging",
+    "value": "change-ann"
+   },
+   {
+    "type": "TextualBody",
+    "purpose": "tagging",
+    "value": "Victor"
+   },
+   {
+    "type": "TextualBody",
+    "purpose": "tagging",
+    "value": "jk"
+   },
+   {
+    "type": "TextualBody",
+    "value": "in this revision to 1831 Victor's physical deterioration, as a result of his obsessive work and research, is more clearly linked to a deteriorating mental state as well. ",
+    "creator": "https://hypothes.is/users/frankensteinvariorum",
+    "modified": "2019-10-04T17:13:08.472651+00:00",
+    "purpose": "commenting"
+   }
+  ],
+  "target": {
+   "source": "https://frankensteinvariorum.github.io/fv-collation/1823.html",
+   "type": "Text",
+   "selector": [
+    {
+     "type": "RangeSelector",
+     "startSelector": {
+      "type": "XPathSelector",
+      "value": "//*[@xml:id='novel1_letter4_chapter4_p14']"
+     },
+     "endSelector": {
+      "type": "XPathSelector",
+      "value": "//*[@xml:id='novel1_letter4_chapter4_p14']"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "@context": "http://www.w3.org/ns/anno.jsonld",
+  "id": "https://frankensteinvariorum.github.io/annotations/1823/33",
+  "type": "Annotation",
+  "generator": {
+   "id": "https://frankensteinvariorum.github.io/viewer",
+   "type": "Software",
+   "name": "Frankenstein Variorum",
+   "homepage": "https://github.com/FrankensteinVariorum/fv-data"
+  },
+  "generated": "2019-10-04T17:14:25.467699+00:00",
+  "body": [
+   {
+    "type": "TextualBody",
+    "purpose": "tagging",
+    "value": "change-ann"
+   },
+   {
+    "type": "TextualBody",
+    "purpose": "tagging",
+    "value": "Elizabeth"
+   },
+   {
+    "type": "TextualBody",
+    "purpose": "tagging",
+    "value": "jk"
+   },
+   {
+    "type": "TextualBody",
+    "value": "In 1831, the opening to Elizabeth's letter is significantly re-written. Here she seems more desperate to see Victor and vouchsafe for his health. Her discussion of Ernest also changes: Shelley leaves out her lengthy excursus on the virtues of farming, as opposed to practicing law. Instead,  Ernest is described as patriotic and considering a military career.",
+    "creator": "https://hypothes.is/users/frankensteinvariorum",
+    "modified": "2019-10-04T17:14:25.467699+00:00",
+    "purpose": "commenting"
+   }
+  ],
+  "target": {
+   "source": "https://frankensteinvariorum.github.io/fv-collation/1823.html",
+   "type": "Text",
+   "selector": [
+    {
+     "type": "RangeSelector",
+     "startSelector": {
+      "type": "XPathSelector",
+      "value": "//*[@xml:id='novel1_letter4_chapter6_p1']"
+     },
+     "endSelector": {
+      "type": "XPathSelector",
+      "value": "//*[@xml:id='novel1_letter4_chapter6_p5']"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "@context": "http://www.w3.org/ns/anno.jsonld",
+  "id": "https://frankensteinvariorum.github.io/annotations/1823/34",
+  "type": "Annotation",
+  "generator": {
+   "id": "https://frankensteinvariorum.github.io/viewer",
+   "type": "Software",
+   "name": "Frankenstein Variorum",
+   "homepage": "https://github.com/FrankensteinVariorum/fv-data"
+  },
+  "generated": "2019-10-04T17:13:49.368658+00:00",
+  "body": [
+   {
+    "type": "TextualBody",
+    "purpose": "tagging",
+    "value": "change-ann"
+   },
+   {
+    "type": "TextualBody",
+    "purpose": "tagging",
+    "value": "Elizabeth"
+   },
+   {
+    "type": "TextualBody",
+    "purpose": "tagging",
+    "value": "jk"
+   },
+   {
+    "type": "TextualBody",
+    "value": "In this 1831 revision, Elizabeth's letter is slightly more urgent for some communication from Victor.  ",
+    "creator": "https://hypothes.is/users/frankensteinvariorum",
+    "modified": "2019-10-04T17:13:49.368658+00:00",
+    "purpose": "commenting"
+   }
+  ],
+  "target": {
+   "source": "https://frankensteinvariorum.github.io/fv-collation/1823.html",
+   "type": "Text",
+   "selector": [
+    {
+     "type": "RangeSelector",
+     "startSelector": {
+      "type": "XPathSelector",
+      "value": "//*[@xml:id='novel1_letter4_chapter6_p11']"
+     },
+     "endSelector": {
+      "type": "XPathSelector",
+      "value": "//*[@xml:id='novel1_letter4_chapter6_p11']"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "@context": "http://www.w3.org/ns/anno.jsonld",
+  "id": "https://frankensteinvariorum.github.io/annotations/1823/35",
+  "type": "Annotation",
+  "generator": {
+   "id": "https://frankensteinvariorum.github.io/viewer",
+   "type": "Software",
+   "name": "Frankenstein Variorum",
+   "homepage": "https://github.com/FrankensteinVariorum/fv-data"
+  },
+  "generated": "2019-10-04T17:10:31.748048+00:00",
+  "body": [
+   {
+    "type": "TextualBody",
+    "purpose": "tagging",
+    "value": "change-ann"
+   },
+   {
+    "type": "TextualBody",
+    "purpose": "tagging",
+    "value": "jk"
+   },
+   {
+    "type": "TextualBody",
+    "value": "In these 1831 revisions, Clerval's interest in Eastern languages and literature is a more scholarly and focused pursuit than in 1818. For instance, where in 1818 he studies Hebrew, a familiar ancient European language, the 1831 text shows him reading \"oriental\" texts to study the more archaic and difficult Sanskrit.  \n",
+    "creator": "https://hypothes.is/users/frankensteinvariorum",
+    "modified": "2019-10-04T17:10:31.748048+00:00",
+    "purpose": "commenting"
+   }
+  ],
+  "target": {
+   "source": "https://frankensteinvariorum.github.io/fv-collation/1823.html",
+   "type": "Text",
+   "selector": [
+    {
+     "type": "RangeSelector",
+     "startSelector": {
+      "type": "XPathSelector",
+      "value": "//*[@xml:id='novel1_letter4_chapter6_p18']"
+     },
+     "endSelector": {
+      "type": "XPathSelector",
+      "value": "//*[@xml:id='novel1_letter4_chapter6_p18']"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "@context": "http://www.w3.org/ns/anno.jsonld",
+  "id": "https://frankensteinvariorum.github.io/annotations/1823/36",
+  "type": "Annotation",
+  "generator": {
+   "id": "https://frankensteinvariorum.github.io/viewer",
+   "type": "Software",
+   "name": "Frankenstein Variorum",
+   "homepage": "https://github.com/FrankensteinVariorum/fv-data"
+  },
+  "generated": "2019-10-04T17:10:29.167614+00:00",
+  "body": [
+   {
+    "type": "TextualBody",
+    "purpose": "tagging",
+    "value": "Clerval"
+   },
+   {
+    "type": "TextualBody",
+    "purpose": "tagging",
+    "value": "ancient"
+   },
+   {
+    "type": "TextualBody",
+    "purpose": "tagging",
+    "value": "change-ann"
+   },
+   {
+    "type": "TextualBody",
+    "purpose": "tagging",
+    "value": "jk"
+   },
+   {
+    "type": "TextualBody",
+    "value": "In 1831, Clerval's words emotionally underscore the abhorrent nature of the crime. This outcry replaces a more philosophical reference in 1818 to the \"maxims of the Stoics.\" ",
+    "creator": "https://hypothes.is/users/frankensteinvariorum",
+    "modified": "2019-10-04T17:10:29.167614+00:00",
+    "purpose": "commenting"
+   }
+  ],
+  "target": {
+   "source": "https://frankensteinvariorum.github.io/fv-collation/1823.html",
+   "type": "Text",
+   "selector": [
+    {
+     "type": "RangeSelector",
+     "startSelector": {
+      "type": "XPathSelector",
+      "value": "//*[@xml:id='novel1_letter4_chapter7_p20']"
+     },
+     "endSelector": {
+      "type": "XPathSelector",
+      "value": "//*[@xml:id='novel1_letter4_chapter7_p20']"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "@context": "http://www.w3.org/ns/anno.jsonld",
+  "id": "https://frankensteinvariorum.github.io/annotations/1823/37",
+  "type": "Annotation",
+  "generator": {
+   "id": "https://frankensteinvariorum.github.io/viewer",
+   "type": "Software",
+   "name": "Frankenstein Variorum",
+   "homepage": "https://github.com/FrankensteinVariorum/fv-data"
+  },
+  "generated": "2019-10-04T17:15:51.268221+00:00",
+  "body": [
+   {
+    "type": "TextualBody",
+    "purpose": "tagging",
+    "value": "change-ann"
+   },
+   {
+    "type": "TextualBody",
+    "purpose": "tagging",
+    "value": "Justine"
+   },
+   {
+    "type": "TextualBody",
+    "purpose": "tagging",
+    "value": "creature"
+   },
+   {
+    "type": "TextualBody",
+    "purpose": "tagging",
+    "value": "jk"
+   },
+   {
+    "type": "TextualBody",
+    "value": "In this 1831 addition, Justine's testimony mentions the sound of \"some steps\" disturbing her as she waited out the night in the barn. This may be another reference to the creature, as with Victor's near slip with Ernest. ",
+    "creator": "https://hypothes.is/users/frankensteinvariorum",
+    "modified": "2019-10-04T17:15:51.268221+00:00",
+    "purpose": "commenting"
+   }
+  ],
+  "target": {
+   "source": "https://frankensteinvariorum.github.io/fv-collation/1823.html",
+   "type": "Text",
+   "selector": [
+    {
+     "type": "RangeSelector",
+     "startSelector": {
+      "type": "XPathSelector",
+      "value": "//*[@xml:id='novel1_letter4_chapter8_p6']"
+     },
+     "endSelector": {
+      "type": "XPathSelector",
+      "value": "//*[@xml:id='novel1_letter4_chapter8_p6']"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "@context": "http://www.w3.org/ns/anno.jsonld",
+  "id": "https://frankensteinvariorum.github.io/annotations/1823/38",
+  "type": "Annotation",
+  "generator": {
+   "id": "https://frankensteinvariorum.github.io/viewer",
+   "type": "Software",
+   "name": "Frankenstein Variorum",
+   "homepage": "https://github.com/FrankensteinVariorum/fv-data"
+  },
+  "generated": "2019-10-04T17:12:34.571009+00:00",
+  "body": [
+   {
+    "type": "TextualBody",
+    "purpose": "tagging",
+    "value": "change-ann"
+   },
+   {
+    "type": "TextualBody",
+    "purpose": "tagging",
+    "value": "Justine"
+   },
+   {
+    "type": "TextualBody",
+    "purpose": "tagging",
+    "value": "Victor"
+   },
+   {
+    "type": "TextualBody",
+    "purpose": "tagging",
+    "value": "jk"
+   },
+   {
+    "type": "TextualBody",
+    "value": " In this change to the 1831, the certainty with which Justine is convicted causes Victor to question his own convictions about the creature's involvement. ",
+    "creator": "https://hypothes.is/users/frankensteinvariorum",
+    "modified": "2019-10-04T17:12:34.571009+00:00",
+    "purpose": "commenting"
+   }
+  ],
+  "target": {
+   "source": "https://frankensteinvariorum.github.io/fv-collation/1823.html",
+   "type": "Text",
+   "selector": [
+    {
+     "type": "RangeSelector",
+     "startSelector": {
+      "type": "XPathSelector",
+      "value": "//*[@xml:id='novel1_letter4_chapter8_p14']"
+     },
+     "endSelector": {
+      "type": "XPathSelector",
+      "value": "//*[@xml:id='novel1_letter4_chapter8_p14']"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "@context": "http://www.w3.org/ns/anno.jsonld",
+  "id": "https://frankensteinvariorum.github.io/annotations/1823/39",
+  "type": "Annotation",
+  "generator": {
+   "id": "https://frankensteinvariorum.github.io/viewer",
+   "type": "Software",
+   "name": "Frankenstein Variorum",
+   "homepage": "https://github.com/FrankensteinVariorum/fv-data"
+  },
+  "generated": "2019-10-04T17:12:29.768987+00:00",
+  "body": [
+   {
+    "type": "TextualBody",
+    "purpose": "tagging",
+    "value": "change-ann"
+   },
+   {
+    "type": "TextualBody",
+    "purpose": "tagging",
+    "value": "jk"
+   },
+   {
+    "type": "TextualBody",
+    "value": "The 1831 edition adds the words \"perhaps never,\" suggesting Victor has never recovered from the shock of the Creature's animation in Volume 1, intensifying his reaction to the death of Justine.",
+    "creator": "https://hypothes.is/users/frankensteinvariorum",
+    "modified": "2019-10-04T17:12:29.768987+00:00",
+    "purpose": "commenting"
+   }
+  ],
+  "target": {
+   "source": "https://frankensteinvariorum.github.io/fv-collation/1823.html",
+   "type": "Text",
+   "selector": [
+    {
+     "type": "RangeSelector",
+     "startSelector": {
+      "type": "XPathSelector",
+      "value": "//*[@xml:id='novel1_letter4_chapter9_p2']"
+     },
+     "endSelector": {
+      "type": "XPathSelector",
+      "value": "//*[@xml:id='novel1_letter4_chapter9_p2']"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "@context": "http://www.w3.org/ns/anno.jsonld",
+  "id": "https://frankensteinvariorum.github.io/annotations/1823/40",
+  "type": "Annotation",
+  "generator": {
+   "id": "https://frankensteinvariorum.github.io/viewer",
+   "type": "Software",
+   "name": "Frankenstein Variorum",
+   "homepage": "https://github.com/FrankensteinVariorum/fv-data"
+  },
+  "generated": "2019-10-04T17:13:17.113743+00:00",
+  "body": [
+   {
+    "type": "TextualBody",
+    "purpose": "tagging",
+    "value": "change-ann"
+   },
+   {
+    "type": "TextualBody",
+    "purpose": "tagging",
+    "value": "jk"
+   },
+   {
+    "type": "TextualBody",
+    "value": "Mary Shelley made a number of changes to this passage across editions. In the manuscript, 1818, and 1823 editions, Victor's father tries \"to reason\" with and console his son. In the 1831 edition the appeal to reason has disappeared. Instead Victor's father makes a Romantic injunction, proceeding from a \"serene conscience and guiltless life,\" which he hopes will \"inspire [Victor] with fortitude\" and awaken in him \"the courage to dispel the dark clouds\" brooding over him. Since Shelley also toyed with  this passage in the Thomas Copy, it was clearly an unsettled moment in the novel in her mind.",
+    "creator": "https://hypothes.is/users/frankensteinvariorum",
+    "modified": "2019-10-04T17:13:17.113743+00:00",
+    "purpose": "commenting"
+   }
+  ],
+  "target": {
+   "source": "https://frankensteinvariorum.github.io/fv-collation/1823.html",
+   "type": "Text",
+   "selector": [
+    {
+     "type": "RangeSelector",
+     "startSelector": {
+      "type": "XPathSelector",
+      "value": "//*[@xml:id='novel1_letter4_chapter9_p3']"
+     },
+     "endSelector": {
+      "type": "XPathSelector",
+      "value": "//*[@xml:id='novel1_letter4_chapter9_p3']"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "@context": "http://www.w3.org/ns/anno.jsonld",
+  "id": "https://frankensteinvariorum.github.io/annotations/1823/41",
+  "type": "Annotation",
+  "generator": {
+   "id": "https://frankensteinvariorum.github.io/viewer",
+   "type": "Software",
+   "name": "Frankenstein Variorum",
+   "homepage": "https://github.com/FrankensteinVariorum/fv-data"
+  },
+  "generated": "2019-10-04T17:13:44.408717+00:00",
+  "body": [
+   {
+    "type": "TextualBody",
+    "purpose": "tagging",
+    "value": "change-ann"
+   },
+   {
+    "type": "TextualBody",
+    "purpose": "tagging",
+    "value": "jk"
+   },
+   {
+    "type": "TextualBody",
+    "value": "This addition to the 1831 emphasizes Victor's sense of his culpability for the Creature's actions.",
+    "creator": "https://hypothes.is/users/frankensteinvariorum",
+    "modified": "2019-10-04T17:13:44.408717+00:00",
+    "purpose": "commenting"
+   }
+  ],
+  "target": {
+   "source": "https://frankensteinvariorum.github.io/fv-collation/1823.html",
+   "type": "Text",
+   "selector": [
+    {
+     "type": "RangeSelector",
+     "startSelector": {
+      "type": "XPathSelector",
+      "value": "//*[@xml:id='novel1_letter4_chapter9_p4']"
+     },
+     "endSelector": {
+      "type": "XPathSelector",
+      "value": "//*[@xml:id='novel1_letter4_chapter9_p4']"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "@context": "http://www.w3.org/ns/anno.jsonld",
+  "id": "https://frankensteinvariorum.github.io/annotations/1823/42",
+  "type": "Annotation",
+  "generator": {
+   "id": "https://frankensteinvariorum.github.io/viewer",
+   "type": "Software",
+   "name": "Frankenstein Variorum",
+   "homepage": "https://github.com/FrankensteinVariorum/fv-data"
+  },
+  "generated": "2019-10-04T17:16:22.623856+00:00",
+  "body": [
+   {
+    "type": "TextualBody",
+    "purpose": "tagging",
+    "value": "change-ann"
+   },
+   {
+    "type": "TextualBody",
+    "purpose": "tagging",
+    "value": "jk"
+   },
+   {
+    "type": "TextualBody",
+    "value": "In this 1831 revision, Shelley emphasizes the physiognomy of Elizabeth's melancholy, witness by Victor in her somber countenance, absent in previous editions.",
+    "creator": "https://hypothes.is/users/frankensteinvariorum",
+    "modified": "2019-10-04T17:16:22.623856+00:00",
+    "purpose": "commenting"
+   }
+  ],
+  "target": {
+   "source": "https://frankensteinvariorum.github.io/fv-collation/1823.html",
+   "type": "Text",
+   "selector": [
+    {
+     "type": "RangeSelector",
+     "startSelector": {
+      "type": "XPathSelector",
+      "value": "//*[@xml:id='novel1_letter4_chapter9_p7']"
+     },
+     "endSelector": {
+      "type": "XPathSelector",
+      "value": "//*[@xml:id='novel1_letter4_chapter9_p7']"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "@context": "http://www.w3.org/ns/anno.jsonld",
+  "id": "https://frankensteinvariorum.github.io/annotations/1823/43",
+  "type": "Annotation",
+  "generator": {
+   "id": "https://frankensteinvariorum.github.io/viewer",
+   "type": "Software",
+   "name": "Frankenstein Variorum",
+   "homepage": "https://github.com/FrankensteinVariorum/fv-data"
+  },
+  "generated": "2019-10-04T17:17:18.593053+00:00",
+  "body": [
+   {
+    "type": "TextualBody",
+    "purpose": "tagging",
+    "value": "change-ann"
+   },
+   {
+    "type": "TextualBody",
+    "purpose": "tagging",
+    "value": "jk"
+   },
+   {
+    "type": "TextualBody",
+    "value": "In this lengthy revision to the 1831 edition, Shelley emphasizes Victor's wariness in becoming close to Elizabeth, should she meet the same fate as Justine. Importantly, the journey along the Arve Valley is made by Victor alone, giving him cause to reflect on his journey with greater nostalgia. In the earlier editions, Victor travels with Elizabeth, his father, and his brother Ernest. ",
+    "creator": "https://hypothes.is/users/frankensteinvariorum",
+    "modified": "2019-10-04T17:17:18.593053+00:00",
+    "purpose": "commenting"
+   }
+  ],
+  "target": {
+   "source": "https://frankensteinvariorum.github.io/fv-collation/1823.html",
+   "type": "Text",
+   "selector": [
+    {
+     "type": "RangeSelector",
+     "startSelector": {
+      "type": "XPathSelector",
+      "value": "//*[@xml:id='novel1_letter4_chapter9_p9']"
+     },
+     "endSelector": {
+      "type": "XPathSelector",
+      "value": "//*[@xml:id='novel1_letter4_chapter9_p13']"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "@context": "http://www.w3.org/ns/anno.jsonld",
+  "id": "https://frankensteinvariorum.github.io/annotations/1823/44",
+  "type": "Annotation",
+  "generator": {
+   "id": "https://frankensteinvariorum.github.io/viewer",
+   "type": "Software",
+   "name": "Frankenstein Variorum",
+   "homepage": "https://github.com/FrankensteinVariorum/fv-data"
+  },
+  "generated": "2019-10-04T17:14:41.623898+00:00",
+  "body": [
+   {
+    "type": "TextualBody",
+    "purpose": "tagging",
+    "value": "change-ann"
+   },
+   {
+    "type": "TextualBody",
+    "purpose": "tagging",
+    "value": "w1831"
+   },
+   {
+    "type": "TextualBody",
+    "value": "In this change to the 1831 edition, Shelley emphasizes the melodrama of Victor's mental decline. Judith Weissman argues the image of the deer is one of several examples that link Victor with Percy Shelley, the fawn being one of his favorite images. \n\nSee Judith Weissman. \"A Reading of Frankenstein as the Complaint of a Political Wife.\" *Colby Quarterly* 12, no. 4 (1976): 171-180, 171.",
+    "creator": "https://hypothes.is/users/frankensteinvariorum",
+    "modified": "2019-10-04T17:14:41.623898+00:00",
+    "purpose": "commenting"
+   }
+  ],
+  "target": {
+   "source": "https://frankensteinvariorum.github.io/fv-collation/1823.html",
+   "type": "Text",
+   "selector": [
+    {
+     "type": "RangeSelector",
+     "startSelector": {
+      "type": "XPathSelector",
+      "value": "//*[@xml:id='novel1_letter4_chapter9_p11']"
+     },
+     "endSelector": {
+      "type": "XPathSelector",
+      "value": "//*[@xml:id='novel1_letter4_chapter9_p11']"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "@context": "http://www.w3.org/ns/anno.jsonld",
+  "id": "https://frankensteinvariorum.github.io/annotations/1823/45",
+  "type": "Annotation",
+  "generator": {
+   "id": "https://frankensteinvariorum.github.io/viewer",
+   "type": "Software",
+   "name": "Frankenstein Variorum",
+   "homepage": "https://github.com/FrankensteinVariorum/fv-data"
+  },
+  "generated": "2019-10-04T17:16:57.180244+00:00",
+  "body": [
+   {
+    "type": "TextualBody",
+    "purpose": "tagging",
+    "value": "change-ann"
+   },
+   {
+    "type": "TextualBody",
+    "purpose": "tagging",
+    "value": "jk"
+   },
+   {
+    "type": "TextualBody",
+    "purpose": "tagging",
+    "value": "geography"
+   },
+   {
+    "type": "TextualBody",
+    "value": "In the 1831 edition, since Victor now travels alone rather than with his family, his perceptions seem to be more emotionally turbulent than when he shares the trip with Elizabeth and his father in the 1818 version.",
+    "creator": "https://hypothes.is/users/frankensteinvariorum",
+    "modified": "2019-10-04T17:16:57.180244+00:00",
+    "purpose": "commenting"
+   }
+  ],
+  "target": {
+   "source": "https://frankensteinvariorum.github.io/fv-collation/1823.html",
+   "type": "Text",
+   "selector": [
+    {
+     "type": "RangeSelector",
+     "startSelector": {
+      "type": "XPathSelector",
+      "value": "//*[@xml:id='novel1_letter4_chapter9_p15']"
+     },
+     "endSelector": {
+      "type": "XPathSelector",
+      "value": "//*[@xml:id='novel1_letter4_chapter9_p16']"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "@context": "http://www.w3.org/ns/anno.jsonld",
+  "id": "https://frankensteinvariorum.github.io/annotations/1823/46",
+  "type": "Annotation",
+  "generator": {
+   "id": "https://frankensteinvariorum.github.io/viewer",
+   "type": "Software",
+   "name": "Frankenstein Variorum",
+   "homepage": "https://github.com/FrankensteinVariorum/fv-data"
+  },
+  "generated": "2019-10-04T17:12:33.283797+00:00",
+  "body": [
+   {
+    "type": "TextualBody",
+    "purpose": "tagging",
+    "value": "change-ann"
+   },
+   {
+    "type": "TextualBody",
+    "purpose": "tagging",
+    "value": "jk"
+   },
+   {
+    "type": "TextualBody",
+    "purpose": "tagging",
+    "value": "childhood"
+   },
+   {
+    "type": "TextualBody",
+    "value": "The 1831 edition adds this passage to emphasize, with the word \"lullaby,\" the childlike fears Victor is now constantly trying to calm.",
+    "creator": "https://hypothes.is/users/frankensteinvariorum",
+    "modified": "2019-10-04T17:12:33.283797+00:00",
+    "purpose": "commenting"
+   }
+  ],
+  "target": {
+   "source": "https://frankensteinvariorum.github.io/fv-collation/1823.html",
+   "type": "Text",
+   "selector": [
+    {
+     "type": "RangeSelector",
+     "startSelector": {
+      "type": "XPathSelector",
+      "value": "//*[@xml:id='novel1_letter4_chapter9_p16']"
+     },
+     "endSelector": {
+      "type": "XPathSelector",
+      "value": "//*[@xml:id='novel1_letter4_chapter9_p16']"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "@context": "http://www.w3.org/ns/anno.jsonld",
+  "id": "https://frankensteinvariorum.github.io/annotations/1823/47",
+  "type": "Annotation",
+  "generator": {
+   "id": "https://frankensteinvariorum.github.io/viewer",
+   "type": "Software",
+   "name": "Frankenstein Variorum",
+   "homepage": "https://github.com/FrankensteinVariorum/fv-data"
+  },
+  "generated": "2019-10-04T17:14:24.278862+00:00",
+  "body": [
+   {
+    "type": "TextualBody",
+    "purpose": "tagging",
+    "value": "change-ann"
+   },
+   {
+    "type": "TextualBody",
+    "purpose": "tagging",
+    "value": "jk"
+   },
+   {
+    "type": "TextualBody",
+    "purpose": "tagging",
+    "value": "geography"
+   },
+   {
+    "type": "TextualBody",
+    "value": "In 1818 a more perfunctory passage appears at the beginning of this chapter stating simply that the party \"...visited the source of the Arveiron, and rode about the valley until evening.\"\n\n In 1831, Shelley replaces this brief remark with a much more vividly detailed description elaborating upon the topography of Victor's journey through the Arveiron and the \"sublime and magnificent scenes\" in which he finds consolation.",
+    "creator": "https://hypothes.is/users/frankensteinvariorum",
+    "modified": "2019-10-04T17:14:24.278862+00:00",
+    "purpose": "commenting"
+   }
+  ],
+  "target": {
+   "source": "https://frankensteinvariorum.github.io/fv-collation/1823.html",
+   "type": "Text",
+   "selector": [
+    {
+     "type": "RangeSelector",
+     "startSelector": {
+      "type": "XPathSelector",
+      "value": "//*[@xml:id='novel1_letter4_chapter10_p1']"
+     },
+     "endSelector": {
+      "type": "XPathSelector",
+      "value": "//*[@xml:id='novel1_letter4_chapter10_p1']"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "@context": "http://www.w3.org/ns/anno.jsonld",
+  "id": "https://frankensteinvariorum.github.io/annotations/1823/48",
+  "type": "Annotation",
+  "generator": {
+   "id": "https://frankensteinvariorum.github.io/viewer",
+   "type": "Software",
+   "name": "Frankenstein Variorum",
+   "homepage": "https://github.com/FrankensteinVariorum/fv-data"
+  },
+  "generated": "2019-10-04T17:16:26.199819+00:00",
+  "body": [
+   {
+    "type": "TextualBody",
+    "purpose": "tagging",
+    "value": "change-ann"
+   },
+   {
+    "type": "TextualBody",
+    "purpose": "tagging",
+    "value": "jk"
+   },
+   {
+    "type": "TextualBody",
+    "value": "In the 1831 edition, nature is personified in greater detail. Victor continues up the Arveiron with his mule and the mountains, the \"mighty friends,\" his only companions.",
+    "creator": "https://hypothes.is/users/frankensteinvariorum",
+    "modified": "2019-10-04T17:16:26.199819+00:00",
+    "purpose": "commenting"
+   }
+  ],
+  "target": {
+   "source": "https://frankensteinvariorum.github.io/fv-collation/1823.html",
+   "type": "Text",
+   "selector": [
+    {
+     "type": "RangeSelector",
+     "startSelector": {
+      "type": "XPathSelector",
+      "value": "//*[@xml:id='novel1_letter4_chapter10_p2']"
+     },
+     "endSelector": {
+      "type": "XPathSelector",
+      "value": "//*[@xml:id='novel1_letter4_chapter10_p2']"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "@context": "http://www.w3.org/ns/anno.jsonld",
+  "id": "https://frankensteinvariorum.github.io/annotations/1823/49",
+  "type": "Annotation",
+  "generator": {
+   "id": "https://frankensteinvariorum.github.io/viewer",
+   "type": "Software",
+   "name": "Frankenstein Variorum",
+   "homepage": "https://github.com/FrankensteinVariorum/fv-data"
+  },
+  "generated": "2019-10-04T17:17:02.334391+00:00",
+  "body": [
+   {
+    "type": "TextualBody",
+    "purpose": "tagging",
+    "value": "change-ann"
+   },
+   {
+    "type": "TextualBody",
+    "purpose": "tagging",
+    "value": "jk"
+   },
+   {
+    "type": "TextualBody",
+    "value": "In the 1818 edition the Creature says he had tried and failed to elicit Victor's compassion. In this 1831 revision, he is more direct and demanding.",
+    "creator": "https://hypothes.is/users/frankensteinvariorum",
+    "modified": "2019-10-04T17:17:02.334391+00:00",
+    "purpose": "commenting"
+   }
+  ],
+  "target": {
+   "source": "https://frankensteinvariorum.github.io/fv-collation/1823.html",
+   "type": "Text",
+   "selector": [
+    {
+     "type": "RangeSelector",
+     "startSelector": {
+      "type": "XPathSelector",
+      "value": "//*[@xml:id='novel1_letter4_chapter17_p14']"
+     },
+     "endSelector": {
+      "type": "XPathSelector",
+      "value": "//*[@xml:id='novel1_letter4_chapter17_p14']"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "@context": "http://www.w3.org/ns/anno.jsonld",
+  "id": "https://frankensteinvariorum.github.io/annotations/1823/50",
+  "type": "Annotation",
+  "generator": {
+   "id": "https://frankensteinvariorum.github.io/viewer",
+   "type": "Software",
+   "name": "Frankenstein Variorum",
+   "homepage": "https://github.com/FrankensteinVariorum/fv-data"
+  },
+  "generated": "2019-10-04T17:14:06.837041+00:00",
+  "body": [
+   {
+    "type": "TextualBody",
+    "purpose": "tagging",
+    "value": "change-ann"
+   },
+   {
+    "type": "TextualBody",
+    "purpose": "tagging",
+    "value": "jk"
+   },
+   {
+    "type": "TextualBody",
+    "value": "In this addition to the 1831 edition, Shelley emphasizes the Creature's loneliness and the desire that drives him.",
+    "creator": "https://hypothes.is/users/frankensteinvariorum",
+    "modified": "2019-10-04T17:14:06.837041+00:00",
+    "purpose": "commenting"
+   }
+  ],
+  "target": {
+   "source": "https://frankensteinvariorum.github.io/fv-collation/1823.html",
+   "type": "Text",
+   "selector": [
+    {
+     "type": "RangeSelector",
+     "startSelector": {
+      "type": "XPathSelector",
+      "value": "//*[@xml:id='novel1_letter4_chapter17_p17']"
+     },
+     "endSelector": {
+      "type": "XPathSelector",
+      "value": "//*[@xml:id='novel1_letter4_chapter17_p17']"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "@context": "http://www.w3.org/ns/anno.jsonld",
+  "id": "https://frankensteinvariorum.github.io/annotations/1823/51",
+  "type": "Annotation",
+  "generator": {
+   "id": "https://frankensteinvariorum.github.io/viewer",
+   "type": "Software",
+   "name": "Frankenstein Variorum",
+   "homepage": "https://github.com/FrankensteinVariorum/fv-data"
+  },
+  "generated": "2019-10-04T17:12:00.511011+00:00",
+  "body": [
+   {
+    "type": "TextualBody",
+    "purpose": "tagging",
+    "value": "change-ann"
+   },
+   {
+    "type": "TextualBody",
+    "purpose": "tagging",
+    "value": "jk"
+   },
+   {
+    "type": "TextualBody",
+    "value": "In this  revision to the 1818 text, the 1831 edition makes Victor's motivation for creating a companion for the Creature more explicit. Victor considers the \"abhorrent task\" of creating another Creature necessary to absolve him of the responsibility for the Creature's violent deeds. He invokes his family's safety as the motive for agreeing to make a companion for the Creature.",
+    "creator": "https://hypothes.is/users/frankensteinvariorum",
+    "modified": "2019-10-04T17:12:00.511011+00:00",
+    "purpose": "commenting"
+   }
+  ],
+  "target": {
+   "source": "https://frankensteinvariorum.github.io/fv-collation/1823.html",
+   "type": "Text",
+   "selector": [
+    {
+     "type": "RangeSelector",
+     "startSelector": {
+      "type": "XPathSelector",
+      "value": "//*[@xml:id='novel1_letter4_chapter17_p21']"
+     },
+     "endSelector": {
+      "type": "XPathSelector",
+      "value": "//*[@xml:id='novel1_letter4_chapter17_p21']"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "@context": "http://www.w3.org/ns/anno.jsonld",
+  "id": "https://frankensteinvariorum.github.io/annotations/1823/52",
+  "type": "Annotation",
+  "generator": {
+   "id": "https://frankensteinvariorum.github.io/viewer",
+   "type": "Software",
+   "name": "Frankenstein Variorum",
+   "homepage": "https://github.com/FrankensteinVariorum/fv-data"
+  },
+  "generated": "2019-10-04T17:10:54.962122+00:00",
+  "body": [
+   {
+    "type": "TextualBody",
+    "purpose": "tagging",
+    "value": "change-ann"
+   },
+   {
+    "type": "TextualBody",
+    "purpose": "tagging",
+    "value": "jk"
+   },
+   {
+    "type": "TextualBody",
+    "value": "In this change to the 1831 edition, Shelley makes the reason for Victor's recuperation more explicit; the Creature's apparent absence creates in Victor a false sense of security. He is unaware that the Creature is ever-present, secretly watching to see if Victor makes good on his promise to create a companion for the Creature.",
+    "creator": "https://hypothes.is/users/frankensteinvariorum",
+    "modified": "2019-10-04T17:10:54.962122+00:00",
+    "purpose": "commenting"
+   }
+  ],
+  "target": {
+   "source": "https://frankensteinvariorum.github.io/fv-collation/1823.html",
+   "type": "Text",
+   "selector": [
+    {
+     "type": "RangeSelector",
+     "startSelector": {
+      "type": "XPathSelector",
+      "value": "//*[@xml:id='novel1_letter4_chapter18_p1']"
+     },
+     "endSelector": {
+      "type": "XPathSelector",
+      "value": "//*[@xml:id='novel1_letter4_chapter18_p1']"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "@context": "http://www.w3.org/ns/anno.jsonld",
+  "id": "https://frankensteinvariorum.github.io/annotations/1823/53",
+  "type": "Annotation",
+  "generator": {
+   "id": "https://frankensteinvariorum.github.io/viewer",
+   "type": "Software",
+   "name": "Frankenstein Variorum",
+   "homepage": "https://github.com/FrankensteinVariorum/fv-data"
+  },
+  "generated": "2019-10-04T17:16:01.178957+00:00",
+  "body": [
+   {
+    "type": "TextualBody",
+    "purpose": "tagging",
+    "value": "change-ann"
+   },
+   {
+    "type": "TextualBody",
+    "purpose": "tagging",
+    "value": "jk"
+   },
+   {
+    "type": "TextualBody",
+    "value": "In the 1831 version Victor still refers to Elizabeth as his cousin, but in an affectionate, rather than familial, sense.",
+    "creator": "https://hypothes.is/users/frankensteinvariorum",
+    "modified": "2019-10-04T17:16:01.178957+00:00",
+    "purpose": "commenting"
+   }
+  ],
+  "target": {
+   "source": "https://frankensteinvariorum.github.io/fv-collation/1823.html",
+   "type": "Text",
+   "selector": [
+    {
+     "type": "RangeSelector",
+     "startSelector": {
+      "type": "XPathSelector",
+      "value": "//*[@xml:id='novel1_letter4_chapter18_p5']"
+     },
+     "endSelector": {
+      "type": "XPathSelector",
+      "value": "//*[@xml:id='novel1_letter4_chapter18_p5']"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "@context": "http://www.w3.org/ns/anno.jsonld",
+  "id": "https://frankensteinvariorum.github.io/annotations/1823/54",
+  "type": "Annotation",
+  "generator": {
+   "id": "https://frankensteinvariorum.github.io/viewer",
+   "type": "Software",
+   "name": "Frankenstein Variorum",
+   "homepage": "https://github.com/FrankensteinVariorum/fv-data"
+  },
+  "generated": "2019-10-04T17:12:40.886138+00:00",
+  "body": [
+   {
+    "type": "TextualBody",
+    "purpose": "tagging",
+    "value": "change-ann"
+   },
+   {
+    "type": "TextualBody",
+    "purpose": "tagging",
+    "value": "jk"
+   },
+   {
+    "type": "TextualBody",
+    "value": "In this revision to the 1831 edition, Victor's motivation to leave his family is less about a \"change of scene and variety of occupation,\" as it appears in the 1818 edition, than about a fear that his work will create in him a similar fragility of mind that overtook him when creating the Creature in volume 1, a fragility that will betray his objective to his family.",
+    "creator": "https://hypothes.is/users/frankensteinvariorum",
+    "modified": "2019-10-04T17:12:40.886138+00:00",
+    "purpose": "commenting"
+   }
+  ],
+  "target": {
+   "source": "https://frankensteinvariorum.github.io/fv-collation/1823.html",
+   "type": "Text",
+   "selector": [
+    {
+     "type": "RangeSelector",
+     "startSelector": {
+      "type": "XPathSelector",
+      "value": "//*[@xml:id='novel1_letter4_chapter18_p9']"
+     },
+     "endSelector": {
+      "type": "XPathSelector",
+      "value": "//*[@xml:id='novel1_letter4_chapter18_p9']"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "@context": "http://www.w3.org/ns/anno.jsonld",
+  "id": "https://frankensteinvariorum.github.io/annotations/1823/55",
+  "type": "Annotation",
+  "generator": {
+   "id": "https://frankensteinvariorum.github.io/viewer",
+   "type": "Software",
+   "name": "Frankenstein Variorum",
+   "homepage": "https://github.com/FrankensteinVariorum/fv-data"
+  },
+  "generated": "2019-10-04T17:12:32.117096+00:00",
+  "body": [
+   {
+    "type": "TextualBody",
+    "purpose": "tagging",
+    "value": "change-ann"
+   },
+   {
+    "type": "TextualBody",
+    "purpose": "tagging",
+    "value": "jk"
+   },
+   {
+    "type": "TextualBody",
+    "value": "In this 1831 revision, Victor's father takes the \"paternal caution\" of sending Clerval to accompany Victor to England out of concern for Victor's mental state. While the 1818 edition has Victor merely reporting that Clerval \"would join [him]\" in England, the 1831 version shows Victor reflecting at greater length on how Clerval's presence might provide him solace and company as he undertakes the difficult task ahead.",
+    "creator": "https://hypothes.is/users/frankensteinvariorum",
+    "modified": "2019-10-04T17:12:32.117096+00:00",
+    "purpose": "commenting"
+   }
+  ],
+  "target": {
+   "source": "https://frankensteinvariorum.github.io/fv-collation/1823.html",
+   "type": "Text",
+   "selector": [
+    {
+     "type": "RangeSelector",
+     "startSelector": {
+      "type": "XPathSelector",
+      "value": "//*[@xml:id='novel1_letter4_chapter18_p10']"
+     },
+     "endSelector": {
+      "type": "XPathSelector",
+      "value": "//*[@xml:id='novel1_letter4_chapter18_p12']"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "@context": "http://www.w3.org/ns/anno.jsonld",
+  "id": "https://frankensteinvariorum.github.io/annotations/1823/56",
+  "type": "Annotation",
+  "generator": {
+   "id": "https://frankensteinvariorum.github.io/viewer",
+   "type": "Software",
+   "name": "Frankenstein Variorum",
+   "homepage": "https://github.com/FrankensteinVariorum/fv-data"
+  },
+  "generated": "2019-10-04T17:10:35.860318+00:00",
+  "body": [
+   {
+    "type": "TextualBody",
+    "purpose": "tagging",
+    "value": "change-ann"
+   },
+   {
+    "type": "TextualBody",
+    "purpose": "tagging",
+    "value": "jk"
+   },
+   {
+    "type": "TextualBody",
+    "value": "In this 1831 revision, it is unclear what is meant by Elizabeth providing Victor \"a companion in Clerval,\" since earlier Victor notes that his father had required Clerval accompany Victor to ensure Victor's well-being. ",
+    "creator": "https://hypothes.is/users/frankensteinvariorum",
+    "modified": "2019-10-04T17:10:35.860318+00:00",
+    "purpose": "commenting"
+   }
+  ],
+  "target": {
+   "source": "https://frankensteinvariorum.github.io/fv-collation/1823.html",
+   "type": "Text",
+   "selector": [
+    {
+     "type": "RangeSelector",
+     "startSelector": {
+      "type": "XPathSelector",
+      "value": "//*[@xml:id='novel1_letter4_chapter18_p14']"
+     },
+     "endSelector": {
+      "type": "XPathSelector",
+      "value": "//*[@xml:id='novel1_letter4_chapter18_p14']"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "@context": "http://www.w3.org/ns/anno.jsonld",
+  "id": "https://frankensteinvariorum.github.io/annotations/1823/57",
+  "type": "Annotation",
+  "generator": {
+   "id": "https://frankensteinvariorum.github.io/viewer",
+   "type": "Software",
+   "name": "Frankenstein Variorum",
+   "homepage": "https://github.com/FrankensteinVariorum/fv-data"
+  },
+  "generated": "2019-10-04T17:15:20.913732+00:00",
+  "body": [
+   {
+    "type": "TextualBody",
+    "purpose": "tagging",
+    "value": "change-ann"
+   },
+   {
+    "type": "TextualBody",
+    "purpose": "tagging",
+    "value": "w1831"
+   },
+   {
+    "type": "TextualBody",
+    "purpose": "tagging",
+    "value": "jk"
+   },
+   {
+    "type": "TextualBody",
+    "value": "In the 1818 edition Shelley attributed this passage in a footnote to Leigh Hunt's poem \"Rimini\" (1816), but she no longer cites the poem's title or author in 1831.",
+    "creator": "https://hypothes.is/users/frankensteinvariorum",
+    "modified": "2019-10-04T17:15:20.913732+00:00",
+    "purpose": "commenting"
+   }
+  ],
+  "target": {
+   "source": "https://frankensteinvariorum.github.io/fv-collation/1823.html",
+   "type": "Text",
+   "selector": [
+    {
+     "type": "RangeSelector",
+     "startSelector": {
+      "type": "XPathSelector",
+      "value": "//*[@xml:id='novel1_letter4_chapter18_p19']"
+     },
+     "endSelector": {
+      "type": "XPathSelector",
+      "value": "//*[@xml:id='novel1_letter4_chapter18_p19']"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "@context": "http://www.w3.org/ns/anno.jsonld",
+  "id": "https://frankensteinvariorum.github.io/annotations/1823/58",
+  "type": "Annotation",
+  "generator": {
+   "id": "https://frankensteinvariorum.github.io/viewer",
+   "type": "Software",
+   "name": "Frankenstein Variorum",
+   "homepage": "https://github.com/FrankensteinVariorum/fv-data"
+  },
+  "generated": "2019-10-04T17:16:15.076104+00:00",
+  "body": [
+   {
+    "type": "TextualBody",
+    "purpose": "tagging",
+    "value": "change-ann"
+   },
+   {
+    "type": "TextualBody",
+    "purpose": "tagging",
+    "value": "jk"
+   },
+   {
+    "type": "TextualBody",
+    "purpose": "tagging",
+    "value": "India"
+   },
+   {
+    "type": "TextualBody",
+    "purpose": "tagging",
+    "value": "empire"
+   },
+   {
+    "type": "TextualBody",
+    "value": "In this revision to 1831 edition, Shelley elaborates on Clerval's \"Indian enterprise,\" mentioned earlier in the previous chapter. Clerval wishes Victor to return to Perth to spend time together before the former's voyage to India. In the 1818 edition, Clerval notes they had been traveling in Britain for a year, and should take the next year of their voyage to return to Switzerland, via France. ",
+    "creator": "https://hypothes.is/users/frankensteinvariorum",
+    "modified": "2019-10-04T17:16:15.076104+00:00",
+    "purpose": "commenting"
+   }
+  ],
+  "target": {
+   "source": "https://frankensteinvariorum.github.io/fv-collation/1823.html",
+   "type": "Text",
+   "selector": [
+    {
+     "type": "RangeSelector",
+     "startSelector": {
+      "type": "XPathSelector",
+      "value": "//*[@xml:id='novel1_letter4_chapter20_p21']"
+     },
+     "endSelector": {
+      "type": "XPathSelector",
+      "value": "//*[@xml:id='novel1_letter4_chapter20_p21']"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "@context": "http://www.w3.org/ns/anno.jsonld",
+  "id": "https://frankensteinvariorum.github.io/annotations/1823/59",
+  "type": "Annotation",
+  "generator": {
+   "id": "https://frankensteinvariorum.github.io/viewer",
+   "type": "Software",
+   "name": "Frankenstein Variorum",
+   "homepage": "https://github.com/FrankensteinVariorum/fv-data"
+  },
+  "generated": "2019-10-04T17:10:24.875882+00:00",
+  "body": [
+   {
+    "type": "TextualBody",
+    "purpose": "tagging",
+    "value": "change-ann"
+   },
+   {
+    "type": "TextualBody",
+    "purpose": "tagging",
+    "value": "jk"
+   },
+   {
+    "type": "TextualBody",
+    "value": "In this 1831 this  revision of 1818's phrase \"and sunk\" (into a reverie) makes more specific why Victor fears for their welfare.",
+    "creator": "https://hypothes.is/users/frankensteinvariorum",
+    "modified": "2019-10-04T17:10:24.875882+00:00",
+    "purpose": "commenting"
+   }
+  ],
+  "target": {
+   "source": "https://frankensteinvariorum.github.io/fv-collation/1823.html",
+   "type": "Text",
+   "selector": [
+    {
+     "type": "RangeSelector",
+     "startSelector": {
+      "type": "XPathSelector",
+      "value": "//*[@xml:id='novel1_letter4_chapter20_p25']"
+     },
+     "endSelector": {
+      "type": "XPathSelector",
+      "value": "//*[@xml:id='novel1_letter4_chapter20_p25']"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "@context": "http://www.w3.org/ns/anno.jsonld",
+  "id": "https://frankensteinvariorum.github.io/annotations/1823/60",
+  "type": "Annotation",
+  "generator": {
+   "id": "https://frankensteinvariorum.github.io/viewer",
+   "type": "Software",
+   "name": "Frankenstein Variorum",
+   "homepage": "https://github.com/FrankensteinVariorum/fv-data"
+  },
+  "generated": "2019-10-04T17:12:43.386377+00:00",
+  "body": [
+   {
+    "type": "TextualBody",
+    "purpose": "tagging",
+    "value": "change-ann"
+   },
+   {
+    "type": "TextualBody",
+    "purpose": "tagging",
+    "value": "jk"
+   },
+   {
+    "type": "TextualBody",
+    "value": "In the all editions but 1831, the Magistrate personally examines Victor's clothes. In the 1831 edition, an unspecified person brings the letters found on Victor's person to the Magistrate.",
+    "creator": "https://hypothes.is/users/frankensteinvariorum",
+    "modified": "2019-10-04T17:12:43.386377+00:00",
+    "purpose": "commenting"
+   }
+  ],
+  "target": {
+   "source": "https://frankensteinvariorum.github.io/fv-collation/1823.html",
+   "type": "Text",
+   "selector": [
+    {
+     "type": "RangeSelector",
+     "startSelector": {
+      "type": "XPathSelector",
+      "value": "//*[@xml:id='novel1_letter4_chapter21_p28']"
+     },
+     "endSelector": {
+      "type": "XPathSelector",
+      "value": "//*[@xml:id='novel1_letter4_chapter21_p28']"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "@context": "http://www.w3.org/ns/anno.jsonld",
+  "id": "https://frankensteinvariorum.github.io/annotations/1823/61",
+  "type": "Annotation",
+  "generator": {
+   "id": "https://frankensteinvariorum.github.io/viewer",
+   "type": "Software",
+   "name": "Frankenstein Variorum",
+   "homepage": "https://github.com/FrankensteinVariorum/fv-data"
+  },
+  "generated": "2019-10-04T17:14:54.155355+00:00",
+  "body": [
+   {
+    "type": "TextualBody",
+    "purpose": "tagging",
+    "value": "change-ann"
+   },
+   {
+    "type": "TextualBody",
+    "purpose": "tagging",
+    "value": "jk"
+   },
+   {
+    "type": "TextualBody",
+    "purpose": "tagging",
+    "value": "geography"
+   },
+   {
+    "type": "TextualBody",
+    "value": "In all editions but the 1831, Victor says he wished to avoid London because he \"dreaded to see again those places in which [he] had enjoyed a few moments of tranquility with [his] beloved Clerval.\" The 1831 edition makes no mention of Clerval; now Victor's father entreats his son to seek solace in the company of society, which Victor refuses, out of guilt and his guilt at unleashing \"an enemy among them.\" Also eliminated in 1813 are references to stopping at the ports of Holyhead and Portsmouth on their way to Paris.",
+    "creator": "https://hypothes.is/users/frankensteinvariorum",
+    "modified": "2019-10-04T17:14:54.155355+00:00",
+    "purpose": "commenting"
+   }
+  ],
+  "target": {
+   "source": "https://frankensteinvariorum.github.io/fv-collation/1823.html",
+   "type": "Text",
+   "selector": [
+    {
+     "type": "RangeSelector",
+     "startSelector": {
+      "type": "XPathSelector",
+      "value": "//*[@xml:id='novel1_letter4_chapter22_p1']"
+     },
+     "endSelector": {
+      "type": "XPathSelector",
+      "value": "//*[@xml:id='novel1_letter4_chapter22_p2']"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "@context": "http://www.w3.org/ns/anno.jsonld",
+  "id": "https://frankensteinvariorum.github.io/annotations/1823/62",
+  "type": "Annotation",
+  "generator": {
+   "id": "https://frankensteinvariorum.github.io/viewer",
+   "type": "Software",
+   "name": "Frankenstein Variorum",
+   "homepage": "https://github.com/FrankensteinVariorum/fv-data"
+  },
+  "generated": "2019-10-04T17:12:59.656914+00:00",
+  "body": [
+   {
+    "type": "TextualBody",
+    "purpose": "tagging",
+    "value": "change-ann"
+   },
+   {
+    "type": "TextualBody",
+    "purpose": "tagging",
+    "value": "jk"
+   },
+   {
+    "type": "TextualBody",
+    "value": "As in the preceding sentence, Shelley elaborates on Victor's fragile mental state. The involuntary voicings of guilt evoke Iago's betrayal of Cassio to Othello: \"There are a kind of men / So loose of soul that in their sleeps will / mutter.\" (*Othello,* 3.3.425-27).",
+    "creator": "https://hypothes.is/users/frankensteinvariorum",
+    "modified": "2019-10-04T17:12:59.656914+00:00",
+    "purpose": "commenting"
+   }
+  ],
+  "target": {
+   "source": "https://frankensteinvariorum.github.io/fv-collation/1823.html",
+   "type": "Text",
+   "selector": [
+    {
+     "type": "RangeSelector",
+     "startSelector": {
+      "type": "XPathSelector",
+      "value": "//*[@xml:id='novel1_letter4_chapter22_p4']"
+     },
+     "endSelector": {
+      "type": "XPathSelector",
+      "value": "//*[@xml:id='novel1_letter4_chapter22_p4']"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "@context": "http://www.w3.org/ns/anno.jsonld",
+  "id": "https://frankensteinvariorum.github.io/annotations/1823/63",
+  "type": "Annotation",
+  "generator": {
+   "id": "https://frankensteinvariorum.github.io/viewer",
+   "type": "Software",
+   "name": "Frankenstein Variorum",
+   "homepage": "https://github.com/FrankensteinVariorum/fv-data"
+  },
+  "generated": "2019-10-04T17:13:55.541693+00:00",
+  "body": [
+   {
+    "type": "TextualBody",
+    "purpose": "tagging",
+    "value": "change-ann"
+   },
+   {
+    "type": "TextualBody",
+    "purpose": "tagging",
+    "value": "jk"
+   },
+   {
+    "type": "TextualBody",
+    "value": "In this addition to the 1831 edition, Victor resists the judgment that he is \"mad\" by explaining his hesitance to reveal the truth about the Creature to anyone else. ",
+    "creator": "https://hypothes.is/users/frankensteinvariorum",
+    "modified": "2019-10-04T17:13:55.541693+00:00",
+    "purpose": "commenting"
+   }
+  ],
+  "target": {
+   "source": "https://frankensteinvariorum.github.io/fv-collation/1823.html",
+   "type": "Text",
+   "selector": [
+    {
+     "type": "RangeSelector",
+     "startSelector": {
+      "type": "XPathSelector",
+      "value": "//*[@xml:id='novel1_letter4_chapter22_p4']"
+     },
+     "endSelector": {
+      "type": "XPathSelector",
+      "value": "//*[@xml:id='novel1_letter4_chapter22_p4']"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "@context": "http://www.w3.org/ns/anno.jsonld",
+  "id": "https://frankensteinvariorum.github.io/annotations/1823/64",
+  "type": "Annotation",
+  "generator": {
+   "id": "https://frankensteinvariorum.github.io/viewer",
+   "type": "Software",
+   "name": "Frankenstein Variorum",
+   "homepage": "https://github.com/FrankensteinVariorum/fv-data"
+  },
+  "generated": "2019-10-04T17:15:41.599197+00:00",
+  "body": [
+   {
+    "type": "TextualBody",
+    "purpose": "tagging",
+    "value": "change-ann"
+   },
+   {
+    "type": "TextualBody",
+    "purpose": "tagging",
+    "value": "jk"
+   },
+   {
+    "type": "TextualBody",
+    "purpose": "tagging",
+    "value": "madness"
+   },
+   {
+    "type": "TextualBody",
+    "value": "In all editions before 1831, Victor's father asks his son whether he is \"mad.\" Shelley's change of this word is peculiar, since Victor's response--\"I am not mad\"--seems more natural to the father's original question than it does to the 1831 question about his \"infatuation.\"",
+    "creator": "https://hypothes.is/users/frankensteinvariorum",
+    "modified": "2019-10-04T17:15:41.599197+00:00",
+    "purpose": "commenting"
+   }
+  ],
+  "target": {
+   "source": "https://frankensteinvariorum.github.io/fv-collation/1823.html",
+   "type": "Text",
+   "selector": [
+    {
+     "type": "RangeSelector",
+     "startSelector": {
+      "type": "XPathSelector",
+      "value": "//*[@xml:id='novel1_letter4_chapter22_p5']"
+     },
+     "endSelector": {
+      "type": "XPathSelector",
+      "value": "//*[@xml:id='novel1_letter4_chapter22_p5']"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "@context": "http://www.w3.org/ns/anno.jsonld",
+  "id": "https://frankensteinvariorum.github.io/annotations/1823/65",
+  "type": "Annotation",
+  "generator": {
+   "id": "https://frankensteinvariorum.github.io/viewer",
+   "type": "Software",
+   "name": "Frankenstein Variorum",
+   "homepage": "https://github.com/FrankensteinVariorum/fv-data"
+  },
+  "generated": "2019-10-04T17:15:40.370547+00:00",
+  "body": [
+   {
+    "type": "TextualBody",
+    "purpose": "tagging",
+    "value": "change-ann"
+   },
+   {
+    "type": "TextualBody",
+    "purpose": "tagging",
+    "value": "jk"
+   },
+   {
+    "type": "TextualBody",
+    "value": "In this 1831 revision, Shelley suggest that Victor's facial expression and agitation betrays his fear to Elizabeth.",
+    "creator": "https://hypothes.is/users/frankensteinvariorum",
+    "modified": "2019-10-04T17:15:40.370547+00:00",
+    "purpose": "commenting"
+   }
+  ],
+  "target": {
+   "source": "https://frankensteinvariorum.github.io/fv-collation/1823.html",
+   "type": "Text",
+   "selector": [
+    {
+     "type": "RangeSelector",
+     "startSelector": {
+      "type": "XPathSelector",
+      "value": "//*[@xml:id='novel1_letter4_chapter23_p4']"
+     },
+     "endSelector": {
+      "type": "XPathSelector",
+      "value": "//*[@xml:id='novel1_letter4_chapter23_p4']"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "@context": "http://www.w3.org/ns/anno.jsonld",
+  "id": "https://frankensteinvariorum.github.io/annotations/1823/66",
+  "type": "Annotation",
+  "generator": {
+   "id": "https://frankensteinvariorum.github.io/viewer",
+   "type": "Software",
+   "name": "Frankenstein Variorum",
+   "homepage": "https://github.com/FrankensteinVariorum/fv-data"
+  },
+  "generated": "2019-10-04T17:12:07.619202+00:00",
+  "body": [
+   {
+    "type": "TextualBody",
+    "purpose": "tagging",
+    "value": "change-ann"
+   },
+   {
+    "type": "TextualBody",
+    "purpose": "tagging",
+    "value": "jk"
+   },
+   {
+    "type": "TextualBody",
+    "value": "In this 1831 revision, Victor tries to accompany the party but collapses in a \"state of utter exhaustion.\" In all earlier editions, Victor does not attempt to accompany the party at all.",
+    "creator": "https://hypothes.is/users/frankensteinvariorum",
+    "modified": "2019-10-04T17:12:07.619202+00:00",
+    "purpose": "commenting"
+   }
+  ],
+  "target": {
+   "source": "https://frankensteinvariorum.github.io/fv-collation/1823.html",
+   "type": "Text",
+   "selector": [
+    {
+     "type": "RangeSelector",
+     "startSelector": {
+      "type": "XPathSelector",
+      "value": "//*[@xml:id='novel1_letter4_chapter23_p12']"
+     },
+     "endSelector": {
+      "type": "XPathSelector",
+      "value": "//*[@xml:id='novel1_letter4_chapter23_p12']"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "@context": "http://www.w3.org/ns/anno.jsonld",
+  "id": "https://frankensteinvariorum.github.io/annotations/1823/67",
+  "type": "Annotation",
+  "generator": {
+   "id": "https://frankensteinvariorum.github.io/viewer",
+   "type": "Software",
+   "name": "Frankenstein Variorum",
+   "homepage": "https://github.com/FrankensteinVariorum/fv-data"
+  },
+  "generated": "2019-10-04T17:13:04.811453+00:00",
+  "body": [
+   {
+    "type": "TextualBody",
+    "purpose": "tagging",
+    "value": "change-ann"
+   },
+   {
+    "type": "TextualBody",
+    "purpose": "tagging",
+    "value": "jk"
+   },
+   {
+    "type": "TextualBody",
+    "value": "In all earlier editions, Victor's begins to cry on thinking that he must to return to his father alone, without Elizabeth. In the 1831 edition, Victor joins a group of women and \"join[s] his sad tears to theirs.\"",
+    "creator": "https://hypothes.is/users/frankensteinvariorum",
+    "modified": "2019-10-04T17:13:04.811453+00:00",
+    "purpose": "commenting"
+   }
+  ],
+  "target": {
+   "source": "https://frankensteinvariorum.github.io/fv-collation/1823.html",
+   "type": "Text",
+   "selector": [
+    {
+     "type": "RangeSelector",
+     "startSelector": {
+      "type": "XPathSelector",
+      "value": "//*[@xml:id='novel1_letter4_chapter23_p13']"
+     },
+     "endSelector": {
+      "type": "XPathSelector",
+      "value": "//*[@xml:id='novel1_letter4_chapter23_p13']"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "@context": "http://www.w3.org/ns/anno.jsonld",
+  "id": "https://frankensteinvariorum.github.io/annotations/1823/68",
+  "type": "Annotation",
+  "generator": {
+   "id": "https://frankensteinvariorum.github.io/viewer",
+   "type": "Software",
+   "name": "Frankenstein Variorum",
+   "homepage": "https://github.com/FrankensteinVariorum/fv-data"
+  },
+  "generated": "2019-10-04T17:11:52.651974+00:00",
+  "body": [
+   {
+    "type": "TextualBody",
+    "purpose": "tagging",
+    "value": "change-ann"
+   },
+   {
+    "type": "TextualBody",
+    "purpose": "tagging",
+    "value": "jk"
+   },
+   {
+    "type": "TextualBody",
+    "value": "In this change to the 1831 edition, Victor's father seems to die of an acute bout of melancholy. In earlier editions, Victor's father suffers an \"apoplectic fit\" (a neurological impairment brought on from cerebral hemorrhage). The changed, melancholic cause of his death seems altogether more melodramatic in the 1831 edition, not least of all because of its mysterious pathology.  ",
+    "creator": "https://hypothes.is/users/frankensteinvariorum",
+    "modified": "2019-10-04T17:11:52.651974+00:00",
+    "purpose": "commenting"
+   }
+  ],
+  "target": {
+   "source": "https://frankensteinvariorum.github.io/fv-collation/1823.html",
+   "type": "Text",
+   "selector": [
+    {
+     "type": "RangeSelector",
+     "startSelector": {
+      "type": "XPathSelector",
+      "value": "//*[@xml:id='novel1_letter4_chapter23_p16']"
+     },
+     "endSelector": {
+      "type": "XPathSelector",
+      "value": "//*[@xml:id='novel1_letter4_chapter23_p16']"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "@context": "http://www.w3.org/ns/anno.jsonld",
+  "id": "https://frankensteinvariorum.github.io/annotations/1823/69",
+  "type": "Annotation",
+  "generator": {
+   "id": "https://frankensteinvariorum.github.io/viewer",
+   "type": "Software",
+   "name": "Frankenstein Variorum",
+   "homepage": "https://github.com/FrankensteinVariorum/fv-data"
+  },
+  "generated": "2019-10-04T17:15:35.568185+00:00",
+  "body": [
+   {
+    "type": "TextualBody",
+    "purpose": "tagging",
+    "value": "change-ann"
+   },
+   {
+    "type": "TextualBody",
+    "purpose": "tagging",
+    "value": "jk"
+   },
+   {
+    "type": "TextualBody",
+    "purpose": "tagging",
+    "value": "family"
+   },
+   {
+    "type": "TextualBody",
+    "value": "In this change to the 1831 edition, \"Elizabeth\" appears instead of \"niece.\"  Elizabeth had been the father's brother's daughter (or Victor's actual cousin) in the 1818 edition, but this is no longer true in 1831.",
+    "creator": "https://hypothes.is/users/frankensteinvariorum",
+    "modified": "2019-10-04T17:15:35.568185+00:00",
+    "purpose": "commenting"
+   }
+  ],
+  "target": {
+   "source": "https://frankensteinvariorum.github.io/fv-collation/1823.html",
+   "type": "Text",
+   "selector": [
+    {
+     "type": "RangeSelector",
+     "startSelector": {
+      "type": "XPathSelector",
+      "value": "//*[@xml:id='novel1_letter4_chapter23_p16']"
+     },
+     "endSelector": {
+      "type": "XPathSelector",
+      "value": "//*[@xml:id='novel1_letter4_chapter23_p16']"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "@context": "http://www.w3.org/ns/anno.jsonld",
+  "id": "https://frankensteinvariorum.github.io/annotations/1823/70",
+  "type": "Annotation",
+  "generator": {
+   "id": "https://frankensteinvariorum.github.io/viewer",
+   "type": "Software",
+   "name": "Frankenstein Variorum",
+   "homepage": "https://github.com/FrankensteinVariorum/fv-data"
+  },
+  "generated": "2019-10-04T17:16:20.069168+00:00",
+  "body": [
+   {
+    "type": "TextualBody",
+    "purpose": "tagging",
+    "value": "change-ann"
+   },
+   {
+    "type": "TextualBody",
+    "purpose": "tagging",
+    "value": "jk"
+   },
+   {
+    "type": "TextualBody",
+    "value": "In this 1831 revision, Walton no longer refers to the Roman Stoic philosopher, Seneca, telling his sister he will \"die with a good heart.\" Instead he regrets that this own \"mad schemes\" have resulted in a threat to the lives of many others.",
+    "creator": "https://hypothes.is/users/frankensteinvariorum",
+    "modified": "2019-10-04T17:16:20.069168+00:00",
+    "purpose": "commenting"
+   }
+  ],
+  "target": {
+   "source": "https://frankensteinvariorum.github.io/fv-collation/1823.html",
+   "type": "Text",
+   "selector": [
+    {
+     "type": "RangeSelector",
+     "startSelector": {
+      "type": "XPathSelector",
+      "value": "//*[@xml:id='novel1_letter4_p51']"
+     },
+     "endSelector": {
+      "type": "XPathSelector",
+      "value": "//*[@xml:id='novel1_letter4_p52']"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "@context": "http://www.w3.org/ns/anno.jsonld",
+  "id": "https://frankensteinvariorum.github.io/annotations/1823/71",
+  "type": "Annotation",
+  "generator": {
+   "id": "https://frankensteinvariorum.github.io/viewer",
+   "type": "Software",
+   "name": "Frankenstein Variorum",
+   "homepage": "https://github.com/FrankensteinVariorum/fv-data"
+  },
+  "generated": "2019-10-04T17:10:38.353501+00:00",
+  "body": [
+   {
+    "type": "TextualBody",
+    "purpose": "tagging",
+    "value": "change-ann"
+   },
+   {
+    "type": "TextualBody",
+    "purpose": "tagging",
+    "value": "jk"
+   },
+   {
+    "type": "TextualBody",
+    "value": "In all editions prior to 1831, this phrase reads \"thou desirest not my life for my own misery.\" Here, the Creature's intention is more explicit--Victor's extreme anguish could never, in the Creature's view, equal his own. Victor has loved and lost, while the Creature has never loved at all. ",
+    "creator": "https://hypothes.is/users/frankensteinvariorum",
+    "modified": "2019-10-04T17:10:38.353501+00:00",
+    "purpose": "commenting"
+   }
+  ],
+  "target": {
+   "source": "https://frankensteinvariorum.github.io/fv-collation/1823.html",
+   "type": "Text",
+   "selector": [
+    {
+     "type": "RangeSelector",
+     "startSelector": {
+      "type": "XPathSelector",
+      "value": "//*[@xml:id='novel1_letter4_p90']"
+     },
+     "endSelector": {
+      "type": "XPathSelector",
+      "value": "//*[@xml:id='novel1_letter4_p90']"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "@context": "http://www.w3.org/ns/anno.jsonld",
+  "id": "https://frankensteinvariorum.github.io/annotations/1823/72",
+  "type": "Annotation",
+  "generator": {
+   "id": "https://frankensteinvariorum.github.io/viewer",
+   "type": "Software",
+   "name": "Frankenstein Variorum",
+   "homepage": "https://github.com/FrankensteinVariorum/fv-data"
+  },
+  "generated": "2019-10-04T17:12:17.652170+00:00",
+  "body": [
+   {
+    "type": "TextualBody",
+    "purpose": "tagging",
+    "value": "change-ann"
+   },
+   {
+    "type": "TextualBody",
+    "value": "In the 1831 edition, \"may not\" is changed to \"will not\", suggesting the Creature's torment will only cease in death.",
+    "creator": "https://hypothes.is/users/frankensteinvariorum",
+    "modified": "2019-10-04T17:12:17.652170+00:00",
+    "purpose": "commenting"
+   }
+  ],
+  "target": {
+   "source": "https://frankensteinvariorum.github.io/fv-collation/1823.html",
+   "type": "Text",
+   "selector": [
+    {
+     "type": "RangeSelector",
+     "startSelector": {
+      "type": "XPathSelector",
+      "value": "//*[@xml:id='novel1_letter4_p90']"
+     },
+     "endSelector": {
+      "type": "XPathSelector",
+      "value": "//*[@xml:id='novel1_letter4_p90']"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "@context": "http://www.w3.org/ns/anno.jsonld",
+  "id": "https://frankensteinvariorum.github.io/annotations/1823/73",
+  "type": "Annotation",
+  "generator": {
+   "id": "https://frankensteinvariorum.github.io/viewer",
+   "type": "Software",
+   "name": "Frankenstein Variorum",
+   "homepage": "https://github.com/FrankensteinVariorum/fv-data"
+  },
+  "generated": "2019-10-04T17:14:45.214672+00:00",
+  "body": [
+   {
+    "type": "TextualBody",
+    "purpose": "tagging",
+    "value": "change-ann"
+   },
+   {
+    "type": "TextualBody",
+    "value": "TITLE omitted in 1831 edition: \"Frankenstein; or, The Modern Prometheus.\"\n\nIn 1831 the 3 volume structure was eliminated, and replaced with sequentially numbered chapters.",
+    "creator": "https://hypothes.is/users/frankensteinvariorum",
+    "modified": "2019-10-04T17:14:45.214672+00:00",
+    "purpose": "commenting"
+   }
+  ],
+  "target": {
+   "source": "https://frankensteinvariorum.github.io/fv-collation/1823.html",
+   "type": "Text",
+   "selector": [
+    {
+     "type": "RangeSelector",
+     "startSelector": {
+      "type": "XPathSelector",
+      "value": "//*[@xml:id='novel1_letter4_chapter1_head1']"
+     },
+     "endSelector": {
+      "type": "XPathSelector",
+      "value": "//*[@xml:id='novel1_letter4_chapter1_head1']"
+     }
+    }
+   ]
+  }
+ }
+]
