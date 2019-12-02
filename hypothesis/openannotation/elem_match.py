@@ -94,6 +94,12 @@ class Collation:
         self.tree = etree.parse(xml_path)
         self.witness = witness
 
+    @property
+    def uri(self):
+        return (
+            f"https://frankensteinvariorum.github.io/fv-collation/{self.witness}.html"
+        )
+
     def p_only(self):
         return self.tree.xpath("//n:p", namespaces=self.ns)
 
@@ -111,6 +117,12 @@ class Collation:
             return self.head_only()[index].xpath("./@xml:id", namespaces=self.ns)[0]
         except:
             return None
+
+    def id_exists(self, xmlid):
+        res = self.tree.xpath(f"//*[@xml:id='{xmlid}']", namespaces=self.ns)
+        if len(res) > 1:
+            raise Exception(f"Id {xmlid} returned {len(res)} matches")
+        return len(res) == 1
 
 
 class OpenAnnotation:
@@ -131,30 +143,48 @@ class OpenAnnotation:
             return xml_id
 
     def oa_template(
-        self, a, start_xml_id, end_xml_id, start_html_index, end_html_index
+        self,
+        a,
+        start_xml_id,
+        end_xml_id,
+        start_html_index,
+        end_html_index,
+        target_witness=None,
     ):
+        if target_witness is None:
+            target_doc = self.collation.uri
+        else:
+            target_doc = target_witness
+
+        body_content = [
+            {"type": "TextualBody", "purpose": "tagging", "value": t}
+            for t in a.data["tags"]
+        ]
+
+        body_content.append(
+            {
+                "type": "TextualBody",
+                "value": a.data["text"],
+                "creator": "https://hypothes.is/users/frankensteinvariorum",
+                "mo.parfied": a.data["updated"],
+                "purpose": "commenting",
+            }
+        )
+
         return {
             "@context": "http://www.w3.org/ns/anno.jsonld",
-            "id": f"https://frankensteinvariorum.org/{a.data['id']}",
+            "id": a.data["uri"],
             "type": "Annotation",
             "generator": {
-                "id": "https://frankensteinvariorum.org/",
+                "id": "https://frankensteinvariorum.github.io/",
                 "type": "Software",
                 "name": "Frankenstein Variorum",
                 "homepage": "https://recogito.pelagios.org/",
             },
             "generated": a.data["created"],
-            "body": [
-                {
-                    "type": "TextualBody",
-                    "value": a.data["text"],
-                    "creator": "https://hypothes.is/users/frankensteinvariorum",
-                    "modified": a.data["updated"],
-                    "purpose": "commenting",
-                }
-            ],
+            "body": body_content,
             "target": {
-                "source": a.data["uri"],
+                "source": target_doc,
                 "type": "Text",
                 "selector": [
                     {
@@ -183,7 +213,7 @@ class OpenAnnotation:
             },
         }
 
-    def generate_oa(self):
+    def generate_oa(self, variorum):
         oa = []
         # Match all the p elements
         for a in self.annotations.p_sort(self.collation.witness):
@@ -192,6 +222,21 @@ class OpenAnnotation:
             oa.append(
                 self.oa_template(a, start_xml_id, end_xml_id, a.start_c(), a.end_c())
             )
+            if "change-ann" in a.data["tags"]:
+                other_witnesses = variorum.get_other_witnesses(a.witness)
+                for wit in other_witnesses:
+                    if wit.id_exists(start_xml_id) and wit.id_exists(end_xml_id):
+                        oa.append(
+                            self.oa_template(
+                                a,
+                                start_xml_id,
+                                end_xml_id,
+                                a.start_c(),
+                                a.end_c(),
+                                target_witness=wit.uri,
+                            )
+                        )
+
         # Match all the head elements
         for a in self.annotations.head_sort(self.collation.witness):
             start_xml_id = self.collation.head_id(
@@ -201,24 +246,70 @@ class OpenAnnotation:
             oa.append(
                 self.oa_template(a, start_xml_id, end_xml_id, a.start_c(), a.end_c())
             )
+            if "change-ann" in a.data["tags"]:
+                other_witnesses = variorum.get_other_witnesses(a.witness)
+                for wit in other_witnesses:
+                    if wit.id_exists(start_xml_id) and wit.id_exists(end_xml_id):
+                        oa.append(
+                            self.oa_template(
+                                a,
+                                start_xml_id,
+                                end_xml_id,
+                                a.start_c(),
+                                a.end_c(),
+                                target_witness=wit.uri,
+                            )
+                        )
         return oa
+
+
+class Variorum:
+    def __init__(self, w1818, w1823, w1831):
+        self.w1818 = w1818
+        self.w1823 = w1823
+        self.w1831 = w1831
+
+    def get_witness(self, s):
+        if s == "1818":
+            return self.w1818
+        elif s == "1823":
+            return self.w1823
+        elif s == "1831":
+            return self.w1831
+        else:
+            raise Exception(f"'{s}' is not a valid witness identifier.")
+
+    def get_other_witnesses(self, s):
+        if s == "1818":
+            return [self.w1823, self.w1831]
+        elif s == "1823":
+            return [self.w1818, self.w1831]
+        elif s == "1831":
+            return [self.w1818, self.w1823]
+        else:
+            raise Exception(f"'{s}' is not a valid witness identifier.")
 
 
 his = Hypothesis("hypothesis/data/hypothesis.json")
 c1818 = Collation(xml_path="hypothesis/migration/xml-ids/1818_full.xml", witness="1818")
+c1823 = Collation(xml_path="hypothesis/migration/xml-ids/1823_full.xml", witness="1831")
+c1831 = Collation(xml_path="hypothesis/migration/xml-ids/1831_full.xml", witness="1831")
+
+fv = Variorum(c1818, c1823, c1831)
+
 oa1818 = OpenAnnotation(annotations=his, collation=c1818, p_offset=1, head_offset=0)
 
 json.dump(
-    oa1818.generate_oa(),
+    oa1818.generate_oa(variorum=fv),
     open("hypothesis/openannotation/1818_xml_id_mapping.json", "w"),
     indent=True,
 )
 
-c1831 = Collation(xml_path="hypothesis/migration/xml-ids/1831_full.xml", witness="1831")
 # Note the large offset to skip over the preface on the 1831 witness
 oa1831 = OpenAnnotation(annotations=his, collation=c1831, p_offset=1, head_offset=-1)
 json.dump(
-    oa1831.generate_oa(),
+    oa1831.generate_oa(variorum=fv),
     open("hypothesis/openannotation/1831_xml_id_mapping.json", "w"),
     indent=True,
 )
+
