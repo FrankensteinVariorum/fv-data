@@ -206,11 +206,6 @@ class OpenAnnotation:
                     },
                 ],
             },
-            "diagnostic": {
-                "note": "not for open annotation consumption",
-                "html": {"start": start_html_index, "end": end_html_index},
-                "xml_text_content": self.diagnostic(start_xml_id),
-            },
         }
 
     def generate_oa(self, variorum):
