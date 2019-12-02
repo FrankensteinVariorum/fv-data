@@ -166,7 +166,7 @@ class OpenAnnotation:
                 "type": "TextualBody",
                 "value": a.data["text"],
                 "creator": "https://hypothes.is/users/frankensteinvariorum",
-                "mo.parfied": a.data["updated"],
+                "modified": a.data["updated"],
                 "purpose": "commenting",
             }
         )
