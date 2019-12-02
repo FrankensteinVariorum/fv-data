@@ -8,6 +8,7 @@ import warnings
 from glob import glob
 from os import path
 from lxml import etree, html
+from itertools import groupby
 
 
 class Annotation:
@@ -152,7 +153,7 @@ class OpenAnnotation:
         target_witness=None,
     ):
         if target_witness is None:
-            target_doc = self.collation.uri
+            target_doc = self.collation
         else:
             target_doc = target_witness
 
@@ -171,41 +172,44 @@ class OpenAnnotation:
             }
         )
 
+        selectors = [
+            {
+                "type": "RangeSelector",
+                "startSelector": {
+                    "type": "XPathSelector",
+                    "value": f"//*[@xml:id='{start_xml_id}']",
+                },
+                "endSelector": {
+                    "type": "XPathSelector",
+                    "value": f"//*[@xml:id='{end_xml_id}']",
+                },
+            }
+        ]
+
+        if target_witness is None:
+            selectors.append(
+                {
+                    "type": "TextQuoteSelector",
+                    "prefix": a.text_selector()["prefix"],
+                    "exact": a.text_selector()["exact"],
+                    "suffix": a.text_selector()["suffix"],
+                }
+            )
+
         return {
             "@context": "http://www.w3.org/ns/anno.jsonld",
-            "id": a.data["uri"],
+            # NB the ID is unfinished at this stage, and will get its final incremental ID added in postprocessing
+            "id": f"https://frankensteinvariorum.github.io/annotations/{target_doc.witness}/",
             "type": "Annotation",
             "generator": {
-                "id": "https://frankensteinvariorum.github.io/",
+                "id": "https://frankensteinvariorum.github.io/viewer",
                 "type": "Software",
                 "name": "Frankenstein Variorum",
                 "homepage": "https://recogito.pelagios.org/",
             },
             "generated": a.data["created"],
             "body": body_content,
-            "target": {
-                "source": target_doc,
-                "type": "Text",
-                "selector": [
-                    {
-                        "type": "TextQuoteSelector",
-                        "prefix": a.text_selector()["prefix"],
-                        "exact": a.text_selector()["exact"],
-                        "suffix": a.text_selector()["suffix"],
-                    },
-                    {
-                        "type": "RangeSelector",
-                        "startSelector": {
-                            "type": "XPathSelector",
-                            "value": f"//*[@xml:id='{start_xml_id}']",
-                        },
-                        "endSelector": {
-                            "type": "XPathSelector",
-                            "value": f"//*[@xml:id='{end_xml_id}']",
-                        },
-                    },
-                ],
-            },
+            "target": {"source": target_doc.uri, "type": "Text", "selector": selectors},
         }
 
     def generate_oa(self, variorum):
@@ -228,7 +232,7 @@ class OpenAnnotation:
                                 end_xml_id,
                                 a.start_c(),
                                 a.end_c(),
-                                target_witness=wit.uri,
+                                target_witness=wit,
                             )
                         )
 
@@ -252,7 +256,7 @@ class OpenAnnotation:
                                 end_xml_id,
                                 a.start_c(),
                                 a.end_c(),
-                                target_witness=wit.uri,
+                                target_witness=wit,
                             )
                         )
         return oa
@@ -287,24 +291,27 @@ class Variorum:
 
 his = Hypothesis("hypothesis/data/hypothesis.json")
 c1818 = Collation(xml_path="hypothesis/migration/xml-ids/1818_full.xml", witness="1818")
-c1823 = Collation(xml_path="hypothesis/migration/xml-ids/1823_full.xml", witness="1831")
+c1823 = Collation(xml_path="hypothesis/migration/xml-ids/1823_full.xml", witness="1823")
 c1831 = Collation(xml_path="hypothesis/migration/xml-ids/1831_full.xml", witness="1831")
 
 fv = Variorum(c1818, c1823, c1831)
 
 oa1818 = OpenAnnotation(annotations=his, collation=c1818, p_offset=1, head_offset=0)
-
-json.dump(
-    oa1818.generate_oa(variorum=fv),
-    open("hypothesis/openannotation/1818_xml_id_mapping.json", "w"),
-    indent=True,
-)
-
-# Note the large offset to skip over the preface on the 1831 witness
 oa1831 = OpenAnnotation(annotations=his, collation=c1831, p_offset=1, head_offset=-1)
-json.dump(
-    oa1831.generate_oa(variorum=fv),
-    open("hypothesis/openannotation/1831_xml_id_mapping.json", "w"),
-    indent=True,
-)
+
+oa1818anns = oa1818.generate_oa(variorum=fv)
+oa1831anns = oa1831.generate_oa(variorum=fv)
+
+bulk_annotations = sorted(oa1818anns + oa1831anns, key=lambda x: x["target"]["source"])
+
+regrouped_annotations = groupby(bulk_annotations, lambda x: x["target"]["source"])
+
+for group, grpr in regrouped_annotations:
+    fn = re.match(r".+fv-collation/(.+)\.html", group).groups()[0]
+    annotations = [g for g in grpr]
+    json.dump(
+        annotations,
+        open(f"hypothesis/openannotation/{fn}_xml_id_mapping.json", "w"),
+        indent=True,
+    )
 
