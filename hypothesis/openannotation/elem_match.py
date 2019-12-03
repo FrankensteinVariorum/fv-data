@@ -125,6 +125,14 @@ class Collation:
             raise Exception(f"Id {xmlid} returned {len(res)} matches")
         return len(res) == 1
 
+    def diagnostic(self, xml_id):
+        try:
+            return etree.tostring(
+                self.tree.xpath(f"//*[@xml:id='{xml_id}']", namespaces=self.ns)[0]
+            ).decode("utf-8")
+        except:
+            return xml_id
+
 
 class OpenAnnotation:
     def __init__(self, annotations, collation, p_offset=-1, head_offset=0):
@@ -132,16 +140,6 @@ class OpenAnnotation:
         self.annotations = annotations
         self.p_offset = p_offset
         self.head_offset = head_offset
-
-    def diagnostic(self, xml_id):
-        try:
-            return etree.tostring(
-                self.collation.tree.xpath(
-                    f"//*[@xml:id='{xml_id}']", namespaces=self.collation.ns
-                )[0]
-            ).decode("utf-8")
-        except:
-            return xml_id
 
     def oa_template(
         self,
@@ -154,8 +152,10 @@ class OpenAnnotation:
     ):
         if target_witness is None:
             target_doc = self.collation
+            mirrored = False
         else:
             target_doc = target_witness
+            mirrored = True
 
         body_content = [
             {"type": "TextualBody", "purpose": "tagging", "value": t}
@@ -186,15 +186,15 @@ class OpenAnnotation:
             }
         ]
 
-        if target_witness is None:
-            selectors.append(
-                {
-                    "type": "TextQuoteSelector",
-                    "prefix": a.text_selector()["prefix"],
-                    "exact": a.text_selector()["exact"],
-                    "suffix": a.text_selector()["suffix"],
-                }
-            )
+        # if target_witness is None:
+        selectors.append(
+            {
+                "type": "TextQuoteSelector",
+                "prefix": a.text_selector()["prefix"],
+                "exact": a.text_selector()["exact"],
+                "suffix": a.text_selector()["suffix"],
+            }
+        )
 
         return {
             "@context": "http://www.w3.org/ns/anno.jsonld",
@@ -210,6 +210,8 @@ class OpenAnnotation:
             "generated": a.data["created"],
             "body": body_content,
             "target": {"source": target_doc.uri, "type": "Text", "selector": selectors},
+            "diagnostic": target_doc.diagnostic(start_xml_id),
+            "mirrored": mirrored,
         }
 
     def generate_oa(self, variorum):
@@ -263,10 +265,11 @@ class OpenAnnotation:
 
 
 class Variorum:
-    def __init__(self, w1818, w1823, w1831):
+    def __init__(self, w1818, w1823, w1831, wThomas):
         self.w1818 = w1818
         self.w1823 = w1823
         self.w1831 = w1831
+        self.wThomas = wThomas
 
     def get_witness(self, s):
         if s == "1818":
@@ -280,11 +283,13 @@ class Variorum:
 
     def get_other_witnesses(self, s):
         if s == "1818":
-            return [self.w1823, self.w1831]
+            return [self.w1823, self.w1831, self.wThomas]
         elif s == "1823":
-            return [self.w1818, self.w1831]
+            return [self.w1818, self.w1831, self.wThomas]
         elif s == "1831":
-            return [self.w1818, self.w1823]
+            return [self.w1818, self.w1823, self.wThomas]
+        elif s == "Thom":
+            return [self.w1818, self.w1823, self.w1831]
         else:
             raise Exception(f"'{s}' is not a valid witness identifier.")
 
@@ -293,16 +298,23 @@ his = Hypothesis("hypothesis/data/hypothesis.json")
 c1818 = Collation(xml_path="hypothesis/migration/xml-ids/1818_full.xml", witness="1818")
 c1823 = Collation(xml_path="hypothesis/migration/xml-ids/1823_full.xml", witness="1823")
 c1831 = Collation(xml_path="hypothesis/migration/xml-ids/1831_full.xml", witness="1831")
+cThomas = Collation(
+    xml_path="hypothesis/migration/xml-ids/Thomas_full.xml", witness="Thom"
+)
 
-fv = Variorum(c1818, c1823, c1831)
+fv = Variorum(c1818, c1823, c1831, cThomas)
 
 oa1818 = OpenAnnotation(annotations=his, collation=c1818, p_offset=1, head_offset=0)
 oa1831 = OpenAnnotation(annotations=his, collation=c1831, p_offset=1, head_offset=-1)
+oaThom = OpenAnnotation(annotations=his, collation=cThomas)
 
 oa1818anns = oa1818.generate_oa(variorum=fv)
 oa1831anns = oa1831.generate_oa(variorum=fv)
+oaThomanns = oaThom.generate_oa(variorum=fv)
 
-bulk_annotations = sorted(oa1818anns + oa1831anns, key=lambda x: x["target"]["source"])
+bulk_annotations = sorted(
+    oa1818anns + oa1831anns + oaThomanns, key=lambda x: x["target"]["source"]
+)
 
 regrouped_annotations = groupby(bulk_annotations, lambda x: x["target"]["source"])
 
