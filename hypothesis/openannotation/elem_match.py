@@ -306,7 +306,7 @@ fv = Variorum(c1818, c1823, c1831, cThomas)
 
 oa1818 = OpenAnnotation(annotations=his, collation=c1818, p_offset=1, head_offset=0)
 oa1831 = OpenAnnotation(annotations=his, collation=c1831, p_offset=1, head_offset=-1)
-oaThom = OpenAnnotation(annotations=his, collation=cThomas)
+oaThom = OpenAnnotation(annotations=his, collation=cThomas, p_offset=1)
 
 oa1818anns = oa1818.generate_oa(variorum=fv)
 oa1831anns = oa1831.generate_oa(variorum=fv)
