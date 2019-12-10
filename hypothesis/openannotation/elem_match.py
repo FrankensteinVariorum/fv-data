@@ -321,7 +321,7 @@ for group, grpr in regrouped_annotations:
     fn = re.match(r".+fv-collation/(.+)\.html", group).groups()[0]
     # Account for an eccentricity of annotation URLs during different points of migration
     if fn == "Thom":
-        fn == "Thomas"
+        fn = "Thomas"
     annotations = []
     for i, g in enumerate(grpr):
         g["id"] = g["id"] + str(i + 1)
