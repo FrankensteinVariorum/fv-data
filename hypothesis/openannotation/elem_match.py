@@ -210,7 +210,6 @@ class OpenAnnotation:
             "generated": a.data["created"],
             "body": body_content,
             "target": {"source": target_doc.uri, "type": "Text", "selector": selectors},
-            "diagnostic": target_doc.diagnostic(start_xml_id),
             "mirrored": mirrored,
         }
 
