@@ -1,7 +1,72 @@
 [
  {
   "@context": "http://www.w3.org/ns/anno.jsonld",
-  "id": "https://frankensteinvariorum.github.io/annotations/1823/1",
+  "id": "https://frankensteinvariorum.github.io/annotations/Thom/1",
+  "type": "Annotation",
+  "generator": {
+   "id": "https://frankensteinvariorum.github.io/viewer",
+   "type": "Software",
+   "name": "Frankenstein Variorum",
+   "homepage": "https://github.com/FrankensteinVariorum/fv-data"
+  },
+  "generated": "2019-12-16T18:31:02.390499+00:00",
+  "body": [
+   {
+    "type": "TextualBody",
+    "purpose": "tagging",
+    "value": "change-ann"
+   },
+   {
+    "type": "TextualBody",
+    "purpose": "tagging",
+    "value": "English Revolution"
+   },
+   {
+    "type": "TextualBody",
+    "purpose": "tagging",
+    "value": "jk"
+   },
+   {
+    "type": "TextualBody",
+    "purpose": "tagging",
+    "value": "1831 edition"
+   },
+   {
+    "type": "TextualBody",
+    "value": "Sir Thomas Gower, 2nd Baronet (c. 1605\u20131672) twice served as the High Sheriff of Yorkshire and supported the Royalist cause during the Civil War. In his 1823 edition of Shelley's novel, her father William Godwin changed \"Gower\" to \"Goring,\" the name of another Royalist leader in the Civil War, and the 1823 change is retained in the 1831 revision of the novel.",
+    "creator": "https://hypothes.is/users/frankensteinvariorum",
+    "modified": "2019-12-16T18:31:02.390499+00:00",
+    "purpose": "commenting"
+   }
+  ],
+  "target": {
+   "source": "https://frankensteinvariorum.github.io/fv-collation/Thom.html",
+   "type": "Text",
+   "selector": [
+    {
+     "type": "RangeSelector",
+     "startSelector": {
+      "type": "XPathSelector",
+      "value": "//*[@xml:id='novel1_letter4_chapter18_div4_div20_p7']"
+     },
+     "endSelector": {
+      "type": "XPathSelector",
+      "value": "//*[@xml:id='novel1_letter4_chapter18_div4_div20_p7']"
+     }
+    },
+    {
+     "type": "TextQuoteSelector",
+     "prefix": " amiable Falkland, the insolent ",
+     "exact": "Gower",
+     "suffix": ", his\n         queen, and son, g"
+    }
+   ]
+  },
+  "mirrored": true
+ },
+ {
+  "@context": "http://www.w3.org/ns/anno.jsonld",
+  "id": "https://frankensteinvariorum.github.io/annotations/Thom/2",
   "type": "Annotation",
   "generator": {
    "id": "https://frankensteinvariorum.github.io/viewer",
@@ -30,7 +95,7 @@
    }
   ],
   "target": {
-   "source": "https://frankensteinvariorum.github.io/fv-collation/1823.html",
+   "source": "https://frankensteinvariorum.github.io/fv-collation/Thom.html",
    "type": "Text",
    "selector": [
     {
@@ -56,7 +121,7 @@
  },
  {
   "@context": "http://www.w3.org/ns/anno.jsonld",
-  "id": "https://frankensteinvariorum.github.io/annotations/1823/2",
+  "id": "https://frankensteinvariorum.github.io/annotations/Thom/3",
   "type": "Annotation",
   "generator": {
    "id": "https://frankensteinvariorum.github.io/viewer",
@@ -90,7 +155,7 @@
    }
   ],
   "target": {
-   "source": "https://frankensteinvariorum.github.io/fv-collation/1823.html",
+   "source": "https://frankensteinvariorum.github.io/fv-collation/Thom.html",
    "type": "Text",
    "selector": [
     {
@@ -116,7 +181,7 @@
  },
  {
   "@context": "http://www.w3.org/ns/anno.jsonld",
-  "id": "https://frankensteinvariorum.github.io/annotations/1823/3",
+  "id": "https://frankensteinvariorum.github.io/annotations/Thom/4",
   "type": "Annotation",
   "generator": {
    "id": "https://frankensteinvariorum.github.io/viewer",
@@ -155,7 +220,7 @@
    }
   ],
   "target": {
-   "source": "https://frankensteinvariorum.github.io/fv-collation/1823.html",
+   "source": "https://frankensteinvariorum.github.io/fv-collation/Thom.html",
    "type": "Text",
    "selector": [
     {
@@ -181,7 +246,7 @@
  },
  {
   "@context": "http://www.w3.org/ns/anno.jsonld",
-  "id": "https://frankensteinvariorum.github.io/annotations/1823/4",
+  "id": "https://frankensteinvariorum.github.io/annotations/Thom/5",
   "type": "Annotation",
   "generator": {
    "id": "https://frankensteinvariorum.github.io/viewer",
@@ -220,7 +285,7 @@
    }
   ],
   "target": {
-   "source": "https://frankensteinvariorum.github.io/fv-collation/1823.html",
+   "source": "https://frankensteinvariorum.github.io/fv-collation/Thom.html",
    "type": "Text",
    "selector": [
     {
@@ -246,7 +311,7 @@
  },
  {
   "@context": "http://www.w3.org/ns/anno.jsonld",
-  "id": "https://frankensteinvariorum.github.io/annotations/1823/5",
+  "id": "https://frankensteinvariorum.github.io/annotations/Thom/6",
   "type": "Annotation",
   "generator": {
    "id": "https://frankensteinvariorum.github.io/viewer",
@@ -275,7 +340,7 @@
    }
   ],
   "target": {
-   "source": "https://frankensteinvariorum.github.io/fv-collation/1823.html",
+   "source": "https://frankensteinvariorum.github.io/fv-collation/Thom.html",
    "type": "Text",
    "selector": [
     {
@@ -301,7 +366,7 @@
  },
  {
   "@context": "http://www.w3.org/ns/anno.jsonld",
-  "id": "https://frankensteinvariorum.github.io/annotations/1823/6",
+  "id": "https://frankensteinvariorum.github.io/annotations/Thom/7",
   "type": "Annotation",
   "generator": {
    "id": "https://frankensteinvariorum.github.io/viewer",
@@ -330,7 +395,7 @@
    }
   ],
   "target": {
-   "source": "https://frankensteinvariorum.github.io/fv-collation/1823.html",
+   "source": "https://frankensteinvariorum.github.io/fv-collation/Thom.html",
    "type": "Text",
    "selector": [
     {
@@ -356,7 +421,7 @@
  },
  {
   "@context": "http://www.w3.org/ns/anno.jsonld",
-  "id": "https://frankensteinvariorum.github.io/annotations/1823/7",
+  "id": "https://frankensteinvariorum.github.io/annotations/Thom/8",
   "type": "Annotation",
   "generator": {
    "id": "https://frankensteinvariorum.github.io/viewer",
@@ -385,7 +450,7 @@
    }
   ],
   "target": {
-   "source": "https://frankensteinvariorum.github.io/fv-collation/1823.html",
+   "source": "https://frankensteinvariorum.github.io/fv-collation/Thom.html",
    "type": "Text",
    "selector": [
     {
@@ -411,7 +476,7 @@
  },
  {
   "@context": "http://www.w3.org/ns/anno.jsonld",
-  "id": "https://frankensteinvariorum.github.io/annotations/1823/8",
+  "id": "https://frankensteinvariorum.github.io/annotations/Thom/9",
   "type": "Annotation",
   "generator": {
    "id": "https://frankensteinvariorum.github.io/viewer",
@@ -445,7 +510,7 @@
    }
   ],
   "target": {
-   "source": "https://frankensteinvariorum.github.io/fv-collation/1823.html",
+   "source": "https://frankensteinvariorum.github.io/fv-collation/Thom.html",
    "type": "Text",
    "selector": [
     {
@@ -471,7 +536,7 @@
  },
  {
   "@context": "http://www.w3.org/ns/anno.jsonld",
-  "id": "https://frankensteinvariorum.github.io/annotations/1823/9",
+  "id": "https://frankensteinvariorum.github.io/annotations/Thom/10",
   "type": "Annotation",
   "generator": {
    "id": "https://frankensteinvariorum.github.io/viewer",
@@ -500,7 +565,7 @@
    }
   ],
   "target": {
-   "source": "https://frankensteinvariorum.github.io/fv-collation/1823.html",
+   "source": "https://frankensteinvariorum.github.io/fv-collation/Thom.html",
    "type": "Text",
    "selector": [
     {
@@ -526,7 +591,7 @@
  },
  {
   "@context": "http://www.w3.org/ns/anno.jsonld",
-  "id": "https://frankensteinvariorum.github.io/annotations/1823/10",
+  "id": "https://frankensteinvariorum.github.io/annotations/Thom/11",
   "type": "Annotation",
   "generator": {
    "id": "https://frankensteinvariorum.github.io/viewer",
@@ -555,7 +620,7 @@
    }
   ],
   "target": {
-   "source": "https://frankensteinvariorum.github.io/fv-collation/1823.html",
+   "source": "https://frankensteinvariorum.github.io/fv-collation/Thom.html",
    "type": "Text",
    "selector": [
     {
@@ -581,7 +646,7 @@
  },
  {
   "@context": "http://www.w3.org/ns/anno.jsonld",
-  "id": "https://frankensteinvariorum.github.io/annotations/1823/11",
+  "id": "https://frankensteinvariorum.github.io/annotations/Thom/12",
   "type": "Annotation",
   "generator": {
    "id": "https://frankensteinvariorum.github.io/viewer",
@@ -620,7 +685,7 @@
    }
   ],
   "target": {
-   "source": "https://frankensteinvariorum.github.io/fv-collation/1823.html",
+   "source": "https://frankensteinvariorum.github.io/fv-collation/Thom.html",
    "type": "Text",
    "selector": [
     {
@@ -646,7 +711,7 @@
  },
  {
   "@context": "http://www.w3.org/ns/anno.jsonld",
-  "id": "https://frankensteinvariorum.github.io/annotations/1823/12",
+  "id": "https://frankensteinvariorum.github.io/annotations/Thom/13",
   "type": "Annotation",
   "generator": {
    "id": "https://frankensteinvariorum.github.io/viewer",
@@ -675,7 +740,7 @@
    }
   ],
   "target": {
-   "source": "https://frankensteinvariorum.github.io/fv-collation/1823.html",
+   "source": "https://frankensteinvariorum.github.io/fv-collation/Thom.html",
    "type": "Text",
    "selector": [
     {
@@ -701,7 +766,7 @@
  },
  {
   "@context": "http://www.w3.org/ns/anno.jsonld",
-  "id": "https://frankensteinvariorum.github.io/annotations/1823/13",
+  "id": "https://frankensteinvariorum.github.io/annotations/Thom/14",
   "type": "Annotation",
   "generator": {
    "id": "https://frankensteinvariorum.github.io/viewer",
@@ -735,7 +800,7 @@
    }
   ],
   "target": {
-   "source": "https://frankensteinvariorum.github.io/fv-collation/1823.html",
+   "source": "https://frankensteinvariorum.github.io/fv-collation/Thom.html",
    "type": "Text",
    "selector": [
     {
@@ -761,7 +826,7 @@
  },
  {
   "@context": "http://www.w3.org/ns/anno.jsonld",
-  "id": "https://frankensteinvariorum.github.io/annotations/1823/14",
+  "id": "https://frankensteinvariorum.github.io/annotations/Thom/15",
   "type": "Annotation",
   "generator": {
    "id": "https://frankensteinvariorum.github.io/viewer",
@@ -795,7 +860,7 @@
    }
   ],
   "target": {
-   "source": "https://frankensteinvariorum.github.io/fv-collation/1823.html",
+   "source": "https://frankensteinvariorum.github.io/fv-collation/Thom.html",
    "type": "Text",
    "selector": [
     {
@@ -821,7 +886,7 @@
  },
  {
   "@context": "http://www.w3.org/ns/anno.jsonld",
-  "id": "https://frankensteinvariorum.github.io/annotations/1823/15",
+  "id": "https://frankensteinvariorum.github.io/annotations/Thom/16",
   "type": "Annotation",
   "generator": {
    "id": "https://frankensteinvariorum.github.io/viewer",
@@ -850,7 +915,7 @@
    }
   ],
   "target": {
-   "source": "https://frankensteinvariorum.github.io/fv-collation/1823.html",
+   "source": "https://frankensteinvariorum.github.io/fv-collation/Thom.html",
    "type": "Text",
    "selector": [
     {
@@ -876,7 +941,7 @@
  },
  {
   "@context": "http://www.w3.org/ns/anno.jsonld",
-  "id": "https://frankensteinvariorum.github.io/annotations/1823/16",
+  "id": "https://frankensteinvariorum.github.io/annotations/Thom/17",
   "type": "Annotation",
   "generator": {
    "id": "https://frankensteinvariorum.github.io/viewer",
@@ -915,7 +980,7 @@
    }
   ],
   "target": {
-   "source": "https://frankensteinvariorum.github.io/fv-collation/1823.html",
+   "source": "https://frankensteinvariorum.github.io/fv-collation/Thom.html",
    "type": "Text",
    "selector": [
     {
@@ -941,7 +1006,7 @@
  },
  {
   "@context": "http://www.w3.org/ns/anno.jsonld",
-  "id": "https://frankensteinvariorum.github.io/annotations/1823/17",
+  "id": "https://frankensteinvariorum.github.io/annotations/Thom/18",
   "type": "Annotation",
   "generator": {
    "id": "https://frankensteinvariorum.github.io/viewer",
@@ -970,7 +1035,7 @@
    }
   ],
   "target": {
-   "source": "https://frankensteinvariorum.github.io/fv-collation/1823.html",
+   "source": "https://frankensteinvariorum.github.io/fv-collation/Thom.html",
    "type": "Text",
    "selector": [
     {
@@ -996,7 +1061,7 @@
  },
  {
   "@context": "http://www.w3.org/ns/anno.jsonld",
-  "id": "https://frankensteinvariorum.github.io/annotations/1823/18",
+  "id": "https://frankensteinvariorum.github.io/annotations/Thom/19",
   "type": "Annotation",
   "generator": {
    "id": "https://frankensteinvariorum.github.io/viewer",
@@ -1035,7 +1100,7 @@
    }
   ],
   "target": {
-   "source": "https://frankensteinvariorum.github.io/fv-collation/1823.html",
+   "source": "https://frankensteinvariorum.github.io/fv-collation/Thom.html",
    "type": "Text",
    "selector": [
     {
@@ -1061,7 +1126,7 @@
  },
  {
   "@context": "http://www.w3.org/ns/anno.jsonld",
-  "id": "https://frankensteinvariorum.github.io/annotations/1823/19",
+  "id": "https://frankensteinvariorum.github.io/annotations/Thom/20",
   "type": "Annotation",
   "generator": {
    "id": "https://frankensteinvariorum.github.io/viewer",
@@ -1100,7 +1165,7 @@
    }
   ],
   "target": {
-   "source": "https://frankensteinvariorum.github.io/fv-collation/1823.html",
+   "source": "https://frankensteinvariorum.github.io/fv-collation/Thom.html",
    "type": "Text",
    "selector": [
     {
@@ -1126,7 +1191,7 @@
  },
  {
   "@context": "http://www.w3.org/ns/anno.jsonld",
-  "id": "https://frankensteinvariorum.github.io/annotations/1823/20",
+  "id": "https://frankensteinvariorum.github.io/annotations/Thom/21",
   "type": "Annotation",
   "generator": {
    "id": "https://frankensteinvariorum.github.io/viewer",
@@ -1165,7 +1230,7 @@
    }
   ],
   "target": {
-   "source": "https://frankensteinvariorum.github.io/fv-collation/1823.html",
+   "source": "https://frankensteinvariorum.github.io/fv-collation/Thom.html",
    "type": "Text",
    "selector": [
     {
@@ -1191,7 +1256,7 @@
  },
  {
   "@context": "http://www.w3.org/ns/anno.jsonld",
-  "id": "https://frankensteinvariorum.github.io/annotations/1823/21",
+  "id": "https://frankensteinvariorum.github.io/annotations/Thom/22",
   "type": "Annotation",
   "generator": {
    "id": "https://frankensteinvariorum.github.io/viewer",
@@ -1230,7 +1295,7 @@
    }
   ],
   "target": {
-   "source": "https://frankensteinvariorum.github.io/fv-collation/1823.html",
+   "source": "https://frankensteinvariorum.github.io/fv-collation/Thom.html",
    "type": "Text",
    "selector": [
     {
@@ -1256,7 +1321,7 @@
  },
  {
   "@context": "http://www.w3.org/ns/anno.jsonld",
-  "id": "https://frankensteinvariorum.github.io/annotations/1823/22",
+  "id": "https://frankensteinvariorum.github.io/annotations/Thom/23",
   "type": "Annotation",
   "generator": {
    "id": "https://frankensteinvariorum.github.io/viewer",
@@ -1285,7 +1350,7 @@
    }
   ],
   "target": {
-   "source": "https://frankensteinvariorum.github.io/fv-collation/1823.html",
+   "source": "https://frankensteinvariorum.github.io/fv-collation/Thom.html",
    "type": "Text",
    "selector": [
     {
@@ -1311,7 +1376,7 @@
  },
  {
   "@context": "http://www.w3.org/ns/anno.jsonld",
-  "id": "https://frankensteinvariorum.github.io/annotations/1823/23",
+  "id": "https://frankensteinvariorum.github.io/annotations/Thom/24",
   "type": "Annotation",
   "generator": {
    "id": "https://frankensteinvariorum.github.io/viewer",
@@ -1355,7 +1420,7 @@
    }
   ],
   "target": {
-   "source": "https://frankensteinvariorum.github.io/fv-collation/1823.html",
+   "source": "https://frankensteinvariorum.github.io/fv-collation/Thom.html",
    "type": "Text",
    "selector": [
     {
@@ -1381,7 +1446,7 @@
  },
  {
   "@context": "http://www.w3.org/ns/anno.jsonld",
-  "id": "https://frankensteinvariorum.github.io/annotations/1823/24",
+  "id": "https://frankensteinvariorum.github.io/annotations/Thom/25",
   "type": "Annotation",
   "generator": {
    "id": "https://frankensteinvariorum.github.io/viewer",
@@ -1410,7 +1475,7 @@
    }
   ],
   "target": {
-   "source": "https://frankensteinvariorum.github.io/fv-collation/1823.html",
+   "source": "https://frankensteinvariorum.github.io/fv-collation/Thom.html",
    "type": "Text",
    "selector": [
     {
@@ -1436,7 +1501,7 @@
  },
  {
   "@context": "http://www.w3.org/ns/anno.jsonld",
-  "id": "https://frankensteinvariorum.github.io/annotations/1823/25",
+  "id": "https://frankensteinvariorum.github.io/annotations/Thom/26",
   "type": "Annotation",
   "generator": {
    "id": "https://frankensteinvariorum.github.io/viewer",
@@ -1475,7 +1540,7 @@
    }
   ],
   "target": {
-   "source": "https://frankensteinvariorum.github.io/fv-collation/1823.html",
+   "source": "https://frankensteinvariorum.github.io/fv-collation/Thom.html",
    "type": "Text",
    "selector": [
     {
@@ -1501,7 +1566,7 @@
  },
  {
   "@context": "http://www.w3.org/ns/anno.jsonld",
-  "id": "https://frankensteinvariorum.github.io/annotations/1823/26",
+  "id": "https://frankensteinvariorum.github.io/annotations/Thom/27",
   "type": "Annotation",
   "generator": {
    "id": "https://frankensteinvariorum.github.io/viewer",
@@ -1540,7 +1605,7 @@
    }
   ],
   "target": {
-   "source": "https://frankensteinvariorum.github.io/fv-collation/1823.html",
+   "source": "https://frankensteinvariorum.github.io/fv-collation/Thom.html",
    "type": "Text",
    "selector": [
     {
@@ -1566,7 +1631,7 @@
  },
  {
   "@context": "http://www.w3.org/ns/anno.jsonld",
-  "id": "https://frankensteinvariorum.github.io/annotations/1823/27",
+  "id": "https://frankensteinvariorum.github.io/annotations/Thom/28",
   "type": "Annotation",
   "generator": {
    "id": "https://frankensteinvariorum.github.io/viewer",
@@ -1595,7 +1660,7 @@
    }
   ],
   "target": {
-   "source": "https://frankensteinvariorum.github.io/fv-collation/1823.html",
+   "source": "https://frankensteinvariorum.github.io/fv-collation/Thom.html",
    "type": "Text",
    "selector": [
     {
@@ -1621,7 +1686,7 @@
  },
  {
   "@context": "http://www.w3.org/ns/anno.jsonld",
-  "id": "https://frankensteinvariorum.github.io/annotations/1823/28",
+  "id": "https://frankensteinvariorum.github.io/annotations/Thom/29",
   "type": "Annotation",
   "generator": {
    "id": "https://frankensteinvariorum.github.io/viewer",
@@ -1665,7 +1730,7 @@
    }
   ],
   "target": {
-   "source": "https://frankensteinvariorum.github.io/fv-collation/1823.html",
+   "source": "https://frankensteinvariorum.github.io/fv-collation/Thom.html",
    "type": "Text",
    "selector": [
     {
@@ -1691,7 +1756,7 @@
  },
  {
   "@context": "http://www.w3.org/ns/anno.jsonld",
-  "id": "https://frankensteinvariorum.github.io/annotations/1823/29",
+  "id": "https://frankensteinvariorum.github.io/annotations/Thom/30",
   "type": "Annotation",
   "generator": {
    "id": "https://frankensteinvariorum.github.io/viewer",
@@ -1725,7 +1790,7 @@
    }
   ],
   "target": {
-   "source": "https://frankensteinvariorum.github.io/fv-collation/1823.html",
+   "source": "https://frankensteinvariorum.github.io/fv-collation/Thom.html",
    "type": "Text",
    "selector": [
     {
@@ -1751,7 +1816,7 @@
  },
  {
   "@context": "http://www.w3.org/ns/anno.jsonld",
-  "id": "https://frankensteinvariorum.github.io/annotations/1823/30",
+  "id": "https://frankensteinvariorum.github.io/annotations/Thom/31",
   "type": "Annotation",
   "generator": {
    "id": "https://frankensteinvariorum.github.io/viewer",
@@ -1790,7 +1855,7 @@
    }
   ],
   "target": {
-   "source": "https://frankensteinvariorum.github.io/fv-collation/1823.html",
+   "source": "https://frankensteinvariorum.github.io/fv-collation/Thom.html",
    "type": "Text",
    "selector": [
     {
@@ -1816,7 +1881,7 @@
  },
  {
   "@context": "http://www.w3.org/ns/anno.jsonld",
-  "id": "https://frankensteinvariorum.github.io/annotations/1823/31",
+  "id": "https://frankensteinvariorum.github.io/annotations/Thom/32",
   "type": "Annotation",
   "generator": {
    "id": "https://frankensteinvariorum.github.io/viewer",
@@ -1850,7 +1915,7 @@
    }
   ],
   "target": {
-   "source": "https://frankensteinvariorum.github.io/fv-collation/1823.html",
+   "source": "https://frankensteinvariorum.github.io/fv-collation/Thom.html",
    "type": "Text",
    "selector": [
     {
@@ -1876,7 +1941,7 @@
  },
  {
   "@context": "http://www.w3.org/ns/anno.jsonld",
-  "id": "https://frankensteinvariorum.github.io/annotations/1823/32",
+  "id": "https://frankensteinvariorum.github.io/annotations/Thom/33",
   "type": "Annotation",
   "generator": {
    "id": "https://frankensteinvariorum.github.io/viewer",
@@ -1910,7 +1975,7 @@
    }
   ],
   "target": {
-   "source": "https://frankensteinvariorum.github.io/fv-collation/1823.html",
+   "source": "https://frankensteinvariorum.github.io/fv-collation/Thom.html",
    "type": "Text",
    "selector": [
     {
@@ -1936,7 +2001,7 @@
  },
  {
   "@context": "http://www.w3.org/ns/anno.jsonld",
-  "id": "https://frankensteinvariorum.github.io/annotations/1823/33",
+  "id": "https://frankensteinvariorum.github.io/annotations/Thom/34",
   "type": "Annotation",
   "generator": {
    "id": "https://frankensteinvariorum.github.io/viewer",
@@ -1970,7 +2035,7 @@
    }
   ],
   "target": {
-   "source": "https://frankensteinvariorum.github.io/fv-collation/1823.html",
+   "source": "https://frankensteinvariorum.github.io/fv-collation/Thom.html",
    "type": "Text",
    "selector": [
     {
@@ -1996,7 +2061,7 @@
  },
  {
   "@context": "http://www.w3.org/ns/anno.jsonld",
-  "id": "https://frankensteinvariorum.github.io/annotations/1823/34",
+  "id": "https://frankensteinvariorum.github.io/annotations/Thom/35",
   "type": "Annotation",
   "generator": {
    "id": "https://frankensteinvariorum.github.io/viewer",
@@ -2025,7 +2090,7 @@
    }
   ],
   "target": {
-   "source": "https://frankensteinvariorum.github.io/fv-collation/1823.html",
+   "source": "https://frankensteinvariorum.github.io/fv-collation/Thom.html",
    "type": "Text",
    "selector": [
     {
@@ -2051,7 +2116,7 @@
  },
  {
   "@context": "http://www.w3.org/ns/anno.jsonld",
-  "id": "https://frankensteinvariorum.github.io/annotations/1823/35",
+  "id": "https://frankensteinvariorum.github.io/annotations/Thom/36",
   "type": "Annotation",
   "generator": {
    "id": "https://frankensteinvariorum.github.io/viewer",
@@ -2090,7 +2155,7 @@
    }
   ],
   "target": {
-   "source": "https://frankensteinvariorum.github.io/fv-collation/1823.html",
+   "source": "https://frankensteinvariorum.github.io/fv-collation/Thom.html",
    "type": "Text",
    "selector": [
     {
@@ -2116,702 +2181,7 @@
  },
  {
   "@context": "http://www.w3.org/ns/anno.jsonld",
-  "id": "https://frankensteinvariorum.github.io/annotations/1823/36",
-  "type": "Annotation",
-  "generator": {
-   "id": "https://frankensteinvariorum.github.io/viewer",
-   "type": "Software",
-   "name": "Frankenstein Variorum",
-   "homepage": "https://github.com/FrankensteinVariorum/fv-data"
-  },
-  "generated": "2019-12-16T18:35:49.313280+00:00",
-  "body": [
-   {
-    "type": "TextualBody",
-    "purpose": "tagging",
-    "value": "change-ann"
-   },
-   {
-    "type": "TextualBody",
-    "purpose": "tagging",
-    "value": "Justine"
-   },
-   {
-    "type": "TextualBody",
-    "purpose": "tagging",
-    "value": "creature"
-   },
-   {
-    "type": "TextualBody",
-    "purpose": "tagging",
-    "value": "jk"
-   },
-   {
-    "type": "TextualBody",
-    "value": "In this 1831 addition, Justine's testimony mentions the sound of \"some steps\" disturbing her as she waited out the night in the barn. This may be another reference to the creature, as with Victor's near slip with Ernest. ",
-    "creator": "https://hypothes.is/users/frankensteinvariorum",
-    "modified": "2019-12-16T18:35:49.313280+00:00",
-    "purpose": "commenting"
-   }
-  ],
-  "target": {
-   "source": "https://frankensteinvariorum.github.io/fv-collation/1823.html",
-   "type": "Text",
-   "selector": [
-    {
-     "type": "RangeSelector",
-     "startSelector": {
-      "type": "XPathSelector",
-      "value": "//*[@xml:id='novel1_letter4_chapter8_div4_div8_p6']"
-     },
-     "endSelector": {
-      "type": "XPathSelector",
-      "value": "//*[@xml:id='novel1_letter4_chapter8_div4_div8_p6']"
-     }
-    },
-    {
-     "type": "TextQuoteSelector",
-     "prefix": "ts, to whom she was well known. ",
-     "exact": "Most of the night she spent here watching;\n         towards morning she believed that she slept for a few minutes; some steps disturbed\n         her,\n         and she awoke. It was dawn, ",
-     "suffix": "and she quitted her asylum, that"
-    }
-   ]
-  },
-  "mirrored": true
- },
- {
-  "@context": "http://www.w3.org/ns/anno.jsonld",
-  "id": "https://frankensteinvariorum.github.io/annotations/1823/37",
-  "type": "Annotation",
-  "generator": {
-   "id": "https://frankensteinvariorum.github.io/viewer",
-   "type": "Software",
-   "name": "Frankenstein Variorum",
-   "homepage": "https://github.com/FrankensteinVariorum/fv-data"
-  },
-  "generated": "2019-12-16T18:33:25.666157+00:00",
-  "body": [
-   {
-    "type": "TextualBody",
-    "purpose": "tagging",
-    "value": "change-ann"
-   },
-   {
-    "type": "TextualBody",
-    "purpose": "tagging",
-    "value": "Justine"
-   },
-   {
-    "type": "TextualBody",
-    "purpose": "tagging",
-    "value": "Victor"
-   },
-   {
-    "type": "TextualBody",
-    "purpose": "tagging",
-    "value": "jk"
-   },
-   {
-    "type": "TextualBody",
-    "value": " In this change to the 1831, the certainty with which Justine is convicted causes Victor to question his own convictions about the creature's involvement. ",
-    "creator": "https://hypothes.is/users/frankensteinvariorum",
-    "modified": "2019-12-16T18:33:25.666157+00:00",
-    "purpose": "commenting"
-   }
-  ],
-  "target": {
-   "source": "https://frankensteinvariorum.github.io/fv-collation/1823.html",
-   "type": "Text",
-   "selector": [
-    {
-     "type": "RangeSelector",
-     "startSelector": {
-      "type": "XPathSelector",
-      "value": "//*[@xml:id='novel1_letter4_chapter8_div4_div8_p14']"
-     },
-     "endSelector": {
-      "type": "XPathSelector",
-      "value": "//*[@xml:id='novel1_letter4_chapter8_div4_div8_p14']"
-     }
-    },
-    {
-     "type": "TextQuoteSelector",
-     "prefix": " decisive.\u201d\n      \n      \n      ",
-     "exact": "This was strange and unexpected intelligence; what could it mean? Had my eyes deceived\n         me? and was I really as mad as the whole world would believe me to be, if I disclosed\n         the object of my suspicions? I hastened to return home, and",
-     "suffix": " Elizabeth eagerly demanded\n    "
-    }
-   ]
-  },
-  "mirrored": true
- },
- {
-  "@context": "http://www.w3.org/ns/anno.jsonld",
-  "id": "https://frankensteinvariorum.github.io/annotations/1823/38",
-  "type": "Annotation",
-  "generator": {
-   "id": "https://frankensteinvariorum.github.io/viewer",
-   "type": "Software",
-   "name": "Frankenstein Variorum",
-   "homepage": "https://github.com/FrankensteinVariorum/fv-data"
-  },
-  "generated": "2019-12-16T18:33:22.313251+00:00",
-  "body": [
-   {
-    "type": "TextualBody",
-    "purpose": "tagging",
-    "value": "change-ann"
-   },
-   {
-    "type": "TextualBody",
-    "purpose": "tagging",
-    "value": "jk"
-   },
-   {
-    "type": "TextualBody",
-    "value": "The 1831 edition adds the words \"perhaps never,\" suggesting Victor has never recovered from the shock of the Creature's animation in Volume 1, intensifying his reaction to the death of Justine.",
-    "creator": "https://hypothes.is/users/frankensteinvariorum",
-    "modified": "2019-12-16T18:33:22.313251+00:00",
-    "purpose": "commenting"
-   }
-  ],
-  "target": {
-   "source": "https://frankensteinvariorum.github.io/fv-collation/1823.html",
-   "type": "Text",
-   "selector": [
-    {
-     "type": "RangeSelector",
-     "startSelector": {
-      "type": "XPathSelector",
-      "value": "//*[@xml:id='novel1_letter4_chapter9_div4_div9_p2']"
-     },
-     "endSelector": {
-      "type": "XPathSelector",
-      "value": "//*[@xml:id='novel1_letter4_chapter9_div4_div9_p2']"
-     }
-    },
-    {
-     "type": "TextQuoteSelector",
-     "prefix": "n my health, which had\n         ",
-     "exact": "perhaps never",
-     "suffix": " entirely recovered from the fir"
-    }
-   ]
-  },
-  "mirrored": true
- },
- {
-  "@context": "http://www.w3.org/ns/anno.jsonld",
-  "id": "https://frankensteinvariorum.github.io/annotations/1823/39",
-  "type": "Annotation",
-  "generator": {
-   "id": "https://frankensteinvariorum.github.io/viewer",
-   "type": "Software",
-   "name": "Frankenstein Variorum",
-   "homepage": "https://github.com/FrankensteinVariorum/fv-data"
-  },
-  "generated": "2019-12-16T18:33:55.792046+00:00",
-  "body": [
-   {
-    "type": "TextualBody",
-    "purpose": "tagging",
-    "value": "change-ann"
-   },
-   {
-    "type": "TextualBody",
-    "purpose": "tagging",
-    "value": "jk"
-   },
-   {
-    "type": "TextualBody",
-    "value": "Mary Shelley made a number of changes to this passage across editions. In the manuscript, 1818, and 1823 editions, Victor's father tries \"to reason\" with and console his son. In the 1831 edition the appeal to reason has disappeared. Instead Victor's father makes a Romantic injunction, proceeding from a \"serene conscience and guiltless life,\" which he hopes will \"inspire [Victor] with fortitude\" and awaken in him \"the courage to dispel the dark clouds\" brooding over him. Since Shelley also toyed with  this passage in the Thomas Copy, it was clearly an unsettled moment in the novel in her mind.",
-    "creator": "https://hypothes.is/users/frankensteinvariorum",
-    "modified": "2019-12-16T18:33:55.792046+00:00",
-    "purpose": "commenting"
-   }
-  ],
-  "target": {
-   "source": "https://frankensteinvariorum.github.io/fv-collation/1823.html",
-   "type": "Text",
-   "selector": [
-    {
-     "type": "RangeSelector",
-     "startSelector": {
-      "type": "XPathSelector",
-      "value": "//*[@xml:id='novel1_letter4_chapter9_div4_div9_p3']"
-     },
-     "endSelector": {
-      "type": "XPathSelector",
-      "value": "//*[@xml:id='novel1_letter4_chapter9_div4_div9_p3']"
-     }
-    },
-    {
-     "type": "TextQuoteSelector",
-     "prefix": "abits,\n         and endeavoured ",
-     "exact": "by arguments deduced from the feelings of his serene conscience and\n         guiltless life, to inspire me with fortitude, and awaken in me the courage to dispel\n         the\n         dark cloud which brooded over me",
-     "suffix": ". \u201cDo you think, Victor,\u201d said h"
-    }
-   ]
-  },
-  "mirrored": true
- },
- {
-  "@context": "http://www.w3.org/ns/anno.jsonld",
-  "id": "https://frankensteinvariorum.github.io/annotations/1823/40",
-  "type": "Annotation",
-  "generator": {
-   "id": "https://frankensteinvariorum.github.io/viewer",
-   "type": "Software",
-   "name": "Frankenstein Variorum",
-   "homepage": "https://github.com/FrankensteinVariorum/fv-data"
-  },
-  "generated": "2019-12-16T18:34:14.409337+00:00",
-  "body": [
-   {
-    "type": "TextualBody",
-    "purpose": "tagging",
-    "value": "change-ann"
-   },
-   {
-    "type": "TextualBody",
-    "purpose": "tagging",
-    "value": "jk"
-   },
-   {
-    "type": "TextualBody",
-    "value": "This addition to the 1831 emphasizes Victor's sense of his culpability for the Creature's actions.",
-    "creator": "https://hypothes.is/users/frankensteinvariorum",
-    "modified": "2019-12-16T18:34:14.409337+00:00",
-    "purpose": "commenting"
-   }
-  ],
-  "target": {
-   "source": "https://frankensteinvariorum.github.io/fv-collation/1823.html",
-   "type": "Text",
-   "selector": [
-    {
-     "type": "RangeSelector",
-     "startSelector": {
-      "type": "XPathSelector",
-      "value": "//*[@xml:id='novel1_letter4_chapter9_div4_div9_p4']"
-     },
-     "endSelector": {
-      "type": "XPathSelector",
-      "value": "//*[@xml:id='novel1_letter4_chapter9_div4_div9_p4']"
-     }
-    },
-    {
-     "type": "TextQuoteSelector",
-     "prefix": "ingled its\n         bitterness, ",
-     "exact": "and terror its alarm",
-     "suffix": " with my other sensations. Now I"
-    }
-   ]
-  },
-  "mirrored": true
- },
- {
-  "@context": "http://www.w3.org/ns/anno.jsonld",
-  "id": "https://frankensteinvariorum.github.io/annotations/1823/41",
-  "type": "Annotation",
-  "generator": {
-   "id": "https://frankensteinvariorum.github.io/viewer",
-   "type": "Software",
-   "name": "Frankenstein Variorum",
-   "homepage": "https://github.com/FrankensteinVariorum/fv-data"
-  },
-  "generated": "2019-12-16T18:36:10.819974+00:00",
-  "body": [
-   {
-    "type": "TextualBody",
-    "purpose": "tagging",
-    "value": "change-ann"
-   },
-   {
-    "type": "TextualBody",
-    "purpose": "tagging",
-    "value": "jk"
-   },
-   {
-    "type": "TextualBody",
-    "value": "In this 1831 revision, Shelley emphasizes the physiognomy of Elizabeth's melancholy, witness by Victor in her somber countenance, absent in previous editions.",
-    "creator": "https://hypothes.is/users/frankensteinvariorum",
-    "modified": "2019-12-16T18:36:10.819974+00:00",
-    "purpose": "commenting"
-   }
-  ],
-  "target": {
-   "source": "https://frankensteinvariorum.github.io/fv-collation/1823.html",
-   "type": "Text",
-   "selector": [
-    {
-     "type": "RangeSelector",
-     "startSelector": {
-      "type": "XPathSelector",
-      "value": "//*[@xml:id='novel1_letter4_chapter9_div4_div9_p7']"
-     },
-     "endSelector": {
-      "type": "XPathSelector",
-      "value": "//*[@xml:id='novel1_letter4_chapter9_div4_div9_p7']"
-     }
-    },
-    {
-     "type": "TextQuoteSelector",
-     "prefix": " our future\n         prospects. ",
-     "exact": "The first of those sorrows which are 77sent to\n         wean us from the earth, had visited her, and its dimming influence quenched her dearest\n         smiles",
-     "suffix": ".\n      \n      \n      \u201cWhen I re"
-    }
-   ]
-  },
-  "mirrored": true
- },
- {
-  "@context": "http://www.w3.org/ns/anno.jsonld",
-  "id": "https://frankensteinvariorum.github.io/annotations/1823/42",
-  "type": "Annotation",
-  "generator": {
-   "id": "https://frankensteinvariorum.github.io/viewer",
-   "type": "Software",
-   "name": "Frankenstein Variorum",
-   "homepage": "https://github.com/FrankensteinVariorum/fv-data"
-  },
-  "generated": "2019-12-16T18:31:11.898329+00:00",
-  "body": [
-   {
-    "type": "TextualBody",
-    "purpose": "tagging",
-    "value": "change-ann"
-   },
-   {
-    "type": "TextualBody",
-    "purpose": "tagging",
-    "value": "jk"
-   },
-   {
-    "type": "TextualBody",
-    "value": "In this lengthy revision to the 1831 edition, Shelley emphasizes Victor's wariness in becoming close to Elizabeth, should she meet the same fate as Justine. Importantly, the journey along the Arve Valley is made by Victor alone, giving him cause to reflect on his journey with greater nostalgia. In the earlier editions, Victor travels with Elizabeth, his father, and his brother Ernest. ",
-    "creator": "https://hypothes.is/users/frankensteinvariorum",
-    "modified": "2019-12-16T18:31:11.898329+00:00",
-    "purpose": "commenting"
-   }
-  ],
-  "target": {
-   "source": "https://frankensteinvariorum.github.io/fv-collation/1823.html",
-   "type": "Text",
-   "selector": [
-    {
-     "type": "RangeSelector",
-     "startSelector": {
-      "type": "XPathSelector",
-      "value": "//*[@xml:id='novel1_letter4_chapter9_div4_div9_p9']"
-     },
-     "endSelector": {
-      "type": "XPathSelector",
-      "value": "//*[@xml:id='novel1_letter4_chapter9_div4_div9_p13']"
-     }
-    },
-    {
-     "type": "TextQuoteSelector",
-     "prefix": "tenance, that makes me tremble. ",
-     "exact": "Dear\n         Victor, banish these dark passions. Remember the friends around you, 78who centre all their hopes in you. Have we lost the power\n         of rendering you happy? Ah! while we love\u2014while we are true to each other, here in\n         this\n         land of peace and beauty, your native country, we may reap every tranquil blessing,\u2014what\n         can disturb our peace?\u201d\n      \n      \n      And could not such words from her whom I fondly prized before every other gift of\n         fortune, suffice to chase away the fiend that lurked in my heart? Even as she spoke\n         I\n         drew near to her, as if in terror; lest at that very moment the destroyer had been\n         near\n         to rob me of her. \n      \n      \n      Thus not the tenderness of friendship, nor the beauty of earth, nor of heaven, could\n         redeem my soul from woe: the very accents of love were ineffectual. I was encompassed\n         by\n         a cloud which no beneficial influence could penetrate. The wounded deer dragging its\n         fainting limbs to some untrodden brake, there to gaze upon the arrow which had pierced\n         it, and to die\u2014was but a type of me.\n      \n      \n      Sometimes I could cope with the sullen despair that overwhelmed me: but sometimes\n         the\n         whirlwind passions of my soul drove me to seek, by bodily exercise and by change of\n         place, some relief from my intolerable sensations. It was during an access of this\n         kind\n         that I suddenly left my home, and bending my steps towards the near Alpine valleys,\n         sought in the magnificence, the eternity of such scenes, to forget myself and my\n         ephemeral, because human, sorrows. My wanderings were directed towards the valley\n         of\n         Chamounix. I had visited it frequently during my boyhood. Six years had passed since\n         then: I was a wreck\u2014but nought had changed in those savage and\n         enduring scenes.\n      \n      \n      I performed the first part of my journey on horseback. I afterwards hired a mule,\n         as\n         the more sure-footed, and least liable to receive injury on these rugged roads. The\n         weather was fine: it was about the middle of the month of August, nearly two months\n         after the death of Justine; that miserable epoch from which I dated all my woe. The\n         weight upon my spirit was sensibly lightened as I plunged yet deeper in the ravine\n         of\n         Arve. The immense mountains and precipices that overhung me on every side\u2014the sound\n         of\n         the river raging among the rocks, and the dashing of the 79waterfalls around, spoke of a power mighty as Omnipotence\u2014and I ceased to fear, or\n         to\n         bend before any being less almighty than that which had created and ruled the elements,\n         here displayed in their most terrific guise. Still, as I ascende",
-     "suffix": "d higher, the valley\n         as"
-    }
-   ]
-  },
-  "mirrored": true
- },
- {
-  "@context": "http://www.w3.org/ns/anno.jsonld",
-  "id": "https://frankensteinvariorum.github.io/annotations/1823/43",
-  "type": "Annotation",
-  "generator": {
-   "id": "https://frankensteinvariorum.github.io/viewer",
-   "type": "Software",
-   "name": "Frankenstein Variorum",
-   "homepage": "https://github.com/FrankensteinVariorum/fv-data"
-  },
-  "generated": "2019-12-16T18:34:58.897046+00:00",
-  "body": [
-   {
-    "type": "TextualBody",
-    "purpose": "tagging",
-    "value": "change-ann"
-   },
-   {
-    "type": "TextualBody",
-    "purpose": "tagging",
-    "value": "w1831"
-   },
-   {
-    "type": "TextualBody",
-    "value": "In this change to the 1831 edition, Shelley emphasizes the melodrama of Victor's mental decline. Judith Weissman argues the image of the deer is one of several examples that link Victor with Percy Shelley, the fawn being one of his favorite images. \n\nSee Judith Weissman. \"A Reading of Frankenstein as the Complaint of a Political Wife.\" *Colby Quarterly* 12, no. 4 (1976): 171-180, 171.",
-    "creator": "https://hypothes.is/users/frankensteinvariorum",
-    "modified": "2019-12-16T18:34:58.897046+00:00",
-    "purpose": "commenting"
-   }
-  ],
-  "target": {
-   "source": "https://frankensteinvariorum.github.io/fv-collation/1823.html",
-   "type": "Text",
-   "selector": [
-    {
-     "type": "RangeSelector",
-     "startSelector": {
-      "type": "XPathSelector",
-      "value": "//*[@xml:id='novel1_letter4_chapter9_div4_div9_p11']"
-     },
-     "endSelector": {
-      "type": "XPathSelector",
-      "value": "//*[@xml:id='novel1_letter4_chapter9_div4_div9_p11']"
-     }
-    },
-    {
-     "type": "TextQuoteSelector",
-     "prefix": "cial influence could penetrate. ",
-     "exact": "The wounded deer dragging its\n         fainting limbs to some untrodden brake, there to gaze upon the arrow which had pierced\n         it, and to die\u2014was but a type of me.",
-     "suffix": "\n      \n      \n      Sometimes I"
-    }
-   ]
-  },
-  "mirrored": true
- },
- {
-  "@context": "http://www.w3.org/ns/anno.jsonld",
-  "id": "https://frankensteinvariorum.github.io/annotations/1823/44",
-  "type": "Annotation",
-  "generator": {
-   "id": "https://frankensteinvariorum.github.io/viewer",
-   "type": "Software",
-   "name": "Frankenstein Variorum",
-   "homepage": "https://github.com/FrankensteinVariorum/fv-data"
-  },
-  "generated": "2019-12-16T18:36:36.339425+00:00",
-  "body": [
-   {
-    "type": "TextualBody",
-    "purpose": "tagging",
-    "value": "change-ann"
-   },
-   {
-    "type": "TextualBody",
-    "purpose": "tagging",
-    "value": "jk"
-   },
-   {
-    "type": "TextualBody",
-    "purpose": "tagging",
-    "value": "geography"
-   },
-   {
-    "type": "TextualBody",
-    "value": "In the 1831 edition, since Victor now travels alone rather than with his family, his perceptions seem to be more emotionally turbulent than when he shares the trip with Elizabeth and his father in the 1818 version.",
-    "creator": "https://hypothes.is/users/frankensteinvariorum",
-    "modified": "2019-12-16T18:36:36.339425+00:00",
-    "purpose": "commenting"
-   }
-  ],
-  "target": {
-   "source": "https://frankensteinvariorum.github.io/fv-collation/1823.html",
-   "type": "Text",
-   "selector": [
-    {
-     "type": "RangeSelector",
-     "startSelector": {
-      "type": "XPathSelector",
-      "value": "//*[@xml:id='novel1_letter4_chapter9_div4_div9_p15']"
-     },
-     "endSelector": {
-      "type": "XPathSelector",
-      "value": "//*[@xml:id='novel1_letter4_chapter9_div4_div9_p16']"
-     }
-    },
-    {
-     "type": "TextQuoteSelector",
-     "prefix": "    valley.\n      \n      \n      ",
-     "exact": "A tingling long-lost sense of pleasure often came across me during this journey. Some\n         turn in the road, some new object suddenly perceived and recognised, reminded me of\n         days\n         gone by, and were associated with the light-hearted gaiety of boyhood. The very winds\n         whispered in soothing accents, and maternal nature bade me weep no more. Then again\n         the\n         kindly influence ceased to act\u2014I found myself fettered again to grief, and indulging\n         in\n         all the misery of reflection. Then I spurred on my animal, striving so to forget the\n         world, my fears, and, more than all, myself\u2014or, in a more desperate fashion, I alighted,\n         and threw myself on the grass, weighed down by horror and despair.\n      \n      \n      At length I arrived at the village of Chamounix. Exhaustion succeeded to the extreme\n         fatigue both of body and 80of mind which I had endured.\n         For a short space of time",
-     "suffix": " I remained at the window, watch"
-    }
-   ]
-  },
-  "mirrored": true
- },
- {
-  "@context": "http://www.w3.org/ns/anno.jsonld",
-  "id": "https://frankensteinvariorum.github.io/annotations/1823/45",
-  "type": "Annotation",
-  "generator": {
-   "id": "https://frankensteinvariorum.github.io/viewer",
-   "type": "Software",
-   "name": "Frankenstein Variorum",
-   "homepage": "https://github.com/FrankensteinVariorum/fv-data"
-  },
-  "generated": "2019-12-16T18:33:19.686172+00:00",
-  "body": [
-   {
-    "type": "TextualBody",
-    "purpose": "tagging",
-    "value": "change-ann"
-   },
-   {
-    "type": "TextualBody",
-    "purpose": "tagging",
-    "value": "jk"
-   },
-   {
-    "type": "TextualBody",
-    "purpose": "tagging",
-    "value": "childhood"
-   },
-   {
-    "type": "TextualBody",
-    "value": "The 1831 edition adds this passage to emphasize, with the word \"lullaby,\" the childlike fears Victor is now constantly trying to calm.",
-    "creator": "https://hypothes.is/users/frankensteinvariorum",
-    "modified": "2019-12-16T18:33:19.686172+00:00",
-    "purpose": "commenting"
-   }
-  ],
-  "target": {
-   "source": "https://frankensteinvariorum.github.io/fv-collation/1823.html",
-   "type": "Text",
-   "selector": [
-    {
-     "type": "RangeSelector",
-     "startSelector": {
-      "type": "XPathSelector",
-      "value": "//*[@xml:id='novel1_letter4_chapter9_div4_div9_p16']"
-     },
-     "endSelector": {
-      "type": "XPathSelector",
-      "value": "//*[@xml:id='novel1_letter4_chapter9_div4_div9_p16']"
-     }
-    },
-    {
-     "type": "TextQuoteSelector",
-     "prefix": " the rushing of the Arve, which ",
-     "exact": "pursued its\n         noisy way beneath. The same lulling sounds acted as a lullaby to my too keen sensations:\n         when I placed my head upon my pillow, sleep crept over me; I felt it as it came, and\n         blest the giver of oblivion. \n      ",
-     "suffix": "\n      \n      \n      \n      CHAP"
-    }
-   ]
-  },
-  "mirrored": true
- },
- {
-  "@context": "http://www.w3.org/ns/anno.jsonld",
-  "id": "https://frankensteinvariorum.github.io/annotations/1823/46",
-  "type": "Annotation",
-  "generator": {
-   "id": "https://frankensteinvariorum.github.io/viewer",
-   "type": "Software",
-   "name": "Frankenstein Variorum",
-   "homepage": "https://github.com/FrankensteinVariorum/fv-data"
-  },
-  "generated": "2019-12-16T18:34:46.426973+00:00",
-  "body": [
-   {
-    "type": "TextualBody",
-    "purpose": "tagging",
-    "value": "change-ann"
-   },
-   {
-    "type": "TextualBody",
-    "purpose": "tagging",
-    "value": "jk"
-   },
-   {
-    "type": "TextualBody",
-    "purpose": "tagging",
-    "value": "geography"
-   },
-   {
-    "type": "TextualBody",
-    "value": "In 1818 a more perfunctory passage appears at the beginning of this chapter stating simply that the party \"...visited the source of the Arveiron, and rode about the valley until evening.\"\n\n In 1831, Shelley replaces this brief remark with a much more vividly detailed description elaborating upon the topography of Victor's journey through the Arveiron and the \"sublime and magnificent scenes\" in which he finds consolation.",
-    "creator": "https://hypothes.is/users/frankensteinvariorum",
-    "modified": "2019-12-16T18:34:46.426973+00:00",
-    "purpose": "commenting"
-   }
-  ],
-  "target": {
-   "source": "https://frankensteinvariorum.github.io/fv-collation/1823.html",
-   "type": "Text",
-   "selector": [
-    {
-     "type": "RangeSelector",
-     "startSelector": {
-      "type": "XPathSelector",
-      "value": "//*[@xml:id='novel1_letter4_chapter10_div4_div10_p1']"
-     },
-     "endSelector": {
-      "type": "XPathSelector",
-      "value": "//*[@xml:id='novel1_letter4_chapter10_div4_div10_p1']"
-     }
-    },
-    {
-     "type": "TextQuoteSelector",
-     "prefix": " \n      CHAPTER X.\n      \n      ",
-     "exact": "I spent the following day roaming through the valley. I stood\n         beside the sources of the Arveiron, which take their rise in a glacier, that with\n         slow\n         pace is advancing down from the summit of the hills, to barricade the valley. The\n         abrupt\n         sides of vast mountains were before me; the icy wall of the glacier overhung me; a\n         few\n         shattered pines were scattered around; and the solemn silence of this glorious\n         presence-chamber of imperial Nature was broken only by the brawling waves, or the\n         fall\n         of some vast fragment, the thunder sound of the avalanche, or the cracking, reverberated\n         along the mountains of the accumulated ice, which, through the silent working of\n         immutable laws, was ever and anon rent and torn, as if it had been but a plaything\n         in\n         their hands. These sublime and magnificent scenes afforded me the greatest consolation\n         that I was capable of receiving. They elevated me from all littleness of feeling;\n         and\n         although they did not remove my grief, they subdued and tranquillised it. In some\n         degree, also, they diverted my mind from the thoughts over which it had brooded for\n         the\n         last month. I retired to rest at night; my slumbers, as it were, waited on and\n         ministered to by the assemblance of grand shapes which I had contemplated during the\n         day. They congregated round me; the unstained snowy mountain-top, the glittering\n         pinnacle, the pine woods, and ragged bare ravine; the eagle, soaring amidst the\n         clouds\u2014they all gathered round me, and bade me be at peace.\n      ",
-     "suffix": "\n      \n      Where had they fle"
-    }
-   ]
-  },
-  "mirrored": true
- },
- {
-  "@context": "http://www.w3.org/ns/anno.jsonld",
-  "id": "https://frankensteinvariorum.github.io/annotations/1823/47",
-  "type": "Annotation",
-  "generator": {
-   "id": "https://frankensteinvariorum.github.io/viewer",
-   "type": "Software",
-   "name": "Frankenstein Variorum",
-   "homepage": "https://github.com/FrankensteinVariorum/fv-data"
-  },
-  "generated": "2019-12-16T18:36:13.286038+00:00",
-  "body": [
-   {
-    "type": "TextualBody",
-    "purpose": "tagging",
-    "value": "change-ann"
-   },
-   {
-    "type": "TextualBody",
-    "purpose": "tagging",
-    "value": "jk"
-   },
-   {
-    "type": "TextualBody",
-    "value": "In the 1831 edition, nature is personified in greater detail. Victor continues up the Arveiron with his mule and the mountains, the \"mighty friends,\" his only companions.",
-    "creator": "https://hypothes.is/users/frankensteinvariorum",
-    "modified": "2019-12-16T18:36:13.286038+00:00",
-    "purpose": "commenting"
-   }
-  ],
-  "target": {
-   "source": "https://frankensteinvariorum.github.io/fv-collation/1823.html",
-   "type": "Text",
-   "selector": [
-    {
-     "type": "RangeSelector",
-     "startSelector": {
-      "type": "XPathSelector",
-      "value": "//*[@xml:id='novel1_letter4_chapter10_div4_div10_p2']"
-     },
-     "endSelector": {
-      "type": "XPathSelector",
-      "value": "//*[@xml:id='novel1_letter4_chapter10_div4_div10_p2']"
-     }
-    },
-    {
-     "type": "TextQuoteSelector",
-     "prefix": "d the summits of the mountains, ",
-     "exact": "so that\n         I\n         even saw not the faces of those mighty friends. Still I would penetrate their misty\n         veil, and seek them in their cloudy retreats. What were rain and storm to me? My mule\n         was brought to the door, and I resolved to ascend",
-     "suffix": " to the summit of Montanvert. I\n"
-    }
-   ]
-  },
-  "mirrored": true
- },
- {
-  "@context": "http://www.w3.org/ns/anno.jsonld",
-  "id": "https://frankensteinvariorum.github.io/annotations/1823/48",
+  "id": "https://frankensteinvariorum.github.io/annotations/Thom/37",
   "type": "Annotation",
   "generator": {
    "id": "https://frankensteinvariorum.github.io/viewer",
@@ -2840,7 +2210,7 @@
    }
   ],
   "target": {
-   "source": "https://frankensteinvariorum.github.io/fv-collation/1823.html",
+   "source": "https://frankensteinvariorum.github.io/fv-collation/Thom.html",
    "type": "Text",
    "selector": [
     {
@@ -2866,7 +2236,7 @@
  },
  {
   "@context": "http://www.w3.org/ns/anno.jsonld",
-  "id": "https://frankensteinvariorum.github.io/annotations/1823/49",
+  "id": "https://frankensteinvariorum.github.io/annotations/Thom/38",
   "type": "Annotation",
   "generator": {
    "id": "https://frankensteinvariorum.github.io/viewer",
@@ -2890,7 +2260,7 @@
    }
   ],
   "target": {
-   "source": "https://frankensteinvariorum.github.io/fv-collation/1823.html",
+   "source": "https://frankensteinvariorum.github.io/fv-collation/Thom.html",
    "type": "Text",
    "selector": [
     {
@@ -2916,7 +2286,7 @@
  },
  {
   "@context": "http://www.w3.org/ns/anno.jsonld",
-  "id": "https://frankensteinvariorum.github.io/annotations/1823/50",
+  "id": "https://frankensteinvariorum.github.io/annotations/Thom/39",
   "type": "Annotation",
   "generator": {
    "id": "https://frankensteinvariorum.github.io/viewer",
@@ -2945,7 +2315,7 @@
    }
   ],
   "target": {
-   "source": "https://frankensteinvariorum.github.io/fv-collation/1823.html",
+   "source": "https://frankensteinvariorum.github.io/fv-collation/Thom.html",
    "type": "Text",
    "selector": [
     {
@@ -2971,7 +2341,7 @@
  },
  {
   "@context": "http://www.w3.org/ns/anno.jsonld",
-  "id": "https://frankensteinvariorum.github.io/annotations/1823/51",
+  "id": "https://frankensteinvariorum.github.io/annotations/Thom/40",
   "type": "Annotation",
   "generator": {
    "id": "https://frankensteinvariorum.github.io/viewer",
@@ -2995,7 +2365,7 @@
    }
   ],
   "target": {
-   "source": "https://frankensteinvariorum.github.io/fv-collation/1823.html",
+   "source": "https://frankensteinvariorum.github.io/fv-collation/Thom.html",
    "type": "Text",
    "selector": [
     {
@@ -3021,7 +2391,7 @@
  },
  {
   "@context": "http://www.w3.org/ns/anno.jsonld",
-  "id": "https://frankensteinvariorum.github.io/annotations/1823/52",
+  "id": "https://frankensteinvariorum.github.io/annotations/Thom/41",
   "type": "Annotation",
   "generator": {
    "id": "https://frankensteinvariorum.github.io/viewer",
@@ -3065,7 +2435,7 @@
    }
   ],
   "target": {
-   "source": "https://frankensteinvariorum.github.io/fv-collation/1823.html",
+   "source": "https://frankensteinvariorum.github.io/fv-collation/Thom.html",
    "type": "Text",
    "selector": [
     {
@@ -3087,11 +2457,11 @@
     }
    ]
   },
-  "mirrored": true
+  "mirrored": false
  },
  {
   "@context": "http://www.w3.org/ns/anno.jsonld",
-  "id": "https://frankensteinvariorum.github.io/annotations/1823/53",
+  "id": "https://frankensteinvariorum.github.io/annotations/Thom/42",
   "type": "Annotation",
   "generator": {
    "id": "https://frankensteinvariorum.github.io/viewer",
@@ -3135,7 +2505,7 @@
    }
   ],
   "target": {
-   "source": "https://frankensteinvariorum.github.io/fv-collation/1823.html",
+   "source": "https://frankensteinvariorum.github.io/fv-collation/Thom.html",
    "type": "Text",
    "selector": [
     {
@@ -3157,11 +2527,196 @@
     }
    ]
   },
-  "mirrored": true
+  "mirrored": false
  },
  {
   "@context": "http://www.w3.org/ns/anno.jsonld",
-  "id": "https://frankensteinvariorum.github.io/annotations/1823/54",
+  "id": "https://frankensteinvariorum.github.io/annotations/Thom/43",
+  "type": "Annotation",
+  "generator": {
+   "id": "https://frankensteinvariorum.github.io/viewer",
+   "type": "Software",
+   "name": "Frankenstein Variorum",
+   "homepage": "https://github.com/FrankensteinVariorum/fv-data"
+  },
+  "generated": "2019-12-16T18:32:18.707828+00:00",
+  "body": [
+   {
+    "type": "TextualBody",
+    "purpose": "tagging",
+    "value": "box-highlight"
+   },
+   {
+    "type": "TextualBody",
+    "purpose": "tagging",
+    "value": "for review"
+   },
+   {
+    "type": "TextualBody",
+    "purpose": "tagging",
+    "value": "w/Thomas"
+   },
+   {
+    "type": "TextualBody",
+    "purpose": "tagging",
+    "value": "JK?"
+   },
+   {
+    "type": "TextualBody",
+    "value": "In the Thomas Copy, the allusion to Coleridge, \"but I shall kill no albatross\" is not attributed in text, but rather added by hand as a citation at the bottom of the page: \"x Coleridge's Ancient Mariner x\"",
+    "creator": "https://hypothes.is/users/frankensteinvariorum",
+    "modified": "2019-12-16T18:32:18.707828+00:00",
+    "purpose": "commenting"
+   }
+  ],
+  "target": {
+   "source": "https://frankensteinvariorum.github.io/fv-collation/Thom.html",
+   "type": "Text",
+   "selector": [
+    {
+     "type": "RangeSelector",
+     "startSelector": {
+      "type": "XPathSelector",
+      "value": "//*[@xml:id='novel1_letter2_div2_p7']"
+     },
+     "endSelector": {
+      "type": "XPathSelector",
+      "value": "//*[@xml:id='novel1_letter2_div2_p7']"
+     }
+    },
+    {
+     "type": "TextQuoteSelector",
+     "prefix": " \u201cthe land of mist and 017snow;\u201d",
+     "exact": "Coleridge's Antient Mariner.",
+     "suffix": " but I shall kill no\n         al"
+    }
+   ]
+  },
+  "mirrored": false
+ },
+ {
+  "@context": "http://www.w3.org/ns/anno.jsonld",
+  "id": "https://frankensteinvariorum.github.io/annotations/Thom/44",
+  "type": "Annotation",
+  "generator": {
+   "id": "https://frankensteinvariorum.github.io/viewer",
+   "type": "Software",
+   "name": "Frankenstein Variorum",
+   "homepage": "https://github.com/FrankensteinVariorum/fv-data"
+  },
+  "generated": "2019-12-16T18:32:00.951008+00:00",
+  "body": [
+   {
+    "type": "TextualBody",
+    "purpose": "tagging",
+    "value": "nature"
+   },
+   {
+    "type": "TextualBody",
+    "purpose": "tagging",
+    "value": "science"
+   },
+   {
+    "type": "TextualBody",
+    "purpose": "tagging",
+    "value": "w/Thomas"
+   },
+   {
+    "type": "TextualBody",
+    "purpose": "tagging",
+    "value": "jk"
+   },
+   {
+    "type": "TextualBody",
+    "value": "Aurora Borealis or \"northern lights\" appear in the Arctic skies, a nighttime phenomenon caused by turbulence in the magnetosphere. ",
+    "creator": "https://hypothes.is/users/frankensteinvariorum",
+    "modified": "2019-12-16T18:32:00.951008+00:00",
+    "purpose": "commenting"
+   }
+  ],
+  "target": {
+   "source": "https://frankensteinvariorum.github.io/fv-collation/Thom.html",
+   "type": "Text",
+   "selector": [
+    {
+     "type": "RangeSelector",
+     "startSelector": {
+      "type": "XPathSelector",
+      "value": "//*[@xml:id='novel1_letter3_div3_p3']"
+     },
+     "endSelector": {
+      "type": "XPathSelector",
+      "value": "//*[@xml:id='novel1_letter3_div3_p3']"
+     }
+    },
+    {
+     "type": "TextQuoteSelector",
+     "prefix": "armth which I had not expected. ",
+     "exact": "The appearance of the sky is indiscribably beautiful; clear by day, and illuminated\n            at night by the Aurora Borealis w which spreads a roseate tinge over the heavens, & over the sea which reflects it\u2019s\n            splendour.",
+     "suffix": "\n      \n      No incidents have "
+    }
+   ]
+  },
+  "mirrored": false
+ },
+ {
+  "@context": "http://www.w3.org/ns/anno.jsonld",
+  "id": "https://frankensteinvariorum.github.io/annotations/Thom/45",
+  "type": "Annotation",
+  "generator": {
+   "id": "https://frankensteinvariorum.github.io/viewer",
+   "type": "Software",
+   "name": "Frankenstein Variorum",
+   "homepage": "https://github.com/FrankensteinVariorum/fv-data"
+  },
+  "generated": "2019-12-16T18:31:44.478881+00:00",
+  "body": [
+   {
+    "type": "TextualBody",
+    "purpose": "tagging",
+    "value": "jk"
+   },
+   {
+    "type": "TextualBody",
+    "purpose": "tagging",
+    "value": "1831 edition"
+   },
+   {
+    "type": "TextualBody",
+    "value": "Shelley's change from \"breaking of a mast\" in the 1818 edition to \"carrying away of a mast\" in the Thomas Copy was to be modified further in 1831: \"the springing of a leak\" replaces any reference to the mast.",
+    "creator": "https://hypothes.is/users/frankensteinvariorum",
+    "modified": "2019-12-16T18:31:44.478881+00:00",
+    "purpose": "commenting"
+   }
+  ],
+  "target": {
+   "source": "https://frankensteinvariorum.github.io/fv-collation/Thom.html",
+   "type": "Text",
+   "selector": [
+    {
+     "type": "RangeSelector",
+     "startSelector": {
+      "type": "XPathSelector",
+      "value": "//*[@xml:id='novel1_letter3_div3_p4']"
+     },
+     "endSelector": {
+      "type": "XPathSelector",
+      "value": "//*[@xml:id='novel1_letter3_div3_p4']"
+     }
+    },
+    {
+     "type": "TextQuoteSelector",
+     "prefix": "r. One\n         or two\n         ",
+     "exact": "stiffhard gales, and the breakingcarrying away",
+     "suffix": " of a mast, are accidents which "
+    }
+   ]
+  },
+  "mirrored": false
+ },
+ {
+  "@context": "http://www.w3.org/ns/anno.jsonld",
+  "id": "https://frankensteinvariorum.github.io/annotations/Thom/46",
   "type": "Annotation",
   "generator": {
    "id": "https://frankensteinvariorum.github.io/viewer",
@@ -3200,7 +2755,7 @@
    }
   ],
   "target": {
-   "source": "https://frankensteinvariorum.github.io/fv-collation/1823.html",
+   "source": "https://frankensteinvariorum.github.io/fv-collation/Thom.html",
    "type": "Text",
    "selector": [
     {
@@ -3222,11 +2777,71 @@
     }
    ]
   },
-  "mirrored": true
+  "mirrored": false
  },
  {
   "@context": "http://www.w3.org/ns/anno.jsonld",
-  "id": "https://frankensteinvariorum.github.io/annotations/1823/55",
+  "id": "https://frankensteinvariorum.github.io/annotations/Thom/47",
+  "type": "Annotation",
+  "generator": {
+   "id": "https://frankensteinvariorum.github.io/viewer",
+   "type": "Software",
+   "name": "Frankenstein Variorum",
+   "homepage": "https://github.com/FrankensteinVariorum/fv-data"
+  },
+  "generated": "2019-12-16T18:32:23.670027+00:00",
+  "body": [
+   {
+    "type": "TextualBody",
+    "purpose": "tagging",
+    "value": "language"
+   },
+   {
+    "type": "TextualBody",
+    "purpose": "tagging",
+    "value": "French"
+   },
+   {
+    "type": "TextualBody",
+    "purpose": "tagging",
+    "value": "jk"
+   },
+   {
+    "type": "TextualBody",
+    "value": "Since Swiss speakers may learn either German or French as their first language, this reminder in the Thomas Copy that Victor's native language is French is important. We have to assume that he speaks in French to his Creature too, and we know from Book II that the Creature learns French as his own first language by hearing the DeLacey family read aloud in the forest.",
+    "creator": "https://hypothes.is/users/frankensteinvariorum",
+    "modified": "2019-12-16T18:32:23.670027+00:00",
+    "purpose": "commenting"
+   }
+  ],
+  "target": {
+   "source": "https://frankensteinvariorum.github.io/fv-collation/Thom.html",
+   "type": "Text",
+   "selector": [
+    {
+     "type": "RangeSelector",
+     "startSelector": {
+      "type": "XPathSelector",
+      "value": "//*[@xml:id='novel1_letter4_div4_p26']"
+     },
+     "endSelector": {
+      "type": "XPathSelector",
+      "value": "//*[@xml:id='novel1_letter4_div4_p26']"
+     }
+    },
+    {
+     "type": "TextQuoteSelector",
+     "prefix": "cultivated; and when he speaks, ",
+     "exact": "in his native language which is French,",
+     "suffix": " although his words are culled w"
+    }
+   ]
+  },
+  "mirrored": false
+ },
+ {
+  "@context": "http://www.w3.org/ns/anno.jsonld",
+  "id": "https://frankensteinvariorum.github.io/annotations/Thom/48",
   "type": "Annotation",
   "generator": {
    "id": "https://frankensteinvariorum.github.io/viewer",
@@ -3265,7 +2880,7 @@
    }
   ],
   "target": {
-   "source": "https://frankensteinvariorum.github.io/fv-collation/1823.html",
+   "source": "https://frankensteinvariorum.github.io/fv-collation/Thom.html",
    "type": "Text",
    "selector": [
     {
@@ -3287,11 +2902,76 @@
     }
    ]
   },
-  "mirrored": true
+  "mirrored": false
  },
  {
   "@context": "http://www.w3.org/ns/anno.jsonld",
-  "id": "https://frankensteinvariorum.github.io/annotations/1823/56",
+  "id": "https://frankensteinvariorum.github.io/annotations/Thom/49",
+  "type": "Annotation",
+  "generator": {
+   "id": "https://frankensteinvariorum.github.io/viewer",
+   "type": "Software",
+   "name": "Frankenstein Variorum",
+   "homepage": "https://github.com/FrankensteinVariorum/fv-data"
+  },
+  "generated": "2019-12-16T18:32:02.756640+00:00",
+  "body": [
+   {
+    "type": "TextualBody",
+    "purpose": "tagging",
+    "value": "box-highlight"
+   },
+   {
+    "type": "TextualBody",
+    "purpose": "tagging",
+    "value": "for-review"
+   },
+   {
+    "type": "TextualBody",
+    "purpose": "tagging",
+    "value": "w/Thomas"
+   },
+   {
+    "type": "TextualBody",
+    "purpose": "tagging",
+    "value": "jk"
+   },
+   {
+    "type": "TextualBody",
+    "value": "In the Thomas copy beneath the line \"This manuscript will doubtless afford you the greatest <u>pleasure</u>,\" is written a the single word: \"impossible.\" We cannot tell if this was Mary's comment or was put in by another reader.",
+    "creator": "https://hypothes.is/users/frankensteinvariorum",
+    "modified": "2019-12-16T18:32:02.756640+00:00",
+    "purpose": "commenting"
+   }
+  ],
+  "target": {
+   "source": "https://frankensteinvariorum.github.io/fv-collation/Thom.html",
+   "type": "Text",
+   "selector": [
+    {
+     "type": "RangeSelector",
+     "startSelector": {
+      "type": "XPathSelector",
+      "value": "//*[@xml:id='novel1_letter4_div4_p36']"
+     },
+     "endSelector": {
+      "type": "XPathSelector",
+      "value": "//*[@xml:id='novel1_letter4_div4_p36']"
+     }
+    },
+    {
+     "type": "TextQuoteSelector",
+     "prefix": "afford you the greatest pleasure",
+     "exact": "impossible:",
+     "suffix": " but to me, 038who know him, and"
+    }
+   ]
+  },
+  "mirrored": false
+ },
+ {
+  "@context": "http://www.w3.org/ns/anno.jsonld",
+  "id": "https://frankensteinvariorum.github.io/annotations/Thom/50",
   "type": "Annotation",
   "generator": {
    "id": "https://frankensteinvariorum.github.io/viewer",
@@ -3335,7 +3015,7 @@
    }
   ],
   "target": {
-   "source": "https://frankensteinvariorum.github.io/fv-collation/1823.html",
+   "source": "https://frankensteinvariorum.github.io/fv-collation/Thom.html",
    "type": "Text",
    "selector": [
     {
@@ -3357,11 +3037,11 @@
     }
    ]
   },
-  "mirrored": true
+  "mirrored": false
  },
  {
   "@context": "http://www.w3.org/ns/anno.jsonld",
-  "id": "https://frankensteinvariorum.github.io/annotations/1823/57",
+  "id": "https://frankensteinvariorum.github.io/annotations/Thom/51",
   "type": "Annotation",
   "generator": {
    "id": "https://frankensteinvariorum.github.io/viewer",
@@ -3410,7 +3090,7 @@
    }
   ],
   "target": {
-   "source": "https://frankensteinvariorum.github.io/fv-collation/1823.html",
+   "source": "https://frankensteinvariorum.github.io/fv-collation/Thom.html",
    "type": "Text",
    "selector": [
     {
@@ -3432,11 +3112,66 @@
     }
    ]
   },
-  "mirrored": true
+  "mirrored": false
  },
  {
   "@context": "http://www.w3.org/ns/anno.jsonld",
-  "id": "https://frankensteinvariorum.github.io/annotations/1823/58",
+  "id": "https://frankensteinvariorum.github.io/annotations/Thom/52",
+  "type": "Annotation",
+  "generator": {
+   "id": "https://frankensteinvariorum.github.io/viewer",
+   "type": "Software",
+   "name": "Frankenstein Variorum",
+   "homepage": "https://github.com/FrankensteinVariorum/fv-data"
+  },
+  "generated": "2019-12-16T18:31:06.251406+00:00",
+  "body": [
+   {
+    "type": "TextualBody",
+    "purpose": "tagging",
+    "value": "box-highlight"
+   },
+   {
+    "type": "TextualBody",
+    "purpose": "tagging",
+    "value": "w/Thomas"
+   },
+   {
+    "type": "TextualBody",
+    "value": "In the Thomas copy this passage, deleted in 1831, is tagged by Shelley in the margins as \"bad\".\n\n",
+    "creator": "https://hypothes.is/users/frankensteinvariorum",
+    "modified": "2019-12-16T18:31:06.251406+00:00",
+    "purpose": "commenting"
+   }
+  ],
+  "target": {
+   "source": "https://frankensteinvariorum.github.io/fv-collation/Thom.html",
+   "type": "Text",
+   "selector": [
+    {
+     "type": "RangeSelector",
+     "startSelector": {
+      "type": "XPathSelector",
+      "value": "//*[@xml:id='novel1_letter4_chapter1_div4_div1_p12']"
+     },
+     "endSelector": {
+      "type": "XPathSelector",
+      "value": "//*[@xml:id='novel1_letter4_chapter1_div4_div1_p12']"
+     }
+    },
+    {
+     "type": "TextQuoteSelector",
+     "prefix": "    on\n            our memories.",
+     "exact": "bad",
+     "suffix": "With what delight do I even now "
+    }
+   ]
+  },
+  "mirrored": false
+ },
+ {
+  "@context": "http://www.w3.org/ns/anno.jsonld",
+  "id": "https://frankensteinvariorum.github.io/annotations/Thom/53",
   "type": "Annotation",
   "generator": {
    "id": "https://frankensteinvariorum.github.io/viewer",
@@ -3475,7 +3210,7 @@
    }
   ],
   "target": {
-   "source": "https://frankensteinvariorum.github.io/fv-collation/1823.html",
+   "source": "https://frankensteinvariorum.github.io/fv-collation/Thom.html",
    "type": "Text",
    "selector": [
     {
@@ -3497,11 +3232,76 @@
     }
    ]
   },
-  "mirrored": true
+  "mirrored": false
  },
  {
   "@context": "http://www.w3.org/ns/anno.jsonld",
-  "id": "https://frankensteinvariorum.github.io/annotations/1823/59",
+  "id": "https://frankensteinvariorum.github.io/annotations/Thom/54",
+  "type": "Annotation",
+  "generator": {
+   "id": "https://frankensteinvariorum.github.io/viewer",
+   "type": "Software",
+   "name": "Frankenstein Variorum",
+   "homepage": "https://github.com/FrankensteinVariorum/fv-data"
+  },
+  "generated": "2019-12-16T18:31:41.910618+00:00",
+  "body": [
+   {
+    "type": "TextualBody",
+    "purpose": "tagging",
+    "value": "box-highlight"
+   },
+   {
+    "type": "TextualBody",
+    "purpose": "tagging",
+    "value": "for-review"
+   },
+   {
+    "type": "TextualBody",
+    "purpose": "tagging",
+    "value": "w/Thomas"
+   },
+   {
+    "type": "TextualBody",
+    "purpose": "tagging",
+    "value": "jk"
+   },
+   {
+    "type": "TextualBody",
+    "value": "In the Thomas Copy, at the bottom of this page, an unknown hand states: \"You said your family was not scientific.\" If this notation is in Mary's hand, she may be speaking to her character Victor, noting a discrepancy in his account of their familiarity with the sciences.",
+    "creator": "https://hypothes.is/users/frankensteinvariorum",
+    "modified": "2019-12-16T18:31:41.910618+00:00",
+    "purpose": "commenting"
+   }
+  ],
+  "target": {
+   "source": "https://frankensteinvariorum.github.io/fv-collation/Thom.html",
+   "type": "Text",
+   "selector": [
+    {
+     "type": "RangeSelector",
+     "startSelector": {
+      "type": "XPathSelector",
+      "value": "//*[@xml:id='novel1_letter4_chapter1_div4_div1_p23']"
+     },
+     "endSelector": {
+      "type": "XPathSelector",
+      "value": "//*[@xml:id='novel1_letter4_chapter1_div4_div1_p23']"
+     }
+    },
+    {
+     "type": "TextQuoteSelector",
+     "prefix": "down that fluid from the clouds.",
+     "exact": "you said your family was not sientific.",
+     "suffix": "\n      \n      This last stroke c"
+    }
+   ]
+  },
+  "mirrored": false
+ },
+ {
+  "@context": "http://www.w3.org/ns/anno.jsonld",
+  "id": "https://frankensteinvariorum.github.io/annotations/Thom/55",
   "type": "Annotation",
   "generator": {
    "id": "https://frankensteinvariorum.github.io/viewer",
@@ -3550,7 +3350,7 @@
    }
   ],
   "target": {
-   "source": "https://frankensteinvariorum.github.io/fv-collation/1823.html",
+   "source": "https://frankensteinvariorum.github.io/fv-collation/Thom.html",
    "type": "Text",
    "selector": [
     {
@@ -3572,11 +3372,11 @@
     }
    ]
   },
-  "mirrored": true
+  "mirrored": false
  },
  {
   "@context": "http://www.w3.org/ns/anno.jsonld",
-  "id": "https://frankensteinvariorum.github.io/annotations/1823/60",
+  "id": "https://frankensteinvariorum.github.io/annotations/Thom/56",
   "type": "Annotation",
   "generator": {
    "id": "https://frankensteinvariorum.github.io/viewer",
@@ -3615,7 +3415,7 @@
    }
   ],
   "target": {
-   "source": "https://frankensteinvariorum.github.io/fv-collation/1823.html",
+   "source": "https://frankensteinvariorum.github.io/fv-collation/Thom.html",
    "type": "Text",
    "selector": [
     {
@@ -3637,11 +3437,11 @@
     }
    ]
   },
-  "mirrored": true
+  "mirrored": false
  },
  {
   "@context": "http://www.w3.org/ns/anno.jsonld",
-  "id": "https://frankensteinvariorum.github.io/annotations/1823/61",
+  "id": "https://frankensteinvariorum.github.io/annotations/Thom/57",
   "type": "Annotation",
   "generator": {
    "id": "https://frankensteinvariorum.github.io/viewer",
@@ -3680,7 +3480,7 @@
    }
   ],
   "target": {
-   "source": "https://frankensteinvariorum.github.io/fv-collation/1823.html",
+   "source": "https://frankensteinvariorum.github.io/fv-collation/Thom.html",
    "type": "Text",
    "selector": [
     {
@@ -3702,11 +3502,11 @@
     }
    ]
   },
-  "mirrored": true
+  "mirrored": false
  },
  {
   "@context": "http://www.w3.org/ns/anno.jsonld",
-  "id": "https://frankensteinvariorum.github.io/annotations/1823/62",
+  "id": "https://frankensteinvariorum.github.io/annotations/Thom/58",
   "type": "Annotation",
   "generator": {
    "id": "https://frankensteinvariorum.github.io/viewer",
@@ -3750,7 +3550,7 @@
    }
   ],
   "target": {
-   "source": "https://frankensteinvariorum.github.io/fv-collation/1823.html",
+   "source": "https://frankensteinvariorum.github.io/fv-collation/Thom.html",
    "type": "Text",
    "selector": [
     {
@@ -3772,11 +3572,11 @@
     }
    ]
   },
-  "mirrored": true
+  "mirrored": false
  },
  {
   "@context": "http://www.w3.org/ns/anno.jsonld",
-  "id": "https://frankensteinvariorum.github.io/annotations/1823/63",
+  "id": "https://frankensteinvariorum.github.io/annotations/Thom/59",
   "type": "Annotation",
   "generator": {
    "id": "https://frankensteinvariorum.github.io/viewer",
@@ -3825,7 +3625,7 @@
    }
   ],
   "target": {
-   "source": "https://frankensteinvariorum.github.io/fv-collation/1823.html",
+   "source": "https://frankensteinvariorum.github.io/fv-collation/Thom.html",
    "type": "Text",
    "selector": [
     {
@@ -3847,11 +3647,11 @@
     }
    ]
   },
-  "mirrored": true
+  "mirrored": false
  },
  {
   "@context": "http://www.w3.org/ns/anno.jsonld",
-  "id": "https://frankensteinvariorum.github.io/annotations/1823/64",
+  "id": "https://frankensteinvariorum.github.io/annotations/Thom/60",
   "type": "Annotation",
   "generator": {
    "id": "https://frankensteinvariorum.github.io/viewer",
@@ -3885,7 +3685,7 @@
    }
   ],
   "target": {
-   "source": "https://frankensteinvariorum.github.io/fv-collation/1823.html",
+   "source": "https://frankensteinvariorum.github.io/fv-collation/Thom.html",
    "type": "Text",
    "selector": [
     {
@@ -3907,11 +3707,11 @@
     }
    ]
   },
-  "mirrored": true
+  "mirrored": false
  },
  {
   "@context": "http://www.w3.org/ns/anno.jsonld",
-  "id": "https://frankensteinvariorum.github.io/annotations/1823/65",
+  "id": "https://frankensteinvariorum.github.io/annotations/Thom/61",
   "type": "Annotation",
   "generator": {
    "id": "https://frankensteinvariorum.github.io/viewer",
@@ -3950,7 +3750,7 @@
    }
   ],
   "target": {
-   "source": "https://frankensteinvariorum.github.io/fv-collation/1823.html",
+   "source": "https://frankensteinvariorum.github.io/fv-collation/Thom.html",
    "type": "Text",
    "selector": [
     {
@@ -3972,11 +3772,406 @@
     }
    ]
   },
-  "mirrored": true
+  "mirrored": false
  },
  {
   "@context": "http://www.w3.org/ns/anno.jsonld",
-  "id": "https://frankensteinvariorum.github.io/annotations/1823/66",
+  "id": "https://frankensteinvariorum.github.io/annotations/Thom/62",
+  "type": "Annotation",
+  "generator": {
+   "id": "https://frankensteinvariorum.github.io/viewer",
+   "type": "Software",
+   "name": "Frankenstein Variorum",
+   "homepage": "https://github.com/FrankensteinVariorum/fv-data"
+  },
+  "generated": "2019-12-16T18:31:16.786626+00:00",
+  "body": [
+   {
+    "type": "TextualBody",
+    "purpose": "tagging",
+    "value": "JK?"
+   },
+   {
+    "type": "TextualBody",
+    "value": "WE SHOULD ANNOTATION HERE--FIX",
+    "creator": "https://hypothes.is/users/frankensteinvariorum",
+    "modified": "2019-12-16T18:31:16.786626+00:00",
+    "purpose": "commenting"
+   }
+  ],
+  "target": {
+   "source": "https://frankensteinvariorum.github.io/fv-collation/Thom.html",
+   "type": "Text",
+   "selector": [
+    {
+     "type": "RangeSelector",
+     "startSelector": {
+      "type": "XPathSelector",
+      "value": "//*[@xml:id='novel1_letter4_chapter6_div4_div6_p35']"
+     },
+     "endSelector": {
+      "type": "XPathSelector",
+      "value": "//*[@xml:id='novel1_letter4_chapter6_div4_div6_p35']"
+     }
+    },
+    {
+     "type": "TextQuoteSelector",
+     "prefix": "house after so long an absence. ",
+     "exact": "But, tell me, how does my father support his misfortunes? and how isYou must assist me in acquiring sufficient calmness to console my father and support ",
+     "suffix": "my poor Elizabeth?\u201d\n      \n     "
+    }
+   ]
+  },
+  "mirrored": false
+ },
+ {
+  "@context": "http://www.w3.org/ns/anno.jsonld",
+  "id": "https://frankensteinvariorum.github.io/annotations/Thom/63",
+  "type": "Annotation",
+  "generator": {
+   "id": "https://frankensteinvariorum.github.io/viewer",
+   "type": "Software",
+   "name": "Frankenstein Variorum",
+   "homepage": "https://github.com/FrankensteinVariorum/fv-data"
+  },
+  "generated": "2019-12-16T18:32:27.299030+00:00",
+  "body": [
+   {
+    "type": "TextualBody",
+    "purpose": "tagging",
+    "value": "change-ann"
+   },
+   {
+    "type": "TextualBody",
+    "purpose": "tagging",
+    "value": "jk"
+   },
+   {
+    "type": "TextualBody",
+    "purpose": "tagging",
+    "value": "1831 edition"
+   },
+   {
+    "type": "TextualBody",
+    "value": "Here as in earlier versions, the Thomas Copy stresses that the father uses his \"reason\" to comfort Victor and restore him to calm. But this element of the father's counsel would disappear in the 1831 edition, which no longer refers to him speaking philosophically.",
+    "creator": "https://hypothes.is/users/frankensteinvariorum",
+    "modified": "2019-12-16T18:32:27.299030+00:00",
+    "purpose": "commenting"
+   }
+  ],
+  "target": {
+   "source": "https://frankensteinvariorum.github.io/fv-collation/Thom.html",
+   "type": "Text",
+   "selector": [
+    {
+     "type": "RangeSelector",
+     "startSelector": {
+      "type": "XPathSelector",
+      "value": "//*[@xml:id='novel1_letter4_chapter8_div4_div9_p3']"
+     },
+     "endSelector": {
+      "type": "XPathSelector",
+      "value": "//*[@xml:id='novel1_letter4_chapter8_div4_div9_p3']"
+     }
+    },
+    {
+     "type": "TextQuoteSelector",
+     "prefix": "isposition and habits,\n         ",
+     "exact": "and endeavoured to reason with me on the folly of giving way to immoderate grief.At first he suspected some latent cause for my affliction, but when I assured him\n            that the late events were the causes of my dejection, he called to his aid philosophy\n            and reason, while he endeavoured to restore me to a calmer state of mind. ",
+     "suffix": "\u201cDo\n         you think, Victor,\u201d"
+    }
+   ]
+  },
+  "mirrored": false
+ },
+ {
+  "@context": "http://www.w3.org/ns/anno.jsonld",
+  "id": "https://frankensteinvariorum.github.io/annotations/Thom/64",
+  "type": "Annotation",
+  "generator": {
+   "id": "https://frankensteinvariorum.github.io/viewer",
+   "type": "Software",
+   "name": "Frankenstein Variorum",
+   "homepage": "https://github.com/FrankensteinVariorum/fv-data"
+  },
+  "generated": "2019-12-16T18:31:40.391133+00:00",
+  "body": [
+   {
+    "type": "TextualBody",
+    "purpose": "tagging",
+    "value": "w/Thomas"
+   },
+   {
+    "type": "TextualBody",
+    "purpose": "tagging",
+    "value": "change-ann"
+   },
+   {
+    "type": "TextualBody",
+    "purpose": "tagging",
+    "value": "jk"
+   },
+   {
+    "type": "TextualBody",
+    "purpose": "tagging",
+    "value": "1831 edition"
+   },
+   {
+    "type": "TextualBody",
+    "value": "Shelley's revision in the Thomas Copy turns the emphasis of this passage toward Victor's emotions and no longer refers to his father's response to him. When this part of the novel is more extensively revised in 1831, Victor is traveling without family and makes this journey with only his guides as company.",
+    "creator": "https://hypothes.is/users/frankensteinvariorum",
+    "modified": "2019-12-16T18:31:40.391133+00:00",
+    "purpose": "commenting"
+   }
+  ],
+  "target": {
+   "source": "https://frankensteinvariorum.github.io/fv-collation/Thom.html",
+   "type": "Text",
+   "selector": [
+    {
+     "type": "RangeSelector",
+     "startSelector": {
+      "type": "XPathSelector",
+      "value": "//*[@xml:id='novel1_letter4_chapter9_div4_div10_p1']"
+     },
+     "endSelector": {
+      "type": "XPathSelector",
+      "value": "//*[@xml:id='novel1_letter4_chapter9_div4_div10_p1']"
+     }
+    },
+    {
+     "type": "TextQuoteSelector",
+     "prefix": "d been my custom for some time. ",
+     "exact": "My father was pleased, and\n            Elizabeth overjoyed. \u201cMy dear cousin,\u201d said she, \u201cyou see what happiness you diffuse\n            when you are happy; do not relapse again!\u201dThe affectionate smile with which Elizabeth welcomed my altered mood excited me to\n            greater exertion; and I felt as I spoke long forgotten sensations of pleasure arise\n            in my mind. I knew that this state of being would only be temporary, that gloom and\n            misery was near at hand, but this knowledge only acted as a stimulant, and gave added a tingling sensation of fear, while the blood danced along my veins\u2014my eyes\n            sparkled and my limbs even trembled beneath the influence of unaccustomed emotion.",
+     "suffix": "\n      \n      The following morn"
+    }
+   ]
+  },
+  "mirrored": false
+ },
+ {
+  "@context": "http://www.w3.org/ns/anno.jsonld",
+  "id": "https://frankensteinvariorum.github.io/annotations/Thom/65",
+  "type": "Annotation",
+  "generator": {
+   "id": "https://frankensteinvariorum.github.io/viewer",
+   "type": "Software",
+   "name": "Frankenstein Variorum",
+   "homepage": "https://github.com/FrankensteinVariorum/fv-data"
+  },
+  "generated": "2019-12-16T18:31:15.072911+00:00",
+  "body": [
+   {
+    "type": "TextualBody",
+    "purpose": "tagging",
+    "value": "jk"
+   },
+   {
+    "type": "TextualBody",
+    "value": "Shelley adds in the Thomas Copy to our sense of the Creature's oppressive fear. ",
+    "creator": "https://hypothes.is/users/frankensteinvariorum",
+    "modified": "2019-12-16T18:31:15.072911+00:00",
+    "purpose": "commenting"
+   }
+  ],
+  "target": {
+   "source": "https://frankensteinvariorum.github.io/fv-collation/Thom.html",
+   "type": "Text",
+   "selector": [
+    {
+     "type": "RangeSelector",
+     "startSelector": {
+      "type": "XPathSelector",
+      "value": "//*[@xml:id='novel1_letter4_chapter10_div4_div11_p10']"
+     },
+     "endSelector": {
+      "type": "XPathSelector",
+      "value": "//*[@xml:id='novel1_letter4_chapter10_div4_div11_p10']"
+     }
+    },
+    {
+     "type": "TextQuoteSelector",
+     "prefix": " I escaped to the open country, ",
+     "exact": "Night came on as I wandered with wild agitation among the hedges and fields that surrounded\n            me; I felt chill, and darkness, which ever filled me with dread, seemed to press with\n            double weight upon my blinded organs. I looked round for shelter",
+     "suffix": " and fearfully took refuge in a "
+    }
+   ]
+  },
+  "mirrored": false
+ },
+ {
+  "@context": "http://www.w3.org/ns/anno.jsonld",
+  "id": "https://frankensteinvariorum.github.io/annotations/Thom/66",
+  "type": "Annotation",
+  "generator": {
+   "id": "https://frankensteinvariorum.github.io/viewer",
+   "type": "Software",
+   "name": "Frankenstein Variorum",
+   "homepage": "https://github.com/FrankensteinVariorum/fv-data"
+  },
+  "generated": "2019-12-16T18:31:22.202310+00:00",
+  "body": [
+   {
+    "type": "TextualBody",
+    "purpose": "tagging",
+    "value": "jk"
+   },
+   {
+    "type": "TextualBody",
+    "value": "In the Thomas Copy, Shelley adds to the Creature's observation of the Cottagers; the word *aliments* suggests he is nourishing himself by watching and learning from them. ",
+    "creator": "https://hypothes.is/users/frankensteinvariorum",
+    "modified": "2019-12-16T18:31:22.202310+00:00",
+    "purpose": "commenting"
+   }
+  ],
+  "target": {
+   "source": "https://frankensteinvariorum.github.io/fv-collation/Thom.html",
+   "type": "Text",
+   "selector": [
+    {
+     "type": "RangeSelector",
+     "startSelector": {
+      "type": "XPathSelector",
+      "value": "//*[@xml:id='novel1_letter4_chapter10_div4_div11_p18']"
+     },
+     "endSelector": {
+      "type": "XPathSelector",
+      "value": "//*[@xml:id='novel1_letter4_chapter10_div4_div11_p18']"
+     }
+    },
+    {
+     "type": "TextQuoteSelector",
+     "prefix": "he science of words or letters. ",
+     "exact": "I continued however to watch the countenances of the Cottagers and the changes I perceived\n            were at once the excitements and the aliments of a boundless curiosity.",
+     "suffix": "\n      \n      \n         052\u201cThe "
+    }
+   ]
+  },
+  "mirrored": false
+ },
+ {
+  "@context": "http://www.w3.org/ns/anno.jsonld",
+  "id": "https://frankensteinvariorum.github.io/annotations/Thom/67",
+  "type": "Annotation",
+  "generator": {
+   "id": "https://frankensteinvariorum.github.io/viewer",
+   "type": "Software",
+   "name": "Frankenstein Variorum",
+   "homepage": "https://github.com/FrankensteinVariorum/fv-data"
+  },
+  "generated": "2019-12-16T18:31:33.171971+00:00",
+  "body": [
+   {
+    "type": "TextualBody",
+    "purpose": "tagging",
+    "value": "jk"
+   },
+   {
+    "type": "TextualBody",
+    "purpose": "tagging",
+    "value": "family"
+   },
+   {
+    "type": "TextualBody",
+    "purpose": "tagging",
+    "value": "poverty"
+   },
+   {
+    "type": "TextualBody",
+    "value": "In the Thomas Copy, Shelley replaces the Creature's perception that the De Lacey family is extremely poor with a more subtle observation. He had not perceived their suffering earlier because they had seemed \"rich\" by contrast to his own poverty, suggesting that knowledge of others is always dependent on our own viewing position. ",
+    "creator": "https://hypothes.is/users/frankensteinvariorum",
+    "modified": "2019-12-16T18:31:33.171971+00:00",
+    "purpose": "commenting"
+   }
+  ],
+  "target": {
+   "source": "https://frankensteinvariorum.github.io/fv-collation/Thom.html",
+   "type": "Text",
+   "selector": [
+    {
+     "type": "RangeSelector",
+     "startSelector": {
+      "type": "XPathSelector",
+      "value": "//*[@xml:id='novel1_letter4_chapter11_div4_div12_p5']"
+     },
+     "endSelector": {
+      "type": "XPathSelector",
+      "value": "//*[@xml:id='novel1_letter4_chapter11_div4_div12_p5']"
+     }
+    },
+    {
+     "type": "TextQuoteSelector",
+     "prefix": "amily; it was poverty:\n         ",
+     "exact": "and they suffered that evil in a very distressing degree.They had appeared to me rich, because their possessions incomparably transcended mine,\n            but I soon learnt, that many of these advantages were only p apparent, since their delicate frame made them subject to a thousand wants of the\n            existence of  which I was entirely ignorant.",
+     "suffix": " Their nourishment consisted\n   "
+    }
+   ]
+  },
+  "mirrored": false
+ },
+ {
+  "@context": "http://www.w3.org/ns/anno.jsonld",
+  "id": "https://frankensteinvariorum.github.io/annotations/Thom/68",
+  "type": "Annotation",
+  "generator": {
+   "id": "https://frankensteinvariorum.github.io/viewer",
+   "type": "Software",
+   "name": "Frankenstein Variorum",
+   "homepage": "https://github.com/FrankensteinVariorum/fv-data"
+  },
+  "generated": "2019-12-16T18:31:12.909589+00:00",
+  "body": [
+   {
+    "type": "TextualBody",
+    "purpose": "tagging",
+    "value": "change-ann"
+   },
+   {
+    "type": "TextualBody",
+    "purpose": "tagging",
+    "value": "w/Thomas"
+   },
+   {
+    "type": "TextualBody",
+    "purpose": "tagging",
+    "value": "jk"
+   },
+   {
+    "type": "TextualBody",
+    "value": "Despite the indication that two paragraphs should be joined in the Thomas copy, they remained separate in the 1831 revision.",
+    "creator": "https://hypothes.is/users/frankensteinvariorum",
+    "modified": "2019-12-16T18:31:12.909589+00:00",
+    "purpose": "commenting"
+   }
+  ],
+  "target": {
+   "source": "https://frankensteinvariorum.github.io/fv-collation/Thom.html",
+   "type": "Text",
+   "selector": [
+    {
+     "type": "RangeSelector",
+     "startSelector": {
+      "type": "XPathSelector",
+      "value": "//*[@xml:id='novel1_letter4_chapter11_div4_div12_p6']"
+     },
+     "endSelector": {
+      "type": "XPathSelector",
+      "value": "//*[@xml:id='novel1_letter4_chapter11_div4_div12_p6']"
+     }
+    },
+    {
+     "type": "TextQuoteSelector",
+     "prefix": "om a\n         neighbouring wood.",
+     "exact": "Thomas copy: pencil mark joins paragraphs",
+     "suffix": ". \u201cI discovered also another mea"
+    }
+   ]
+  },
+  "mirrored": false
+ },
+ {
+  "@context": "http://www.w3.org/ns/anno.jsonld",
+  "id": "https://frankensteinvariorum.github.io/annotations/Thom/69",
   "type": "Annotation",
   "generator": {
    "id": "https://frankensteinvariorum.github.io/viewer",
@@ -4005,7 +4200,7 @@
    }
   ],
   "target": {
-   "source": "https://frankensteinvariorum.github.io/fv-collation/1823.html",
+   "source": "https://frankensteinvariorum.github.io/fv-collation/Thom.html",
    "type": "Text",
    "selector": [
     {
@@ -4027,11 +4222,11 @@
     }
    ]
   },
-  "mirrored": true
+  "mirrored": false
  },
  {
   "@context": "http://www.w3.org/ns/anno.jsonld",
-  "id": "https://frankensteinvariorum.github.io/annotations/1823/67",
+  "id": "https://frankensteinvariorum.github.io/annotations/Thom/70",
   "type": "Annotation",
   "generator": {
    "id": "https://frankensteinvariorum.github.io/viewer",
@@ -4065,7 +4260,7 @@
    }
   ],
   "target": {
-   "source": "https://frankensteinvariorum.github.io/fv-collation/1823.html",
+   "source": "https://frankensteinvariorum.github.io/fv-collation/Thom.html",
    "type": "Text",
    "selector": [
     {
@@ -4087,11 +4282,11 @@
     }
    ]
   },
-  "mirrored": true
+  "mirrored": false
  },
  {
   "@context": "http://www.w3.org/ns/anno.jsonld",
-  "id": "https://frankensteinvariorum.github.io/annotations/1823/68",
+  "id": "https://frankensteinvariorum.github.io/annotations/Thom/71",
   "type": "Annotation",
   "generator": {
    "id": "https://frankensteinvariorum.github.io/viewer",
@@ -4125,7 +4320,7 @@
    }
   ],
   "target": {
-   "source": "https://frankensteinvariorum.github.io/fv-collation/1823.html",
+   "source": "https://frankensteinvariorum.github.io/fv-collation/Thom.html",
    "type": "Text",
    "selector": [
     {
@@ -4147,11 +4342,11 @@
     }
    ]
   },
-  "mirrored": true
+  "mirrored": false
  },
  {
   "@context": "http://www.w3.org/ns/anno.jsonld",
-  "id": "https://frankensteinvariorum.github.io/annotations/1823/69",
+  "id": "https://frankensteinvariorum.github.io/annotations/Thom/72",
   "type": "Annotation",
   "generator": {
    "id": "https://frankensteinvariorum.github.io/viewer",
@@ -4180,7 +4375,7 @@
    }
   ],
   "target": {
-   "source": "https://frankensteinvariorum.github.io/fv-collation/1823.html",
+   "source": "https://frankensteinvariorum.github.io/fv-collation/Thom.html",
    "type": "Text",
    "selector": [
     {
@@ -4202,11 +4397,11 @@
     }
    ]
   },
-  "mirrored": true
+  "mirrored": false
  },
  {
   "@context": "http://www.w3.org/ns/anno.jsonld",
-  "id": "https://frankensteinvariorum.github.io/annotations/1823/70",
+  "id": "https://frankensteinvariorum.github.io/annotations/Thom/73",
   "type": "Annotation",
   "generator": {
    "id": "https://frankensteinvariorum.github.io/viewer",
@@ -4235,7 +4430,7 @@
    }
   ],
   "target": {
-   "source": "https://frankensteinvariorum.github.io/fv-collation/1823.html",
+   "source": "https://frankensteinvariorum.github.io/fv-collation/Thom.html",
    "type": "Text",
    "selector": [
     {
@@ -4257,11 +4452,11 @@
     }
    ]
   },
-  "mirrored": true
+  "mirrored": false
  },
  {
   "@context": "http://www.w3.org/ns/anno.jsonld",
-  "id": "https://frankensteinvariorum.github.io/annotations/1823/71",
+  "id": "https://frankensteinvariorum.github.io/annotations/Thom/74",
   "type": "Annotation",
   "generator": {
    "id": "https://frankensteinvariorum.github.io/viewer",
@@ -4310,7 +4505,7 @@
    }
   ],
   "target": {
-   "source": "https://frankensteinvariorum.github.io/fv-collation/1823.html",
+   "source": "https://frankensteinvariorum.github.io/fv-collation/Thom.html",
    "type": "Text",
    "selector": [
     {
@@ -4332,11 +4527,11 @@
     }
    ]
   },
-  "mirrored": true
+  "mirrored": false
  },
  {
   "@context": "http://www.w3.org/ns/anno.jsonld",
-  "id": "https://frankensteinvariorum.github.io/annotations/1823/72",
+  "id": "https://frankensteinvariorum.github.io/annotations/Thom/75",
   "type": "Annotation",
   "generator": {
    "id": "https://frankensteinvariorum.github.io/viewer",
@@ -4365,7 +4560,7 @@
    }
   ],
   "target": {
-   "source": "https://frankensteinvariorum.github.io/fv-collation/1823.html",
+   "source": "https://frankensteinvariorum.github.io/fv-collation/Thom.html",
    "type": "Text",
    "selector": [
     {
@@ -4387,6 +4582,696 @@
     }
    ]
   },
-  "mirrored": true
+  "mirrored": false
+ },
+ {
+  "@context": "http://www.w3.org/ns/anno.jsonld",
+  "id": "https://frankensteinvariorum.github.io/annotations/Thom/76",
+  "type": "Annotation",
+  "generator": {
+   "id": "https://frankensteinvariorum.github.io/viewer",
+   "type": "Software",
+   "name": "Frankenstein Variorum",
+   "homepage": "https://github.com/FrankensteinVariorum/fv-data"
+  },
+  "generated": "2019-12-16T18:31:46.959807+00:00",
+  "body": [
+   {
+    "type": "TextualBody",
+    "purpose": "tagging",
+    "value": "change-ann"
+   },
+   {
+    "type": "TextualBody",
+    "purpose": "tagging",
+    "value": "jk"
+   },
+   {
+    "type": "TextualBody",
+    "value": "This sentence from the 1818 edition is underlined in the Thomas Copy, but Shelley's intentions remain unclear since she provides no new text.  She may have intended to emphasize Victor's father's wish that his son and Elizabeth be wed as soon as possible after Victor's return from England, perhaps foreshadowing Victor's father's decline.  ",
+    "creator": "https://hypothes.is/users/frankensteinvariorum",
+    "modified": "2019-12-16T18:31:46.959807+00:00",
+    "purpose": "commenting"
+   }
+  ],
+  "target": {
+   "source": "https://frankensteinvariorum.github.io/fv-collation/Thom.html",
+   "type": "Text",
+   "selector": [
+    {
+     "type": "RangeSelector",
+     "startSelector": {
+      "type": "XPathSelector",
+      "value": "//*[@xml:id='novel1_letter4_chapter17_div4_div19_p12']"
+     },
+     "endSelector": {
+      "type": "XPathSelector",
+      "value": "//*[@xml:id='novel1_letter4_chapter17_div4_div19_p12']"
+     }
+    },
+    {
+     "type": "TextQuoteSelector",
+     "prefix": "elf to your happiness.\n         ",
+     "exact": "And, indeed, I earnestly desire that period to arrive, when we shall all be united,\n         and\n         neither hopes or fears arise to disturb our domestic calm.\u201d",
+     "suffix": "\n      \n      \n      \u201cI am conte"
+    }
+   ]
+  },
+  "mirrored": false
+ },
+ {
+  "@context": "http://www.w3.org/ns/anno.jsonld",
+  "id": "https://frankensteinvariorum.github.io/annotations/Thom/77",
+  "type": "Annotation",
+  "generator": {
+   "id": "https://frankensteinvariorum.github.io/viewer",
+   "type": "Software",
+   "name": "Frankenstein Variorum",
+   "homepage": "https://github.com/FrankensteinVariorum/fv-data"
+  },
+  "generated": "2019-12-16T18:36:34.572711+00:00",
+  "body": [
+   {
+    "type": "TextualBody",
+    "purpose": "tagging",
+    "value": "FIX"
+   },
+   {
+    "type": "TextualBody",
+    "value": "**This information, denoted by an asterisk in line, and attribution at the bottom of the page appears within the printed text, and is not added as extra-textual information -- possible ERROR.**",
+    "creator": "https://hypothes.is/users/frankensteinvariorum",
+    "modified": "2019-12-16T18:36:34.572711+00:00",
+    "purpose": "commenting"
+   }
+  ],
+  "target": {
+   "source": "https://frankensteinvariorum.github.io/fv-collation/Thom.html",
+   "type": "Text",
+   "selector": [
+    {
+     "type": "RangeSelector",
+     "startSelector": {
+      "type": "XPathSelector",
+      "value": "//*[@xml:id='novel1_letter4_chapter17_div4_div19_p20']"
+     },
+     "endSelector": {
+      "type": "XPathSelector",
+      "value": "//*[@xml:id='novel1_letter4_chapter17_div4_div19_p20']"
+     }
+    },
+    {
+     "type": "TextQuoteSelector",
+     "prefix": "poetry of nature.*\u201d\n            ",
+     "exact": "* Leigh Hunt\u2019s\n                  \u201cRimini.\u201d",
+     "suffix": "\n               \n             Hi"
+    }
+   ]
+  },
+  "mirrored": false
+ },
+ {
+  "@context": "http://www.w3.org/ns/anno.jsonld",
+  "id": "https://frankensteinvariorum.github.io/annotations/Thom/78",
+  "type": "Annotation",
+  "generator": {
+   "id": "https://frankensteinvariorum.github.io/viewer",
+   "type": "Software",
+   "name": "Frankenstein Variorum",
+   "homepage": "https://github.com/FrankensteinVariorum/fv-data"
+  },
+  "generated": "2019-12-16T18:36:53.353723+00:00",
+  "body": [
+   {
+    "type": "TextualBody",
+    "purpose": "tagging",
+    "value": "FIX"
+   },
+   {
+    "type": "TextualBody",
+    "value": "**This information, denoted by an asterisk in line, and attribution at the bottom of the page appears within the printed text, and is not added as extra-textual information -- possible ERROR.**",
+    "creator": "https://hypothes.is/users/frankensteinvariorum",
+    "modified": "2019-12-16T18:36:53.353723+00:00",
+    "purpose": "commenting"
+   }
+  ],
+  "target": {
+   "source": "https://frankensteinvariorum.github.io/fv-collation/Thom.html",
+   "type": "Text",
+   "selector": [
+    {
+     "type": "RangeSelector",
+     "startSelector": {
+      "type": "XPathSelector",
+      "value": "//*[@xml:id='novel1_letter4_chapter17_div4_div19_p20']"
+     },
+     "endSelector": {
+      "type": "XPathSelector",
+      "value": "//*[@xml:id='novel1_letter4_chapter17_div4_div19_p20']"
+     }
+    },
+    {
+     "type": "TextQuoteSelector",
+     "prefix": "      \n            \n            ",
+     "exact": "* Wordsworth\u2019s \"Tintern\n                  Abbey.\"",
+     "suffix": "\n               \n            \n  "
+    }
+   ]
+  },
+  "mirrored": false
+ },
+ {
+  "@context": "http://www.w3.org/ns/anno.jsonld",
+  "id": "https://frankensteinvariorum.github.io/annotations/Thom/79",
+  "type": "Annotation",
+  "generator": {
+   "id": "https://frankensteinvariorum.github.io/viewer",
+   "type": "Software",
+   "name": "Frankenstein Variorum",
+   "homepage": "https://github.com/FrankensteinVariorum/fv-data"
+  },
+  "generated": "2019-12-16T18:36:56.970452+00:00",
+  "body": [
+   {
+    "type": "TextualBody",
+    "purpose": "tagging",
+    "value": "change-ann"
+   },
+   {
+    "type": "TextualBody",
+    "purpose": "tagging",
+    "value": "w/Thomas"
+   },
+   {
+    "type": "TextualBody",
+    "value": "In the Thomas copy a pencil mark here joins these paragraphs.",
+    "creator": "https://hypothes.is/users/frankensteinvariorum",
+    "modified": "2019-12-16T18:36:56.970452+00:00",
+    "purpose": "commenting"
+   }
+  ],
+  "target": {
+   "source": "https://frankensteinvariorum.github.io/fv-collation/Thom.html",
+   "type": "Text",
+   "selector": [
+    {
+     "type": "RangeSelector",
+     "startSelector": {
+      "type": "XPathSelector",
+      "value": "//*[@xml:id='novel1_letter4_chapter19_div4_div21_p26']"
+     },
+     "endSelector": {
+      "type": "XPathSelector",
+      "value": "//*[@xml:id='novel1_letter4_chapter19_div4_div21_p26']"
+     }
+    },
+    {
+     "type": "TextQuoteSelector",
+     "prefix": "land towards the\n         south.",
+     "exact": "Thomas copy: pencil mark joins paragraphs.",
+     "suffix": " Almost spent, as I was, by fati"
+    }
+   ]
+  },
+  "mirrored": false
+ },
+ {
+  "@context": "http://www.w3.org/ns/anno.jsonld",
+  "id": "https://frankensteinvariorum.github.io/annotations/Thom/80",
+  "type": "Annotation",
+  "generator": {
+   "id": "https://frankensteinvariorum.github.io/viewer",
+   "type": "Software",
+   "name": "Frankenstein Variorum",
+   "homepage": "https://github.com/FrankensteinVariorum/fv-data"
+  },
+  "generated": "2019-12-16T18:36:41.006666+00:00",
+  "body": [
+   {
+    "type": "TextualBody",
+    "purpose": "tagging",
+    "value": "change-ann"
+   },
+   {
+    "type": "TextualBody",
+    "value": "This passage is underlined in the Thomas Manuscript.",
+    "creator": "https://hypothes.is/users/frankensteinvariorum",
+    "modified": "2019-12-16T18:36:41.006666+00:00",
+    "purpose": "commenting"
+   }
+  ],
+  "target": {
+   "source": "https://frankensteinvariorum.github.io/fv-collation/Thom.html",
+   "type": "Text",
+   "selector": [
+    {
+     "type": "RangeSelector",
+     "startSelector": {
+      "type": "XPathSelector",
+      "value": "//*[@xml:id='novel1_letter4_chapter20_div4_div22_p26']"
+     },
+     "endSelector": {
+      "type": "XPathSelector",
+      "value": "//*[@xml:id='novel1_letter4_chapter20_div4_div22_p26']"
+     }
+    },
+    {
+     "type": "TextQuoteSelector",
+     "prefix": "rising accident, on this shore, ",
+     "exact": "renowned for its hospitality",
+     "suffix": "; seized immediately,\n         a"
+    }
+   ]
+  },
+  "mirrored": false
+ },
+ {
+  "@context": "http://www.w3.org/ns/anno.jsonld",
+  "id": "https://frankensteinvariorum.github.io/annotations/Thom/81",
+  "type": "Annotation",
+  "generator": {
+   "id": "https://frankensteinvariorum.github.io/viewer",
+   "type": "Software",
+   "name": "Frankenstein Variorum",
+   "homepage": "https://github.com/FrankensteinVariorum/fv-data"
+  },
+  "generated": "2019-12-16T18:32:17.070147+00:00",
+  "body": [
+   {
+    "type": "TextualBody",
+    "purpose": "tagging",
+    "value": "change-ann"
+   },
+   {
+    "type": "TextualBody",
+    "value": "This phrase is underlined in the Thomas Manuscript.",
+    "creator": "https://hypothes.is/users/frankensteinvariorum",
+    "modified": "2019-12-16T18:32:17.070147+00:00",
+    "purpose": "commenting"
+   }
+  ],
+  "target": {
+   "source": "https://frankensteinvariorum.github.io/fv-collation/Thom.html",
+   "type": "Text",
+   "selector": [
+    {
+     "type": "RangeSelector",
+     "startSelector": {
+      "type": "XPathSelector",
+      "value": "//*[@xml:id='novel1_letter4_chapter20_div4_div22_p49']"
+     },
+     "endSelector": {
+      "type": "XPathSelector",
+      "value": "//*[@xml:id='novel1_letter4_chapter20_div4_div22_p49']"
+     }
+    },
+    {
+     "type": "TextQuoteSelector",
+     "prefix": "nd my departure for Ingolstadt. ",
+     "exact": "I remembered shuddering at the mad enthusiasm",
+     "suffix": "\n         that hurried me on to "
+    }
+   ]
+  },
+  "mirrored": false
+ },
+ {
+  "@context": "http://www.w3.org/ns/anno.jsonld",
+  "id": "https://frankensteinvariorum.github.io/annotations/Thom/82",
+  "type": "Annotation",
+  "generator": {
+   "id": "https://frankensteinvariorum.github.io/viewer",
+   "type": "Software",
+   "name": "Frankenstein Variorum",
+   "homepage": "https://github.com/FrankensteinVariorum/fv-data"
+  },
+  "generated": "2019-12-16T18:32:21.578493+00:00",
+  "body": [
+   {
+    "type": "TextualBody",
+    "purpose": "tagging",
+    "value": "change-ann"
+   },
+   {
+    "type": "TextualBody",
+    "purpose": "tagging",
+    "value": "jk"
+   },
+   {
+    "type": "TextualBody",
+    "value": "This phrase is underlined in the Thomas Copy. None of these underlined passages were to be revised in the 1831 edition.",
+    "creator": "https://hypothes.is/users/frankensteinvariorum",
+    "modified": "2019-12-16T18:32:21.578493+00:00",
+    "purpose": "commenting"
+   }
+  ],
+  "target": {
+   "source": "https://frankensteinvariorum.github.io/fv-collation/Thom.html",
+   "type": "Text",
+   "selector": [
+    {
+     "type": "RangeSelector",
+     "startSelector": {
+      "type": "XPathSelector",
+      "value": "//*[@xml:id='novel1_letter4_chapter20_div4_div22_p50']"
+     },
+     "endSelector": {
+      "type": "XPathSelector",
+      "value": "//*[@xml:id='novel1_letter4_chapter20_div4_div22_p50']"
+     }
+    },
+    {
+     "type": "TextQuoteSelector",
+     "prefix": "y for the preservation of life. ",
+     "exact": "Oppressed by the recollection of my various misfortunes,",
+     "suffix": " I now took a double dose, and s"
+    }
+   ]
+  },
+  "mirrored": false
+ },
+ {
+  "@context": "http://www.w3.org/ns/anno.jsonld",
+  "id": "https://frankensteinvariorum.github.io/annotations/Thom/83",
+  "type": "Annotation",
+  "generator": {
+   "id": "https://frankensteinvariorum.github.io/viewer",
+   "type": "Software",
+   "name": "Frankenstein Variorum",
+   "homepage": "https://github.com/FrankensteinVariorum/fv-data"
+  },
+  "generated": "2019-12-16T18:32:25.211013+00:00",
+  "body": [
+   {
+    "type": "TextualBody",
+    "purpose": "tagging",
+    "value": "jk"
+   },
+   {
+    "type": "TextualBody",
+    "value": "In the Thomas Copy, Victor's father hopes to inspire his son with \"philosophic sentiments.\" Such \"general observation[s]\", which we might assume relate to the phenomenal world, fail to reach the \"core of [Victor's] incurable disease.\"",
+    "creator": "https://hypothes.is/users/frankensteinvariorum",
+    "modified": "2019-12-16T18:32:25.211013+00:00",
+    "purpose": "commenting"
+   }
+  ],
+  "target": {
+   "source": "https://frankensteinvariorum.github.io/fv-collation/Thom.html",
+   "type": "Text",
+   "selector": [
+    {
+     "type": "RangeSelector",
+     "startSelector": {
+      "type": "XPathSelector",
+      "value": "//*[@xml:id='novel1_letter4_chapter21_div4_div23_p2']"
+     },
+     "endSelector": {
+      "type": "XPathSelector",
+      "value": "//*[@xml:id='novel1_letter4_chapter21_div4_div23_p2']"
+     }
+    },
+    {
+     "type": "TextQuoteSelector",
+     "prefix": " and he\n         endeavoured to ",
+     "exact": "prove to me the futility of pride.inspire me with more philosophic sentiments. But his arguments drawn from general\n            observation failed in reaching the core of my incurable disease.",
+     "suffix": "\n      \n      \u201cAlas! my father,\u201d"
+    }
+   ]
+  },
+  "mirrored": false
+ },
+ {
+  "@context": "http://www.w3.org/ns/anno.jsonld",
+  "id": "https://frankensteinvariorum.github.io/annotations/Thom/84",
+  "type": "Annotation",
+  "generator": {
+   "id": "https://frankensteinvariorum.github.io/viewer",
+   "type": "Software",
+   "name": "Frankenstein Variorum",
+   "homepage": "https://github.com/FrankensteinVariorum/fv-data"
+  },
+  "generated": "2019-12-16T18:36:44.658542+00:00",
+  "body": [
+   {
+    "type": "TextualBody",
+    "purpose": "tagging",
+    "value": "jk"
+   },
+   {
+    "type": "TextualBody",
+    "purpose": "tagging",
+    "value": "madness"
+   },
+   {
+    "type": "TextualBody",
+    "purpose": "tagging",
+    "value": "1831 edition"
+   },
+   {
+    "type": "TextualBody",
+    "value": "This addition in the Thomas Copy is one of several indications that Mary is rethinking Victor's extreme emotional states as a form of madness, despite his denial to his father that \"I am not mad.\" By distinguishing a madness \"of the heart\" rather than the mind, Victor confides in the reader a belief that he is verging on madness that will be more elaborate in the 1831 revision and does not appear so pronounced in the 1818 version. This addition in the Thomas Copy does not specifically carry over to 1831 but it does seem to suggest she was already thinking of him in terms of madness by 1823.",
+    "creator": "https://hypothes.is/users/frankensteinvariorum",
+    "modified": "2019-12-16T18:36:44.658542+00:00",
+    "purpose": "commenting"
+   }
+  ],
+  "target": {
+   "source": "https://frankensteinvariorum.github.io/fv-collation/Thom.html",
+   "type": "Text",
+   "selector": [
+    {
+     "type": "RangeSelector",
+     "startSelector": {
+      "type": "XPathSelector",
+      "value": "//*[@xml:id='novel1_letter4_chapter21_div4_div23_p7']"
+     },
+     "endSelector": {
+      "type": "XPathSelector",
+      "value": "//*[@xml:id='novel1_letter4_chapter21_div4_div23_p7']"
+     }
+    },
+    {
+     "type": "TextQuoteSelector",
+     "prefix": "acrifice the whole human race.\u201d ",
+     "exact": "What could induce me to talk thus incoherently of the dreadful subject that I dared not explain?\u2014In truth, it was insanity, not of the understanding but\n            of the heart, which produced a state of recklesscaused me always to think of one thing, of one sentiment, and that thus there would at times escape to my lips, as a half stifled groansigh may; though else unseen & unheard, just moves the flame that surrounds the marty at the stake. But though he sigh, he will not\n            recant, & though I, more weak, gave vent to my pent up thoughts in words such as these,\n            yet I shrunk unalterably from any thing that should reveal the existence of my enemy.",
+     "suffix": "\n      \n      The conclusion of "
+    }
+   ]
+  },
+  "mirrored": false
+ },
+ {
+  "@context": "http://www.w3.org/ns/anno.jsonld",
+  "id": "https://frankensteinvariorum.github.io/annotations/Thom/85",
+  "type": "Annotation",
+  "generator": {
+   "id": "https://frankensteinvariorum.github.io/viewer",
+   "type": "Software",
+   "name": "Frankenstein Variorum",
+   "homepage": "https://github.com/FrankensteinVariorum/fv-data"
+  },
+  "generated": "2019-12-16T18:31:19.666423+00:00",
+  "body": [
+   {
+    "type": "TextualBody",
+    "purpose": "tagging",
+    "value": "jk"
+   },
+   {
+    "type": "TextualBody",
+    "purpose": "tagging",
+    "value": "geography"
+   },
+   {
+    "type": "TextualBody",
+    "purpose": "tagging",
+    "value": "change-ann"
+   },
+   {
+    "type": "TextualBody",
+    "value": "Shelley misspells Montanvert, one of the three largest glaciers on Mont Blanc.",
+    "creator": "https://hypothes.is/users/frankensteinvariorum",
+    "modified": "2019-12-16T18:31:19.666423+00:00",
+    "purpose": "commenting"
+   }
+  ],
+  "target": {
+   "source": "https://frankensteinvariorum.github.io/fv-collation/Thom.html",
+   "type": "Text",
+   "selector": [
+    {
+     "type": "RangeSelector",
+     "startSelector": {
+      "type": "XPathSelector",
+      "value": "//*[@xml:id='novel1_letter4_chapter21_div4_div23_p9']"
+     },
+     "endSelector": {
+      "type": "XPathSelector",
+      "value": "//*[@xml:id='novel1_letter4_chapter21_div4_div23_p9']"
+     }
+    },
+    {
+     "type": "TextQuoteSelector",
+     "prefix": "d ever been since my journey to ",
+     "exact": "Montavert and",
+     "suffix": " the\n         sea of ice.\n      "
+    }
+   ]
+  },
+  "mirrored": false
+ },
+ {
+  "@context": "http://www.w3.org/ns/anno.jsonld",
+  "id": "https://frankensteinvariorum.github.io/annotations/Thom/86",
+  "type": "Annotation",
+  "generator": {
+   "id": "https://frankensteinvariorum.github.io/viewer",
+   "type": "Software",
+   "name": "Frankenstein Variorum",
+   "homepage": "https://github.com/FrankensteinVariorum/fv-data"
+  },
+  "generated": "2019-12-16T18:36:55.292547+00:00",
+  "body": [
+   {
+    "type": "TextualBody",
+    "purpose": "tagging",
+    "value": "jk"
+   },
+   {
+    "type": "TextualBody",
+    "value": "In this Thomas Copy interpolation, Shelley gives Victor a torrent of mixed feelings, from love to grief, before he speaks to Elizabeth",
+    "creator": "https://hypothes.is/users/frankensteinvariorum",
+    "modified": "2019-12-16T18:36:55.292547+00:00",
+    "purpose": "commenting"
+   }
+  ],
+  "target": {
+   "source": "https://frankensteinvariorum.github.io/fv-collation/Thom.html",
+   "type": "Text",
+   "selector": [
+    {
+     "type": "RangeSelector",
+     "startSelector": {
+      "type": "XPathSelector",
+      "value": "//*[@xml:id='novel1_letter4_chapter21_div4_div23_p39']"
+     },
+     "endSelector": {
+      "type": "XPathSelector",
+      "value": "//*[@xml:id='novel1_letter4_chapter21_div4_div23_p39']"
+     }
+    },
+    {
+     "type": "TextQuoteSelector",
+     "prefix": "enslave it.\n      \n      \n      ",
+     "exact": "Why Then gazing on the beloved face of Elizabeth on her graceful form and languid eyes,\n            of with instead of feeling the exultation of a\u2014lover\u2014a husband\u2014in a sudden gush of tears blinded my sight, & as I turned away to hide the involuntary\n            emotion fast drops fell in the wave below. Reason again awoke, and shaking off all unmanly\u2014or more properly\n            all natural thoughts of mischance, I smiled as ",
+     "suffix": "I took the hand of Elizabeth: \u201cY"
+    }
+   ]
+  },
+  "mirrored": false
+ },
+ {
+  "@context": "http://www.w3.org/ns/anno.jsonld",
+  "id": "https://frankensteinvariorum.github.io/annotations/Thom/87",
+  "type": "Annotation",
+  "generator": {
+   "id": "https://frankensteinvariorum.github.io/viewer",
+   "type": "Software",
+   "name": "Frankenstein Variorum",
+   "homepage": "https://github.com/FrankensteinVariorum/fv-data"
+  },
+  "generated": "2019-12-16T18:36:51.488618+00:00",
+  "body": [
+   {
+    "type": "TextualBody",
+    "purpose": "tagging",
+    "value": "jk"
+   },
+   {
+    "type": "TextualBody",
+    "value": "In this Thomas Copy addition, Victor guides Elizabeth to safety amid imagined threats from the Creature that exist, of course, only in his own haunted mind.",
+    "creator": "https://hypothes.is/users/frankensteinvariorum",
+    "modified": "2019-12-16T18:36:51.488618+00:00",
+    "purpose": "commenting"
+   }
+  ],
+  "target": {
+   "source": "https://frankensteinvariorum.github.io/fv-collation/Thom.html",
+   "type": "Text",
+   "selector": [
+    {
+     "type": "RangeSelector",
+     "startSelector": {
+      "type": "XPathSelector",
+      "value": "//*[@xml:id='novel1_letter4_chapter22_div4_div24_p1']"
+     },
+     "endSelector": {
+      "type": "XPathSelector",
+      "value": "//*[@xml:id='novel1_letter4_chapter22_div4_div24_p1']"
+     }
+    },
+    {
+     "type": "TextQuoteSelector",
+     "prefix": "s eight o\u2019clock when we landed; ",
+     "exact": "we walked for a short time on the shore, enjoying the transitory light, and then retired\n            to the inn,leaving the shore we sought the retreat of our house and garden. but aAgain as I entered the iron gates of the demesne, an unres unexplainable feeling bade me hold\u2014yet Elizabeth unwarned, and fearless passed on, and I, again half ashamed\u2014& for the first time dreading\n            lest any unholy sight should meet her sense, any shadow of the fiend, should cross\n            her, I hastily walked on, and passing my arm round her prayed with a feeling of bitter tenderness,\n            that she might never suffer ill. Thus we entered the ar mansion\u2014and still not speaking, for both our hearts were too full, we went to a balcony\n            that overhung the lake ",
+     "suffix": "and\n         contemplated the lo"
+    }
+   ]
+  },
+  "mirrored": false
+ },
+ {
+  "@context": "http://www.w3.org/ns/anno.jsonld",
+  "id": "https://frankensteinvariorum.github.io/annotations/Thom/88",
+  "type": "Annotation",
+  "generator": {
+   "id": "https://frankensteinvariorum.github.io/viewer",
+   "type": "Software",
+   "name": "Frankenstein Variorum",
+   "homepage": "https://github.com/FrankensteinVariorum/fv-data"
+  },
+  "generated": "2019-12-16T18:31:09.833389+00:00",
+  "body": [
+   {
+    "type": "TextualBody",
+    "purpose": "tagging",
+    "value": "change-ann"
+   },
+   {
+    "type": "TextualBody",
+    "purpose": "tagging",
+    "value": "w/Thomas"
+   },
+   {
+    "type": "TextualBody",
+    "value": "In the Thomas copy a pencil mark here joins these paragraphs.",
+    "creator": "https://hypothes.is/users/frankensteinvariorum",
+    "modified": "2019-12-16T18:31:09.833389+00:00",
+    "purpose": "commenting"
+   }
+  ],
+  "target": {
+   "source": "https://frankensteinvariorum.github.io/fv-collation/Thom.html",
+   "type": "Text",
+   "selector": [
+    {
+     "type": "RangeSelector",
+     "startSelector": {
+      "type": "XPathSelector",
+      "value": "//*[@xml:id='novel1_letter4_chapter22_div4_div24_p11']"
+     },
+     "endSelector": {
+      "type": "XPathSelector",
+      "value": "//*[@xml:id='novel1_letter4_chapter22_div4_div24_p11']"
+     }
+    },
+    {
+     "type": "TextQuoteSelector",
+     "prefix": "tions among the woods and vines.",
+     "exact": "Thomas copy: pencil mark joins paragraphs",
+     "suffix": ". I did not accompany them; I wa"
+    }
+   ]
+  },
+  "mirrored": false
  }
 ]

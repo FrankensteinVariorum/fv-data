@@ -1,7 +1,7 @@
 """
 Script to convert hypothes.is API json into http://www.openannotation.org/spec/core/ JSON-LD
 
-LEGACY FILE FROM JUNE 2019 - attempted to use string matching to get exact offsets from XML elements. Replaced by a rougher heuristic that only tries to match p elements in the HTML to the XML.
+LEGACY FILE FROM JUNE 2019 - attempted to use string matching to get exact offsets from XML elements. Replaced by a rougher heuristic that only tries to match p elements in the HTML to the XML: see /hypothesis/openannotation/elem_match.py
 """
 
 import datetime
