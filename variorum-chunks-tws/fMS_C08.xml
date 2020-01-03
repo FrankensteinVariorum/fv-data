@@ -1,0 +1,1029 @@
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xml:id="fMS-C08">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Frankenstein manuscripts, Chunk msColl_C08.xml</title>
+         </titleStmt>
+         <editionStmt>
+            <edition>Shelley-Godwin Archive edition, <date>2012-2015</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <distributor>Oxford University</distributor>
+            <address>
+               <addrLine>
+                  <ref target="http://www.shelleygodwinarchive.org/">http://www.shelleygodwinarchive.org/</ref>
+               </addrLine>
+            </address>
+            <availability status="free">
+               <licence target="http://creativecommons.org/publicdomain/zero/1.0/">
+                  <p>CC0 1.0 Universal.</p>
+                  <p> To the extent possible under law, the creators of the metadata records for the Shelley-Godwin Archive 
+                              have waived all copyright and related or neighboring rights to this work.</p>
+               </licence>
+            </availability>
+            <pubPlace>Oxford, UK, and College Park, MD</pubPlace>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <settlement>Oxford</settlement>
+                  <repository>Bodleian Library, University of Oxford</repository>
+                  <idno type="Bod">MS. Abinger c56</idno>
+               </msIdentifier>
+               <physDesc>
+                  <handDesc>
+                     <handNote scope="major" xml:id="mws">
+                        <persName>Mary Shelley</persName>
+                     </handNote>
+                     <handNote scope="minor" xml:id="pbs">
+                        <persName>Percy Shelley</persName>
+                     </handNote>
+                  </handDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2019-06-19" who="#ebb">Constructed this to help organize S-GA files to be included as 
+                      collation units for the Frankenstein Variorum project.</change>
+      </revisionDesc>
+   </teiHeader>
+   <sourceDoc>
+      <?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5364" lry="7104" partOf="#ox-frankenstein_volume_i" ulx="0" uly="0" mith:folio="7r" mith:shelfmark="MS. Abinger c. 56" xml:base="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0017.xml" xml:id="ox-ms_abinger_c56-0017">
+    <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c56/ms_abinger_c56-0017.jp2"/>
+    <zone rend="#bordered" type="pagination"><line>47</line></zone>
+    
+    <zone type="library"><line>7</line></zone>
+    <zone type="main">
+        <line rend="center"><milestone spanTo="#c56-0017.04" unit="tei:head"/>Chapter <mod><del rend="overwritten">2</del><add place="intralinear">3</add></mod><anchor xml:id="c56-0017.04"/></line>
+        <milestone unit="tei:p"/>
+        <line rend="indent1">When I had attained the age of</line>
+        <line>seventeen my <mod>
+                <del rend="strikethrough">father</del>
+                <add place="superlinear">parents</add>
+            </mod> resolved that</line>
+        <line>I should <mod>
+                <del rend="strikethrough">go</del>
+                <del rend="strikethrough"> to</del>
+                <anchor xml:id="c56-0017.01"/>
+                <add hand="#pbs" place="superlinear">at</add>
+            </mod> the university of In-</line>
+        <line>golstadt. I had hitherto attended the</line>
+        <line>schools of Geneva, but my father thought</line>
+        <line>it necessary for the completion of my</line>
+        <line>education <del rend="strikethrough">that</del> that I should be</line>
+        <line><anchor xml:id="c56-0017.02"/>acquainted with other customs <mod>
+                <del rend="strikethrough">besides</del>
+                <add hand="#pbs" place="superlinear">than</add>
+            </mod></line>
+        <line>those of my native country. My depar</line>
+        <line>ture was therefore fixed <del rend="strikethrough">for</del> at an</line>
+        <line>early <mod>
+                <add place="sublinear"><metamark function="insert">^</metamark></add>
+                <add place="superlinear">date.</add>
+            </mod> But before the day resolved</line>
+        <line>upon could arrive the first mis</line>
+        <line>fortune of my life occurred: <del rend="strikethrough">as if</del> an</line>
+        <line>omen <add hand="#pbs" place="superlinear">as it were</add> of my future misery
+                <delSpan rend="strikethrough" spanTo="#c56-0017.03"/>if</line>
+        <line>I should prosecute my journey.<anchor xml:id="c56-0017.03"/></line>
+        <milestone unit="tei:p"/>
+        <line rend="indent2">&gt;Elizabeth had caught the scar</line>
+        <line>let fever but <del rend="strikethrough"><unclear extent="1" unit="chars"/></del> her
+            illness was</line>
+        <line>not severe and she quickly recovered.</line>
+        <line>During her confinement <mod>
+                <del rend="strikethrough">mady</del>
+                <add place="sublinear"><metamark function="insert">^</metamark></add>
+                <add place="superlinear"><del rend="strikethrough"><unclear>made</unclear></del>
+                    many</add>
+            </mod> ar</line>
+        <line>guments had been urged to persuade</line>
+        <line>my mother <mod>
+                <del rend="strikethrough">not</del>
+                <del rend="strikethrough">a</del>
+                <add hand="#pbs" place="superlinear">to refrain from</add>
+            </mod> to attend upon</line>
+        <line>her. She had yielded <mod>
+                <del rend="strikethrough">the</del>
+                <del rend="strikethrough">to these</del>
+                <add hand="#pbs" place="superlinear">to our entreaties,</add>
+            </mod> but</line>
+        <line>when she <del rend="strikethrough">ha</del> heard that her</line>
+        <line>favourite was recovering, she <mod>
+                <del rend="overwritten">w</del>
+                <add hand="#pbs" place="intralinear">c</add>
+            </mod>ould</line>
+        <line>no longer debar herself from her</line>
+        <line>society, and entered her sick cham</line>
+        <line>ber long before <mod>
+                <del rend="strikethrough">it was safe</del>
+                <add hand="#pbs" place="superlinear">the danger of infection was past</add>
+            </mod>. The</line>
+    </zone>
+    <zone corresp="#c56-0017.01" type="left_margin">
+        <line><add hand="#pbs">become a student </add></line>
+    </zone>
+    <zone corresp="#c56-0017.02" type="left_margin">
+        <line><add hand="#pbs">made </add></line>
+    </zone>
+</surface>
+      <?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5364" lry="7104" partOf="#ox-frankenstein_volume_i" ulx="0" uly="0" mith:folio="7v" mith:shelfmark="MS. Abinger c. 56" xml:base="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0018.xml" xml:id="ox-ms_abinger_c56-0018">
+  <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c56/ms_abinger_c56-0018.jp2"/>
+
+  <zone rend="bordered" type="pagination"><line>48</line></zone>
+
+  <zone type="main">
+    <line>consequences of this imprudence were</line>
+    <line>fatal: on the third day my mother</line>
+    <line>sickened. Her fever was <del rend="strikethrough">very</del> malig-</line>
+    <line>nant, <del rend="strikethrough">tr</del> and the looks of her atten</line>
+    <line>dants prognosticated the <del rend="strikethrough">wort</del> worst</line>
+    <line>evil. On her death bed the forti</line>
+    <line>tude and benignity <del rend="strikethrough">di</del> of <mod>
+        <del rend="strikethrough">my mother</del>
+        <add hand="#pbs" place="superlinear">this admirable woman</add>
+      </mod></line>
+    <line>did not desert her. She joined the</line>
+    <line>hands of Elizabeth and myself. "My</line>
+    <line>"children said she it was on your</line>
+    <line>"union that my firmest hopes of</line>
+    <line>"future happiness were placed. It</line>
+    <line>"will now be the consolation of</line>
+    <line>"your <del rend="strikethrough">fathor</del> father.<del rend="strikethrough"><add hand="#pbs" place="superlinear">alone</add></del> Elizabeth, my</line>
+    <line>"love, supply my place to <del rend="strikethrough">the other</del></line>
+    <line>"your young <del rend="strikethrough">cons</del> cousins. Alas! I</line>
+    <line>"<del rend="strikethrough">almost</del> regret <mod>
+        <del rend="strikethrough">being</del>
+        <add hand="#pbs" place="superlinear">than I am</add>
+      </mod> taken from you,</line>
+    <line>"<del rend="strikethrough">h</del> and happy and beloved, as I am</line>
+    <line>"is it not hard to quit you all? But</line>
+    <line>"these are not thoughts befitting me</line>
+    <line>"I <mod>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
+        <add place="superlinear">will endeavour to</add>
+      </mod> resign myself <del rend="strikethrough">to</del> cheerfully to</line>
+    <line>"death and will indulge a hope <del next="#c56-0018.01" rend="strikethrough">my</del></line>
+    <line>"<del rend="strikethrough" xml:id="c56-0018.01">beloved</del>
+      <del rend="strikethrough">creatures</del> of meeting you</line>
+    <line>"in another world."</line>
+    <milestone unit="tei:p"/>
+    <line rend="indent1">She died calmly and her features</line>
+    <line>expressed <del rend="strikethrough"><unclear>lov</unclear></del> affection even in
+      death.</line>
+    <line>I need not describe the feelings of those</line>
+  </zone>
+</surface>
+      <?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5364" lry="7104" partOf="#ox-frankenstein_volume_i" ulx="0" uly="0" mith:folio="8r" mith:shelfmark="MS. Abinger c. 56" xml:base="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0019.xml" xml:id="ox-ms_abinger_c56-0019">
+    <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c56/ms_abinger_c56-0019.jp2"/>
+
+    <zone rend="#bordered" type="pagination"><line>49</line></zone>
+    <zone type="library"><line>8</line></zone>
+
+    <zone type="main">
+        <line>whose dearest ties are rent by that</line>
+        <line>most irreperable evil; the <del rend="strikethrough">bla</del> void</line>
+        <line>that every where presents itself to</line>
+        <line><mod>
+                <del rend="strikethrough">their</del>
+                <add place="sublinear"><metamark function="insert">^</metamark></add>
+                <del rend="strikethrough">minds</del>
+                <add place="superlinear">the soul</add>
+            </mod> and the despair that</line>
+        <line>is exhibited on the countenance.</line>
+        <line>It is so long before the mind can</line>
+        <line>persuade itself that she, whom</line>
+        <line>they saw every day, and whose very</line>
+        <line>existence appeared a part of theirs,</line>
+        <line>can have departed for ever: <mod>
+                <del rend="overwritten">T</del>
+                <add>t</add>
+            </mod>hat</line>
+        <line>the brightness of a loved eye can have</line>
+        <line><mod>
+                <del rend="strikethrough">faded</del>
+                <add hand="#pbs" place="superlinear">been extinguished,</add>
+            </mod> and the sound of a voice <del rend="strikethrough">never</del></line>
+        <line>so familiar and dear to the ear</line>
+        <line>can be hushed, never more to be</line>
+        <line>heard. These are the reflections of the</line>
+        <line>first days. But when the lapse of</line>
+        <line>time proves the reality of the evil</line>
+        <line>then the <mod>
+                <del rend="strikethrough">true</del>
+                <del rend="strikethrough">despair</del>
+                <add place="superlinear">bitterness of grief</add>
+            </mod> commences<add hand="#pbs" place="intralinear"><unclear>,</unclear></add></line>
+        <line><del rend="strikethrough">Then the survivors dare not turn</del></line>
+        <line><mod>
+                <del rend="strikethrough">But</del>
+                <add hand="#pbs" place="superlinear">Yet, from whom</add>
+            </mod> who has not <delSpan rend="strikethrough" spanTo="#c56-0019.01"/>had some
+            dear</line>
+        <line>connection rent away by<anchor xml:id="c56-0019.01"/> that rude hand <anchor xml:id="c56-0019.02"/></line>
+        <line><unclear extent="2" unit="chars"/> and why <mod>
+                <del rend="strikethrough">need</del>
+                <add hand="#pbs" place="superlinear">should</add>
+            </mod> I describe a sorrow</line>
+        <line>which all have felt, and must</line>
+        <line>feel? <del rend="strikethrough">But</del>
+            <mod>
+                <del rend="overwritten">t</del>
+                <add hand="#pbs" place="intralinear">T</add>
+            </mod>he time at length arrives</line>
+        <line>when grief is rather an indulgence</line>
+        <line><del rend="strikethrough">a</del> than a necessity and the smile</line>
+        <line>that plays on the lips, although</line>
+        <line>it is deemed sacriledge, is not Ba</line>
+        <line>nished.– My mother <mod spanTo="#c56-0019.04"/><del next="#c56-0019.05" rend="strikethrough">was gone</del><add place="superlinear"><unclear>lost</unclear></add>
+            <del next="#c56-0019.06" rend="strikethrough" xml:id="c56-0019.05">had be</del><del rend="unmarked">en</del></line>
+        <line><del next="#c56-0019.07" rend="strikethrough" xml:id="c56-0019.06">taken</del><add place="sublinear"><metamark function="insert">^</metamark></add>
+            <del rend="strikethrough" xml:id="c56-0019.07">away</del><add place="superlinear">was
+                dead</add><anchor xml:id="c56-0019.04"/> but we had still</line>
+    </zone>
+
+    <zone corresp="#c56-0019.02" type="left_margin">
+        <addSpan hand="#pbs" spanTo="#c56-0019.03"/>
+        <line>rent away some</line>
+        <line>dear connection,</line><anchor xml:id="c56-0019.03"/>
+    </zone>
+</surface>
+      <?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5364" lry="7104" partOf="#ox-frankenstein_volume_i" ulx="0" uly="0" mith:folio="8v" mith:shelfmark="MS. Abinger c. 56" xml:base="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0020.xml" xml:id="ox-ms_abinger_c56-0020">
+  <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c56/ms_abinger_c56-0020.jp2"/>
+  <zone rend="bordered" type="pagination"><line>50</line></zone>
+  <zone type="main">
+    <line>duties which we ought to perform</line>
+    <line>we must continue our course with</line>
+    <line>the rest <mod spanTo="#c56-0020.01"/><del rend="strikethrough">&amp; bless God if
+        nothing</del>
+      <mod>
+        <del rend="strikethrough">else</del>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
+        <del rend="strikethrough"><add place="superlinear">worse</add></del>
+      </mod><delSpan rend="strikethrough" spanTo="#c56-0020.02"/>hap</line>
+    <line>pens<anchor xml:id="c56-0020.02"/><del rend="unmarked">.</del>
+      <del rend="strikethrough"><add next="#c56-0020.03" place="superlinear">and the idleness
+          generated by grief would</add></del><del rend="strikethrough"><add place="intralinear" xml:id="c56-0020.03">become a bad habit if further indulged</add></del><add><anchor xml:id="c56-0020.04"/></add><anchor xml:id="c56-0020.01"/></line>
+    <milestone unit="tei:p"/>
+    <line rend="indent1">My journey to Ingolstadt which had</line>
+    <line>been deferred by these events was now</line>
+    <line>again determined upon, <del rend="strikethrough">and all that</del></line>
+    <line>I <del rend="strikethrough">could</del> obtain<add hand="#pbs" place="intralinear">ed</add> from my father <mod>
+        <del rend="strikethrough">was</del>
+        <add hand="#pbs" place="superlinear">a</add>
+      </mod></line>
+    <line>respite of some weeks. This time</line>
+    <line>was spent sadly. My mothers death</line>
+    <line>and my speedy departure depressed</line>
+    <line>our spirits but Elizabeth endeavour</line>
+    <line>ed to <mod>
+        <del rend="strikethrough">spr</del>
+        <del rend="strikethrough">renew</del>
+        <del rend="strikethrough">the spirit</del>
+        <del rend="strikethrough"><add place="superlinear">cast a<space extent="5" unit="chars"/>a
+            gleam</add></del>
+        <add hand="#pbs" place="sublinear">renew the spirit</add>
+      </mod> of cheer</line>
+    <line>fullness in our little society. Since</line>
+    <line>the death of her aunt her mind</line>
+    <line><anchor xml:id="c56-0020.07"/>acquired new <del rend="strikethrough">firmess</del> firmness and</line>
+    <line>vigour. She determined to fulfil her</line>
+    <line>duties with the greatest exactitude</line>
+    <line>and <mod>
+        <del rend="strikethrough">her</del>
+        <add hand="#pbs" place="superlinear">she felt that the</add>
+      </mod> most imperious duty <mod spanTo="#c56-0020.08"/><del next="#c56-0020.09" rend="strikethrough">was</del><add hand="#pbs" place="superlinear">of</add></line>
+    <line><del rend="strikethrough" xml:id="c56-0020.09">to</del> render<add hand="#pbs" place="intralinear">ing</add><anchor xml:id="c56-0020.08"/> her uncle and cousins hap</line>
+    <line>py.<anchor xml:id="c56-0020.10"/> She consoled me, amused her uncle,</line>
+    <line><del rend="strikethrough">and</del> instructed my brothers and I never</line>
+    <line>beheld her so enchanting as at this</line>
+    <line>time when she <mod spanTo="#c56-0020.12"/><delSpan rend="strikethrough" spanTo="#c56-0020.13"/>sar sacrifised every</line>
+    <line>minut<anchor xml:id="c56-0020.13"/><del rend="unmarked">e</del>
+      <del rend="strikethrough">of her time</del>
+      <del rend="strikethrough">to others</del><mod>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
+        <add place="superlinear">was</add>
+      </mod><anchor xml:id="c56-0020.12"/> continual</line>
+    <line>ly endeavouring to contribute to the</line>
+    <line>happiness of others entirely forgetful</line>
+  </zone>
+  <zone corresp="#c56-0020.04" type="left_margin">
+    <addSpan hand="#pbs" spanTo="#c56-0020.05"/>
+    <line>and learn</line>
+    <line>to think our</line>
+    <line>-selves fortu</line>
+    <line>nate, <delSpan rend="strikethrough" spanTo="#c56-0020.06"/>if no</line>
+    <line>more<anchor xml:id="c56-0020.06"/> whilst</line>
+    <line>one remains</line>
+    <line>whom the</line>
+    <line>spoiler has</line>
+    <line>not seized.</line><anchor xml:id="c56-0020.05"/>
+  </zone>
+  <zone corresp="#c56-0020.07" type="left_margin">
+    <add>had </add>
+  </zone>
+  <zone corresp="#c56-0020.10" type="left_margin">
+    <addSpan hand="#pbs" spanTo="#c56-0020.11"/>
+    <line> had devolved</line>
+    <line>on her.</line>
+    <anchor xml:id="c56-0020.11"/>
+  </zone>
+</surface>
+      <?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5364" lry="7104" partOf="#ox-frankenstein_volume_i" ulx="0" uly="0" mith:folio="9r" mith:shelfmark="MS. Abinger c. 56" xml:base="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0021.xml" xml:id="ox-ms_abinger_c56-0021">
+  <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c56/ms_abinger_c56-0021.jp2"/>
+  <zone rend="bordered" type="pagination"><line>51</line></zone>
+  <zone type="library"><line>9</line></zone>
+  <zone type="main">
+    <line>of <del rend="strikethrough">hels</del> herself.</line>
+    <milestone unit="tei:p"/>
+    <line rend="indent1">The day of my departure at lenghth</line>
+    <line>arrived – I had taken leave of all</line>
+    <line>my friends excepting Clerval, who spent</line>
+    <line>the last evening with us. He bitterly la</line>
+    <line>mented that he was <mod>
+        <del rend="strikethrough">not able</del>
+        <add hand="#pbs" place="superlinear">unable</add>
+      </mod> to</line>
+    <line>accompany me But his father</line>
+    <line>could not <mod>
+        <del rend="strikethrough">bear</del>
+        <add hand="#pbs" place="superlinear">be persuaded</add>
+      </mod> to part with him</line>
+    <line><del rend="strikethrough">besides</del>
+      <del rend="strikethrough">as</del>
+      <del rend="strikethrough">he</del> intend<mod>
+        <del rend="overwritten">ed</del>
+        <add hand="#pbs" place="intralinear">ing</add>
+      </mod>
+      <mod>
+        <del rend="strikethrough">him to</del>
+        <add hand="#pbs" place="superlinear">that he should</add>
+      </mod> be-</line>
+    <line>come a partner with him in</line>
+    <line>his business, and <mod spanTo="#c56-0021.09"/><del next="#c56-0021.03" rend="strikethrough">he said he did not</del><anchor xml:id="c56-0021.01"/></line>
+    <line><del next="#c56-0021.04" rend="strikethrough" xml:id="c56-0021.03">see</del>
+      <mod>
+        <del rend="unmarked"><add place="sublinear"><metamark function="insert">^</metamark></add><add place="superlinear">of</add></del>
+      </mod>
+      <del next="#c56-0021.05" rend="strikethrough" xml:id="c56-002201.04">what use learning</del>
+      <mod>
+        <del next="#c56-0021.06" rend="strikethrough" xml:id="c56-0021.05">was</del>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
+        <del rend="strikethrough"><add place="superlinear">could be</add></del>
+      </mod>
+      <del next="#c56-0021.07" rend="strikethrough" xml:id="c56-0021.06">to a</del></line>
+    <line><del rend="strikethrough" xml:id="c56-0021.07">merchant.</del><anchor xml:id="c56-0021.09"/> Henry had a refined mind</line>
+    <line><del rend="strikethrough">and a</del> he <mod>
+        <del rend="strikethrough">did not wish</del>
+        <add hand="#pbs" place="superlinear">had no desire</add>
+      </mod> to be idle</line>
+    <line>and was well pleased to become <delSpan rend="strikethrough" spanTo="#c56-0021.08"/>the</line>
+    <line>partner<anchor xml:id="c56-0021.08"/>
+      <del rend="strikethrough">of</del> his father's <mod>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
+        <add place="superlinear">partner</add>
+      </mod>but he believed</line>
+    <line>that a man might be a very good</line>
+    <line>trader and yet <mod>
+        <del rend="strikethrough">have</del>
+        <add hand="#pbs" place="superlinear">posess</add>
+      </mod> a cultivated</line>
+    <line><mod>
+        <del rend="strikethrough">mind.</del>
+        <add place="intralinear">understanding.</add>
+      </mod></line>
+    <milestone unit="tei:p"/>
+    <line rend="indent1">We sate late listening to his com</line>
+    <line>plaints, and <del rend="strikethrough">I</del> making many little</line>
+    <line>arrangements for the future. <del rend="strikethrough">and</del>
+      <mod>
+        <del rend="overwritten">t</del>
+        <add place="intralinear">T</add>
+      </mod>he</line>
+    <line>next morning early I departed. Tears</line>
+    <line>gushed from the eyes of Elizabeth</line>
+    <line>they proceeded partly from sorrow</line>
+    <line>at my departure, and partly because</line>
+    <line>she reflected that the same journey</line>
+    <line>was to have taken place three</line>
+    <line>months before when a mothers</line>
+    <line>blessing would have accompanied me</line>
+  </zone>
+
+  <zone corresp="#c56-0021.01" type="left_margin">
+    <addSpan hand="#pbs" spanTo="#c56-0021.02"/>
+    <line><del rend="strikethrough">and</del> in</line>
+    <line>compliance</line>
+    <line>with his favou</line>
+    <line>rite theory,</line>
+    <line>that <del rend="strikethrough">the</del> learning</line>
+    <line>was superflous</line>
+    <line>in the com-</line>
+    <line>-merce of ordi</line>
+    <line>nary life.</line>
+    <anchor xml:id="c56-0021.02"/>
+  </zone>
+</surface>
+      <?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5364" lry="7104" partOf="#ox-frankenstein_volume_i" ulx="0" uly="0" mith:folio="9v" mith:shelfmark="MS. Abinger c. 56" xml:base="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0022.xml" xml:id="ox-ms_abinger_c56-0022">
+  <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c56/ms_abinger_c56-0022.jp2"/>
+  <zone rend="bordered" type="pagination"><line>53</line></zone>
+  <zone type="main">
+    <milestone unit="tei:p"/>
+    <line rend="indent2">I threw myself into the chaise</line>
+    <line>that was to convey me away and in</line>
+    <line>dulged in the most melancholy reflec</line>
+    <line>tions. I who had ever been surrounded</line>
+    <line>by amiable companions, continually</line>
+    <line>engaged in <del rend="strikethrough">ed</del> endeavouring to give</line>
+    <line>mutual pleasure; I was now alone.</line>
+    <line>In the university <del rend="strikethrough">wi</del> whither I was</line>
+    <line>going I must form my own friends</line>
+    <line>and be my own <mod>
+        <del rend="strikethrough">introduction</del>
+        <del rend="unmarked">.</del>
+        <add hand="#pbs" place="superlinear">protector.</add>
+      </mod> My</line>
+    <line>life had hitherto been remarkably retired</line>
+    <line>and domestic and this had given me</line>
+    <line>an invincible repugnance to new <del rend="strikethrough">faces</del></line>
+    <line>countenances. I loved my brothers Eliza-</line>
+    <line>beth and Clerval these were "old</line>
+    <line>familiar faces" but I believed my</line>
+    <line>self totally unfitted for the compa-</line>
+    <line>ny of strangers. Such were my reflec-</line>
+    <line>tions as I commenced my journey But</line>
+    <line>as I proceeded my spirits and hopes</line>
+    <line>rose. I ardently desired knowledge</line>
+    <line><mod>
+        <del rend="strikethrough">and I</del>
+        <anchor xml:id="c56-0022.01"/>
+      </mod> often when at home</line>
+    <line>thought <mod>
+        <del rend="strikethrough">how</del>
+        <add hand="#pbs" place="superlinear">it</add>
+      </mod> hard <del rend="strikethrough">it was</del> to remain</line>
+    <line><anchor xml:id="c56-0022.02"/> cooped up in one place <delSpan rend="strikethrough" spanTo="#c56-0022.03"/>all my</line>
+    <line>life<anchor xml:id="c56-0022.03"/> and <add hand="#pbs" place="superlinear">had</add>
+      longed to enter into the</line>
+    <line><del rend="strikethrough">worth</del> world and take my <mod spanTo="#c56-0022.04"/><del next="#c56-0022.05" rend="strikethrough">place</del></line>
+    <line><del rend="strikethrough" xml:id="c56-0022.05">with</del><anchor xml:id="c56-0022.07"/><add place="superlinear" xml:id="c56-0022.06">among</add><anchor xml:id="c56-0022.04"/> other human beings. <del rend="strikethrough">And</del></line>
+    <line>now my desires were <del rend="strikethrough">cop</del> complyed</line>
+    <line>with <add place="intralinear">&amp;</add> it would <mod>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
+        <add place="superlinear">indeed</add>
+        <add hand="#pbs" place="superlinear">have</add>
+        <del rend="strikethrough">be</del>
+        <del rend="strikethrough">indeed</del>
+      </mod> be<add hand="#pbs" place="intralinear">en</add> folly to</line>
+    <line>repent.</line>
+    <milestone unit="tei:p"/>
+    <line rend="indent1">I had <mod>
+        <del rend="strikethrough">plenty of</del>
+        <add hand="#pbs" place="superlinear">sufficient</add>
+      </mod> leisure for these</line>
+  </zone>
+  <zone corresp="#c56-0022.01" type="left_margin">
+    <line><add hand="#pbs">I had</add></line>
+  </zone>
+  <zone corresp="#c56-0022.02" type="left_margin">
+    <line><add>during my youth</add></line>
+  </zone>
+  <zone corresp="#c56-0022.07" type="left_margin">
+    <line><add next="#c56-0022.06">station </add></line>
+  </zone>
+</surface>
+      <?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5364" lry="7104" partOf="#ox-frankenstein_volume_i" ulx="0" uly="0" mith:folio="10r" mith:shelfmark="MS. Abinger c. 56" xml:base="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0023.xml" xml:id="ox-ms_abinger_c56-0023">
+  <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c56/ms_abinger_c56-0023.jp2"/>
+  <zone rend="bordered" type="pagination"><line>54</line></zone>
+  <zone type="library"><line>10</line></zone>
+  <zone type="main">
+    <line>and many other reflections during</line>
+    <line>my journey to Ingolstadt which was</line>
+    <line>long and fatiguing – at length the</line>
+    <line>steeples of the town met my eyes. I</line>
+    <line>alighted and was conducted to my</line>
+    <line>solitary apartment to spend the</line>
+    <line>evening as I pleased.</line>
+  </zone>
+</surface>
+      <?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5364" lry="7104" partOf="#ox-frankenstein_volume_i" ulx="0" uly="0" mith:folio="10v" mith:shelfmark="MS. Abinger c. 56" xml:base="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0024.xml" xml:id="ox-ms_abinger_c56-0024">
+  <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c56/ms_abinger_c56-0024.jp2"/>
+  <zone rend="bordered" type="pagination"><line>55</line></zone>
+  
+  <zone type="main">
+    <line rend="center"><milestone spanTo="#c56-0024.04" unit="tei:head"/>Chap. 4<anchor xml:id="c56-0024.04"/></line>
+    <line>The next morning I delivered my</line>
+    <line>letters of introduction and paid a</line>
+    <line>visit to some of the principal</line>
+    <line>professors. and among others to M. <mod>
+        <del rend="strikethrough">K</del>
+        <del rend="unmarked">—</del>
+        <anchor xml:id="c56-0024.01"/>
+      </mod></line>
+    <line>Professor of <del rend="strikethrough">&amp; Lecturer</del>
+      <del rend="strikethrough">upon</del> Natural</line>
+    <line>philosophy. He received me with</line>
+    <line>politeness, and asked me several</line>
+    <line>questions concerning my progress</line>
+    <line>in the <del rend="strikethrough">sciences</del> different branches</line>
+    <line>of science appertaining to natural</line>
+    <line>philosophy. I mentioned, it is true</line>
+    <line>with fear and trembling, the only</line>
+    <line>authors I had <mod>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
+        <add place="superlinear">ever</add>
+      </mod> read upon those</line>
+    <line>subjects. The professor stared. <delSpan rend="strikethrough" spanTo="#c56-0024.02"/>I
+      said</line>
+    <line>that I did not mention these<anchor xml:id="c56-0024.02"/></line>
+    <line>"Have you really" said<del rend="smear">"</del> he "spent</line>
+    <line>"your time in studying such</line>
+    <line>"nonsence?" I replied in the affir</line>
+    <line>mative.</line>
+    <milestone unit="tei:p"/>
+    <line rend="indent1">"Every minute"– continued M. <mod>
+        <del rend="strikethrough">K</del>
+        <del rend="unmarked">—</del>
+        <anchor xml:id="c56-0024.03"/>
+      </mod></line>
+    <line>with warmth," every instant that</line>
+    <line>"you have wasted upon those</line>
+    <line>"books is utterly and entirely lost.</line>
+    <line>"You have burdened your <del rend="strikethrough">bur</del></line>
+    <line>"<del rend="strikethrough">memor</del> memory with exploded</line>
+    <line>"systems and useless names. Good</line>
+    <line>"God <mod>
+        <del rend="strikethrough">where must you</del>
+        <add place="superlinear">in what desart land</add>
+      </mod> have you</line>
+    <line>"lived where no one was kind</line>
+    <line>"enough to <del rend="strikethrough">enfor</del> inform you</line>
+    <line>"that these fancies which <mod>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
+        <add place="superlinear">you</add>
+      </mod> have</line>
+  </zone>
+  <zone corresp="#c56-0024.01" type="left_margin">
+    <line><add><mod>
+          <del rend="strikethrough">Krempe</del>
+          <add place="sublinear">Krempe</add>
+        </mod></add></line>
+  </zone>
+  <zone corresp="#c56-0024.03" type="left_margin">
+    <line><add>Krempe</add></line>
+  </zone>
+</surface>
+      <?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5364" lry="7104" partOf="#ox-frankenstein_volume_i" ulx="0" uly="0" mith:folio="11r" mith:shelfmark="MS. Abinger c. 56" xml:base="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0025.xml" xml:id="ox-ms_abinger_c56-0025">
+  <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c56/ms_abinger_c56-0025.jp2"/>
+  <zone rend="#bordered" type="pagination"><line>56</line></zone>
+  <zone type="library"><line>11</line></zone>
+  <zone type="main">
+    <line>"so greedily imbibed are <del rend="strikethrough">at le</del> a </line>
+    <line>"thousand years old and as musty as</line>
+    <line>"<del rend="strikethrough">your</del> they are ancient. I little expected</line>
+    <line>"in this enlightened and scientific age</line>
+    <line>"to find a disciple of Albertus Mag</line>
+    <line>"nus and Paracelsus. My dear sir</line>
+    <line>"you must begin your studies entire</line>
+    <line>"ly anew." So saying he ste<mod>
+        <del rend="overwritten">ss</del>
+        <add hand="#pbs" place="intralinear">pp</add>
+      </mod>ed aside, and</line>
+    
+    <line><del rend="strikethrough">wh</del> wrote down a list of several</line>
+    <line>books <del rend="strikethrough"><unclear>u</unclear></del> upon natural philosophy</line>
+    <line>which he desired me to procure</line>
+    <line>and dismissed me after mentioning</line>
+    <line>that <del rend="strikethrough">he intended</del>
+      <del rend="strikethrough">to commen</del> in</line>
+    <line>the beginning of the next week</line>
+    <line>he intended to commence a course</line>
+    <line>of lectures upon natural philosophy <mod>
+        <add place="sublinear"><metamark function="displacement" xml:id="c56-0025.01">X</metamark></add>
+      </mod></line>
+    <line>and that M. W.<mod>
+        <del rend="unmarked">—</del>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
+        <add place="superlinear">aldham</add>
+      </mod> a fellow professor</line>
+    <line>would lecture upon chemistry</line>
+    <line>the alternate days which he missed.</line>
+    <milestone unit="tei:p"/>
+    <line rend="indent2">I returned home not dissapointed</line>
+    <line>for I had long considered the au-</line>
+    <line>thors useless which the professor</line>
+    <line>had so strongly reprobated – but I</line>
+    <line>did not feel very much enclined</line>
+    <line>to <del rend="strikethrough">bu</del> study those books which at</line>
+    <line>his <del rend="strikethrough">recon</del> recommondation I had</line>
+    <line>procured. M. K<mod>
+        <del rend="unmarked">—</del>
+        <add place="superlinear">rempe</add>
+      </mod> was a little squat</line>
+    <line>man with a gruff voice and repul</line>
+    <line>sive countenance and the teacher</line>
+    <line>did not prepossess me in favour</line>
+  </zone>
+  <zone corresp="#c56-0025.01" type="left_margin">
+    <line><add hand="#pbs"><metamark function="displacement">X</metamark> in its general
+        relations;</add></line>
+  </zone>
+</surface>
+      <?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5364" lry="7104" partOf="#ox-frankenstein_volume_i" ulx="0" uly="0" mith:folio="11v" mith:shelfmark="MS. Abinger c. 56" xml:base="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0026.xml" xml:id="ox-ms_abinger_c56-0026">
+  <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c56/ms_abinger_c56-0026.jp2"/>
+  <zone rend="bordered" type="pagination"><line>57</line></zone>
+
+  <zone type="main">
+    <line>of his <mod>
+        <del rend="strikethrough">science</del><del rend="unmarked">.</del>
+        <add hand="#pbs" place="superlinear">doctrine.</add>
+      </mod>
+      <del rend="strikethrough">But when the ne</del> Be-</line>
+    <line>sides I had a contempt for the uses</line>
+    <line>of modern <mod>
+        <del rend="strikethrough">chemistry</del>
+        <add place="superlinear">natural philosophy</add>
+      </mod>. It was very</line>
+    <line><del rend="strikethrough">when</del> different when the<del rend="strikethrough">n</del>
+      masters</line>
+    <line>of the science sought immortality</line>
+    <line>and <mod>
+        <del rend="strikethrough">wealth</del>
+        <add hand="#pbs" place="superlinear">power</add>
+      </mod>;– such views although</line>
+    <line>futile were grand; but now <mod>
+        <del rend="strikethrough">it</del>
+        <add hand="#pbs" place="superlinear">the scene</add>
+      </mod> was</line>
+    <line><del rend="strikethrough">all</del> changed.<mod spanTo="#c56-0026.06"/><delSpan rend="vertical_line" spanTo="#c56-0026.07"/>
+      <del rend="strikethrough">t and the expulsion</del></line>
+    <line>of chimera overthrew at the same</line>
+    <line>time all <mod>
+        <del rend="strikethrough">greatness in the science</del>
+        <del rend="strikethrough"><add hand="#pbs" place="superlinear">those</add></del>
+      </mod>
+      <anchor xml:id="c56-0026.07"/><anchor xml:id="c56-0026.01"/>
+        <anchor xml:id="c56-0026.04"/>
+      <anchor xml:id="c56-0026.06"/></line>
+    <milestone unit="tei:p"/>
+    <line rend="indent2">Such were my reflections during</line>
+    <line><del rend="strikethrough">tw</del> two or three days <mod>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
+        <add place="superlinear">spent</add>
+      </mod> almost <mod>
+        <add place="intralinear">in</add>
+        <del rend="strikethrough">solitary</del>
+        <anchor xml:id="c56-0026.03"/>
+      </mod></line>
+    <line> but <del rend="strikethrough">at</del> as the ensueing week</line>
+    <line>commenced I thought of the infor</line>
+    <line>mation M<hi rend="sup">r</hi>. K.<mod>
+        <del rend="unmarked">—</del>
+        <add place="superlinear">rempe</add>
+      </mod> had given me</line>
+    <line>concerning the lectures, and although</line>
+    <line>I could not consent to go and hear</line>
+    <line>that little conceited fellow deliver</line>
+    <line>sentences <mod>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
+        <add place="superlinear">out of a pulpit</add>
+      </mod> I recollected what he had</line>
+    <line>said of M<hi rend="sup">r</hi>. Waldham, whom I had</line>
+    <line>never seen <del rend="strikethrough">and</del> as he had been</line>
+    <line>hitherto out of town.</line>
+    <milestone unit="tei:p"/>
+    <line rend="indent2"><mod>
+        <del rend="strikethrough">Half out of</del>
+        <add place="superlinear">Partly from</add>
+      </mod> curiosity and partly from</line>
+    <line>idleness I went into the lecturing room</line>
+    <line>which M<hi rend="sup">r</hi>. Waldham entered shortly</line>
+    <line>after. This Professor was a very dif</line>
+    <line>ferent man from <mod>
+        <del rend="strikethrough">the other</del>
+        <add place="superlinear">his colleague</add>
+      </mod>. He</line>
+    <line>was about fifty but with aspect ex-</line>
+    <line>pressive of the greatest benevolence</line>
+    <line>a few grey <del rend="strikethrough">hars</del> hairs covered his temples</line>
+  </zone>
+
+  <zone corresp="#c56-0026.01" type="left_margin">
+    <addSpan hand="#pbs" spanTo="#c56-0026.02"/>
+    <line>the <del rend="strikethrough">utmost</del></line>
+    <line>ambition of</line>
+    <line>enquirer seemed</line>
+    <line>to limit itself</line>
+    <line>to the annihi</line>
+    <line>lation of those</line>
+    <line>visions on which </line>
+    <anchor xml:id="c56-0026.02"/>
+  </zone>
+
+  <zone corresp="#c56-0026.03" type="left_margin">
+    <line><add>solitude:</add></line>
+  </zone>
+
+  <zone corresp="#c56-0026.04" type="left_margin">
+    <addSpan hand="#pbs" spanTo="#c56-0026.05"/>
+    <line>my interest in science</line>
+    <line>was chiefly founded.</line>
+    <line>I was required</line>
+    <line>to exchange</line>
+    <line>chimeras of</line>
+    <line>boundless grandeur,</line>
+    <line>for realities of</line>
+    <line>little worth.</line>
+    <anchor xml:id="c56-0026.05"/>
+  </zone>
+
+</surface>
+      <?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5364" lry="7104" partOf="#ox-frankenstein_volume_i" ulx="0" uly="0" mith:folio="12r" mith:shelfmark="MS. Abinger c. 56" xml:base="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0027.xml" xml:id="ox-ms_abinger_c56-0027">
+  <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c56/ms_abinger_c56-0027.jp2"/>
+
+  <zone rend="#bordered" type="pagination"><line>58</line></zone>
+  <zone type="library"><line>12</line></zone>
+
+  <zone type="main">
+    <line>but those at the back of his head</line>
+    <line>were nearly black. He was short in</line>
+    <line>person but remarkably erect <del rend="strikethrough">ha</del> and</line>
+    <line>his voice the sweetest I had ever</line>
+    <line>heard. He began his lecture with a</line>
+    <line><mod>
+        <del rend="strikethrough">kind</del>
+        <del rend="strikethrough">of</del>
+        <anchor xml:id="c56-0027.01"/>
+      </mod> history of chemistry and <delSpan rend="strikethrough" spanTo="#c56-0027.03"/>remark-</line>
+    <line>ed<anchor xml:id="c56-0027.03"/> the various improvements <mod>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
+        <del rend="strikethrough"><add place="superlinear">&amp; discoveries</add></del>
+      </mod>
+      <delSpan rend="strikethrough" spanTo="#c56-0027.04"/>diffe</line>
+    <line>rent<anchor xml:id="c56-0027.04"/><anchor xml:id="c56-0027.05"/> men <mod>
+        <del rend="strikethrough">had made</del>
+        <add place="superlinear">of learning</add>
+      </mod> pronoucing</line>
+    <line>the names of the greatest discoverers</line>
+    <line><mod>
+        <del rend="strikethrough">with great warmth</del>
+        <anchor xml:id="c56-0027.06"/>
+      </mod>. He then took</line>
+    <line>a cursory view of the present state</line>
+    <line>of <mod>
+        <del rend="strikethrough">chemistry</del>
+        <add hand="#pbs" place="superlinear">the science,</add>
+      </mod> and explained many</line>
+    <line>of its <del rend="strikethrough">termes</del> terms. <mod>
+        <del rend="strikethrough">made</del>
+        <add hand="#pbs" place="superlinear">After making</add>
+      </mod> a few</line>
+    <line>preparatory experiments <mod>
+        <del rend="strikethrough">and</del>
+        <add hand="#pbs" place="superlinear">he</add>
+      </mod> conclu</line>
+    <line>ded with a panegyric upon <mod>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
+        <add place="superlinear">modern</add>
+      </mod> chemist</line>
+    <line>ry the words of which I shall never</line>
+    <line>forget.</line>
+    <milestone unit="tei:p"/>
+    <line rend="indent1">"The ancient teachers of this science"</line>
+    <line>said he, "promised impossibilities</line>
+    <line>"and performed nothing. The modern</line>
+    <line>"masters promise very little. They</line>
+    <line>"<del rend="strikethrough">no</del> know that metals cannot be</line>
+    <line>"transmuted and that the elixir</line>
+    <line>"<mod>
+        <del rend="strikethrough">vitæ</del>
+        <anchor xml:id="c56-0027.07"/>
+      </mod> is a <del rend="strikethrough">mere</del> chimæra. But</line>
+    <line>"these philosophers whose <del rend="strikethrough">eyes</del> hands</line>
+    <line>"appear only made to dabble in</line>
+    <line>"dirt and their eyes to pore over</line>
+    <line>"the microscope or cruscible,</line>
+    <line>"have indeed performed miracles.</line>
+    <line>"They penetrate into the recesses of</line>
+    <line>"nature and show how she works</line>
+  </zone>
+  <zone corresp="#c56-0027.01" type="left_margin">
+    <addSpan hand="#pbs" spanTo="#c56-0027.02"/><line>by a recapitu</line>
+    <line>lation of the</line><anchor xml:id="c56-0027.02"/>
+  </zone>
+  <zone corresp="#c56-0027.05" type="left_margin">
+    <add>made by various</add>
+  </zone>
+  <zone corresp="#c56-0027.06" type="left_margin">
+    <add>with fervour</add>
+  </zone>
+  <zone corresp="#c56-0027.07" type="left_margin">
+    <add>of life</add>
+  </zone>
+</surface>
+      <?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5364" lry="7104" partOf="#ox-frankenstein_volume_i" ulx="0" uly="0" mith:folio="12v" mith:shelfmark="MS. Abinger c. 56" xml:base="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0028.xml" xml:id="ox-ms_abinger_c56-0028">
+  <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c56/ms_abinger_c56-0028.jp2"/>
+  <zone rend="bordered" type="pagination"><line>58</line></zone>
+  <zone type="main">
+    <line>"in her hiding places. They ascend into</line>
+    <line>"the heavens<add hand="#pbs" place="intralinear">;</add>– they have discoverd
+      how</line>
+    <line>"the blood circulates, and the nature</line>
+    <line>"of the air we breathe. <del rend="strikethrough">New</del> They have</line>
+    <line>"acquired new and almost unlimi</line>
+    <line>ted powers<mod>
+        <del rend="overwritten">,</del>
+        <add hand="#pbs" place="intralinear">;</add>
+      </mod>– The<add place="intralinear">y</add> can command the</line>
+    <line>"thunders of heaven, mimick the</line>
+    <line>"earthquake, and even mock the</line>
+    <line>"invisible world with its own</line>
+    <line>"shadows."</line>
+    <milestone unit="tei:p"/>
+    <line rend="indent1">I departed highly pleased with</line>
+    <line>the professor and his lecture &amp;</line>
+    <line>paid him a visit the same evening.</line>
+    <line>His manners in private were even</line>
+    <line>more mild <mod>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
+        <add place="superlinear">&amp; attractive</add>
+      </mod> than in public. For</line>
+    <line>there was a certain dignity in his</line>
+    <line>manner during his lectures which</line>
+    <line>was replaced by the greatest <del rend="strikethrough">affabity</del></line>
+    <line>affability and kindness in his own</line>
+    <line>house. He heard <mod>
+        <del rend="strikethrough">by</del>
+        <add place="superlinear">my</add>
+      </mod> little narration</line>
+    <line>concerning my studies with attention</line>
+    <line>smiled at the names of Cornelius</line>
+    <line>Agrippa and Paracelsus<add place="superlinear"><metamark>X</metamark></add> but
+      without</line>
+    <line>the contempt that Mr Krempe had</line>
+    <line><del rend="strikethrough">Ex</del>
+      <mod>
+        <del rend="strikethrough">exhibited</del>
+        <add hand="#pbs" place="superlinear">expressed to them</add>
+      </mod>. <mod>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
+        <anchor xml:id="c56-0028.01"/>
+      </mod>
+      <del rend="strikethrough">I ended by saying</del> that</line>
+    <line>his lecture had removed my prejudice</line>
+    <line>against modern chemists and I request-</line>
+    <line>ed at the same time his advice</line>
+    <line>concerning the books I ought to procure</line>
+  </zone>
+
+  <zone corresp="#c56-0028.01" type="left_margin">
+    <addSpan hand="#pbs" spanTo="#c56-0028.02"/>
+    <line><retrace cause="fix" hand="#mws" spanTo="#c56-0028.04"/><metamark function="displacement">^</metamark></line>
+    <line>He said that</line>
+    <line>these were</line>
+    <line>men to whose</line>
+    <line>indefatigable zeal</line>
+    <line>modern<anchor xml:id="c56-0028.04"/>
+      <mod>
+        <del rend="strikethrough">chem</del>
+        <add place="superlinear">natural</add>
+      </mod></line>
+    <line><retrace cause="fix" hand="#mws" spanTo="#c56-0028.05"/>philosophers were</line>
+    <line>indebted for most</line>
+    <line>of the foundations</line>
+    <line>of their knowledge<anchor xml:id="c56-0028.05"/></line>
+    <line><delSpan rend="strikethrough" spanTo="#c56-0028.03"/>it is not a meaner</line>
+    <line>task<anchor xml:id="c56-0028.03"/>
+      <retrace cause="fix" hand="#mws">They</retrace>
+      <mod>
+        <add hand="#mws" place="sublinear"><metamark function="insert">^</metamark></add>
+        <add hand="#mws" place="superlinear">had</add>
+      </mod>
+      <retrace cause="fix" hand="#mws" spanTo="#c56-0028.06"/>left to</line>
+    <line>us, as an easier</line>
+    <line>task to give new</line>
+    <line>names, &amp; arrange</line>
+    <line>in conected classi</line>
+    <line>fications the</line>
+    <line>facts which they</line>
+    <line>to a great degree</line>
+    <line>ha<mod>
+        <del rend="overwritten">v</del>
+        <add hand="#mws" place="intralinear">d</add>
+        <del rend="strikethrough">e</del>
+      </mod> been the</line>
+    <line>instruments of</line>
+    <line>bringing to light.</line>
+    <line>The labours of</line>
+    <line>men of genius</line>
+    <line>however erroneously</line>
+    <line>directed scarce</line>
+    <line>ly ever failed.<anchor xml:id="c56-0028.06"/><anchor xml:id="c56-0028.02"/></line><anchor xml:id="c56-0029.01"/>
+  </zone>
+</surface>
+      <?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5364" lry="7104" partOf="#ox-frankenstein_volume_i" ulx="0" uly="0" mith:folio="13r" mith:shelfmark="MS. Abinger c. 56" xml:base="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0029.xml" xml:id="ox-ms_abinger_c56-0029">
+  <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c56/ms_abinger_c56-0029.jp2"/>
+  <zone rend="bordered" type="pagination"><line>59</line></zone>
+  <zone type="library"><line>13</line></zone>
+
+  <zone type="main">
+    <milestone unit="tei:p"/>
+    <line rend="indent1">"I am happy" said M<hi rend="sup">r</hi>. Waldham,
+      "To</line>
+    <line>"have gained a <del rend="strikethrough">desci</del> desciple and if if your</line>
+    <line>"<del rend="strikethrough">appil</del> application equals your ability</line>
+    <line>"I have no doubt of your success. Che</line>
+    <line>"mistry is that branch of natural</line>
+    <line>"philosophy in which the greatest im-</line>
+    <line>"provements have <mod>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
+        <add hand="#pbs" place="superlinear">been</add>
+      </mod> &amp; may be made.</line>
+    <line>"It is on that account<del rend="strikethrough">s</del> that I
+      <unclear>sl</unclear></line>
+    <line>"chose it for my peculiar study. But</line>
+    <line>"at the same <mod>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
+        <add place="superlinear">time</add>
+      </mod> I did not neglect the</line>
+    <line>"other sciences. A man would make</line>
+    <line>"a very sorry chemist if he atteneded</line>
+    <line>to that department alone. <unclear extent="1" unit="chars"/> If</line>
+    <line>"your wish is really to become a</line>
+    <line>"man of science and not merely</line>
+    <line>"a pretty experimentalist I should</line>
+    <line>"advi<mod xml:space="preserve"><del rend="overwritten">c</del><add hand="#pbs" place="intralinear">s</add></mod>e you to apply to every</line>
+    <line>"branch of natural philosophy <del rend="strikethrough">and</del><anchor xml:id="c56-0029.05"/></line>
+    <line>"Mathematics."</line>
+    <milestone unit="tei:p"/>
+    <delSpan rend="vertical_line" spanTo="#c56-0029.07"/><line rend="indent1">He
+      then gave me the list</line>
+    <line>I had requested and mentioned a few</line>
+    <line>machines that I ought to procure</line>
+    <line>and promising that when I should</line>
+    <line>have</line><anchor xml:id="c56-0029.07"/>
+    <milestone unit="tei:p"/>
+    <line rend="indent1">He then took me into his</line>
+    <line><mod>
+        <del rend="strikethrough">workroom</del>
+        <add place="superlinear">laboratory</add>
+      </mod> and <del rend="strikethrough">shewed a</del><del rend="unmarked">nd</del>
+      explain</line>
+    <line>ed to me <add hand="#pbs" place="superlinear">the use of</add> his various machines
+        <mod spanTo="#c56-0029.08"/><delSpan rend="strikethrough" spanTo="#c56-0029.09"/>tel</line>
+    <line>ling me<anchor xml:id="c56-0029.09"/><anchor xml:id="c56-0029.06"/><anchor xml:id="c56-0029.08"/> what I <mod spanTo="#c56-0029.10"/><del next="#c56-0029.11" rend="strikethrough">should</del>
+      <del next="c56-0029.12" rend="strikethrough" xml:id="c56-0029.11">procure</del><add place="superlinear">ought to procure</add></line>
+    <line><del rend="strikethrough" xml:id="c56-0029.12">for my priva</del><anchor xml:id="c56-0029.10"/> and promising me</line>
+    <line><del rend="strikethrough">a lone</del> the use of his <add hand="#pbs" place="superlinear">own</add> when I should</line>
+    <line>have advanced far<del rend="strikethrough">e</del> enough in</line>
+    <line>the study not to <damage agent="ink_blot">des</damage>
+      <del rend="strikethrough">der</del> derange</line>
+  </zone>
+  <zone corresp="#c56-0029.01" type="left_margin">
+    <addSpan spanTo="#c56-0029.02"/>
+    <line><addSpan hand="#pbs" spanTo="#c56-0029.03"/>in ultimately</line>
+    <line>turning to the</line>
+    <line>solid advantage of</line>
+    <line>mankind.<anchor xml:id="c56-0029.03"/>
+      <addSpan spanTo="#c56-0029.04"/>I listen</line>
+    <line>ed to his state</line>
+    <line>ment which</line>
+    <line>was delivered</line>
+    <line>without any</line>
+    <line>presumption</line>
+    <line>&amp; then added<anchor xml:id="c56-0029.04"/></line><anchor xml:id="c56-0029.02"/>
+  </zone>
+  <zone corresp="#c56-0029.05" type="left_margin">
+    <line><retrace cause="fix" hand="#mws"><add hand="#pbs">including</add></retrace></line></zone>
+
+  <zone corresp="#c56-0029.06" type="left_margin">
+    <line><add hand="#pbs">instructing me as to</add></line></zone>
+
+  
+</surface>
+      <?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5364" lry="7104" partOf="#ox-frankenstein_volume_i" ulx="0" uly="0" mith:folio="13v" mith:shelfmark="MS. Abinger c. 56" xml:base="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0030.xml" xml:id="ox-ms_abinger_c56-0030">
+  <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c56/ms_abinger_c56-0030.jp2"/>
+  <zone rend="bordered" type="pagination"><line>60</line></zone>
+  <zone type="main">
+    <line>the<mod>
+        <del rend="overwritten">m</del>
+        <add place="intralinear">ir</add>
+      </mod>.<mod>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
+        <add place="superlinear">mechanism.</add>
+      </mod> He also gave me the list of</line>
+    <line>books which I had requested and</line>
+    <line>I took my leave.</line>
+    <milestone unit="tei:p"/>
+    <line rend="indent1">Thus ended a day memorable</line>
+    <line><mod>
+        <del rend="strikethrough">in a my life</del>
+        <add place="superlinear">to me</add>
+      </mod> for it decided my</line>
+    <line>destiny.</line>
+  </zone>
+</surface>
+   </sourceDoc>
+</TEI>
