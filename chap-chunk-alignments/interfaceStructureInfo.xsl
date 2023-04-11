@@ -6,7 +6,7 @@
     version="3.0">
     <xsl:output method="text" indent="yes"/> 
     
-    <xsl:variable name="msCollection" as="document-node()+" select="collection('precoll-ms-full/?select=*.xml')"/>
+    <xsl:variable name="msCollection" as="document-node()+" select="collection('precoll-ms-fullFlat/?select=*.xml')"/>
     <xsl:variable name="printColl" as="document-node()+" select="collection('precoll-print-full/?select=*.xml')"/>
     
     
@@ -43,12 +43,23 @@
             }<xsl:if test="position() != last()">,</xsl:if>
    
         </xsl:for-each>
-        <xsl:for-each select="$msCollection">
-            
-            
-        </xsl:for-each>
         ]
         }
+        
+        <!-- Switch to MS now. It's just one edition, so establish it out here. -->
+        {
+        "label": "Manuscript",
+        
+        <xsl:for-each select="$msCollection">
+          
+           
+            
+        </xsl:for-each>
+        
+        ]
+        }
+        
+       
         
         <!-- for MS, use this XPath for chapter labels:
          //milestone[@unit="tei:head"]/following::text()[not(matches(., '^\s+$'))][1]
@@ -61,42 +72,6 @@
      
     
     
-    <!--    <xsl:variable name="editionIds" as="xs:string+">
-        <xsl:sequence select="//fs[@type='collationUnit']/f/@name ! tokenize(., '_')[1] => distinct-values()"/>
-    </xsl:variable>-->
-   <!-- <xsl:variable name="chapMarkersDoc" as="document-node()" select="doc('chapMarkerData.xml')"/>-->
-    
-   <!-- <xsl:template match="/">
-                
-        <xsl:for-each select="$editionIds">
-            <xsl:variable name="structures" as="xs:string+">
-             <xsl:choose>
-                    <xsl:when test="current() = 'msColl'">
-                        <xsl:sequence select="$chapMarkersDoc//fs[@type='collationUnit']/f[contains(@name, current())]//f/@fVal[matches(., '^[A-z]')]"/>
-                        
-                    </xsl:when>
-                 <xsl:otherwise>
-                     <xsl:value-of select="'hi there'"/>
-                 </xsl:otherwise>
-                    
-                </xsl:choose>
-               
-             </xsl:variable>
-                
-           
-            <list>
-                <item><xsl:value-of select="current()"/>: 
-                [<xsl:value-of select="string-join($structures, ', ')"/>
-                
-                
-                ]
-                </item>
-                
-            </list>
-
-     
-        </xsl:for-each>
-        
-    </xsl:template>-->
+   
     
 </xsl:stylesheet>
