@@ -8,7 +8,11 @@
     
     
     <xsl:variable name="printColl" as="document-node()+" select="collection('precoll-print-full/?select=*.xml')"/>
-    <xsl:variable name="msCollection" as="document-node()+" select="collection('precoll-ms-fullFlat/?select=*.xml')"/>
+  
+    <xsl:variable name="ms_c56" as="document-node()" select="doc('precoll-ms-fullFlat/msColl_c56Flat.xml')"/>
+    <xsl:variable name="ms_c57" as="document-node()" select="doc('precoll-ms-fullFlat/msColl_c57Flat.xml')"/>
+    <xsl:variable name="msCollection" as="document-node()+" select="$ms_c56, $ms_c57"/>
+    
     <xsl:variable name="msChapBounds" as="element()+" select="$msCollection//milestone[@unit='tei:head'][following::text()[not(matches(., '^\s+$'))][1]]"/>
     
     
@@ -53,10 +57,30 @@
         "units": [
         
       <xsl:for-each-group select="$msChapBounds/following::node()" group-starting-with="$msChapBounds">
+          <xsl:variable name="currentMilestone" as="node()" select="current()"/>
+          <xsl:variable name="currentPos" as="xs:integer" select="position()"/>
+          <xsl:variable name="surfaceStartsAndEnds" as="xs:string+">      
+              <xsl:choose>
+                  <xsl:when test="position() = 1">
+                      <xsl:variable name="groundMilestone" select="current()/preceding::milestone[@unit='tei:head'][1]"/>
+                      <xsl:value-of select="$groundMilestone/following::surface[preceding::milestone[@unit='tei:head'][1]/@spanTo = $groundMilestone/@spanTo]/@*[name()[contains(., 'ID')]] ! data() => distinct-values()"/>
+                  </xsl:when>
+                  <xsl:otherwise>
+                  <xsl:value-of  select="$currentMilestone/following::surface[preceding::milestone[@unit='tei:head'][1]/@spanTo = $currentMilestone/@spanTo]/@*[name()[contains(., 'ID')]] ! data() => distinct-values()"/>
+              </xsl:otherwise>
+              </xsl:choose>
+          </xsl:variable> 
          {
-         "label":  "<xsl:value-of select="current()/following::text()[1]"/>",
-         "uris": ["hi there", "yo there"
-          
+         "label":  "<xsl:choose>
+             <xsl:when test="position() = 1">
+                 <xsl:value-of select="current()"/>
+             </xsl:when>
+             <xsl:otherwise><xsl:value-of select="current()/following::text()[not(matches(., '^\s+$'))][1]"/></xsl:otherwise>
+         </xsl:choose>",
+          "uris": [<xsl:for-each select="$surfaceStartsAndEnds ! tokenize(., ' ')">
+              "<xsl:value-of select="current()"/>"<xsl:if test="position() != last()">,</xsl:if>
+          </xsl:for-each>
+
           ]
           }<xsl:if test="position() != last()">,</xsl:if>
       </xsl:for-each-group>

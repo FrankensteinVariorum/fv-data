@@ -1,391 +1,983 @@
-{
-    "sources": [
+
         {
-            "label": "Thomas",
-            "units": [
-                {"label": "INTRODUCTORY"},
-                {"label": "Vol 1 FRANKENSTEIN"},
-                {"label": "Vol 1 PREFACE"},
-                {"label": "Vol 1 FRANKENSTEIN"},
-                {"label": "Vol 1 LETTER I"},
-                {"label": "Vol 1 LETTER II"},
-                {"label": "Vol 1 LETTER III"},
-                {"label": "Vol 1 LETTER IV"},
-                {"label": "Vol 1 CHAPTER I"},
-                {"label": "Vol 1 CHAPTER II"},
-                {"label": "Vol 1 CHAPTER III"},
-                {"label": "Vol 1 CHAPTER IV"},
-                {"label": "Vol 1 CHAPTER V"},
-                {"label": "Vol 1 CHAPTER VI"},
-                {"label": "Vol 1 CHAPTER VII"},
-                {"label": "Vol 2 FRANKENSTEIN"},
-                {"label": "Vol 2 CHAPTER I"},
-                {"label": "Vol 2 CHAPTER II"},
-                {"label": "Vol 2 CHAPTER III"},
-                {"label": "Vol 2 CHAPTER IV"},
-                {"label": "Vol 2 CHAPTER V"},
-                {"label": "Vol 2 CHAPTER VI"},
-                {"label": "Vol 2 CHAPTER VII"},
-                {"label": "Vol 2 CHAPTER VIII"},
-                {"label": "Vol 2 CHAPTER IX"},
-                {"label": "Vol 3 FRANKENSTEIN"},
-                {"label": "Vol 3 CHAPTER I"},
-                {"label": "Vol 3 CHAPTER II"},
-                {"label": "Vol 3 CHAPTER III"},
-                {"label": "Vol 3 CHAPTER IV"},
-                {"label": "Vol 3 CHAPTER V"},
-                {"label": "Vol 3 CHAPTER VI"},
-                {"label": "Vol 3 CHAPTER VII"}
-            ]
-        },
+            "sources": [
+        
+            
+                
+                {
+                    "label": "Thomas",
+                        "units": [ 
+                                  
+                        { 
+                        "label":  "INTRODUCTORY"
+                        },          
+                        { 
+                        "label":  "Vol 1 FRANKENSTEIN"
+                        },          
+                        { 
+                        "label":  "Vol 1 PREFACE"
+                        },          
+                        { 
+                        "label":  "Vol 1 FRANKENSTEIN"
+                        },          
+                        { 
+                        "label":  "Vol 1 LETTER I"
+                        },          
+                        { 
+                        "label":  "Vol 1 LETTER II"
+                        },          
+                        { 
+                        "label":  "Vol 1 LETTER III"
+                        },          
+                        { 
+                        "label":  "Vol 1 LETTER IV"
+                        },          
+                        { 
+                        "label":  "Vol 1 CHAPTER I"
+                        },          
+                        { 
+                        "label":  "Vol 1 CHAPTER II"
+                        },          
+                        { 
+                        "label":  "Vol 1 CHAPTER III"
+                        },          
+                        { 
+                        "label":  "Vol 1 CHAPTER IV"
+                        },          
+                        { 
+                        "label":  "Vol 1 CHAPTER V"
+                        },          
+                        { 
+                        "label":  "Vol 1 CHAPTER VI"
+                        },          
+                        { 
+                        "label":  "Vol 1 CHAPTER VII"
+                        },          
+                        { 
+                        "label":  "Vol 2 FRANKENSTEIN"
+                        },          
+                        { 
+                        "label":  "Vol 2 CHAPTER I"
+                        },          
+                        { 
+                        "label":  "Vol 2 CHAPTER II"
+                        },          
+                        { 
+                        "label":  "Vol 2 CHAPTER III"
+                        },          
+                        { 
+                        "label":  "Vol 2 CHAPTER IV"
+                        },          
+                        { 
+                        "label":  "Vol 2 CHAPTER V"
+                        },          
+                        { 
+                        "label":  "Vol 2 CHAPTER VI"
+                        },          
+                        { 
+                        "label":  "Vol 2 CHAPTER VII"
+                        },          
+                        { 
+                        "label":  "Vol 2 CHAPTER VIII"
+                        },          
+                        { 
+                        "label":  "Vol 2 CHAPTER IX"
+                        },          
+                        { 
+                        "label":  "Vol 3 FRANKENSTEIN"
+                        },          
+                        { 
+                        "label":  "Vol 3 CHAPTER I"
+                        },          
+                        { 
+                        "label":  "Vol 3 CHAPTER II"
+                        },          
+                        { 
+                        "label":  "Vol 3 CHAPTER III"
+                        },          
+                        { 
+                        "label":  "Vol 3 CHAPTER IV"
+                        },          
+                        { 
+                        "label":  "Vol 3 CHAPTER V"
+                        },          
+                        { 
+                        "label":  "Vol 3 CHAPTER VI"
+                        },          
+                        { 
+                        "label":  "Vol 3 CHAPTER VII"
+                        }
+                      ]
+                    
+            
+            },
+            
+                
+                {
+                    "label": "1831",
+                        "units": [ 
+                                  
+                        { 
+                        "label":  "INTRODUCTORY"
+                        },          
+                        { 
+                        "label":  "FRANKENSTEIN"
+                        },          
+                        { 
+                        "label":  "INTRODUCTION"
+                        },          
+                        { 
+                        "label":  "PREFACE"
+                        },          
+                        { 
+                        "label":  "FRANKENSTEIN"
+                        },          
+                        { 
+                        "label":  "LETTER I"
+                        },          
+                        { 
+                        "label":  "LETTER II"
+                        },          
+                        { 
+                        "label":  "LETTER III"
+                        },          
+                        { 
+                        "label":  "LETTER IV"
+                        },          
+                        { 
+                        "label":  "CHAPTER I"
+                        },          
+                        { 
+                        "label":  "CHAPTER II"
+                        },          
+                        { 
+                        "label":  "CHAPTER III"
+                        },          
+                        { 
+                        "label":  "CHAPTER IV"
+                        },          
+                        { 
+                        "label":  "CHAPTER V"
+                        },          
+                        { 
+                        "label":  "CHAPTER VI"
+                        },          
+                        { 
+                        "label":  "CHAPTER VII"
+                        },          
+                        { 
+                        "label":  "CHAPTER VIII"
+                        },          
+                        { 
+                        "label":  "CHAPTER IX"
+                        },          
+                        { 
+                        "label":  "CHAPTER X"
+                        },          
+                        { 
+                        "label":  "CHAPTER XI"
+                        },          
+                        { 
+                        "label":  "CHAPTER XII"
+                        },          
+                        { 
+                        "label":  "CHAPTER XIII"
+                        },          
+                        { 
+                        "label":  "CHAPTER XIV"
+                        },          
+                        { 
+                        "label":  "CHAPTER XV"
+                        },          
+                        { 
+                        "label":  "CHAPTER XVI"
+                        },          
+                        { 
+                        "label":  "CHAPTER XVII"
+                        },          
+                        { 
+                        "label":  "CHAPTER XVIII"
+                        },          
+                        { 
+                        "label":  "CHAPTER XIX"
+                        },          
+                        { 
+                        "label":  "CHAPTER XX"
+                        },          
+                        { 
+                        "label":  "CHAPTER XXI"
+                        },          
+                        { 
+                        "label":  "CHAPTER XXII"
+                        },          
+                        { 
+                        "label":  "CHAPTER XXIII"
+                        },          
+                        { 
+                        "label":  "CHAPTER XXIV"
+                        }
+                      ]
+                    
+            
+            },
+            
+                
+                {
+                    "label": "1823",
+                        "units": [ 
+                                  
+                        { 
+                        "label":  "INTRODUCTORY"
+                        },          
+                        { 
+                        "label":  "Vol 1 FRANKENSTEIN"
+                        },          
+                        { 
+                        "label":  "Vol 1 PREFACE"
+                        },          
+                        { 
+                        "label":  "Vol 1 FRANKENSTEIN"
+                        },          
+                        { 
+                        "label":  "Vol 1 LETTER I"
+                        },          
+                        { 
+                        "label":  "Vol 1 LETTER II"
+                        },          
+                        { 
+                        "label":  "Vol 1 LETTER III"
+                        },          
+                        { 
+                        "label":  "Vol 1 LETTER IV"
+                        },          
+                        { 
+                        "label":  "Vol 1 CHAPTER I"
+                        },          
+                        { 
+                        "label":  "Vol 1 CHAPTER II"
+                        },          
+                        { 
+                        "label":  "Vol 1 CHAPTER III"
+                        },          
+                        { 
+                        "label":  "Vol 1 CHAPTER IV"
+                        },          
+                        { 
+                        "label":  "Vol 1 CHAPTER V"
+                        },          
+                        { 
+                        "label":  "Vol 1 CHAPTER VI"
+                        },          
+                        { 
+                        "label":  "Vol 1 CHAPTER VII"
+                        },          
+                        { 
+                        "label":  "Vol 1 CHAPTER VIII"
+                        },          
+                        { 
+                        "label":  "Vol 1 CHAPTER IX"
+                        },          
+                        { 
+                        "label":  "Vol 1 CHAPTER X"
+                        },          
+                        { 
+                        "label":  "Vol 1 CHAPTER XI"
+                        },          
+                        { 
+                        "label":  "Vol 2 FRANKENSTEIN"
+                        },          
+                        { 
+                        "label":  "Vol 2 CHAPTER I"
+                        },          
+                        { 
+                        "label":  "Vol 2 CHAPTER II"
+                        },          
+                        { 
+                        "label":  "Vol 2 CHAPTER III"
+                        },          
+                        { 
+                        "label":  "Vol 2 CHAPTER IV"
+                        },          
+                        { 
+                        "label":  "Vol 2 CHAPTER V"
+                        },          
+                        { 
+                        "label":  "Vol 2 CHAPTER VI"
+                        },          
+                        { 
+                        "label":  "Vol 2 CHAPTER VII"
+                        },          
+                        { 
+                        "label":  "Vol 2 CHAPTER VIII"
+                        },          
+                        { 
+                        "label":  "Vol 2 CHAPTER IX"
+                        },          
+                        { 
+                        "label":  "Vol 2 CHAPTER X"
+                        },          
+                        { 
+                        "label":  "Vol 2 CHAPTER XI"
+                        },          
+                        { 
+                        "label":  "Vol 2 CHAPTER XII"
+                        }
+                      ]
+                    
+            
+            },
+            
+                
+                {
+                    "label": "1818",
+                        "units": [ 
+                                  
+                        { 
+                        "label":  "INTRODUCTORY"
+                        },          
+                        { 
+                        "label":  "Vol 1 FRANKENSTEIN"
+                        },          
+                        { 
+                        "label":  "Vol 1 PREFACE"
+                        },          
+                        { 
+                        "label":  "Vol 1 FRANKENSTEIN"
+                        },          
+                        { 
+                        "label":  "Vol 1 LETTER I"
+                        },          
+                        { 
+                        "label":  "Vol 1 LETTER II"
+                        },          
+                        { 
+                        "label":  "Vol 1 LETTER III"
+                        },          
+                        { 
+                        "label":  "Vol 1 LETTER IV"
+                        },          
+                        { 
+                        "label":  "Vol 1 CHAPTER I"
+                        },          
+                        { 
+                        "label":  "Vol 1 CHAPTER II"
+                        },          
+                        { 
+                        "label":  "Vol 1 CHAPTER III"
+                        },          
+                        { 
+                        "label":  "Vol 1 CHAPTER IV"
+                        },          
+                        { 
+                        "label":  "Vol 1 CHAPTER V"
+                        },          
+                        { 
+                        "label":  "Vol 1 CHAPTER VI"
+                        },          
+                        { 
+                        "label":  "Vol 1 CHAPTER VII"
+                        },          
+                        { 
+                        "label":  "Vol 2 FRANKENSTEIN"
+                        },          
+                        { 
+                        "label":  "Vol 2 CHAPTER I"
+                        },          
+                        { 
+                        "label":  "Vol 2 CHAPTER II"
+                        },          
+                        { 
+                        "label":  "Vol 2 CHAPTER III"
+                        },          
+                        { 
+                        "label":  "Vol 2 CHAPTER IV"
+                        },          
+                        { 
+                        "label":  "Vol 2 CHAPTER V"
+                        },          
+                        { 
+                        "label":  "Vol 2 CHAPTER VI"
+                        },          
+                        { 
+                        "label":  "Vol 2 CHAPTER VII"
+                        },          
+                        { 
+                        "label":  "Vol 2 CHAPTER VIII"
+                        },          
+                        { 
+                        "label":  "Vol 2 CHAPTER IX"
+                        },          
+                        { 
+                        "label":  "Vol 3 FRANKENSTEIN"
+                        },          
+                        { 
+                        "label":  "Vol 3 CHAPTER I"
+                        },          
+                        { 
+                        "label":  "Vol 3 CHAPTER II"
+                        },          
+                        { 
+                        "label":  "Vol 3 CHAPTER III"
+                        },          
+                        { 
+                        "label":  "Vol 3 CHAPTER IV"
+                        },          
+                        { 
+                        "label":  "Vol 3 CHAPTER V"
+                        },          
+                        { 
+                        "label":  "Vol 3 CHAPTER VI"
+                        },          
+                        { 
+                        "label":  "Vol 3 CHAPTER VII"
+                        }
+                      ]
+                    
+            
+            },
+     
+        
+        
         {
-            "label": "1831",
-            "units": [
-                {"label": "INTRODUCTORY"},
-                {"label": "FRANKENSTEIN"},
-                {"label": "INTRODUCTION"},
-                {"label": "PREFACE"},
-                {"label": "FRANKENSTEIN"},
-                {"label": "LETTER I"},
-                {"label": "LETTER II"},
-                {"label": "LETTER III"},
-                {"label": "LETTER IV"},
-                {"label": "CHAPTER I"},
-                {"label": "CHAPTER II"},
-                {"label": "CHAPTER III"},
-                {"label": "CHAPTER IV"},
-                {"label": "CHAPTER V"},
-                {"label": "CHAPTER VI"},
-                {"label": "CHAPTER VII"},
-                {"label": "CHAPTER VIII"},
-                {"label": "CHAPTER IX"},
-                {"label": "CHAPTER X"},
-                {"label": "CHAPTER XI"},
-                {"label": "CHAPTER XII"},
-                {"label": "CHAPTER XIII"},
-                {"label": "CHAPTER XIV"},
-                {"label": "CHAPTER XV"},
-                {"label": "CHAPTER XVI"},
-                {"label": "CHAPTER XVII"},
-                {"label": "CHAPTER XVIII"},
-                {"label": "CHAPTER XIX"},
-                {"label": "CHAPTER XX"},
-                {"label": "CHAPTER XXI"},
-                {"label": "CHAPTER XXII"},
-                {"label": "CHAPTER XXIII"},
-                {"label": "CHAPTER XXIV"}
-            ]
-        },
-        {
-            "label": "1823",
-            "units": [
-                {"label": "INTRODUCTORY"},
-                {"label": "Vol 1 FRANKENSTEIN"},
-                {"label": "Vol 1 PREFACE"},
-                {"label": "Vol 1 FRANKENSTEIN"},
-                {"label": "Vol 1 LETTER I"},
-                {"label": "Vol 1 LETTER II"},
-                {"label": "Vol 1 LETTER III"},
-                {"label": "Vol 1 LETTER IV"},
-                {"label": "Vol 1 CHAPTER I"},
-                {"label": "Vol 1 CHAPTER II"},
-                {"label": "Vol 1 CHAPTER III"},
-                {"label": "Vol 1 CHAPTER IV"},
-                {"label": "Vol 1 CHAPTER V"},
-                {"label": "Vol 1 CHAPTER VI"},
-                {"label": "Vol 1 CHAPTER VII"},
-                {"label": "Vol 1 CHAPTER VIII"},
-                {"label": "Vol 1 CHAPTER IX"},
-                {"label": "Vol 1 CHAPTER X"},
-                {"label": "Vol 1 CHAPTER XI"},
-                {"label": "Vol 2 FRANKENSTEIN"},
-                {"label": "Vol 2 CHAPTER I"},
-                {"label": "Vol 2 CHAPTER II"},
-                {"label": "Vol 2 CHAPTER III"},
-                {"label": "Vol 2 CHAPTER IV"},
-                {"label": "Vol 2 CHAPTER V"},
-                {"label": "Vol 2 CHAPTER VI"},
-                {"label": "Vol 2 CHAPTER VII"},
-                {"label": "Vol 2 CHAPTER VIII"},
-                {"label": "Vol 2 CHAPTER IX"},
-                {"label": "Vol 2 CHAPTER X"},
-                {"label": "Vol 2 CHAPTER XI"},
-                {"label": "Vol 2 CHAPTER XII"}
-            ]
-        },
-        {
-            "label": "1818",
-            "units": [
-                {"label": "INTRODUCTORY"},
-                {"label": "Vol 1 FRANKENSTEIN"},
-                {"label": "Vol 1 PREFACE"},
-                {"label": "Vol 1 FRANKENSTEIN"},
-                {"label": "Vol 1 LETTER I"},
-                {"label": "Vol 1 LETTER II"},
-                {"label": "Vol 1 LETTER III"},
-                {"label": "Vol 1 LETTER IV"},
-                {"label": "Vol 1 CHAPTER I"},
-                {"label": "Vol 1 CHAPTER II"},
-                {"label": "Vol 1 CHAPTER III"},
-                {"label": "Vol 1 CHAPTER IV"},
-                {"label": "Vol 1 CHAPTER V"},
-                {"label": "Vol 1 CHAPTER VI"},
-                {"label": "Vol 1 CHAPTER VII"},
-                {"label": "Vol 2 FRANKENSTEIN"},
-                {"label": "Vol 2 CHAPTER I"},
-                {"label": "Vol 2 CHAPTER II"},
-                {"label": "Vol 2 CHAPTER III"},
-                {"label": "Vol 2 CHAPTER IV"},
-                {"label": "Vol 2 CHAPTER V"},
-                {"label": "Vol 2 CHAPTER VI"},
-                {"label": "Vol 2 CHAPTER VII"},
-                {"label": "Vol 2 CHAPTER VIII"},
-                {"label": "Vol 2 CHAPTER IX"},
-                {"label": "Vol 3 FRANKENSTEIN"},
-                {"label": "Vol 3 CHAPTER I"},
-                {"label": "Vol 3 CHAPTER II"},
-                {"label": "Vol 3 CHAPTER III"},
-                {"label": "Vol 3 CHAPTER IV"},
-                {"label": "Vol 3 CHAPTER V"},
-                {"label": "Vol 3 CHAPTER VI"},
-                {"label": "Vol 3 CHAPTER VII"}
-            ]
-        },
-        {
-            "label": "Manuscript",
-            "units": [
-                {
-                    "label": "Vol. II ",
-                    "uris": [
-                        "hi there",
-                        "yo there"
-                    ]
-                },
-                {
-                    "label": "Chap. 2",
-                    "uris": [
-                        "hi there",
-                        "yo there"
-                    ]
-                },
-                {
-                    "label": "Chap. 3",
-                    "uris": [
-                        "hi there",
-                        "yo there"
-                    ]
-                },
-                {
-                    "label": "hi",
-                    "uris": [
-                        "hi there",
-                        "yo there"
-                    ]
-                },
-                {
-                    "label": "Chap. 7",
-                    "uris": [
-                        "hi there",
-                        "yo there"
-                    ]
-                },
-                {
-                    "label": "Chapt. 8",
-                    "uris": [
-                        "hi there",
-                        "yo there"
-                    ]
-                },
-                {
-                    "label": "hi",
-                    "uris": [
-                        "hi there",
-                        "yo there"
-                    ]
-                },
-                {
-                    "label": "Chap. 9",
-                    "uris": [
-                        "hi there",
-                        "yo there"
-                    ]
-                },
-                {
-                    "label": "Chap. 9",
-                    "uris": [
-                        "hi there",
-                        "yo there"
-                    ]
-                },
-                {
-                    "label": "Chap. 10",
-                    "uris": [
-                        "hi there",
-                        "yo there"
-                    ]
-                },
-                {
-                    "label": "Chap ",
-                    "uris": [
-                        "hi there",
-                        "yo there"
-                    ]
-                },
-                {
-                    "label": "Chap 12",
-                    "uris": [
-                        "hi there",
-                        "yo there"
-                    ]
-                },
-                {
-                    "label": "Chapter 13",
-                    "uris": [
-                        "hi there",
-                        "yo there"
-                    ]
-                },
-                {
-                    "label": "Chap. 14",
-                    "uris": [
-                        "hi there",
-                        "yo there"
-                    ]
-                },
-                {
-                    "label": "Chap. 15",
-                    "uris": [
-                        "hi there",
-                        "yo there"
-                    ]
-                },
-                {
-                    "label": "Chap. 16",
-                    "uris": [
-                        "hi there",
-                        "yo there"
-                    ]
-                },
-                {
-                    "label": "Chap. 17",
-                    "uris": [
-                        "hi there",
-                        "yo there"
-                    ]
-                },
-                {
-                    "label": "Chap. 18",
-                    "uris": [
-                        "hi there",
-                        "yo there"
-                    ]
-                },
-                {
-                    "label": "Walton in continuation.",
-                    "uris": [
-                        "hi there",
-                        "yo there"
-                    ]
-                },
-                {
-                    "label": "Chapter ",
-                    "uris": [
-                        "hi there",
-                        "yo there"
-                    ]
-                },
-                {
-                    "label": "Chap. 4",
-                    "uris": [
-                        "hi there",
-                        "yo there"
-                    ]
-                },
-                {
-                    "label": "Chap. 5",
-                    "uris": [
-                        "hi there",
-                        "yo there"
-                    ]
-                },
-                {
-                    "label": "Chapter 6.",
-                    "uris": [
-                        "hi there",
-                        "yo there"
-                    ]
-                },
-                {
-                    "label": "Chapter 7",
-                    "uris": [
-                        "hi there",
-                        "yo there"
-                    ]
-                },
-                {
-                    "label": "Chap. 7",
-                    "uris": [
-                        "hi there",
-                        "yo there"
-                    ]
-                },
-                {
-                    "label": "hi",
-                    "uris": [
-                        "hi there",
-                        "yo there"
-                    ]
-                },
-                {
-                    "label": "Chap. 8",
-                    "uris": [
-                        "hi there",
-                        "yo there"
-                    ]
-                },
-                {
-                    "label": "Chap. 9",
-                    "uris": [
-                        "hi there",
-                        "yo there"
-                    ]
-                },
-                {
-                    "label": "Chapter 10",
-                    "uris": [
-                        "hi there",
-                        "yo there"
-                    ]
-                },
-                {
-                    "label": "Chap. 11",
-                    "uris": [
-                        "hi there",
-                        "yo there"
-                    ]
-                },
-                {
-                    "label": "Chapter 1",
-                    "uris": [
-                        "hi there",
-                        "yo there"
-                    ]
-                },
-                {
-                    "label": "Chap. 13",
-                    "uris": [
-                        "hi there",
-                        "yo there"
-                    ]
-                },
-                {
-                    "label": "Chap. 14",
-                    "uris": [
-                        "hi there",
-                        "yo there"
-                    ]
-                }
-            ]
+        "label": "Manuscript",
+        "units": [
+        
+       
+         {
+         "label":  "Chapt. 2",
+          "uris": [
+              "ox-ms_abinger_c56-0005",
+              "ox-ms_abinger_c56-0006",
+              "ox-ms_abinger_c56-0007",
+              "ox-ms_abinger_c56-0008",
+              "ox-ms_abinger_c56-0009__Pt1",
+              "ox-ms_abinger_c56-0013__Pt2",
+              "ox-ms_abinger_c56-0014",
+              "ox-ms_abinger_c56-0015__Pt1",
+              "ox-ms_abinger_c56-0009__Pt2",
+              "ox-ms_abinger_c56-0010",
+              "ox-ms_abinger_c56-0015__Pt2",
+              "ox-ms_abinger_c56-0016",
+              "ox-ms_abinger_c56-0017"
+
+          ]
+          }, 
+         {
+         "label":  "Chapter ",
+          "uris": [
+              "ox-ms_abinger_c56-0017",
+              "ox-ms_abinger_c56-0018",
+              "ox-ms_abinger_c56-0019",
+              "ox-ms_abinger_c56-0020",
+              "ox-ms_abinger_c56-0021",
+              "ox-ms_abinger_c56-0022",
+              "ox-ms_abinger_c56-0023",
+              "ox-ms_abinger_c56-0024"
+
+          ]
+          }, 
+         {
+         "label":  "Chap. 4",
+          "uris": [
+              "ox-ms_abinger_c56-0024",
+              "ox-ms_abinger_c56-0025",
+              "ox-ms_abinger_c56-0026",
+              "ox-ms_abinger_c56-0027",
+              "ox-ms_abinger_c56-0028",
+              "ox-ms_abinger_c56-0029",
+              "ox-ms_abinger_c56-0030",
+              "ox-ms_abinger_c56-0031"
+
+          ]
+          }, 
+         {
+         "label":  "Chap. 5",
+          "uris": [
+              "ox-ms_abinger_c56-0031",
+              "ox-ms_abinger_c56-0032",
+              "ox-ms_abinger_c56-0033",
+              "ox-ms_abinger_c56-0034",
+              "ox-ms_abinger_c56-0035",
+              "ox-ms_abinger_c56-0036",
+              "ox-ms_abinger_c56-0037",
+              "ox-ms_abinger_c56-0038"
+
+          ]
+          }, 
+         {
+         "label":  "Chapter 6.",
+          "uris": [
+              "ox-ms_abinger_c56-0038",
+              "ox-ms_abinger_c56-0039",
+              "ox-ms_abinger_c56-0040",
+              "ox-ms_abinger_c56-0041",
+              "ox-ms_abinger_c56-0042",
+              "ox-ms_abinger_c56-0043",
+              "ox-ms_abinger_c56-0044",
+              "ox-ms_abinger_c56-0045"
+
+          ]
+          }, 
+         {
+         "label":  "Chapter 7",
+          "uris": [
+              "ox-ms_abinger_c56-0045",
+              "ox-ms_abinger_c56-0046",
+              "ox-ms_abinger_c56-0047",
+              "ox-ms_abinger_c56-0048",
+              "ox-ms_abinger_c56-0049",
+              "ox-ms_abinger_c56-0050",
+              "ox-ms_abinger_c56-0051",
+              "ox-ms_abinger_c56-0052",
+              "ox-ms_abinger_c56-0053",
+              "ox-ms_abinger_c56-0054",
+              "ox-ms_abinger_c56-0055"
+
+          ]
+          }, 
+         {
+         "label":  "Chap. 7",
+          "uris": [
+              "ox-ms_abinger_c56-0055",
+              "ox-ms_abinger_c56-0056",
+              "ox-ms_abinger_c56-0057__Pt1",
+              "ox-ms_abinger_c56-0057__Pt2"
+
+          ]
+          }, 
+         {
+         "label":  "Ch V– 113",
+          "uris": [
+              "ox-ms_abinger_c56-0057__Pt2",
+              "ox-ms_abinger_c56-0058",
+              "ox-ms_abinger_c56-0059",
+              "ox-ms_abinger_c56-0060",
+              "ox-ms_abinger_c56-0061",
+              "ox-ms_abinger_c56-0062",
+              "ox-ms_abinger_c56-0063",
+              "ox-ms_abinger_c56-0064",
+              "ox-ms_abinger_c56-0065",
+              "ox-ms_abinger_c56-0066"
+
+          ]
+          }, 
+         {
+         "label":  "Chap. 8",
+          "uris": [
+              "ox-ms_abinger_c56-0066",
+              "ox-ms_abinger_c56-0067",
+              "ox-ms_abinger_c56-0068",
+              "ox-ms_abinger_c56-0069",
+              "ox-ms_abinger_c56-0070",
+              "ox-ms_abinger_c56-0071",
+              "ox-ms_abinger_c56-0072",
+              "ox-ms_abinger_c56-0073"
+
+          ]
+          }, 
+         {
+         "label":  "Chap. 9",
+          "uris": [
+              "ox-ms_abinger_c56-0073",
+              "ox-ms_abinger_c56-0074",
+              "ox-ms_abinger_c56-0075",
+              "ox-ms_abinger_c56-0076",
+              "ox-ms_abinger_c56-0077",
+              "ox-ms_abinger_c56-0078",
+              "ox-ms_abinger_c56-0079",
+              "ox-ms_abinger_c56-0080",
+              "ox-ms_abinger_c56-0081"
+
+          ]
+          }, 
+         {
+         "label":  "Chapter 10",
+          "uris": [
+              "ox-ms_abinger_c56-0081",
+              "ox-ms_abinger_c56-0082",
+              "ox-ms_abinger_c56-0083",
+              "ox-ms_abinger_c56-0084",
+              "ox-ms_abinger_c56-0085",
+              "ox-ms_abinger_c56-0086",
+              "ox-ms_abinger_c56-0087",
+              "ox-ms_abinger_c56-0088",
+              "ox-ms_abinger_c56-0089",
+              "ox-ms_abinger_c56-0090"
+
+          ]
+          }, 
+         {
+         "label":  "Chap. 11",
+          "uris": [
+              "ox-ms_abinger_c56-0090",
+              "ox-ms_abinger_c56-0091__Pt1",
+              "ox-ms_abinger_c56-0091__Pt2",
+              "ox-ms_abinger_c56-0092",
+              "ox-ms_abinger_c56-0093",
+              "ox-ms_abinger_c56-0094",
+              "ox-ms_abinger_c56-0095",
+              "ox-ms_abinger_c56-0096",
+              "ox-ms_abinger_c56-0097",
+              "ox-ms_abinger_c56-0098",
+              "ox-ms_abinger_c56-0099",
+              "ox-ms_abinger_c56-0100"
+
+          ]
+          }, 
+         {
+         "label":  "Chapter 1",
+          "uris": [
+              "ox-ms_abinger_c56-0100",
+              "ox-ms_abinger_c56-0101",
+              "ox-ms_abinger_c56-0102",
+              "ox-ms_abinger_c56-0103",
+              "ox-ms_abinger_c56-0104",
+              "ox-ms_abinger_c56-0105",
+              "ox-ms_abinger_c56-0106",
+              "ox-ms_abinger_c56-0107",
+              "ox-ms_abinger_c56-0108"
+
+          ]
+          }, 
+         {
+         "label":  "Chap. 13",
+          "uris": [
+              "ox-ms_abinger_c56-0108",
+              "ox-ms_abinger_c56-0109",
+              "ox-ms_abinger_c56-0110",
+              "ox-ms_abinger_c56-0111",
+              "ox-ms_abinger_c56-0112",
+              "ox-ms_abinger_c56-0113",
+              "ox-ms_abinger_c56-0114",
+              "ox-ms_abinger_c56-0115",
+              "ox-ms_abinger_c56-0116",
+              "ox-ms_abinger_c56-0117",
+              "ox-ms_abinger_c56-0118",
+              "ox-ms_abinger_c56-0119"
+
+          ]
+          }, 
+         {
+         "label":  "Chap. 14",
+          "uris": [
+              "ox-ms_abinger_c56-0119",
+              "ox-ms_abinger_c56-0120",
+              "ox-ms_abinger_c56-0121",
+              "ox-ms_abinger_c56-0122",
+              "ox-ms_abinger_c56-0123",
+              "ox-ms_abinger_c56-0124",
+              "ox-ms_abinger_c56-0125",
+              "ox-ms_abinger_c56-0126",
+              "ox-ms_abinger_c56-0127",
+              "ox-ms_abinger_c56-0128",
+              "ox-ms_abinger_c56-0129",
+              "ox-ms_abinger_c56-0130"
+
+          ]
+          }, 
+         {
+         "label":  "Chap. 2",
+          "uris": [
+              "ox-ms_abinger_c57-0010",
+              "ox-ms_abinger_c57-0011",
+              "ox-ms_abinger_c57-0012",
+              "ox-ms_abinger_c57-0013",
+              "ox-ms_abinger_c57-0014",
+              "ox-ms_abinger_c57-0015",
+              "ox-ms_abinger_c57-0016",
+              "ox-ms_abinger_c57-0017",
+              "ox-ms_abinger_c57-0018"
+
+          ]
+          }, 
+         {
+         "label":  "Chap. 3",
+          "uris": [
+              "ox-ms_abinger_c57-0018",
+              "ox-ms_abinger_c57-0019",
+              "ox-ms_abinger_c57-0020",
+              "ox-ms_abinger_c57-0021",
+              "ox-ms_abinger_c57-0022",
+              "ox-ms_abinger_c57-0031"
+
+          ]
+          }, 
+         {
+         "label":  "another Chapter",
+          "uris": [
+              "ox-ms_abinger_c57-0031",
+              "ox-ms_abinger_c57-0032",
+              "ox-ms_abinger_c57-0033",
+              "ox-ms_abinger_c57-0034",
+              "ox-ms_abinger_c57-0035",
+              "ox-ms_abinger_c57-0036",
+              "ox-ms_abinger_c57-0037",
+              "ox-ms_abinger_c57-0038",
+              "ox-ms_abinger_c57-0039",
+              "ox-ms_abinger_c57-0040",
+              "ox-ms_abinger_c57-0041",
+              "ox-ms_abinger_c57-0042",
+              "ox-ms_abinger_c57-0043",
+              "ox-ms_abinger_c57-0044",
+              "ox-ms_abinger_c57-0045"
+
+          ]
+          }, 
+         {
+         "label":  "Chap. 7",
+          "uris": [
+              "ox-ms_abinger_c57-0045",
+              "ox-ms_abinger_c57-0046",
+              "ox-ms_abinger_c57-0047",
+              "ox-ms_abinger_c57-0048",
+              "ox-ms_abinger_c57-0049",
+              "ox-ms_abinger_c57-0050",
+              "ox-ms_abinger_c57-0051",
+              "ox-ms_abinger_c57-0052",
+              "ox-ms_abinger_c57-0053",
+              "ox-ms_abinger_c57-0054"
+
+          ]
+          }, 
+         {
+         "label":  "Chapt. 8",
+          "uris": [
+              "ox-ms_abinger_c57-0054",
+              "ox-ms_abinger_c57-0055",
+              "ox-ms_abinger_c57-0056",
+              "ox-ms_abinger_c57-0057",
+              "ox-ms_abinger_c57-0058",
+              "ox-ms_abinger_c57-0059",
+              "ox-ms_abinger_c57-0060",
+              "ox-ms_abinger_c57-0061",
+              "ox-ms_abinger_c57-0062"
+
+          ]
+          }, 
+         {
+         "label":  "The same ",
+          "uris": [
+              "ox-ms_abinger_c57-0062",
+              "ox-ms_abinger_c57-0063"
+
+          ]
+          }, 
+         {
+         "label":  "Chap. 9",
+          "uris": [
+              "ox-ms_abinger_c57-0063",
+              "ox-ms_abinger_c57-0064",
+              "ox-ms_abinger_c57-0065",
+              "ox-ms_abinger_c57-0066"
+
+          ]
+          }, 
+         {
+         "label":  "Chap. 9",
+          "uris": [
+              "ox-ms_abinger_c57-0066",
+              "ox-ms_abinger_c57-0067",
+              "ox-ms_abinger_c57-0068",
+              "ox-ms_abinger_c57-0069",
+              "ox-ms_abinger_c57-0070",
+              "ox-ms_abinger_c57-0071",
+              "ox-ms_abinger_c57-0072",
+              "ox-ms_abinger_c57-0073",
+              "ox-ms_abinger_c57-0074"
+
+          ]
+          }, 
+         {
+         "label":  "Chap. 10",
+          "uris": [
+              "ox-ms_abinger_c57-0074",
+              "ox-ms_abinger_c57-0075",
+              "ox-ms_abinger_c57-0081",
+              "ox-ms_abinger_c57-0082",
+              "ox-ms_abinger_c57-0083",
+              "ox-ms_abinger_c57-0084",
+              "ox-ms_abinger_c57-0085",
+              "ox-ms_abinger_c57-0086",
+              "ox-ms_abinger_c57-0087",
+              "ox-ms_abinger_c57-0088",
+              "ox-ms_abinger_c57-0089",
+              "ox-ms_abinger_c57-0090",
+              "ox-ms_abinger_c57-0091",
+              "ox-ms_abinger_c57-0092"
+
+          ]
+          }, 
+         {
+         "label":  "Chap ",
+          "uris": [
+              "ox-ms_abinger_c57-0092",
+              "ox-ms_abinger_c57-0093",
+              "ox-ms_abinger_c57-0094",
+              "ox-ms_abinger_c57-0095",
+              "ox-ms_abinger_c57-0096",
+              "ox-ms_abinger_c57-0097",
+              "ox-ms_abinger_c57-0098",
+              "ox-ms_abinger_c57-0099",
+              "ox-ms_abinger_c57-0100"
+
+          ]
+          }, 
+         {
+         "label":  "Chap 12",
+          "uris": [
+              "ox-ms_abinger_c57-0100",
+              "ox-ms_abinger_c57-0101",
+              "ox-ms_abinger_c57-0102",
+              "ox-ms_abinger_c57-0103",
+              "ox-ms_abinger_c57-0104",
+              "ox-ms_abinger_c57-0105",
+              "ox-ms_abinger_c57-0106",
+              "ox-ms_abinger_c57-0107",
+              "ox-ms_abinger_c57-0108"
+
+          ]
+          }, 
+         {
+         "label":  "Chapter 13",
+          "uris": [
+              "ox-ms_abinger_c57-0108",
+              "ox-ms_abinger_c57-0109",
+              "ox-ms_abinger_c57-0110",
+              "ox-ms_abinger_c57-0111",
+              "ox-ms_abinger_c57-0112",
+              "ox-ms_abinger_c57-0113",
+              "ox-ms_abinger_c57-0114",
+              "ox-ms_abinger_c57-0115",
+              "ox-ms_abinger_c57-0116",
+              "ox-ms_abinger_c57-0117"
+
+          ]
+          }, 
+         {
+         "label":  "Chap. 14",
+          "uris": [
+              "ox-ms_abinger_c57-0117",
+              "ox-ms_abinger_c57-0118",
+              "ox-ms_abinger_c57-0119",
+              "ox-ms_abinger_c57-0120",
+              "ox-ms_abinger_c57-0121",
+              "ox-ms_abinger_c57-0122",
+              "ox-ms_abinger_c57-0123",
+              "ox-ms_abinger_c57-0124",
+              "ox-ms_abinger_c57-0125",
+              "ox-ms_abinger_c57-0126",
+              "ox-ms_abinger_c57-0127",
+              "ox-ms_abinger_c57-0128"
+
+          ]
+          }, 
+         {
+         "label":  "Chap. 15",
+          "uris": [
+              "ox-ms_abinger_c57-0128",
+              "ox-ms_abinger_c57-0129",
+              "ox-ms_abinger_c57-0130",
+              "ox-ms_abinger_c57-0131",
+              "ox-ms_abinger_c57-0132",
+              "ox-ms_abinger_c57-0133",
+              "ox-ms_abinger_c57-0134",
+              "ox-ms_abinger_c57-0135",
+              "ox-ms_abinger_c57-0136",
+              "ox-ms_abinger_c57-0137",
+              "ox-ms_abinger_c57-0138"
+
+          ]
+          }, 
+         {
+         "label":  "Chap. 16",
+          "uris": [
+              "ox-ms_abinger_c57-0138",
+              "ox-ms_abinger_c57-0139",
+              "ox-ms_abinger_c57-0140",
+              "ox-ms_abinger_c57-0141",
+              "ox-ms_abinger_c57-0142",
+              "ox-ms_abinger_c57-0143",
+              "ox-ms_abinger_c57-0144",
+              "ox-ms_abinger_c57-0145",
+              "ox-ms_abinger_c57-0146",
+              "ox-ms_abinger_c57-0147"
+
+          ]
+          }, 
+         {
+         "label":  "Chap. 17",
+          "uris": [
+              "ox-ms_abinger_c57-0147",
+              "ox-ms_abinger_c57-0148",
+              "ox-ms_abinger_c57-0149",
+              "ox-ms_abinger_c57-0150",
+              "ox-ms_abinger_c57-0151",
+              "ox-ms_abinger_c57-0152",
+              "ox-ms_abinger_c57-0153",
+              "ox-ms_abinger_c57-0154",
+              "ox-ms_abinger_c57-0155",
+              "ox-ms_abinger_c57-0156",
+              "ox-ms_abinger_c57-0157"
+
+          ]
+          }, 
+         {
+         "label":  "Chap. 18",
+          "uris": [
+              "ox-ms_abinger_c57-0157",
+              "ox-ms_abinger_c57-0158",
+              "ox-ms_abinger_c57-0159",
+              "ox-ms_abinger_c57-0160",
+              "ox-ms_abinger_c57-0161",
+              "ox-ms_abinger_c57-0162",
+              "ox-ms_abinger_c57-0163",
+              "ox-ms_abinger_c57-0164",
+              "ox-ms_abinger_c57-0165",
+              "ox-ms_abinger_c57-0166",
+              "ox-ms_abinger_c57-0167",
+              "ox-ms_abinger_c57-0168"
+
+          ]
+          }, 
+         {
+         "label":  "Walton in continuation.",
+          "uris": [
+              "ox-ms_abinger_c57-0168",
+              "ox-ms_abinger_c57-0169",
+              "ox-ms_abinger_c57-0170",
+              "ox-ms_abinger_c57-0171",
+              "ox-ms_abinger_c57-0172",
+              "ox-ms_abinger_c57-0173",
+              "ox-ms_abinger_c57-0174",
+              "ox-ms_abinger_c57-0175",
+              "ox-ms_abinger_c57-0176",
+              "ox-ms_abinger_c57-0177",
+              "ox-ms_abinger_c57-0178",
+              "ox-ms_abinger_c57-0179",
+              "ox-ms_abinger_c57-0180",
+              "ox-ms_abinger_c57-0181",
+              "ox-ms_abinger_c57-0182",
+              "ox-ms_abinger_c57-0183",
+              "ox-ms_abinger_c57-0184",
+              "ox-ms_abinger_c57-0185",
+              "ox-ms_abinger_c57-0186",
+              "ox-ms_abinger_c57-0187"
+
+          ]
+          }
+
+         
+        ]
         }
-    ]
-}
+        
+        
+        ]
+        }
+        
+       
+        
+        
+        
+        
+        
+    
