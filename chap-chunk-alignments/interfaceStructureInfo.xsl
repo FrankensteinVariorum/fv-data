@@ -78,8 +78,9 @@
              <xsl:otherwise><xsl:value-of select="current()/following::text()[not(matches(., '^\s+$'))][1]"/></xsl:otherwise>
          </xsl:choose>",
           "uris": [<xsl:for-each select="$surfaceStartsAndEnds ! tokenize(., ' ')">
-              "<xsl:value-of select="current()"/>"<xsl:if test="position() != last()">,</xsl:if>
+              "<xsl:value-of select="'https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/' || current() ! substring-before(., '-0') || '/' || current() || '.xml#' || current()"/>"<xsl:if test="position() != last()">,</xsl:if>
           </xsl:for-each>
+          <!-- "https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0013.xml#ox-ms_abinger_c56-0013" -->
 
           ]
           }<xsl:if test="position() != last()">,</xsl:if>
