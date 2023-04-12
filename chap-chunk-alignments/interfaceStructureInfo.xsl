@@ -6,8 +6,10 @@
     version="3.0">
     <xsl:output method="text" indent="yes"/> 
     
-    <xsl:variable name="msCollection" as="document-node()+" select="collection('precoll-ms-fullFlat/?select=*.xml')"/>
+    
     <xsl:variable name="printColl" as="document-node()+" select="collection('precoll-print-full/?select=*.xml')"/>
+    <xsl:variable name="msCollection" as="document-node()+" select="collection('precoll-ms-fullFlat/?select=*.xml')"/>
+    <xsl:variable name="msChapBounds" as="element()+" select="$msCollection//milestone[@unit='tei:head'][following::text()[not(matches(., '^\s+$'))][1]]"/>
     
     
     <xsl:template match="/">
@@ -42,20 +44,28 @@
             
             }<xsl:if test="position() != last()">,</xsl:if>
    
-        </xsl:for-each>
-        ]
-        }
+        </xsl:for-each>,
+     
         
         <!-- Switch to MS now. It's just one edition, so establish it out here. -->
         {
         "label": "Manuscript",
+        "units": [
         
-        <xsl:for-each select="$msCollection">
+      <xsl:for-each-group select="$msChapBounds/following::node()" group-starting-with="$msChapBounds">
+         {
+         "label":  "<xsl:value-of select="current()/following::text()[1]"/>",
+         "uris": ["hi there", "yo there"
           
-           
-            
-        </xsl:for-each>
+          ]
+          }<xsl:if test="position() != last()">,</xsl:if>
+      </xsl:for-each-group>
+
+        <!-- Manuscript / units level closes below--> 
+        ]
+        }
         
+        <!-- SOURCES level closes below-->
         ]
         }
         
