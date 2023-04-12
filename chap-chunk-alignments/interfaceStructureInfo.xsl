@@ -53,7 +53,7 @@
         
         <!-- Switch to MS now. It's just one edition, so establish it out here. -->
         {
-        "label": "Manuscript",
+        "label": "MS",
         "units": [
         
       <xsl:for-each-group select="$msChapBounds/following::node()" group-starting-with="$msChapBounds">
