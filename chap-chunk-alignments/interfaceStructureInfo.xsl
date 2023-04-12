@@ -2,18 +2,26 @@
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
     xmlns:xs="http://www.w3.org/2001/XMLSchema"
     xmlns:math="http://www.w3.org/2005/xpath-functions/math"
+    xmlns:ebb = "https://newtfire.org"
     exclude-result-prefixes="xs math"
     version="3.0">
     <xsl:output method="text" indent="yes"/> 
     
     
-    <xsl:variable name="printColl" as="document-node()+" select="collection('precoll-print-full/?select=*.xml')"/>
+    <xsl:variable name="printColl" as="document-node()+" select="doc('precoll-print-full/1818_fullC.xml'), doc('precoll-print-full/Thomas_fullC.xml'), doc('precoll-print-full/1823_fullC.xml'), doc('precoll-print-full/1831_fullC.xml')"/>
+   
   
     <xsl:variable name="ms_c56" as="document-node()" select="doc('precoll-ms-fullFlat/msColl_c56Flat.xml')"/>
     <xsl:variable name="ms_c57" as="document-node()" select="doc('precoll-ms-fullFlat/msColl_c57Flat.xml')"/>
     <xsl:variable name="msCollection" as="document-node()+" select="$ms_c56, $ms_c57"/>
     
     <xsl:variable name="msChapBounds" as="element()+" select="$msCollection//milestone[@unit='tei:head'][following::text()[not(matches(., '^\s+$'))][1]]"/>
+    
+    <xsl:function name="ebb:msURImaker" as="xs:string">
+        <xsl:param name="locInfo" as="item()"/>
+       <xsl:value-of select="'https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/' || $locInfo ! substring-before(., '-0') || '/' || $locInfo || '.xml#' || $locInfo"/>
+        
+    </xsl:function>
     
     
     <xsl:template match="/">
@@ -63,22 +71,38 @@
               <xsl:choose>
                   <xsl:when test="position() = 1">
                       <xsl:variable name="groundMilestone" select="current()/preceding::milestone[@unit='tei:head'][1]"/>
-                      <xsl:value-of select="$groundMilestone/following::surface[preceding::milestone[@unit='tei:head'][1]/@spanTo = $groundMilestone/@spanTo]/@*[name()[contains(., 'ID')]] ! data() => distinct-values()"/>
+                      <xsl:value-of select="$groundMilestone/following::surface[following::text()[not(matches(., '^\s+$'))][preceding::milestone[@unit='tei:head'][1]/@spanTo = $groundMilestone/@spanTo]]/@*[name()[contains(., 'ID')]] ! data() ! replace(., '__.+?$', '') => distinct-values()"/>
                   </xsl:when>
                   <xsl:otherwise>
-                  <xsl:value-of  select="$currentMilestone/following::surface[preceding::milestone[@unit='tei:head'][1]/@spanTo = $currentMilestone/@spanTo]/@*[name()[contains(., 'ID')]] ! data() => distinct-values()"/>
+                      <xsl:value-of  select="$currentMilestone/following::surface[following::text()[not(matches(., '^\s+$'))][preceding::milestone[@unit='tei:head'][1]/@spanTo = $currentMilestone/@spanTo]]/@*[name()[contains(., 'ID')]] ! data() ! replace(., '__.+?$', '') => distinct-values()"/>
               </xsl:otherwise>
               </xsl:choose>
           </xsl:variable> 
+        
          {
-         "label":  "<xsl:choose>
+         <xsl:choose>
              <xsl:when test="position() = 1">
-                 <xsl:value-of select="current()"/>
+                 <xsl:variable name="groundMilestone" select="current()/preceding::milestone[@unit='tei:head'][1]"/>
+                 <xsl:variable name="firstRoot" select="current()/ancestor::xml"/>
+                 
+                 
+                 "label":  "Chapter 1 frag",
+                 <!--The complicated predicate on the surface element are checking the immediately following text() nodes to make sure they have content. If they don't
+                 it wouldn't be accurate that this surface contains relevant material before the next milestone. -->
+                 "uris": [<xsl:for-each select="$firstRoot//surface[following::text()[not(matches(., '^\s+$'))][following::milestone[@unit='tei:head'][1]/@spanTo = $groundMilestone/@spanTo]]/@*[name()[contains(., 'ID')]] ! data() ! replace(., '__.+?$', '') => distinct-values()">
+                     "<xsl:value-of select="ebb:msURImaker(current())"/>"<xsl:if test="position() != last()">,</xsl:if> 
+                     
+                 </xsl:for-each>
+                 ]
+                 
+                 },
+                 {
+                 "label":  "<xsl:value-of select="current()"/>",
              </xsl:when>
-             <xsl:otherwise><xsl:value-of select="current()/following::text()[not(matches(., '^\s+$'))][1]"/></xsl:otherwise>
-         </xsl:choose>",
+             <xsl:otherwise>"label":  "<xsl:value-of select="current()/following::text()[not(matches(., '^\s+$'))][1]"/>",</xsl:otherwise>
+         </xsl:choose>
           "uris": [<xsl:for-each select="$surfaceStartsAndEnds ! tokenize(., ' ')">
-              "<xsl:value-of select="'https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/' || current() ! substring-before(., '-0') || '/' || current() || '.xml#' || current()"/>"<xsl:if test="position() != last()">,</xsl:if>
+              "<xsl:value-of select="ebb:msURImaker(current())"/>"<xsl:if test="position() != last()">,</xsl:if>
           </xsl:for-each>
           ]
           }<xsl:if test="position() != last()">,</xsl:if>
