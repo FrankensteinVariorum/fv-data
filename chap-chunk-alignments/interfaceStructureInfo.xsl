@@ -80,29 +80,24 @@
           "uris": [<xsl:for-each select="$surfaceStartsAndEnds ! tokenize(., ' ')">
               "<xsl:value-of select="'https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/' || current() ! substring-before(., '-0') || '/' || current() || '.xml#' || current()"/>"<xsl:if test="position() != last()">,</xsl:if>
           </xsl:for-each>
-          <!-- "https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0013.xml#ox-ms_abinger_c56-0013" -->
-
           ]
           }<xsl:if test="position() != last()">,</xsl:if>
       </xsl:for-each-group>
 
         <!-- Manuscript / units level closes below--> 
         ]
-        }
-        
+        }    
         <!-- SOURCES level closes below-->
         ]
         }
-        
-       
-        
+             
         <!-- for MS, use this XPath for chapter labels:
          //milestone[@unit="tei:head"]/following::text()[not(matches(., '^\s+$'))][1]
+         
+         URI Format:
+         https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0168.xml#ox-ms_abinger_c57-0168
         
-        -->
-        
-        
-        
+       -->   
     </xsl:template>
      
     
