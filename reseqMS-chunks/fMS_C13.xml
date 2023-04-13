@@ -1,0 +1,1586 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../segMarkerTester.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:mith="http://mith.umd.edu/sc/ns1#" xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Bridge Phase 5:  Witness fMS, Collation unit C13</title>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Frankenstein Variorum Project</authority>
+            <date>2018</date>
+            <availability>
+               <licence>Distributed under a Creative Commons
+                                        Attribution-ShareAlike 3.0 Unported License</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Produced from collation output prepared in batch file processing
+                                    on  2023-01-23 19:59:36.201835 .</p>
+            <p>Edited to correct alignments and prepared for the Frankenstein
+                                    Variorum spine on 2023-04-12T11:54:43.688048-04:00.</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="collation">
+            <lb n="c56-0073__main__1"/>
+            <milestone spanTo="#c56-0073.05" unit="tei:head"/>
+            <seg xml:id="C13_app3-fMS">Chap. 9</seg>
+            <shi ana="start" rend="sup"/>
+            <shi ana="end"/>
+            <seg xml:id="C13_app7-fMS">
+            <lb n="c56-0073__main__2"/>On</seg>my<seg xml:id="C13_app9-fMS">return</seg>I found the following letter <lb n="c56-0073__main__3"/>from my<seg xml:id="C13_app11-fMS">father. <lb n="c56-0073__main__4"/>To V.–Frankenstein <lb n="c56-0073__main__5"/>Geneva – June 2 <shi ana="start" rend="sup"/> d<shi ana="end"/> – 17— <lb n="c56-0073__main__6"/>My</seg>dear<seg xml:id="C13_app15-fMS">Victor</seg>
+            <milestone unit="tei:p-START"/>
+            <seg xml:id="C13_app17-fMS">
+            <lb n="c56-0073__main__7"/>You</seg>have probably waited <w ana="start"/>impati<lb n="c56-0073__main__8"/>ently<w ana="end"/>
+            <seg xml:id="C13_app19-fMS">
+            <del ana="start" rend="strikethrough" xml:id="c56-0073__main__d5e15283"/>the<del ana="end"/> for</seg>
+            <seg part="I" xml:id="C13_app20-fMS__I">
+            <del ana="start" rend="strikethrough" xml:id="c56-0073__main__d5e15288"/>the<del ana="end"/>
+            </seg>
+            <sga-add place="superlinear" xml:id="c56-0073__main__d5e15291">
+               <seg part="F" xml:id="C13_app20-fMS__F">a</seg>
+            </sga-add>letter<seg xml:id="C13_app22-fMS">
+            <del ana="start" rend="strikethrough" xml:id="c56-0073__main__d5e15296"/>which was<del ana="end"/> to fix <lb n="c56-0073__main__9"/>
+            <lb n="c56-0073__left_margin__1"/>
+            <sga-add xml:id="c56-0073__left_margin__d5e15307">the date of </sga-add>your return</seg>and I was at first tempted <lb n="c56-0073__main__10"/>to writea few<seg xml:id="C13_app27-fMS">lines <del ana="start" rend="strikethrough" xml:id="c56-0073__main__d5e15312"/>only<del ana="end"/>
+            <del ana="start" rend="unmarked" xml:id="c56-0073__main__d5e15316"/>to<del ana="end"/>
+            <del ana="start" rend="strikethrough" xml:id="c56-0073__main__d5e15319"/>fix<del ana="end"/>
+            <del ana="start" rend="strikethrough" xml:id="c56-0073__main__d5e15322"/>that<del ana="end"/>
+            </seg>
+            <sga-add place="superlinear" xml:id="c56-0073__main__d5e15325">merely mentioning the day<seg part="I" xml:id="C13_app29-fMS__I">
+               </seg>
+            </sga-add>
+            <seg part="F" xml:id="C13_app29-fMS__F">
+            <lb n="c56-0073__main__11"/>
+            <del ana="start" rend="strikethrough" xml:id="c56-0073__main__d5e15330"/>date<del ana="end"/>
+            <lb n="c56-0073__left_margin__1"/>on which <lb n="c56-0073__left_margin__2"/>I should <lb n="c56-0073__left_margin__3"/>expect</seg>
+            <seg xml:id="C13_app30-fMS">you –</seg>but that would be<seg part="I" xml:id="C13_app32-fMS__I">
+            <sga-add place="sublinear" xml:id="c56-0073__main__d5e15353">
+               <metamark ana="start" function="insert"/>^<metamark ana="end"/>
+            </sga-add>
+            </seg>
+            <sga-add place="superlinear" xml:id="c56-0073__main__d5e15359">
+               <seg part="F" xml:id="C13_app32-fMS__F">a</seg>
+               <seg part="I" xml:id="C13_app33-fMS__I">
+               </seg>
+            </sga-add>
+            <seg part="F" xml:id="C13_app33-fMS__F">
+            <del ana="start" rend="strikethrough" xml:id="c56-0073__main__d5e15362"/>very<del ana="end"/> cruel</seg>
+            <seg part="I" xml:id="C13_app34-fMS__I">
+            <sga-add place="sublinear" xml:id="c56-0073__main__d5e15368">
+               <metamark ana="start" function="insert"/>^<metamark ana="end"/>
+            </sga-add>
+            </seg>
+            <sga-add place="superlinear" xml:id="c56-0073__main__d5e15374">
+               <seg part="F" xml:id="C13_app34-fMS__F">kindness</seg>
+            </sga-add>
+            <lb n="c56-0073__main__12"/>and I dare not do it. What would<seg part="I" xml:id="C13_app36-fMS__I">
+            <sga-add place="sublinear" xml:id="c56-0073__main__d5e15383">
+               <metamark ana="start" function="insert"/>^<metamark ana="end"/>
+            </sga-add>
+            </seg>
+            <sga-add place="superlinear" xml:id="c56-0073__main__d5e15389">
+               <seg part="F" xml:id="C13_app36-fMS__F">be</seg>
+            </sga-add>your<seg xml:id="C13_app38-fMS">
+            <lb n="c56-0073__main__13"/>surprise <del ana="start" rend="strikethrough" xml:id="c56-0073__main__d5e15395"/>be<del ana="end"/> ,</seg>my<seg xml:id="C13_app40-fMS">son <del ana="start" rend="strikethrough" xml:id="c56-0073__main__d5e15398"/>e<del ana="end"/> ,</seg>when<seg xml:id="C13_app42-fMS">your</seg>
+            <w ana="start"/>ex<lb n="c56-0073__main__14"/>pected<w ana="end"/> a happy and<seg xml:id="C13_app44-fMS">gay</seg>
+            <seg xml:id="C13_app45-fMS">welcome</seg>to<seg xml:id="C13_app47-fMS">
+            <del ana="start" rend="strikethrough" xml:id="c56-0073__main__d5e15408"/>heho<del ana="end"/>
+            <lb n="c56-0073__main__15"/>beh <mdel ana="start"/>o<mdel ana="end"/>
+            <sga-add place="intralinear" xml:id="c56-0073__main__d5e15417">e </sga-add> ld</seg>on the<seg xml:id="C13_app49-fMS">contrary</seg>tears and<seg xml:id="C13_app51-fMS">
+            <w ana="start"/>wretched<lb n="c56-0073__main__16"/>ness<w ana="end"/>.</seg>And how, Victor, can I relate our<seg xml:id="C13_app53-fMS">
+            <lb n="c56-0073__main__17"/>misfortune <mdel/>
+            <sga-add place="intralinear" xml:id="c56-0073__main__d5e15437">? </sga-add>
+            </seg>absence cannot have rendered <lb n="c56-0073__main__18"/>you callous to our joys and<seg xml:id="C13_app55-fMS">griefs</seg>and how<seg xml:id="C13_app57-fMS">
+            <lb n="c56-0073__main__19"/>can</seg>I inflict pain on<seg xml:id="C13_app59-fMS">an</seg>absent<seg xml:id="C13_app61-fMS">child.?</seg>
+            <lb n="c56-0073__main__20"/>I wish to prepare you for the<seg xml:id="C13_app63-fMS">woeful</seg>
+            <seg xml:id="C13_app64-fMS">
+            <lb n="c56-0073__main__21"/>news</seg>but I know it is impossible; even <lb n="c56-0073__main__22"/>now your eye skims over the<seg xml:id="C13_app66-fMS">page</seg>to <lb n="c56-0073__main__23"/>seek the words which are to convey to <lb n="c56-0073__main__24"/>you the horrible tidings. <milestone unit="tei:p-END"/>
+            <milestone unit="tei:p-START"/>
+            <seg xml:id="C13_app68-fMS">
+            <lb n="c56-0073__main__25"/>William</seg>is<seg xml:id="C13_app70-fMS">dead! That</seg>sweet<seg xml:id="C13_app72-fMS">child</seg>
+            <lb n="c56-0073__main__26"/>whose smiles delighted &amp; warmed<seg xml:id="C13_app74-fMS">me</seg>
+            <lb n="c56-0073__main__27"/>who was so<seg xml:id="C13_app76-fMS">gentle</seg>yet so<seg xml:id="C13_app78-fMS">gay,</seg>Victor, he <lb n="c56-0073__main__28"/>is Murdered! <milestone unit="tei:p-END"/>
+            <milestone unit="tei:p-START"/>
+            <seg xml:id="C13_app80-fMS">
+            <lb n="c56-0073__main__29"/>I</seg>will not attempt to<seg xml:id="C13_app82-fMS">
+            <del ana="start" rend="strikethrough" xml:id="c56-0073__main__d5e15471"/>o<del ana="end"/> console</seg>
+            <seg xml:id="C13_app83-fMS">you</seg>
+            <lb n="c56-0073__main__30"/>but will simply relate the circumstances <lb n="c56-0073__main__31"/>of the transaction. <milestone unit="tei:p-END"/>
+            <milestone unit="tei:p-START"/>
+            <seg xml:id="C13_app85-fMS">
+            <lb n="c56-0074__main__1"/>Last thurday</seg>(May<seg xml:id="C13_app87-fMS">
+            <del ana="start" rend="strikethrough" xml:id="c56-0074__main__d5e15491"/>26<del ana="end"/> 28 <shi ana="start" rend="underline"/>th<shi ana="end"/> ) I; <del ana="start" rend="strikethrough" xml:id="c56-0074__main__d5e15499"/>your <sga-add place="superlinear" xml:id="c56-0074__main__d5e15501">my </sga-add>
+            <del ana="end"/>
+            <del ana="start" rend="strikethrough" xml:id="c56-0074__main__d5e15507"/>cousin<del ana="end"/>
+            </seg>
+            <lb n="c56-0074__main__2"/>my<seg xml:id="C13_app90-fMS">niece</seg>and your two<seg xml:id="C13_app92-fMS">brothers</seg>went to <lb n="c56-0074__main__3"/>walk in Plainpalais. The evening was <lb n="c56-0074__main__4"/>warm and serene, and we prolonged our <lb n="c56-0074__main__5"/>walk<seg xml:id="C13_app94-fMS">
+            <del ana="start" rend="strikethrough" xml:id="c56-0074__main__d5e15518"/>fat<del ana="end"/> farther than usual. It was</seg>
+            <seg xml:id="C13_app95-fMS">
+            <lb n="c56-0074__main__6"/>
+            <del ana="start" rend="strikethrough" xml:id="c56-0074__main__d5e15524"/>
+            <shi ana="start" rend="underline"/>ale<shi ana="end"/>
+            <del ana="end"/> already dusk before we thought of</seg>
+            <seg xml:id="C13_app96-fMS">
+            <lb n="c56-0074__main__7"/>returning <del ana="start" rend="strikethrough" xml:id="c56-0074__main__d5e15534"/>When<del ana="end"/>
+            </seg>
+            <sga-add place="superlinear" xml:id="c56-0074__main__d5e15537">and then</sga-add>we<seg part="I" xml:id="C13_app99-fMS__I">
+            <del ana="start" rend="strikethrough" xml:id="c56-0074__main__d5e15543"/>found<del ana="end"/>
+            <sga-add place="sublinear" xml:id="c56-0074__main__d5e15546">
+               <metamark ana="start" function="insert"/>^<metamark ana="end"/>
+            </sga-add>
+            </seg>
+            <sga-add place="superlinear" xml:id="c56-0074__main__d5e15552">
+               <seg part="F" xml:id="C13_app99-fMS__F">discovered</seg>
+            </sga-add>that<seg xml:id="C13_app101-fMS">Ernest</seg>
+            <lb n="c56-0074__main__8"/>and<seg xml:id="C13_app103-fMS">William</seg>who had gone on before, <lb n="c56-0074__main__9"/>were not to be found. We accordingly <lb n="c56-0074__main__10"/>rested on a seat<seg xml:id="C13_app105-fMS">untill</seg>they should <lb n="c56-0074__main__11"/>return. Presently Ernest<seg xml:id="C13_app107-fMS">came <del ana="start" rend="strikethrough" xml:id="c56-0074__main__d5e15565"/>up<del ana="end"/> &amp;<lb n="c56-0074__main__12"/>enquired for</seg>his<seg xml:id="C13_app111-fMS">brother</seg>he<seg xml:id="C13_app113-fMS">said</seg>that<seg xml:id="C13_app115-fMS">
+            <lb n="c56-0074__main__13"/>he</seg>had been playing<seg xml:id="C13_app117-fMS">with</seg>
+            <seg xml:id="C13_app118-fMS">
+            <del ana="start" rend="strikethrough" xml:id="c56-0074__main__d5e15573"/>them<del ana="end"/> him <lb n="c56-0074__main__14"/>and</seg>that William had run away to <lb n="c56-0074__main__15"/>hide<seg xml:id="C13_app120-fMS">himself</seg>and that he<seg xml:id="C13_app122-fMS">had <del ana="start" rend="strikethrough" xml:id="c56-0074__main__d5e15582"/>wai<del ana="end"/>
+            <sga-add place="superlinear" xml:id="c56-0074__main__d5e15585">vainly </sga-add>
+            <lb n="c56-0074__main__16"/>sought</seg>
+            <seg xml:id="C13_app123-fMS">
+            <del ana="start" rend="strikethrough" xml:id="c56-0074__main__d5e15591"/>fo<del ana="end"/> for</seg>
+            <seg xml:id="C13_app124-fMS">him</seg>&amp; afterwards<seg xml:id="C13_app126-fMS">wai <lb n="c56-0074__main__17"/>ted</seg>a long<seg xml:id="C13_app128-fMS">time</seg>but that he did <lb n="c56-0074__main__18"/>not return. <milestone unit="tei:p-END"/>
+            <milestone unit="tei:p-START"/>
+            <seg xml:id="C13_app130-fMS">
+            <lb n="c56-0074__main__19"/>This</seg>rather alarmed<seg xml:id="C13_app132-fMS">us</seg>and we<seg part="I" xml:id="C13_app134-fMS__I">
+            <del ana="start" rend="strikethrough" xml:id="c56-0074__main__d5e15603"/>sought<del ana="end"/>
+            <lb n="c56-0074__main__20"/>continued to search </seg>
+            <sga-add place="superlinear" xml:id="c56-0074__main__d5e15609">
+               <seg part="F" xml:id="C13_app134-fMS__F">for him</seg>
+               <seg part="I" xml:id="C13_app135-fMS__I">
+               </seg>
+            </sga-add>
+            <seg part="F" xml:id="C13_app135-fMS__F">untill</seg>night<seg xml:id="C13_app137-fMS">fell <del ana="start" rend="strikethrough" xml:id="c56-0074__main__d5e15612"/>l<del ana="end"/> ;</seg>
+            <lb n="c56-0074__main__21"/>
+            <lb n="c56-0074__left_margin__1"/>
+            <sga-add xml:id="c56-0074__left_margin__d5e15623">when </sga-add>Elizabeth conjectured that he might have <lb n="c56-0074__main__22"/>returned to the<seg xml:id="C13_app139-fMS">house: <del ana="start" rend="strikethrough" xml:id="c56-0074__main__d5e15629"/>but<del ana="end"/>
+            </seg>he was <lb n="c56-0074__main__23"/>not<seg xml:id="C13_app141-fMS">there –</seg>We returned<seg xml:id="C13_app143-fMS">again</seg>with<seg xml:id="C13_app145-fMS">torches</seg>
+            <lb n="c56-0074__main__24"/>for I could not<seg xml:id="C13_app147-fMS">rest</seg>when I thoughtmy <lb n="c56-0074__main__25"/>sweet<seg xml:id="C13_app151-fMS">child</seg>had lost himself, and <lb n="c56-0074__main__26"/>was exposed to all the damps &amp; dews <lb n="c56-0074__main__27"/>of<seg xml:id="C13_app153-fMS">night;</seg>Elizabeth also suffered extreme <lb n="c56-0074__main__28"/>anguish.<seg part="I" xml:id="C13_app155-fMS__I">
+            <del ana="start" rend="strikethrough" xml:id="c56-0074__main__d5e15645"/>We found him<del ana="end"/>
+            <mdel ana="start"/>a<mdel ana="end"/>
+            <sga-add place="intralinear" xml:id="c56-0074__main__d5e15652">A </sga-add> bout <del ana="start" rend="strikethrough" xml:id="c56-0074__main__d5e15658"/>four<del ana="end"/>
+            <lb n="c56-0074__left_margin__1"/>
+            </seg>
+            <sga-add xml:id="c56-0074__left_margin__d5e15667">
+               <seg part="F" xml:id="C13_app155-fMS__F">seven</seg>
+            </sga-add>
+            <lb n="c56-0074__main__29"/>in the morning I discovered my lovely<seg xml:id="C13_app157-fMS">
+            <lb n="c56-0074__main__30"/>boy</seg>whom the night before I had<seg xml:id="C13_app159-fMS">seen<lb n="c56-0075__main__1"/>blooming</seg>&amp; active in<seg xml:id="C13_app161-fMS">health stretch <lb n="c56-0075__main__2"/>ed</seg>on the grass livid and<seg xml:id="C13_app163-fMS">motionless–</seg>
+            <lb n="c56-0075__main__3"/>the print of the<seg xml:id="C13_app165-fMS">murderers</seg>finger was <lb n="c56-0075__main__4"/>on his neck. <milestone unit="tei:p-END"/>
+            <milestone unit="tei:p-START"/>
+            <seg xml:id="C13_app167-fMS">
+            <lb n="c56-0075__main__5"/>He</seg>was conveyed<seg xml:id="C13_app169-fMS">home</seg>and the<seg part="I" xml:id="C13_app171-fMS__I">
+            <lb n="c56-0075__main__6"/>
+            <del ana="start" rend="strikethrough" xml:id="c56-0075__main__d5e15698"/>extreme<del ana="end"/>
+            <del ana="start" rend="strikethrough" xml:id="c56-0075__main__d5e15701"/>wh<del ana="end"/>
+            <del ana="start" rend="strikethrough" xml:id="c56-0075__main__d5e15706"/>misery<del ana="end"/>
+            </seg>
+            <sga-add place="superlinear" xml:id="c56-0075__main__d5e15709">
+               <seg part="F" xml:id="C13_app171-fMS__F">anguish</seg>
+               <seg part="I" xml:id="C13_app172-fMS__I">
+               </seg>
+            </sga-add>
+            <seg part="F" xml:id="C13_app172-fMS__F">
+            <del ana="start" rend="strikethrough" xml:id="c56-0075__main__d5e15713"/>agony<del ana="end"/> that was <lb n="c56-0075__main__7"/>visible in my countenance</seg>
+            <seg xml:id="C13_app173-fMS">revealed</seg>
+            <lb n="c56-0075__main__8"/>the secret to Elizabeth. She was<seg xml:id="C13_app175-fMS">
+            <w ana="start"/>extreme<lb n="c56-0075__main__9"/>ly<w ana="end"/>
+            <lb n="c56-0075__left_margin__1"/>
+            <sga-add xml:id="c56-0075__left_margin__d5e15738">very </sga-add>
+            </seg>earnest to see the corpse.<seg part="I" xml:id="C13_app177-fMS__I">
+            <del ana="start" rend="strikethrough" xml:id="c56-0075__main__d5e15743"/>which<del ana="end"/>
+            <sga-add place="sublinear" xml:id="c56-0075__main__d5e15748">^ </sga-add>
+            <mdel/> for a <lb n="c56-0075__main__10"/>long time <del ana="start" rend="strikethrough" xml:id="c56-0075__main__d5e15765"/>refused<del ana="end"/>
+            <lb n="c56-0075__left_margin__1"/>
+            <sga-add hand="#pbs" next="#c56-0075.06" xml:id="c56-0075__left_margin__d5e15774">At first I </sga-add>
+            </seg>
+            <sga-add hand="#pbs" place="superlinear" xml:id="c56-0075__main__d5e15779">
+               <seg part="F" xml:id="C13_app177-fMS__F">attempted to prevent</seg>
+               <seg part="I" xml:id="C13_app178-fMS__I">her </seg>
+            </sga-add>
+            <seg part="F" xml:id="C13_app178-fMS__F">
+            </seg>but<seg xml:id="C13_app180-fMS">
+            <del ana="start" rend="strikethrough" xml:id="c56-0075__main__d5e15784"/>
+            <unclear extent="1" unit="chars"/>
+            <del ana="end"/> she persisted, <lb n="c56-0075__main__11"/>and entering the room where it</seg>
+            <seg xml:id="C13_app181-fMS">lay <lb n="c56-0075__main__12"/>
+            <del ana="start" rend="strikethrough" xml:id="c56-0075__main__d5e15793"/>quickly<del ana="end"/>
+            </seg>hastily examined the neck of <lb n="c56-0075__main__13"/>the<seg xml:id="C13_app183-fMS">victim</seg>and clasping her<seg xml:id="C13_app185-fMS">
+            <del ana="start" rend="strikethrough" xml:id="c56-0075__main__d5e15799"/>hads<del ana="end"/>
+            <lb n="c56-0075__main__14"/>hands</seg>
+            <seg xml:id="C13_app186-fMS">exclaimed— <del ana="start" rend="strikethrough" xml:id="c56-0075__main__d5e15804"/>Go<del ana="end"/> Oh</seg>God! I have <lb n="c56-0075__main__15"/>murdered<seg xml:id="C13_app188-fMS">
+            <del ana="start" rend="strikethrough" xml:id="c56-0075__main__d5e15809"/>this sweet<del ana="end"/>
+            <del ana="start" rend="strikethrough" xml:id="c56-0075__main__d5e15813"/>babe<del ana="end"/>
+            <del ana="start" rend="unmarked" xml:id="c56-0075__main__d5e15816"/>.<del ana="end"/> my darling</seg>
+            <seg xml:id="C13_app189-fMS">
+            <lb n="c56-0075__main__16"/>infant.</seg>
+            <milestone unit="tei:p-END"/>
+            <milestone unit="tei:p-START"/>
+            <seg xml:id="C13_app191-fMS">
+            <lb n="c56-0075__main__17"/>She fainted</seg>and was<seg xml:id="C13_app193-fMS">retored</seg>with <lb n="c56-0075__main__18"/>extreme<seg xml:id="C13_app195-fMS">difficulty; <del ana="start" rend="strikethrough" xml:id="c56-0075__main__d5e15828"/>and<del ana="end"/>
+            </seg>when she again<seg xml:id="C13_app197-fMS">
+            <lb n="c56-0075__main__19"/>lived</seg>it was only to weep and<seg xml:id="C13_app199-fMS">sigh–</seg>
+            <lb n="c56-0075__main__20"/>She told<seg xml:id="C13_app201-fMS">me</seg>that that same evening <lb n="c56-0075__main__21"/>William had<seg xml:id="C13_app203-fMS">teazed</seg>her to let him<seg xml:id="C13_app205-fMS">
+            <lb n="c56-0075__main__22"/>
+            <del ana="start" rend="strikethrough" xml:id="c56-0075__main__d5e15839"/>we<del ana="end"/>
+            <del ana="start" rend="strikethrough" xml:id="c56-0075__main__d5e15843"/>we<del ana="end"/> wear a</seg>
+            <seg xml:id="C13_app206-fMS">very valuable</seg>miniature<lb n="c56-0075__main__23"/>she possessed of your Mother.<seg xml:id="C13_app210-fMS">This <lb n="c56-0075__main__24"/>picture is</seg>
+            <seg xml:id="C13_app211-fMS">gone</seg>and was doubtless <lb n="c56-0075__main__25"/>the temptation which urged the <w ana="start"/>mur<lb n="c56-0075__main__26"/>derer<w ana="end"/> to the deed. We have no trace<seg xml:id="C13_app213-fMS">
+            <lb n="c56-0075__main__27"/>
+            <del ana="start" rend="strikethrough" xml:id="c56-0075__main__d5e15861"/>of<del ana="end"/>
+            <del ana="start" rend="strikethrough" xml:id="c56-0075__main__d5e15864"/>Come my dear Victor<del ana="end"/>
+            <del ana="start" rend="strikethrough" xml:id="c56-0075__main__d5e15867"/>him<del ana="end"/> at <lb n="c56-0075__main__28"/>present of</seg>
+            <seg xml:id="C13_app214-fMS">him, <del ana="start" rend="strikethrough" xml:id="c56-0075__main__d5e15875"/>but<del ana="end"/>
+            <sga-add hand="#pbs" place="superlinear" xml:id="c56-0075__main__d5e15878">altho </sga-add>
+            </seg>our exertions<seg xml:id="C13_app216-fMS">
+            <del ana="start" rend="strikethrough" xml:id="c56-0075__main__d5e15884"/>are<del ana="end"/>
+            <sga-add hand="#pbs" place="superlinear" xml:id="c56-0075__main__d5e15887">to discover him </sga-add>
+            <lb n="c56-0075__main__29"/>are unremitted; but they will not restore <lb n="c56-0075__main__30"/>my beloved</seg>
+            <seg xml:id="C13_app217-fMS">William.</seg>
+            <milestone unit="tei:p-END"/>
+            <milestone unit="tei:p-START"/>
+            <seg xml:id="C13_app219-fMS">
+            <lb n="c56-0075__main__31"/>Come,</seg>dearest<seg xml:id="C13_app221-fMS">Victor,</seg>you alone<seg xml:id="C13_app223-fMS">can<lb n="c56-0076__main__1"/>console Elizabeth, <del ana="start" rend="strikethrough" xml:id="c56-0076__main__d5e15911"/>who<del ana="end"/>
+            </seg>
+            <sga-add hand="#pbs" place="superlinear" xml:id="c56-0076__main__d5e15914">She</sga-add>weeps<seg part="I" xml:id="C13_app226-fMS__I">
+            <sga-add place="sublinear" xml:id="c56-0076__main__d5e15920">
+               <metamark ana="start" function="insert"/>^<metamark ana="end"/>
+            </sga-add>
+            </seg>
+            <sga-add hand="#pbs" place="superlinear" xml:id="c56-0076__main__d5e15926">
+               <seg part="F" xml:id="C13_app226-fMS__F">continually</seg>
+            </sga-add>&amp; accuses herself<seg xml:id="C13_app228-fMS">
+            <lb n="c56-0076__main__2"/>
+            <del ana="start" rend="strikethrough" xml:id="c56-0076__main__d5e15932"/>of all how u<del ana="end"/>
+            <del ana="start" rend="strikethrough" xml:id="c56-0076__main__d5e15936"/>so<del ana="end"/> unjustly</seg>
+            <seg part="I" xml:id="C13_app229-fMS__I">
+            <sga-add place="sublinear" xml:id="c56-0076__main__d5e15941">
+               <metamark ana="start" function="displacement" xml:id="c56-0076.01"/>^<metamark ana="end"/>
+            </sga-add>
+            <del ana="start" rend="strikethrough" xml:id="c56-0076__main__d5e15947"/>and<del ana="end"/> yet her words <lb n="c56-0076__main__3"/>
+            </seg>
+            <sga-add corresp="#c56-0076.01" hand="#pbs" place="interlinear" xml:id="c56-0076__main__d5e15953">
+               <seg part="F" xml:id="C13_app229-fMS__F">
+               <del ana="start" rend="strikethrough" xml:id="c56-0076__main__d5e15955"/>of th<del ana="end"/> as the cause of his</seg>
+               <seg xml:id="C13_app230-fMS">death—</seg>
+            </sga-add>
+            <lb n="c56-0076__main__4"/>pierce my heart. We are all<seg xml:id="C13_app232-fMS">unhappy</seg>
+            <lb n="c56-0076__main__5"/>but<seg xml:id="C13_app234-fMS">
+            <del ana="start" rend="strikethrough" xml:id="c56-0076__main__d5e15964"/>that<del ana="end"/> will not that be an <w ana="start"/>additio<lb n="c56-0076__main__6"/>nal<w ana="end"/> motive</seg>
+            <mdel ana="start"/>to<mdel ana="end"/>
+            <sga-add place="intralinear" xml:id="c56-0076__main__d5e15977">for</sga-add>you, my<seg xml:id="C13_app237-fMS">
+            <del ana="start" rend="strikethrough" xml:id="c56-0076__main__d5e15981"/>co<del ana="end"/> son, to</seg>
+            <seg xml:id="C13_app238-fMS">
+            <del ana="start" rend="strikethrough" xml:id="c56-0076__main__d5e15987"/>come<del ana="end"/>
+            <sga-add hand="#pbs" place="superlinear" xml:id="c56-0076__main__d5e15990">return </sga-add>
+            <lb n="c56-0076__main__7"/>and be our</seg>
+            <seg xml:id="C13_app239-fMS">comforter.</seg>Your dear Mother! <lb n="c56-0076__main__8"/>Alas, Victor! I now<seg xml:id="C13_app241-fMS">say</seg>Thank God she did <lb n="c56-0076__main__9"/>not live to witness<seg xml:id="C13_app243-fMS">
+            <del ana="start" rend="strikethrough" xml:id="c56-0076__main__d5e16000"/>this grief<del ana="end"/>
+            <del ana="start" rend="unmarked" xml:id="c56-0076__main__d5e16003"/>–<del ana="end"/>
+            <mdel ana="start"/>T<mdel ana="end"/>
+            <sga-add place="intralinear" xml:id="c56-0076__main__d5e16011">t </sga-add> he cruel</seg>
+            <lb n="c56-0076__main__10"/>miserable death of her youngest<seg xml:id="C13_app245-fMS">darling.</seg>
+            <milestone unit="tei:p-END"/>
+            <milestone unit="tei:p-START"/>
+            <seg xml:id="C13_app247-fMS">
+            <lb n="c56-0076__main__11"/>Come,</seg>Victor; not brooding<seg xml:id="C13_app249-fMS">
+            <del ana="start" rend="strikethrough" xml:id="c56-0076__main__d5e16021"/>w<del ana="end"/> thoughts <lb n="c56-0076__main__12"/>of vengeance against the</seg>
+            <seg xml:id="C13_app250-fMS">assassin</seg>but <lb n="c56-0076__main__13"/>with feelings of peace and<seg xml:id="C13_app252-fMS">gentleness</seg>
+            <lb n="c56-0076__main__14"/>that will<seg xml:id="C13_app254-fMS">heal</seg>instead of<seg xml:id="C13_app256-fMS">festering</seg>the<seg xml:id="C13_app258-fMS">
+            <lb n="c56-0076__main__15"/>
+            <del ana="start" rend="strikethrough" xml:id="c56-0076__main__d5e16033"/>woul<del ana="end"/> wound <del ana="start" rend="strikethrough" xml:id="c56-0076__main__d5e16036"/>s<del ana="end"/>
+            </seg>of our<seg xml:id="C13_app260-fMS">
+            <del ana="start" rend="strikethrough" xml:id="c56-0076__main__d5e16039"/>soul<del ana="end"/> minds. Enter <lb n="c56-0076__main__16"/>the house of mourning, my</seg>
+            <seg xml:id="C13_app261-fMS">son &amp; friend</seg>
+            <lb n="c56-0076__main__17"/>but with kindness and affection <lb n="c56-0076__main__18"/>for those who love<seg xml:id="C13_app263-fMS">you</seg>&amp; not with<seg xml:id="C13_app265-fMS">
+            <lb n="c56-0076__main__19"/>hat <mdel ana="start"/>e<mdel ana="end"/>
+            <sga-add place="intralinear" xml:id="c56-0076__main__d5e16055">red </sga-add>
+            </seg>for your enemies.<seg xml:id="C13_app267-fMS">
+            <lb n="c56-0076__main__20"/>Your</seg>affectionate &amp; afflicted<seg xml:id="C13_app269-fMS">father</seg>
+            <seg xml:id="C13_app270-fMS">
+            <lb n="c56-0076__main__21"/>Alphonse</seg>
+            <seg xml:id="C13_app271-fMS">Frankenstein <lb n="c56-0076__main__22"/>
+            <del ana="start" rend="smear" xml:id="c56-0076__main__d5e16066"/>Al<del ana="end"/>
+            <lb n="c56-0076__main__23"/>
+            <metamark ana="start" function="separate"/>_______________<metamark ana="end"/>
+            </seg>
+            <milestone unit="tei:p-END"/>
+            <milestone unit="tei:p-START"/>
+            <seg xml:id="C13_app273-fMS">
+            <lb n="c56-0076__main__24"/>Clerval</seg>who had watched my countenance <lb n="c56-0076__main__25"/>as I read this<seg xml:id="C13_app275-fMS">letter</seg>was surprised<seg xml:id="C13_app277-fMS">in observ- <lb n="c56-0076__main__26"/>ing</seg>the despair that succeeded to the joy <lb n="c56-0076__main__27"/>Iexpressed on receiving<seg xml:id="C13_app281-fMS">new <sga-add hand="#pbs" place="intralinear" xml:id="c56-0076__main__d5e16085">s </sga-add>
+            </seg>from my friends. <lb n="c56-0076__main__28"/>I threw the letter on the<seg xml:id="C13_app283-fMS">table</seg>and covered <lb n="c56-0076__main__29"/>my face with my hands. <milestone unit="tei:p-END"/>
+            <milestone unit="tei:p-START"/>
+            <lb n="c56-0076__main__30"/>"My dear<seg xml:id="C13_app285-fMS">Frankenstien,"</seg>exclaimed<seg xml:id="C13_app287-fMS">
+            <lb n="c56-0076__main__31"/>
+            <del ana="start" rend="strikethrough" xml:id="c56-0076__main__d5e16099"/>hen<del ana="end"/> Henry</seg>when he<seg xml:id="C13_app289-fMS">saw</seg>me weep<seg xml:id="C13_app291-fMS">with<lb n="c56-0077__main__1"/>bitterness</seg>"are you always to be unhappy?<seg xml:id="C13_app293-fMS">
+            <lb n="c56-0077__main__2"/>"my</seg>dear friend, what has happened?" <milestone unit="tei:p-END"/>
+            <milestone unit="tei:p-START"/>
+            <lb n="c56-0077__main__3"/>I motioned to him to<seg part="I" xml:id="C13_app295-fMS__I">
+            <del ana="start" rend="strikethrough" xml:id="c56-0077__main__d5e16121"/>read<del ana="end"/>
+            </seg>
+            <sga-add place="superlinear" xml:id="c56-0077__main__d5e16124">
+               <seg part="F" xml:id="C13_app295-fMS__F">take up</seg>
+            </sga-add>the<seg xml:id="C13_app297-fMS">letter</seg>
+            <lb n="c56-0077__main__4"/>while I walked up &amp; down the room <lb n="c56-0077__main__5"/>in the<seg xml:id="C13_app299-fMS">most extreme</seg>agitation.<seg xml:id="C13_app301-fMS">Clerval <lb n="c56-0077__main__6"/>read the letter – <del ana="start" rend="strikethrough" xml:id="c56-0077__main__d5e16139"/>and<del ana="end"/> tears also</seg>
+            <seg xml:id="C13_app302-fMS">
+            <del ana="start" rend="strikethrough" xml:id="c56-0077__main__d5e16143"/>gush<del ana="end"/>
+            <lb n="c56-0077__main__7"/>gushed</seg>
+            <seg xml:id="C13_app303-fMS">
+            <sga-add place="sublinear" xml:id="c56-0077__main__d5e16150">
+               <metamark ana="start" function="insert"/>^<metamark ana="end"/>
+            </sga-add>
+            <sga-add place="superlinear" xml:id="c56-0077__main__d5e16156">also </sga-add> from</seg>
+            <seg part="I" xml:id="C13_app304-fMS__I">
+            <del ana="start" rend="strikethrough" xml:id="c56-0077__main__d5e16162"/>his<del ana="end"/>
+            <sga-add place="sublinear" xml:id="c56-0077__main__d5e16165">
+               <metamark ana="start" function="insert"/>^<metamark ana="end"/>
+            </sga-add>
+            </seg>
+            <sga-add place="superlinear" xml:id="c56-0077__main__d5e16171">
+               <seg part="F" xml:id="C13_app304-fMS__F">the</seg>
+            </sga-add>eyes<seg part="I" xml:id="C13_app306-fMS__I">
+            </seg>
+            <sga-add place="superlinear" xml:id="c56-0077__main__d5e16175">
+               <seg part="F" xml:id="C13_app306-fMS__F">
+               <metamark ana="start" function="displacement" xml:id="c56-0077.02"/>X<metamark ana="end"/>
+               <lb n="c56-0077__left_margin__1"/>
+               <metamark ana="start" function="displacement"/>X<metamark ana="end"/> of</seg>
+               <seg xml:id="C13_app307-fMS">Clerval</seg>
+               <lb n="c56-0077__left_margin__2"/>as he read the <lb n="c56-0077__left_margin__3"/>account of my<seg part="I" xml:id="C13_app309-fMS__I">
+               <lb n="c56-0077__left_margin__4"/>misfortune </seg>
+            </sga-add>
+            <seg part="F" xml:id="C13_app309-fMS__F"> –"I</seg>can offer you<seg xml:id="C13_app311-fMS">
+            <lb n="c56-0077__main__8"/>"no</seg>consolation, my friend," said<seg xml:id="C13_app313-fMS">he <del ana="start" rend="strikethrough" xml:id="c56-0077__main__d5e16203"/>my<del ana="end"/>
+            </seg>
+            <lb n="c56-0077__main__9"/>"your<seg part="I" xml:id="C13_app315-fMS__I">
+            <del ana="start" rend="strikethrough" xml:id="c56-0077__main__d5e16210"/>misfortune<del ana="end"/>
+            </seg>
+            <sga-add place="superlinear" xml:id="c56-0077__main__d5e16213">
+               <seg part="F" xml:id="C13_app315-fMS__F">disaster</seg>
+            </sga-add>is<seg xml:id="C13_app317-fMS">irreperable. <del ana="start" rend="strikethrough" xml:id="c56-0077__main__d5e16217"/>"<del ana="end"/>
+            </seg>What<seg xml:id="C13_app319-fMS">
+            <lb n="c56-0077__main__10"/>"do</seg>you intend to<seg xml:id="C13_app321-fMS">do"?</seg>
+            <milestone unit="tei:p-END"/>
+            <milestone unit="tei:p-START"/>
+            <lb n="c56-0077__main__11"/>"To go instantly to<seg xml:id="C13_app323-fMS">Geneva <del ana="start" rend="strikethrough" xml:id="c56-0077__main__d5e16227"/>"<del ana="end"/>
+            </seg>come <lb n="c56-0077__main__12"/>with me,<seg xml:id="C13_app325-fMS">Clerval,</seg>to order the<seg xml:id="C13_app327-fMS">horses"</seg>
+            <milestone unit="tei:p-END"/>
+            <milestone unit="tei:p-START"/>
+            <lb n="c56-0077__main__13"/>During our<seg xml:id="C13_app329-fMS">walk <del ana="start" rend="strikethrough" xml:id="c56-0077__main__d5e16236"/>C<del ana="end"/> Henry<w ana="start"/>endeav<lb n="c56-0077__main__14"/>oured<w ana="end"/>
+            </seg>to<seg xml:id="C13_app331-fMS">raise my</seg>
+            <seg xml:id="C13_app332-fMS">spirits–</seg>
+            <seg xml:id="C13_app333-fMS">He did not <lb n="c56-0077__main__15"/>do this by</seg>
+            <seg xml:id="C13_app334-fMS">the common topics</seg>of<seg xml:id="C13_app336-fMS">
+            <del ana="start" rend="strikethrough" xml:id="c56-0077__main__d5e16248"/>conversatio<del ana="end"/>
+            <lb n="c56-0077__main__16"/>consolation</seg>
+            <seg xml:id="C13_app337-fMS">but</seg>
+            <seg xml:id="C13_app338-fMS">
+            <del ana="start" rend="strikethrough" xml:id="c56-0077__main__d5e16254"/>t<del ana="end"/> by</seg>
+            <seg xml:id="C13_app339-fMS">shew <mdel ana="start"/>e<mdel ana="end"/>
+            <sga-add place="intralinear" xml:id="c56-0077__main__d5e16261">i </sga-add> ng</seg>
+            <seg xml:id="C13_app340-fMS">the truest</seg>
+            <lb n="c56-0077__main__17"/>sympathy. "Poor<seg xml:id="C13_app342-fMS">William"</seg>said<seg xml:id="C13_app345-fMS">"that dear</seg>
+            <seg xml:id="C13_app346-fMS">
+            <lb n="c56-0077__main__18"/>"child</seg>he now sleeps with his angel<seg xml:id="C13_app348-fMS">
+            <lb n="c56-0077__main__19"/>"mother.</seg>His friends mourn and<seg xml:id="C13_app350-fMS">weep</seg>but<seg xml:id="C13_app352-fMS">
+            <lb n="c56-0077__main__20"/>"he</seg>is at<seg xml:id="C13_app354-fMS">rest</seg>
+            <seg xml:id="C13_app355-fMS">he does not now feel the</seg>
+            <seg xml:id="C13_app356-fMS">
+            <lb n="c56-0077__main__21"/>"murderers grasp –</seg>a<seg xml:id="C13_app358-fMS">
+            <del ana="start" rend="strikethrough" xml:id="c56-0077__main__d5e16276"/>green<del ana="end"/> sod covers his</seg>
+            <seg xml:id="C13_app359-fMS">
+            <lb n="c56-0077__main__22"/>"gentle form</seg>and he knows no<seg xml:id="C13_app361-fMS">pain–He <lb n="c56-0077__main__23"/>"can</seg>no longer be asubject for<seg xml:id="C13_app365-fMS">pity his <lb n="c56-0077__main__24"/>"survivors</seg>
+            <seg xml:id="C13_app367-fMS">are the greatest</seg>
+            <seg xml:id="C13_app368-fMS">sufferers</seg>
+            <seg xml:id="C13_app369-fMS">and</seg>
+            <seg xml:id="C13_app370-fMS">
+            <lb n="c56-0077__main__25"/>"for</seg>
+            <seg xml:id="C13_app371-fMS">them time is the</seg>
+            <seg xml:id="C13_app372-fMS">
+            <del ana="start" rend="vertical_line" xml:id="c56-0077__main__d5e16288"/>ir<del ana="end"/> only consolation.</seg>
+            <seg xml:id="C13_app373-fMS">
+            <lb n="c56-0077__main__26"/>"Those</seg>
+            <seg xml:id="C13_app374-fMS">maxims of the</seg>
+            <seg xml:id="C13_app375-fMS">stoics</seg>
+            <seg xml:id="C13_app376-fMS">that death</seg>
+            <seg xml:id="C13_app377-fMS">
+            <lb n="c56-0077__main__27"/>"was</seg>
+            <seg xml:id="C13_app378-fMS">no</seg>
+            <seg xml:id="C13_app379-fMS">evil</seg>
+            <seg xml:id="C13_app380-fMS">and</seg>that<seg xml:id="C13_app382-fMS">the mind of man</seg>
+            <seg xml:id="C13_app383-fMS">
+            <lb n="c56-0077__main__28"/>"ought</seg>
+            <seg xml:id="C13_app384-fMS">to be superior to</seg>
+            <seg xml:id="C13_app385-fMS">
+            <del ana="start" rend="strikethrough" xml:id="c56-0077__main__d5e16300"/>that<del ana="end"/> despair</seg>
+            <seg xml:id="C13_app386-fMS">
+            <lb n="c56-0077__main__29"/>"on</seg>
+            <seg xml:id="C13_app387-fMS">the eternal absence of a beloved</seg>
+            <seg xml:id="C13_app388-fMS">
+            <lb n="c56-0077__main__30"/>"object</seg>
+            <seg xml:id="C13_app389-fMS">ought not to be</seg>
+            <seg xml:id="C13_app390-fMS">urged –</seg>
+            <seg xml:id="C13_app391-fMS">even</seg>
+            <seg xml:id="C13_app392-fMS">
+            <lb n="c56-0077__main__31"/>"Cato</seg>
+            <seg xml:id="C13_app393-fMS">wept over the dead body of</seg>his<seg xml:id="C13_app395-fMS">
+            <lb n="c56-0077__main__32"/>"brother."</seg>
+            <milestone unit="tei:p-END"/>
+            <milestone unit="tei:p-START"/>
+            <lb n="c56-0078__main__1"/>Clerval spoke<seg xml:id="C13_app397-fMS">this</seg>as we<seg xml:id="C13_app399-fMS">huried <lb n="c56-0078__main__2"/>
+            <del ana="start" rend="strikethrough" xml:id="c56-0078__main__d5e16326"/>thou<del ana="end"/>
+            </seg>through the<seg xml:id="C13_app401-fMS">streets</seg>the words <lb n="c56-0078__main__3"/>impressed themselves on my<seg xml:id="C13_app403-fMS">
+            <del ana="start" rend="strikethrough" xml:id="c56-0078__main__d5e16332"/>memor<del ana="end"/>
+            <lb n="c56-0078__main__4"/>mind</seg>and I remembered them<seg xml:id="C13_app405-fMS">afterwads</seg>
+            <lb n="c56-0078__main__5"/>in solitude.<seg xml:id="C13_app407-fMS">
+            <del ana="start" rend="strikethrough" xml:id="c56-0078__main__d5e16339"/>As soon<del ana="end"/> But now, as soon <lb n="c56-0078__main__6"/>as the horses</seg>
+            <seg xml:id="C13_app408-fMS">arrived</seg>I hurried into <lb n="c56-0078__main__7"/>a<seg xml:id="C13_app410-fMS">Cabriolet</seg>and<seg xml:id="C13_app412-fMS">
+            <del ana="start" rend="strikethrough" xml:id="c56-0078__main__d5e16347"/>left Ingo<del ana="end"/> bad fare <lb n="c56-0078__main__8"/>well</seg>to my friend. <milestone unit="tei:p-END"/>
+            <milestone unit="tei:p-START"/>
+            <lb n="c56-0078__main__9"/>My journey was very melancholy. <lb n="c56-0078__main__10"/>At first I wished to hurry<seg xml:id="C13_app414-fMS">on</seg>for I longed <lb n="c56-0078__main__11"/>to console &amp;<seg xml:id="C13_app416-fMS">sympathize</seg>
+            <sga-add place="superlinear" xml:id="c56-0078__main__d5e16361">with </sga-add>my loved and <lb n="c56-0078__main__12"/>sorrowing<seg xml:id="C13_app418-fMS">friends</seg>but when I drew <lb n="c56-0078__main__13"/>near my<seg xml:id="C13_app420-fMS">
+            <del ana="start" rend="strikethrough" xml:id="c56-0078__main__d5e16368"/>t<del ana="end"/> native</seg>
+            <seg xml:id="C13_app421-fMS">town</seg>I<seg xml:id="C13_app423-fMS">sla <sga-add place="sublinear" xml:id="c56-0078__main__d5e16373">
+               <metamark ana="start" function="insert"/>^<metamark ana="end"/>
+            </sga-add>
+            <sga-add place="superlinear" xml:id="c56-0078__main__d5e16379">c </sga-add> kened</seg>
+            <lb n="c56-0078__main__14"/>my<seg xml:id="C13_app425-fMS">
+            <del ana="start" rend="strikethrough" xml:id="c56-0078__main__d5e16388"/>pace<del ana="end"/>
+            <sga-add hand="#pbs" place="superlinear" xml:id="c56-0078__main__d5e16391">progress </sga-add> . <del ana="start" rend="strikethrough" xml:id="c56-0078__main__d5e16395"/>I<del ana="end"/>
+            <del ana="start" rend="strikethrough" xml:id="c56-0078__main__d5e16398"/>C<del ana="end"/>
+            </seg>I could hardly sustain <lb n="c56-0078__main__15"/>the multitude of feelings that<seg xml:id="C13_app427-fMS">
+            <lb n="c56-0078__main__16"/>
+            <del ana="start" rend="strikethrough" xml:id="c56-0078__main__d5e16405"/>crowed<del ana="end"/> crowded into my mind. I passed</seg>
+            <seg xml:id="C13_app428-fMS">
+            <lb n="c56-0078__main__17"/>though <del ana="start" rend="strikethrough" xml:id="c56-0078__main__d5e16411"/>scee<del ana="end"/>
+            </seg>scenes familiar to my<seg xml:id="C13_app430-fMS">youth</seg>
+            <lb n="c56-0078__main__18"/>but which I had not seen for nearly<seg xml:id="C13_app432-fMS">
+            <lb n="c56-0078__main__19"/>five years,</seg>how altered every thing might <lb n="c56-0078__main__20"/>be<seg xml:id="C13_app434-fMS">
+            <del ana="start" rend="strikethrough" xml:id="c56-0078__main__d5e16422"/>during<del ana="end"/>
+            <sga-add hand="#pbs" place="superlinear" xml:id="c56-0078__main__d5e16425">since </sga-add>
+            </seg>that<seg xml:id="C13_app436-fMS">time <sga-add hand="#pbs" place="intralinear" xml:id="c56-0078__main__d5e16430">? </sga-add>
+            </seg>one<seg xml:id="C13_app438-fMS">great sudden <lb n="c56-0078__main__21"/>and desolating change had taken</seg>
+            <seg xml:id="C13_app439-fMS">place</seg>
+            <lb n="c56-0078__main__22"/>but a thousand little<seg xml:id="C13_app441-fMS">circumstance</seg>
+            <lb n="c56-0078__main__23"/>might have<seg xml:id="C13_app443-fMS">
+            <del ana="start" rend="strikethrough" xml:id="c56-0078__main__d5e16441"/>sapped<del ana="end"/>
+            <del ana="start" rend="strikethrough" xml:id="c56-0078__main__d5e16444"/>
+            <sga-add place="superlinear" xml:id="c56-0078__main__d5e16446">worked </sga-add>
+            <del ana="end"/> by</seg>
+            <seg xml:id="C13_app444-fMS">
+            <del ana="start" rend="strikethrough" xml:id="c56-0078__main__d5e16451"/>degreed<del ana="end"/> degrees</seg>
+            <seg part="I" xml:id="C13_app445-fMS__I">
+            <lb n="c56-0078__main__24"/>
+            <del ana="start" rend="strikethrough" xml:id="c56-0078__main__d5e16459"/>worked<del ana="end"/>
+            </seg>
+            <sga-add place="superlinear" xml:id="c56-0078__main__d5e16462">
+               <seg part="F" xml:id="C13_app445-fMS__F">worked other</seg>
+               <seg part="I" xml:id="C13_app446-fMS__I">
+               <mdel ana="start"/>s<mdel ana="end"/>
+               </seg>
+            </sga-add>
+            <seg part="F" xml:id="C13_app446-fMS__F">
+            <del ana="start" rend="strikethrough" xml:id="c56-0078__main__d5e16468"/>
+            <unclear ana="start"/>t<unclear ana="end"/>
+            <del ana="end"/>
+            <del ana="start" rend="strikethrough" xml:id="c56-0078__main__d5e16473"/>as great<del ana="end"/> alterations <sga-add place="sublinear" xml:id="c56-0078__main__d5e16478">
+               <metamark ana="start" function="insert"/>^<metamark ana="end"/>
+            </sga-add>
+            <sga-add place="superlinear" xml:id="c56-0078__main__d5e16484">which </sga-add>
+            </seg>although<seg xml:id="C13_app448-fMS">
+            <lb n="c56-0078__main__25"/>it might be</seg>done more<seg xml:id="C13_app450-fMS">tranquilly would</seg>
+            <lb n="c56-0078__main__26"/>not beless<seg xml:id="C13_app454-fMS">de <mdel ana="start"/>s<mdel ana="end"/>
+            <sga-add place="intralinear" xml:id="c56-0078__main__d5e16497">c </sga-add> isive.</seg>Fear overcame<seg xml:id="C13_app456-fMS">me</seg>
+            <lb n="c56-0078__main__27"/>I dared<seg xml:id="C13_app458-fMS">
+            <del ana="start" rend="strikethrough" xml:id="c56-0078__main__d5e16506"/>had<del ana="end"/>
+            <del ana="start" rend="strikethrough" xml:id="c56-0078__main__d5e16509"/>N<del ana="end"/> not</seg>
+            <seg xml:id="C13_app459-fMS">advance <del ana="start" rend="strikethrough" xml:id="c56-0078__main__d5e16513"/>fea<del ana="end"/>
+            </seg>dreading <lb n="c56-0078__main__28"/>a<seg xml:id="C13_app461-fMS">
+            <del ana="start" rend="strikethrough" xml:id="c56-0078__main__d5e16518"/>thoug<del ana="end"/> thousand nameless evils that <lb n="c56-0078__main__29"/>made me</seg>
+            <seg xml:id="C13_app462-fMS">tremble <del ana="start" rend="strikethrough" xml:id="c56-0078__main__d5e16525"/>while<del ana="end"/>
+            </seg>
+            <sga-add place="superlinear" xml:id="c56-0078__main__d5e16528">although</sga-add>I<seg xml:id="C13_app465-fMS">
+            <del ana="start" rend="strikethrough" xml:id="c56-0078__main__d5e16534"/>could not<del ana="end"/>
+            <sga-add place="superlinear" xml:id="c56-0078__main__d5e16537">was unable </sga-add>
+            <lb n="c56-0079__main__1"/>to define them. <milestone unit="tei:p-END"/>
+            <milestone unit="tei:p-START"/>
+            <lb n="c56-0079__main__2"/>I remained</seg>
+            <seg xml:id="C13_app466-fMS">
+            <del ana="start" rend="strikethrough" xml:id="c56-0079__main__d5e16555"/>thus<del ana="end"/>
+            </seg>at<seg xml:id="C13_app468-fMS">Lausanne for <lb n="c56-0079__main__3"/>two days not daring to proceed.</seg>I <w ana="start"/>contem<lb n="c56-0079__main__4"/>plated<w ana="end"/> the<seg xml:id="C13_app470-fMS">lake –</seg>the waters were<seg xml:id="C13_app472-fMS">
+            <lb n="c56-0079__main__5"/>placid –</seg>all around was<seg xml:id="C13_app474-fMS">calm</seg>and the <lb n="c56-0079__main__6"/>Snowy<seg xml:id="C13_app476-fMS">mountains the "Palaces</seg>of<seg part="I" xml:id="C13_app478-fMS__I">Nature" </seg>
+            <sga-add place="superlinear" xml:id="c56-0079__main__d5e16571">
+               <seg part="M" xml:id="C13_app478-fMS__M">
+               <metamark ana="start" function="displacement" xml:id="c56-0079.01"/>X<metamark ana="end"/>
+               <lb n="c56-0079__left_margin__1"/>
+               </seg>
+               <sga-add xml:id="c56-0079__left_margin__d5e16580">
+                  <seg part="F" xml:id="C13_app478-fMS__F">
+                  <metamark ana="start" function="displacement"/>X<metamark ana="end"/>
+                  <del ana="start" rend="strikethrough" xml:id="c56-0079__left_margin__d5e16585"/>Lo<shi ana="start" rend="underline"/>rd Byron<shi ana="end"/>
+                  <del ana="end"/>
+                  </seg>
+               </sga-add>
+            </sga-add>
+            <lb n="c56-0079__main__7"/>were not changed. By<seg xml:id="C13_app480-fMS">degrees, this</seg>calm <lb n="c56-0079__main__8"/>and heavenly scene restored me, and I<seg part="I" xml:id="C13_app482-fMS__I">
+            <lb n="c56-0079__main__9"/>
+            <del ana="start" rend="strikethrough" xml:id="c56-0079__main__d5e16603"/>proceeded<del ana="end"/>
+            <lb n="c56-0079__left_margin__1"/>
+            <sga-add hand="#pbs" next="#c56-0079.02" xml:id="c56-0079__left_margin__d5e16612">continued my </sga-add>
+            </seg>
+            <sga-add hand="#pbs" place="superlinear" xml:id="c56-0079__main__d5e16616">
+               <seg part="F" xml:id="C13_app482-fMS__F">journey</seg>
+            </sga-add>towards Geneva.The road <lb n="c56-0079__main__10"/>ran by the side of the<seg xml:id="C13_app486-fMS">lake</seg>which <lb n="c56-0079__main__11"/>became narrower as I approached <lb n="c56-0079__main__12"/>my native<seg xml:id="C13_app488-fMS">town –</seg>I discovered more <lb n="c56-0079__main__13"/>distinctly the black sides of<seg xml:id="C13_app490-fMS">Jura;</seg>
+            <lb n="c56-0079__main__14"/>and the<seg part="I" xml:id="C13_app492-fMS__I">
+            <sga-add place="sublinear" xml:id="c56-0079__main__d5e16633">
+               <metamark ana="start" function="insert"/>^<metamark ana="end"/>
+            </sga-add>
+            </seg>
+            <sga-add hand="#pbs" place="superlinear" xml:id="c56-0079__main__d5e16639">
+               <seg part="F" xml:id="C13_app492-fMS__F">bright</seg>
+            </sga-add>summit of<seg xml:id="C13_app494-fMS">Mount Blanc–</seg>
+            <lb n="c56-0079__main__15"/>I wept like a<seg xml:id="C13_app497-fMS">child– Dear mountains</seg>
+            <lb n="c56-0079__main__16"/>my own beautiful<seg xml:id="C13_app500-fMS">lake</seg>how do you <lb n="c56-0079__main__17"/>welcome your<seg xml:id="C13_app502-fMS">wanderer</seg>Your <w ana="start"/>sum<lb n="c56-0079__main__18"/>mits<w ana="end"/> are<seg xml:id="C13_app504-fMS">clear</seg>the sky and lake <lb n="c56-0079__main__19"/>are blueis this<seg part="I" xml:id="C13_app508-fMS__I">
+            <sga-add place="sublinear" xml:id="c56-0079__main__d5e16660">
+               <metamark ana="start" function="insert"/>^<metamark ana="end"/>
+            </sga-add>
+            </seg>
+            <sga-add hand="#pbs" place="superlinear" xml:id="c56-0079__main__d5e16666">
+               <seg part="F" xml:id="C13_app508-fMS__F">to</seg>
+            </sga-add>prognosticate<seg xml:id="C13_app510-fMS">peace</seg>
+            <lb n="c56-0079__main__20"/>or to mockmy<seg xml:id="C13_app514-fMS">unhappiness?</seg>
+            <milestone unit="tei:p-END"/>
+            <milestone unit="tei:p-START"/>
+            <lb n="c56-0079__main__21"/>I fear, my<seg part="I" xml:id="C13_app516-fMS__I">friend <mdel ana="start"/>to<mdel ana="end"/>
+            </seg>
+            <sga-add place="sublinear" xml:id="c56-0079__main__d5e16687">
+               <seg part="F" xml:id="C13_app516-fMS__F">
+               <metamark ana="start" function="insert"/>^<metamark ana="end"/>
+               </seg>
+            </sga-add>
+            <sga-add place="superlinear" xml:id="c56-0079__main__d5e16693">that I shall</sga-add>render myself <lb n="c56-0079__main__22"/>tedious by dwelling on these preliminary<seg xml:id="C13_app519-fMS">
+            <lb n="c56-0079__main__23"/>circumstances</seg>but they were days of <lb n="c56-0079__main__24"/>comparative<seg xml:id="C13_app521-fMS">happiness</seg>and I<seg part="I" xml:id="C13_app523-fMS__I">
+            <del ana="start" rend="strikethrough" xml:id="c56-0079__main__d5e16706"/>dwell<del ana="end"/>
+            <sga-add place="sublinear" xml:id="c56-0079__main__d5e16709">
+               <metamark ana="start" function="insert"/>^<metamark ana="end"/>
+            </sga-add>
+            </seg>
+            <sga-add place="superlinear" xml:id="c56-0079__main__d5e16715">
+               <seg part="F" xml:id="C13_app523-fMS__F">think</seg>
+               <seg part="I" xml:id="C13_app524-fMS__I">
+               </seg>
+            </sga-add>
+            <seg part="F" xml:id="C13_app524-fMS__F">
+            <lb n="c56-0079__main__25"/>o <mdel ana="start"/>n<mdel ana="end"/>
+            <sga-add place="intralinear" xml:id="c56-0079__main__d5e16725">f </sga-add>
+            </seg>them with<seg xml:id="C13_app526-fMS">pleasure –</seg>My<seg xml:id="C13_app528-fMS">Country</seg>
+            <lb n="c56-0079__main__26"/>my beloved<seg xml:id="C13_app530-fMS">country</seg>Who<seg part="I" xml:id="C13_app532-fMS__I">
+            <sga-add place="sublinear" xml:id="c56-0079__main__d5e16734">
+               <metamark ana="start" function="insert"/>^<metamark ana="end"/>
+            </sga-add>
+            </seg>
+            <sga-add place="superlinear" xml:id="c56-0079__main__d5e16740">
+               <seg part="F" xml:id="C13_app532-fMS__F">but a native</seg>
+            </sga-add>can tell the <lb n="c56-0079__main__27"/>delight I took in again beholding thy<seg xml:id="C13_app534-fMS">
+            <lb n="c56-0079__main__28"/>st <sga-add place="sublinear" xml:id="c56-0079__main__d5e16750">
+               <metamark ana="start" function="insert"/>^<metamark ana="end"/>
+            </sga-add>
+            <sga-add place="superlinear" xml:id="c56-0079__main__d5e16756">r </sga-add> eams</seg>thy<seg xml:id="C13_app536-fMS">mountains and</seg>more than<seg xml:id="C13_app538-fMS">
+            <lb n="c56-0079__main__29"/>all</seg>thy lovely<seg xml:id="C13_app540-fMS">lake <del ana="start" rend="strikethrough" xml:id="c56-0079__main__d5e16762"/>and<del ana="end"/>
+            </seg>
+            <milestone unit="tei:p-END"/>
+            <milestone unit="tei:p-START"/>
+            <seg xml:id="C13_app542-fMS">
+            <lb n="c56-0080__main__1"/>Yet</seg>as I drew nearer<seg xml:id="C13_app544-fMS">home</seg>grief and <lb n="c56-0080__main__2"/>fearovercame<seg xml:id="C13_app548-fMS">me –</seg>night also closed<seg xml:id="C13_app550-fMS">
+            <lb n="c56-0080__main__3"/>round <del ana="start" rend="strikethrough" xml:id="c56-0080__main__d5e16781"/>me<del ana="end"/>
+            </seg>and when I could hardly <lb n="c56-0080__main__4"/>see the dark<seg xml:id="C13_app552-fMS">mountains</seg>I felt still <lb n="c56-0080__main__5"/>more<seg xml:id="C13_app554-fMS">gloomily I pictured <del ana="start" rend="strikethrough" xml:id="c56-0080__main__d5e16789"/>to mysel<del ana="end"/>
+            <del ana="start" rend="unmarked" xml:id="c56-0080__main__d5e16792"/>f<del ana="end"/> every <lb n="c56-0080__main__6"/>evil</seg>and<seg xml:id="C13_app556-fMS">persuaded myself that <lb n="c56-0080__main__7"/>
+            <del ana="start" rend="strikethrough" xml:id="c56-0080__main__d5e16800"/>the<del ana="end"/>
+            <del ana="start" rend="strikethrough" xml:id="c56-0080__main__d5e16803"/>most<del ana="end"/>
+            </seg>I was destined to become <lb n="c56-0080__main__8"/>the most<seg xml:id="C13_app558-fMS">w <del ana="start" rend="strikethrough" xml:id="c56-0080__main__d5e16808"/>h<del ana="end"/> retched</seg>of human<seg xml:id="C13_app560-fMS">beings–</seg>
+            <lb n="c56-0080__main__9"/>Alas! I<seg xml:id="C13_app562-fMS">
+            <del ana="start" rend="strikethrough" xml:id="c56-0080__main__d5e16813"/>prho<del ana="end"/> prophesied</seg>
+            <seg xml:id="C13_app563-fMS">truly</seg>and <lb n="c56-0080__main__10"/>failed only <sga-add hand="#pbs" place="superlinear" xml:id="c56-0080__main__d5e16819">in one single<seg part="I" xml:id="C13_app565-fMS__I">circumstance: </seg>
+            </sga-add>
+            <seg part="F" xml:id="C13_app565-fMS__F">
+            </seg>that in all the misery <lb n="c56-0080__main__11"/>I imagined and dreaded, I did not conceive<seg xml:id="C13_app567-fMS">
+            <lb n="c56-0080__main__12"/>
+            <del ana="start" rend="strikethrough" xml:id="c56-0080__main__d5e16826"/>of<del ana="end"/> the hundredth part of the anguish</seg>
+            <seg part="I" xml:id="C13_app568-fMS__I">
+            <lb n="c56-0080__main__13"/>
+            <mdel ana="start"/>I<mdel ana="end"/>
+            <lb n="c56-0080__left_margin__1"/>
+            </seg>
+            <sga-add xml:id="c56-0080__left_margin__d5e16842">
+               <seg part="F" xml:id="C13_app568-fMS__F">I was</seg>
+            </sga-add>destined to<seg xml:id="C13_app570-fMS">
+            <del ana="start" rend="strikethrough" xml:id="c56-0080__main__d5e16846"/>feel<del ana="end"/>
+            <del ana="start" rend="unmarked" xml:id="c56-0080__main__d5e16849"/>.<del ana="end"/> endure.<lb n="c56-0081__main__1"/>
+            </seg>
+            <seg xml:id="C13_app571-fMS">
+            <milestone spanTo="#c56-0081.04" unit="tei:head"/> Chapter 10 <shi ana="start" rend="sup"/>
+            <shi ana="end"/>
+            <milestone unit="tei:p-END"/>
+            <milestone unit="tei:p-START"/>
+            </seg>
+            <seg xml:id="C13_app572-fMS">
+            <lb n="c56-0081__main__2"/>Night had closed <sga-add place="sublinear" xml:id="c56-0081__main__d5e16879">
+               <metamark ana="start" function="insert"/>^<metamark ana="end"/>
+            </sga-add>
+            <sga-add place="superlinear" xml:id="c56-0081__main__d5e16885">in </sga-add>
+            </seg>when I arrived<seg xml:id="C13_app574-fMS">
+            <del ana="start" rend="strikethrough" xml:id="c56-0081__main__d5e16889"/>and<del ana="end"/>
+            </seg>
+            <lb n="c56-0081__main__3"/>the gates of<seg xml:id="C13_app576-fMS">Geneva</seg>were already<seg xml:id="C13_app578-fMS">
+            <del ana="start" rend="strikethrough" xml:id="c56-0081__main__d5e16896"/>closed<del ana="end"/>
+            <sga-add place="sublinear" xml:id="c56-0081__main__d5e16899">
+               <metamark ana="start" function="insert"/>^<metamark ana="end"/>
+            </sga-add>
+            <sga-add place="superlinear" xml:id="c56-0081__main__d5e16905">shut </sga-add>
+            </seg>and <lb n="c56-0081__main__4"/>I<seg xml:id="C13_app580-fMS">determined</seg>to<seg xml:id="C13_app582-fMS">remain that</seg>night at<seg xml:id="C13_app584-fMS">
+            <lb n="c56-0081__main__5"/>Secheron</seg>
+            <lb n="c56-0081__left_margin__1"/>a village<seg xml:id="C13_app586-fMS">
+            <lb n="c56-0081__left_margin__2"/>half a league</seg>
+            <seg xml:id="C13_app587-fMS">
+            <lb n="c56-0081__left_margin__3"/>to the east</seg>
+            <seg xml:id="C13_app588-fMS">
+            <lb n="c56-0081__left_margin__4"/>-ward of</seg>the<seg xml:id="C13_app590-fMS">city .</seg>The<seg part="I" xml:id="C13_app592-fMS__I">
+            <del ana="start" rend="strikethrough" xml:id="c56-0081__main__d5e16934"/>night<del ana="end"/>
+            </seg>
+            <sga-add hand="#pbs" place="superlinear" xml:id="c56-0081__main__d5e16937">
+               <seg part="F" xml:id="C13_app592-fMS__F">sky</seg>
+               <seg part="I" xml:id="C13_app593-fMS__I">
+               </seg>
+            </sga-add>
+            <seg part="F" xml:id="C13_app593-fMS__F">
+            </seg>was<seg xml:id="C13_app595-fMS">
+            <del ana="start" rend="strikethrough" xml:id="c56-0081__main__d5e16943"/>very fine<del ana="end"/>
+            <sga-add hand="#pbs" place="superlinear" xml:id="c56-0081__main__d5e16946">serene </sga-add> and <lb n="c56-0081__main__6"/>
+            <del ana="start" rend="strikethrough" xml:id="c56-0081__main__d5e16953"/>unable<del ana="end"/>
+            </seg>as I was unable to<seg xml:id="C13_app598-fMS">rest</seg>I resolved <lb n="c56-0081__main__7"/>to<seg part="I" xml:id="C13_app600-fMS__I">
+            <del ana="start" rend="strikethrough" xml:id="c56-0081__main__d5e16960"/>walk toward<del ana="end"/>
+            <mdel ana="start"/>s<mdel ana="end"/>
+            </seg>
+            <sga-add hand="#pbs" place="superlinear" xml:id="c56-0081__main__d5e16965">
+               <seg part="F" xml:id="C13_app600-fMS__F">visit</seg>
+            </sga-add>the spot where<seg part="I" xml:id="C13_app602-fMS__I">m <mdel/>
+            </seg>
+            <sga-add hand="#pbs" place="intralinear" xml:id="c56-0081__main__d5e16976">
+               <seg part="F" xml:id="C13_app602-fMS__F">y</seg>
+            </sga-add>
+            <lb n="c56-0081__main__8"/>poor William had been<seg xml:id="C13_app604-fMS">murdered;</seg>
+            <lb n="c56-0081__main__9"/>as I<seg xml:id="C13_app606-fMS">walked</seg>I<seg xml:id="C13_app608-fMS">perceived</seg>a<seg xml:id="C13_app610-fMS">storm collecting <lb n="c56-0081__main__10"/>on the other side of the lake.</seg>I saw the <lb n="c56-0081__main__11"/>lightnings<seg xml:id="C13_app612-fMS">play</seg>in the most beautiful<seg xml:id="C13_app614-fMS">
+            <lb n="c56-0081__main__12"/>figures and gained</seg>a<seg xml:id="C13_app616-fMS">summit</seg>
+            <lb n="c56-0081__main__13"/>that I might observe<seg part="I" xml:id="C13_app618-fMS__I">
+            <del ana="start" rend="strikethrough" xml:id="c56-0081__main__d5e16995"/>the<del ana="end"/>
+            <sga-add place="sublinear" xml:id="c56-0081__main__d5e16998">
+               <metamark ana="start" function="insert"/>^<metamark ana="end"/>
+            </sga-add>
+            </seg>
+            <sga-add place="superlinear" xml:id="c56-0081__main__d5e17004">
+               <seg part="F" xml:id="C13_app618-fMS__F">its</seg>
+            </sga-add>progress. <lb n="c56-0081__main__14"/>It<seg xml:id="C13_app620-fMS">advanced <del ana="start" rend="strikethrough" xml:id="c56-0081__main__d5e17011"/>slowly and<del ana="end"/>
+            </seg>and I soon felt <lb n="c56-0081__main__15"/>the rain coming slowly in large<seg xml:id="C13_app622-fMS">
+            <lb n="c56-0081__main__16"/>drops</seg>but its violence quickly<seg xml:id="C13_app624-fMS">encreased.</seg>
+            <seg xml:id="C13_app625-fMS">
+            <milestone unit="tei:p-END"/>
+            <milestone unit="tei:p-START"/>
+            <lb n="c56-0081__main__17"/>I quitted my</seg>
+            <seg xml:id="C13_app626-fMS">seat</seg>and<seg xml:id="C13_app628-fMS">walk</seg>on, <lb n="c56-0081__main__18"/>although the darkness and storm<seg xml:id="C13_app630-fMS">
+            <w ana="start"/>aug<lb n="c56-0081__main__19"/>mented<w ana="end"/>
+            </seg>every<seg xml:id="C13_app632-fMS">minute</seg>and the thunder <lb n="c56-0081__main__20"/>burst<seg xml:id="C13_app634-fMS">
+            <del ana="start" rend="strikethrough" xml:id="c56-0081__main__d5e17033"/>violently over<del ana="end"/> with a terrific <lb n="c56-0081__main__21"/>crash over my</seg>
+            <seg xml:id="C13_app635-fMS">head — William I ex <lb n="c56-0081__main__22"/>cried aloud – dear angel this is thy <lb n="c56-0081__main__23"/>funeral this thy dirge.</seg>It was echoed <lb n="c56-0081__main__24"/>from<seg part="I" xml:id="C13_app637-fMS__I">Salêve </seg>
+            <sga-add place="sublinear" xml:id="c56-0081__main__d5e17051">
+               <seg part="F" xml:id="C13_app637-fMS__F">
+               <metamark ana="start" function="insert"/>^<metamark ana="end"/>
+               </seg>
+            </sga-add>
+            <sga-add hand="#pbs" place="superlinear" xml:id="c56-0081__main__d5e17057">the<seg part="I" xml:id="C13_app639-fMS__I">Jura </seg>
+            </sga-add>
+            <seg part="F" xml:id="C13_app639-fMS__F">
+            </seg>and the Alps of<seg xml:id="C13_app641-fMS">Savoy—</seg>
+            <lb n="c56-0081__main__25"/>vivid flashes of lightning dazzled my <lb n="c56-0081__main__26"/>eyes,<seg xml:id="C13_app643-fMS">
+            <del ana="start" rend="strikethrough" xml:id="c56-0081__main__d5e17066"/>and<del ana="end"/> illumin <mdel ana="start"/>ed<mdel ana="end"/>
+            <sga-add hand="#pbs" place="intralinear" xml:id="c56-0081__main__d5e17073">ating </sga-add> the lake; <del ana="start" rend="strikethrough" xml:id="c56-0081__main__d5e17077"/>and<del ana="end"/>
+            </seg>
+            <lb n="c56-0081__main__27"/>then for an instant every thing <lb n="c56-0081__main__28"/>seemed of a pitchy<seg xml:id="C13_app645-fMS">
+            <del ana="start" rend="strikethrough" xml:id="c56-0081__main__d5e17087"/>black<del ana="end"/>
+            <sga-add place="sublinear" xml:id="c56-0081__main__d5e17090">
+               <metamark ana="start" function="insert"/>^<metamark ana="end"/>
+            </sga-add>
+            <sga-add place="superlinear" xml:id="c56-0081__main__d5e17096">darkness </sga-add>
+            <del ana="start" rend="strikethrough" xml:id="c56-0081__main__d5e17100"/>til<del ana="end"/> untill</seg>
+            <lb n="c56-0081__main__29"/>the eye recovered itself from the<seg xml:id="C13_app647-fMS">
+            <sga-add place="sublinear" xml:id="c56-0081__main__d5e17107">
+               <metamark ana="start" function="insert"/>^<metamark ana="end"/>
+            </sga-add>
+            <sga-add place="superlinear" xml:id="c56-0081__main__d5e17113">preceeding </sga-add>
+            </seg>flash.<seg xml:id="C13_app649-fMS">
+            <lb n="c56-0081__main__30"/>
+            <del ana="start" rend="strikethrough" xml:id="c56-0081__main__d5e17120"/>A<del ana="end"/> The</seg>
+            <seg xml:id="C13_app650-fMS">storm</seg>as is often the case in<lb n="c56-0082__main__1"/>
+            <seg xml:id="C13_app652-fMS">
+            <del ana="start" rend="strikethrough" xml:id="c56-0082__main__d5e17135"/>that country<del ana="end"/>
+            <sga-add place="superlinear" xml:id="c56-0082__main__d5e17138">Switzerland </sga-add>
+            </seg>appeared at once in various <lb n="c56-0082__main__2"/>parts of the heavens. The most violent <lb n="c56-0082__main__3"/>storm<seg part="I" xml:id="C13_app654-fMS__I">
+            <del ana="start" rend="strikethrough" xml:id="c56-0082__main__d5e17148"/>was<del ana="end"/>
+            </seg>
+            <sga-add hand="#pbs" place="superlinear" xml:id="c56-0082__main__d5e17151">
+               <seg part="F" xml:id="C13_app654-fMS__F">hung</seg>
+            </sga-add>exactly<seg xml:id="C13_app656-fMS">
+            <del ana="start" rend="strikethrough" xml:id="c56-0082__main__d5e17156"/>noth<del ana="end"/> north of the</seg>
+            <seg xml:id="C13_app657-fMS">town <lb n="c56-0082__main__4"/>
+            <del ana="start" rend="strikethrough" xml:id="c56-0082__main__d5e17163"/>and at<del ana="end"/>
+            </seg>
+            <sga-add hand="#pbs" place="superlinear" xml:id="c56-0082__main__d5e17166">over</sga-add>that part<seg part="I" xml:id="C13_app660-fMS__I">
+            <del ana="start" rend="strikethrough" xml:id="c56-0082__main__d5e17172"/>where<del ana="end"/>
+            </seg>
+            <sga-add hand="#pbs" place="superlinear" xml:id="c56-0082__main__d5e17175">
+               <seg part="F" xml:id="C13_app660-fMS__F">of the</seg>
+            </sga-add>lake<seg part="I" xml:id="C13_app662-fMS__I">
+            <sga-add place="sublinear" xml:id="c56-0082__main__d5e17181">
+               <metamark ana="start" function="insert"/>^<metamark ana="end"/>
+            </sga-add>
+            <del ana="start" rend="strikethrough" xml:id="c56-0082__main__d5e17187"/>turns<del ana="end"/>
+            </seg>
+            <sga-add hand="#pbs" next="#c56-0082.01" place="superlinear" xml:id="c56-0082__main__d5e17190">
+               <seg part="F" xml:id="C13_app662-fMS__F">which</seg>
+               <mdel ana="start"/>at<mdel ana="end"/>
+            </sga-add>
+            <sga-add hand="#pbs" place="sublinear" xml:id="c56-0082__main__d5e17195">lies between </sga-add>
+            <lb n="c56-0082__main__5"/>the promontory of Belrive and<seg part="I" xml:id="C13_app664-fMS__I">
+            <del ana="start" next="#c56-0082.03" rend="strikethrough" xml:id="c56-0082__main__d5e17202"/>changing<del ana="end"/>
+            <sga-add hand="#pbs" next="#c56-0082.04" place="superlinear" xml:id="c56-0082__main__d5e17205">the </sga-add>
+            <lb n="c56-0082__main__6"/>
+            </seg>
+            <sga-add hand="#pbs" place="superlinear" xml:id="c56-0082__main__d5e17210">
+               <seg part="F" xml:id="C13_app664-fMS__F">village of</seg>
+               <seg part="I" xml:id="C13_app665-fMS__I">Copet </seg>
+            </sga-add>
+            <seg part="F" xml:id="C13_app665-fMS__F">its course from South to north which <lb n="c56-0082__main__7"/>it before p <mdel/>
+            <sga-add place="intralinear" xml:id="c56-0082__main__d5e17225">u </sga-add> rsue <sga-add place="sublinear" xml:id="c56-0082__main__d5e17231">s </sga-add>
+            <mdel ana="start"/>d<mdel ana="end"/> proceeds from west <lb n="c56-0082__main__8"/>to east —</seg>another storm enlightened <lb n="c56-0082__main__9"/>Jura with faint<seg xml:id="C13_app667-fMS">flashes</seg>and another<seg xml:id="C13_app669-fMS">
+            <lb n="c56-0082__main__10"/>
+            <del ana="start" rend="strikethrough" xml:id="c56-0082__main__d5e17246"/>appeared<del ana="end"/> darkened and sometimes <lb n="c56-0082__main__11"/>disclosed the</seg>
+            <seg xml:id="C13_app670-fMS">Mole – <del ana="start" rend="strikethrough" xml:id="c56-0082__main__d5e17251"/>the name of<del ana="end"/>
+            </seg>
+            <lb n="c56-0082__main__12"/>a peaked mountain to the east of <lb n="c56-0082__main__13"/>the lake. <milestone unit="tei:p-END"/>
+            <milestone unit="tei:p-START"/>
+            <lb n="c56-0082__main__14"/>While I watched the<seg xml:id="C13_app672-fMS">storm –</seg>so <w ana="start"/>beauti<lb n="c56-0082__main__15"/>ful<w ana="end"/> yet<seg xml:id="C13_app674-fMS">terrific</seg>I wandered<seg xml:id="C13_app676-fMS">
+            <del ana="start" rend="strikethrough" xml:id="c56-0082__main__d5e17269"/>listlessly<del ana="end"/>
+            <lb n="c56-0082__main__16"/>on with a hasty</seg>
+            <seg xml:id="C13_app677-fMS">step – <del ana="start" rend="strikethrough" xml:id="c56-0082__main__d5e17275"/>I felt that<del ana="end"/>
+            <lb n="c56-0082__main__17"/>th <mdel ana="start"/>is<mdel ana="end"/>
+            <sga-add hand="#pbs" place="intralinear" xml:id="c56-0082__main__d5e17284">e </sga-add>
+            </seg>noble war in the sky elevated <lb n="c56-0082__main__18"/>my spirits; I clasped my<seg xml:id="C13_app679-fMS">hands</seg>&amp;<seg xml:id="C13_app681-fMS">ex <lb n="c56-0082__main__19"/>claimed aloud</seg>"William, dear<seg xml:id="C13_app683-fMS">angel,</seg>
+            <lb n="c56-0082__main__20"/>this is thy funeral, this thy<seg xml:id="C13_app685-fMS">dirge!"–</seg>
+            <lb n="c56-0082__main__21"/>As I said<seg xml:id="C13_app687-fMS">the <sga-add place="sublinear" xml:id="c56-0082__main__d5e17297">se </sga-add> words <del ana="start" next="#c56-0082.07" rend="strikethrough" xml:id="c56-0082__main__d5e17300"/>a flash of lightning<del ana="end"/>
+            </seg>
+            <sga-add place="superlinear" xml:id="c56-0082__main__d5e17303">I perceived in the gloom<seg part="I" xml:id="C13_app689-fMS__I">
+               </seg>
+            </sga-add>
+            <seg part="F" xml:id="C13_app689-fMS__F">
+            <lb n="c56-0082__main__22"/>
+            <del ana="start" rend="strikethrough" xml:id="c56-0082__main__d5e17308"/>discovered to me<del ana="end"/> a figure which stole from <lb n="c56-0082__main__23"/>behind a clump of trees near</seg>
+            <seg part="I" xml:id="C13_app690-fMS__I">me – </seg>
+            <sga-add place="superlinear" xml:id="c56-0082__main__d5e17316">
+               <seg part="F" xml:id="C13_app690-fMS__F">
+               <metamark ana="start" function="displacement" xml:id="c56-0082.09"/>X<metamark ana="end"/>
+               </seg>
+               <lb n="c56-0082__left_margin__1"/>I stood<seg xml:id="C13_app692-fMS">
+               <lb n="c56-0082__left_margin__2"/>fixed</seg>gazing<seg xml:id="C13_app694-fMS">
+               <lb n="c56-0082__left_margin__3"/>intently,</seg>I <lb n="c56-0082__left_margin__4"/>could not <lb n="c56-0082__left_margin__5"/>be<seg xml:id="C13_app696-fMS">
+               <w ana="start"/>mista<lb n="c56-0082__left_margin__6"/>ken<w ana="end"/>
+               </seg>a <lb n="c56-0082__left_margin__7"/>flash of <lb n="c56-0082__left_margin__8"/>lightning<seg xml:id="C13_app698-fMS">
+               <lb n="c56-0082__left_margin__9"/>illumined</seg>
+               <lb n="c56-0082__left_margin__10"/>the<seg xml:id="C13_app700-fMS">object,<lb n="c56-0082__left_margin__11"/>and</seg>
+               <w ana="start"/>discov<lb n="c56-0082__left_margin__12"/>ered<w ana="end"/>
+               <seg part="I" xml:id="C13_app702-fMS__I">to me </seg>
+            </sga-add>
+            <seg part="F" xml:id="C13_app702-fMS__F">I stood <lb n="c56-0082__main__24"/>aghast</seg>its<seg xml:id="C13_app704-fMS">gigantc sta <del ana="start" rend="strikethrough" xml:id="c56-0082__main__d5e17375"/>n<del ana="end"/> ture <del ana="start" rend="strikethrough" xml:id="c56-0082__main__d5e17380"/>, its<del ana="end"/>
+            </seg>
+            <sga-add hand="#pbs" place="superlinear" xml:id="c56-0082__main__d5e17383">&amp; the</sga-add>deformity <lb n="c56-0082__main__25"/>
+            <sga-add hand="#pbs" place="superlinear" xml:id="c56-0082__main__d5e17389">of its<seg xml:id="C13_app707-fMS">aspect</seg>
+            </sga-add>more hideous<seg xml:id="C13_app709-fMS">tha <mdel ana="start"/>t<mdel ana="end"/>
+            <sga-add place="intralinear" xml:id="c56-0082__main__d5e17396">n </sga-add>
+            <mdel ana="start"/>a<mdel ana="end"/>
+            <del ana="start" rend="strikethrough" xml:id="c56-0082__main__d5e17405"/>man could be<del ana="end"/>
+            </seg>
+            <sga-add place="superlinear" xml:id="c56-0082__main__d5e17408">belongs to<seg part="I" xml:id="C13_app711-fMS__I">humanity </seg>
+            </sga-add>
+            <seg part="F" xml:id="C13_app711-fMS__F">
+            <lb n="c56-0082__main__26"/>
+            <del ana="start" rend="strikethrough" xml:id="c56-0082__main__d5e17414"/>explain<del ana="end"/>
+            </seg>instantly informed me<seg xml:id="C13_app713-fMS">who</seg>it<seg xml:id="C13_app715-fMS">
+            <lb n="c56-0082__main__27"/>was. I <sga-add place="intralinear" xml:id="c56-0082__main__d5e17419">t </sga-add> was the wretch, the filthy</seg>
+            <seg xml:id="C13_app716-fMS">dæmon</seg>to <lb n="c56-0082__main__28"/>whom I had given life. What did he there? <lb n="c56-0082__main__29"/>Could he be (I shuddered at the<seg xml:id="C13_app718-fMS">conception<lb n="c56-0083__main__1"/>the</seg>murderer of my<seg xml:id="C13_app720-fMS">brother.</seg>No sooner <lb n="c56-0083__main__2"/>did that idea cross my<seg xml:id="C13_app722-fMS">imagination</seg>than <lb n="c56-0083__main__3"/>I became convinced<seg part="I" xml:id="C13_app724-fMS__I">
+            <sga-add place="sublinear" xml:id="c56-0083__main__d5e17444">
+               <metamark ana="start" function="insert"/>^<metamark ana="end"/>
+            </sga-add>
+            </seg>
+            <sga-add place="superlinear" xml:id="c56-0083__main__d5e17450">
+               <seg part="F" xml:id="C13_app724-fMS__F">of its</seg>
+               <seg part="I" xml:id="C13_app725-fMS__I">truth </seg>
+            </sga-add>
+            <seg part="F" xml:id="C13_app725-fMS__F"> —</seg>my teeth<seg xml:id="C13_app727-fMS">chattered</seg>
+            <lb n="c56-0083__main__4"/>and I was forced to lean against<seg xml:id="C13_app729-fMS">
+            <del ana="start" rend="strikethrough" xml:id="c56-0083__main__d5e17457"/>th<del ana="end"/> a <lb n="c56-0083__main__5"/>tree for</seg>
+            <seg xml:id="C13_app730-fMS">support —</seg>The figure<seg xml:id="C13_app732-fMS">quickly passed <lb n="c56-0083__main__6"/>me</seg>and I lost it in the gloom.<seg part="I" xml:id="C13_app735-fMS__I">
+            <del ana="start" rend="strikethrough" xml:id="c56-0083__main__d5e17464"/>And<del ana="end"/>
+            <mdel ana="start"/>h<mdel ana="end"/>
+            <sga-add place="intralinear" xml:id="c56-0083__main__d5e17471">H </sga-add> e <lb n="c56-0083__main__7"/>
+            <lb n="c56-0083__left_margin__1"/>
+            <sga-add xml:id="c56-0083__left_margin__d5e17484">therefore </sga-add>was the murderer! <del ana="start" rend="strikethrough" xml:id="c56-0083__main__d5e17487"/>I <mod xml:id="c56-0083__main__d5e17489">
+               <sga-add place="sublinear" xml:id="c56-0083__main__d5e17491">
+                  <metamark ana="start" function="insert"/>^<metamark ana="end"/>
+               </sga-add>
+               <sga-add place="superlinear" xml:id="c56-0083__main__d5e17497">could not </sga-add>
+            </mod> doubt<del-INNER ana="start" rend="strikethrough" xml:id="c56-0083__main__d5e17501"/>' ed<del-INNER ana="end"/> it<del ana="end"/>
+            <del ana="start" rend="strikethrough" xml:id="c56-0083__main__d5e17505"/>not<del ana="end"/>
+            <del ana="start" rend="strikethrough" xml:id="c56-0083__main__d5e17508"/>my<del ana="end"/>
+            <lb n="c56-0083__main__8"/>
+            <del ana="start" rend="strikethrough" xml:id="c56-0083__main__d5e17514"/>the<del ana="end"/>
+            <del ana="start" rend="strikethrough" xml:id="c56-0083__main__d5e17517"/>thought<del ana="end"/>
+            <del ana="start" rend="strikethrough" xml:id="c56-0083__main__d5e17520"/>was agony <mod xml:id="c56-0083__main__d5e17522">
+               <sga-add place="sublinear" xml:id="c56-0083__main__d5e17524">
+                  <metamark ana="start" function="insert"/>^<metamark ana="end"/>
+               </sga-add>
+               <sga-add place="superlinear" xml:id="c56-0083__main__d5e17530">I was agonized by the bare probability </sga-add>
+            </mod>
+            <del ana="end"/>
+            <lb n="c56-0083__left_margin__1"/>Nothing </seg>
+            <sga-add hand="#pbs" place="superlinear" xml:id="c56-0083__left_margin__d5e17543">
+               <seg part="F" xml:id="C13_app735-fMS__F">in</seg>
+            </sga-add>human <lb n="c56-0083__left_margin__2"/>shape could <lb n="c56-0083__left_margin__3"/>have destroyed <lb n="c56-0083__left_margin__4"/>that fair <lb n="c56-0083__left_margin__5"/>child.<seg xml:id="C13_app737-fMS">He<lb n="c56-0083__left_margin__6"/>was</seg>the <lb n="c56-0083__left_margin__7"/>murderer! <lb n="c56-0083__left_margin__8"/>I could not <lb n="c56-0083__left_margin__9"/>doubt it. <lb n="c56-0083__left_margin__10"/>The mere presence <lb n="c56-0083__left_margin__11"/>of the idea <lb n="c56-0083__left_margin__12"/>was an<seg xml:id="C13_app739-fMS">
+            <w ana="start"/>ir<lb n="c56-0083__left_margin__13"/>resistible<w ana="end"/>
+            <lb n="c56-0083__left_margin__14"/>proof</seg>of the<seg xml:id="C13_app741-fMS">
+            <lb n="c56-0083__left_margin__15"/>fact —</seg>I thought of<seg xml:id="C13_app743-fMS">
+            <w ana="start"/>pur<lb n="c56-0083__main__9"/>sueing<w ana="end"/>
+            </seg>the<seg xml:id="C13_app745-fMS">devil,</seg>but<seg part="I" xml:id="C13_app747-fMS__I">
+            <sga-add place="sublinear" xml:id="c56-0083__main__d5e17598">
+               <metamark ana="start" function="insert"/>^<metamark ana="end"/>
+            </sga-add>
+            </seg>
+            <sga-add place="superlinear" xml:id="c56-0083__main__d5e17604">
+               <seg part="F" xml:id="C13_app747-fMS__F"> it would have been</seg>
+            </sga-add>in<seg xml:id="C13_app749-fMS">vain</seg>for another <lb n="c56-0083__main__10"/>flash discovered him to me<seg part="I" xml:id="C13_app751-fMS__I">climbing <lb n="c56-0083__main__11"/>up the steep and </seg>
+            <sga-add hand="#pbs" place="superlinear" xml:id="c56-0083__main__d5e17617">
+               <seg part="F" xml:id="C13_app751-fMS__F">hanging among the rocks of the</seg>
+            </sga-add>nearly perpendicular <lb n="c56-0083__main__12"/>ascent ofthe<seg xml:id="C13_app755-fMS">Mont-Salêve;</seg>he soon reached <lb n="c56-0083__main__13"/>the<seg xml:id="C13_app757-fMS">summit</seg>and<seg xml:id="C13_app759-fMS">dissap <mdel ana="start"/>p<mdel ana="end"/>
+            <sga-add place="intralinear" xml:id="c56-0083__main__d5e17631">e </sga-add> ared.</seg>
+            <milestone unit="tei:p-END"/>
+            <milestone unit="tei:p-START"/>
+            <lb n="c56-0083__main__14"/>I remained<seg xml:id="C13_app761-fMS">motionless</seg>the thunder<seg xml:id="C13_app763-fMS">
+            <lb n="c56-0083__main__15"/>ceased</seg>but the rain still<seg xml:id="C13_app765-fMS">continued &amp;<lb n="c56-0083__main__16"/>the</seg>scene was<seg xml:id="C13_app767-fMS">inveloped</seg>in<seg part="I" xml:id="C13_app769-fMS__I">a <sga-add place="intralinear" xml:id="c56-0083__main__d5e17645">n </sga-add>
+            <del ana="start" rend="strikethrough" xml:id="c56-0083__main__d5e17648"/>pitchy<del ana="end"/>
+            </seg>
+            <sga-add place="sublinear" xml:id="c56-0083__main__d5e17651">
+               <seg part="F" xml:id="C13_app769-fMS__F">
+               <metamark ana="start" function="insert"/>^<metamark ana="end"/>
+               </seg>
+            </sga-add>
+            <sga-add place="superlinear" xml:id="c56-0083__main__d5e17657">impenetrable </sga-add>
+            <w ana="start"/>dark<lb n="c56-0083__main__17"/>ness<w ana="end"/>.<seg xml:id="C13_app771-fMS">I revolved in my mind I revolved</seg>
+            <seg part="I" xml:id="C13_app772-fMS__I">in <lb n="c56-0083__main__18"/>my mind <lb n="c56-0083__left_margin__1"/>
+            </seg>
+            <sga-add hand="#pbs" xml:id="c56-0083__left_margin__d5e17681">
+               <seg part="F" xml:id="C13_app772-fMS__F">I resolved in my mind</seg>
+            </sga-add>the events which I<seg xml:id="C13_app774-fMS">
+            <del ana="start" rend="strikethrough" xml:id="c56-0083__main__d5e17687"/>u<del ana="end"/> had, <lb n="c56-0083__main__19"/>untill now,</seg>sought to<seg part="I" xml:id="C13_app776-fMS__I">forget. </seg>
+            <sga-add xml:id="c56-0083__main__d5e17692">
+               <seg part="F" xml:id="C13_app776-fMS__F">
+               <metamark ana="start" function="displacement" xml:id="c56-0083.08"/>^<metamark ana="end"/>
+               </seg>
+               <lb n="c56-0083__left_margin__1"/>The whole <lb n="c56-0083__left_margin__2"/>train of my <lb n="c56-0083__left_margin__3"/>progress <w ana="start"/>to<lb n="c56-0083__left_margin__4"/>wards<w ana="end"/>
+               <seg part="I" xml:id="C13_app778-fMS__I">my <lb n="c56-0083__left_margin__5"/>
+               <del ana="start" rend="strikethrough" xml:id="c56-0083__left_margin__d5e17716"/>
+               <unclear extent="1" unit="chars"/>
+               <del ana="end"/> creation </seg>
+            </sga-add>
+            <seg part="F" xml:id="C13_app778-fMS__F">
+            </seg>The appearance <lb n="c56-0083__main__20"/>of<seg part="I" xml:id="C13_app780-fMS__I">
+            <del ana="start" rend="strikethrough" xml:id="c56-0083__main__d5e17730"/>the creature<del ana="end"/>
+            <sga-add xml:id="c56-0083__main__d5e17733">
+               <metamark ana="start" function="insert"/>^<metamark ana="end"/>
+            </sga-add>
+            </seg>
+            <sga-add hand="#pbs" place="superlinear" xml:id="c56-0083__main__d5e17739">
+               <seg part="F" xml:id="C13_app780-fMS__F">the work of my own</seg>
+               <seg xml:id="C13_app781-fMS">hands,</seg>alive</sga-add>at my<seg xml:id="C13_app784-fMS">bed</seg>
+            <seg xml:id="C13_app785-fMS">side – <sga-add hand="#pbs" place="superlinear" xml:id="c56-0083__main__d5e17743">&amp;</sga-add>
+            </seg>its departure.<seg xml:id="C13_app787-fMS">
+            <lb n="c56-0083__main__21"/>
+            <del ana="start" rend="strikethrough" xml:id="c56-0083__main__d5e17748"/>Its<del ana="end"/>
+            <del ana="start" rend="strikethrough" xml:id="c56-0083__main__d5e17751"/>It was now nearly<del ana="end"/> two years</seg>
+            <seg part="I" xml:id="C13_app788-fMS__I">
+            <sga-add place="sublinear" xml:id="c56-0083__main__d5e17757">
+               <metamark ana="start" function="insert"/>^<metamark ana="end"/>
+            </sga-add>
+            </seg>
+            <sga-add place="superlinear" xml:id="c56-0083__main__d5e17763">
+               <seg part="F" xml:id="C13_app788-fMS__F">had now nearly elapsed</seg>
+            </sga-add>since the <lb n="c56-0083__main__22"/>night<seg xml:id="C13_app790-fMS">
+            <del ana="start" rend="strikethrough" xml:id="c56-0083__main__d5e17769"/>of<del ana="end"/> on which he first received</seg>
+            <seg xml:id="C13_app791-fMS">
+            <lb n="c56-0083__main__23"/>life,</seg>and was this his first<seg xml:id="C13_app793-fMS">crime – <del ana="start" rend="strikethrough" xml:id="c56-0083__main__d5e17774"/>
+            <unclear ana="start"/>?<unclear ana="end"/>
+            <del ana="end"/>
+            </seg>Alas! <lb n="c56-0083__main__24"/>I<seg part="I" xml:id="C13_app795-fMS__I">
+            <sga-add place="sublinear" xml:id="c56-0083__main__d5e17784">
+               <metamark ana="start" function="insert"/>^<metamark ana="end"/>
+            </sga-add>
+            </seg>
+            <sga-add xml:id="c56-0083__main__d5e17790">
+               <seg part="F" xml:id="C13_app795-fMS__F">had</seg>
+            </sga-add>turned loose<seg xml:id="C13_app797-fMS">in</seg>the world a depraved<seg xml:id="C13_app799-fMS">
+            <lb n="c56-0083__main__25"/>wretch</seg>whose delight was in<seg xml:id="C13_app801-fMS">
+            <del ana="start" rend="strikethrough" xml:id="c56-0083__main__d5e17795"/>deat<del ana="end"/>
+            <lb n="c56-0083__main__26"/>murder</seg>&amp;<seg xml:id="C13_app803-fMS">wretchedness; <del ana="start" rend="strikethrough" xml:id="c56-0083__main__d5e17802"/>For<del ana="end"/>
+            <sga-add hand="#pbs" place="superlinear" xml:id="c56-0083__main__d5e17805">for </sga-add>
+            </seg>had he <lb n="c56-0083__main__27"/>not murdered my brother? <milestone unit="tei:p-END"/>
+            <milestone unit="tei:p-START"/>
+            <lb n="c56-0083__main__28"/>No one can conceive<seg xml:id="C13_app805-fMS">of the anguish I</seg>
+            <seg xml:id="C13_app806-fMS">
+            <lb n="c56-0083__main__29"/>suff <mdel ana="start"/>er<mdel ana="end"/>
+            <sga-add hand="#pbs" place="intralinear" xml:id="c56-0083__main__d5e17822">e </sga-add> red</seg>during the remainder of<seg xml:id="C13_app808-fMS">the<lb n="c56-0084__main__1"/>night</seg>which I<seg part="I" xml:id="C13_app810-fMS__I">spent </seg>
+            <sga-add place="sublinear" xml:id="c56-0084__main__d5e17838">
+               <seg part="F" xml:id="C13_app810-fMS__F">
+               <metamark ana="start" function="insert"/>^<metamark ana="end"/>
+               </seg>
+            </sga-add>
+            <sga-add place="superlinear" xml:id="c56-0084__main__d5e17844">cold &amp;<seg part="I" xml:id="C13_app812-fMS__I">wet </seg>
+            </sga-add>
+            <seg part="F" xml:id="C13_app812-fMS__F">
+            </seg>in the open <lb n="c56-0084__main__2"/>air.<seg xml:id="C13_app814-fMS">
+            <del ana="start" rend="strikethrough" xml:id="c56-0084__main__d5e17850"/>cold and wet<del ana="end"/> . But I did not <lb n="c56-0084__main__3"/>feel</seg>
+            <seg part="I" xml:id="C13_app815-fMS__I">th <mdel ana="start"/>i<mdel ana="end"/>
+            <sga-add place="intralinear" xml:id="c56-0084__main__d5e17860">e </sga-add>
+            <mdel ana="start"/>s<mdel ana="end"/>
+            <sga-add place="sublinear" xml:id="c56-0084__main__d5e17865">
+               <metamark ana="start" function="insert"/>^<metamark ana="end"/>
+            </sga-add>
+            </seg>
+            <sga-add place="superlinear" xml:id="c56-0084__main__d5e17871">
+               <seg part="F" xml:id="C13_app815-fMS__F">incovenience</seg>of the<seg part="I" xml:id="C13_app817-fMS__I">weather. </seg>
+            </sga-add>
+            <seg part="F" xml:id="C13_app817-fMS__F">
+            </seg>my imagination was busy<seg xml:id="C13_app819-fMS">in <lb n="c56-0084__main__4"/>in</seg>
+            <seg xml:id="C13_app820-fMS">
+            <del ana="start" rend="strikethrough" xml:id="c56-0084__main__d5e17877"/>scene<del ana="end"/> scenes of</seg>
+            <seg xml:id="C13_app821-fMS">ev <mdel ana="start"/>e<mdel ana="end"/>
+            <sga-add place="intralinear" xml:id="c56-0084__main__d5e17884">i </sga-add> l</seg>and<seg xml:id="C13_app823-fMS">despair</seg>
+            <lb n="c56-0084__main__5"/>I considered the<seg part="I" xml:id="C13_app825-fMS__I">
+            <mdel ana="start"/>wh<mdel ana="end"/>
+            <del ana="start" rend="strikethrough" xml:id="c56-0084__main__d5e17894"/>wretch<del ana="end"/>
+            </seg>
+            <sga-add hand="#pbs" place="superlinear" xml:id="c56-0084__main__d5e17897">
+               <seg part="F" xml:id="C13_app825-fMS__F">being</seg>
+            </sga-add>whom I <lb n="c56-0084__main__6"/>had cast<seg xml:id="C13_app827-fMS">in among</seg>
+            <seg xml:id="C13_app828-fMS">mankind <del ana="start" rend="strikethrough" xml:id="c56-0084__main__d5e17906"/>for pu<del ana="end"/>
+            </seg>
+            <lb n="c56-0084__left_margin__1"/>and <lb n="c56-0084__left_margin__2"/>endowed with <lb n="c56-0084__left_margin__3"/>the will<seg xml:id="C13_app830-fMS">&amp;<lb n="c56-0084__left_margin__4"/>the</seg>power <lb n="c56-0084__left_margin__5"/>to effect <lb n="c56-0084__main__7"/>purposes of<seg part="I" xml:id="C13_app832-fMS__I">
+            <del ana="start" rend="strikethrough" xml:id="c56-0084__main__d5e17934"/>mischief<del ana="end"/>
+            </seg>
+            <sga-add hand="#pbs" next="#c56-0084.03" place="superlinear" xml:id="c56-0084__main__d5e17937">
+               <seg part="F" xml:id="C13_app832-fMS__F">horror</seg>such as<seg part="I" xml:id="C13_app834-fMS__I">
+               <del ana="start" rend="strikethrough" xml:id="c56-0084__main__d5e17939"/>this<del ana="end"/> the deed which he had </seg>
+            </sga-add>
+            <sga-add hand="#pbs" place="sublinear" xml:id="c56-0084__main__d5e17943">
+               <seg part="F" xml:id="C13_app834-fMS__F">now done,</seg>
+            </sga-add>nearly in the light <lb n="c56-0084__main__8"/>of my<seg xml:id="C13_app836-fMS">
+            <del ana="start" rend="strikethrough" xml:id="c56-0084__main__d5e17949"/>ow<del ana="end"/> vampire;</seg>my own spirit let <lb n="c56-0084__main__9"/>loose from the<seg xml:id="C13_app838-fMS">grave</seg>and forced to <lb n="c56-0084__main__10"/>destroy all<seg xml:id="C13_app840-fMS">who were</seg>dear to me. <milestone unit="tei:p-END"/>
+            <milestone unit="tei:p-START"/>
+            <lb n="c56-0084__main__11"/>Day<seg xml:id="C13_app842-fMS">dawned</seg>and I directed my <lb n="c56-0084__main__12"/>steps towards the<seg xml:id="C13_app844-fMS">town –</seg>the gates were<seg xml:id="C13_app846-fMS">
+            <lb n="c56-0084__main__13"/>open</seg>and I hastened to my<seg xml:id="C13_app848-fMS">father's <lb n="c56-0084__main__14"/>house <del ana="start" rend="strikethrough" xml:id="c56-0084__main__d5e17968"/>s<del ana="end"/> .–My <del ana="start" rend="strikethrough" xml:id="c56-0084__main__d5e17971"/>n<del ana="end"/>
+            </seg>first thought was to <w ana="start"/>disco<lb n="c56-0084__main__15"/>ver<w ana="end"/> what I knew of the<seg xml:id="C13_app850-fMS">murderer &amp;<lb n="c56-0084__main__16"/>cause</seg>instant<seg xml:id="C13_app852-fMS">
+            <del ana="start" rend="strikethrough" xml:id="c56-0084__main__d5e17983"/>search<del ana="end"/> pursuit to <lb n="c56-0084__main__17"/>be made. But I paused when I <w ana="start"/>reflect<lb n="c56-0084__main__18"/>ed<w ana="end"/>
+            </seg>
+            <seg xml:id="C13_app853-fMS">what</seg>the story<seg xml:id="C13_app855-fMS">was that I had <lb n="c56-0084__main__19"/>to tell. A</seg>
+            <seg part="I" xml:id="C13_app856-fMS__I">
+            <del ana="start" rend="strikethrough" xml:id="c56-0084__main__d5e17999"/>creature<del ana="end"/>
+            </seg>
+            <sga-add hand="#pbs" place="superlinear" xml:id="c56-0084__main__d5e18002">
+               <seg part="F" xml:id="C13_app856-fMS__F">being</seg>
+            </sga-add>whom I myself <lb n="c56-0084__main__20"/>had<seg xml:id="C13_app858-fMS">created</seg>and endued with life, <lb n="c56-0084__left_margin__1"/>had met <lb n="c56-0084__left_margin__2"/>me at <w ana="start"/>mid<lb n="c56-0084__left_margin__3"/>night<w ana="end"/> among <lb n="c56-0084__left_margin__4"/>the <lb n="c56-0084__left_margin__5"/>precipices of <lb n="c56-0084__left_margin__6"/>an <w ana="start"/>inaccessi<lb n="c56-0084__left_margin__7"/>ble<w ana="end"/>
+            <seg xml:id="C13_app860-fMS">mountain</seg>The<seg xml:id="C13_app862-fMS">
+            <lb n="c56-0084__main__21"/>
+            <del ana="start" rend="strikethrough" xml:id="c56-0084__main__d5e18046"/>story<del ana="end"/>
+            </seg>
+            <lb n="c56-0084__left_margin__1"/>
+            <sga-add xml:id="c56-0084__left_margin__d5e18055">tale<seg part="I" xml:id="C13_app864-fMS__I">
+               </seg>
+            </sga-add>
+            <seg part="F" xml:id="C13_app864-fMS__F"> was</seg>utterly<seg xml:id="C13_app866-fMS">improbable and</seg>I<seg xml:id="C13_app868-fMS">knew <lb n="c56-0084__main__22"/>well</seg>that if any other had<seg part="I" xml:id="C13_app871-fMS__I">
+            <del ana="start" rend="strikethrough" xml:id="c56-0084__main__d5e18063"/>related<del ana="end"/>
+            </seg>
+            <sga-add place="superlinear" xml:id="c56-0084__main__d5e18066">
+               <seg part="F" xml:id="C13_app871-fMS__F">communicated</seg>
+            </sga-add>such <lb n="c56-0084__main__23"/>a<seg part="I" xml:id="C13_app873-fMS__I">
+            <del ana="start" rend="strikethrough" xml:id="c56-0084__main__d5e18074"/>tale<del ana="end"/>
+            <sga-add place="sublinear" xml:id="c56-0084__main__d5e18077">
+               <metamark ana="start" function="insert"/>^<metamark ana="end"/>
+            </sga-add>
+            </seg>
+            <sga-add place="superlinear" xml:id="c56-0084__main__d5e18083">
+               <seg part="F" xml:id="C13_app873-fMS__F">relation</seg>
+            </sga-add>to<seg xml:id="C13_app875-fMS">me</seg>I should have looked <lb n="c56-0084__main__24"/>upon it as the ravings of<seg xml:id="C13_app877-fMS">delirium <lb n="c56-0084__main__25"/>Besides</seg>the strange nature of the <lb n="c56-0084__main__26"/>animal would<seg xml:id="C13_app879-fMS">
+            <del ana="start" rend="strikethrough" xml:id="c56-0084__main__d5e18094"/>elude all the <unclear ana="start"/>us<unclear ana="end"/>
+            <del ana="end"/>
+            <lb n="c56-0084__main__27"/>elude</seg>pursuit, even if I were <sga-add hand="#pbs" place="superlinear" xml:id="c56-0084__main__d5e18101">so far<seg part="I" xml:id="C13_app882-fMS__I">
+               </seg>
+            </sga-add>
+            <seg part="M" xml:id="C13_app882-fMS__M">
+            <del ana="start" rend="strikethrough" xml:id="c56-0084__main__d5e18106"/>believed<del ana="end"/>
+            <lb n="c56-0084__left_margin__1"/>
+            </seg>
+            <sga-add xml:id="c56-0084__left_margin__d5e18115">
+               <seg part="F" xml:id="C13_app882-fMS__F">credited</seg>
+               <seg part="I" xml:id="C13_app883-fMS__I">
+               </seg>
+            </sga-add>
+            <seg part="M" xml:id="C13_app883-fMS__M">
+            <lb n="c56-0084__main__28"/>
+            <del ana="start" next="#c56-0084.09" rend="strikethrough" xml:id="c56-0084__main__d5e18122"/>which was<del ana="end"/>
+            <sga-add place="sublinear" xml:id="c56-0084__main__d5e18125">
+               <metamark ana="start" function="insert"/>^<metamark ana="end"/>
+            </sga-add>
+            <del ana="start" rend="strikethrough" xml:id="c56-0084__main__d5e18131"/>utterly impossible<del ana="end"/>
+            </seg>
+            <sga-add hand="#pbs" place="superlinear" xml:id="c56-0084__main__d5e18134">
+               <seg part="F" xml:id="C13_app883-fMS__F">as to persuade</seg>
+               <seg part="I" xml:id="C13_app884-fMS__I">
+               <del ana="start" rend="strikethrough" xml:id="c56-0084__main__d5e18138"/>its<del ana="end"/>
+               <del ana="start" rend="overwritten" xml:id="c56-0084__main__d5e18141"/>self<del ana="end"/>
+               </seg>
+               <sga-add place="intralinear" xml:id="c56-0084__main__d5e18144">
+                  <seg part="F" xml:id="C13_app884-fMS__F">my</seg>
+               </sga-add>relatives to commence<seg part="I" xml:id="C13_app886-fMS__I">it </seg>
+            </sga-add>
+            <seg part="F" xml:id="C13_app886-fMS__F"> – <del ana="start" rend="strikethrough" xml:id="c56-0084__main__d5e18152"/>the com<del ana="end"/>
+            <lb n="c56-0085__main__1"/>mon people would believe it to <lb n="c56-0085__main__2"/>be a real devil</seg>
+            <seg xml:id="C13_app887-fMS">and</seg>
+            <seg xml:id="C13_app888-fMS">who could attempt <lb n="c56-0085__left_margin__1"/>Besides</seg>of what use <lb n="c56-0085__left_margin__2"/>would be pursuit? <lb n="c56-0085__left_margin__3"/>Who could <lb n="c56-0085__left_margin__4"/>arrest <lb n="c56-0085__main__3"/>a creature<seg part="I" xml:id="C13_app890-fMS__I">
+            <del ana="start" rend="strikethrough" xml:id="c56-0085__main__d5e18196"/>that could<del ana="end"/>
+            </seg>
+            <sga-add hand="#pbs" place="superlinear" xml:id="c56-0085__main__d5e18199">
+               <seg part="F" xml:id="C13_app890-fMS__F">capable of</seg>
+               <seg part="I" xml:id="C13_app891-fMS__I">
+               </seg>
+            </sga-add>
+            <seg part="F" xml:id="C13_app891-fMS__F"> scal <mdel ana="start"/>e<mdel ana="end"/>
+            <sga-add hand="#pbs" place="intralinear" xml:id="c56-0085__main__d5e18207">ing </sga-add>
+            </seg>the<seg part="I" xml:id="C13_app893-fMS__I">
+            <lb n="c56-0085__main__4"/>
+            <del ana="start" rend="strikethrough" xml:id="c56-0085__main__d5e18216"/>steep<del ana="end"/>
+            <lb n="c56-0085__left_margin__1"/>
+            </seg>
+            <sga-add hand="#pbs" xml:id="c56-0085__left_margin__d5e18225">
+               <seg part="F" xml:id="C13_app893-fMS__F">overhanging</seg>
+            </sga-add>sides of<seg xml:id="C13_app895-fMS">Mont-Salêve?</seg>These <lb n="c56-0085__main__5"/>reflections determined me, and I resolved <lb n="c56-0085__main__6"/>to<seg part="I" xml:id="C13_app898-fMS__I">
+            <mdel ana="start"/>be<mdel ana="end"/>
+            <sga-add place="sublinear" xml:id="c56-0085__main__d5e18238">
+               <metamark ana="start" function="insert"/>^<metamark ana="end"/>
+            </sga-add>
+            </seg>
+            <sga-add place="superlinear" xml:id="c56-0085__main__d5e18244">
+               <seg part="F" xml:id="C13_app898-fMS__F">remain</seg>
+            </sga-add>silent. <milestone unit="tei:p-END"/>
+            <milestone unit="tei:p-START"/>
+            <lb n="c56-0085__main__7"/>It was about five in the morning when <lb n="c56-0085__main__8"/>I entered my<seg xml:id="C13_app900-fMS">fathers</seg>house. I told the<seg part="I" xml:id="C13_app902-fMS__I">servant </seg>
+            <sga-add hand="#pbs" place="intralinear" xml:id="c56-0085__main__d5e18255">
+               <seg part="F" xml:id="C13_app902-fMS__F">s</seg>
+            </sga-add>
+            <lb n="c56-0085__main__9"/>not to disturb the<seg xml:id="C13_app904-fMS">family <sga-add hand="#pbs" place="intralinear" xml:id="c56-0085__main__d5e18260">, </sga-add>
+            </seg>and went into <lb n="c56-0085__main__10"/>the library to attend their usual<seg xml:id="C13_app906-fMS">time</seg>of <lb n="c56-0085__main__11"/>rising.<seg xml:id="C13_app908-fMS">Five</seg>years had<seg xml:id="C13_app910-fMS">elapsed–passed</seg>as <lb n="c56-0085__main__12"/>a dream but for one indelible trace, and <lb n="c56-0085__main__13"/>I stood in the same place where I had last <lb n="c56-0085__main__14"/>embraced my father before my departure <lb n="c56-0085__main__15"/>for Ingolstadt. Beloved and<seg xml:id="C13_app912-fMS">respectable</seg>
+            <lb n="c56-0085__main__16"/>parent!<seg xml:id="C13_app914-fMS">His chair was before the reading <lb n="c56-0085__main__17"/>desk and a book open He still remained <lb n="c56-0085__main__18"/>to me. I gazed on</seg>
+            <seg xml:id="C13_app915-fMS">a</seg>picture of my<seg xml:id="C13_app917-fMS">mother</seg>
+            <lb n="c56-0085__main__19"/>which stood over the<seg xml:id="C13_app919-fMS">mantlepiece.</seg>It was <lb n="c56-0085__main__20"/>an historical<seg xml:id="C13_app921-fMS">piece</seg>painted<seg xml:id="C13_app923-fMS">to please</seg>my<seg xml:id="C13_app925-fMS">
+            <lb n="c56-0085__main__21"/>father</seg>and represented Caroline<seg xml:id="C13_app927-fMS">Beaumont</seg>
+            <lb n="c56-0085__main__22"/>in an agony of<seg xml:id="C13_app929-fMS">despair</seg>kneeling by the coffin <lb n="c56-0085__main__23"/>of her dead father. Her garb was<seg part="I" xml:id="C13_app931-fMS__I">rustic </seg>
+            <sga-add hand="#pbs" place="intralinear" xml:id="c56-0085__main__d5e18298">
+               <seg part="F" xml:id="C13_app931-fMS__F">,</seg>
+            </sga-add>&amp; her <lb n="c56-0085__main__24"/>cheek<seg xml:id="C13_app933-fMS">pale</seg>but there was an air of dignity <lb n="c56-0085__main__25"/>and<seg xml:id="C13_app935-fMS">beauty</seg>that hardly<seg part="I" xml:id="C13_app937-fMS__I">
+            <del ana="start" rend="strikethrough" xml:id="c56-0085__main__d5e18307"/>allowed of<del ana="end"/>
+            <sga-add place="sublinear" xml:id="c56-0085__main__d5e18310">
+               <metamark ana="start" function="insert"/>^<metamark ana="end"/>
+            </sga-add>
+            </seg>
+            <sga-add place="superlinear" xml:id="c56-0085__main__d5e18316">
+               <seg part="F" xml:id="C13_app937-fMS__F">permitted</seg>
+            </sga-add>the<seg part="I" xml:id="C13_app939-fMS__I">
+            <lb n="c56-0085__main__26"/>
+            <del ana="start" rend="strikethrough" xml:id="c56-0085__main__d5e18325"/>feeling<del ana="end"/>
+            </seg>
+            <sga-add hand="#pbs" place="superlinear" xml:id="c56-0085__main__d5e18328">
+               <seg part="F" xml:id="C13_app939-fMS__F">sentiment</seg>
+            </sga-add>of pity. Below this picture was a <lb n="c56-0085__main__27"/>miniature of<seg xml:id="C13_app941-fMS">William,</seg>and my tears <lb n="c56-0085__main__28"/>flowed when I<seg xml:id="C13_app943-fMS">look <sga-add place="intralinear" xml:id="c56-0085__main__d5e18336">ed </sga-add>
+            </seg>upon<seg xml:id="C13_app945-fMS">it—While</seg>I was <lb n="c56-0085__main__29"/>thus<seg xml:id="C13_app947-fMS">engaged</seg>Ernest<seg xml:id="C13_app949-fMS">entered–</seg>he had heard <lb n="c56-0085__main__30"/>me<seg xml:id="C13_app951-fMS">arrive</seg>and hastened to welcome me. <lb n="c56-0085__main__31"/>He expressed<seg xml:id="C13_app953-fMS">the greatest</seg>delight<seg xml:id="C13_app955-fMS">on seeing <lb n="c56-0085__main__32"/>me – "Welcome</seg>my dearest Victor," said<seg xml:id="C13_app957-fMS">he, <lb n="c56-0085__main__33"/>ah</seg>I wish you had come three<seg xml:id="C13_app959-fMS">
+            <del ana="start" rend="strikethrough" xml:id="c56-0085__main__d5e18350"/>weeks<del ana="end"/>
+            <lb n="c56-0086__main__1"/>months</seg>
+            <seg xml:id="C13_app960-fMS">ago</seg>and then you would have<seg xml:id="C13_app962-fMS">been <lb n="c56-0086__main__2"/>welcomed as you ought <lb n="c56-0086__left_margin__1"/>found <lb n="c56-0086__left_margin__2"/>us all</seg>
+            <seg xml:id="C13_app963-fMS">
+            <w ana="start"/>joy<lb n="c56-0086__left_margin__3"/>ous<w ana="end"/>&amp;<w ana="start"/>de<lb n="c56-0086__left_margin__4"/>lighted<w ana="end"/> –</seg>
+            <seg xml:id="C13_app964-fMS">But we are</seg>now<seg xml:id="C13_app966-fMS">
+            <lb n="c56-0086__main__3"/>
+            <del ana="start" rend="strikethrough" xml:id="c56-0086__main__d5e18400"/>all of us<del ana="end"/> so unhappy that</seg>
+            <seg xml:id="C13_app967-fMS">I am</seg>
+            <seg xml:id="C13_app968-fMS">afraid</seg>
+            <seg xml:id="C13_app969-fMS">
+            <lb n="c56-0086__main__4"/>tears instead of smiles</seg>
+            <seg part="I" xml:id="C13_app970-fMS__I">
+            <del ana="start" rend="strikethrough" xml:id="c56-0086__main__d5e18407"/>for<del ana="end"/>
+            <sga-add place="sublinear" xml:id="c56-0086__main__d5e18410">
+               <metamark ana="start" function="insert"/>^<metamark ana="end"/>
+            </sga-add>
+            </seg>
+            <sga-add place="superlinear" xml:id="c56-0086__main__d5e18416">
+               <seg part="F" xml:id="C13_app970-fMS__F">will be</seg>
+            </sga-add>your<seg part="I" xml:id="C13_app972-fMS__I">welcome <lb n="c56-0086__main__5"/>
+            <mdel ana="start"/>my<mdel ana="end"/>
+            </seg>
+            <sga-add place="sublinear" xml:id="c56-0086__main__d5e18427">
+               <seg part="F" xml:id="C13_app972-fMS__F">
+               <metamark ana="start" function="insert"/>^<metamark ana="end"/>
+               </seg>
+               <seg part="I" xml:id="C13_app973-fMS__I">
+               </seg>
+            </sga-add>
+            <sga-add place="superlinear" xml:id="c56-0086__main__d5e18433">
+               <seg part="F" xml:id="C13_app973-fMS__F">our</seg>
+               <seg part="I" xml:id="C13_app974-fMS__I">
+               </seg>
+            </sga-add>
+            <seg part="F" xml:id="C13_app974-fMS__F">father looks so</seg>
+            <seg xml:id="C13_app975-fMS">sorrowful and it</seg>
+            <seg xml:id="C13_app976-fMS">seems</seg>
+            <seg xml:id="C13_app977-fMS">
+            <lb n="c56-0086__main__6"/>to have revived in his mind</seg>
+            <seg xml:id="C13_app978-fMS">his</seg>
+            <seg xml:id="C13_app979-fMS">sorrow <lb n="c56-0086__main__7"/>for</seg>
+            <seg xml:id="C13_app980-fMS">the death of</seg>
+            <seg xml:id="C13_app981-fMS">Mamma and</seg>
+            <seg xml:id="C13_app982-fMS">poor</seg>
+            <seg xml:id="C13_app983-fMS">
+            <w ana="start"/>Eliza<lb n="c56-0086__main__8"/>beth<w ana="end"/>
+            </seg>
+            <seg xml:id="C13_app985-fMS">is quite inconsolable."</seg>
+            <seg xml:id="C13_app986-fMS">Ernest began <lb n="c56-0086__main__9"/>to weep as</seg>he<seg xml:id="C13_app988-fMS">said these words.</seg>
+            <milestone unit="tei:p-END"/>
+            <milestone unit="tei:p-START"/>
+            <seg xml:id="C13_app990-fMS">
+            <lb n="c56-0086__main__10"/>"Do</seg>
+            <seg xml:id="C13_app991-fMS">not <sga-add place="sublinear" xml:id="c56-0086__main__d5e18456">
+               <metamark ana="start" function="insert"/>^<metamark ana="end"/>
+            </sga-add>
+            <sga-add place="superlinear" xml:id="c56-0086__main__d5e18462">you" </sga-add>
+            </seg>
+            <seg xml:id="C13_app992-fMS">said</seg>
+            <seg xml:id="C13_app993-fMS">I," welcome</seg>
+            <seg xml:id="C13_app994-fMS">me thus; try <lb n="c56-0086__main__11"/>to be more</seg>
+            <seg part="I" xml:id="C13_app995-fMS__I">calm <del ana="start" rend="strikethrough" xml:id="c56-0086__main__d5e18469"/>and<del ana="end"/>
+            <del ana="start" rend="strikethrough" xml:id="c56-0086__main__d5e18474"/>not let <sga-add place="superlinear" xml:id="c56-0086__main__d5e18476">preveng </sga-add>
+            <del ana="end"/>
+            <del ana="start" rend="strikethrough" xml:id="c56-0086__main__d5e18481"/>m <mod xml:id="c56-0086__main__d5e18483">
+               <mdel ana="start"/>e<mdel ana="end"/>
+               <sga-add place="intralinear" xml:id="c56-0086__main__d5e18487">y </sga-add>
+            </mod> be <sga-add place="intralinear" xml:id="c56-0086__main__d5e18491">ing </sga-add>
+            <del ana="end"/>
+            <lb n="c56-0086__main__12"/>
+            </seg>
+            <sga-add hand="#pbs" place="superlinear" xml:id="c56-0086__main__d5e18497">
+               <seg part="F" xml:id="C13_app995-fMS__F">that</seg>I<seg part="I" xml:id="C13_app997-fMS__I">may not be </seg>
+            </sga-add>
+            <seg part="F" xml:id="C13_app997-fMS__F">absolutely miserable</seg>the<seg xml:id="C13_app999-fMS">moment I enter <lb n="c56-0086__main__13"/>my</seg>
+            <seg xml:id="C13_app1000-fMS">fathers</seg>
+            <seg xml:id="C13_app1001-fMS">house after so long an absence.</seg>
+            <seg xml:id="C13_app1002-fMS">
+            <lb n="c56-0086__main__14"/>But</seg>
+            <seg part="I" xml:id="C13_app1003-fMS__I">tell me, How </seg>
+            <sga-add hand="#pbs" place="superlinear" xml:id="c56-0086__main__d5e18507">
+               <seg part="F" xml:id="C13_app1003-fMS__F">does</seg>
+               <seg part="I" xml:id="C13_app1004-fMS__I">
+               </seg>
+            </sga-add>
+            <seg part="F" xml:id="C13_app1004-fMS__F">my</seg>
+            <seg xml:id="C13_app1005-fMS">father</seg>
+            <seg xml:id="C13_app1006-fMS">supports it <lb n="c56-0086__main__15"/>and if</seg>
+            <seg xml:id="C13_app1007-fMS">Elizabeth</seg>
+            <seg xml:id="C13_app1008-fMS">his</seg>
+            <seg xml:id="C13_app1009-fMS">
+            <del ana="start" rend="strikethrough" xml:id="c56-0086__main__d5e18517"/>f<del ana="end"/> misfortunes;</seg>
+            <seg xml:id="C13_app1010-fMS">and</seg>
+            <seg xml:id="C13_app1011-fMS">how <lb n="c56-0086__main__16"/>is</seg>
+            <seg xml:id="C13_app1012-fMS">my</seg>
+            <seg xml:id="C13_app1013-fMS">poor Elizabeth?"</seg>
+            <milestone unit="tei:p-END"/>
+            <milestone unit="tei:p-START"/>
+            <seg xml:id="C13_app1015-fMS">
+            <lb n="c56-0086__main__17"/>She</seg>
+            <seg xml:id="C13_app1016-fMS">indeed requires</seg>
+            <seg xml:id="C13_app1017-fMS">consolation," replied <lb n="c56-0086__main__18"/>Ernest–"</seg>She accused herself of having caused <lb n="c56-0086__main__19"/>the death of my<seg xml:id="C13_app1019-fMS">brother</seg>and that made <lb n="c56-0086__main__20"/>her<seg xml:id="C13_app1021-fMS">very, very</seg>
+            <seg xml:id="C13_app1022-fMS">wretched;</seg>but since the <lb n="c56-0086__main__21"/>murderer has been<seg xml:id="C13_app1024-fMS">discovered"——"</seg>
+            <milestone unit="tei:p-END"/>
+            <milestone unit="tei:p-START"/>
+            <lb n="c56-0086__main__22"/>"The murderer<seg xml:id="C13_app1026-fMS">discovered!" Exclaimed I– <lb n="c56-0086__main__23"/>"Good God</seg>how can that be? Who could <lb n="c56-0086__main__24"/>attempt to pursue him? It is<seg xml:id="C13_app1028-fMS">
+            <w ana="start"/>im<lb n="c56-0086__main__25"/>possible<w ana="end"/>,</seg>one might as well try to <lb n="c56-0086__main__26"/>overtake the<seg xml:id="C13_app1030-fMS">winds</seg>or confine a<seg xml:id="C13_app1032-fMS">
+            <lb n="c56-0086__main__27"/>mountain stream</seg>with a<seg xml:id="C13_app1034-fMS">straw!</seg>
+            <milestone unit="tei:p-END"/>
+            <milestone unit="tei:p-START"/>
+            <lb n="c56-0086__main__28"/>"I do not know what you<seg xml:id="C13_app1036-fMS">mean" replied <lb n="c56-0086__main__29"/>Ernest,</seg>
+            <seg xml:id="C13_app1037-fMS">But we were all very unhappy <lb n="c56-0086__main__30"/>when she was</seg>
+            <seg xml:id="C13_app1038-fMS">discovered–No</seg>one would<seg xml:id="C13_app1041-fMS">
+            <lb n="c56-0086__main__31"/>
+            <del ana="start" rend="strikethrough" xml:id="c56-0086__main__d5e18567"/>one<del ana="end"/> believe it at</seg>
+            <seg xml:id="C13_app1042-fMS">first</seg>and even now<lb n="c56-0087__main__1"/>
+            <sga-add place="sublinear" xml:id="c56-0087__main__d5e18582">
+               <seg part="I" xml:id="C13_app1044-fMS__I">
+               <metamark ana="start" function="insert"/>^<metamark ana="end"/>
+               </seg>
+            </sga-add>
+            <seg part="F" xml:id="C13_app1044-fMS__F">
+            <del ana="start" rend="strikethrough" xml:id="c56-0087__main__d5e18588"/>
+            <sga-add hand="#pbs" place="superlinear" xml:id="c56-0087__main__d5e18590">can </sga-add>
+            <del ana="end"/>
+            <lb n="c56-0087__left_margin__1"/>Elizabeth <lb n="c56-0087__left_margin__2"/>will</seg>
+            <seg xml:id="C13_app1045-fMS">
+            <del ana="start" rend="strikethrough" xml:id="c56-0087__main__d5e18607"/>Myrtella will<del ana="end"/> not be</seg>
+            <seg xml:id="C13_app1046-fMS">convinced notwith <lb n="c56-0087__main__2"/>standing</seg>all the evidence.<seg xml:id="C13_app1048-fMS">Indeed</seg>who<seg xml:id="C13_app1050-fMS">
+            <lb n="c56-0087__main__3"/>could have believed</seg>that Justine Moritz, <lb n="c56-0087__main__4"/>who was so<seg xml:id="C13_app1052-fMS">amiable</seg>and fond of all the<seg xml:id="C13_app1054-fMS">
+            <lb n="c56-0087__main__5"/>family</seg>could<seg xml:id="C13_app1056-fMS">all at once become</seg>so<seg xml:id="C13_app1058-fMS">
+            <lb n="c56-0087__main__6"/>extremely</seg>
+            <seg xml:id="C13_app1059-fMS">wicked."</seg>
+            <milestone unit="tei:p-END"/>
+            <milestone unit="tei:p-START"/>
+            <lb n="c56-0087__main__7"/>"Justine<seg xml:id="C13_app1061-fMS">Moritz!" cried I, <del ana="start" rend="strikethrough" xml:id="c56-0087__main__d5e18626"/>"im<del ana="end"/> "poor,</seg>poor<seg xml:id="C13_app1063-fMS">
+            <lb n="c56-0087__main__8"/>girl</seg>is she<seg xml:id="C13_app1065-fMS">then accused –</seg>but it is<seg xml:id="C13_app1067-fMS">
+            <lb n="c56-0087__main__9"/>wrongfully</seg>every one knows<seg xml:id="C13_app1069-fMS">that.</seg>No one<seg xml:id="C13_app1071-fMS">
+            <lb n="c56-0087__main__10"/>
+            <del ana="start" rend="strikethrough" xml:id="c56-0087__main__d5e18636"/>bell<del ana="end"/> believes</seg>
+            <seg xml:id="C13_app1072-fMS">it</seg>surely, Ernest?" <milestone unit="tei:p-END"/>
+            <milestone unit="tei:p-START"/>
+            <lb n="c56-0087__main__11"/>"No one did at<seg xml:id="C13_app1074-fMS">first," said my brother, <lb n="c56-0087__main__12"/>"but</seg>several<seg part="I" xml:id="C13_app1076-fMS__I">
+            <del ana="start" rend="strikethrough" xml:id="c56-0087__main__d5e18648"/>things<del ana="end"/>
+            <sga-add place="sublinear" xml:id="c56-0087__main__d5e18651">
+               <metamark ana="start" function="insert"/>^<metamark ana="end"/>
+            </sga-add>
+            </seg>
+            <sga-add place="superlinear" xml:id="c56-0087__main__d5e18657">
+               <seg part="F" xml:id="C13_app1076-fMS__F">circumstances</seg>
+            </sga-add>came out,<seg xml:id="C13_app1078-fMS">
+            <lb n="c56-0087__left_margin__1"/>will</seg>
+            <lb n="c56-0087__left_margin__2"/>forced <lb n="c56-0087__left_margin__3"/>conviction <lb n="c56-0087__left_margin__4"/>upon<seg xml:id="C13_app1080-fMS">us</seg>and her<seg xml:id="C13_app1082-fMS">
+            <lb n="c56-0087__main__13"/>"own</seg>behaviour<seg part="I" xml:id="C13_app1084-fMS__I">
+            <del ana="start" rend="strikethrough" xml:id="c56-0087__main__d5e18683"/>was so<del ana="end"/>
+            <sga-add place="sublinear" xml:id="c56-0087__main__d5e18686">
+               <metamark ana="start" function="insert"/>^<metamark ana="end"/>
+            </sga-add>
+            </seg>
+            <sga-add hand="#pbs" place="superlinear" xml:id="c56-0087__main__d5e18692">
+               <seg part="F" xml:id="C13_app1084-fMS__F">has been</seg>
+               <seg xml:id="C13_app1085-fMS">
+               <del ana="start" rend="strikethrough" xml:id="c56-0087__main__d5e18694"/>such<del ana="end"/> so</seg>
+               <seg part="I" xml:id="C13_app1086-fMS__I">
+               </seg>
+            </sga-add> confused <sga-add place="sublinear" xml:id="c56-0087__main__d5e18699">
+               <seg part="F" xml:id="C13_app1086-fMS__F">
+               <metamark ana="start" function="displacement" xml:id="c56-0087.05"/>^<metamark ana="end"/>
+               <lb n="c56-0087__left_margin__1"/>
+               <metamark ana="start" function="displacement"/>^<metamark ana="end"/>
+               <del ana="start" rend="strikethrough" xml:id="c56-0087__left_margin__d5e18713"/>and<del ana="end"/>
+               </seg>as <lb n="c56-0087__left_margin__2"/>to add <lb n="c56-0087__left_margin__3"/>to the evidence <lb n="c56-0087__left_margin__4"/>of facts <lb n="c56-0087__left_margin__5"/>a weight<seg xml:id="C13_app1088-fMS">
+               <lb n="c56-0087__left_margin__6"/>that</seg>I<seg xml:id="C13_app1090-fMS">
+               <lb n="c56-0087__left_margin__7"/>fear</seg>leaves <lb n="c56-0087__left_margin__8"/>no hope <lb n="c56-0087__left_margin__9"/>for<seg part="I" xml:id="C13_app1092-fMS__I">doubt: </seg>
+            </sga-add>
+            <seg part="F" xml:id="C13_app1092-fMS__F">
+            </seg>but she<seg xml:id="C13_app1094-fMS">
+            <lb n="c56-0087__main__14"/>"will</seg>tried<seg xml:id="C13_app1096-fMS">today</seg>and you will then hear<seg xml:id="C13_app1098-fMS">
+            <lb n="c56-0087__main__15"/>"all?" <milestone unit="tei:p-END"/>
+            <milestone unit="tei:p-START"/>
+            <lb n="c56-0087__main__16"/>He then related that after some <lb n="c56-0087__main__17"/>days of useless <del ana="start" rend="strikethrough" xml:id="c56-0087__main__d5e18752"/>e<del ana="end"/> search <del ana="start" rend="strikethrough" xml:id="c56-0087__main__d5e18755"/>t<del ana="end"/> one of the magis <lb n="c56-0087__main__18"/>trates <del ana="start" rend="strikethrough" xml:id="c56-0087__main__d5e18760"/>opened<del ana="end"/> waited on my father and <lb n="c56-0087__main__19"/>informed of his desire to <del ana="start" rend="strikethrough" xml:id="c56-0087__main__d5e18765"/>search &amp;<del ana="end"/> examine <lb n="c56-0087__main__20"/>the servants of the house –To this my <w ana="start"/>fa<lb n="c56-0087__main__21"/>ther<w ana="end"/> readily agreed being persuaded that <lb n="c56-0087__main__22"/>
+            <del ana="start" rend="strikethrough" xml:id="c56-0087__main__d5e18779"/>nothing<del ana="end"/>
+            <del ana="start" rend="strikethrough" xml:id="c56-0087__main__d5e18783"/>cou<del ana="end"/> all his domestics were <w ana="start"/>per<lb n="c56-0087__main__23"/>fectly<w ana="end"/> innocent. Justine had been <lb n="c56-0087__main__24"/>taken very ill the <del ana="start" rend="strikethrough" xml:id="c56-0087__main__d5e18794"/>day after<del ana="end"/> morning that <lb n="c56-0087__main__25"/>the murder of William had been discovered <lb n="c56-0087__main__26"/>and been obliged to confine herself to <lb n="c56-0087__main__27"/>
+            <del ana="start" rend="strikethrough" xml:id="c56-0087__main__d5e18804"/>her bed— Her apparel was exami<del ana="end"/>
+            </seg>
+            <milestone unit="tei:p-END"/>
+            <milestone unit="tei:p-START"/>
+            <lb n="c56-0087__main__28"/>He<seg xml:id="C13_app1100-fMS">
+            <del ana="start" rend="strikethrough" xml:id="c56-0087__main__d5e18814"/>then<del ana="end"/> related</seg>
+            <seg xml:id="C13_app1101-fMS">that</seg>the morning<seg part="I" xml:id="C13_app1103-fMS__I">
+            <lb n="c56-0087__main__29"/>
+            <del ana="start" rend="strikethrough" xml:id="c56-0087__main__d5e18821"/>after<del ana="end"/>
+            </seg>
+            <sga-add place="superlinear" xml:id="c56-0087__main__d5e18824">
+               <seg part="F" xml:id="C13_app1103-fMS__F">on which</seg>
+            </sga-add>the murder of poor William<seg xml:id="C13_app1105-fMS">
+            <lb n="c56-0087__main__30"/>
+            <del ana="start" rend="strikethrough" xml:id="c56-0087__main__d5e18830"/>h<del ana="end"/> ad</seg>been<seg xml:id="C13_app1107-fMS">discovered <del ana="start" rend="strikethrough" xml:id="c56-0087__main__d5e18834"/>Justine o<del ana="end"/> on the <lb n="c56-0087__main__31"/>bod</seg>Justine had been taken<seg xml:id="C13_app1109-fMS">ill</seg>and <lb n="c56-0087__main__32"/>confined to her<seg xml:id="C13_app1111-fMS">bed, and</seg>
+            <seg xml:id="C13_app1112-fMS">after</seg>
+            <seg xml:id="C13_app1113-fMS">several<lb n="c56-0088__main__1"/>days</seg>one of the<seg xml:id="C13_app1116-fMS">servants happen <del ana="start" rend="overwritten" xml:id="c56-0088__main__d5e18857"/>
+            <mod xml:id="c56-0088__main__d5e18859">
+               <mdel ana="start"/>s<mdel ana="end"/>
+               <sga-add place="intralinear" xml:id="c56-0088__main__d5e18863">ed </sga-add>
+               <mdel/>
+            </mod>
+            <del ana="end"/>
+            <sga-add hand="#pbs" place="intralinear" xml:id="c56-0088__main__d5e18874">ing </sga-add>
+            </seg>to <lb n="c56-0088__main__2"/>examine the apparel she had worn on <lb n="c56-0088__main__3"/>the night of the<seg xml:id="C13_app1118-fMS">murder <del ana="start" rend="strikethrough" xml:id="c56-0088__main__d5e18882"/>&amp;<del ana="end"/> h <del ana="start" rend="overwritten" xml:id="c56-0088__main__d5e18888"/>
+            <unclear ana="start"/>ard<unclear ana="end"/>
+            <del ana="end"/>
+            <sga-add hand="#pbs" place="intralinear" xml:id="c56-0088__main__d5e18893">ad </sga-add>
+            </seg>discovered <lb n="c56-0088__main__4"/>in her pocket the picture of my<seg xml:id="C13_app1120-fMS">mother</seg>
+            <lb n="c56-0088__main__5"/>which had been judged to be the <w ana="start"/>tempta<lb n="c56-0088__main__6"/>tion of the murderer<w ana="end"/>. The servant instantly<seg xml:id="C13_app1122-fMS">
+            <lb n="c56-0088__main__7"/>shewed</seg>it to one of the others,<seg xml:id="C13_app1124-fMS">
+            <del ana="start" rend="strikethrough" xml:id="c56-0088__main__d5e18912"/>and<del ana="end"/>
+            <sga-add hand="#pbs" place="superlinear" xml:id="c56-0088__main__d5e18915">who </sga-add>
+            </seg>without <lb n="c56-0088__main__8"/>saying a word to any of the<seg xml:id="C13_app1126-fMS">family <del ana="start" rend="strikethrough" xml:id="c56-0088__main__d5e18921"/>they<del ana="end"/>
+            </seg>
+            <lb n="c56-0088__main__9"/>went to a<seg xml:id="C13_app1128-fMS">magistrate who sent to <w ana="start"/>appre<lb n="c56-0088__main__10"/>hend<w ana="end"/> Justine. <del ana="start" rend="strikethrough" xml:id="c56-0088__main__d5e18933"/>who<del ana="end"/>
+            </seg>on being charged with <lb n="c56-0088__main__11"/>the<seg xml:id="C13_app1130-fMS">fact <sga-add place="superlinear" xml:id="c56-0088__main__d5e18938">she </sga-add>
+            </seg>confirmed the suspicion<seg xml:id="C13_app1132-fMS">
+            <del ana="start" rend="strikethrough" xml:id="c56-0088__main__d5e18941"/>to<del ana="end"/>
+            <lb n="c56-0088__main__12"/>
+            <del ana="start" rend="strikethrough" xml:id="c56-0088__main__d5e18947"/>a<del ana="end"/> in a great measure by her extreme</seg>
+            <seg xml:id="C13_app1133-fMS">
+            <lb n="c56-0088__main__13"/>confusion.</seg>
+            <milestone unit="tei:p-END"/>
+            <milestone unit="tei:p-START"/>
+            <lb n="c56-0088__main__14"/>This was a strange<seg xml:id="C13_app1135-fMS">tale</seg>but it did <lb n="c56-0088__main__15"/>not shake my<seg xml:id="C13_app1137-fMS">faith</seg>and I replied<seg xml:id="C13_app1139-fMS">
+            <w ana="start"/>earnest<lb n="c56-0088__main__16"/>ly<w ana="end"/>.</seg>"You are all<seg xml:id="C13_app1141-fMS">mistaken.</seg>I know the<seg xml:id="C13_app1143-fMS">
+            <lb n="c56-0088__main__17"/>murderer</seg>Justine, poor, good<seg xml:id="C13_app1145-fMS">Justine</seg>is <lb n="c56-0088__main__18"/>innocent." <milestone unit="tei:p-END"/>
+            <milestone unit="tei:p-START"/>
+            <lb n="c56-0088__main__19"/>At that instant my father<seg xml:id="C13_app1147-fMS">
+            <w ana="start"/>en<lb n="c56-0088__main__20"/>tered<w ana="end"/>
+            <del ana="start" rend="strikethrough" xml:id="c56-0088__main__d5e18982"/>
+            <sga-add place="superlinear" xml:id="c56-0088__main__d5e18984">
+               <metamark ana="start" function="displacement" xml:id="c56-0088.01"/>X<metamark ana="end"/>
+               <zone corresp="#c56-0088.01" type="left_margin" xml:id="c56-0088__left_margin">
+                  <delSpan rend="vertical_line" spanTo="#c56-0088.03"/>
+                  <addSpan hand="#pbs" spanTo="#c56-0088.02"/>
+                  <lb n="c56-0088__left_margin__1"/>After our <lb n="c56-0088__left_margin__2"/>first <lb n="c56-0088__left_margin__3"/>mournful <lb n="c56-0088__left_margin__4"/>greetings <lb n="c56-0088__left_margin__5"/>had past <lb n="c56-0088__left_margin__6"/>I <anchor xml:id="c56-0088.02"/>
+                  <anchor xml:id="c56-0088.03"/>
+               </zone>
+            </sga-add>
+            <del ana="end"/>
+            <del ana="start" rend="strikethrough" xml:id="c56-0088__main__d5e19018"/>and<del ana="end"/>
+            </seg>Ernest<seg xml:id="C13_app1149-fMS">exclaimed Good</seg>God, <w ana="start"/>Pa<lb n="c56-0088__main__21"/>pa<w ana="end"/>! Victor says that he<seg xml:id="C13_app1151-fMS">
+            <del ana="start" rend="strikethrough" xml:id="c56-0088__main__d5e19028"/>ha <mod xml:id="c56-0088__main__d5e19030">
+               <mdel ana="start"/>d<mdel ana="end"/>
+               <sga-add place="intralinear" xml:id="c56-0088__main__d5e19034">s </sga-add>
+            </mod>
+            <del ana="end"/>
+            <del ana="start" rend="strikethrough" xml:id="c56-0088__main__d5e19039"/>k<del ana="end"/> knows</seg>
+            <lb n="c56-0088__main__22"/>the murderer of poor<seg xml:id="C13_app1153-fMS">William.</seg>
+            <milestone unit="tei:p-END"/>
+            <milestone unit="tei:p-START"/>
+            <seg xml:id="C13_app1155-fMS">
+            <lb n="c56-0088__main__23"/>" <del ana="start" rend="strikethrough" xml:id="c56-0088__main__d5e19049"/>And<del ana="end"/> We</seg>do also, unfortunately," replied my<seg xml:id="C13_app1157-fMS">
+            <lb n="c56-0088__main__24"/>father for</seg>indeed I had rather have <lb n="c56-0088__main__25"/>been<seg part="I" xml:id="C13_app1159-fMS__I">
+            <sga-add place="sublinear" xml:id="c56-0088__main__d5e19058">
+               <metamark ana="start" function="insert"/>^<metamark ana="end"/>
+            </sga-add>
+            </seg>
+            <sga-add place="superlinear" xml:id="c56-0088__main__d5e19064">
+               <seg part="F" xml:id="C13_app1159-fMS__F">for ever</seg>
+            </sga-add>ignorant<seg xml:id="C13_app1161-fMS">than,</seg>have discovered so <lb n="c56-0088__main__26"/>much depravity &amp; ingratitude in one<seg xml:id="C13_app1163-fMS">whom <lb n="c56-0088__main__27"/>I valued so</seg>
+            <seg xml:id="C13_app1164-fMS">highly.</seg>
+            <milestone unit="tei:p-END"/>
+            <milestone unit="tei:p-START"/>
+            <lb n="c56-0088__main__28"/>"My dear<seg xml:id="C13_app1166-fMS">father" exclaimed I–"You</seg>are<seg xml:id="C13_app1168-fMS">
+            <lb n="c56-0088__main__29"/>mistaken.</seg>Justine is innocent." <milestone unit="tei:p-END"/>
+            <milestone unit="tei:p-START"/>
+            <lb n="c56-0088__main__30"/>"If she<seg xml:id="C13_app1170-fMS">is" replied my father "God forbid<lb n="c56-0089__main__1"/>that</seg>she should suffer as<seg xml:id="C13_app1172-fMS">
+            <del ana="start" rend="strikethrough" xml:id="c56-0089__main__d5e19095"/>innocent<del ana="end"/>
+            <lb n="c56-0089__main__2"/>guilty –</seg>She is to be tried<seg xml:id="C13_app1174-fMS">today</seg>and I<seg xml:id="C13_app1176-fMS">hope</seg>I <lb n="c56-0089__main__3"/>sincerely<seg xml:id="C13_app1178-fMS">hope</seg>that she will be<seg xml:id="C13_app1180-fMS">acquitted</seg>
+            <milestone unit="tei:p-END"/>
+            <milestone unit="tei:p-START"/>
+            <lb n="c56-0089__main__4"/>This speech calmed me. I was firmly <w ana="start"/>con<lb n="c56-0089__main__5"/>vinced<w ana="end"/> in my own mind that<seg xml:id="C13_app1182-fMS">Justine</seg>and <lb n="c56-0089__main__6"/>indeed every human<seg xml:id="C13_app1184-fMS">being</seg>was guiltless of <lb n="c56-0089__main__7"/>this murder. I had no<seg xml:id="C13_app1186-fMS">fear therefore</seg>
+            <lb n="c56-0089__main__8"/>that any circumstantial evidence could <lb n="c56-0089__main__9"/>be brought forward strong enough to <lb n="c56-0089__main__10"/>convict<seg xml:id="C13_app1188-fMS">her and</seg>
+            <seg xml:id="C13_app1189-fMS">in this</seg>
+            <seg xml:id="C13_app1190-fMS">assurance</seg>
+            <seg xml:id="C13_app1191-fMS">I calmed</seg>
+            <seg xml:id="C13_app1192-fMS">
+            <lb n="c56-0089__main__11"/>myself</seg>
+            <seg xml:id="C13_app1193-fMS">expecting the trial with</seg>
+            <seg xml:id="C13_app1194-fMS">eagerness</seg>
+            <seg xml:id="C13_app1195-fMS">
+            <lb n="c56-0089__main__12"/>but without prognosticating an evil <lb n="c56-0089__main__13"/>result.</seg>
+            <seg xml:id="C13_app1196-fMS">
+            <lb n="c56-0089__main__14"/>
+            <metamark ana="start" function="separate"/>_____________________<metamark ana="end"/>
+            <lb n="c56-0089__main__15"/>
+            <metamark ana="start" function="displacement"/>
+            <metamark ana="end"/> I saw unhappiness deeply impressed <lb n="c56-0089__main__16"/>
+            <del ana="start" rend="strikethrough" xml:id="c56-0089__main__d5e19149"/>co<del ana="end"/> on his countenance but he <w ana="start"/>endea<lb n="c56-0089__main__17"/>voured<w ana="end"/> to welcome me cheerfully <lb n="c56-0089__main__18"/>and <lb n="c56-0089__left_margin__1"/>
+            <sga-add hand="#pbs" xml:id="c56-0089__left_margin__d5e19167">he </sga-add>
+            <sga-add place="sublinear" xml:id="c56-0089__main__d5e19173">
+               <metamark ana="start" function="insert"/>^<metamark ana="end"/>
+            </sga-add>
+            <sga-add hand="#pbs" place="superlinear" xml:id="c56-0089__main__d5e19179">after <del ana="start" rend="strikethrough" xml:id="c56-0089__main__d5e19183"/>our<del ana="end"/>
+               <sga-add hand="#pbs" place="superlinear" xml:id="c56-0089__main__d5e19186">we </sga-add>
+               <del ana="start" rend="strikethrough" xml:id="c56-0089__main__d5e19190"/>mournful<del ana="end"/> had exchanged our mournful greetings </sga-add> would have spoken on some <lb n="c56-0089__main__19"/>other topic than that of our disaster <lb n="c56-0089__main__20"/>had not <lb n="c56-0090__main__1"/>
+            <milestone spanTo="#c56-0090.03" unit="tei:head"/> Chap. 11 <milestone unit="tei:p-END"/>
+            <milestone unit="tei:p-START"/>
+            <lb n="c56-0090__main__2"/>We were soon joined</seg>
+            <seg part="I" xml:id="C13_app1197-fMS__I">
+            <mdel ana="start"/>By<mdel ana="end"/>
+            <sga-add place="sublinear" xml:id="c56-0090__main__d5e19224">
+               <metamark ana="start" function="insert"/>^<metamark ana="end"/>
+            </sga-add>
+            </seg>
+            <sga-add place="superlinear" xml:id="c56-0090__main__d5e19230">
+               <seg part="F" xml:id="C13_app1197-fMS__F">by</seg>
+               <seg part="I" xml:id="C13_app1198-fMS__I">
+               </seg>
+            </sga-add>
+            <seg part="F" xml:id="C13_app1198-fMS__F">
+            </seg>
+            <seg xml:id="C13_app1199-fMS">Elizabeth. Time <lb n="c56-0090__main__3"/>had made great alterations in her form since <lb n="c56-0090__main__4"/>I had last beheld her.</seg>
+            <seg xml:id="C13_app1200-fMS">Five</seg>
+            <seg xml:id="C13_app1201-fMS">years</seg>
+            <seg xml:id="C13_app1202-fMS">
+            <del ana="start" rend="strikethrough" xml:id="c56-0090__main__d5e19238"/>ago<del ana="end"/> before <lb n="c56-0090__main__5"/>she</seg>
+            <seg xml:id="C13_app1203-fMS">was</seg>
+            <seg xml:id="C13_app1204-fMS">a pretty,</seg>
+            <seg xml:id="C13_app1205-fMS">good humoured girl with an <lb n="c56-0090__main__6"/>understanding above her years</seg>
+            <seg xml:id="C13_app1206-fMS">Whom every <lb n="c56-0090__main__7"/>one</seg>
+            <seg xml:id="C13_app1207-fMS">loved,</seg>and<seg xml:id="C13_app1209-fMS">
+            <del ana="start" rend="strikethrough" xml:id="c56-0090__main__d5e19254"/>humoured<del ana="end"/>
+            <sga-add place="superlinear" xml:id="c56-0090__main__d5e19257">caressed </sga-add> .</seg>
+            <seg xml:id="C13_app1210-fMS">She was now a woman <lb n="c56-0090__main__8"/>in stature and expression of</seg>
+            <seg xml:id="C13_app1211-fMS">countenance</seg>
+            <seg xml:id="C13_app1212-fMS">
+            <lb n="c56-0090__main__9"/>which was uncommonly</seg>
+            <seg xml:id="C13_app1213-fMS">lovely —</seg>
+            <seg xml:id="C13_app1214-fMS">An open</seg>
+            <seg xml:id="C13_app1215-fMS">&amp;<lb n="c56-0090__main__10"/>capacious for <sga-add place="sublinear" xml:id="c56-0090__main__d5e19270">
+               <metamark ana="start" function="insert"/>^<metamark ana="end"/>
+            </sga-add>
+            <sga-add place="superlinear" xml:id="c56-0090__main__d5e19276">e </sga-add> head</seg>
+            <seg xml:id="C13_app1216-fMS">gave indications of a good</seg>
+            <seg xml:id="C13_app1217-fMS">
+            <lb n="c56-0090__main__11"/>understanding</seg>
+            <seg xml:id="C13_app1218-fMS">joined to great</seg>
+            <seg xml:id="C13_app1219-fMS">frankness.</seg>Her<seg xml:id="C13_app1221-fMS">
+            <lb n="c56-0090__main__12"/>eyes were</seg>
+            <seg xml:id="C13_app1222-fMS">hazel</seg>
+            <seg xml:id="C13_app1223-fMS">and</seg>
+            <seg part="I" xml:id="C13_app1224-fMS__I">very soft now through <lb n="c56-0090__main__13"/>recent affliction they expressed sorrow. Her <lb n="c56-0090__main__14"/>smile had som express <mdel ana="start"/>ed<mdel ana="end"/>
+            <sga-add place="intralinear" xml:id="c56-0090__main__d5e19297">ive </sga-add>
+            <del ana="start" rend="strikethrough" xml:id="c56-0090__main__d5e19303"/>great<del ana="end"/>
+            </seg>
+            <sga-add place="sublinear" xml:id="c56-0090__main__d5e19306">
+               <seg part="F" xml:id="C13_app1224-fMS__F">
+               <metamark ana="start" function="insert"/>^<metamark ana="end"/>
+               </seg>
+            </sga-add>
+            <sga-add place="superlinear" xml:id="c56-0090__main__d5e19312">of<seg part="I" xml:id="C13_app1226-fMS__I">uncommon </seg>
+            </sga-add>
+            <seg part="F" xml:id="C13_app1226-fMS__F"> mildness</seg>
+            <seg xml:id="C13_app1227-fMS">now</seg>
+            <seg xml:id="C13_app1228-fMS">
+            <lb n="c56-0090__main__15"/>through recent</seg>
+            <seg xml:id="C13_app1229-fMS">affliction</seg>
+            <seg xml:id="C13_app1230-fMS">allied to</seg>
+            <seg xml:id="C13_app1231-fMS">sadness–</seg>
+            <seg xml:id="C13_app1232-fMS">
+            <lb n="c56-0090__main__16"/>Her hair was of a rich</seg>
+            <seg part="I" xml:id="C13_app1233-fMS__I">
+            <sga-add place="sublinear" xml:id="c56-0090__main__d5e19323">
+               <metamark ana="start" function="insert"/>^<metamark ana="end"/>
+            </sga-add>
+            </seg>
+            <sga-add place="superlinear" xml:id="c56-0090__main__d5e19329">
+               <seg part="F" xml:id="C13_app1233-fMS__F">dark</seg>
+               <seg part="I" xml:id="C13_app1234-fMS__I">
+               </seg>
+            </sga-add> auburn <sga-add place="sublinear" xml:id="c56-0090__main__d5e19335">
+               <seg part="F" xml:id="C13_app1234-fMS__F">
+               <metamark ana="start" function="insert"/>^<metamark ana="end"/>
+               </seg>
+               <seg part="I" xml:id="C13_app1235-fMS__I">
+               </seg>
+            </sga-add>
+            <sga-add place="superlinear" xml:id="c56-0090__main__d5e19341">
+               <seg part="F" xml:id="C13_app1235-fMS__F">her complexion</seg>
+               <seg part="I" xml:id="C13_app1236-fMS__I">fair </seg>
+            </sga-add>
+            <seg part="F" xml:id="C13_app1236-fMS__F">
+            </seg>
+            <seg xml:id="C13_app1237-fMS">and her <lb n="c56-0090__main__17"/>figure</seg>
+            <seg xml:id="C13_app1238-fMS">sli <mdel ana="start"/>m<mdel ana="end"/>
+            <sga-add hand="#pbs" place="intralinear" xml:id="c56-0090__main__d5e19351">ght </sga-add>
+            </seg>and<seg xml:id="C13_app1240-fMS">graceful.</seg>She<seg xml:id="C13_app1242-fMS">
+            <del ana="start" rend="strikethrough" xml:id="c56-0090__main__d5e19355"/>embraced<del ana="end"/>
+            <lb n="c56-0090__main__18"/>
+            <del ana="start" rend="strikethrough" xml:id="c56-0090__main__d5e19361"/>w<del ana="end"/>
+            <del ana="start" rend="strikethrough" xml:id="c56-0090__main__d5e19364"/>me with<del ana="end"/> welcomed me with the greatest</seg>
+            <seg xml:id="C13_app1243-fMS">
+            <lb n="c56-0090__main__19"/>affection</seg>"Your arrival, my<seg xml:id="C13_app1245-fMS">
+            <del ana="start" rend="strikethrough" xml:id="c56-0090__main__d5e19371"/>best<del ana="end"/>
+            <sga-add place="superlinear" xml:id="c56-0090__main__d5e19374">dearest </sga-add>
+            </seg>cousin," <lb n="c56-0090__main__20"/>said she,<seg xml:id="C13_app1247-fMS">
+            <del ana="start" rend="strikethrough" xml:id="c56-0090__main__d5e19380"/>give<del ana="end"/> "fills me with hope. You <lb n="c56-0090__main__21"/>perhaps will find</seg>
+            <seg xml:id="C13_app1248-fMS">out some means to <lb n="c56-0090__main__22"/>justify my poor</seg>
+            <seg part="I" xml:id="C13_app1249-fMS__I">
+            <del ana="start" rend="strikethrough" xml:id="c56-0090__main__d5e19390"/>innocent<del ana="end"/>
+            <sga-add place="sublinear" xml:id="c56-0090__main__d5e19393">
+               <metamark ana="start" function="insert"/>^<metamark ana="end"/>
+            </sga-add>
+            </seg>
+            <sga-add place="superlinear" xml:id="c56-0090__main__d5e19399">
+               <seg part="F" xml:id="C13_app1249-fMS__F">guiltless</seg>
+            </sga-add>Justine.<seg xml:id="C13_app1251-fMS">Alas</seg>
+            <lb n="c56-0090__main__23"/>Who is<seg xml:id="C13_app1253-fMS">safe is</seg>she<seg xml:id="C13_app1255-fMS">were</seg>convicted<seg part="I" xml:id="C13_app1257-fMS__I">
+            <sga-add place="sublinear" xml:id="c56-0090__main__d5e19407">
+               <metamark ana="start" function="insert"/>^<metamark ana="end"/>
+            </sga-add>
+            </seg>
+            <sga-add hand="#pbs" place="superlinear" xml:id="c56-0090__main__d5e19413">
+               <seg part="F" xml:id="C13_app1257-fMS__F">of crime?</seg>
+               <seg part="I" xml:id="C13_app1258-fMS__I">
+               </seg>
+            </sga-add>
+            <seg part="F" xml:id="C13_app1258-fMS__F">
+            <del ana="start" rend="strikethrough" xml:id="c56-0090__main__d5e19416"/>for<del ana="end"/>
+            <lb n="c56-0090__main__24"/>I</seg>
+            <seg xml:id="C13_app1259-fMS">
+            <del ana="start" rend="strikethrough" xml:id="c56-0090__main__d5e19423"/>belie<del ana="end"/> rely on</seg>
+            <seg xml:id="C13_app1260-fMS">
+            <del ana="start" rend="strikethrough" xml:id="c56-0090__main__d5e19426"/>her<del ana="end"/> her innocence as <w ana="start"/>cer<lb n="c56-0090__main__25"/>tainly<w ana="end"/> as I do</seg>
+            <mdel ana="start"/>on<mdel ana="end"/>
+            <sga-add hand="#pbs" place="intralinear" xml:id="c56-0090__main__d5e19439">upon</sga-add>my own. <sga-add place="superlinear" xml:id="c56-0090__main__d5e19444">Our </sga-add>Misfortune is <lb n="c56-0090__main__26"/>doubly hard to<seg xml:id="C13_app1263-fMS">us. <mdel ana="start"/>I<mdel ana="end"/>
+            </seg>
+            <sga-add place="superlinear" xml:id="c56-0090__main__d5e19453">We</sga-add>have not only lost <lb n="c56-0090__main__27"/>that lovely darling<seg xml:id="C13_app1266-fMS">boy</seg>but this poor<seg xml:id="C13_app1268-fMS">girl</seg>
+            <lb n="c56-0090__main__28"/>whom I sincerely love, is to be<seg xml:id="C13_app1270-fMS">torn<lb n="c56-0091__Pt1__main__1"/>away</seg>by even a worse<seg xml:id="C13_app1272-fMS">fate – Alas</seg>if she <lb n="c56-0091__Pt1__main__2"/>is<seg xml:id="C13_app1274-fMS">condemned</seg>I<seg xml:id="C13_app1276-fMS">shall never</seg>know joy<seg xml:id="C13_app1279-fMS">more</seg>
+            <lb n="c56-0091__Pt1__main__3"/>But she will<seg xml:id="C13_app1281-fMS">not</seg>I am sure she will<seg xml:id="C13_app1283-fMS">
+            <lb n="c56-0091__Pt1__main__4"/>not</seg>and then I shall be happy<seg xml:id="C13_app1285-fMS">again</seg>even <lb n="c56-0091__Pt1__main__5"/>after the<seg xml:id="C13_app1287-fMS">
+            <del ana="start" rend="strikethrough" xml:id="c56-0091__Pt1__main__d5e19480"/>d<del ana="end"/> sad death of my little William." <milestone unit="tei:p-END"/>
+            <milestone unit="tei:p-START"/>
+            <lb n="c56-0091__Pt1__main__6"/>"She is innocent, my Elizabeth," said</seg>
+            <seg xml:id="C13_app1288-fMS">I and</seg>
+            <lb n="c56-0091__Pt1__main__7"/>that shall be<seg xml:id="C13_app1290-fMS">proved –</seg>fear<seg xml:id="C13_app1292-fMS">nothing</seg>but let <lb n="c56-0091__Pt1__main__8"/>your spirits be cheered by the assurance <lb n="c56-0091__Pt1__main__9"/>of her<seg xml:id="C13_app1294-fMS">aquittal.</seg>
+            <milestone unit="tei:p-END"/>
+            <milestone unit="tei:p-START"/>
+            <lb n="c56-0091__Pt1__main__10"/>"How kind<seg xml:id="C13_app1296-fMS">your are," replied Elizabeth, <lb n="c56-0091__Pt1__main__11"/>"every</seg>one else believes in her guilt, and <lb n="c56-0091__Pt1__main__12"/>that made me<seg xml:id="C13_app1299-fMS">wretched for I would as <lb n="c56-0091__Pt1__main__13"/>surely believe in my</seg>for I knew<seg part="I" xml:id="C13_app1301-fMS__I">it to <lb n="c56-0091__Pt1__main__14"/>be </seg>
+            <sga-add hand="#pbs" place="superlinear" xml:id="c56-0091__Pt1__main__d5e19515">
+               <seg part="F" xml:id="C13_app1301-fMS__F">that it was</seg>
+               <seg part="I" xml:id="C13_app1302-fMS__I">
+               </seg>
+            </sga-add>
+            <seg part="F" xml:id="C13_app1302-fMS__F"> impossible,</seg>and to see every one else <lb n="c56-0091__Pt1__main__15"/>prejudiced in so deadly a<seg xml:id="C13_app1304-fMS">manner</seg>rendered <lb n="c56-0091__Pt1__main__16"/>me hopeless and despairing." She<seg xml:id="C13_app1306-fMS">wept—</seg>
+            <seg xml:id="C13_app1307-fMS">
+            <lb n="c56-0091__Pt1__main__17"/>"Sweet</seg>
+            <seg xml:id="C13_app1308-fMS">niece"</seg>said my<seg xml:id="C13_app1310-fMS">father dry</seg>your<seg xml:id="C13_app1312-fMS">
+            <lb n="c56-0091__Pt1__main__18"/>
+            <del ana="start" instant="true" rend="strikethrough" xml:id="c56-0091__Pt1__main__d5e19529"/>eyes<del ana="end"/> tears and do not give so sad <sga-add place="superlinear" xml:id="c56-0091__Pt1__main__d5e19535">sorrowful </sga-add> a welc- <lb n="c56-0091__Pt1__main__19"/>come to Victor who has been so long <lb n="c56-0091__Pt1__main__20"/>absent</seg>if she<seg xml:id="C13_app1314-fMS">is</seg>as you<seg xml:id="C13_app1316-fMS">believe innocent</seg>rely<seg xml:id="C13_app1318-fMS">
+            <del ana="start" rend="strikethrough" xml:id="c56-0091__Pt1__main__d5e19546"/>that<del ana="end"/>
+            <lb n="c56-0091__Pt1__main__21"/>on the justice of our</seg>
+            <seg xml:id="C13_app1319-fMS">judges</seg>&amp; the activity with <lb n="c56-0091__Pt1__main__22"/>which I shall prevent the slightest shadow of<seg xml:id="C13_app1321-fMS">partiality.</seg>
+         </div>
+      </body>
+   </text>
+</TEI>

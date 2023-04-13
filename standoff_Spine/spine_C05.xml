@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
-     xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-     xmlns:mith="http://mith.umd.edu/sc/ns1#"
-     xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse">
+      xmlns:mith="http://mith.umd.edu/sc/ns1#"
+      xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
+      xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -17,285 +17,334 @@
             </availability>
          </publicationStmt>
          <sourceDesc xmlns:cx="http://interedition.eu/collatex/ns/1.0">
-            <p>Produced from collation output prepared in batch file processing on  2018-10-03 19:23:51.102012 .</p>
-            <p>Edited to correct alignments and prepared for the Frankenstein Variorum spine on  2020-01-02T22:33:56.362-05:00.</p>
+            <p>Produced from collation output prepared in batch file processing
+                                    on  2023-04-11 22:16:34.358656 .</p>
+            <p>Edited to correct alignments and prepared for the Frankenstein
+                                    Variorum spine on 2023-04-12T11:54:43.688048-04:00.</p>
          </sourceDesc>
       </fileDesc>
    </teiHeader>
    <text>
       <body>
          <ab type="alignmentChunk">
-            <app xml:id="C05_app1" n="0">
-               <rdgGrp xml:id="C05_app1_rg1" n="['']">
-                  <rdg wit="#fMS"/>
+            <app xml:id="C05_app6" n="">
+               <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
+                        n="['it', '&lt;addedthomas-start/&gt;in writing&lt;addedthomas-end/&gt;', ',']"
+                        xml:id="C05_app6_rg1">
+                  <rdg wit="#fThomas">
+                     <ptr target="https://raw.githubusercontent.com/PghFrankenstein/fv-data/master/variorum-chunks/fThomas_C05.xml#C05_app6-fThomas"/>
+                  </rdg>
                </rdgGrp>
-               <rdgGrp xml:id="C05_app1_rg2"
-                       n="['letter', 'iv.to', 'mrs.', 'saville,', 'england.&lt;p/&gt;august', '5th,', '17—.&lt;p/&gt;&lt;p/&gt;so', 'strange', 'an', 'accident', 'has', 'happened', 'to', 'us,', 'that', 'i', 'cannot', 'forbear', 'recording']">
+               <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
+                        n="['it,']"
+                        xml:id="C05_app6_rg2">
                   <rdg wit="#f1818">
-                     <ptr target="https://raw.githubusercontent.com/PghFrankenstein/fv-data/master/variorum-chunks/f1818_C05.xml#C05_app1-f1818__I"/>
-                     <ptr target="https://raw.githubusercontent.com/PghFrankenstein/fv-data/master/variorum-chunks/f1818_C05.xml#C05_app1-f1818__F"/>
+                     <ptr target="https://raw.githubusercontent.com/PghFrankenstein/fv-data/master/variorum-chunks/f1818_C05.xml#C05_app6-f1818"/>
                   </rdg>
                   <rdg wit="#f1823">
-                     <ptr target="https://raw.githubusercontent.com/PghFrankenstein/fv-data/master/variorum-chunks/f1823_C05.xml#C05_app1-f1823__I"/>
-                     <ptr target="https://raw.githubusercontent.com/PghFrankenstein/fv-data/master/variorum-chunks/f1823_C05.xml#C05_app1-f1823__F"/>
-                  </rdg>
-                  <rdg wit="#fThomas">
-                     <ptr target="https://raw.githubusercontent.com/PghFrankenstein/fv-data/master/variorum-chunks/fThomas_C05.xml#C05_app1-fThomas__I"/>
-                     <ptr target="https://raw.githubusercontent.com/PghFrankenstein/fv-data/master/variorum-chunks/fThomas_C05.xml#C05_app1-fThomas__F"/>
+                     <ptr target="https://raw.githubusercontent.com/PghFrankenstein/fv-data/master/variorum-chunks/f1823_C05.xml#C05_app6-f1823"/>
                   </rdg>
                   <rdg wit="#f1831">
-                     <ptr target="https://raw.githubusercontent.com/PghFrankenstein/fv-data/master/variorum-chunks/f1831_C05.xml#C05_app1-f1831__I"/>
-                     <ptr target="https://raw.githubusercontent.com/PghFrankenstein/fv-data/master/variorum-chunks/f1831_C05.xml#C05_app1-f1831__F"/>
+                     <ptr target="https://raw.githubusercontent.com/PghFrankenstein/fv-data/master/variorum-chunks/f1831_C05.xml#C05_app6-f1831"/>
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C05_app2" n="11">
-               <rdgGrp xml:id="C05_app2_rg1" n="['it', 'in', 'writing,']">
-                  <rdg wit="#fThomas">
-                     <ptr target="https://raw.githubusercontent.com/PghFrankenstein/fv-data/master/variorum-chunks/fThomas_C05.xml#C05_app2-fThomas"/>
-                  </rdg>
-               </rdgGrp>
-               <rdgGrp xml:id="C05_app2_rg2" n="['it,']">
+            <app xml:id="C05_app8" n="">
+               <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
+                        n="['sea', 'room']"
+                        xml:id="C05_app8_rg1">
                   <rdg wit="#f1818">
-                     <ptr target="https://raw.githubusercontent.com/PghFrankenstein/fv-data/master/variorum-chunks/f1818_C05.xml#C05_app2-f1818"/>
+                     <ptr target="https://raw.githubusercontent.com/PghFrankenstein/fv-data/master/variorum-chunks/f1818_C05.xml#C05_app8-f1818"/>
                   </rdg>
                   <rdg wit="#f1823">
-                     <ptr target="https://raw.githubusercontent.com/PghFrankenstein/fv-data/master/variorum-chunks/f1823_C05.xml#C05_app2-f1823"/>
+                     <ptr target="https://raw.githubusercontent.com/PghFrankenstein/fv-data/master/variorum-chunks/f1823_C05.xml#C05_app8-f1823"/>
                   </rdg>
+                  <rdg wit="#fThomas">
+                     <ptr target="https://raw.githubusercontent.com/PghFrankenstein/fv-data/master/variorum-chunks/fThomas_C05.xml#C05_app8-fThomas"/>
+                  </rdg>
+               </rdgGrp>
+               <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
+                        n="['sea-room']"
+                        xml:id="C05_app8_rg2">
                   <rdg wit="#f1831">
-                     <ptr target="https://raw.githubusercontent.com/PghFrankenstein/fv-data/master/variorum-chunks/f1831_C05.xml#C05_app2-f1831"/>
+                     <ptr target="https://raw.githubusercontent.com/PghFrankenstein/fv-data/master/variorum-chunks/f1831_C05.xml#C05_app8-f1831"/>
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C05_app4" n="1">
-               <rdgGrp xml:id="C05_app4_rg1" n="['sea', 'room']">
+            <app xml:id="C05_app10" n="">
+               <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
+                        n="['plains', 'of', 'ice,', 'which', 'seemed', 'to', 'have', 'no', 'end.', 'some', 'of', 'my', 'comrades', 'groaned,', 'and', 'my', 'own', 'mind', 'began', 'to', 'grow', 'watchful', 'with', 'anxious', 'thoughts,', 'when', 'a', 'strange', 'sight', 'suddenly', 'attracted', 'our', 'attention,', 'and', 'diverted', 'our', 'solicitude', 'from', 'our', 'own', 'situation.', 'we', 'perceived', 'a', 'low', 'carriage,', 'fixed', 'on', 'a', 'sledge', 'and', 'drawn', 'by', 'dogs,', 'pass', 'on', 'towards', 'the', 'north,', 'at', 'the', 'distance', 'of', 'half', 'a', 'mile:', 'a', 'being', 'which', 'had', 'the', 'shape', 'of', 'a', 'man,', 'but', 'apparently', 'of', 'gigantic', 'stature,', 'sat', 'in', 'the', 'sledge,', 'and', 'guided', 'the', 'dogs.', 'we', 'watched', 'the', 'rapid', 'progress', 'of', 'the', 'traveller', 'with', 'our', 'telescopes,', 'until', 'he', 'was', 'lost', 'among', 'the', 'distant', 'inequalities', 'of', 'the', 'ice.', '&lt;p-end/&gt;', '&lt;p-start/&gt;', 'this', 'appearance', 'excited', 'our', 'unqualified', 'wonder.', 'we', 'were,', 'as', 'we', 'believed,', 'many', 'hundred', 'miles', 'from', 'any', 'land;', 'but', 'this', 'apparition', 'seemed', 'to', 'denote', 'that', 'it', 'was', 'not,', 'in', 'reality,', 'so', 'distant', 'as', 'we', 'had', 'supposed.', 'shut', 'in,', 'however,', 'by', 'ice,', 'it', 'was', 'impossible', 'to', 'follow', 'his', 'track,', 'which', 'we', 'had', 'observed', 'with', 'the', 'greatest', 'attention.']"
+                        xml:id="C05_app10_rg1">
                   <rdg wit="#f1818">
-                     <ptr target="https://raw.githubusercontent.com/PghFrankenstein/fv-data/master/variorum-chunks/f1818_C05.xml#C05_app4-f1818"/>
+                     <ptr target="https://raw.githubusercontent.com/PghFrankenstein/fv-data/master/variorum-chunks/f1818_C05.xml#C05_app10-f1818__I"/>
+                     <ptr target="https://raw.githubusercontent.com/PghFrankenstein/fv-data/master/variorum-chunks/f1818_C05.xml#C05_app10-f1818__F"/>
                   </rdg>
                   <rdg wit="#f1823">
-                     <ptr target="https://raw.githubusercontent.com/PghFrankenstein/fv-data/master/variorum-chunks/f1823_C05.xml#C05_app4-f1823"/>
+                     <ptr target="https://raw.githubusercontent.com/PghFrankenstein/fv-data/master/variorum-chunks/f1823_C05.xml#C05_app10-f1823__I"/>
+                     <ptr target="https://raw.githubusercontent.com/PghFrankenstein/fv-data/master/variorum-chunks/f1823_C05.xml#C05_app10-f1823__F"/>
                   </rdg>
-                  <rdg wit="#fThomas">
-                     <ptr target="https://raw.githubusercontent.com/PghFrankenstein/fv-data/master/variorum-chunks/fThomas_C05.xml#C05_app4-fThomas"/>
+                  <rdg wit="#f1831">
+                     <ptr target="https://raw.githubusercontent.com/PghFrankenstein/fv-data/master/variorum-chunks/f1831_C05.xml#C05_app10-f1831__I"/>
+                     <ptr target="https://raw.githubusercontent.com/PghFrankenstein/fv-data/master/variorum-chunks/f1831_C05.xml#C05_app10-f1831__F"/>
                   </rdg>
                </rdgGrp>
-               <rdgGrp xml:id="C05_app4_rg2" n="['sea-room']">
-                  <rdg wit="#f1831">
-                     <ptr target="https://raw.githubusercontent.com/PghFrankenstein/fv-data/master/variorum-chunks/f1831_C05.xml#C05_app4-f1831"/>
+               <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
+                        n="['&lt;addedthomas-start/&gt;mountains and &lt;addedthomas-end/&gt;', 'plains', 'of', 'ice,', 'which', 'seemed', 'to', 'have', 'no', 'end.', 'some', 'of', 'my', 'comrades', 'groaned,', 'and', 'my', 'own', 'mind', 'began', 'to', 'grow', 'watchful', 'with', 'anxious', 'thoughts,', 'when', 'a', 'strange', 'sight', 'suddenly', 'attracted', 'our', 'attention,', 'and', 'diverted', 'our', 'solicitude', 'from', 'our', 'own', 'situation.', 'we', 'perceived', 'a', 'low', 'carriage,', 'fixed', 'on', 'a', 'sledge', 'and', 'drawn', 'by', 'dogs,', 'pass', 'on', 'towards', 'the', 'north,', 'at', 'the', 'distance', 'of', 'half', 'a', 'mile:', 'a', 'being', 'which', 'had', 'the', 'shape', 'of', 'a', 'man,', 'but', 'apparently', 'of', 'gigantic', 'stature,', 'sat', 'in', 'the', 'sledge,', 'and', 'guided', 'the', 'dogs.', 'we', 'watched', 'the', 'rapid', 'progress', 'of', 'the', 'traveller', 'with', 'our', 'telescopes,', 'until', 'he', 'was', 'lost', 'among', 'the', 'distant', 'inequalities', 'of', 'the', 'ice.', '&lt;p-end/&gt;', '&lt;p-start/&gt;', 'this', 'appearance', 'excited', 'our', 'unqualified', 'wonder.', 'we', 'were,', 'as', 'we', 'believed,', 'many', 'hundred', 'miles', 'from', 'any', 'land;', 'but', 'this', 'apparition', 'seemed', 'to', 'denote', 'that', 'it', 'was', 'not,', 'in', 'reality,', 'so', 'distant', 'as', 'we', 'had', 'supposed.', 'shut', 'in,', 'however,', 'by', 'ice,', 'it', 'was', 'impossible', 'to', 'follow', 'his', 'track,', 'which', 'we', 'had', 'observed', 'with', 'the', 'greatest', 'attention.']"
+                        xml:id="C05_app10_rg2">
+                  <rdg wit="#fThomas">
+                     <ptr target="https://raw.githubusercontent.com/PghFrankenstein/fv-data/master/variorum-chunks/fThomas_C05.xml#C05_app10-fThomas__I"/>
+                     <ptr target="https://raw.githubusercontent.com/PghFrankenstein/fv-data/master/variorum-chunks/fThomas_C05.xml#C05_app10-fThomas__F"/>
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C05_app6" n="14">
-               <rdgGrp xml:id="C05_app6_rg1"
-                       n="['mountains', 'and', 'plains', 'of', 'ice,', 'which', 'seemed', 'to', 'have', 'no', 'end.', 'some', 'of', 'my', 'comrades', 'groaned,', 'and', 'my', 'own', 'mind', 'began', 'to', 'grow', 'watchful', 'with', 'anxious', 'thoughts,', 'when', 'a', 'strange', 'sight', 'suddenly', 'attracted', 'our', 'attention,', 'and', 'diverted', 'our', 'solicitude', 'from', 'our', 'own', 'situation.', 'we', 'perceived', 'a', 'low', 'carriage,', 'fixed', 'on', 'a', 'sledge', 'and', 'drawn', 'by', 'dogs,', 'pass', 'on', 'towards', 'the', 'north,', 'at', 'the', 'distance', 'of', 'half', 'a', 'mile:', 'a', 'being', 'which', 'had', 'the', 'shape', 'of', 'a', 'man,', 'but', 'apparently', 'of', 'gigantic', 'stature,', 'sat', 'in', 'the', 'sledge,', 'and', 'guided', 'the', 'dogs.', 'we', 'watched', 'the', 'rapid', 'progress', 'of', 'the', 'traveller', 'with', 'our', 'telescopes,', 'until', 'he', 'was', 'lost', 'among', 'the', 'distant', 'inequalities', 'of', 'the', 'ice.&lt;p/&gt;&lt;p/&gt;this', 'appearance', 'excited', 'our', 'unqualified', 'wonder.', 'we', 'were,', 'as', 'we', 'believed,', 'many', 'hundred', 'miles', 'from', 'any', 'land;', 'but', 'this', 'apparition', 'seemed', 'to', 'denote', 'that', 'it', 'was', 'not,', 'in', 'reality,', 'so', 'distant', 'as', 'we', 'had', 'supposed.', 'shut', 'in,', 'however,', 'by', 'ice,', 'it', 'was', 'impossible', 'to', 'follow', 'his', 'track,', 'which', 'we', 'had', 'observed', 'with', 'the', 'greatest']">
-                  <rdg wit="#fThomas">
-                     <ptr target="https://raw.githubusercontent.com/PghFrankenstein/fv-data/master/variorum-chunks/fThomas_C05.xml#C05_app6-fThomas__I"/>
-                     <ptr target="https://raw.githubusercontent.com/PghFrankenstein/fv-data/master/variorum-chunks/fThomas_C05.xml#C05_app6-fThomas__F"/>
-                  </rdg>
-               </rdgGrp>
-               <rdgGrp xml:id="C05_app6_rg2"
-                       n="['plains', 'of', 'ice,', 'which', 'seemed', 'to', 'have', 'no', 'end.', 'some', 'of', 'my', 'comrades', 'groaned,', 'and', 'my', 'own', 'mind', 'began', 'to', 'grow', 'watchful', 'with', 'anxious', 'thoughts,', 'when', 'a', 'strange', 'sight', 'suddenly', 'attracted', 'our', 'attention,', 'and', 'diverted', 'our', 'solicitude', 'from', 'our', 'own', 'situation.', 'we', 'perceived', 'a', 'low', 'carriage,', 'fixed', 'on', 'a', 'sledge', 'and', 'drawn', 'by', 'dogs,', 'pass', 'on', 'towards', 'the', 'north,', 'at', 'the', 'distance', 'of', 'half', 'a', 'mile:', 'a', 'being', 'which', 'had', 'the', 'shape', 'of', 'a', 'man,', 'but', 'apparently', 'of', 'gigantic', 'stature,', 'sat', 'in', 'the', 'sledge,', 'and', 'guided', 'the', 'dogs.', 'we', 'watched', 'the', 'rapid', 'progress', 'of', 'the', 'traveller', 'with', 'our', 'telescopes,', 'until', 'he', 'was', 'lost', 'among', 'the', 'distant', 'inequalities', 'of', 'the', 'ice.&lt;p/&gt;&lt;p/&gt;this', 'appearance', 'excited', 'our', 'unqualified', 'wonder.', 'we', 'were,', 'as', 'we', 'believed,', 'many', 'hundred', 'miles', 'from', 'any', 'land;', 'but', 'this', 'apparition', 'seemed', 'to', 'denote', 'that', 'it', 'was', 'not,', 'in', 'reality,', 'so', 'distant', 'as', 'we', 'had', 'supposed.', 'shut', 'in,', 'however,', 'by', 'ice,', 'it', 'was', 'impossible', 'to', 'follow', 'his', 'track,', 'which', 'we', 'had', 'observed', 'with', 'the', 'greatest']">
+            <app xml:id="C05_app11" n="">
+               <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
+                        n="['&lt;p-end/&gt;', '&lt;p-start/&gt;', 'about', 'two', 'hours', 'after', 'this', 'occurrence,', 'we', 'heard', 'the', 'ground', 'sea;', 'and', 'before', 'night', 'the', 'ice', 'broke,', 'and', 'freed', 'our', 'ship.', 'we,', 'however,', 'lay', 'to', 'until', 'the', 'morning,', 'fearing', 'to', 'encounter', 'in', 'the', 'dark', 'those', 'large', 'loose', 'masses', 'which', 'float', 'about', 'after', 'the', 'breaking', 'up', 'of', 'the', 'ice.', 'i', 'profited', 'of', 'this', 'time', 'to', 'rest', 'for', 'a', 'few', 'hours.', '&lt;p-end/&gt;', '&lt;p-start/&gt;', 'in', 'the', 'morning,', 'however,', 'as', 'soon', 'as', 'it', 'was', 'light,', 'i', 'went', 'upon', 'deck,', 'and', 'found', 'all', 'the', 'sailors', 'busy', 'on', 'one', 'side', 'of', 'the', 'vessel,', 'apparently', 'talking', 'to', 'some', 'one', 'in', 'the', 'sea.', 'it', 'was,', 'in', 'fact,', 'a', 'sledge,', 'like', 'that', 'we', 'had', 'seen', 'before,', 'which', 'had', 'drifted', 'towards', 'us', 'in', 'the', 'night,', 'on', 'a', 'large', 'fragment', 'of', 'ice.', 'only', 'one', 'dog', 'remained', 'alive;', 'but', 'there', 'was', 'a', 'human', 'being', 'within', 'it,', 'whom', 'the', 'sailors', 'were', 'persuading', 'to', 'enter', 'the', 'vessel.', 'he', 'was', 'not,', 'as', 'the', 'other', 'traveller', 'seemed', 'to', 'be,', 'a', 'savage', 'inhabitant', 'of', 'some', 'undiscovered', 'island,', 'but', 'an', 'european.', 'when', 'i', 'appeared', 'on', 'deck,', 'the', 'master', 'said,', '&#34;here', 'is', 'our', 'captain,', 'and', 'he', 'will', 'not', 'allow', 'you', 'to', 'perish', 'on', 'the', 'open', 'sea.&#34;', '&lt;p-end/&gt;', '&lt;p-start/&gt;', 'on', 'perceiving', 'me,', 'the', 'stranger', 'addressed', 'me', 'in', 'english,', 'although', 'with', 'a', 'foreign', 'accent.', '&#34;before', 'i', 'come', 'on', 'board', 'your', 'vessel,&#34;', 'said', 'he,', '&#34;will', 'you', 'have', 'the', 'kindness', 'to', 'inform', 'me', 'whither', 'you', 'are', 'bound?&#34;', '&lt;p-end/&gt;', '&lt;p-start/&gt;', 'you', 'may', 'conceive', 'my', 'astonishment', 'on', 'hearing', 'such', 'a', 'question', 'addressed', 'to', 'me', 'from', 'a', 'man', 'on', 'the', 'brink', 'of', 'destruction,', 'and', 'to', 'whom', 'i', 'should', 'have', 'supposed', 'that', 'my', 'vessel', 'would', 'have', 'been', 'a', 'resource', 'which', 'he', 'would', 'not', 'have', 'exchanged', 'for', 'the', 'most', 'precious', 'wealth', 'the', 'earth', 'can', 'afford.', 'i', 'replied,', 'however,', 'that', 'we', 'were', 'on', 'a', 'voyage', 'of', 'discovery', 'towards', 'the', 'northern', 'pole.', '&lt;p-end/&gt;', '&lt;p-start/&gt;', 'upon', 'hearing', 'this', 'he', 'appeared', 'satisfied,', 'and', 'consented', 'to', 'come', 'on', 'board.', 'good', 'god!', 'margaret,', 'if', 'you', 'had', 'seen', 'the', 'man', 'who', 'thus', 'capitulated', 'for', 'his', 'safety,', 'your', 'surprise', 'would', 'have', 'been', 'boundless.', 'his', 'limbs', 'were', 'nearly', 'frozen,', 'and', 'his', 'body', 'dreadfully', 'emaciated', 'by', 'fatigue', 'and', 'suffering.', 'i', 'never', 'saw', 'a', 'man', 'in', 'so', 'wretched', 'a', 'condition.', 'we', 'attempted', 'to', 'carry', 'him', 'into', 'the', 'cabin;', 'but', 'as', 'soon', 'as', 'he', 'had', 'quitted', 'the', 'fresh', 'air,', 'he', 'fainted.', 'we', 'accordingly', 'brought', 'him', 'back', 'to', 'the', 'deck,', 'and', 'restored', 'him', 'to', 'animation', 'by', 'rubbing', 'him', 'with', 'brandy,', 'and', 'forcing', 'him', 'to', 'swallow', 'a', 'small', 'quantity.', 'as', 'soon', 'as', 'he']"
+                        xml:id="C05_app11_rg1">
                   <rdg wit="#f1818">
-                     <ptr target="https://raw.githubusercontent.com/PghFrankenstein/fv-data/master/variorum-chunks/f1818_C05.xml#C05_app6-f1818__I"/>
-                     <ptr target="https://raw.githubusercontent.com/PghFrankenstein/fv-data/master/variorum-chunks/f1818_C05.xml#C05_app6-f1818__F"/>
+                     <ptr target="https://raw.githubusercontent.com/PghFrankenstein/fv-data/master/variorum-chunks/f1818_C05.xml#C05_app11-f1818__I"/>
+                     <ptr target="https://raw.githubusercontent.com/PghFrankenstein/fv-data/master/variorum-chunks/f1818_C05.xml#C05_app11-f1818__M"/>
+                     <ptr target="https://raw.githubusercontent.com/PghFrankenstein/fv-data/master/variorum-chunks/f1818_C05.xml#C05_app11-f1818__F"/>
                   </rdg>
                   <rdg wit="#f1823">
-                     <ptr target="https://raw.githubusercontent.com/PghFrankenstein/fv-data/master/variorum-chunks/f1823_C05.xml#C05_app6-f1823__I"/>
-                     <ptr target="https://raw.githubusercontent.com/PghFrankenstein/fv-data/master/variorum-chunks/f1823_C05.xml#C05_app6-f1823__F"/>
+                     <ptr target="https://raw.githubusercontent.com/PghFrankenstein/fv-data/master/variorum-chunks/f1823_C05.xml#C05_app11-f1823__I"/>
+                     <ptr target="https://raw.githubusercontent.com/PghFrankenstein/fv-data/master/variorum-chunks/f1823_C05.xml#C05_app11-f1823__M"/>
+                     <ptr target="https://raw.githubusercontent.com/PghFrankenstein/fv-data/master/variorum-chunks/f1823_C05.xml#C05_app11-f1823__F"/>
                   </rdg>
                   <rdg wit="#f1831">
-                     <ptr target="https://raw.githubusercontent.com/PghFrankenstein/fv-data/master/variorum-chunks/f1831_C05.xml#C05_app6-f1831__I"/>
-                     <ptr target="https://raw.githubusercontent.com/PghFrankenstein/fv-data/master/variorum-chunks/f1831_C05.xml#C05_app6-f1831__F"/>
+                     <ptr target="https://raw.githubusercontent.com/PghFrankenstein/fv-data/master/variorum-chunks/f1831_C05.xml#C05_app11-f1831__I"/>
+                     <ptr target="https://raw.githubusercontent.com/PghFrankenstein/fv-data/master/variorum-chunks/f1831_C05.xml#C05_app11-f1831__M"/>
+                     <ptr target="https://raw.githubusercontent.com/PghFrankenstein/fv-data/master/variorum-chunks/f1831_C05.xml#C05_app11-f1831__F"/>
+                  </rdg>
+               </rdgGrp>
+               <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
+                        n="['&lt;addedthomas-start/&gt;are we then near land, and is this unknown wast inhabited by giants, of which the being we saw is a specimen? such an idea is contrary to all experience, but if what we saw was an optical delusion, it was the most perfect and wonderful recorded in the history of nature.&lt;addedthomas-end/&gt;', '&lt;p-end/&gt;', '&lt;p-start/&gt;', 'about', 'two', 'hours', 'after', 'this', 'occurrence,', 'we', 'heard', 'the', 'ground', 'sea;', 'and', 'before', 'night', 'the', 'ice', 'broke,', 'and', 'freed', 'our', 'ship.', 'we,', 'however,', 'lay', 'to', 'until', 'the', 'morning,', 'fearing', 'to', 'encounter', 'in', 'the', 'dark', 'those', 'large', 'loose', 'masses', 'which', 'float', 'about', 'after', 'the', 'breaking', 'up', 'of', 'the', 'ice.', 'i', 'profited', 'of', 'this', 'time', 'to', 'rest', 'for', 'a', 'few', 'hours.', '&lt;p-end/&gt;', '&lt;p-start/&gt;', 'in', 'the', 'morning,', 'however,', 'as', 'soon', 'as', 'it', 'was', 'light,', 'i', 'went', 'upon', 'deck,', 'and', 'found', 'all', 'the', 'sailors', 'busy', 'on', 'one', 'side', 'of', 'the', 'vessel,', 'apparently', 'talking', 'to', 'some', 'one', 'in', 'the', 'sea.', 'it', 'was,', 'in', 'fact,', 'a', 'sledge,', 'like', 'that', 'we', 'had', 'seen', 'before,', 'which', 'had', 'drifted', 'towards', 'us', 'in', 'the', 'night,', 'on', 'a', 'large', 'fragment', 'of', 'ice.', 'only', 'one', 'dog', 'remained', 'alive;', 'but', 'there', 'was', 'a', 'human', 'being', 'within', 'it,', 'whom', 'the', 'sailors', 'were', 'persuading', 'to', 'enter', 'the', 'vessel.', 'he', 'was', 'not,', 'as', 'the', 'other', 'traveller', 'seemed', 'to', 'be,', 'a', 'savage', 'inhabitant', 'of', 'some', 'undiscovered', 'island,', 'but', 'an', 'european.', 'when', 'i', 'appeared', 'on', 'deck,', 'the', 'master', 'said,', '&#34;here', 'is', 'our', 'captain,', 'and', 'he', 'will', 'not', 'allow', 'you', 'to', 'perish', 'on', 'the', 'open', 'sea.&#34;', '&lt;p-end/&gt;', '&lt;p-start/&gt;', 'on', 'perceiving', 'me,', 'the', 'stranger', 'addressed', 'me', 'in', 'english,', 'although', 'with', 'a', 'foreign', 'accent.', '&#34;before', 'i', 'come', 'on', 'board', 'your', 'vessel,&#34;', 'said', 'he,', '&#34;will', 'you', 'have', 'the', 'kindness', 'to', 'inform', 'me', 'whither', 'you', 'are', 'bound?&#34;', '&lt;p-end/&gt;', '&lt;p-start/&gt;', 'you', 'may', 'conceive', 'my', 'astonishment', 'on', 'hearing', 'such', 'a', 'question', 'addressed', 'to', 'me', 'from', 'a', 'man', 'on', 'the', 'brink', 'of', 'destruction,', 'and', 'to', 'whom', 'i', 'should', 'have', 'supposed', 'that', 'my', 'vessel', 'would', 'have', 'been', 'a', 'resource', 'which', 'he', 'would', 'not', 'have', 'exchanged', 'for', 'the', 'most', 'precious', 'wealth', 'the', 'earth', 'can', 'afford.', 'i', 'replied,', 'however,', 'that', 'we', 'were', 'on', 'a', 'voyage', 'of', 'discovery', 'towards', 'the', 'northern', 'pole.', '&lt;p-end/&gt;', '&lt;p-start/&gt;', 'upon', 'hearing', 'this', 'he', 'appeared', 'satisfied,', 'and', 'consented', 'to', 'come', 'on', 'board.', 'good', 'god!', 'margaret,', 'if', 'you', 'had', 'seen', 'the', 'man', 'who', 'thus', 'capitulated', 'for', 'his', 'safety,', 'your', 'surprise', 'would', 'have', 'been', 'boundless.', 'his', 'limbs', 'were', 'nearly', 'frozen,', 'and', 'his', 'body', 'dreadfully', 'emaciated', 'by', 'fatigue', 'and', 'suffering.', 'i', 'never', 'saw', 'a', 'man', 'in', 'so', 'wretched', 'a', 'condition.', 'we', 'attempted', 'to', 'carry', 'him', 'into', 'the', 'cabin;', 'but', 'as', 'soon', 'as', 'he', 'had', 'quitted', 'the', 'fresh', 'air,', 'he', 'fainted.', 'we', 'accordingly', 'brought', 'him', 'back', 'to', 'the', 'deck,', 'and', 'restored', 'him', 'to', 'animation', 'by', 'rubbing', 'him', 'with', 'brandy,', 'and', 'forcing', 'him', 'to', 'swallow', 'a', 'small', 'quantity.', 'as', 'soon', 'as', 'he']"
+                        xml:id="C05_app11_rg2">
+                  <rdg wit="#fThomas">
+                     <ptr target="https://raw.githubusercontent.com/PghFrankenstein/fv-data/master/variorum-chunks/fThomas_C05.xml#C05_app11-fThomas__I"/>
+                     <ptr target="https://raw.githubusercontent.com/PghFrankenstein/fv-data/master/variorum-chunks/fThomas_C05.xml#C05_app11-fThomas__M"/>
+                     <ptr target="https://raw.githubusercontent.com/PghFrankenstein/fv-data/master/variorum-chunks/fThomas_C05.xml#C05_app11-fThomas__F"/>
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C05_app7" n="271">
-               <rdgGrp xml:id="C05_app7_rg1"
-                       n="['attention.', 'are', 'we', 'then', 'near', 'land,', 'and', 'is', 'this', 'unknown', 'wast', 'inhabited', 'by', 'giants,', 'of', 'which', 'the', 'being', 'we', 'saw', 'is', 'a', 'specimen?', 'such', 'an', 'idea', 'is', 'contrary', 'to', 'all', 'experience,', 'but', 'if', 'what', 'we', 'saw', 'was', 'an', 'optical', 'delusion,', 'it', 'was', 'the', 'most', 'perfect', 'and', 'wonderful', 'recorded', 'in', 'the', 'history', 'of', 'nature.&lt;p/&gt;&lt;p/&gt;about']">
+            <app xml:id="C05_app12" n="">
+               <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
+                        n="['shewed']"
+                        xml:id="C05_app12_rg1">
+                  <rdg wit="#f1818">
+                     <ptr target="https://raw.githubusercontent.com/PghFrankenstein/fv-data/master/variorum-chunks/f1818_C05.xml#C05_app12-f1818"/>
+                  </rdg>
                   <rdg wit="#fThomas">
-                     <ptr target="https://raw.githubusercontent.com/PghFrankenstein/fv-data/master/variorum-chunks/fThomas_C05.xml#C05_app7-fThomas__I"/>
-                     <ptr target="https://raw.githubusercontent.com/PghFrankenstein/fv-data/master/variorum-chunks/fThomas_C05.xml#C05_app7-fThomas__F"/>
+                     <ptr target="https://raw.githubusercontent.com/PghFrankenstein/fv-data/master/variorum-chunks/fThomas_C05.xml#C05_app12-fThomas"/>
                   </rdg>
                </rdgGrp>
-               <rdgGrp xml:id="C05_app7_rg2" n="['attention.&lt;p/&gt;&lt;p/&gt;about']">
-                  <rdg wit="#f1818">
-                     <ptr target="https://raw.githubusercontent.com/PghFrankenstein/fv-data/master/variorum-chunks/f1818_C05.xml#C05_app7-f1818__I"/>
-                     <ptr target="https://raw.githubusercontent.com/PghFrankenstein/fv-data/master/variorum-chunks/f1818_C05.xml#C05_app7-f1818__F"/>
-                  </rdg>
+               <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
+                        n="['showed']"
+                        xml:id="C05_app12_rg2">
                   <rdg wit="#f1823">
-                     <ptr target="https://raw.githubusercontent.com/PghFrankenstein/fv-data/master/variorum-chunks/f1823_C05.xml#C05_app7-f1823__I"/>
-                     <ptr target="https://raw.githubusercontent.com/PghFrankenstein/fv-data/master/variorum-chunks/f1823_C05.xml#C05_app7-f1823__F"/>
+                     <ptr target="https://raw.githubusercontent.com/PghFrankenstein/fv-data/master/variorum-chunks/f1823_C05.xml#C05_app12-f1823"/>
                   </rdg>
                   <rdg wit="#f1831">
-                     <ptr target="https://raw.githubusercontent.com/PghFrankenstein/fv-data/master/variorum-chunks/f1831_C05.xml#C05_app7-f1831__I"/>
-                     <ptr target="https://raw.githubusercontent.com/PghFrankenstein/fv-data/master/variorum-chunks/f1831_C05.xml#C05_app7-f1831__F"/>
+                     <ptr target="https://raw.githubusercontent.com/PghFrankenstein/fv-data/master/variorum-chunks/f1831_C05.xml#C05_app12-f1831"/>
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C05_app9" n="1">
-               <rdgGrp xml:id="C05_app9_rg1" n="['shewed']">
-                  <rdg wit="#f1818">
-                     <ptr target="https://raw.githubusercontent.com/PghFrankenstein/fv-data/master/variorum-chunks/f1818_C05.xml#C05_app9-f1818"/>
-                  </rdg>
-                  <rdg wit="#fThomas">
-                     <ptr target="https://raw.githubusercontent.com/PghFrankenstein/fv-data/master/variorum-chunks/fThomas_C05.xml#C05_app9-fThomas"/>
-                  </rdg>
-               </rdgGrp>
-               <rdgGrp xml:id="C05_app9_rg2" n="['showed']">
+            <app xml:id="C05_app14" n="">
+               <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
+                        n="['life']"
+                        xml:id="C05_app14_rg1">
                   <rdg wit="#f1823">
-                     <ptr target="https://raw.githubusercontent.com/PghFrankenstein/fv-data/master/variorum-chunks/f1823_C05.xml#C05_app9-f1823"/>
+                     <ptr target="https://raw.githubusercontent.com/PghFrankenstein/fv-data/master/variorum-chunks/f1823_C05.xml#C05_app14-f1823"/>
                   </rdg>
                   <rdg wit="#f1831">
-                     <ptr target="https://raw.githubusercontent.com/PghFrankenstein/fv-data/master/variorum-chunks/f1831_C05.xml#C05_app9-f1831"/>
+                     <ptr target="https://raw.githubusercontent.com/PghFrankenstein/fv-data/master/variorum-chunks/f1831_C05.xml#C05_app14-f1831"/>
+                  </rdg>
+               </rdgGrp>
+               <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
+                        n="['life,']"
+                        xml:id="C05_app14_rg2">
+                  <rdg wit="#f1818">
+                     <ptr target="https://raw.githubusercontent.com/PghFrankenstein/fv-data/master/variorum-chunks/f1818_C05.xml#C05_app14-f1818"/>
+                  </rdg>
+                  <rdg wit="#fThomas">
+                     <ptr target="https://raw.githubusercontent.com/PghFrankenstein/fv-data/master/variorum-chunks/fThomas_C05.xml#C05_app14-fThomas"/>
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C05_app11" n="1">
-               <rdgGrp xml:id="C05_app11_rg1" n="['life']">
-                  <rdg wit="#f1823">
-                     <ptr target="https://raw.githubusercontent.com/PghFrankenstein/fv-data/master/variorum-chunks/f1823_C05.xml#C05_app11-f1823"/>
-                  </rdg>
+            <app xml:id="C05_app16" n="">
+               <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
+                        n="['kitchen', 'stove.']"
+                        xml:id="C05_app16_rg1">
                   <rdg wit="#f1831">
-                     <ptr target="https://raw.githubusercontent.com/PghFrankenstein/fv-data/master/variorum-chunks/f1831_C05.xml#C05_app11-f1831"/>
+                     <ptr target="https://raw.githubusercontent.com/PghFrankenstein/fv-data/master/variorum-chunks/f1831_C05.xml#C05_app16-f1831"/>
                   </rdg>
                </rdgGrp>
-               <rdgGrp xml:id="C05_app11_rg2" n="['life,']">
+               <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
+                        n="['kitchen-stove.']"
+                        xml:id="C05_app16_rg2">
                   <rdg wit="#f1818">
-                     <ptr target="https://raw.githubusercontent.com/PghFrankenstein/fv-data/master/variorum-chunks/f1818_C05.xml#C05_app11-f1818"/>
+                     <ptr target="https://raw.githubusercontent.com/PghFrankenstein/fv-data/master/variorum-chunks/f1818_C05.xml#C05_app16-f1818"/>
+                  </rdg>
+                  <rdg wit="#f1823">
+                     <ptr target="https://raw.githubusercontent.com/PghFrankenstein/fv-data/master/variorum-chunks/f1823_C05.xml#C05_app16-f1823"/>
                   </rdg>
                   <rdg wit="#fThomas">
-                     <ptr target="https://raw.githubusercontent.com/PghFrankenstein/fv-data/master/variorum-chunks/fThomas_C05.xml#C05_app11-fThomas"/>
+                     <ptr target="https://raw.githubusercontent.com/PghFrankenstein/fv-data/master/variorum-chunks/fThomas_C05.xml#C05_app16-fThomas"/>
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C05_app13" n="1">
-               <rdgGrp xml:id="C05_app13_rg1" n="['kitchen', 'stove.']">
+            <app xml:id="C05_app18" n="">
+               <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
+                        n="['for']"
+                        xml:id="C05_app18_rg1">
                   <rdg wit="#f1831">
-                     <ptr target="https://raw.githubusercontent.com/PghFrankenstein/fv-data/master/variorum-chunks/f1831_C05.xml#C05_app13-f1831"/>
+                     <ptr target="https://raw.githubusercontent.com/PghFrankenstein/fv-data/master/variorum-chunks/f1831_C05.xml#C05_app18-f1831"/>
                   </rdg>
                </rdgGrp>
-               <rdgGrp xml:id="C05_app13_rg2" n="['kitchen-stove.']">
+               <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
+                        n="['for,']"
+                        xml:id="C05_app18_rg2">
                   <rdg wit="#f1818">
-                     <ptr target="https://raw.githubusercontent.com/PghFrankenstein/fv-data/master/variorum-chunks/f1818_C05.xml#C05_app13-f1818"/>
+                     <ptr target="https://raw.githubusercontent.com/PghFrankenstein/fv-data/master/variorum-chunks/f1818_C05.xml#C05_app18-f1818"/>
                   </rdg>
                   <rdg wit="#f1823">
-                     <ptr target="https://raw.githubusercontent.com/PghFrankenstein/fv-data/master/variorum-chunks/f1823_C05.xml#C05_app13-f1823"/>
+                     <ptr target="https://raw.githubusercontent.com/PghFrankenstein/fv-data/master/variorum-chunks/f1823_C05.xml#C05_app18-f1823"/>
                   </rdg>
                   <rdg wit="#fThomas">
-                     <ptr target="https://raw.githubusercontent.com/PghFrankenstein/fv-data/master/variorum-chunks/fThomas_C05.xml#C05_app13-fThomas"/>
+                     <ptr target="https://raw.githubusercontent.com/PghFrankenstein/fv-data/master/variorum-chunks/fThomas_C05.xml#C05_app18-fThomas"/>
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C05_app15" n="1">
-               <rdgGrp xml:id="C05_app15_rg1" n="['for']">
-                  <rdg wit="#f1831">
-                     <ptr target="https://raw.githubusercontent.com/PghFrankenstein/fv-data/master/variorum-chunks/f1831_C05.xml#C05_app15-f1831"/>
-                  </rdg>
-               </rdgGrp>
-               <rdgGrp xml:id="C05_app15_rg2" n="['for,']">
+            <app xml:id="C05_app20" n="">
+               <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
+                        n="['said,', '&#34;i']"
+                        xml:id="C05_app20_rg1">
                   <rdg wit="#f1818">
-                     <ptr target="https://raw.githubusercontent.com/PghFrankenstein/fv-data/master/variorum-chunks/f1818_C05.xml#C05_app15-f1818"/>
+                     <ptr target="https://raw.githubusercontent.com/PghFrankenstein/fv-data/master/variorum-chunks/f1818_C05.xml#C05_app20-f1818"/>
                   </rdg>
                   <rdg wit="#f1823">
-                     <ptr target="https://raw.githubusercontent.com/PghFrankenstein/fv-data/master/variorum-chunks/f1823_C05.xml#C05_app15-f1823"/>
+                     <ptr target="https://raw.githubusercontent.com/PghFrankenstein/fv-data/master/variorum-chunks/f1823_C05.xml#C05_app20-f1823"/>
                   </rdg>
                   <rdg wit="#fThomas">
-                     <ptr target="https://raw.githubusercontent.com/PghFrankenstein/fv-data/master/variorum-chunks/fThomas_C05.xml#C05_app15-fThomas"/>
+                     <ptr target="https://raw.githubusercontent.com/PghFrankenstein/fv-data/master/variorum-chunks/fThomas_C05.xml#C05_app20-fThomas"/>
+                  </rdg>
+               </rdgGrp>
+               <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
+                        n="['said,—&#34;i']"
+                        xml:id="C05_app20_rg2">
+                  <rdg wit="#f1831">
+                     <ptr target="https://raw.githubusercontent.com/PghFrankenstein/fv-data/master/variorum-chunks/f1831_C05.xml#C05_app20-f1831"/>
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C05_app17" n="1">
-               <rdgGrp xml:id="C05_app17_rg1" n="['said,', '&#34;i']">
-                  <rdg wit="#f1818">
-                     <ptr target="https://raw.githubusercontent.com/PghFrankenstein/fv-data/master/variorum-chunks/f1818_C05.xml#C05_app17-f1818"/>
-                  </rdg>
-                  <rdg wit="#f1823">
-                     <ptr target="https://raw.githubusercontent.com/PghFrankenstein/fv-data/master/variorum-chunks/f1823_C05.xml#C05_app17-f1823"/>
-                  </rdg>
-                  <rdg wit="#fThomas">
-                     <ptr target="https://raw.githubusercontent.com/PghFrankenstein/fv-data/master/variorum-chunks/fThomas_C05.xml#C05_app17-fThomas"/>
+            <app xml:id="C05_app22" n="">
+               <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
+                        n="['enquiries.&#34;']"
+                        xml:id="C05_app22_rg1">
+                  <rdg wit="#f1831">
+                     <ptr target="https://raw.githubusercontent.com/PghFrankenstein/fv-data/master/variorum-chunks/f1831_C05.xml#C05_app22-f1831"/>
                   </rdg>
                </rdgGrp>
-               <rdgGrp xml:id="C05_app17_rg2" n="['said,—&#34;i']">
-                  <rdg wit="#f1831">
-                     <ptr target="https://raw.githubusercontent.com/PghFrankenstein/fv-data/master/variorum-chunks/f1831_C05.xml#C05_app17-f1831"/>
+               <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
+                        n="['inquiries.&#34;']"
+                        xml:id="C05_app22_rg2">
+                  <rdg wit="#f1818">
+                     <ptr target="https://raw.githubusercontent.com/PghFrankenstein/fv-data/master/variorum-chunks/f1818_C05.xml#C05_app22-f1818"/>
+                  </rdg>
+                  <rdg wit="#f1823">
+                     <ptr target="https://raw.githubusercontent.com/PghFrankenstein/fv-data/master/variorum-chunks/f1823_C05.xml#C05_app22-f1823"/>
+                  </rdg>
+                  <rdg wit="#fThomas">
+                     <ptr target="https://raw.githubusercontent.com/PghFrankenstein/fv-data/master/variorum-chunks/fThomas_C05.xml#C05_app22-fThomas"/>
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C05_app19" n="1">
-               <rdgGrp xml:id="C05_app19_rg1" n="['enquiries.&#34;&lt;p/&gt;&lt;p/&gt;&#34;certainly;']">
+            <app xml:id="C05_app24" n="">
+               <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
+                        n="['enquired']"
+                        xml:id="C05_app24_rg1">
                   <rdg wit="#f1831">
-                     <ptr target="https://raw.githubusercontent.com/PghFrankenstein/fv-data/master/variorum-chunks/f1831_C05.xml#C05_app19-f1831__I"/>
-                     <ptr target="https://raw.githubusercontent.com/PghFrankenstein/fv-data/master/variorum-chunks/f1831_C05.xml#C05_app19-f1831__F"/>
+                     <ptr target="https://raw.githubusercontent.com/PghFrankenstein/fv-data/master/variorum-chunks/f1831_C05.xml#C05_app24-f1831"/>
                   </rdg>
                </rdgGrp>
-               <rdgGrp xml:id="C05_app19_rg2" n="['inquiries.&#34;&lt;p/&gt;&lt;p/&gt;&#34;certainly;']">
-                  <rdg wit="#f1818">
-                     <ptr target="https://raw.githubusercontent.com/PghFrankenstein/fv-data/master/variorum-chunks/f1818_C05.xml#C05_app19-f1818__I"/>
-                     <ptr target="https://raw.githubusercontent.com/PghFrankenstein/fv-data/master/variorum-chunks/f1818_C05.xml#C05_app19-f1818__F"/>
-                  </rdg>
+               <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
+                        n="['inquired']"
+                        xml:id="C05_app24_rg2">
                   <rdg wit="#f1823">
-                     <ptr target="https://raw.githubusercontent.com/PghFrankenstein/fv-data/master/variorum-chunks/f1823_C05.xml#C05_app19-f1823__I"/>
-                     <ptr target="https://raw.githubusercontent.com/PghFrankenstein/fv-data/master/variorum-chunks/f1823_C05.xml#C05_app19-f1823__F"/>
+                     <ptr target="https://raw.githubusercontent.com/PghFrankenstein/fv-data/master/variorum-chunks/f1823_C05.xml#C05_app24-f1823"/>
+                  </rdg>
+               </rdgGrp>
+               <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
+                        n="['inquired,']"
+                        xml:id="C05_app24_rg3">
+                  <rdg wit="#f1818">
+                     <ptr target="https://raw.githubusercontent.com/PghFrankenstein/fv-data/master/variorum-chunks/f1818_C05.xml#C05_app24-f1818"/>
                   </rdg>
                   <rdg wit="#fThomas">
-                     <ptr target="https://raw.githubusercontent.com/PghFrankenstein/fv-data/master/variorum-chunks/fThomas_C05.xml#C05_app19-fThomas__I"/>
-                     <ptr target="https://raw.githubusercontent.com/PghFrankenstein/fv-data/master/variorum-chunks/fThomas_C05.xml#C05_app19-fThomas__F"/>
+                     <ptr target="https://raw.githubusercontent.com/PghFrankenstein/fv-data/master/variorum-chunks/fThomas_C05.xml#C05_app24-fThomas"/>
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C05_app21" n="2">
-               <rdgGrp xml:id="C05_app21_rg1" n="['enquired']">
-                  <rdg wit="#f1831">
-                     <ptr target="https://raw.githubusercontent.com/PghFrankenstein/fv-data/master/variorum-chunks/f1831_C05.xml#C05_app21-f1831"/>
-                  </rdg>
-               </rdgGrp>
-               <rdgGrp xml:id="C05_app21_rg2" n="['inquired']">
-                  <rdg wit="#f1823">
-                     <ptr target="https://raw.githubusercontent.com/PghFrankenstein/fv-data/master/variorum-chunks/f1823_C05.xml#C05_app21-f1823"/>
-                  </rdg>
-               </rdgGrp>
-               <rdgGrp xml:id="C05_app21_rg3" n="['inquired,']">
+            <app xml:id="C05_app26" n="">
+               <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
+                        n="['the']"
+                        xml:id="C05_app26_rg1">
                   <rdg wit="#f1818">
-                     <ptr target="https://raw.githubusercontent.com/PghFrankenstein/fv-data/master/variorum-chunks/f1818_C05.xml#C05_app21-f1818"/>
+                     <ptr target="https://raw.githubusercontent.com/PghFrankenstein/fv-data/master/variorum-chunks/f1818_C05.xml#C05_app26-f1818"/>
+                  </rdg>
+                  <rdg wit="#f1823">
+                     <ptr target="https://raw.githubusercontent.com/PghFrankenstein/fv-data/master/variorum-chunks/f1823_C05.xml#C05_app26-f1823"/>
                   </rdg>
                   <rdg wit="#fThomas">
-                     <ptr target="https://raw.githubusercontent.com/PghFrankenstein/fv-data/master/variorum-chunks/fThomas_C05.xml#C05_app21-fThomas"/>
+                     <ptr target="https://raw.githubusercontent.com/PghFrankenstein/fv-data/master/variorum-chunks/fThomas_C05.xml#C05_app26-fThomas"/>
+                  </rdg>
+               </rdgGrp>
+               <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
+                        n="['a', 'new', 'spirit', 'of', 'life', 'animated', 'the', 'decaying', 'frame', 'of', 'the']"
+                        xml:id="C05_app26_rg2">
+                  <rdg wit="#f1831">
+                     <ptr target="https://raw.githubusercontent.com/PghFrankenstein/fv-data/master/variorum-chunks/f1831_C05.xml#C05_app26-f1831"/>
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C05_app23" n="76">
-               <rdgGrp xml:id="C05_app23_rg1"
-                       n="['the', 'stranger', 'seemed', 'very', 'eager']">
+            <app xml:id="C05_app27" n="">
+               <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
+                        n="['stranger', 'seemed', 'very', 'eager']"
+                        xml:id="C05_app27_rg1">
                   <rdg wit="#f1818">
-                     <ptr target="https://raw.githubusercontent.com/PghFrankenstein/fv-data/master/variorum-chunks/f1818_C05.xml#C05_app23-f1818"/>
+                     <ptr target="https://raw.githubusercontent.com/PghFrankenstein/fv-data/master/variorum-chunks/f1818_C05.xml#C05_app27-f1818"/>
                   </rdg>
                   <rdg wit="#f1823">
-                     <ptr target="https://raw.githubusercontent.com/PghFrankenstein/fv-data/master/variorum-chunks/f1823_C05.xml#C05_app23-f1823"/>
+                     <ptr target="https://raw.githubusercontent.com/PghFrankenstein/fv-data/master/variorum-chunks/f1823_C05.xml#C05_app27-f1823"/>
                   </rdg>
                   <rdg wit="#fThomas">
-                     <ptr target="https://raw.githubusercontent.com/PghFrankenstein/fv-data/master/variorum-chunks/fThomas_C05.xml#C05_app23-fThomas"/>
+                     <ptr target="https://raw.githubusercontent.com/PghFrankenstein/fv-data/master/variorum-chunks/fThomas_C05.xml#C05_app27-fThomas"/>
                   </rdg>
                </rdgGrp>
-               <rdgGrp xml:id="C05_app23_rg2"
-                       n="['a', 'new', 'spirit', 'of', 'life', 'animated', 'the', 'decaying', 'frame', 'of', 'the', 'stranger.', 'he', 'manifested', 'the', 'greatest', 'eagerness']">
+               <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
+                        n="['stranger.', 'he', 'manifested', 'the', 'greatest', 'eagerness']"
+                        xml:id="C05_app27_rg2">
                   <rdg wit="#f1831">
-                     <ptr target="https://raw.githubusercontent.com/PghFrankenstein/fv-data/master/variorum-chunks/f1831_C05.xml#C05_app23-f1831"/>
+                     <ptr target="https://raw.githubusercontent.com/PghFrankenstein/fv-data/master/variorum-chunks/f1831_C05.xml#C05_app27-f1831"/>
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C05_app25" n="13">
-               <rdgGrp xml:id="C05_app25_rg1" n="['&lt;del&gt;but&lt;del&gt;and']">
+            <app xml:id="C05_app29" n="">
+               <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
+                        n="['&lt;delstart/&gt;but&lt;delend/&gt;', '&lt;addedthomas-start/&gt;and&lt;addedthomas-end/&gt;']"
+                        xml:id="C05_app29_rg1">
                   <rdg wit="#fThomas">
-                     <ptr target="https://raw.githubusercontent.com/PghFrankenstein/fv-data/master/variorum-chunks/fThomas_C05.xml#C05_app25-fThomas"/>
+                     <ptr target="https://raw.githubusercontent.com/PghFrankenstein/fv-data/master/variorum-chunks/fThomas_C05.xml#C05_app29-fThomas"/>
                   </rdg>
                </rdgGrp>
-               <rdgGrp xml:id="C05_app25_rg2" n="['but']">
+               <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
+                        n="['but']"
+                        xml:id="C05_app29_rg2">
                   <rdg wit="#f1818">
-                     <ptr target="https://raw.githubusercontent.com/PghFrankenstein/fv-data/master/variorum-chunks/f1818_C05.xml#C05_app25-f1818"/>
+                     <ptr target="https://raw.githubusercontent.com/PghFrankenstein/fv-data/master/variorum-chunks/f1818_C05.xml#C05_app29-f1818"/>
                   </rdg>
                   <rdg wit="#f1823">
-                     <ptr target="https://raw.githubusercontent.com/PghFrankenstein/fv-data/master/variorum-chunks/f1823_C05.xml#C05_app25-f1823"/>
+                     <ptr target="https://raw.githubusercontent.com/PghFrankenstein/fv-data/master/variorum-chunks/f1823_C05.xml#C05_app29-f1823"/>
                   </rdg>
                </rdgGrp>
             </app>
