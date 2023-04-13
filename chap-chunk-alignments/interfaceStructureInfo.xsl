@@ -79,7 +79,7 @@
         </xsl:for-each>,
      
         
-       Switch to MS now. It's just one edition, so establish it out here. -->
+     <!--  Switch to MS now. It's just one edition, so establish it out here. -->
    {
         "label": "MS",
         "units": [
@@ -125,6 +125,11 @@
                  "id": "<xsl:value-of select="current()/following::text()[not(matches(., '^\s+$'))][1] ! lower-case(.) ! tokenize(., ' ') => string-join('_')"/>"<xsl:if test="position() != last()"/>,
              </xsl:otherwise>
          </xsl:choose>
+          "chunks": [<xsl:for-each select="current()/preceding::anchor[@type='collate'][1], current()/following::anchor[@type='collate'][following::milestone[@unit='tei:head'][1] and not(@spanTo = current()/@spanTo)] except current()/following::anchor[following::text()[matches(., '^\s+$') and following::milestone[@unit='tei:head' and not(@spanTo = current()/@spanTo)]][1]]">
+              "<xsl:value-of select="current()/@xml:id ! string()"/>"<xsl:if test="position() != last()">,</xsl:if>    
+
+          </xsl:for-each>
+          ]
                 "uris": [<xsl:for-each select="$surfaceStartsAndEnds ! tokenize(., ' ')">
               "<xsl:value-of select="ebb:msURImaker(current())"/>"<xsl:if test="position() != last()">,</xsl:if>
           </xsl:for-each>
@@ -133,8 +138,8 @@
       </xsl:for-each-group>-->
 
         <!-- Manuscript / units level closes below--> 
-    <!--    ]
-        }    -->
+        ]
+        }    
         <!-- SOURCES level closes below-->
         ]
         }
