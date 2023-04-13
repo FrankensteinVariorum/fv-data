@@ -8,7 +8,7 @@
     <xsl:output method="text" indent="yes"/> 
     
     
-    <xsl:variable name="printColl" as="document-node()+" select="doc('precoll-print-full/1818_fullC.xml'), doc('precoll-print-full/Thomas_fullC.xml'), doc('precoll-print-full/1823_fullC.xml'), doc('precoll-print-full/1831_fullC.xml')"/>
+    <xsl:variable name="printColl" as="document-node()+" select="doc('precoll-print-fullFlat/1818_fullFlat.xml'), doc('precoll-print-fullFlat/Thomas_fullFlat.xml'), doc('precoll-print-fullFlat/1823_fullFlat.xml'), doc('precoll-print-fullFlat/1831_fullFlat.xml')"/>
    
   
     <xsl:variable name="ms_c56" as="document-node()" select="doc('precoll-ms-fullFlat/msColl_c56Flat.xml')"/>
@@ -31,12 +31,11 @@
             <xsl:variable name="currentEd" as="document-node()" select="current()"/>
             <xsl:variable name="editionCode" as="xs:string" 
                 select="current() ! tokenize(base-uri(), '/')[last()] ! substring-before(., '_')"/>
-            
-                
+                         
                 {
                     "label": "<xsl:value-of select="$editionCode"/>",
                         "units": [ 
-                        <xsl:for-each select="current()//div[not(@type='backmatter')]">
+                   <xsl:for-each select="current()//milestone[@type='start'][not(@unit='backmatter') and not(@unit='volume') and not(@unit='novel') and not(@unit='frontmatter') and not(@unit='introduction')]">
                             
                   <xsl:variable name="labelString" as="xs:string">
                      <xsl:variable name="volumeString"> 
@@ -44,12 +43,33 @@
                           <xsl:value-of select="('Vol ' || preceding::milestone[@unit='volume'][1]/@n ! string()) || ' '"/>
                       </xsl:if>
                      </xsl:variable>
+                      <!-- 
+    
+                   {
+                   "label": "Vol 1 CHAPTER I",
+                   "id": "vol_1_chapter_i",
+                   "corresp": ["thomas/vol_1_chapter_i", "1823/vol_1_chapter_i", "1831/chapter_i", "ms/vol_1_chapter_i"],
+                   "chunks": ["C01", "C02"]
+                   }
+  --> 
                
-         <xsl:value-of select="($volumeString || head[1] ! tokenize(., '[.;,:]')[1] ! replace(., ' NOTE ON THE TEXT', ''))"/>
+         <xsl:value-of select="($volumeString || following::head[1] ! tokenize(., '[.;,:]')[1] ! replace(., ' NOTE ON THE TEXT', ''))"/>
                   </xsl:variable>          
-                        { 
-                        "label":  "<xsl:value-of select="$labelString"/>"
-                        }<xsl:if test="position() != last()">,</xsl:if>
+                      {  
+                        "label":  "<xsl:value-of select="$labelString"/>",
+                        
+                        "id": "<xsl:value-of select="$labelString ! lower-case(.) ! tokenize(., ' ') => string-join('_')"/>",
+                            "chunks": [<xsl:choose>
+                       <xsl:when test="position() = last()">
+                           <xsl:for-each select="(current()/preceding::anchor[1], current()/following::anchor)">"<xsl:value-of select="current()/@xml:id ! string()"/>"<xsl:if test="position() != last()">,</xsl:if>
+                               
+                           </xsl:for-each>
+                       </xsl:when>         
+                                
+                                <xsl:otherwise><xsl:for-each select="(current()/preceding::anchor[1], current()/following::anchor[preceding::milestone[1][@n = current()/@n and @type=current()/@type and @unit=current()/@unit]] except current()/following::anchor[following-sibling::*[1][@type='start']])">"<xsl:value-of select="current()/@xml:id ! string()"/>"<xsl:if test="position() != last()">,</xsl:if></xsl:for-each></xsl:otherwise></xsl:choose>]
+                              
+                        }<xsl:if test="position() != last()">,</xsl:if> 
+                        
                         </xsl:for-each>
                       ]
                     
@@ -59,8 +79,8 @@
         </xsl:for-each>,
      
         
-        <!-- Switch to MS now. It's just one edition, so establish it out here. -->
-        {
+       Switch to MS now. It's just one edition, so establish it out here. -->
+   {
         "label": "MS",
         "units": [
         
@@ -81,36 +101,40 @@
         
          {
          <xsl:choose>
+             
              <xsl:when test="position() = 1">
                  <xsl:variable name="groundMilestone" select="current()/preceding::milestone[@unit='tei:head'][1]"/>
                  <xsl:variable name="firstRoot" select="current()/ancestor::xml"/>
                  
-                 
                  "label":  "Chapter 1 frag",
-                 <!--The complicated predicate on the surface element are checking the immediately following text() nodes to make sure they have content. If they don't
+                 "id": "chapter_1_frag",
+                 "chunks": ["C07"],
+                 <!--The complicated predicate on the surface element is checking the immediately following text() nodes to make sure they have content. If they don't
                  it wouldn't be accurate that this surface contains relevant material before the next milestone. -->
                  "uris": [<xsl:for-each select="$firstRoot//surface[following::text()[not(matches(., '^\s+$'))][following::milestone[@unit='tei:head'][1]/@spanTo = $groundMilestone/@spanTo]]/@*[name()[contains(., 'ID')]] ! data() ! replace(., '__.+?$', '') => distinct-values()">
                      "<xsl:value-of select="ebb:msURImaker(current())"/>"<xsl:if test="position() != last()">,</xsl:if> 
-                     
                  </xsl:for-each>
                  ]
                  
                  },
                  {
                  "label":  "<xsl:value-of select="current()"/>",
+                 "id": "<xsl:value-of select="current() ! lower-case(.) ! tokenize(., ' ') => string-join('_')"/>"<xsl:if test="position() != last()">,</xsl:if>
              </xsl:when>
-             <xsl:otherwise>"label":  "<xsl:value-of select="current()/following::text()[not(matches(., '^\s+$'))][1]"/>",</xsl:otherwise>
+             <xsl:otherwise>"label":  "<xsl:value-of select="current()/following::text()[not(matches(., '^\s+$'))][1]"/>",
+                 "id": "<xsl:value-of select="current()/following::text()[not(matches(., '^\s+$'))][1] ! lower-case(.) ! tokenize(., ' ') => string-join('_')"/>"<xsl:if test="position() != last()"/>,
+             </xsl:otherwise>
          </xsl:choose>
-          "uris": [<xsl:for-each select="$surfaceStartsAndEnds ! tokenize(., ' ')">
+                "uris": [<xsl:for-each select="$surfaceStartsAndEnds ! tokenize(., ' ')">
               "<xsl:value-of select="ebb:msURImaker(current())"/>"<xsl:if test="position() != last()">,</xsl:if>
           </xsl:for-each>
           ]
           }<xsl:if test="position() != last()">,</xsl:if>
-      </xsl:for-each-group>
+      </xsl:for-each-group>-->
 
         <!-- Manuscript / units level closes below--> 
-        ]
-        }    
+    <!--    ]
+        }    -->
         <!-- SOURCES level closes below-->
         ]
         }
