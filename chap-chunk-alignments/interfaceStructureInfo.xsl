@@ -119,7 +119,7 @@
                  },
                  {
                  "label":  "<xsl:value-of select="current()"/>",
-                 "id": "<xsl:value-of select="current() ! lower-case(.) ! tokenize(., ' ') => string-join('_')"/>"<xsl:if test="position() != last()">,</xsl:if>
+                 "id": "<xsl:value-of select="current() ! lower-case(.) ! replace(., '[.,:;]', '') ! tokenize(., ' ') => string-join('_')"/>"<xsl:if test="position() != last()">,</xsl:if>
              </xsl:when>
              <xsl:otherwise>"label":  "<xsl:value-of select="current()/following::text()[not(matches(., '^\s+$'))][1]"/>",
                  "id": "<xsl:value-of select="current()/following::text()[not(matches(., '^\s+$'))][1] ! lower-case(.) ! replace(., '[.,:;]', '') ! tokenize(., ' ') => string-join('_')"/>"<xsl:if test="position() != last()"/>,
