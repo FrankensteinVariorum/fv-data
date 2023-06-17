@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../segMarkerTester.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:mith="http://mith.umd.edu/sc/ns1#" xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../segMarkerTester.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+      xmlns:mith="http://mith.umd.edu/sc/ns1#"
+      xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
+      xmlns:tei="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -6,7 +11,7 @@
          </titleStmt>
          <publicationStmt>
             <authority>Frankenstein Variorum Project</authority>
-            <date>2018</date>
+            <date>2023—</date>
             <availability>
                <licence>Distributed under a Creative Commons
                                         Attribution-ShareAlike 3.0 Unported License</licence>
@@ -14,30 +19,31 @@
          </publicationStmt>
          <sourceDesc>
             <p>Produced from collation output prepared in batch file processing
-                                    on  2023-04-11 22:16:28.016397 .</p>
+                                    on  2023-06-15 17:23:25.809396 .</p>
             <p>Edited to correct alignments and prepared for the Frankenstein
-                                    Variorum spine on 2023-04-12T11:54:43.688048-04:00.</p>
+                                    Variorum spine on 2023-06-16T23:37:23.7351924-04:00.</p>
          </sourceDesc>
       </fileDesc>
    </teiHeader>
    <text>
       <body>
-         <div type="collation">
+         <div xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
+               type="collation">
             <seg xml:id="C04_app1-f1823">
-            <anchor type="collate" xml:id="C04"/>
-            <pb xml:id="F1823_v1_037" n="18"/>
-            <milestone unit="letter" type="start" n="3"/>
-            <head ana="start"/>LETTER III.<head ana="end"/>
+               <anchor type="collate" xml:id="C04"/>
+               <pb xml:id="F1823_v1_037" n="18"/>
+               <milestone unit="letter" type="start" n="3"/>
+               <head ana="start"/>LETTER III.<head ana="end"/>
             </seg>
             <seg xml:id="C04_app2-f1823">
-            <ab xml:id="novel1_letter3_div3_ab1">
-               <hi xml:id="novel1_letter3_div3_ab1_hi1">To Mrs.</hi> S<hi xml:id="novel1_letter3_div3_ab1_hi2">AVILLE</hi>, <hi xml:id="novel1_letter3_div3_ab1_hi3">England.</hi>
-            </ab>
+               <ab xml:id="novel1_letter3_div3_ab1">
+                  <hi xml:id="novel1_letter3_div3_ab1_hi1">To Mrs.</hi> S<hi xml:id="novel1_letter3_div3_ab1_hi2">AVILLE</hi>, <hi xml:id="novel1_letter3_div3_ab1_hi3">England.</hi>
+               </ab>
             </seg>
             <seg part="I" xml:id="C04_app3-f1823__I">
-            <p xml:id="novel1_letter3_div3_p1"> July 7th, 17—. </p>
-            <p xml:id="novel1_letter3_div3_p2">
-               <hi xml:id="novel1_letter3_div3_p2_hi1">MY DEAR SISTER</hi>, </p>
+               <p xml:id="novel1_letter3_div3_p1"> July 7th, 17—. </p>
+               <p xml:id="novel1_letter3_div3_p2">
+                  <hi xml:id="novel1_letter3_div3_p2_hi1">MY DEAR SISTER</hi>, </p>
             </seg>
             <p xml:id="novel1_letter3_div3_p3">
                <seg part="F" xml:id="C04_app3-f1823__F"> I <hi xml:id="novel1_letter3_div3_p3_hi1">WRITE</hi> a few lines in haste, to say that I am safe, and well advanced on my voyage. This letter will reach England by a</seg>
@@ -72,7 +78,7 @@
                <seg part="F" xml:id="C04_app22-f1823__F">
                </seg>
                <seg xml:id="C04_app23-f1823">
-               <pb xml:id="F1823_v1_039" n="20"/>Remember me to all</seg>
+                  <pb xml:id="F1823_v1_039" n="20"/>Remember me to all</seg>
                <seg xml:id="C04_app24-f1823">my</seg>
                <seg xml:id="C04_app25-f1823">English friends.</seg>
                <seg part="I" xml:id="C04_app26-f1823__I">
@@ -95,7 +101,7 @@
             <seg part="F" xml:id="C04_app30-f1823__F">
             </seg>
             <seg xml:id="C04_app32-f1823">
-            <milestone unit="letter" type="end" n="3"/>
+               <milestone unit="letter" type="end" n="3"/>
             </seg>
          </div>
       </body>
