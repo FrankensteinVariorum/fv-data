@@ -18,18 +18,18 @@
          </publicationStmt>
          <sourceDesc xmlns:cx="http://interedition.eu/collatex/ns/1.0">
             <p>Produced from collation output prepared in batch file processing
-                                    on  2023-06-15 17:21:55.568867 .</p>
+                                    on  2023-05-18 07:32:23.011795 .</p>
             <p>Edited to correct alignments and prepared for the Frankenstein
-                                    Variorum spine on 2023-06-17T00:47:38.9261159-04:00.</p>
+                                    Variorum spine on 2023-06-26T17:36:34.0549946-04:00.</p>
          </sourceDesc>
       </fileDesc>
    </teiHeader>
    <text>
       <body>
          <ab type="alignmentChunk">
-            <app xml:id="C02_app2" n="28">
+            <app xml:id="C02_app2" n="18">
                <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
-                        n="[' or, the ', ' modern prometheus. ']"
+                        n="['or, the', '']"
                         xml:id="C02_app2_rg1">
                   <rdg wit="#f1818">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chunks/f1818_C02.xml#C02_app2-f1818"/>
@@ -39,7 +39,7 @@
                   </rdg>
                </rdgGrp>
                <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
-                        n="[' or,', 'the modern prometheus.']"
+                        n="['or,', 'the modern prometheus.']"
                         xml:id="C02_app2_rg2">
                   <rdg wit="#f1823">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chunks/f1823_C02.xml#C02_app2-f1823"/>
@@ -49,9 +49,9 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C02_app4" n="33">
+            <app xml:id="C02_app4" n="13">
                <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
-                        n="['letter i', 'to', 'mrs.', 'saville,', 'england.']"
+                        n="['modern prometheus.', '']"
                         xml:id="C02_app4_rg1">
                   <rdg wit="#f1818">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chunks/f1818_C02.xml#C02_app4-f1818"/>
@@ -71,283 +71,315 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C02_app5" n="25">
+            <app xml:id="C02_app6" n="8">
                <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
-                        n="[' to mrs. saville, england. ']"
-                        xml:id="C02_app5_rg1">
+                        n="['to mrs. saville, england.']"
+                        xml:id="C02_app6_rg1">
+                  <rdg wit="#f1823">
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chunks/f1823_C02.xml#C02_app6-f1823"/>
+                  </rdg>
                   <rdg wit="#f1831">
-                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chunks/f1831_C02.xml#C02_app5-f1831"/>
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chunks/f1831_C02.xml#C02_app6-f1831"/>
                   </rdg>
                </rdgGrp>
                <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
-                        n="[' to mrs. saville, england.']"
-                        xml:id="C02_app5_rg2">
-                  <rdg wit="#f1823">
-                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chunks/f1823_C02.xml#C02_app5-f1823"/>
+                        n="['letter i', 'to', 'mrs.', 'saville,', 'england.']"
+                        xml:id="C02_app6_rg2">
+                  <rdg wit="#f1818">
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chunks/f1818_C02.xml#C02_app6-f1818"/>
+                  </rdg>
+                  <rdg wit="#fThomas">
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chunks/fThomas_C02.xml#C02_app6-fThomas"/>
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C02_app7" n="67">
+            <app xml:id="C02_app7" n="0">
+               <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
+                        n="['&lt;p-start/&gt;', 'st.', 'petersburgh,', 'dec.', '11th,', '17—.', '&lt;p-end/&gt;', '&lt;p-start/&gt;', 'you', 'will', 'rejoice', 'to', 'hear', 'that', 'no', 'disaster', 'has', 'accompanied', 'the', 'commencement', 'of', 'an', 'enterprise', 'which', 'you', 'have', 'regarded', 'with', 'such', 'evil', 'forebodings.', 'i', 'arrived', 'here', 'yesterday;', 'and', 'my', 'first', 'task', 'is', 'to', 'assure', 'my', 'dear', 'sister', 'of', 'my', 'welfare,', 'and', 'increasing', 'confidence', 'in', 'the', 'success', 'of', 'my', 'undertaking.', '&lt;p-end/&gt;', '&lt;p-start/&gt;', 'i', 'am', 'already', 'far', 'north', 'of', 'london;', 'and', 'as', 'i', 'walk', 'in', 'the', 'streets', 'of', 'petersburgh,', 'i', 'feel', 'a', 'cold', 'northern', 'breeze', 'play', 'upon', 'my', 'cheeks,', 'which', 'braces', 'my', 'nerves,', 'and', 'fills', 'me', 'with', 'delight.', 'do', 'you', 'understand', 'this', 'feeling?', 'this', 'breeze,', 'which', 'has', 'travelled', 'from', 'the', 'regions', 'towards', 'which', 'i', 'am', 'advancing,', 'gives', 'me', 'a', 'foretaste', 'of', 'those', 'icy', 'climes.', 'inspirited', 'by', 'this', 'wind', 'of', 'promise,', 'my', 'day', 'dreams', 'become', 'more', 'fervent', 'and', 'vivid.', 'i', 'try', 'in', 'vain', 'to', 'be', 'persuaded', 'that', 'the', 'pole', 'is', 'the', 'seat', 'of', 'frost', 'and', 'desolation;', 'it', 'ever', 'presents', 'itself', 'to', 'my', 'imagination', 'as', 'the', 'region', 'of', 'beauty', 'and', 'delight.', 'there,', 'margaret,', 'the', 'sun', 'is']"
+                        xml:id="C02_app7_rg1">
+                  <rdg wit="#f1818">
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chunks/f1818_C02.xml#C02_app7-f1818__I"/>
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chunks/f1818_C02.xml#C02_app7-f1818__F"/>
+                  </rdg>
+                  <rdg wit="#f1823">
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chunks/f1823_C02.xml#C02_app7-f1823__I"/>
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chunks/f1823_C02.xml#C02_app7-f1823__F"/>
+                  </rdg>
+                  <rdg wit="#fThomas">
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chunks/fThomas_C02.xml#C02_app7-fThomas__I"/>
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chunks/fThomas_C02.xml#C02_app7-fThomas__F"/>
+                  </rdg>
+               </rdgGrp>
+               <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
+                        n="['', '&lt;p-start/&gt;', 'st.', 'petersburgh,', 'dec.', '11th,', '17—.', '&lt;p-end/&gt;', '&lt;p-start/&gt;', 'you', 'will', 'rejoice', 'to', 'hear', 'that', 'no', 'disaster', 'has', 'accompanied', 'the', 'commencement', 'of', 'an', 'enterprise', 'which', 'you', 'have', 'regarded', 'with', 'such', 'evil', 'forebodings.', 'i', 'arrived', 'here', 'yesterday;', 'and', 'my', 'first', 'task', 'is', 'to', 'assure', 'my', 'dear', 'sister', 'of', 'my', 'welfare,', 'and', 'increasing', 'confidence', 'in', 'the', 'success', 'of', 'my', 'undertaking.', '&lt;p-end/&gt;', '&lt;p-start/&gt;', 'i', 'am', 'already', 'far', 'north', 'of', 'london;', 'and', 'as', 'i', 'walk', 'in', 'the', 'streets', 'of', 'petersburgh,', 'i', 'feel', 'a', 'cold', 'northern', 'breeze', 'play', 'upon', 'my', 'cheeks,', 'which', 'braces', 'my', 'nerves,', 'and', 'fills', 'me', 'with', 'delight.', 'do', 'you', 'understand', 'this', 'feeling?', 'this', 'breeze,', 'which', 'has', 'travelled', 'from', 'the', 'regions', 'towards', 'which', 'i', 'am', 'advancing,', 'gives', 'me', 'a', 'foretaste', 'of', 'those', 'icy', 'climes.', 'inspirited', 'by', 'this', 'wind', 'of', 'promise,', 'my', 'day', 'dreams', 'become', 'more', 'fervent', 'and', 'vivid.', 'i', 'try', 'in', 'vain', 'to', 'be', 'persuaded', 'that', 'the', 'pole', 'is', 'the', 'seat', 'of', 'frost', 'and', 'desolation;', 'it', 'ever', 'presents', 'itself', 'to', 'my', 'imagination', 'as', 'the', 'region', 'of', 'beauty', 'and', 'delight.', 'there,', 'margaret,', 'the', 'sun', 'is']"
+                        xml:id="C02_app7_rg2">
+                  <rdg wit="#f1831">
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chunks/f1831_C02.xml#C02_app7-f1831__I"/>
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chunks/f1831_C02.xml#C02_app7-f1831__F"/>
+                  </rdg>
+               </rdgGrp>
+            </app>
+            <app xml:id="C02_app8" n="32">
                <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
                         n="['&lt;del&gt;for ever&lt;/del&gt;', 'constantly', 'visible', 'for more than half the year', ';']"
-                        xml:id="C02_app7_rg1">
+                        xml:id="C02_app8_rg1">
                   <rdg wit="#fThomas">
-                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chunks/fThomas_C02.xml#C02_app7-fThomas"/>
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chunks/fThomas_C02.xml#C02_app8-fThomas"/>
                   </rdg>
                </rdgGrp>
                <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
                         n="['for', 'ever', 'visible;']"
-                        xml:id="C02_app7_rg2">
+                        xml:id="C02_app8_rg2">
                   <rdg wit="#f1818">
-                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chunks/f1818_C02.xml#C02_app7-f1818"/>
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chunks/f1818_C02.xml#C02_app8-f1818"/>
                   </rdg>
                   <rdg wit="#f1823">
-                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chunks/f1823_C02.xml#C02_app7-f1823"/>
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chunks/f1823_C02.xml#C02_app8-f1823"/>
                   </rdg>
                   <rdg wit="#f1831">
-                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chunks/f1831_C02.xml#C02_app7-f1831"/>
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chunks/f1831_C02.xml#C02_app8-f1831"/>
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C02_app9" n="10">
+            <app xml:id="C02_app10" n="1">
                <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
                         n="['phenomena']"
-                        xml:id="C02_app9_rg1">
+                        xml:id="C02_app10_rg1">
                   <rdg wit="#f1823">
-                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chunks/f1823_C02.xml#C02_app9-f1823"/>
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chunks/f1823_C02.xml#C02_app10-f1823"/>
                   </rdg>
                   <rdg wit="#f1831">
-                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chunks/f1831_C02.xml#C02_app9-f1831"/>
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chunks/f1831_C02.xml#C02_app10-f1831"/>
                   </rdg>
                </rdgGrp>
                <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
                         n="['phænomena']"
-                        xml:id="C02_app9_rg2">
+                        xml:id="C02_app10_rg2">
                   <rdg wit="#f1818">
-                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chunks/f1818_C02.xml#C02_app9-f1818"/>
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chunks/f1818_C02.xml#C02_app10-f1818"/>
                   </rdg>
                   <rdg wit="#fThomas">
-                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chunks/fThomas_C02.xml#C02_app9-fThomas"/>
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chunks/fThomas_C02.xml#C02_app10-fThomas"/>
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C02_app11" n="197">
+            <app xml:id="C02_app12" n="143">
                <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
                         n="['&lt;del&gt;of eternal light?&lt;/del&gt;', 'ruled by different laws and in which numerous circumstances enforce a belief that the aspect of nature differs essentially from anything of which we have any experience.']"
-                        xml:id="C02_app11_rg1">
+                        xml:id="C02_app12_rg1">
                   <rdg wit="#fThomas">
-                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chunks/fThomas_C02.xml#C02_app11-fThomas"/>
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chunks/fThomas_C02.xml#C02_app12-fThomas"/>
                   </rdg>
                </rdgGrp>
                <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
                         n="['of', 'eternal', 'light?']"
-                        xml:id="C02_app11_rg2">
+                        xml:id="C02_app12_rg2">
                   <rdg wit="#f1818">
-                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chunks/f1818_C02.xml#C02_app11-f1818"/>
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chunks/f1818_C02.xml#C02_app12-f1818"/>
                   </rdg>
                   <rdg wit="#f1823">
-                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chunks/f1823_C02.xml#C02_app11-f1823"/>
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chunks/f1823_C02.xml#C02_app12-f1823"/>
                   </rdg>
                   <rdg wit="#f1831">
-                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chunks/f1831_C02.xml#C02_app11-f1831"/>
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chunks/f1831_C02.xml#C02_app12-f1831"/>
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C02_app13" n="12">
+            <app xml:id="C02_app14" n="1">
                <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
                         n="['tranquillise']"
-                        xml:id="C02_app13_rg1">
+                        xml:id="C02_app14_rg1">
                   <rdg wit="#f1831">
-                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chunks/f1831_C02.xml#C02_app13-f1831"/>
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chunks/f1831_C02.xml#C02_app14-f1831"/>
                   </rdg>
                </rdgGrp>
                <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
                         n="['tranquillize']"
-                        xml:id="C02_app13_rg2">
+                        xml:id="C02_app14_rg2">
                   <rdg wit="#f1818">
-                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chunks/f1818_C02.xml#C02_app13-f1818"/>
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chunks/f1818_C02.xml#C02_app14-f1818"/>
                   </rdg>
                   <rdg wit="#f1823">
-                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chunks/f1823_C02.xml#C02_app13-f1823"/>
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chunks/f1823_C02.xml#C02_app14-f1823"/>
                   </rdg>
                   <rdg wit="#fThomas">
-                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chunks/fThomas_C02.xml#C02_app13-fThomas"/>
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chunks/fThomas_C02.xml#C02_app14-fThomas"/>
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C02_app15" n="10">
+            <app xml:id="C02_app16" n="1">
                <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
                         n="['sea-faring']"
-                        xml:id="C02_app15_rg1">
+                        xml:id="C02_app16_rg1">
                   <rdg wit="#f1818">
-                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chunks/f1818_C02.xml#C02_app15-f1818"/>
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chunks/f1818_C02.xml#C02_app16-f1818"/>
                   </rdg>
                   <rdg wit="#f1823">
-                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chunks/f1823_C02.xml#C02_app15-f1823"/>
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chunks/f1823_C02.xml#C02_app16-f1823"/>
                   </rdg>
                   <rdg wit="#fThomas">
-                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chunks/fThomas_C02.xml#C02_app15-fThomas"/>
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chunks/fThomas_C02.xml#C02_app16-fThomas"/>
                   </rdg>
                </rdgGrp>
                <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
                         n="['seafaring']"
-                        xml:id="C02_app15_rg2">
+                        xml:id="C02_app16_rg2">
                   <rdg wit="#f1831">
-                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chunks/f1831_C02.xml#C02_app15-f1831"/>
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chunks/f1831_C02.xml#C02_app16-f1831"/>
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C02_app17" n="11">
+            <app xml:id="C02_app18" n="1">
                <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
                         n="['shakespeare']"
-                        xml:id="C02_app17_rg1">
+                        xml:id="C02_app18_rg1">
                   <rdg wit="#f1818">
-                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chunks/f1818_C02.xml#C02_app17-f1818"/>
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chunks/f1818_C02.xml#C02_app18-f1818"/>
                   </rdg>
                   <rdg wit="#fThomas">
-                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chunks/fThomas_C02.xml#C02_app17-fThomas"/>
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chunks/fThomas_C02.xml#C02_app18-fThomas"/>
                   </rdg>
                </rdgGrp>
                <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
                         n="['shakspeare']"
-                        xml:id="C02_app17_rg2">
+                        xml:id="C02_app18_rg2">
                   <rdg wit="#f1823">
-                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chunks/f1823_C02.xml#C02_app17-f1823"/>
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chunks/f1823_C02.xml#C02_app18-f1823"/>
                   </rdg>
                   <rdg wit="#f1831">
-                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chunks/f1831_C02.xml#C02_app17-f1831"/>
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chunks/f1831_C02.xml#C02_app18-f1831"/>
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C02_app19" n="7">
+            <app xml:id="C02_app20" n="1">
                <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
                         n="['voyage,']"
-                        xml:id="C02_app19_rg1">
+                        xml:id="C02_app20_rg1">
                   <rdg wit="#f1831">
-                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chunks/f1831_C02.xml#C02_app19-f1831"/>
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chunks/f1831_C02.xml#C02_app20-f1831"/>
                   </rdg>
                </rdgGrp>
                <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
                         n="['voyage;']"
-                        xml:id="C02_app19_rg2">
+                        xml:id="C02_app20_rg2">
                   <rdg wit="#f1818">
-                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chunks/f1818_C02.xml#C02_app19-f1818"/>
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chunks/f1818_C02.xml#C02_app20-f1818"/>
                   </rdg>
                   <rdg wit="#f1823">
-                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chunks/f1823_C02.xml#C02_app19-f1823"/>
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chunks/f1823_C02.xml#C02_app20-f1823"/>
                   </rdg>
                   <rdg wit="#fThomas">
-                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chunks/fThomas_C02.xml#C02_app19-fThomas"/>
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chunks/fThomas_C02.xml#C02_app20-fThomas"/>
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C02_app21" n="7">
+            <app xml:id="C02_app22" n="1">
                <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
                         n="['theirs']"
-                        xml:id="C02_app21_rg1">
+                        xml:id="C02_app22_rg1">
                   <rdg wit="#f1831">
-                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chunks/f1831_C02.xml#C02_app21-f1831"/>
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chunks/f1831_C02.xml#C02_app22-f1831"/>
                   </rdg>
                </rdgGrp>
                <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
                         n="['their’s']"
-                        xml:id="C02_app21_rg2">
+                        xml:id="C02_app22_rg2">
                   <rdg wit="#f1818">
-                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chunks/f1818_C02.xml#C02_app21-f1818"/>
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chunks/f1818_C02.xml#C02_app22-f1818"/>
                   </rdg>
                   <rdg wit="#f1823">
-                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chunks/f1823_C02.xml#C02_app21-f1823"/>
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chunks/f1823_C02.xml#C02_app22-f1823"/>
                   </rdg>
                   <rdg wit="#fThomas">
-                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chunks/fThomas_C02.xml#C02_app21-fThomas"/>
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chunks/fThomas_C02.xml#C02_app22-fThomas"/>
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C02_app23" n="7">
+            <app xml:id="C02_app24" n="3">
                <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
                         n="['wrapped']"
-                        xml:id="C02_app23_rg1">
+                        xml:id="C02_app24_rg1">
                   <rdg wit="#f1831">
-                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chunks/f1831_C02.xml#C02_app23-f1831"/>
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chunks/f1831_C02.xml#C02_app24-f1831"/>
                   </rdg>
                </rdgGrp>
                <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
                         n="['wrapt']"
-                        xml:id="C02_app23_rg2">
+                        xml:id="C02_app24_rg2">
                   <rdg wit="#f1818">
-                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chunks/f1818_C02.xml#C02_app23-f1818"/>
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chunks/f1818_C02.xml#C02_app24-f1818"/>
                   </rdg>
                   <rdg wit="#f1823">
-                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chunks/f1823_C02.xml#C02_app23-f1823"/>
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chunks/f1823_C02.xml#C02_app24-f1823"/>
                   </rdg>
                   <rdg wit="#fThomas">
-                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chunks/fThomas_C02.xml#C02_app23-fThomas"/>
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chunks/fThomas_C02.xml#C02_app24-fThomas"/>
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C02_app25" n="7">
+            <app xml:id="C02_app26" n="1">
                <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
                         n="['furs,', 'a']"
-                        xml:id="C02_app25_rg1">
+                        xml:id="C02_app26_rg1">
                   <rdg wit="#f1818">
-                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chunks/f1818_C02.xml#C02_app25-f1818"/>
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chunks/f1818_C02.xml#C02_app26-f1818"/>
                   </rdg>
                   <rdg wit="#f1823">
-                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chunks/f1823_C02.xml#C02_app25-f1823"/>
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chunks/f1823_C02.xml#C02_app26-f1823"/>
                   </rdg>
                   <rdg wit="#fThomas">
-                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chunks/fThomas_C02.xml#C02_app25-fThomas"/>
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chunks/fThomas_C02.xml#C02_app26-fThomas"/>
                   </rdg>
                </rdgGrp>
                <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
                         n="['furs,—a']"
-                        xml:id="C02_app25_rg2">
+                        xml:id="C02_app26_rg2">
                   <rdg wit="#f1831">
-                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chunks/f1831_C02.xml#C02_app25-f1831"/>
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chunks/f1831_C02.xml#C02_app26-f1831"/>
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C02_app27" n="5">
+            <app xml:id="C02_app28" n="1">
                <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
                         n="['june:']"
-                        xml:id="C02_app27_rg1">
+                        xml:id="C02_app28_rg1">
                   <rdg wit="#f1818">
-                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chunks/f1818_C02.xml#C02_app27-f1818"/>
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chunks/f1818_C02.xml#C02_app28-f1818"/>
                   </rdg>
                   <rdg wit="#fThomas">
-                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chunks/fThomas_C02.xml#C02_app27-fThomas"/>
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chunks/fThomas_C02.xml#C02_app28-fThomas"/>
                   </rdg>
                   <rdg wit="#f1831">
-                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chunks/f1831_C02.xml#C02_app27-f1831"/>
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chunks/f1831_C02.xml#C02_app28-f1831"/>
                   </rdg>
                </rdgGrp>
                <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
                         n="['june;']"
-                        xml:id="C02_app27_rg2">
+                        xml:id="C02_app28_rg2">
                   <rdg wit="#f1823">
-                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chunks/f1823_C02.xml#C02_app27-f1823"/>
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chunks/f1823_C02.xml#C02_app28-f1823"/>
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C02_app29" n="10">
+            <app xml:id="C02_app30" n="1">
                <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
                         n="['excellent']"
-                        xml:id="C02_app29_rg1">
+                        xml:id="C02_app30_rg1">
                   <rdg wit="#f1831">
-                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chunks/f1831_C02.xml#C02_app29-f1831"/>
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chunks/f1831_C02.xml#C02_app30-f1831"/>
                   </rdg>
                </rdgGrp>
                <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
                         n="['excellent,']"
-                        xml:id="C02_app29_rg2">
+                        xml:id="C02_app30_rg2">
                   <rdg wit="#f1818">
-                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chunks/f1818_C02.xml#C02_app29-f1818"/>
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chunks/f1818_C02.xml#C02_app30-f1818"/>
                   </rdg>
                   <rdg wit="#f1823">
-                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chunks/f1823_C02.xml#C02_app29-f1823"/>
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chunks/f1823_C02.xml#C02_app30-f1823"/>
                   </rdg>
                   <rdg wit="#fThomas">
-                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chunks/fThomas_C02.xml#C02_app29-fThomas"/>
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chunks/fThomas_C02.xml#C02_app30-fThomas"/>
                   </rdg>
                </rdgGrp>
             </app>
