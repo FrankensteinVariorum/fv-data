@@ -57,28 +57,19 @@
                   </xsl:variable>          
                       {  
                         "label":  "<xsl:value-of select="$labelString"/>",
-                        
                         "id": "<xsl:value-of select="$labelString ! lower-case(.) ! tokenize(., ' ') => string-join('_')"/>",
-                            "chunks": [<xsl:choose>
-                       <xsl:when test="position() = last()">
-                           <xsl:for-each select="(current()/preceding::anchor[1], current()/following::anchor)">"<xsl:value-of select="current()/@xml:id ! string()"/>"<xsl:if test="position() != last()">,</xsl:if>
-                               
-                           </xsl:for-each>
-                       </xsl:when>         
+                        "chunks": [<xsl:choose>
+                        <xsl:when test="position() = last()">
+                           <xsl:for-each select="(current()/preceding::anchor[1], current()/following::anchor)">"<xsl:value-of select="current()/@xml:id ! string()"/>"<xsl:if test="position() != last()">,</xsl:if></xsl:for-each>
+                        </xsl:when>         
                                 
-                                <xsl:otherwise><xsl:for-each select="(current()/preceding::anchor[1], current()/following::anchor[preceding::milestone[1][@n = current()/@n and @type=current()/@type and @unit=current()/@unit]] except current()/following::anchor[following-sibling::*[1][@type='start']])">"<xsl:value-of select="current()/@xml:id ! string()"/>"<xsl:if test="position() != last()">,</xsl:if></xsl:for-each></xsl:otherwise></xsl:choose>]
-                              
-                        }<xsl:if test="position() != last()">,</xsl:if> 
-                        
-                        </xsl:for-each>
+                        <xsl:otherwise><xsl:for-each select="(current()/preceding::anchor[1], current()/following::anchor[preceding::milestone[1][@n = current()/@n and @type=current()/@type and @unit=current()/@unit]] except current()/following::anchor[following-sibling::*[1][@type='start']])">"<xsl:value-of select="current()/@xml:id ! string()"/>"<xsl:if test="position() != last()">,</xsl:if></xsl:for-each></xsl:otherwise></xsl:choose>]
+
+                        }<xsl:if test="position() != last()">,</xsl:if></xsl:for-each>
                       ]
-                    
-            
             }<xsl:if test="position() != last()">,</xsl:if>
-   
         </xsl:for-each>,
-     
-        
+
      <!--  Switch to MS now. It's just one edition, so establish it out here. -->
    {
         "label": "MS",

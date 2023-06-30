@@ -1,1178 +1,579 @@
-<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xml:id="fMS-C09">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../segMarkerTester.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein" xmlns:mith="http://mith.umd.edu/sc/ns1#" xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse" xmlns:tei="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main">Frankenstein manuscripts, Chunk msColl_C09.xml</title>
+            <title>Bridge Phase 5: Witness fMS, Collation unit C09</title>
          </titleStmt>
-         <editionStmt>
-            <edition>Shelley-Godwin Archive edition, <date>2012-2015</date>
-            </edition>
-         </editionStmt>
          <publicationStmt>
-            <distributor>Oxford University</distributor>
-            <address>
-               <addrLine>
-                  <ref target="http://www.shelleygodwinarchive.org/">http://www.shelleygodwinarchive.org/</ref>
-               </addrLine>
-            </address>
-            <availability status="free">
-               <licence target="http://creativecommons.org/publicdomain/zero/1.0/">
-                  <p>CC0 1.0 Universal.</p>
-                  <p> To the extent possible under law, the creators of the metadata records for the Shelley-Godwin Archive 
-                              have waived all copyright and related or neighboring rights to this work.</p>
-               </licence>
+            <authority>Frankenstein Variorum Project</authority>
+            <date>2018</date>
+            <availability>
+               <licence>Distributed under a Creative Commons
+                                  Attribution-ShareAlike 3.0 Unported License</licence>
             </availability>
-            <pubPlace>Oxford, UK, and College Park, MD</pubPlace>
          </publicationStmt>
          <sourceDesc>
-            <msDesc>
-               <msIdentifier>
-                  <settlement>Oxford</settlement>
-                  <repository>Bodleian Library, University of Oxford</repository>
-                  <idno type="Bod">MS. Abinger c56</idno>
-               </msIdentifier>
-               <physDesc>
-                  <handDesc>
-                     <handNote scope="major" xml:id="mws">
-                        <persName>Mary Shelley</persName>
-                     </handNote>
-                     <handNote scope="minor" xml:id="pbs">
-                        <persName>Percy Shelley</persName>
-                     </handNote>
-                  </handDesc>
-               </physDesc>
-            </msDesc>
+            <p>Produced from collation output prepared in batch file processing on  2018-10-03 11:28:31.116039 .</p>
+            <p>Edited to correct alignments and prepared for the Frankenstein Variorum spine on  2020-01-02T22:33:56.362-05:00.</p>
          </sourceDesc>
       </fileDesc>
-      <revisionDesc>
-         <change when="2019-06-19" who="#ebb">Constructed this to help organize S-GA files to be included as 
-                      collation units for the Frankenstein Variorum project.</change>
-      </revisionDesc>
    </teiHeader>
-   <sourceDoc>
-      <?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5364" lry="7104" partOf="#ox-frankenstein_volume_i" ulx="0" uly="0" mith:folio="14r" mith:shelfmark="MS. Abinger c. 56" xml:base="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0031.xml" xml:id="ox-ms_abinger_c56-0031">
-  <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c56/ms_abinger_c56-0031.jp2"/>
-  
-  <zone rend="bordered" type="pagination"><line>61</line></zone>
-  <zone type="library"><line>14</line></zone>
-  <zone type="main">
-    <line rend="center"><milestone spanTo="#c56-0031.07" unit="tei:head"/>Chap. 5<anchor xml:id="c56-0031.07"/></line>
-    <line>From this day natural philosophy and parti</line>
-    <line>cularly chemistry became <mod>
-        <add place="sublinear"><metamark function="insert">^</metamark></add>
-        <add place="superlinear">nearly</add>
-      </mod> my sole <del rend="strikethrough">appli</del></line>
-    <line>study. I read with ardour <del rend="strikethrough">m</del> those books</line>
-    <line>so full of genius and discrimination</line>
-    <line><mod>
-        <del rend="unmarked">th</del>
-        <del rend="strikethrough">at have been written</del>
-        <anchor xml:id="c56-0031.01"/>
-      </mod> on these sub-</line>
-    <line>jects. I attended the lectures, and culti</line>
-    <line>vated the acquaintance of the men</line>
-    <line>of science of the university; and I found</line>
-    <line>even in M<hi rend="underline"><hi rend="sup">r</hi></hi> Krempe a great deal</line>
-    <line>of sound sense &amp; real information</line>
-    <line>combined it is true with a repulsive</line>
-    <line>phisiognomy &amp; manners, but not on</line>
-    <line>that account the less valuable.</line>
-    <line>In M. Waldman I found a true friend.</line>
-    <line>His gentleness was never tinged by <del rend="strikethrough">dg</del></line>
-    <line>dogmatism and his instructions were</line>
-    <line>given with an air of frankness and</line>
-    <line>good nature that banished ever<add hand="#pbs" place="intralinear">y</add> idea</line>
-    <line>of <del rend="strikethrough">pedantl</del> pedantry. It was perhaps the</line>
-    <line>amiable character of this man that</line>
-    <line>enclined me more to the study of that</line>
-    <line>branch of <mod>
-        <del rend="strikethrough">science</del>
-        <add place="sublinear"><metamark function="insert">^</metamark></add>
-        <add place="superlinear">natural philosophy which he professed</add>
-      </mod> than an intrinsic</line>
-    <line>love for the science itself. But this</line>
-    <line><mod>
-      <add place="intralinear"><metamark function="displacement" xml:id="c56-0031.03">X</metamark></add>
-        <del rend="strikethrough">was</del></mod> only in the first steps towards</line> the <line>knowledge; <mod>
-        <del rend="strikethrough">as</del>
-        <add hand="#pbs" place="superlinear">the more fully</add>
-      </mod> I entered <del rend="strikethrough">more fully</del> into</line>
-    <line><mod>
-        <del rend="strikethrough">the</del>
-        <del rend="strikethrough">philosophy</del>
-        <add hand="#pbs" place="superlinear">science </add>
-      </mod> the more I <mod>
-        <del rend="strikethrough">studied</del>
-        <del rend="strikethrough"><add place="superlinear">s</add></del>
-        <add hand="#pbs" place="superlinear"> pursued</add>
-      </mod> it</line>
-    <line>for its own sake. That application</line>
-    <line>which at first had been a matter</line>
-    <line>of <del rend="strikethrough">ch</del> duty <add place="sublinear"><metamark function="insert">^</metamark></add><add hand="#pbs" place="superlinear">&amp;
-        resolution,</add> now became so ardent</line>
-    <line>and eager that the stars often</line>
-    <line>dissapeared <mod>
-        <add place="sublinear"><metamark function="insert">^</metamark></add><anchor xml:id="c56-0031.05"/>
-      </mod> while I was yet <mod>
-        <del rend="strikethrough">labouring</del>
-        <add hand="#pbs" place="sublinear">engaged</add>
-      </mod></line>
-    <line>in my labrotary.</line>
-  </zone>
-  <zone corresp="#c56-0031.01" type="left_margin">
-    <addSpan hand="#pbs" spanTo="#c56-0031.02"/>
-    <line>which modern</line>
-    <line>enquirers</line>
-    <anchor xml:id="c56-0031.02"/>
-  </zone>
-
-  <zone corresp="#c56-0031.03" type="left_margin">
-    <addSpan hand="#pbs" spanTo="#c56-0031.04"/><line/>
-    <line><del rend="strikethrough">circumstance</del></line>
-    <line><del rend="strikethrough"><unclear>of</unclear></del>
-      <del rend="strikethrough">was had</del></line>
-    <line>state of mind had</line>
-    <line>place <metamark function="displacement">X</metamark></line><anchor xml:id="c56-0031.04"/>
-  </zone>
-
-  <zone corresp="#c56-0031.05" type="left_margin">
-    <addSpan hand="#pbs" spanTo="#c56-0031.06"/>
-    <line>in the light of</line>
-    <line>morning</line>
-    <anchor xml:id="c56-0031.06"/>
-  </zone>
-</surface>
-      <?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5364" lry="7104" partOf="#ox-frankenstein_volume_i" ulx="0" uly="0" mith:folio="14v" mith:shelfmark="MS. Abinger c. 56" xml:base="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0032.xml" xml:id="ox-ms_abinger_c56-0032">
-  <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c56/ms_abinger_c56-0032.jp2"/>
-  <zone rend="bordered" type="pagination"><line>62</line></zone>
-  <zone type="main">
-    <milestone unit="tei:p"/>
-    <line rend="indent2">As I applied so closely, it may be</line>
-    <line>easily conceived that I improved rapid</line>
-    <line>ly. <del rend="strikethrough">It</del> My ardour was indeed the astonish</line>
-    <line>ment of the students, and my proficiency</line>
-    <line>that of the master. <del rend="strikethrough">and</del> Professor Krempe</line>
-    <line>often asked me with a sly smile</line>
-    <line>how Cornelius Agrippa went on<mod>
-        <add hand="#pbs" place="intralinear">;</add>
-        <add place="sublinear"><metamark function="insert">^</metamark></add>
-        <anchor xml:id="c-56.0032.01"/>
-      </mod> Two</line>
-    <line>years passed in this manner during</line>
-    <line>which I paid no visit to Geneva, but</line>
-    <line><del rend="strikethrough">ws</del> was engaged heart and soul in the</line>
-    <line>pursuit of some discoveries which I</line>
-    <line>hoped to make. <del rend="strikethrough">No one</del> None but those</line>
-    <line>who have experienced it can conceive</line>
-    <line>of the enticements of science–<del rend="strikethrough">especially</del> In</line>
-    <line>other studies you go as far as others have</line>
-    <line><mod>
-        <del rend="overwritten">d</del>
-        <add hand="#pbs" place="intralinear">g</add>
-      </mod>one before you and there is nothing</line>
-    <line>more to <mod>
-        <del rend="strikethrough">learn</del>
-        <del rend="unmarked">,</del>
-        <add hand="#pbs" place="superlinear">know,</add>
-      </mod> learn, but in a scientific</line>
-    <line>pursuit <del rend="strikethrough">their</del> there is continual</line>
-    <line>food for discovery and wonder. A mind</line>
-    <line>of <del rend="strikethrough">even</del> moderate capacity who closely pursues</line>
-    <line>one study must infallibly arrive at</line>
-    <line>great proficiency in th<mod>
-        <del rend="overwritten">e</del>
-        <add place="intralinear">at</add>
-      </mod> study—And I</line>
-    <line>who <del rend="strikethrough">was</del> continually <mod>
-        <del rend="strikethrough">applied to</del>
-        <add hand="#pbs" place="superlinear">sought  the attainment
-          of</add>
-      </mod> one</line>
-    <line><mod>
-        <del rend="strikethrough">thing</del>
-        <add hand="#pbs" place="superlinear">object </add><anchor xml:id="c-56.0032.03"/>
-      </mod> and <add hand="#pbs" place="superlinear">was</add> wra<mod>
-        <del rend="overwritten"><unclear extent="2" unit="chars"/></del>
-        <add hand="#pbs" place="intralinear">pt</add>
-      </mod> up <del rend="strikethrough">as I was</del> in this <add hand="#pbs" place="intralinear">sole</add></line>
-    <line><del rend="strikethrough">I</del> improved so rapidly that at the end</line>
-    <line>of the two years I made <mod spanTo="#c56-0032.06"/><del next="#c-56.0032.07" rend="strikethrough">one or two</del>
-      <add hand="#pbs" place="intralinear">some</add></line>
-    <line><del rend="strikethrough" xml:id="c56-0032.07">trifling</del><anchor xml:id="c56-0032.06"/> discoveries in the improvement</line>
-    <line>of some chemical <mod>
-        <del rend="strikethrough">machines</del>
-        <add hand="#pbs" place="superlinear">instruments</add>
-      </mod> which pro</line>
-    <line>cured me great esteem and admiration</line>
-    <line>at the university. When I arrived at</line>
-    <line>this <add place="sublinear"><metamark function="insert">^</metamark></add>point, <anchor xml:id="c-56.0032.04"/><del rend="strikethrough">that</del> m<mod>
-        <del rend="overwritten"><unclear extent="1" unit="chars"/></del>
-        <add place="intralinear">y</add>
-      </mod> residence <del rend="strikethrough">at In</del></line>
-  </zone>
-  <zone corresp="#c-56.0032.01" type="left_margin">
-    <addSpan hand="#pbs" spanTo="#c-56.0032.02"/>
-    <line>while M. Waldham</line>
-    <line>expressed the most</line>
-    <line>heartfelt exultation</line>
-    <line>in my progress.</line>
-    <anchor xml:id="c-56.0032.02"/>
-  </zone>
-  <zone corresp="#c-56.0032.03" type="left_margin">
-    <line><add hand="#pbs">pursuit</add></line>
-  </zone>
-  <zone corresp="#c-56.0032.04" type="left_margin">
-    <addSpan hand="#pbs" spanTo="#c-56.0032.05"/>
-    <line>and ha<mod xml:space="preserve"><del rend="overwritten">v</del><add place="intralinear">d</add><del rend="unmarked">ng</del></mod> learned</line>
-    <line>all the professors</line>
-    <line>at Ingolstadt were</line>
-    <line>qualified to teach</line>
-    <anchor xml:id="c-56.0032.05"/>
-  </zone>
-</surface>
-      <?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5364" lry="7104" partOf="#ox-frankenstein_volume_i" ulx="0" uly="0" mith:folio="15r" mith:shelfmark="MS. Abinger c. 56" xml:base="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0033.xml" xml:id="ox-ms_abinger_c56-0033">
-    <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c56/ms_abinger_c56-0033.jp2"/>
-    <zone rend="bordered" type="pagination"><line>63</line></zone>
-    <zone type="library"><line>15</line></zone>
-    <zone type="main">
-        <line><del rend="strikethrough">golstadt was</del><anchor xml:id="c56-0033.01"/> no
-            longer conducive to</line>
-        <line>my improvement, I thought of returning</line>
-        <line>to my friends and to my native town,</line>
-        <line>when an incident happened that</line>
-        <line>protracted my stay.</line>
-        <milestone unit="tei:p"/>
-        <line rend="indent1">One of those phænonoma which</line>
-        <line>had <mod>
-                <del rend="strikethrough">mo<del rend="overwritten">re</del><add hand="#pbs" place="intralinear">st</add></del>
-            </mod> peculiarly attracted my atten</line>
-        <line>tion was the structure of the human</line>
-        <line>frame; and indeed that of any animal</line>
-        <line>endued with life. Whence I often asked</line>
-        <line>myself did this principle of life proceed.</line>
-        <line>It was a bold question, and one <mod>
-                <del rend="strikethrough">that</del>
-                <anchor xml:id="c56-0033.02"/>
-            </mod></line>
-        <line>has ever been considered as a mystery.</line>
-        <line>Yet how many things are we on the</line>
-        <line>brink of becoming acquainted with</line>
-        <line>if cowardice or carelessness did</line>
-        <line>not restrain <mod>
-                <del rend="strikethrough">us</del>
-                <add hand="#pbs" place="superlinear">our enquiries?</add>
-            </mod>. I revolved these circum</line>
-        <line>stances in my mind and determined</line>
-        <line>from thenceforth to apply myself more</line>
-        <line>particularly to th<mod>
-                <del rend="overwritten">at</del>
-                <add hand="#pbs" place="intralinear">ose</add>
-            </mod> branch<add hand="#pbs" place="intralinear">es</add> of natural</line>
-        <line>philosophy which <mod>
-                <del rend="strikethrough">treats</del>
-                <del rend="strikethrough">of</del>
-                <add hand="#pbs" place="superlinear">relate to</add>
-            </mod> phisiology.</line>
-        <line>Unless I had been animated by an al-</line>
-        <line>most supernatural enthusiasm, my</line>
-        <line>application to this study would have</line>
-        <line>been irksome and almost intolerable.</line>
-        <line>To examine the causes of life <del rend="strikethrough"><unclear>de</unclear></del> we
-            must</line>
-        <line>first have <del rend="strikethrough">recou</del> recourse to death.</line>
-        <line><del rend="strikethrough">No is ano anatomy</del> I became acquainted</line>
-        <line>with the science of anatomy but this</line>
-        <line>was not sufficient. I must also observe</line>
-        <line>the natural decay &amp; corruption of the</line>
-        <line>human body. In my education</line>
-    </zone>
-    <zone corresp="#c56-0033.01" type="left_margin">
-        <line><add hand="#pbs">there being</add></line>
-    </zone>
-    <zone corresp="#c56-0033.02" type="left_margin">
-        <line><add hand="#pbs">which</add></line>
-    </zone>
-</surface>
-      <?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5364" lry="7104" partOf="#ox-frankenstein_volume_i" ulx="0" uly="0" mith:folio="15v" mith:shelfmark="MS. Abinger c. 56" xml:base="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0034.xml" xml:id="ox-ms_abinger_c56-0034">
-  <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c56/ms_abinger_c56-0034.jp2"/>
-  <zone rend="bordered" type="pagination"><line>64</line></zone>
-  <zone type="main">
-    <line>my father had taken the greatest</line>
-    <line>precautions that my mind should</line>
-    <line><del rend="strikethrough">not</del> be impressed by <mod>
-        <add place="sublinear">^</add>
-        <add hand="#pbs" place="superlinear">no</add>
-      </mod> supernatural</line>
-    <line>horrors. I do not ever remember</line>
-    <line>having trembled at <mod>
-        <del rend="strikethrough">a ghost story</del>
-        <add hand="#pbs" place="superlinear">tale of superstition</add>
-      </mod> or</line>
-    <line>to have feared the apparition of <add hand="#pbs" place="superlinear">a</add>
-      spirit</line>
-    <line><del rend="strikethrough">Ligh</del> Darkness had no effect upon my</line>
-    <line>fancy and a churchyard was to</line>
-    <line>me merely <mod>
-        <add place="superlinear">^</add>
-        <add hand="#pbs" place="superlinear">as</add>
-      </mod> the receptacle of <del rend="strikethrough">rotten b</del></line>
-    <line>bodies deprived of life and <mod>
-        <del rend="strikethrough">becoming</del>
-        <add hand="#pbs" place="superlinear">which</add>
-      </mod></line>
-    <line>from being the seat of beauty &amp;</line>
-    <line>strength <mod>
-        <add place="sublinear">^</add>
-        <add hand="#pbs" place="superlinear">become</add>
-      </mod> food for the worm. <del rend="strikethrough">But</del></line>
-    <line><del rend="strikethrough">I </del>
-      <del rend="strikethrough">A loathsome</del>
-      <unclear>c</unclear>
-      <del rend="strikethrough">But</del> now I was</line>
-    <line><mod>
-        <del rend="strikethrough">obliged</del>
-        <add hand="#pbs" place="superlinear">led</add>
-      </mod> to examine the <mod>
-        <del rend="strikethrough">cause</del>
-        <add place="superlinear">cause</add>
-      </mod> &amp; progress</line>
-    <line>of this decay and forced to spend days</line>
-    <line>and nights in vau<retrace cause="unclear" hand="#pbs">l</retrace>ts and Charnel</line>
-    <line>houses. I <del rend="strikethrough">was obliged</del> My attention was</line>
-    <line>fixed upon every <mod>
-        <del rend="strikethrough">horror of whic</del>
-        <del rend="unmarked">h</del>
-        <add hand="#pbs" next="#c56-0034.01" place="superlinear">object <del rend="strikethrough">calculated to</del></add>
-        <add hand="#pbs" place="sublinear" xml:id="c56-0034.01">the most insupportable to the
-          delicacy of</add>
-      </mod></line>
-    <line>the human feelings. <del rend="strikethrough">are suscept</del><del rend="unmarked">able</del>–</line>
-    
-    <line>I saw how the fine form of <del rend="strikethrough">a</del> man</line>
-    <line><mod>
-        <del rend="strikethrough">was</del>
-        <del rend="strikethrough"><add hand="#pbs" place="superlinear">became</add></del>
-        <anchor xml:id="c56-0034.02"/>
-      </mod> degraded and wasted. I beheld the</line>
-    <line>corruption of death succeed to the bloom</line>
-    <line>-ing cheek of life – <add hand="#pbs" place="superlinear">I saw</add> how the worm
-        <mod spanTo="#c56-0034.06"/><delSpan rend="strikethrough" spanTo="#c56-0034.03"/>suc</line>
-    <line>ceeded to<anchor xml:id="c56-0034.03"/><add hand="#pbs" place="superlinear">inherited</add><anchor xml:id="c56-0034.06"/> the wonders of the eye and</line>
-    <line>brain. I paused, examin<mod xml:space="preserve"><del rend="overwritten">ed</del><add hand="#pbs" place="intralinear">ing</add></mod> and anal<mod xml:space="preserve"><del rend="overwritten">yzed</del><add hand="#pbs" place="intralinear">yzing</add></mod></line>
-    <line><mod>
-        <del rend="strikethrough">every</del>
-        <del rend="strikethrough">minutiæ</del>
-        <del rend="unmarked"> of </del>
-        <del rend="strikethrough">causation</del>
-        <anchor xml:id="c56-0034.04"/>
-      </mod> untill</line>
-    <line>from the midst of this darkness</line>
-    <line>a sudden light broke in upon me.</line>
-    <line>A light so brilliant &amp; wondrous yet</line>
-  </zone>
-
-  <zone corresp="#c56-0034.02" type="left_margin">
-    <line><add hand="#pbs">was</add></line>
-  </zone>
-  <zone corresp="#c56-0034.04" type="left_margin">
-    <addSpan hand="#pbs" spanTo="#c56-0034.05"/>
-    <line>all the minutiæ</line>
-    <line>of causation</line>
-    <line>as exemplified in</line>
-    <line>the change from</line>
-    <line>life to death, &amp;</line>
-    <line>death to life,</line>
-    <anchor xml:id="c56-0034.05"/>
-  </zone>
-</surface>
-      <?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5364" lry="7104" partOf="#ox-frankenstein_volume_i" ulx="0" uly="0" mith:folio="16r" mith:shelfmark="MS. Abinger c. 56" xml:base="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0035.xml" xml:id="ox-ms_abinger_c56-0035">
-  <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c56/ms_abinger_c56-0035.jp2"/>
-  <zone rend="bordered" type="pagination"><line>65</line></zone>
-  <zone type="library"><line>16</line></zone>
-  <zone type="main">
-    <line>so simple that while <mod spanTo="#c56-0035.01"/><delSpan rend="strikethrough" spanTo="#c56-0035.02"/>it intoxica</line>
-    <line>ted me<anchor xml:id="c56-0035.02"/><anchor xml:id="c56-0035.03"/><anchor xml:id="c56-0035.01"/> I was surprised that I</line>
-    <line><del rend="strikethrough">was</del> among so many men of genius</line>
-    <line>who had applied to the same science</line>
-    <line>that I alone should discover</line>
-    <line>this astonishing secret.</line>
-    <milestone unit="tei:p"/>
-    <line rend="indent1">Remember I am <mod>
-        <add place="sublinear"><metamark function="insert">^</metamark></add>
-        <add place="superlinear">not</add>
-      </mod> recording the</line>
-    <line><del rend="strikethrough">no</del> vision <del rend="strikethrough">of</del> of a madman
-      – the</line>
-    <line>sun does not more certainly shine</line>
-    <line>in the heavens than that wh<mod xml:space="preserve"><del rend="overwritten">at</del><add hand="#pbs" place="intralinear">ich</add></mod></line>
-    <line>I now <mod>
-        <del rend="strikethrough">record</del>
-        <add hand="#pbs" place="superlinear">affirm,</add>
-      </mod> is true. Some miracle</line>
-    <line>might have produced it. But the</line>
-    <line>stages of discovery were distinct</line>
-    <line>and probable. After days and nights</line>
-    <line>of incredible <mod>
-        <del rend="strikethrough">toil</del>
-        <add hand="#pbs" place="superlinear">labour</add>
-      </mod> and fatigue</line>
-    <line>I succeeded in discovering the</line>
-    <line>cause of generation &amp; life. Nay</line>
-    <line>more, I <mod>
-        <del rend="strikethrough">was</del>
-        <add hand="#pbs" place="superlinear">became</add>
-      </mod> myself capable of</line>
-    <line>bestowing animation upon lifeless</line>
-    <line>matter.</line>
-    <milestone unit="tei:p"/>
-    <line rend="indent1"><del rend="strikethrough">My</del> The surprise <mod>
-        <del rend="strikethrough">that</del>
-        <add hand="#pbs" place="superlinear">which</add>
-      </mod> I <mod>
-        <add place="sublinear"><metamark function="insert">^</metamark></add>
-        <add place="superlinear">at first</add>
-      </mod>experienced</line>
-    <line>on this discovery soon gave place to</line>
-    <line>delight and rapture. <mod spanTo="#c56-0035.05"/><delSpan rend="strikethrough" spanTo="#c56-0035.08"/>After such</line>
-    <line>painful labour<anchor xml:id="c56-0035.08"/><add place="sublinear"><metamark function="insert" xml:id="c56-0035.06">^</metamark></add><anchor xml:id="c56-0035.05"/>
-      <mod>
-        <del rend="strikethrough">come</del>
-        <add place="superlinear">to arrive</add>
-      </mod> at onece</line>
-    <line>at the <mod>
-        <del rend="strikethrough">obj ect</del>
-        <del rend="strikethrough">object</del>
-        <add place="superlinear">summit</add>
-      </mod> of my desires</line>
-    <line>was the most gratifying circumstance</line>
-    <line>that could have occurred. But this</line>
-    <line>discovery was so great and overwhelm</line>
-    <line>ing that <del rend="strikethrough">the</del>
-      <del>reflection</del> all the</line>
-  </zone>
-  <zone corresp="#c56-0035.03" type="left_margin">
-    <addSpan hand="#pbs" spanTo="#c56-0035.04"/>
-    <line>I became dizzy</line>
-    <line>with the immen</line>
-    <line>sity of the prospect</line>
-    <line>which it illus</line>
-    <line>trated,</line><anchor xml:id="c56-0035.04"/>
-  </zone>
-  <zone corresp="#c56-0035.06" type="left_margin">
-    <addSpan spanTo="#c56-0035.07"/>
-    <line>After so much</line>
-    <line><hi rend="sup"><metamark function="displacement">^</metamark></hi>time spent in</line>
-    <line>painful labour</line><anchor xml:id="c56-0035.07"/>
-  </zone>
-</surface>
-      <?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5364" lry="7104" partOf="#ox-frankenstein_volume_i" ulx="0" uly="0" mith:folio="16v" mith:shelfmark="MS. Abinger c. 56" xml:base="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0036.xml" xml:id="ox-ms_abinger_c56-0036">
-  <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c56/ms_abinger_c56-0036.jp2"/>
-
-  <zone rend="bordered" type="pagination"><line>66</line></zone>
-
-  <zone type="main">
-    <line>steps <mod>
-        <del rend="strikethrough">that</del>
-        <add hand="#pbs" place="superlinear">by which I had been</add>
-      </mod>progressively led to it were</line>
-    <line>obliterated. <mod>
-        <add place="sublinear"><metamark function="insert">^</metamark></add>
-        <add place="superlinear">and</add>
-      </mod>I <mod>
-        <del rend="strikethrough">saw</del>
-        <add place="sublinear"><metamark function="insert">^</metamark></add>
-        <add place="superlinear">beheld</add>
-      </mod> only the result. What</line>
-    <line>had been the study and desire of the</line>
-    <line><del rend="strikethrough">m</del> wisest men since the creation of</line>
-    <line>the world was now <mod>
-        <del rend="strikethrough">in</del>
-        <add hand="#pbs" place="superlinear">within</add>
-      </mod> my <mod>
-        <del rend="strikethrough">hands.</del>
-        <add place="sublinear"><metamark function="insert">^</metamark></add>
-        <add place="superlinear">grasp;</add>
-      </mod> Not</line>
-    <line>that, like a magic <del rend="strikethrough"><unclear>sceen</unclear></del> scene
-      it</line>
-    <line>all opened upon me at on<mod>
-        <del rend="overwritten">e</del>
-        <add place="intralinear">c</add>
-      </mod>e<mod>
-        <del rend="overwritten"><unclear>;</unclear></del>
-        <add place="intralinear">.</add>
-      </mod>
-      <delSpan rend="strikethrough" spanTo="#c56-0036.01"/>on</line>
-    <line>the contrary<anchor xml:id="c56-0036.01"/>
-      <mod>
-        <del rend="overwritten">t</del>
-        <add place="intralinear">T</add>
-      </mod>he <del rend="strikethrough"><unclear>big</unclear></del> information</line>
-    <line>I had obtained was <mod>
-        <add place="sublinear"><metamark function="insert">^</metamark></add>
-        <add hand="#pbs" place="superlinear">of a nature</add>
-      </mod> rather <mod spanTo="#c56-0036.02"/><delSpan rend="strikethrough" spanTo="#c56-0036.03"/>one that</line>
-    <line>would<anchor xml:id="c56-0036.03"/><add place="sublinear"><metamark function="insert">^</metamark></add>
-      <add hand="#pbs" place="superlinear">to</add><anchor xml:id="c56-0036.02"/> direct my
-      endeavours. <mod spanTo="#c56-0036.04"/><add place="sublinear"><metamark function="insert">^</metamark></add>
-      <delSpan rend="strikethough" spanTo="#c56-0036.05"/>that</line>
-    <line>than show me the prospect with</line>
-    <line>any precise certainty.<anchor xml:id="c56-0036.05"/><anchor xml:id="c56-0036.06"/><anchor xml:id="c56-0036.04"/> I was like the</line>
-    <line>Arabian<del rend="strikethrough">,</del> who had been buried with</line>
-    <line>the dead, and found a passage to life</line>
-    <line>aided only by one glimmering and seem</line>
-    <line>ingly ineffectual light.</line>
-    <milestone unit="tei:p"/>
-    <line rend="indent1">I see by your eargerness and the</line>
-    <line>wonder and hope which your eyes</line>
-    <line>express, my friend, that you expect to</line>
-    <line>be informed of the <del rend="strikethrough">scret</del> secret with</line>
-    <line>which I am acquainted<mod>
-        <del rend="overwritten">,</del>
-        <add hand="#pbs" place="intralinear">;</add>
-      </mod>
-      <mod spanTo="#c56-0036.08"/><del next="#c56-0036.09" rend="strikethrough">but you
-        are</del><add hand="#pbs" place="superlinear">that cannot be.</add></line>
-    <line><del rend="strikethrough" xml:id="c56-0036.09">mistaken</del><del rend="unmarked">.</del><anchor xml:id="c56-0036.08"/> Listen patiently to the end</line>
-    <line>of my story and you will easily</line>
-    <line>perceive why <add place="intralinear">I</add> am reserved upon that</line>
-    <line>subject.— <del rend="strikethrough">For why shoul</del><del rend="unmarked">d</del>
-      I <add place="superlinear">will not</add> lead you</line>
-    <line>on, <del rend="strikethrough">as</del> unguarded and ardent as I then</line>
-    <line>was, to your <del rend="strikethrough">destruct</del> destruction &amp;</line>
-  </zone>
-  <zone corresp="#c56-0036.06" type="left_margin">
-    <addSpan hand="#pbs" spanTo="#c56-0036.07"/><line><metamark function="displacement">^</metamark>so soon as I</line>
-    <line>should point</line>
-    <line>them towards</line>
-    <line>the object of</line>
-    <line>my search,</line>
-    <line>than to exhi</line>
-    <line>bit that ob-</line>
-    <line>ject already</line>
-    <line>accomplished.</line><anchor xml:id="c56-0036.07"/>
-  </zone>
-</surface>
-      <?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5364" lry="7104" partOf="#ox-frankenstein_volume_i" ulx="0" uly="0" mith:folio="17r" mith:shelfmark="MS. Abinger c. 56" xml:base="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0037.xml" xml:id="ox-ms_abinger_c56-0037">
-  <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c56/ms_abinger_c56-0037.jp2"/>
-  <zone rend="bordered" type="pagination"><line>67</line></zone>
-  <zone type="library">17</zone>
-  <zone type="main">
-    <line>infallible misery. Learn from me, if</line>
-    <line>not by my precepts at least by my exam</line>
-    <line>ple, how dangerous is the acquirement</line>
-    <line>of knowledge and how much happier</line>
-    <line>that man is who believes his native</line>
-    <line>town the world, than he <del rend="strikethrough">who<unclear>nto</unclear></del></line>
-    <line>aspires to become greater than his</line>
-    <line>nature <del rend="strikethrough">allows.</del> will allow.</line>
-  </zone>
-</surface>
-      <?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5364" lry="7104" partOf="#ox-frankenstein_volume_i" ulx="0" uly="0" mith:folio="17v" mith:shelfmark="MS. Abinger c. 56" xml:base="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0038.xml" xml:id="ox-ms_abinger_c56-0038">
-  <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c56/ms_abinger_c56-0038.jp2"/>
-  <zone rend="bordered" type="pagination"><line>68</line></zone>
-  
-  <zone type="main">
-    <line rend="center"><milestone spanTo="#c56-0038.18" unit="tei:head"/>Chapter 6.<anchor xml:id="c56-0038.18"/></line>
-    <line>When I found <mod>
-        <del rend="strikethrough">this</del>
-        <add hand="#pbs" place="superlinear">so</add>
-      </mod> astonishing<add hand="#pbs" place="superlinear">a</add> power</line>
-    <line>placed <mod>
-        <del rend="strikethrough">in</del>
-        <add hand="#pbs" place="superlinear">within</add>
-      </mod> my hands<add hand="#pbs" place="intralinear">,</add> I hesitated a long time</line>
-    <line>concerning the <mod>
-        <del rend="strikethrough">use</del>
-        <add hand="#pbs" place="superlinear">manner in which</add>
-      </mod> I should <mod>
-        <del rend="strikethrough">make of</del>
-        <add hand="#pbs" place="superlinear">employ</add>
-      </mod> it.</line>
-    <line>Although I <del rend="strikethrough">conceived myself capable of</del> possessed</line>
-    <line>the capacity of bestowing animation yet</line>
-    <line><del rend="strikethrough">my</del> to <mod>
-        <del rend="strikethrough">create</del>
-        <add place="sublinear"><metamark function="insert">^</metamark></add>
-        <add place="superlinear">prepare</add>
-      </mod> a <mod>
-        <del rend="strikethrough">creature</del>
-        <add hand="#pbs" place="superlinear">frame</add>
-      </mod>
-      <mod>
-        <add place="sublinear"><metamark function="insert">^</metamark></add>
-        <add place="superlinear">for the <mod>
-            <del rend="strikethrough">receiving i</del>
-            <add place="superlinear">reception of</add>
-          </mod><mod>
-            <del rend="overwritten">t</del>
-            <add place="intralinear">it</add>
-          </mod></add>
-      </mod> with all its intri</line>
-    <line>cacies of fibres muscles &amp; veins <mod>
-        <del rend="strikethrough">must be</del>
-        <anchor xml:id="c56-0038.01"/>
-      </mod></line>
-    <line>a work of inconceivable <milestone spanTo="#c56-0038.21" unit="tei:seg" xml:id="c56-0038.19"/>labour<anchor xml:id="c56-0038.21"/><add hand="#pbs" place="superlinear"><metamark function="transpose" target="#c56-0038.19">2</metamark></add> &amp; <add hand="#pbs" place="superlinear"><metamark function="transpose" target="#c56-0038.20">1</metamark></add><milestone spanTo="#c56-0038.22" unit="tei:seg" xml:id="c56-0038.20"/>diffi</line>
-    <line>culty<anchor xml:id="c56-0038.22"/>. I doubted at first whether I should<listTranspose><transpose><ptr target="#c56-0038.20"/><ptr target="#c56-0038.19"/></transpose></listTranspose></line>
-    <line>attempt the creation of a <mod>
-        <del rend="strikethrough">creature</del>
-        <add hand="#pbs" place="superlinear">being</add>
-      </mod></line>
-    <line>like <del rend="strikethrough">unto</del> myself or one of simpler</line>
-    <line>organization; <del rend="strikethrough">b</del> but my imagination</line>
-    <line>was too much exalted by my first success</line>
-    <line>to permit me to doubt of my <del rend="strikethrough">capacity</del></line>
-    <line>ability to <mod>
-        <del rend="strikethrough">create</del>
-        <add hand="#pbs" place="superlinear">give life</add>
-        <del rend="strikethrough">a</del>
-        <add hand="#pbs" place="superlinear">to</add>
-      </mod>
-      <mod>
-        <del rend="strikethrough">creature</del>
-        <add place="sublinear"><metamark function="insert">^</metamark></add>
-        <add place="superlinear"><del rend="strikethrough">being</del> an animal</add>
-      </mod> as complex</line>
-    <line>and wonderful as man. <mod spanTo="#c56-0038.02"/><mod>
-        <del next="#c56-0038.03" rend="strikethrough"><del rend="overwritten"><unclear>but</unclear></del><add place="intralinear">Yet</add></del>
-        <del rend="strikethrough"><add place="superlinear">But</add></del>
-      </mod>
-      <del next="#c56-0038.04" rend="strikethrough" xml:id="c56-0038.03">when I</del></line>
-    <line><del rend="strikethrough" xml:id="c56-0038.04">when</del>
-      <del rend="strikethrough">I</del>
-      <mod>
-        <del rend="strikethrough">looked around for</del>
-        <del rend="strikethrough"><add place="superlinear">considered</add></del>
-      </mod>
-      <del rend="strikethrough">my</del>
-      <del rend="strikethrough">materials</del></line>
-    <line><del rend="strikethrough">they</del>
-      <anchor xml:id="c56-0038.05"/><add hand="#pbs" place="superlinear" xml:id="c56-0038.07">my command</add><anchor xml:id="c56-0038.02"/> hardly
-      appeared adequate to so ardous</line>
-    <line>an undertaking; <mod>
-        <del rend="strikethrough">but I did not despai</del>
-        <del rend="unmarked">r.</del>
-        <add hand="#pbs" next="#c56-0038.11" place="superlinear">but I doubted not that I should
-          ul</add>
-        <add hand="#pbs" place="sublinear" xml:id="c56-0038.11">-timately succeed.</add>
-      </mod></line>
-    <line><mod spanTo="#c56-0038.12"/><delSpan rend="vertical_line" spanTo="#c56-0038.13"/>I
-      allowed that my first attempts might</line>
-    <line>be futile, my operations fail or my work</line>
-    <line>be imperfect,<anchor xml:id="c56-0038.13"/>
-      <del rend="strikethrough">but I looked around on</del><anchor xml:id="c56-0038.08"/><anchor xml:id="c56-0038.12"/></line>
-    <line>the improvement <mod>
-        <del rend="strikethrough">that</del>
-        <add place="superlinear">which</add>
-      </mod> every day</line>
-    <line>takes place in science and <add hand="#pbs" place="intralinear">mechanics</add></line>
-    <line><mod spanTo="#c56-0038.14"/><del next="#c56-0038.15" rend="strikethrough">and m my
-        attempt was so much grande</del><del rend="unmarked">r</del><add hand="#pbs" place="superlinear">I was encouraged to hope</add></line>
-    <line><del rend="strikethrough" xml:id="c56-0038.15">and</del>
-      <delSpan rend="strikethrough" spanTo="#c56-0038.16"/>And altho although I could not
-      hope</line>
-    <line>that<anchor xml:id="c56-0038.16"/><anchor xml:id="c56-0038.14"/> my <add hand="#pbs" place="superlinear">present</add> attempts would <mod spanTo="#c56-0038.17"/><del rend="strikethrough"><unclear>s</unclear></del><del rend="strikethrough"><add hand="#pbs" place="superlinear">at le</add></del>
-      <del rend="strikethrough">be in every</del></line>
-    <line><add hand="#pbs">at least <mod>
-          <add place="sublinear"><metamark function="insert">^</metamark></add>
-          <add place="superlinear">lay</add>
-        </mod> the foundations of future success</add><anchor xml:id="c56-0038.17"/></line>
-  </zone>
-
-  <zone corresp="#c56-0038.01" type="left_margin">
-    <line><add hand="#pbs">still remained</add></line>
-  </zone>
-
-  <zone corresp="#c56-0038.05" type="left_margin">
-    <addSpan hand="#pbs" next="#c56-0038.07" spanTo="#c56-0038.06"/>
-    <line>The materials</line>
-    <line>at present within </line><anchor xml:id="c56-0038.06"/>
-  </zone>
-
-  <zone corresp="#c56-0038.08" type="left_margin">
-    <addSpan hand="#pbs" spanTo="#c56-0038.09"/>
-    <line>I prepared myself</line>
-    <line>for a multitude</line>
-    <line>of reverses, my</line>
-    <line>operations <del rend="strikethrough">might</del></line>
-    <line>be baffled <del rend="strikethrough">ever</del></line>
-    <line>incessantly, &amp; at</line>
-    <line>last my work be</line>
-    <line>but imperfect,</line>
-    <line>yet, when I con</line>
-    <line>sidered</line>
-    <anchor xml:id="c56-0038.09"/>
-  </zone>
-</surface>
-      <?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5364" lry="7104" partOf="#ox-frankenstein_volume_i" ulx="0" uly="0" mith:folio="18r" mith:shelfmark="MS. Abinger c. 56" xml:base="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0039.xml" xml:id="ox-ms_abinger_c56-0039">
-  <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c56/ms_abinger_c56-0039.jp2"/>
-  <zone rend="bordered" type="pagination"><line><mod><del rend="overwritten"><unclear>7</unclear></del><add place="intralinear">6</add></mod>9</line></zone>
-  <zone type="library"><line>18</line></zone>
-  <zone type="main">
-    <line><del rend="strikethrough">way perfect<mod>
-          <del rend="strikethrough"> yet</del>
-          <del rend="strikethrough"><add place="superlinear">but</add></del>
-        </mod></del><anchor xml:id="c56-0039.01"/>
-      I did not think that</line>
-    <line>the magnitude and <mod>
-        <del rend="strikethrough">grandeur</del>
-        <add hand="#pbs" place="superlinear">complexity</add>
-      </mod> of my plan</line>
-    <line><del rend="strikethrough">w</del>as any argument of its impracticabi</line>
-    <line>lity. <mod>
-        <del rend="strikethrough">And</del>
-        <del rend="overwritten">i</del>
-        <add hand="#pbs" place="intralinear">I</add>
-      </mod>t was with these feelings <mod>
-        <add place="sublinear"><metamark function="insert">^</metamark></add>
-        <add hand="#pbs" place="superlinear">that</add>
-      </mod>I</line>
-    <line>began the creation of a human being.</line>
-    <line>As the <mod>
-        <del rend="strikethrough">smallness</del>
-        <add hand="#pbs" place="superlinear">minuteness</add>
-      </mod> of the parts <mod>
-        <del rend="strikethrough">were</del>
-        <add hand="#pbs" place="superlinear">formed</add>
-      </mod> a</line>
-    <line>great hindrance to my speed I resolved,</line>
-    <line>contrary to my first intention, to make</line>
-    <line><mod>
-        <del rend="strikethrough">him</del>
-        <anchor xml:id="c56-0039.03"/>
-      </mod>
-      <del rend="strikethrough">of</del> of a gigantic stature; that</line>
-    <line>is to say about <mod>
-        <del rend="strikethrough">7</del>
-        <add place="sublinear"><metamark function="insert">^</metamark></add>
-        <add place="superlinear">seven</add>
-      </mod> or eight feet in</line>
-    <line>height, and proportionably large. <del rend="strikethrough">And</del></line>
-    <line>after having formed this determination</line>
-    <line>and having spent some months in</line>
-    <line><mod>
-        <del rend="strikethrough">collecting</del>
-        <del rend="strikethrough">of</del>
-        <anchor xml:id="c56-0039.04"/>
-      </mod> my materials, I began.</line>
-    <milestone unit="tei:p"/>
-    <line rend="indent1">No one can conceive <del rend="strikethrough">my</del> the
-      variety</line>
-    <line>of feelings which pressed upon me</line>
-    <line>during this time. When success raised</line>
-    <line>me <mod>
-        <add place="sublinear"><metamark function="insert">^</metamark></add>
-        <add place="superlinear">to</add>
-      </mod>enthusiasm life and death appear</line>
-    <line>ed to me ideal bounds, which I</line>
-    <line>should first break <add hand="#pbs" place="superlinear">thro,</add> and pour a</line>
-    <line>torrent of light into our dark world.</line>
-    <line>A new <mod>
-        <del rend="strikethrough">creation</del>
-        <add hand="#pbs" place="superlinear">existence</add>
-      </mod> would bless me as its</line>
-    <line><mod>
-        <del rend="strikethrough">maker</del>
-        <anchor xml:id="c56-0039.06"/>
-      </mod> and source; many happy and</line>
-    <line>excellent <mod>
-        <del rend="strikethrough">creatures</del>
-        <del rend="strikethrough"><add hand="#pbs" place="superlinear">beings</add></del>
-        <add hand="#pbs" place="sublinear">natures</add>
-      </mod> would owe their</line>
-    <line><mod>
-        <del rend="strikethrough">existence</del>
-        <del rend="strikethrough">in</del>
-        <add hand="#pbs" place="superlinear">being</add>
-      </mod> to me. <del rend="strikethrough">in manner</del></line>
-    <line><del rend="strikethrough">in a manner</del> no father could claim</line>
-    <line>the gratitude of his child <mod>
-        <add place="sublinear"><metamark function="displacement" xml:id="c56-0039.07">^</metamark></add>
-      </mod>
-      <del rend="strikethrough">And</del> pur</line>
-    <line>sueing <mod>
-        <del rend="strikethrough">my</del>
-        <add hand="#pbs" place="superlinear">these</add>
-      </mod> reflections <del rend="strikethrough">if</del> I thought</line>
-    <line>that if I could bestow <mod>
-        <del rend="strikethrough">life</del>
-        <add place="superlinear">animation</add>
-      </mod> upon</line>
-    <line><del rend="strikethrough">upon</del> lifeless matter I might in</line>
-    <line>process of time (although I now found</line>
-  </zone>
-  <zone corresp="#c56-0039.01" type="left_margin">
-    <addSpan hand="#pbs" spanTo="#c56-0039.02"/>
-    <line>Nor, could I</line>
-    <line>consider</line>
-    <anchor xml:id="c56-0039.02"/>
-  </zone>
-  <zone corresp="#c56-0039.03" type="left_margin">
-    <line><add hand="#pbs">the being</add></line>
-  </zone>
-  <zone corresp="#c56-0039.04" type="left_margin">
-    <addSpan hand="#pbs" spanTo="#c56-0039.05"/>
-    <line>successfully</line>
-    <line>collecting &amp;</line>
-    <line>arranging</line><anchor xml:id="c56-0039.05"/>
-  </zone>
-  <zone corresp="#c56-0039.06" type="left_margin">
-    <line><add>creator</add></line>
-  </zone>
-  <zone corresp="#c56-0039.07" type="left_margin">
-    <addSpan hand="#pbs" spanTo="#c56-0039.08"/>
-    <line>so completely as</line>
-    <line>I should deserve</line>
-    <line>thiers</line>
-    <anchor xml:id="c56-0039.08"/>
-  </zone>
-</surface>
-      <?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5364" lry="7104" partOf="#ox-frankenstein_volume_i" ulx="0" uly="0" mith:folio="18v" mith:shelfmark="MS. Abinger c. 56" xml:base="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0040.xml" xml:id="ox-ms_abinger_c56-0040">
-  <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c56/ms_abinger_c56-0040.jp2"/>
-  <zone rend="bordered" type="pagination"><line>70</line></zone>
-  <zone type="main">
-    <line>it impossible) renew life where</line>
-    <line>death had apparently devoted the</line>
-    <line>body to corruption.</line>
-    <milestone unit="tei:p"/>
-    <line rend="indent2">These thoughts supported my</line>
-    <line>spirits while I pursued my <mod>
-        <del rend="strikethrough">labours</del>
-        <add place="sublinear"><metamark function="insert">^</metamark></add>
-        <add place="superlinear">undertaking</add>
-      </mod></line>
-    <line>with unremitting <mod>
-        <del rend="strikethrough">eagerness</del>
-        <add place="sublinear"><metamark function="insert">^</metamark></add>
-        <add place="superlinear">ardour</add>
-      </mod>. My cheek</line>
-    <line><mod>
-        <del rend="strikethrough">was</del>
-        <anchor xml:id="c56-0040.01"/>
-      </mod> pale with study, and <del rend="strikethrough">pe</del> my person</line>
-    <line><anchor xml:id="c56-0040.02"/>emaciated by confinement. sometimes</line>
-    <line>on the very brink of certainty I faild</line>
-    <line>yet I still clung to the hope which</line>
-    <line>the next day or the <del rend="strikethrough">nexhour</del> next</line>
-    <line>hour might realize. One secret</line>
-    <line>which I alone <mod>
-        <del rend="strikethrough">knew</del>
-        <add place="superlinear">possessed</add>
-      </mod> was the hope</line>
-    <line>to which I clung and the moon</line>
-    <line>gazed on my midnight labours</line>
-    <line>while with unrelaxed &amp; breathless</line>
-    <line>eagerness I pursued nature to her</line>
-    <line>most secret hiding places<del rend="strikethrough">. But</del></line>
-    <line>who shall <mod>
-        <del rend="strikethrough">know</del>
-        <del rend="strikethrough">my</del>
-        <add place="sublinear"><metamark function="insert">^</metamark></add>
-        <add hand="#pbs" place="superlinear">concieve the horrors of my</add>
-      </mod> secret <mod>
-        <del rend="strikethrough">operatio</del>
-        <del rend="unmarked">ns</del>
-        <add hand="#pbs" place="superlinear">toil</add>
-      </mod></line>
-    <line>as I dabbled among the unhallowed</line>
-    <line>damps of the grave, or tortured the</line>
-    <line>living <del rend="strikethrough">animate to ani</del> animal to</line>
-    <line>animate <mod>
-        <del rend="strikethrough">my</del>
-        <add hand="#pbs" place="superlinear">the</add>
-      </mod> lifeless clay? <del rend="strikethrough">Now</del> my limbs</line>
-    <line><anchor xml:id="c56-0040.03"/> tremble and my eyes swim with the</line>
-    <line>rememberance, but then a resistless</line>
-    <line>and <del rend="strikethrough">all</del> almost frantic<mod>
-        <add place="sublinear"><metamark function="insert">^</metamark></add>
-        <add hand="#pbs" place="superlinear">impulse</add>
-      </mod> urged me</line>
-    <line><mod>
-        <del rend="strikethrough">on</del>
-        <anchor xml:id="c56-0040.04"/>
-      </mod>; I seemed to have lost all</line>
-    <line>soul or sensation but for one</line>
-    <line>pursuit. It was indeed a passing trance</line>
-    <line>that only made me feel with renew</line>
-  </zone>
-  <zone corresp="#c56-0040.01" type="left_margin">
-    <line><add hand="#pbs">had grown</add></line>
-  </zone>
-  <zone corresp="#c56-0040.02" type="left_margin">
-    <line><add hand="#pbs">became</add></line>
-  </zone>
-  <zone corresp="#c56-0040.03" type="left_margin">
-    <line><add hand="#pbs">now</add></line>
-  </zone>
-  <zone corresp="#c56-0040.04" type="left_margin">
-    <line><add hand="#pbs">forward</add></line>
-  </zone>
-</surface>
-      <?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5364" lry="7104" partOf="#ox-frankenstein_volume_i" ulx="0" uly="0" mith:folio="19r" mith:shelfmark="MS. Abinger c. 56" xml:base="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0041.xml" xml:id="ox-ms_abinger_c56-0041">
-  <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c56/ms_abinger_c56-0041.jp2"/>
-  <zone rend="bordered" type="pagination"><line>71</line></zone>
-  <zone type="library"><line>19</line></zone>
-  <zone type="main">
-    <line>ed acuteness <mod>
-        <del rend="strikethrough">when</del>
-        <add hand="#pbs" place="superlinear">so soon as</add>
-      </mod> the unnatural sti</line>
-    <line>mulus ceas<mod>
-        <del rend="overwritten">ed</del>
-        <add hand="#pbs" place="intralinear">ing</add>
-        <del rend="strikethrough"><add hand="#pbs" place="superlinear">had</add></del>
-      </mod> to operate, and I had return</line>
-    <line>ed to my old habits. I collected bones from</line>
-    <line>Charnel houses and with profane fingers</line>
-    <line>meddled with the secrets of the human</line>
-    <line>frame. In a solitary chamber–or rather</line>
-    <line>cell at the top of the house and seperated</line>
-    <line>from all other appartments by a gallery</line>
-    <line>and staircase I <del rend="strikethrough">h</del> kept my workshop</line>
-    <line>of filthy creation; my eyeballs were</line>
-    <line>starting from their sockets in at-</line>
-    <line>tending to the minutiæ of <del rend="strikethrough">the</del> my</line>
-    <line>employment. The dissecting room and</line>
-    <line>the slaughter house furnished many</line>
-    <line>of my materials, and often did my</line>
-    <line>human nature turn from my</line>
-    <line>occupation <mod>
-        <del rend="strikethrough">but</del>
-        <del rend="overwritten">I</del>
-        <add hand="#pbs" place="superlinear">whilst</add>
-        <del rend="strikethrough">wal</del>
-        <del rend="strikethrough">was</del>
-      </mod> still urged</line>
-    <line>on by an eagerness which <add hand="#pbs" place="superlinear">perpetually</add> encreased,</line>
-    <line><mod>
-        <del rend="strikethrough">as</del>
-        <anchor xml:id="c56-0041.01"/>
-      </mod> my work <del rend="strikethrough">drew</del> near <mod>
-        <add place="sublinear"><metamark function="insert">^</metamark></add>
-        <add hand="#pbs" place="superlinear">to</add>
-      </mod> a conclusion.</line>
-    <milestone unit="tei:p"/>
-    <line rend="indent1">The <del rend="strikethrough">sums</del> Summer
-      months</line>
-    <line>passed while I was thus <mod>
-        <del rend="strikethrough">employed</del>
-        <add hand="#pbs" place="superlinear">engaged,</add>
-      </mod></line>
-    <line>heart and soul, in one pursuit. It</line>
-    <line>was a most beautiful season: never</line>
-    <line>did the fields bestow a more plentiful</line>
-    <line>harvest, or the vines yeild a more</line>
-    <line>luxuriant vintage. But my eyes were</line>
-    <line><mod>
-        <del rend="unmarked">s</del>
-        <del rend="strikethrough">hut</del>
-        <anchor xml:id="c56-0041.02"/>
-      </mod> to the charms of nature &amp; the</line>
-    <line>same feelings which <mod>
-        <del rend="strikethrough">caused</del>
-        <add place="sublinear"><metamark function="insert">^</metamark></add>
-        <add place="superlinear">made</add>
-      </mod> me <del rend="strikethrough">to</del></line>
-    <line>neglect the scenes around me caused</line>
-    <line>me also to forget those friends who</line>
-    <line>were so many miles absent and whom</line>
-    <line>I had not seen for so long a time.</line>
-  </zone>
-  <zone corresp="#c56-0041.01" type="left_margin">
-    <line><add hand="#pbs">I brought</add></line>
-  </zone>
-  <zone corresp="#c56-0041.02" type="left_margin">
-    <line><add hand="#pbs">insensible</add></line>
-  </zone>
-</surface>
-      <?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5364" lry="7104" partOf="#ox-frankenstein_volume_i" ulx="0" uly="0" mith:folio="19v" mith:shelfmark="MS. Abinger c. 56" xml:base="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0042.xml" xml:id="ox-ms_abinger_c56-0042">
-  <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c56/ms_abinger_c56-0042.jp2"/>
-  <zone rend="bordered" type="pagination"><line>72</line></zone>
-  <zone type="main">
-    <line>I knew that my silence disquieted</line>
-    <line>them and I well remembered the</line>
-    <line>words of my father. "I know that while</line>
-    <line>"you are pleased with yourself you</line>
-    <line>"will <del rend="strikethrough">thing</del> think of us with affection</line>
-    <line>"and we shall hear regularly from</line>
-    <line>"you. And you must pardon me</line>
-    <line>"if I regard <del rend="strikethrough">you</del> any interruption</line>
-    <line>"in your corespondence, as a proof</line>
-    <line>"that your other <mod>
-        <del rend="strikethrough">studies</del>
-        <add hand="#pbs" place="superlinear">duties</add>
-      </mod> are equal-</line>
-    <line>"ly neglected" I <del rend="strikethrough">rembered</del> knew well</line>
-    <line>therefore what his <del rend="strikethrough">opinion</del> would</line>
-    <line>be <add hand="#pbs" place="superlinear">his feelings</add> but I could not tear my
-      thoughts</line>
-    <line>from my occupation loathsome in</line>
-    <line>itself but which had taken a<add place="intralinear">n</add></line>
-    <line><mod>
-        <del rend="strikethrough">strong</del>
-        <anchor xml:id="c56-0042.02"/>
-      </mod> hold of my <del rend="strikethrough">imagni</del> imagination.</line>
-    <line>I wished as it were to <del rend="strikethrough">procr</del> procras</line>
-    <line>tinate <mod>
-        <add place="sublinear"><metamark function="insert">^</metamark></add>
-        <add hand="#pbs" place="superlinear">all that related to</add>
-      </mod> my feelings of affection, untill</line>
-    <line>the great object <mod>
-        <del rend="strikethrough">of my affection</del>
-        <del rend="strikethrough">was</del>
-        <add hand="#pbs" place="sublinear">which swallowed up every habit</add>
-        <anchor xml:id="c56-0042.04"/>
-      </mod></line>
-    <line>compleated.</line>
-    <milestone unit="tei:p"/>
-    <line rend="indent1">I then thought that my father</line>
-    <line>would be <del rend="strikethrough">in</del> unjust <mod>
-        <del rend="strikethrough">to</del>
-        <add place="superlinear">if he</add>
-      </mod> ascribe<add place="intralinear">d</add> my</line>
-    <line>neglect to vice or faultiness on my</line>
-    <line>part; but I am now convinced</line>
-    <line>that <mod>
-        <del rend="strikethrough">I</del>
-        <del rend="strikethrough">am</del>
-        <add place="sublinear"><metamark function="insert">^</metamark></add>
-        <add place="superlinear">he was</add>
-        <add place="superlinear"><metamark function="displacement">X</metamark></add>
-        <del rend="strikethrough">in the right</del>
-        <del rend="strikethrough"><add place="superlinear">in <unclear>co</unclear>
-          conceive</add></del>
-        <anchor xml:id="c56-0042.05"/>
-      </mod>. A human</line>
-    <line>being in perfection ough<add place="intralinear">t</add> always to</line>
-    <line>preserve a <del rend="strikethrough">cl</del> calm and peaceful</line>
-    <line>mind and never to allow passion</line>
-  </zone>
-  <zone corresp="#c56-0042.02" type="left_margin">
-    <line><add>irresistible</add></line>
-  </zone>
-  <zone corresp="#c56-0042.04" type="left_margin">
-    <line><add xml:id="c56-0042.03"> of my nature should be</add></line>
-  </zone>
-  <zone corresp="#c56-0042.05" type="left_margin">
-    <addSpan spanTo="#c56-0042.06"/>
-    <line><metamark>X</metamark> he was in the</line>
-    <line>right in conceiv</line>
-    <line>ing that I</line>
-    <line>should not be</line>
-    <line>altogether free</line>
-    <line>from blame.</line>
-    <anchor xml:id="c56-0042.06"/>
-  </zone>
-</surface>
-      <?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5364" lry="7104" partOf="#ox-frankenstein_volume_i" ulx="0" uly="0" mith:folio="20r" mith:shelfmark="MS. Abinger c. 56" xml:base="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0043.xml" xml:id="ox-ms_abinger_c56-0043">
-  <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c56/ms_abinger_c56-0043.jp2"/>
-  <zone type="pagination"><line>73</line></zone>
-  <zone type="library"><line>20</line></zone>
-  <zone type="main">
-    <line>or <mod>
-        <add place="sublinear">^</add>
-        <add place="superlinear">a</add>
-      </mod> transitory desire to disturb his</line>
-    <line>tranquillity. I do not think that the pursuit</line>
-    <line>of knowledge is any exception to this rule.</line>
-    <line>If the study to which you apply yourself</line>
-    <line>has a <del rend="strikethrough">d</del> tendency to weaken your affections</line>
-    <line>and to destroy your taste for those simple</line>
-    <line>pleasures in which no alloy can possibly</line>
-    <line>mix then that study is certainly unlawful</line>
-    <line>that <del rend="strikethrough">it</del> is to say <del rend="strikethrough">on that</del>
-      not befitting <del rend="strikethrough">to</del> the</line>
-    <line>human mind. If this <del rend="strikethrough">rul</del> rule <mod>
-        <del rend="strikethrough">was</del>
-        <add hand="#pbs" place="superlinear">were</add>
-      </mod> al</line>
-    <line>ways observed; if no man allowed any</line>
-    <line>pursuit whatsoever to interfere with</line>
-    <line>his tranquillity and <add hand="#pbs" place="superlinear">his</add> domestic
-      affections</line>
-    <line>Greece had never been enslaved, Cæsar</line>
-    <line>would have spared his country, America</line>
-    <line>would have been discovered more gradua<add place="intralinear">l</add></line>
-    <line>ly, and the Empires of Mexico &amp; Peru had</line>
-    <line>not been destroyed.</line>
-    <milestone unit="tei:p"/>
-    <line rend="indent1">But I forget that I am moralizing</line>
-    <line>in the most interresting part of my</line>
-    <line>tale; and your looks remind me to</line>
-    <line>proceed.</line>
-    <milestone unit="tei:p"/>
-    <line rend="indent1">My father made no reproach in his</line>
-    <line>letters, <del rend="strikethrough">an</del> and only took notice of my</line>
-    <line>silence by enquiring more particularly</line>
-    <line>than before what my <del rend="strikethrough">co</del> occupations</line>
-    <line><del rend="strikethrough">wer</del> were. Winter spring and summer</line>
-    <line>passed away during my <mod>
-        <del rend="overwritten">t</del>
-        <add place="intralinear">l</add>
-      </mod>abours but</line>
-    <line>I did not watch the blossom or the</line>
-    <line>expanding leaves – sights which before</line>
-    <line>had alway yeilded me supreme delight<unclear>.</unclear></line>
-    <line>so <mod>
-        <del rend="strikethrough">much</del>
-        <add hand="#pbs" place="superlinear">deeply</add>
-      </mod> was I <mod>
-        <del rend="strikethrough">taken up with</del>
-        <add hand="#pbs" place="superlinear">engrossed in</add>
-      </mod> my</line>
-  </zone>
-</surface>
-      <?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5364" lry="7104" partOf="#ox-frankenstein_volume_i" ulx="0" uly="0" mith:folio="20v" mith:shelfmark="MS. Abinger c. 56" xml:base="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0044.xml" xml:id="ox-ms_abinger_c56-0044">
-  <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c56/ms_abinger_c56-0044.jp2"/>
-  <zone rend="bordered" type="pagination"><line>74</line></zone>
-  <zone type="main">
-    <line>occupation. The leaves of that year</line>
-    <line>were withered before my work drew</line>
-    <line>near a close. And now every day shewed</line>
-    <line>me more plainly how well I had suc</line>
-    <line>ceeded. But my enthusiasm was</line>
-    <line>checked by my <del rend="strikethrough">am</del> anxiety and I appeared</line>
-    <line>rather like one doomed by slavery</line>
-    <line>to toil in the mines or any other</line>
-    <line>unwholsome trade than an artist</line>
-    <line>occupied in his favourite employment.</line>
-    <line>Every <del rend="strikethrough">nigh</del> night a slow fever oppressed</line>
-    <line>me and I became <mod>
-        <del rend="strikethrough">nevous</del>
-        <add place="sublinear"><metamark function="insert">^</metamark></add>
-        <add place="superlinear">nervous</add>
-      </mod> to a <del rend="strikethrough">degre</del></line>
-    <line>most painful degree; a <del rend="strikethrough">fever</del> a dis-</line>
-    <line>ease I regretted <add hand="#pbs" place="superlinear">the</add> more because I had</line>
-    <line>hitherto enjoyed excellent health &amp;</line>
-    <line><del rend="strikethrough">my nerves</del>
-      <del rend="strikethrough">were fi</del> had always</line>
-    <line>boasted of <mod>
-        <del rend="strikethrough">my</del>
-        <add hand="#pbs" place="superlinear">the</add>
-      </mod> firm<add hand="#pbs" place="intralinear">ness</add>
-      <mod>
-        <add place="sublinear"><metamark function="insert">^</metamark></add>
-        <add hand="#pbs" place="superlinear">of my</add>
-      </mod> nerves. But I</line>
-    <line>believed that exercise and amusement</line>
-    <line>would soon <del rend="strikethrough">driv</del> drive away <mod>
-        <del rend="strikethrough">these</del>
-        <add hand="#pbs" place="superlinear">such</add>
-      </mod> sym-</line>
-    <line><del rend="strikethrough">p</del>-toms and I promised myself both</line>
-    <line>of these when my creation should be</line>
-    <line>comple<mod>
-        <del rend="overwritten">et</del>
-        <add hand="#pbs" place="intralinear">te</add>
-        <del rend="strikethrough">ed</del>
-      </mod>. <delSpan rend="strikethrough" spanTo="#c56-0044.01"/>I had<add place="superlinear">had
-        t</add> then determined to</line>
-    <line>go to Geneva as soon as this should be</line>
-    <line>done and a in the midst of my</line>
-    <line>family find eve</line><anchor xml:id="c56-0044.01"/>
-  </zone>
-</surface>
-   </sourceDoc>
+   <text>
+      <body>
+         <div type="collation">
+            <seg xml:id="C09_app1-fMS">
+            <lb n="c56-0031__main__1"/>
+            <milestone spanTo="#c56-0031.07" unit="tei:head"/>Chap. 5<lb n="c56-0031__main__2"/> 
+            </seg>
+            <seg xml:id="C09_app3-fMS">From </seg>this day natural <seg xml:id="C09_app5-fMS">philosophy </seg>and parti<lb n="c56-0031__main__3"/>cularly <seg xml:id="C09_app7-fMS">chemistry </seg>became <metamark ana="start" function="insert"/>^<metamark ana="end"/>nearly my sole <seg xml:id="C09_app9-fMS">
+            <del rend="strikethrough" xml:id="c56-0031__main__d2e6160">appli</del>
+            <lb n="c56-0031__main__4"/> study. </seg>I read with ardour <seg xml:id="C09_app11-fMS">
+            <del rend="strikethrough" xml:id="c56-0031__main__d2e6165">m</del> those </seg>
+            <seg xml:id="C09_app12-fMS">books <lb n="c56-0031__main__5"/> 
+            </seg>so full of genius and <seg xml:id="C09_app14-fMS">discrimination <lb n="c56-0031__main__6"/>
+            <mdel ana="start"/>th<mdel ana="end"/>
+            <del rend="strikethrough" xml:id="c56-0031__main__d2e6178">at have been written</del>
+            <lb n="c56-0031__left_margin__1"/> 
+            <lb n="c56-0031__left_margin__2"/> enquirers </seg>on these sub<lb n="c56-0031__main__7"/>jects. I attended the lectures, and culti<lb n="c56-0031__main__8"/>vated the <seg xml:id="C09_app16-fMS">acquaintance </seg>of the men <lb n="c56-0031__main__9"/> of science of the university; and I found <lb n="c56-0031__main__10"/> even in <seg xml:id="C09_app20-fMS">M<shi ana="start" rend="underline"/>
+            <shi ana="end"/> 
+            </seg>Krempe a great deal <lb n="c56-0031__main__11"/> of sound sense &amp; real <seg xml:id="C09_app23-fMS">information <lb n="c56-0031__main__12"/> combined </seg>it is <seg xml:id="C09_app25-fMS">true </seg>with a repulsive <seg xml:id="C09_app27-fMS">
+            <lb n="c56-0031__main__13"/> phisiognomy </seg>&amp; manners, but not on <lb n="c56-0031__main__14"/> that account the less valuable. <lb n="c56-0031__main__15"/> In M. Waldman I found a true friend. <lb n="c56-0031__main__16"/> His gentleness was never tinged by <seg xml:id="C09_app32-fMS">
+            <del rend="strikethrough" xml:id="c56-0031__main__d2e6232">dg</del>
+            <lb n="c56-0031__main__17"/> dogmatism </seg>and his instructions were <lb n="c56-0031__main__18"/> given with an air of frankness and <lb n="c56-0031__main__19"/> good <seg xml:id="C09_app36-fMS">nature </seg>that banished every idea <lb n="c56-0031__main__20"/> of <seg xml:id="C09_app39-fMS">
+            <del rend="strikethrough" xml:id="c56-0031__main__d2e6247">pedantl</del> pedantry. </seg>
+            <seg xml:id="C09_app40-fMS">It </seg>
+            <seg xml:id="C09_app41-fMS">was perhaps </seg>
+            <seg xml:id="C09_app42-fMS">the </seg>
+            <seg xml:id="C09_app43-fMS">
+            <lb n="c56-0031__main__21"/> amiable character of this man that </seg>
+            <seg xml:id="C09_app44-fMS">
+            <lb n="c56-0031__main__22"/> enclined </seg>
+            <seg xml:id="C09_app45-fMS">me more to </seg>
+            <seg xml:id="C09_app46-fMS">the study of that </seg>
+            <seg xml:id="C09_app47-fMS">
+            <lb n="c56-0031__main__23"/> branch of </seg>
+            <seg xml:id="C09_app48-fMS">
+            <del rend="strikethrough" xml:id="c56-0031__main__d2e6258">science</del>
+            <metamark ana="start" function="insert"/>^<metamark ana="end"/>natural </seg>
+            <seg xml:id="C09_app49-fMS">philosophy which </seg>
+            <seg xml:id="C09_app50-fMS">he </seg>
+            <seg xml:id="C09_app51-fMS">professed </seg>
+            <seg xml:id="C09_app52-fMS">than an intrinsic </seg>
+            <seg xml:id="C09_app53-fMS">
+            <lb n="c56-0031__main__24"/> love </seg>
+            <seg xml:id="C09_app54-fMS">for </seg>
+            <seg xml:id="C09_app55-fMS">the </seg>
+            <seg xml:id="C09_app56-fMS">science itself. But this </seg>
+            <seg xml:id="C09_app57-fMS">
+            <lb n="c56-0031__main__25"/>
+            <metamark ana="start" function="displacement" xml:id="c56-0031.03"/>X<metamark ana="end"/>
+            <lb n="c56-0031__left_margin__1"/>
+            <lb n="c56-0031__left_margin__2"/>
+            <del rend="strikethrough" xml:id="c56-0031__left_margin__d2e6291">circumstance</del>
+            <lb n="c56-0031__left_margin__3"/>
+            <mdel/>
+            <del rend="strikethrough" xml:id="c56-0031__left_margin__d2e6303">was had</del>
+            <lb n="c56-0031__left_margin__4"/> state </seg>
+            <seg xml:id="C09_app58-fMS">of </seg>
+            <seg xml:id="C09_app59-fMS">mind had </seg>
+            <seg xml:id="C09_app60-fMS">
+            <lb n="c56-0031__left_margin__5"/> place <metamark ana="start" function="displacement"/>X<metamark ana="end"/>
+            <del rend="strikethrough" xml:id="c56-0031__main__d2e6317">was</del> 
+            </seg>
+            <seg xml:id="C09_app61-fMS">only in </seg>
+            <seg xml:id="C09_app62-fMS">the </seg>
+            <seg xml:id="C09_app63-fMS">first steps towards </seg>
+            <seg xml:id="C09_app64-fMS">the <lb n="c56-0031__main__26"/> knowledge; </seg>
+            <seg xml:id="C09_app65-fMS">
+            <mdel ana="start"/>as<mdel ana="end"/>the more fully I entered <del rend="strikethrough" xml:id="c56-0031__main__d2e6332">more fully</del> 
+            </seg>
+            <seg xml:id="C09_app66-fMS">into </seg>
+            <seg xml:id="C09_app67-fMS">
+            <lb n="c56-0031__main__27"/>
+            <del rend="strikethrough" xml:id="c56-0031__main__d2e6340">the</del>
+            <del rend="strikethrough" xml:id="c56-0031__main__d2e6343">philosophy</del>science </seg>
+            <seg xml:id="C09_app68-fMS">the more </seg>
+            <seg xml:id="C09_app70-fMS">I </seg>
+            <seg xml:id="C09_app71-fMS">
+            <del rend="strikethrough" xml:id="c56-0031__main__d2e6352">studied</del>
+            <mdel/> pursued </seg>
+            <seg xml:id="C09_app72-fMS">it <lb n="c56-0031__main__28"/> for its own sake. That </seg>
+            <seg xml:id="C09_app73-fMS">application <lb n="c56-0031__main__29"/> 
+            </seg>
+            <seg xml:id="C09_app74-fMS">which at first had been a matter <lb n="c56-0031__main__30"/> of </seg>
+            <seg xml:id="C09_app75-fMS">
+            <del rend="strikethrough" xml:id="c56-0031__main__d2e6371">ch</del> duty </seg>
+            <metamark ana="start" function="insert"/>^<metamark ana="end"/>&amp; <seg xml:id="C09_app77-fMS">resolution, now </seg>became so ardent <lb n="c56-0031__main__31"/> and <seg xml:id="C09_app80-fMS">eager </seg>that the stars often <seg xml:id="C09_app82-fMS">
+            <lb n="c56-0031__main__32"/> dissapeared <metamark ana="start" function="insert"/>^<metamark ana="end"/>
+            <lb n="c56-0031__left_margin__1"/> 
+            </seg>in the light of <lb n="c56-0031__left_margin__2"/> morning <seg xml:id="C09_app85-fMS">while </seg>I was yet <seg xml:id="C09_app87-fMS">
+            <del rend="strikethrough" xml:id="c56-0031__main__d2e6412">labouring</del>engaged<lb n="c56-0031__main__33"/> 
+            </seg>in my <seg xml:id="C09_app89-fMS">labrotary.<milestone unit="tei:p"/>
+            <lb n="c56-0032__main__1"/> As </seg>I applied so closely, it may be <lb n="c56-0032__main__2"/> easily conceived that <seg xml:id="C09_app92-fMS">I improved rapid<lb n="c56-0032__main__3"/>ly. </seg>
+            <seg xml:id="C09_app93-fMS">
+            <del rend="strikethrough" xml:id="c56-0032__main__d2e6443">It</del> My ardour was indeed the astonish<lb n="c56-0032__main__4"/>ment of the </seg>
+            <seg xml:id="C09_app94-fMS">students, </seg>and my <seg xml:id="C09_app96-fMS">proficiency </seg>
+            <lb n="c56-0032__main__5"/> that of the <seg xml:id="C09_app98-fMS">master. <del rend="strikethrough" xml:id="c56-0032__main__d2e6455">and</del> 
+            </seg>Professor Krempe <lb n="c56-0032__main__6"/> often asked <seg xml:id="C09_app101-fMS">me </seg>with a sly <seg xml:id="C09_app103-fMS">smile <lb n="c56-0032__main__7"/> 
+            </seg>how Cornelius Agrippa went <seg xml:id="C09_app105-fMS">on;<metamark ana="start" function="insert"/>^<metamark ana="end"/>
+            <lb n="c56-0032__left_margin__1"/> while </seg>M. <seg xml:id="C09_app107-fMS">Waldham <lb n="c56-0032__left_margin__2"/> 
+            </seg>expressed the most <lb n="c56-0032__left_margin__3"/> heartfelt exultation <lb n="c56-0032__left_margin__4"/> in my progress. Two <lb n="c56-0032__main__8"/> years passed in this <seg xml:id="C09_app112-fMS">manner </seg>during <lb n="c56-0032__main__9"/> which I paid no visit to Geneva, but <seg xml:id="C09_app115-fMS">
+            <lb n="c56-0032__main__10"/>
+            <del rend="strikethrough" xml:id="c56-0032__main__d2e6499">ws</del> was </seg>
+            <seg xml:id="C09_app116-fMS">engaged </seg>heart and <seg xml:id="C09_app118-fMS">soul </seg>in the <lb n="c56-0032__main__11"/> pursuit of some <seg xml:id="C09_app121-fMS">discoveries </seg>which I <lb n="c56-0032__main__12"/> hoped to make. <seg xml:id="C09_app124-fMS">
+            <del rend="strikethrough" xml:id="c56-0032__main__d2e6506">No one</del> None but those </seg>
+            <lb n="c56-0032__main__13"/> who have experienced <seg xml:id="C09_app126-fMS">it </seg>can conceive <lb n="c56-0032__main__14"/> of the enticements of <seg xml:id="C09_app129-fMS">science–<del rend="strikethrough" xml:id="c56-0032__main__d2e6514">especially</del> 
+            </seg>In <lb n="c56-0032__main__15"/> other studies you go as far as others have <lb n="c56-0032__main__16"/>
+            <mdel ana="start"/>d<mdel ana="end"/>gone before <seg xml:id="C09_app132-fMS">you </seg>and there is nothing <lb n="c56-0032__main__17"/> more to <seg xml:id="C09_app135-fMS">
+            <del rend="strikethrough" xml:id="c56-0032__main__d2e6535">learn</del>
+            <mdel ana="start"/>,<mdel ana="end"/>know, learn, </seg>but in a scientific <lb n="c56-0032__main__18"/> pursuit <seg xml:id="C09_app138-fMS">
+            <del rend="strikethrough" xml:id="c56-0032__main__d2e6547">their</del> there is continual </seg>
+            <lb n="c56-0032__main__19"/> food for discovery and wonder. A mind <lb n="c56-0032__main__20"/> of <seg xml:id="C09_app141-fMS">
+            <del rend="strikethrough" xml:id="c56-0032__main__d2e6554">even</del> moderate </seg>
+            <seg xml:id="C09_app142-fMS">capacity who </seg>closely pursues <lb n="c56-0032__main__21"/> one <seg xml:id="C09_app145-fMS">study </seg>must infallibly arrive at <lb n="c56-0032__main__22"/> great proficiency in th<mdel ana="start"/>e<mdel ana="end"/>at <seg xml:id="C09_app148-fMS">study—And I <lb n="c56-0032__main__23"/> 
+            </seg>who <seg xml:id="C09_app150-fMS">
+            <del rend="strikethrough" xml:id="c56-0032__main__d2e6573">was</del> continually </seg>
+            <seg xml:id="C09_app151-fMS">
+            <del rend="strikethrough" xml:id="c56-0032__main__d2e6578">applied to</del>sought </seg>the attainment of one <seg xml:id="C09_app153-fMS">
+            <lb n="c56-0032__main__24"/>
+            <del rend="strikethrough" xml:id="c56-0032__main__d2e6590">thing</del>object <lb n="c56-0032__left_margin__1"/>pursuit </seg>and was <seg xml:id="C09_app155-fMS">wra<mdel/>pt up <del rend="strikethrough" xml:id="c56-0032__main__d2e6621">as I was</del> 
+            </seg>in <seg xml:id="C09_app157-fMS">this sole<lb n="c56-0032__main__25"/>
+            <del rend="strikethrough" xml:id="c56-0032__main__d2e6630">I</del> 
+            </seg>improved so <seg xml:id="C09_app159-fMS">rapidly that </seg>at the end <seg xml:id="C09_app161-fMS">
+            <lb n="c56-0032__main__26"/> of the </seg>two <seg xml:id="C09_app163-fMS">years </seg>I made <seg xml:id="C09_app165-fMS">
+            <del next="#c-56.0032.07" rend="strikethrough" xml:id="c56-0032__main__d2e6635">one or two</del>some<lb n="c56-0032__main__27"/>
+            <del rend="strikethrough" xml:id="c56-0032__main__d2e6644">trifling</del> 
+            </seg>discoveries in the improvement <lb n="c56-0032__main__28"/> of some chemical <seg xml:id="C09_app168-fMS">
+            <del rend="strikethrough" xml:id="c56-0032__main__d2e6653">machines</del>instruments </seg>which pro<lb n="c56-0032__main__29"/>cured me great esteem and admiration <lb n="c56-0032__main__30"/> at the university. When I arrived at <lb n="c56-0032__main__31"/> this <metamark ana="start" function="insert"/>^<metamark ana="end"/>point, <lb n="c56-0032__left_margin__1"/> and ha<mdel ana="start"/>v<mdel ana="end"/>d<mdel ana="start"/>ng<mdel ana="end"/> 
+            <seg xml:id="C09_app175-fMS">learned <lb n="c56-0032__left_margin__2"/> all </seg>the <seg xml:id="C09_app177-fMS">professors <lb n="c56-0032__left_margin__3"/> at Ingolstadt were <lb n="c56-0032__left_margin__4"/> qualified to teach<del rend="strikethrough" xml:id="c56-0032__main__d2e6704">that</del> m<mdel/>y residence <del rend="strikethrough" xml:id="c56-0032__main__d2e6718">at In</del>
+            <lb n="c56-0033__main__1"/>
+            <del rend="strikethrough" xml:id="c56-0033__main__d2e6733">golstadt was</del>
+            <lb n="c56-0033__left_margin__1"/>there </seg>being no longer conducive to <lb n="c56-0033__main__2"/> my <seg xml:id="C09_app180-fMS">improvement, </seg>I thought of returning <seg xml:id="C09_app182-fMS">
+            <lb n="c56-0033__main__3"/> to my friends and to </seg>my native town, <lb n="c56-0033__main__4"/> when an incident happened that <lb n="c56-0033__main__5"/> protracted my stay.<milestone unit="tei:p"/>
+            <lb n="c56-0033__main__6"/> One of <seg xml:id="C09_app187-fMS">those phænonoma </seg>which <lb n="c56-0033__main__7"/> had <seg xml:id="C09_app190-fMS">
+            <del rend="strikethrough" xml:id="c56-0033__main__d2e6766">mo<mdel ana="start"/>re<mdel ana="end"/>st</del> peculiarly attracted my atten<lb n="c56-0033__main__8"/>tion was the structure of the human </seg>
+            <seg xml:id="C09_app191-fMS">
+            <lb n="c56-0033__main__9"/> frame; and indeed that of </seg>any animal <lb n="c56-0033__main__10"/> endued with life. <seg xml:id="C09_app194-fMS">Whence </seg>I often asked <seg xml:id="C09_app196-fMS">
+            <lb n="c56-0033__main__11"/> myself </seg>did <seg xml:id="C09_app198-fMS">this </seg>principle of life <seg xml:id="C09_app200-fMS">proceed. <lb n="c56-0033__main__12"/> 
+            </seg>It was a bold question, and one <seg xml:id="C09_app202-fMS">
+            <del rend="strikethrough" xml:id="c56-0033__main__d2e6793">that</del>
+            <lb n="c56-0033__left_margin__1"/>which<lb n="c56-0033__main__13"/> 
+            </seg>has ever been considered as a <seg xml:id="C09_app204-fMS">mystery. <lb n="c56-0033__main__14"/> 
+            </seg>Yet how many things are we <seg xml:id="C09_app208-fMS">on </seg>the <lb n="c56-0033__main__15"/> brink of becoming <seg xml:id="C09_app211-fMS">acquainted with <lb n="c56-0033__main__16"/> 
+            </seg>if cowardice or carelessness did <lb n="c56-0033__main__17"/> not restrain <mdel ana="start"/>us<mdel ana="end"/>our <seg xml:id="C09_app214-fMS">enquiries?. </seg>I revolved these circum<lb n="c56-0033__main__18"/>stances in my <seg xml:id="C09_app216-fMS">mind </seg>and determined <seg xml:id="C09_app218-fMS">
+            <lb n="c56-0033__main__19"/> from thenceforth to apply myself more </seg>
+            <lb n="c56-0033__main__20"/> particularly to th<mdel ana="start"/>at<mdel ana="end"/>ose branches of natural <lb n="c56-0033__main__21"/> philosophy which <seg xml:id="C09_app221-fMS">
+            <del rend="strikethrough" xml:id="c56-0033__main__d2e6854">treats</del>
+            <mdel ana="start"/>of<mdel ana="end"/> relate to phisiology. <lb n="c56-0033__main__22"/>
+            </seg>Unless I had been animated by an al<lb n="c56-0033__main__23"/>most supernatural enthusiasm, my <lb n="c56-0033__main__24"/> application to this study would have <lb n="c56-0033__main__25"/> been <seg xml:id="C09_app225-fMS">irksome </seg>and almost intolerable. <lb n="c56-0033__main__26"/> To examine the causes of <seg xml:id="C09_app228-fMS">life <del rend="strikethrough" xml:id="c56-0033__main__d2e6880">de</del> 
+            </seg>we must <lb n="c56-0033__main__27"/> first have <seg xml:id="C09_app231-fMS">
+            <del rend="strikethrough" xml:id="c56-0033__main__d2e6888">recou</del> recourse to death. </seg>
+            <seg xml:id="C09_app232-fMS">
+            <lb n="c56-0033__main__28"/>
+            <del rend="strikethrough" xml:id="c56-0033__main__d2e6893">No is ano anatomy</del> I became acquainted <lb n="c56-0033__main__29"/> with the science of anatomy </seg>but this <lb n="c56-0033__main__30"/> was not <seg xml:id="C09_app235-fMS">sufficient. </seg>I must also observe <lb n="c56-0033__main__31"/> the natural decay &amp; corruption of the <lb n="c56-0033__main__32"/> human body. In my education<lb n="c56-0034__main__1"/> my father had taken the greatest <seg xml:id="C09_app239-fMS">
+            <lb n="c56-0034__main__2"/> precautions that my mind should <lb n="c56-0034__main__3"/>
+            <del rend="strikethrough" xml:id="c56-0034__main__d2e6920">not</del> 
+            </seg>be impressed <seg xml:id="C09_app241-fMS">by ^no </seg>supernatural <lb n="c56-0034__main__4"/> horrors. I do not ever remember <seg xml:id="C09_app244-fMS">
+            <lb n="c56-0034__main__5"/> having </seg>trembled at <seg xml:id="C09_app246-fMS">
+            <del rend="strikethrough" xml:id="c56-0034__main__d2e6939">a ghost story</del>tale </seg>of <seg xml:id="C09_app248-fMS">superstition </seg>or <lb n="c56-0034__main__6"/> to have feared the apparition of a <seg xml:id="C09_app251-fMS">spirit <lb n="c56-0034__main__7"/>
+            <del rend="strikethrough" xml:id="c56-0034__main__d2e6954">Ligh</del> 
+            </seg>Darkness had no effect upon my <seg xml:id="C09_app253-fMS">
+            <lb n="c56-0034__main__8"/> fancy </seg>and a <seg xml:id="C09_app255-fMS">churchyard </seg>was to <lb n="c56-0034__main__9"/> me merely <seg xml:id="C09_app258-fMS">^as the receptacle of </seg>
+            <seg xml:id="C09_app259-fMS">
+            <del rend="strikethrough" xml:id="c56-0034__main__d2e6970">rotten b</del>
+            <lb n="c56-0034__main__10"/> bodies deprived of </seg>
+            <seg xml:id="C09_app260-fMS">life and <del rend="strikethrough" xml:id="c56-0034__main__d2e6978">becoming</del>which<lb n="c56-0034__main__11"/> 
+            </seg>from being the seat of beauty &amp;<lb n="c56-0034__main__12"/> 
+            <seg xml:id="C09_app262-fMS">strength ^become </seg>
+            <seg xml:id="C09_app263-fMS">food for the worm. <del rend="strikethrough" xml:id="c56-0034__main__d2e6998">But</del>
+            <lb n="c56-0034__main__13"/>
+            <del rend="strikethrough" xml:id="c56-0034__main__d2e7004">I </del>
+            <del rend="strikethrough" xml:id="c56-0034__main__d2e7007">A loathsome</del>c<del rend="strikethrough" xml:id="c56-0034__main__d2e7013">But</del> 
+            </seg>now I was <seg xml:id="C09_app265-fMS">
+            <lb n="c56-0034__main__14"/>
+            <del rend="strikethrough" xml:id="c56-0034__main__d2e7020">obliged</del>led </seg>to examine the <seg xml:id="C09_app267-fMS">
+            <del rend="strikethrough" xml:id="c56-0034__main__d2e7030">cause</del>cause&amp; </seg>progress <lb n="c56-0034__main__15"/> of this <seg xml:id="C09_app270-fMS">decay </seg>and forced to spend days <lb n="c56-0034__main__16"/> and nights in vaults and <seg xml:id="C09_app273-fMS">Charnel </seg>
+            <seg xml:id="C09_app274-fMS">
+            <lb n="c56-0034__main__17"/> houses. </seg>
+            <seg xml:id="C09_app275-fMS">I <del rend="strikethrough" xml:id="c56-0034__main__d2e7046">was obliged</del> My attention was </seg>
+            <lb n="c56-0034__main__18"/> fixed upon every <seg xml:id="C09_app277-fMS">
+            <del rend="strikethrough" xml:id="c56-0034__main__d2e7054">horror of whic</del>
+            <mdel ana="start"/>h<mdel ana="end"/>object <del rend="strikethrough" xml:id="c56-0034__main__d2e7062">calculated to</del>the </seg>
+            <seg xml:id="C09_app278-fMS">most insupportable to the delicacy of<lb n="c56-0034__main__19"/> the human feelings. <del rend="strikethrough" xml:id="c56-0034__main__d2e7072">are suscept</del>
+            <del rend="unmarked" xml:id="c56-0034__main__d2e7075">able</del>– <lb n="c56-0034__main__20"/> 
+            </seg>I saw how the fine form of <seg xml:id="C09_app280-fMS">
+            <del rend="strikethrough" xml:id="c56-0034__main__d2e7081">a</del> man </seg>
+            <seg xml:id="C09_app281-fMS">
+            <lb n="c56-0034__main__21"/>
+            <del rend="strikethrough" xml:id="c56-0034__main__d2e7088">was</del>
+            <del rend="strikethrough" xml:id="c56-0034__main__d2e7091">became</del>
+            <lb n="c56-0034__left_margin__1"/>was </seg>degraded and <seg xml:id="C09_app283-fMS">wasted. </seg>I beheld the <lb n="c56-0034__main__22"/> corruption of death succeed to the bloom<lb n="c56-0034__main__23"/>ing cheek of <seg xml:id="C09_app286-fMS">life – </seg>I saw how the <seg xml:id="C09_app288-fMS">wormsuc<lb n="c56-0034__main__24"/>ceeded toinherited </seg>the wonders of the eye and <lb n="c56-0034__main__25"/> brain. I paused, examin<mdel ana="start"/>ed<mdel ana="end"/>ing and <seg xml:id="C09_app291-fMS">anal<del rend="overwritten" xml:id="c56-0034__main__d2e7145">yzed</del>yzing<lb n="c56-0034__main__26"/>
+            <del rend="strikethrough" xml:id="c56-0034__main__d2e7155">every</del>
+            <del rend="strikethrough" xml:id="c56-0034__main__d2e7158">minutiæ</del>
+            <del rend="unmarked" xml:id="c56-0034__main__d2e7161"> of </del>
+            <del rend="strikethrough" xml:id="c56-0034__main__d2e7164">causation</del>
+            <lb n="c56-0034__left_margin__1"/> 
+            </seg>all the minutiæ <lb n="c56-0034__left_margin__2"/> of <seg xml:id="C09_app294-fMS">causation <lb n="c56-0034__left_margin__3"/> 
+            </seg>as exemplified in <lb n="c56-0034__left_margin__4"/> the change from <lb n="c56-0034__left_margin__5"/> life to death, &amp;<lb n="c56-0034__left_margin__6"/> death to life, <seg xml:id="C09_app298-fMS">untill <lb n="c56-0034__main__27"/> 
+            </seg>from the midst of this darkness <lb n="c56-0034__main__28"/> a sudden light broke in upon <seg xml:id="C09_app301-fMS">me. <lb n="c56-0034__main__29"/> A </seg>light so brilliant &amp; <seg xml:id="C09_app303-fMS">wondrous </seg>yet<lb n="c56-0035__main__1"/> so <seg xml:id="C09_app305-fMS">simple </seg>that while <seg xml:id="C09_app307-fMS">it intoxica<lb n="c56-0035__main__2"/>ted me<lb n="c56-0035__left_margin__1"/> I became dizzy </seg>
+            <lb n="c56-0035__left_margin__2"/> with the immen<lb n="c56-0035__left_margin__3"/>sity of the prospect <lb n="c56-0035__left_margin__4"/> which it illus<lb n="c56-0035__left_margin__5"/>trated, I was <seg xml:id="C09_app310-fMS">surprised </seg>that <seg xml:id="C09_app312-fMS">I <lb n="c56-0035__main__3"/>
+            <del rend="strikethrough" xml:id="c56-0035__main__d2e7250">was</del> among so many men of </seg>
+            <seg xml:id="C09_app313-fMS">genius </seg>
+            <lb n="c56-0035__main__4"/> who had <seg xml:id="C09_app315-fMS">applied to </seg>the same <seg xml:id="C09_app319-fMS">science <lb n="c56-0035__main__5"/> 
+            </seg>that I alone should discover <seg xml:id="C09_app323-fMS">
+            <lb n="c56-0035__main__6"/> this </seg>astonishing <seg xml:id="C09_app325-fMS">secret.<milestone unit="tei:p"/>
+            <lb n="c56-0035__main__7"/> Remember </seg>
+            <seg xml:id="C09_app326-fMS">I am <metamark ana="start" function="insert"/>^<metamark ana="end"/>not recording the <lb n="c56-0035__main__8"/>
+            <del rend="strikethrough" xml:id="c56-0035__main__d2e7279">no</del> vision </seg>
+            <seg xml:id="C09_app327-fMS">
+            <del rend="strikethrough" xml:id="c56-0035__main__d2e7282">of</del> of a </seg>
+            <seg xml:id="C09_app328-fMS">madman – </seg>the <lb n="c56-0035__main__9"/> sun does not more certainly shine <lb n="c56-0035__main__10"/> in the <seg xml:id="C09_app332-fMS">heavens </seg>than that wh<mdel ana="start"/>at<mdel ana="end"/>ich<lb n="c56-0035__main__11"/> I now <seg xml:id="C09_app334-fMS">
+            <del rend="strikethrough" xml:id="c56-0035__main__d2e7300">record</del>affirm, </seg>is true. Some miracle <lb n="c56-0035__main__12"/> might have produced <seg xml:id="C09_app337-fMS">it. But </seg>the <lb n="c56-0035__main__13"/> stages of discovery were distinct <lb n="c56-0035__main__14"/> and probable. After days and nights <lb n="c56-0035__main__15"/> of incredible <seg xml:id="C09_app344-fMS">
+            <del rend="strikethrough" xml:id="c56-0035__main__d2e7318">toil</del>labour </seg>and <seg xml:id="C09_app346-fMS">fatigue <lb n="c56-0035__main__16"/> 
+            </seg>I succeeded in discovering the <lb n="c56-0035__main__17"/> cause of generation &amp; <seg xml:id="C09_app349-fMS">life. Nay <lb n="c56-0035__main__18"/> 
+            </seg>more, I <seg xml:id="C09_app351-fMS">
+            <del rend="strikethrough" xml:id="c56-0035__main__d2e7333">was</del>became </seg>myself capable of <lb n="c56-0035__main__19"/> bestowing animation upon lifeless <seg xml:id="C09_app354-fMS">
+            <lb n="c56-0035__main__20"/> matter.<milestone unit="tei:p"/>
+            <lb n="c56-0035__main__21"/>
+            <del rend="strikethrough" xml:id="c56-0035__main__d2e7349">My</del> The surprise <del rend="strikethrough" xml:id="c56-0035__main__d2e7354">that</del>which </seg>I <metamark ana="start" function="insert"/>^<metamark ana="end"/>at <seg xml:id="C09_app358-fMS">firstexperienced <lb n="c56-0035__main__22"/> 
+            </seg>on this discovery soon gave place to <lb n="c56-0035__main__23"/> delight and rapture. <seg xml:id="C09_app361-fMS">After such <lb n="c56-0035__main__24"/> painful labour<metamark ana="start" function="insert" xml:id="c56-0035.06"/>^<metamark ana="end"/>
+            <lb n="c56-0035__left_margin__1"/> After so much <lb n="c56-0035__left_margin__2"/>
+            <shi ana="start" rend="sup"/>
+            <shi ana="end"/>time </seg>spent in <lb n="c56-0035__left_margin__3"/> painful <seg xml:id="C09_app364-fMS">labour<del rend="strikethrough" xml:id="c56-0035__main__d2e7415">come</del>to </seg>arrive at <seg xml:id="C09_app366-fMS">onece <lb n="c56-0035__main__25"/> 
+            </seg>at the <seg xml:id="C09_app368-fMS">
+            <del rend="strikethrough" xml:id="c56-0035__main__d2e7426">obj ect</del>
+            <del rend="strikethrough" xml:id="c56-0035__main__d2e7429">object</del>summit </seg>of my <seg xml:id="C09_app370-fMS">desires <lb n="c56-0035__main__26"/> 
+            </seg>was the most gratifying <seg xml:id="C09_app372-fMS">circumstance <lb n="c56-0035__main__27"/> that could have occurred. </seg>But this <lb n="c56-0035__main__28"/> discovery was so great and <seg xml:id="C09_app375-fMS">overwhelm<lb n="c56-0035__main__29"/>ing </seg>that <seg xml:id="C09_app377-fMS">
+            <del rend="strikethrough" xml:id="c56-0035__main__d2e7449">the</del>
+            <del xml:id="c56-0035__main__d2e7452">reflection</del> all the<lb n="c56-0036__main__1"/> steps </seg>
+            <seg xml:id="C09_app378-fMS">
+            <del rend="strikethrough" xml:id="c56-0036__main__d2e7467">that</del>by </seg>which I had <seg xml:id="C09_app380-fMS">beenprogressively </seg>led to it were <seg xml:id="C09_app382-fMS">
+            <lb n="c56-0036__main__2"/> obliterated. <metamark ana="start" function="insert"/>^<metamark ana="end"/>andI <del rend="strikethrough" xml:id="c56-0036__main__d2e7490">saw</del>
+            <metamark ana="start" function="insert"/>^<metamark ana="end"/>beheld </seg>only the result. What <lb n="c56-0036__main__3"/> had been the study and desire of the <seg xml:id="C09_app385-fMS">
+            <lb n="c56-0036__main__4"/>
+            <del rend="strikethrough" xml:id="c56-0036__main__d2e7508">m</del> wisest men since the creation of </seg>
+            <seg xml:id="C09_app386-fMS">
+            <lb n="c56-0036__main__5"/> the world </seg>was now <mdel ana="start"/>in<mdel ana="end"/>within my <seg xml:id="C09_app388-fMS">
+            <del rend="strikethrough" xml:id="c56-0036__main__d2e7524">hands.</del>
+            <metamark ana="start" function="insert"/>^<metamark ana="end"/>grasp; </seg>Not <lb n="c56-0036__main__6"/> that, like a magic <seg xml:id="C09_app391-fMS">
+            <del rend="strikethrough" xml:id="c56-0036__main__d2e7540">sceen</del> scene </seg>it <seg xml:id="C09_app393-fMS">
+            <lb n="c56-0036__main__7"/> all opened upon me at on<mdel ana="start"/>e<mdel ana="end"/>ce<mdel/>
+            </seg>
+            <seg xml:id="C09_app394-fMS">.on <lb n="c56-0036__main__8"/> the contrary<mdel ana="start"/>t<mdel ana="end"/>The <del rend="strikethrough" xml:id="c56-0036__main__d2e7585">big</del> information </seg>
+            <lb n="c56-0036__main__9"/> I had obtained was <metamark ana="start" function="insert"/>^<metamark ana="end"/>of a nature rather <seg xml:id="C09_app396-fMS">one that <lb n="c56-0036__main__10"/> would<metamark ana="start" function="insert"/>^<metamark ana="end"/>to </seg>direct my <seg xml:id="C09_app398-fMS">endeavours. <metamark ana="start" function="insert"/>^<metamark ana="end"/>that <lb n="c56-0036__main__11"/> than show me the prospect with <lb n="c56-0036__main__12"/> any precise certainty.<lb n="c56-0036__left_margin__1"/>
+            <metamark ana="start" function="displacement"/>^<metamark ana="end"/>so </seg>soon as I <lb n="c56-0036__left_margin__2"/> should point <lb n="c56-0036__left_margin__3"/> them towards <lb n="c56-0036__left_margin__4"/> the object of <lb n="c56-0036__left_margin__5"/> my search, <lb n="c56-0036__left_margin__6"/> than to exhi<lb n="c56-0036__left_margin__7"/>bit that ob<lb n="c56-0036__left_margin__8"/>ject already <lb n="c56-0036__left_margin__9"/> accomplished. I was like the <seg xml:id="C09_app406-fMS">
+            <lb n="c56-0036__main__13"/> Arabian<del rend="strikethrough" xml:id="c56-0036__main__d2e7683">,</del> 
+            </seg>who had been buried with <lb n="c56-0036__main__14"/> the dead, and found a passage to <seg xml:id="C09_app409-fMS">life </seg>
+            <lb n="c56-0036__main__15"/> aided only by one <seg xml:id="C09_app411-fMS">glimmering </seg>and seem<lb n="c56-0036__main__16"/>ingly <seg xml:id="C09_app413-fMS">ineffectual light.<milestone unit="tei:p"/>
+            <lb n="c56-0036__main__17"/> I </seg>see by your <seg xml:id="C09_app415-fMS">eargerness </seg>and the <lb n="c56-0036__main__18"/> wonder and hope which your eyes <lb n="c56-0036__main__19"/> express, my friend, that you expect to <lb n="c56-0036__main__20"/> be informed of the <seg xml:id="C09_app420-fMS">
+            <del rend="strikethrough" xml:id="c56-0036__main__d2e7708">scret</del> secret with </seg>
+            <lb n="c56-0036__main__21"/> which I am <seg xml:id="C09_app422-fMS">acquainted<mdel ana="start"/>,<mdel ana="end"/>;<del next="#c56-0036.09" rend="strikethrough" xml:id="c56-0036__main__d2e7722">but you are</del>that </seg>cannot <seg xml:id="C09_app424-fMS">be.<lb n="c56-0036__main__22"/>
+            <del rend="strikethrough" xml:id="c56-0036__main__d2e7731">mistaken</del>
+            <del rend="unmarked" xml:id="c56-0036__main__d2e7734">.</del> 
+            </seg>Listen patiently <seg xml:id="C09_app426-fMS">to </seg>the end <lb n="c56-0036__main__23"/> of my <seg xml:id="C09_app429-fMS">story </seg>and you will easily <lb n="c56-0036__main__24"/> perceive why I am reserved upon that <seg xml:id="C09_app432-fMS">
+            <lb n="c56-0036__main__25"/> subject.— <del rend="strikethrough" xml:id="c56-0036__main__d2e7749">For why shoul</del>
+            <del rend="unmarked" xml:id="c56-0036__main__d2e7752">d</del> 
+            </seg>I will not lead you <lb n="c56-0036__main__26"/> on, <seg xml:id="C09_app435-fMS">
+            <del rend="strikethrough" xml:id="c56-0036__main__d2e7761">as</del> unguarded and ardent as I then </seg>
+            <lb n="c56-0036__main__27"/> was, to your <seg xml:id="C09_app437-fMS">
+            <del rend="strikethrough" xml:id="c56-0036__main__d2e7766">destruct</del> destruction &amp;<lb n="c56-0037__main__1"/> infallible misery. Learn from me, if </seg>
+            <lb n="c56-0037__main__2"/> not by my <seg xml:id="C09_app439-fMS">precepts </seg>at least by my <seg xml:id="C09_app441-fMS">exam <lb n="c56-0037__main__3"/> ple, </seg>how dangerous is the acquirement <lb n="c56-0037__main__4"/> of <seg xml:id="C09_app444-fMS">knowledge </seg>and how much happier <lb n="c56-0037__main__5"/> that man is who believes his native <lb n="c56-0037__main__6"/> town the world, than he <seg xml:id="C09_app450-fMS">
+            <del rend="strikethrough" xml:id="c56-0037__main__d2e7790">whonto</del>
+            <lb n="c56-0037__main__7"/> 
+            </seg>aspires to become greater than his <seg xml:id="C09_app452-fMS">
+            <lb n="c56-0037__main__8"/> nature <del rend="strikethrough" xml:id="c56-0037__main__d2e7800">allows.</del> will allow.<lb n="c56-0038__main__1"/> 
+            </seg>
+            <seg xml:id="C09_app453-fMS">
+            <milestone spanTo="#c56-0038.18" unit="tei:head"/>Chapter 6.<lb n="c56-0038__main__2"/> When </seg>I found <seg xml:id="C09_app455-fMS">
+            <del rend="strikethrough" xml:id="c56-0038__main__d2e7821">this</del>so astonishinga </seg>power <lb n="c56-0038__main__3"/> placed <mdel ana="start"/>in<mdel ana="end"/>within my hands, I hesitated a long time <lb n="c56-0038__main__4"/> concerning the <seg xml:id="C09_app459-fMS">
+            <del rend="strikethrough" xml:id="c56-0038__main__d2e7850">use</del>manner </seg>in which I should <seg xml:id="C09_app461-fMS">
+            <del rend="strikethrough" xml:id="c56-0038__main__d2e7860">make of</del>employ </seg>it. <lb n="c56-0038__main__5"/> Although I <seg xml:id="C09_app464-fMS">
+            <del rend="strikethrough" xml:id="c56-0038__main__d2e7869">conceived myself capable of</del> possessed </seg>
+            <lb n="c56-0038__main__6"/> the capacity of bestowing <seg xml:id="C09_app466-fMS">animation </seg>yet <seg xml:id="C09_app468-fMS">
+            <lb n="c56-0038__main__7"/>
+            <del rend="strikethrough" xml:id="c56-0038__main__d2e7876">my</del> to </seg>
+            <seg xml:id="C09_app469-fMS">
+            <del rend="strikethrough" xml:id="c56-0038__main__d2e7882">create</del>
+            <metamark ana="start" function="insert"/>^<metamark ana="end"/>prepare </seg>a <seg xml:id="C09_app471-fMS">
+            <del rend="strikethrough" xml:id="c56-0038__main__d2e7897">creature</del>frame<metamark ana="start" function="insert"/>^<metamark ana="end"/>for </seg>the <seg xml:id="C09_app473-fMS">
+            <del rend="strikethrough" xml:id="c56-0038__main__d2e7916">receiving i</del>reception of<mdel ana="start"/>t<mdel ana="end"/>it </seg>with all its intri<lb n="c56-0038__main__8"/>cacies of <seg xml:id="C09_app475-fMS">fibres muscles </seg>&amp; <seg xml:id="C09_app477-fMS">veins <del rend="strikethrough" xml:id="c56-0038__main__d2e7943">must be</del>
+            <lb n="c56-0038__left_margin__1"/>still </seg>remained<lb n="c56-0038__main__9"/> a work of inconceivable <seg xml:id="C09_app479-fMS">
+            <milestone spanTo="#c56-0038.21" unit="tei:seg" xml:id="c56-0038.19"/>labour<metamark ana="start" function="transpose" target="#c56-0038.19"/>2<metamark ana="end"/>&amp;<metamark ana="start" function="transpose" target="#c56-0038.20"/>1<metamark ana="end"/>
+            <milestone spanTo="#c56-0038.22" unit="tei:seg" xml:id="c56-0038.20"/>diffi <lb n="c56-0038__main__10"/> culty. </seg>I doubted at first whether I should <lb n="c56-0038__main__11"/> attempt the creation of a <seg xml:id="C09_app482-fMS">
+            <del rend="strikethrough" xml:id="c56-0038__main__d2e7986">creature</del>being<lb n="c56-0038__main__12"/> 
+            </seg>like <seg xml:id="C09_app484-fMS">
+            <del rend="strikethrough" xml:id="c56-0038__main__d2e7996">unto</del> 
+            </seg>
+            <seg xml:id="C09_app485-fMS">myself </seg>or one of simpler <lb n="c56-0038__main__13"/> organization; <seg xml:id="C09_app488-fMS">
+            <del rend="strikethrough" xml:id="c56-0038__main__d2e8001">b</del> but my imagination </seg>
+            <lb n="c56-0038__main__14"/> was too much exalted by my first success <lb n="c56-0038__main__15"/> to permit me to doubt of my <seg xml:id="C09_app491-fMS">
+            <del rend="strikethrough" xml:id="c56-0038__main__d2e8008">capacity</del>
+            <lb n="c56-0038__main__16"/> ability to </seg>
+            <seg xml:id="C09_app492-fMS">
+            <del rend="strikethrough" xml:id="c56-0038__main__d2e8016">create</del>give life<mdel ana="start"/>a<mdel ana="end"/>to<del rend="strikethrough" xml:id="c56-0038__main__d2e8031">creature</del>
+            <metamark ana="start" function="insert"/>^<metamark ana="end"/>
+            <del rend="strikethrough" xml:id="c56-0038__main__d2e8042">being</del> 
+            </seg>an animal as complex <lb n="c56-0038__main__17"/> and wonderful as man. <seg xml:id="C09_app495-fMS">
+            <del next="#c56-0038.03" rend="strikethrough" xml:id="c56-0038__main__d2e8051">
+               <del rend="overwritten" xml:id="c56-0038__main__d2e8053">but</del>Yet</del>
+            <del rend="strikethrough" xml:id="c56-0038__main__d2e8063">But</del>
+            <del next="#c56-0038.04" rend="strikethrough" xml:id="c56-0038__main__d2e8070">when I</del>
+            <lb n="c56-0038__main__18"/>
+            <del rend="strikethrough" xml:id="c56-0038__main__d2e8076">when</del>
+            <del rend="strikethrough" xml:id="c56-0038__main__d2e8079">I</del>
+            <del rend="strikethrough" xml:id="c56-0038__main__d2e8084">looked around for</del>
+            <del rend="strikethrough" xml:id="c56-0038__main__d2e8087">considered</del>
+            <del rend="strikethrough" xml:id="c56-0038__main__d2e8094">my</del>
+            <del rend="strikethrough" xml:id="c56-0038__main__d2e8097">materials</del>
+            <lb n="c56-0038__main__19"/>
+            <del rend="strikethrough" xml:id="c56-0038__main__d2e8103">they</del>
+            <lb n="c56-0038__left_margin__1"/> The materials </seg>
+            <lb n="c56-0038__left_margin__2"/> at present within my command hardly appeared adequate to so <seg xml:id="C09_app497-fMS">ardous <lb n="c56-0038__main__20"/> 
+            </seg>an undertaking; <seg xml:id="C09_app499-fMS">
+            <del rend="strikethrough" xml:id="c56-0038__main__d2e8129">but I did not despai</del>
+            <mdel ana="start"/>r.<mdel ana="end"/>but </seg>I doubted not that I should <seg xml:id="C09_app501-fMS">ul-timately succeed.<lb n="c56-0038__main__21"/>I allowed that my first attempts might <lb n="c56-0038__main__22"/> be futile, my operations fail or my work <lb n="c56-0038__main__23"/> be imperfect,<del rend="strikethrough" xml:id="c56-0038__main__d2e8153">but I looked around on</del>
+            <lb n="c56-0038__left_margin__1"/> 
+            </seg>I prepared myself <lb n="c56-0038__left_margin__2"/> for a multitude <lb n="c56-0038__left_margin__3"/> of <seg xml:id="C09_app505-fMS">reverses, </seg>my <lb n="c56-0038__left_margin__4"/> operations <seg xml:id="C09_app508-fMS">
+            <del rend="strikethrough" xml:id="c56-0038__left_margin__d2e8171">might</del>
+            <lb n="c56-0038__left_margin__5"/> 
+            </seg>be <seg xml:id="C09_app510-fMS">baffled <del rend="strikethrough" xml:id="c56-0038__left_margin__d2e8176">ever</del>
+            <lb n="c56-0038__left_margin__6"/> incessantly, </seg>&amp; at <lb n="c56-0038__left_margin__7"/> last my work be <seg xml:id="C09_app513-fMS">
+            <lb n="c56-0038__left_margin__8"/> but imperfect, <lb n="c56-0038__left_margin__9"/> 
+            </seg>yet, when I con<lb n="c56-0038__left_margin__10"/>sidered<lb n="c56-0038__main__24"/> the improvement <seg xml:id="C09_app515-fMS">
+            <del rend="strikethrough" xml:id="c56-0038__main__d2e8204">that</del>which </seg>every day <lb n="c56-0038__main__25"/> takes place in science and <seg xml:id="C09_app518-fMS">mechanics<lb n="c56-0038__main__26"/>
+            <del next="#c56-0038.15" rend="strikethrough" xml:id="c56-0038__main__d2e8218">and m my attempt was so much grande</del>
+            <del rend="unmarked" xml:id="c56-0038__main__d2e8221">r</del>I </seg>was encouraged to <seg xml:id="C09_app520-fMS">hope<lb n="c56-0038__main__27"/>
+            <del rend="strikethrough" xml:id="c56-0038__main__d2e8230">and</del>And altho although I could not hope </seg>
+            <seg xml:id="C09_app521-fMS">
+            <lb n="c56-0038__main__28"/> that my present attempts would </seg>
+            <seg xml:id="C09_app522-fMS">
+            <del rend="strikethrough" xml:id="c56-0038__main__d2e8245">s</del>
+            <del rend="strikethrough" xml:id="c56-0038__main__d2e8251">at le</del>
+            <del rend="strikethrough" xml:id="c56-0038__main__d2e8257">be in every</del>
+            <lb n="c56-0038__main__29"/>at </seg>least <metamark ana="start" function="insert"/>^<metamark ana="end"/>lay the foundations of future <seg xml:id="C09_app524-fMS">success<lb n="c56-0039__main__1"/>
+            <del rend="strikethrough" xml:id="c56-0039__main__d2e8290">way perfect<del rend="strikethrough" xml:id="c56-0039__main__d2e8294"> yet</del>
+               <del rend="strikethrough" xml:id="c56-0039__main__d2e8297">but</del>
+            </del>
+            <lb n="c56-0039__left_margin__1"/> Nor, </seg>could I <seg xml:id="C09_app526-fMS">
+            <lb n="c56-0039__left_margin__2"/> consider I did not think that <lb n="c56-0039__main__2"/> 
+            </seg>the magnitude and <seg xml:id="C09_app528-fMS">
+            <del rend="strikethrough" xml:id="c56-0039__main__d2e8323">grandeur</del>complexity </seg>of my plan <seg xml:id="C09_app530-fMS">
+            <lb n="c56-0039__main__3"/>
+            <del rend="strikethrough" xml:id="c56-0039__main__d2e8332">w</del>as </seg>any argument of its impracticabi<lb n="c56-0039__main__4"/>lity. <seg xml:id="C09_app532-fMS">
+            <del rend="strikethrough" xml:id="c56-0039__main__d2e8344">And</del>
+            <mdel ana="start"/>i<mdel ana="end"/>It </seg>was with these feelings <seg xml:id="C09_app534-fMS">
+            <metamark ana="start" function="insert"/>^<metamark ana="end"/>thatI <lb n="c56-0039__main__5"/> 
+            </seg>began the creation of a human being. <lb n="c56-0039__main__6"/> As the <seg xml:id="C09_app537-fMS">
+            <del rend="strikethrough" xml:id="c56-0039__main__d2e8372">smallness</del>minuteness </seg>of the parts <seg xml:id="C09_app539-fMS">
+            <del rend="strikethrough" xml:id="c56-0039__main__d2e8381">were</del>formed </seg>a <lb n="c56-0039__main__7"/> great <seg xml:id="C09_app542-fMS">hindrance </seg>to my <seg xml:id="C09_app544-fMS">speed </seg>I resolved, <lb n="c56-0039__main__8"/> contrary to my first intention, to make <seg xml:id="C09_app547-fMS">
+            <lb n="c56-0039__main__9"/>
+            <del rend="strikethrough" xml:id="c56-0039__main__d2e8397">him</del>
+            <lb n="c56-0039__left_margin__1"/>the being<del rend="strikethrough" xml:id="c56-0039__main__d2e8411">of</del> 
+            </seg>of a gigantic stature; that <lb n="c56-0039__main__10"/> is to <seg xml:id="C09_app550-fMS">say </seg>about <seg xml:id="C09_app552-fMS">
+            <mdel ana="start"/>7<mdel ana="end"/>
+            <metamark ana="start" function="insert"/>^<metamark ana="end"/>seven or eight feet in </seg>
+            <lb n="c56-0039__main__11"/> height, and proportionably large. <seg xml:id="C09_app554-fMS">
+            <del rend="strikethrough" xml:id="c56-0039__main__d2e8434">And</del>
+            <lb n="c56-0039__main__12"/> after having formed this </seg>
+            <seg xml:id="C09_app555-fMS">determination <lb n="c56-0039__main__13"/> 
+            </seg>and having spent some months in <seg xml:id="C09_app557-fMS">
+            <lb n="c56-0039__main__14"/>
+            <del rend="strikethrough" xml:id="c56-0039__main__d2e8446">collecting</del>
+            <mdel ana="start"/>of<mdel ana="end"/>
+            <lb n="c56-0039__left_margin__1"/> successfully <lb n="c56-0039__left_margin__2"/> collecting &amp;<lb n="c56-0039__left_margin__3"/> arranging my materials, I </seg>began.<milestone unit="tei:p"/>
+            <lb n="c56-0039__main__15"/> No one can conceive <seg xml:id="C09_app560-fMS">
+            <del rend="strikethrough" xml:id="c56-0039__main__d2e8472">my</del> the variety <lb n="c56-0039__main__16"/> of feelings which </seg>
+            <seg xml:id="C09_app561-fMS">pressed upon </seg>me <seg xml:id="C09_app563-fMS">
+            <lb n="c56-0039__main__17"/> during this time. When success raised <lb n="c56-0039__main__18"/> me <metamark ana="start" function="insert"/>^<metamark ana="end"/>toenthusiasm </seg>life and death appear<lb n="c56-0039__main__19"/>ed to me ideal bounds, which I <lb n="c56-0039__main__20"/> should first break <seg xml:id="C09_app566-fMS">thro, </seg>and pour a <lb n="c56-0039__main__21"/> torrent of light into our dark world. <lb n="c56-0039__main__22"/> A new <seg xml:id="C09_app570-fMS">
+            <del rend="strikethrough" xml:id="c56-0039__main__d2e8512">creation</del>existence </seg>would bless me as its <seg xml:id="C09_app572-fMS">
+            <lb n="c56-0039__main__23"/>
+            <del rend="strikethrough" xml:id="c56-0039__main__d2e8523">maker</del>
+            <lb n="c56-0039__left_margin__1"/>creator </seg>and source; many happy and <lb n="c56-0039__main__24"/> excellent <seg xml:id="C09_app575-fMS">
+            <del rend="strikethrough" xml:id="c56-0039__main__d2e8542">creatures</del>
+            <del rend="strikethrough" xml:id="c56-0039__main__d2e8545">beings</del>natures </seg>would owe their <seg xml:id="C09_app577-fMS">
+            <lb n="c56-0039__main__25"/>
+            <del rend="strikethrough" xml:id="c56-0039__main__d2e8559">existence</del>
+            <mdel ana="start"/>in<mdel ana="end"/>being </seg>to me. <seg xml:id="C09_app579-fMS">
+            <del rend="strikethrough" xml:id="c56-0039__main__d2e8569">in manner</del>
+            <lb n="c56-0039__main__26"/>
+            <del rend="strikethrough" xml:id="c56-0039__main__d2e8575">in a manner</del> no father could claim </seg>
+            <lb n="c56-0039__main__27"/> the gratitude of his child <metamark ana="start" function="displacement" xml:id="c56-0039.07"/>^<metamark ana="end"/>
+            <lb n="c56-0039__left_margin__1"/> so completely as <lb n="c56-0039__left_margin__2"/> I should deserve <seg xml:id="C09_app583-fMS">
+            <lb n="c56-0039__left_margin__3"/> thiers<del rend="strikethrough" xml:id="c56-0039__main__d2e8602">And</del> pur <lb n="c56-0039__main__28"/> sueing </seg>
+            <mdel ana="start"/>my<mdel ana="end"/>these <seg xml:id="C09_app586-fMS">reflections <del rend="strikethrough" xml:id="c56-0039__main__d2e8617">if</del> 
+            </seg>I <seg xml:id="C09_app588-fMS">thought <lb n="c56-0039__main__29"/> 
+            </seg>that if I could bestow <seg xml:id="C09_app590-fMS">
+            <del rend="strikethrough" xml:id="c56-0039__main__d2e8624">life</del>animation </seg>
+            <seg xml:id="C09_app591-fMS">upon <lb n="c56-0039__main__30"/>
+            <del rend="strikethrough" xml:id="c56-0039__main__d2e8633">upon</del> 
+            </seg>lifeless <seg xml:id="C09_app593-fMS">matter </seg>I might in <lb n="c56-0039__main__31"/> process of time (although I now found<lb n="c56-0040__main__1"/> it impossible) renew life where <lb n="c56-0040__main__2"/> death had apparently devoted the <lb n="c56-0040__main__3"/> body to <seg xml:id="C09_app598-fMS">corruption.<milestone unit="tei:p"/>
+            <lb n="c56-0040__main__4"/> These </seg>thoughts supported my <seg xml:id="C09_app600-fMS">
+            <lb n="c56-0040__main__5"/> spirits </seg>while I pursued my <seg xml:id="C09_app602-fMS">
+            <del rend="strikethrough" xml:id="c56-0040__main__d2e8662">labours</del>
+            <metamark ana="start" function="insert"/>^<metamark ana="end"/>undertaking<lb n="c56-0040__main__6"/> 
+            </seg>with unremitting <seg xml:id="C09_app604-fMS">
+            <del rend="strikethrough" xml:id="c56-0040__main__d2e8679">eagerness</del>
+            <metamark ana="start" function="insert"/>^<metamark ana="end"/>ardour. </seg>My cheek <seg xml:id="C09_app606-fMS">
+            <lb n="c56-0040__main__7"/>
+            <del rend="strikethrough" xml:id="c56-0040__main__d2e8696">was</del>
+            <lb n="c56-0040__left_margin__1"/>had </seg>grown pale with study, and <seg xml:id="C09_app608-fMS">
+            <del rend="strikethrough" xml:id="c56-0040__main__d2e8711">pe</del> my person </seg>
+            <seg xml:id="C09_app609-fMS">
+            <lb n="c56-0040__main__8"/>
+            <lb n="c56-0040__left_margin__1"/>becameemaciated by </seg>confinement. <seg xml:id="C09_app611-fMS">sometimes <lb n="c56-0040__main__9"/> 
+            </seg>on the very brink of <seg xml:id="C09_app613-fMS">certainty </seg>I <seg xml:id="C09_app615-fMS">faild <lb n="c56-0040__main__10"/> 
+            </seg>yet <seg xml:id="C09_app617-fMS">I still </seg>clung to the hope which <lb n="c56-0040__main__11"/> the next day or the <seg xml:id="C09_app620-fMS">
+            <del rend="strikethrough" xml:id="c56-0040__main__d2e8733">nexhour</del> next <lb n="c56-0040__main__12"/> hour might </seg>
+            <seg xml:id="C09_app621-fMS">realize. </seg>One secret <lb n="c56-0040__main__13"/> which I alone <seg xml:id="C09_app624-fMS">
+            <del rend="strikethrough" xml:id="c56-0040__main__d2e8742">knew</del>possessed </seg>was the hope <lb n="c56-0040__main__14"/> to which I <seg xml:id="C09_app627-fMS">clung </seg>and the moon <lb n="c56-0040__main__15"/> gazed on my midnight <seg xml:id="C09_app630-fMS">labours <lb n="c56-0040__main__16"/> while </seg>with unrelaxed &amp; breathless <seg xml:id="C09_app632-fMS">
+            <lb n="c56-0040__main__17"/> eagerness </seg>I pursued nature to her <seg xml:id="C09_app634-fMS">
+            <lb n="c56-0040__main__18"/> most secret hiding places<del rend="strikethrough" xml:id="c56-0040__main__d2e8760">. But</del>
+            <lb n="c56-0040__main__19"/> 
+            </seg>who shall <seg xml:id="C09_app636-fMS">
+            <del rend="strikethrough" xml:id="c56-0040__main__d2e8768">know</del>
+            <mdel ana="start"/>my<mdel ana="end"/>
+            <metamark ana="start" function="insert"/>^<metamark ana="end"/>concieve </seg>the horrors of my secret <seg xml:id="C09_app638-fMS">
+            <del rend="strikethrough" xml:id="c56-0040__main__d2e8786">operatio</del>
+            <mdel ana="start"/>ns<mdel ana="end"/>toil<lb n="c56-0040__main__20"/> 
+            </seg>as I dabbled among the unhallowed <lb n="c56-0040__main__21"/> damps of the grave, or tortured the <lb n="c56-0040__main__22"/> living <seg xml:id="C09_app642-fMS">
+            <del rend="strikethrough" xml:id="c56-0040__main__d2e8802">animate to ani</del> animal to <lb n="c56-0040__main__23"/> animate <mdel ana="start"/>my<mdel ana="end"/>the lifeless clay? </seg>
+            <seg xml:id="C09_app643-fMS">
+            <del rend="strikethrough" xml:id="c56-0040__main__d2e8817">Now</del> my limbs <lb n="c56-0040__main__24"/>
+            <lb n="c56-0040__left_margin__1"/>now </seg>
+            <seg xml:id="C09_app644-fMS">tremble </seg>and my eyes swim with the <seg xml:id="C09_app646-fMS">
+            <lb n="c56-0040__main__25"/> rememberance, </seg>but then a <seg xml:id="C09_app648-fMS">resistless <lb n="c56-0040__main__26"/> 
+            </seg>and <seg xml:id="C09_app650-fMS">
+            <del rend="strikethrough" xml:id="c56-0040__main__d2e8837">all</del> almost </seg>
+            <seg xml:id="C09_app651-fMS">frantic </seg>
+            <seg xml:id="C09_app652-fMS">impulse </seg>urged me <lb n="c56-0040__main__27"/>
+            <mdel ana="start"/>on<mdel ana="end"/>
+            <lb n="c56-0040__left_margin__1"/>forward; I seemed to have lost all <lb n="c56-0040__main__28"/> soul or sensation but for one <seg xml:id="C09_app657-fMS">
+            <lb n="c56-0040__main__29"/> pursuit. It was indeed a passing </seg>
+            <seg xml:id="C09_app658-fMS">trance <lb n="c56-0040__main__30"/> 
+            </seg>that only made me feel with renew<lb n="c56-0041__main__1"/>ed acuteness  <seg xml:id="C09_app660-fMS">
+            <del rend="strikethrough" xml:id="c56-0041__main__d2e8889">when</del>so </seg>soon <seg xml:id="C09_app662-fMS">as </seg>the unnatural <seg xml:id="C09_app664-fMS">sti <lb n="c56-0041__main__2"/> mulus ceas<mdel ana="start"/>ed<mdel ana="end"/>ing<del rend="strikethrough" xml:id="c56-0041__main__d2e8906">had</del> 
+            </seg>to operate, <seg xml:id="C09_app666-fMS">and I had return<lb n="c56-0041__main__3"/>ed to my old habits. I collected bones from </seg>
+            <seg xml:id="C09_app667-fMS">
+            <lb n="c56-0041__main__4"/> Charnel houses </seg>and with profane <seg xml:id="C09_app671-fMS">fingers <lb n="c56-0041__main__5"/> meddled with </seg>the secrets of the human <lb n="c56-0041__main__6"/> frame. In a solitary <seg xml:id="C09_app676-fMS">chamber–or </seg>rather <seg xml:id="C09_app678-fMS">
+            <lb n="c56-0041__main__7"/> cell </seg>at the top of the <seg xml:id="C09_app680-fMS">house </seg>and <seg xml:id="C09_app682-fMS">seperated <lb n="c56-0041__main__8"/> 
+            </seg>from all other <seg xml:id="C09_app686-fMS">appartments </seg>by a gallery <lb n="c56-0041__main__9"/> and <seg xml:id="C09_app689-fMS">staircase </seg>I <seg xml:id="C09_app691-fMS">
+            <del rend="strikethrough" xml:id="c56-0041__main__d2e8933">h</del> kept my workshop </seg>
+            <lb n="c56-0041__main__10"/> of filthy <seg xml:id="C09_app693-fMS">creation; </seg>my <seg xml:id="C09_app695-fMS">eyeballs </seg>were <lb n="c56-0041__main__11"/> starting from their sockets in at<lb n="c56-0041__main__12"/>tending to the <seg xml:id="C09_app698-fMS">minutiæ </seg>of <seg xml:id="C09_app700-fMS">
+            <del rend="strikethrough" xml:id="c56-0041__main__d2e8947">the</del> my </seg>
+            <lb n="c56-0041__main__13"/> employment. The dissecting room and <lb n="c56-0041__main__14"/> the <seg xml:id="C09_app703-fMS">slaughter house </seg>furnished many <lb n="c56-0041__main__15"/> of my <seg xml:id="C09_app706-fMS">materials, </seg>and often did my <lb n="c56-0041__main__16"/> human nature turn from my <seg xml:id="C09_app711-fMS">
+            <lb n="c56-0041__main__17"/> occupation <del rend="strikethrough" xml:id="c56-0041__main__d2e8963">but</del>
+            <mdel ana="start"/>I<mdel ana="end"/>whilst<del rend="strikethrough" xml:id="c56-0041__main__d2e8972">wal</del>
+            <del rend="strikethrough" xml:id="c56-0041__main__d2e8975">was</del> 
+            </seg>still urged <lb n="c56-0041__main__18"/> on by an eagerness which perpetually <seg xml:id="C09_app714-fMS">encreased, </seg>
+            <lb n="c56-0041__main__19"/>
+            <mdel ana="start"/>as<mdel ana="end"/>
+            <lb n="c56-0041__left_margin__1"/>I brought my work <seg xml:id="C09_app716-fMS">
+            <del rend="strikethrough" xml:id="c56-0041__main__d2e9003">drew</del> near <metamark ana="start" function="insert"/>^<metamark ana="end"/>to a </seg>
+            <seg xml:id="C09_app717-fMS">conclusion.<milestone unit="tei:p"/>
+            <lb n="c56-0041__main__20"/> The <del rend="strikethrough" xml:id="c56-0041__main__d2e9022">sums</del> 
+            </seg>Summer months <lb n="c56-0041__main__21"/> passed while I was thus <seg xml:id="C09_app720-fMS">
+            <del rend="strikethrough" xml:id="c56-0041__main__d2e9030">employed</del>engaged,<lb n="c56-0041__main__22"/> 
+            </seg>heart and soul, in one pursuit. It <lb n="c56-0041__main__23"/> was a most beautiful <seg xml:id="C09_app723-fMS">season: </seg>never <lb n="c56-0041__main__24"/> did the fields bestow a more plentiful <lb n="c56-0041__main__25"/> harvest, or the vines <seg xml:id="C09_app727-fMS">yeild </seg>a more <lb n="c56-0041__main__26"/> luxuriant <seg xml:id="C09_app730-fMS">vintage. </seg>But my eyes were <seg xml:id="C09_app732-fMS">
+            <lb n="c56-0041__main__27"/>
+            <mdel ana="start"/>s<mdel ana="end"/>
+            <del rend="strikethrough" xml:id="c56-0041__main__d2e9055">hut</del>
+            <lb n="c56-0041__left_margin__1"/>insensible </seg>to the charms of <seg xml:id="C09_app734-fMS">nature </seg>&amp; the <lb n="c56-0041__main__28"/> same feelings which <seg xml:id="C09_app737-fMS">
+            <del rend="strikethrough" xml:id="c56-0041__main__d2e9073">caused</del>
+            <metamark ana="start" function="insert"/>^<metamark ana="end"/>made </seg>me <seg xml:id="C09_app739-fMS">
+            <del rend="strikethrough" xml:id="c56-0041__main__d2e9086">to</del>
+            <lb n="c56-0041__main__29"/> neglect the scenes around me caused </seg>
+            <lb n="c56-0041__main__30"/> me also to forget those friends who <lb n="c56-0041__main__31"/> were so many miles <seg xml:id="C09_app742-fMS">absent </seg>and whom <lb n="c56-0041__main__32"/> I had not seen for so long a time.<lb n="c56-0042__main__1"/> I knew <seg xml:id="C09_app745-fMS">that my silence disquieted </seg>
+            <seg xml:id="C09_app746-fMS">
+            <lb n="c56-0042__main__2"/> them </seg>and I well remembered the <lb n="c56-0042__main__3"/> words of my <seg xml:id="C09_app749-fMS">father. </seg>"I know that while <seg xml:id="C09_app751-fMS">
+            <lb n="c56-0042__main__4"/> "you </seg>are pleased with <seg xml:id="C09_app753-fMS">yourself </seg>you <seg xml:id="C09_app755-fMS">
+            <lb n="c56-0042__main__5"/> "will <del rend="strikethrough" xml:id="c56-0042__main__d2e9117">thing</del> 
+            </seg>think of us with <seg xml:id="C09_app757-fMS">affection <lb n="c56-0042__main__6"/> "and </seg>we shall hear regularly from <seg xml:id="C09_app759-fMS">
+            <lb n="c56-0042__main__7"/> "you. And </seg>you must pardon <seg xml:id="C09_app761-fMS">me </seg>
+            <seg xml:id="C09_app762-fMS">
+            <lb n="c56-0042__main__8"/> "if </seg>I regard <seg xml:id="C09_app764-fMS">
+            <del rend="strikethrough" xml:id="c56-0042__main__d2e9126">you</del> any interruption </seg>
+            <seg xml:id="C09_app765-fMS">
+            <lb n="c56-0042__main__9"/> "in </seg>your <seg xml:id="C09_app767-fMS">corespondence, </seg>as a proof <seg xml:id="C09_app769-fMS">
+            <lb n="c56-0042__main__10"/> "that </seg>your other <seg xml:id="C09_app771-fMS">
+            <del rend="strikethrough" xml:id="c56-0042__main__d2e9136">studies</del>duties </seg>are equal<lb n="c56-0042__main__11"/>ly <seg xml:id="C09_app773-fMS">neglected" I <del rend="strikethrough" xml:id="c56-0042__main__d2e9149">rembered</del> knew well </seg>
+            <lb n="c56-0042__main__12"/> therefore what <seg xml:id="C09_app775-fMS">his <del rend="strikethrough" xml:id="c56-0042__main__d2e9155">opinion</del> would <lb n="c56-0042__main__13"/> be his feelings </seg>but I could not tear my thoughts <lb n="c56-0042__main__14"/> from my <seg xml:id="C09_app778-fMS">occupation </seg>loathsome in <seg xml:id="C09_app780-fMS">
+            <lb n="c56-0042__main__15"/> itself </seg>but which had taken <seg xml:id="C09_app782-fMS">an<lb n="c56-0042__main__16"/>
+            <del rend="strikethrough" xml:id="c56-0042__main__d2e9175">strong</del>
+            <lb n="c56-0042__left_margin__1"/>irresistible </seg>hold of my <seg xml:id="C09_app784-fMS">
+            <del rend="strikethrough" xml:id="c56-0042__main__d2e9189">imagni</del> imagination. </seg>
+            <lb n="c56-0042__main__17"/> I <seg xml:id="C09_app786-fMS">wished </seg>as it <seg xml:id="C09_app788-fMS">were </seg>to <seg xml:id="C09_app790-fMS">
+            <del rend="strikethrough" xml:id="c56-0042__main__d2e9194">procr</del>procras<lb n="c56-0042__main__18"/>tinate<metamark ana="start" function="insert"/>^<metamark ana="end"/>all </seg>that related to my feelings of <seg xml:id="C09_app792-fMS">affection, untill <lb n="c56-0042__main__19"/> 
+            </seg>the great <seg xml:id="C09_app794-fMS">object <del rend="strikethrough" xml:id="c56-0042__main__d2e9220">of my affection</del>
+            <del rend="strikethrough" xml:id="c56-0042__main__d2e9223">was</del>which </seg>swallowed up every habit<lb n="c56-0042__left_margin__1"/> of my <seg xml:id="C09_app796-fMS">nature </seg>should be<lb n="c56-0042__main__20"/> 
+            <seg xml:id="C09_app798-fMS">compleated. </seg>
+            <milestone unit="tei:p"/>
+            <lb n="c56-0042__main__21"/> I then thought that my father <lb n="c56-0042__main__22"/> would be <seg xml:id="C09_app801-fMS">
+            <del rend="strikethrough" xml:id="c56-0042__main__d2e9249">in</del> unjust <mdel ana="start"/>to<mdel ana="end"/>if he ascribed my </seg>
+            <lb n="c56-0042__main__23"/> neglect to <seg xml:id="C09_app803-fMS">vice </seg>or faultiness on my <lb n="c56-0042__main__24"/> part; but I am now convinced <lb n="c56-0042__main__25"/> that <seg xml:id="C09_app807-fMS">
+            <mdel ana="start"/>I<mdel ana="end"/>
+            <mdel ana="start"/>am<mdel ana="end"/>
+            <metamark ana="start" function="insert"/>^<metamark ana="end"/>he was<metamark ana="start" function="displacement"/>X<metamark ana="end"/>
+            <del rend="strikethrough" xml:id="c56-0042__main__d2e9295">in the right</del>
+            <del rend="strikethrough" xml:id="c56-0042__main__d2e9298">in co conceive</del>
+            <lb n="c56-0042__left_margin__1"/>
+            <metamark ana="start"/>X<metamark ana="end"/> he was in the <lb n="c56-0042__left_margin__2"/> right </seg>in conceiv<lb n="c56-0042__left_margin__3"/>ing that I <lb n="c56-0042__left_margin__4"/> should not be <lb n="c56-0042__left_margin__5"/> altogether free <lb n="c56-0042__left_margin__6"/> from <seg xml:id="C09_app812-fMS">blame.. </seg>A human <lb n="c56-0042__main__26"/> being in perfection ought always to <lb n="c56-0042__main__27"/> preserve a <seg xml:id="C09_app816-fMS">
+            <del rend="strikethrough" xml:id="c56-0042__main__d2e9345">cl</del> calm and peaceful </seg>
+            <seg xml:id="C09_app817-fMS">
+            <lb n="c56-0042__main__28"/> mind </seg>and never to allow passion<lb n="c56-0043__main__1"/> or <seg xml:id="C09_app819-fMS">^a </seg>transitory desire to disturb his <lb n="c56-0043__main__2"/> tranquillity. I do not think that the pursuit <lb n="c56-0043__main__3"/> of knowledge is <seg xml:id="C09_app823-fMS">any </seg>exception to this rule. <lb n="c56-0043__main__4"/> If the study to which you apply yourself <lb n="c56-0043__main__5"/> has a <seg xml:id="C09_app827-fMS">
+            <del rend="strikethrough" xml:id="c56-0043__main__d2e9378">d</del> tendency to weaken your </seg>
+            <seg xml:id="C09_app828-fMS">affections <lb n="c56-0043__main__6"/> 
+            </seg>and to destroy your taste for those simple <lb n="c56-0043__main__7"/> pleasures in which no alloy can possibly <seg xml:id="C09_app831-fMS">
+            <lb n="c56-0043__main__8"/> mix </seg>then that study is certainly <seg xml:id="C09_app833-fMS">unlawful <lb n="c56-0043__main__9"/> 
+            </seg>
+            <seg xml:id="C09_app834-fMS">that <del rend="strikethrough" xml:id="c56-0043__main__d2e9390">it</del> is to say <del rend="strikethrough" xml:id="c56-0043__main__d2e9393">on that</del> 
+            </seg>
+            <seg xml:id="C09_app835-fMS">not befitting <del rend="strikethrough" xml:id="c56-0043__main__d2e9396">to</del> 
+            </seg>the <lb n="c56-0043__main__10"/> human mind. If this <seg xml:id="C09_app837-fMS">
+            <del rend="strikethrough" xml:id="c56-0043__main__d2e9401">rul</del> rule </seg>
+            <seg xml:id="C09_app838-fMS">
+            <del rend="strikethrough" xml:id="c56-0043__main__d2e9406">was</del>were al<lb n="c56-0043__main__11"/>ways </seg>observed; if no man allowed any <lb n="c56-0043__main__12"/> pursuit whatsoever to interfere with <seg xml:id="C09_app841-fMS">
+            <lb n="c56-0043__main__13"/> his </seg>tranquillity <seg xml:id="C09_app843-fMS">and </seg>his domestic <seg xml:id="C09_app845-fMS">affections <lb n="c56-0043__main__14"/> 
+            </seg>Greece had <seg xml:id="C09_app847-fMS">never </seg>been <seg xml:id="C09_app849-fMS">enslaved, </seg>Cæsar <lb n="c56-0043__main__15"/> would have spared his <seg xml:id="C09_app852-fMS">country, </seg>America <lb n="c56-0043__main__16"/> would have been discovered more <seg xml:id="C09_app855-fMS">gradual<lb n="c56-0043__main__17"/>ly, </seg>and the Empires of Mexico &amp; Peru had <lb n="c56-0043__main__18"/> not been <seg xml:id="C09_app858-fMS">destroyed.<milestone unit="tei:p"/>
+            <lb n="c56-0043__main__19"/> But </seg>I forget that I am <seg xml:id="C09_app860-fMS">moralizing </seg>
+            <lb n="c56-0043__main__20"/> in the most <seg xml:id="C09_app862-fMS">interresting </seg>part of my <lb n="c56-0043__main__21"/> tale; and your looks remind me to <seg xml:id="C09_app865-fMS">
+            <lb n="c56-0043__main__22"/> proceed.<milestone unit="tei:p"/>
+            <lb n="c56-0043__main__23"/> My </seg>father made no reproach in his <seg xml:id="C09_app867-fMS">
+            <lb n="c56-0043__main__24"/> letters, </seg>
+            <seg xml:id="C09_app868-fMS">
+            <del rend="strikethrough" xml:id="c56-0043__main__d2e9459">an</del> and only took notice of my </seg>
+            <lb n="c56-0043__main__25"/> silence by <seg xml:id="C09_app870-fMS">enquiring </seg>
+            <seg xml:id="C09_app871-fMS">more particularly <lb n="c56-0043__main__26"/> than before what my <del rend="strikethrough" xml:id="c56-0043__main__d2e9466">co</del> occupations <lb n="c56-0043__main__27"/>
+            <del rend="strikethrough" xml:id="c56-0043__main__d2e9472">wer</del> were. </seg>
+            <seg xml:id="C09_app872-fMS">Winter spring </seg>and summer <lb n="c56-0043__main__28"/> passed away during my <seg xml:id="C09_app875-fMS">
+            <mdel ana="start"/>t<mdel ana="end"/>labours </seg>but <lb n="c56-0043__main__29"/> I did not watch the blossom or the <lb n="c56-0043__main__30"/> expanding leaves – sights which before <seg xml:id="C09_app881-fMS">
+            <lb n="c56-0043__main__31"/> had alway yeilded </seg>me supreme <seg xml:id="C09_app883-fMS">delight.<lb n="c56-0043__main__32"/> so </seg>
+            <seg xml:id="C09_app884-fMS">
+            <del rend="strikethrough" xml:id="c56-0043__main__d2e9500">much</del>deeply </seg>was I <seg xml:id="C09_app886-fMS">
+            <del rend="strikethrough" xml:id="c56-0043__main__d2e9509">taken up with</del>engrossed </seg>in my<lb n="c56-0044__main__1"/> occupation. The leaves of that year <seg xml:id="C09_app888-fMS">
+            <lb n="c56-0044__main__2"/> were </seg>withered before my work drew <lb n="c56-0044__main__3"/> near a <seg xml:id="C09_app893-fMS">close. </seg>And now every day <seg xml:id="C09_app895-fMS">shewed </seg>
+            <lb n="c56-0044__main__4"/> me more plainly how well I had suc<lb n="c56-0044__main__5"/>ceeded. But my enthusiasm was <lb n="c56-0044__main__6"/> checked by my <seg xml:id="C09_app898-fMS">
+            <del rend="strikethrough" xml:id="c56-0044__main__d2e9541">am</del> anxiety </seg>and I appeared <lb n="c56-0044__main__7"/> rather like one doomed by slavery <lb n="c56-0044__main__8"/> to toil in the <seg xml:id="C09_app902-fMS">mines </seg>or any other <seg xml:id="C09_app904-fMS">
+            <lb n="c56-0044__main__9"/> unwholsome trade </seg>than an artist <lb n="c56-0044__main__10"/> occupied <seg xml:id="C09_app907-fMS">in </seg>his favourite employment. <lb n="c56-0044__main__11"/> Every <seg xml:id="C09_app910-fMS">
+            <del rend="strikethrough" xml:id="c56-0044__main__d2e9555">nigh</del> night </seg>
+            <seg xml:id="C09_app911-fMS">a slow fever oppressed <lb n="c56-0044__main__12"/> me </seg>and I became <seg xml:id="C09_app913-fMS">
+            <del rend="strikethrough" xml:id="c56-0044__main__d2e9562">nevous</del>
+            <metamark ana="start" function="insert"/>^<metamark ana="end"/>nervous </seg>to a <seg xml:id="C09_app915-fMS">
+            <del rend="strikethrough" xml:id="c56-0044__main__d2e9576">degre</del>
+            <lb n="c56-0044__main__13"/> most painful degree; </seg>
+            <seg xml:id="C09_app916-fMS">a <del rend="strikethrough" xml:id="c56-0044__main__d2e9581">fever</del> a dis<lb n="c56-0044__main__14"/>ease I regretted the more because I had <lb n="c56-0044__main__15"/> hitherto enjoyed excellent </seg>
+            <seg xml:id="C09_app917-fMS">health &amp;<lb n="c56-0044__main__16"/>
+            <del rend="strikethrough" xml:id="c56-0044__main__d2e9598">my nerves</del>
+            <del rend="strikethrough" xml:id="c56-0044__main__d2e9601">were fi</del> 
+            </seg>
+            <seg xml:id="C09_app918-fMS">had always <lb n="c56-0044__main__17"/> boasted of <mdel ana="start"/>my<mdel ana="end"/>the firmness<metamark ana="start" function="insert"/>^<metamark ana="end"/>of my nerves. </seg>
+            <seg xml:id="C09_app919-fMS">But </seg>I <lb n="c56-0044__main__18"/> believed that exercise and amusement <lb n="c56-0044__main__19"/> would <seg xml:id="C09_app921-fMS">soon </seg>
+            <seg xml:id="C09_app922-fMS">
+            <del rend="strikethrough" xml:id="c56-0044__main__d2e9635">driv</del> drive away </seg>
+            <seg xml:id="C09_app923-fMS">
+            <del rend="strikethrough" xml:id="c56-0044__main__d2e9641">these</del>suchsym<lb n="c56-0044__main__20"/>
+            <del rend="strikethrough" xml:id="c56-0044__main__d2e9652">p</del>toms </seg>and I promised myself both <lb n="c56-0044__main__21"/> of <seg xml:id="C09_app926-fMS">these </seg>when my creation should be <lb n="c56-0044__main__22"/> 
+            <seg xml:id="C09_app928-fMS">comple<mdel ana="start"/>et<mdel ana="end"/>te<mdel ana="start"/>ed<mdel ana="end"/>. I hadhad t then determined to <lb n="c56-0044__main__23"/> go to Geneva as soon as this should be <lb n="c56-0044__main__24"/> done and a in the midst of my <lb n="c56-0044__main__25"/> family find eve </seg>
+         </div>
+      </body>
+   </text>
 </TEI>

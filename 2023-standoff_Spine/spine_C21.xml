@@ -20,7 +20,7 @@
             <p>Produced from collation output prepared in batch file processing
                                     on  2023-06-14 21:51:22.189710 .</p>
             <p>Edited to correct alignments and prepared for the Frankenstein
-                                    Variorum spine on 2023-06-26T17:36:34.0549946-04:00.</p>
+                                    Variorum spine on 2023-06-27T21:33:45.179109-04:00.</p>
          </sourceDesc>
       </fileDesc>
    </teiHeader>
@@ -8891,13 +8891,11 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C21_app643" n="16">
+            <app xml:id="C21_app643" n="0">
                <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
                         n="['']"
                         xml:id="C21_app643_rg1">
-                  <rdg wit="#fMS">
-                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/variorum-chunks/fMS_C21.xml#string-range(//tei:surface[@xml:id='ox-ms_abinger_c57-0043']/tei:zone[@type='main']//tei:line[32],23,24)"/>
-                  </rdg>
+                  <rdg wit="#fMS"/>
                </rdgGrp>
                <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
                         n="['by', 'my', 'conformation']"

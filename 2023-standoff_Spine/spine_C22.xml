@@ -20,7 +20,7 @@
             <p>Produced from collation output prepared in batch file processing
                                     on  2023-06-14 22:52:43.680126 .</p>
             <p>Edited to correct alignments and prepared for the Frankenstein
-                                    Variorum spine on 2023-06-26T17:36:34.0549946-04:00.</p>
+                                    Variorum spine on 2023-06-27T21:33:45.179109-04:00.</p>
          </sourceDesc>
       </fileDesc>
    </teiHeader>
@@ -11050,13 +11050,11 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C22_app835" n="24">
+            <app xml:id="C22_app835" n="0">
                <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
                         n="['']"
                         xml:id="C22_app835_rg1">
-                  <rdg wit="#fMS">
-                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/variorum-chunks/fMS_C22.xml#string-range(//tei:surface[@xml:id='ox-ms_abinger_c57-0063']/tei:zone[@type='main']//tei:line[11],29,30)"/>
-                  </rdg>
+                  <rdg wit="#fMS"/>
                </rdgGrp>
                <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
                         n="['from', 'the', 'pain', 'of', 'reflection,']"
@@ -14226,22 +14224,14 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C22_app1079" n="6">
+            <app xml:id="C22_app1079" n="0">
                <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
                         n="['']"
                         xml:id="C22_app1079_rg1">
-                  <rdg wit="#f1818">
-                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chunks/f1818_C22.xml#C22_app1079-f1818"/>
-                  </rdg>
-                  <rdg wit="#f1823">
-                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chunks/f1823_C22.xml#C22_app1079-f1823"/>
-                  </rdg>
-                  <rdg wit="#fThomas">
-                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chunks/fThomas_C22.xml#C22_app1079-fThomas"/>
-                  </rdg>
-                  <rdg wit="#f1831">
-                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chunks/f1831_C22.xml#C22_app1079-f1831"/>
-                  </rdg>
+                  <rdg wit="#f1818"/>
+                  <rdg wit="#f1823"/>
+                  <rdg wit="#fThomas"/>
+                  <rdg wit="#f1831"/>
                </rdgGrp>
                <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
                         n="['&lt;del&gt;for me.&lt;/del&gt;', '']"

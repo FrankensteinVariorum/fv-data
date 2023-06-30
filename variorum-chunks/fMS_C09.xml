@@ -1,0 +1,1178 @@
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xml:id="fMS-C09">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Frankenstein manuscripts, Chunk msColl_C09.xml</title>
+         </titleStmt>
+         <editionStmt>
+            <edition>Shelley-Godwin Archive edition, <date>2012-2015</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <distributor>Oxford University</distributor>
+            <address>
+               <addrLine>
+                  <ref target="http://www.shelleygodwinarchive.org/">http://www.shelleygodwinarchive.org/</ref>
+               </addrLine>
+            </address>
+            <availability status="free">
+               <licence target="http://creativecommons.org/publicdomain/zero/1.0/">
+                  <p>CC0 1.0 Universal.</p>
+                  <p> To the extent possible under law, the creators of the metadata records for the Shelley-Godwin Archive 
+                              have waived all copyright and related or neighboring rights to this work.</p>
+               </licence>
+            </availability>
+            <pubPlace>Oxford, UK, and College Park, MD</pubPlace>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <settlement>Oxford</settlement>
+                  <repository>Bodleian Library, University of Oxford</repository>
+                  <idno type="Bod">MS. Abinger c56</idno>
+               </msIdentifier>
+               <physDesc>
+                  <handDesc>
+                     <handNote scope="major" xml:id="mws">
+                        <persName>Mary Shelley</persName>
+                     </handNote>
+                     <handNote scope="minor" xml:id="pbs">
+                        <persName>Percy Shelley</persName>
+                     </handNote>
+                  </handDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2019-06-19" who="#ebb">Constructed this to help organize S-GA files to be included as 
+                      collation units for the Frankenstein Variorum project.</change>
+      </revisionDesc>
+   </teiHeader>
+   <sourceDoc>
+      <?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5364" lry="7104" partOf="#ox-frankenstein_volume_i" ulx="0" uly="0" mith:folio="14r" mith:shelfmark="MS. Abinger c. 56" xml:base="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0031.xml" xml:id="ox-ms_abinger_c56-0031">
+  <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c56/ms_abinger_c56-0031.jp2"/>
+  
+  <zone rend="bordered" type="pagination"><line>61</line></zone>
+  <zone type="library"><line>14</line></zone>
+  <zone type="main">
+    <line rend="center"><milestone spanTo="#c56-0031.07" unit="tei:head"/>Chap. 5<anchor xml:id="c56-0031.07"/></line>
+    <line>From this day natural philosophy and parti</line>
+    <line>cularly chemistry became <mod>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
+        <add place="superlinear">nearly</add>
+      </mod> my sole <del rend="strikethrough">appli</del></line>
+    <line>study. I read with ardour <del rend="strikethrough">m</del> those books</line>
+    <line>so full of genius and discrimination</line>
+    <line><mod>
+        <del rend="unmarked">th</del>
+        <del rend="strikethrough">at have been written</del>
+        <anchor xml:id="c56-0031.01"/>
+      </mod> on these sub-</line>
+    <line>jects. I attended the lectures, and culti</line>
+    <line>vated the acquaintance of the men</line>
+    <line>of science of the university; and I found</line>
+    <line>even in M<hi rend="underline"><hi rend="sup">r</hi></hi> Krempe a great deal</line>
+    <line>of sound sense &amp; real information</line>
+    <line>combined it is true with a repulsive</line>
+    <line>phisiognomy &amp; manners, but not on</line>
+    <line>that account the less valuable.</line>
+    <line>In M. Waldman I found a true friend.</line>
+    <line>His gentleness was never tinged by <del rend="strikethrough">dg</del></line>
+    <line>dogmatism and his instructions were</line>
+    <line>given with an air of frankness and</line>
+    <line>good nature that banished ever<add hand="#pbs" place="intralinear">y</add> idea</line>
+    <line>of <del rend="strikethrough">pedantl</del> pedantry. It was perhaps the</line>
+    <line>amiable character of this man that</line>
+    <line>enclined me more to the study of that</line>
+    <line>branch of <mod>
+        <del rend="strikethrough">science</del>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
+        <add place="superlinear">natural philosophy which he professed</add>
+      </mod> than an intrinsic</line>
+    <line>love for the science itself. But this</line>
+    <line><mod>
+      <add place="intralinear"><metamark function="displacement" xml:id="c56-0031.03">X</metamark></add>
+        <del rend="strikethrough">was</del></mod> only in the first steps towards</line> the <line>knowledge; <mod>
+        <del rend="strikethrough">as</del>
+        <add hand="#pbs" place="superlinear">the more fully</add>
+      </mod> I entered <del rend="strikethrough">more fully</del> into</line>
+    <line><mod>
+        <del rend="strikethrough">the</del>
+        <del rend="strikethrough">philosophy</del>
+        <add hand="#pbs" place="superlinear">science </add>
+      </mod> the more I <mod>
+        <del rend="strikethrough">studied</del>
+        <del rend="strikethrough"><add place="superlinear">s</add></del>
+        <add hand="#pbs" place="superlinear"> pursued</add>
+      </mod> it</line>
+    <line>for its own sake. That application</line>
+    <line>which at first had been a matter</line>
+    <line>of <del rend="strikethrough">ch</del> duty <add place="sublinear"><metamark function="insert">^</metamark></add><add hand="#pbs" place="superlinear">&amp;
+        resolution,</add> now became so ardent</line>
+    <line>and eager that the stars often</line>
+    <line>dissapeared <mod>
+        <add place="sublinear"><metamark function="insert">^</metamark></add><anchor xml:id="c56-0031.05"/>
+      </mod> while I was yet <mod>
+        <del rend="strikethrough">labouring</del>
+        <add hand="#pbs" place="sublinear">engaged</add>
+      </mod></line>
+    <line>in my labrotary.</line>
+  </zone>
+  <zone corresp="#c56-0031.01" type="left_margin">
+    <addSpan hand="#pbs" spanTo="#c56-0031.02"/>
+    <line>which modern</line>
+    <line>enquirers</line>
+    <anchor xml:id="c56-0031.02"/>
+  </zone>
+
+  <zone corresp="#c56-0031.03" type="left_margin">
+    <addSpan hand="#pbs" spanTo="#c56-0031.04"/><line/>
+    <line><del rend="strikethrough">circumstance</del></line>
+    <line><del rend="strikethrough"><unclear>of</unclear></del>
+      <del rend="strikethrough">was had</del></line>
+    <line>state of mind had</line>
+    <line>place <metamark function="displacement">X</metamark></line><anchor xml:id="c56-0031.04"/>
+  </zone>
+
+  <zone corresp="#c56-0031.05" type="left_margin">
+    <addSpan hand="#pbs" spanTo="#c56-0031.06"/>
+    <line>in the light of</line>
+    <line>morning</line>
+    <anchor xml:id="c56-0031.06"/>
+  </zone>
+</surface>
+      <?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5364" lry="7104" partOf="#ox-frankenstein_volume_i" ulx="0" uly="0" mith:folio="14v" mith:shelfmark="MS. Abinger c. 56" xml:base="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0032.xml" xml:id="ox-ms_abinger_c56-0032">
+  <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c56/ms_abinger_c56-0032.jp2"/>
+  <zone rend="bordered" type="pagination"><line>62</line></zone>
+  <zone type="main">
+    <milestone unit="tei:p"/>
+    <line rend="indent2">As I applied so closely, it may be</line>
+    <line>easily conceived that I improved rapid</line>
+    <line>ly. <del rend="strikethrough">It</del> My ardour was indeed the astonish</line>
+    <line>ment of the students, and my proficiency</line>
+    <line>that of the master. <del rend="strikethrough">and</del> Professor Krempe</line>
+    <line>often asked me with a sly smile</line>
+    <line>how Cornelius Agrippa went on<mod>
+        <add hand="#pbs" place="intralinear">;</add>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
+        <anchor xml:id="c-56.0032.01"/>
+      </mod> Two</line>
+    <line>years passed in this manner during</line>
+    <line>which I paid no visit to Geneva, but</line>
+    <line><del rend="strikethrough">ws</del> was engaged heart and soul in the</line>
+    <line>pursuit of some discoveries which I</line>
+    <line>hoped to make. <del rend="strikethrough">No one</del> None but those</line>
+    <line>who have experienced it can conceive</line>
+    <line>of the enticements of science–<del rend="strikethrough">especially</del> In</line>
+    <line>other studies you go as far as others have</line>
+    <line><mod>
+        <del rend="overwritten">d</del>
+        <add hand="#pbs" place="intralinear">g</add>
+      </mod>one before you and there is nothing</line>
+    <line>more to <mod>
+        <del rend="strikethrough">learn</del>
+        <del rend="unmarked">,</del>
+        <add hand="#pbs" place="superlinear">know,</add>
+      </mod> learn, but in a scientific</line>
+    <line>pursuit <del rend="strikethrough">their</del> there is continual</line>
+    <line>food for discovery and wonder. A mind</line>
+    <line>of <del rend="strikethrough">even</del> moderate capacity who closely pursues</line>
+    <line>one study must infallibly arrive at</line>
+    <line>great proficiency in th<mod>
+        <del rend="overwritten">e</del>
+        <add place="intralinear">at</add>
+      </mod> study—And I</line>
+    <line>who <del rend="strikethrough">was</del> continually <mod>
+        <del rend="strikethrough">applied to</del>
+        <add hand="#pbs" place="superlinear">sought  the attainment
+          of</add>
+      </mod> one</line>
+    <line><mod>
+        <del rend="strikethrough">thing</del>
+        <add hand="#pbs" place="superlinear">object </add><anchor xml:id="c-56.0032.03"/>
+      </mod> and <add hand="#pbs" place="superlinear">was</add> wra<mod>
+        <del rend="overwritten"><unclear extent="2" unit="chars"/></del>
+        <add hand="#pbs" place="intralinear">pt</add>
+      </mod> up <del rend="strikethrough">as I was</del> in this <add hand="#pbs" place="intralinear">sole</add></line>
+    <line><del rend="strikethrough">I</del> improved so rapidly that at the end</line>
+    <line>of the two years I made <mod spanTo="#c56-0032.06"/><del next="#c-56.0032.07" rend="strikethrough">one or two</del>
+      <add hand="#pbs" place="intralinear">some</add></line>
+    <line><del rend="strikethrough" xml:id="c56-0032.07">trifling</del><anchor xml:id="c56-0032.06"/> discoveries in the improvement</line>
+    <line>of some chemical <mod>
+        <del rend="strikethrough">machines</del>
+        <add hand="#pbs" place="superlinear">instruments</add>
+      </mod> which pro</line>
+    <line>cured me great esteem and admiration</line>
+    <line>at the university. When I arrived at</line>
+    <line>this <add place="sublinear"><metamark function="insert">^</metamark></add>point, <anchor xml:id="c-56.0032.04"/><del rend="strikethrough">that</del> m<mod>
+        <del rend="overwritten"><unclear extent="1" unit="chars"/></del>
+        <add place="intralinear">y</add>
+      </mod> residence <del rend="strikethrough">at In</del></line>
+  </zone>
+  <zone corresp="#c-56.0032.01" type="left_margin">
+    <addSpan hand="#pbs" spanTo="#c-56.0032.02"/>
+    <line>while M. Waldham</line>
+    <line>expressed the most</line>
+    <line>heartfelt exultation</line>
+    <line>in my progress.</line>
+    <anchor xml:id="c-56.0032.02"/>
+  </zone>
+  <zone corresp="#c-56.0032.03" type="left_margin">
+    <line><add hand="#pbs">pursuit</add></line>
+  </zone>
+  <zone corresp="#c-56.0032.04" type="left_margin">
+    <addSpan hand="#pbs" spanTo="#c-56.0032.05"/>
+    <line>and ha<mod xml:space="preserve"><del rend="overwritten">v</del><add place="intralinear">d</add><del rend="unmarked">ng</del></mod> learned</line>
+    <line>all the professors</line>
+    <line>at Ingolstadt were</line>
+    <line>qualified to teach</line>
+    <anchor xml:id="c-56.0032.05"/>
+  </zone>
+</surface>
+      <?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5364" lry="7104" partOf="#ox-frankenstein_volume_i" ulx="0" uly="0" mith:folio="15r" mith:shelfmark="MS. Abinger c. 56" xml:base="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0033.xml" xml:id="ox-ms_abinger_c56-0033">
+    <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c56/ms_abinger_c56-0033.jp2"/>
+    <zone rend="bordered" type="pagination"><line>63</line></zone>
+    <zone type="library"><line>15</line></zone>
+    <zone type="main">
+        <line><del rend="strikethrough">golstadt was</del><anchor xml:id="c56-0033.01"/> no
+            longer conducive to</line>
+        <line>my improvement, I thought of returning</line>
+        <line>to my friends and to my native town,</line>
+        <line>when an incident happened that</line>
+        <line>protracted my stay.</line>
+        <milestone unit="tei:p"/>
+        <line rend="indent1">One of those phænonoma which</line>
+        <line>had <mod>
+                <del rend="strikethrough">mo<del rend="overwritten">re</del><add hand="#pbs" place="intralinear">st</add></del>
+            </mod> peculiarly attracted my atten</line>
+        <line>tion was the structure of the human</line>
+        <line>frame; and indeed that of any animal</line>
+        <line>endued with life. Whence I often asked</line>
+        <line>myself did this principle of life proceed.</line>
+        <line>It was a bold question, and one <mod>
+                <del rend="strikethrough">that</del>
+                <anchor xml:id="c56-0033.02"/>
+            </mod></line>
+        <line>has ever been considered as a mystery.</line>
+        <line>Yet how many things are we on the</line>
+        <line>brink of becoming acquainted with</line>
+        <line>if cowardice or carelessness did</line>
+        <line>not restrain <mod>
+                <del rend="strikethrough">us</del>
+                <add hand="#pbs" place="superlinear">our enquiries?</add>
+            </mod>. I revolved these circum</line>
+        <line>stances in my mind and determined</line>
+        <line>from thenceforth to apply myself more</line>
+        <line>particularly to th<mod>
+                <del rend="overwritten">at</del>
+                <add hand="#pbs" place="intralinear">ose</add>
+            </mod> branch<add hand="#pbs" place="intralinear">es</add> of natural</line>
+        <line>philosophy which <mod>
+                <del rend="strikethrough">treats</del>
+                <del rend="strikethrough">of</del>
+                <add hand="#pbs" place="superlinear">relate to</add>
+            </mod> phisiology.</line>
+        <line>Unless I had been animated by an al-</line>
+        <line>most supernatural enthusiasm, my</line>
+        <line>application to this study would have</line>
+        <line>been irksome and almost intolerable.</line>
+        <line>To examine the causes of life <del rend="strikethrough"><unclear>de</unclear></del> we
+            must</line>
+        <line>first have <del rend="strikethrough">recou</del> recourse to death.</line>
+        <line><del rend="strikethrough">No is ano anatomy</del> I became acquainted</line>
+        <line>with the science of anatomy but this</line>
+        <line>was not sufficient. I must also observe</line>
+        <line>the natural decay &amp; corruption of the</line>
+        <line>human body. In my education</line>
+    </zone>
+    <zone corresp="#c56-0033.01" type="left_margin">
+        <line><add hand="#pbs">there being</add></line>
+    </zone>
+    <zone corresp="#c56-0033.02" type="left_margin">
+        <line><add hand="#pbs">which</add></line>
+    </zone>
+</surface>
+      <?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5364" lry="7104" partOf="#ox-frankenstein_volume_i" ulx="0" uly="0" mith:folio="15v" mith:shelfmark="MS. Abinger c. 56" xml:base="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0034.xml" xml:id="ox-ms_abinger_c56-0034">
+  <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c56/ms_abinger_c56-0034.jp2"/>
+  <zone rend="bordered" type="pagination"><line>64</line></zone>
+  <zone type="main">
+    <line>my father had taken the greatest</line>
+    <line>precautions that my mind should</line>
+    <line><del rend="strikethrough">not</del> be impressed by <mod>
+        <add place="sublinear">^</add>
+        <add hand="#pbs" place="superlinear">no</add>
+      </mod> supernatural</line>
+    <line>horrors. I do not ever remember</line>
+    <line>having trembled at <mod>
+        <del rend="strikethrough">a ghost story</del>
+        <add hand="#pbs" place="superlinear">tale of superstition</add>
+      </mod> or</line>
+    <line>to have feared the apparition of <add hand="#pbs" place="superlinear">a</add>
+      spirit</line>
+    <line><del rend="strikethrough">Ligh</del> Darkness had no effect upon my</line>
+    <line>fancy and a churchyard was to</line>
+    <line>me merely <mod>
+        <add place="superlinear">^</add>
+        <add hand="#pbs" place="superlinear">as</add>
+      </mod> the receptacle of <del rend="strikethrough">rotten b</del></line>
+    <line>bodies deprived of life and <mod>
+        <del rend="strikethrough">becoming</del>
+        <add hand="#pbs" place="superlinear">which</add>
+      </mod></line>
+    <line>from being the seat of beauty &amp;</line>
+    <line>strength <mod>
+        <add place="sublinear">^</add>
+        <add hand="#pbs" place="superlinear">become</add>
+      </mod> food for the worm. <del rend="strikethrough">But</del></line>
+    <line><del rend="strikethrough">I </del>
+      <del rend="strikethrough">A loathsome</del>
+      <unclear>c</unclear>
+      <del rend="strikethrough">But</del> now I was</line>
+    <line><mod>
+        <del rend="strikethrough">obliged</del>
+        <add hand="#pbs" place="superlinear">led</add>
+      </mod> to examine the <mod>
+        <del rend="strikethrough">cause</del>
+        <add place="superlinear">cause</add>
+      </mod> &amp; progress</line>
+    <line>of this decay and forced to spend days</line>
+    <line>and nights in vau<retrace cause="unclear" hand="#pbs">l</retrace>ts and Charnel</line>
+    <line>houses. I <del rend="strikethrough">was obliged</del> My attention was</line>
+    <line>fixed upon every <mod>
+        <del rend="strikethrough">horror of whic</del>
+        <del rend="unmarked">h</del>
+        <add hand="#pbs" next="#c56-0034.01" place="superlinear">object <del rend="strikethrough">calculated to</del></add>
+        <add hand="#pbs" place="sublinear" xml:id="c56-0034.01">the most insupportable to the
+          delicacy of</add>
+      </mod></line>
+    <line>the human feelings. <del rend="strikethrough">are suscept</del><del rend="unmarked">able</del>–</line>
+    
+    <line>I saw how the fine form of <del rend="strikethrough">a</del> man</line>
+    <line><mod>
+        <del rend="strikethrough">was</del>
+        <del rend="strikethrough"><add hand="#pbs" place="superlinear">became</add></del>
+        <anchor xml:id="c56-0034.02"/>
+      </mod> degraded and wasted. I beheld the</line>
+    <line>corruption of death succeed to the bloom</line>
+    <line>-ing cheek of life – <add hand="#pbs" place="superlinear">I saw</add> how the worm
+        <mod spanTo="#c56-0034.06"/><delSpan rend="strikethrough" spanTo="#c56-0034.03"/>suc</line>
+    <line>ceeded to<anchor xml:id="c56-0034.03"/><add hand="#pbs" place="superlinear">inherited</add><anchor xml:id="c56-0034.06"/> the wonders of the eye and</line>
+    <line>brain. I paused, examin<mod xml:space="preserve"><del rend="overwritten">ed</del><add hand="#pbs" place="intralinear">ing</add></mod> and anal<mod xml:space="preserve"><del rend="overwritten">yzed</del><add hand="#pbs" place="intralinear">yzing</add></mod></line>
+    <line><mod>
+        <del rend="strikethrough">every</del>
+        <del rend="strikethrough">minutiæ</del>
+        <del rend="unmarked"> of </del>
+        <del rend="strikethrough">causation</del>
+        <anchor xml:id="c56-0034.04"/>
+      </mod> untill</line>
+    <line>from the midst of this darkness</line>
+    <line>a sudden light broke in upon me.</line>
+    <line>A light so brilliant &amp; wondrous yet</line>
+  </zone>
+
+  <zone corresp="#c56-0034.02" type="left_margin">
+    <line><add hand="#pbs">was</add></line>
+  </zone>
+  <zone corresp="#c56-0034.04" type="left_margin">
+    <addSpan hand="#pbs" spanTo="#c56-0034.05"/>
+    <line>all the minutiæ</line>
+    <line>of causation</line>
+    <line>as exemplified in</line>
+    <line>the change from</line>
+    <line>life to death, &amp;</line>
+    <line>death to life,</line>
+    <anchor xml:id="c56-0034.05"/>
+  </zone>
+</surface>
+      <?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5364" lry="7104" partOf="#ox-frankenstein_volume_i" ulx="0" uly="0" mith:folio="16r" mith:shelfmark="MS. Abinger c. 56" xml:base="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0035.xml" xml:id="ox-ms_abinger_c56-0035">
+  <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c56/ms_abinger_c56-0035.jp2"/>
+  <zone rend="bordered" type="pagination"><line>65</line></zone>
+  <zone type="library"><line>16</line></zone>
+  <zone type="main">
+    <line>so simple that while <mod spanTo="#c56-0035.01"/><delSpan rend="strikethrough" spanTo="#c56-0035.02"/>it intoxica</line>
+    <line>ted me<anchor xml:id="c56-0035.02"/><anchor xml:id="c56-0035.03"/><anchor xml:id="c56-0035.01"/> I was surprised that I</line>
+    <line><del rend="strikethrough">was</del> among so many men of genius</line>
+    <line>who had applied to the same science</line>
+    <line>that I alone should discover</line>
+    <line>this astonishing secret.</line>
+    <milestone unit="tei:p"/>
+    <line rend="indent1">Remember I am <mod>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
+        <add place="superlinear">not</add>
+      </mod> recording the</line>
+    <line><del rend="strikethrough">no</del> vision <del rend="strikethrough">of</del> of a madman
+      – the</line>
+    <line>sun does not more certainly shine</line>
+    <line>in the heavens than that wh<mod xml:space="preserve"><del rend="overwritten">at</del><add hand="#pbs" place="intralinear">ich</add></mod></line>
+    <line>I now <mod>
+        <del rend="strikethrough">record</del>
+        <add hand="#pbs" place="superlinear">affirm,</add>
+      </mod> is true. Some miracle</line>
+    <line>might have produced it. But the</line>
+    <line>stages of discovery were distinct</line>
+    <line>and probable. After days and nights</line>
+    <line>of incredible <mod>
+        <del rend="strikethrough">toil</del>
+        <add hand="#pbs" place="superlinear">labour</add>
+      </mod> and fatigue</line>
+    <line>I succeeded in discovering the</line>
+    <line>cause of generation &amp; life. Nay</line>
+    <line>more, I <mod>
+        <del rend="strikethrough">was</del>
+        <add hand="#pbs" place="superlinear">became</add>
+      </mod> myself capable of</line>
+    <line>bestowing animation upon lifeless</line>
+    <line>matter.</line>
+    <milestone unit="tei:p"/>
+    <line rend="indent1"><del rend="strikethrough">My</del> The surprise <mod>
+        <del rend="strikethrough">that</del>
+        <add hand="#pbs" place="superlinear">which</add>
+      </mod> I <mod>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
+        <add place="superlinear">at first</add>
+      </mod>experienced</line>
+    <line>on this discovery soon gave place to</line>
+    <line>delight and rapture. <mod spanTo="#c56-0035.05"/><delSpan rend="strikethrough" spanTo="#c56-0035.08"/>After such</line>
+    <line>painful labour<anchor xml:id="c56-0035.08"/><add place="sublinear"><metamark function="insert" xml:id="c56-0035.06">^</metamark></add><anchor xml:id="c56-0035.05"/>
+      <mod>
+        <del rend="strikethrough">come</del>
+        <add place="superlinear">to arrive</add>
+      </mod> at onece</line>
+    <line>at the <mod>
+        <del rend="strikethrough">obj ect</del>
+        <del rend="strikethrough">object</del>
+        <add place="superlinear">summit</add>
+      </mod> of my desires</line>
+    <line>was the most gratifying circumstance</line>
+    <line>that could have occurred. But this</line>
+    <line>discovery was so great and overwhelm</line>
+    <line>ing that <del rend="strikethrough">the</del>
+      <del>reflection</del> all the</line>
+  </zone>
+  <zone corresp="#c56-0035.03" type="left_margin">
+    <addSpan hand="#pbs" spanTo="#c56-0035.04"/>
+    <line>I became dizzy</line>
+    <line>with the immen</line>
+    <line>sity of the prospect</line>
+    <line>which it illus</line>
+    <line>trated,</line><anchor xml:id="c56-0035.04"/>
+  </zone>
+  <zone corresp="#c56-0035.06" type="left_margin">
+    <addSpan spanTo="#c56-0035.07"/>
+    <line>After so much</line>
+    <line><hi rend="sup"><metamark function="displacement">^</metamark></hi>time spent in</line>
+    <line>painful labour</line><anchor xml:id="c56-0035.07"/>
+  </zone>
+</surface>
+      <?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5364" lry="7104" partOf="#ox-frankenstein_volume_i" ulx="0" uly="0" mith:folio="16v" mith:shelfmark="MS. Abinger c. 56" xml:base="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0036.xml" xml:id="ox-ms_abinger_c56-0036">
+  <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c56/ms_abinger_c56-0036.jp2"/>
+
+  <zone rend="bordered" type="pagination"><line>66</line></zone>
+
+  <zone type="main">
+    <line>steps <mod>
+        <del rend="strikethrough">that</del>
+        <add hand="#pbs" place="superlinear">by which I had been</add>
+      </mod>progressively led to it were</line>
+    <line>obliterated. <mod>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
+        <add place="superlinear">and</add>
+      </mod>I <mod>
+        <del rend="strikethrough">saw</del>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
+        <add place="superlinear">beheld</add>
+      </mod> only the result. What</line>
+    <line>had been the study and desire of the</line>
+    <line><del rend="strikethrough">m</del> wisest men since the creation of</line>
+    <line>the world was now <mod>
+        <del rend="strikethrough">in</del>
+        <add hand="#pbs" place="superlinear">within</add>
+      </mod> my <mod>
+        <del rend="strikethrough">hands.</del>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
+        <add place="superlinear">grasp;</add>
+      </mod> Not</line>
+    <line>that, like a magic <del rend="strikethrough"><unclear>sceen</unclear></del> scene
+      it</line>
+    <line>all opened upon me at on<mod>
+        <del rend="overwritten">e</del>
+        <add place="intralinear">c</add>
+      </mod>e<mod>
+        <del rend="overwritten"><unclear>;</unclear></del>
+        <add place="intralinear">.</add>
+      </mod>
+      <delSpan rend="strikethrough" spanTo="#c56-0036.01"/>on</line>
+    <line>the contrary<anchor xml:id="c56-0036.01"/>
+      <mod>
+        <del rend="overwritten">t</del>
+        <add place="intralinear">T</add>
+      </mod>he <del rend="strikethrough"><unclear>big</unclear></del> information</line>
+    <line>I had obtained was <mod>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
+        <add hand="#pbs" place="superlinear">of a nature</add>
+      </mod> rather <mod spanTo="#c56-0036.02"/><delSpan rend="strikethrough" spanTo="#c56-0036.03"/>one that</line>
+    <line>would<anchor xml:id="c56-0036.03"/><add place="sublinear"><metamark function="insert">^</metamark></add>
+      <add hand="#pbs" place="superlinear">to</add><anchor xml:id="c56-0036.02"/> direct my
+      endeavours. <mod spanTo="#c56-0036.04"/><add place="sublinear"><metamark function="insert">^</metamark></add>
+      <delSpan rend="strikethough" spanTo="#c56-0036.05"/>that</line>
+    <line>than show me the prospect with</line>
+    <line>any precise certainty.<anchor xml:id="c56-0036.05"/><anchor xml:id="c56-0036.06"/><anchor xml:id="c56-0036.04"/> I was like the</line>
+    <line>Arabian<del rend="strikethrough">,</del> who had been buried with</line>
+    <line>the dead, and found a passage to life</line>
+    <line>aided only by one glimmering and seem</line>
+    <line>ingly ineffectual light.</line>
+    <milestone unit="tei:p"/>
+    <line rend="indent1">I see by your eargerness and the</line>
+    <line>wonder and hope which your eyes</line>
+    <line>express, my friend, that you expect to</line>
+    <line>be informed of the <del rend="strikethrough">scret</del> secret with</line>
+    <line>which I am acquainted<mod>
+        <del rend="overwritten">,</del>
+        <add hand="#pbs" place="intralinear">;</add>
+      </mod>
+      <mod spanTo="#c56-0036.08"/><del next="#c56-0036.09" rend="strikethrough">but you
+        are</del><add hand="#pbs" place="superlinear">that cannot be.</add></line>
+    <line><del rend="strikethrough" xml:id="c56-0036.09">mistaken</del><del rend="unmarked">.</del><anchor xml:id="c56-0036.08"/> Listen patiently to the end</line>
+    <line>of my story and you will easily</line>
+    <line>perceive why <add place="intralinear">I</add> am reserved upon that</line>
+    <line>subject.— <del rend="strikethrough">For why shoul</del><del rend="unmarked">d</del>
+      I <add place="superlinear">will not</add> lead you</line>
+    <line>on, <del rend="strikethrough">as</del> unguarded and ardent as I then</line>
+    <line>was, to your <del rend="strikethrough">destruct</del> destruction &amp;</line>
+  </zone>
+  <zone corresp="#c56-0036.06" type="left_margin">
+    <addSpan hand="#pbs" spanTo="#c56-0036.07"/><line><metamark function="displacement">^</metamark>so soon as I</line>
+    <line>should point</line>
+    <line>them towards</line>
+    <line>the object of</line>
+    <line>my search,</line>
+    <line>than to exhi</line>
+    <line>bit that ob-</line>
+    <line>ject already</line>
+    <line>accomplished.</line><anchor xml:id="c56-0036.07"/>
+  </zone>
+</surface>
+      <?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5364" lry="7104" partOf="#ox-frankenstein_volume_i" ulx="0" uly="0" mith:folio="17r" mith:shelfmark="MS. Abinger c. 56" xml:base="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0037.xml" xml:id="ox-ms_abinger_c56-0037">
+  <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c56/ms_abinger_c56-0037.jp2"/>
+  <zone rend="bordered" type="pagination"><line>67</line></zone>
+  <zone type="library">17</zone>
+  <zone type="main">
+    <line>infallible misery. Learn from me, if</line>
+    <line>not by my precepts at least by my exam</line>
+    <line>ple, how dangerous is the acquirement</line>
+    <line>of knowledge and how much happier</line>
+    <line>that man is who believes his native</line>
+    <line>town the world, than he <del rend="strikethrough">who<unclear>nto</unclear></del></line>
+    <line>aspires to become greater than his</line>
+    <line>nature <del rend="strikethrough">allows.</del> will allow.</line>
+  </zone>
+</surface>
+      <?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5364" lry="7104" partOf="#ox-frankenstein_volume_i" ulx="0" uly="0" mith:folio="17v" mith:shelfmark="MS. Abinger c. 56" xml:base="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0038.xml" xml:id="ox-ms_abinger_c56-0038">
+  <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c56/ms_abinger_c56-0038.jp2"/>
+  <zone rend="bordered" type="pagination"><line>68</line></zone>
+  
+  <zone type="main">
+    <line rend="center"><milestone spanTo="#c56-0038.18" unit="tei:head"/>Chapter 6.<anchor xml:id="c56-0038.18"/></line>
+    <line>When I found <mod>
+        <del rend="strikethrough">this</del>
+        <add hand="#pbs" place="superlinear">so</add>
+      </mod> astonishing<add hand="#pbs" place="superlinear">a</add> power</line>
+    <line>placed <mod>
+        <del rend="strikethrough">in</del>
+        <add hand="#pbs" place="superlinear">within</add>
+      </mod> my hands<add hand="#pbs" place="intralinear">,</add> I hesitated a long time</line>
+    <line>concerning the <mod>
+        <del rend="strikethrough">use</del>
+        <add hand="#pbs" place="superlinear">manner in which</add>
+      </mod> I should <mod>
+        <del rend="strikethrough">make of</del>
+        <add hand="#pbs" place="superlinear">employ</add>
+      </mod> it.</line>
+    <line>Although I <del rend="strikethrough">conceived myself capable of</del> possessed</line>
+    <line>the capacity of bestowing animation yet</line>
+    <line><del rend="strikethrough">my</del> to <mod>
+        <del rend="strikethrough">create</del>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
+        <add place="superlinear">prepare</add>
+      </mod> a <mod>
+        <del rend="strikethrough">creature</del>
+        <add hand="#pbs" place="superlinear">frame</add>
+      </mod>
+      <mod>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
+        <add place="superlinear">for the <mod>
+            <del rend="strikethrough">receiving i</del>
+            <add place="superlinear">reception of</add>
+          </mod><mod>
+            <del rend="overwritten">t</del>
+            <add place="intralinear">it</add>
+          </mod></add>
+      </mod> with all its intri</line>
+    <line>cacies of fibres muscles &amp; veins <mod>
+        <del rend="strikethrough">must be</del>
+        <anchor xml:id="c56-0038.01"/>
+      </mod></line>
+    <line>a work of inconceivable <milestone spanTo="#c56-0038.21" unit="tei:seg" xml:id="c56-0038.19"/>labour<anchor xml:id="c56-0038.21"/><add hand="#pbs" place="superlinear"><metamark function="transpose" target="#c56-0038.19">2</metamark></add> &amp; <add hand="#pbs" place="superlinear"><metamark function="transpose" target="#c56-0038.20">1</metamark></add><milestone spanTo="#c56-0038.22" unit="tei:seg" xml:id="c56-0038.20"/>diffi</line>
+    <line>culty<anchor xml:id="c56-0038.22"/>. I doubted at first whether I should<listTranspose><transpose><ptr target="#c56-0038.20"/><ptr target="#c56-0038.19"/></transpose></listTranspose></line>
+    <line>attempt the creation of a <mod>
+        <del rend="strikethrough">creature</del>
+        <add hand="#pbs" place="superlinear">being</add>
+      </mod></line>
+    <line>like <del rend="strikethrough">unto</del> myself or one of simpler</line>
+    <line>organization; <del rend="strikethrough">b</del> but my imagination</line>
+    <line>was too much exalted by my first success</line>
+    <line>to permit me to doubt of my <del rend="strikethrough">capacity</del></line>
+    <line>ability to <mod>
+        <del rend="strikethrough">create</del>
+        <add hand="#pbs" place="superlinear">give life</add>
+        <del rend="strikethrough">a</del>
+        <add hand="#pbs" place="superlinear">to</add>
+      </mod>
+      <mod>
+        <del rend="strikethrough">creature</del>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
+        <add place="superlinear"><del rend="strikethrough">being</del> an animal</add>
+      </mod> as complex</line>
+    <line>and wonderful as man. <mod spanTo="#c56-0038.02"/><mod>
+        <del next="#c56-0038.03" rend="strikethrough"><del rend="overwritten"><unclear>but</unclear></del><add place="intralinear">Yet</add></del>
+        <del rend="strikethrough"><add place="superlinear">But</add></del>
+      </mod>
+      <del next="#c56-0038.04" rend="strikethrough" xml:id="c56-0038.03">when I</del></line>
+    <line><del rend="strikethrough" xml:id="c56-0038.04">when</del>
+      <del rend="strikethrough">I</del>
+      <mod>
+        <del rend="strikethrough">looked around for</del>
+        <del rend="strikethrough"><add place="superlinear">considered</add></del>
+      </mod>
+      <del rend="strikethrough">my</del>
+      <del rend="strikethrough">materials</del></line>
+    <line><del rend="strikethrough">they</del>
+      <anchor xml:id="c56-0038.05"/><add hand="#pbs" place="superlinear" xml:id="c56-0038.07">my command</add><anchor xml:id="c56-0038.02"/> hardly
+      appeared adequate to so ardous</line>
+    <line>an undertaking; <mod>
+        <del rend="strikethrough">but I did not despai</del>
+        <del rend="unmarked">r.</del>
+        <add hand="#pbs" next="#c56-0038.11" place="superlinear">but I doubted not that I should
+          ul</add>
+        <add hand="#pbs" place="sublinear" xml:id="c56-0038.11">-timately succeed.</add>
+      </mod></line>
+    <line><mod spanTo="#c56-0038.12"/><delSpan rend="vertical_line" spanTo="#c56-0038.13"/>I
+      allowed that my first attempts might</line>
+    <line>be futile, my operations fail or my work</line>
+    <line>be imperfect,<anchor xml:id="c56-0038.13"/>
+      <del rend="strikethrough">but I looked around on</del><anchor xml:id="c56-0038.08"/><anchor xml:id="c56-0038.12"/></line>
+    <line>the improvement <mod>
+        <del rend="strikethrough">that</del>
+        <add place="superlinear">which</add>
+      </mod> every day</line>
+    <line>takes place in science and <add hand="#pbs" place="intralinear">mechanics</add></line>
+    <line><mod spanTo="#c56-0038.14"/><del next="#c56-0038.15" rend="strikethrough">and m my
+        attempt was so much grande</del><del rend="unmarked">r</del><add hand="#pbs" place="superlinear">I was encouraged to hope</add></line>
+    <line><del rend="strikethrough" xml:id="c56-0038.15">and</del>
+      <delSpan rend="strikethrough" spanTo="#c56-0038.16"/>And altho although I could not
+      hope</line>
+    <line>that<anchor xml:id="c56-0038.16"/><anchor xml:id="c56-0038.14"/> my <add hand="#pbs" place="superlinear">present</add> attempts would <mod spanTo="#c56-0038.17"/><del rend="strikethrough"><unclear>s</unclear></del><del rend="strikethrough"><add hand="#pbs" place="superlinear">at le</add></del>
+      <del rend="strikethrough">be in every</del></line>
+    <line><add hand="#pbs">at least <mod>
+          <add place="sublinear"><metamark function="insert">^</metamark></add>
+          <add place="superlinear">lay</add>
+        </mod> the foundations of future success</add><anchor xml:id="c56-0038.17"/></line>
+  </zone>
+
+  <zone corresp="#c56-0038.01" type="left_margin">
+    <line><add hand="#pbs">still remained</add></line>
+  </zone>
+
+  <zone corresp="#c56-0038.05" type="left_margin">
+    <addSpan hand="#pbs" next="#c56-0038.07" spanTo="#c56-0038.06"/>
+    <line>The materials</line>
+    <line>at present within </line><anchor xml:id="c56-0038.06"/>
+  </zone>
+
+  <zone corresp="#c56-0038.08" type="left_margin">
+    <addSpan hand="#pbs" spanTo="#c56-0038.09"/>
+    <line>I prepared myself</line>
+    <line>for a multitude</line>
+    <line>of reverses, my</line>
+    <line>operations <del rend="strikethrough">might</del></line>
+    <line>be baffled <del rend="strikethrough">ever</del></line>
+    <line>incessantly, &amp; at</line>
+    <line>last my work be</line>
+    <line>but imperfect,</line>
+    <line>yet, when I con</line>
+    <line>sidered</line>
+    <anchor xml:id="c56-0038.09"/>
+  </zone>
+</surface>
+      <?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5364" lry="7104" partOf="#ox-frankenstein_volume_i" ulx="0" uly="0" mith:folio="18r" mith:shelfmark="MS. Abinger c. 56" xml:base="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0039.xml" xml:id="ox-ms_abinger_c56-0039">
+  <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c56/ms_abinger_c56-0039.jp2"/>
+  <zone rend="bordered" type="pagination"><line><mod><del rend="overwritten"><unclear>7</unclear></del><add place="intralinear">6</add></mod>9</line></zone>
+  <zone type="library"><line>18</line></zone>
+  <zone type="main">
+    <line><del rend="strikethrough">way perfect<mod>
+          <del rend="strikethrough"> yet</del>
+          <del rend="strikethrough"><add place="superlinear">but</add></del>
+        </mod></del><anchor xml:id="c56-0039.01"/>
+      I did not think that</line>
+    <line>the magnitude and <mod>
+        <del rend="strikethrough">grandeur</del>
+        <add hand="#pbs" place="superlinear">complexity</add>
+      </mod> of my plan</line>
+    <line><del rend="strikethrough">w</del>as any argument of its impracticabi</line>
+    <line>lity. <mod>
+        <del rend="strikethrough">And</del>
+        <del rend="overwritten">i</del>
+        <add hand="#pbs" place="intralinear">I</add>
+      </mod>t was with these feelings <mod>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
+        <add hand="#pbs" place="superlinear">that</add>
+      </mod>I</line>
+    <line>began the creation of a human being.</line>
+    <line>As the <mod>
+        <del rend="strikethrough">smallness</del>
+        <add hand="#pbs" place="superlinear">minuteness</add>
+      </mod> of the parts <mod>
+        <del rend="strikethrough">were</del>
+        <add hand="#pbs" place="superlinear">formed</add>
+      </mod> a</line>
+    <line>great hindrance to my speed I resolved,</line>
+    <line>contrary to my first intention, to make</line>
+    <line><mod>
+        <del rend="strikethrough">him</del>
+        <anchor xml:id="c56-0039.03"/>
+      </mod>
+      <del rend="strikethrough">of</del> of a gigantic stature; that</line>
+    <line>is to say about <mod>
+        <del rend="strikethrough">7</del>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
+        <add place="superlinear">seven</add>
+      </mod> or eight feet in</line>
+    <line>height, and proportionably large. <del rend="strikethrough">And</del></line>
+    <line>after having formed this determination</line>
+    <line>and having spent some months in</line>
+    <line><mod>
+        <del rend="strikethrough">collecting</del>
+        <del rend="strikethrough">of</del>
+        <anchor xml:id="c56-0039.04"/>
+      </mod> my materials, I began.</line>
+    <milestone unit="tei:p"/>
+    <line rend="indent1">No one can conceive <del rend="strikethrough">my</del> the
+      variety</line>
+    <line>of feelings which pressed upon me</line>
+    <line>during this time. When success raised</line>
+    <line>me <mod>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
+        <add place="superlinear">to</add>
+      </mod>enthusiasm life and death appear</line>
+    <line>ed to me ideal bounds, which I</line>
+    <line>should first break <add hand="#pbs" place="superlinear">thro,</add> and pour a</line>
+    <line>torrent of light into our dark world.</line>
+    <line>A new <mod>
+        <del rend="strikethrough">creation</del>
+        <add hand="#pbs" place="superlinear">existence</add>
+      </mod> would bless me as its</line>
+    <line><mod>
+        <del rend="strikethrough">maker</del>
+        <anchor xml:id="c56-0039.06"/>
+      </mod> and source; many happy and</line>
+    <line>excellent <mod>
+        <del rend="strikethrough">creatures</del>
+        <del rend="strikethrough"><add hand="#pbs" place="superlinear">beings</add></del>
+        <add hand="#pbs" place="sublinear">natures</add>
+      </mod> would owe their</line>
+    <line><mod>
+        <del rend="strikethrough">existence</del>
+        <del rend="strikethrough">in</del>
+        <add hand="#pbs" place="superlinear">being</add>
+      </mod> to me. <del rend="strikethrough">in manner</del></line>
+    <line><del rend="strikethrough">in a manner</del> no father could claim</line>
+    <line>the gratitude of his child <mod>
+        <add place="sublinear"><metamark function="displacement" xml:id="c56-0039.07">^</metamark></add>
+      </mod>
+      <del rend="strikethrough">And</del> pur</line>
+    <line>sueing <mod>
+        <del rend="strikethrough">my</del>
+        <add hand="#pbs" place="superlinear">these</add>
+      </mod> reflections <del rend="strikethrough">if</del> I thought</line>
+    <line>that if I could bestow <mod>
+        <del rend="strikethrough">life</del>
+        <add place="superlinear">animation</add>
+      </mod> upon</line>
+    <line><del rend="strikethrough">upon</del> lifeless matter I might in</line>
+    <line>process of time (although I now found</line>
+  </zone>
+  <zone corresp="#c56-0039.01" type="left_margin">
+    <addSpan hand="#pbs" spanTo="#c56-0039.02"/>
+    <line>Nor, could I</line>
+    <line>consider</line>
+    <anchor xml:id="c56-0039.02"/>
+  </zone>
+  <zone corresp="#c56-0039.03" type="left_margin">
+    <line><add hand="#pbs">the being</add></line>
+  </zone>
+  <zone corresp="#c56-0039.04" type="left_margin">
+    <addSpan hand="#pbs" spanTo="#c56-0039.05"/>
+    <line>successfully</line>
+    <line>collecting &amp;</line>
+    <line>arranging</line><anchor xml:id="c56-0039.05"/>
+  </zone>
+  <zone corresp="#c56-0039.06" type="left_margin">
+    <line><add>creator</add></line>
+  </zone>
+  <zone corresp="#c56-0039.07" type="left_margin">
+    <addSpan hand="#pbs" spanTo="#c56-0039.08"/>
+    <line>so completely as</line>
+    <line>I should deserve</line>
+    <line>thiers</line>
+    <anchor xml:id="c56-0039.08"/>
+  </zone>
+</surface>
+      <?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5364" lry="7104" partOf="#ox-frankenstein_volume_i" ulx="0" uly="0" mith:folio="18v" mith:shelfmark="MS. Abinger c. 56" xml:base="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0040.xml" xml:id="ox-ms_abinger_c56-0040">
+  <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c56/ms_abinger_c56-0040.jp2"/>
+  <zone rend="bordered" type="pagination"><line>70</line></zone>
+  <zone type="main">
+    <line>it impossible) renew life where</line>
+    <line>death had apparently devoted the</line>
+    <line>body to corruption.</line>
+    <milestone unit="tei:p"/>
+    <line rend="indent2">These thoughts supported my</line>
+    <line>spirits while I pursued my <mod>
+        <del rend="strikethrough">labours</del>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
+        <add place="superlinear">undertaking</add>
+      </mod></line>
+    <line>with unremitting <mod>
+        <del rend="strikethrough">eagerness</del>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
+        <add place="superlinear">ardour</add>
+      </mod>. My cheek</line>
+    <line><mod>
+        <del rend="strikethrough">was</del>
+        <anchor xml:id="c56-0040.01"/>
+      </mod> pale with study, and <del rend="strikethrough">pe</del> my person</line>
+    <line><anchor xml:id="c56-0040.02"/>emaciated by confinement. sometimes</line>
+    <line>on the very brink of certainty I faild</line>
+    <line>yet I still clung to the hope which</line>
+    <line>the next day or the <del rend="strikethrough">nexhour</del> next</line>
+    <line>hour might realize. One secret</line>
+    <line>which I alone <mod>
+        <del rend="strikethrough">knew</del>
+        <add place="superlinear">possessed</add>
+      </mod> was the hope</line>
+    <line>to which I clung and the moon</line>
+    <line>gazed on my midnight labours</line>
+    <line>while with unrelaxed &amp; breathless</line>
+    <line>eagerness I pursued nature to her</line>
+    <line>most secret hiding places<del rend="strikethrough">. But</del></line>
+    <line>who shall <mod>
+        <del rend="strikethrough">know</del>
+        <del rend="strikethrough">my</del>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
+        <add hand="#pbs" place="superlinear">concieve the horrors of my</add>
+      </mod> secret <mod>
+        <del rend="strikethrough">operatio</del>
+        <del rend="unmarked">ns</del>
+        <add hand="#pbs" place="superlinear">toil</add>
+      </mod></line>
+    <line>as I dabbled among the unhallowed</line>
+    <line>damps of the grave, or tortured the</line>
+    <line>living <del rend="strikethrough">animate to ani</del> animal to</line>
+    <line>animate <mod>
+        <del rend="strikethrough">my</del>
+        <add hand="#pbs" place="superlinear">the</add>
+      </mod> lifeless clay? <del rend="strikethrough">Now</del> my limbs</line>
+    <line><anchor xml:id="c56-0040.03"/> tremble and my eyes swim with the</line>
+    <line>rememberance, but then a resistless</line>
+    <line>and <del rend="strikethrough">all</del> almost frantic<mod>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
+        <add hand="#pbs" place="superlinear">impulse</add>
+      </mod> urged me</line>
+    <line><mod>
+        <del rend="strikethrough">on</del>
+        <anchor xml:id="c56-0040.04"/>
+      </mod>; I seemed to have lost all</line>
+    <line>soul or sensation but for one</line>
+    <line>pursuit. It was indeed a passing trance</line>
+    <line>that only made me feel with renew</line>
+  </zone>
+  <zone corresp="#c56-0040.01" type="left_margin">
+    <line><add hand="#pbs">had grown</add></line>
+  </zone>
+  <zone corresp="#c56-0040.02" type="left_margin">
+    <line><add hand="#pbs">became</add></line>
+  </zone>
+  <zone corresp="#c56-0040.03" type="left_margin">
+    <line><add hand="#pbs">now</add></line>
+  </zone>
+  <zone corresp="#c56-0040.04" type="left_margin">
+    <line><add hand="#pbs">forward</add></line>
+  </zone>
+</surface>
+      <?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5364" lry="7104" partOf="#ox-frankenstein_volume_i" ulx="0" uly="0" mith:folio="19r" mith:shelfmark="MS. Abinger c. 56" xml:base="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0041.xml" xml:id="ox-ms_abinger_c56-0041">
+  <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c56/ms_abinger_c56-0041.jp2"/>
+  <zone rend="bordered" type="pagination"><line>71</line></zone>
+  <zone type="library"><line>19</line></zone>
+  <zone type="main">
+    <line>ed acuteness <mod>
+        <del rend="strikethrough">when</del>
+        <add hand="#pbs" place="superlinear">so soon as</add>
+      </mod> the unnatural sti</line>
+    <line>mulus ceas<mod>
+        <del rend="overwritten">ed</del>
+        <add hand="#pbs" place="intralinear">ing</add>
+        <del rend="strikethrough"><add hand="#pbs" place="superlinear">had</add></del>
+      </mod> to operate, and I had return</line>
+    <line>ed to my old habits. I collected bones from</line>
+    <line>Charnel houses and with profane fingers</line>
+    <line>meddled with the secrets of the human</line>
+    <line>frame. In a solitary chamber–or rather</line>
+    <line>cell at the top of the house and seperated</line>
+    <line>from all other appartments by a gallery</line>
+    <line>and staircase I <del rend="strikethrough">h</del> kept my workshop</line>
+    <line>of filthy creation; my eyeballs were</line>
+    <line>starting from their sockets in at-</line>
+    <line>tending to the minutiæ of <del rend="strikethrough">the</del> my</line>
+    <line>employment. The dissecting room and</line>
+    <line>the slaughter house furnished many</line>
+    <line>of my materials, and often did my</line>
+    <line>human nature turn from my</line>
+    <line>occupation <mod>
+        <del rend="strikethrough">but</del>
+        <del rend="overwritten">I</del>
+        <add hand="#pbs" place="superlinear">whilst</add>
+        <del rend="strikethrough">wal</del>
+        <del rend="strikethrough">was</del>
+      </mod> still urged</line>
+    <line>on by an eagerness which <add hand="#pbs" place="superlinear">perpetually</add> encreased,</line>
+    <line><mod>
+        <del rend="strikethrough">as</del>
+        <anchor xml:id="c56-0041.01"/>
+      </mod> my work <del rend="strikethrough">drew</del> near <mod>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
+        <add hand="#pbs" place="superlinear">to</add>
+      </mod> a conclusion.</line>
+    <milestone unit="tei:p"/>
+    <line rend="indent1">The <del rend="strikethrough">sums</del> Summer
+      months</line>
+    <line>passed while I was thus <mod>
+        <del rend="strikethrough">employed</del>
+        <add hand="#pbs" place="superlinear">engaged,</add>
+      </mod></line>
+    <line>heart and soul, in one pursuit. It</line>
+    <line>was a most beautiful season: never</line>
+    <line>did the fields bestow a more plentiful</line>
+    <line>harvest, or the vines yeild a more</line>
+    <line>luxuriant vintage. But my eyes were</line>
+    <line><mod>
+        <del rend="unmarked">s</del>
+        <del rend="strikethrough">hut</del>
+        <anchor xml:id="c56-0041.02"/>
+      </mod> to the charms of nature &amp; the</line>
+    <line>same feelings which <mod>
+        <del rend="strikethrough">caused</del>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
+        <add place="superlinear">made</add>
+      </mod> me <del rend="strikethrough">to</del></line>
+    <line>neglect the scenes around me caused</line>
+    <line>me also to forget those friends who</line>
+    <line>were so many miles absent and whom</line>
+    <line>I had not seen for so long a time.</line>
+  </zone>
+  <zone corresp="#c56-0041.01" type="left_margin">
+    <line><add hand="#pbs">I brought</add></line>
+  </zone>
+  <zone corresp="#c56-0041.02" type="left_margin">
+    <line><add hand="#pbs">insensible</add></line>
+  </zone>
+</surface>
+      <?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5364" lry="7104" partOf="#ox-frankenstein_volume_i" ulx="0" uly="0" mith:folio="19v" mith:shelfmark="MS. Abinger c. 56" xml:base="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0042.xml" xml:id="ox-ms_abinger_c56-0042">
+  <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c56/ms_abinger_c56-0042.jp2"/>
+  <zone rend="bordered" type="pagination"><line>72</line></zone>
+  <zone type="main">
+    <line>I knew that my silence disquieted</line>
+    <line>them and I well remembered the</line>
+    <line>words of my father. "I know that while</line>
+    <line>"you are pleased with yourself you</line>
+    <line>"will <del rend="strikethrough">thing</del> think of us with affection</line>
+    <line>"and we shall hear regularly from</line>
+    <line>"you. And you must pardon me</line>
+    <line>"if I regard <del rend="strikethrough">you</del> any interruption</line>
+    <line>"in your corespondence, as a proof</line>
+    <line>"that your other <mod>
+        <del rend="strikethrough">studies</del>
+        <add hand="#pbs" place="superlinear">duties</add>
+      </mod> are equal-</line>
+    <line>"ly neglected" I <del rend="strikethrough">rembered</del> knew well</line>
+    <line>therefore what his <del rend="strikethrough">opinion</del> would</line>
+    <line>be <add hand="#pbs" place="superlinear">his feelings</add> but I could not tear my
+      thoughts</line>
+    <line>from my occupation loathsome in</line>
+    <line>itself but which had taken a<add place="intralinear">n</add></line>
+    <line><mod>
+        <del rend="strikethrough">strong</del>
+        <anchor xml:id="c56-0042.02"/>
+      </mod> hold of my <del rend="strikethrough">imagni</del> imagination.</line>
+    <line>I wished as it were to <del rend="strikethrough">procr</del> procras</line>
+    <line>tinate <mod>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
+        <add hand="#pbs" place="superlinear">all that related to</add>
+      </mod> my feelings of affection, untill</line>
+    <line>the great object <mod>
+        <del rend="strikethrough">of my affection</del>
+        <del rend="strikethrough">was</del>
+        <add hand="#pbs" place="sublinear">which swallowed up every habit</add>
+        <anchor xml:id="c56-0042.04"/>
+      </mod></line>
+    <line>compleated.</line>
+    <milestone unit="tei:p"/>
+    <line rend="indent1">I then thought that my father</line>
+    <line>would be <del rend="strikethrough">in</del> unjust <mod>
+        <del rend="strikethrough">to</del>
+        <add place="superlinear">if he</add>
+      </mod> ascribe<add place="intralinear">d</add> my</line>
+    <line>neglect to vice or faultiness on my</line>
+    <line>part; but I am now convinced</line>
+    <line>that <mod>
+        <del rend="strikethrough">I</del>
+        <del rend="strikethrough">am</del>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
+        <add place="superlinear">he was</add>
+        <add place="superlinear"><metamark function="displacement">X</metamark></add>
+        <del rend="strikethrough">in the right</del>
+        <del rend="strikethrough"><add place="superlinear">in <unclear>co</unclear>
+          conceive</add></del>
+        <anchor xml:id="c56-0042.05"/>
+      </mod>. A human</line>
+    <line>being in perfection ough<add place="intralinear">t</add> always to</line>
+    <line>preserve a <del rend="strikethrough">cl</del> calm and peaceful</line>
+    <line>mind and never to allow passion</line>
+  </zone>
+  <zone corresp="#c56-0042.02" type="left_margin">
+    <line><add>irresistible</add></line>
+  </zone>
+  <zone corresp="#c56-0042.04" type="left_margin">
+    <line><add xml:id="c56-0042.03"> of my nature should be</add></line>
+  </zone>
+  <zone corresp="#c56-0042.05" type="left_margin">
+    <addSpan spanTo="#c56-0042.06"/>
+    <line><metamark>X</metamark> he was in the</line>
+    <line>right in conceiv</line>
+    <line>ing that I</line>
+    <line>should not be</line>
+    <line>altogether free</line>
+    <line>from blame.</line>
+    <anchor xml:id="c56-0042.06"/>
+  </zone>
+</surface>
+      <?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5364" lry="7104" partOf="#ox-frankenstein_volume_i" ulx="0" uly="0" mith:folio="20r" mith:shelfmark="MS. Abinger c. 56" xml:base="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0043.xml" xml:id="ox-ms_abinger_c56-0043">
+  <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c56/ms_abinger_c56-0043.jp2"/>
+  <zone type="pagination"><line>73</line></zone>
+  <zone type="library"><line>20</line></zone>
+  <zone type="main">
+    <line>or <mod>
+        <add place="sublinear">^</add>
+        <add place="superlinear">a</add>
+      </mod> transitory desire to disturb his</line>
+    <line>tranquillity. I do not think that the pursuit</line>
+    <line>of knowledge is any exception to this rule.</line>
+    <line>If the study to which you apply yourself</line>
+    <line>has a <del rend="strikethrough">d</del> tendency to weaken your affections</line>
+    <line>and to destroy your taste for those simple</line>
+    <line>pleasures in which no alloy can possibly</line>
+    <line>mix then that study is certainly unlawful</line>
+    <line>that <del rend="strikethrough">it</del> is to say <del rend="strikethrough">on that</del>
+      not befitting <del rend="strikethrough">to</del> the</line>
+    <line>human mind. If this <del rend="strikethrough">rul</del> rule <mod>
+        <del rend="strikethrough">was</del>
+        <add hand="#pbs" place="superlinear">were</add>
+      </mod> al</line>
+    <line>ways observed; if no man allowed any</line>
+    <line>pursuit whatsoever to interfere with</line>
+    <line>his tranquillity and <add hand="#pbs" place="superlinear">his</add> domestic
+      affections</line>
+    <line>Greece had never been enslaved, Cæsar</line>
+    <line>would have spared his country, America</line>
+    <line>would have been discovered more gradua<add place="intralinear">l</add></line>
+    <line>ly, and the Empires of Mexico &amp; Peru had</line>
+    <line>not been destroyed.</line>
+    <milestone unit="tei:p"/>
+    <line rend="indent1">But I forget that I am moralizing</line>
+    <line>in the most interresting part of my</line>
+    <line>tale; and your looks remind me to</line>
+    <line>proceed.</line>
+    <milestone unit="tei:p"/>
+    <line rend="indent1">My father made no reproach in his</line>
+    <line>letters, <del rend="strikethrough">an</del> and only took notice of my</line>
+    <line>silence by enquiring more particularly</line>
+    <line>than before what my <del rend="strikethrough">co</del> occupations</line>
+    <line><del rend="strikethrough">wer</del> were. Winter spring and summer</line>
+    <line>passed away during my <mod>
+        <del rend="overwritten">t</del>
+        <add place="intralinear">l</add>
+      </mod>abours but</line>
+    <line>I did not watch the blossom or the</line>
+    <line>expanding leaves – sights which before</line>
+    <line>had alway yeilded me supreme delight<unclear>.</unclear></line>
+    <line>so <mod>
+        <del rend="strikethrough">much</del>
+        <add hand="#pbs" place="superlinear">deeply</add>
+      </mod> was I <mod>
+        <del rend="strikethrough">taken up with</del>
+        <add hand="#pbs" place="superlinear">engrossed in</add>
+      </mod> my</line>
+  </zone>
+</surface>
+      <?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="../../../schemata/shelley-godwin-page.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><surface xmlns:mith="http://mith.umd.edu/sc/ns1#" lrx="5364" lry="7104" partOf="#ox-frankenstein_volume_i" ulx="0" uly="0" mith:folio="20v" mith:shelfmark="MS. Abinger c. 56" xml:base="https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0044.xml" xml:id="ox-ms_abinger_c56-0044">
+  <graphic url="http://shelleygodwinarchive.org/images/ox/ms_abinger_c56/ms_abinger_c56-0044.jp2"/>
+  <zone rend="bordered" type="pagination"><line>74</line></zone>
+  <zone type="main">
+    <line>occupation. The leaves of that year</line>
+    <line>were withered before my work drew</line>
+    <line>near a close. And now every day shewed</line>
+    <line>me more plainly how well I had suc</line>
+    <line>ceeded. But my enthusiasm was</line>
+    <line>checked by my <del rend="strikethrough">am</del> anxiety and I appeared</line>
+    <line>rather like one doomed by slavery</line>
+    <line>to toil in the mines or any other</line>
+    <line>unwholsome trade than an artist</line>
+    <line>occupied in his favourite employment.</line>
+    <line>Every <del rend="strikethrough">nigh</del> night a slow fever oppressed</line>
+    <line>me and I became <mod>
+        <del rend="strikethrough">nevous</del>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
+        <add place="superlinear">nervous</add>
+      </mod> to a <del rend="strikethrough">degre</del></line>
+    <line>most painful degree; a <del rend="strikethrough">fever</del> a dis-</line>
+    <line>ease I regretted <add hand="#pbs" place="superlinear">the</add> more because I had</line>
+    <line>hitherto enjoyed excellent health &amp;</line>
+    <line><del rend="strikethrough">my nerves</del>
+      <del rend="strikethrough">were fi</del> had always</line>
+    <line>boasted of <mod>
+        <del rend="strikethrough">my</del>
+        <add hand="#pbs" place="superlinear">the</add>
+      </mod> firm<add hand="#pbs" place="intralinear">ness</add>
+      <mod>
+        <add place="sublinear"><metamark function="insert">^</metamark></add>
+        <add hand="#pbs" place="superlinear">of my</add>
+      </mod> nerves. But I</line>
+    <line>believed that exercise and amusement</line>
+    <line>would soon <del rend="strikethrough">driv</del> drive away <mod>
+        <del rend="strikethrough">these</del>
+        <add hand="#pbs" place="superlinear">such</add>
+      </mod> sym-</line>
+    <line><del rend="strikethrough">p</del>-toms and I promised myself both</line>
+    <line>of these when my creation should be</line>
+    <line>comple<mod>
+        <del rend="overwritten">et</del>
+        <add hand="#pbs" place="intralinear">te</add>
+        <del rend="strikethrough">ed</del>
+      </mod>. <delSpan rend="strikethrough" spanTo="#c56-0044.01"/>I had<add place="superlinear">had
+        t</add> then determined to</line>
+    <line>go to Geneva as soon as this should be</line>
+    <line>done and a in the midst of my</line>
+    <line>family find eve</line><anchor xml:id="c56-0044.01"/>
+  </zone>
+</surface>
+   </sourceDoc>
+</TEI>

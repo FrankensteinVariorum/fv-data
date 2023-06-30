@@ -20,7 +20,7 @@
             <p>Produced from collation output prepared in batch file processing
                                     on  2023-06-26 19:52:01.193485 .</p>
             <p>Edited to correct alignments and prepared for the Frankenstein
-                                    Variorum spine on 2023-06-26T17:36:34.0549946-04:00.</p>
+                                    Variorum spine on 2023-06-27T21:33:45.179109-04:00.</p>
          </sourceDesc>
       </fileDesc>
    </teiHeader>
@@ -7046,15 +7046,9 @@
                <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
                         n="['']"
                         xml:id="C18_app510_rg2">
-                  <rdg wit="#f1818">
-                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chunks/f1818_C18.xml#C18_app510-f1818"/>
-                  </rdg>
-                  <rdg wit="#fThomas">
-                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chunks/fThomas_C18.xml#C18_app510-fThomas"/>
-                  </rdg>
-                  <rdg wit="#f1831">
-                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chunks/f1831_C18.xml#C18_app510-f1831"/>
-                  </rdg>
+                  <rdg wit="#f1818"/>
+                  <rdg wit="#fThomas"/>
+                  <rdg wit="#f1831"/>
                </rdgGrp>
             </app>
          </ab>
