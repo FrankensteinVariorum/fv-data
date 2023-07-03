@@ -541,8 +541,8 @@
       
             {
            "label":  "CHAPT 2",
-            "id": "chapt-2",
-            "chunks": ["C07" ],
+            "id": "chapt_2",
+            "chunks": ["C07"],
             "uris": [
                 "https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/c56/c56-0013.xml#c56-0013",
                 "https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/c56/c56-0005.xml#c56-0005",
@@ -560,7 +560,7 @@
             {
            "label":  "CHAPTER",
             "id": "chapter",
-            "chunks": ["C08" ],
+            "chunks": ["C08"],
             "uris": [
                 "https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/c56/c56-0017.xml#c56-0017",
                 "https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/c56/c56-0018.xml#c56-0018",
@@ -575,8 +575,8 @@
       
             {
            "label":  "CHAP 4",
-            "id": "chap-4",
-            "chunks": ["C08" ],
+            "id": "chap_4",
+            "chunks": ["C08"],
             "uris": [
                 "https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/c56/c56-0024.xml#c56-0024",
                 "https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/c56/c56-0025.xml#c56-0025",
@@ -591,8 +591,8 @@
       
             {
            "label":  "CHAP 5",
-            "id": "chap-5",
-            "chunks": ["C09" ],
+            "id": "chap_5",
+            "chunks": ["C09"],
             "uris": [
                 "https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/c56/c56-0031.xml#c56-0031",
                 "https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/c56/c56-0032.xml#c56-0032",
@@ -607,8 +607,8 @@
       
             {
            "label":  "CHAPTER 6",
-            "id": "chapter-6",
-            "chunks": ["C09" ],
+            "id": "chapter_6",
+            "chunks": ["C09"],
             "uris": [
                 "https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/c56/c56-0038.xml#c56-0038",
                 "https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/c56/c56-0039.xml#c56-0039",
@@ -622,20 +622,9 @@
             },
       
             {
-           "label":  "CHAP 7",
-            "id": "chap-7",
-            "chunks": ["C10" ],
-            "uris": [
-                "https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/c56/c56-0055.xml#c56-0055",
-                "https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/c56/c56-0056.xml#c56-0056",
-                "https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/c56/c56-0057.xml#c56-0057"
-            ]
-            },
-      
-            {
            "label":  "CHAPTER 7",
-            "id": "chapter-7",
-            "chunks": ["C10" ],
+            "id": "chapter_7",
+            "chunks": ["C10"],
             "uris": [
                 "https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/c56/c56-0045.xml#c56-0045",
                 "https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/c56/c56-0046.xml#c56-0046",
@@ -652,9 +641,20 @@
             },
       
             {
-           "label":  "CH V%E2%80%93 113",
-            "id": "ch-v%E2%80%93-113",
-            "chunks": ["C11","C12" ],
+           "label":  "CHAP 7",
+            "id": "chap_7",
+            "chunks": ["C10"],
+            "uris": [
+                "https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/c56/c56-0055.xml#c56-0055",
+                "https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/c56/c56-0056.xml#c56-0056",
+                "https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/c56/c56-0057.xml#c56-0057"
+            ]
+            },
+      
+            {
+           "label":  "CH V 113",
+            "id": "ch_v__113",
+            "chunks": ["C11","C12"],
             "uris": [
                 "https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/c56/c56-0057.xml#c56-0057",
                 "https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/c56/c56-0058.xml#c56-0058",
@@ -670,8 +670,8 @@
       
             {
            "label":  "CHAP 8",
-            "id": "chap-8",
-            "chunks": ["C12" ],
+            "id": "chap_8",
+            "chunks": ["C12"],
             "uris": [
                 "https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/c56/c56-0065.xml#c56-0065",
                 "https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/c56/c56-0066.xml#c56-0066",
@@ -687,8 +687,8 @@
       
             {
            "label":  "CHAP 9",
-            "id": "chap-9",
-            "chunks": ["C13" ],
+            "id": "chap_9",
+            "chunks": ["C13"],
             "uris": [
                 "https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/c56/c56-0073.xml#c56-0073",
                 "https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/c56/c56-0074.xml#c56-0074",
@@ -703,8 +703,8 @@
       
             {
            "label":  "CHAPTER 10",
-            "id": "chapter-10",
-            "chunks": ["C13" ],
+            "id": "chapter_10",
+            "chunks": ["C13"],
             "uris": [
                 "https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/c56/c56-0081.xml#c56-0081",
                 "https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/c56/c56-0082.xml#c56-0082",
@@ -720,8 +720,8 @@
       
             {
            "label":  "CHAP 11",
-            "id": "chap-11",
-            "chunks": ["C13","C14" ],
+            "id": "chap_11",
+            "chunks": ["C13","C14"],
             "uris": [
                 "https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/c56/c56-0089.xml#c56-0089",
                 "https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/c56/c56-0090.xml#c56-0090",
@@ -739,8 +739,8 @@
       
             {
            "label":  "CHAPTER 1",
-            "id": "chapter-1",
-            "chunks": ["C14" ],
+            "id": "chapter_1",
+            "chunks": ["C14"],
             "uris": [
                 "https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/c56/c56-0100.xml#c56-0100",
                 "https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/c56/c56-0101.xml#c56-0101",
@@ -756,8 +756,8 @@
       
             {
            "label":  "CHAP 13",
-            "id": "chap-13",
-            "chunks": ["C15" ],
+            "id": "chap_13",
+            "chunks": ["C15"],
             "uris": [
                 "https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/c56/c56-0108.xml#c56-0108",
                 "https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/c56/c56-0109.xml#c56-0109",
@@ -775,8 +775,8 @@
       
             {
            "label":  "CHAP 14",
-            "id": "chap-14",
-            "chunks": ["C16" ],
+            "id": "chap_14",
+            "chunks": ["C16"],
             "uris": [
                 "https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/c56/c56-0119.xml#c56-0119",
                 "https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/c56/c56-0120.xml#c56-0120",
@@ -794,25 +794,9 @@
             },
       
             {
-           "label":  "CHAP 2",
-            "id": "chap-2",
-            "chunks": ["C17","C18" ],
-            "uris": [
-                "https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/c57/c57-0010.xml#c57-0010",
-                "https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/c57/c57-0011.xml#c57-0011",
-                "https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/c57/c57-0012.xml#c57-0012",
-                "https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/c57/c57-0013.xml#c57-0013",
-                "https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/c57/c57-0014.xml#c57-0014",
-                "https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/c57/c57-0015.xml#c57-0015",
-                "https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/c57/c57-0016.xml#c57-0016",
-                "https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/c57/c57-0017.xml#c57-0017"
-            ]
-            },
-      
-            {
            "label":  "VOL II",
-            "id": "vol-ii",
-            "chunks": ["C17" ],
+            "id": "vol_ii",
+            "chunks": ["C17"],
             "uris": [
                 "https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/c57/c57-0002.xml#c57-0002",
                 "https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/c57/c57-0003.xml#c57-0003",
@@ -826,9 +810,25 @@
             },
       
             {
+           "label":  "CHAP 2",
+            "id": "chap_2",
+            "chunks": ["C17","C18"],
+            "uris": [
+                "https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/c57/c57-0010.xml#c57-0010",
+                "https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/c57/c57-0011.xml#c57-0011",
+                "https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/c57/c57-0012.xml#c57-0012",
+                "https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/c57/c57-0013.xml#c57-0013",
+                "https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/c57/c57-0014.xml#c57-0014",
+                "https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/c57/c57-0015.xml#c57-0015",
+                "https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/c57/c57-0016.xml#c57-0016",
+                "https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/c57/c57-0017.xml#c57-0017"
+            ]
+            },
+      
+            {
            "label":  "CHAP 3",
-            "id": "chap-3",
-            "chunks": ["C18" ],
+            "id": "chap_3",
+            "chunks": ["C18"],
             "uris": [
                 "https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/c57/c57-0017.xml#c57-0017",
                 "https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/c57/c57-0018.xml#c57-0018",
@@ -842,8 +842,8 @@
       
             {
            "label":  "ANOTHER CHAPTER",
-            "id": "another-chapter",
-            "chunks": ["C20","C21" ],
+            "id": "another_chapter",
+            "chunks": ["C20","C21"],
             "uris": [
                 "https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/c57/c57-0031.xml#c57-0031",
                 "https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/c57/c57-0032.xml#c57-0032",
@@ -863,8 +863,8 @@
       
             {
            "label":  "CHAP 7",
-            "id": "chap-7",
-            "chunks": ["C21","C22" ],
+            "id": "chap_7",
+            "chunks": ["C21","C22"],
             "uris": [
                 "https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/c57/c57-0045.xml#c57-0045",
                 "https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/c57/c57-0046.xml#c57-0046",
@@ -879,21 +879,9 @@
             },
       
             {
-           "label":  "THE SAME CHAP 9",
-            "id": "the-same-chap-9",
-            "chunks": ["C22" ],
-            "uris": [
-                "https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/c57/c57-0062.xml#c57-0062",
-                "https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/c57/c57-0063.xml#c57-0063",
-                "https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/c57/c57-0064.xml#c57-0064",
-                "https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/c57/c57-0065.xml#c57-0065"
-            ]
-            },
-      
-            {
            "label":  "CHAPT 8",
-            "id": "chapt-8",
-            "chunks": ["C22" ],
+            "id": "chapt_8",
+            "chunks": ["C22"],
             "uris": [
                 "https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/c57/c57-0054.xml#c57-0054",
                 "https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/c57/c57-0055.xml#c57-0055",
@@ -904,6 +892,18 @@
                 "https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/c57/c57-0060.xml#c57-0060",
                 "https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/c57/c57-0061.xml#c57-0061",
                 "https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/c57/c57-0062.xml#c57-0062"
+            ]
+            },
+      
+            {
+           "label":  "THE SAME CHAP 9",
+            "id": "the_same_chap_9",
+            "chunks": ["C22"],
+            "uris": [
+                "https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/c57/c57-0062.xml#c57-0062",
+                "https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/c57/c57-0063.xml#c57-0063",
+                "https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/c57/c57-0064.xml#c57-0064",
+                "https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/c57/c57-0065.xml#c57-0065"
             ]
             }
         
