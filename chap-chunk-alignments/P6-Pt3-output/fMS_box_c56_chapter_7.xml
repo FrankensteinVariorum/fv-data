@@ -1,7 +1,7 @@
 <?xml version="1.1" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
-      xmlns:fv="https://frankensteinvariorum.github.io"
-      xmlns:tei="http://www.tei-c.org/ns/1.0">
+     xmlns:fv="https://frankensteinvariorum.github.io"
+     xmlns:tei="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -19,7 +19,7 @@
          <sourceDesc>
             <p>Produced from a corpus of collation output files for
                                                 the Frankenstein Variorum digital edition on
-                                                  2023-06-26T17:38:17.346488-04:00.</p>
+                                                  2023-07-03T15:05:05.554118-04:00.</p>
          </sourceDesc>
       </fileDesc>
    </teiHeader>
@@ -90,11 +90,11 @@
             <add xml:id="c56-0045__left_margin__d5e9698">
                <mod xml:id="c56-0045__left_margin__d5e9700">
                   <del ana="start"
-                        rend="strikethrough"
-                        xml:id="c56-0045__left_margin__d5e9702"/>handsome<del ana="end"/>
+                       rend="strikethrough"
+                       xml:id="c56-0045__left_margin__d5e9702"/>handsome<del ana="end"/>
                   <add hand="#pbs"
-                        place="superlinear"
-                        xml:id="c56-0045__left_margin__d5e9705">
+                       place="superlinear"
+                       xml:id="c56-0045__left_margin__d5e9705">
                      <seg part="F" xml:id="C10_app43-fMS__F">beautiful.</seg>
                      <seg part="I" xml:id="C10_app44-fMS__I">
                         </seg>
@@ -348,9 +348,9 @@
             </mod>
          </seg> languor and <w ana="start"/>ex<lb n="c56-0048__main__12"/>treme<w ana="end"/> weakness. <seg part="I" xml:id="C10_app218-fMS__I">
             <del ana="start"
-                  next="#c56-0048.05"
-                  rend="strikethrough"
-                  xml:id="c56-0048__main__d5e10264"/>Surely so wretched a<del ana="end"/>
+                 next="#c56-0048.05"
+                 rend="strikethrough"
+                 xml:id="c56-0048__main__d5e10264"/>Surely so wretched a<del ana="end"/>
             <lb n="c56-0048__main__13"/>
          </seg>
          <add place="superlinear" xml:id="c56-0048__main__d5e10270">
@@ -364,8 +364,8 @@
             </seg> I felt the <lb n="c56-0048__left_margin__5"/>bitterness of <seg xml:id="C10_app221-fMS">
                <lb n="c56-0048__left_margin__6"/>
                <del ana="start"
-                     rend="strikethrough"
-                     xml:id="c56-0048__left_margin__d5e10299"/>disapp<del ana="end"/>
+                    rend="strikethrough"
+                    xml:id="c56-0048__left_margin__d5e10299"/>disapp<del ana="end"/>
             </seg>
             <seg xml:id="C10_app222-fMS">
                <lb n="c56-0048__left_margin__7"/>disappointment:</seg>

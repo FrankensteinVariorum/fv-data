@@ -1,7 +1,7 @@
 <?xml version="1.1" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
-      xmlns:fv="https://frankensteinvariorum.github.io"
-      xmlns:tei="http://www.tei-c.org/ns/1.0">
+     xmlns:fv="https://frankensteinvariorum.github.io"
+     xmlns:tei="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -19,7 +19,7 @@
          <sourceDesc>
             <p>Produced from a corpus of collation output files for
                                                 the Frankenstein Variorum digital edition on
-                                                  2023-06-26T17:38:17.346488-04:00.</p>
+                                                  2023-07-03T15:05:05.554118-04:00.</p>
          </sourceDesc>
       </fileDesc>
    </teiHeader>
@@ -29,20 +29,20 @@
          <seg xml:id="C07_app547-fMS">
             <lb n="c56-0013__Pt1__main__27"/>attract my attention. <anchor xml:id="c56-0013.01"/>
             <del ana="start"
-                  next="#c56-0013.06"
-                  rend="strikethrough"
-                  xml:id="c56-0013__Pt1__main__d5e887"/>I reme <mod xml:id="c56-0013__Pt1__main__d5e889">
+                 next="#c56-0013.06"
+                 rend="strikethrough"
+                 xml:id="c56-0013__Pt1__main__d5e887"/>I reme <mod xml:id="c56-0013__Pt1__main__d5e889">
                <add place="sublinear" xml:id="c56-0013__Pt1__main__d5e891">
                   <metamark ana="start" function="insert"/>^<metamark ana="end"/>
                </add>
                <add hand="#pbs"
-                     place="superlinear"
-                     xml:id="c56-0013__Pt1__main__d5e897">m </add>
+                    place="superlinear"
+                    xml:id="c56-0013__Pt1__main__d5e897">m </add>
             </mod> ber<del ana="end"/>
             <lb n="c56-0013__Pt1__main__28"/>
             <del ana="start"
-                  rend="strikethrough"
-                  xml:id="c56-0013__Pt1__main__d5e905"/>also<del ana="end"/>
+                 rend="strikethrough"
+                 xml:id="c56-0013__Pt1__main__d5e905"/>also<del ana="end"/>
             <gap reason="resequencing" unit="tokens" quantity="22"/>
             <gap reason="resequencing" unit="lines" quantity="4"/>
             <lb n="c56-0005__main__1"/>
@@ -53,9 +53,9 @@
                <add hand="#pbs" place="superlinear" xml:id="c56-0005__main__d5e948">derive thier origin from a </add>
             </mod>
             <w ana="start"/>tri<lb n="c56-0005__main__4"/>vial<w ana="end"/> occurence <del ana="start" rend="strikethrough" xml:id="c56-0005__main__d5e959"/>s<del ana="end"/> . <del ana="start"
-                  next="#c56-0005.02"
-                  rend="strikethrough"
-                  xml:id="c56-0005__main__d5e962"/>Strange as the<del ana="end"/>
+                 next="#c56-0005.02"
+                 rend="strikethrough"
+                 xml:id="c56-0005__main__d5e962"/>Strange as the<del ana="end"/>
             <mod xml:id="c56-0005__main__d5e965">
                <add place="sublinear" xml:id="c56-0005__main__d5e967">
                   <metamark ana="start" function="insert"/>^<metamark ana="end"/>
@@ -65,9 +65,9 @@
                <del ana="end"/>
             </mod>
             <del ana="start"
-                  next="#c56-0005.03"
-                  rend="strikethrough"
-                  xml:id="c56-0005__main__d5e980"/>simple fact<del ana="end"/>
+                 next="#c56-0005.03"
+                 rend="strikethrough"
+                 xml:id="c56-0005__main__d5e980"/>simple fact<del ana="end"/>
             <lb n="c56-0005__main__5"/>
             <del ana="start" rend="strikethrough" xml:id="c56-0005__main__d5e986"/>may appear my fate had been<del ana="end"/>
             <del ana="start" rend="strikethrough" xml:id="c56-0005__main__d5e989"/>Chemist<del ana="end"/>
@@ -138,9 +138,9 @@
          <mod xml:id="c56-0005__main__d5e1126">
             <seg part="M" xml:id="C07_app574-fMS__M">
                <del ana="start"
-                     next="#c56-0005.04"
-                     rend="strikethrough"
-                     xml:id="c56-0005__main__d5e1128"/>but<del ana="end"/>
+                    next="#c56-0005.04"
+                    rend="strikethrough"
+                    xml:id="c56-0005__main__d5e1128"/>but<del ana="end"/>
             </seg>
             <add place="sublinear" xml:id="c56-0005__main__d5e1131">
                <seg part="F" xml:id="C07_app574-fMS__F">
@@ -149,8 +149,8 @@
             </add>
             <add place="superlinear" xml:id="c56-0005__main__d5e1137">the theory <seg xml:id="C07_app576-fMS">that</seg> he  <seg xml:id="C07_app578-fMS">attempted</seg> to  <seg part="I" xml:id="C07_app580-fMS__I">d </seg>
                <add next="#c56-0005.05"
-                     place="superlinear"
-                     xml:id="c56-0005__main__d5e1139">
+                    place="superlinear"
+                    xml:id="c56-0005__main__d5e1139">
                   <seg part="F" xml:id="C07_app580-fMS__F">demonstrate</seg> and the wonderful facts  <seg xml:id="C07_app582-fMS">that</seg>
                </add>
             </add>
@@ -243,14 +243,14 @@
             <del ana="start" rend="strikethrough" xml:id="c56-0006__main__d5e1304"/>ra<del ana="end"/> rational <lb n="c56-0006__main__12"/>theory of chemistry which</seg>
          <seg part="I" xml:id="C07_app654-fMS__I">
             <del ana="start"
-                  next="#c56-0006.01"
-                  rend="strikethrough"
-                  xml:id="c56-0006__main__d5e1310"/>has at present<del ana="end"/>
+                 next="#c56-0006.01"
+                 rend="strikethrough"
+                 xml:id="c56-0006__main__d5e1310"/>has at present<del ana="end"/>
          </seg>
          <add hand="#pbs"
-               next="#c56-0006.02"
-               place="superlinear"
-               xml:id="c56-0006__main__d5e1313">
+              next="#c56-0006.02"
+              place="superlinear"
+              xml:id="c56-0006__main__d5e1313">
             <seg part="F" xml:id="C07_app654-fMS__F">has resulted from modern</seg>
             <seg part="I" xml:id="C07_app655-fMS__I">discoveries </seg>
          </add>
@@ -259,9 +259,9 @@
             <del ana="start" rend="strikethrough" xml:id="c56-0006__main__d5e1318"/>the approbation of the learned.<del ana="end"/>
          </seg>
          <add hand="#pbs"
-               next="#c56-0006.03"
-               place="superlinear"
-               xml:id="c56-0006__main__d5e1321">It is even <seg xml:id="C07_app657-fMS">possible</seg> that the train of my ideas  <seg xml:id="C07_app659-fMS">might</seg> never have  <seg part="I" xml:id="C07_app661-fMS__I">recieved </seg>
+              next="#c56-0006.03"
+              place="superlinear"
+              xml:id="c56-0006__main__d5e1321">It is even <seg xml:id="C07_app657-fMS">possible</seg> that the train of my ideas  <seg xml:id="C07_app659-fMS">might</seg> never have  <seg part="I" xml:id="C07_app661-fMS__I">recieved </seg>
          </add>
          <add hand="#pbs" place="sublinear" xml:id="c56-0006__main__d5e1325">
             <seg part="F" xml:id="C07_app661-fMS__F">that</seg> fatal impulse  <seg xml:id="C07_app663-fMS">which</seg> led  <seg xml:id="C07_app665-fMS">me to my ruin.</seg>
@@ -394,9 +394,9 @@
                <note ana="start"/>or if you chose petrum philosophale<note ana="end"/>
             </add>
             <del ana="start"
-                  next="#c56-0007.02"
-                  rend="strikethrough"
-                  xml:id="c56-0007__main__d5e1517"/>elizer vi<del ana="end"/>
+                 next="#c56-0007.02"
+                 rend="strikethrough"
+                 xml:id="c56-0007__main__d5e1517"/>elizer vi<del ana="end"/>
          </seg>
          <add hand="#pbs" place="superlinear" xml:id="c56-0007__main__d5e1520">
             <seg part="F" xml:id="C07_app754-fMS__F">elixer</seg> of  <seg part="I" xml:id="C07_app756-fMS__I">life </seg>
@@ -440,14 +440,14 @@
                <metamark ana="start" function="insert"/>^<metamark ana="end"/>
             </add>
             <del ana="start"
-                  next="#c56-0008.02"
-                  rend="strikethrough"
-                  xml:id="c56-0008__main__d5e1602"/>was also a favour<del ana="end"/>
+                 next="#c56-0008.02"
+                 rend="strikethrough"
+                 xml:id="c56-0008__main__d5e1602"/>was also a favour<del ana="end"/>
          </seg>
          <add hand="#pbs"
-               next="#c56-0008.05"
-               place="superlinear"
-               xml:id="c56-0008__main__d5e1605">
+              next="#c56-0008.05"
+              place="superlinear"
+              xml:id="c56-0008__main__d5e1605">
             <seg part="F" xml:id="C07_app783-fMS__F">was a promise liberally accorded by</seg>
             <seg part="I" xml:id="C07_app784-fMS__I">
                </seg>
@@ -455,20 +455,20 @@
          <seg part="M" xml:id="C07_app784-fMS__M">
             <lb n="c56-0008__main__4"/>
             <del ana="start"
-                  next="#c56-0008.03"
-                  rend="strikethrough"
-                  xml:id="c56-0008__main__d5e1610"/>ite<del ana="end"/>
+                 next="#c56-0008.03"
+                 rend="strikethrough"
+                 xml:id="c56-0008__main__d5e1610"/>ite<del ana="end"/>
             <del ana="start"
-                  next="#c56-0008.04"
-                  rend="strikethrough"
-                  xml:id="c56-0008__main__d5e1613"/>pursuit<del ana="end"/>
+                 next="#c56-0008.04"
+                 rend="strikethrough"
+                 xml:id="c56-0008__main__d5e1613"/>pursuit<del ana="end"/>
             <del ana="start" rend="unmarked" xml:id="c56-0008__main__d5e1617"/>and<del ana="end"/>
             <del ana="start" rend="strikethrough" xml:id="c56-0008__main__d5e1620"/>If I never saw any<del ana="end"/>
          </seg>
          <add hand="#pbs"
-               next="#c56-0008.06"
-               place="superlinear"
-               xml:id="c56-0008__main__d5e1623">
+              next="#c56-0008.06"
+              place="superlinear"
+              xml:id="c56-0008__main__d5e1623">
             <seg part="F" xml:id="C07_app784-fMS__F">my favourite</seg>
             <seg xml:id="C07_app785-fMS">authors;</seg> the fulfilment of which I most eagerly sought; </add>
          <lb n="c56-0008__main__5"/>
@@ -604,8 +604,8 @@
                </seg>
             </add>
             <add hand="#pbs"
-                  place="superlinear"
-                  xml:id="c56-0009__Pt1__main__d5e1815">thier </add>
+                 place="superlinear"
+                 xml:id="c56-0009__Pt1__main__d5e1815">thier </add>
          </mod>
          <seg part="F" xml:id="C07_app833-fMS__F">
             </seg>
@@ -625,16 +625,16 @@
          <mod xml:id="c56-0009__Pt1__main__d5e1833">
             <seg part="M" xml:id="C07_app839-fMS__M">
                <del ana="start"
-                     rend="strikethrough"
-                     xml:id="c56-0009__Pt1__main__d5e1835"/>any<del ana="end"/>
+                    rend="strikethrough"
+                    xml:id="c56-0009__Pt1__main__d5e1835"/>any<del ana="end"/>
             </seg>
             <add hand="#pbs"
-                  place="superlinear"
-                  xml:id="c56-0009__Pt1__main__d5e1838">
+                 place="superlinear"
+                 xml:id="c56-0009__Pt1__main__d5e1838">
                <seg part="F" xml:id="C07_app839-fMS__F">
                   <del ana="start"
-                        rend="strikethrough"
-                        xml:id="c56-0009__Pt1__main__d5e1840"/>
+                       rend="strikethrough"
+                       xml:id="c56-0009__Pt1__main__d5e1840"/>
                   <unclear ana="start"/>some<unclear ana="end"/>
                   <del ana="end"/> some</seg>
                <seg part="I" xml:id="C07_app840-fMS__I">
@@ -647,12 +647,12 @@
          <mod xml:id="c56-0009__Pt1__main__d5e1848">
             <seg part="M" xml:id="C07_app841-fMS__M">
                <del ana="start"
-                     rend="strikethrough"
-                     xml:id="c56-0009__Pt1__main__d5e1850"/>cocc<del ana="end"/>
+                    rend="strikethrough"
+                    xml:id="c56-0009__Pt1__main__d5e1850"/>cocc<del ana="end"/>
             </seg>
             <add hand="#pbs"
-                  place="superlinear"
-                  xml:id="c56-0009__Pt1__main__d5e1853">
+                 place="superlinear"
+                 xml:id="c56-0009__Pt1__main__d5e1853">
                <seg part="F" xml:id="C07_app841-fMS__F">should</seg>
                <seg part="I" xml:id="C07_app842-fMS__I">
                   </seg>
@@ -663,8 +663,8 @@
             <w ana="start"/>occup<mod xml:id="c56-0009__Pt1__main__d5e1861">
                <mdel ana="start"/>ie<mdel ana="end"/>
                <add hand="#pbs"
-                     place="intralinear"
-                     xml:id="c56-0009__Pt1__main__d5e1865">y </add>
+                    place="intralinear"
+                    xml:id="c56-0009__Pt1__main__d5e1865">y </add>
             </mod> d<w ana="end"/>
          </seg>
          <seg xml:id="C07_app843-fMS">their place</seg>
@@ -672,8 +672,8 @@
             <mod xml:id="c56-0009__Pt1__main__d5e1871">
                <mdel ana="start"/>.<mdel ana="end"/>
                <add hand="#pbs"
-                     place="intralinear"
-                     xml:id="c56-0009__Pt1__main__d5e1875">, </add>
+                    place="intralinear"
+                    xml:id="c56-0009__Pt1__main__d5e1875">, </add>
             </mod> in</seg> my  <seg xml:id="C07_app846-fMS">mind–<gap reason="resequencing" unit="lines" quantity="25"/>
             <gap reason="resequencing" unit="lines" quantity="28"/>
             <lb n="c56-0013__Pt2__main__29"/>
@@ -689,16 +689,16 @@
             </mod> hen</seg> I was about  <seg xml:id="C07_app850-fMS">
             <mod xml:id="c56-0013__Pt2__main__d5e1912">
                <del ana="start"
-                     rend="strikethrough"
-                     xml:id="c56-0013__Pt2__main__d5e1914"/>twelve<del ana="end"/>
+                    rend="strikethrough"
+                    xml:id="c56-0013__Pt2__main__d5e1914"/>twelve<del ana="end"/>
                <add place="superlinear" xml:id="c56-0013__Pt2__main__d5e1917">fourteen </add>
             </mod>
          </seg> years  <seg xml:id="C07_app852-fMS">
             <lb n="c56-0013__Pt2__main__30"/>old</seg> we  <seg xml:id="C07_app854-fMS">were at</seg> our house near  <seg xml:id="C07_app856-fMS">
             <lb n="c56-0013__Pt2__main__31"/>Belrive</seg> when we witnessed  <seg xml:id="C07_app858-fMS">
             <del ana="start"
-                  rend="strikethrough"
-                  xml:id="c56-0013__Pt2__main__d5e1925"/>the<del ana="end"/> a</seg>
+                 rend="strikethrough"
+                 xml:id="c56-0013__Pt2__main__d5e1925"/>the<del ana="end"/> a</seg>
          <lb n="c56-0013__Pt2__main__32"/>violent <seg part="I" xml:id="C07_app861-fMS__I">
             </seg>
          <mod xml:id="c56-0013__Pt2__main__d5e1931">
@@ -706,8 +706,8 @@
                <mdel ana="start"/>at<mdel ana="end"/>
             </seg>
             <add hand="#pbs"
-                  place="superlinear"
-                  xml:id="c56-0013__Pt2__main__d5e1935">
+                 place="superlinear"
+                 xml:id="c56-0013__Pt2__main__d5e1935">
                <seg part="F" xml:id="C07_app861-fMS__F">and</seg>
             </add>
          </mod>terrible <seg xml:id="C07_app863-fMS">thunder storm<lb n="c56-0014__main__1"/>it</seg> advanced from behind  <seg xml:id="C07_app865-fMS">Jura <delSpan rend="strikethrough" spanTo="#c56-0014.01"/>and <lb n="c56-0014__main__2"/>the <anchor xml:id="c56-0014.01"/>
@@ -756,9 +756,9 @@
             </add>
          </mod>
          <seg part="F" xml:id="C07_app877-fMS__F"> lasted <del ana="start"
-                  next="#c56-0014.06"
-                  rend="strikethrough"
-                  xml:id="c56-0014__main__d5e2032"/>at<del ana="end"/>
+                 next="#c56-0014.06"
+                 rend="strikethrough"
+                 xml:id="c56-0014__main__d5e2032"/>at<del ana="end"/>
          </seg>
          <add place="superlinear" xml:id="c56-0014__main__d5e2035">watching <seg part="I" xml:id="C07_app879-fMS__I">its </seg>
          </add>
@@ -771,14 +771,14 @@
             <del ana="start" rend="strikethrough" xml:id="c56-0014__main__d5e2059"/>watchin<del ana="end"/>
             <del ana="start" rend="unmarked" xml:id="c56-0014__main__d5e2062"/>g<del ana="end"/>
             <anchor xml:id="c56-0014.05"/>. <del ana="start"
-                  next="#c56-0014.10"
-                  rend="strikethrough"
-                  xml:id="c56-0014__main__d5e2067"/>When it was most<del ana="end"/>
+                 next="#c56-0014.10"
+                 rend="strikethrough"
+                 xml:id="c56-0014__main__d5e2067"/>When it was most<del ana="end"/>
          </seg>
          <add hand="#pbs"
-               next="#c56-0014.15"
-               place="superlinear"
-               xml:id="c56-0014__main__d5e2071">As I stood at the <seg part="I" xml:id="C07_app882-fMS__I">door </seg>
+              next="#c56-0014.15"
+              place="superlinear"
+              xml:id="c56-0014__main__d5e2071">As I stood at the <seg part="I" xml:id="C07_app882-fMS__I">door </seg>
          </add>
          <seg part="F" xml:id="C07_app882-fMS__F">
             <lb n="c56-0014__main__9"/>
@@ -861,23 +861,23 @@
             <w ana="start"/>astonish<lb n="c56-0014__main__25"/>ment<w ana="end"/>
             <delSpan rend="vertical_line" spanTo="#c56-0014.11"/>
             <del ana="start"
-                  next="#c56-0014.12"
-                  rend="strikethrough"
-                  xml:id="c56-0014__main__d5e2227"/>and<del ana="end"/>
+                 next="#c56-0014.12"
+                 rend="strikethrough"
+                 xml:id="c56-0014__main__d5e2227"/>and<del ana="end"/>
             <mod xml:id="c56-0014__main__d5e2230">
                <del ana="start"
-                     next="#c56-0014.13"
-                     rend="strikethrough"
-                     xml:id="c56-0014__main__d5e2232"/>caused<del ana="end"/>
+                    next="#c56-0014.13"
+                    rend="strikethrough"
+                    xml:id="c56-0014__main__d5e2232"/>caused<del ana="end"/>
                <add place="sublinear" xml:id="c56-0014__main__d5e2235">
                   <metamark ana="start" function="insert"/>^<metamark ana="end"/>
                </add>
                <add place="superlinear" xml:id="c56-0014__main__d5e2241">induced </add>
             </mod>
             <del ana="start"
-                  next="#c56-0014.14"
-                  rend="strikethrough"
-                  xml:id="c56-0014__main__d5e2245"/>me to aply wi<del ana="end"/>
+                 next="#c56-0014.14"
+                 rend="strikethrough"
+                 xml:id="c56-0014__main__d5e2245"/>me to aply wi<del ana="end"/>
             <del ana="start" rend="unmarked" xml:id="c56-0014__main__d5e2249"/>ith<del ana="end"/>
             <lb n="c56-0014__main__26"/>
             <del ana="start" rend="strikethrough" xml:id="c56-0014__main__d5e2254"/>fresh di<del ana="end"/> ligence to the study of <lb n="c56-0014__main__27"/>
@@ -891,16 +891,16 @@
             </mod> se sort of <anchor xml:id="c56-0014.11"/>
             <delSpan rend="vertical_line" spanTo="#c56-0015.01"/>
             <lb n="c56-0015__Pt1__main__1"/>phænonema. On Elizabeth and <lb n="c56-0015__Pt1__main__2"/>Clerval it produced a <del ana="start"
-                  rend="strikethrough"
-                  xml:id="c56-0015__Pt1__main__d5e2303"/>di<del ana="end"/> very different <lb n="c56-0015__Pt1__main__3"/>effect. They admired the beauty <lb n="c56-0015__Pt1__main__4"/>of the storm without wishing to <lb n="c56-0015__Pt1__main__5"/>analyze its causes. Henry said that <lb n="c56-0015__Pt1__main__6"/>the Fairies and giants were at <lb n="c56-0015__Pt1__main__7"/>war and Elizabeth attempted <lb n="c56-0015__Pt1__main__8"/>a picture of it. <anchor xml:id="c56-0015.01"/>
+                 rend="strikethrough"
+                 xml:id="c56-0015__Pt1__main__d5e2303"/>di<del ana="end"/> very different <lb n="c56-0015__Pt1__main__3"/>effect. They admired the beauty <lb n="c56-0015__Pt1__main__4"/>of the storm without wishing to <lb n="c56-0015__Pt1__main__5"/>analyze its causes. Henry said that <lb n="c56-0015__Pt1__main__6"/>the Fairies and giants were at <lb n="c56-0015__Pt1__main__7"/>war and Elizabeth attempted <lb n="c56-0015__Pt1__main__8"/>a picture of it. <anchor xml:id="c56-0015.01"/>
             <milestone unit="tei:p-END"/>
             <milestone unit="tei:p-START"/>
             <delSpan rend="vertical_line" spanTo="#c56-0015.02"/>
             <lb n="c56-0015__Pt1__main__9"/>As I grew older my attempts <lb n="c56-0015__Pt1__main__10"/>in science were of a higher nature. <lb n="c56-0015__Pt1__main__11"/>I <del ana="start"
-                  rend="strikethrough"
-                  xml:id="c56-0015__Pt1__main__d5e2332"/>endeavou<del ana="end"/> produced little earthquakes <lb n="c56-0015__Pt1__main__12"/>and tried every kind of combination <lb n="c56-0015__Pt1__main__13"/>of gasses <del ana="start"
-                  rend="strikethrough"
-                  xml:id="c56-0015__Pt1__main__d5e2340"/>to<del ana="end"/> and elements to ascertain</seg>
+                 rend="strikethrough"
+                 xml:id="c56-0015__Pt1__main__d5e2332"/>endeavou<del ana="end"/> produced little earthquakes <lb n="c56-0015__Pt1__main__12"/>and tried every kind of combination <lb n="c56-0015__Pt1__main__13"/>of gasses <del ana="start"
+                 rend="strikethrough"
+                 xml:id="c56-0015__Pt1__main__d5e2340"/>to<del ana="end"/> and elements to ascertain</seg>
          <seg xml:id="C07_app918-fMS">
             <lb n="c56-0015__Pt1__main__14"/>the</seg>
          <seg xml:id="C07_app919-fMS">results. <anchor xml:id="c56-0015.02"/>
@@ -916,15 +916,15 @@
                   <metamark ana="start" function="insert"/>^<metamark ana="end"/>
                </add>
                <add hand="#pbs"
-                     place="superlinear"
-                     xml:id="c56-0009__Pt2__main__d5e2375">Among other questions suggested by natural objects </add>
+                    place="superlinear"
+                    xml:id="c56-0009__Pt2__main__d5e2375">Among other questions suggested by natural objects </add>
             </mod>
          </seg>
          <seg xml:id="C07_app920-fMS">I</seg>
          <seg xml:id="C07_app921-fMS">
             <del ana="start"
-                  rend="strikethrough"
-                  xml:id="c56-0009__Pt2__main__d5e2379"/>as<del ana="end"/> eagerly</seg>
+                 rend="strikethrough"
+                 xml:id="c56-0009__Pt2__main__d5e2379"/>as<del ana="end"/> eagerly</seg>
          <seg xml:id="C07_app922-fMS">enquired</seg> of  <seg xml:id="C07_app924-fMS">my father</seg>
          <seg part="I" xml:id="C07_app925-fMS__I">
             <lb n="c56-0009__Pt2__main__5"/>
@@ -932,15 +932,15 @@
          <mod xml:id="c56-0009__Pt2__main__d5e2385">
             <seg part="M" xml:id="C07_app925-fMS__M">
                <del ana="start"
-                     rend="strikethrough"
-                     xml:id="c56-0009__Pt2__main__d5e2387"/>what<del ana="end"/>
+                    rend="strikethrough"
+                    xml:id="c56-0009__Pt2__main__d5e2387"/>what<del ana="end"/>
                <add place="sublinear" xml:id="c56-0009__Pt2__main__d5e2390">
                   <metamark ana="start" function="insert"/>^<metamark ana="end"/>
                </add>
             </seg>
             <add hand="#pbs"
-                  place="superlinear"
-                  xml:id="c56-0009__Pt2__main__d5e2396">
+                 place="superlinear"
+                 xml:id="c56-0009__Pt2__main__d5e2396">
                <seg part="F" xml:id="C07_app925-fMS__F">the nature &amp;</seg>
                <seg xml:id="C07_app926-fMS">the origin</seg> of  <seg part="I" xml:id="C07_app928-fMS__I">
                   </seg>
@@ -950,8 +950,8 @@
             </seg>
          <seg xml:id="C07_app929-fMS">thunder and</seg>
          <seg xml:id="C07_app930-fMS">lightening. <del ana="start"
-                  rend="strikethrough"
-                  xml:id="c56-0009__Pt2__main__d5e2400"/>was.<del ana="end"/>
+                 rend="strikethrough"
+                 xml:id="c56-0009__Pt2__main__d5e2400"/>was.<del ana="end"/>
          </seg>
          <seg xml:id="C07_app931-fMS">He <lb n="c56-0009__Pt2__main__6"/>replied,</seg>
          <seg xml:id="C07_app932-fMS">electricity;</seg>
@@ -962,13 +962,13 @@
          <mod xml:id="c56-0009__Pt2__main__d5e2407">
             <seg part="F" xml:id="C07_app937-fMS__F">
                <del ana="start"
-                     rend="strikethrough"
-                     xml:id="c56-0009__Pt2__main__d5e2409"/>made<del ana="end"/>
+                    rend="strikethrough"
+                    xml:id="c56-0009__Pt2__main__d5e2409"/>made<del ana="end"/>
             </seg>
             <seg part="I" xml:id="C07_app938-fMS__I">
                <add hand="#pbs"
-                     place="superlinear"
-                     xml:id="c56-0009__Pt2__main__d5e2412">constructed </add>
+                    place="superlinear"
+                    xml:id="c56-0009__Pt2__main__d5e2412">constructed </add>
             </seg>
          </mod>
          <seg part="F" xml:id="C07_app938-fMS__F">
@@ -983,18 +983,18 @@
             <lb n="c56-0009__Pt2__main__10"/>kite</seg>
          <seg xml:id="C07_app949-fMS">with a wire</seg>
          <add hand="#pbs"
-               place="intralinear"
-               xml:id="c56-0009__Pt2__main__d5e2427">&amp;</add>
+              place="intralinear"
+              xml:id="c56-0009__Pt2__main__d5e2427">&amp;</add>
          <seg part="I" xml:id="C07_app951-fMS__I">string </seg>
          <mod xml:id="c56-0009__Pt2__main__d5e2431">
             <seg part="F" xml:id="C07_app951-fMS__F">
                <del ana="start"
-                     rend="strikethrough"
-                     xml:id="c56-0009__Pt2__main__d5e2433"/>and<del ana="end"/>
+                    rend="strikethrough"
+                    xml:id="c56-0009__Pt2__main__d5e2433"/>and<del ana="end"/>
             </seg>
             <add hand="#pbs"
-                  place="superlinear"
-                  xml:id="c56-0009__Pt2__main__d5e2436">which <seg part="I" xml:id="C07_app953-fMS__I">
+                 place="superlinear"
+                 xml:id="c56-0009__Pt2__main__d5e2436">which <seg part="I" xml:id="C07_app953-fMS__I">
                   </seg>
             </add>
          </mod>
@@ -1007,11 +1007,11 @@
             <lb n="c56-0009__Pt2__main__12"/>This last</seg>
          <seg xml:id="C07_app956-fMS">
             <del ana="start"
-                  rend="strikethrough"
-                  xml:id="c56-0009__Pt2__main__d5e2446"/>blow<del ana="end"/>
+                 rend="strikethrough"
+                 xml:id="c56-0009__Pt2__main__d5e2446"/>blow<del ana="end"/>
             <del ana="start"
-                  rend="strikethrough"
-                  xml:id="c56-0009__Pt2__main__d5e2449"/>st<del ana="end"/> stroke</seg>
+                 rend="strikethrough"
+                 xml:id="c56-0009__Pt2__main__d5e2449"/>st<del ana="end"/> stroke</seg>
          <seg xml:id="C07_app957-fMS">compleated</seg>
          <lb n="c56-0009__Pt2__main__13"/>the <seg xml:id="C07_app959-fMS">overthrow of</seg> Cornelius Agrippa, Albertus  <seg xml:id="C07_app961-fMS">
             <lb n="c56-0009__Pt2__main__14"/>Magnus</seg> and Paracelsus,  <seg xml:id="C07_app963-fMS">who had so long <lb n="c56-0009__Pt2__main__15"/>reigned</seg> the lords of my  <seg xml:id="C07_app965-fMS">imagination.</seg> But <lb n="c56-0009__Pt2__main__16"/>by some fatality <seg xml:id="C07_app967-fMS">I did not feel</seg>
@@ -1026,12 +1026,12 @@
          <mod xml:id="c56-0009__Pt2__main__d5e2466">
             <seg part="M" xml:id="C07_app975-fMS__M">
                <del ana="start"
-                     rend="strikethrough"
-                     xml:id="c56-0009__Pt2__main__d5e2468"/>inclination<del ana="end"/>
+                    rend="strikethrough"
+                    xml:id="c56-0009__Pt2__main__d5e2468"/>inclination<del ana="end"/>
             </seg>
             <add hand="#pbs"
-                  place="superlinear"
-                  xml:id="c56-0009__Pt2__main__d5e2471">
+                 place="superlinear"
+                 xml:id="c56-0009__Pt2__main__d5e2471">
                <seg part="F" xml:id="C07_app975-fMS__F">disinclination</seg>
                <seg part="I" xml:id="C07_app976-fMS__I">
                   </seg>
@@ -1049,8 +1049,8 @@
                </add>
             </seg>
             <add hand="#pbs"
-                  place="superlinear"
-                  xml:id="c56-0009__Pt2__main__d5e2494">
+                 place="superlinear"
+                 xml:id="c56-0009__Pt2__main__d5e2494">
                <seg part="F" xml:id="C07_app981-fMS__F">cheerfully</seg>
                <seg part="I" xml:id="C07_app982-fMS__I">
                   </seg>
@@ -1058,10 +1058,10 @@
          </mod>
          <seg part="F" xml:id="C07_app982-fMS__F"> consented <delSpan rend="strikethrough" spanTo="#c56-0009.02"/>and <lb n="c56-0009__Pt2__main__23"/>
             <delSpan rend="vertical_line" spanTo="#c56-0009.01"/>one evening <anchor xml:id="c56-0009.02"/> that I spent in town at the <lb n="c56-0009__Pt2__main__24"/>house of Clerval's father I <delSpan rend="strikethrough" spanTo="#c56-0009.03"/>heard that <lb n="c56-0009__Pt2__main__25"/>M<shi ana="start" rend="sup"/>r<shi ana="end"/> — was lef at <anchor xml:id="c56-0009.03"/> met M. <del ana="start"
-                  rend="strikethrough"
-                  xml:id="c56-0009__Pt2__main__d5e2518"/>O P<del ana="end"/> a proficient <lb n="c56-0009__Pt2__main__26"/>in Chemistry who left the company at <lb n="c56-0009__Pt2__main__27"/>an early hour to <del ana="start"
-                  rend="strikethrough"
-                  xml:id="c56-0009__Pt2__main__d5e2526"/>h<del ana="end"/> give his lecture upon <lb n="c56-0009__Pt2__main__28"/>
+                 rend="strikethrough"
+                 xml:id="c56-0009__Pt2__main__d5e2518"/>O P<del ana="end"/> a proficient <lb n="c56-0009__Pt2__main__26"/>in Chemistry who left the company at <lb n="c56-0009__Pt2__main__27"/>an early hour to <del ana="start"
+                 rend="strikethrough"
+                 xml:id="c56-0009__Pt2__main__d5e2526"/>h<del ana="end"/> give his lecture upon <lb n="c56-0009__Pt2__main__28"/>
             <w ana="start"/>tha<mod xml:id="c56-0009__Pt2__main__d5e2533">
                <mdel ana="start"/>n<mdel ana="end"/>
                <add place="intralinear" xml:id="c56-0009__Pt2__main__d5e2537">t<w ana="end"/>
@@ -1075,9 +1075,9 @@
          <seg part="I" xml:id="C07_app983-fMS__I">
             </seg>
          <add hand="#pbs"
-               next="#c56-0010.01"
-               place="superlinear"
-               xml:id="c56-0010__main__d5e2565">
+              next="#c56-0010.01"
+              place="superlinear"
+              xml:id="c56-0010__main__d5e2565">
             <seg part="F" xml:id="C07_app983-fMS__F">Some accident prevented my attending</seg>
             <seg xml:id="C07_app984-fMS">the <del ana="start" rend="strikethrough" xml:id="c56-0010__main__d5e2567"/>series of<del ana="end"/> these lectures</seg>
             <seg part="I" xml:id="C07_app985-fMS__I">
@@ -1086,14 +1086,14 @@
          <seg part="M" xml:id="C07_app985-fMS__M">
             <lb n="c56-0010__main__2"/>
             <del ana="start"
-                  next="#c56-0010.03"
-                  rend="strikethrough"
-                  xml:id="c56-0010__main__d5e2574"/>this lecture was unfortunately nearly the<del ana="end"/>
+                 next="#c56-0010.03"
+                 rend="strikethrough"
+                 xml:id="c56-0010__main__d5e2574"/>this lecture was unfortunately nearly the<del ana="end"/>
          </seg>
          <add hand="#pbs"
-               next="#c56-0010.02"
-               place="superlinear"
-               xml:id="c56-0010__main__d5e2577">
+              next="#c56-0010.02"
+              place="superlinear"
+              xml:id="c56-0010__main__d5e2577">
             <seg part="F" xml:id="C07_app985-fMS__F">until</seg>
             <seg xml:id="C07_app986-fMS">
                <del ana="start" rend="strikethrough" xml:id="c56-0010__main__d5e2579"/>they were nearly over <del ana="end"/>
@@ -1336,8 +1336,8 @@
          <mod xml:id="c56-0015__Pt2__main__d5e2842">
             <seg part="M" xml:id="C07_app1077-fMS__M">
                <del ana="start"
-                     rend="strikethrough"
-                     xml:id="c56-0015__Pt2__main__d5e2844"/>soon<del ana="end"/>
+                    rend="strikethrough"
+                    xml:id="c56-0015__Pt2__main__d5e2844"/>soon<del ana="end"/>
                <add place="sublinear" xml:id="c56-0015__Pt2__main__d5e2847">
                   <metamark ana="start" function="insert"/>^<metamark ana="end"/>
                </add>
@@ -1364,8 +1364,8 @@
                <mdel ana="start"/>&amp;<mdel ana="end"/>
             </seg>
             <add hand="#pbs"
-                  place="superlinear"
-                  xml:id="c56-0015__Pt2__main__d5e2872">
+                 place="superlinear"
+                 xml:id="c56-0015__Pt2__main__d5e2872">
                <seg part="F" xml:id="C07_app1089-fMS__F">thro</seg>
                <seg part="I" xml:id="C07_app1090-fMS__I">which </seg>
             </add>
@@ -1375,10 +1375,10 @@
          <seg xml:id="C07_app1093-fMS">
             <lb n="c56-0015__Pt2__main__25"/>
             <del ana="start"
-                  rend="strikethrough"
-                  xml:id="c56-0015__Pt2__main__d5e2881"/>m<del ana="end"/> nurses <del ana="start"
-                  rend="strikethrough"
-                  xml:id="c56-0015__Pt2__main__d5e2884"/>I<del ana="end"/>
+                 rend="strikethrough"
+                 xml:id="c56-0015__Pt2__main__d5e2881"/>m<del ana="end"/> nurses <del ana="start"
+                 rend="strikethrough"
+                 xml:id="c56-0015__Pt2__main__d5e2884"/>I<del ana="end"/>
          </seg>
          <seg xml:id="C07_app1094-fMS">his disposition was</seg>
          <seg xml:id="C07_app1095-fMS">gentle</seg>
@@ -1387,8 +1387,8 @@
          <seg xml:id="C07_app1099-fMS">William</seg> the  <seg xml:id="C07_app1101-fMS">younge <mod xml:id="c56-0015__Pt2__main__d5e2896">
                <mdel ana="start"/>er<mdel ana="end"/>
                <add hand="#pbs"
-                     place="intralinear"
-                     xml:id="c56-0015__Pt2__main__d5e2900">st </add>
+                    place="intralinear"
+                    xml:id="c56-0015__Pt2__main__d5e2900">st </add>
             </mod>
          </seg> of  <seg xml:id="C07_app1103-fMS">our</seg>
          <seg xml:id="C07_app1104-fMS">
@@ -1423,8 +1423,8 @@
             <lb n="c56-0016__left_margin__1"/>
             <mod xml:id="c56-0016__left_margin__d5e2957">
                <del ana="start"
-                     rend="strikethrough"
-                     xml:id="c56-0016__left_margin__d5e2959"/>we none<del ana="end"/>
+                    rend="strikethrough"
+                    xml:id="c56-0016__left_margin__d5e2959"/>we none<del ana="end"/>
                <add place="superlinear" xml:id="c56-0016__left_margin__d5e2962">
                   <seg part="F" xml:id="C07_app1126-fMS__F">neither</seg>
                </add>

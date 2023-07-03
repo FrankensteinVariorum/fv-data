@@ -1,7 +1,7 @@
 <?xml version="1.1" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
-      xmlns:fv="https://frankensteinvariorum.github.io"
-      xmlns:tei="http://www.tei-c.org/ns/1.0">
+     xmlns:fv="https://frankensteinvariorum.github.io"
+     xmlns:tei="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -19,7 +19,7 @@
          <sourceDesc>
             <p>Produced from a corpus of collation output files for
                                                 the Frankenstein Variorum digital edition on
-                                                  2023-06-26T17:38:17.346488-04:00.</p>
+                                                  2023-07-03T15:05:05.554118-04:00.</p>
          </sourceDesc>
       </fileDesc>
    </teiHeader>
@@ -98,13 +98,13 @@
                   <lb n="c56-0031__left_margin__1"/>
                   <lb n="c56-0031__left_margin__2"/>
                   <del ana="start"
-                        rend="strikethrough"
-                        xml:id="c56-0031__left_margin__d5e6201"/>circumstance<del ana="end"/>
+                       rend="strikethrough"
+                       xml:id="c56-0031__left_margin__d5e6201"/>circumstance<del ana="end"/>
                   <lb n="c56-0031__left_margin__3"/>
                   <mdel/>
                   <del ana="start"
-                        rend="strikethrough"
-                        xml:id="c56-0031__left_margin__d5e6212"/>was had<del ana="end"/>
+                       rend="strikethrough"
+                       xml:id="c56-0031__left_margin__d5e6212"/>was had<del ana="end"/>
                   <lb n="c56-0031__left_margin__4"/>state</seg> of  <seg xml:id="C09_app52-fMS">mind had <lb n="c56-0031__left_margin__5"/>place</seg>
                <seg part="I" xml:id="C09_app53-fMS__I">
                   <metamark ana="start" function="displacement"/>X<metamark ana="end"/>
@@ -272,9 +272,9 @@
          </seg> improved so  <seg xml:id="C09_app139-fMS">rapidly that</seg> at the end <lb n="c56-0032__main__26"/>of <seg xml:id="C09_app141-fMS">the two</seg>
          <seg xml:id="C09_app142-fMS">years</seg> I made  <seg part="I" xml:id="C09_app144-fMS__I">
             <del ana="start"
-                  next="#c-56.0032.07"
-                  rend="strikethrough"
-                  xml:id="c56-0032__main__d5e6540"/>one or two<del ana="end"/>
+                 next="#c-56.0032.07"
+                 rend="strikethrough"
+                 xml:id="c56-0032__main__d5e6540"/>one or two<del ana="end"/>
          </seg>
          <add hand="#pbs" place="intralinear" xml:id="c56-0032__main__d5e6543">
             <seg part="F" xml:id="C09_app144-fMS__F">some</seg>
@@ -451,9 +451,9 @@
                <mdel ana="start"/>h<mdel ana="end"/>
             </seg>
             <add hand="#pbs"
-                  next="#c56-0034.01"
-                  place="superlinear"
-                  xml:id="c56-0034__main__d5e6956">
+                 next="#c56-0034.01"
+                 place="superlinear"
+                 xml:id="c56-0034__main__d5e6956">
                <seg part="F" xml:id="C09_app236-fMS__F">object</seg>
                <seg part="I" xml:id="C09_app237-fMS__I">
                   <del ana="start" rend="strikethrough" xml:id="c56-0034__main__d5e6958"/>calculated to<del ana="end"/>
@@ -737,9 +737,9 @@
                <add hand="#pbs" place="intralinear" xml:id="c56-0036__main__d5e7604">; </add>
             </mod>
             <del ana="start"
-                  next="#c56-0036.09"
-                  rend="strikethrough"
-                  xml:id="c56-0036__main__d5e7608"/>but you are<del ana="end"/>
+                 next="#c56-0036.09"
+                 rend="strikethrough"
+                 xml:id="c56-0036__main__d5e7608"/>but you are<del ana="end"/>
          </seg>
          <add hand="#pbs" place="superlinear" xml:id="c56-0036__main__d5e7612">that cannot <seg part="I" xml:id="C09_app371-fMS__I">be. </seg>
          </add>
