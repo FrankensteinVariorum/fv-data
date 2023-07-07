@@ -1,7 +1,7 @@
 <?xml version="1.1" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
-     xmlns:fv="https://frankensteinvariorum.github.io"
-     xmlns:tei="http://www.tei-c.org/ns/1.0">
+      xmlns:fv="https://frankensteinvariorum.github.io"
+      xmlns:tei="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -19,7 +19,7 @@
          <sourceDesc>
             <p>Produced from a corpus of collation output files for
                                                 the Frankenstein Variorum digital edition on
-                                                  2023-07-03T15:08:56.777961-04:00.</p>
+                                                  2023-07-07T11:31:59.9907059-04:00.</p>
          </sourceDesc>
       </fileDesc>
    </teiHeader>
@@ -51,8 +51,8 @@
             <del ana="start" rend="strikethrough" xml:id="c56-0073__main__d5e15296"/>which was<del ana="end"/> to fix <lb n="c56-0073__main__9"/>
             <anchor xml:id="c56-0073.01"/>
             <zone corresp="#c56-0073.01"
-                  type="left_margin"
-                  xml:id="c56-0073__left_margin">
+                   type="left_margin"
+                   xml:id="c56-0073__left_margin">
                <lb n="c56-0073__left_margin__1"/>
                <add xml:id="c56-0073__left_margin__d5e15307">the date of </add>
             </zone>your return</seg> and I was at first tempted <lb n="c56-0073__main__10"/>to write a few <seg xml:id="C13_app24-fMS">lines <del ana="start" rend="strikethrough" xml:id="c56-0073__main__d5e15312"/>only<del ana="end"/>
@@ -256,8 +256,8 @@
             <anchor xml:id="c56-0075.07"/>
             <lb n="c56-0075__left_margin__1"/>
             <add hand="#pbs"
-                 next="#c56-0075.06"
-                 xml:id="c56-0075__left_margin__d5e15774">At first I </add>
+                  next="#c56-0075.06"
+                  xml:id="c56-0075__left_margin__d5e15774">At first I </add>
          </seg>
          <add hand="#pbs" place="superlinear" xml:id="c56-0075__main__d5e15779">
             <seg part="F" xml:id="C13_app170-fMS__F">attempted to prevent</seg>
@@ -342,9 +342,9 @@
             </mod> yet her words <lb n="c56-0076__main__3"/>
          </seg>
          <add corresp="#c56-0076.01"
-              hand="#pbs"
-              place="interlinear"
-              xml:id="c56-0076__main__d5e15953">
+               hand="#pbs"
+               place="interlinear"
+               xml:id="c56-0076__main__d5e15953">
             <seg part="F" xml:id="C13_app224-fMS__F">
                <del ana="start" rend="strikethrough" xml:id="c56-0076__main__d5e15955"/>of th<del ana="end"/> as the cause of his</seg>
             <seg xml:id="C13_app225-fMS">death—</seg>
@@ -656,8 +656,8 @@
                <seg part="F" xml:id="C13_app473-fMS__F">
                   <metamark ana="start" function="displacement"/>X<metamark ana="end"/>
                   <del ana="start"
-                       rend="strikethrough"
-                       xml:id="c56-0079__left_margin__d5e16585"/>Lo<shi ana="start" rend="underline"/>rd Byron<shi ana="end"/>
+                        rend="strikethrough"
+                        xml:id="c56-0079__left_margin__d5e16585"/>Lo<shi ana="start" rend="underline"/>rd Byron<shi ana="end"/>
                   <del ana="end"/>
                </seg>
             </add>
@@ -671,8 +671,8 @@
                <anchor xml:id="c56-0079.03"/>
                <lb n="c56-0079__left_margin__1"/>
                <add hand="#pbs"
-                    next="#c56-0079.02"
-                    xml:id="c56-0079__left_margin__d5e16612">continued my </add>
+                     next="#c56-0079.02"
+                     xml:id="c56-0079__left_margin__d5e16612">continued my </add>
             </seg>
             <add hand="#pbs" place="superlinear" xml:id="c56-0079__main__d5e16616">
                <seg part="F" xml:id="C13_app477-fMS__F">journey</seg>

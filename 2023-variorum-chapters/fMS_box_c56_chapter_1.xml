@@ -1,7 +1,7 @@
 <?xml version="1.1" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
-     xmlns:fv="https://frankensteinvariorum.github.io"
-     xmlns:tei="http://www.tei-c.org/ns/1.0">
+      xmlns:fv="https://frankensteinvariorum.github.io"
+      xmlns:tei="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -19,7 +19,7 @@
          <sourceDesc>
             <p>Produced from a corpus of collation output files for
                                                 the Frankenstein Variorum digital edition on
-                                                  2023-07-03T15:08:56.777961-04:00.</p>
+                                                  2023-07-07T11:31:59.9907059-04:00.</p>
          </sourceDesc>
       </fileDesc>
    </teiHeader>
@@ -361,8 +361,8 @@
                   </seg>
             </add>
             <add next="#c56-0104.04"
-                 place="superlinear"
-                 xml:id="c56-0104__main__d5e21815">
+                  place="superlinear"
+                  xml:id="c56-0104__main__d5e21815">
                <seg part="F" xml:id="C14_app826-fMS__F">then the</seg>
                <seg xml:id="C14_app827-fMS">executioners</seg>
                <seg xml:id="C14_app828-fMS">their hands yet reeking with the blood of</seg>
@@ -588,8 +588,8 @@
             <mod xml:id="c56-0106__left_margin__d5e22196">
                <seg part="M" xml:id="C14_app959-fMS__M">
                   <del ana="start"
-                       rend="strikethrough"
-                       xml:id="c56-0106__left_margin__d5e22198"/>that<del ana="end"/>
+                        rend="strikethrough"
+                        xml:id="c56-0106__left_margin__d5e22198"/>that<del ana="end"/>
                </seg>
                <add place="superlinear" xml:id="c56-0106__left_margin__d5e22201">
                   <seg part="F" xml:id="C14_app959-fMS__F">which</seg>
