@@ -20,761 +20,1130 @@
             <p>Produced from collation output prepared in batch file processing
                                     on  2023-05-18 20:00:47.351794 .</p>
             <p>Edited to correct alignments and prepared for the Frankenstein
-                                    Variorum spine on 2023-06-27T21:33:45.179109-04:00.</p>
+                                    Variorum spine on 2023-07-07T10:57:08.7210744-04:00.</p>
          </sourceDesc>
       </fileDesc>
    </teiHeader>
    <text>
       <body>
          <ab type="alignmentChunk">
-            <app xml:id="C03_app2" n="1">
+            <app xml:id="C03_app1" n="9">
+               <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
+                        n="∅"
+                        xml:id="C03_app1_rg_empty">
+                  <rdg wit="#fMS"/>
+               </rdgGrp>
+               <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
+                        n="['', '', 'letter ii.']"
+                        xml:id="C03_app1_rg1">
+                  <rdg wit="#f1818"/>
+                  <rdg wit="#f1823"/>
+                  <rdg wit="#fThomas"/>
+                  <rdg wit="#f1831"/>
+               </rdgGrp>
+            </app>
+            <app xml:id="C03_app2" n="22">
+               <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
+                        n="∅"
+                        xml:id="C03_app2_rg_empty">
+                  <rdg wit="#fMS"/>
+               </rdgGrp>
                <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
                         n="[' to mrs. saville, england. ']"
                         xml:id="C03_app2_rg1">
-                  <rdg wit="#f1831">
-                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chunks/f1831_C03.xml#C03_app2-f1831"/>
-                  </rdg>
+                  <rdg wit="#f1831"/>
                </rdgGrp>
                <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
                         n="[' to mrs. saville, england.']"
                         xml:id="C03_app2_rg2">
-                  <rdg wit="#f1823">
-                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chunks/f1823_C03.xml#C03_app2-f1823"/>
-                  </rdg>
+                  <rdg wit="#f1823"/>
                </rdgGrp>
                <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
                         n="['to', 'mrs.', 'saville,', 'england.']"
                         xml:id="C03_app2_rg3">
-                  <rdg wit="#f1818">
-                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chunks/f1818_C03.xml#C03_app2-f1818"/>
-                  </rdg>
-                  <rdg wit="#fThomas">
-                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chunks/fThomas_C03.xml#C03_app2-fThomas"/>
-                  </rdg>
+                  <rdg wit="#f1818"/>
+                  <rdg wit="#fThomas"/>
                </rdgGrp>
             </app>
-            <app xml:id="C03_app4" n="1">
+            <app xml:id="C03_app3" n="77">
+               <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
+                        n="∅"
+                        xml:id="C03_app3_rg_empty">
+                  <rdg wit="#fMS"/>
+               </rdgGrp>
+               <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
+                        n="['&lt;p-start/&gt;', 'archangel,', '28th', 'march,', '17—.', '&lt;p-end/&gt;', '&lt;p-start/&gt;', 'how', 'slowly', 'the', 'time', 'passes', 'here,', 'encompassed', 'as', 'i', 'am', 'by', 'frost', 'and']"
+                        xml:id="C03_app3_rg1">
+                  <rdg wit="#f1818"/>
+                  <rdg wit="#f1823"/>
+                  <rdg wit="#fThomas"/>
+                  <rdg wit="#f1831"/>
+               </rdgGrp>
+            </app>
+            <app xml:id="C03_app4" n="5">
+               <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
+                        n="∅"
+                        xml:id="C03_app4_rg_empty">
+                  <rdg wit="#fMS"/>
+               </rdgGrp>
                <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
                         n="['snow!']"
                         xml:id="C03_app4_rg1">
-                  <rdg wit="#f1831">
-                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chunks/f1831_C03.xml#C03_app4-f1831"/>
-                  </rdg>
+                  <rdg wit="#f1831"/>
                </rdgGrp>
                <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
                         n="['snow;']"
                         xml:id="C03_app4_rg2">
-                  <rdg wit="#f1818">
-                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chunks/f1818_C03.xml#C03_app4-f1818"/>
-                  </rdg>
-                  <rdg wit="#f1823">
-                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chunks/f1823_C03.xml#C03_app4-f1823"/>
-                  </rdg>
-                  <rdg wit="#fThomas">
-                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chunks/fThomas_C03.xml#C03_app4-fThomas"/>
-                  </rdg>
+                  <rdg wit="#f1818"/>
+                  <rdg wit="#f1823"/>
+                  <rdg wit="#fThomas"/>
                </rdgGrp>
             </app>
-            <app xml:id="C03_app6" n="1">
+            <app xml:id="C03_app5" n="115">
+               <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
+                        n="∅"
+                        xml:id="C03_app5_rg_empty">
+                  <rdg wit="#fMS"/>
+               </rdgGrp>
+               <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
+                        n="['yet', 'a', 'second', 'step', 'is', 'taken', 'towards', 'my', 'enterprise.', 'i', 'have', 'hired', 'a', 'vessel,', 'and', 'am', 'occupied', 'in', 'collecting', 'my', 'sailors;', 'those', 'whom', 'i', 'have', 'already']"
+                        xml:id="C03_app5_rg1">
+                  <rdg wit="#f1818"/>
+                  <rdg wit="#f1823"/>
+                  <rdg wit="#fThomas"/>
+                  <rdg wit="#f1831"/>
+               </rdgGrp>
+            </app>
+            <app xml:id="C03_app6" n="8">
+               <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
+                        n="∅"
+                        xml:id="C03_app6_rg_empty">
+                  <rdg wit="#fMS"/>
+               </rdgGrp>
                <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
                         n="['engaged']"
                         xml:id="C03_app6_rg1">
-                  <rdg wit="#f1818">
-                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chunks/f1818_C03.xml#C03_app6-f1818"/>
-                  </rdg>
-                  <rdg wit="#f1823">
-                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chunks/f1823_C03.xml#C03_app6-f1823"/>
-                  </rdg>
-                  <rdg wit="#fThomas">
-                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chunks/fThomas_C03.xml#C03_app6-fThomas"/>
-                  </rdg>
+                  <rdg wit="#f1818"/>
+                  <rdg wit="#f1823"/>
+                  <rdg wit="#fThomas"/>
                </rdgGrp>
                <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
                         n="['engaged,']"
                         xml:id="C03_app6_rg2">
-                  <rdg wit="#f1831">
-                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chunks/f1831_C03.xml#C03_app6-f1831"/>
-                  </rdg>
+                  <rdg wit="#f1831"/>
                </rdgGrp>
             </app>
-            <app xml:id="C03_app8" n="1">
+            <app xml:id="C03_app7" n="469">
+               <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
+                        n="∅"
+                        xml:id="C03_app7_rg_empty">
+                  <rdg wit="#fMS"/>
+               </rdgGrp>
+               <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
+                        n="['appear', 'to', 'be', 'men', 'on', 'whom', 'i', 'can', 'depend,', 'and', 'are', 'certainly', 'possessed', 'of', 'dauntless', 'courage.', '&lt;p-end/&gt;', '&lt;p-start/&gt;', 'but', 'i', 'have', 'one', 'want', 'which', 'i', 'have', 'never', 'yet', 'been', 'able', 'to', 'satisfy;', 'and', 'the', 'absence', 'of', 'the', 'object', 'of', 'which', 'i', 'now', 'feel', 'as', 'a', 'most', 'severe', 'evil.', 'i', 'have', 'no', 'friend,', 'margaret:', 'when', 'i', 'am', 'glowing', 'with', 'the', 'enthusiasm', 'of', 'success,', 'there', 'will', 'be', 'none', 'to', 'participate', 'my', 'joy;', 'if', 'i', 'am', 'assailed', 'by', 'disappointment,', 'no', 'one', 'will', 'endeavour', 'to', 'sustain', 'me', 'in', 'dejection.', 'i', 'shall', 'commit', 'my', 'thoughts', 'to', 'paper,', 'it', 'is', 'true;', 'but', 'that', 'is', 'a', 'poor', 'medium', 'for', 'the', 'communication', 'of', 'feeling.', 'i', 'desire', 'the', 'company', 'of', 'a', 'man', 'who', 'could']"
+                        xml:id="C03_app7_rg1">
+                  <rdg wit="#f1818"/>
+                  <rdg wit="#f1823"/>
+                  <rdg wit="#fThomas"/>
+                  <rdg wit="#f1831"/>
+               </rdgGrp>
+            </app>
+            <app xml:id="C03_app8" n="10">
+               <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
+                        n="∅"
+                        xml:id="C03_app8_rg_empty">
+                  <rdg wit="#fMS"/>
+               </rdgGrp>
                <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
                         n="['sympathise']"
                         xml:id="C03_app8_rg1">
-                  <rdg wit="#f1831">
-                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chunks/f1831_C03.xml#C03_app8-f1831"/>
-                  </rdg>
+                  <rdg wit="#f1831"/>
                </rdgGrp>
                <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
                         n="['sympathize']"
                         xml:id="C03_app8_rg2">
-                  <rdg wit="#f1818">
-                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chunks/f1818_C03.xml#C03_app8-f1818"/>
-                  </rdg>
-                  <rdg wit="#f1823">
-                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chunks/f1823_C03.xml#C03_app8-f1823"/>
-                  </rdg>
-                  <rdg wit="#fThomas">
-                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chunks/fThomas_C03.xml#C03_app8-fThomas"/>
-                  </rdg>
+                  <rdg wit="#f1818"/>
+                  <rdg wit="#f1823"/>
+                  <rdg wit="#fThomas"/>
                </rdgGrp>
             </app>
-            <app xml:id="C03_app10" n="1">
+            <app xml:id="C03_app9" n="785">
+               <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
+                        n="∅"
+                        xml:id="C03_app9_rg_empty">
+                  <rdg wit="#fMS"/>
+               </rdgGrp>
+               <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
+                        n="['with', 'me;', 'whose', 'eyes', 'would', 'reply', 'to', 'mine.', 'you', 'may', 'deem', 'me', 'romantic,', 'my', 'dear', 'sister,', 'but', 'i', 'bitterly', 'feel', 'the', 'want', 'of', 'a', 'friend.', 'i', 'have', 'no', 'one', 'near', 'me,', 'gentle', 'yet', 'courageous,', 'possessed', 'of', 'a', 'cultivated', 'as', 'well', 'as', 'of', 'a', 'capacious', 'mind,', 'whose', 'tastes', 'are', 'like', 'my', 'own,', 'to', 'approve', 'or', 'amend', 'my', 'plans.', 'how', 'would', 'such', 'a', 'friend', 'repair', 'the', 'faults', 'of', 'your', 'poor', 'brother!', 'i', 'am', 'too', 'ardent', 'in', 'execution,', 'and', 'too', 'impatient', 'of', 'difficulties.', 'but', 'it', 'is', 'a', 'still', 'greater', 'evil', 'to', 'me', 'that', 'i', 'am', 'self-educated:', 'for', 'the', 'first', 'fourteen', 'years', 'of', 'my', 'life', 'i', 'ran', 'wild', 'on', 'a', 'common,', 'and', 'read', 'nothing', 'but', 'our', 'uncle', 'thomas’s', 'books', 'of', 'voyages.', 'at', 'that', 'age', 'i', 'became', 'acquainted', 'with', 'the', 'celebrated', 'poets', 'of', 'our', 'own', 'country;', 'but', 'it', 'was', 'only', 'when', 'it', 'had', 'ceased', 'to', 'be', 'in', 'my', 'power', 'to', 'derive', 'its', 'most', 'important', 'benefits', 'from', 'such', 'a', 'conviction,', 'that', 'i', 'perceived', 'the', 'necessity', 'of', 'becoming', 'acquainted', 'with', 'more', 'languages', 'than', 'that', 'of', 'my', 'native', 'country.', 'now', 'i', 'am', 'twenty-eight,', 'and', 'am', 'in', 'reality', 'more', 'illiterate', 'than', 'many']"
+                        xml:id="C03_app9_rg1">
+                  <rdg wit="#f1818"/>
+                  <rdg wit="#f1823"/>
+                  <rdg wit="#fThomas"/>
+                  <rdg wit="#f1831"/>
+               </rdgGrp>
+            </app>
+            <app xml:id="C03_app10" n="11">
+               <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
+                        n="∅"
+                        xml:id="C03_app10_rg_empty">
+                  <rdg wit="#fMS"/>
+               </rdgGrp>
                <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
                         n="['school-boys']"
                         xml:id="C03_app10_rg1">
-                  <rdg wit="#f1818">
-                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chunks/f1818_C03.xml#C03_app10-f1818"/>
-                  </rdg>
-                  <rdg wit="#f1823">
-                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chunks/f1823_C03.xml#C03_app10-f1823"/>
-                  </rdg>
-                  <rdg wit="#fThomas">
-                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chunks/fThomas_C03.xml#C03_app10-fThomas"/>
-                  </rdg>
+                  <rdg wit="#f1818"/>
+                  <rdg wit="#f1823"/>
+                  <rdg wit="#fThomas"/>
                </rdgGrp>
                <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
                         n="['schoolboys']"
                         xml:id="C03_app10_rg2">
-                  <rdg wit="#f1831">
-                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chunks/f1831_C03.xml#C03_app10-f1831"/>
-                  </rdg>
+                  <rdg wit="#f1831"/>
                </rdgGrp>
             </app>
-            <app xml:id="C03_app12" n="54">
+            <app xml:id="C03_app11" n="524">
+               <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
+                        n="∅"
+                        xml:id="C03_app11_rg_empty">
+                  <rdg wit="#fMS"/>
+               </rdgGrp>
+               <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
+                        n="['of', 'fifteen.', 'it', 'is', 'true', 'that', 'i', 'have', 'thought', 'more,', 'and', 'that', 'my', 'day', 'dreams', 'are', 'more', 'extended', 'and', 'magnificent;', 'but', 'they', 'want', '(as', 'the', 'painters', 'call', 'it)', 'keeping;', 'and', 'i', 'greatly', 'need', 'a', 'friend', 'who', 'would', 'have', 'sense', 'enough', 'not', 'to', 'despise', 'me', 'as', 'romantic,', 'and', 'affection', 'enough', 'for', 'me', 'to', 'endeavour', 'to', 'regulate', 'my', 'mind.', '&lt;p-end/&gt;', '&lt;p-start/&gt;', 'well,', 'these', 'are', 'useless', 'complaints;', 'i', 'shall', 'certainly', 'find', 'no', 'friend', 'on', 'the', 'wide', 'ocean,', 'nor', 'even', 'here', 'in', 'archangel,', 'among', 'merchants', 'and', 'seamen.', 'yet', 'some', 'feelings,', 'unallied', 'to', 'the', 'dross', 'of', 'human', 'nature,', 'beat', 'even', 'in', 'these', 'rugged', 'bosoms.', 'my', 'lieutenant,', 'for', 'instance,', 'is', 'a', 'man', 'of', 'wonderful', 'courage', 'and', 'enterprise;', 'he', 'is', 'madly', 'desirous']"
+                        xml:id="C03_app11_rg1">
+                  <rdg wit="#f1818"/>
+                  <rdg wit="#f1823"/>
+                  <rdg wit="#fThomas"/>
+                  <rdg wit="#f1831"/>
+               </rdgGrp>
+            </app>
+            <app xml:id="C03_app12" n="56">
+               <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
+                        n="∅"
+                        xml:id="C03_app12_rg_empty">
+                  <rdg wit="#fMS"/>
+               </rdgGrp>
                <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
                         n="['of']"
                         xml:id="C03_app12_rg1">
-                  <rdg wit="#f1818">
-                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chunks/f1818_C03.xml#C03_app12-f1818"/>
-                  </rdg>
-                  <rdg wit="#f1823">
-                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chunks/f1823_C03.xml#C03_app12-f1823"/>
-                  </rdg>
-                  <rdg wit="#fThomas">
-                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chunks/fThomas_C03.xml#C03_app12-fThomas"/>
-                  </rdg>
+                  <rdg wit="#f1818"/>
+                  <rdg wit="#f1823"/>
+                  <rdg wit="#fThomas"/>
                </rdgGrp>
                <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
                         n="['of', 'glory:', 'or', 'rather,', 'to', 'word', 'my', 'phrase', 'more', 'characteristically,', 'of']"
                         xml:id="C03_app12_rg2">
-                  <rdg wit="#f1831">
-                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chunks/f1831_C03.xml#C03_app12-f1831"/>
-                  </rdg>
+                  <rdg wit="#f1831"/>
                </rdgGrp>
             </app>
-            <app xml:id="C03_app13" n="25">
+            <app xml:id="C03_app13" n="27">
+               <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
+                        n="∅"
+                        xml:id="C03_app13_rg_empty">
+                  <rdg wit="#fMS"/>
+               </rdgGrp>
                <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
                         n="['advancement', 'in', 'his', 'profession.']"
                         xml:id="C03_app13_rg1">
-                  <rdg wit="#f1831">
-                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chunks/f1831_C03.xml#C03_app13-f1831"/>
-                  </rdg>
+                  <rdg wit="#f1831"/>
                </rdgGrp>
                <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
                         n="['glory.']"
                         xml:id="C03_app13_rg2">
-                  <rdg wit="#f1818">
-                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chunks/f1818_C03.xml#C03_app13-f1818"/>
-                  </rdg>
-                  <rdg wit="#f1823">
-                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chunks/f1823_C03.xml#C03_app13-f1823"/>
-                  </rdg>
-                  <rdg wit="#fThomas">
-                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chunks/fThomas_C03.xml#C03_app13-fThomas"/>
-                  </rdg>
+                  <rdg wit="#f1818"/>
+                  <rdg wit="#f1823"/>
+                  <rdg wit="#fThomas"/>
                </rdgGrp>
             </app>
-            <app xml:id="C03_app15" n="1">
+            <app xml:id="C03_app14" n="333">
+               <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
+                        n="∅"
+                        xml:id="C03_app14_rg_empty">
+                  <rdg wit="#fMS"/>
+               </rdgGrp>
+               <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
+                        n="['he', 'is', 'an', 'englishman,', 'and', 'in', 'the', 'midst', 'of', 'national', 'and', 'professional', 'prejudices,', 'unsoftened', 'by', 'cultivation,', 'retains', 'some', 'of', 'the', 'noblest', 'endowments', 'of', 'humanity.', 'i', 'first', 'became', 'acquainted', 'with', 'him', 'on', 'board', 'a', 'whale', 'vessel:', 'finding', 'that', 'he', 'was', 'unemployed', 'in', 'this', 'city,', 'i', 'easily', 'engaged', 'him', 'to', 'assist', 'in', 'my', 'enterprise.', '&lt;p-end/&gt;', '&lt;p-start/&gt;', 'the', 'master', 'is', 'a', 'person', 'of', 'an', 'excellent', 'disposition,', 'and', 'is', 'remarkable', 'in', 'the', 'ship', 'for', 'his']"
+                        xml:id="C03_app14_rg1">
+                  <rdg wit="#f1818"/>
+                  <rdg wit="#f1823"/>
+                  <rdg wit="#fThomas"/>
+                  <rdg wit="#f1831"/>
+               </rdgGrp>
+            </app>
+            <app xml:id="C03_app15" n="11">
+               <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
+                        n="∅"
+                        xml:id="C03_app15_rg_empty">
+                  <rdg wit="#fMS"/>
+               </rdgGrp>
                <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
                         n="['gentleness']"
                         xml:id="C03_app15_rg1">
-                  <rdg wit="#f1823">
-                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chunks/f1823_C03.xml#C03_app15-f1823"/>
-                  </rdg>
-                  <rdg wit="#f1831">
-                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chunks/f1831_C03.xml#C03_app15-f1831"/>
-                  </rdg>
+                  <rdg wit="#f1823"/>
+                  <rdg wit="#f1831"/>
                </rdgGrp>
                <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
                         n="['gentleness,']"
                         xml:id="C03_app15_rg2">
-                  <rdg wit="#f1818">
-                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chunks/f1818_C03.xml#C03_app15-f1818"/>
-                  </rdg>
-                  <rdg wit="#fThomas">
-                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chunks/fThomas_C03.xml#C03_app15-fThomas"/>
-                  </rdg>
+                  <rdg wit="#f1818"/>
+                  <rdg wit="#fThomas"/>
                </rdgGrp>
             </app>
-            <app xml:id="C03_app17" n="160">
+            <app xml:id="C03_app16" n="30">
+               <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
+                        n="∅"
+                        xml:id="C03_app16_rg_empty">
+                  <rdg wit="#fMS"/>
+               </rdgGrp>
+               <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
+                        n="['and', 'the', 'mildness', 'of', 'his', 'discipline.']"
+                        xml:id="C03_app16_rg1">
+                  <rdg wit="#f1818"/>
+                  <rdg wit="#f1823"/>
+                  <rdg wit="#fThomas"/>
+                  <rdg wit="#f1831"/>
+               </rdgGrp>
+            </app>
+            <app xml:id="C03_app17" n="173">
+               <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
+                        n="∅"
+                        xml:id="C03_app17_rg_empty">
+                  <rdg wit="#fMS"/>
+               </rdgGrp>
                <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
                         n="['he', 'is,', 'indeed,', 'of']"
                         xml:id="C03_app17_rg1">
-                  <rdg wit="#f1818">
-                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chunks/f1818_C03.xml#C03_app17-f1818"/>
-                  </rdg>
-                  <rdg wit="#f1823">
-                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chunks/f1823_C03.xml#C03_app17-f1823"/>
-                  </rdg>
-                  <rdg wit="#fThomas">
-                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chunks/fThomas_C03.xml#C03_app17-fThomas"/>
-                  </rdg>
+                  <rdg wit="#f1818"/>
+                  <rdg wit="#f1823"/>
+                  <rdg wit="#fThomas"/>
                </rdgGrp>
                <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
                         n="['this', 'circumstance,', 'added', 'to', 'his', 'well', 'known', 'integrity', 'and', 'dauntless', 'courage,', 'made', 'me', 'very', 'desirous', 'to', 'engage', 'him.', 'a', 'youth', 'passed', 'in', 'solitude,', 'my', 'best', 'years', 'spent', 'under', 'your', 'gentle', 'and', 'feminine', 'fosterage,', 'has']"
                         xml:id="C03_app17_rg2">
-                  <rdg wit="#f1831">
-                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chunks/f1831_C03.xml#C03_app17-f1831"/>
-                  </rdg>
+                  <rdg wit="#f1831"/>
                </rdgGrp>
             </app>
-            <app xml:id="C03_app19" n="28">
+            <app xml:id="C03_app18" n="2">
+               <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
+                        n="∅"
+                        xml:id="C03_app18_rg_empty">
+                  <rdg wit="#fMS"/>
+               </rdgGrp>
+               <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
+                        n="['so']"
+                        xml:id="C03_app18_rg1">
+                  <rdg wit="#f1818"/>
+                  <rdg wit="#f1823"/>
+                  <rdg wit="#fThomas"/>
+                  <rdg wit="#f1831"/>
+               </rdgGrp>
+            </app>
+            <app xml:id="C03_app19" n="34">
+               <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
+                        n="∅"
+                        xml:id="C03_app19_rg_empty">
+                  <rdg wit="#fMS"/>
+               </rdgGrp>
                <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
                         n="['amiable', 'a', 'nature,']"
                         xml:id="C03_app19_rg1">
-                  <rdg wit="#f1818">
-                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chunks/f1818_C03.xml#C03_app19-f1818"/>
-                  </rdg>
-                  <rdg wit="#f1823">
-                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chunks/f1823_C03.xml#C03_app19-f1823"/>
-                  </rdg>
-                  <rdg wit="#fThomas">
-                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chunks/fThomas_C03.xml#C03_app19-fThomas"/>
-                  </rdg>
+                  <rdg wit="#f1818"/>
+                  <rdg wit="#f1823"/>
+                  <rdg wit="#fThomas"/>
                </rdgGrp>
                <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
                         n="['refined', 'the', 'groundwork', 'of', 'my', 'character,']"
                         xml:id="C03_app19_rg2">
-                  <rdg wit="#f1831">
-                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chunks/f1831_C03.xml#C03_app19-f1831"/>
-                  </rdg>
+                  <rdg wit="#f1831"/>
                </rdgGrp>
             </app>
-            <app xml:id="C03_app21" n="91">
+            <app xml:id="C03_app20" n="4">
+               <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
+                        n="∅"
+                        xml:id="C03_app20_rg_empty">
+                  <rdg wit="#fMS"/>
+               </rdgGrp>
+               <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
+                        n="['that']"
+                        xml:id="C03_app20_rg1">
+                  <rdg wit="#f1818"/>
+                  <rdg wit="#f1823"/>
+                  <rdg wit="#fThomas"/>
+                  <rdg wit="#f1831"/>
+               </rdgGrp>
+            </app>
+            <app xml:id="C03_app21" n="106">
+               <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
+                        n="∅"
+                        xml:id="C03_app21_rg_empty">
+                  <rdg wit="#fMS"/>
+               </rdgGrp>
                <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
                         n="['he', 'will', 'not', 'hunt', '(a', 'favourite,']"
                         xml:id="C03_app21_rg1">
-                  <rdg wit="#f1818">
-                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chunks/f1818_C03.xml#C03_app21-f1818"/>
-                  </rdg>
-                  <rdg wit="#f1823">
-                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chunks/f1823_C03.xml#C03_app21-f1823"/>
-                  </rdg>
-                  <rdg wit="#fThomas">
-                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chunks/fThomas_C03.xml#C03_app21-fThomas"/>
-                  </rdg>
+                  <rdg wit="#f1818"/>
+                  <rdg wit="#f1823"/>
+                  <rdg wit="#fThomas"/>
                </rdgGrp>
                <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
                         n="['i', 'cannot', 'overcome', 'an', 'intense', 'distaste', 'to', 'the', 'usual', 'brutality', 'exercised', 'on', 'board', 'ship:', 'i', 'have', 'never', 'believed', 'it', 'to', 'be', 'necessary;']"
                         xml:id="C03_app21_rg2">
-                  <rdg wit="#f1831">
-                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chunks/f1831_C03.xml#C03_app21-f1831"/>
-                  </rdg>
+                  <rdg wit="#f1831"/>
                </rdgGrp>
             </app>
-            <app xml:id="C03_app23" n="54">
+            <app xml:id="C03_app22" n="3">
+               <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
+                        n="∅"
+                        xml:id="C03_app22_rg_empty">
+                  <rdg wit="#fMS"/>
+               </rdgGrp>
+               <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
+                        n="['and']"
+                        xml:id="C03_app22_rg1">
+                  <rdg wit="#f1818"/>
+                  <rdg wit="#f1823"/>
+                  <rdg wit="#fThomas"/>
+                  <rdg wit="#f1831"/>
+               </rdgGrp>
+            </app>
+            <app xml:id="C03_app23" n="59">
+               <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
+                        n="∅"
+                        xml:id="C03_app23_rg_empty">
+                  <rdg wit="#fMS"/>
+               </rdgGrp>
                <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
                         n="['almost']"
                         xml:id="C03_app23_rg1">
-                  <rdg wit="#f1818">
-                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chunks/f1818_C03.xml#C03_app23-f1818"/>
-                  </rdg>
-                  <rdg wit="#f1823">
-                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chunks/f1823_C03.xml#C03_app23-f1823"/>
-                  </rdg>
-                  <rdg wit="#fThomas">
-                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chunks/fThomas_C03.xml#C03_app23-fThomas"/>
-                  </rdg>
+                  <rdg wit="#f1818"/>
+                  <rdg wit="#f1823"/>
+                  <rdg wit="#fThomas"/>
                </rdgGrp>
                <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
                         n="['when', 'i', 'heard', 'of', 'a', 'mariner', 'equally', 'noted', 'for', 'his', 'kindliness', 'of', 'heart,', 'and']"
                         xml:id="C03_app23_rg2">
-                  <rdg wit="#f1831">
-                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chunks/f1831_C03.xml#C03_app23-f1831"/>
-                  </rdg>
+                  <rdg wit="#f1831"/>
                </rdgGrp>
             </app>
-            <app xml:id="C03_app25" n="129">
+            <app xml:id="C03_app24" n="3">
+               <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
+                        n="∅"
+                        xml:id="C03_app24_rg_empty">
+                  <rdg wit="#fMS"/>
+               </rdgGrp>
+               <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
+                        n="['the']"
+                        xml:id="C03_app24_rg1">
+                  <rdg wit="#f1818"/>
+                  <rdg wit="#f1823"/>
+                  <rdg wit="#fThomas"/>
+                  <rdg wit="#f1831"/>
+               </rdgGrp>
+            </app>
+            <app xml:id="C03_app25" n="155">
+               <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
+                        n="∅"
+                        xml:id="C03_app25_rg_empty">
+                  <rdg wit="#fMS"/>
+               </rdgGrp>
                <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
                         n="['only', 'amusement', 'here),', 'because', 'he', 'cannot', 'endure']"
                         xml:id="C03_app25_rg1">
-                  <rdg wit="#f1818">
-                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chunks/f1818_C03.xml#C03_app25-f1818"/>
-                  </rdg>
-                  <rdg wit="#f1823">
-                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chunks/f1823_C03.xml#C03_app25-f1823"/>
-                  </rdg>
-                  <rdg wit="#fThomas">
-                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chunks/fThomas_C03.xml#C03_app25-fThomas"/>
-                  </rdg>
+                  <rdg wit="#f1818"/>
+                  <rdg wit="#f1823"/>
+                  <rdg wit="#fThomas"/>
                </rdgGrp>
                <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
                         n="['respect', 'and', 'obedience', 'paid', 'to', 'him', 'by', 'his', 'crew,', 'i', 'felt', 'myself', 'peculiarly', 'fortunate', 'in', 'being', 'able', 'to', 'secure', 'his', 'services.', 'i', 'heard', 'of', 'him', 'first', 'in', 'rather', 'a', 'romantic', 'manner,', 'from', 'a', 'lady', 'who', 'owes']"
                         xml:id="C03_app25_rg2">
-                  <rdg wit="#f1831">
-                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chunks/f1831_C03.xml#C03_app25-f1831"/>
-                  </rdg>
+                  <rdg wit="#f1831"/>
                </rdgGrp>
             </app>
-            <app xml:id="C03_app27" n="42">
+            <app xml:id="C03_app26" n="2">
+               <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
+                        n="∅"
+                        xml:id="C03_app26_rg_empty">
+                  <rdg wit="#fMS"/>
+               </rdgGrp>
+               <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
+                        n="['to']"
+                        xml:id="C03_app26_rg1">
+                  <rdg wit="#f1818"/>
+                  <rdg wit="#f1823"/>
+                  <rdg wit="#fThomas"/>
+                  <rdg wit="#f1831"/>
+               </rdgGrp>
+            </app>
+            <app xml:id="C03_app27" n="49">
+               <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
+                        n="∅"
+                        xml:id="C03_app27_rg_empty">
+                  <rdg wit="#fMS"/>
+               </rdgGrp>
                <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
                         n="['him', 'the', 'happiness', 'of', 'her', 'life.', 'this,', 'briefly,', 'is', 'his', 'story.']"
                         xml:id="C03_app27_rg1">
-                  <rdg wit="#f1831">
-                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chunks/f1831_C03.xml#C03_app27-f1831"/>
-                  </rdg>
+                  <rdg wit="#f1831"/>
                </rdgGrp>
                <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
                         n="['spill', 'blood.']"
                         xml:id="C03_app27_rg2">
-                  <rdg wit="#f1818">
-                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chunks/f1818_C03.xml#C03_app27-f1818"/>
-                  </rdg>
-                  <rdg wit="#f1823">
-                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chunks/f1823_C03.xml#C03_app27-f1823"/>
-                  </rdg>
-                  <rdg wit="#fThomas">
-                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chunks/fThomas_C03.xml#C03_app27-fThomas"/>
-                  </rdg>
+                  <rdg wit="#f1818"/>
+                  <rdg wit="#f1823"/>
+                  <rdg wit="#fThomas"/>
                </rdgGrp>
             </app>
-            <app xml:id="C03_app28" n="137">
+            <app xml:id="C03_app28" n="166">
+               <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
+                        n="∅"
+                        xml:id="C03_app28_rg_empty">
+                  <rdg wit="#f1831"/>
+                  <rdg wit="#fMS"/>
+               </rdgGrp>
                <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
                         n="['&lt;del&gt;he is, moreover, heroically generous.&lt;/del&gt;', 'i will relate to you an anecdote of his life, recounted to me by the parties themselves, which exemplifies the generosity, i had almost said the heroism of his nature.']"
                         xml:id="C03_app28_rg1">
-                  <rdg wit="#fThomas">
-                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chunks/fThomas_C03.xml#C03_app28-fThomas"/>
-                  </rdg>
+                  <rdg wit="#fThomas"/>
                </rdgGrp>
                <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
                         n="['he', 'is,', 'moreover,', 'heroically', 'generous.']"
                         xml:id="C03_app28_rg2">
-                  <rdg wit="#f1818">
-                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chunks/f1818_C03.xml#C03_app28-f1818"/>
-                  </rdg>
-                  <rdg wit="#f1823">
-                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chunks/f1823_C03.xml#C03_app28-f1823"/>
-                  </rdg>
+                  <rdg wit="#f1818"/>
+                  <rdg wit="#f1823"/>
                </rdgGrp>
             </app>
-            <app xml:id="C03_app30" n="1">
+            <app xml:id="C03_app29" n="434">
+               <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
+                        n="∅"
+                        xml:id="C03_app29_rg_empty">
+                  <rdg wit="#fMS"/>
+               </rdgGrp>
+               <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
+                        n="['some', 'years', 'ago', 'he', 'loved', 'a', 'young', 'russian', 'lady,', 'of', 'moderate', 'fortune;', 'and', 'having', 'amassed', 'a', 'considerable', 'sum', 'in', 'prize-money,', 'the', 'father', 'of', 'the', 'girl', 'consented', 'to', 'the', 'match.', 'he', 'saw', 'his', 'mistress', 'once', 'before', 'the', 'destined', 'ceremony;', 'but', 'she', 'was', 'bathed', 'in', 'tears,', 'and,', 'throwing', 'herself', 'at', 'his', 'feet,', 'entreated', 'him', 'to', 'spare', 'her,', 'confessing', 'at', 'the', 'same', 'time', 'that', 'she', 'loved', 'another,', 'but', 'that', 'he', 'was', 'poor,', 'and', 'that', 'her', 'father', 'would', 'never', 'consent', 'to', 'the', 'union.', 'my', 'generous', 'friend', 'reassured', 'the', 'suppliant,', 'and', 'on', 'being', 'informed', 'of', 'the', 'name', 'of', 'her']"
+                        xml:id="C03_app29_rg1">
+                  <rdg wit="#f1818"/>
+                  <rdg wit="#f1823"/>
+                  <rdg wit="#fThomas"/>
+                  <rdg wit="#f1831"/>
+               </rdgGrp>
+            </app>
+            <app xml:id="C03_app30" n="6">
+               <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
+                        n="∅"
+                        xml:id="C03_app30_rg_empty">
+                  <rdg wit="#fMS"/>
+               </rdgGrp>
                <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
                         n="['lover']"
                         xml:id="C03_app30_rg1">
-                  <rdg wit="#f1818">
-                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chunks/f1818_C03.xml#C03_app30-f1818"/>
-                  </rdg>
-                  <rdg wit="#f1823">
-                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chunks/f1823_C03.xml#C03_app30-f1823"/>
-                  </rdg>
-                  <rdg wit="#fThomas">
-                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chunks/fThomas_C03.xml#C03_app30-fThomas"/>
-                  </rdg>
+                  <rdg wit="#f1818"/>
+                  <rdg wit="#f1823"/>
+                  <rdg wit="#fThomas"/>
                </rdgGrp>
                <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
                         n="['lover,']"
                         xml:id="C03_app30_rg2">
-                  <rdg wit="#f1831">
-                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chunks/f1831_C03.xml#C03_app30-f1831"/>
-                  </rdg>
+                  <rdg wit="#f1831"/>
                </rdgGrp>
             </app>
-            <app xml:id="C03_app32" n="0">
+            <app xml:id="C03_app31" n="59">
+               <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
+                        n="∅"
+                        xml:id="C03_app31_rg_empty">
+                  <rdg wit="#fMS"/>
+               </rdgGrp>
+               <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
+                        n="['instantly', 'abandoned', 'his', 'pursuit.', 'he', 'had', 'already', 'bought', 'a', 'farm', 'with', 'his']"
+                        xml:id="C03_app31_rg1">
+                  <rdg wit="#f1818"/>
+                  <rdg wit="#f1823"/>
+                  <rdg wit="#fThomas"/>
+                  <rdg wit="#f1831"/>
+               </rdgGrp>
+            </app>
+            <app xml:id="C03_app32" n="8">
+               <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
+                        n="∅"
+                        xml:id="C03_app32_rg_empty">
+                  <rdg wit="#fMS"/>
+               </rdgGrp>
                <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
                         n="['money,', 'on']"
                         xml:id="C03_app32_rg1">
-                  <rdg wit="#f1818">
-                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chunks/f1818_C03.xml#C03_app32-f1818"/>
-                  </rdg>
-                  <rdg wit="#fThomas">
-                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chunks/fThomas_C03.xml#C03_app32-fThomas"/>
-                  </rdg>
-                  <rdg wit="#f1831">
-                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chunks/f1831_C03.xml#C03_app32-f1831"/>
-                  </rdg>
+                  <rdg wit="#f1818"/>
+                  <rdg wit="#fThomas"/>
+                  <rdg wit="#f1831"/>
                </rdgGrp>
                <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
                         n="['money,on']"
                         xml:id="C03_app32_rg2">
-                  <rdg wit="#f1823">
-                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chunks/f1823_C03.xml#C03_app32-f1823"/>
-                  </rdg>
+                  <rdg wit="#f1823"/>
                </rdgGrp>
             </app>
-            <app xml:id="C03_app34" n="25">
+            <app xml:id="C03_app33" n="463">
+               <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
+                        n="∅"
+                        xml:id="C03_app33_rg_empty">
+                  <rdg wit="#fMS"/>
+               </rdgGrp>
+               <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
+                        n="['which', 'he', 'had', 'designed', 'to', 'pass', 'the', 'remainder', 'of', 'his', 'life;', 'but', 'he', 'bestowed', 'the', 'whole', 'on', 'his', 'rival,', 'together', 'with', 'the', 'remains', 'of', 'his', 'prize-money', 'to', 'purchase', 'stock,', 'and', 'then', 'himself', 'solicited', 'the', 'young', 'woman’s', 'father', 'to', 'consent', 'to', 'her', 'marriage', 'with', 'her', 'lover.', 'but', 'the', 'old', 'man', 'decidedly', 'refused,', 'thinking', 'himself', 'bound', 'in', 'honour', 'to', 'my', 'friend;', 'who,', 'when', 'he', 'found', 'the', 'father', 'inexorable,', 'quitted', 'his', 'country,', 'nor', 'returned', 'until', 'he', 'heard', 'that', 'his', 'former', 'mistress', 'was', 'married', 'according', 'to', 'her', 'inclinations.', '&#34;what', 'a', 'noble', 'fellow!&#34;', 'you', 'will', 'exclaim.', 'he', 'is', 'so;', 'but', 'then', 'he']"
+                        xml:id="C03_app33_rg1">
+                  <rdg wit="#f1818"/>
+                  <rdg wit="#f1823"/>
+                  <rdg wit="#fThomas"/>
+                  <rdg wit="#f1831"/>
+               </rdgGrp>
+            </app>
+            <app xml:id="C03_app34" n="33">
+               <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
+                        n="∅"
+                        xml:id="C03_app34_rg_empty">
+                  <rdg wit="#fMS"/>
+               </rdgGrp>
                <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
                         n="['has', 'passed', 'all', 'his', 'life', 'on', 'board']"
                         xml:id="C03_app34_rg1">
-                  <rdg wit="#f1818">
-                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chunks/f1818_C03.xml#C03_app34-f1818"/>
-                  </rdg>
-                  <rdg wit="#f1823">
-                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chunks/f1823_C03.xml#C03_app34-f1823"/>
-                  </rdg>
-                  <rdg wit="#fThomas">
-                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chunks/fThomas_C03.xml#C03_app34-fThomas"/>
-                  </rdg>
+                  <rdg wit="#f1818"/>
+                  <rdg wit="#f1823"/>
+                  <rdg wit="#fThomas"/>
                </rdgGrp>
                <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
                         n="['is', 'wholly', 'uneducated:', 'he', 'is', 'as', 'silent', 'as']"
                         xml:id="C03_app34_rg2">
-                  <rdg wit="#f1831">
-                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chunks/f1831_C03.xml#C03_app34-f1831"/>
-                  </rdg>
+                  <rdg wit="#f1831"/>
                </rdgGrp>
             </app>
-            <app xml:id="C03_app36" n="6">
+            <app xml:id="C03_app35" n="1">
+               <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
+                        n="∅"
+                        xml:id="C03_app35_rg_empty">
+                  <rdg wit="#fMS"/>
+               </rdgGrp>
+               <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
+                        n="['a']"
+                        xml:id="C03_app35_rg1">
+                  <rdg wit="#f1818"/>
+                  <rdg wit="#f1823"/>
+                  <rdg wit="#fThomas"/>
+                  <rdg wit="#f1831"/>
+               </rdgGrp>
+            </app>
+            <app xml:id="C03_app36" n="7">
+               <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
+                        n="∅"
+                        xml:id="C03_app36_rg_empty">
+                  <rdg wit="#fMS"/>
+               </rdgGrp>
                <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
                         n="['turk,']"
                         xml:id="C03_app36_rg1">
-                  <rdg wit="#f1831">
-                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chunks/f1831_C03.xml#C03_app36-f1831"/>
-                  </rdg>
+                  <rdg wit="#f1831"/>
                </rdgGrp>
                <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
                         n="['vessel,']"
                         xml:id="C03_app36_rg2">
-                  <rdg wit="#f1818">
-                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chunks/f1818_C03.xml#C03_app36-f1818"/>
-                  </rdg>
-                  <rdg wit="#f1823">
-                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chunks/f1823_C03.xml#C03_app36-f1823"/>
-                  </rdg>
-                  <rdg wit="#fThomas">
-                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chunks/fThomas_C03.xml#C03_app36-fThomas"/>
-                  </rdg>
+                  <rdg wit="#f1818"/>
+                  <rdg wit="#f1823"/>
+                  <rdg wit="#fThomas"/>
                </rdgGrp>
             </app>
-            <app xml:id="C03_app38" n="55">
+            <app xml:id="C03_app37" n="3">
+               <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
+                        n="∅"
+                        xml:id="C03_app37_rg_empty">
+                  <rdg wit="#fMS"/>
+               </rdgGrp>
+               <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
+                        n="['and']"
+                        xml:id="C03_app37_rg1">
+                  <rdg wit="#f1818"/>
+                  <rdg wit="#f1823"/>
+                  <rdg wit="#fThomas"/>
+                  <rdg wit="#f1831"/>
+               </rdgGrp>
+            </app>
+            <app xml:id="C03_app38" n="68">
+               <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
+                        n="∅"
+                        xml:id="C03_app38_rg_empty">
+                  <rdg wit="#fMS"/>
+               </rdgGrp>
                <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
                         n="['a', 'kind', 'of', 'ignorant', 'carelessness', 'attends', 'him,', 'which,', 'while', 'it', 'renders', 'his', 'conduct']"
                         xml:id="C03_app38_rg1">
-                  <rdg wit="#f1831">
-                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chunks/f1831_C03.xml#C03_app38-f1831"/>
-                  </rdg>
+                  <rdg wit="#f1831"/>
                </rdgGrp>
                <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
                         n="['has', 'scarcely', 'an', 'idea', 'beyond']"
                         xml:id="C03_app38_rg2">
-                  <rdg wit="#f1818">
-                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chunks/f1818_C03.xml#C03_app38-f1818"/>
-                  </rdg>
-                  <rdg wit="#f1823">
-                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chunks/f1823_C03.xml#C03_app38-f1823"/>
-                  </rdg>
-                  <rdg wit="#fThomas">
-                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chunks/fThomas_C03.xml#C03_app38-fThomas"/>
-                  </rdg>
+                  <rdg wit="#f1818"/>
+                  <rdg wit="#f1823"/>
+                  <rdg wit="#fThomas"/>
                </rdgGrp>
             </app>
-            <app xml:id="C03_app40" n="36">
+            <app xml:id="C03_app39" n="3">
+               <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
+                        n="∅"
+                        xml:id="C03_app39_rg_empty">
+                  <rdg wit="#fMS"/>
+               </rdgGrp>
+               <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
+                        n="['the']"
+                        xml:id="C03_app39_rg1">
+                  <rdg wit="#f1818"/>
+                  <rdg wit="#f1823"/>
+                  <rdg wit="#fThomas"/>
+                  <rdg wit="#f1831"/>
+               </rdgGrp>
+            </app>
+            <app xml:id="C03_app40" n="39">
+               <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
+                        n="∅"
+                        xml:id="C03_app40_rg_empty">
+                  <rdg wit="#fMS"/>
+               </rdgGrp>
                <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
                         n="['&lt;del&gt;rope&lt;/del&gt;', 'ship']"
                         xml:id="C03_app40_rg1">
-                  <rdg wit="#fThomas">
-                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chunks/fThomas_C03.xml#C03_app40-fThomas"/>
-                  </rdg>
+                  <rdg wit="#fThomas"/>
                </rdgGrp>
                <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
                         n="['more', 'astonishing,', 'detracts', 'from', 'the', 'interest']"
                         xml:id="C03_app40_rg2">
-                  <rdg wit="#f1831">
-                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chunks/f1831_C03.xml#C03_app40-f1831"/>
-                  </rdg>
+                  <rdg wit="#f1831"/>
                </rdgGrp>
                <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
                         n="['rope']"
                         xml:id="C03_app40_rg3">
-                  <rdg wit="#f1818">
-                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chunks/f1818_C03.xml#C03_app40-f1818"/>
-                  </rdg>
-                  <rdg wit="#f1823">
-                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chunks/f1823_C03.xml#C03_app40-f1823"/>
-                  </rdg>
+                  <rdg wit="#f1818"/>
+                  <rdg wit="#f1823"/>
                </rdgGrp>
             </app>
-            <app xml:id="C03_app42" n="34">
+            <app xml:id="C03_app41" n="3">
+               <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
+                        n="∅"
+                        xml:id="C03_app41_rg_empty">
+                  <rdg wit="#fMS"/>
+               </rdgGrp>
+               <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
+                        n="['and']"
+                        xml:id="C03_app41_rg1">
+                  <rdg wit="#f1818"/>
+                  <rdg wit="#f1823"/>
+                  <rdg wit="#fThomas"/>
+                  <rdg wit="#f1831"/>
+               </rdgGrp>
+            </app>
+            <app xml:id="C03_app42" n="37">
+               <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
+                        n="∅"
+                        xml:id="C03_app42_rg_empty">
+                  <rdg wit="#fMS"/>
+               </rdgGrp>
                <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
                         n="['sympathy', 'which', 'otherwise', 'he', 'would', 'command.']"
                         xml:id="C03_app42_rg1">
-                  <rdg wit="#f1831">
-                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chunks/f1831_C03.xml#C03_app42-f1831"/>
-                  </rdg>
+                  <rdg wit="#f1831"/>
                </rdgGrp>
                <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
                         n="['the']"
                         xml:id="C03_app42_rg2">
-                  <rdg wit="#f1818">
-                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chunks/f1818_C03.xml#C03_app42-f1818"/>
-                  </rdg>
-                  <rdg wit="#f1823">
-                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chunks/f1823_C03.xml#C03_app42-f1823"/>
-                  </rdg>
-                  <rdg wit="#fThomas">
-                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chunks/fThomas_C03.xml#C03_app42-fThomas"/>
-                  </rdg>
+                  <rdg wit="#f1818"/>
+                  <rdg wit="#f1823"/>
+                  <rdg wit="#fThomas"/>
                </rdgGrp>
             </app>
-            <app xml:id="C03_app43" n="4">
+            <app xml:id="C03_app43" n="11">
+               <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
+                        n="∅"
+                        xml:id="C03_app43_rg_empty">
+                  <rdg wit="#f1831"/>
+                  <rdg wit="#fMS"/>
+               </rdgGrp>
                <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
                         n="['&lt;del&gt;shroud&lt;/del&gt;', 'crew', '.']"
                         xml:id="C03_app43_rg1">
-                  <rdg wit="#fThomas">
-                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chunks/fThomas_C03.xml#C03_app43-fThomas"/>
-                  </rdg>
+                  <rdg wit="#fThomas"/>
                </rdgGrp>
                <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
                         n="['shroud.']"
                         xml:id="C03_app43_rg2">
-                  <rdg wit="#f1818">
-                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chunks/f1818_C03.xml#C03_app43-f1818"/>
-                  </rdg>
-                  <rdg wit="#f1823">
-                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chunks/f1823_C03.xml#C03_app43-f1823"/>
-                  </rdg>
+                  <rdg wit="#f1818"/>
+                  <rdg wit="#f1823"/>
                </rdgGrp>
             </app>
-            <app xml:id="C03_app45" n="2">
+            <app xml:id="C03_app44" n="0">
+               <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
+                        n="∅"
+                        xml:id="C03_app44_rg_empty">
+                  <rdg wit="#fMS"/>
+               </rdgGrp>
+               <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
+                        n="['&lt;p-end/&gt;', '&lt;p-start/&gt;']"
+                        xml:id="C03_app44_rg1">
+                  <rdg wit="#f1818"/>
+                  <rdg wit="#f1823"/>
+                  <rdg wit="#fThomas"/>
+                  <rdg wit="#f1831"/>
+               </rdgGrp>
+            </app>
+            <app xml:id="C03_app45" n="3">
+               <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
+                        n="∅"
+                        xml:id="C03_app45_rg_empty">
+                  <rdg wit="#fMS"/>
+               </rdgGrp>
                <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
                         n="['but']"
                         xml:id="C03_app45_rg1">
-                  <rdg wit="#f1818">
-                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chunks/f1818_C03.xml#C03_app45-f1818"/>
-                  </rdg>
-                  <rdg wit="#f1823">
-                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chunks/f1823_C03.xml#C03_app45-f1823"/>
-                  </rdg>
-                  <rdg wit="#fThomas">
-                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chunks/fThomas_C03.xml#C03_app45-fThomas"/>
-                  </rdg>
+                  <rdg wit="#f1818"/>
+                  <rdg wit="#f1823"/>
+                  <rdg wit="#fThomas"/>
                </rdgGrp>
                <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
                         n="['yet']"
                         xml:id="C03_app45_rg2">
-                  <rdg wit="#f1831">
-                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chunks/f1831_C03.xml#C03_app45-f1831"/>
-                  </rdg>
+                  <rdg wit="#f1831"/>
                </rdgGrp>
             </app>
-            <app xml:id="C03_app47" n="4">
+            <app xml:id="C03_app46" n="5">
+               <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
+                        n="∅"
+                        xml:id="C03_app46_rg_empty">
+                  <rdg wit="#fMS"/>
+               </rdgGrp>
+               <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
+                        n="['do', 'not']"
+                        xml:id="C03_app46_rg1">
+                  <rdg wit="#f1818"/>
+                  <rdg wit="#f1823"/>
+                  <rdg wit="#fThomas"/>
+                  <rdg wit="#f1831"/>
+               </rdgGrp>
+            </app>
+            <app xml:id="C03_app47" n="12">
+               <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
+                        n="∅"
+                        xml:id="C03_app47_rg_empty">
+                  <rdg wit="#fMS"/>
+               </rdgGrp>
                <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
                         n="['suppose', 'that,']"
                         xml:id="C03_app47_rg1">
-                  <rdg wit="#f1818">
-                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chunks/f1818_C03.xml#C03_app47-f1818"/>
-                  </rdg>
-                  <rdg wit="#f1823">
-                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chunks/f1823_C03.xml#C03_app47-f1823"/>
-                  </rdg>
-                  <rdg wit="#fThomas">
-                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chunks/fThomas_C03.xml#C03_app47-fThomas"/>
-                  </rdg>
+                  <rdg wit="#f1818"/>
+                  <rdg wit="#f1823"/>
+                  <rdg wit="#fThomas"/>
                </rdgGrp>
                <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
                         n="['suppose,']"
                         xml:id="C03_app47_rg2">
-                  <rdg wit="#f1831">
-                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chunks/f1831_C03.xml#C03_app47-f1831"/>
-                  </rdg>
+                  <rdg wit="#f1831"/>
                </rdgGrp>
             </app>
-            <app xml:id="C03_app49" n="2">
+            <app xml:id="C03_app48" n="308">
+               <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
+                        n="∅"
+                        xml:id="C03_app48_rg_empty">
+                  <rdg wit="#fMS"/>
+               </rdgGrp>
+               <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
+                        n="['because', 'i', 'complain', 'a', 'little,', 'or', 'because', 'i', 'can', 'conceive', 'a', 'consolation', 'for', 'my', 'toils', 'which', 'i', 'may', 'never', 'know,', 'that', 'i', 'am', 'wavering', 'in', 'my', 'resolutions.', 'those', 'are', 'as', 'fixed', 'as', 'fate;', 'and', 'my', 'voyage', 'is', 'only', 'now', 'delayed', 'until', 'the', 'weather', 'shall', 'permit', 'my', 'embarkation.', 'the', 'winter', 'has', 'been', 'dreadfully', 'severe;', 'but', 'the', 'spring', 'promises', 'well,', 'and', 'it', 'is', 'considered', 'as', 'a', 'remarkably', 'early', 'season;', 'so']"
+                        xml:id="C03_app48_rg1">
+                  <rdg wit="#f1818"/>
+                  <rdg wit="#f1823"/>
+                  <rdg wit="#fThomas"/>
+                  <rdg wit="#f1831"/>
+               </rdgGrp>
+            </app>
+            <app xml:id="C03_app49" n="13">
+               <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
+                        n="∅"
+                        xml:id="C03_app49_rg_empty">
+                  <rdg wit="#fMS"/>
+               </rdgGrp>
                <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
                         n="['that', 'perhaps']"
                         xml:id="C03_app49_rg1">
-                  <rdg wit="#f1823">
-                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chunks/f1823_C03.xml#C03_app49-f1823"/>
-                  </rdg>
-                  <rdg wit="#f1831">
-                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chunks/f1831_C03.xml#C03_app49-f1831"/>
-                  </rdg>
+                  <rdg wit="#f1823"/>
+                  <rdg wit="#f1831"/>
                </rdgGrp>
                <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
                         n="['that,', 'perhaps,']"
                         xml:id="C03_app49_rg2">
-                  <rdg wit="#f1818">
-                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chunks/f1818_C03.xml#C03_app49-f1818"/>
-                  </rdg>
-                  <rdg wit="#fThomas">
-                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chunks/fThomas_C03.xml#C03_app49-fThomas"/>
-                  </rdg>
+                  <rdg wit="#f1818"/>
+                  <rdg wit="#fThomas"/>
                </rdgGrp>
             </app>
-            <app xml:id="C03_app51" n="1">
+            <app xml:id="C03_app50" n="43">
+               <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
+                        n="∅"
+                        xml:id="C03_app50_rg_empty">
+                  <rdg wit="#fMS"/>
+               </rdgGrp>
+               <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
+                        n="['i', 'may', 'sail', 'sooner', 'than', 'i', 'expected.', 'i', 'shall', 'do', 'nothing']"
+                        xml:id="C03_app50_rg1">
+                  <rdg wit="#f1818"/>
+                  <rdg wit="#f1823"/>
+                  <rdg wit="#fThomas"/>
+                  <rdg wit="#f1831"/>
+               </rdgGrp>
+            </app>
+            <app xml:id="C03_app51" n="7">
+               <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
+                        n="∅"
+                        xml:id="C03_app51_rg_empty">
+                  <rdg wit="#fMS"/>
+               </rdgGrp>
                <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
                         n="['rashly:']"
                         xml:id="C03_app51_rg1">
-                  <rdg wit="#f1823">
-                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chunks/f1823_C03.xml#C03_app51-f1823"/>
-                  </rdg>
-                  <rdg wit="#f1831">
-                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chunks/f1831_C03.xml#C03_app51-f1831"/>
-                  </rdg>
+                  <rdg wit="#f1823"/>
+                  <rdg wit="#f1831"/>
                </rdgGrp>
                <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
                         n="['rashly;']"
                         xml:id="C03_app51_rg2">
-                  <rdg wit="#f1818">
-                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chunks/f1818_C03.xml#C03_app51-f1818"/>
-                  </rdg>
-                  <rdg wit="#fThomas">
-                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chunks/fThomas_C03.xml#C03_app51-fThomas"/>
-                  </rdg>
+                  <rdg wit="#f1818"/>
+                  <rdg wit="#fThomas"/>
                </rdgGrp>
             </app>
-            <app xml:id="C03_app53" n="1">
+            <app xml:id="C03_app52" n="45">
+               <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
+                        n="∅"
+                        xml:id="C03_app52_rg_empty">
+                  <rdg wit="#fMS"/>
+               </rdgGrp>
+               <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
+                        n="['you', 'know', 'me', 'sufficiently', 'to', 'confide', 'in', 'my', 'prudence', 'and']"
+                        xml:id="C03_app52_rg1">
+                  <rdg wit="#f1818"/>
+                  <rdg wit="#f1823"/>
+                  <rdg wit="#fThomas"/>
+                  <rdg wit="#f1831"/>
+               </rdgGrp>
+            </app>
+            <app xml:id="C03_app53" n="16">
+               <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
+                        n="∅"
+                        xml:id="C03_app53_rg_empty">
+                  <rdg wit="#fMS"/>
+               </rdgGrp>
                <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
                         n="['considerateness']"
                         xml:id="C03_app53_rg1">
-                  <rdg wit="#f1818">
-                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chunks/f1818_C03.xml#C03_app53-f1818"/>
-                  </rdg>
-                  <rdg wit="#f1823">
-                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chunks/f1823_C03.xml#C03_app53-f1823"/>
-                  </rdg>
-                  <rdg wit="#fThomas">
-                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chunks/fThomas_C03.xml#C03_app53-fThomas"/>
-                  </rdg>
+                  <rdg wit="#f1818"/>
+                  <rdg wit="#f1823"/>
+                  <rdg wit="#fThomas"/>
                </rdgGrp>
                <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
                         n="['considerateness,']"
                         xml:id="C03_app53_rg2">
-                  <rdg wit="#f1831">
-                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chunks/f1831_C03.xml#C03_app53-f1831"/>
-                  </rdg>
+                  <rdg wit="#f1831"/>
                </rdgGrp>
             </app>
-            <app xml:id="C03_app55" n="27">
+            <app xml:id="C03_app54" n="290">
+               <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
+                        n="∅"
+                        xml:id="C03_app54_rg_empty">
+                  <rdg wit="#fMS"/>
+               </rdgGrp>
+               <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
+                        n="['whenever', 'the', 'safety', 'of', 'others', 'is', 'committed', 'to', 'my', 'care.', '&lt;p-end/&gt;', '&lt;p-start/&gt;', 'i', 'cannot', 'describe', 'to', 'you', 'my', 'sensations', 'on', 'the', 'near', 'prospect', 'of', 'my', 'undertaking.', 'it', 'is', 'impossible', 'to', 'communicate', 'to', 'you', 'a', 'conception', 'of', 'the', 'trembling', 'sensation,', 'half', 'pleasurable', 'and', 'half', 'fearful,', 'with', 'which', 'i', 'am', 'preparing', 'to', 'depart.', 'i', 'am', 'going', 'to', 'unexplored', 'regions,', 'to', '&#34;the', 'land', 'of', 'mist', 'and', 'snow;&#34;']"
+                        xml:id="C03_app54_rg1">
+                  <rdg wit="#f1818"/>
+                  <rdg wit="#f1823"/>
+                  <rdg wit="#fThomas"/>
+                  <rdg wit="#f1831"/>
+               </rdgGrp>
+            </app>
+            <app xml:id="C03_app55" n="75">
+               <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
+                        n="∅"
+                        xml:id="C03_app55_rg_empty">
+                  <rdg wit="#fMS"/>
+               </rdgGrp>
                <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
                         n="['but', 'i', 'shall', 'kill', 'no', 'albatross,', 'therefore', 'do', 'not', 'be', 'alarmed']"
                         xml:id="C03_app55_rg1">
-                  <rdg wit="#f1818">
-                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chunks/f1818_C03.xml#C03_app55-f1818"/>
-                  </rdg>
-                  <rdg wit="#f1823">
-                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chunks/f1823_C03.xml#C03_app55-f1823"/>
-                  </rdg>
-                  <rdg wit="#f1831">
-                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chunks/f1831_C03.xml#C03_app55-f1831"/>
-                  </rdg>
+                  <rdg wit="#f1818"/>
+                  <rdg wit="#f1823"/>
+                  <rdg wit="#f1831"/>
                </rdgGrp>
                <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
                         n="[&#34;&lt;note&gt;coleridge's antient mariner.&lt;/note&gt;&#34;, 'but', 'i', 'shall', 'kill', 'no', 'albatross,', 'therefore', 'do', 'not', 'be', 'alarmed']"
                         xml:id="C03_app55_rg2">
-                  <rdg wit="#fThomas">
-                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chunks/fThomas_C03.xml#C03_app55-fThomas"/>
-                  </rdg>
+                  <rdg wit="#fThomas"/>
                </rdgGrp>
             </app>
-            <app xml:id="C03_app56" n="428">
+            <app xml:id="C03_app56" n="431">
+               <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
+                        n="∅"
+                        xml:id="C03_app56_rg_empty">
+                  <rdg wit="#fMS"/>
+               </rdgGrp>
                <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
                         n="['for']"
                         xml:id="C03_app56_rg1">
-                  <rdg wit="#f1818">
-                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chunks/f1818_C03.xml#C03_app56-f1818"/>
-                  </rdg>
-                  <rdg wit="#f1823">
-                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chunks/f1823_C03.xml#C03_app56-f1823"/>
-                  </rdg>
-                  <rdg wit="#fThomas">
-                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chunks/fThomas_C03.xml#C03_app56-fThomas"/>
-                  </rdg>
+                  <rdg wit="#f1818"/>
+                  <rdg wit="#f1823"/>
+                  <rdg wit="#fThomas"/>
                </rdgGrp>
                <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
                         n="['for', 'my', 'safety,', 'or', 'if', 'i', 'should', 'come', 'back', 'to', 'you', 'as', 'worn', 'and', 'woful', 'as', 'the', '&#34;ancient', 'mariner?&#34;', 'you', 'will', 'smile', 'at', 'my', 'allusion;', 'but', 'i', 'will', 'disclose', 'a', 'secret.', 'i', 'have', 'often', 'attributed', 'my', 'attachment', 'to,', 'my', 'passionate', 'enthusiasm', 'for,', 'the', 'dangerous', 'mysteries', 'of', 'the', 'ocean,', 'to', 'that', 'production', 'of', 'the', 'most', 'imaginative', 'of', 'modern', 'poets.', 'there', 'is', 'something', 'at', 'work', 'in', 'my', 'soul,', 'which', 'i', 'do', 'not', 'understand.', 'i', 'am', 'practically', 'industrious—pains-taking;—a', 'workman', 'to', 'execute', 'with', 'perseverance', 'and', 'labour:—but', 'besides', 'this,', 'there', 'is', 'a', 'love', 'for']"
                         xml:id="C03_app56_rg2">
-                  <rdg wit="#f1831">
-                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chunks/f1831_C03.xml#C03_app56-f1831"/>
-                  </rdg>
+                  <rdg wit="#f1831"/>
                </rdgGrp>
             </app>
-            <app xml:id="C03_app57" n="53">
+            <app xml:id="C03_app57" n="55">
+               <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
+                        n="∅"
+                        xml:id="C03_app57_rg_empty">
+                  <rdg wit="#fMS"/>
+               </rdgGrp>
                <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
                         n="['my']"
                         xml:id="C03_app57_rg1">
-                  <rdg wit="#f1818">
-                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chunks/f1818_C03.xml#C03_app57-f1818"/>
-                  </rdg>
-                  <rdg wit="#f1823">
-                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chunks/f1823_C03.xml#C03_app57-f1823"/>
-                  </rdg>
-                  <rdg wit="#fThomas">
-                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chunks/fThomas_C03.xml#C03_app57-fThomas"/>
-                  </rdg>
+                  <rdg wit="#f1818"/>
+                  <rdg wit="#f1823"/>
+                  <rdg wit="#fThomas"/>
                </rdgGrp>
                <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
                         n="['the', 'marvellous,', 'a', 'belief', 'in', 'the', 'marvellous,', 'intertwined', 'in', 'all', 'my']"
                         xml:id="C03_app57_rg2">
-                  <rdg wit="#f1831">
-                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chunks/f1831_C03.xml#C03_app57-f1831"/>
-                  </rdg>
+                  <rdg wit="#f1831"/>
                </rdgGrp>
             </app>
-            <app xml:id="C03_app58" n="98">
+            <app xml:id="C03_app58" n="104">
+               <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
+                        n="∅"
+                        xml:id="C03_app58_rg_empty">
+                  <rdg wit="#fMS"/>
+               </rdgGrp>
                <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
                         n="['projects,', 'which', 'hurries', 'me', 'out', 'of', 'the', 'common', 'pathways', 'of', 'men,', 'even', 'to', 'the', 'wild', 'sea', 'and', 'unvisited', 'regions', 'i', 'am', 'about', 'to', 'explore.']"
                         xml:id="C03_app58_rg1">
-                  <rdg wit="#f1831">
-                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chunks/f1831_C03.xml#C03_app58-f1831"/>
-                  </rdg>
+                  <rdg wit="#f1831"/>
                </rdgGrp>
                <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
                         n="['safety.']"
                         xml:id="C03_app58_rg2">
-                  <rdg wit="#f1818">
-                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chunks/f1818_C03.xml#C03_app58-f1818"/>
-                  </rdg>
-                  <rdg wit="#f1823">
-                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chunks/f1823_C03.xml#C03_app58-f1823"/>
-                  </rdg>
-                  <rdg wit="#fThomas">
-                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chunks/fThomas_C03.xml#C03_app58-fThomas"/>
-                  </rdg>
+                  <rdg wit="#f1818"/>
+                  <rdg wit="#f1823"/>
+                  <rdg wit="#fThomas"/>
                </rdgGrp>
             </app>
-            <app xml:id="C03_app60" n="34">
+            <app xml:id="C03_app59" n="0">
+               <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
+                        n="∅"
+                        xml:id="C03_app59_rg_empty">
+                  <rdg wit="#fMS"/>
+               </rdgGrp>
+               <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
+                        n="['&lt;p-end/&gt;', '&lt;p-start/&gt;']"
+                        xml:id="C03_app59_rg1">
+                  <rdg wit="#f1818"/>
+                  <rdg wit="#f1823"/>
+                  <rdg wit="#fThomas"/>
+                  <rdg wit="#f1831"/>
+               </rdgGrp>
+            </app>
+            <app xml:id="C03_app60" n="214">
+               <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
+                        n="∅"
+                        xml:id="C03_app60_rg_empty">
+                  <rdg wit="#fMS"/>
+               </rdgGrp>
                <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
                         n="['shall', 'i', 'meet', 'you', 'again,', 'after', 'having', 'traversed', 'immense', 'seas,', 'and', 'returned', 'by', 'the', 'most', 'southern', 'cape', 'of', 'africa', 'or', 'america?', 'i', 'dare', 'not', 'expect', 'such', 'success,', 'yet', 'i', 'cannot', 'bear', 'to', 'look', 'on', 'the', 'reverse', 'of', 'the', 'picture.', 'continue']"
                         xml:id="C03_app60_rg1">
-                  <rdg wit="#f1818">
-                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chunks/f1818_C03.xml#C03_app60-f1818"/>
-                  </rdg>
-                  <rdg wit="#f1823">
-                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chunks/f1823_C03.xml#C03_app60-f1823"/>
-                  </rdg>
-                  <rdg wit="#fThomas">
-                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chunks/fThomas_C03.xml#C03_app60-fThomas"/>
-                  </rdg>
+                  <rdg wit="#f1818"/>
+                  <rdg wit="#f1823"/>
+                  <rdg wit="#fThomas"/>
                </rdgGrp>
                <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
                         n="['but', 'to', 'return', 'to', 'dearer', 'considerations.', 'shall', 'i', 'meet', 'you', 'again,', 'after', 'having', 'traversed', 'immense', 'seas,', 'and', 'returned', 'by', 'the', 'most', 'southern', 'cape', 'of', 'africa', 'or', 'america?', 'i', 'dare', 'not', 'expect', 'such', 'success,', 'yet', 'i', 'cannot', 'bear', 'to', 'look', 'on', 'the', 'reverse', 'of', 'the', 'picture.', 'continue']"
                         xml:id="C03_app60_rg2">
-                  <rdg wit="#f1831">
-                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chunks/f1831_C03.xml#C03_app60-f1831"/>
-                  </rdg>
+                  <rdg wit="#f1831"/>
                </rdgGrp>
             </app>
-            <app xml:id="C03_app61" n="13">
+            <app xml:id="C03_app61" n="65">
+               <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
+                        n="∅"
+                        xml:id="C03_app61_rg_empty">
+                  <rdg wit="#fMS"/>
+               </rdgGrp>
                <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
                         n="['to', 'write', 'to', 'me', 'by', 'every', 'opportunity:', 'i', 'may', 'receive', 'your', 'letters']"
                         xml:id="C03_app61_rg1">
-                  <rdg wit="#f1818">
-                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chunks/f1818_C03.xml#C03_app61-f1818"/>
-                  </rdg>
-                  <rdg wit="#f1823">
-                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chunks/f1823_C03.xml#C03_app61-f1823"/>
-                  </rdg>
-                  <rdg wit="#fThomas">
-                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chunks/fThomas_C03.xml#C03_app61-fThomas"/>
-                  </rdg>
+                  <rdg wit="#f1818"/>
+                  <rdg wit="#f1823"/>
+                  <rdg wit="#fThomas"/>
                </rdgGrp>
                <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
                         n="['for', 'the', 'present', 'to', 'write', 'to', 'me', 'by', 'every', 'opportunity:', 'i', 'may', 'receive', 'your', 'letters']"
                         xml:id="C03_app61_rg2">
-                  <rdg wit="#f1831">
-                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chunks/f1831_C03.xml#C03_app61-f1831"/>
-                  </rdg>
+                  <rdg wit="#f1831"/>
+               </rdgGrp>
+            </app>
+            <app xml:id="C03_app62" n="31">
+               <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
+                        n="∅"
+                        xml:id="C03_app62_rg_empty">
+                  <rdg wit="#f1831"/>
+                  <rdg wit="#fMS"/>
+               </rdgGrp>
+               <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
+                        n="['(though', 'the', 'chance', 'is', 'very', 'doubtful)']"
+                        xml:id="C03_app62_rg1">
+                  <rdg wit="#f1818"/>
+                  <rdg wit="#f1823"/>
+                  <rdg wit="#fThomas"/>
+               </rdgGrp>
+            </app>
+            <app xml:id="C03_app63" n="163">
+               <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
+                        n="∅"
+                        xml:id="C03_app63_rg_empty">
+                  <rdg wit="#fMS"/>
+               </rdgGrp>
+               <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
+                        n="['on', 'some', 'occasions', 'when', 'i', 'need', 'them', 'most', 'to', 'support', 'my', 'spirits.', 'i', 'love', 'you', 'very', 'tenderly.', 'remember', 'me', 'with', 'affection,', 'should', 'you', 'never', 'hear', 'from', 'me', 'again.', '&lt;p-end/&gt;', '&lt;p-start/&gt;', 'your', 'affectionate', 'brother,', '&lt;p-end/&gt;', '&lt;p-start/&gt;', 'robert', 'walton.', '&lt;p-end/&gt;']"
+                        xml:id="C03_app63_rg1">
+                  <rdg wit="#f1818"/>
+                  <rdg wit="#f1823"/>
+                  <rdg wit="#fThomas"/>
+                  <rdg wit="#f1831"/>
+               </rdgGrp>
+            </app>
+            <app xml:id="C03_app64" n="0">
+               <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
+                        n="∅"
+                        xml:id="C03_app64_rg_empty">
+                  <rdg wit="#f1823"/>
+                  <rdg wit="#fMS"/>
+               </rdgGrp>
+               <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
+                        n="['']"
+                        xml:id="C03_app64_rg1">
+                  <rdg wit="#f1818"/>
+                  <rdg wit="#fThomas"/>
+                  <rdg wit="#f1831"/>
+               </rdgGrp>
+            </app>
+            <app xml:id="C03_app65" n="0">
+               <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
+                        n="∅"
+                        xml:id="C03_app65_rg_empty">
+                  <rdg wit="#fMS"/>
+               </rdgGrp>
+               <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
+                        n="['']"
+                        xml:id="C03_app65_rg1">
+                  <rdg wit="#f1818"/>
+                  <rdg wit="#f1823"/>
+                  <rdg wit="#fThomas"/>
+                  <rdg wit="#f1831"/>
                </rdgGrp>
             </app>
          </ab>
