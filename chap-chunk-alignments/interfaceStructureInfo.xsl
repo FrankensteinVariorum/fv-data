@@ -10,13 +10,13 @@
     
     
     
-    <xsl:variable name="wholeCollation" as="document-node()+" select="collection('P6-Pt3-output/?select=*.xml')"/>
+    <xsl:variable name="wholeCollation" as="document-node()+" select="collection('../2023-variorum-chapters/?select=*.xml')"/>
     
-    <xsl:variable name="printCollation" as="document-node()+" select="collection('P6-Pt3-output/?select=*.xml')[.//TEI[base-uri()[not(contains(., 'MS'))]]]"/>
+    <xsl:variable name="printCollation" as="document-node()+" select="collection('../2023-variorum-chapters/?select=*.xml')[.//TEI[base-uri()[not(contains(., 'MS'))]]]"/>
     <xsl:variable name="printEdLabels" as="xs:string+" select="'1818', 'Thomas', '1823', '1831'"/>
     
     
-    <xsl:variable name="msCollation" as="document-node()+" select="collection('P6-Pt3-output/?select=*.xml')[.//TEI[base-uri()[contains(., 'MS')]]]"/>
+    <xsl:variable name="msCollation" as="document-node()+" select="collection('../2023-variorum-chapters/?select=*.xml')[.//TEI[base-uri()[contains(., 'MS')]]]"/>
     
     
     
@@ -24,8 +24,16 @@
     
     <xsl:function name="ebb:msURImaker" as="xs:string">
         <!-- CHANGE THIS BASED ON THE $LOCINFO from lb/@xml:id-->
-        <xsl:param name="locInfo" as="item()"/>
-        <xsl:value-of select="'https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/' || $locInfo ! substring-before(., '-0') || '/' || $locInfo || '.xml#' || $locInfo"/>
+      <xsl:param name="locInfo" as="item()"/>
+        <xsl:value-of select="'https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/' || 'ox-ms_abinger_' || $locInfo ! substring-before(., '-0') || '/' || 'ox-ms_abinger_' || $locInfo || '.xml#' || $locInfo"/> 
+        
+        <!-- 2023-07-10 ebb This info is from our Spine-Generator-SGALinks.xsl file and generates working links to page surfaces
+            <xsl:param name="locInfo" as="xs:string">
+            <xsl:value-of select="'https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/'"/>
+        </xsl:param>-->
+        
+        <!--ebb: This line is for pointing to original SGA file location: -->
+      <!--  <xsl:value-of select="concat($locInfo, 'ox-ms_abinger_', $ms, '/ox-ms_abinger_', $ms, '-', $surface, '.xml', '#')"/>-->
         
     </xsl:function>
      
