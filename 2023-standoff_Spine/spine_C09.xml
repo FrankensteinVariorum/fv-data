@@ -20,7 +20,7 @@
             <p>Produced from collation output prepared in batch file processing
                                     on  2023-05-18 07:39:49.913777 .</p>
             <p>Edited to correct alignments and prepared for the Frankenstein
-                                    Variorum spine on 2023-07-10T15:37:02.6622018-04:00.</p>
+                                    Variorum spine on 2023-07-12T22:36:45.6088636-04:00.</p>
          </sourceDesc>
       </fileDesc>
    </teiHeader>
@@ -29,7 +29,7 @@
          <ab type="alignmentChunk">
             <app xml:id="C09_app1" n="0">
                <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
-                        n="∅"
+                        n=""
                         xml:id="C09_app1_rg_empty">
                   <rdg wit="#f1823"/>
                   <rdg wit="#f1831"/>
@@ -38,8 +38,12 @@
                <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
                         n="['']"
                         xml:id="C09_app1_rg1">
-                  <rdg wit="#f1818"/>
-                  <rdg wit="#fThomas"/>
+                  <rdg wit="#f1818">
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1818_vol_1_chapter_ii.xml#C09_app1-f1818"/>
+                  </rdg>
+                  <rdg wit="#fThomas">
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fThomas_vol_1_chapter_ii.xml#C09_app1-fThomas"/>
+                  </rdg>
                </rdgGrp>
             </app>
             <app xml:id="C09_app3" n="7">
@@ -73,7 +77,7 @@
             </app>
             <app xml:id="C09_app4" n="0">
                <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
-                        n="∅"
+                        n=""
                         xml:id="C09_app4_rg_empty">
                   <rdg wit="#fMS"/>
                </rdgGrp>
@@ -507,7 +511,7 @@
             </app>
             <app xml:id="C09_app38" n="12">
                <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
-                        n="∅"
+                        n=""
                         xml:id="C09_app38_rg_empty">
                   <rdg wit="#f1831"/>
                </rdgGrp>
@@ -534,7 +538,7 @@
             </app>
             <app xml:id="C09_app39" n="32">
                <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
-                        n="∅"
+                        n=""
                         xml:id="C09_app39_rg_empty">
                   <rdg wit="#f1831"/>
                </rdgGrp>
@@ -557,7 +561,7 @@
             </app>
             <app xml:id="C09_app40" n="8">
                <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
-                        n="∅"
+                        n=""
                         xml:id="C09_app40_rg_empty">
                   <rdg wit="#f1831"/>
                </rdgGrp>
@@ -584,7 +588,7 @@
             </app>
             <app xml:id="C09_app41" n="8">
                <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
-                        n="∅"
+                        n=""
                         xml:id="C09_app41_rg_empty">
                   <rdg wit="#f1831"/>
                </rdgGrp>
@@ -607,7 +611,7 @@
             </app>
             <app xml:id="C09_app42" n="22">
                <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
-                        n="∅"
+                        n=""
                         xml:id="C09_app42_rg_empty">
                   <rdg wit="#f1831"/>
                </rdgGrp>
@@ -634,7 +638,7 @@
             </app>
             <app xml:id="C09_app43" n="29">
                <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
-                        n="∅"
+                        n=""
                         xml:id="C09_app43_rg_empty">
                   <rdg wit="#f1831"/>
                </rdgGrp>
@@ -686,7 +690,7 @@
             </app>
             <app xml:id="C09_app46" n="19">
                <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
-                        n="∅"
+                        n=""
                         xml:id="C09_app46_rg_empty">
                   <rdg wit="#f1831"/>
                </rdgGrp>
@@ -759,7 +763,7 @@
             </app>
             <app xml:id="C09_app50" n="23">
                <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
-                        n="∅"
+                        n=""
                         xml:id="C09_app50_rg_empty">
                   <rdg wit="#f1831"/>
                </rdgGrp>
@@ -809,7 +813,7 @@
             </app>
             <app xml:id="C09_app53" n="9">
                <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
-                        n="∅"
+                        n=""
                         xml:id="C09_app53_rg_empty">
                   <rdg wit="#f1831"/>
                </rdgGrp>
@@ -859,7 +863,7 @@
             </app>
             <app xml:id="C09_app56" n="15">
                <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
-                        n="∅"
+                        n=""
                         xml:id="C09_app56_rg_empty">
                   <rdg wit="#f1831"/>
                </rdgGrp>
@@ -884,7 +888,7 @@
             </app>
             <app xml:id="C09_app57" n="12">
                <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
-                        n="∅"
+                        n=""
                         xml:id="C09_app57_rg_empty">
                   <rdg wit="#f1831"/>
                </rdgGrp>
@@ -905,7 +909,7 @@
             </app>
             <app xml:id="C09_app58" n="8">
                <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
-                        n="∅"
+                        n=""
                         xml:id="C09_app58_rg_empty">
                   <rdg wit="#f1831"/>
                </rdgGrp>
@@ -926,7 +930,7 @@
             </app>
             <app xml:id="C09_app59" n="13">
                <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
-                        n="∅"
+                        n=""
                         xml:id="C09_app59_rg_empty">
                   <rdg wit="#f1831"/>
                </rdgGrp>
@@ -953,7 +957,7 @@
             </app>
             <app xml:id="C09_app60" n="20">
                <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
-                        n="∅"
+                        n=""
                         xml:id="C09_app60_rg_empty">
                   <rdg wit="#f1831"/>
                </rdgGrp>
@@ -980,7 +984,7 @@
             </app>
             <app xml:id="C09_app61" n="7">
                <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
-                        n="∅"
+                        n=""
                         xml:id="C09_app61_rg_empty">
                   <rdg wit="#f1831"/>
                </rdgGrp>
@@ -1003,7 +1007,7 @@
             </app>
             <app xml:id="C09_app62" n="11">
                <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
-                        n="∅"
+                        n=""
                         xml:id="C09_app62_rg_empty">
                   <rdg wit="#f1831"/>
                   <rdg wit="#fMS"/>
@@ -1024,7 +1028,7 @@
             </app>
             <app xml:id="C09_app63" n="1">
                <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
-                        n="∅"
+                        n=""
                         xml:id="C09_app63_rg_empty">
                   <rdg wit="#f1831"/>
                </rdgGrp>
@@ -1047,7 +1051,7 @@
             </app>
             <app xml:id="C09_app64" n="14">
                <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
-                        n="∅"
+                        n=""
                         xml:id="C09_app64_rg_empty">
                   <rdg wit="#f1831"/>
                </rdgGrp>
@@ -1097,7 +1101,7 @@
             </app>
             <app xml:id="C09_app67" n="12">
                <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
-                        n="∅"
+                        n=""
                         xml:id="C09_app67_rg_empty">
                   <rdg wit="#f1831"/>
                </rdgGrp>
@@ -1124,7 +1128,7 @@
             </app>
             <app xml:id="C09_app68" n="28">
                <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
-                        n="∅"
+                        n=""
                         xml:id="C09_app68_rg_empty">
                   <rdg wit="#f1831"/>
                </rdgGrp>
@@ -1147,7 +1151,7 @@
             </app>
             <app xml:id="C09_app69" n="6">
                <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
-                        n="∅"
+                        n=""
                         xml:id="C09_app69_rg_empty">
                   <rdg wit="#f1831"/>
                </rdgGrp>
@@ -1222,7 +1226,7 @@
             </app>
             <app xml:id="C09_app72" n="3">
                <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
-                        n="∅"
+                        n=""
                         xml:id="C09_app72_rg_empty">
                   <rdg wit="#f1831"/>
                </rdgGrp>
@@ -2292,7 +2296,7 @@
             </app>
             <app xml:id="C09_app148" n="3">
                <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
-                        n="∅"
+                        n=""
                         xml:id="C09_app148_rg_empty">
                   <rdg wit="#fMS"/>
                </rdgGrp>
@@ -2457,7 +2461,7 @@
             </app>
             <app xml:id="C09_app160" n="10">
                <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
-                        n="∅"
+                        n=""
                         xml:id="C09_app160_rg_empty">
                   <rdg wit="#fMS"/>
                </rdgGrp>
@@ -2684,7 +2688,7 @@
             </app>
             <app xml:id="C09_app176" n="4">
                <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
-                        n="∅"
+                        n=""
                         xml:id="C09_app176_rg_empty">
                   <rdg wit="#fMS"/>
                </rdgGrp>
@@ -4054,7 +4058,7 @@
             </app>
             <app xml:id="C09_app272" n="9">
                <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
-                        n="∅"
+                        n=""
                         xml:id="C09_app272_rg_empty">
                   <rdg wit="#fMS"/>
                </rdgGrp>
@@ -4081,7 +4085,7 @@
             </app>
             <app xml:id="C09_app273" n="7">
                <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
-                        n="∅"
+                        n=""
                         xml:id="C09_app273_rg_empty">
                   <rdg wit="#fMS"/>
                </rdgGrp>
@@ -4129,7 +4133,7 @@
             </app>
             <app xml:id="C09_app277" n="12">
                <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
-                        n="∅"
+                        n=""
                         xml:id="C09_app277_rg_empty">
                   <rdg wit="#fMS"/>
                </rdgGrp>
@@ -4177,7 +4181,7 @@
             </app>
             <app xml:id="C09_app281" n="1">
                <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
-                        n="∅"
+                        n=""
                         xml:id="C09_app281_rg_empty">
                   <rdg wit="#fMS"/>
                </rdgGrp>
@@ -4421,7 +4425,7 @@
             </app>
             <app xml:id="C09_app299" n="3">
                <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
-                        n="∅"
+                        n=""
                         xml:id="C09_app299_rg_empty">
                   <rdg wit="#fMS"/>
                </rdgGrp>
@@ -5566,7 +5570,7 @@
             </app>
             <app xml:id="C09_app391" n="4">
                <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
-                        n="∅"
+                        n=""
                         xml:id="C09_app391_rg_empty">
                   <rdg wit="#fMS"/>
                </rdgGrp>
@@ -6082,7 +6086,7 @@
             </app>
             <app xml:id="C09_app429" n="7">
                <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
-                        n="∅"
+                        n=""
                         xml:id="C09_app429_rg_empty">
                   <rdg wit="#f1818"/>
                   <rdg wit="#fThomas"/>
@@ -6107,7 +6111,7 @@
             </app>
             <app xml:id="C09_app430" n="6">
                <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
-                        n="∅"
+                        n=""
                         xml:id="C09_app430_rg_empty">
                   <rdg wit="#f1823"/>
                   <rdg wit="#f1831"/>
@@ -7330,7 +7334,7 @@
             </app>
             <app xml:id="C09_app513" n="8">
                <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
-                        n="∅"
+                        n=""
                         xml:id="C09_app513_rg_empty">
                   <rdg wit="#fMS"/>
                </rdgGrp>
@@ -7770,7 +7774,7 @@
             </app>
             <app xml:id="C09_app545" n="1">
                <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
-                        n="∅"
+                        n=""
                         xml:id="C09_app545_rg_empty">
                   <rdg wit="#fMS"/>
                </rdgGrp>
@@ -7941,7 +7945,7 @@
             </app>
             <app xml:id="C09_app558" n="14">
                <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
-                        n="∅"
+                        n=""
                         xml:id="C09_app558_rg_empty">
                   <rdg wit="#f1818"/>
                   <rdg wit="#fThomas"/>
@@ -7966,7 +7970,7 @@
             </app>
             <app xml:id="C09_app559" n="6">
                <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
-                        n="∅"
+                        n=""
                         xml:id="C09_app559_rg_empty">
                   <rdg wit="#f1823"/>
                   <rdg wit="#f1831"/>
@@ -7987,7 +7991,7 @@
             </app>
             <app xml:id="C09_app560" n="10">
                <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
-                        n="∅"
+                        n=""
                         xml:id="C09_app560_rg_empty">
                   <rdg wit="#f1823"/>
                   <rdg wit="#f1831"/>
@@ -8302,7 +8306,7 @@
             </app>
             <app xml:id="C09_app583" n="4">
                <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
-                        n="∅"
+                        n=""
                         xml:id="C09_app583_rg_empty">
                   <rdg wit="#fMS"/>
                </rdgGrp>
@@ -8325,7 +8329,7 @@
             </app>
             <app xml:id="C09_app585" n="3">
                <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
-                        n="∅"
+                        n=""
                         xml:id="C09_app585_rg_empty">
                   <rdg wit="#fMS"/>
                </rdgGrp>
@@ -8494,7 +8498,7 @@
             </app>
             <app xml:id="C09_app596" n="7">
                <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
-                        n="∅"
+                        n=""
                         xml:id="C09_app596_rg_empty">
                   <rdg wit="#f1823"/>
                   <rdg wit="#f1831"/>
@@ -8519,7 +8523,7 @@
             </app>
             <app xml:id="C09_app598" n="10">
                <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
-                        n="∅"
+                        n=""
                         xml:id="C09_app598_rg_empty">
                   <rdg wit="#fMS"/>
                </rdgGrp>
@@ -8567,7 +8571,7 @@
             </app>
             <app xml:id="C09_app602" n="10">
                <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
-                        n="∅"
+                        n=""
                         xml:id="C09_app602_rg_empty">
                   <rdg wit="#fMS"/>
                </rdgGrp>
@@ -8690,7 +8694,7 @@
             </app>
             <app xml:id="C09_app612" n="3">
                <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
-                        n="∅"
+                        n=""
                         xml:id="C09_app612_rg_empty">
                   <rdg wit="#fMS"/>
                </rdgGrp>
@@ -8938,7 +8942,7 @@
             </app>
             <app xml:id="C09_app630" n="12">
                <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
-                        n="∅"
+                        n=""
                         xml:id="C09_app630_rg_empty">
                   <rdg wit="#fMS"/>
                </rdgGrp>
@@ -11144,7 +11148,7 @@
             </app>
             <app xml:id="C09_app792" n="2">
                <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
-                        n="∅"
+                        n=""
                         xml:id="C09_app792_rg_empty">
                   <rdg wit="#fMS"/>
                </rdgGrp>
@@ -11342,7 +11346,7 @@
             </app>
             <app xml:id="C09_app807" n="15">
                <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
-                        n="∅"
+                        n=""
                         xml:id="C09_app807_rg_empty">
                   <rdg wit="#fMS"/>
                </rdgGrp>
@@ -11438,7 +11442,7 @@
             </app>
             <app xml:id="C09_app814" n="307">
                <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
-                        n="∅"
+                        n=""
                         xml:id="C09_app814_rg_empty">
                   <rdg wit="#f1818"/>
                   <rdg wit="#f1823"/>
@@ -11467,7 +11471,7 @@
             </app>
             <app xml:id="C09_app815" n="1">
                <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
-                        n="∅"
+                        n=""
                         xml:id="C09_app815_rg_empty">
                   <rdg wit="#fThomas"/>
                </rdgGrp>
@@ -11490,7 +11494,7 @@
             </app>
             <app xml:id="C09_app816" n="18">
                <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
-                        n="∅"
+                        n=""
                         xml:id="C09_app816_rg_empty">
                   <rdg wit="#fThomas"/>
                </rdgGrp>
@@ -11517,7 +11521,7 @@
             </app>
             <app xml:id="C09_app817" n="4">
                <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
-                        n="∅"
+                        n=""
                         xml:id="C09_app817_rg_empty">
                   <rdg wit="#fThomas"/>
                   <rdg wit="#f1831"/>
@@ -11536,7 +11540,7 @@
             </app>
             <app xml:id="C09_app818" n="1">
                <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
-                        n="∅"
+                        n=""
                         xml:id="C09_app818_rg_empty">
                   <rdg wit="#fThomas"/>
                </rdgGrp>
@@ -11559,7 +11563,7 @@
             </app>
             <app xml:id="C09_app819" n="29">
                <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
-                        n="∅"
+                        n=""
                         xml:id="C09_app819_rg_empty">
                   <rdg wit="#fThomas"/>
                </rdgGrp>
@@ -11584,7 +11588,7 @@
             </app>
             <app xml:id="C09_app820" n="11">
                <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
-                        n="∅"
+                        n=""
                         xml:id="C09_app820_rg_empty">
                   <rdg wit="#fThomas"/>
                   <rdg wit="#f1831"/>
@@ -11603,7 +11607,7 @@
             </app>
             <app xml:id="C09_app821" n="4">
                <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
-                        n="∅"
+                        n=""
                         xml:id="C09_app821_rg_empty">
                   <rdg wit="#fThomas"/>
                </rdgGrp>
@@ -11626,7 +11630,7 @@
             </app>
             <app xml:id="C09_app822" n="65">
                <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
-                        n="∅"
+                        n=""
                         xml:id="C09_app822_rg_empty">
                   <rdg wit="#fThomas"/>
                </rdgGrp>
@@ -11653,7 +11657,7 @@
             </app>
             <app xml:id="C09_app823" n="4">
                <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
-                        n="∅"
+                        n=""
                         xml:id="C09_app823_rg_empty">
                   <rdg wit="#fThomas"/>
                   <rdg wit="#f1831"/>
@@ -11672,7 +11676,7 @@
             </app>
             <app xml:id="C09_app824" n="9">
                <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
-                        n="∅"
+                        n=""
                         xml:id="C09_app824_rg_empty">
                   <rdg wit="#fThomas"/>
                   <rdg wit="#f1831"/>
@@ -11693,7 +11697,7 @@
             </app>
             <app xml:id="C09_app825" n="7">
                <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
-                        n="∅"
+                        n=""
                         xml:id="C09_app825_rg_empty">
                   <rdg wit="#fThomas"/>
                   <rdg wit="#f1831"/>
@@ -11718,7 +11722,7 @@
             </app>
             <app xml:id="C09_app826" n="3">
                <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
-                        n="∅"
+                        n=""
                         xml:id="C09_app826_rg_empty">
                   <rdg wit="#fThomas"/>
                   <rdg wit="#f1831"/>
@@ -11739,7 +11743,7 @@
             </app>
             <app xml:id="C09_app827" n="17">
                <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
-                        n="∅"
+                        n=""
                         xml:id="C09_app827_rg_empty">
                   <rdg wit="#fThomas"/>
                </rdgGrp>
@@ -11766,7 +11770,7 @@
             </app>
             <app xml:id="C09_app828" n="16">
                <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
-                        n="∅"
+                        n=""
                         xml:id="C09_app828_rg_empty">
                   <rdg wit="#fThomas"/>
                </rdgGrp>
@@ -11793,7 +11797,7 @@
             </app>
             <app xml:id="C09_app829" n="2">
                <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
-                        n="∅"
+                        n=""
                         xml:id="C09_app829_rg_empty">
                   <rdg wit="#fThomas"/>
                </rdgGrp>
@@ -11816,7 +11820,7 @@
             </app>
             <app xml:id="C09_app830" n="26">
                <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
-                        n="∅"
+                        n=""
                         xml:id="C09_app830_rg_empty">
                   <rdg wit="#f1818"/>
                   <rdg wit="#fThomas"/>
@@ -11837,7 +11841,7 @@
             </app>
             <app xml:id="C09_app831" n="3">
                <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
-                        n="∅"
+                        n=""
                         xml:id="C09_app831_rg_empty">
                   <rdg wit="#fThomas"/>
                   <rdg wit="#f1831"/>
@@ -11856,7 +11860,7 @@
             </app>
             <app xml:id="C09_app832" n="10">
                <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
-                        n="∅"
+                        n=""
                         xml:id="C09_app832_rg_empty">
                   <rdg wit="#fThomas"/>
                   <rdg wit="#f1831"/>
@@ -11879,7 +11883,7 @@
             </app>
             <app xml:id="C09_app833" n="2">
                <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
-                        n="∅"
+                        n=""
                         xml:id="C09_app833_rg_empty">
                   <rdg wit="#fThomas"/>
                </rdgGrp>
@@ -11902,7 +11906,7 @@
             </app>
             <app xml:id="C09_app834" n="23">
                <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
-                        n="∅"
+                        n=""
                         xml:id="C09_app834_rg_empty">
                   <rdg wit="#f1818"/>
                   <rdg wit="#fThomas"/>
@@ -11923,7 +11927,7 @@
             </app>
             <app xml:id="C09_app835" n="7">
                <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
-                        n="∅"
+                        n=""
                         xml:id="C09_app835_rg_empty">
                   <rdg wit="#fThomas"/>
                   <rdg wit="#f1831"/>
@@ -11944,7 +11948,7 @@
             </app>
             <app xml:id="C09_app836" n="3">
                <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
-                        n="∅"
+                        n=""
                         xml:id="C09_app836_rg_empty">
                   <rdg wit="#f1831"/>
                </rdgGrp>
@@ -12017,7 +12021,7 @@
             </app>
             <app xml:id="C09_app840" n="17">
                <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
-                        n="∅"
+                        n=""
                         xml:id="C09_app840_rg_empty">
                   <rdg wit="#f1818"/>
                   <rdg wit="#fThomas"/>
@@ -12038,7 +12042,7 @@
             </app>
             <app xml:id="C09_app841" n="4">
                <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
-                        n="∅"
+                        n=""
                         xml:id="C09_app841_rg_empty">
                   <rdg wit="#f1831"/>
                </rdgGrp>
@@ -12059,7 +12063,7 @@
             </app>
             <app xml:id="C09_app842" n="9">
                <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
-                        n="∅"
+                        n=""
                         xml:id="C09_app842_rg_empty">
                   <rdg wit="#f1831"/>
                </rdgGrp>
@@ -12122,14 +12126,22 @@
                   <rdg wit="#f1831"/>
                </rdgGrp>
             </app>
-            <app xml:id="C09_app848" n="0">
+            <app xml:id="C09_app848" n="81">
                <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
                         n="['']"
                         xml:id="C09_app848_rg1">
-                  <rdg wit="#f1818"/>
-                  <rdg wit="#f1823"/>
-                  <rdg wit="#fThomas"/>
-                  <rdg wit="#f1831"/>
+                  <rdg wit="#f1818">
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1818_vol_1_chapter_iii.xml#C09_app848-f1818"/>
+                  </rdg>
+                  <rdg wit="#f1823">
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1823_vol_1_chapter_iii.xml#C09_app848-f1823"/>
+                  </rdg>
+                  <rdg wit="#fThomas">
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fThomas_vol_1_chapter_iii.xml#C09_app848-fThomas"/>
+                  </rdg>
+                  <rdg wit="#f1831">
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1831_chapter_iv.xml#C09_app848-f1831"/>
+                  </rdg>
                </rdgGrp>
                <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
                         n="['then', 'determined', 'to', 'go', 'to', 'geneva', 'as', 'soon', 'as', 'this', 'should', 'be', 'done', 'and', 'a', 'in', 'the', 'midst', 'of', 'my', 'family', 'find', 'eve', '']"
