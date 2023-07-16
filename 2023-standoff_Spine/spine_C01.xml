@@ -68,7 +68,7 @@
             <p>Produced from collation output prepared in batch file processing
                                     on  2023-07-14 14:30:33.140787 .</p>
             <p>Edited to correct alignments and prepared for the Frankenstein
-                                    Variorum spine on 2023-07-15T21:55:32.255464-04:00.</p>
+                                    Variorum spine on 2023-07-15T22:40:56.723677-04:00.</p>
          </editorialDecl>
          <appInfo>
             <application ident="collateX" version="1.7.1">
@@ -82,10 +82,10 @@
                                     We also provide links directly to the XML documents together with XPath and
                                     string-range data that should point to the specirfic location in the Shelley-Godwin
                                     Archive TEI for this page. The prefixDef below indicates how to construct the links: </desc>
-            <prefixDef ident="s-ga"
+            <prefixDef ident="sga"
                         matchPattern="(c\d+/#/p\d+)"
                         replacementPattern="https://shelleygodwinarchive.org/sc/oxford/ms_abinger/$1">
-               <p>For example, s-ga:c57/#/p73 resolves to the URL <ref target="https://shelleygodwinarchive.org/sc/oxford/ms_abinger/c57/#/p73">https://shelleygodwinarchive.org/sc/oxford/ms_abinger/c57/#/p73</ref> linking to 
+               <p>For example, sga:c57/#/p73 resolves to the URL <ref target="https://shelleygodwinarchive.org/sc/oxford/ms_abinger/c57/#/p73">https://shelleygodwinarchive.org/sc/oxford/ms_abinger/c57/#/p73</ref> linking to 
                                         the webpage that represents page 73 in box 57 of the Oxford Abinger notebooks.</p>
             </prefixDef>
          </listPrefixDef>

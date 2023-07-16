@@ -68,7 +68,7 @@
             <p>Produced from collation output prepared in batch file processing
                                     on  2023-07-10 18:33:43.738959 .</p>
             <p>Edited to correct alignments and prepared for the Frankenstein
-                                    Variorum spine on 2023-07-15T21:55:32.255464-04:00.</p>
+                                    Variorum spine on 2023-07-15T22:40:56.723677-04:00.</p>
          </editorialDecl>
          <appInfo>
             <application ident="collateX" version="1.7.1">
@@ -82,10 +82,10 @@
                                     We also provide links directly to the XML documents together with XPath and
                                     string-range data that should point to the specirfic location in the Shelley-Godwin
                                     Archive TEI for this page. The prefixDef below indicates how to construct the links: </desc>
-            <prefixDef ident="s-ga"
+            <prefixDef ident="sga"
                         matchPattern="(c\d+/#/p\d+)"
                         replacementPattern="https://shelleygodwinarchive.org/sc/oxford/ms_abinger/$1">
-               <p>For example, s-ga:c57/#/p73 resolves to the URL <ref target="https://shelleygodwinarchive.org/sc/oxford/ms_abinger/c57/#/p73">https://shelleygodwinarchive.org/sc/oxford/ms_abinger/c57/#/p73</ref> linking to 
+               <p>For example, sga:c57/#/p73 resolves to the URL <ref target="https://shelleygodwinarchive.org/sc/oxford/ms_abinger/c57/#/p73">https://shelleygodwinarchive.org/sc/oxford/ms_abinger/c57/#/p73</ref> linking to 
                                         the webpage that represents page 73 in box 57 of the Oxford Abinger notebooks.</p>
             </prefixDef>
          </listPrefixDef>
@@ -118,7 +118,7 @@
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c57_another_chapter.xml#C20_app3-fMS__I"/>
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c57_another_chapter.xml#C20_app3-fMS__F"/>
-                     <witDetail wit="#fMS" target="c57/#/p31">
+                     <witDetail wit="#fMS" target="sga:c57/#/p31">
                         <ref type="page"
                               target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0031.xml">
                            <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0031.xml#string-range(//tei:surface[@xml:id='ox-ms_abinger_c57-0031']/tei:zone[@type='main']//tei:line[1],2,27)"/>
@@ -175,7 +175,7 @@
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c57_another_chapter.xml#C20_app5-fMS__I"/>
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c57_another_chapter.xml#C20_app5-fMS__M"/>
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c57_another_chapter.xml#C20_app5-fMS__F"/>
-                     <witDetail wit="#fMS" target="c57/#/p31">
+                     <witDetail wit="#fMS" target="sga:c57/#/p31">
                         <ref type="page"
                               target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0031.xml">
                            <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0031.xml#string-range(//tei:surface[@xml:id='ox-ms_abinger_c57-0031']/tei:zone[@type='main']//tei:line[2],25,65)"/>
@@ -212,7 +212,7 @@
                         xml:id="C20_app7_rg2">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c57_another_chapter.xml#C20_app7-fMS"/>
-                     <witDetail wit="#fMS" target="c57/#/p31">
+                     <witDetail wit="#fMS" target="sga:c57/#/p31">
                         <ref type="page"
                               target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0031.xml">
                            <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0031.xml#string-range(//tei:surface[@xml:id='ox-ms_abinger_c57-0031']/tei:zone[@type='left_margin']//tei:line[1],61,113)"/>
@@ -249,7 +249,7 @@
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c57_another_chapter.xml#C20_app8-fMS__I"/>
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c57_another_chapter.xml#C20_app8-fMS__M"/>
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c57_another_chapter.xml#C20_app8-fMS__F"/>
-                     <witDetail wit="#fMS" target="c57/#/p31">
+                     <witDetail wit="#fMS" target="sga:c57/#/p31">
                         <ref type="page"
                               target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0031.xml">
                            <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0031.xml#string-range(//tei:surface[@xml:id='ox-ms_abinger_c57-0031']/tei:zone[@type='left_margin']//tei:line[1],47,54)"/>
@@ -264,7 +264,7 @@
                <rdgGrp n="['mind']" xml:id="C20_app10_rg1">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c57_another_chapter.xml#C20_app10-fMS"/>
-                     <witDetail wit="#fMS" target="c57/#/p31">
+                     <witDetail wit="#fMS" target="sga:c57/#/p31">
                         <ref type="page"
                               target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0031.xml">
                            <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0031.xml#string-range(//tei:surface[@xml:id='ox-ms_abinger_c57-0031']/tei:zone[@type='main']//tei:line[5],0,5)"/>
@@ -299,7 +299,7 @@
                   </rdg>
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c57_another_chapter.xml#C20_app12-fMS"/>
-                     <witDetail wit="#fMS" target="c57/#/p31">
+                     <witDetail wit="#fMS" target="sga:c57/#/p31">
                         <ref type="page"
                               target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0031.xml">
                            <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0031.xml#string-range(//tei:surface[@xml:id='ox-ms_abinger_c57-0031']/tei:zone[@type='main']//tei:line[6],0,14)"/>
@@ -323,7 +323,7 @@
                         xml:id="C20_app14_rg1">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c57_another_chapter.xml#C20_app14-fMS"/>
-                     <witDetail wit="#fMS" target="c57/#/p31">
+                     <witDetail wit="#fMS" target="sga:c57/#/p31">
                         <ref type="page"
                               target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0031.xml">
                            <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0031.xml#string-range(//tei:surface[@xml:id='ox-ms_abinger_c57-0031']/tei:zone[@type='main']//tei:line[6],18,44)"/>
@@ -355,7 +355,7 @@
                <rdgGrp n="['&lt;del&gt; &lt;unclear&gt;2&lt;/unclear&gt; &lt;/del&gt;']" xml:id="C20_app16_rg1">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c57_another_chapter.xml#C20_app16-fMS"/>
-                     <witDetail wit="#fMS" target="c57/#/p31">
+                     <witDetail wit="#fMS" target="sga:c57/#/p31">
                         <ref type="page"
                               target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0031.xml">
                            <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0031.xml#string-range(//tei:surface[@xml:id='ox-ms_abinger_c57-0031']/tei:zone[@type='main']//tei:line[8],5,9)"/>
@@ -402,7 +402,7 @@
                <rdgGrp n="['the']" xml:id="C20_app18_rg2">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c57_another_chapter.xml#C20_app18-fMS"/>
-                     <witDetail wit="#fMS" target="c57/#/p31">
+                     <witDetail wit="#fMS" target="sga:c57/#/p31">
                         <ref type="page"
                               target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0031.xml">
                            <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0031.xml#string-range(//tei:surface[@xml:id='ox-ms_abinger_c57-0031']/tei:zone[@type='main']//tei:line[9],0,4)"/>
@@ -417,7 +417,7 @@
                <rdgGrp n="['decended']" xml:id="C20_app20_rg1">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c57_another_chapter.xml#C20_app20-fMS"/>
-                     <witDetail wit="#fMS" target="c57/#/p31">
+                     <witDetail wit="#fMS" target="sga:c57/#/p31">
                         <ref type="page"
                               target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0031.xml">
                            <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0031.xml#string-range(//tei:surface[@xml:id='ox-ms_abinger_c57-0031']/tei:zone[@type='main']//tei:line[10],7,16)"/>
@@ -447,7 +447,7 @@
                         xml:id="C20_app22_rg1">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c57_another_chapter.xml#C20_app22-fMS"/>
-                     <witDetail wit="#fMS" target="c57/#/p31">
+                     <witDetail wit="#fMS" target="sga:c57/#/p31">
                         <ref type="page"
                               target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0031.xml">
                            <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0031.xml#string-range(//tei:surface[@xml:id='ox-ms_abinger_c57-0031']/tei:zone[@type='main']//tei:line[10],36,109)"/>
@@ -483,7 +483,7 @@
                <rdgGrp n="['affluence']" xml:id="C20_app24_rg1">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c57_another_chapter.xml#C20_app24-fMS"/>
-                     <witDetail wit="#fMS" target="c57/#/p31">
+                     <witDetail wit="#fMS" target="sga:c57/#/p31">
                         <ref type="page"
                               target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0031.xml">
                            <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0031.xml#string-range(//tei:surface[@xml:id='ox-ms_abinger_c57-0031']/tei:zone[@type='main']//tei:line[12],15,25)"/>
@@ -512,7 +512,7 @@
                <rdgGrp n="['superiors']" xml:id="C20_app26_rg1">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c57_another_chapter.xml#C20_app26-fMS"/>
-                     <witDetail wit="#fMS" target="c57/#/p31">
+                     <witDetail wit="#fMS" target="sga:c57/#/p31">
                         <ref type="page"
                               target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0031.xml">
                            <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0031.xml#string-range(//tei:surface[@xml:id='ox-ms_abinger_c57-0031']/tei:zone[@type='main']//tei:line[12],40,50)"/>
@@ -556,7 +556,7 @@
                         xml:id="C20_app28_rg2">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c57_another_chapter.xml#C20_app28-fMS"/>
-                     <witDetail wit="#fMS" target="c57/#/p31">
+                     <witDetail wit="#fMS" target="sga:c57/#/p31">
                         <ref type="page"
                               target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0031.xml">
                            <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0031.xml#string-range(//tei:surface[@xml:id='ox-ms_abinger_c57-0031']/tei:zone[@type='main']//tei:line[13],25,73)"/>
@@ -589,7 +589,7 @@
                         xml:id="C20_app29_rg2">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c57_another_chapter.xml#C20_app29-fMS"/>
-                     <witDetail wit="#fMS" target="c57/#/p31">
+                     <witDetail wit="#fMS" target="sga:c57/#/p31">
                         <ref type="page"
                               target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0031.xml">
                            <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0031.xml#string-range(//tei:surface[@xml:id='ox-ms_abinger_c57-0031']/tei:zone[@type='main']//tei:line[14],21,46)"/>
@@ -604,7 +604,7 @@
                <rdgGrp n="['country']" xml:id="C20_app30_rg1">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c57_another_chapter.xml#C20_app30-fMS"/>
-                     <witDetail wit="#fMS" target="c57/#/p31">
+                     <witDetail wit="#fMS" target="sga:c57/#/p31">
                         <ref type="page"
                               target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0031.xml">
                            <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0031.xml#string-range(//tei:surface[@xml:id='ox-ms_abinger_c57-0031']/tei:zone[@type='main']//tei:line[14],45,53)"/>
@@ -649,7 +649,7 @@
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c57_another_chapter.xml#C20_app32-fMS__I"/>
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c57_another_chapter.xml#C20_app32-fMS__M"/>
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c57_another_chapter.xml#C20_app32-fMS__F"/>
-                     <witDetail wit="#fMS" target="c57/#/p31">
+                     <witDetail wit="#fMS" target="sga:c57/#/p31">
                         <ref type="page"
                               target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0031.xml">
                            <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0031.xml#string-range(//tei:surface[@xml:id='ox-ms_abinger_c57-0031']/tei:zone[@type='main']//tei:line[15],13,26)"/>
@@ -681,7 +681,7 @@
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c57_another_chapter.xml#C20_app33-fMS__I"/>
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c57_another_chapter.xml#C20_app33-fMS__M"/>
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c57_another_chapter.xml#C20_app33-fMS__F"/>
-                     <witDetail wit="#fMS" target="c57/#/p31">
+                     <witDetail wit="#fMS" target="sga:c57/#/p31">
                         <ref type="page"
                               target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0031.xml">
                            <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0031.xml#string-range(//tei:surface[@xml:id='ox-ms_abinger_c57-0031']/tei:zone[@type='main']//tei:line[15],25,56)"/>
@@ -711,7 +711,7 @@
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c57_another_chapter.xml#C20_app35-fMS__I"/>
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c57_another_chapter.xml#C20_app35-fMS__F"/>
-                     <witDetail wit="#fMS" target="c57/#/p31">
+                     <witDetail wit="#fMS" target="sga:c57/#/p31">
                         <ref type="page"
                               target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0031.xml">
                            <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0031.xml#string-range(//tei:surface[@xml:id='ox-ms_abinger_c57-0031']/tei:zone[@type='main']//tei:line[16],34,50)"/>
@@ -741,7 +741,7 @@
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c57_another_chapter.xml#C20_app36-fMS__I"/>
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c57_another_chapter.xml#C20_app36-fMS__F"/>
-                     <witDetail wit="#fMS" target="c57/#/p31">
+                     <witDetail wit="#fMS" target="sga:c57/#/p31">
                         <ref type="page"
                               target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0031.xml">
                            <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0031.xml#string-range(//tei:surface[@xml:id='ox-ms_abinger_c57-0031']/tei:zone[@type='main']//tei:line[16],49,57)"/>
@@ -759,7 +759,7 @@
                <rdgGrp n="['arrival']" xml:id="C20_app37_rg1">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c57_another_chapter.xml#C20_app37-fMS"/>
-                     <witDetail wit="#fMS" target="c57/#/p31">
+                     <witDetail wit="#fMS" target="sga:c57/#/p31">
                         <ref type="page"
                               target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0031.xml">
                            <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0031.xml#string-range(//tei:surface[@xml:id='ox-ms_abinger_c57-0031']/tei:zone[@type='main']//tei:line[17],8,16)"/>
@@ -788,7 +788,7 @@
                <rdgGrp n="['city']" xml:id="C20_app39_rg1">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c57_another_chapter.xml#C20_app39-fMS"/>
-                     <witDetail wit="#fMS" target="c57/#/p31">
+                     <witDetail wit="#fMS" target="sga:c57/#/p31">
                         <ref type="page"
                               target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0031.xml">
                            <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0031.xml#string-range(//tei:surface[@xml:id='ox-ms_abinger_c57-0031']/tei:zone[@type='main']//tei:line[18],7,12)"/>
@@ -817,7 +817,7 @@
                <rdgGrp n="['friends']" xml:id="C20_app41_rg1">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c57_another_chapter.xml#C20_app41-fMS"/>
-                     <witDetail wit="#fMS" target="c57/#/p31">
+                     <witDetail wit="#fMS" target="sga:c57/#/p31">
                         <ref type="page"
                               target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0031.xml">
                            <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0031.xml#string-range(//tei:surface[@xml:id='ox-ms_abinger_c57-0031']/tei:zone[@type='main']//tei:line[18],38,46)"/>
@@ -862,7 +862,7 @@
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c57_another_chapter.xml#C20_app43-fMS__I"/>
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c57_another_chapter.xml#C20_app43-fMS__M"/>
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c57_another_chapter.xml#C20_app43-fMS__F"/>
-                     <witDetail wit="#fMS" target="c57/#/p31">
+                     <witDetail wit="#fMS" target="sga:c57/#/p31">
                         <ref type="page"
                               target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0031.xml">
                            <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0031.xml#string-range(//tei:surface[@xml:id='ox-ms_abinger_c57-0031']/tei:zone[@type='main']//tei:line[19],31,48)"/>
@@ -879,7 +879,7 @@
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c57_another_chapter.xml#C20_app44-fMS__I"/>
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c57_another_chapter.xml#C20_app44-fMS__M"/>
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c57_another_chapter.xml#C20_app44-fMS__F"/>
-                     <witDetail wit="#fMS" target="c57/#/p31">
+                     <witDetail wit="#fMS" target="sga:c57/#/p31">
                         <ref type="page"
                               target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0031.xml">
                            <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0031.xml#string-range(//tei:surface[@xml:id='ox-ms_abinger_c57-0031']/tei:zone[@type='main']//tei:line[19],47,60)"/>
@@ -908,7 +908,7 @@
                <rdgGrp n="['intellect', 'and']" xml:id="C20_app46_rg1">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c57_another_chapter.xml#C20_app46-fMS"/>
-                     <witDetail wit="#fMS" target="c57/#/p31">
+                     <witDetail wit="#fMS" target="sga:c57/#/p31">
                         <ref type="page"
                               target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0031.xml">
                            <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0031.xml#string-range(//tei:surface[@xml:id='ox-ms_abinger_c57-0031']/tei:zone[@type='main']//tei:line[19],72,84)"/>
@@ -951,7 +951,7 @@
                <rdgGrp n="['with']" xml:id="C20_app48_rg2">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c57_another_chapter.xml#C20_app48-fMS"/>
-                     <witDetail wit="#fMS" target="c57/#/p31">
+                     <witDetail wit="#fMS" target="sga:c57/#/p31">
                         <ref type="page"
                               target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0031.xml">
                            <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0031.xml#string-range(//tei:surface[@xml:id='ox-ms_abinger_c57-0031']/tei:zone[@type='main']//tei:line[20],10,15)"/>
@@ -966,7 +966,7 @@
                <rdgGrp n="['competent', 'fortune']" xml:id="C20_app50_rg1">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c57_another_chapter.xml#C20_app50-fMS"/>
-                     <witDetail wit="#fMS" target="c57/#/p31">
+                     <witDetail wit="#fMS" target="sga:c57/#/p31">
                         <ref type="page"
                               target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0031.xml">
                            <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0031.xml#string-range(//tei:surface[@xml:id='ox-ms_abinger_c57-0031']/tei:zone[@type='main']//tei:line[20],15,33)"/>
@@ -1009,7 +1009,7 @@
                <rdgGrp n="['the']" xml:id="C20_app52_rg2">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c57_another_chapter.xml#C20_app52-fMS"/>
-                     <witDetail wit="#fMS" target="c57/#/p31">
+                     <witDetail wit="#fMS" target="sga:c57/#/p31">
                         <ref type="page"
                               target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0031.xml">
                            <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0031.xml#string-range(//tei:surface[@xml:id='ox-ms_abinger_c57-0031']/tei:zone[@type='main']//tei:line[22],0,4)"/>
@@ -1040,7 +1040,7 @@
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c57_another_chapter.xml#C20_app54-fMS__I"/>
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c57_another_chapter.xml#C20_app54-fMS__M"/>
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c57_another_chapter.xml#C20_app54-fMS__F"/>
-                     <witDetail wit="#fMS" target="c57/#/p31">
+                     <witDetail wit="#fMS" target="sga:c57/#/p31">
                         <ref type="page"
                               target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0031.xml">
                            <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0031.xml#string-range(//tei:surface[@xml:id='ox-ms_abinger_c57-0031']/tei:zone[@type='main']//tei:line[22],19,33)"/>
@@ -1055,7 +1055,7 @@
                <rdgGrp n="['', '&lt;del&gt;fall&lt;/del&gt;', 'ruin;', '']" xml:id="C20_app56_rg1">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c57_another_chapter.xml#C20_app56-fMS"/>
-                     <witDetail wit="#fMS" target="c57/#/p31">
+                     <witDetail wit="#fMS" target="sga:c57/#/p31">
                         <ref type="page"
                               target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0031.xml">
                            <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0031.xml#string-range(//tei:surface[@xml:id='ox-ms_abinger_c57-0031']/tei:zone[@type='main']//tei:line[23],0,13)"/>
@@ -1098,7 +1098,7 @@
                <rdgGrp n="['', '&lt;mdel&gt;t&lt;/mdel&gt;', 'turkish']" xml:id="C20_app58_rg2">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c57_another_chapter.xml#C20_app58-fMS"/>
-                     <witDetail wit="#fMS" target="c57/#/p31">
+                     <witDetail wit="#fMS" target="sga:c57/#/p31">
                         <ref type="page"
                               target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0031.xml">
                            <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0031.xml#string-range(//tei:surface[@xml:id='ox-ms_abinger_c57-0031']/tei:zone[@type='main']//tei:line[23],21,32)"/>
@@ -1113,7 +1113,7 @@
                <rdgGrp n="['merchant']" xml:id="C20_app59_rg1">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c57_another_chapter.xml#C20_app59-fMS"/>
-                     <witDetail wit="#fMS" target="c57/#/p31">
+                     <witDetail wit="#fMS" target="sga:c57/#/p31">
                         <ref type="page"
                               target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0031.xml">
                            <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0031.xml#string-range(//tei:surface[@xml:id='ox-ms_abinger_c57-0031']/tei:zone[@type='main']//tei:line[23],31,40)"/>
@@ -1157,7 +1157,7 @@
                         xml:id="C20_app61_rg2">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c57_another_chapter.xml#C20_app61-fMS"/>
-                     <witDetail wit="#fMS" target="c57/#/p31">
+                     <witDetail wit="#fMS" target="sga:c57/#/p31">
                         <ref type="page"
                               target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0031.xml">
                            <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0031.xml#string-range(//tei:surface[@xml:id='ox-ms_abinger_c57-0031']/tei:zone[@type='main']//tei:line[24],0,29)"/>
@@ -1189,7 +1189,7 @@
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c57_another_chapter.xml#C20_app62-fMS__I"/>
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c57_another_chapter.xml#C20_app62-fMS__M"/>
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c57_another_chapter.xml#C20_app62-fMS__F"/>
-                     <witDetail wit="#fMS" target="c57/#/p31">
+                     <witDetail wit="#fMS" target="sga:c57/#/p31">
                         <ref type="page"
                               target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0031.xml">
                            <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0031.xml#string-range(//tei:surface[@xml:id='ox-ms_abinger_c57-0031']/tei:zone[@type='main']//tei:line[24],29,72)"/>
@@ -1208,7 +1208,7 @@
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c57_another_chapter.xml#C20_app64-fMS__I"/>
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c57_another_chapter.xml#C20_app64-fMS__F"/>
-                     <witDetail wit="#fMS" target="c57/#/p31">
+                     <witDetail wit="#fMS" target="sga:c57/#/p31">
                         <ref type="page"
                               target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0031.xml">
                            <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0031.xml#string-range(//tei:surface[@xml:id='ox-ms_abinger_c57-0031']/tei:zone[@type='main']//tei:line[25],53,60)"/>
@@ -1237,7 +1237,7 @@
                <rdgGrp n="['government –']" xml:id="C20_app66_rg1">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c57_another_chapter.xml#C20_app66-fMS"/>
-                     <witDetail wit="#fMS" target="c57/#/p31">
+                     <witDetail wit="#fMS" target="sga:c57/#/p31">
                         <ref type="page"
                               target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0031.xml">
                            <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0031.xml#string-range(//tei:surface[@xml:id='ox-ms_abinger_c57-0031']/tei:zone[@type='main']//tei:line[25],75,87)"/>
@@ -1269,7 +1269,7 @@
                <rdgGrp n="['tried']" xml:id="C20_app68_rg1">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c57_another_chapter.xml#C20_app68-fMS"/>
-                     <witDetail wit="#fMS" target="c57/#/p31">
+                     <witDetail wit="#fMS" target="sga:c57/#/p31">
                         <ref type="page"
                               target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0031.xml">
                            <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0031.xml#string-range(//tei:surface[@xml:id='ox-ms_abinger_c57-0031']/tei:zone[@type='main']//tei:line[28],28,34)"/>
@@ -1298,7 +1298,7 @@
                <rdgGrp n="['flagrant']" xml:id="C20_app70_rg1">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c57_another_chapter.xml#C20_app70-fMS"/>
-                     <witDetail wit="#fMS" target="c57/#/p31">
+                     <witDetail wit="#fMS" target="sga:c57/#/p31">
                         <ref type="page"
                               target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0031.xml">
                            <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0031.xml#string-range(//tei:surface[@xml:id='ox-ms_abinger_c57-0031']/tei:zone[@type='main']//tei:line[30],0,9)"/>
@@ -1341,7 +1341,7 @@
                <rdgGrp n="['were', 'indignant']" xml:id="C20_app72_rg2">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c57_another_chapter.xml#C20_app72-fMS"/>
-                     <witDetail wit="#fMS" target="c57/#/p31">
+                     <witDetail wit="#fMS" target="sga:c57/#/p31">
                         <ref type="page"
                               target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0031.xml">
                            <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0031.xml#string-range(//tei:surface[@xml:id='ox-ms_abinger_c57-0031']/tei:zone[@type='main']//tei:line[30],18,33)"/>
@@ -1356,7 +1356,7 @@
                <rdgGrp n="['relig', '&lt;del&gt;i&lt;/del&gt;', 'ion']" xml:id="C20_app74_rg1">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c57_another_chapter.xml#C20_app74-fMS"/>
-                     <witDetail wit="#fMS" target="c57/#/p31">
+                     <witDetail wit="#fMS" target="sga:c57/#/p31">
                         <ref type="page"
                               target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0031.xml">
                            <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0031.xml#string-range(//tei:surface[@xml:id='ox-ms_abinger_c57-0031']/tei:zone[@type='main']//tei:line[31],20,32)"/>
@@ -1387,7 +1387,7 @@
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c57_another_chapter.xml#C20_app76-fMS__I"/>
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c57_another_chapter.xml#C20_app76-fMS__F"/>
-                     <witDetail wit="#fMS" target="c57/#/p31 c57/#/p32">
+                     <witDetail wit="#fMS" target="sga:c57/#/p31 sga:c57/#/p32">
                         <ref type="page"
                               target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0031.xml">
                            <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0031.xml#string-range(//tei:surface[@xml:id='ox-ms_abinger_c57-0031']/tei:zone[@type='main']//tei:line[31],34,95)"/>
@@ -1428,7 +1428,7 @@
                <rdgGrp n="['alledged']" xml:id="C20_app79_rg1">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c57_another_chapter.xml#C20_app79-fMS"/>
-                     <witDetail wit="#fMS" target="c57/#/p32">
+                     <witDetail wit="#fMS" target="sga:c57/#/p32">
                         <ref type="page"
                               target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0032.xml">
                            <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0032.xml#string-range(//tei:surface[@xml:id='ox-ms_abinger_c57-0032']/tei:zone[@type='left_margin']//tei:line[1],26,35)"/>
@@ -1458,7 +1458,7 @@
                         xml:id="C20_app81_rg1">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c57_another_chapter.xml#C20_app81-fMS"/>
-                     <witDetail wit="#fMS" target="c57/#/p32">
+                     <witDetail wit="#fMS" target="sga:c57/#/p32">
                         <ref type="page"
                               target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0032.xml">
                            <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0032.xml#string-range(//tei:surface[@xml:id='ox-ms_abinger_c57-0032']/tei:zone[@type='left_margin']//tei:line[1],41,121)"/>
@@ -1511,7 +1511,7 @@
                         xml:id="C20_app83_rg1">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c57_another_chapter.xml#C20_app83-fMS"/>
-                     <witDetail wit="#fMS" target="c57/#/p32">
+                     <witDetail wit="#fMS" target="sga:c57/#/p32">
                         <ref type="page"
                               target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0032.xml">
                            <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0032.xml#string-range(//tei:surface[@xml:id='ox-ms_abinger_c57-0032']/tei:zone[@type='left_margin']//tei:line[3],59,98)"/>
@@ -1560,7 +1560,7 @@
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c57_another_chapter.xml#C20_app85-fMS__I"/>
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c57_another_chapter.xml#C20_app85-fMS__M"/>
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c57_another_chapter.xml#C20_app85-fMS__F"/>
-                     <witDetail wit="#fMS" target="c57/#/p32">
+                     <witDetail wit="#fMS" target="sga:c57/#/p32">
                         <ref type="page"
                               target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0032.xml">
                            <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0032.xml#string-range(//tei:surface[@xml:id='ox-ms_abinger_c57-0032']/tei:zone[@type='main']//tei:line[4],0,35)"/>
@@ -1575,7 +1575,7 @@
                <rdgGrp n="['made']" xml:id="C20_app87_rg1">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c57_another_chapter.xml#C20_app87-fMS"/>
-                     <witDetail wit="#fMS" target="c57/#/p32">
+                     <witDetail wit="#fMS" target="sga:c57/#/p32">
                         <ref type="page"
                               target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0032.xml">
                            <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0032.xml#string-range(//tei:surface[@xml:id='ox-ms_abinger_c57-0032']/tei:zone[@type='main']//tei:line[4],37,42)"/>
@@ -1604,7 +1604,7 @@
                <rdgGrp n="['moment']" xml:id="C20_app89_rg1">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c57_another_chapter.xml#C20_app89-fMS"/>
-                     <witDetail wit="#fMS" target="c57/#/p32">
+                     <witDetail wit="#fMS" target="sga:c57/#/p32">
                         <ref type="page"
                               target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0032.xml">
                            <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0032.xml#string-range(//tei:surface[@xml:id='ox-ms_abinger_c57-0032']/tei:zone[@type='main']//tei:line[4],48,55)"/>
@@ -1633,7 +1633,7 @@
                <rdgGrp n="['him']" xml:id="C20_app91_rg1">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c57_another_chapter.xml#C20_app91-fMS"/>
-                     <witDetail wit="#fMS" target="c57/#/p32">
+                     <witDetail wit="#fMS" target="sga:c57/#/p32">
                         <ref type="page"
                               target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0032.xml">
                            <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0032.xml#string-range(//tei:surface[@xml:id='ox-ms_abinger_c57-0032']/tei:zone[@type='main']//tei:line[5],15,19)"/>
@@ -1663,7 +1663,7 @@
                         xml:id="C20_app93_rg1">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c57_another_chapter.xml#C20_app93-fMS"/>
-                     <witDetail wit="#fMS" target="c57/#/p32">
+                     <witDetail wit="#fMS" target="sga:c57/#/p32">
                         <ref type="page"
                               target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0032.xml">
                            <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0032.xml#string-range(//tei:surface[@xml:id='ox-ms_abinger_c57-0032']/tei:zone[@type='main']//tei:line[7],35,55)"/>
@@ -1695,7 +1695,7 @@
                <rdgGrp n="['st', '', '', 'r', '', 'ongly']" xml:id="C20_app95_rg1">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c57_another_chapter.xml#C20_app95-fMS"/>
-                     <witDetail wit="#fMS" target="c57/#/p32">
+                     <witDetail wit="#fMS" target="sga:c57/#/p32">
                         <ref type="page"
                               target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0032.xml">
                            <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0032.xml#string-range(//tei:surface[@xml:id='ox-ms_abinger_c57-0032']/tei:zone[@type='main']//tei:line[8],27,42)"/>
@@ -1739,7 +1739,7 @@
                         xml:id="C20_app97_rg2">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c57_another_chapter.xml#C20_app97-fMS"/>
-                     <witDetail wit="#fMS" target="c57/#/p32">
+                     <witDetail wit="#fMS" target="sga:c57/#/p32">
                         <ref type="page"
                               target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0032.xml">
                            <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0032.xml#string-range(//tei:surface[@xml:id='ox-ms_abinger_c57-0032']/tei:zone[@type='main']//tei:line[9],28,52)"/>
@@ -1773,7 +1773,7 @@
                         xml:id="C20_app98_rg2">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c57_another_chapter.xml#C20_app98-fMS"/>
-                     <witDetail wit="#fMS" target="c57/#/p32">
+                     <witDetail wit="#fMS" target="sga:c57/#/p32">
                         <ref type="page"
                               target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0032.xml">
                            <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0032.xml#string-range(//tei:surface[@xml:id='ox-ms_abinger_c57-0032']/tei:zone[@type='main']//tei:line[10],6,60)"/>
@@ -1791,7 +1791,7 @@
                <rdgGrp n="['mahometan,', 'who']" xml:id="C20_app99_rg1">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c57_another_chapter.xml#C20_app99-fMS"/>
-                     <witDetail wit="#fMS" target="c57/#/p32">
+                     <witDetail wit="#fMS" target="sga:c57/#/p32">
                         <ref type="page"
                               target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0032.xml">
                            <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0032.xml#string-range(//tei:surface[@xml:id='ox-ms_abinger_c57-0032']/tei:zone[@type='main']//tei:line[11],19,34)"/>
@@ -1820,7 +1820,7 @@
                <rdgGrp n="['chains']" xml:id="C20_app101_rg1">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c57_another_chapter.xml#C20_app101-fMS"/>
-                     <witDetail wit="#fMS" target="c57/#/p32">
+                     <witDetail wit="#fMS" target="sga:c57/#/p32">
                         <ref type="page"
                               target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0032.xml">
                            <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0032.xml#string-range(//tei:surface[@xml:id='ox-ms_abinger_c57-0032']/tei:zone[@type='main']//tei:line[12],12,19)"/>
@@ -1849,7 +1849,7 @@
                <rdgGrp n="['sentence .']" xml:id="C20_app103_rg1">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c57_another_chapter.xml#C20_app103-fMS"/>
-                     <witDetail wit="#fMS" target="c57/#/p32">
+                     <witDetail wit="#fMS" target="sga:c57/#/p32">
                         <ref type="page"
                               target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0032.xml">
                            <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0032.xml#string-range(//tei:surface[@xml:id='ox-ms_abinger_c57-0032']/tei:zone[@type='main']//tei:line[13],31,41)"/>
@@ -1881,7 +1881,7 @@
                <rdgGrp n="['night', '', '&lt;del&gt;h&lt;/del&gt;']" xml:id="C20_app105_rg1">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c57_another_chapter.xml#C20_app105-fMS"/>
-                     <witDetail wit="#fMS" target="c57/#/p32">
+                     <witDetail wit="#fMS" target="sga:c57/#/p32">
                         <ref type="page"
                               target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0032.xml">
                            <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0032.xml#string-range(//tei:surface[@xml:id='ox-ms_abinger_c57-0032']/tei:zone[@type='main']//tei:line[14],33,42)"/>
@@ -1913,7 +1913,7 @@
                <rdgGrp n="['turk']" xml:id="C20_app108_rg1">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c57_another_chapter.xml#C20_app108-fMS"/>
-                     <witDetail wit="#fMS" target="c57/#/p32">
+                     <witDetail wit="#fMS" target="sga:c57/#/p32">
                         <ref type="page"
                               target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0032.xml">
                            <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0032.xml#string-range(//tei:surface[@xml:id='ox-ms_abinger_c57-0032']/tei:zone[@type='main']//tei:line[16],30,35)"/>
@@ -1942,7 +1942,7 @@
                <rdgGrp n="['delighted']" xml:id="C20_app110_rg1">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c57_another_chapter.xml#C20_app110-fMS"/>
-                     <witDetail wit="#fMS" target="c57/#/p32">
+                     <witDetail wit="#fMS" target="sga:c57/#/p32">
                         <ref type="page"
                               target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0032.xml">
                            <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0032.xml#string-range(//tei:surface[@xml:id='ox-ms_abinger_c57-0032']/tei:zone[@type='main']//tei:line[17],11,21)"/>
@@ -1986,7 +1986,7 @@
                         xml:id="C20_app112_rg2">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c57_another_chapter.xml#C20_app112-fMS"/>
-                     <witDetail wit="#fMS" target="c57/#/p32">
+                     <witDetail wit="#fMS" target="sga:c57/#/p32">
                         <ref type="page"
                               target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0032.xml">
                            <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0032.xml#string-range(//tei:surface[@xml:id='ox-ms_abinger_c57-0032']/tei:zone[@type='main']//tei:line[17],34,63)"/>
@@ -2023,7 +2023,7 @@
                         xml:id="C20_app113_rg2">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c57_another_chapter.xml#C20_app113-fMS"/>
-                     <witDetail wit="#fMS" target="c57/#/p32">
+                     <witDetail wit="#fMS" target="sga:c57/#/p32">
                         <ref type="page"
                               target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0032.xml">
                            <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0032.xml#string-range(//tei:surface[@xml:id='ox-ms_abinger_c57-0032']/tei:zone[@type='main']//tei:line[18],16,98)"/>
@@ -2044,7 +2044,7 @@
                <rdgGrp n="['contempt']" xml:id="C20_app114_rg1">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c57_another_chapter.xml#C20_app114-fMS"/>
-                     <witDetail wit="#fMS" target="c57/#/p32">
+                     <witDetail wit="#fMS" target="sga:c57/#/p32">
                         <ref type="page"
                               target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0032.xml">
                            <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0032.xml#string-range(//tei:surface[@xml:id='ox-ms_abinger_c57-0032']/tei:zone[@type='main']//tei:line[20],16,25)"/>
@@ -2073,7 +2073,7 @@
                <rdgGrp n="['safie']" xml:id="C20_app116_rg1">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c57_another_chapter.xml#C20_app116-fMS"/>
-                     <witDetail wit="#fMS" target="c57/#/p32">
+                     <witDetail wit="#fMS" target="sga:c57/#/p32">
                         <ref type="page"
                               target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0032.xml">
                            <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0032.xml#string-range(//tei:surface[@xml:id='ox-ms_abinger_c57-0032']/tei:zone[@type='main']//tei:line[21],15,21)"/>
@@ -2102,7 +2102,7 @@
                <rdgGrp n="['father']" xml:id="C20_app118_rg1">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c57_another_chapter.xml#C20_app118-fMS"/>
-                     <witDetail wit="#fMS" target="c57/#/p32">
+                     <witDetail wit="#fMS" target="sga:c57/#/p32">
                         <ref type="page"
                               target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0032.xml">
                            <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0032.xml#string-range(//tei:surface[@xml:id='ox-ms_abinger_c57-0032']/tei:zone[@type='main']//tei:line[22],13,20)"/>
@@ -2131,7 +2131,7 @@
                <rdgGrp n="['who']" xml:id="C20_app120_rg1">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c57_another_chapter.xml#C20_app120-fMS"/>
-                     <witDetail wit="#fMS" target="c57/#/p32">
+                     <witDetail wit="#fMS" target="sga:c57/#/p32">
                         <ref type="page"
                               target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0032.xml">
                            <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0032.xml#string-range(//tei:surface[@xml:id='ox-ms_abinger_c57-0032']/tei:zone[@type='main']//tei:line[22],20,24)"/>
@@ -2160,7 +2160,7 @@
                <rdgGrp n="['&lt;del&gt;expressive&lt;/del&gt;', 'gestures']" xml:id="C20_app122_rg1">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c57_another_chapter.xml#C20_app122-fMS"/>
-                     <witDetail wit="#fMS" target="c57/#/p32">
+                     <witDetail wit="#fMS" target="sga:c57/#/p32">
                         <ref type="page"
                               target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0032.xml">
                            <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0032.xml#string-range(//tei:surface[@xml:id='ox-ms_abinger_c57-0032']/tei:zone[@type='main']//tei:line[22],29,49)"/>
@@ -2192,7 +2192,7 @@
                <rdgGrp n="['mind']" xml:id="C20_app124_rg1">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c57_another_chapter.xml#C20_app124-fMS"/>
-                     <witDetail wit="#fMS" target="c57/#/p32">
+                     <witDetail wit="#fMS" target="sga:c57/#/p32">
                         <ref type="page"
                               target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0032.xml">
                            <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0032.xml#string-range(//tei:surface[@xml:id='ox-ms_abinger_c57-0032']/tei:zone[@type='main']//tei:line[25],0,5)"/>
@@ -2241,7 +2241,7 @@
                         xml:id="C20_app126_rg2">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c57_another_chapter.xml#C20_app126-fMS"/>
-                     <witDetail wit="#fMS" target="c57/#/p32">
+                     <witDetail wit="#fMS" target="sga:c57/#/p32">
                         <ref type="page"
                               target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0032.xml">
                            <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0032.xml#string-range(//tei:surface[@xml:id='ox-ms_abinger_c57-0032']/tei:zone[@type='main']//tei:line[26],15,83)"/>
@@ -2273,7 +2273,7 @@
                <rdgGrp n="['the']" xml:id="C20_app127_rg2">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c57_another_chapter.xml#C20_app127-fMS"/>
-                     <witDetail wit="#fMS" target="c57/#/p32">
+                     <witDetail wit="#fMS" target="sga:c57/#/p32">
                         <ref type="page"
                               target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0032.xml">
                            <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0032.xml#string-range(//tei:surface[@xml:id='ox-ms_abinger_c57-0032']/tei:zone[@type='main']//tei:line[28],0,4)"/>
@@ -2289,7 +2289,7 @@
                         xml:id="C20_app129_rg1">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c57_another_chapter.xml#C20_app129-fMS"/>
-                     <witDetail wit="#fMS" target="c57/#/p33">
+                     <witDetail wit="#fMS" target="sga:c57/#/p33">
                         <ref type="page"
                               target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0033.xml">
                            <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0033.xml#string-range(//tei:surface[@xml:id='ox-ms_abinger_c57-0033']/tei:zone[@type='main']//tei:line[1],1,72)"/>
@@ -2324,7 +2324,7 @@
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c57_another_chapter.xml#C20_app131-fMS__I"/>
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c57_another_chapter.xml#C20_app131-fMS__M"/>
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c57_another_chapter.xml#C20_app131-fMS__F"/>
-                     <witDetail wit="#fMS" target="c57/#/p33">
+                     <witDetail wit="#fMS" target="sga:c57/#/p33">
                         <ref type="page"
                               target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0033.xml">
                            <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0033.xml#string-range(//tei:surface[@xml:id='ox-ms_abinger_c57-0033']/tei:zone[@type='main']//tei:line[2],32,59)"/>
@@ -2371,7 +2371,7 @@
                         xml:id="C20_app133_rg2">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c57_another_chapter.xml#C20_app133-fMS"/>
-                     <witDetail wit="#fMS" target="c57/#/p33">
+                     <witDetail wit="#fMS" target="sga:c57/#/p33">
                         <ref type="page"
                               target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0033.xml">
                            <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0033.xml#string-range(//tei:surface[@xml:id='ox-ms_abinger_c57-0033']/tei:zone[@type='main']//tei:line[3],10,28)"/>
@@ -2401,7 +2401,7 @@
                         xml:id="C20_app134_rg2">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c57_another_chapter.xml#C20_app134-fMS"/>
-                     <witDetail wit="#fMS" target="c57/#/p33">
+                     <witDetail wit="#fMS" target="sga:c57/#/p33">
                         <ref type="page"
                               target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0033.xml">
                            <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0033.xml#string-range(//tei:surface[@xml:id='ox-ms_abinger_c57-0033']/tei:zone[@type='main']//tei:line[3],27,55)"/>
@@ -2450,7 +2450,7 @@
                <rdgGrp n="['marriage;']" xml:id="C20_app137_rg2">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c57_another_chapter.xml#C20_app137-fMS"/>
-                     <witDetail wit="#fMS" target="c57/#/p33">
+                     <witDetail wit="#fMS" target="sga:c57/#/p33">
                         <ref type="page"
                               target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0033.xml">
                            <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0033.xml#string-range(//tei:surface[@xml:id='ox-ms_abinger_c57-0033']/tei:zone[@type='main']//tei:line[4],27,37)"/>
@@ -2466,7 +2466,7 @@
                         xml:id="C20_app139_rg1">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c57_another_chapter.xml#C20_app139-fMS"/>
-                     <witDetail wit="#fMS" target="c57/#/p33">
+                     <witDetail wit="#fMS" target="sga:c57/#/p33">
                         <ref type="page"
                               target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0033.xml">
                            <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0033.xml#string-range(//tei:surface[@xml:id='ox-ms_abinger_c57-0033']/tei:zone[@type='main']//tei:line[5],33,283)"/>
@@ -3228,7 +3228,7 @@
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c57_another_chapter.xml#C20_app174-fMS__I"/>
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c57_another_chapter.xml#C20_app174-fMS__F"/>
-                     <witDetail wit="#fMS" target="c57/#/p33">
+                     <witDetail wit="#fMS" target="sga:c57/#/p33">
                         <ref type="page"
                               target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0033.xml">
                            <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0033.xml#string-range(//tei:surface[@xml:id='ox-ms_abinger_c57-0033']/tei:zone[@type='main']//tei:line[13],37,45)"/>
@@ -3245,7 +3245,7 @@
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c57_another_chapter.xml#C20_app175-fMS__I"/>
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c57_another_chapter.xml#C20_app175-fMS__F"/>
-                     <witDetail wit="#fMS" target="c57/#/p33">
+                     <witDetail wit="#fMS" target="sga:c57/#/p33">
                         <ref type="page"
                               target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0033.xml">
                            <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0033.xml#string-range(//tei:surface[@xml:id='ox-ms_abinger_c57-0033']/tei:zone[@type='main']//tei:line[13],44,107)"/>
@@ -3284,7 +3284,7 @@
                <rdgGrp n="['command', '–she']" xml:id="C20_app177_rg1">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c57_another_chapter.xml#C20_app177-fMS"/>
-                     <witDetail wit="#fMS" target="c57/#/p33">
+                     <witDetail wit="#fMS" target="sga:c57/#/p33">
                         <ref type="page"
                               target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0033.xml">
                            <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0033.xml#string-range(//tei:surface[@xml:id='ox-ms_abinger_c57-0033']/tei:zone[@type='main']//tei:line[16],21,34)"/>
@@ -3313,7 +3313,7 @@
                <rdgGrp n="['father']" xml:id="C20_app179_rg1">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c57_another_chapter.xml#C20_app179-fMS"/>
-                     <witDetail wit="#fMS" target="c57/#/p33">
+                     <witDetail wit="#fMS" target="sga:c57/#/p33">
                         <ref type="page"
                               target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0033.xml">
                            <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0033.xml#string-range(//tei:surface[@xml:id='ox-ms_abinger_c57-0033']/tei:zone[@type='main']//tei:line[17],27,34)"/>
@@ -3356,7 +3356,7 @@
                <rdgGrp n="['&lt;del&gt;er&lt;/del&gt;', 'her']" xml:id="C20_app181_rg2">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c57_another_chapter.xml#C20_app181-fMS"/>
-                     <witDetail wit="#fMS" target="c57/#/p33">
+                     <witDetail wit="#fMS" target="sga:c57/#/p33">
                         <ref type="page"
                               target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0033.xml">
                            <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0033.xml#string-range(//tei:surface[@xml:id='ox-ms_abinger_c57-0033']/tei:zone[@type='main']//tei:line[18],8,15)"/>
@@ -3371,7 +3371,7 @@
                <rdgGrp n="['angrily', '&lt;del&gt;re&lt;/del&gt;']" xml:id="C20_app182_rg1">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c57_another_chapter.xml#C20_app182-fMS"/>
-                     <witDetail wit="#fMS" target="c57/#/p33">
+                     <witDetail wit="#fMS" target="sga:c57/#/p33">
                         <ref type="page"
                               target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0033.xml">
                            <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0033.xml#string-range(//tei:surface[@xml:id='ox-ms_abinger_c57-0033']/tei:zone[@type='main']//tei:line[18],14,25)"/>
@@ -3400,7 +3400,7 @@
                <rdgGrp n="['command.', '&lt;del&gt;orders.&lt;/del&gt;']" xml:id="C20_app184_rg1">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c57_another_chapter.xml#C20_app184-fMS"/>
-                     <witDetail wit="#fMS" target="c57/#/p33">
+                     <witDetail wit="#fMS" target="sga:c57/#/p33">
                         <ref type="page"
                               target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0033.xml">
                            <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0033.xml#string-range(//tei:surface[@xml:id='ox-ms_abinger_c57-0033']/tei:zone[@type='main']//tei:line[19],11,28)"/>
@@ -3447,7 +3447,7 @@
                   </rdg>
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c57_another_chapter.xml#C20_app185-fMS"/>
-                     <witDetail wit="#fMS" target="c57/#/p33">
+                     <witDetail wit="#fMS" target="sga:c57/#/p33">
                         <ref type="page"
                               target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0033.xml">
                            <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0033.xml#string-range(//tei:surface[@xml:id='ox-ms_abinger_c57-0033']/tei:zone[@type='main']//tei:line[19],27,29)"/>
@@ -3476,7 +3476,7 @@
                <rdgGrp n="['a']" xml:id="C20_app186_rg2">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c57_another_chapter.xml#C20_app186-fMS"/>
-                     <witDetail wit="#fMS" target="c57/#/p33">
+                     <witDetail wit="#fMS" target="sga:c57/#/p33">
                         <ref type="page"
                               target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0033.xml">
                            <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0033.xml#string-range(//tei:surface[@xml:id='ox-ms_abinger_c57-0033']/tei:zone[@type='main']//tei:line[20],0,2)"/>
@@ -3491,7 +3491,7 @@
                <rdgGrp n="['after']" xml:id="C20_app188_rg1">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c57_another_chapter.xml#C20_app188-fMS"/>
-                     <witDetail wit="#fMS" target="c57/#/p33">
+                     <witDetail wit="#fMS" target="sga:c57/#/p33">
                         <ref type="page"
                               target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0033.xml">
                            <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0033.xml#string-range(//tei:surface[@xml:id='ox-ms_abinger_c57-0033']/tei:zone[@type='main']//tei:line[20],10,16)"/>
@@ -3520,7 +3520,7 @@
                <rdgGrp n="['daughters', 'appartment']" xml:id="C20_app190_rg1">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c57_another_chapter.xml#C20_app190-fMS"/>
-                     <witDetail wit="#fMS" target="c57/#/p33">
+                     <witDetail wit="#fMS" target="sga:c57/#/p33">
                         <ref type="page"
                               target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0033.xml">
                            <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0033.xml#string-range(//tei:surface[@xml:id='ox-ms_abinger_c57-0033']/tei:zone[@type='main']//tei:line[21],4,25)"/>
@@ -3549,7 +3549,7 @@
                <rdgGrp n="['hastily']" xml:id="C20_app192_rg1">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c57_another_chapter.xml#C20_app192-fMS"/>
-                     <witDetail wit="#fMS" target="c57/#/p33">
+                     <witDetail wit="#fMS" target="sga:c57/#/p33">
                         <ref type="page"
                               target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0033.xml">
                            <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0033.xml#string-range(//tei:surface[@xml:id='ox-ms_abinger_c57-0033']/tei:zone[@type='main']//tei:line[22],0,8)"/>
@@ -3592,7 +3592,7 @@
                <rdgGrp n="['in']" xml:id="C20_app194_rg2">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c57_another_chapter.xml#C20_app194-fMS"/>
-                     <witDetail wit="#fMS" target="c57/#/p33">
+                     <witDetail wit="#fMS" target="sga:c57/#/p33">
                         <ref type="page"
                               target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0033.xml">
                            <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0033.xml#string-range(//tei:surface[@xml:id='ox-ms_abinger_c57-0033']/tei:zone[@type='main']//tei:line[23],19,22)"/>
@@ -3607,7 +3607,7 @@
                <rdgGrp n="['divulged']" xml:id="C20_app196_rg1">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c57_another_chapter.xml#C20_app196-fMS"/>
-                     <witDetail wit="#fMS" target="c57/#/p33">
+                     <witDetail wit="#fMS" target="sga:c57/#/p33">
                         <ref type="page"
                               target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0033.xml">
                            <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0033.xml#string-range(//tei:surface[@xml:id='ox-ms_abinger_c57-0033']/tei:zone[@type='main']//tei:line[24],0,9)"/>
@@ -3653,7 +3653,7 @@
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c57_another_chapter.xml#C20_app198-fMS__I"/>
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c57_another_chapter.xml#C20_app198-fMS__M"/>
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c57_another_chapter.xml#C20_app198-fMS__F"/>
-                     <witDetail wit="#fMS" target="c57/#/p33">
+                     <witDetail wit="#fMS" target="sga:c57/#/p33">
                         <ref type="page"
                               target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0033.xml">
                            <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0033.xml#string-range(//tei:surface[@xml:id='ox-ms_abinger_c57-0033']/tei:zone[@type='main']//tei:line[24],20,39)"/>
@@ -3684,7 +3684,7 @@
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c57_another_chapter.xml#C20_app199-fMS__I"/>
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c57_another_chapter.xml#C20_app199-fMS__F"/>
-                     <witDetail wit="#fMS" target="c57/#/p33">
+                     <witDetail wit="#fMS" target="sga:c57/#/p33">
                         <ref type="page"
                               target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0033.xml">
                            <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0033.xml#string-range(//tei:surface[@xml:id='ox-ms_abinger_c57-0033']/tei:zone[@type='main']//tei:line[24],38,64)"/>
@@ -3718,7 +3718,7 @@
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c57_another_chapter.xml#C20_app200-fMS__I"/>
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c57_another_chapter.xml#C20_app200-fMS__M"/>
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c57_another_chapter.xml#C20_app200-fMS__F"/>
-                     <witDetail wit="#fMS" target="c57/#/p33">
+                     <witDetail wit="#fMS" target="sga:c57/#/p33">
                         <ref type="page"
                               target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0033.xml">
                            <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0033.xml#string-range(//tei:surface[@xml:id='ox-ms_abinger_c57-0033']/tei:zone[@type='main']//tei:line[25],13,19)"/>
@@ -3753,7 +3753,7 @@
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c57_another_chapter.xml#C20_app202-fMS__I"/>
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c57_another_chapter.xml#C20_app202-fMS__F"/>
-                     <witDetail wit="#fMS" target="c57/#/p33 c57/#/p34">
+                     <witDetail wit="#fMS" target="sga:c57/#/p33 sga:c57/#/p34">
                         <ref type="page"
                               target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0033.xml">
                            <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0033.xml#string-range(//tei:surface[@xml:id='ox-ms_abinger_c57-0033']/tei:zone[@type='main']//tei:line[25],31,185)"/>
@@ -3817,7 +3817,7 @@
                         xml:id="C20_app208_rg2">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c57_another_chapter.xml#C20_app208-fMS"/>
-                     <witDetail wit="#fMS" target="c57/#/p34">
+                     <witDetail wit="#fMS" target="sga:c57/#/p34">
                         <ref type="page"
                               target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0034.xml">
                            <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0034.xml#string-range(//tei:surface[@xml:id='ox-ms_abinger_c57-0034']/tei:zone[@type='main']//tei:line[3],9,37)"/>
@@ -3846,7 +3846,7 @@
                <rdgGrp n="['servant']" xml:id="C20_app209_rg2">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c57_another_chapter.xml#C20_app209-fMS"/>
-                     <witDetail wit="#fMS" target="c57/#/p34">
+                     <witDetail wit="#fMS" target="sga:c57/#/p34">
                         <ref type="page"
                               target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0034.xml">
                            <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0034.xml#string-range(//tei:surface[@xml:id='ox-ms_abinger_c57-0034']/tei:zone[@type='main']//tei:line[3],36,44)"/>
@@ -3861,7 +3861,7 @@
                <rdgGrp n="['property']" xml:id="C20_app211_rg1">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c57_another_chapter.xml#C20_app211-fMS"/>
-                     <witDetail wit="#fMS" target="c57/#/p34">
+                     <witDetail wit="#fMS" target="sga:c57/#/p34">
                         <ref type="page"
                               target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0034.xml">
                            <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0034.xml#string-range(//tei:surface[@xml:id='ox-ms_abinger_c57-0034']/tei:zone[@type='main']//tei:line[5],7,16)"/>
@@ -3905,7 +3905,7 @@
                         xml:id="C20_app213_rg2">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c57_another_chapter.xml#C20_app213-fMS"/>
-                     <witDetail wit="#fMS" target="c57/#/p34">
+                     <witDetail wit="#fMS" target="sga:c57/#/p34">
                         <ref type="page"
                               target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0034.xml">
                            <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0034.xml#string-range(//tei:surface[@xml:id='ox-ms_abinger_c57-0034']/tei:zone[@type='main']//tei:line[7],0,28)"/>
@@ -3934,7 +3934,7 @@
                <rdgGrp n="['revolved']" xml:id="C20_app215_rg2">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c57_another_chapter.xml#C20_app215-fMS"/>
-                     <witDetail wit="#fMS" target="c57/#/p34">
+                     <witDetail wit="#fMS" target="sga:c57/#/p34">
                         <ref type="page"
                               target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0034.xml">
                            <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0034.xml#string-range(//tei:surface[@xml:id='ox-ms_abinger_c57-0034']/tei:zone[@type='main']//tei:line[7],33,42)"/>
@@ -3963,7 +3963,7 @@
                <rdgGrp n="['&lt;del&gt;various&lt;/del&gt;', 'plan']" xml:id="C20_app217_rg2">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c57_another_chapter.xml#C20_app217-fMS"/>
-                     <witDetail wit="#fMS" target="c57/#/p34">
+                     <witDetail wit="#fMS" target="sga:c57/#/p34">
                         <ref type="page"
                               target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0034.xml">
                            <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0034.xml#string-range(//tei:surface[@xml:id='ox-ms_abinger_c57-0034']/tei:zone[@type='main']//tei:line[8],20,33)"/>
@@ -3995,7 +3995,7 @@
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c57_another_chapter.xml#C20_app218-fMS__I"/>
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c57_another_chapter.xml#C20_app218-fMS__F"/>
-                     <witDetail wit="#fMS" target="c57/#/p34">
+                     <witDetail wit="#fMS" target="sga:c57/#/p34">
                         <ref type="page"
                               target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0034.xml">
                            <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0034.xml#string-range(//tei:surface[@xml:id='ox-ms_abinger_c57-0034']/tei:zone[@type='main']//tei:line[8],32,99)"/>
@@ -4033,7 +4033,7 @@
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c57_another_chapter.xml#C20_app219-fMS__I"/>
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c57_another_chapter.xml#C20_app219-fMS__F"/>
-                     <witDetail wit="#fMS" target="c57/#/p34">
+                     <witDetail wit="#fMS" target="sga:c57/#/p34">
                         <ref type="page"
                               target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0034.xml">
                            <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0034.xml#string-range(//tei:surface[@xml:id='ox-ms_abinger_c57-0034']/tei:zone[@type='main']//tei:line[10],19,71)"/>
@@ -4051,7 +4051,7 @@
                <rdgGrp n="['her', '–']" xml:id="C20_app220_rg1">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c57_another_chapter.xml#C20_app220-fMS"/>
-                     <witDetail wit="#fMS" target="c57/#/p34">
+                     <witDetail wit="#fMS" target="sga:c57/#/p34">
                         <ref type="page"
                               target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0034.xml">
                            <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0034.xml#string-range(//tei:surface[@xml:id='ox-ms_abinger_c57-0034']/tei:zone[@type='main']//tei:line[11],11,17)"/>
@@ -4113,7 +4113,7 @@
                <rdgGrp n="['&lt;del&gt;that&lt;/del&gt;', 'of', 'her']" xml:id="C20_app224_rg2">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c57_another_chapter.xml#C20_app224-fMS"/>
-                     <witDetail wit="#fMS" target="c57/#/p34">
+                     <witDetail wit="#fMS" target="sga:c57/#/p34">
                         <ref type="page"
                               target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0034.xml">
                            <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0034.xml#string-range(//tei:surface[@xml:id='ox-ms_abinger_c57-0034']/tei:zone[@type='main']//tei:line[12],36,48)"/>
@@ -4139,7 +4139,7 @@
                <rdgGrp n="['fathers', 'that']" xml:id="C20_app225_rg2">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c57_another_chapter.xml#C20_app225-fMS"/>
-                     <witDetail wit="#fMS" target="c57/#/p34">
+                     <witDetail wit="#fMS" target="sga:c57/#/p34">
                         <ref type="page"
                               target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0034.xml">
                            <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0034.xml#string-range(//tei:surface[@xml:id='ox-ms_abinger_c57-0034']/tei:zone[@type='main']//tei:line[13],7,20)"/>
@@ -4162,7 +4162,7 @@
                <rdgGrp n="['hands']" xml:id="C20_app227_rg1">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c57_another_chapter.xml#C20_app227-fMS"/>
-                     <witDetail wit="#fMS" target="c57/#/p34">
+                     <witDetail wit="#fMS" target="sga:c57/#/p34">
                         <ref type="page"
                               target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0034.xml">
                            <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0034.xml#string-range(//tei:surface[@xml:id='ox-ms_abinger_c57-0034']/tei:zone[@type='main']//tei:line[13],32,38)"/>
@@ -4191,7 +4191,7 @@
                <rdgGrp n="['lover']" xml:id="C20_app229_rg1">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c57_another_chapter.xml#C20_app229-fMS"/>
-                     <witDetail wit="#fMS" target="c57/#/p34">
+                     <witDetail wit="#fMS" target="sga:c57/#/p34">
                         <ref type="page"
                               target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0034.xml">
                            <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0034.xml#string-range(//tei:surface[@xml:id='ox-ms_abinger_c57-0034']/tei:zone[@type='main']//tei:line[14],26,32)"/>
@@ -4221,7 +4221,7 @@
                         xml:id="C20_app231_rg1">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c57_another_chapter.xml#C20_app231-fMS"/>
-                     <witDetail wit="#fMS" target="c57/#/p34">
+                     <witDetail wit="#fMS" target="sga:c57/#/p34">
                         <ref type="page"
                               target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0034.xml">
                            <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0034.xml#string-range(//tei:surface[@xml:id='ox-ms_abinger_c57-0034']/tei:zone[@type='main']//tei:line[14],34,75)"/>
@@ -4257,7 +4257,7 @@
                <rdgGrp n="['time']" xml:id="C20_app233_rg1">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c57_another_chapter.xml#C20_app233-fMS"/>
-                     <witDetail wit="#fMS" target="c57/#/p34">
+                     <witDetail wit="#fMS" target="sga:c57/#/p34">
                         <ref type="page"
                               target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0034.xml">
                            <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0034.xml#string-range(//tei:surface[@xml:id='ox-ms_abinger_c57-0034']/tei:zone[@type='main']//tei:line[16],30,35)"/>
@@ -4300,7 +4300,7 @@
                <rdgGrp n="['resolution', '—taking']" xml:id="C20_app235_rg2">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c57_another_chapter.xml#C20_app235-fMS"/>
-                     <witDetail wit="#fMS" target="c57/#/p34">
+                     <witDetail wit="#fMS" target="sga:c57/#/p34">
                         <ref type="page"
                               target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0034.xml">
                            <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0034.xml#string-range(//tei:surface[@xml:id='ox-ms_abinger_c57-0034']/tei:zone[@type='main']//tei:line[17],22,41)"/>
@@ -4327,7 +4327,7 @@
                   </rdg>
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c57_another_chapter.xml#C20_app237-fMS"/>
-                     <witDetail wit="#fMS" target="c57/#/p34">
+                     <witDetail wit="#fMS" target="sga:c57/#/p34">
                         <ref type="page"
                               target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0034.xml">
                            <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0034.xml#string-range(//tei:surface[@xml:id='ox-ms_abinger_c57-0034']/tei:zone[@type='main']//tei:line[19],6,12)"/>
@@ -4356,7 +4356,7 @@
                <rdgGrp n="['money;']" xml:id="C20_app239_rg2">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c57_another_chapter.xml#C20_app239-fMS"/>
-                     <witDetail wit="#fMS" target="c57/#/p34">
+                     <witDetail wit="#fMS" target="sga:c57/#/p34">
                         <ref type="page"
                               target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0034.xml">
                            <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0034.xml#string-range(//tei:surface[@xml:id='ox-ms_abinger_c57-0034']/tei:zone[@type='main']//tei:line[19],17,24)"/>
@@ -4374,7 +4374,7 @@
                   </rdg>
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c57_another_chapter.xml#C20_app241-fMS"/>
-                     <witDetail wit="#fMS" target="c57/#/p34">
+                     <witDetail wit="#fMS" target="sga:c57/#/p34">
                         <ref type="page"
                               target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0034.xml">
                            <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0034.xml#string-range(//tei:surface[@xml:id='ox-ms_abinger_c57-0034']/tei:zone[@type='main']//tei:line[20],0,6)"/>
@@ -4401,7 +4401,7 @@
                         xml:id="C20_app243_rg1">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c57_another_chapter.xml#C20_app243-fMS"/>
-                     <witDetail wit="#fMS" target="c57/#/p34">
+                     <witDetail wit="#fMS" target="sga:c57/#/p34">
                         <ref type="page"
                               target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0034.xml">
                            <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0034.xml#string-range(//tei:surface[@xml:id='ox-ms_abinger_c57-0034']/tei:zone[@type='main']//tei:line[20],10,37)"/>
@@ -4430,7 +4430,7 @@
                <rdgGrp n="['leghorn']" xml:id="C20_app245_rg1">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c57_another_chapter.xml#C20_app245-fMS"/>
-                     <witDetail wit="#fMS" target="c57/#/p34">
+                     <witDetail wit="#fMS" target="sga:c57/#/p34">
                         <ref type="page"
                               target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0034.xml">
                            <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0034.xml#string-range(//tei:surface[@xml:id='ox-ms_abinger_c57-0034']/tei:zone[@type='main']//tei:line[21],10,18)"/>
@@ -4459,7 +4459,7 @@
                <rdgGrp n="['&lt;del&gt;tur', 'kish', '&lt;/del&gt;arabic', '']" xml:id="C20_app247_rg1">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c57_another_chapter.xml#C20_app247-fMS"/>
-                     <witDetail wit="#fMS" target="c57/#/p34">
+                     <witDetail wit="#fMS" target="sga:c57/#/p34">
                         <ref type="page"
                               target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0034.xml">
                            <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0034.xml#string-range(//tei:surface[@xml:id='ox-ms_abinger_c57-0034']/tei:zone[@type='main']//tei:line[21],35,52)"/>
@@ -4511,7 +4511,7 @@
                <rdgGrp n="['she', 'arrived', '', '&lt;del&gt;safely&lt;/del&gt;']" xml:id="C20_app249_rg2">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c57_another_chapter.xml#C20_app249-fMS"/>
-                     <witDetail wit="#fMS" target="c57/#/p34">
+                     <witDetail wit="#fMS" target="sga:c57/#/p34">
                         <ref type="page"
                               target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0034.xml">
                            <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0034.xml#string-range(//tei:surface[@xml:id='ox-ms_abinger_c57-0034']/tei:zone[@type='main']//tei:line[22],38,58)"/>
@@ -4529,7 +4529,7 @@
                <rdgGrp n="['', '&lt;mdel&gt;50&lt;/mdel&gt;', '20', '']" xml:id="C20_app251_rg1">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c57_another_chapter.xml#C20_app251-fMS"/>
-                     <witDetail wit="#fMS" target="c57/#/p34">
+                     <witDetail wit="#fMS" target="sga:c57/#/p34">
                         <ref type="page"
                               target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0034.xml">
                            <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0034.xml#string-range(//tei:surface[@xml:id='ox-ms_abinger_c57-0034']/tei:zone[@type='main']//tei:line[23],33,41)"/>
@@ -4558,7 +4558,7 @@
                <rdgGrp n="['lacey', '–']" xml:id="C20_app253_rg1">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c57_another_chapter.xml#C20_app253-fMS"/>
-                     <witDetail wit="#fMS" target="c57/#/p34">
+                     <witDetail wit="#fMS" target="sga:c57/#/p34">
                         <ref type="page"
                               target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0034.xml">
                            <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0034.xml#string-range(//tei:surface[@xml:id='ox-ms_abinger_c57-0034']/tei:zone[@type='main']//tei:line[24],23,31)"/>
@@ -4601,7 +4601,7 @@
                <rdgGrp n="['then', 'fell']" xml:id="C20_app255_rg2">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c57_another_chapter.xml#C20_app255-fMS"/>
-                     <witDetail wit="#fMS" target="c57/#/p34">
+                     <witDetail wit="#fMS" target="sga:c57/#/p34">
                         <ref type="page"
                               target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0034.xml">
                            <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0034.xml#string-range(//tei:surface[@xml:id='ox-ms_abinger_c57-0034']/tei:zone[@type='main']//tei:line[25],0,10)"/>
@@ -4632,7 +4632,7 @@
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c57_another_chapter.xml#C20_app256-fMS__I"/>
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c57_another_chapter.xml#C20_app256-fMS__M"/>
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c57_another_chapter.xml#C20_app256-fMS__F"/>
-                     <witDetail wit="#fMS" target="c57/#/p34">
+                     <witDetail wit="#fMS" target="sga:c57/#/p34">
                         <ref type="page"
                               target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0034.xml">
                            <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0034.xml#string-range(//tei:surface[@xml:id='ox-ms_abinger_c57-0034']/tei:zone[@type='main']//tei:line[25],10,25)"/>
@@ -4649,7 +4649,7 @@
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c57_another_chapter.xml#C20_app257-fMS__I"/>
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c57_another_chapter.xml#C20_app257-fMS__F"/>
-                     <witDetail wit="#fMS" target="c57/#/p34">
+                     <witDetail wit="#fMS" target="sga:c57/#/p34">
                         <ref type="page"
                               target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0034.xml">
                            <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0034.xml#string-range(//tei:surface[@xml:id='ox-ms_abinger_c57-0034']/tei:zone[@type='main']//tei:line[25],24,53)"/>
@@ -4694,7 +4694,7 @@
                         xml:id="C20_app259_rg2">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c57_another_chapter.xml#C20_app259-fMS"/>
-                     <witDetail wit="#fMS" target="c57/#/p34">
+                     <witDetail wit="#fMS" target="sga:c57/#/p34">
                         <ref type="page"
                               target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0034.xml">
                            <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0034.xml#string-range(//tei:surface[@xml:id='ox-ms_abinger_c57-0034']/tei:zone[@type='main']//tei:line[26],0,42)"/>
@@ -4709,7 +4709,7 @@
                <rdgGrp n="['affection']" xml:id="C20_app260_rg1">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c57_another_chapter.xml#C20_app260-fMS"/>
-                     <witDetail wit="#fMS" target="c57/#/p34">
+                     <witDetail wit="#fMS" target="sga:c57/#/p34">
                         <ref type="page"
                               target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0034.xml">
                            <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0034.xml#string-range(//tei:surface[@xml:id='ox-ms_abinger_c57-0034']/tei:zone[@type='main']//tei:line[27],0,10)"/>
@@ -4738,7 +4738,7 @@
                <rdgGrp n="['died']" xml:id="C20_app262_rg1">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c57_another_chapter.xml#C20_app262-fMS"/>
-                     <witDetail wit="#fMS" target="c57/#/p34">
+                     <witDetail wit="#fMS" target="sga:c57/#/p34">
                         <ref type="page"
                               target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0034.xml">
                            <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0034.xml#string-range(//tei:surface[@xml:id='ox-ms_abinger_c57-0034']/tei:zone[@type='main']//tei:line[27],27,32)"/>
@@ -4783,7 +4783,7 @@
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c57_another_chapter.xml#C20_app264-fMS__I"/>
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c57_another_chapter.xml#C20_app264-fMS__F"/>
-                     <witDetail wit="#fMS" target="c57/#/p34">
+                     <witDetail wit="#fMS" target="sga:c57/#/p34">
                         <ref type="page"
                               target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0034.xml">
                            <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0034.xml#string-range(//tei:surface[@xml:id='ox-ms_abinger_c57-0034']/tei:zone[@type='main']//tei:line[27],32,59)"/>
@@ -4801,7 +4801,7 @@
                <rdgGrp n="['alone']" xml:id="C20_app265_rg1">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c57_another_chapter.xml#C20_app265-fMS"/>
-                     <witDetail wit="#fMS" target="c57/#/p34">
+                     <witDetail wit="#fMS" target="sga:c57/#/p34">
                         <ref type="page"
                               target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0034.xml">
                            <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0034.xml#string-range(//tei:surface[@xml:id='ox-ms_abinger_c57-0034']/tei:zone[@type='main']//tei:line[28],9,15)"/>
@@ -4830,7 +4830,7 @@
                <rdgGrp n="['country']" xml:id="C20_app267_rg1">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c57_another_chapter.xml#C20_app267-fMS"/>
-                     <witDetail wit="#fMS" target="c57/#/p35">
+                     <witDetail wit="#fMS" target="sga:c57/#/p35">
                         <ref type="page"
                               target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0035.xml">
                            <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0035.xml#string-range(//tei:surface[@xml:id='ox-ms_abinger_c57-0035']/tei:zone[@type='main']//tei:line[1],13,21)"/>
@@ -4860,7 +4860,7 @@
                         xml:id="C20_app269_rg1">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c57_another_chapter.xml#C20_app269-fMS"/>
-                     <witDetail wit="#fMS" target="c57/#/p35">
+                     <witDetail wit="#fMS" target="sga:c57/#/p35">
                         <ref type="page"
                               target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0035.xml">
                            <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0035.xml#string-range(//tei:surface[@xml:id='ox-ms_abinger_c57-0035']/tei:zone[@type='main']//tei:line[2],31,56)"/>
@@ -4907,7 +4907,7 @@
                         xml:id="C20_app271_rg2">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c57_another_chapter.xml#C20_app271-fMS"/>
-                     <witDetail wit="#fMS" target="c57/#/p35">
+                     <witDetail wit="#fMS" target="sga:c57/#/p35">
                         <ref type="page"
                               target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0035.xml">
                            <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0035.xml#string-range(//tei:surface[@xml:id='ox-ms_abinger_c57-0035']/tei:zone[@type='main']//tei:line[3],10,77)"/>
@@ -4941,7 +4941,7 @@
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c57_another_chapter.xml#C20_app273-fMS__I"/>
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c57_another_chapter.xml#C20_app273-fMS__M"/>
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c57_another_chapter.xml#C20_app273-fMS__F"/>
-                     <witDetail wit="#fMS" target="c57/#/p35">
+                     <witDetail wit="#fMS" target="sga:c57/#/p35">
                         <ref type="page"
                               target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0035.xml">
                            <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0035.xml#string-range(//tei:surface[@xml:id='ox-ms_abinger_c57-0035']/tei:zone[@type='main']//tei:line[5],0,22)"/>
@@ -4956,7 +4956,7 @@
                <rdgGrp n="['bound', 'and']" xml:id="C20_app275_rg1">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c57_another_chapter.xml#C20_app275-fMS"/>
-                     <witDetail wit="#fMS" target="c57/#/p35">
+                     <witDetail wit="#fMS" target="sga:c57/#/p35">
                         <ref type="page"
                               target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0035.xml">
                            <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0035.xml#string-range(//tei:surface[@xml:id='ox-ms_abinger_c57-0035']/tei:zone[@type='main']//tei:line[6],25,35)"/>
@@ -4985,7 +4985,7 @@
                <rdgGrp n="['death']" xml:id="C20_app277_rg1">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c57_another_chapter.xml#C20_app277-fMS"/>
-                     <witDetail wit="#fMS" target="c57/#/p35">
+                     <witDetail wit="#fMS" target="sga:c57/#/p35">
                         <ref type="page"
                               target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0035.xml">
                            <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0035.xml#string-range(//tei:surface[@xml:id='ox-ms_abinger_c57-0035']/tei:zone[@type='main']//tei:line[7],4,10)"/>
@@ -5034,7 +5034,7 @@
                         xml:id="C20_app279_rg2">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c57_another_chapter.xml#C20_app279-fMS"/>
-                     <witDetail wit="#fMS" target="c57/#/p35 c57/#/p37">
+                     <witDetail wit="#fMS" target="sga:c57/#/p35 sga:c57/#/p37">
                         <ref type="page"
                               target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0035.xml">
                            <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0035.xml#string-range(//tei:surface[@xml:id='ox-ms_abinger_c57-0035']/tei:zone[@type='main']//tei:line[9],7,147)"/>
