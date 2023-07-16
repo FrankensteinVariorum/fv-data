@@ -3,40 +3,105 @@
       xmlns:mith="http://mith.umd.edu/sc/ns1#"
       xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
       xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse">
-   <teiHeader>
+   <teiHeader xmlns:cx="http://interedition.eu/collatex/ns/1.0"
+               xmlns:fv="https://github.com/FrankensteinVariorum">
       <fileDesc>
          <titleStmt>
             <title>Spine: Collation unit C19</title>
          </titleStmt>
          <publicationStmt>
             <authority>Frankenstein Variorum Project</authority>
-            <date>2018</date>
+            <date>2023—</date>
             <availability>
                <licence>Distributed under a Creative Commons
                                         Attribution-ShareAlike 3.0 Unported License</licence>
             </availability>
          </publicationStmt>
-         <sourceDesc xmlns:cx="http://interedition.eu/collatex/ns/1.0">
+         <sourceDesc>
+            <p>This project digitally compares five versions of the novel <title level="m">Frankenstein</title> prepared between 1816 and 1831.
+                                <abbr>fMS</abbr> refers to the manuscript notebooks dated roughly 1816 to 1818 and stored in three boxes at the Bodleian library in Oxford.
+                                    <abbr>f1818</abbr> refers to the first anonymous publication of Frankenstein in 1818. <abbr>fThomas</abbr> refers to a copy of the 1818 edition left by 
+                                    Mary Shelley with her friend Mrs. Thomas in Italy before she left for England after the death of Percy Shelley. This copy contains 
+                                    handwritten marginalia indicating edits she would make if there were ever a new edition, and apparently was not available for Mary Shelley to consult later.
+                                    <abbr>f1823</abbr> refes to the published edition prepared by William Godwin, the first to feature Mary Wollstonecraft Godwin Shelley’s name as the author. 
+                                    <abbr>f1831</abbr> refers to a heavily revised version prepared by Mary Shelley in 1831 for Bentley's Standard Series of novels. 
+                                    This edition was bound together in one volume with <bibl>Friedrich von Schiller’s <title level="m">The Ghost Seer</title>
+               </bibl>.
+                                </p>
+            <listBibl>
+               <bibl/>
+               <bibl/>
+               <bibl/>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p>This is a <q>spine</q> file representing a standoff critical apparatus for one of 33
+                                    aligned collation units or <q>chunks</q> that start and end in parallel across five
+                                    versions of the novel <title level="m">Frankenstein</title>. It is produced from a
+                                    machine-assisted process working with the collation software collateX, but our output
+                                    is not standard. CollateX calculates alignments and variations based on dividing
+                                    documents into tokens based on words or characters, and it allows for its adapters to
+                                    develop a normalization algorithm, to indicate that some strings, like <q>&amp;</q>
+                                    should be read as <q>and</q> by the software. The normalization mechanism afforded by
+                                    collateX permits us to compare markup of chapter and paragraph boundaries in simpler
+                                    forms. For example, it allows for TEI surface-and-zone markup of paragraphs in
+                                    <gi>milestone</gi> elements to be normalized as identical with <gi>p</gi> elements
+                                    used in other editions. We have developed a very complex, lengthy series of
+                                    normalizations
+                                    , and
+                                    we want to expose them in our TEI representation of the comparison data in our
+                                    project.</p>
+            <p>Our output of this spine file is not standard for collateX because we are
+                                    purposefully sharing an array of normalized tokens in an <att>n</att> attribute on
+                                    each <gi>rdgGrp</gi> element. This allows us to indicate the basis on which the
+                                    witnesses align when they are frequently not identical character-by-character. We are
+                                    grateful to David J. Birnbaum in his role as a member of the collateX team for
+                                    assisting us by locally editing the collateX 1.7.1 Python library for our project to
+                                    expose the normalized tokens in our TEI Variorum Spine files.</p>
+            <p>Additionally, we developed a post-collation processing pipeline with XSLT and Python
+                                    to to calculate Levenshtein (or edit-distance) values for each pair-wise comparison
+                                    possible at each moment of variation represented in a <gi>app</gi>, and we output the
+                                    maximum of these values in the <att>n</att> attribute on each <gi>app</gi>
+                                    element.</p>
             <p>Produced from collation output prepared in batch file processing
                                     on  2023-06-14 21:47:14.840957 .</p>
             <p>Edited to correct alignments and prepared for the Frankenstein
-                                    Variorum spine on 2023-07-14T02:43:29.592648-04:00.</p>
-         </sourceDesc>
-      </fileDesc>
+                                    Variorum spine on 2023-07-15T21:55:32.255464-04:00.</p>
+         </editorialDecl>
+         <appInfo>
+            <application ident="collateX" version="1.7.1">
+               <label>collateX</label>
+            </application>
+         </appInfo>
+         <listPrefixDef>
+            <desc>When the manuscript notebook witness shows content, the <gi>witDetail</gi> element
+                                    includes a <att>target</att> attribute that can be used to construct links to the
+                                    Shelley-Godwin Archive website display of the particular page on which this appears.
+                                    We also provide links directly to the XML documents together with XPath and
+                                    string-range data that should point to the specirfic location in the Shelley-Godwin
+                                    Archive TEI for this page. The prefixDef below indicates how to construct the links: </desc>
+            <prefixDef ident="s-ga"
+                        matchPattern="(c\d+/#/p\d+)"
+                        replacementPattern="https://shelleygodwinarchive.org/sc/oxford/ms_abinger/$1">
+               <p>For example, s-ga:c57/#/p73 resolves to the URL <ref target="https://shelleygodwinarchive.org/sc/oxford/ms_abinger/c57/#/p73">https://shelleygodwinarchive.org/sc/oxford/ms_abinger/c57/#/p73</ref> linking to 
+                                        the webpage that represents page 73 in box 57 of the Oxford Abinger notebooks.</p>
+            </prefixDef>
+         </listPrefixDef>
+      </encodingDesc>
    </teiHeader>
-   <text>
+   <text xmlns:cx="http://interedition.eu/collatex/ns/1.0"
+          xmlns:fv="https://github.com/FrankensteinVariorum">
       <body>
-         <ab type="alignmentChunk">
+         <listApp>
             <app xml:id="C19_app1" n="0">
-               <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
-                        xml:id="C19_app1_rg_empty">
+               <rdgGrp xml:id="C19_app1_rg_empty">
                   <rdg wit="#f1823"/>
                   <rdg wit="#f1831"/>
                   <rdg wit="#fMS"/>
                </rdgGrp>
-               <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
-                        n="['']"
-                        xml:id="C19_app1_rg1">
+               <rdgGrp n="['']" xml:id="C19_app1_rg1">
                   <rdg wit="#f1818">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1818_vol_2_chapter_iv.xml#C19_app1-f1818"/>
                   </rdg>
@@ -46,13 +111,10 @@
                </rdgGrp>
             </app>
             <app xml:id="C19_app2" n="0">
-               <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
-                        xml:id="C19_app2_rg_empty">
+               <rdgGrp xml:id="C19_app2_rg_empty">
                   <rdg wit="#fMS"/>
                </rdgGrp>
-               <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
-                        n="['', '']"
-                        xml:id="C19_app2_rg1">
+               <rdgGrp n="['', '']" xml:id="C19_app2_rg1">
                   <rdg wit="#f1818">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1818_vol_2_chapter_v.xml#C19_app2-f1818"/>
                   </rdg>
@@ -68,20 +130,15 @@
                </rdgGrp>
             </app>
             <app xml:id="C19_app3" n="12">
-               <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
-                        xml:id="C19_app3_rg_empty">
+               <rdgGrp xml:id="C19_app3_rg_empty">
                   <rdg wit="#fMS"/>
                </rdgGrp>
-               <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
-                        n="['chapter i.']"
-                        xml:id="C19_app3_rg1">
+               <rdgGrp n="['chapter i.']" xml:id="C19_app3_rg1">
                   <rdg wit="#f1823">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1823_vol_2_chapter_i.xml#C19_app3-f1823"/>
                   </rdg>
                </rdgGrp>
-               <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
-                        n="['chapter v.']"
-                        xml:id="C19_app3_rg2">
+               <rdgGrp n="['chapter v.']" xml:id="C19_app3_rg2">
                   <rdg wit="#f1818">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1818_vol_2_chapter_v.xml#C19_app3-f1818"/>
                   </rdg>
@@ -89,36 +146,41 @@
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fThomas_vol_2_chapter_v.xml#C19_app3-fThomas"/>
                   </rdg>
                </rdgGrp>
-               <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
-                        n="['chapter xiii.']"
-                        xml:id="C19_app3_rg3">
+               <rdgGrp n="['chapter xiii.']" xml:id="C19_app3_rg3">
                   <rdg wit="#f1831">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1831_chapter_xiii.xml#C19_app3-f1831"/>
                   </rdg>
                </rdgGrp>
             </app>
             <app xml:id="C19_app4" n="52">
-               <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
-                        xml:id="C19_app4_rg_empty">
+               <rdgGrp xml:id="C19_app4_rg_empty">
                   <rdg wit="#fMS"/>
                </rdgGrp>
-               <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
-                        n="['&lt;p-start/&gt;', '&#34;i', 'now', 'hasten', 'to', 'the', 'more', 'moving', 'part', 'of', 'my', 'story.', 'i', 'shall', 'relate']"
+               <rdgGrp n="['&lt;p-start/&gt;', '&#34;i', 'now', 'hasten', 'to', 'the', 'more', 'moving', 'part', 'of', 'my', 'story.', 'i', 'shall', 'relate']"
                         xml:id="C19_app4_rg1">
-                  <rdg wit="#f1818"/>
-                  <rdg wit="#f1823"/>
-                  <rdg wit="#fThomas"/>
-                  <rdg wit="#f1831"/>
+                  <rdg wit="#f1818">
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1818_vol_2_chapter_v.xml#C19_app4-f1818__I"/>
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1818_vol_2_chapter_v.xml#C19_app4-f1818__F"/>
+                  </rdg>
+                  <rdg wit="#f1823">
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1823_vol_2_chapter_i.xml#C19_app4-f1823__I"/>
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1823_vol_2_chapter_i.xml#C19_app4-f1823__F"/>
+                  </rdg>
+                  <rdg wit="#fThomas">
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fThomas_vol_2_chapter_v.xml#C19_app4-fThomas__I"/>
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fThomas_vol_2_chapter_v.xml#C19_app4-fThomas__F"/>
+                  </rdg>
+                  <rdg wit="#f1831">
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1831_chapter_xiii.xml#C19_app4-f1831__I"/>
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1831_chapter_xiii.xml#C19_app4-f1831__F"/>
+                  </rdg>
                </rdgGrp>
             </app>
             <app xml:id="C19_app5" n="7">
-               <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
-                        xml:id="C19_app5_rg_empty">
+               <rdgGrp xml:id="C19_app5_rg_empty">
                   <rdg wit="#fMS"/>
                </rdgGrp>
-               <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
-                        n="['events']"
-                        xml:id="C19_app5_rg1">
+               <rdgGrp n="['events']" xml:id="C19_app5_rg1">
                   <rdg wit="#f1818">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1818_vol_2_chapter_v.xml#C19_app5-f1818"/>
                   </rdg>
@@ -126,9 +188,7 @@
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fThomas_vol_2_chapter_v.xml#C19_app5-fThomas"/>
                   </rdg>
                </rdgGrp>
-               <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
-                        n="['events,']"
-                        xml:id="C19_app5_rg2">
+               <rdgGrp n="['events,']" xml:id="C19_app5_rg2">
                   <rdg wit="#f1823">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1823_vol_2_chapter_i.xml#C19_app5-f1823"/>
                   </rdg>
@@ -138,12 +198,10 @@
                </rdgGrp>
             </app>
             <app xml:id="C19_app6" n="42">
-               <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
-                        xml:id="C19_app6_rg_empty">
+               <rdgGrp xml:id="C19_app6_rg_empty">
                   <rdg wit="#fMS"/>
                </rdgGrp>
-               <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
-                        n="['that', 'impressed', 'me', 'with', 'feelings', 'which,', 'from', 'what', 'i']"
+               <rdgGrp n="['that', 'impressed', 'me', 'with', 'feelings', 'which,', 'from', 'what', 'i']"
                         xml:id="C19_app6_rg1">
                   <rdg wit="#f1818">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1818_vol_2_chapter_v.xml#C19_app6-f1818"/>
@@ -160,13 +218,10 @@
                </rdgGrp>
             </app>
             <app xml:id="C19_app7" n="8">
-               <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
-                        xml:id="C19_app7_rg_empty">
+               <rdgGrp xml:id="C19_app7_rg_empty">
                   <rdg wit="#fMS"/>
                </rdgGrp>
-               <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
-                        n="['had', 'been,']"
-                        xml:id="C19_app7_rg1">
+               <rdgGrp n="['had', 'been,']" xml:id="C19_app7_rg1">
                   <rdg wit="#f1823">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1823_vol_2_chapter_i.xml#C19_app7-f1823"/>
                   </rdg>
@@ -174,9 +229,7 @@
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1831_chapter_xiii.xml#C19_app7-f1831"/>
                   </rdg>
                </rdgGrp>
-               <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
-                        n="['was,']"
-                        xml:id="C19_app7_rg2">
+               <rdgGrp n="['was,']" xml:id="C19_app7_rg2">
                   <rdg wit="#f1818">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1818_vol_2_chapter_v.xml#C19_app7-f1818"/>
                   </rdg>
@@ -186,27 +239,38 @@
                </rdgGrp>
             </app>
             <app xml:id="C19_app8" n="386">
-               <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
-                        xml:id="C19_app8_rg_empty">
+               <rdgGrp xml:id="C19_app8_rg_empty">
                   <rdg wit="#fMS"/>
                </rdgGrp>
-               <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
-                        n="['have', 'made', 'me', 'what', 'i', 'am.', '&lt;p-end/&gt;', '&lt;p-start/&gt;', '&#34;spring', 'advanced', 'rapidly;', 'the', 'weather', 'became', 'fine,', 'and', 'the', 'skies', 'cloudless.', 'it', 'surprised', 'me,', 'that', 'what', 'before', 'was', 'desert', 'and', 'gloomy', 'should', 'now', 'bloom', 'with', 'the', 'most', 'beautiful', 'flowers', 'and', 'verdure.', 'my', 'senses', 'were', 'gratified', 'and', 'refreshed', 'by', 'a', 'thousand', 'scents', 'of', 'delight,', 'and', 'a', 'thousand', 'sights', 'of', 'beauty.', '&lt;p-end/&gt;', '&lt;p-start/&gt;', '&#34;it', 'was', 'on', 'one', 'of', 'these', 'days,', 'when', 'my', 'cottagers', 'periodically', 'rested', 'from', 'labour—the', 'old', 'man', 'played', 'on', 'his', 'guitar,', 'and', 'the', 'children', 'listened', 'to']"
+               <rdgGrp n="['have', 'made', 'me', 'what', 'i', 'am.', '&lt;p-end/&gt;', '&lt;p-start/&gt;', '&#34;spring', 'advanced', 'rapidly;', 'the', 'weather', 'became', 'fine,', 'and', 'the', 'skies', 'cloudless.', 'it', 'surprised', 'me,', 'that', 'what', 'before', 'was', 'desert', 'and', 'gloomy', 'should', 'now', 'bloom', 'with', 'the', 'most', 'beautiful', 'flowers', 'and', 'verdure.', 'my', 'senses', 'were', 'gratified', 'and', 'refreshed', 'by', 'a', 'thousand', 'scents', 'of', 'delight,', 'and', 'a', 'thousand', 'sights', 'of', 'beauty.', '&lt;p-end/&gt;', '&lt;p-start/&gt;', '&#34;it', 'was', 'on', 'one', 'of', 'these', 'days,', 'when', 'my', 'cottagers', 'periodically', 'rested', 'from', 'labour—the', 'old', 'man', 'played', 'on', 'his', 'guitar,', 'and', 'the', 'children', 'listened', 'to']"
                         xml:id="C19_app8_rg1">
-                  <rdg wit="#f1818"/>
-                  <rdg wit="#f1823"/>
-                  <rdg wit="#fThomas"/>
-                  <rdg wit="#f1831"/>
+                  <rdg wit="#f1818">
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1818_vol_2_chapter_v.xml#C19_app8-f1818__I"/>
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1818_vol_2_chapter_v.xml#C19_app8-f1818__M"/>
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1818_vol_2_chapter_v.xml#C19_app8-f1818__F"/>
+                  </rdg>
+                  <rdg wit="#f1823">
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1823_vol_2_chapter_i.xml#C19_app8-f1823__I"/>
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1823_vol_2_chapter_i.xml#C19_app8-f1823__M"/>
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1823_vol_2_chapter_i.xml#C19_app8-f1823__F"/>
+                  </rdg>
+                  <rdg wit="#fThomas">
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fThomas_vol_2_chapter_v.xml#C19_app8-fThomas__I"/>
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fThomas_vol_2_chapter_v.xml#C19_app8-fThomas__M"/>
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fThomas_vol_2_chapter_v.xml#C19_app8-fThomas__F"/>
+                  </rdg>
+                  <rdg wit="#f1831">
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1831_chapter_xiii.xml#C19_app8-f1831__I"/>
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1831_chapter_xiii.xml#C19_app8-f1831__M"/>
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1831_chapter_xiii.xml#C19_app8-f1831__F"/>
+                  </rdg>
                </rdgGrp>
             </app>
             <app xml:id="C19_app9" n="17">
-               <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
-                        xml:id="C19_app9_rg_empty">
+               <rdgGrp xml:id="C19_app9_rg_empty">
                   <rdg wit="#fMS"/>
                </rdgGrp>
-               <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
-                        n="['him—i', 'observed that']"
-                        xml:id="C19_app9_rg1">
+               <rdgGrp n="['him—i', 'observed that']" xml:id="C19_app9_rg1">
                   <rdg wit="#f1818">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1818_vol_2_chapter_v.xml#C19_app9-f1818"/>
                   </rdg>
@@ -214,9 +278,7 @@
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fThomas_vol_2_chapter_v.xml#C19_app9-fThomas"/>
                   </rdg>
                </rdgGrp>
-               <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
-                        n="['him—that', 'i', 'observed']"
-                        xml:id="C19_app9_rg2">
+               <rdgGrp n="['him—that', 'i', 'observed']" xml:id="C19_app9_rg2">
                   <rdg wit="#f1823">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1823_vol_2_chapter_i.xml#C19_app9-f1823"/>
                   </rdg>
@@ -226,12 +288,10 @@
                </rdgGrp>
             </app>
             <app xml:id="C19_app10" n="135">
-               <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
-                        xml:id="C19_app10_rg_empty">
+               <rdgGrp xml:id="C19_app10_rg_empty">
                   <rdg wit="#fMS"/>
                </rdgGrp>
-               <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
-                        n="['the', 'countenance', 'of', 'felix', 'was', 'melancholy', 'beyond', 'expression;', 'he', 'sighed', 'frequently;', 'and', 'once', 'his', 'father', 'paused', 'in', 'his', 'music,', 'and', 'i', 'conjectured', 'by', 'his', 'manner', 'that', 'he']"
+               <rdgGrp n="['the', 'countenance', 'of', 'felix', 'was', 'melancholy', 'beyond', 'expression;', 'he', 'sighed', 'frequently;', 'and', 'once', 'his', 'father', 'paused', 'in', 'his', 'music,', 'and', 'i', 'conjectured', 'by', 'his', 'manner', 'that', 'he']"
                         xml:id="C19_app10_rg1">
                   <rdg wit="#f1818">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1818_vol_2_chapter_v.xml#C19_app10-f1818"/>
@@ -248,20 +308,15 @@
                </rdgGrp>
             </app>
             <app xml:id="C19_app11" n="8">
-               <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
-                        xml:id="C19_app11_rg_empty">
+               <rdgGrp xml:id="C19_app11_rg_empty">
                   <rdg wit="#fMS"/>
                </rdgGrp>
-               <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
-                        n="['enquired']"
-                        xml:id="C19_app11_rg1">
+               <rdgGrp n="['enquired']" xml:id="C19_app11_rg1">
                   <rdg wit="#f1831">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1831_chapter_xiii.xml#C19_app11-f1831"/>
                   </rdg>
                </rdgGrp>
-               <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
-                        n="['inquired']"
-                        xml:id="C19_app11_rg2">
+               <rdgGrp n="['inquired']" xml:id="C19_app11_rg2">
                   <rdg wit="#f1818">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1818_vol_2_chapter_v.xml#C19_app11-f1818"/>
                   </rdg>
@@ -274,27 +329,38 @@
                </rdgGrp>
             </app>
             <app xml:id="C19_app12" n="1198">
-               <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
-                        xml:id="C19_app12_rg_empty">
+               <rdgGrp xml:id="C19_app12_rg_empty">
                   <rdg wit="#fMS"/>
                </rdgGrp>
-               <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
-                        n="['the', 'cause', 'of', 'his', 'son’s', 'sorrow.', 'felix', 'replied', 'in', 'a', 'cheerful', 'accent,', 'and', 'the', 'old', 'man', 'was', 'recommencing', 'his', 'music,', 'when', 'some', 'one', 'tapped', 'at', 'the', 'door.', '&lt;p-end/&gt;', '&lt;p-start/&gt;', '&#34;it', 'was', 'a', 'lady', 'on', 'horseback,', 'accompanied', 'by', 'a', 'countryman', 'as', 'a', 'guide.', 'the', 'lady', 'was', 'dressed', 'in', 'a', 'dark', 'suit,', 'and', 'covered', 'with', 'a', 'thick', 'black', 'veil.', 'agatha', 'asked', 'a', 'question;', 'to', 'which', 'the', 'stranger', 'only', 'replied', 'by', 'pronouncing,', 'in', 'a', 'sweet', 'accent,', 'the', 'name', 'of', 'felix.', 'her', 'voice', 'was', 'musical,', 'but', 'unlike', 'that', 'of', 'either', 'of', 'my', 'friends.', 'on', 'hearing', 'this', 'word,', 'felix', 'came', 'up', 'hastily', 'to', 'the', 'lady;', 'who,', 'when', 'she', 'saw', 'him,', 'threw', 'up', 'her', 'veil,', 'and', 'i', 'beheld', 'a', 'countenance', 'of', 'angelic', 'beauty', 'and', 'expression.', 'her', 'hair', 'of', 'a', 'shining', 'raven', 'black,', 'and', 'curiously', 'braided;', 'her', 'eyes', 'were', 'dark,', 'but', 'gentle,', 'although', 'animated;', 'her', 'features', 'of', 'a', 'regular', 'proportion,', 'and', 'her', 'complexion', 'wondrously', 'fair,', 'each', 'cheek', 'tinged', 'with', 'a', 'lovely', 'pink.', '&lt;p-end/&gt;', '&lt;p-start/&gt;', '&#34;felix', 'seemed', 'ravished', 'with', 'delight', 'when', 'he', 'saw', 'her,', 'every', 'trait', 'of', 'sorrow', 'vanished', 'from', 'his', 'face,', 'and', 'it', 'instantly', 'expressed', 'a', 'degree', 'of', 'ecstatic', 'joy,', 'of', 'which', 'i', 'could', 'hardly', 'have', 'believed', 'it', 'capable;', 'his', 'eyes', 'sparkled,', 'as', 'his', 'cheek', 'flushed', 'with', 'pleasure;', 'and', 'at', 'that', 'moment', 'i', 'thought', 'him', 'as', 'beautiful', 'as', 'the', 'stranger.', 'she', 'appeared', 'affected', 'by', 'different', 'feelings;', 'wiping', 'a', 'few', 'tears', 'from', 'her', 'lovely', 'eyes,', 'she', 'held', 'out', 'her', 'hand', 'to', 'felix,', 'who', 'kissed', 'it', 'rapturously,', 'and', 'called', 'her,', 'as', 'well', 'as', 'i', 'could', 'distinguish,', 'his', 'sweet', 'arabian.', 'she', 'did', 'not', 'appear', 'to', 'understand', 'him,', 'but', 'smiled.', 'he', 'assisted', 'her', 'to', 'dismount,']"
+               <rdgGrp n="['the', 'cause', 'of', 'his', 'son’s', 'sorrow.', 'felix', 'replied', 'in', 'a', 'cheerful', 'accent,', 'and', 'the', 'old', 'man', 'was', 'recommencing', 'his', 'music,', 'when', 'some', 'one', 'tapped', 'at', 'the', 'door.', '&lt;p-end/&gt;', '&lt;p-start/&gt;', '&#34;it', 'was', 'a', 'lady', 'on', 'horseback,', 'accompanied', 'by', 'a', 'countryman', 'as', 'a', 'guide.', 'the', 'lady', 'was', 'dressed', 'in', 'a', 'dark', 'suit,', 'and', 'covered', 'with', 'a', 'thick', 'black', 'veil.', 'agatha', 'asked', 'a', 'question;', 'to', 'which', 'the', 'stranger', 'only', 'replied', 'by', 'pronouncing,', 'in', 'a', 'sweet', 'accent,', 'the', 'name', 'of', 'felix.', 'her', 'voice', 'was', 'musical,', 'but', 'unlike', 'that', 'of', 'either', 'of', 'my', 'friends.', 'on', 'hearing', 'this', 'word,', 'felix', 'came', 'up', 'hastily', 'to', 'the', 'lady;', 'who,', 'when', 'she', 'saw', 'him,', 'threw', 'up', 'her', 'veil,', 'and', 'i', 'beheld', 'a', 'countenance', 'of', 'angelic', 'beauty', 'and', 'expression.', 'her', 'hair', 'of', 'a', 'shining', 'raven', 'black,', 'and', 'curiously', 'braided;', 'her', 'eyes', 'were', 'dark,', 'but', 'gentle,', 'although', 'animated;', 'her', 'features', 'of', 'a', 'regular', 'proportion,', 'and', 'her', 'complexion', 'wondrously', 'fair,', 'each', 'cheek', 'tinged', 'with', 'a', 'lovely', 'pink.', '&lt;p-end/&gt;', '&lt;p-start/&gt;', '&#34;felix', 'seemed', 'ravished', 'with', 'delight', 'when', 'he', 'saw', 'her,', 'every', 'trait', 'of', 'sorrow', 'vanished', 'from', 'his', 'face,', 'and', 'it', 'instantly', 'expressed', 'a', 'degree', 'of', 'ecstatic', 'joy,', 'of', 'which', 'i', 'could', 'hardly', 'have', 'believed', 'it', 'capable;', 'his', 'eyes', 'sparkled,', 'as', 'his', 'cheek', 'flushed', 'with', 'pleasure;', 'and', 'at', 'that', 'moment', 'i', 'thought', 'him', 'as', 'beautiful', 'as', 'the', 'stranger.', 'she', 'appeared', 'affected', 'by', 'different', 'feelings;', 'wiping', 'a', 'few', 'tears', 'from', 'her', 'lovely', 'eyes,', 'she', 'held', 'out', 'her', 'hand', 'to', 'felix,', 'who', 'kissed', 'it', 'rapturously,', 'and', 'called', 'her,', 'as', 'well', 'as', 'i', 'could', 'distinguish,', 'his', 'sweet', 'arabian.', 'she', 'did', 'not', 'appear', 'to', 'understand', 'him,', 'but', 'smiled.', 'he', 'assisted', 'her', 'to', 'dismount,']"
                         xml:id="C19_app12_rg1">
-                  <rdg wit="#f1818"/>
-                  <rdg wit="#f1823"/>
-                  <rdg wit="#fThomas"/>
-                  <rdg wit="#f1831"/>
+                  <rdg wit="#f1818">
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1818_vol_2_chapter_v.xml#C19_app12-f1818__I"/>
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1818_vol_2_chapter_v.xml#C19_app12-f1818__M"/>
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1818_vol_2_chapter_v.xml#C19_app12-f1818__F"/>
+                  </rdg>
+                  <rdg wit="#f1823">
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1823_vol_2_chapter_i.xml#C19_app12-f1823__I"/>
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1823_vol_2_chapter_i.xml#C19_app12-f1823__M"/>
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1823_vol_2_chapter_i.xml#C19_app12-f1823__F"/>
+                  </rdg>
+                  <rdg wit="#fThomas">
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fThomas_vol_2_chapter_v.xml#C19_app12-fThomas__I"/>
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fThomas_vol_2_chapter_v.xml#C19_app12-fThomas__M"/>
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fThomas_vol_2_chapter_v.xml#C19_app12-fThomas__F"/>
+                  </rdg>
+                  <rdg wit="#f1831">
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1831_chapter_xiii.xml#C19_app12-f1831__I"/>
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1831_chapter_xiii.xml#C19_app12-f1831__M"/>
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1831_chapter_xiii.xml#C19_app12-f1831__F"/>
+                  </rdg>
                </rdgGrp>
             </app>
             <app xml:id="C19_app13" n="4">
-               <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
-                        xml:id="C19_app13_rg_empty">
+               <rdgGrp xml:id="C19_app13_rg_empty">
                   <rdg wit="#fMS"/>
                </rdgGrp>
-               <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
-                        n="['and']"
-                        xml:id="C19_app13_rg1">
+               <rdgGrp n="['and']" xml:id="C19_app13_rg1">
                   <rdg wit="#f1823">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1823_vol_2_chapter_i.xml#C19_app13-f1823"/>
                   </rdg>
@@ -302,9 +368,7 @@
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1831_chapter_xiii.xml#C19_app13-f1831"/>
                   </rdg>
                </rdgGrp>
-               <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
-                        n="['and,']"
-                        xml:id="C19_app13_rg2">
+               <rdgGrp n="['and,']" xml:id="C19_app13_rg2">
                   <rdg wit="#f1818">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1818_vol_2_chapter_v.xml#C19_app13-f1818"/>
                   </rdg>
@@ -314,27 +378,34 @@
                </rdgGrp>
             </app>
             <app xml:id="C19_app14" n="330">
-               <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
-                        xml:id="C19_app14_rg_empty">
+               <rdgGrp xml:id="C19_app14_rg_empty">
                   <rdg wit="#fMS"/>
                </rdgGrp>
-               <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
-                        n="['dismissing', 'her', 'guide,', 'conducted', 'her', 'into', 'the', 'cottage.', 'some', 'conversation', 'took', 'place', 'between', 'him', 'and', 'his', 'father;', 'and', 'the', 'young', 'stranger', 'knelt', 'at', 'the', 'old', 'man’s', 'feet,', 'and', 'would', 'have', 'kissed', 'his', 'hand,', 'but', 'he', 'raised', 'her,', 'and', 'embraced', 'her', 'affectionately.', '&lt;p-end/&gt;', '&lt;p-start/&gt;', '&#34;i', 'soon', 'perceived,', 'that', 'although', 'the', 'stranger', 'uttered', 'articulate', 'sounds,', 'and', 'appeared', 'to', 'have', 'a', 'language', 'of', 'her', 'own,', 'she', 'was', 'neither', 'understood', 'by,']"
+               <rdgGrp n="['dismissing', 'her', 'guide,', 'conducted', 'her', 'into', 'the', 'cottage.', 'some', 'conversation', 'took', 'place', 'between', 'him', 'and', 'his', 'father;', 'and', 'the', 'young', 'stranger', 'knelt', 'at', 'the', 'old', 'man’s', 'feet,', 'and', 'would', 'have', 'kissed', 'his', 'hand,', 'but', 'he', 'raised', 'her,', 'and', 'embraced', 'her', 'affectionately.', '&lt;p-end/&gt;', '&lt;p-start/&gt;', '&#34;i', 'soon', 'perceived,', 'that', 'although', 'the', 'stranger', 'uttered', 'articulate', 'sounds,', 'and', 'appeared', 'to', 'have', 'a', 'language', 'of', 'her', 'own,', 'she', 'was', 'neither', 'understood', 'by,']"
                         xml:id="C19_app14_rg1">
-                  <rdg wit="#f1818"/>
-                  <rdg wit="#f1823"/>
-                  <rdg wit="#fThomas"/>
-                  <rdg wit="#f1831"/>
+                  <rdg wit="#f1818">
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1818_vol_2_chapter_v.xml#C19_app14-f1818__I"/>
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1818_vol_2_chapter_v.xml#C19_app14-f1818__F"/>
+                  </rdg>
+                  <rdg wit="#f1823">
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1823_vol_2_chapter_i.xml#C19_app14-f1823__I"/>
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1823_vol_2_chapter_i.xml#C19_app14-f1823__F"/>
+                  </rdg>
+                  <rdg wit="#fThomas">
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fThomas_vol_2_chapter_v.xml#C19_app14-fThomas__I"/>
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fThomas_vol_2_chapter_v.xml#C19_app14-fThomas__F"/>
+                  </rdg>
+                  <rdg wit="#f1831">
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1831_chapter_xiii.xml#C19_app14-f1831__I"/>
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1831_chapter_xiii.xml#C19_app14-f1831__F"/>
+                  </rdg>
                </rdgGrp>
             </app>
             <app xml:id="C19_app15" n="3">
-               <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
-                        xml:id="C19_app15_rg_empty">
+               <rdgGrp xml:id="C19_app15_rg_empty">
                   <rdg wit="#fMS"/>
                </rdgGrp>
-               <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
-                        n="['nor']"
-                        xml:id="C19_app15_rg1">
+               <rdgGrp n="['nor']" xml:id="C19_app15_rg1">
                   <rdg wit="#f1823">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1823_vol_2_chapter_i.xml#C19_app15-f1823"/>
                   </rdg>
@@ -342,9 +413,7 @@
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1831_chapter_xiii.xml#C19_app15-f1831"/>
                   </rdg>
                </rdgGrp>
-               <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
-                        n="['or']"
-                        xml:id="C19_app15_rg2">
+               <rdgGrp n="['or']" xml:id="C19_app15_rg2">
                   <rdg wit="#f1818">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1818_vol_2_chapter_v.xml#C19_app15-f1818"/>
                   </rdg>
@@ -354,12 +423,10 @@
                </rdgGrp>
             </app>
             <app xml:id="C19_app16" n="541">
-               <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
-                        xml:id="C19_app16_rg_empty">
+               <rdgGrp xml:id="C19_app16_rg_empty">
                   <rdg wit="#fMS"/>
                </rdgGrp>
-               <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
-                        n="['herself', 'understood,', 'the', 'cottagers.', 'they', 'made', 'many', 'signs', 'which', 'i', 'did', 'not', 'comprehend;', 'but', 'i', 'saw', 'that', 'her', 'presence', 'diffused', 'gladness', 'through', 'the', 'cottage,', 'dispelling', 'their', 'sorrow', 'as', 'the', 'sun', 'dissipates', 'the', 'morning', 'mists.', 'felix', 'seemed', 'peculiarly', 'happy,', 'and', 'with', 'smiles', 'of', 'delight', 'welcomed', 'his', 'arabian.', 'agatha,', 'the', 'ever-gentle', 'agatha,', 'kissed', 'the', 'hands', 'of', 'the', 'lovely', 'stranger;', 'and,', 'pointing', 'to', 'her', 'brother,', 'made', 'signs', 'which', 'appeared', 'to', 'me', 'to', 'mean', 'that', 'he', 'had', 'been', 'sorrowful', 'until', 'she', 'came.', 'some', 'hours', 'passed', 'thus,', 'while', 'they,', 'by', 'their', 'countenances,', 'expressed', 'joy,', 'the', 'cause', 'of', 'which', 'i', 'did', 'not', 'comprehend.', 'presently', 'i', 'found,', 'by', 'the', 'frequent', 'recurrence', 'of']"
+               <rdgGrp n="['herself', 'understood,', 'the', 'cottagers.', 'they', 'made', 'many', 'signs', 'which', 'i', 'did', 'not', 'comprehend;', 'but', 'i', 'saw', 'that', 'her', 'presence', 'diffused', 'gladness', 'through', 'the', 'cottage,', 'dispelling', 'their', 'sorrow', 'as', 'the', 'sun', 'dissipates', 'the', 'morning', 'mists.', 'felix', 'seemed', 'peculiarly', 'happy,', 'and', 'with', 'smiles', 'of', 'delight', 'welcomed', 'his', 'arabian.', 'agatha,', 'the', 'ever-gentle', 'agatha,', 'kissed', 'the', 'hands', 'of', 'the', 'lovely', 'stranger;', 'and,', 'pointing', 'to', 'her', 'brother,', 'made', 'signs', 'which', 'appeared', 'to', 'me', 'to', 'mean', 'that', 'he', 'had', 'been', 'sorrowful', 'until', 'she', 'came.', 'some', 'hours', 'passed', 'thus,', 'while', 'they,', 'by', 'their', 'countenances,', 'expressed', 'joy,', 'the', 'cause', 'of', 'which', 'i', 'did', 'not', 'comprehend.', 'presently', 'i', 'found,', 'by', 'the', 'frequent', 'recurrence', 'of']"
                         xml:id="C19_app16_rg1">
                   <rdg wit="#f1818">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1818_vol_2_chapter_v.xml#C19_app16-f1818"/>
@@ -376,13 +443,10 @@
                </rdgGrp>
             </app>
             <app xml:id="C19_app17" n="4">
-               <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
-                        xml:id="C19_app17_rg_empty">
+               <rdgGrp xml:id="C19_app17_rg_empty">
                   <rdg wit="#fMS"/>
                </rdgGrp>
-               <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
-                        n="['one']"
-                        xml:id="C19_app17_rg1">
+               <rdgGrp n="['one']" xml:id="C19_app17_rg1">
                   <rdg wit="#f1818">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1818_vol_2_chapter_v.xml#C19_app17-f1818"/>
                   </rdg>
@@ -390,9 +454,7 @@
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fThomas_vol_2_chapter_v.xml#C19_app17-fThomas"/>
                   </rdg>
                </rdgGrp>
-               <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
-                        n="['some']"
-                        xml:id="C19_app17_rg2">
+               <rdgGrp n="['some']" xml:id="C19_app17_rg2">
                   <rdg wit="#f1823">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1823_vol_2_chapter_i.xml#C19_app17-f1823"/>
                   </rdg>
@@ -402,12 +464,10 @@
                </rdgGrp>
             </app>
             <app xml:id="C19_app18" n="223">
-               <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
-                        xml:id="C19_app18_rg_empty">
+               <rdgGrp xml:id="C19_app18_rg_empty">
                   <rdg wit="#fMS"/>
                </rdgGrp>
-               <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
-                        n="['sound', 'which', 'the', 'stranger', 'repeated', 'after', 'them,', 'that', 'she', 'was', 'endeavouring', 'to', 'learn', 'their', 'language;', 'and', 'the', 'idea', 'instantly', 'occurred', 'to', 'me,', 'that', 'i', 'should', 'make', 'use', 'of', 'the', 'same', 'instructions', 'to', 'the', 'same', 'end.', 'the', 'stranger', 'learned', 'about', 'twenty', 'words', 'at', 'the', 'first', 'lesson,', 'most', 'of']"
+               <rdgGrp n="['sound', 'which', 'the', 'stranger', 'repeated', 'after', 'them,', 'that', 'she', 'was', 'endeavouring', 'to', 'learn', 'their', 'language;', 'and', 'the', 'idea', 'instantly', 'occurred', 'to', 'me,', 'that', 'i', 'should', 'make', 'use', 'of', 'the', 'same', 'instructions', 'to', 'the', 'same', 'end.', 'the', 'stranger', 'learned', 'about', 'twenty', 'words', 'at', 'the', 'first', 'lesson,', 'most', 'of']"
                         xml:id="C19_app18_rg1">
                   <rdg wit="#f1818">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1818_vol_2_chapter_v.xml#C19_app18-f1818"/>
@@ -424,13 +484,10 @@
                </rdgGrp>
             </app>
             <app xml:id="C19_app19" n="12">
-               <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
-                        xml:id="C19_app19_rg_empty">
+               <rdgGrp xml:id="C19_app19_rg_empty">
                   <rdg wit="#fMS"/>
                </rdgGrp>
-               <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
-                        n="['them', 'indeed']"
-                        xml:id="C19_app19_rg1">
+               <rdgGrp n="['them', 'indeed']" xml:id="C19_app19_rg1">
                   <rdg wit="#f1818">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1818_vol_2_chapter_v.xml#C19_app19-f1818"/>
                   </rdg>
@@ -438,9 +495,7 @@
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fThomas_vol_2_chapter_v.xml#C19_app19-fThomas"/>
                   </rdg>
                </rdgGrp>
-               <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
-                        n="['them,', 'indeed,']"
-                        xml:id="C19_app19_rg2">
+               <rdgGrp n="['them,', 'indeed,']" xml:id="C19_app19_rg2">
                   <rdg wit="#f1823">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1823_vol_2_chapter_i.xml#C19_app19-f1823"/>
                   </rdg>
@@ -450,27 +505,38 @@
                </rdgGrp>
             </app>
             <app xml:id="C19_app20" n="1745">
-               <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
-                        xml:id="C19_app20_rg_empty">
+               <rdgGrp xml:id="C19_app20_rg_empty">
                   <rdg wit="#fMS"/>
                </rdgGrp>
-               <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
-                        n="['were', 'those', 'which', 'i', 'had', 'before', 'understood,', 'but', 'i', 'profited', 'by', 'the', 'others.', '&lt;p-end/&gt;', '&lt;p-start/&gt;', '&#34;as', 'night', 'came', 'on,', 'agatha', 'and', 'the', 'arabian', 'retired', 'early.', 'when', 'they', 'separated,', 'felix', 'kissed', 'the', 'hand', 'of', 'the', 'stranger,', 'and', 'said,', '‘good', 'night,', 'sweet', 'safie.’', 'he', 'sat', 'up', 'much', 'longer,', 'conversing', 'with', 'his', 'father;', 'and,', 'by', 'the', 'frequent', 'repetition', 'of', 'her', 'name,', 'i', 'conjectured', 'that', 'their', 'lovely', 'guest', 'was', 'the', 'subject', 'of', 'their', 'conversation.', 'i', 'ardently', 'desired', 'to', 'understand', 'them,', 'and', 'bent', 'every', 'faculty', 'towards', 'that', 'purpose,', 'but', 'found', 'it', 'utterly', 'impossible.', '&lt;p-end/&gt;', '&lt;p-start/&gt;', '&#34;the', 'next', 'morning', 'felix', 'went', 'out', 'to', 'his', 'work;', 'and,', 'after', 'the', 'usual', 'occupations', 'of', 'agatha', 'were', 'finished,', 'the', 'arabian', 'sat', 'at', 'the', 'feet', 'of', 'the', 'old', 'man,', 'and,', 'taking', 'his', 'guitar,', 'played', 'some', 'airs', 'so', 'entrancingly', 'beautiful,', 'that', 'they', 'at', 'once', 'drew', 'tears', 'of', 'sorrow', 'and', 'delight', 'from', 'my', 'eyes.', 'she', 'sang,', 'and', 'her', 'voice', 'flowed', 'in', 'a', 'rich', 'cadence,', 'swelling', 'or', 'dying', 'away,', 'like', 'a', 'nightingale', 'of', 'the', 'woods.', '&lt;p-end/&gt;', '&lt;p-start/&gt;', '&#34;when', 'she', 'had', 'finished,', 'she', 'gave', 'the', 'guitar', 'to', 'agatha,', 'who', 'at', 'first', 'declined', 'it.', 'she', 'played', 'a', 'simple', 'air,', 'and', 'her', 'voice', 'accompanied', 'it', 'in', 'sweet', 'accents,', 'but', 'unlike', 'the', 'wondrous', 'strain', 'of', 'the', 'stranger.', 'the', 'old', 'man', 'appeared', 'enraptured,', 'and', 'said', 'some', 'words,', 'which', 'agatha', 'endeavoured', 'to', 'explain', 'to', 'safie,', 'and', 'by', 'which', 'he', 'appeared', 'to', 'wish', 'to', 'express', 'that', 'she', 'bestowed', 'on', 'him', 'the', 'greatest', 'delight', 'by', 'her', 'music.', '&lt;p-end/&gt;', '&lt;p-start/&gt;', '&#34;the', 'days', 'now', 'passed', 'as', 'peaceably', 'as', 'before,', 'with', 'the', 'sole', 'alteration,', 'that', 'joy', 'had', 'taken', 'place', 'of', 'sadness', 'in', 'the', 'countenances', 'of', 'my', 'friends.', 'safie', 'was', 'always', 'gay', 'and', 'happy;', 'she', 'and', 'i', 'improved', 'rapidly', 'in', 'the', 'knowledge', 'of', 'language,', 'so', 'that', 'in', 'two', 'months', 'i', 'began', 'to', 'comprehend', 'most', 'of', 'the', 'words', 'uttered', 'by', 'my', 'protectors.', '&lt;p-end/&gt;', '&lt;p-start/&gt;', '&#34;in', 'the', 'meanwhile', 'also', 'the', 'black', 'ground', 'was', 'covered', 'with', 'herbage,', 'and', 'the', 'green', 'banks', 'interspersed', 'with', 'innumerable', 'flowers,', 'sweet', 'to', 'the', 'scent', 'and', 'the', 'eyes,', 'stars', 'of', 'pale', 'radiance', 'among', 'the', 'moonlight', 'woods;', 'the', 'sun', 'became', 'warmer,', 'the', 'nights', 'clear', 'and', 'balmy;', 'and', 'my', 'nocturnal', 'rambles', 'were', 'an', 'extreme', 'pleasure', 'to', 'me,', 'although', 'they', 'were', 'considerably', 'shortened', 'by', 'the', 'late', 'setting', 'and', 'early', 'rising', 'of', 'the', 'sun;', 'for', 'i', 'never', 'ventured', 'abroad', 'during', 'daylight,', 'fearful', 'of', 'meeting', 'with', 'the', 'same']"
+               <rdgGrp n="['were', 'those', 'which', 'i', 'had', 'before', 'understood,', 'but', 'i', 'profited', 'by', 'the', 'others.', '&lt;p-end/&gt;', '&lt;p-start/&gt;', '&#34;as', 'night', 'came', 'on,', 'agatha', 'and', 'the', 'arabian', 'retired', 'early.', 'when', 'they', 'separated,', 'felix', 'kissed', 'the', 'hand', 'of', 'the', 'stranger,', 'and', 'said,', '‘good', 'night,', 'sweet', 'safie.’', 'he', 'sat', 'up', 'much', 'longer,', 'conversing', 'with', 'his', 'father;', 'and,', 'by', 'the', 'frequent', 'repetition', 'of', 'her', 'name,', 'i', 'conjectured', 'that', 'their', 'lovely', 'guest', 'was', 'the', 'subject', 'of', 'their', 'conversation.', 'i', 'ardently', 'desired', 'to', 'understand', 'them,', 'and', 'bent', 'every', 'faculty', 'towards', 'that', 'purpose,', 'but', 'found', 'it', 'utterly', 'impossible.', '&lt;p-end/&gt;', '&lt;p-start/&gt;', '&#34;the', 'next', 'morning', 'felix', 'went', 'out', 'to', 'his', 'work;', 'and,', 'after', 'the', 'usual', 'occupations', 'of', 'agatha', 'were', 'finished,', 'the', 'arabian', 'sat', 'at', 'the', 'feet', 'of', 'the', 'old', 'man,', 'and,', 'taking', 'his', 'guitar,', 'played', 'some', 'airs', 'so', 'entrancingly', 'beautiful,', 'that', 'they', 'at', 'once', 'drew', 'tears', 'of', 'sorrow', 'and', 'delight', 'from', 'my', 'eyes.', 'she', 'sang,', 'and', 'her', 'voice', 'flowed', 'in', 'a', 'rich', 'cadence,', 'swelling', 'or', 'dying', 'away,', 'like', 'a', 'nightingale', 'of', 'the', 'woods.', '&lt;p-end/&gt;', '&lt;p-start/&gt;', '&#34;when', 'she', 'had', 'finished,', 'she', 'gave', 'the', 'guitar', 'to', 'agatha,', 'who', 'at', 'first', 'declined', 'it.', 'she', 'played', 'a', 'simple', 'air,', 'and', 'her', 'voice', 'accompanied', 'it', 'in', 'sweet', 'accents,', 'but', 'unlike', 'the', 'wondrous', 'strain', 'of', 'the', 'stranger.', 'the', 'old', 'man', 'appeared', 'enraptured,', 'and', 'said', 'some', 'words,', 'which', 'agatha', 'endeavoured', 'to', 'explain', 'to', 'safie,', 'and', 'by', 'which', 'he', 'appeared', 'to', 'wish', 'to', 'express', 'that', 'she', 'bestowed', 'on', 'him', 'the', 'greatest', 'delight', 'by', 'her', 'music.', '&lt;p-end/&gt;', '&lt;p-start/&gt;', '&#34;the', 'days', 'now', 'passed', 'as', 'peaceably', 'as', 'before,', 'with', 'the', 'sole', 'alteration,', 'that', 'joy', 'had', 'taken', 'place', 'of', 'sadness', 'in', 'the', 'countenances', 'of', 'my', 'friends.', 'safie', 'was', 'always', 'gay', 'and', 'happy;', 'she', 'and', 'i', 'improved', 'rapidly', 'in', 'the', 'knowledge', 'of', 'language,', 'so', 'that', 'in', 'two', 'months', 'i', 'began', 'to', 'comprehend', 'most', 'of', 'the', 'words', 'uttered', 'by', 'my', 'protectors.', '&lt;p-end/&gt;', '&lt;p-start/&gt;', '&#34;in', 'the', 'meanwhile', 'also', 'the', 'black', 'ground', 'was', 'covered', 'with', 'herbage,', 'and', 'the', 'green', 'banks', 'interspersed', 'with', 'innumerable', 'flowers,', 'sweet', 'to', 'the', 'scent', 'and', 'the', 'eyes,', 'stars', 'of', 'pale', 'radiance', 'among', 'the', 'moonlight', 'woods;', 'the', 'sun', 'became', 'warmer,', 'the', 'nights', 'clear', 'and', 'balmy;', 'and', 'my', 'nocturnal', 'rambles', 'were', 'an', 'extreme', 'pleasure', 'to', 'me,', 'although', 'they', 'were', 'considerably', 'shortened', 'by', 'the', 'late', 'setting', 'and', 'early', 'rising', 'of', 'the', 'sun;', 'for', 'i', 'never', 'ventured', 'abroad', 'during', 'daylight,', 'fearful', 'of', 'meeting', 'with', 'the', 'same']"
                         xml:id="C19_app20_rg1">
-                  <rdg wit="#f1818"/>
-                  <rdg wit="#f1823"/>
-                  <rdg wit="#fThomas"/>
-                  <rdg wit="#f1831"/>
+                  <rdg wit="#f1818">
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1818_vol_2_chapter_v.xml#C19_app20-f1818__I"/>
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1818_vol_2_chapter_v.xml#C19_app20-f1818__M"/>
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1818_vol_2_chapter_v.xml#C19_app20-f1818__F"/>
+                  </rdg>
+                  <rdg wit="#f1823">
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1823_vol_2_chapter_i.xml#C19_app20-f1823__I"/>
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1823_vol_2_chapter_i.xml#C19_app20-f1823__M"/>
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1823_vol_2_chapter_i.xml#C19_app20-f1823__F"/>
+                  </rdg>
+                  <rdg wit="#fThomas">
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fThomas_vol_2_chapter_v.xml#C19_app20-fThomas__I"/>
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fThomas_vol_2_chapter_v.xml#C19_app20-fThomas__M"/>
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fThomas_vol_2_chapter_v.xml#C19_app20-fThomas__F"/>
+                  </rdg>
+                  <rdg wit="#f1831">
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1831_chapter_xiii.xml#C19_app20-f1831__I"/>
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1831_chapter_xiii.xml#C19_app20-f1831__M"/>
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1831_chapter_xiii.xml#C19_app20-f1831__F"/>
+                  </rdg>
                </rdgGrp>
             </app>
             <app xml:id="C19_app21" n="11">
-               <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
-                        xml:id="C19_app21_rg_empty">
+               <rdgGrp xml:id="C19_app21_rg_empty">
                   <rdg wit="#fMS"/>
                </rdgGrp>
-               <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
-                        n="['treatment as']"
-                        xml:id="C19_app21_rg1">
+               <rdgGrp n="['treatment as']" xml:id="C19_app21_rg1">
                   <rdg wit="#f1818">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1818_vol_2_chapter_v.xml#C19_app21-f1818"/>
                   </rdg>
@@ -478,9 +544,7 @@
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fThomas_vol_2_chapter_v.xml#C19_app21-fThomas"/>
                   </rdg>
                </rdgGrp>
-               <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
-                        n="['treatment']"
-                        xml:id="C19_app21_rg2">
+               <rdgGrp n="['treatment']" xml:id="C19_app21_rg2">
                   <rdg wit="#f1823">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1823_vol_2_chapter_i.xml#C19_app21-f1823"/>
                   </rdg>
@@ -490,12 +554,10 @@
                </rdgGrp>
             </app>
             <app xml:id="C19_app22" n="50">
-               <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
-                        xml:id="C19_app22_rg_empty">
+               <rdgGrp xml:id="C19_app22_rg_empty">
                   <rdg wit="#fMS"/>
                </rdgGrp>
-               <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
-                        n="['i', 'had', 'formerly', 'endured', 'in', 'the', 'first', 'village', 'which', 'i', 'entered.']"
+               <rdgGrp n="['i', 'had', 'formerly', 'endured', 'in', 'the', 'first', 'village', 'which', 'i', 'entered.']"
                         xml:id="C19_app22_rg1">
                   <rdg wit="#f1818">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1818_vol_2_chapter_v.xml#C19_app22-f1818"/>
@@ -512,51 +574,65 @@
                </rdgGrp>
             </app>
             <app xml:id="C19_app23" n="809">
-               <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
-                        xml:id="C19_app23_rg_empty">
+               <rdgGrp xml:id="C19_app23_rg_empty">
                   <rdg wit="#fMS"/>
                </rdgGrp>
-               <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
-                        n="['&lt;p-end/&gt;', '&lt;p-start/&gt;', '&#34;my', 'days', 'were', 'spent', 'in', 'close', 'attention,', 'that', 'i', 'might', 'more', 'speedily', 'master', 'the', 'language;', 'and', 'i', 'may', 'boast', 'that', 'i', 'improved', 'more', 'rapidly', 'than', 'the', 'arabian,', 'who', 'understood', 'very', 'little,', 'and', 'conversed', 'in', 'broken', 'accents,', 'whilst', 'i', 'comprehended', 'and', 'could', 'imitate', 'almost', 'every', 'word', 'that', 'was', 'spoken.', '&lt;p-end/&gt;', '&lt;p-start/&gt;', '&#34;while', 'i', 'improved', 'in', 'speech,', 'i', 'also', 'learned', 'the', 'science', 'of', 'letters,', 'as', 'it', 'was', 'taught', 'to', 'the', 'stranger;', 'and', 'this', 'opened', 'before', 'me', 'a', 'wide', 'field', 'for', 'wonder', 'and', 'delight.', '&lt;p-end/&gt;', '&lt;p-start/&gt;', '&#34;the', 'book', 'from', 'which', 'felix', 'instructed', 'safie', 'was', 'volney’s']"
+               <rdgGrp n="['&lt;p-end/&gt;', '&lt;p-start/&gt;', '&#34;my', 'days', 'were', 'spent', 'in', 'close', 'attention,', 'that', 'i', 'might', 'more', 'speedily', 'master', 'the', 'language;', 'and', 'i', 'may', 'boast', 'that', 'i', 'improved', 'more', 'rapidly', 'than', 'the', 'arabian,', 'who', 'understood', 'very', 'little,', 'and', 'conversed', 'in', 'broken', 'accents,', 'whilst', 'i', 'comprehended', 'and', 'could', 'imitate', 'almost', 'every', 'word', 'that', 'was', 'spoken.', '&lt;p-end/&gt;', '&lt;p-start/&gt;', '&#34;while', 'i', 'improved', 'in', 'speech,', 'i', 'also', 'learned', 'the', 'science', 'of', 'letters,', 'as', 'it', 'was', 'taught', 'to', 'the', 'stranger;', 'and', 'this', 'opened', 'before', 'me', 'a', 'wide', 'field', 'for', 'wonder', 'and', 'delight.', '&lt;p-end/&gt;', '&lt;p-start/&gt;', '&#34;the', 'book', 'from', 'which', 'felix', 'instructed', 'safie', 'was', 'volney’s']"
                         xml:id="C19_app23_rg1">
-                  <rdg wit="#f1818"/>
-                  <rdg wit="#f1823"/>
-                  <rdg wit="#f1831"/>
+                  <rdg wit="#f1818">
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1818_vol_2_chapter_v.xml#C19_app23-f1818__I"/>
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1818_vol_2_chapter_v.xml#C19_app23-f1818__M"/>
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1818_vol_2_chapter_v.xml#C19_app23-f1818__F"/>
+                  </rdg>
+                  <rdg wit="#f1823">
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1823_vol_2_chapter_i.xml#C19_app23-f1823__I"/>
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1823_vol_2_chapter_i.xml#C19_app23-f1823__M"/>
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1823_vol_2_chapter_i.xml#C19_app23-f1823__F"/>
+                  </rdg>
+                  <rdg wit="#f1831">
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1831_chapter_xiii.xml#C19_app23-f1831__I"/>
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1831_chapter_xiii.xml#C19_app23-f1831__M"/>
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1831_chapter_xiii.xml#C19_app23-f1831__F"/>
+                  </rdg>
                </rdgGrp>
-               <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
-                        n="['nay if by moonlight i saw a human form, with a beating heart i squatted down amid the bushes fearful of discovery. and think you that it was with no bitterness of heart that i did this? it was in intercourse with man alone that i could hope  for any pleasurable sensations and i was obliged to avoid it—oh truly, i am grateful to thee my creator for the gift of life, which was but pain, and to thy tender mercy which deserted me on life’s threshold—to suffer—all that man can inflict', '&lt;p-end/&gt;', '&lt;p-start/&gt;', '&#34;my', 'days', 'were', 'spent', 'in', 'close', 'attention,', 'that', 'i', 'might', 'more', 'speedily', 'master', 'the', 'language;', 'and', 'i', 'may', 'boast', 'that', 'i', 'improved', 'more', 'rapidly', 'than', 'the', 'arabian,', 'who', 'understood', 'very', 'little,', 'and', 'conversed', 'in', 'broken', 'accents,', 'whilst', 'i', 'comprehended', 'and', 'could', 'imitate', 'almost', 'every', 'word', 'that', 'was', 'spoken.', '&lt;p-end/&gt;', '&lt;p-start/&gt;', '&#34;while', 'i', 'improved', 'in', 'speech,', 'i', 'also', 'learned', 'the', 'science', 'of', 'letters,', 'as', 'it', 'was', 'taught', 'to', 'the', 'stranger;', 'and', 'this', 'opened', 'before', 'me', 'a', 'wide', 'field', 'for', 'wonder', 'and', 'delight.', '&lt;p-end/&gt;', '&lt;p-start/&gt;', '&#34;the', 'book', 'from', 'which', 'felix', 'instructed', 'safie', 'was', 'volney’s']"
+               <rdgGrp n="['nay if by moonlight i saw a human form, with a beating heart i squatted down amid the bushes fearful of discovery. and think you that it was with no bitterness of heart that i did this? it was in intercourse with man alone that i could hope  for any pleasurable sensations and i was obliged to avoid it—oh truly, i am grateful to thee my creator for the gift of life, which was but pain, and to thy tender mercy which deserted me on life’s threshold—to suffer—all that man can inflict', '&lt;p-end/&gt;', '&lt;p-start/&gt;', '&#34;my', 'days', 'were', 'spent', 'in', 'close', 'attention,', 'that', 'i', 'might', 'more', 'speedily', 'master', 'the', 'language;', 'and', 'i', 'may', 'boast', 'that', 'i', 'improved', 'more', 'rapidly', 'than', 'the', 'arabian,', 'who', 'understood', 'very', 'little,', 'and', 'conversed', 'in', 'broken', 'accents,', 'whilst', 'i', 'comprehended', 'and', 'could', 'imitate', 'almost', 'every', 'word', 'that', 'was', 'spoken.', '&lt;p-end/&gt;', '&lt;p-start/&gt;', '&#34;while', 'i', 'improved', 'in', 'speech,', 'i', 'also', 'learned', 'the', 'science', 'of', 'letters,', 'as', 'it', 'was', 'taught', 'to', 'the', 'stranger;', 'and', 'this', 'opened', 'before', 'me', 'a', 'wide', 'field', 'for', 'wonder', 'and', 'delight.', '&lt;p-end/&gt;', '&lt;p-start/&gt;', '&#34;the', 'book', 'from', 'which', 'felix', 'instructed', 'safie', 'was', 'volney’s']"
                         xml:id="C19_app23_rg2">
-                  <rdg wit="#fThomas"/>
+                  <rdg wit="#fThomas">
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fThomas_vol_2_chapter_v.xml#C19_app23-fThomas__I"/>
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fThomas_vol_2_chapter_v.xml#C19_app23-fThomas__M"/>
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fThomas_vol_2_chapter_v.xml#C19_app23-fThomas__F"/>
+                  </rdg>
                </rdgGrp>
             </app>
             <app xml:id="C19_app24" n="6">
-               <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
-                        xml:id="C19_app24_rg_empty">
+               <rdgGrp xml:id="C19_app24_rg_empty">
                   <rdg wit="#fMS"/>
                </rdgGrp>
-               <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
-                        n="['ruins']"
-                        xml:id="C19_app24_rg1">
-                  <rdg wit="#f1818"/>
-                  <rdg wit="#f1823"/>
-                  <rdg wit="#fThomas"/>
+               <rdgGrp n="['ruins']" xml:id="C19_app24_rg1">
+                  <rdg wit="#f1818">
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1818_vol_2_chapter_v.xml#C19_app24-f1818__I"/>
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1818_vol_2_chapter_v.xml#C19_app24-f1818__F"/>
+                  </rdg>
+                  <rdg wit="#f1823">
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1823_vol_2_chapter_i.xml#C19_app24-f1823__I"/>
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1823_vol_2_chapter_i.xml#C19_app24-f1823__F"/>
+                  </rdg>
+                  <rdg wit="#fThomas">
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fThomas_vol_2_chapter_v.xml#C19_app24-fThomas__I"/>
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fThomas_vol_2_chapter_v.xml#C19_app24-fThomas__F"/>
+                  </rdg>
                </rdgGrp>
-               <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
-                        n="['‘ruins']"
-                        xml:id="C19_app24_rg2">
+               <rdgGrp n="['‘ruins']" xml:id="C19_app24_rg2">
                   <rdg wit="#f1831">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1831_chapter_xiii.xml#C19_app24-f1831"/>
                   </rdg>
                </rdgGrp>
             </app>
             <app xml:id="C19_app25" n="2">
-               <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
-                        xml:id="C19_app25_rg_empty">
+               <rdgGrp xml:id="C19_app25_rg_empty">
                   <rdg wit="#fMS"/>
                </rdgGrp>
-               <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
-                        n="['of']"
-                        xml:id="C19_app25_rg1">
+               <rdgGrp n="['of']" xml:id="C19_app25_rg1">
                   <rdg wit="#f1818">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1818_vol_2_chapter_v.xml#C19_app25-f1818"/>
                   </rdg>
@@ -572,32 +648,34 @@
                </rdgGrp>
             </app>
             <app xml:id="C19_app26" n="9">
-               <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
-                        xml:id="C19_app26_rg_empty">
+               <rdgGrp xml:id="C19_app26_rg_empty">
                   <rdg wit="#fMS"/>
                </rdgGrp>
-               <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
-                        n="['empires.']"
-                        xml:id="C19_app26_rg1">
-                  <rdg wit="#f1818"/>
-                  <rdg wit="#f1823"/>
-                  <rdg wit="#fThomas"/>
+               <rdgGrp n="['empires.']" xml:id="C19_app26_rg1">
+                  <rdg wit="#f1818">
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1818_vol_2_chapter_v.xml#C19_app26-f1818__I"/>
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1818_vol_2_chapter_v.xml#C19_app26-f1818__F"/>
+                  </rdg>
+                  <rdg wit="#f1823">
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1823_vol_2_chapter_i.xml#C19_app26-f1823__I"/>
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1823_vol_2_chapter_i.xml#C19_app26-f1823__F"/>
+                  </rdg>
+                  <rdg wit="#fThomas">
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fThomas_vol_2_chapter_v.xml#C19_app26-fThomas__I"/>
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fThomas_vol_2_chapter_v.xml#C19_app26-fThomas__F"/>
+                  </rdg>
                </rdgGrp>
-               <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
-                        n="['empires.’']"
-                        xml:id="C19_app26_rg2">
+               <rdgGrp n="['empires.’']" xml:id="C19_app26_rg2">
                   <rdg wit="#f1831">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1831_chapter_xiii.xml#C19_app26-f1831"/>
                   </rdg>
                </rdgGrp>
             </app>
             <app xml:id="C19_app27" n="525">
-               <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
-                        xml:id="C19_app27_rg_empty">
+               <rdgGrp xml:id="C19_app27_rg_empty">
                   <rdg wit="#fMS"/>
                </rdgGrp>
-               <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
-                        n="['i', 'should', 'not', 'have', 'understood', 'the', 'purport', 'of', 'this', 'book,', 'had', 'not', 'felix,', 'in', 'reading', 'it,', 'given', 'very', 'minute', 'explanations.', 'he', 'had', 'chosen', 'this', 'work,', 'he', 'said,', 'because', 'the', 'declamatory', 'style', 'was', 'framed', 'in', 'imitation', 'of', 'the', 'eastern', 'authors.', 'through', 'this', 'work', 'i', 'obtained', 'a', 'cursory', 'knowledge', 'of', 'history,', 'and', 'a', 'view', 'of', 'the', 'several', 'empires', 'at', 'present', 'existing', 'in', 'the', 'world;', 'it', 'gave', 'me', 'an', 'insight', 'into', 'the', 'manners,', 'governments,', 'and', 'religions', 'of', 'the', 'different', 'nations', 'of', 'the', 'earth.', 'i', 'heard', 'of', 'the', 'slothful', 'asiatics;', 'of', 'the', 'stupendous', 'genius', 'and', 'mental', 'activity', 'of', 'the', 'grecians;', 'of', 'the', 'wars', 'and', 'wonderful', 'virtue', 'of', 'the', 'early', 'romans—of', 'their', 'subsequent']"
+               <rdgGrp n="['i', 'should', 'not', 'have', 'understood', 'the', 'purport', 'of', 'this', 'book,', 'had', 'not', 'felix,', 'in', 'reading', 'it,', 'given', 'very', 'minute', 'explanations.', 'he', 'had', 'chosen', 'this', 'work,', 'he', 'said,', 'because', 'the', 'declamatory', 'style', 'was', 'framed', 'in', 'imitation', 'of', 'the', 'eastern', 'authors.', 'through', 'this', 'work', 'i', 'obtained', 'a', 'cursory', 'knowledge', 'of', 'history,', 'and', 'a', 'view', 'of', 'the', 'several', 'empires', 'at', 'present', 'existing', 'in', 'the', 'world;', 'it', 'gave', 'me', 'an', 'insight', 'into', 'the', 'manners,', 'governments,', 'and', 'religions', 'of', 'the', 'different', 'nations', 'of', 'the', 'earth.', 'i', 'heard', 'of', 'the', 'slothful', 'asiatics;', 'of', 'the', 'stupendous', 'genius', 'and', 'mental', 'activity', 'of', 'the', 'grecians;', 'of', 'the', 'wars', 'and', 'wonderful', 'virtue', 'of', 'the', 'early', 'romans—of', 'their', 'subsequent']"
                         xml:id="C19_app27_rg1">
                   <rdg wit="#f1818">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1818_vol_2_chapter_v.xml#C19_app27-f1818"/>
@@ -614,13 +692,10 @@
                </rdgGrp>
             </app>
             <app xml:id="C19_app28" n="15">
-               <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
-                        xml:id="C19_app28_rg_empty">
+               <rdgGrp xml:id="C19_app28_rg_empty">
                   <rdg wit="#fMS"/>
                </rdgGrp>
-               <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
-                        n="['degenerating—of']"
-                        xml:id="C19_app28_rg1">
+               <rdgGrp n="['degenerating—of']" xml:id="C19_app28_rg1">
                   <rdg wit="#f1823">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1823_vol_2_chapter_i.xml#C19_app28-f1823"/>
                   </rdg>
@@ -628,9 +703,7 @@
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1831_chapter_xiii.xml#C19_app28-f1831"/>
                   </rdg>
                </rdgGrp>
-               <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
-                        n="['degeneration—of']"
-                        xml:id="C19_app28_rg2">
+               <rdgGrp n="['degeneration—of']" xml:id="C19_app28_rg2">
                   <rdg wit="#f1818">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1818_vol_2_chapter_v.xml#C19_app28-f1818"/>
                   </rdg>
@@ -640,27 +713,34 @@
                </rdgGrp>
             </app>
             <app xml:id="C19_app29" n="350">
-               <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
-                        xml:id="C19_app29_rg_empty">
+               <rdgGrp xml:id="C19_app29_rg_empty">
                   <rdg wit="#fMS"/>
                </rdgGrp>
-               <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
-                        n="['the', 'decline', 'of', 'that', 'mighty', 'empire;', 'of', 'chivalry,', 'christianity,', 'and', 'kings.', 'i', 'heard', 'of', 'the', 'discovery', 'of', 'the', 'american', 'hemisphere,', 'and', 'wept', 'with', 'safie', 'over', 'the', 'hapless', 'fate', 'of', 'its', 'original', 'inhabitants.', '&lt;p-end/&gt;', '&lt;p-start/&gt;', '&#34;these', 'wonderful', 'narrations', 'inspired', 'me', 'with', 'strange', 'feelings.', 'was', 'man,', 'indeed,', 'at', 'once', 'so', 'powerful,', 'so', 'virtuous,', 'and', 'magnificent,', 'yet', 'so', 'vicious', 'and', 'base?', 'he', 'appeared', 'at', 'one', 'time', 'a', 'mere', 'scion', 'of', 'the', 'evil', 'principle,', 'and', 'at']"
+               <rdgGrp n="['the', 'decline', 'of', 'that', 'mighty', 'empire;', 'of', 'chivalry,', 'christianity,', 'and', 'kings.', 'i', 'heard', 'of', 'the', 'discovery', 'of', 'the', 'american', 'hemisphere,', 'and', 'wept', 'with', 'safie', 'over', 'the', 'hapless', 'fate', 'of', 'its', 'original', 'inhabitants.', '&lt;p-end/&gt;', '&lt;p-start/&gt;', '&#34;these', 'wonderful', 'narrations', 'inspired', 'me', 'with', 'strange', 'feelings.', 'was', 'man,', 'indeed,', 'at', 'once', 'so', 'powerful,', 'so', 'virtuous,', 'and', 'magnificent,', 'yet', 'so', 'vicious', 'and', 'base?', 'he', 'appeared', 'at', 'one', 'time', 'a', 'mere', 'scion', 'of', 'the', 'evil', 'principle,', 'and', 'at']"
                         xml:id="C19_app29_rg1">
-                  <rdg wit="#f1818"/>
-                  <rdg wit="#f1823"/>
-                  <rdg wit="#fThomas"/>
-                  <rdg wit="#f1831"/>
+                  <rdg wit="#f1818">
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1818_vol_2_chapter_v.xml#C19_app29-f1818__I"/>
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1818_vol_2_chapter_v.xml#C19_app29-f1818__F"/>
+                  </rdg>
+                  <rdg wit="#f1823">
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1823_vol_2_chapter_i.xml#C19_app29-f1823__I"/>
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1823_vol_2_chapter_i.xml#C19_app29-f1823__F"/>
+                  </rdg>
+                  <rdg wit="#fThomas">
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fThomas_vol_2_chapter_v.xml#C19_app29-fThomas__I"/>
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fThomas_vol_2_chapter_v.xml#C19_app29-fThomas__F"/>
+                  </rdg>
+                  <rdg wit="#f1831">
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1831_chapter_xiii.xml#C19_app29-f1831__I"/>
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1831_chapter_xiii.xml#C19_app29-f1831__F"/>
+                  </rdg>
                </rdgGrp>
             </app>
             <app xml:id="C19_app30" n="8">
-               <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
-                        xml:id="C19_app30_rg_empty">
+               <rdgGrp xml:id="C19_app30_rg_empty">
                   <rdg wit="#fMS"/>
                </rdgGrp>
-               <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
-                        n="['another']"
-                        xml:id="C19_app30_rg1">
+               <rdgGrp n="['another']" xml:id="C19_app30_rg1">
                   <rdg wit="#f1818">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1818_vol_2_chapter_v.xml#C19_app30-f1818"/>
                   </rdg>
@@ -671,36 +751,45 @@
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fThomas_vol_2_chapter_v.xml#C19_app30-fThomas"/>
                   </rdg>
                </rdgGrp>
-               <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
-                        n="['another,']"
-                        xml:id="C19_app30_rg2">
+               <rdgGrp n="['another,']" xml:id="C19_app30_rg2">
                   <rdg wit="#f1831">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1831_chapter_xiii.xml#C19_app30-f1831"/>
                   </rdg>
                </rdgGrp>
             </app>
             <app xml:id="C19_app31" n="882">
-               <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
-                        xml:id="C19_app31_rg_empty">
+               <rdgGrp xml:id="C19_app31_rg_empty">
                   <rdg wit="#fMS"/>
                </rdgGrp>
-               <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
-                        n="['as', 'all', 'that', 'can', 'be', 'conceived', 'of', 'noble', 'and', 'godlike.', 'to', 'be', 'a', 'great', 'and', 'virtuous', 'man', 'appeared', 'the', 'highest', 'honour', 'that', 'can', 'befall', 'a', 'sensitive', 'being;', 'to', 'be', 'base', 'and', 'vicious,', 'as', 'many', 'on', 'record', 'have', 'been,', 'appeared', 'the', 'lowest', 'degradation,', 'a', 'condition', 'more', 'abject', 'than', 'that', 'of', 'the', 'blind', 'mole', 'or', 'harmless', 'worm.', 'for', 'a', 'long', 'time', 'i', 'could', 'not', 'conceive', 'how', 'one', 'man', 'could', 'go', 'forth', 'to', 'murder', 'his', 'fellow,', 'or', 'even', 'why', 'there', 'were', 'laws', 'and', 'governments;', 'but', 'when', 'i', 'heard', 'details', 'of', 'vice', 'and', 'bloodshed,', 'my', 'wonder', 'ceased,', 'and', 'i', 'turned', 'away', 'with', 'disgust', 'and', 'loathing.', '&lt;p-end/&gt;', '&lt;p-start/&gt;', '&#34;every', 'conversation', 'of', 'the', 'cottagers', 'now', 'opened', 'new', 'wonders', 'to', 'me.', 'while', 'i', 'listened', 'to', 'the', 'instructions', 'which', 'felix', 'bestowed', 'upon', 'the', 'arabian,', 'the', 'strange', 'system', 'of', 'human', 'society', 'was', 'explained', 'to', 'me.', 'i', 'heard', 'of', 'the', 'division', 'of', 'property,', 'of', 'immense', 'wealth', 'and', 'squalid', 'poverty;', 'of', 'rank,', 'descent,', 'and', 'noble', 'blood.', '&lt;p-end/&gt;', '&lt;p-start/&gt;', '&#34;the', 'words', 'induced', 'me', 'to', 'turn', 'towards', 'myself.', 'i', 'learned', 'that', 'the', 'possessions', 'most', 'esteemed', 'by', 'your', 'fellow-creatures', 'were,', 'high', 'and', 'unsullied', 'descent', 'united', 'with', 'riches.', 'a', 'man', 'might', 'be', 'respected', 'with', 'only', 'one', 'of', 'these']"
+               <rdgGrp n="['as', 'all', 'that', 'can', 'be', 'conceived', 'of', 'noble', 'and', 'godlike.', 'to', 'be', 'a', 'great', 'and', 'virtuous', 'man', 'appeared', 'the', 'highest', 'honour', 'that', 'can', 'befall', 'a', 'sensitive', 'being;', 'to', 'be', 'base', 'and', 'vicious,', 'as', 'many', 'on', 'record', 'have', 'been,', 'appeared', 'the', 'lowest', 'degradation,', 'a', 'condition', 'more', 'abject', 'than', 'that', 'of', 'the', 'blind', 'mole', 'or', 'harmless', 'worm.', 'for', 'a', 'long', 'time', 'i', 'could', 'not', 'conceive', 'how', 'one', 'man', 'could', 'go', 'forth', 'to', 'murder', 'his', 'fellow,', 'or', 'even', 'why', 'there', 'were', 'laws', 'and', 'governments;', 'but', 'when', 'i', 'heard', 'details', 'of', 'vice', 'and', 'bloodshed,', 'my', 'wonder', 'ceased,', 'and', 'i', 'turned', 'away', 'with', 'disgust', 'and', 'loathing.', '&lt;p-end/&gt;', '&lt;p-start/&gt;', '&#34;every', 'conversation', 'of', 'the', 'cottagers', 'now', 'opened', 'new', 'wonders', 'to', 'me.', 'while', 'i', 'listened', 'to', 'the', 'instructions', 'which', 'felix', 'bestowed', 'upon', 'the', 'arabian,', 'the', 'strange', 'system', 'of', 'human', 'society', 'was', 'explained', 'to', 'me.', 'i', 'heard', 'of', 'the', 'division', 'of', 'property,', 'of', 'immense', 'wealth', 'and', 'squalid', 'poverty;', 'of', 'rank,', 'descent,', 'and', 'noble', 'blood.', '&lt;p-end/&gt;', '&lt;p-start/&gt;', '&#34;the', 'words', 'induced', 'me', 'to', 'turn', 'towards', 'myself.', 'i', 'learned', 'that', 'the', 'possessions', 'most', 'esteemed', 'by', 'your', 'fellow-creatures', 'were,', 'high', 'and', 'unsullied', 'descent', 'united', 'with', 'riches.', 'a', 'man', 'might', 'be', 'respected', 'with', 'only', 'one', 'of', 'these']"
                         xml:id="C19_app31_rg1">
-                  <rdg wit="#f1818"/>
-                  <rdg wit="#f1823"/>
-                  <rdg wit="#fThomas"/>
-                  <rdg wit="#f1831"/>
+                  <rdg wit="#f1818">
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1818_vol_2_chapter_v.xml#C19_app31-f1818__I"/>
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1818_vol_2_chapter_v.xml#C19_app31-f1818__M"/>
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1818_vol_2_chapter_v.xml#C19_app31-f1818__F"/>
+                  </rdg>
+                  <rdg wit="#f1823">
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1823_vol_2_chapter_i.xml#C19_app31-f1823__I"/>
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1823_vol_2_chapter_i.xml#C19_app31-f1823__M"/>
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1823_vol_2_chapter_i.xml#C19_app31-f1823__F"/>
+                  </rdg>
+                  <rdg wit="#fThomas">
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fThomas_vol_2_chapter_v.xml#C19_app31-fThomas__I"/>
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fThomas_vol_2_chapter_v.xml#C19_app31-fThomas__M"/>
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fThomas_vol_2_chapter_v.xml#C19_app31-fThomas__F"/>
+                  </rdg>
+                  <rdg wit="#f1831">
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1831_chapter_xiii.xml#C19_app31-f1831__I"/>
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1831_chapter_xiii.xml#C19_app31-f1831__M"/>
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1831_chapter_xiii.xml#C19_app31-f1831__F"/>
+                  </rdg>
                </rdgGrp>
             </app>
             <app xml:id="C19_app32" n="13">
-               <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
-                        xml:id="C19_app32_rg_empty">
+               <rdgGrp xml:id="C19_app32_rg_empty">
                   <rdg wit="#fMS"/>
                </rdgGrp>
-               <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
-                        n="['acquisitions;']"
-                        xml:id="C19_app32_rg1">
+               <rdgGrp n="['acquisitions;']" xml:id="C19_app32_rg1">
                   <rdg wit="#f1818">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1818_vol_2_chapter_v.xml#C19_app32-f1818"/>
                   </rdg>
@@ -708,9 +797,7 @@
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fThomas_vol_2_chapter_v.xml#C19_app32-fThomas"/>
                   </rdg>
                </rdgGrp>
-               <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
-                        n="['advantages;']"
-                        xml:id="C19_app32_rg2">
+               <rdgGrp n="['advantages;']" xml:id="C19_app32_rg2">
                   <rdg wit="#f1823">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1823_vol_2_chapter_i.xml#C19_app32-f1823"/>
                   </rdg>
@@ -720,13 +807,10 @@
                </rdgGrp>
             </app>
             <app xml:id="C19_app33" n="4">
-               <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
-                        xml:id="C19_app33_rg_empty">
+               <rdgGrp xml:id="C19_app33_rg_empty">
                   <rdg wit="#fMS"/>
                </rdgGrp>
-               <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
-                        n="['but']"
-                        xml:id="C19_app33_rg1">
+               <rdgGrp n="['but']" xml:id="C19_app33_rg1">
                   <rdg wit="#f1818">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1818_vol_2_chapter_v.xml#C19_app33-f1818"/>
                   </rdg>
@@ -737,22 +821,17 @@
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fThomas_vol_2_chapter_v.xml#C19_app33-fThomas"/>
                   </rdg>
                </rdgGrp>
-               <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
-                        n="['but,']"
-                        xml:id="C19_app33_rg2">
+               <rdgGrp n="['but,']" xml:id="C19_app33_rg2">
                   <rdg wit="#f1831">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1831_chapter_xiii.xml#C19_app33-f1831"/>
                   </rdg>
                </rdgGrp>
             </app>
             <app xml:id="C19_app34" n="7">
-               <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
-                        xml:id="C19_app34_rg_empty">
+               <rdgGrp xml:id="C19_app34_rg_empty">
                   <rdg wit="#fMS"/>
                </rdgGrp>
-               <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
-                        n="['without']"
-                        xml:id="C19_app34_rg1">
+               <rdgGrp n="['without']" xml:id="C19_app34_rg1">
                   <rdg wit="#f1818">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1818_vol_2_chapter_v.xml#C19_app34-f1818"/>
                   </rdg>
@@ -768,13 +847,10 @@
                </rdgGrp>
             </app>
             <app xml:id="C19_app35" n="7">
-               <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
-                        xml:id="C19_app35_rg_empty">
+               <rdgGrp xml:id="C19_app35_rg_empty">
                   <rdg wit="#fMS"/>
                </rdgGrp>
-               <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
-                        n="['either']"
-                        xml:id="C19_app35_rg1">
+               <rdgGrp n="['either']" xml:id="C19_app35_rg1">
                   <rdg wit="#f1818">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1818_vol_2_chapter_v.xml#C19_app35-f1818"/>
                   </rdg>
@@ -785,21 +861,17 @@
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fThomas_vol_2_chapter_v.xml#C19_app35-fThomas"/>
                   </rdg>
                </rdgGrp>
-               <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
-                        n="['either,']"
-                        xml:id="C19_app35_rg2">
+               <rdgGrp n="['either,']" xml:id="C19_app35_rg2">
                   <rdg wit="#f1831">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1831_chapter_xiii.xml#C19_app35-f1831"/>
                   </rdg>
                </rdgGrp>
             </app>
             <app xml:id="C19_app36" n="91">
-               <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
-                        xml:id="C19_app36_rg_empty">
+               <rdgGrp xml:id="C19_app36_rg_empty">
                   <rdg wit="#fMS"/>
                </rdgGrp>
-               <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
-                        n="['he', 'was', 'considered,', 'except', 'in', 'very', 'rare', 'instances,', 'as', 'a', 'vagabond', 'and', 'a', 'slave,', 'doomed', 'to', 'waste', 'his', 'powers', 'for', 'the']"
+               <rdgGrp n="['he', 'was', 'considered,', 'except', 'in', 'very', 'rare', 'instances,', 'as', 'a', 'vagabond', 'and', 'a', 'slave,', 'doomed', 'to', 'waste', 'his', 'powers', 'for', 'the']"
                         xml:id="C19_app36_rg1">
                   <rdg wit="#f1818">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1818_vol_2_chapter_v.xml#C19_app36-f1818"/>
@@ -816,13 +888,10 @@
                </rdgGrp>
             </app>
             <app xml:id="C19_app37" n="7">
-               <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
-                        xml:id="C19_app37_rg_empty">
+               <rdgGrp xml:id="C19_app37_rg_empty">
                   <rdg wit="#fMS"/>
                </rdgGrp>
-               <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
-                        n="['profit']"
-                        xml:id="C19_app37_rg1">
+               <rdgGrp n="['profit']" xml:id="C19_app37_rg1">
                   <rdg wit="#f1818">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1818_vol_2_chapter_v.xml#C19_app37-f1818"/>
                   </rdg>
@@ -833,22 +902,17 @@
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fThomas_vol_2_chapter_v.xml#C19_app37-fThomas"/>
                   </rdg>
                </rdgGrp>
-               <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
-                        n="['profits']"
-                        xml:id="C19_app37_rg2">
+               <rdgGrp n="['profits']" xml:id="C19_app37_rg2">
                   <rdg wit="#f1831">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1831_chapter_xiii.xml#C19_app37-f1831"/>
                   </rdg>
                </rdgGrp>
             </app>
             <app xml:id="C19_app38" n="11">
-               <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
-                        xml:id="C19_app38_rg_empty">
+               <rdgGrp xml:id="C19_app38_rg_empty">
                   <rdg wit="#fMS"/>
                </rdgGrp>
-               <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
-                        n="['of', 'the', 'chosen']"
-                        xml:id="C19_app38_rg1">
+               <rdgGrp n="['of', 'the', 'chosen']" xml:id="C19_app38_rg1">
                   <rdg wit="#f1818">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1818_vol_2_chapter_v.xml#C19_app38-f1818"/>
                   </rdg>
@@ -864,20 +928,15 @@
                </rdgGrp>
             </app>
             <app xml:id="C19_app39" n="4">
-               <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
-                        xml:id="C19_app39_rg_empty">
+               <rdgGrp xml:id="C19_app39_rg_empty">
                   <rdg wit="#fMS"/>
                </rdgGrp>
-               <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
-                        n="['few!']"
-                        xml:id="C19_app39_rg1">
+               <rdgGrp n="['few!']" xml:id="C19_app39_rg1">
                   <rdg wit="#f1831">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1831_chapter_xiii.xml#C19_app39-f1831"/>
                   </rdg>
                </rdgGrp>
-               <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
-                        n="['few.']"
-                        xml:id="C19_app39_rg2">
+               <rdgGrp n="['few.']" xml:id="C19_app39_rg2">
                   <rdg wit="#f1818">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1818_vol_2_chapter_v.xml#C19_app39-f1818"/>
                   </rdg>
@@ -885,21 +944,17 @@
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fThomas_vol_2_chapter_v.xml#C19_app39-fThomas"/>
                   </rdg>
                </rdgGrp>
-               <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
-                        n="['few?']"
-                        xml:id="C19_app39_rg3">
+               <rdgGrp n="['few?']" xml:id="C19_app39_rg3">
                   <rdg wit="#f1823">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1823_vol_2_chapter_i.xml#C19_app39-f1823"/>
                   </rdg>
                </rdgGrp>
             </app>
             <app xml:id="C19_app40" n="127">
-               <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
-                        xml:id="C19_app40_rg_empty">
+               <rdgGrp xml:id="C19_app40_rg_empty">
                   <rdg wit="#fMS"/>
                </rdgGrp>
-               <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
-                        n="['and', 'what', 'was', 'i?', 'of', 'my', 'creation', 'and', 'creator', 'i', 'was', 'absolutely', 'ignorant;', 'but', 'i', 'knew', 'that', 'i', 'possessed', 'no', 'money,', 'no', 'friends,', 'no', 'kind', 'of', 'property.', 'i', 'was,', 'besides,']"
+               <rdgGrp n="['and', 'what', 'was', 'i?', 'of', 'my', 'creation', 'and', 'creator', 'i', 'was', 'absolutely', 'ignorant;', 'but', 'i', 'knew', 'that', 'i', 'possessed', 'no', 'money,', 'no', 'friends,', 'no', 'kind', 'of', 'property.', 'i', 'was,', 'besides,']"
                         xml:id="C19_app40_rg1">
                   <rdg wit="#f1818">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1818_vol_2_chapter_v.xml#C19_app40-f1818"/>
@@ -916,13 +971,10 @@
                </rdgGrp>
             </app>
             <app xml:id="C19_app41" n="7">
-               <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
-                        xml:id="C19_app41_rg_empty">
+               <rdgGrp xml:id="C19_app41_rg_empty">
                   <rdg wit="#fMS"/>
                </rdgGrp>
-               <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
-                        n="['endowed']"
-                        xml:id="C19_app41_rg1">
+               <rdgGrp n="['endowed']" xml:id="C19_app41_rg1">
                   <rdg wit="#f1818">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1818_vol_2_chapter_v.xml#C19_app41-f1818"/>
                   </rdg>
@@ -930,9 +982,7 @@
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fThomas_vol_2_chapter_v.xml#C19_app41-fThomas"/>
                   </rdg>
                </rdgGrp>
-               <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
-                        n="['endued']"
-                        xml:id="C19_app41_rg2">
+               <rdgGrp n="['endued']" xml:id="C19_app41_rg2">
                   <rdg wit="#f1823">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1823_vol_2_chapter_i.xml#C19_app41-f1823"/>
                   </rdg>
@@ -942,12 +992,10 @@
                </rdgGrp>
             </app>
             <app xml:id="C19_app42" n="199">
-               <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
-                        xml:id="C19_app42_rg_empty">
+               <rdgGrp xml:id="C19_app42_rg_empty">
                   <rdg wit="#fMS"/>
                </rdgGrp>
-               <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
-                        n="['with', 'a', 'figure', 'hideously', 'deformed', 'and', 'loathsome;', 'i', 'was', 'not', 'even', 'of', 'the', 'same', 'nature', 'as', 'man.', 'i', 'was', 'more', 'agile', 'than', 'they,', 'and', 'could', 'subsist', 'upon', 'coarser', 'diet;', 'i', 'bore', 'the', 'extremes', 'of', 'heat', 'and', 'cold', 'with', 'less', 'injury', 'to', 'my', 'frame;', 'my', 'stature', 'far', 'exceeded']"
+               <rdgGrp n="['with', 'a', 'figure', 'hideously', 'deformed', 'and', 'loathsome;', 'i', 'was', 'not', 'even', 'of', 'the', 'same', 'nature', 'as', 'man.', 'i', 'was', 'more', 'agile', 'than', 'they,', 'and', 'could', 'subsist', 'upon', 'coarser', 'diet;', 'i', 'bore', 'the', 'extremes', 'of', 'heat', 'and', 'cold', 'with', 'less', 'injury', 'to', 'my', 'frame;', 'my', 'stature', 'far', 'exceeded']"
                         xml:id="C19_app42_rg1">
                   <rdg wit="#f1818">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1818_vol_2_chapter_v.xml#C19_app42-f1818"/>
@@ -964,13 +1012,10 @@
                </rdgGrp>
             </app>
             <app xml:id="C19_app43" n="8">
-               <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
-                        xml:id="C19_app43_rg_empty">
+               <rdgGrp xml:id="C19_app43_rg_empty">
                   <rdg wit="#fMS"/>
                </rdgGrp>
-               <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
-                        n="['theirs.']"
-                        xml:id="C19_app43_rg1">
+               <rdgGrp n="['theirs.']" xml:id="C19_app43_rg1">
                   <rdg wit="#f1823">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1823_vol_2_chapter_i.xml#C19_app43-f1823"/>
                   </rdg>
@@ -978,9 +1023,7 @@
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1831_chapter_xiii.xml#C19_app43-f1831"/>
                   </rdg>
                </rdgGrp>
-               <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
-                        n="['their’s.']"
-                        xml:id="C19_app43_rg2">
+               <rdgGrp n="['their’s.']" xml:id="C19_app43_rg2">
                   <rdg wit="#f1818">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1818_vol_2_chapter_v.xml#C19_app43-f1818"/>
                   </rdg>
@@ -990,12 +1033,10 @@
                </rdgGrp>
             </app>
             <app xml:id="C19_app44" n="120">
-               <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
-                        xml:id="C19_app44_rg_empty">
+               <rdgGrp xml:id="C19_app44_rg_empty">
                   <rdg wit="#fMS"/>
                </rdgGrp>
-               <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
-                        n="['when', 'i', 'looked', 'around,', 'i', 'saw', 'and', 'heard', 'of', 'none', 'like', 'me.', 'was', 'i', 'then', 'a', 'monster,', 'a', 'blot', 'upon', 'the', 'earth,', 'from', 'which', 'all', 'men', 'fled,', 'and', 'whom', 'all', 'men', 'disowned?']"
+               <rdgGrp n="['when', 'i', 'looked', 'around,', 'i', 'saw', 'and', 'heard', 'of', 'none', 'like', 'me.', 'was', 'i', 'then', 'a', 'monster,', 'a', 'blot', 'upon', 'the', 'earth,', 'from', 'which', 'all', 'men', 'fled,', 'and', 'whom', 'all', 'men', 'disowned?']"
                         xml:id="C19_app44_rg1">
                   <rdg wit="#f1818">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1818_vol_2_chapter_v.xml#C19_app44-f1818"/>
@@ -1012,32 +1053,35 @@
                </rdgGrp>
             </app>
             <app xml:id="C19_app45" n="37">
-               <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
-                        xml:id="C19_app45_rg_empty">
+               <rdgGrp xml:id="C19_app45_rg_empty">
                   <rdg wit="#fMS"/>
                </rdgGrp>
-               <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
-                        n="['&lt;note&gt;thomas copy: pencil mark joins paragraphs.&lt;/note&gt;']"
+               <rdgGrp n="['&lt;note&gt;thomas copy: pencil mark joins paragraphs.&lt;/note&gt;']"
                         xml:id="C19_app45_rg1">
                   <rdg wit="#fThomas">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fThomas_vol_2_chapter_v.xml#C19_app45-fThomas"/>
                   </rdg>
                </rdgGrp>
-               <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
-                        n="['&lt;p-end/&gt;', '&lt;p-start/&gt;']"
-                        xml:id="C19_app45_rg2">
-                  <rdg wit="#f1818"/>
-                  <rdg wit="#f1823"/>
-                  <rdg wit="#f1831"/>
+               <rdgGrp n="['&lt;p-end/&gt;', '&lt;p-start/&gt;']" xml:id="C19_app45_rg2">
+                  <rdg wit="#f1818">
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1818_vol_2_chapter_v.xml#C19_app45-f1818__I"/>
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1818_vol_2_chapter_v.xml#C19_app45-f1818__F"/>
+                  </rdg>
+                  <rdg wit="#f1823">
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1823_vol_2_chapter_i.xml#C19_app45-f1823__I"/>
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1823_vol_2_chapter_i.xml#C19_app45-f1823__F"/>
+                  </rdg>
+                  <rdg wit="#f1831">
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1831_chapter_xiii.xml#C19_app45-f1831__I"/>
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1831_chapter_xiii.xml#C19_app45-f1831__F"/>
+                  </rdg>
                </rdgGrp>
             </app>
             <app xml:id="C19_app46" n="62">
-               <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
-                        xml:id="C19_app46_rg_empty">
+               <rdgGrp xml:id="C19_app46_rg_empty">
                   <rdg wit="#fMS"/>
                </rdgGrp>
-               <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
-                        n="['&#34;i', 'cannot', 'describe', 'to', 'you', 'the', 'agony', 'that', 'these', 'reflections', 'inflicted', 'upon']"
+               <rdgGrp n="['&#34;i', 'cannot', 'describe', 'to', 'you', 'the', 'agony', 'that', 'these', 'reflections', 'inflicted', 'upon']"
                         xml:id="C19_app46_rg1">
                   <rdg wit="#f1818">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1818_vol_2_chapter_v.xml#C19_app46-f1818"/>
@@ -1054,20 +1098,15 @@
                </rdgGrp>
             </app>
             <app xml:id="C19_app47" n="3">
-               <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
-                        xml:id="C19_app47_rg_empty">
+               <rdgGrp xml:id="C19_app47_rg_empty">
                   <rdg wit="#fMS"/>
                </rdgGrp>
-               <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
-                        n="['me:']"
-                        xml:id="C19_app47_rg1">
+               <rdgGrp n="['me:']" xml:id="C19_app47_rg1">
                   <rdg wit="#f1831">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1831_chapter_xiii.xml#C19_app47-f1831"/>
                   </rdg>
                </rdgGrp>
-               <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
-                        n="['me;']"
-                        xml:id="C19_app47_rg2">
+               <rdgGrp n="['me;']" xml:id="C19_app47_rg2">
                   <rdg wit="#f1818">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1818_vol_2_chapter_v.xml#C19_app47-f1818"/>
                   </rdg>
@@ -1080,12 +1119,10 @@
                </rdgGrp>
             </app>
             <app xml:id="C19_app48" n="104">
-               <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
-                        xml:id="C19_app48_rg_empty">
+               <rdgGrp xml:id="C19_app48_rg_empty">
                   <rdg wit="#fMS"/>
                </rdgGrp>
-               <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
-                        n="['i', 'tried', 'to', 'dispel', 'them,', 'but', 'sorrow', 'only', 'increased', 'with', 'knowledge.', 'oh,', 'that', 'i', 'had', 'for', 'ever', 'remained', 'in', 'my', 'native', 'wood,', 'nor', 'known']"
+               <rdgGrp n="['i', 'tried', 'to', 'dispel', 'them,', 'but', 'sorrow', 'only', 'increased', 'with', 'knowledge.', 'oh,', 'that', 'i', 'had', 'for', 'ever', 'remained', 'in', 'my', 'native', 'wood,', 'nor', 'known']"
                         xml:id="C19_app48_rg1">
                   <rdg wit="#f1818">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1818_vol_2_chapter_v.xml#C19_app48-f1818"/>
@@ -1102,13 +1139,10 @@
                </rdgGrp>
             </app>
             <app xml:id="C19_app49" n="3">
-               <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
-                        xml:id="C19_app49_rg_empty">
+               <rdgGrp xml:id="C19_app49_rg_empty">
                   <rdg wit="#fMS"/>
                </rdgGrp>
-               <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
-                        n="['nor']"
-                        xml:id="C19_app49_rg1">
+               <rdgGrp n="['nor']" xml:id="C19_app49_rg1">
                   <rdg wit="#f1823">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1823_vol_2_chapter_i.xml#C19_app49-f1823"/>
                   </rdg>
@@ -1116,9 +1150,7 @@
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1831_chapter_xiii.xml#C19_app49-f1831"/>
                   </rdg>
                </rdgGrp>
-               <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
-                        n="['or']"
-                        xml:id="C19_app49_rg2">
+               <rdgGrp n="['or']" xml:id="C19_app49_rg2">
                   <rdg wit="#f1818">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1818_vol_2_chapter_v.xml#C19_app49-f1818"/>
                   </rdg>
@@ -1128,34 +1160,43 @@
                </rdgGrp>
             </app>
             <app xml:id="C19_app50" n="837">
-               <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
-                        xml:id="C19_app50_rg_empty">
+               <rdgGrp xml:id="C19_app50_rg_empty">
                   <rdg wit="#fMS"/>
                </rdgGrp>
-               <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
-                        n="['felt', 'beyond', 'the', 'sensations', 'of', 'hunger,', 'thirst,', 'and', 'heat!', '&lt;p-end/&gt;', '&lt;p-start/&gt;', '&#34;of', 'what', 'a', 'strange', 'nature', 'is', 'knowledge!', 'it', 'clings', 'to', 'the', 'mind,', 'when', 'it', 'has', 'once', 'seized', 'on', 'it,', 'like', 'a', 'lichen', 'on', 'the', 'rock.', 'i', 'wished', 'sometimes', 'to', 'shake', 'off', 'all', 'thought', 'and', 'feeling;', 'but', 'i', 'learned', 'that', 'there', 'was', 'but', 'one', 'means', 'to', 'overcome', 'the', 'sensation', 'of', 'pain,', 'and', 'that', 'was', 'death—a', 'state', 'which', 'i', 'feared', 'yet', 'did', 'not', 'understand.', 'i', 'admired', 'virtue', 'and', 'good', 'feelings,', 'and', 'loved', 'the', 'gentle', 'manners', 'and', 'amiable', 'qualities', 'of', 'my', 'cottagers;', 'but', 'i', 'was', 'shut', 'out', 'from', 'intercourse', 'with', 'them,', 'except', 'through', 'means', 'which', 'i', 'obtained', 'by', 'stealth,', 'when', 'i', 'was', 'unseen', 'and', 'unknown,', 'and', 'which', 'rather', 'increased', 'than', 'satisfied', 'the', 'desire', 'i', 'had', 'of', 'becoming', 'one', 'among', 'my', 'fellows.', 'the', 'gentle', 'words', 'of', 'agatha,', 'and', 'the', 'animated', 'smiles', 'of', 'the', 'charming', 'arabian,', 'were', 'not', 'for', 'me.', 'the', 'mild', 'exhortations', 'of', 'the', 'old', 'man,', 'and', 'the', 'lively', 'conversation', 'of', 'the', 'loved', 'felix,', 'were', 'not', 'for', 'me.', 'miserable,', 'unhappy', 'wretch!', '&lt;p-end/&gt;', '&lt;p-start/&gt;', '&#34;other', 'lessons', 'were', 'impressed', 'upon', 'me', 'even', 'more', 'deeply.', 'i', 'heard', 'of', 'the', 'difference', 'of', 'sexes;']"
+               <rdgGrp n="['felt', 'beyond', 'the', 'sensations', 'of', 'hunger,', 'thirst,', 'and', 'heat!', '&lt;p-end/&gt;', '&lt;p-start/&gt;', '&#34;of', 'what', 'a', 'strange', 'nature', 'is', 'knowledge!', 'it', 'clings', 'to', 'the', 'mind,', 'when', 'it', 'has', 'once', 'seized', 'on', 'it,', 'like', 'a', 'lichen', 'on', 'the', 'rock.', 'i', 'wished', 'sometimes', 'to', 'shake', 'off', 'all', 'thought', 'and', 'feeling;', 'but', 'i', 'learned', 'that', 'there', 'was', 'but', 'one', 'means', 'to', 'overcome', 'the', 'sensation', 'of', 'pain,', 'and', 'that', 'was', 'death—a', 'state', 'which', 'i', 'feared', 'yet', 'did', 'not', 'understand.', 'i', 'admired', 'virtue', 'and', 'good', 'feelings,', 'and', 'loved', 'the', 'gentle', 'manners', 'and', 'amiable', 'qualities', 'of', 'my', 'cottagers;', 'but', 'i', 'was', 'shut', 'out', 'from', 'intercourse', 'with', 'them,', 'except', 'through', 'means', 'which', 'i', 'obtained', 'by', 'stealth,', 'when', 'i', 'was', 'unseen', 'and', 'unknown,', 'and', 'which', 'rather', 'increased', 'than', 'satisfied', 'the', 'desire', 'i', 'had', 'of', 'becoming', 'one', 'among', 'my', 'fellows.', 'the', 'gentle', 'words', 'of', 'agatha,', 'and', 'the', 'animated', 'smiles', 'of', 'the', 'charming', 'arabian,', 'were', 'not', 'for', 'me.', 'the', 'mild', 'exhortations', 'of', 'the', 'old', 'man,', 'and', 'the', 'lively', 'conversation', 'of', 'the', 'loved', 'felix,', 'were', 'not', 'for', 'me.', 'miserable,', 'unhappy', 'wretch!', '&lt;p-end/&gt;', '&lt;p-start/&gt;', '&#34;other', 'lessons', 'were', 'impressed', 'upon', 'me', 'even', 'more', 'deeply.', 'i', 'heard', 'of', 'the', 'difference', 'of', 'sexes;']"
                         xml:id="C19_app50_rg1">
-                  <rdg wit="#f1818"/>
-                  <rdg wit="#f1823"/>
-                  <rdg wit="#fThomas"/>
-                  <rdg wit="#f1831"/>
+                  <rdg wit="#f1818">
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1818_vol_2_chapter_v.xml#C19_app50-f1818__I"/>
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1818_vol_2_chapter_v.xml#C19_app50-f1818__M"/>
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1818_vol_2_chapter_v.xml#C19_app50-f1818__F"/>
+                  </rdg>
+                  <rdg wit="#f1823">
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1823_vol_2_chapter_i.xml#C19_app50-f1823__I"/>
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1823_vol_2_chapter_i.xml#C19_app50-f1823__M"/>
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1823_vol_2_chapter_i.xml#C19_app50-f1823__F"/>
+                  </rdg>
+                  <rdg wit="#fThomas">
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fThomas_vol_2_chapter_v.xml#C19_app50-fThomas__I"/>
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fThomas_vol_2_chapter_v.xml#C19_app50-fThomas__M"/>
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fThomas_vol_2_chapter_v.xml#C19_app50-fThomas__F"/>
+                  </rdg>
+                  <rdg wit="#f1831">
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1831_chapter_xiii.xml#C19_app50-f1831__I"/>
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1831_chapter_xiii.xml#C19_app50-f1831__M"/>
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1831_chapter_xiii.xml#C19_app50-f1831__F"/>
+                  </rdg>
                </rdgGrp>
             </app>
             <app xml:id="C19_app51" n="3">
-               <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
-                        xml:id="C19_app51_rg_empty">
+               <rdgGrp xml:id="C19_app51_rg_empty">
                   <rdg wit="#fMS"/>
                </rdgGrp>
-               <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
-                        n="['and']"
-                        xml:id="C19_app51_rg1">
+               <rdgGrp n="['and']" xml:id="C19_app51_rg1">
                   <rdg wit="#f1831">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1831_chapter_xiii.xml#C19_app51-f1831"/>
                   </rdg>
                </rdgGrp>
-               <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
-                        n="['of']"
-                        xml:id="C19_app51_rg2">
+               <rdgGrp n="['of']" xml:id="C19_app51_rg2">
                   <rdg wit="#f1818">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1818_vol_2_chapter_v.xml#C19_app51-f1818"/>
                   </rdg>
@@ -1168,12 +1209,10 @@
                </rdgGrp>
             </app>
             <app xml:id="C19_app52" n="140">
-               <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
-                        xml:id="C19_app52_rg_empty">
+               <rdgGrp xml:id="C19_app52_rg_empty">
                   <rdg wit="#fMS"/>
                </rdgGrp>
-               <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
-                        n="['the', 'birth', 'and', 'growth', 'of', 'children;', 'how', 'the', 'father', 'doated', 'on', 'the', 'smiles', 'of', 'the', 'infant,', 'and', 'the', 'lively', 'sallies', 'of', 'the', 'older', 'child;', 'how', 'all', 'the', 'life', 'and', 'cares', 'of', 'the', 'mother', 'were']"
+               <rdgGrp n="['the', 'birth', 'and', 'growth', 'of', 'children;', 'how', 'the', 'father', 'doated', 'on', 'the', 'smiles', 'of', 'the', 'infant,', 'and', 'the', 'lively', 'sallies', 'of', 'the', 'older', 'child;', 'how', 'all', 'the', 'life', 'and', 'cares', 'of', 'the', 'mother', 'were']"
                         xml:id="C19_app52_rg1">
                   <rdg wit="#f1818">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1818_vol_2_chapter_v.xml#C19_app52-f1818"/>
@@ -1190,13 +1229,10 @@
                </rdgGrp>
             </app>
             <app xml:id="C19_app53" n="7">
-               <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
-                        xml:id="C19_app53_rg_empty">
+               <rdgGrp xml:id="C19_app53_rg_empty">
                   <rdg wit="#fMS"/>
                </rdgGrp>
-               <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
-                        n="['wrapped']"
-                        xml:id="C19_app53_rg1">
+               <rdgGrp n="['wrapped']" xml:id="C19_app53_rg1">
                   <rdg wit="#f1823">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1823_vol_2_chapter_i.xml#C19_app53-f1823"/>
                   </rdg>
@@ -1204,9 +1240,7 @@
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1831_chapter_xiii.xml#C19_app53-f1831"/>
                   </rdg>
                </rdgGrp>
-               <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
-                        n="['wrapt']"
-                        xml:id="C19_app53_rg2">
+               <rdgGrp n="['wrapt']" xml:id="C19_app53_rg2">
                   <rdg wit="#f1818">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1818_vol_2_chapter_v.xml#C19_app53-f1818"/>
                   </rdg>
@@ -1216,27 +1250,34 @@
                </rdgGrp>
             </app>
             <app xml:id="C19_app54" n="814">
-               <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
-                        xml:id="C19_app54_rg_empty">
+               <rdgGrp xml:id="C19_app54_rg_empty">
                   <rdg wit="#fMS"/>
                </rdgGrp>
-               <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
-                        n="['up', 'in', 'the', 'precious', 'charge;', 'how', 'the', 'mind', 'of', 'youth', 'expanded', 'and', 'gained', 'knowledge;', 'of', 'brother,', 'sister,', 'and', 'all', 'the', 'various', 'relationships', 'which', 'bind', 'one', 'human', 'being', 'to', 'another', 'in', 'mutual', 'bonds.', '&lt;p-end/&gt;', '&lt;p-start/&gt;', '&#34;but', 'where', 'were', 'my', 'friends', 'and', 'relations?', 'no', 'father', 'had', 'watched', 'my', 'infant', 'days,', 'no', 'mother', 'had', 'blessed', 'me', 'with', 'smiles', 'and', 'caresses;', 'or', 'if', 'they', 'had,', 'all', 'my', 'past', 'life', 'was', 'now', 'a', 'blot,', 'a', 'blind', 'vacancy', 'in', 'which', 'i', 'distinguished', 'nothing.', 'from', 'my', 'earliest', 'remembrance', 'i', 'had', 'been', 'as', 'i', 'then', 'was', 'in', 'height', 'and', 'proportion.', 'i', 'had', 'never', 'yet', 'seen', 'a', 'being', 'resembling', 'me,', 'or', 'who', 'claimed', 'any', 'intercourse', 'with', 'me.', 'what', 'was', 'i?', 'the', 'question', 'again', 'recurred,', 'to', 'be', 'answered', 'only', 'with', 'groans.', '&lt;p-end/&gt;', '&lt;p-start/&gt;', '&#34;i', 'will', 'soon', 'explain', 'to', 'what', 'these', 'feelings', 'tended;', 'but', 'allow', 'me', 'now', 'to', 'return', 'to', 'the', 'cottagers,', 'whose', 'story', 'excited', 'in', 'me', 'such', 'various', 'feelings', 'of', 'indignation,', 'delight,', 'and', 'wonder,', 'but', 'which', 'all', 'terminated', 'in', 'additional', 'love', 'and', 'reverence', 'for', 'my', 'protectors', '(for', 'so', 'i', 'loved,', 'in', 'an', 'innocent,', 'half', 'painful', 'self-deceit,', 'to', 'call', 'them).', '&lt;p-end/&gt;']"
+               <rdgGrp n="['up', 'in', 'the', 'precious', 'charge;', 'how', 'the', 'mind', 'of', 'youth', 'expanded', 'and', 'gained', 'knowledge;', 'of', 'brother,', 'sister,', 'and', 'all', 'the', 'various', 'relationships', 'which', 'bind', 'one', 'human', 'being', 'to', 'another', 'in', 'mutual', 'bonds.', '&lt;p-end/&gt;', '&lt;p-start/&gt;', '&#34;but', 'where', 'were', 'my', 'friends', 'and', 'relations?', 'no', 'father', 'had', 'watched', 'my', 'infant', 'days,', 'no', 'mother', 'had', 'blessed', 'me', 'with', 'smiles', 'and', 'caresses;', 'or', 'if', 'they', 'had,', 'all', 'my', 'past', 'life', 'was', 'now', 'a', 'blot,', 'a', 'blind', 'vacancy', 'in', 'which', 'i', 'distinguished', 'nothing.', 'from', 'my', 'earliest', 'remembrance', 'i', 'had', 'been', 'as', 'i', 'then', 'was', 'in', 'height', 'and', 'proportion.', 'i', 'had', 'never', 'yet', 'seen', 'a', 'being', 'resembling', 'me,', 'or', 'who', 'claimed', 'any', 'intercourse', 'with', 'me.', 'what', 'was', 'i?', 'the', 'question', 'again', 'recurred,', 'to', 'be', 'answered', 'only', 'with', 'groans.', '&lt;p-end/&gt;', '&lt;p-start/&gt;', '&#34;i', 'will', 'soon', 'explain', 'to', 'what', 'these', 'feelings', 'tended;', 'but', 'allow', 'me', 'now', 'to', 'return', 'to', 'the', 'cottagers,', 'whose', 'story', 'excited', 'in', 'me', 'such', 'various', 'feelings', 'of', 'indignation,', 'delight,', 'and', 'wonder,', 'but', 'which', 'all', 'terminated', 'in', 'additional', 'love', 'and', 'reverence', 'for', 'my', 'protectors', '(for', 'so', 'i', 'loved,', 'in', 'an', 'innocent,', 'half', 'painful', 'self-deceit,', 'to', 'call', 'them).', '&lt;p-end/&gt;']"
                         xml:id="C19_app54_rg1">
-                  <rdg wit="#f1818"/>
-                  <rdg wit="#f1823"/>
-                  <rdg wit="#fThomas"/>
-                  <rdg wit="#f1831"/>
+                  <rdg wit="#f1818">
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1818_vol_2_chapter_v.xml#C19_app54-f1818__I"/>
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1818_vol_2_chapter_v.xml#C19_app54-f1818__F"/>
+                  </rdg>
+                  <rdg wit="#f1823">
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1823_vol_2_chapter_i.xml#C19_app54-f1823__I"/>
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1823_vol_2_chapter_i.xml#C19_app54-f1823__F"/>
+                  </rdg>
+                  <rdg wit="#fThomas">
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fThomas_vol_2_chapter_v.xml#C19_app54-fThomas__I"/>
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fThomas_vol_2_chapter_v.xml#C19_app54-fThomas__F"/>
+                  </rdg>
+                  <rdg wit="#f1831">
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1831_chapter_xiii.xml#C19_app54-f1831__I"/>
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1831_chapter_xiii.xml#C19_app54-f1831__F"/>
+                  </rdg>
                </rdgGrp>
             </app>
             <app xml:id="C19_app55" n="0">
-               <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
-                        xml:id="C19_app55_rg_empty">
+               <rdgGrp xml:id="C19_app55_rg_empty">
                   <rdg wit="#fMS"/>
                </rdgGrp>
-               <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
-                        n="['']"
-                        xml:id="C19_app55_rg1">
+               <rdgGrp n="['']" xml:id="C19_app55_rg1">
                   <rdg wit="#f1818">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1818_vol_2_chapter_v.xml#C19_app55-f1818"/>
                   </rdg>
@@ -1251,7 +1292,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-         </ab>
+         </listApp>
       </body>
    </text>
 </TEI>

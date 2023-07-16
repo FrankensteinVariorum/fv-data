@@ -3,38 +3,103 @@
       xmlns:mith="http://mith.umd.edu/sc/ns1#"
       xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
       xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse">
-   <teiHeader>
+   <teiHeader xmlns:cx="http://interedition.eu/collatex/ns/1.0"
+               xmlns:fv="https://github.com/FrankensteinVariorum">
       <fileDesc>
          <titleStmt>
             <title>Spine: Collation unit C04</title>
          </titleStmt>
          <publicationStmt>
             <authority>Frankenstein Variorum Project</authority>
-            <date>2018</date>
+            <date>2023—</date>
             <availability>
                <licence>Distributed under a Creative Commons
                                         Attribution-ShareAlike 3.0 Unported License</licence>
             </availability>
          </publicationStmt>
-         <sourceDesc xmlns:cx="http://interedition.eu/collatex/ns/1.0">
-            <p>Produced from collation output prepared in batch file processing
-                                    on  2023-05-18 07:33:03.478003 .</p>
-            <p>Edited to correct alignments and prepared for the Frankenstein
-                                    Variorum spine on 2023-07-14T02:43:29.592648-04:00.</p>
+         <sourceDesc>
+            <p>This project digitally compares five versions of the novel <title level="m">Frankenstein</title> prepared between 1816 and 1831.
+                                <abbr>fMS</abbr> refers to the manuscript notebooks dated roughly 1816 to 1818 and stored in three boxes at the Bodleian library in Oxford.
+                                    <abbr>f1818</abbr> refers to the first anonymous publication of Frankenstein in 1818. <abbr>fThomas</abbr> refers to a copy of the 1818 edition left by 
+                                    Mary Shelley with her friend Mrs. Thomas in Italy before she left for England after the death of Percy Shelley. This copy contains 
+                                    handwritten marginalia indicating edits she would make if there were ever a new edition, and apparently was not available for Mary Shelley to consult later.
+                                    <abbr>f1823</abbr> refes to the published edition prepared by William Godwin, the first to feature Mary Wollstonecraft Godwin Shelley’s name as the author. 
+                                    <abbr>f1831</abbr> refers to a heavily revised version prepared by Mary Shelley in 1831 for Bentley's Standard Series of novels. 
+                                    This edition was bound together in one volume with <bibl>Friedrich von Schiller’s <title level="m">The Ghost Seer</title>
+               </bibl>.
+                                </p>
+            <listBibl>
+               <bibl/>
+               <bibl/>
+               <bibl/>
+            </listBibl>
          </sourceDesc>
       </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p>This is a <q>spine</q> file representing a standoff critical apparatus for one of 33
+                                    aligned collation units or <q>chunks</q> that start and end in parallel across five
+                                    versions of the novel <title level="m">Frankenstein</title>. It is produced from a
+                                    machine-assisted process working with the collation software collateX, but our output
+                                    is not standard. CollateX calculates alignments and variations based on dividing
+                                    documents into tokens based on words or characters, and it allows for its adapters to
+                                    develop a normalization algorithm, to indicate that some strings, like <q>&amp;</q>
+                                    should be read as <q>and</q> by the software. The normalization mechanism afforded by
+                                    collateX permits us to compare markup of chapter and paragraph boundaries in simpler
+                                    forms. For example, it allows for TEI surface-and-zone markup of paragraphs in
+                                    <gi>milestone</gi> elements to be normalized as identical with <gi>p</gi> elements
+                                    used in other editions. We have developed a very complex, lengthy series of
+                                    normalizations
+                                    , and
+                                    we want to expose them in our TEI representation of the comparison data in our
+                                    project.</p>
+            <p>Our output of this spine file is not standard for collateX because we are
+                                    purposefully sharing an array of normalized tokens in an <att>n</att> attribute on
+                                    each <gi>rdgGrp</gi> element. This allows us to indicate the basis on which the
+                                    witnesses align when they are frequently not identical character-by-character. We are
+                                    grateful to David J. Birnbaum in his role as a member of the collateX team for
+                                    assisting us by locally editing the collateX 1.7.1 Python library for our project to
+                                    expose the normalized tokens in our TEI Variorum Spine files.</p>
+            <p>Additionally, we developed a post-collation processing pipeline with XSLT and Python
+                                    to to calculate Levenshtein (or edit-distance) values for each pair-wise comparison
+                                    possible at each moment of variation represented in a <gi>app</gi>, and we output the
+                                    maximum of these values in the <att>n</att> attribute on each <gi>app</gi>
+                                    element.</p>
+            <p>Produced from collation output prepared in batch file processing
+                                    on  2023-07-14 14:31:27.992921 .</p>
+            <p>Edited to correct alignments and prepared for the Frankenstein
+                                    Variorum spine on 2023-07-15T21:55:32.255464-04:00.</p>
+         </editorialDecl>
+         <appInfo>
+            <application ident="collateX" version="1.7.1">
+               <label>collateX</label>
+            </application>
+         </appInfo>
+         <listPrefixDef>
+            <desc>When the manuscript notebook witness shows content, the <gi>witDetail</gi> element
+                                    includes a <att>target</att> attribute that can be used to construct links to the
+                                    Shelley-Godwin Archive website display of the particular page on which this appears.
+                                    We also provide links directly to the XML documents together with XPath and
+                                    string-range data that should point to the specirfic location in the Shelley-Godwin
+                                    Archive TEI for this page. The prefixDef below indicates how to construct the links: </desc>
+            <prefixDef ident="s-ga"
+                        matchPattern="(c\d+/#/p\d+)"
+                        replacementPattern="https://shelleygodwinarchive.org/sc/oxford/ms_abinger/$1">
+               <p>For example, s-ga:c57/#/p73 resolves to the URL <ref target="https://shelleygodwinarchive.org/sc/oxford/ms_abinger/c57/#/p73">https://shelleygodwinarchive.org/sc/oxford/ms_abinger/c57/#/p73</ref> linking to 
+                                        the webpage that represents page 73 in box 57 of the Oxford Abinger notebooks.</p>
+            </prefixDef>
+         </listPrefixDef>
+      </encodingDesc>
    </teiHeader>
-   <text>
+   <text xmlns:cx="http://interedition.eu/collatex/ns/1.0"
+          xmlns:fv="https://github.com/FrankensteinVariorum">
       <body>
-         <ab type="alignmentChunk">
+         <listApp>
             <app xml:id="C04_app1" n="10">
-               <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
-                        xml:id="C04_app1_rg_empty">
+               <rdgGrp xml:id="C04_app1_rg_empty">
                   <rdg wit="#fMS"/>
                </rdgGrp>
-               <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
-                        n="['', '', 'letter iii.']"
-                        xml:id="C04_app1_rg1">
+               <rdgGrp n="['', '', 'letter iii.']" xml:id="C04_app1_rg1">
                   <rdg wit="#f1818"/>
                   <rdg wit="#f1823"/>
                   <rdg wit="#fThomas"/>
@@ -42,30 +107,23 @@
                </rdgGrp>
             </app>
             <app xml:id="C04_app2" n="22">
-               <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
-                        xml:id="C04_app2_rg_empty">
+               <rdgGrp xml:id="C04_app2_rg_empty">
                   <rdg wit="#fMS"/>
                </rdgGrp>
-               <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
-                        n="['', 'to mrs. saville, england.', '']"
-                        xml:id="C04_app2_rg1">
+               <rdgGrp n="['to mrs. saville, england.']" xml:id="C04_app2_rg1">
                   <rdg wit="#f1831"/>
                </rdgGrp>
-               <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
-                        n="['to', 'mrs.', 'saville,', 'england.']"
-                        xml:id="C04_app2_rg2">
+               <rdgGrp n="['to', 'mrs.', 's aville ,', 'england.']" xml:id="C04_app2_rg2">
                   <rdg wit="#f1818"/>
                   <rdg wit="#f1823"/>
                   <rdg wit="#fThomas"/>
                </rdgGrp>
             </app>
-            <app xml:id="C04_app3" n="120">
-               <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
-                        xml:id="C04_app3_rg_empty">
+            <app xml:id="C04_app3" n="12">
+               <rdgGrp xml:id="C04_app3_rg_empty">
                   <rdg wit="#fMS"/>
                </rdgGrp>
-               <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
-                        n="['&lt;p-start/&gt;', 'july', '7th,', '17—.', '&lt;p-end/&gt;', '&lt;p-start/&gt;', 'my', 'dear', 'sister,', '&lt;p-end/&gt;', '&lt;p-start/&gt;', 'i', 'write', 'a', 'few', 'lines', 'in', 'haste,', 'to', 'say', 'that', 'i', 'am', 'safe,', 'and', 'well', 'advanced', 'on', 'my', 'voyage.', 'this', 'letter', 'will', 'reach', 'england', 'by', 'a']"
+               <rdgGrp n="['&lt;p-start/&gt;', 'july', '7th,', '17—.', '&lt;p-end/&gt;', '&lt;p-start/&gt;']"
                         xml:id="C04_app3_rg1">
                   <rdg wit="#f1818"/>
                   <rdg wit="#f1823"/>
@@ -73,32 +131,24 @@
                   <rdg wit="#f1831"/>
                </rdgGrp>
             </app>
-            <app xml:id="C04_app4" n="12">
-               <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
-                        xml:id="C04_app4_rg_empty">
+            <app xml:id="C04_app4" n="2">
+               <rdgGrp xml:id="C04_app4_rg_empty">
                   <rdg wit="#fMS"/>
                </rdgGrp>
-               <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
-                        n="['merchant-man']"
-                        xml:id="C04_app4_rg1">
+               <rdgGrp n="['m y']" xml:id="C04_app4_rg1">
+                  <rdg wit="#f1831"/>
+               </rdgGrp>
+               <rdgGrp n="['my']" xml:id="C04_app4_rg2">
                   <rdg wit="#f1818"/>
                   <rdg wit="#f1823"/>
                   <rdg wit="#fThomas"/>
                </rdgGrp>
-               <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
-                        n="['merchantman']"
-                        xml:id="C04_app4_rg2">
-                  <rdg wit="#f1831"/>
-               </rdgGrp>
             </app>
-            <app xml:id="C04_app5" n="129">
-               <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
-                        xml:id="C04_app5_rg_empty">
+            <app xml:id="C04_app5" n="4">
+               <rdgGrp xml:id="C04_app5_rg_empty">
                   <rdg wit="#fMS"/>
                </rdgGrp>
-               <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
-                        n="['now', 'on', 'its', 'homeward', 'voyage', 'from', 'archangel;', 'more', 'fortunate', 'than', 'i,', 'who', 'may', 'not', 'see', 'my', 'native', 'land,', 'perhaps,', 'for', 'many', 'years.', 'i', 'am,', 'however,', 'in', 'good', 'spirits:', 'my']"
-                        xml:id="C04_app5_rg1">
+               <rdgGrp n="['dear']" xml:id="C04_app5_rg1">
                   <rdg wit="#f1818"/>
                   <rdg wit="#f1823"/>
                   <rdg wit="#fThomas"/>
@@ -106,30 +156,23 @@
                </rdgGrp>
             </app>
             <app xml:id="C04_app6" n="7">
-               <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
-                        xml:id="C04_app6_rg_empty">
+               <rdgGrp xml:id="C04_app6_rg_empty">
                   <rdg wit="#fMS"/>
                </rdgGrp>
-               <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
-                        n="['&lt;del&gt;men&lt;/del&gt;', 'crew']"
-                        xml:id="C04_app6_rg1">
-                  <rdg wit="#fThomas"/>
-               </rdgGrp>
-               <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
-                        n="['men']"
-                        xml:id="C04_app6_rg2">
-                  <rdg wit="#f1818"/>
-                  <rdg wit="#f1823"/>
+               <rdgGrp n="['s ister ,']" xml:id="C04_app6_rg1">
                   <rdg wit="#f1831"/>
                </rdgGrp>
+               <rdgGrp n="['sister ,']" xml:id="C04_app6_rg2">
+                  <rdg wit="#f1818"/>
+                  <rdg wit="#f1823"/>
+                  <rdg wit="#fThomas"/>
+               </rdgGrp>
             </app>
-            <app xml:id="C04_app7" n="3">
-               <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
-                        xml:id="C04_app7_rg_empty">
+            <app xml:id="C04_app7" n="95">
+               <rdgGrp xml:id="C04_app7_rg_empty">
                   <rdg wit="#fMS"/>
                </rdgGrp>
-               <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
-                        n="['are']"
+               <rdgGrp n="['&lt;p-end/&gt;', '&lt;p-start/&gt;', 'i', 'write', 'a', 'few', 'lines', 'in', 'haste,', 'to', 'say', 'that', 'i', 'am', 'safe,', 'and', 'well', 'advanced', 'on', 'my', 'voyage.', 'this', 'letter', 'will', 'reach', 'england', 'by', 'a']"
                         xml:id="C04_app7_rg1">
                   <rdg wit="#f1818"/>
                   <rdg wit="#f1823"/>
@@ -137,31 +180,24 @@
                   <rdg wit="#f1831"/>
                </rdgGrp>
             </app>
-            <app xml:id="C04_app8" n="38">
-               <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
-                        xml:id="C04_app8_rg_empty">
+            <app xml:id="C04_app8" n="12">
+               <rdgGrp xml:id="C04_app8_rg_empty">
                   <rdg wit="#fMS"/>
                </rdgGrp>
-               <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
-                        n="['&lt;del&gt;bold&lt;/del&gt;', 'gallant fellows', ',', '&lt;del&gt;and apparently&lt;/del&gt;', 'and i am']"
-                        xml:id="C04_app8_rg1">
-                  <rdg wit="#fThomas"/>
-               </rdgGrp>
-               <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
-                        n="['bold,', 'and', 'apparently']"
-                        xml:id="C04_app8_rg2">
+               <rdgGrp n="['merchant-man']" xml:id="C04_app8_rg1">
                   <rdg wit="#f1818"/>
                   <rdg wit="#f1823"/>
+                  <rdg wit="#fThomas"/>
+               </rdgGrp>
+               <rdgGrp n="['merchantman']" xml:id="C04_app8_rg2">
                   <rdg wit="#f1831"/>
                </rdgGrp>
             </app>
-            <app xml:id="C04_app9" n="373">
-               <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
-                        xml:id="C04_app9_rg_empty">
+            <app xml:id="C04_app9" n="129">
+               <rdgGrp xml:id="C04_app9_rg_empty">
                   <rdg wit="#fMS"/>
                </rdgGrp>
-               <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
-                        n="['firm', 'of', 'purpose;', 'nor', 'do', 'the', 'floating', 'sheets', 'of', 'ice', 'that', 'continually', 'pass', 'us,', 'indicating', 'the', 'dangers', 'of', 'the', 'region', 'towards', 'which', 'we', 'are', 'advancing,', 'appear', 'to', 'dismay', 'them.', 'we', 'have', 'already', 'reached', 'a', 'very', 'high', 'latitude;', 'but', 'it', 'is', 'the', 'height', 'of', 'summer,', 'and', 'although', 'not', 'so', 'warm', 'as', 'in', 'england,', 'the', 'southern', 'gales,', 'which', 'blow', 'us', 'speedily', 'towards', 'those', 'shores', 'which', 'i', 'so', 'ardently', 'desire', 'to', 'attain,', 'breathe', 'a', 'degree', 'of', 'renovating', 'warmth', 'which', 'i', 'had', 'not', 'expected.']"
+               <rdgGrp n="['now', 'on', 'its', 'homeward', 'voyage', 'from', 'archangel;', 'more', 'fortunate', 'than', 'i,', 'who', 'may', 'not', 'see', 'my', 'native', 'land,', 'perhaps,', 'for', 'many', 'years.', 'i', 'am,', 'however,', 'in', 'good', 'spirits:', 'my']"
                         xml:id="C04_app9_rg1">
                   <rdg wit="#f1818"/>
                   <rdg wit="#f1823"/>
@@ -169,117 +205,89 @@
                   <rdg wit="#f1831"/>
                </rdgGrp>
             </app>
-            <app xml:id="C04_app10" n="207">
-               <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
-                        xml:id="C04_app10_rg_empty">
+            <app xml:id="C04_app10" n="7">
+               <rdgGrp xml:id="C04_app10_rg_empty">
                   <rdg wit="#fMS"/>
                </rdgGrp>
-               <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
-                        n="['&lt;p-end/&gt;', '&lt;p-start/&gt;', 'no', 'incidents', 'have', 'hitherto', 'befallen']"
-                        xml:id="C04_app10_rg1">
+               <rdgGrp n="['&lt;del&gt;men&lt;/del&gt;', 'crew']" xml:id="C04_app10_rg1">
+                  <rdg wit="#fThomas"/>
+               </rdgGrp>
+               <rdgGrp n="['men']" xml:id="C04_app10_rg2">
                   <rdg wit="#f1818"/>
                   <rdg wit="#f1823"/>
                   <rdg wit="#f1831"/>
-               </rdgGrp>
-               <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
-                        n="['the appearance of the sky is indiscribably beautiful; clear by day, and illuminated at night by the aurora borealis &lt;del&gt;w&lt;/del-inner&gt; which spreads a roseate tinge over the heavens, and over the sea which reflects it’s splendour.', '&lt;p-end/&gt;', '&lt;p-start/&gt;', 'no', 'incidents', 'have', 'hitherto', 'befallen']"
-                        xml:id="C04_app10_rg2">
-                  <rdg wit="#fThomas"/>
                </rdgGrp>
             </app>
             <app xml:id="C04_app11" n="3">
-               <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
-                        xml:id="C04_app11_rg_empty">
+               <rdgGrp xml:id="C04_app11_rg_empty">
                   <rdg wit="#fMS"/>
                </rdgGrp>
-               <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
-                        n="['us']"
-                        xml:id="C04_app11_rg1">
-                  <rdg wit="#f1823"/>
-                  <rdg wit="#f1831"/>
-               </rdgGrp>
-               <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
-                        n="['us,']"
-                        xml:id="C04_app11_rg2">
+               <rdgGrp n="['are']" xml:id="C04_app11_rg1">
                   <rdg wit="#f1818"/>
+                  <rdg wit="#f1823"/>
                   <rdg wit="#fThomas"/>
+                  <rdg wit="#f1831"/>
                </rdgGrp>
             </app>
             <app xml:id="C04_app12" n="38">
-               <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
-                        xml:id="C04_app12_rg_empty">
+               <rdgGrp xml:id="C04_app12_rg_empty">
                   <rdg wit="#fMS"/>
                </rdgGrp>
-               <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
-                        n="['that', 'would', 'make', 'a', 'figure', 'in', 'a', 'letter.', 'one', 'or', 'two']"
+               <rdgGrp n="['&lt;del&gt;bold&lt;/del&gt;', 'gallant fellows', ',', '&lt;del&gt;and apparently&lt;/del&gt;', 'and i am']"
                         xml:id="C04_app12_rg1">
+                  <rdg wit="#fThomas"/>
+               </rdgGrp>
+               <rdgGrp n="['bold,', 'and', 'apparently']" xml:id="C04_app12_rg2">
                   <rdg wit="#f1818"/>
                   <rdg wit="#f1823"/>
-                  <rdg wit="#fThomas"/>
                   <rdg wit="#f1831"/>
                </rdgGrp>
             </app>
-            <app xml:id="C04_app13" n="9">
-               <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
-                        xml:id="C04_app13_rg_empty">
+            <app xml:id="C04_app13" n="373">
+               <rdgGrp xml:id="C04_app13_rg_empty">
                   <rdg wit="#fMS"/>
                </rdgGrp>
-               <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
-                        n="['&lt;del&gt;stiff&lt;/del&gt;', 'hard']"
+               <rdgGrp n="['firm', 'of', 'purpose;', 'nor', 'do', 'the', 'floating', 'sheets', 'of', 'ice', 'that', 'continually', 'pass', 'us,', 'indicating', 'the', 'dangers', 'of', 'the', 'region', 'towards', 'which', 'we', 'are', 'advancing,', 'appear', 'to', 'dismay', 'them.', 'we', 'have', 'already', 'reached', 'a', 'very', 'high', 'latitude;', 'but', 'it', 'is', 'the', 'height', 'of', 'summer,', 'and', 'although', 'not', 'so', 'warm', 'as', 'in', 'england,', 'the', 'southern', 'gales,', 'which', 'blow', 'us', 'speedily', 'towards', 'those', 'shores', 'which', 'i', 'so', 'ardently', 'desire', 'to', 'attain,', 'breathe', 'a', 'degree', 'of', 'renovating', 'warmth', 'which', 'i', 'had', 'not', 'expected.']"
                         xml:id="C04_app13_rg1">
-                  <rdg wit="#fThomas"/>
-               </rdgGrp>
-               <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
-                        n="['stiff']"
-                        xml:id="C04_app13_rg2">
                   <rdg wit="#f1818"/>
                   <rdg wit="#f1823"/>
+                  <rdg wit="#fThomas"/>
                   <rdg wit="#f1831"/>
                </rdgGrp>
             </app>
-            <app xml:id="C04_app14" n="12">
-               <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
-                        xml:id="C04_app14_rg_empty">
+            <app xml:id="C04_app14" n="207">
+               <rdgGrp xml:id="C04_app14_rg_empty">
                   <rdg wit="#fMS"/>
                </rdgGrp>
-               <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
-                        n="['gales,', 'and', 'the']"
+               <rdgGrp n="['&lt;p-end/&gt;', '&lt;p-start/&gt;', 'no', 'incidents', 'have', 'hitherto', 'befallen']"
                         xml:id="C04_app14_rg1">
                   <rdg wit="#f1818"/>
                   <rdg wit="#f1823"/>
-                  <rdg wit="#fThomas"/>
                   <rdg wit="#f1831"/>
                </rdgGrp>
-            </app>
-            <app xml:id="C04_app15" n="20">
-               <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
-                        xml:id="C04_app15_rg_empty">
-                  <rdg wit="#fMS"/>
-               </rdgGrp>
-               <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
-                        n="['&lt;del&gt;breaking&lt;/del&gt;', 'carrying away']"
-                        xml:id="C04_app15_rg1">
+               <rdgGrp n="['the appearance of the sky is indiscribably beautiful; clear by day, and illuminated at night by the aurora borealis &lt;del-inner rend=&#34;strikethrough&#34;&gt;w&lt;/del-inner&gt; which spreads a roseate tinge over the heavens, and over the sea which reflects it’s splendour.', '&lt;p-end/&gt;', '&lt;p-start/&gt;', 'no', 'incidents', 'have', 'hitherto', 'befallen']"
+                        xml:id="C04_app14_rg2">
                   <rdg wit="#fThomas"/>
                </rdgGrp>
-               <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
-                        n="['breaking']"
-                        xml:id="C04_app15_rg2">
-                  <rdg wit="#f1818"/>
+            </app>
+            <app xml:id="C04_app15" n="3">
+               <rdgGrp xml:id="C04_app15_rg_empty">
+                  <rdg wit="#fMS"/>
+               </rdgGrp>
+               <rdgGrp n="['us']" xml:id="C04_app15_rg1">
                   <rdg wit="#f1823"/>
-               </rdgGrp>
-               <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
-                        n="['springing']"
-                        xml:id="C04_app15_rg3">
                   <rdg wit="#f1831"/>
                </rdgGrp>
+               <rdgGrp n="['us,']" xml:id="C04_app15_rg2">
+                  <rdg wit="#f1818"/>
+                  <rdg wit="#fThomas"/>
+               </rdgGrp>
             </app>
-            <app xml:id="C04_app16" n="3">
-               <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
-                        xml:id="C04_app16_rg_empty">
+            <app xml:id="C04_app16" n="38">
+               <rdgGrp xml:id="C04_app16_rg_empty">
                   <rdg wit="#fMS"/>
                </rdgGrp>
-               <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
-                        n="['of', 'a']"
+               <rdgGrp n="['that', 'would', 'make', 'a', 'figure', 'in', 'a', 'letter.', 'one', 'or', 'two']"
                         xml:id="C04_app16_rg1">
                   <rdg wit="#f1818"/>
                   <rdg wit="#f1823"/>
@@ -287,95 +295,74 @@
                   <rdg wit="#f1831"/>
                </rdgGrp>
             </app>
-            <app xml:id="C04_app17" n="5">
-               <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
-                        xml:id="C04_app17_rg_empty">
+            <app xml:id="C04_app17" n="9">
+               <rdgGrp xml:id="C04_app17_rg_empty">
                   <rdg wit="#fMS"/>
                </rdgGrp>
-               <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
-                        n="['leak,']"
-                        xml:id="C04_app17_rg1">
-                  <rdg wit="#f1831"/>
-               </rdgGrp>
-               <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
-                        n="['mast,']"
-                        xml:id="C04_app17_rg2">
-                  <rdg wit="#f1818"/>
-                  <rdg wit="#f1823"/>
+               <rdgGrp n="['&lt;del&gt;stiff&lt;/del&gt;', 'hard']" xml:id="C04_app17_rg1">
                   <rdg wit="#fThomas"/>
                </rdgGrp>
+               <rdgGrp n="['stiff']" xml:id="C04_app17_rg2">
+                  <rdg wit="#f1818"/>
+                  <rdg wit="#f1823"/>
+                  <rdg wit="#f1831"/>
+               </rdgGrp>
             </app>
-            <app xml:id="C04_app18" n="78">
-               <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
-                        xml:id="C04_app18_rg_empty">
+            <app xml:id="C04_app18" n="12">
+               <rdgGrp xml:id="C04_app18_rg_empty">
                   <rdg wit="#fMS"/>
                </rdgGrp>
-               <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
-                        n="['are', 'accidents', 'which', 'experienced', 'navigators', 'scarcely', 'remember', 'to', 'record;', 'and', 'i', 'shall', 'be', 'well']"
-                        xml:id="C04_app18_rg1">
+               <rdgGrp n="['gales,', 'and', 'the']" xml:id="C04_app18_rg1">
                   <rdg wit="#f1818"/>
                   <rdg wit="#f1823"/>
                   <rdg wit="#fThomas"/>
                   <rdg wit="#f1831"/>
                </rdgGrp>
             </app>
-            <app xml:id="C04_app19" n="8">
-               <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
-                        xml:id="C04_app19_rg_empty">
+            <app xml:id="C04_app19" n="20">
+               <rdgGrp xml:id="C04_app19_rg_empty">
                   <rdg wit="#fMS"/>
                </rdgGrp>
-               <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
-                        n="['content']"
-                        xml:id="C04_app19_rg1">
-                  <rdg wit="#f1823"/>
-                  <rdg wit="#f1831"/>
-               </rdgGrp>
-               <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
-                        n="['content,']"
-                        xml:id="C04_app19_rg2">
-                  <rdg wit="#f1818"/>
+               <rdgGrp n="['&lt;del&gt;breaking&lt;/del&gt;', 'carrying away']" xml:id="C04_app19_rg1">
                   <rdg wit="#fThomas"/>
                </rdgGrp>
+               <rdgGrp n="['breaking']" xml:id="C04_app19_rg2">
+                  <rdg wit="#f1818"/>
+                  <rdg wit="#f1823"/>
+               </rdgGrp>
+               <rdgGrp n="['springing']" xml:id="C04_app19_rg3">
+                  <rdg wit="#f1831"/>
+               </rdgGrp>
             </app>
-            <app xml:id="C04_app20" n="96">
-               <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
-                        xml:id="C04_app20_rg_empty">
+            <app xml:id="C04_app20" n="3">
+               <rdgGrp xml:id="C04_app20_rg_empty">
                   <rdg wit="#fMS"/>
                </rdgGrp>
-               <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
-                        n="['if', 'nothing', 'worse', 'happen', 'to', 'us', 'during', 'our', 'voyage.', '&lt;p-end/&gt;', '&lt;p-start/&gt;', 'adieu,', 'my', 'dear', 'margaret.', 'be', 'assured,', 'that', 'for', 'my', 'own', 'sake,', 'as', 'well', 'as']"
-                        xml:id="C04_app20_rg1">
+               <rdgGrp n="['of', 'a']" xml:id="C04_app20_rg1">
                   <rdg wit="#f1818"/>
                   <rdg wit="#f1823"/>
                   <rdg wit="#fThomas"/>
                   <rdg wit="#f1831"/>
                </rdgGrp>
             </app>
-            <app xml:id="C04_app21" n="7">
-               <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
-                        xml:id="C04_app21_rg_empty">
+            <app xml:id="C04_app21" n="5">
+               <rdgGrp xml:id="C04_app21_rg_empty">
                   <rdg wit="#fMS"/>
                </rdgGrp>
-               <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
-                        n="['yours,']"
-                        xml:id="C04_app21_rg1">
-                  <rdg wit="#f1823"/>
+               <rdgGrp n="['leak,']" xml:id="C04_app21_rg1">
                   <rdg wit="#f1831"/>
                </rdgGrp>
-               <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
-                        n="['your’s,']"
-                        xml:id="C04_app21_rg2">
+               <rdgGrp n="['mast,']" xml:id="C04_app21_rg2">
                   <rdg wit="#f1818"/>
+                  <rdg wit="#f1823"/>
                   <rdg wit="#fThomas"/>
                </rdgGrp>
             </app>
-            <app xml:id="C04_app22" n="65">
-               <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
-                        xml:id="C04_app22_rg_empty">
+            <app xml:id="C04_app22" n="78">
+               <rdgGrp xml:id="C04_app22_rg_empty">
                   <rdg wit="#fMS"/>
                </rdgGrp>
-               <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
-                        n="['i', 'will', 'not', 'rashly', 'encounter', 'danger.', 'i', 'will', 'be', 'cool,', 'persevering,', 'and', 'prudent.', '&lt;p-end/&gt;', '&lt;p-start/&gt;']"
+               <rdgGrp n="['are', 'accidents', 'which', 'experienced', 'navigators', 'scarcely', 'remember', 'to', 'record;', 'and', 'i', 'shall', 'be', 'well']"
                         xml:id="C04_app22_rg1">
                   <rdg wit="#f1818"/>
                   <rdg wit="#f1823"/>
@@ -383,31 +370,24 @@
                   <rdg wit="#f1831"/>
                </rdgGrp>
             </app>
-            <app xml:id="C04_app23" n="152">
-               <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
-                        xml:id="C04_app23_rg_empty">
+            <app xml:id="C04_app23" n="8">
+               <rdgGrp xml:id="C04_app23_rg_empty">
                   <rdg wit="#fMS"/>
                </rdgGrp>
-               <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
-                        n="['but', 'success', 'shall', 'crown', 'my', 'endeavours.', 'wherefore', 'not?', 'thus', 'far', 'i', 'have', 'gone,', 'tracing', 'a', 'secure', 'way', 'over', 'the', 'pathless', 'seas:', 'the', 'very', 'stars', 'themselves', 'being', 'witnesses', 'and', 'testimonies', 'of']"
-                        xml:id="C04_app23_rg1">
+               <rdgGrp n="['content']" xml:id="C04_app23_rg1">
+                  <rdg wit="#f1823"/>
                   <rdg wit="#f1831"/>
                </rdgGrp>
-               <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
-                        n="['remember', 'me', 'to', 'all']"
-                        xml:id="C04_app23_rg2">
+               <rdgGrp n="['content,']" xml:id="C04_app23_rg2">
                   <rdg wit="#f1818"/>
-                  <rdg wit="#f1823"/>
                   <rdg wit="#fThomas"/>
                </rdgGrp>
             </app>
-            <app xml:id="C04_app24" n="2">
-               <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
-                        xml:id="C04_app24_rg_empty">
+            <app xml:id="C04_app24" n="96">
+               <rdgGrp xml:id="C04_app24_rg_empty">
                   <rdg wit="#fMS"/>
                </rdgGrp>
-               <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
-                        n="['my']"
+               <rdgGrp n="['if', 'nothing', 'worse', 'happen', 'to', 'us', 'during', 'our', 'voyage.', '&lt;p-end/&gt;', '&lt;p-start/&gt;', 'adieu,', 'my', 'dear', 'margaret.', 'be', 'assured,', 'that', 'for', 'my', 'own', 'sake,', 'as', 'well', 'as']"
                         xml:id="C04_app24_rg1">
                   <rdg wit="#f1818"/>
                   <rdg wit="#f1823"/>
@@ -415,31 +395,24 @@
                   <rdg wit="#f1831"/>
                </rdgGrp>
             </app>
-            <app xml:id="C04_app25" n="109">
-               <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
-                        xml:id="C04_app25_rg_empty">
+            <app xml:id="C04_app25" n="7">
+               <rdgGrp xml:id="C04_app25_rg_empty">
                   <rdg wit="#fMS"/>
                </rdgGrp>
-               <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
-                        n="['english', 'friends.']"
-                        xml:id="C04_app25_rg1">
-                  <rdg wit="#f1818"/>
+               <rdgGrp n="['yours,']" xml:id="C04_app25_rg1">
                   <rdg wit="#f1823"/>
-                  <rdg wit="#fThomas"/>
-               </rdgGrp>
-               <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
-                        n="['triumph.', 'why', 'not', 'still', 'proceed', 'over', 'the', 'untamed', 'yet', 'obedient', 'element?', 'what', 'can', 'stop', 'the', 'determined', 'heart', 'and', 'resolved', 'will', 'of', 'man?']"
-                        xml:id="C04_app25_rg2">
                   <rdg wit="#f1831"/>
                </rdgGrp>
+               <rdgGrp n="['your’s,']" xml:id="C04_app25_rg2">
+                  <rdg wit="#f1818"/>
+                  <rdg wit="#fThomas"/>
+               </rdgGrp>
             </app>
-            <app xml:id="C04_app26" n="0">
-               <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
-                        xml:id="C04_app26_rg_empty">
+            <app xml:id="C04_app26" n="65">
+               <rdgGrp xml:id="C04_app26_rg_empty">
                   <rdg wit="#fMS"/>
                </rdgGrp>
-               <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
-                        n="['&lt;p-end/&gt;', '&lt;p-start/&gt;']"
+               <rdgGrp n="['i', 'will', 'not', 'rashly', 'encounter', 'danger.', 'i', 'will', 'be', 'cool,', 'persevering,', 'and', 'prudent.', '&lt;p-end/&gt;', '&lt;p-start/&gt;']"
                         xml:id="C04_app26_rg1">
                   <rdg wit="#f1818"/>
                   <rdg wit="#f1823"/>
@@ -447,99 +420,128 @@
                   <rdg wit="#f1831"/>
                </rdgGrp>
             </app>
-            <app xml:id="C04_app27" n="89">
-               <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
-                        xml:id="C04_app27_rg_empty">
+            <app xml:id="C04_app27" n="152">
+               <rdgGrp xml:id="C04_app27_rg_empty">
                   <rdg wit="#fMS"/>
                </rdgGrp>
-               <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
-                        n="['most', 'affectionately', 'yours,']"
+               <rdgGrp n="['but', 'success', 'shall', 'crown', 'my', 'endeavours.', 'wherefore', 'not?', 'thus', 'far', 'i', 'have', 'gone,', 'tracing', 'a', 'secure', 'way', 'over', 'the', 'pathless', 'seas:', 'the', 'very', 'stars', 'themselves', 'being', 'witnesses', 'and', 'testimonies', 'of']"
                         xml:id="C04_app27_rg1">
+                  <rdg wit="#f1831"/>
+               </rdgGrp>
+               <rdgGrp n="['remember', 'me', 'to', 'all']" xml:id="C04_app27_rg2">
                   <rdg wit="#f1818"/>
                   <rdg wit="#f1823"/>
                   <rdg wit="#fThomas"/>
                </rdgGrp>
-               <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
-                        n="['my', 'swelling', 'heart', 'involuntarily', 'pours', 'itself', 'out', 'thus.', 'but', 'i', 'must', 'finish.', 'heaven', 'bless', 'my', 'beloved', 'sister!']"
-                        xml:id="C04_app27_rg2">
-                  <rdg wit="#f1831"/>
-               </rdgGrp>
             </app>
-            <app xml:id="C04_app28" n="0">
-               <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
-                        xml:id="C04_app28_rg_empty">
+            <app xml:id="C04_app28" n="2">
+               <rdgGrp xml:id="C04_app28_rg_empty">
                   <rdg wit="#fMS"/>
                </rdgGrp>
-               <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
-                        n="['&lt;p-end/&gt;', '&lt;p-start/&gt;']"
-                        xml:id="C04_app28_rg1">
+               <rdgGrp n="['my']" xml:id="C04_app28_rg1">
                   <rdg wit="#f1818"/>
                   <rdg wit="#f1823"/>
                   <rdg wit="#fThomas"/>
                   <rdg wit="#f1831"/>
                </rdgGrp>
             </app>
-            <app xml:id="C04_app29" n="4">
-               <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
-                        xml:id="C04_app29_rg_empty">
+            <app xml:id="C04_app29" n="109">
+               <rdgGrp xml:id="C04_app29_rg_empty">
                   <rdg wit="#fMS"/>
                </rdgGrp>
-               <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
-                        n="['r.', 'w.']"
-                        xml:id="C04_app29_rg1">
+               <rdgGrp n="['english', 'friends.']" xml:id="C04_app29_rg1">
+                  <rdg wit="#f1818"/>
                   <rdg wit="#f1823"/>
+                  <rdg wit="#fThomas"/>
                </rdgGrp>
-               <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
-                        n="['r.w.']"
+               <rdgGrp n="['triumph.', 'why', 'not', 'still', 'proceed', 'over', 'the', 'untamed', 'yet', 'obedient', 'element?', 'what', 'can', 'stop', 'the', 'determined', 'heart', 'and', 'resolved', 'will', 'of', 'man?']"
                         xml:id="C04_app29_rg2">
-                  <rdg wit="#f1818"/>
-                  <rdg wit="#fThomas"/>
                   <rdg wit="#f1831"/>
                </rdgGrp>
             </app>
             <app xml:id="C04_app30" n="0">
-               <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
-                        xml:id="C04_app30_rg_empty">
+               <rdgGrp xml:id="C04_app30_rg_empty">
                   <rdg wit="#fMS"/>
                </rdgGrp>
-               <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
-                        n="['&lt;p-end/&gt;']"
-                        xml:id="C04_app30_rg1">
+               <rdgGrp n="['&lt;p-end/&gt;', '&lt;p-start/&gt;']" xml:id="C04_app30_rg1">
                   <rdg wit="#f1818"/>
                   <rdg wit="#f1823"/>
                   <rdg wit="#fThomas"/>
                   <rdg wit="#f1831"/>
                </rdgGrp>
             </app>
-            <app xml:id="C04_app31" n="0">
-               <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
-                        xml:id="C04_app31_rg_empty">
-                  <rdg wit="#f1823"/>
+            <app xml:id="C04_app31" n="89">
+               <rdgGrp xml:id="C04_app31_rg_empty">
                   <rdg wit="#fMS"/>
                </rdgGrp>
-               <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
-                        n="['']"
-                        xml:id="C04_app31_rg1">
+               <rdgGrp n="['most', 'affectionately', 'yours,']" xml:id="C04_app31_rg1">
                   <rdg wit="#f1818"/>
+                  <rdg wit="#f1823"/>
                   <rdg wit="#fThomas"/>
+               </rdgGrp>
+               <rdgGrp n="['my', 'swelling', 'heart', 'involuntarily', 'pours', 'itself', 'out', 'thus.', 'but', 'i', 'must', 'finish.', 'heaven', 'bless', 'my', 'beloved', 'sister!']"
+                        xml:id="C04_app31_rg2">
                   <rdg wit="#f1831"/>
                </rdgGrp>
             </app>
             <app xml:id="C04_app32" n="0">
-               <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
-                        xml:id="C04_app32_rg_empty">
+               <rdgGrp xml:id="C04_app32_rg_empty">
                   <rdg wit="#fMS"/>
                </rdgGrp>
-               <rdgGrp xmlns:cx="http://interedition.eu/collatex/ns/1.0"
-                        n="['']"
-                        xml:id="C04_app32_rg1">
+               <rdgGrp n="['&lt;p-end/&gt;', '&lt;p-start/&gt;']" xml:id="C04_app32_rg1">
                   <rdg wit="#f1818"/>
                   <rdg wit="#f1823"/>
                   <rdg wit="#fThomas"/>
                   <rdg wit="#f1831"/>
                </rdgGrp>
             </app>
-         </ab>
+            <app xml:id="C04_app33" n="4">
+               <rdgGrp xml:id="C04_app33_rg_empty">
+                  <rdg wit="#fMS"/>
+               </rdgGrp>
+               <rdgGrp n="['r.', 'w.']" xml:id="C04_app33_rg1">
+                  <rdg wit="#f1823"/>
+               </rdgGrp>
+               <rdgGrp n="['r.w.']" xml:id="C04_app33_rg2">
+                  <rdg wit="#f1818"/>
+                  <rdg wit="#fThomas"/>
+                  <rdg wit="#f1831"/>
+               </rdgGrp>
+            </app>
+            <app xml:id="C04_app34" n="0">
+               <rdgGrp xml:id="C04_app34_rg_empty">
+                  <rdg wit="#fMS"/>
+               </rdgGrp>
+               <rdgGrp n="['&lt;p-end/&gt;']" xml:id="C04_app34_rg1">
+                  <rdg wit="#f1818"/>
+                  <rdg wit="#f1823"/>
+                  <rdg wit="#fThomas"/>
+                  <rdg wit="#f1831"/>
+               </rdgGrp>
+            </app>
+            <app xml:id="C04_app35" n="0">
+               <rdgGrp xml:id="C04_app35_rg_empty">
+                  <rdg wit="#f1823"/>
+                  <rdg wit="#fMS"/>
+               </rdgGrp>
+               <rdgGrp n="['']" xml:id="C04_app35_rg1">
+                  <rdg wit="#f1818"/>
+                  <rdg wit="#fThomas"/>
+                  <rdg wit="#f1831"/>
+               </rdgGrp>
+            </app>
+            <app xml:id="C04_app36" n="0">
+               <rdgGrp xml:id="C04_app36_rg_empty">
+                  <rdg wit="#fMS"/>
+               </rdgGrp>
+               <rdgGrp n="['']" xml:id="C04_app36_rg1">
+                  <rdg wit="#f1818"/>
+                  <rdg wit="#f1823"/>
+                  <rdg wit="#fThomas"/>
+                  <rdg wit="#f1831"/>
+               </rdgGrp>
+            </app>
+         </listApp>
       </body>
    </text>
 </TEI>
