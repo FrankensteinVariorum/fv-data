@@ -48,7 +48,7 @@
                         "label":  "<xsl:value-of select="$edFileName ! substring-after(., '_') ! translate(., '_', ' ') ! upper-case(.)"/>",
                         "id": "<xsl:value-of select="$edFileName ! substring-after(., '_')"/>",
                         "chunks": [<xsl:value-of select="$chunksArray"/>],
-                        "apps": [<xsl:value-of select="($currentEd//seg/@xml:id ! substring-after(., 'app') ! substring-before(., '-'))[1]"/>, <xsl:value-of select="($currentEd//seg/@xml:id ! substring-after(., 'app') ! substring-before(., '-'))[last()]"/>]
+                        "apps": [<xsl:value-of select="($currentEd//seg/@xml:id ! substring-after(., 'app') ! substring-before(., '-'))[1]"/>, <xsl:value-of select="($currentEd//seg/@xml:id ! substring-after(., 'app') ! substring-before(., '-')) ! number() => max()"/>]
                     }<xsl:if test="position() != last()">,</xsl:if></xsl:for-each>
                 ]
                 },
@@ -70,7 +70,7 @@
                 "label":  "<xsl:value-of select="$currentMSFileName ! tokenize(., 'MS_')[2] ! translate(., '_', ' ') ! upper-case(.) ! normalize-space()"/>",
                  "id": "<xsl:value-of select="$currentMSFileName ! tokenize(., 'MS_')[2]"/>",
                  "chunks": [<xsl:value-of select="$MSchunksArray"/>],
-                 "apps": [<xsl:value-of select="($currentMSChapter//seg/@xml:id ! substring-after(., 'app') ! substring-before(., '-'))[1]"/>, <xsl:value-of select="($currentMSChapter//seg/@xml:id ! substring-after(., 'app') ! substring-before(., '-')) => max()"/>],
+                 "apps": [<xsl:value-of select="($currentMSChapter//seg/@xml:id ! substring-after(., 'app') ! substring-before(., '-'))[1]"/>, <xsl:value-of select="($currentMSChapter//seg/@xml:id ! substring-after(., 'app') ! substring-before(., '-')) ! number() => max()"/>],
                  "uris": [<xsl:for-each select="$MSLocInfo">
                      "<xsl:value-of select="ebb:msURImaker(current())"/>"<xsl:if test="position() != last()">,</xsl:if>
                  </xsl:for-each>
