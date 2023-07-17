@@ -32,8 +32,8 @@
         <xsl:result-document href="units.json" method="text">
         {
             "sources": [<xsl:for-each select="$printEdLabels">
-                <xsl:variable name="currentEdLabel" as="xs:string" select="current()"/>
-                {
+            <xsl:variable name="currentEdLabel" as="xs:string" select="current()"/>
+            {
                 "label": "<xsl:value-of select="current()"/>",
                 "units": [ <xsl:for-each select="$printCollation[base-uri()[contains(., $currentEdLabel)]]">
                 <xsl:sort select="current()//seg[not(anchor[@type='collate'])]/@xml:id ! substring-before(., '_') => distinct-values() => string-join(', ')"/>
@@ -43,17 +43,19 @@
                     select="$edFileName ! tokenize(., '_')[1]"/>
                     <xsl:variable name="chunks" as="xs:string+">
                         <xsl:for-each select="$currentEd//seg[not(anchor[@type='collate'])]/@xml:id ! substring-before(., '_') => distinct-values()"><xsl:value-of select="'&quot;' || current() || '&quot;'"/></xsl:for-each></xsl:variable>
-                   <xsl:variable name="chunksArray" select="$chunks => string-join(',')"/>
                     {  
                         "label":  "<xsl:value-of select="$edFileName ! substring-after(., '_') ! translate(., '_', ' ') ! upper-case(.)"/>",
                         "id": "<xsl:value-of select="$edFileName ! substring-after(., '_')"/>",
-                        "chunks": [<xsl:value-of select="$chunksArray"/>],
-                        "apps": [<xsl:for-each select="$chunks"><xsl:variable name="currentChunk" select="replace(current(), '\D+', '')" as="xs:string+"/>
-                        <xsl:value-of select="($currentEd//seg/@xml:id [substring-after(., 'C') ! substring-before(., '_app') = $currentChunk] ! substring-after(., 'app') ! substring-before(., '-'))[1]"/>, <xsl:value-of select="($currentEd//seg/@xml:id [substring-after(., 'C') ! substring-before(., '_app') = $currentChunk] ! substring-after(., 'app') ! substring-before(., '-'))[last()-1]"/><xsl:if test="position() != last()">, </xsl:if></xsl:for-each>]
+                        “chunks”: [<xsl:for-each select="$chunks"><xsl:variable name="currentChunk" select="replace(current(), '\D+', '')" as="xs:string+"/>
+                            {
+                                "label": <xsl:value-of select="current()"/>,
+                                "apps": [<xsl:value-of select="($currentEd//seg/@xml:id [substring-after(., 'C') ! substring-before(., '_app') = $currentChunk] ! substring-after(., 'app') ! substring-before(., '-'))[1]"/>, <xsl:value-of select="($currentEd//seg/@xml:id [substring-after(., 'C') ! substring-before(., '_app') = $currentChunk] ! substring-after(., 'app') ! substring-before(., '-'))[last()-1]"/>]
+                            }<xsl:if test="position() != last()">,</xsl:if></xsl:for-each>
+                        ]
                     }<xsl:if test="position() != last()">,</xsl:if></xsl:for-each>
                 ]
-                },
-            </xsl:for-each>
+            },
+        </xsl:for-each>
             <!--  Switch to MS now. It's just one edition, so establish it out here. -->
             {
             "label": "MS",
@@ -70,9 +72,12 @@
             {
                 "label":  "<xsl:value-of select="$currentMSFileName ! tokenize(., 'MS_')[2] ! translate(., '_', ' ') ! upper-case(.) ! normalize-space()"/>",
                  "id": "<xsl:value-of select="$currentMSFileName ! tokenize(., 'MS_')[2]"/>",
-                 "chunks": [<xsl:value-of select="$MSchunksArray"/>],
-                 "apps": [<xsl:for-each select="$MSchunks"><xsl:variable name="currentMSChunk" select="replace(current(), '\D+', '')" as="xs:string+"/>
-                    <xsl:value-of select="($currentMSChapter//seg/@xml:id [substring-after(., 'C') ! substring-before(., '_app') = $currentMSChunk] ! substring-after(., 'app') ! substring-before(., '-'))[1]"/>, <xsl:value-of select="($currentMSChapter//seg/@xml:id [substring-after(., 'C') ! substring-before(., '_app') = $currentMSChunk] ! substring-after(., 'app') ! substring-before(., '-'))[last()-1]"/><xsl:if test="position() != last()">, </xsl:if></xsl:for-each>],
+                “chunks”: [<xsl:for-each select="$MSchunks"><xsl:variable name="currentMSChunk" select="replace(current(), '\D+', '')" as="xs:string+"/>
+                    {
+                        "label": <xsl:value-of select="current()"/>,
+                        "apps": [<xsl:value-of select="($currentMSChapter//seg/@xml:id [substring-after(., 'C') ! substring-before(., '_app') = $currentMSChunk] ! substring-after(., 'app') ! substring-before(., '-'))[1]"/>, <xsl:value-of select="($currentMSChapter//seg/@xml:id [substring-after(., 'C') ! substring-before(., '_app') = $currentMSChunk] ! substring-after(., 'app') ! substring-before(., '-'))[last()-1]"/>]
+                    }<xsl:if test="position() != last()">,</xsl:if></xsl:for-each>
+                ],
                  "uris": [<xsl:for-each select="$MSLocInfo">
                      "<xsl:value-of select="ebb:msURImaker(current())"/>"<xsl:if test="position() != last()">,</xsl:if>
                  </xsl:for-each>
