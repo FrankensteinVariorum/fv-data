@@ -68,7 +68,7 @@
             <p>Produced from collation output prepared in batch file processing
                                     on  2023-05-18 07:33:51.071100 .</p>
             <p>Edited to correct alignments and prepared for the Frankenstein
-                                    Variorum spine on 2023-07-15T22:40:56.723677-04:00.</p>
+                                    Variorum spine on 2023-07-17T13:04:38.102037-04:00.</p>
          </editorialDecl>
          <appInfo>
             <application ident="collateX" version="1.7.1">
@@ -100,10 +100,18 @@
                   <rdg wit="#fMS"/>
                </rdgGrp>
                <rdgGrp n="['']" xml:id="C07_app1_rg1">
-                  <rdg wit="#f1818"/>
-                  <rdg wit="#f1823"/>
-                  <rdg wit="#fThomas"/>
-                  <rdg wit="#f1831"/>
+                  <rdg wit="#f1818">
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1818_vol_1_letter_iv.xml#C07_app1-f1818"/>
+                  </rdg>
+                  <rdg wit="#f1823">
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1823_vol_1_letter_iv.xml#C07_app1-f1823"/>
+                  </rdg>
+                  <rdg wit="#fThomas">
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fThomas_vol_1_letter_iv.xml#C07_app1-fThomas"/>
+                  </rdg>
+                  <rdg wit="#f1831">
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1831_letter_iv.xml#C07_app1-f1831"/>
+                  </rdg>
                </rdgGrp>
             </app>
             <app xml:id="C07_app3" n="136">
