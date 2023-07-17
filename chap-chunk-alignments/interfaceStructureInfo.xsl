@@ -24,7 +24,7 @@
         </xsl:param>-->
         
         <!--ebb: This line is for pointing to original SGA file location: -->
-      <!--  <xsl:value-of select="concat($locInfo, 'ox-ms_abinger_', $ms, '/ox-ms_abinger_', $ms, '-', $surface, '.xml', '#')"/>-->
+        <!--  <xsl:value-of select="concat($locInfo, 'ox-ms_abinger_', $ms, '/ox-ms_abinger_', $ms, '-', $surface, '.xml', '#')"/>-->
         
     </xsl:function>
      
@@ -63,14 +63,14 @@
                 <xsl:variable name="currentMSChapter" as="document-node()" select="current()"/>
                 <xsl:variable name="currentMSFileName" as="xs:string" select="$currentMSChapter ! base-uri() ! tokenize(., '/')[last()] ! substring-before(., '.xml')"/>
                 <xsl:variable name="MSchunks" as="xs:string+">
-                    <xsl:for-each select="$currentMSChapter//seg[not(anchor[@type='collate'])]/@xml:id ! substring-before(., '_') => distinct-values()">                  <xsl:value-of select="'&quot;' || current() || '&quot;'"/></xsl:for-each></xsl:variable>
+                <xsl:for-each select="$currentMSChapter//seg[not(anchor[@type='collate'])]/@xml:id ! substring-before(., '_') => distinct-values()"><xsl:value-of select="'&quot;' || current() || '&quot;'"/></xsl:for-each></xsl:variable>
                 <xsl:variable name="MSchunksArray" select="$MSchunks => string-join(',')"/>
                 <xsl:variable name="MSLocInfo" as="xs:string+" select="$currentMSChapter//lb/@n[matches(., '^c\d+')] ! substring-before(., '__')[1] => distinct-values()"/>
             {
-                "label":  "<xsl:value-of select="$currentMSFileName ! tokenize(., 'c\d{2}_')[2] ! translate(., '_', ' ') ! upper-case(.) ! normalize-space()"/>",
-                 "id": "<xsl:value-of select="$currentMSFileName ! tokenize(., 'c\d{2}_')[2]"/>",
+                "label":  "<xsl:value-of select="$currentMSFileName ! tokenize(., 'MS_')[2] ! translate(., '_', ' ') ! upper-case(.) ! normalize-space()"/>",
+                 "id": "<xsl:value-of select="$currentMSFileName ! tokenize(., 'MS_')[2]"/>",
                  "chunks": [<xsl:value-of select="$MSchunksArray"/>],
-                 "apps": [<xsl:value-of select="($currentMSChapter//seg/@xml:id ! substring-after(., 'app') ! substring-before(., '-'))[1]"/>, <xsl:value-of select="($currentMSChapter//seg/@xml:id ! substring-after(., 'app') ! substring-before(., '-'))[last()]"/>],
+                 "apps": [<xsl:value-of select="($currentMSChapter//seg/@xml:id ! substring-after(., 'app') ! substring-before(., '-'))[1]"/>, <xsl:value-of select="($currentMSChapter//seg/@xml:id ! substring-after(., 'app') ! substring-before(., '-')) => max()"/>],
                  "uris": [<xsl:for-each select="$MSLocInfo">
                      "<xsl:value-of select="ebb:msURImaker(current())"/>"<xsl:if test="position() != last()">,</xsl:if>
                  </xsl:for-each>
