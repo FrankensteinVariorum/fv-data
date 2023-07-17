@@ -66,9 +66,9 @@
                                     maximum of these values in the <att>n</att> attribute on each <gi>app</gi>
                                     element.</p>
             <p>Produced from collation output prepared in batch file processing
-                                    on  2023-07-14 14:31:07.776659 .</p>
+                                    on  2023-05-18 20:00:47.351794 .</p>
             <p>Edited to correct alignments and prepared for the Frankenstein
-                                    Variorum spine on 2023-07-17T13:04:38.102037-04:00.</p>
+                                    Variorum spine on 2023-07-17T14:07:07.2912002-04:00.</p>
          </editorialDecl>
          <appInfo>
             <application ident="collateX" version="1.7.1">
@@ -118,17 +118,17 @@
                <rdgGrp xml:id="C03_app2_rg_empty">
                   <rdg wit="#fMS"/>
                </rdgGrp>
-               <rdgGrp n="['to mrs.  s aville ,  england .']" xml:id="C03_app2_rg1">
-                  <rdg wit="#f1823">
-                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1823_vol_1_letter_ii.xml#C03_app2-f1823"/>
-                  </rdg>
-               </rdgGrp>
-               <rdgGrp n="['to mrs. saville, england.']" xml:id="C03_app2_rg2">
+               <rdgGrp n="[' to mrs. saville, england. ']" xml:id="C03_app2_rg1">
                   <rdg wit="#f1831">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1831_letter_ii.xml#C03_app2-f1831"/>
                   </rdg>
                </rdgGrp>
-               <rdgGrp n="['to', 'mrs.', 's aville ,', 'england.']" xml:id="C03_app2_rg3">
+               <rdgGrp n="[' to mrs. saville, england.']" xml:id="C03_app2_rg2">
+                  <rdg wit="#f1823">
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1823_vol_1_letter_ii.xml#C03_app2-f1823"/>
+                  </rdg>
+               </rdgGrp>
+               <rdgGrp n="['to', 'mrs.', 'saville,', 'england.']" xml:id="C03_app2_rg3">
                   <rdg wit="#f1818">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1818_vol_1_letter_ii.xml#C03_app2-f1818"/>
                   </rdg>
@@ -1411,7 +1411,7 @@
                <rdgGrp xml:id="C03_app63_rg_empty">
                   <rdg wit="#fMS"/>
                </rdgGrp>
-               <rdgGrp n="['on', 'some', 'occasions', 'when', 'i', 'need', 'them', 'most', 'to', 'support', 'my', 'spirits.', 'i', 'love', 'you', 'very', 'tenderly.', 'remember', 'me', 'with', 'affection,', 'should', 'you', 'never', 'hear', 'from', 'me', 'again.', '&lt;p-end/&gt;', '&lt;p-start/&gt;', 'your', 'affectionate', 'brother,', '&lt;p-end/&gt;', '&lt;p-start/&gt;', 'r obert', 'w alton .', '&lt;p-end/&gt;']"
+               <rdgGrp n="['on', 'some', 'occasions', 'when', 'i', 'need', 'them', 'most', 'to', 'support', 'my', 'spirits.', 'i', 'love', 'you', 'very', 'tenderly.', 'remember', 'me', 'with', 'affection,', 'should', 'you', 'never', 'hear', 'from', 'me', 'again.', '&lt;p-end/&gt;', '&lt;p-start/&gt;', 'your', 'affectionate', 'brother,', '&lt;p-end/&gt;', '&lt;p-start/&gt;', 'robert', 'walton.', '&lt;p-end/&gt;']"
                         xml:id="C03_app63_rg1">
                   <rdg wit="#f1818">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1818_vol_1_letter_ii.xml#C03_app63-f1818__I"/>
