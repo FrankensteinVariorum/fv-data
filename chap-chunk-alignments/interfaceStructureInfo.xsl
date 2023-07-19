@@ -33,7 +33,7 @@
             "sources": [<xsl:for-each select="$printEdLabels">
             <xsl:variable name="currentEdLabel" as="xs:string" select="current()"/>
             {
-                "label": "<xsl:value-of select="current()"/>",
+                "label": "<xsl:value-of select="$currentEdLabel"/>",
                 "units": [ <xsl:for-each select="$printCollation[base-uri()[contains(., $currentEdLabel)]]">
                 <xsl:sort select="current()//seg[not(anchor[@type='collate'])]/@xml:id ! substring-before(., '_') => distinct-values() => string-join(', ')"/>
                 <xsl:variable name="currentEd" as="document-node()" select="current()"/>
