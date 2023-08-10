@@ -205,7 +205,7 @@
                <ul>
                   <li>box_c56_from_chapter_1.xml</li>
                   <li>box_c56_chapt_2.xml</li>
-                  <li>box_c56_chapter.xml</li>
+                  <li>box_c56_chapter_3.xml</li>
                   <li>box_c56_chap_4.xml</li>
                </ul>
             </td>
@@ -486,7 +486,7 @@
             <td>C17</td>
             <td>
                <ul>
-                  <li>box_c57_vol_ii.xml</li>
+                  <li>box_c57_vol_ii_chap_i.xml</li>
                   <li>box_c57_chap_2.xml</li>
                </ul>
             </td>
@@ -734,7 +734,7 @@
             <td>
                <ul>
                   <li>box_c57_chap_10.xml</li>
-                  <li>box_c57_chap.xml</li>
+                  <li>box_c57_chap_2.xml</li>
                </ul>
             </td>
             <td>
@@ -766,7 +766,7 @@
             <td>C26</td>
             <td>
                <ul>
-                  <li>box_c57_chap.xml</li>
+                  <li>box_c57_chap_2.xml</li>
                   <li>box_c57_chapter_13.xml</li>
                </ul>
             </td>
