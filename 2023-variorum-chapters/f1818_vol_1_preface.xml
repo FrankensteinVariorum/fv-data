@@ -1,7 +1,8 @@
 <?xml version="1.1" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
       xmlns:fv="https://frankensteinvariorum.github.io"
-      xmlns:tei="http://www.tei-c.org/ns/1.0">
+      xmlns:tei="http://www.tei-c.org/ns/1.0"
+      xmlns:var="https://frankensteinvariorum.github.io">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -19,7 +20,7 @@
          <sourceDesc>
             <p>Produced from a corpus of collation output files for
                                                 the Frankenstein Variorum digital edition on
-                                                  2023-07-19T00:04:49.4354614-04:00.</p>
+                                                  2023-08-09T21:07:34.392752-04:00.</p>
          </sourceDesc>
       </fileDesc>
    </teiHeader>
@@ -47,35 +48,35 @@
             <seg xml:id="C01_app6-f1818">
                <hi xml:id="preface1_p2_hi2">Tempest</hi>
             </seg>
-            <seg part="I" xml:id="C01_app7-f1818__I">and </seg>
+            <seg xml:id="C01_app7-f1818">and</seg>
+            <seg part="I" xml:id="C01_app8-f1818__I">
+               </seg>
             <hi xml:id="preface1_p2_hi3">
-               <seg part="F" xml:id="C01_app7-f1818__F">Mid<pb xml:id="F1818_v1_009" n="ix"/>summer Night’s</seg>
-               <seg part="I" xml:id="C01_app8-f1818__I">Dream</seg>
+               <seg part="F" xml:id="C01_app8-f1818__F">Mid<pb xml:id="F1818_v1_009" n="ix"/>summer</seg>
+               <seg xml:id="C01_app9-f1818">Night’s</seg>
+               <seg part="I" xml:id="C01_app10-f1818__I">Dream</seg>
             </hi>
-            <seg part="F" xml:id="C01_app8-f1818__F">,—and</seg>
-            <seg part="I" xml:id="C01_app9-f1818__I">most especially Milton, in </seg>
-            <hi xml:id="preface1_p2_hi4">
-               <seg part="F" xml:id="C01_app9-f1818__F">Paradise</seg>
-               <seg part="I" xml:id="C01_app10-f1818__I">Lost</seg>
-            </hi>
-            <seg part="F" xml:id="C01_app10-f1818__F">,</seg>
-            <seg part="I" xml:id="C01_app11-f1818__I">conform to this rule; and the most humble novelist, who seeks to confer or receive amusement from his labours, may, without presumption, apply to prose fiction a licence, or rather a rule, from the adoption of which so many exquisite combinations of human feeling have resulted in the highest specimens of poetry. </seg>
+            <seg part="F" xml:id="C01_app10-f1818__F">,—and</seg>
+            <seg xml:id="C01_app11-f1818">most especially Milton, in</seg>
+            <seg xml:id="C01_app12-f1818">
+               <hi xml:id="preface1_p2_hi4">Paradise Lost</hi>,</seg>
+            <seg part="I" xml:id="C01_app13-f1818__I">conform to this rule; and the most humble novelist, who seeks to confer or receive amusement from his labours, may, without presumption, apply to prose fiction a licence, or rather a rule, from the adoption of which so many exquisite combinations of human feeling have resulted in the highest specimens of poetry. </seg>
          </p>
          <p xml:id="preface1_p3">
-            <seg part="F" xml:id="C01_app11-f1818__F"> The circumstance on which my story rests was suggested in casual conversation. It was</seg>
-            <seg xml:id="C01_app12-f1818">commenced</seg>
-            <seg part="I" xml:id="C01_app13-f1818__I">partly as a source of amusement, and partly as an expedient for exercising any untried resources of mind. Other motives were mingled with these, as the work pro<pb xml:id="F1818_v1_010" n="x"/>ceeded. I am by no means indifferent to the manner in which whatever moral tendencies exist in the sentiments or characters it contains shall affect the reader; yet my chief concern in this respect has been limited to the avoiding the enervating effects of the novels of the present day, and to the exhibition of the amiableness of domestic affection, and the excellence of universal virtue. The opinions which naturally spring from the character and situation of the hero are by no means to be conceived as existing always in my own conviction; nor is any inference justly to be drawn from the following pages as prejudicing any philosophical doctrine of whatever kind. </seg>
+            <seg part="F" xml:id="C01_app13-f1818__F"> The circumstance on which my story rests was suggested in casual conversation. It was</seg>
+            <seg xml:id="C01_app14-f1818">commenced</seg>
+            <seg part="I" xml:id="C01_app15-f1818__I">partly as a source of amusement, and partly as an expedient for exercising any untried resources of mind. Other motives were mingled with these, as the work pro<pb xml:id="F1818_v1_010" n="x"/>ceeded. I am by no means indifferent to the manner in which whatever moral tendencies exist in the sentiments or characters it contains shall affect the reader; yet my chief concern in this respect has been limited to the avoiding the enervating effects of the novels of the present day, and to the exhibition of the amiableness of domestic affection, and the excellence of universal virtue. The opinions which naturally spring from the character and situation of the hero are by no means to be conceived as existing always in my own conviction; nor is any inference justly to be drawn from the following pages as prejudicing any philosophical doctrine of whatever kind. </seg>
          </p>
-         <seg part="M" xml:id="C01_app13-f1818__M">
+         <seg part="M" xml:id="C01_app15-f1818__M">
             <p xml:id="preface1_p4">
                <pb xml:id="F1818_v1_011" n="xi"/>It is a subject also of additional interest to the author, that this story was begun in the majestic region where the scene is principally laid, and in society which cannot cease to be regretted. I passed the summer of 1816 in the environs of Geneva. The season was cold and rainy, and in the evenings we crowded around a blazing wood fire, and occasionally amused ourselves with some German stories of ghosts, which happened to fall into our hands. These tales excited in us a playful desire of imitation. Two other friends (a tale from the pen of one of whom would be far more acceptable to the public than any thing I can ever hope to produce) and <pb xml:id="F1818_v1_012" n="xii"/>myself agreed to write each a story, founded on some supernatural occurrence. </p>
          </seg>
          <p xml:id="preface1_p5">
-            <seg part="F" xml:id="C01_app13-f1818__F"> The weather, however, suddenly became serene; and my two friends left me on a journey among the Alps, and lost, in the magnificent scenes which they present, all memory of their ghostly visions. The following tale is the only one which has been completed.</seg>
-            <seg part="I" xml:id="C01_app14-f1818__I">
+            <seg part="F" xml:id="C01_app15-f1818__F"> The weather, however, suddenly became serene; and my two friends left me on a journey among the Alps, and lost, in the magnificent scenes which they present, all memory of their ghostly visions. The following tale is the only one which has been completed.</seg>
+            <seg part="I" xml:id="C01_app16-f1818__I">
                </seg>
          </p>
-         <seg part="F" xml:id="C01_app14-f1818__F">
+         <seg part="F" xml:id="C01_app16-f1818__F">
             <milestone unit="preface" type="end" n="1"/>
          </seg>
          <seg xml:id="C02_app1-f1818">
@@ -88,7 +89,11 @@
             <head ana="start"/>
             <hi xml:id="novel1_head2_hi1">OR, THE</hi>
             <head ana="end"/>
+         </seg>
+         <seg xml:id="C02_app3-f1818">
             <head ana="start"/>
+         </seg>
+         <seg xml:id="C02_app4-f1818">
             <hi xml:id="novel1_head3_hi1">MODERN PROMETHEUS.</hi>
             <head ana="end"/>
          </seg>

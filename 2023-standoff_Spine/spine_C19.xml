@@ -66,9 +66,9 @@
                                     maximum of these values in the <att>n</att> attribute on each <gi>app</gi>
                                     element.</p>
             <p>Produced from collation output prepared in batch file processing
-                                    on  2023-06-14 21:47:14.840957 .</p>
+                                    on  2023-08-09 18:36:16.537519 .</p>
             <p>Edited to correct alignments and prepared for the Frankenstein
-                                    Variorum spine on 2023-07-18T23:59:32.9166252-04:00.</p>
+                                    Variorum spine on 2023-08-09T21:06:35.504079-04:00.</p>
          </editorialDecl>
          <appInfo>
             <application ident="collateX" version="1.7.1">
@@ -95,7 +95,7 @@
           xmlns:fv="https://github.com/FrankensteinVariorum">
       <body>
          <listApp>
-            <app xml:id="C19_app1" n="0">
+            <app xml:id="C19_app1" n="1">
                <rdgGrp xml:id="C19_app1_rg_empty">
                   <rdg wit="#f1823"/>
                   <rdg wit="#f1831"/>
@@ -110,7 +110,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C19_app2" n="0">
+            <app xml:id="C19_app2" n="1">
                <rdgGrp xml:id="C19_app2_rg_empty">
                   <rdg wit="#fMS"/>
                </rdgGrp>
@@ -152,11 +152,11 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C19_app4" n="52">
+            <app xml:id="C19_app4" n="1">
                <rdgGrp xml:id="C19_app4_rg_empty">
                   <rdg wit="#fMS"/>
                </rdgGrp>
-               <rdgGrp n="['&lt;p-start/&gt;', '&#34;i', 'now', 'hasten', 'to', 'the', 'more', 'moving', 'part', 'of', 'my', 'story.', 'i', 'shall', 'relate']"
+               <rdgGrp n="['&lt;p-start/&gt;', '&#34;i', '&lt;hi&gt;now&lt;/hi&gt;', 'hasten', 'to', 'the', 'more', 'moving', 'part', 'of', 'my', 'story.', 'i', 'shall', 'relate']"
                         xml:id="C19_app4_rg1">
                   <rdg wit="#f1818">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1818_vol_2_chapter_v.xml#C19_app4-f1818__I"/>
@@ -197,7 +197,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C19_app6" n="42">
+            <app xml:id="C19_app6" n="1">
                <rdgGrp xml:id="C19_app6_rg_empty">
                   <rdg wit="#fMS"/>
                </rdgGrp>
@@ -238,7 +238,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C19_app8" n="386">
+            <app xml:id="C19_app8" n="1">
                <rdgGrp xml:id="C19_app8_rg_empty">
                   <rdg wit="#fMS"/>
                </rdgGrp>
@@ -287,7 +287,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C19_app10" n="135">
+            <app xml:id="C19_app10" n="1">
                <rdgGrp xml:id="C19_app10_rg_empty">
                   <rdg wit="#fMS"/>
                </rdgGrp>
@@ -328,7 +328,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C19_app12" n="1198">
+            <app xml:id="C19_app12" n="1">
                <rdgGrp xml:id="C19_app12_rg_empty">
                   <rdg wit="#fMS"/>
                </rdgGrp>
@@ -377,7 +377,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C19_app14" n="330">
+            <app xml:id="C19_app14" n="1">
                <rdgGrp xml:id="C19_app14_rg_empty">
                   <rdg wit="#fMS"/>
                </rdgGrp>
@@ -422,7 +422,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C19_app16" n="541">
+            <app xml:id="C19_app16" n="1">
                <rdgGrp xml:id="C19_app16_rg_empty">
                   <rdg wit="#fMS"/>
                </rdgGrp>
@@ -463,7 +463,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C19_app18" n="223">
+            <app xml:id="C19_app18" n="1">
                <rdgGrp xml:id="C19_app18_rg_empty">
                   <rdg wit="#fMS"/>
                </rdgGrp>
@@ -504,7 +504,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C19_app20" n="1745">
+            <app xml:id="C19_app20" n="1">
                <rdgGrp xml:id="C19_app20_rg_empty">
                   <rdg wit="#fMS"/>
                </rdgGrp>
@@ -553,7 +553,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C19_app22" n="50">
+            <app xml:id="C19_app22" n="1">
                <rdgGrp xml:id="C19_app22_rg_empty">
                   <rdg wit="#fMS"/>
                </rdgGrp>
@@ -608,7 +608,7 @@
                <rdgGrp xml:id="C19_app24_rg_empty">
                   <rdg wit="#fMS"/>
                </rdgGrp>
-               <rdgGrp n="['ruins']" xml:id="C19_app24_rg1">
+               <rdgGrp n="['&lt;hi&gt;ruins']" xml:id="C19_app24_rg1">
                   <rdg wit="#f1818">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1818_vol_2_chapter_v.xml#C19_app24-f1818__I"/>
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1818_vol_2_chapter_v.xml#C19_app24-f1818__F"/>
@@ -628,7 +628,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C19_app25" n="2">
+            <app xml:id="C19_app25" n="1">
                <rdgGrp xml:id="C19_app25_rg_empty">
                   <rdg wit="#fMS"/>
                </rdgGrp>
@@ -651,7 +651,12 @@
                <rdgGrp xml:id="C19_app26_rg_empty">
                   <rdg wit="#fMS"/>
                </rdgGrp>
-               <rdgGrp n="['empires.']" xml:id="C19_app26_rg1">
+               <rdgGrp n="['empires.’']" xml:id="C19_app26_rg1">
+                  <rdg wit="#f1831">
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1831_chapter_xiii.xml#C19_app26-f1831"/>
+                  </rdg>
+               </rdgGrp>
+               <rdgGrp n="['empires&lt;/hi&gt;.']" xml:id="C19_app26_rg2">
                   <rdg wit="#f1818">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1818_vol_2_chapter_v.xml#C19_app26-f1818__I"/>
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1818_vol_2_chapter_v.xml#C19_app26-f1818__F"/>
@@ -665,13 +670,8 @@
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fThomas_vol_2_chapter_v.xml#C19_app26-fThomas__F"/>
                   </rdg>
                </rdgGrp>
-               <rdgGrp n="['empires.’']" xml:id="C19_app26_rg2">
-                  <rdg wit="#f1831">
-                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1831_chapter_xiii.xml#C19_app26-f1831"/>
-                  </rdg>
-               </rdgGrp>
             </app>
-            <app xml:id="C19_app27" n="525">
+            <app xml:id="C19_app27" n="1">
                <rdgGrp xml:id="C19_app27_rg_empty">
                   <rdg wit="#fMS"/>
                </rdgGrp>
@@ -712,7 +712,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C19_app29" n="350">
+            <app xml:id="C19_app29" n="1">
                <rdgGrp xml:id="C19_app29_rg_empty">
                   <rdg wit="#fMS"/>
                </rdgGrp>
@@ -757,7 +757,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C19_app31" n="882">
+            <app xml:id="C19_app31" n="1">
                <rdgGrp xml:id="C19_app31_rg_empty">
                   <rdg wit="#fMS"/>
                </rdgGrp>
@@ -827,7 +827,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C19_app34" n="7">
+            <app xml:id="C19_app34" n="1">
                <rdgGrp xml:id="C19_app34_rg_empty">
                   <rdg wit="#fMS"/>
                </rdgGrp>
@@ -867,7 +867,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C19_app36" n="91">
+            <app xml:id="C19_app36" n="1">
                <rdgGrp xml:id="C19_app36_rg_empty">
                   <rdg wit="#fMS"/>
                </rdgGrp>
@@ -908,7 +908,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C19_app38" n="11">
+            <app xml:id="C19_app38" n="1">
                <rdgGrp xml:id="C19_app38_rg_empty">
                   <rdg wit="#fMS"/>
                </rdgGrp>
@@ -950,7 +950,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C19_app40" n="127">
+            <app xml:id="C19_app40" n="1">
                <rdgGrp xml:id="C19_app40_rg_empty">
                   <rdg wit="#fMS"/>
                </rdgGrp>
@@ -991,7 +991,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C19_app42" n="199">
+            <app xml:id="C19_app42" n="1">
                <rdgGrp xml:id="C19_app42_rg_empty">
                   <rdg wit="#fMS"/>
                </rdgGrp>
@@ -1032,7 +1032,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C19_app44" n="120">
+            <app xml:id="C19_app44" n="1">
                <rdgGrp xml:id="C19_app44_rg_empty">
                   <rdg wit="#fMS"/>
                </rdgGrp>
@@ -1056,7 +1056,7 @@
                <rdgGrp xml:id="C19_app45_rg_empty">
                   <rdg wit="#fMS"/>
                </rdgGrp>
-               <rdgGrp n="['&lt;note&gt;thomas copy: pencil mark joins paragraphs.&lt;/note&gt;']"
+               <rdgGrp n="['&lt;note resp=&#34;#ebb&#34;&gt;thomas copy: pencil mark joins paragraphs.&lt;/note&gt;']"
                         xml:id="C19_app45_rg1">
                   <rdg wit="#fThomas">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fThomas_vol_2_chapter_v.xml#C19_app45-fThomas"/>
@@ -1077,7 +1077,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C19_app46" n="62">
+            <app xml:id="C19_app46" n="1">
                <rdgGrp xml:id="C19_app46_rg_empty">
                   <rdg wit="#fMS"/>
                </rdgGrp>
@@ -1118,7 +1118,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C19_app48" n="104">
+            <app xml:id="C19_app48" n="1">
                <rdgGrp xml:id="C19_app48_rg_empty">
                   <rdg wit="#fMS"/>
                </rdgGrp>
@@ -1159,7 +1159,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C19_app50" n="837">
+            <app xml:id="C19_app50" n="1">
                <rdgGrp xml:id="C19_app50_rg_empty">
                   <rdg wit="#fMS"/>
                </rdgGrp>
@@ -1208,7 +1208,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C19_app52" n="140">
+            <app xml:id="C19_app52" n="1">
                <rdgGrp xml:id="C19_app52_rg_empty">
                   <rdg wit="#fMS"/>
                </rdgGrp>
@@ -1249,7 +1249,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C19_app54" n="814">
+            <app xml:id="C19_app54" n="1">
                <rdgGrp xml:id="C19_app54_rg_empty">
                   <rdg wit="#fMS"/>
                </rdgGrp>
@@ -1273,7 +1273,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C19_app55" n="0">
+            <app xml:id="C19_app55" n="1">
                <rdgGrp xml:id="C19_app55_rg_empty">
                   <rdg wit="#fMS"/>
                </rdgGrp>
