@@ -176,33 +176,26 @@
          <tr>
             <td>C07</td>
             <td>
-               <ul>
-                  <li>box_c56_chapt_2.xml</li>
-               </ul>
+               <ul></ul>
             </td>
             <td>
                <ul>
-                  <li>vol_1_letter_iv.xml</li>
                   <li>vol_1_chapter_i.xml</li>
                </ul>
             </td>
             <td>
                <ul>
-                  <li>vol_1_letter_iv.xml</li>
                   <li>vol_1_chapter_i.xml</li>
                </ul>
             </td>
             <td>
                <ul>
-                  <li>vol_1_letter_iv.xml</li>
                   <li>vol_1_chapter_i.xml</li>
                </ul>
             </td>
             <td>
                <ul>
-                  <li>letter_iv.xml</li>
                   <li>chapter_i.xml</li>
-                  <li>chapter_ii.xml</li>
                </ul>
             </td>
          </tr>
@@ -210,6 +203,8 @@
             <td>C08</td>
             <td>
                <ul>
+                  <li>box_c56_from_chapter_1.xml</li>
+                  <li>box_c56_chapt_2.xml</li>
                   <li>box_c56_chapter.xml</li>
                   <li>box_c56_chap_4.xml</li>
                </ul>
@@ -280,21 +275,25 @@
             </td>
             <td>
                <ul>
+                  <li>vol_1_chapter_iii.xml</li>
                   <li>vol_1_chapter_iv.xml</li>
                </ul>
             </td>
             <td>
                <ul>
+                  <li>vol_1_chapter_iii.xml</li>
                   <li>vol_1_chapter_iv.xml</li>
                </ul>
             </td>
             <td>
                <ul>
+                  <li>vol_1_chapter_iii.xml</li>
                   <li>vol_1_chapter_iv.xml</li>
                </ul>
             </td>
             <td>
                <ul>
+                  <li>chapter_iv.xml</li>
                   <li>chapter_v.xml</li>
                </ul>
             </td>
@@ -303,7 +302,7 @@
             <td>C11</td>
             <td>
                <ul>
-                  <li>box_c56_ch_v__113.xml</li>
+                  <li>box_c56_ch_v_113.xml</li>
                </ul>
             </td>
             <td>
@@ -335,7 +334,7 @@
             <td>C12</td>
             <td>
                <ul>
-                  <li>box_c56_ch_v__113.xml</li>
+                  <li>box_c56_ch_v_113.xml</li>
                   <li>box_c56_chap_8.xml</li>
                </ul>
             </td>
@@ -736,7 +735,6 @@
                <ul>
                   <li>box_c57_chap_10.xml</li>
                   <li>box_c57_chap.xml</li>
-                  <li>box_c57_chap_12.xml</li>
                </ul>
             </td>
             <td>
@@ -768,7 +766,7 @@
             <td>C26</td>
             <td>
                <ul>
-                  <li>box_c57_chap_12.xml</li>
+                  <li>box_c57_chap.xml</li>
                   <li>box_c57_chapter_13.xml</li>
                </ul>
             </td>
@@ -847,6 +845,151 @@
             <td>
                <ul>
                   <li>chapter_xxii.xml</li>
+               </ul>
+            </td>
+         </tr>
+         <tr>
+            <td>C29</td>
+            <td>
+               <ul>
+                  <li>box_c57_chap_15.xml</li>
+                  <li>box_c57_chap_16.xml</li>
+               </ul>
+            </td>
+            <td>
+               <ul>
+                  <li>vol_3_chapter_v.xml</li>
+               </ul>
+            </td>
+            <td>
+               <ul>
+                  <li>vol_3_chapter_v.xml</li>
+               </ul>
+            </td>
+            <td>
+               <ul>
+                  <li>vol_2_chapter_x.xml</li>
+               </ul>
+            </td>
+            <td>
+               <ul>
+                  <li>chapter_xxii.xml</li>
+               </ul>
+            </td>
+         </tr>
+         <tr>
+            <td>C30</td>
+            <td>
+               <ul>
+                  <li>box_c57_chap_17.xml</li>
+               </ul>
+            </td>
+            <td>
+               <ul>
+                  <li>vol_3_chapter_vi.xml</li>
+               </ul>
+            </td>
+            <td>
+               <ul>
+                  <li>vol_3_chapter_vi.xml</li>
+               </ul>
+            </td>
+            <td>
+               <ul>
+                  <li>vol_2_chapter_xi.xml</li>
+               </ul>
+            </td>
+            <td>
+               <ul>
+                  <li>chapter_xxiii.xml</li>
+               </ul>
+            </td>
+         </tr>
+         <tr>
+            <td>C31</td>
+            <td>
+               <ul>
+                  <li>box_c57_chap_18.xml</li>
+               </ul>
+            </td>
+            <td>
+               <ul>
+                  <li>vol_3_chapter_vi.xml</li>
+                  <li>vol_3_chapter_vii.xml</li>
+               </ul>
+            </td>
+            <td>
+               <ul>
+                  <li>vol_3_chapter_vi.xml</li>
+                  <li>vol_3_chapter_vii.xml</li>
+               </ul>
+            </td>
+            <td>
+               <ul>
+                  <li>vol_2_chapter_xi.xml</li>
+                  <li>vol_2_chapter_xii.xml</li>
+               </ul>
+            </td>
+            <td>
+               <ul>
+                  <li>chapter_xxiii.xml</li>
+                  <li>chapter_xxiv.xml</li>
+               </ul>
+            </td>
+         </tr>
+         <tr>
+            <td>C32</td>
+            <td>
+               <ul>
+                  <li>box_c57_walton_in_continuation.xml</li>
+               </ul>
+            </td>
+            <td>
+               <ul>
+                  <li>vol_3_chapter_vii.xml</li>
+               </ul>
+            </td>
+            <td>
+               <ul>
+                  <li>vol_3_chapter_vii.xml</li>
+               </ul>
+            </td>
+            <td>
+               <ul>
+                  <li>vol_2_chapter_xii.xml</li>
+               </ul>
+            </td>
+            <td>
+               <ul>
+                  <li>chapter_xxiv.xml</li>
+               </ul>
+            </td>
+         </tr>
+         <tr>
+            <td>C33</td>
+            <td>
+               <ul>
+                  <li>box_c57_walton_in_continuation.xml</li>
+               </ul>
+            </td>
+            <td>
+               <ul>
+                  <li>vol_3_chapter_vii.xml</li>
+               </ul>
+            </td>
+            <td>
+               <ul>
+                  <li>vol_3_chapter_vii.xml</li>
+               </ul>
+            </td>
+            <td>
+               <ul>
+                  <li>vol_2_chapter_xii.xml</li>
+               </ul>
+            </td>
+            <td>
+               <ul>
+                  <li>chapter_xxiv.xml</li>
                </ul>
             </td>
          </tr>
