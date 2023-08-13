@@ -1,8 +1,5 @@
 <?xml version="1.1" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-      xmlns:fv="https://frankensteinvariorum.github.io"
-      xmlns:tei="http://www.tei-c.org/ns/1.0"
-      xmlns:var="https://frankensteinvariorum.github.io">
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -20,7 +17,7 @@
          <sourceDesc>
             <p>Produced from a corpus of collation output files for
                                                 the Frankenstein Variorum digital edition on
-                                                  2023-08-10T06:06:09.361347-04:00.</p>
+                                                  2023-08-13T15:57:48.023766-04:00.</p>
          </sourceDesc>
       </fileDesc>
    </teiHeader>
@@ -32,7 +29,7 @@
          </seg>
          <pb xml:id="F1818_v1_073" n="061"/>
          <seg xml:id="C08_app486-fThomas">
-            <head ana="start"/>CHAPTER II.<head ana="end"/>
+            <head>CHAPTER II.</head>
          </seg>
          <p xml:id="novel1_letter4_chapter2_div4_div2_p1">
             <seg xml:id="C08_app488-fThomas">W<hi xml:id="novel1_letter4_chapter2_div4_div2_p1_hi1">HEN</hi>
@@ -49,16 +46,8 @@
             <seg xml:id="C08_app542-fThomas">event.</seg> On her  <seg xml:id="C08_app544-fThomas">death-bed</seg> the fortitude and benignity  <seg xml:id="C08_app546-fThomas">of</seg>
             <seg xml:id="C08_app547-fThomas">this</seg>
             <seg xml:id="C08_app548-fThomas">
-               <del xmlns:mith="http://mith.umd.edu/sc/ns1#"
-                     xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-                     xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-                     ana="start"
-                     n="062"/>admirable<del ana="end"/>
-               <add xmlns:mith="http://mith.umd.edu/sc/ns1#"
-                     xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-                     xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-                     ana="start"
-                     n="062"/>amiable<add ana="end"/> woman</seg> did not desert her. She joined the hands of Elizabeth and  <seg xml:id="C08_app550-fThomas">myself: “My children,” she said, “my firmest hopes of future <pb xml:id="F1818_v1_075" n="063"/>happiness were placed on the prospect of your union. This expectation will now be the consolation of your father.</seg> Elizabeth, my  <seg xml:id="C08_app552-fThomas">love, you must</seg> supply my place to  <seg xml:id="C08_app554-fThomas">your younger cousins.</seg> Alas! I  <seg xml:id="C08_app556-fThomas">regret</seg>
+               <del n="062">admirable</del>
+               <add n="062">amiable</add> woman</seg> did not desert her. She joined the hands of Elizabeth and  <seg xml:id="C08_app550-fThomas">myself: “My children,” she said, “my firmest hopes of future <pb xml:id="F1818_v1_075" n="063"/>happiness were placed on the prospect of your union. This expectation will now be the consolation of your father.</seg> Elizabeth, my  <seg xml:id="C08_app552-fThomas">love, you must</seg> supply my place to  <seg xml:id="C08_app554-fThomas">your younger cousins.</seg> Alas! I  <seg xml:id="C08_app556-fThomas">regret</seg>
             <seg xml:id="C08_app557-fThomas">that</seg> I am taken from   <seg xml:id="C08_app560-fThomas">you; and,</seg> happy and  <seg xml:id="C08_app562-fThomas">beloved</seg> as I  <seg xml:id="C08_app564-fThomas">have been, is</seg> it not hard to quit you all? But  <seg xml:id="C08_app566-fThomas">these</seg> are not thoughts befitting  <seg xml:id="C08_app568-fThomas">me; I</seg> will endeavour to resign myself   <seg xml:id="C08_app571-fThomas">cheerfully to</seg>
             <seg xml:id="C08_app572-fThomas">death,</seg> and will indulge a hope  <seg xml:id="C08_app574-fThomas">of meeting you</seg>
             <seg xml:id="C08_app575-fThomas">in</seg> another world.” </p>
@@ -128,16 +117,8 @@
             <seg xml:id="C08_app701-fThomas">in the commerce of ordinary life.</seg>
             <seg xml:id="C08_app702-fThomas">Henry</seg>
             <seg xml:id="C08_app703-fThomas">
-               <del xmlns:mith="http://mith.umd.edu/sc/ns1#"
-                     xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-                     xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-                     ana="start"
-                     n="066"/>had a refined mind; he had no desire to be idle, and was well pleased to become his father’s partner, but he believed that a man might be a very good trader, and yet possess a cultivated understanding.<del ana="end"/>
-               <add xmlns:mith="http://mith.umd.edu/sc/ns1#"
-                     xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-                     xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-                     ana="start"
-                     n="066"/>loved poetry and his mind was filled with the imagery and sublime sentiments of the masters of that art. A poet himself, he turned with <del-INNER ana="start"/>y<del-INNER ana="end"/> disgust from the details of ordinary life. His own <del-INNER ana="start"/>soul<del-INNER ana="end"/> mind was all the possession that he prized, beautiful &amp; majestic thoughts the only wealth he coveted—daring as the eagle and as free, common laws could not be applied to him; and while you gazed on him you felt his soul’s spark was more divine—more truly stolen from Apollo’s sacred fire, than the glimmering ember that animates other men.<add ana="end"/>
+               <del n="066">had a refined mind; he had no desire to be idle, and was well pleased to become his father’s partner, but he believed that a man might be a very good trader, and yet possess a cultivated understanding.</del>
+               <add n="066">loved poetry and his mind was filled with the imagery and sublime sentiments of the masters of that art. A poet himself, he turned with <del-INNER>y</del-INNER> disgust from the details of ordinary life. His own <del-INNER>soul</del-INNER> mind was all the possession that he prized, beautiful &amp; majestic thoughts the only wealth he coveted—daring as the eagle and as free, common laws could not be applied to him; and while you gazed on him you felt his soul’s spark was more divine—more truly stolen from Apollo’s sacred fire, than the glimmering ember that animates other men.</add>
             </seg>
          </p>
          <p xml:id="novel1_letter4_chapter2_div4_div2_p5"> We <seg xml:id="C08_app705-fThomas">sat late,</seg>
@@ -226,24 +207,10 @@
             <seg xml:id="C08_app1069-fThomas">with attention my little narration concerning my studies, and</seg> smiled at the names of Cornelius  <seg xml:id="C08_app1071-fThomas">Agrippa,</seg> and  <seg xml:id="C08_app1073-fThomas">Paracelsus,</seg> but without the contempt that  <seg xml:id="C08_app1075-fThomas">M.</seg> Krempe had  <seg xml:id="C08_app1077-fThomas">exhibited.</seg> He  <seg xml:id="C08_app1079-fThomas">said,</seg> that  <seg xml:id="C08_app1081-fThomas">“these</seg> were men to whose indefatigable zeal modern  <seg xml:id="C08_app1083-fThomas">philosophers were indebted for most of the foundations of their</seg>
             <seg xml:id="C08_app1084-fThomas">knowledge. They</seg> had left to us, as an easier  <seg xml:id="C08_app1086-fThomas">task,</seg> to give new names, and arrange in  <seg xml:id="C08_app1088-fThomas">connected classifications,</seg> the facts which they  <seg xml:id="C08_app1090-fThomas">in</seg> a great degree  <seg xml:id="C08_app1092-fThomas">had</seg> been the instruments of bringing to light. The labours of men of  <seg xml:id="C08_app1094-fThomas">genius,</seg> however erroneously  <seg xml:id="C08_app1096-fThomas">directed,</seg> scarcely ever  <seg xml:id="C08_app1098-fThomas">fail</seg> in ultimately turning to the solid advantage of  <seg xml:id="C08_app1100-fThomas">mankind.” I listened</seg>
             <seg xml:id="C08_app1101-fThomas">
-               <del xmlns:mith="http://mith.umd.edu/sc/ns1#"
-                     xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-                     xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-                     ana="start"
-                     rend="strikethrough"
-                     n="075"/>to his statement, which was delivered<del ana="end"/>
-               <add xmlns:mith="http://mith.umd.edu/sc/ns1#"
-                     xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-                     xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-                     ana="start"
-                     n="075"/>to him with interest for he spoke<add ana="end"/>
+               <del rend="strikethrough" n="075">to his statement, which was delivered</del>
+               <add n="075">to him with interest for he spoke</add>
             </seg> without  <seg xml:id="C08_app1103-fThomas">
-               <del xmlns:mith="http://mith.umd.edu/sc/ns1#"
-                     xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-                     xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-                     ana="start"
-                     rend="strikethrough"
-                     n="075"/>any<del ana="end"/>
+               <del rend="strikethrough" n="075">any</del>
             </seg> presumption  <seg xml:id="C08_app1105-fThomas">or affectation;</seg> and then  <seg xml:id="C08_app1107-fThomas">added,</seg> that his lecture had removed my  <seg xml:id="C08_app1109-fThomas">prejudices</seg> against modern  <seg xml:id="C08_app1111-fThomas">
                <pb xml:id="F1818_v1_088" n="076"/>chemists; and I, at the same time, requested</seg> his advice concerning the books I ought to  <seg xml:id="C08_app1113-fThomas">procure.</seg>
          </p>
@@ -263,16 +230,7 @@
             <seg part="I" xml:id="C08_app1195-fThomas__I">me: it decided my future destiny.</seg>
          </p>
          <seg part="F" xml:id="C08_app1195-fThomas__F">
-            <note xmlns:mith="http://mith.umd.edu/sc/ns1#"
-                   xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-                   xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-                   ana="start"
-                   resp="#MWS"
-                   n="077"/>If there were ever to be another edition of this book, I should re-write these two first chapters. The incidents are tame and ill-arranged—the language sometimes childish.—They are unworthy of the rest of the <del xmlns:mith="http://mith.umd.edu/sc/ns1#"
-                  xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-                  xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-                  ana="start"
-                  n="077"/>w book<del ana="end"/>narration.<note ana="end"/>
+            <note resp="#MWS" n="077">If there were ever to be another edition of this book, I should re-write these two first chapters. The incidents are tame and ill-arranged—the language sometimes childish.—They are unworthy of the rest of the <del n="077">w book</del>narration.</note>
             <milestone unit="chapter" type="end" n="2"/>
          </seg>
          <seg xml:id="C09_app1-fThomas">

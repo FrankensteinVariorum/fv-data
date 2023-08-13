@@ -1,8 +1,5 @@
 <?xml version="1.1" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-      xmlns:fv="https://frankensteinvariorum.github.io"
-      xmlns:tei="http://www.tei-c.org/ns/1.0"
-      xmlns:var="https://frankensteinvariorum.github.io">
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -20,7 +17,7 @@
          <sourceDesc>
             <p>Produced from a corpus of collation output files for
                                                 the Frankenstein Variorum digital edition on
-                                                  2023-08-10T06:06:09.361347-04:00.</p>
+                                                  2023-08-13T15:57:48.023766-04:00.</p>
          </sourceDesc>
       </fileDesc>
    </teiHeader>
@@ -32,7 +29,7 @@
             <pb xml:id="F1818_v2_146" n="142"/>
          </seg>
          <seg xml:id="C23_app3-fThomas">
-            <head ana="start"/>CHAPTER IX.<head ana="end"/>
+            <head>CHAPTER IX.</head>
          </seg>
          <p xml:id="novel1_letter4_chapter16_div4_div17_p1">
             <seg xml:id="C23_app5-fThomas">T<hi xml:id="novel1_letter4_chapter16_div4_div17_p1_hi1">HE</hi> being</seg> finished  <seg xml:id="C23_app7-fThomas">speaking,</seg> and fixed his  <seg xml:id="C23_app9-fThomas">looks</seg>
@@ -142,12 +139,7 @@
          <p xml:id="novel1_letter4_chapter16_div4_div17_p20">
             <seg part="F" xml:id="C23_app550-fThomas__F">
                </seg> These were wild and miserable  <seg xml:id="C23_app552-fThomas">thoughts;</seg> but I cannot describe to you how the eternal twinkling of  <seg xml:id="C23_app554-fThomas">the</seg> stars weighed upon me, and  <seg xml:id="C23_app556-fThomas">how</seg> I listened to every blast of  <seg xml:id="C23_app558-fThomas">wind,</seg> as  <seg xml:id="C23_app560-fThomas">if</seg> it were a dull ugly siroc  <seg xml:id="C23_app562-fThomas">
-               <add xmlns:mith="http://mith.umd.edu/sc/ns1#"
-                     xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-                     xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-                     ana="start"
-                     place="margin"
-                     n="154"/>co<add ana="end"/>
+               <add place="margin" n="154">co</add>
             </seg> on its way to consume me. </p>
          <p xml:id="novel1_letter4_chapter16_div4_div17_p21">
             <seg xml:id="C23_app564-fThomas">Morning</seg>
@@ -232,7 +224,7 @@
             </seg>
          <seg xml:id="C23_app636-fThomas">
             <milestone unit="chapter" type="end" n="16"/>
-            <head ana="start"/>END OF VOL. II<head ana="end"/>
+            <head>END OF VOL. II</head>
             <milestone unit="volume" n="3"/>
             <milestone unit="frontmatter" type="start" n="3"/>
          </seg>

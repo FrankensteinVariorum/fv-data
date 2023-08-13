@@ -1,8 +1,5 @@
 <?xml version="1.1" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-      xmlns:fv="https://frankensteinvariorum.github.io"
-      xmlns:tei="http://www.tei-c.org/ns/1.0"
-      xmlns:var="https://frankensteinvariorum.github.io">
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -20,7 +17,7 @@
          <sourceDesc>
             <p>Produced from a corpus of collation output files for
                                                 the Frankenstein Variorum digital edition on
-                                                  2023-08-10T06:06:09.361347-04:00.</p>
+                                                  2023-08-13T15:57:48.023766-04:00.</p>
          </sourceDesc>
       </fileDesc>
    </teiHeader>
@@ -30,7 +27,7 @@
          <seg part="I" xml:id="C07_app1-fThomas__I">
             <anchor type="collate" xml:id="C07"/>
             <milestone unit="chapter" type="start" n="1"/>
-            <head ana="start"/>CHAPTER I.<head ana="end"/>
+            <head>CHAPTER I.</head>
          </seg>
          <p xml:id="novel1_letter4_chapter1_div4_div1_p1">
             <seg part="F" xml:id="C07_app1-fThomas__F"> I <hi xml:id="novel1_letter4_chapter1_div4_div1_p1_hi1">AM</hi> by birth a Genevese; and my family is one of the most distinguished of that republic. My ancestors had been for many years counsellors and syndics; and my father had filled several public situations with honour and reputation. He was respected by all who knew</seg>
@@ -81,41 +78,14 @@
             </seg>
          <p xml:id="novel1_letter4_chapter1_div4_div1_p6">
             <seg part="F" xml:id="C07_app28-fThomas__F">
-               <del xmlns:mith="http://mith.umd.edu/sc/ns1#"
-                     xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-                     xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-                     ana="start"
-                     rend="strikethrough"
-                     n="043"/>When my father became a husband and a parent, he found his time so occupied by the duties of his new situation, that he<del ana="end"/>
-               <add xmlns:mith="http://mith.umd.edu/sc/ns1#"
-                     xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-                     xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-                     ana="start"
-                     n="043"/>As my father’s age encreased he became more attached to the quiet of a domestic life, and he gradually<add ana="end"/> relinquished <del xmlns:mith="http://mith.umd.edu/sc/ns1#"
-                     xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-                     xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-                     ana="start"
-                     rend="strikethrough"
-                     n="043"/>many of<del ana="end"/> his public employments, and devoted himself <add xmlns:mith="http://mith.umd.edu/sc/ns1#"
-                     xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-                     xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-                     ana="start"
-                     place="margin"
-                     n="043"/>with ardour <add ana="end"/>to the education of his children.</seg>
+               <del rend="strikethrough" n="043">When my father became a husband and a parent, he found his time so occupied by the duties of his new situation, that he</del>
+               <add n="043">As my father’s age encreased he became more attached to the quiet of a domestic life, and he gradually</add> relinquished <del rend="strikethrough" n="043">many of</del> his public employments, and devoted himself <add place="margin" n="043">with ardour </add>to the education of his children.</seg>
             <seg part="I" xml:id="C07_app29-fThomas__I">Of these I was the eldest, and the destined suc<pb xml:id="F1818_v1_056" n="044"/>cessor to all his labours and utility. No creature could have more tender parents than mine. My improvement and health were their constant care, especially as I remained for several years their only child. But before I continue my narrative, I must record an incident which took place when I was four years of age. </seg>
          </p>
          <p xml:id="novel1_letter4_chapter1_div4_div1_p7">
             <seg part="F" xml:id="C07_app29-fThomas__F"> My father had a sister, whom he tenderly loved, and who had married early in life an Italian gentleman. Soon after her marriage, she had accompanied her husband</seg>
-            <seg xml:id="C07_app30-fThomas">into <del xmlns:mith="http://mith.umd.edu/sc/ns1#"
-                     xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-                     xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-                     ana="start"
-                     n="044"/>her<del ana="end"/>
-               <add xmlns:mith="http://mith.umd.edu/sc/ns1#"
-                     xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-                     xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-                     ana="start"
-                     n="044"/>his<add ana="end"/> native country,</seg>
+            <seg xml:id="C07_app30-fThomas">into <del n="044">her</del>
+               <add n="044">his</add> native country,</seg>
             <seg xml:id="C07_app31-fThomas">and for some years my father had very little communication with her. About the time I mentioned she died; and a few months afterwards he received a letter from her husband, acquainting him with his intention of marrying an Italian lady, and requesting my father to take charge of the in<pb xml:id="F1818_v1_057" n="045"/>fant Elizabeth, the only child of his deceased sister. “It is my wish,” he said, “that you should consider her as your own daughter, and educate her thus. Her</seg>
             <seg xml:id="C07_app32-fThomas">mother’s</seg>
             <seg part="I" xml:id="C07_app33-fThomas__I">fortune is secured to her, the documents of which I will commit to your keeping. Reflect upon this proposition; and decide whether you would prefer educating your niece yourself to her being brought up by a stepmother.” </seg>
@@ -124,15 +94,7 @@
             <seg part="F" xml:id="C07_app33-fThomas__F"> My father did not hesitate, and immediately went to Italy, that he might accompany the little Elizabeth to her future home. I have often heard my mother say, that she was at that time the most beautiful child she had ever seen, and</seg>
             <seg xml:id="C07_app34-fThomas">shewed</seg>
             <seg xml:id="C07_app35-fThomas">
-               <add xmlns:mith="http://mith.umd.edu/sc/ns1#"
-                     xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-                     xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-                     ana="start"
-                     n="045"/>every <add ana="end"/> sign <del xmlns:mith="http://mith.umd.edu/sc/ns1#"
-                     xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-                     xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-                     ana="start"
-                     n="045"/>s even then<del ana="end"/>
+               <add n="045">every </add> sign <del n="045">s even then</del>
             </seg>
             <seg xml:id="C07_app36-fThomas">of a gentle and affectionate disposition. These indications, and a desire to bind as closely as possible the ties of domestic love, determined my mother to consider <pb xml:id="F1818_v1_058" n="046"/>Elizabeth as my future wife; a design which she never found reason to repent.</seg>
             <seg part="I" xml:id="C07_app37-fThomas__I">
@@ -200,11 +162,7 @@
             <seg xml:id="C08_app43-fThomas">schoolfellows,</seg>
             <seg xml:id="C08_app44-fThomas">who compensated for</seg>
             <seg xml:id="C08_app45-fThomas">this</seg>
-            <seg xml:id="C08_app46-fThomas">deficiency.</seg> Henry   <seg xml:id="C08_app48-fThomas">Clerval</seg> was the son   <seg xml:id="C08_app50-fThomas">of a merchant of Geneva, an intimate friend of my father.</seg> He was a boy of singular talent and  <seg xml:id="C08_app52-fThomas">fancy. <del xmlns:mith="http://mith.umd.edu/sc/ns1#"
-                     xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-                     xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-                     ana="start"
-                     n="048"/>I remember,<del ana="end"/> when he was nine years old, he wrote a fairy tale, which was the delight and amazement of all his companions.</seg>
+            <seg xml:id="C08_app46-fThomas">deficiency.</seg> Henry   <seg xml:id="C08_app48-fThomas">Clerval</seg> was the son   <seg xml:id="C08_app50-fThomas">of a merchant of Geneva, an intimate friend of my father.</seg> He was a boy of singular talent and  <seg xml:id="C08_app52-fThomas">fancy. <del n="048">I remember,</del> when he was nine years old, he wrote a fairy tale, which was the delight and amazement of all his companions.</seg>
             <seg xml:id="C08_app53-fThomas">His favourite study</seg>
             <seg xml:id="C08_app54-fThomas">consisted</seg> in books of   <seg xml:id="C08_app57-fThomas">chivalry and romance; and when very young, I can remember, that we used to act plays composed by him out of these favourite books, the principal characters of which were Orlando, Robin Hood, Amadis, and St. George.</seg>
             <seg part="I" xml:id="C08_app58-fThomas__I">
@@ -214,24 +172,9 @@
             <seg part="F" xml:id="C08_app58-fThomas__F">
                </seg>
             <seg xml:id="C08_app59-fThomas">
-               <del xmlns:mith="http://mith.umd.edu/sc/ns1#"
-                     xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-                     xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-                     ana="start"
-                     rend="margin_line"
-                     n="048"/>No youth could have passed more <pb xml:id="F1818_v1_061" n="049"/>happily than mine. My parents were indulgent, and my companions amiable. Our studies were never forced; and by some means we always had an end placed in view, which excited us to ardour in the prosecution of them. It was by this method, and not by emulation, that we were urged to application. Elizabeth was not incited to apply herself to drawing, that her companions might not outstrip her; but through the desire of pleasing her aunt, by the representation of some favourite scene done by her own hand. We learned Latin and English, that we might read the writings in those languages; and so far from study being made odious to us through punishment, we loved application, and our amusements would have been the labours of other children. Perhaps we did not read so many books, or learn languages so <pb xml:id="F1818_v1_062" n="050"/>quickly, as those who are disciplined according to the ordinary methods; but what we learned was impressed the more deeply on our memories.<del ana="end"/>
-               <note xmlns:mith="http://mith.umd.edu/sc/ns1#"
-                      xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-                      xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-                      ana="start"
-                      resp="#MWS"
-                      n="050"/>bad<note ana="end"/>
-               <add xmlns:mith="http://mith.umd.edu/sc/ns1#"
-                     xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-                     xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-                     ana="start"
-                     place="bottom"
-                     n="050"/>With what delight do I even now remember the details of our domestic circle, and the happy years of my childhood. Joy attended on my steps—and the ardent affection that attached me to my excellent parents, my beloved Elizabeth, and Henry, the brother of my soul, has given almost a religious and sacred feeling to the recollections of a period passed beneath their eyes, and in their society.<add ana="end"/>
+               <del rend="margin_line" n="048">No youth could have passed more <pb xml:id="F1818_v1_061" n="049"/>happily than mine. My parents were indulgent, and my companions amiable. Our studies were never forced; and by some means we always had an end placed in view, which excited us to ardour in the prosecution of them. It was by this method, and not by emulation, that we were urged to application. Elizabeth was not incited to apply herself to drawing, that her companions might not outstrip her; but through the desire of pleasing her aunt, by the representation of some favourite scene done by her own hand. We learned Latin and English, that we might read the writings in those languages; and so far from study being made odious to us through punishment, we loved application, and our amusements would have been the labours of other children. Perhaps we did not read so many books, or learn languages so <pb xml:id="F1818_v1_062" n="050"/>quickly, as those who are disciplined according to the ordinary methods; but what we learned was impressed the more deeply on our memories.</del>
+               <note resp="#MWS" n="050">bad</note>
+               <add place="bottom" n="050">With what delight do I even now remember the details of our domestic circle, and the happy years of my childhood. Joy attended on my steps—and the ardent affection that attached me to my excellent parents, my beloved Elizabeth, and Henry, the brother of my soul, has given almost a religious and sacred feeling to the recollections of a period passed beneath their eyes, and in their society.</add>
             </seg>
             <seg part="I" xml:id="C08_app60-fThomas__I">
                </seg>
@@ -274,37 +217,15 @@
             <seg part="F" xml:id="C08_app85-fThomas__F">
                </seg> Natural philosophy  <seg xml:id="C08_app87-fThomas">is the genius that has regulated my</seg>
             <seg xml:id="C08_app88-fThomas">fate; I desire therefore,</seg> in this  <seg xml:id="C08_app90-fThomas">narration,</seg> to  <seg xml:id="C08_app92-fThomas">
-               <del xmlns:mith="http://mith.umd.edu/sc/ns1#"
-                     xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-                     xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-                     ana="start"
-                     n="051"/>state<del ana="end"/>
-               <add xmlns:mith="http://mith.umd.edu/sc/ns1#"
-                     xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-                     xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-                     ana="start"
-                     n="051"/>relate<add ana="end"/>
+               <del n="051">state</del>
+               <add n="051">relate</add>
             </seg> those facts which led to my  <seg xml:id="C08_app94-fThomas">predilection</seg> for that science. When I was   <seg xml:id="C08_app97-fThomas">thirteen</seg> years  <seg xml:id="C08_app99-fThomas">of age,</seg> we all went on a party of pleasure to  <seg xml:id="C08_app101-fThomas">the baths near Thonon: the</seg> inclemency of the weather obliged us to remain a day confined to the inn. In this house I chanced to  <seg xml:id="C08_app103-fThomas">find</seg> a  <seg xml:id="C08_app105-fThomas">volume</seg>
             <seg xml:id="C08_app106-fThomas">of the works of Cornelius Agrippa.</seg>
             <seg xml:id="C08_app107-fThomas">I opened it with</seg>
             <seg xml:id="C08_app108-fThomas">apathy;</seg> the theory  <seg xml:id="C08_app110-fThomas">which</seg> he  <seg xml:id="C08_app112-fThomas">attempts</seg> to  <seg xml:id="C08_app114-fThomas">demonstrate,</seg> and the <pb xml:id="F1818_v1_064" n="052"/>wonderful facts <seg xml:id="C08_app116-fThomas">which</seg> he  <seg xml:id="C08_app118-fThomas">relates,</seg> soon changed this feeling into  <seg xml:id="C08_app120-fThomas">enthusiasm. A new light</seg>
             <seg xml:id="C08_app121-fThomas">seemed to dawn</seg> upon my  <seg xml:id="C08_app123-fThomas">mind; and,</seg> bounding with  <seg xml:id="C08_app125-fThomas">joy,</seg> I communicated my discovery to my father.  <seg xml:id="C08_app127-fThomas">
-               <del xmlns:mith="http://mith.umd.edu/sc/ns1#"
-                     xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-                     xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-                     ana="start"
-                     rend="strikethrough"
-                     n="052"/>I cannot help remarking here the many opportunities instructors possess of directing the attention of their pupils to useful knowledge, which they utterly neglect. My father looked<del ana="end"/>
-               <add xmlns:mith="http://mith.umd.edu/sc/ns1#"
-                     xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-                     xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-                     ana="start"
-                     n="052"/>who looking<add ana="end"/> carelessly at the title-page of my book, <del xmlns:mith="http://mith.umd.edu/sc/ns1#"
-                     xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-                     xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-                     ana="start"
-                     rend="strikethrough"
-                     n="052"/>and<del ana="end"/>
+               <del rend="strikethrough" n="052">I cannot help remarking here the many opportunities instructors possess of directing the attention of their pupils to useful knowledge, which they utterly neglect. My father looked</del>
+               <add n="052">who looking</add> carelessly at the title-page of my book, <del rend="strikethrough" n="052">and</del>
             </seg>
             <seg xml:id="C08_app129-fThomas">said, “Ah!</seg> Cornelius Agrippa!  <seg xml:id="C08_app131-fThomas">My dear</seg>
             <seg xml:id="C08_app132-fThomas">Victor,</seg> do not waste your time upon  <seg xml:id="C08_app134-fThomas">this;</seg> it is sad  <seg part="I" xml:id="C08_app136-fThomas__I">trash.” </seg>
@@ -439,13 +360,7 @@
             <seg xml:id="C08_app384-fThomas">which</seg>
             <seg xml:id="C08_app385-fThomas">drew down that fluid from the clouds. </seg>
             <seg part="I" xml:id="C08_app386-fThomas__I">
-               <note xmlns:mith="http://mith.umd.edu/sc/ns1#"
-                      xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-                      xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-                      ana="start"
-                      resp="#MWS"
-                      cert="low"
-                      n="057"/>you said your family was not sientific.<note ana="end"/>
+               <note resp="#MWS" cert="low" n="057">you said your family was not sientific.</note>
             </seg>
          </p>
          <p xml:id="novel1_letter4_chapter1_div4_div1_p24">

@@ -1,8 +1,5 @@
 <?xml version="1.1" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-      xmlns:fv="https://frankensteinvariorum.github.io"
-      xmlns:tei="http://www.tei-c.org/ns/1.0"
-      xmlns:var="https://frankensteinvariorum.github.io">
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -20,7 +17,7 @@
          <sourceDesc>
             <p>Produced from a corpus of collation output files for
                                                 the Frankenstein Variorum digital edition on
-                                                  2023-08-10T06:06:09.361347-04:00.</p>
+                                                  2023-08-13T15:57:48.023766-04:00.</p>
          </sourceDesc>
       </fileDesc>
    </teiHeader>
@@ -29,7 +26,7 @@
          <anchor type="semantic" subtype="start" xml:id="f1823_vol_1_chapter_xi"/>
          <milestone unit="chapter" type="start" n="11"/>
          <seg xml:id="C18_app4-f1823">
-            <head ana="start"/>CHAPTER XI.<head ana="end"/>
+            <head>CHAPTER XI.</head>
          </seg>
          <p xml:id="novel1_letter4_chapter11_div4_div11_p1">
             <seg xml:id="C18_app6-f1823">“I <hi xml:id="novel1_letter4_chapter11_div4_div11_p1_hi1">LAY</hi>
@@ -166,12 +163,7 @@
          </p>
          <p xml:id="novel1_letter4_chapter11_div4_div11_p19">
             <seg part="F" xml:id="C18_app487-f1823__F"> “The pleasant showers and genial warmth of spring greatly altered the aspect of the earth. Men, who</seg>
-            <seg xml:id="C18_app488-f1823">bfore <note xmlns:mith="http://mith.umd.edu/sc/ns1#"
-                      xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-                      xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-                      ana="start"
-                      resp="FV-Team-ebb"
-                      n="248"/>printer error: misses the "e" in before.<note ana="end"/>
+            <seg xml:id="C18_app488-f1823">bfore <note resp="FV-Team-ebb" n="248">printer error: misses the "e" in before.</note>
             </seg>
             <seg xml:id="C18_app489-f1823">this change seemed to have been hid in caves, dispersed themselves, and were employed in various arts of cultivation. The birds sang in more cheer<pb xml:id="F1823_v1_268" n="249"/>ful notes, and the leaves began to bud forth on the trees. Happy, happy earth! fit habitation for gods, which, so short a time before, was bleak, damp, and unwholesome. My spirits were elevated by the enchanting appearance of nature; the past was blotted from my memory, the present was tranquil, and the future gilded by bright rays of hope, and anticipations of</seg>
             <seg xml:id="C18_app490-f1823">joy.”</seg>
@@ -182,9 +174,9 @@
             </seg>
          <seg xml:id="C18_app492-f1823">
             <milestone unit="chapter" type="end" n="11"/>
-            <head ana="start"/>
-            <hi xml:id="novel1_letter4_div4_head6_hi1">END OF VOL. I.</hi>
-            <head ana="end"/>
+            <head>
+               <hi xml:id="novel1_letter4_div4_head6_hi1">END OF VOL. I.</hi>
+            </head>
             <milestone unit="volume" n="2"/>
             <milestone unit="frontmatter" type="start" n="2"/>
             <milestone unit="frontmatter" type="end" n="2"/>

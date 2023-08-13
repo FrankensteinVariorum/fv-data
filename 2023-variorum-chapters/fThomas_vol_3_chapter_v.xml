@@ -1,8 +1,5 @@
 <?xml version="1.1" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-      xmlns:fv="https://frankensteinvariorum.github.io"
-      xmlns:tei="http://www.tei-c.org/ns/1.0"
-      xmlns:var="https://frankensteinvariorum.github.io">
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -20,7 +17,7 @@
          <sourceDesc>
             <p>Produced from a corpus of collation output files for
                                                 the Frankenstein Variorum digital edition on
-                                                  2023-08-10T06:06:09.361347-04:00.</p>
+                                                  2023-08-13T15:57:48.023766-04:00.</p>
          </sourceDesc>
       </fileDesc>
    </teiHeader>
@@ -33,7 +30,7 @@
          </seg>
          <pb xml:id="F1818_v3_095" n="091"/>
          <seg xml:id="C28_app3-fThomas">
-            <head ana="start"/>CHAPTER V.<head ana="end"/>
+            <head>CHAPTER V.</head>
          </seg>
          <seg part="I" xml:id="C28_app4-fThomas__I">
             </seg>
@@ -84,19 +81,10 @@
             <seg xml:id="C28_app41-fThomas">unremitting;</seg>
             <seg xml:id="C28_app42-fThomas">my grief and gloom was</seg>
             <seg xml:id="C28_app43-fThomas">obstinate,</seg>
-            <seg xml:id="C28_app44-fThomas">but he would not despair.</seg> Sometimes he thought that I felt deeply the degradation of being obliged to answer a charge of  <seg xml:id="C28_app46-fThomas">murder,</seg> and he endeavoured  <seg xml:id="C28_app48-fThomas">to <del xmlns:mith="http://mith.umd.edu/sc/ns1#"
-                     xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-                     xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-                     ana="start"
-                     rend="strikethrough"
-                     n="092"/>
-               <hi xml:id="novel1_letter4_chapter21_div4_div23_p2_del1_hi1">prove to me the futility of pride.</hi>
-               <del ana="end"/>
-               <add xmlns:mith="http://mith.umd.edu/sc/ns1#"
-                     xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-                     xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-                     ana="start"
-                     n="092"/>inspire me with more philosophic sentiments. But his arguments drawn from general observation failed in reaching the core of my incurable disease.<add ana="end"/>
+            <seg xml:id="C28_app44-fThomas">but he would not despair.</seg> Sometimes he thought that I felt deeply the degradation of being obliged to answer a charge of  <seg xml:id="C28_app46-fThomas">murder,</seg> and he endeavoured  <seg xml:id="C28_app48-fThomas">to <del rend="strikethrough" n="092">
+                  <hi xml:id="novel1_letter4_chapter21_div4_div23_p2_del1_hi1">prove to me the futility of pride.</hi>
+               </del>
+               <add n="092">inspire me with more philosophic sentiments. But his arguments drawn from general observation failed in reaching the core of my incurable disease.</add>
             </seg>
             <seg part="I" xml:id="C28_app49-fThomas__I">
                </seg>
@@ -128,12 +116,7 @@
             <seg xml:id="C28_app143-fThomas">blood,</seg> drop  <seg xml:id="C28_app145-fThomas">by</seg>
             <seg xml:id="C28_app146-fThomas">drop,</seg> to have saved their  <seg xml:id="C28_app148-fThomas">lives;</seg> but I could not, my father, indeed I could not sacrifice the whole human  <seg xml:id="C28_app150-fThomas">race.”</seg>
             <seg part="I" xml:id="C28_app151-fThomas__I">
-               <add xmlns:mith="http://mith.umd.edu/sc/ns1#"
-                     xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-                     xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-                     ana="start"
-                     place="bottom_and_following_pages"
-                     n="094"/>What could induce me to talk thus incoherently of the dread<del-INNER ana="start"/>ful subject<del-INNER ana="end"/> that I dared not explain?—In truth, it was insanity, not of the understanding but of the heart, which <del-INNER ana="start" rend="strikethrough"/>produced a state of reckless<del-INNER ana="end"/>caused me always to think of one thing, of one<pb n="95"/> sentiment, and <del-INNER ana="start" rend="strikethrough"/>that<del-INNER ana="end"/> thus there would at times escape to my lips, as a half stifled <del-INNER ana="start"/>groan<del-INNER ana="end"/>sigh may; though else unseen &amp; unheard, just move<del-INNER ana="start" rend="strikethrough"/>s<del-INNER ana="end"/> the flame that surrounds the marty at the stake. But though he sigh, he will not recant, &amp; though I, more weak, gave vent to my pent up thoughts in words such as these, yet I shrunk unalterably from any thing that should reveal the existence of my enemy.<add ana="end"/>
+               <add place="bottom_and_following_pages" n="094">What could induce me to talk thus incoherently of the dread<del-INNER>ful subject</del-INNER> that I dared not explain?—In truth, it was insanity, not of the understanding but of the heart, which <del-INNER rend="strikethrough">produced a state of reckless</del-INNER>caused me always to think of one thing, of one<pb n="95"/> sentiment, and <del-INNER rend="strikethrough">that</del-INNER> thus there would at times escape to my lips, as a half stifled <del-INNER>groan</del-INNER>sigh may; though else unseen &amp; unheard, just move<del-INNER rend="strikethrough">s</del-INNER> the flame that surrounds the marty at the stake. But though he sigh, he will not recant, &amp; though I, more weak, gave vent to my pent up thoughts in words such as these, yet I shrunk unalterably from any thing that should reveal the existence of my enemy.</add>
             </seg>
          </p>
          <p xml:id="novel1_letter4_chapter21_div4_div23_p7">
@@ -150,12 +133,7 @@
                </seg>
             <hi xml:id="novel1_letter4_chapter21_div4_div23_p9_hi1">
                <seg part="F" xml:id="C28_app183-fThomas__F">my</seg> journey to  <seg part="I" xml:id="C28_app185-fThomas__I">
-                  <add xmlns:mith="http://mith.umd.edu/sc/ns1#"
-                        xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-                        xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-                        ana="start"
-                        place="margin"
-                        n="095"/>Montavert and<add ana="end"/> the sea of ice. </seg>
+                  <add place="margin" n="095">Montavert and</add> the sea of ice. </seg>
             </hi>
             <seg part="F" xml:id="C28_app185-fThomas__F">
                </seg>
@@ -214,12 +192,7 @@
             <seg xml:id="C29_app126-fThomas">you, and that</seg> in my airy  <seg xml:id="C29_app128-fThomas">dreams</seg> of futurity you have been my constant friend and companion. But it is your happiness I desire as well as my  <seg xml:id="C29_app130-fThomas">own,</seg> when I declare to  <seg xml:id="C29_app132-fThomas">you,</seg> that our marriage would render me eternally  <seg xml:id="C29_app134-fThomas">miserable,</seg> unless it were the dictate of your own free choice. Even now I weep  <seg xml:id="C29_app136-fThomas">to think, that,</seg> borne down as you are by the  <seg xml:id="C29_app138-fThomas">cruelest</seg>
             <seg xml:id="C29_app139-fThomas">misfortunes,</seg> you may  <seg xml:id="C29_app141-fThomas">stifle,</seg> by the word  <seg xml:id="C29_app143-fThomas">
                <hi xml:id="novel1_letter4_chapter21_div4_div23_p17_hi1">honour</hi>,</seg> all hope of that love and happiness which would alone  <seg xml:id="C29_app145-fThomas">restore you to yourself.</seg>
-            <seg xml:id="C29_app146-fThomas">I,</seg> who have  <seg xml:id="C29_app148-fThomas">so <add xmlns:mith="http://mith.umd.edu/sc/ns1#"
-                     xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-                     xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-                     ana="start"
-                     place="gutter"
-                     n="099"/>dis<add ana="end"/>interested</seg> an affection for  <seg xml:id="C29_app150-fThomas">you,</seg> may  <seg xml:id="C29_app152-fThomas">increase</seg> your miseries  <seg xml:id="C29_app154-fThomas">ten-fold,</seg> by being an obstacle to your  <seg xml:id="C29_app156-fThomas">wishes. Ah, Vic<pb xml:id="F1818_v3_104" n="100"/>tor,</seg> be assured that  <seg xml:id="C29_app158-fThomas">your cousin and</seg> playmate has too sincere a love for you not to be made  <seg xml:id="C29_app160-fThomas">miserable</seg> by this supposition. Be  <seg xml:id="C29_app162-fThomas">happy,</seg> my  <seg xml:id="C29_app164-fThomas">friend;</seg> and if you obey me in this one  <seg xml:id="C29_app166-fThomas">request, remain satisfied</seg> that nothing on earth will have the power to  <seg xml:id="C29_app168-fThomas">interrupt</seg> my tranquillity. </p>
+            <seg xml:id="C29_app146-fThomas">I,</seg> who have  <seg xml:id="C29_app148-fThomas">so <add place="gutter" n="099">dis</add>interested</seg> an affection for  <seg xml:id="C29_app150-fThomas">you,</seg> may  <seg xml:id="C29_app152-fThomas">increase</seg> your miseries  <seg xml:id="C29_app154-fThomas">ten-fold,</seg> by being an obstacle to your  <seg xml:id="C29_app156-fThomas">wishes. Ah, Vic<pb xml:id="F1818_v3_104" n="100"/>tor,</seg> be assured that  <seg xml:id="C29_app158-fThomas">your cousin and</seg> playmate has too sincere a love for you not to be made  <seg xml:id="C29_app160-fThomas">miserable</seg> by this supposition. Be  <seg xml:id="C29_app162-fThomas">happy,</seg> my  <seg xml:id="C29_app164-fThomas">friend;</seg> and if you obey me in this one  <seg xml:id="C29_app166-fThomas">request, remain satisfied</seg> that nothing on earth will have the power to  <seg xml:id="C29_app168-fThomas">interrupt</seg> my tranquillity. </p>
          <p xml:id="novel1_letter4_chapter21_div4_div23_p18">
             <seg xml:id="C29_app170-fThomas">“Do</seg> not let this letter disturb  <seg xml:id="C29_app172-fThomas">you;</seg> do  <seg xml:id="C29_app174-fThomas">not answer it to-morrow, or the next day,</seg> or  <seg xml:id="C29_app176-fThomas">even</seg>
             <seg xml:id="C29_app177-fThomas">until</seg> you  <seg xml:id="C29_app179-fThomas">come,</seg> if it will give you pain. My uncle will send me news of your  <seg xml:id="C29_app181-fThomas">health;</seg> and if I see but one smile on your lips when we  <seg xml:id="C29_app183-fThomas">meet,</seg> occasioned by this  <seg xml:id="C29_app185-fThomas">or any other exertion of</seg>
@@ -298,26 +271,11 @@
             <seg xml:id="C29_app509-fThomas">deprived.”</seg>
          </p>
          <p xml:id="novel1_letter4_chapter21_div4_div23_p31"> Such were the <seg xml:id="C29_app511-fThomas">
-               <del xmlns:mith="http://mith.umd.edu/sc/ns1#"
-                     xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-                     xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-                     ana="start"
-                     rend="strikethrough"
-                     n="107"/>lessons of<del ana="end"/>
-               <add xmlns:mith="http://mith.umd.edu/sc/ns1#"
-                     xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-                     xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-                     ana="start"
-                     place="margin"
-                     n="107"/>views<add ana="end"/>
+               <del rend="strikethrough" n="107">lessons of</del>
+               <add place="margin" n="107">views</add>
             </seg> my  <seg xml:id="C29_app513-fThomas">father</seg>
             <seg xml:id="C29_app514-fThomas">
-               <add xmlns:mith="http://mith.umd.edu/sc/ns1#"
-                     xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-                     xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-                     ana="start"
-                     place="margin"
-                     n="107"/>entertained<add ana="end"/> . But to me the</seg>
+               <add place="margin" n="107">entertained</add> . But to me the</seg>
             <seg xml:id="C29_app515-fThomas">remembrance of the</seg> threat   <seg xml:id="C29_app517-fThomas">returned:</seg> nor can you  <seg xml:id="C29_app519-fThomas">wonder, that,</seg> omnipotent as the fiend  <seg xml:id="C29_app521-fThomas">had</seg> yet been in his deeds of  <seg xml:id="C29_app523-fThomas">blood,</seg> I should almost regard him as  <seg xml:id="C29_app525-fThomas">invincible;</seg> and that when he had pronounced the   <seg xml:id="C29_app528-fThomas">words,</seg>
             <seg part="I" xml:id="C29_app529-fThomas__I">“</seg>
             <hi xml:id="novel1_letter4_chapter21_div4_div23_p31_hi1">
@@ -335,22 +293,8 @@
             <seg xml:id="C29_app601-fThomas">received;</seg> and all wore a smiling  <seg xml:id="C29_app603-fThomas">appearance. I</seg> shut  <seg xml:id="C29_app605-fThomas">up,</seg> as well as I could, in my own heart the anxiety that preyed  <seg xml:id="C29_app607-fThomas">there,</seg> and entered with seeming earnestness into the plans of my  <seg xml:id="C29_app609-fThomas">father,</seg> although they might only serve as the decorations of my tragedy.  <seg xml:id="C29_app611-fThomas">A house was purchased for us near Cologny, by which we should enjoy the pleasures of the country, and yet be so near Geneva as to see my father every day; who would still reside within the walls, for the benefit of Ernest, that he might follow his studies at the schools.</seg>
          </p>
          <p xml:id="novel1_letter4_chapter21_div4_div23_p35">
-            <pb xml:id="F1818_v3_114" n="110"/>In the mean time I took every precaution to defend my <seg xml:id="C29_app613-fThomas">person,</seg> in case the fiend should  <seg xml:id="C29_app615-fThomas">openly attack me.</seg> I carried pistols and a dagger constantly about  <seg xml:id="C29_app617-fThomas">me,</seg> and was ever on the watch to prevent  <seg xml:id="C29_app619-fThomas">artifice;</seg> and by these means  <seg xml:id="C29_app621-fThomas">gained <add xmlns:mith="http://mith.umd.edu/sc/ns1#"
-                     xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-                     xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-                     ana="start"
-                     place="margin"
-                     n="110"/>I imagined<add ana="end"/> a greater degree of <del xmlns:mith="http://mith.umd.edu/sc/ns1#"
-                     xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-                     xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-                     ana="start"
-                     rend="strikethrough"
-                     n="110"/>tranquillity<del ana="end"/>
-               <add xmlns:mith="http://mith.umd.edu/sc/ns1#"
-                     xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-                     xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-                     ana="start"
-                     n="110"/>security<add ana="end"/>. Indeed,</seg> as the period  <seg xml:id="C29_app623-fThomas">approached,</seg> the threat  <seg xml:id="C29_app625-fThomas">appeared more as</seg>
+            <pb xml:id="F1818_v3_114" n="110"/>In the mean time I took every precaution to defend my <seg xml:id="C29_app613-fThomas">person,</seg> in case the fiend should  <seg xml:id="C29_app615-fThomas">openly attack me.</seg> I carried pistols and a dagger constantly about  <seg xml:id="C29_app617-fThomas">me,</seg> and was ever on the watch to prevent  <seg xml:id="C29_app619-fThomas">artifice;</seg> and by these means  <seg xml:id="C29_app621-fThomas">gained <add place="margin" n="110">I imagined</add> a greater degree of <del rend="strikethrough" n="110">tranquillity</del>
+               <add n="110">security</add>. Indeed,</seg> as the period  <seg xml:id="C29_app623-fThomas">approached,</seg> the threat  <seg xml:id="C29_app625-fThomas">appeared more as</seg>
             <seg xml:id="C29_app626-fThomas">a</seg>
             <seg xml:id="C29_app627-fThomas">delusion,</seg> not to be regarded as worthy to disturb  <seg xml:id="C29_app629-fThomas">my peace,</seg> while the happiness I hoped for in my marriage wore a  <seg xml:id="C29_app631-fThomas">greater</seg> appearance of  <seg xml:id="C29_app633-fThomas">certainty,</seg> as  <seg xml:id="C29_app635-fThomas">the</seg>
             <seg xml:id="C29_app636-fThomas">day fixed for</seg> its  <seg xml:id="C29_app638-fThomas">solemnization</seg>
@@ -365,28 +309,10 @@
             <seg xml:id="C29_app659-fThomas">overjoyed; and, in the bustle of</seg>
             <seg xml:id="C29_app660-fThomas">preparation,</seg> only  <seg xml:id="C29_app662-fThomas">observed</seg> in the melancholy of his  <seg xml:id="C29_app664-fThomas">niece</seg> the diffidence of a bride. </p>
          <p xml:id="novel1_letter4_chapter21_div4_div23_p37"> After the <seg xml:id="C29_app666-fThomas">ceremony</seg> was  <seg xml:id="C29_app668-fThomas">performed,</seg> a large party assembled at my  <seg xml:id="C29_app670-fThomas">father’s;</seg> but it was agreed that Elizabeth and I should  <seg xml:id="C29_app672-fThomas">
-               <del xmlns:mith="http://mith.umd.edu/sc/ns1#"
-                     xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-                     xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-                     ana="start"
-                     rend="strikethrough"
-                     n="111"/> pass the afternoon and night <del ana="end"/>
-            </seg> at  <seg xml:id="C29_app674-fThomas">Evian<del xmlns:mith="http://mith.umd.edu/sc/ns1#"
-                     xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-                     xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-                     ana="start"
-                     rend="strikethrough"
-                     n="111"/>,<del ana="end"/>
-               <add xmlns:mith="http://mith.umd.edu/sc/ns1#"
-                     xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-                     xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-                     ana="start"
-                     n="111"/>.<add ana="end"/>
-               <del xmlns:mith="http://mith.umd.edu/sc/ns1#"
-                     xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-                     xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-                     ana="start"
-                     n="111"/>and return to Cologny the next morning.<del ana="end"/> As the day was fair,</seg>
+               <del rend="strikethrough" n="111"> pass the afternoon and night </del>
+            </seg> at  <seg xml:id="C29_app674-fThomas">Evian<del rend="strikethrough" n="111">,</del>
+               <add n="111">.</add>
+               <del n="111">and return to Cologny the next morning.</del> As the day was fair,</seg>
             <seg xml:id="C29_app675-fThomas">and</seg>
             <seg xml:id="C29_app676-fThomas">the wind</seg>
             <seg xml:id="C29_app677-fThomas">favourable,</seg>
@@ -401,13 +327,8 @@
             <seg xml:id="C29_app717-fThomas">country,</seg> and an almost insurmountable barrier to the  <seg xml:id="C29_app719-fThomas">invader who</seg> should  <seg xml:id="C29_app721-fThomas">wish to enslave</seg> it. </p>
          <p xml:id="novel1_letter4_chapter21_div4_div23_p39">
             <seg xml:id="C29_app723-fThomas">
-               <add xmlns:mith="http://mith.umd.edu/sc/ns1#"
-                     xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-                     xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-                     ana="start"
-                     place="bottom_and_following_pages"
-                     n="112"/>
-               <del-INNER ana="start" rend="strikethrough"/>Why<del-INNER ana="end"/> Then gazing on the beloved face of Elizabeth on her graceful form and languid eyes, <del-INNER ana="start" rend="strikethrough"/>of with<del-INNER ana="end"/> instead of feeling the exultation of a—lover—a husband—<del-INNER ana="start" rend="strikethrough"/>in<del-INNER ana="end"/> a sudden gush of tears blinded my sight, &amp; as I turned away to hide the involuntary emotion fast drops fell<pb n="113"/> in the wave below. Reason again awoke, and shaking off all unmanly—or more properly all natural thoughts of mischance, I smiled as<add ana="end"/> I took the hand of</seg>
+               <add place="bottom_and_following_pages" n="112">
+                  <del-INNER rend="strikethrough">Why</del-INNER> Then gazing on the beloved face of Elizabeth on her graceful form and languid eyes, <del-INNER rend="strikethrough">of with</del-INNER> instead of feeling the exultation of a—lover—a husband—<del-INNER rend="strikethrough">in</del-INNER> a sudden gush of tears blinded my sight, &amp; as I turned away to hide the involuntary emotion fast drops fell<pb n="113"/> in the wave below. Reason again awoke, and shaking off all unmanly—or more properly all natural thoughts of mischance, I smiled as</add> I took the hand of</seg>
             <seg xml:id="C29_app724-fThomas">Elizabeth: “You</seg> are  <seg xml:id="C29_app726-fThomas">sorrowful, my love. Ah!</seg> if you knew what I have  <seg xml:id="C29_app728-fThomas">suffered,</seg> and what I may  <seg xml:id="C29_app730-fThomas">yet endure,</seg> you would endeavour to  <seg xml:id="C29_app732-fThomas">let me taste the</seg>
             <seg xml:id="C29_app733-fThomas">quiet,</seg> and freedom from  <seg xml:id="C29_app735-fThomas">despair,</seg> that this one day at least permits me to  <seg xml:id="C29_app737-fThomas">enjoy.”</seg>
          </p>

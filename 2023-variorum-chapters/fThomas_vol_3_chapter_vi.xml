@@ -1,8 +1,5 @@
 <?xml version="1.1" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-      xmlns:fv="https://frankensteinvariorum.github.io"
-      xmlns:tei="http://www.tei-c.org/ns/1.0"
-      xmlns:var="https://frankensteinvariorum.github.io">
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -20,7 +17,7 @@
          <sourceDesc>
             <p>Produced from a corpus of collation output files for
                                                 the Frankenstein Variorum digital edition on
-                                                  2023-08-10T06:06:09.361347-04:00.</p>
+                                                  2023-08-13T15:57:48.023766-04:00.</p>
          </sourceDesc>
       </fileDesc>
    </teiHeader>
@@ -30,23 +27,13 @@
          <milestone unit="chapter" type="start" n="22"/>
          <pb xml:id="F1818_v3_120" n="116"/>
          <seg part="I" xml:id="C30_app2-fThomas__I">
-            <head ana="start"/>CHAPTER VI.<head ana="end"/>
+            <head>CHAPTER VI.</head>
          </seg>
          <p xml:id="novel1_letter4_chapter22_div4_div24_p1">
             <seg part="F" xml:id="C30_app2-fThomas__F">I<hi xml:id="novel1_letter4_chapter22_div4_div24_p1_hi1">T</hi> was eight o’clock</seg> when we landed;  <seg xml:id="C30_app4-fThomas">
-               <del xmlns:mith="http://mith.umd.edu/sc/ns1#"
-                     xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-                     xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-                     ana="start"
-                     rend="strikethrough"
-                     n="116"/>we walked for a short time on the shore, enjoying the transitory light, and then retired to the inn,<del ana="end"/>
-               <add xmlns:mith="http://mith.umd.edu/sc/ns1#"
-                     xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-                     xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-                     ana="start"
-                     place="bottom_and_following_page"
-                     n="116"/>leaving the shore we sought the retreat of our house and garden. <del-INNER ana="start" rend="strikethrough"/>but<del-INNER ana="end"/>
-               <del-INNER ana="start" rend="overwritten"/>a<del-INNER ana="end"/>Again as I entered the iron gates of the demesne, an <del-INNER ana="start"/>unres<del-INNER ana="end"/> unexplainable feeling bade me hold—yet Elizabeth <pb n="117"/>unwarned, and fearless passed on, and I, again half ashamed—&amp; for the first time dreading lest any unholy sight should meet her sense, any shadow of the fiend, should cross her, <del-INNER ana="start"/>I<del-INNER ana="end"/> hastily walked on, and passing my arm round her prayed with a feeling of bitter tenderness, that she might never suffer ill. Thus we entered the <del-INNER ana="start" rend="strikethrough"/>ar<del-INNER ana="end"/> mansion—and still not speaking, for both our hearts were too full, we went to a balcony that overhung the lake<add ana="end"/>
+               <del rend="strikethrough" n="116">we walked for a short time on the shore, enjoying the transitory light, and then retired to the inn,</del>
+               <add place="bottom_and_following_page" n="116">leaving the shore we sought the retreat of our house and garden. <del-INNER rend="strikethrough">but</del-INNER>
+                  <del-INNER rend="overwritten">a</del-INNER>Again as I entered the iron gates of the demesne, an <del-INNER>unres</del-INNER> unexplainable feeling bade me hold—yet Elizabeth <pb n="117"/>unwarned, and fearless passed on, and I, again half ashamed—&amp; for the first time dreading lest any unholy sight should meet her sense, any shadow of the fiend, should cross her, <del-INNER>I</del-INNER> hastily walked on, and passing my arm round her prayed with a feeling of bitter tenderness, that she might never suffer ill. Thus we entered the <del-INNER rend="strikethrough">ar</del-INNER> mansion—and still not speaking, for both our hearts were too full, we went to a balcony that overhung the lake</add>
             </seg> and contemplated the lovely scene of waters,  <seg xml:id="C30_app6-fThomas">woods,</seg> and  <seg xml:id="C30_app8-fThomas">mountains,</seg> obscured in  <seg xml:id="C30_app10-fThomas">darkness,</seg> yet still  <seg xml:id="C30_app12-fThomas">displaying their</seg> black  <seg part="I" xml:id="C30_app14-fThomas__I">outlines. </seg>
          </p>
          <p xml:id="novel1_letter4_chapter22_div4_div24_p2">
@@ -81,48 +68,22 @@
             <seg xml:id="C30_app139-fThomas">destruction</seg> of the best  <seg xml:id="C30_app141-fThomas">hope,</seg> and  <seg xml:id="C30_app143-fThomas">the</seg> purest creature of   <seg xml:id="C30_app145-fThomas">earth.</seg> She was  <seg xml:id="C30_app147-fThomas">there,</seg> lifeless and  <seg xml:id="C30_app149-fThomas">inanimate,</seg> thrown across the  <seg xml:id="C30_app151-fThomas">bed,</seg> her head hanging  <seg xml:id="C30_app153-fThomas">down, and</seg> her pale and distorted features half covered by   <seg xml:id="C30_app156-fThomas">her hair.</seg> Every where I turn I see the same  <seg xml:id="C30_app158-fThomas">figure—her</seg> bloodless arms and relaxed  <seg xml:id="C30_app160-fThomas">form</seg> flung by the murderer on its  <seg xml:id="C30_app162-fThomas">bridal</seg>
             <seg xml:id="C30_app163-fThomas">bier.</seg> Could I behold  <seg xml:id="C30_app165-fThomas">this,</seg> and  <seg xml:id="C30_app167-fThomas">live? Alas!</seg> life is  <seg xml:id="C30_app169-fThomas">obstinate, and</seg> clings closest where it <pb xml:id="F1818_v3_124" n="120"/>is most  <seg xml:id="C30_app172-fThomas">hated.</seg> For a moment only did I lose  <seg xml:id="C30_app174-fThomas">recollection;</seg> I  <seg xml:id="C30_app176-fThomas">fainted.</seg>
          </p>
-         <p xml:id="novel1_letter4_chapter22_div4_div24_p9"> When I <seg xml:id="C30_app178-fThomas">recovered,</seg> I found myself  <seg xml:id="C30_app180-fThomas">surrounded by <del xmlns:mith="http://mith.umd.edu/sc/ns1#"
-                     xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-                     xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-                     ana="start"
-                     rend="strikethrough"
-                     n="120"/>the people of the inn<del ana="end"/>
-               <add xmlns:mith="http://mith.umd.edu/sc/ns1#"
-                     xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-                     xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-                     ana="start"
-                     place="margin"
-                     n="120"/>servants<add ana="end"/> ;</seg> their countenances expressed a breathless  <seg xml:id="C30_app182-fThomas">terror:</seg> but the horror of others appeared  <seg xml:id="C30_app184-fThomas">only as</seg> a   <seg xml:id="C30_app186-fThomas">mockery,</seg> a shadow of the feelings that   <seg xml:id="C30_app189-fThomas">oppressed</seg> me. I escaped from them  <seg xml:id="C30_app191-fThomas">to the room</seg> where lay the body of   <seg xml:id="C30_app193-fThomas">Elizabeth,</seg> my  <seg xml:id="C30_app195-fThomas">love,</seg> my  <seg xml:id="C30_app197-fThomas">wife,</seg> so lately  <seg xml:id="C30_app199-fThomas">living,</seg> so  <seg xml:id="C30_app201-fThomas">dear, so worthy.</seg> She had been moved from the posture in which I had first beheld  <seg xml:id="C30_app203-fThomas">her;</seg> and  <seg xml:id="C30_app205-fThomas">now,</seg> as she  <seg xml:id="C30_app207-fThomas">lay,</seg> her head upon her  <seg xml:id="C30_app209-fThomas">arm,</seg> and  <seg xml:id="C30_app211-fThomas">a</seg>
+         <p xml:id="novel1_letter4_chapter22_div4_div24_p9"> When I <seg xml:id="C30_app178-fThomas">recovered,</seg> I found myself  <seg xml:id="C30_app180-fThomas">surrounded by <del rend="strikethrough" n="120">the people of the inn</del>
+               <add place="margin" n="120">servants</add> ;</seg> their countenances expressed a breathless  <seg xml:id="C30_app182-fThomas">terror:</seg> but the horror of others appeared  <seg xml:id="C30_app184-fThomas">only as</seg> a   <seg xml:id="C30_app186-fThomas">mockery,</seg> a shadow of the feelings that   <seg xml:id="C30_app189-fThomas">oppressed</seg> me. I escaped from them  <seg xml:id="C30_app191-fThomas">to the room</seg> where lay the body of   <seg xml:id="C30_app193-fThomas">Elizabeth,</seg> my  <seg xml:id="C30_app195-fThomas">love,</seg> my  <seg xml:id="C30_app197-fThomas">wife,</seg> so lately  <seg xml:id="C30_app199-fThomas">living,</seg> so  <seg xml:id="C30_app201-fThomas">dear, so worthy.</seg> She had been moved from the posture in which I had first beheld  <seg xml:id="C30_app203-fThomas">her;</seg> and  <seg xml:id="C30_app205-fThomas">now,</seg> as she  <seg xml:id="C30_app207-fThomas">lay,</seg> her head upon her  <seg xml:id="C30_app209-fThomas">arm,</seg> and  <seg xml:id="C30_app211-fThomas">a</seg>
             <seg xml:id="C30_app212-fThomas">handkerchief</seg> thrown across her face and  <seg xml:id="C30_app214-fThomas">neck,</seg> I might have supposed her  <seg xml:id="C30_app216-fThomas">asleep.</seg> I rushed  <seg xml:id="C30_app218-fThomas">towards her, and embraced</seg> her with  <seg xml:id="C30_app220-fThomas">ardour;</seg> but the  <seg xml:id="C30_app222-fThomas">deathly languor and</seg> coldness of the  <seg xml:id="C30_app224-fThomas">limbs</seg> told  <seg xml:id="C30_app226-fThomas">me,</seg> that what I now held in my arms had ceased to be the Elizabeth whom I had loved and  <seg xml:id="C30_app228-fThomas">cherished.</seg> The <pb xml:id="F1818_v3_125" n="121"/>murderous <seg xml:id="C30_app230-fThomas">mark</seg> of the  <seg xml:id="C30_app232-fThomas">fiend’s grasp</seg> was on her  <seg xml:id="C30_app234-fThomas">neck,</seg> and the breath had ceased to issue from her  <seg part="I" xml:id="C30_app236-fThomas__I">lips. </seg>
          </p>
          <p xml:id="novel1_letter4_chapter22_div4_div24_p10">
             <seg part="F" xml:id="C30_app236-fThomas__F"> While I still</seg>
             <seg xml:id="C30_app237-fThomas">hung over</seg> her  <seg xml:id="C30_app239-fThomas">in the agony of</seg>
-            <seg xml:id="C30_app240-fThomas">despair,</seg> I happened to look up.  <seg xml:id="C30_app242-fThomas">The windows of the room</seg> had before been  <seg xml:id="C30_app244-fThomas">darkened;</seg> and I felt a kind of panic on seeing the pale yellow light of the moon illuminate the  <seg xml:id="C30_app246-fThomas">chamber.</seg> The shutters had been thrown  <seg xml:id="C30_app248-fThomas">back; and,</seg> with a sensation of horror not to be  <seg xml:id="C30_app250-fThomas">described,</seg> I saw at the open window a figure the most hideous and  <seg xml:id="C30_app252-fThomas">abhorred.</seg> A grin was on the face of the  <seg xml:id="C30_app254-fThomas">monster;</seg> he seemed to   <seg xml:id="C30_app257-fThomas">jeer,</seg> as with his fiendish finger he pointed towards the corpse of my  <seg xml:id="C30_app259-fThomas">wife. I</seg> rushed towards the  <seg xml:id="C30_app261-fThomas">window,</seg> and drawing a pistol from my  <seg xml:id="C30_app263-fThomas">bosom, <del xmlns:mith="http://mith.umd.edu/sc/ns1#"
-                     xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-                     xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-                     ana="start"
-                     rend="strikethrough"
-                     n="121"/>shot<del ana="end"/>
-               <add xmlns:mith="http://mith.umd.edu/sc/ns1#"
-                     xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-                     xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-                     ana="start"
-                     place="margin"
-                     medium="pencil"
-                     n="121"/>fiered<add ana="end"/>;</seg> but he eluded   <seg xml:id="C30_app266-fThomas">me, leaped</seg> from his  <seg xml:id="C30_app268-fThomas">station, and,</seg> running with  <seg xml:id="C30_app270-fThomas">the</seg> swiftness of   <seg xml:id="C30_app272-fThomas">lightning,</seg> plunged  <seg part="I" xml:id="C30_app274-fThomas__I">into the lake.</seg>
+            <seg xml:id="C30_app240-fThomas">despair,</seg> I happened to look up.  <seg xml:id="C30_app242-fThomas">The windows of the room</seg> had before been  <seg xml:id="C30_app244-fThomas">darkened;</seg> and I felt a kind of panic on seeing the pale yellow light of the moon illuminate the  <seg xml:id="C30_app246-fThomas">chamber.</seg> The shutters had been thrown  <seg xml:id="C30_app248-fThomas">back; and,</seg> with a sensation of horror not to be  <seg xml:id="C30_app250-fThomas">described,</seg> I saw at the open window a figure the most hideous and  <seg xml:id="C30_app252-fThomas">abhorred.</seg> A grin was on the face of the  <seg xml:id="C30_app254-fThomas">monster;</seg> he seemed to   <seg xml:id="C30_app257-fThomas">jeer,</seg> as with his fiendish finger he pointed towards the corpse of my  <seg xml:id="C30_app259-fThomas">wife. I</seg> rushed towards the  <seg xml:id="C30_app261-fThomas">window,</seg> and drawing a pistol from my  <seg xml:id="C30_app263-fThomas">bosom, <del rend="strikethrough" n="121">shot</del>
+               <add place="margin" medium="pencil" n="121">fiered</add>;</seg> but he eluded   <seg xml:id="C30_app266-fThomas">me, leaped</seg> from his  <seg xml:id="C30_app268-fThomas">station, and,</seg> running with  <seg xml:id="C30_app270-fThomas">the</seg> swiftness of   <seg xml:id="C30_app272-fThomas">lightning,</seg> plunged  <seg part="I" xml:id="C30_app274-fThomas__I">into the lake.</seg>
          </p>
          <p xml:id="novel1_letter4_chapter22_div4_div24_p11">
             <seg part="F" xml:id="C30_app274-fThomas__F">
                </seg>
             <pb xml:id="F1818_v3_126" n="122"/>The report of <seg xml:id="C30_app276-fThomas">the</seg> pistol brought a  <seg xml:id="C30_app278-fThomas">crowd</seg> into the  <seg xml:id="C30_app280-fThomas">room. I pointed to the spot</seg> where he had  <seg xml:id="C30_app282-fThomas">disappeared, and we</seg> followed  <seg xml:id="C30_app284-fThomas">the track</seg> with  <seg xml:id="C30_app286-fThomas">boats; nets were cast,</seg> but in  <seg xml:id="C30_app288-fThomas">vain. After</seg> passing several  <seg xml:id="C30_app290-fThomas">hours, we</seg> returned  <seg xml:id="C30_app292-fThomas">hopeless, most</seg> of my companions  <seg xml:id="C30_app294-fThomas">believing</seg>
             <seg xml:id="C30_app295-fThomas">it to have been a form conjured</seg> by my fancy.  <seg xml:id="C30_app297-fThomas">After having</seg>
-            <seg xml:id="C30_app298-fThomas">landed,</seg> they proceeded to search the  <seg xml:id="C30_app300-fThomas">country, parties going in different directions among the woods and vines.<note xmlns:mith="http://mith.umd.edu/sc/ns1#"
-                      xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-                      xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-                      ana="start"
-                      resp="#ebb"
-                      n="122"/>Thomas copy: pencil mark joins paragraphs.<note ana="end"/>
+            <seg xml:id="C30_app298-fThomas">landed,</seg> they proceeded to search the  <seg xml:id="C30_app300-fThomas">country, parties going in different directions among the woods and vines.<note resp="#ebb" n="122">Thomas copy: pencil mark joins paragraphs.</note>
             </seg> I  <seg xml:id="C30_app302-fThomas">did not</seg> accompany  <seg xml:id="C30_app304-fThomas">them;</seg> I  <seg xml:id="C30_app306-fThomas">was exhausted:</seg> a film covered my  <seg xml:id="C30_app308-fThomas">eyes,</seg> and my  <seg xml:id="C30_app310-fThomas">skin</seg> was parched with   <seg xml:id="C30_app313-fThomas">the heat of fever. In this state I</seg>
             <seg xml:id="C30_app314-fThomas">lay</seg> on a  <seg xml:id="C30_app316-fThomas">bed,</seg> hardly conscious of what had  <seg xml:id="C30_app318-fThomas">happened;</seg> my eyes wandered round the  <seg xml:id="C30_app320-fThomas">room,</seg> as if to seek  <seg part="I" xml:id="C30_app322-fThomas__I">something that I had lost.</seg>
          </p>

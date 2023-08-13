@@ -1,8 +1,5 @@
 <?xml version="1.1" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-      xmlns:fv="https://frankensteinvariorum.github.io"
-      xmlns:tei="http://www.tei-c.org/ns/1.0"
-      xmlns:var="https://frankensteinvariorum.github.io">
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -20,7 +17,7 @@
          <sourceDesc>
             <p>Produced from a corpus of collation output files for
                                                 the Frankenstein Variorum digital edition on
-                                                  2023-08-10T06:06:09.361347-04:00.</p>
+                                                  2023-08-13T15:57:48.023766-04:00.</p>
          </sourceDesc>
       </fileDesc>
    </teiHeader>
@@ -35,7 +32,7 @@
          </seg>
          <pb xml:id="F1818_v3_025" n="021"/>
          <seg xml:id="C25_app37-fThomas">
-            <head ana="start"/>CHAPTER II.<head ana="end"/>
+            <head>CHAPTER II.</head>
          </seg>
          <p xml:id="novel1_letter4_chapter18_div4_div20_p1">
             <seg xml:id="C25_app39-fThomas">L<hi xml:id="novel1_letter4_chapter18_div4_div20_p1_hi1">ONDON</hi>
@@ -131,12 +128,7 @@
          </p>
          <p xml:id="novel1_letter4_chapter18_div4_div20_p15">
             <seg part="F" xml:id="C25_app512-fThomas__F">
-               </seg> We left  <seg xml:id="C25_app514-fThomas">Edinburgh</seg> in a  <seg xml:id="C25_app516-fThomas">week,</seg> passing through  <seg xml:id="C25_app518-fThomas">C <del xmlns:mith="http://mith.umd.edu/sc/ns1#"
-                     xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-                     xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-                     ana="start"
-                     rend="strikethrough"
-                     n="033"/>o<del ana="end"/> upar,</seg>
+               </seg> We left  <seg xml:id="C25_app514-fThomas">Edinburgh</seg> in a  <seg xml:id="C25_app516-fThomas">week,</seg> passing through  <seg xml:id="C25_app518-fThomas">C <del rend="strikethrough" n="033">o</del> upar,</seg>
             <seg xml:id="C25_app519-fThomas">St.</seg>
             <seg xml:id="C25_app520-fThomas">Andrews,</seg> and along  <seg xml:id="C25_app522-fThomas">the banks of the</seg>
             <seg xml:id="C25_app523-fThomas">Tay,</seg> to  <seg xml:id="C25_app525-fThomas">Perth,</seg> where our friend expected  <seg xml:id="C25_app527-fThomas">us.</seg> But I was  <seg xml:id="C25_app529-fThomas">in</seg>

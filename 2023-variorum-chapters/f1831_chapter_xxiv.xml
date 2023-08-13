@@ -1,8 +1,5 @@
 <?xml version="1.1" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-      xmlns:fv="https://frankensteinvariorum.github.io"
-      xmlns:tei="http://www.tei-c.org/ns/1.0"
-      xmlns:var="https://frankensteinvariorum.github.io">
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -20,7 +17,7 @@
          <sourceDesc>
             <p>Produced from a corpus of collation output files for
                                                 the Frankenstein Variorum digital edition on
-                                                  2023-08-10T06:06:09.361347-04:00.</p>
+                                                  2023-08-13T15:57:48.023766-04:00.</p>
          </sourceDesc>
       </fileDesc>
    </teiHeader>
@@ -29,7 +26,7 @@
          <anchor type="semantic" subtype="start" xml:id="f1831_chapter_xxiv"/>
          <milestone unit="chapter" type="start" n="24"/>
          <seg part="I" xml:id="C31_app4-f1831__I">
-            <head ana="start"/>CHAPTER XXIV.<head ana="end"/>
+            <head>CHAPTER XXIV.</head>
          </seg>
          <p xml:id="novel1_letter4_chapter24_div4_div24_p1">
             <seg part="F" xml:id="C31_app4-f1831__F">M<hi xml:id="novel1_letter4_chapter24_div4_div24_p1_hi1">Y</hi> present situation was</seg> one in which all voluntary thought was swallowed up and lost.   <seg xml:id="C31_app7-f1831">I was hurried away by</seg>
@@ -233,7 +230,7 @@
          </seg>
          <anchor type="collate" xml:id="C32"/>
          <seg xml:id="C32_app2-f1831">
-            <head ana="start"/>W<hi xml:id="novel1_letter4_div4_head3_hi1">ALTON</hi>, <hi xml:id="novel1_letter4_div4_head3_hi2">in continuation</hi>.<head ana="end"/>
+            <head>W<hi xml:id="novel1_letter4_div4_head3_hi1">ALTON</hi>, <hi xml:id="novel1_letter4_div4_head3_hi2">in continuation</hi>.</head>
          </seg>
          <p xml:id="novel1_letter4_div4_p39">
             <seg xml:id="C32_app4-f1831">August</seg>
@@ -556,7 +553,7 @@
             <seg part="I" xml:id="C33_app1385-f1831__I">darkness and distance.</seg>
          </p>
          <seg part="F" xml:id="C33_app1385-f1831__F">
-            <head ana="start"/>THE END.<head ana="end"/>
+            <head>THE END.</head>
             <milestone unit="letter" type="end" n="4"/>
             <milestone unit="novel" type="end" n="1"/>
             <milestone unit="backmatter" type="start" n="1"/>

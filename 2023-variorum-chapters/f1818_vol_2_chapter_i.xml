@@ -1,8 +1,5 @@
 <?xml version="1.1" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-      xmlns:fv="https://frankensteinvariorum.github.io"
-      xmlns:tei="http://www.tei-c.org/ns/1.0"
-      xmlns:var="https://frankensteinvariorum.github.io">
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -20,7 +17,7 @@
          <sourceDesc>
             <p>Produced from a corpus of collation output files for
                                                 the Frankenstein Variorum digital edition on
-                                                  2023-08-10T06:06:09.361347-04:00.</p>
+                                                  2023-08-13T15:57:48.023766-04:00.</p>
          </sourceDesc>
       </fileDesc>
    </teiHeader>
@@ -29,7 +26,7 @@
          <anchor type="semantic" subtype="start" xml:id="f1818_vol_2_chapter_i"/>
          <milestone unit="chapter" type="start" n="8"/>
          <seg xml:id="C15_app2-f1818">
-            <head ana="start"/>CHAPTER I.<head ana="end"/>
+            <head>CHAPTER I.</head>
          </seg>
          <seg part="I" xml:id="C15_app3-f1818__I">
             </seg>

@@ -1,8 +1,5 @@
 <?xml version="1.1" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-      xmlns:fv="https://frankensteinvariorum.github.io"
-      xmlns:tei="http://www.tei-c.org/ns/1.0"
-      xmlns:var="https://frankensteinvariorum.github.io">
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -20,7 +17,7 @@
          <sourceDesc>
             <p>Produced from a corpus of collation output files for
                                                 the Frankenstein Variorum digital edition on
-                                                  2023-08-10T06:06:09.361347-04:00.</p>
+                                                  2023-08-13T15:57:48.023766-04:00.</p>
          </sourceDesc>
       </fileDesc>
    </teiHeader>
@@ -30,23 +27,17 @@
          <seg part="I" xml:id="C13_app2-fThomas__I">
             <anchor type="collate" xml:id="C13"/>
             <milestone unit="chapter" type="start" n="6"/>
-            <head ana="start"/>CHAPTER VI.<head ana="end"/>
+            <head>CHAPTER VI.</head>
          </seg>
          <p xml:id="novel1_letter4_chapter6_div4_div6_p1">
             <seg part="F" xml:id="C13_app2-fThomas__F">O<hi xml:id="novel1_letter4_chapter6_div4_div6_p1_hi1">N</hi>
             </seg> my  <seg xml:id="C13_app4-fThomas">return,</seg> I found the following letter from my  <seg part="I" xml:id="C13_app6-fThomas__I">father:—</seg>
          </p>
          <seg part="M" xml:id="C13_app6-fThomas__M">
-            <del xmlns:mith="http://mith.umd.edu/sc/ns1#"
-                  xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-                  xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-                  ana="start"
-                  rend="strikethrough"
-                  medium="pencil"
-                  n="134"/>
-            <ab xml:id="novel1_letter4_chapter6_div4_div6_del1_ab1">
-               <hi xml:id="novel1_letter4_chapter6_div4_div6_del1_ab1_hi1">”To</hi> V. F<hi xml:id="novel1_letter4_chapter6_div4_div6_del1_ab1_hi2">RANKENSTEIN</hi>.</ab>
-            <del ana="end"/>
+            <del rend="strikethrough" medium="pencil" n="134">
+               <ab xml:id="novel1_letter4_chapter6_div4_div6_del1_ab1">
+                  <hi xml:id="novel1_letter4_chapter6_div4_div6_del1_ab1_hi1">”To</hi> V. F<hi xml:id="novel1_letter4_chapter6_div4_div6_del1_ab1_hi2">RANKENSTEIN</hi>.</ab>
+            </del>
             <p xml:id="novel1_letter4_chapter6_div4_div6_p2">“<hi xml:id="novel1_letter4_chapter6_div4_div6_p2_hi1">MY DEAR VICTOR</hi>,</p>
          </seg>
          <p xml:id="novel1_letter4_chapter6_div4_div6_p3">
@@ -85,34 +76,14 @@
          <p xml:id="novel1_letter4_chapter6_div4_div6_p9">
             <seg xml:id="C13_app167-fThomas">“She fainted,</seg> and was  <seg xml:id="C13_app169-fThomas">restored</seg> with extreme  <seg xml:id="C13_app171-fThomas">difficulty.</seg> When she again  <seg xml:id="C13_app173-fThomas">lived,</seg> it was only to weep and  <seg xml:id="C13_app175-fThomas">sigh.</seg>
             <pb xml:id="F1818_v1_150" n="138"/>She told <seg xml:id="C13_app177-fThomas">me,</seg> that that same evening William had  <seg xml:id="C13_app179-fThomas">
-               <del xmlns:mith="http://mith.umd.edu/sc/ns1#"
-                     xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-                     xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-                     ana="start"
-                     rend="strikethrough"
-                     n="138"/>teazed<del ana="end"/>
-               <add xmlns:mith="http://mith.umd.edu/sc/ns1#"
-                     xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-                     xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-                     ana="start"
-                     place="above"
-                     n="138"/>entreated<add ana="end"/>
+               <del rend="strikethrough" n="138">teazed</del>
+               <add place="above" n="138">entreated</add>
             </seg> her to let him  <seg xml:id="C13_app181-fThomas">wear a</seg>
             <seg xml:id="C13_app182-fThomas">
-               <del xmlns:mith="http://mith.umd.edu/sc/ns1#"
-                     xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-                     xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-                     ana="start"
-                     rend="strikethrough"
-                     n="138"/>very valuable<del ana="end"/>
+               <del rend="strikethrough" n="138">very valuable</del>
             </seg>
             <seg xml:id="C13_app183-fThomas">miniature that</seg> she possessed of your mother.  <seg xml:id="C13_app185-fThomas">
-               <add xmlns:mith="http://mith.umd.edu/sc/ns1#"
-                     xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-                     xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-                     ana="start"
-                     place="margin"
-                     n="138"/>Which was set in jewels. <add ana="end"/> This picture is</seg>
+               <add place="margin" n="138">Which was set in jewels. </add> This picture is</seg>
             <seg xml:id="C13_app186-fThomas">gone,</seg> and was doubtless the temptation which urged the murderer to the deed. We have no trace  <seg xml:id="C13_app188-fThomas">of</seg>
             <seg xml:id="C13_app189-fThomas">him at present, although</seg> our exertions  <seg xml:id="C13_app191-fThomas">to discover him are unremitted; but they will not restore my beloved</seg>
             <seg xml:id="C13_app192-fThomas">William.</seg>
@@ -193,27 +164,13 @@
                </seg>
             <seg xml:id="C13_app490-fThomas">It was completely dark</seg> when I arrived  <seg xml:id="C13_app492-fThomas">in the environs of Geneva;</seg> the gates of  <seg xml:id="C13_app494-fThomas">the town</seg> were already  <seg xml:id="C13_app496-fThomas">shut;</seg> and I  <seg xml:id="C13_app498-fThomas">was obliged</seg> to  <seg xml:id="C13_app500-fThomas">pass the</seg> night at  <seg xml:id="C13_app502-fThomas">
                <pb xml:id="F1818_v1_157" n="145"/>Secheron,</seg> a village  <seg xml:id="C13_app504-fThomas">half a league</seg>
-            <seg xml:id="C13_app505-fThomas">to the east of</seg> the  <seg xml:id="C13_app507-fThomas">city.</seg> The  <seg xml:id="C13_app509-fThomas">sky <add xmlns:mith="http://mith.umd.edu/sc/ns1#"
-                     xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-                     xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-                     ana="start"
-                     place="margin"
-                     n="145"/>above <add ana="end"/>
-            </seg> was  <seg xml:id="C13_app511-fThomas">serene; <del xmlns:mith="http://mith.umd.edu/sc/ns1#"
-                     xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-                     xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-                     ana="start"
-                     rend="strikethrough"
-                     n="145"/>and,<del ana="end"/>
+            <seg xml:id="C13_app505-fThomas">to the east of</seg> the  <seg xml:id="C13_app507-fThomas">city.</seg> The  <seg xml:id="C13_app509-fThomas">sky <add place="margin" n="145">above </add>
+            </seg> was  <seg xml:id="C13_app511-fThomas">serene; <del rend="strikethrough" n="145">and,</del>
             </seg> as I was unable to  <seg xml:id="C13_app513-fThomas">rest,</seg> I resolved to  <seg xml:id="C13_app515-fThomas">visit</seg> the spot where   <seg xml:id="C13_app517-fThomas">my</seg> poor William had been  <seg xml:id="C13_app519-fThomas">murdered.</seg> As I  <seg xml:id="C13_app521-fThomas">could not pass through the town,</seg> I  <seg xml:id="C13_app523-fThomas">was obliged to cross the lake in</seg> a  <seg xml:id="C13_app525-fThomas">boat to arrive at Plainpalais. During this short voyage</seg> I saw the lightnings  <seg xml:id="C13_app527-fThomas">playing on the summit of Mont Blanc</seg> in the most beautiful  <seg xml:id="C13_app529-fThomas">figures. The storm appeared to approach rapidly; and, on landing, I ascended</seg> a  <seg xml:id="C13_app531-fThomas">low hill,</seg> that I might observe  <seg xml:id="C13_app533-fThomas">its</seg> progress. It   <seg xml:id="C13_app535-fThomas">advanced; the heavens were clouded,</seg> and I soon felt the rain coming slowly in large  <seg xml:id="C13_app537-fThomas">drops,</seg> but its violence quickly  <seg xml:id="C13_app539-fThomas">increased.</seg>
             <seg part="I" xml:id="C13_app540-fThomas__I">
-               <add xmlns:mith="http://mith.umd.edu/sc/ns1#"
-                     xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-                     xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-                     ana="start"
-                     n="145"/>
-               <del-INNER ana="start"/>but<del-INNER ana="end"/>
-               <add-INNER ana="start" place="overtop"/>And<add-INNER ana="end"/> the clouds were gathering on the <del-INNER ana="start"/>ris<del-INNER ana="end"/> horison, mass rising above mass, while the lightning they emitted shewed their shapes and size.<add ana="end"/>
+               <add n="145">
+                  <del-INNER>but</del-INNER>
+                  <add-INNER place="overtop">And</add-INNER> the clouds were gathering on the <del-INNER>ris</del-INNER> horison, mass rising above mass, while the lightning they emitted shewed their shapes and size.</add>
             </seg>
          </p>
          <p xml:id="novel1_letter4_chapter6_div4_div6_p28">
@@ -252,18 +209,8 @@
             <seg xml:id="C13_app769-fThomas">being</seg> whom I myself had   <seg xml:id="C13_app771-fThomas">formed,</seg> and endued with life, had met me at midnight among the precipices of an inaccessible  <seg xml:id="C13_app773-fThomas">mountain. I remembered also the nervous fever with which I had been seized just at</seg> the  <seg xml:id="C13_app775-fThomas">time that I dated my creation, and which would give an air of delirium to a</seg> tale  <seg xml:id="C13_app777-fThomas">otherwise so</seg> utterly  <seg xml:id="C13_app779-fThomas">improbable.</seg> I  <seg xml:id="C13_app781-fThomas">well knew</seg> that if any other had  <seg xml:id="C13_app783-fThomas">communicated</seg> such a   <seg xml:id="C13_app785-fThomas">relation</seg> to   <seg xml:id="C13_app787-fThomas">me,</seg> I should have looked upon it as the ravings of  <seg xml:id="C13_app789-fThomas">insanity. Besides,</seg> the strange nature of the animal would  <seg xml:id="C13_app791-fThomas">elude all</seg> pursuit, even if I were so far  <seg xml:id="C13_app793-fThomas">credited</seg>
             <seg xml:id="C13_app794-fThomas">as to persuade</seg>
             <seg xml:id="C13_app795-fThomas">my</seg> relatives to commence   <seg xml:id="C13_app797-fThomas">it. <pb xml:id="F1818_v1_163" n="151"/>
-               <del xmlns:mith="http://mith.umd.edu/sc/ns1#"
-                     xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-                     xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-                     ana="start"
-                     rend="strikethrough"
-                     n="151"/>Besides<del ana="end"/>
-               <add xmlns:mith="http://mith.umd.edu/sc/ns1#"
-                     xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-                     xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-                     ana="start"
-                     place="margin"
-                     n="151"/>And<add ana="end"/>,</seg> of what use would be pursuit? Who could arrest a creature  <seg xml:id="C13_app799-fThomas">capable of</seg>
+               <del rend="strikethrough" n="151">Besides</del>
+               <add place="margin" n="151">And</add>,</seg> of what use would be pursuit? Who could arrest a creature  <seg xml:id="C13_app799-fThomas">capable of</seg>
             <seg xml:id="C13_app800-fThomas">scaling</seg> the  <seg xml:id="C13_app802-fThomas">overhanging</seg> sides of   <seg xml:id="C13_app804-fThomas">Mont Salêve?</seg> These reflections determined me, and I resolved to  <seg xml:id="C13_app806-fThomas">remain</seg> silent. </p>
          <p xml:id="novel1_letter4_chapter6_div4_div6_p33"> It was about five in the morning when I entered my  <seg xml:id="C13_app808-fThomas">father’s</seg> house. I told the servants not to disturb the family, and went into the library to attend their usual   <seg xml:id="C13_app811-fThomas">hour</seg> of rising.  <seg part="I" xml:id="C13_app813-fThomas__I">
                </seg>
@@ -279,17 +226,8 @@
             <seg xml:id="C13_app872-fThomas">tears instead of smiles</seg>
             <seg xml:id="C13_app873-fThomas">will be</seg>
             <seg xml:id="C13_app874-fThomas">your </seg>
-            <seg xml:id="C13_app875-fThomas">welcome. <del xmlns:mith="http://mith.umd.edu/sc/ns1#"
-                     xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-                     xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-                     ana="start"
-                     rend="strikethrough"
-                     n="152"/>Our father looks so sorrowful: this dreadful event seems to have revived in his mind his grief on the death of Mamma. Poor Elizabeth also is quite inconsolable.”<del ana="end"/>
-               <add xmlns:mith="http://mith.umd.edu/sc/ns1#"
-                     xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-                     xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-                     ana="start"
-                     n="152"/>the sense of our misfortune is yet unalleviated; the silence of our father is uninterrupted, and there is something more distressing than tears in his unaltered sadness—while poor Elizabeth, seeking solitude and for ever weeping, already begins to feel the effects of incessant grief—for her colour is gone, and her eyes are hollow &amp; lustreless<add ana="end"/>
+            <seg xml:id="C13_app875-fThomas">welcome. <del rend="strikethrough" n="152">Our father looks so sorrowful: this dreadful event seems to have revived in his mind his grief on the death of Mamma. Poor Elizabeth also is quite inconsolable.”</del>
+               <add n="152">the sense of our misfortune is yet unalleviated; the silence of our father is uninterrupted, and there is something more distressing than tears in his unaltered sadness—while poor Elizabeth, seeking solitude and for ever weeping, already begins to feel the effects of incessant grief—for her colour is gone, and her eyes are hollow &amp; lustreless</add>
             </seg>
             <seg part="I" xml:id="C13_app876-fThomas__I">Er<pb xml:id="F1818_v1_165" n="153"/>nest began to weep as he said these words. </seg>
          </p>
@@ -304,22 +242,8 @@
             <seg xml:id="C13_app883-fThomas">father’s</seg>
             <seg xml:id="C13_app884-fThomas">house after so long an absence.</seg>
             <seg part="I" xml:id="C13_app885-fThomas__I">
-               <del xmlns:mith="http://mith.umd.edu/sc/ns1#"
-                     xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-                     xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-                     ana="start"
-                     rend="strikethrough"
-                     n="153"/>But, tell me, how does my father support his misfortunes? and how is<del ana="end"/>
-               <add xmlns:mith="http://mith.umd.edu/sc/ns1#"
-                     xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-                     xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-                     ana="start"
-                     n="153"/>You must assist me in acquiring sufficient calmness to console my father and support<add ana="end"/> my poor Elizabeth <del xmlns:mith="http://mith.umd.edu/sc/ns1#"
-                     xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-                     xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-                     ana="start"
-                     rend="strikethrough"
-                     n="153"/>?<del ana="end"/> ” </seg>
+               <del rend="strikethrough" n="153">But, tell me, how does my father support his misfortunes? and how is</del>
+               <add n="153">You must assist me in acquiring sufficient calmness to console my father and support</add> my poor Elizabeth <del rend="strikethrough" n="153">?</del> ” </seg>
          </p>
          <seg part="F" xml:id="C13_app885-fThomas__F">
             </seg>

@@ -1,8 +1,5 @@
 <?xml version="1.1" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-      xmlns:fv="https://frankensteinvariorum.github.io"
-      xmlns:tei="http://www.tei-c.org/ns/1.0"
-      xmlns:var="https://frankensteinvariorum.github.io">
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -20,7 +17,7 @@
          <sourceDesc>
             <p>Produced from a corpus of collation output files for
                                                 the Frankenstein Variorum digital edition on
-                                                  2023-08-10T06:06:09.361347-04:00.</p>
+                                                  2023-08-13T15:57:48.023766-04:00.</p>
          </sourceDesc>
       </fileDesc>
    </teiHeader>
@@ -30,7 +27,7 @@
          <seg xml:id="C27_app2-fThomas">
             <milestone unit="chapter" type="start" n="20"/>
             <pb xml:id="F1818_v3_068" n="064"/>
-            <head ana="start"/>CHAPTER IV.<head ana="end"/>
+            <head>CHAPTER IV.</head>
          </seg>
          <seg part="I" xml:id="C27_app3-fThomas__I">
             </seg>
@@ -53,12 +50,7 @@
             <seg xml:id="C27_app83-fThomas">upon</seg>
             <seg xml:id="C27_app84-fThomas">examination,</seg> they found that the clothes were not  <seg xml:id="C27_app86-fThomas">wet,</seg> and even  that <pb xml:id="F1818_v3_070" n="066"/>the body was not  <seg xml:id="C27_app90-fThomas">then</seg> cold. They instantly carried it to the cottage of an old woman near the  <seg xml:id="C27_app92-fThomas">spot,</seg> and  <seg xml:id="C27_app94-fThomas">endeavoured,</seg> but in  <seg xml:id="C27_app96-fThomas">vain,</seg> to restore it to  <seg xml:id="C27_app98-fThomas">life.</seg>
             <seg xml:id="C27_app99-fThomas">He</seg> appeared to  <seg xml:id="C27_app101-fThomas">be</seg> a handsome young  <seg xml:id="C27_app103-fThomas">man,</seg> about  <seg xml:id="C27_app105-fThomas">
-               <del xmlns:mith="http://mith.umd.edu/sc/ns1#"
-                     xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-                     xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-                     ana="start"
-                     rend="strikethrough"
-                     n="066"/>five and<del ana="end"/>
+               <del rend="strikethrough" n="066">five and</del>
             </seg> twenty years of age. He had apparently been  <seg xml:id="C27_app107-fThomas">strangled;</seg> for there was no sign of any  <seg xml:id="C27_app109-fThomas">violence,</seg> except the black mark of fingers on his neck. </p>
          <p xml:id="novel1_letter4_chapter20_div4_div22_p3"> The first <seg xml:id="C27_app111-fThomas">part</seg> of this deposition did not in the least   <seg xml:id="C27_app113-fThomas">interest me;</seg> but when the mark of the fingers was  <seg xml:id="C27_app115-fThomas">mentioned,</seg> I remembered the  <seg xml:id="C27_app117-fThomas">murder of my</seg>
             <seg xml:id="C27_app118-fThomas">brother,</seg> and felt myself extremely agitated; my limbs  <seg xml:id="C27_app120-fThomas">trembled,</seg> and a mist came over my  <seg xml:id="C27_app122-fThomas">eyes,</seg> which obliged me to lean on a chair for  <seg xml:id="C27_app124-fThomas">support.</seg> The magistrate observed me with a keen  <seg xml:id="C27_app126-fThomas">eye,</seg> and of course drew an unfavourable augury   <seg xml:id="C27_app129-fThomas">from</seg> my manner. </p>
@@ -233,12 +225,7 @@
             <seg xml:id="C27_app878-fThomas">
                <hi xml:id="novel1_letter4_chapter20_div4_div22_p44_hi1">on</hi>
             </seg> its being proved that  <seg xml:id="C27_app880-fThomas">I was <hi xml:id="novel1_letter4_chapter20_div4_div22_p44_hi2">on</hi>
-               <add xmlns:mith="http://mith.umd.edu/sc/ns1#"
-                     xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-                     xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-                     ana="start"
-                     place="margin"
-                     n="084"/>in<add ana="end"/> the Orkney Islands</seg> at the hour the body  <seg xml:id="C27_app882-fThomas">of my friend was</seg>
+               <add place="margin" n="084">in</add> the Orkney Islands</seg> at the hour the body  <seg xml:id="C27_app882-fThomas">of my friend was</seg>
             <seg xml:id="C27_app883-fThomas">found,</seg> and a fortnight after my removal I was liberated from  <seg part="I" xml:id="C27_app885-fThomas__I">prison. </seg>
          </p>
          <p xml:id="novel1_letter4_chapter20_div4_div22_p45">

@@ -1,8 +1,5 @@
 <?xml version="1.1" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-      xmlns:fv="https://frankensteinvariorum.github.io"
-      xmlns:tei="http://www.tei-c.org/ns/1.0"
-      xmlns:var="https://frankensteinvariorum.github.io">
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -20,7 +17,7 @@
          <sourceDesc>
             <p>Produced from a corpus of collation output files for
                                                 the Frankenstein Variorum digital edition on
-                                                  2023-08-10T06:06:09.361347-04:00.</p>
+                                                  2023-08-13T15:57:48.023766-04:00.</p>
          </sourceDesc>
       </fileDesc>
    </teiHeader>
@@ -30,7 +27,7 @@
          <milestone unit="chapter" type="start" n="17"/>
          <pb xml:id="F1823_v2_362" n="89"/>
          <seg part="I" xml:id="C24_app2-f1823__I">
-            <head ana="start"/>CHAPTER VI.<head ana="end"/>
+            <head>CHAPTER VI.</head>
          </seg>
          <p xml:id="novel1_letter4_chapter17_div4_div18_p1">
             <seg part="F" xml:id="C24_app2-f1823__F">D<hi xml:id="novel1_letter4_chapter17_div4_div18_p1_hi1">AY</hi>
@@ -283,13 +280,8 @@
                <seg part="F" xml:id="C24_app555-f1823__F">
                   </seg>
                <seg xml:id="C24_app556-f1823">
-                  <note xmlns:mith="http://mith.umd.edu/sc/ns1#"
-                         xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-                         xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-                         ana="start"
-                         xml:id="novel1_letter4_chapter17_div4_div18_p20_cit1_note1"
-                         n="106"/>* <bibl/>Wordsworth’s Tintern Abbey.<bibl/>
-                  <note ana="end"/>
+                  <note xml:id="novel1_letter4_chapter17_div4_div18_p20_cit1_note1" n="106">* <bibl/>Wordsworth’s Tintern Abbey.<bibl/>
+                  </note>
                </seg>
                <seg part="I" xml:id="C24_app557-f1823__I">
                   </seg>

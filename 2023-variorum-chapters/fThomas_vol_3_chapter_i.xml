@@ -1,8 +1,5 @@
 <?xml version="1.1" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-      xmlns:fv="https://frankensteinvariorum.github.io"
-      xmlns:tei="http://www.tei-c.org/ns/1.0"
-      xmlns:var="https://frankensteinvariorum.github.io">
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -20,7 +17,7 @@
          <sourceDesc>
             <p>Produced from a corpus of collation output files for
                                                 the Frankenstein Variorum digital edition on
-                                                  2023-08-10T06:06:09.361347-04:00.</p>
+                                                  2023-08-13T15:57:48.023766-04:00.</p>
          </sourceDesc>
       </fileDesc>
    </teiHeader>
@@ -29,7 +26,7 @@
          <anchor type="semantic" subtype="start" xml:id="fThomas_vol_3_chapter_i"/>
          <milestone unit="chapter" type="start" n="17"/>
          <seg part="I" xml:id="C24_app2-fThomas__I">
-            <head ana="start"/>CHAPTER I.<head ana="end"/>
+            <head>CHAPTER I.</head>
          </seg>
          <p xml:id="novel1_letter4_chapter17_div4_div19_p1">
             <seg part="F" xml:id="C24_app2-fThomas__F">D<hi xml:id="novel1_letter4_chapter17_div4_div19_p1_hi1">AY</hi>
@@ -246,12 +243,7 @@
          </p>
          <p xml:id="novel1_letter4_chapter17_div4_div19_p19">
             <seg part="F" xml:id="C24_app458-fThomas__F">
-               </seg> We travelled at the time of the  <seg xml:id="C24_app460-fThomas">vintage,</seg> and heard the song of the  <seg xml:id="C24_app462-fThomas">labourers,</seg> as we glided down the stream. Even I, depressed in  <seg xml:id="C24_app464-fThomas">mind <add xmlns:mith="http://mith.umd.edu/sc/ns1#"
-                     xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-                     xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-                     ana="start"
-                     place="margin"
-                     n="015"/>by remor<add ana="end"/> ,</seg> and my spirits continually agitated by gloomy  <seg xml:id="C24_app466-fThomas">feelings,</seg> even I was pleased. I lay at the bottom of the  <seg xml:id="C24_app468-fThomas">boat, and,</seg> as I gazed on the cloudless blue  <seg xml:id="C24_app470-fThomas">sky,</seg> I  <seg xml:id="C24_app472-fThomas">seemed to</seg>
+               </seg> We travelled at the time of the  <seg xml:id="C24_app460-fThomas">vintage,</seg> and heard the song of the  <seg xml:id="C24_app462-fThomas">labourers,</seg> as we glided down the stream. Even I, depressed in  <seg xml:id="C24_app464-fThomas">mind <add place="margin" n="015">by remor</add> ,</seg> and my spirits continually agitated by gloomy  <seg xml:id="C24_app466-fThomas">feelings,</seg> even I was pleased. I lay at the bottom of the  <seg xml:id="C24_app468-fThomas">boat, and,</seg> as I gazed on the cloudless blue  <seg xml:id="C24_app470-fThomas">sky,</seg> I  <seg xml:id="C24_app472-fThomas">seemed to</seg>
             <seg xml:id="C24_app473-fThomas">drink</seg> in a tranquillity to which I had long been a stranger. And if these were my  <seg xml:id="C24_app475-fThomas">sensations,</seg> who can describe those of  <seg xml:id="C24_app477-fThomas">Henry?</seg> He felt as if he had been transported to  <seg xml:id="C24_app479-fThomas">Fairy-land,</seg> and enjoyed a happiness seldom tasted by man.  <seg xml:id="C24_app481-fThomas">“I</seg> have  <seg xml:id="C24_app483-fThomas">seen,”</seg> he said,  <seg xml:id="C24_app485-fThomas">“the</seg> most beautiful scenes of my own  <seg xml:id="C24_app487-fThomas">country;</seg> I have  <seg xml:id="C24_app489-fThomas">visited</seg> the lakes of Lucerne and  <seg xml:id="C24_app491-fThomas">Uri,</seg> where the snowy mountains descend almost perpendicu<pb xml:id="F1818_v3_020" n="016"/>larly to the <seg xml:id="C24_app493-fThomas">water,</seg> casting black and impenetrable  <seg xml:id="C24_app495-fThomas">shades,</seg> which  <seg xml:id="C24_app497-fThomas">would cause</seg> a gloomy and mournful   <seg xml:id="C24_app499-fThomas">appearance,</seg> were it not for the most verdant islands that relieve the eye by their gay  <seg xml:id="C24_app501-fThomas">appearance;</seg> I have seen this lake agitated by a  <seg xml:id="C24_app503-fThomas">tempest,</seg> when the wind tore up whirlwinds of  <seg xml:id="C24_app505-fThomas">water,</seg> and gave you an idea of what the  <seg xml:id="C24_app507-fThomas">water-spout</seg> must be on the great  <seg xml:id="C24_app509-fThomas">ocean, and</seg> the waves dash with fury  <seg xml:id="C24_app511-fThomas">the</seg>
             <seg xml:id="C24_app512-fThomas">base of the</seg>
             <seg xml:id="C24_app513-fThomas">mountain,</seg> where the priest and his mistress were overwhelmed by an  <seg xml:id="C24_app515-fThomas">avalanche,</seg> and where their dying voices are still said to be heard amid the pauses of the  <seg xml:id="C24_app517-fThomas">nightly wind;</seg> I have seen the  <seg xml:id="C24_app519-fThomas">mountains of La</seg>
@@ -266,13 +258,8 @@
          <p xml:id="novel1_letter4_chapter17_div4_div19_p20">
             <seg part="F" xml:id="C24_app550-fThomas__F">Clerval! beloved friend! even now it delights me to record your words, and to dwell on the praise of which you are so eminently deserving. He was a being formed in the <cit xml:id="novel1_letter4_chapter17_div4_div19_p20_cit1">
                   <quote xml:id="novel1_letter4_chapter17_div4_div19_p20_cit1_quote1">“very poetry of nature.*”</quote>
-                  <note xmlns:mith="http://mith.umd.edu/sc/ns1#"
-                         xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-                         xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-                         ana="start"
-                         xml:id="novel1_letter4_chapter17_div4_div19_p20_cit1_note1"
-                         n="017"/>* <bibl/>Leigh Hunt’s “Rimini.”<bibl/>
-                  <note ana="end"/>
+                  <note xml:id="novel1_letter4_chapter17_div4_div19_p20_cit1_note1" n="017">* <bibl/>Leigh Hunt’s “Rimini.”<bibl/>
+                  </note>
                </cit> His wild and enthusiastic imagination was chastened by the sen<pb xml:id="F1818_v3_022" n="018"/>sibility of his heart. His soul overflowed with ardent affections, and his friendship was of that devoted and wondrous nature that the worldly-minded teach us to look for only in the imagination. But even human sympathies were not sufficient to satisfy his eager mind. The scenery of external nature, which others regard only with admiration, he loved with ardour:</seg>
             <seg part="I" xml:id="C24_app551-fThomas__I">
                </seg>
@@ -307,13 +294,8 @@
                <seg part="F" xml:id="C24_app555-fThomas__F">
                   </seg>
                <seg xml:id="C24_app556-fThomas">
-                  <note xmlns:mith="http://mith.umd.edu/sc/ns1#"
-                         xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-                         xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-                         ana="start"
-                         xml:id="novel1_letter4_chapter17_div4_div19_p20_cit2_note1"
-                         n="018"/>* <bibl/>Wordsworth’s "Tintern Abbey."<bibl/>
-                  <note ana="end"/>
+                  <note xml:id="novel1_letter4_chapter17_div4_div19_p20_cit2_note1" n="018">* <bibl/>Wordsworth’s "Tintern Abbey."<bibl/>
+                  </note>
                </seg>
                <seg part="I" xml:id="C24_app557-fThomas__I">
                   </seg>

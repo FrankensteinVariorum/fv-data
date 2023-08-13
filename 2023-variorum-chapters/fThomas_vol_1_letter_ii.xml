@@ -1,8 +1,5 @@
 <?xml version="1.1" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-      xmlns:fv="https://frankensteinvariorum.github.io"
-      xmlns:tei="http://www.tei-c.org/ns/1.0"
-      xmlns:var="https://frankensteinvariorum.github.io">
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -20,7 +17,7 @@
          <sourceDesc>
             <p>Produced from a corpus of collation output files for
                                                 the Frankenstein Variorum digital edition on
-                                                  2023-08-10T06:06:09.361347-04:00.</p>
+                                                  2023-08-13T15:57:48.023766-04:00.</p>
          </sourceDesc>
       </fileDesc>
    </teiHeader>
@@ -30,7 +27,7 @@
          <seg xml:id="C03_app1-fThomas">
             <anchor type="collate" xml:id="C03"/>
             <milestone unit="letter" type="start" n="2"/>
-            <head ana="start"/>LETTER II.<head ana="end"/>
+            <head>LETTER II.</head>
          </seg>
          <seg xml:id="C03_app2-fThomas">
             <ab xml:id="novel1_letter2_div2_ab1">
@@ -65,19 +62,8 @@
             <seg xml:id="C03_app15-fThomas">and the mildness of his discipline.</seg>
             <seg xml:id="C03_app16-fThomas">He is, indeed, of so amiable a nature, that he will not hunt (a favourite, and almost the only amusement here), because he cannot endure to spill blood.</seg>
             <seg xml:id="C03_app17-fThomas">
-               <del xmlns:mith="http://mith.umd.edu/sc/ns1#"
-                     xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-                     xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-                     ana="start"
-                     rend="strikethrough"
-                     n="014"/>He is, moreover, heroically generous.<del ana="end"/>
-               <add xmlns:mith="http://mith.umd.edu/sc/ns1#"
-                     xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-                     xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-                     ana="start"
-                     place="bottom"
-                     anchor="yes"
-                     n="014"/>I will relate to you an anecdote of his life, recounted to me by the parties themselves, which exemplifies the generosity, I had almost said the heroism of his nature.<add ana="end"/>
+               <del rend="strikethrough" n="014">He is, moreover, heroically generous.</del>
+               <add place="bottom" anchor="yes" n="014">I will relate to you an anecdote of his life, recounted to me by the parties themselves, which exemplifies the generosity, I had almost said the heroism of his nature.</add>
             </seg>
             <seg xml:id="C03_app18-fThomas">Some years ago he loved a young Russian lady, of moderate fortune; and having amassed a considerable sum in prize-money, the father of the girl consented to the match. He saw his mistress once before the destined ceremony; but she was bathed in tears, and, throwing herself at his feet, entreated him to spare her, confessing at the same time that she loved another, but that he was poor, and that her father would never consent to the union. My generous friend reassured the suppliant, and on being informed of the name of her</seg>
             <seg xml:id="C03_app19-fThomas">lover</seg>
@@ -86,33 +72,13 @@
             <seg xml:id="C03_app22-fThomas">which he had designed to pass the remainder of his life; but he bestowed the whole on his rival, together with the remains of his prize-money to purchase stock, and then himself solicited the young woman’s father to consent to her marriage with her lover. But the old man decidedly refused, thinking himself bound in honour to my friend; who, when he found the father inexorable, quitted his country, nor returned until he heard that his former mistress was married according to her inclinations. “What a noble fellow!” you will exclaim. He is so; but then he</seg>
             <seg xml:id="C03_app23-fThomas">has passed all his life on board a vessel, and has scarcely an idea beyond the</seg>
             <seg xml:id="C03_app24-fThomas">
-               <del xmlns:mith="http://mith.umd.edu/sc/ns1#"
-                     xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-                     xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-                     ana="start"
-                     rend="strikethrough"
-                     n="015"/>rope<del ana="end"/>
-               <add xmlns:mith="http://mith.umd.edu/sc/ns1#"
-                     xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-                     xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-                     ana="start"
-                     place="above"
-                     n="015"/>ship<add ana="end"/>
+               <del rend="strikethrough" n="015">rope</del>
+               <add place="above" n="015">ship</add>
             </seg>
             <seg xml:id="C03_app25-fThomas">and the</seg>
             <seg xml:id="C03_app26-fThomas">
-               <del xmlns:mith="http://mith.umd.edu/sc/ns1#"
-                     xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-                     xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-                     ana="start"
-                     rend="strikethrough"
-                     n="015"/>shroud<del ana="end"/>
-               <add xmlns:mith="http://mith.umd.edu/sc/ns1#"
-                     xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-                     xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-                     ana="start"
-                     place="above"
-                     n="015"/>crew<add ana="end"/> .</seg>
+               <del rend="strikethrough" n="015">shroud</del>
+               <add place="above" n="015">crew</add> .</seg>
             <seg part="I" xml:id="C03_app27-fThomas__I">
                </seg>
          </p>
@@ -133,14 +99,7 @@
          <p xml:id="novel1_letter2_div2_p7">
             <seg part="F" xml:id="C03_app37-fThomas__F"> I cannot describe to you my sensations on the near prospect of my undertaking. It is impossible to communicate to you a conception of the trembling sensation, half pleasurable and half fearful, with which I am preparing to depart. I am going to unexplored regions, to “the land of mist and <pb xml:id="F1818_v1_029" n="017"/>snow;”</seg>
             <seg xml:id="C03_app38-fThomas">
-               <note xmlns:mith="http://mith.umd.edu/sc/ns1#"
-                      xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-                      xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-                      ana="start"
-                      place="bottom"
-                      anchored="yes"
-                      resp="#MWS"
-                      n="017"/>Coleridge's Antient Mariner.<note ana="end"/> but I shall kill no albatross, therefore do not be alarmed</seg>
+               <note place="bottom" anchored="yes" resp="#MWS" n="017">Coleridge's Antient Mariner.</note> but I shall kill no albatross, therefore do not be alarmed</seg>
             <seg xml:id="C03_app39-fThomas">for my safety.</seg>
             <seg part="I" xml:id="C03_app40-fThomas__I">
                </seg>

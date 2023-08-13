@@ -1,8 +1,5 @@
 <?xml version="1.1" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-      xmlns:fv="https://frankensteinvariorum.github.io"
-      xmlns:tei="http://www.tei-c.org/ns/1.0"
-      xmlns:var="https://frankensteinvariorum.github.io">
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -20,7 +17,7 @@
          <sourceDesc>
             <p>Produced from a corpus of collation output files for
                                                 the Frankenstein Variorum digital edition on
-                                                  2023-08-10T06:06:09.361347-04:00.</p>
+                                                  2023-08-13T15:57:48.023766-04:00.</p>
          </sourceDesc>
       </fileDesc>
    </teiHeader>
@@ -32,7 +29,7 @@
          </seg>
          <pb xml:id="F1818_v2_057" n="053"/>
          <seg xml:id="C18_app4-fThomas">
-            <head ana="start"/>CHAPTER IV.<head ana="end"/>
+            <head>CHAPTER IV.</head>
          </seg>
          <p xml:id="novel1_letter4_chapter11_div4_div12_p1">
             <seg xml:id="C18_app6-fThomas">“I <hi xml:id="novel1_letter4_chapter11_div4_div12_p1_hi1">LAY</hi>
@@ -63,35 +60,16 @@
             <seg xml:id="C18_app90-fThomas">companion</seg> often  <seg xml:id="C18_app92-fThomas">
                <pb xml:id="F1818_v2_059" n="055"/>went apart, and appeared to weep.</seg> I saw no cause for  <seg xml:id="C18_app94-fThomas">their unhappiness;</seg> but I was deeply affected by  <seg xml:id="C18_app96-fThomas">it.</seg> If such lovely creatures were  <seg xml:id="C18_app98-fThomas">miserable,</seg> it was less strange that  <seg xml:id="C18_app100-fThomas">I, an imperfect and solitary</seg>
             <seg xml:id="C18_app101-fThomas">being,</seg> should be  <seg xml:id="C18_app103-fThomas">wretched.</seg> Yet why were these gentle beings  <seg xml:id="C18_app105-fThomas">
-               <del xmlns:mith="http://mith.umd.edu/sc/ns1#"
-                     xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-                     xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-                     ana="start"
-                     rend="strikethrough"
-                     n="055"/>unhappy<del ana="end"/>
-               <add xmlns:mith="http://mith.umd.edu/sc/ns1#"
-                     xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-                     xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-                     ana="start"
-                     n="055"/>sorrowful<add ana="end"/> ?</seg> They  <seg xml:id="C18_app107-fThomas">possessed</seg> a delightful house  <seg xml:id="C18_app109-fThomas">(for</seg> such  <seg xml:id="C18_app111-fThomas">it</seg> was   <seg xml:id="C18_app113-fThomas">in</seg> my   <seg xml:id="C18_app115-fThomas">eyes),</seg> and every  <seg xml:id="C18_app117-fThomas">luxury;</seg> they had a fire to warm them when  <seg xml:id="C18_app119-fThomas">chill,</seg> and delicious viands when  <seg xml:id="C18_app121-fThomas">hungry;</seg> they were dressed  <seg xml:id="C18_app123-fThomas">in</seg>
+               <del rend="strikethrough" n="055">unhappy</del>
+               <add n="055">sorrowful</add> ?</seg> They  <seg xml:id="C18_app107-fThomas">possessed</seg> a delightful house  <seg xml:id="C18_app109-fThomas">(for</seg> such  <seg xml:id="C18_app111-fThomas">it</seg> was   <seg xml:id="C18_app113-fThomas">in</seg> my   <seg xml:id="C18_app115-fThomas">eyes),</seg> and every  <seg xml:id="C18_app117-fThomas">luxury;</seg> they had a fire to warm them when  <seg xml:id="C18_app119-fThomas">chill,</seg> and delicious viands when  <seg xml:id="C18_app121-fThomas">hungry;</seg> they were dressed  <seg xml:id="C18_app123-fThomas">in</seg>
             <seg xml:id="C18_app124-fThomas">excellent clothes; and,</seg> still  <seg xml:id="C18_app126-fThomas">more,</seg> they  <seg xml:id="C18_app128-fThomas">enjoyed</seg> one  <seg xml:id="C18_app130-fThomas">another’s</seg> company  <seg xml:id="C18_app132-fThomas">and speech, interchanging</seg> each day looks of affection and  <seg xml:id="C18_app134-fThomas">kindness.</seg> What did their tears  <seg xml:id="C18_app136-fThomas">imply?</seg> Did they really express pain? I was at first unable to solve these  <seg xml:id="C18_app138-fThomas">questions;</seg> but perpetual  <seg xml:id="C18_app140-fThomas">attention,</seg> and  <seg xml:id="C18_app142-fThomas">time,</seg> explained to me many  <seg xml:id="C18_app144-fThomas">appearances</seg> which  <seg xml:id="C18_app146-fThomas">were</seg> at first  <seg part="I" xml:id="C18_app148-fThomas__I">enigmatic. </seg>
          </p>
          <p xml:id="novel1_letter4_chapter11_div4_div12_p5">
             <seg part="F" xml:id="C18_app148-fThomas__F">
                <pb xml:id="F1818_v2_060" n="056"/>“A</seg> considerable period elapsed before I discovered one of the  causes of the uneasiness of this amiable   <seg xml:id="C18_app152-fThomas">family;</seg> it was   <seg xml:id="C18_app155-fThomas">poverty:</seg>
             <seg xml:id="C18_app156-fThomas">
-               <del xmlns:mith="http://mith.umd.edu/sc/ns1#"
-                     xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-                     xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-                     ana="start"
-                     rend="strikethrough"
-                     n="056"/>and they suffered that evil in a very distressing degree.<del ana="end"/>
-               <add xmlns:mith="http://mith.umd.edu/sc/ns1#"
-                     xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-                     xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-                     ana="start"
-                     place="bottom_and_prev_page_bottom"
-                     n="056"/>They had appeared to me rich, because their possessions incomparably transcended mine, but I soon learnt, that many of these advantages were only <del-INNER ana="start"/>p<del-INNER ana="end"/> apparent, since their delicate frame made them subject to a thousand wants of the existence of <pb n="56"/> which I was entirely ignorant.<add ana="end"/>
+               <del rend="strikethrough" n="056">and they suffered that evil in a very distressing degree.</del>
+               <add place="bottom_and_prev_page_bottom" n="056">They had appeared to me rich, because their possessions incomparably transcended mine, but I soon learnt, that many of these advantages were only <del-INNER>p</del-INNER> apparent, since their delicate frame made them subject to a thousand wants of the existence of <pb n="56"/> which I was entirely ignorant.</add>
             </seg> Their nourishment consisted entirely of  <seg xml:id="C18_app159-fThomas">the vegetables of their</seg>
             <seg xml:id="C18_app160-fThomas">garden,</seg> and the milk of one  <seg xml:id="C18_app162-fThomas">cow,</seg>
             <seg xml:id="C18_app163-fThomas">who</seg> gave very little during the  <seg xml:id="C18_app165-fThomas">winter,</seg> when  <seg xml:id="C18_app167-fThomas">its masters could</seg>
@@ -103,12 +81,7 @@
          </p>
          <p xml:id="novel1_letter4_chapter11_div4_div12_p6">
             <seg part="F" xml:id="C18_app190-fThomas__F"> “This</seg> trait of kindness moved me sensibly. I had been  <seg xml:id="C18_app192-fThomas">accustomed,</seg> during the  <seg xml:id="C18_app194-fThomas">night,</seg> to steal a part of their store for my own consumption; but when I found that in doing this I inflicted pain on the cottagers, I abstained, <pb xml:id="F1818_v2_061" n="057"/>and satisfied <seg xml:id="C18_app196-fThomas">myself</seg> with  <seg xml:id="C18_app198-fThomas">berries, nuts,</seg> and  <seg xml:id="C18_app200-fThomas">roots,</seg> which I  <seg xml:id="C18_app202-fThomas">gathered from</seg> a neighbouring wood.   <seg xml:id="C18_app204-fThomas">
-               <note xmlns:mith="http://mith.umd.edu/sc/ns1#"
-                      xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-                      xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-                      ana="start"
-                      resp="#ebb"
-                      n="057"/>Thomas copy: pencil mark joins paragraphs.<note ana="end"/> “I discovered</seg> also another means  <seg xml:id="C18_app206-fThomas">through</seg> which I was  <seg xml:id="C18_app208-fThomas">enabled</seg> to assist their labours. I found that the youth spent a great part of each day in   <seg xml:id="C18_app211-fThomas">collecting wood for the family</seg>
+               <note resp="#ebb" n="057">Thomas copy: pencil mark joins paragraphs.</note> “I discovered</seg> also another means  <seg xml:id="C18_app206-fThomas">through</seg> which I was  <seg xml:id="C18_app208-fThomas">enabled</seg> to assist their labours. I found that the youth spent a great part of each day in   <seg xml:id="C18_app211-fThomas">collecting wood for the family</seg>
             <seg xml:id="C18_app212-fThomas">fire; and,</seg> during the  <seg xml:id="C18_app214-fThomas">night,</seg> I often took his  <seg xml:id="C18_app216-fThomas">tools,</seg> the  <seg xml:id="C18_app218-fThomas">use of which I quickly</seg>
             <seg xml:id="C18_app219-fThomas">discovered,</seg> and brought home  <seg xml:id="C18_app221-fThomas">firing sufficient</seg>
             <seg xml:id="C18_app222-fThomas">for the consumption</seg>

@@ -1,8 +1,5 @@
 <?xml version="1.1" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-      xmlns:fv="https://frankensteinvariorum.github.io"
-      xmlns:tei="http://www.tei-c.org/ns/1.0"
-      xmlns:var="https://frankensteinvariorum.github.io">
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -20,7 +17,7 @@
          <sourceDesc>
             <p>Produced from a corpus of collation output files for
                                                 the Frankenstein Variorum digital edition on
-                                                  2023-08-10T06:06:09.361347-04:00.</p>
+                                                  2023-08-13T15:57:48.023766-04:00.</p>
          </sourceDesc>
       </fileDesc>
    </teiHeader>
@@ -30,7 +27,7 @@
          <seg part="I" xml:id="C07_app1-f1823__I">
             <anchor type="collate" xml:id="C07"/>
             <milestone unit="chapter" type="start" n="1"/>
-            <head ana="start"/>CHAPTER I.<head ana="end"/>
+            <head>CHAPTER I.</head>
          </seg>
          <p xml:id="novel1_letter4_chapter1_div4_div1_p1">
             <seg part="F" xml:id="C07_app1-f1823__F"> I <hi xml:id="novel1_letter4_chapter1_div4_div1_p1_hi1">AM</hi> by birth a Genevese; and my family is one of the most distinguished of that republic. My ancestors had been for many years counsellors and syndics; and my father had filled several public situations with honour and reputation. He was respected by all who knew</seg>
@@ -222,12 +219,7 @@
          <p xml:id="novel1_letter4_chapter1_div4_div1_p16">
             <seg part="F" xml:id="C08_app136-f1823__F"> If,</seg> instead of this  <seg xml:id="C08_app138-f1823">remark,</seg> my father had taken the pains to  <seg xml:id="C08_app140-f1823">explain</seg> to  <seg xml:id="C08_app142-f1823">me,</seg> that the principles  <seg xml:id="C08_app144-f1823">of Agrippa</seg> had been entirely  <seg xml:id="C08_app146-f1823">exploded,</seg> and that  <seg xml:id="C08_app148-f1823">a modern</seg> system of science had been   <seg xml:id="C08_app150-f1823">introduced,</seg> which possessed much greater  <seg xml:id="C08_app152-f1823">powers</seg> than the  <seg xml:id="C08_app154-f1823">ancient,</seg> because the powers of the  <seg xml:id="C08_app156-f1823">latter</seg> were  <seg xml:id="C08_app158-f1823">chimerical, while those <pb xml:id="F1823_v1_072" n="53"/>of the</seg>
             <seg xml:id="C08_app159-f1823">former were</seg> real and practical; under such  <seg xml:id="C08_app161-f1823">circumstances,</seg> I should certainly have thrown Agrippa aside,  <seg xml:id="C08_app163-f1823">and,</seg>
-            <seg xml:id="C08_app164-f1823">with</seg> my  <seg xml:id="C08_app166-f1823">imagination</seg> warmed as it  <seg xml:id="C08_app168-f1823">was, should probably have applied myself to the more rational theory of chemistry which has resulted from modern discoveries.</seg> It is even  <seg xml:id="C08_app170-f1823">possible,</seg> that the train of my ideas  <seg xml:id="C08_app172-f1823">would</seg> never have  <seg xml:id="C08_app174-f1823">received the</seg> fatal impulse  <seg xml:id="C08_app176-f1823">that</seg> led  <seg xml:id="C08_app178-f1823">to my ruin.</seg> But the cursory glance my father had taken of my volume by no means assured me that he was acquainted with   <seg xml:id="C08_app180-f1823">its</seg> contents; and I continued to read with the   <seg xml:id="C08_app182-f1823">greadest <note xmlns:mith="http://mith.umd.edu/sc/ns1#"
-                      xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-                      xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-                      ana="start"
-                      resp="FV-Team-rm"
-                      n="53"/>Apparently a printer error for greatest<note ana="end"/>
+            <seg xml:id="C08_app164-f1823">with</seg> my  <seg xml:id="C08_app166-f1823">imagination</seg> warmed as it  <seg xml:id="C08_app168-f1823">was, should probably have applied myself to the more rational theory of chemistry which has resulted from modern discoveries.</seg> It is even  <seg xml:id="C08_app170-f1823">possible,</seg> that the train of my ideas  <seg xml:id="C08_app172-f1823">would</seg> never have  <seg xml:id="C08_app174-f1823">received the</seg> fatal impulse  <seg xml:id="C08_app176-f1823">that</seg> led  <seg xml:id="C08_app178-f1823">to my ruin.</seg> But the cursory glance my father had taken of my volume by no means assured me that he was acquainted with   <seg xml:id="C08_app180-f1823">its</seg> contents; and I continued to read with the   <seg xml:id="C08_app182-f1823">greadest <note resp="FV-Team-rm" n="53">Apparently a printer error for greatest</note>
             </seg> avidity. </p>
          <p xml:id="novel1_letter4_chapter1_div4_div1_p17"> When I returned home, my first care was to procure  <seg xml:id="C08_app185-f1823">the</seg> whole works of this   <seg xml:id="C08_app187-f1823">author,</seg> and afterwards  <seg xml:id="C08_app189-f1823">of Paracelsus and Albertus Magnus. I read and studied the wild fancies of</seg>
             <seg xml:id="C08_app190-f1823">these writers</seg> with  <seg xml:id="C08_app192-f1823">delight;</seg> they appeared to me trea<pb xml:id="F1823_v1_073" n="54"/>sures known to few <seg xml:id="C08_app194-f1823">beside myself; and although I often wished to communicate these secret stores of knowledge to my father,</seg>

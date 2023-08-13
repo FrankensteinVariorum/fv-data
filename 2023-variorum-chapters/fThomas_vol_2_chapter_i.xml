@@ -1,8 +1,5 @@
 <?xml version="1.1" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-      xmlns:fv="https://frankensteinvariorum.github.io"
-      xmlns:tei="http://www.tei-c.org/ns/1.0"
-      xmlns:var="https://frankensteinvariorum.github.io">
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -20,7 +17,7 @@
          <sourceDesc>
             <p>Produced from a corpus of collation output files for
                                                 the Frankenstein Variorum digital edition on
-                                                  2023-08-10T06:06:09.361347-04:00.</p>
+                                                  2023-08-13T15:57:48.023766-04:00.</p>
          </sourceDesc>
       </fileDesc>
    </teiHeader>
@@ -29,7 +26,7 @@
          <anchor type="semantic" subtype="start" xml:id="fThomas_vol_2_chapter_i"/>
          <milestone unit="chapter" type="start" n="8"/>
          <seg xml:id="C15_app2-fThomas">
-            <head ana="start"/>CHAPTER I.<head ana="end"/>
+            <head>CHAPTER I.</head>
          </seg>
          <seg part="I" xml:id="C15_app3-fThomas__I">
             </seg>
@@ -52,18 +49,8 @@
          <p xml:id="novel1_letter4_chapter8_div4_div9_p3">
             <seg part="F" xml:id="C15_app103-fThomas__F">
                </seg> My father observed with pain  <seg xml:id="C15_app105-fThomas">the alteration perceptible in</seg> my   <seg xml:id="C15_app107-fThomas">disposition</seg> and habits,  <seg xml:id="C15_app109-fThomas">
-               <del xmlns:mith="http://mith.umd.edu/sc/ns1#"
-                     xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-                     xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-                     ana="start"
-                     rend="strikethrough"
-                     n="003"/>and endeavoured to reason with me on the folly of giving way to immoderate grief.<del ana="end"/>
-               <add xmlns:mith="http://mith.umd.edu/sc/ns1#"
-                     xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-                     xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-                     ana="start"
-                     place="bottom"
-                     n="003"/>At first he suspected some latent cause for my affliction, but when I assured him that the late events were the causes of my dejection, he called to his aid philosophy and reason, while he endeavoured to restore me to a calmer state of mind.<add ana="end"/>
+               <del rend="strikethrough" n="003">and endeavoured to reason with me on the folly of giving way to immoderate grief.</del>
+               <add place="bottom" n="003">At first he suspected some latent cause for my affliction, but when I assured him that the late events were the causes of my dejection, he called to his aid philosophy and reason, while he endeavoured to restore me to a calmer state of mind.</add>
             </seg> “Do you think,  <seg xml:id="C15_app120-fThomas">Victor,”</seg> said  <seg xml:id="C15_app122-fThomas">he,</seg> “that I do not suffer  <seg xml:id="C15_app124-fThomas">also?</seg> No one  <seg xml:id="C15_app126-fThomas">could</seg> love   <seg xml:id="C15_app128-fThomas">a child more than I</seg>
             <seg xml:id="C15_app129-fThomas">loved</seg> your   <seg xml:id="C15_app131-fThomas">brother;” (tears</seg> came  <seg xml:id="C15_app133-fThomas">into his eyes as he</seg>
             <seg xml:id="C15_app134-fThomas">spoke);</seg>

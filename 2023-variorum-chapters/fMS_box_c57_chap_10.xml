@@ -1,8 +1,5 @@
 <?xml version="1.1" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-      xmlns:fv="https://frankensteinvariorum.github.io"
-      xmlns:tei="http://www.tei-c.org/ns/1.0"
-      xmlns:var="https://frankensteinvariorum.github.io">
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -20,7 +17,7 @@
          <sourceDesc>
             <p>Produced from a corpus of collation output files for
                                                 the Frankenstein Variorum digital edition on
-                                                  2023-08-10T06:06:09.361347-04:00.</p>
+                                                  2023-08-13T15:57:48.023766-04:00.</p>
          </sourceDesc>
       </fileDesc>
    </teiHeader>
@@ -28,33 +25,21 @@
       <body>
          <anchor type="semantic" subtype="start" xml:id="fMS_box_c57_chap_10"/>
          <milestone spanTo="#c57-0074.06" unit="tei:head"/>
-         <seg xml:id="C24_app2-fMS">Chap. 10<shi ana="start" rend="underline"/>th<shi ana="end"/>
+         <seg xml:id="C24_app2-fMS">Chap. 10<shi rend="underline">th</shi>
             <anchor xml:id="c57-0074.06"/>
             <lb n="c57-0074__main__2"/>Day</seg> after day, week after  <seg xml:id="C24_app4-fMS">week</seg> passed <add place="superlinear" xml:id="c57-0074__main__d4e14474">away </add>on <lb n="c57-0074__main__3"/>my return to <seg xml:id="C24_app7-fMS">Geneva</seg> and I  <seg xml:id="C24_app9-fMS">had</seg> not the <lb n="c57-0074__main__4"/>courage to <seg xml:id="C24_app13-fMS">commence</seg> my work.  <seg xml:id="C24_app15-fMS">I feared the <lb n="c57-0074__main__5"/>vengeance of the disappointed fiend yet <lb n="c57-0074__main__6"/>I <mod xml:id="c57-0074__main__d4e14485">
-               <del xmlns:mith="http://mith.umd.edu/sc/ns1#"
-                     xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-                     xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-                     ana="start"
-                     rend="strikethrough"
-                     xml:id="c57-0074__main__d4e14487"
-                     n=""/>could not<del ana="end"/>
+               <del rend="strikethrough" xml:id="c57-0074__main__d4e14487">could not</del>
                <add hand="#pbs" place="superlinear" xml:id="c57-0074__main__d4e14490">I was unable to</add>
             </mod> overcome my repugnance <mod xml:id="c57-0074__main__d4e14495">
                <add place="sublinear" xml:id="c57-0074__main__d4e14497">
-                  <metamark ana="start" function="insert"/>^<metamark ana="end"/>
+                  <metamark function="insert">^</metamark>
                </add>
                <add hand="#pbs" place="superlinear" xml:id="c57-0074__main__d4e14503">to the task</add>
             </mod>. <add place="intralinear" xml:id="c57-0074__main__d4e14507">
-               <metamark ana="start" function="displacement" xml:id="c57-0074.01"/> 1<metamark ana="end"/>
+               <metamark function="displacement" xml:id="c57-0074.01"> 1</metamark>
             </add>
-            <lb n="c57-0074__main__7"/>My health <del xmlns:mith="http://mith.umd.edu/sc/ns1#"
-                  xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-                  xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-                  ana="start"
-                  rend="strikethrough"
-                  xml:id="c57-0074__main__d4e14518"
-                  n=""/>also<del ana="end"/> which had hitherto declined <lb n="c57-0074__main__8"/>was now much restored,</seg> &amp; my  <seg xml:id="C24_app17-fMS">spirits</seg> when <lb n="c57-0074__main__9"/>unchecked by the memory of my unhappy <lb n="c57-0074__main__10"/>promise, rose <seg xml:id="C24_app19-fMS">propor <mod xml:id="c57-0074__main__d4e14528">
-               <mdel ana="start"/>it<mdel ana="end"/>
+            <lb n="c57-0074__main__7"/>My health <del rend="strikethrough" xml:id="c57-0074__main__d4e14518">also</del> which had hitherto declined <lb n="c57-0074__main__8"/>was now much restored,</seg> &amp; my  <seg xml:id="C24_app17-fMS">spirits</seg> when <lb n="c57-0074__main__9"/>unchecked by the memory of my unhappy <lb n="c57-0074__main__10"/>promise, rose <seg xml:id="C24_app19-fMS">propor <mod xml:id="c57-0074__main__d4e14528">
+               <mdel>it</mdel>
                <add place="intralinear" xml:id="c57-0074__main__d4e14532">ti </add>
             </mod>onably.</seg> My father <lb n="c57-0074__main__11"/>saw this with <seg xml:id="C24_app23-fMS">pleasure</seg> and he turned his <lb n="c57-0074__main__12"/>thoughts towards the best <seg xml:id="C24_app25-fMS">me <mod xml:id="c57-0074__main__d4e14540">
                <mdel/>
@@ -62,48 +47,24 @@
             </mod>hod</seg> of <lb n="c57-0074__main__13"/>eradicating the remains of my <seg xml:id="C24_app27-fMS">melancholy–</seg>
          <lb n="c57-0074__main__14"/>which every now and then would return <lb n="c57-0074__main__15"/>by <seg xml:id="C24_app29-fMS">fits</seg> &amp; with a devouring blackness <w ana="start"/>over<lb n="c57-0074__main__16"/>cast<w ana="end"/> the approaching <seg xml:id="C24_app31-fMS">
             <mod xml:id="c57-0074__main__d4e14564">
-               <del xmlns:mith="http://mith.umd.edu/sc/ns1#"
-                     xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-                     xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-                     ana="start"
-                     rend="strikethrough"
-                     xml:id="c57-0074__main__d4e14566"
-                     n=""/>day<del ana="end"/>
+               <del rend="strikethrough" xml:id="c57-0074__main__d4e14566">day</del>
                <add place="sublinear" xml:id="c57-0074__main__d4e14569">
-                  <metamark ana="start" function="insert"/>^<metamark ana="end"/>
+                  <metamark function="insert">^</metamark>
                </add>
                <add place="superlinear" xml:id="c57-0074__main__d4e14575">sunshine </add>
-            </mod> .</seg> At these <lb n="c57-0074__main__17"/>moments I took refuge in the most <lb n="c57-0074__main__18"/>perfect <seg xml:id="C24_app33-fMS">solitude: <del xmlns:mith="http://mith.umd.edu/sc/ns1#"
-                  xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-                  xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-                  ana="start"
-                  rend="strikethrough"
-                  xml:id="c57-0074__main__d4e14584"
-                  n=""/>&amp; my deli<del ana="end"/>
-            <del xmlns:mith="http://mith.umd.edu/sc/ns1#"
-                  xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-                  xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-                  ana="start"
-                  rend="strikethrough"
-                  xml:id="c57-0074__main__d4e14587"
-                  n=""/>I used to<del ana="end"/>
+            </mod> .</seg> At these <lb n="c57-0074__main__17"/>moments I took refuge in the most <lb n="c57-0074__main__18"/>perfect <seg xml:id="C24_app33-fMS">solitude: <del rend="strikethrough" xml:id="c57-0074__main__d4e14584">&amp; my deli</del>
+            <del rend="strikethrough" xml:id="c57-0074__main__d4e14587">I used to</del>
             <milestone spanTo="#c57-0074.02" unit="tei:seg" xml:id="c57-0074.03"/> Alone <lb n="c57-0074__main__19"/>in a little boat <anchor xml:id="c57-0074.02"/>
             <milestone spanTo="#c57-0074.04" unit="tei:seg" xml:id="c57-0074.05"/>I passed whole days on <lb n="c57-0074__main__20"/>the lake<anchor xml:id="c57-0074.04"/>
          </seg> watching the  <seg xml:id="C24_app35-fMS">clouds</seg> &amp;<mod xml:id="c57-0074__main__d4e14603">
             <add place="sublinear" xml:id="c57-0074__main__d4e14605">
-               <metamark ana="start" function="insert"/>^<metamark ana="end"/>
+               <metamark function="insert">^</metamark>
             </add>
             <add hand="#pbs" place="superlinear" xml:id="c57-0074__main__d4e14611">listening to </add>
          </mod>the <seg part="I" xml:id="C24_app39-fMS__I">ripp </seg>
          <mod xml:id="c57-0074__main__d4e14615">
             <seg part="M" xml:id="C24_app39-fMS__M">
-               <del xmlns:mith="http://mith.umd.edu/sc/ns1#"
-                     xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-                     xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-                     ana="start"
-                     rend="overwritten"
-                     xml:id="c57-0074__main__d4e14617"
-                     n=""/>les<del ana="end"/>
+               <del rend="overwritten" xml:id="c57-0074__main__d4e14617">les</del>
             </seg>
             <add hand="#pbs" place="intralinear" xml:id="c57-0074__main__d4e14620">
                <seg part="F" xml:id="C24_app39-fMS__F">ling</seg>
@@ -111,25 +72,13 @@
          </mod>
          <lb n="c57-0074__main__21"/>of the waves, silent &amp; listless. But the fresh <lb n="c57-0074__main__22"/>air and bright sun seldom failed <add hand="#pbs" place="intralinear" xml:id="c57-0074__main__d4e14629">to </add>
          <lb n="c57-0074__main__23"/>restore me to some degree of <seg xml:id="C24_app41-fMS">
-            <w ana="start"/>compo<lb n="c57-0074__main__24"/>sure<w ana="end"/>&amp; <del xmlns:mith="http://mith.umd.edu/sc/ns1#"
-                  xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-                  xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-                  ana="start"
-                  rend="strikethrough"
-                  xml:id="c57-0074__main__d4e14641"
-                  n=""/>I<del ana="end"/>
+            <w ana="start"/>compo<lb n="c57-0074__main__24"/>sure<w ana="end"/>&amp; <del rend="strikethrough" xml:id="c57-0074__main__d4e14641">I</del>
          </seg> on my  <seg xml:id="C24_app43-fMS">return</seg> I met the  <seg xml:id="C24_app45-fMS">
             <lb n="c57-0074__main__25"/>
-            <del xmlns:mith="http://mith.umd.edu/sc/ns1#"
-                  xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-                  xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-                  ana="start"
-                  rend="strikethrough"
-                  xml:id="c57-0074__main__d4e14646"
-                  n=""/>smi<del ana="end"/> salutations of my friends with a <lb n="c57-0074__main__26"/>readier</seg>
+            <del rend="strikethrough" xml:id="c57-0074__main__d4e14646">smi</del> salutations of my friends with a <lb n="c57-0074__main__26"/>readier</seg>
          <seg xml:id="C24_app46-fMS">smile,</seg> &amp;<mod xml:id="c57-0074__main__d4e14651">
             <add place="sublinear" xml:id="c57-0074__main__d4e14653">
-               <metamark ana="start" function="insert"/>^<metamark ana="end"/>
+               <metamark function="insert">^</metamark>
             </add>
             <add hand="#pbs" place="superlinear" xml:id="c57-0074__main__d4e14659">a </add>
          </mod>more cheerful <seg xml:id="C24_app50-fMS">heart</seg>
@@ -138,7 +87,7 @@
          </seg>
          <seg xml:id="C24_app53-fMS">rambles</seg> that my  <seg xml:id="C24_app55-fMS">father</seg> calling <lb n="c57-0074__main__29"/>me <seg xml:id="C24_app57-fMS">aside</seg> thus  <seg xml:id="C24_app59-fMS">a <mod xml:id="c57-0074__main__d4e14675">
                <add place="sublinear" xml:id="c57-0074__main__d4e14677">
-                  <metamark ana="start" function="insert"/>^<metamark ana="end"/>
+                  <metamark function="insert">^</metamark>
                </add>
                <add place="superlinear" xml:id="c57-0074__main__d4e14683">d </add>
             </mod> dressed me.</seg>
@@ -146,115 +95,56 @@
          <milestone unit="tei:p-START"/>
          <seg xml:id="C24_app61-fMS">
             <lb n="c57-0074__main__30"/>I</seg> am happy to remark, my dear <lb n="c57-0074__main__31"/>son, that <seg xml:id="C24_app63-fMS">
-            <del xmlns:mith="http://mith.umd.edu/sc/ns1#"
-                  xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-                  xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-                  ana="start"
-                  rend="strikethrough"
-                  xml:id="c57-0074__main__d4e14694"
-                  n=""/>lately<del ana="end"/> you have</seg>
+            <del rend="strikethrough" xml:id="c57-0074__main__d4e14694">lately</del> you have</seg>
          <seg xml:id="C24_app64-fMS">
-            <del xmlns:mith="http://mith.umd.edu/sc/ns1#"
-                  xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-                  xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-                  ana="start"
-                  instant="true"
+            <del instant="true"
                   rend="strikethrough"
-                  xml:id="c57-0074__main__d4e14697"
-                  n=""/>acqu<del ana="end"/>
+                  xml:id="c57-0074__main__d4e14697">acqu</del>
             <lb n="c57-0074__main__32"/>resumed your former</seg>
          <seg xml:id="C24_app65-fMS">pleasures</seg> &amp; seem <lb n="c57-0074__main__33"/>to be returning to yourself. And yet <seg xml:id="C24_app67-fMS">
             <lb n="c57-0074__main__34"/>
-            <del xmlns:mith="http://mith.umd.edu/sc/ns1#"
-                  xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-                  xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-                  ana="start"
-                  rend="strikethrough"
-                  xml:id="c57-0074__main__d4e14707"
-                  n=""/>
-            <unclear ana="start" reason="illegible"/>so<unclear ana="end"/>
-            <del ana="end"/> you are still</seg>
+            <del rend="strikethrough" xml:id="c57-0074__main__d4e14707">
+               <unclear reason="illegible">so</unclear>
+            </del> you are still</seg>
          <seg xml:id="C24_app68-fMS">unhappy</seg> &amp; still avoid <lb n="c57-0074__main__35"/>our society. <seg xml:id="C24_app70-fMS">
-            <del xmlns:mith="http://mith.umd.edu/sc/ns1#"
-                  xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-                  xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-                  ana="start"
-                  rend="strikethrough"
-                  xml:id="c57-0074__main__d4e14715"
-                  n=""/>When I consider<del ana="end"/>
+            <del rend="strikethrough" xml:id="c57-0074__main__d4e14715">When I consider</del>
          </seg> For some time  <seg xml:id="C24_app82-fMS">
             <zone corresp="#c57-0074.01" type="main" xml:id="c57-0075__main">
                <addSpan spanTo="#c57-0075.02"/>
                <lb n="c57-0075__main__1"/>
-               <metamark ana="start" function="sequence"/>1<metamark ana="end"/>
+               <metamark function="sequence">1</metamark>
                <lb n="c57-0075__main__2"/>
-               <metamark ana="start" function="displacement"/>my repugnance)X<metamark ana="end"/> I found <add place="superlinear" xml:id="c57-0075__main__d4e14739">also </add> that I was unable to compose <lb n="c57-0075__main__3"/>a female without <del xmlns:mith="http://mith.umd.edu/sc/ns1#"
-                     xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-                     xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-                     ana="start"
-                     rend="strikethrough"
-                     xml:id="c57-0075__main__d4e14744"
-                     n=""/>fresh<del ana="end"/> again devoting <mod xml:id="c57-0075__main__d4e14747">
+               <metamark function="displacement">my repugnance)X</metamark> I found <add place="superlinear" xml:id="c57-0075__main__d4e14739">also </add> that I was unable to compose <lb n="c57-0075__main__3"/>a female without <del rend="strikethrough" xml:id="c57-0075__main__d4e14744">fresh</del> again devoting <mod xml:id="c57-0075__main__d4e14747">
                   <add place="sublinear" xml:id="c57-0075__main__d4e14749">
-                     <metamark ana="start" function="insert"/>^<metamark ana="end"/>
+                     <metamark function="insert">^</metamark>
                   </add>
                   <add place="superlinear" xml:id="c57-0075__main__d4e14755">several </add>
-               </mod> months <lb n="c57-0075__main__4"/>to study &amp; laborious disquisition. I had heard <del xmlns:mith="http://mith.umd.edu/sc/ns1#"
-                     xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-                     xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-                     ana="start"
-                     rend="strikethrough"
-                     xml:id="c57-0075__main__d4e14761"
-                     n=""/>also<del ana="end"/>
+               </mod> months <lb n="c57-0075__main__4"/>to study &amp; laborious disquisition. I had heard <del rend="strikethrough" xml:id="c57-0075__main__d4e14761">also</del>
                <lb n="c57-0075__main__5"/>of some discoveries having been made by <lb n="c57-0075__main__6"/>an <mod xml:id="c57-0075__main__d4e14769">
-                  <mdel ana="start"/>e<mdel ana="end"/>
+                  <mdel>e</mdel>
                   <add place="intralinear" xml:id="c57-0075__main__d4e14773">E </add>
-               </mod> nglish philosopher the knowledge of which <lb n="c57-0075__main__7"/>was material to <del xmlns:mith="http://mith.umd.edu/sc/ns1#"
-                     xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-                     xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-                     ana="start"
-                     rend="strikethrough"
-                     xml:id="c57-0075__main__d4e14779"
-                     n=""/>w<del ana="end"/> my <mod xml:id="c57-0075__main__d4e14782">
-                  <del xmlns:mith="http://mith.umd.edu/sc/ns1#"
-                        xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-                        xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-                        ana="start"
-                        rend="strikethrough"
-                        xml:id="c57-0075__main__d4e14784"
-                        n=""/>work.<del ana="end"/>
+               </mod> nglish philosopher the knowledge of which <lb n="c57-0075__main__7"/>was material to <del rend="strikethrough" xml:id="c57-0075__main__d4e14779">w</del> my <mod xml:id="c57-0075__main__d4e14782">
+                  <del rend="strikethrough" xml:id="c57-0075__main__d4e14784">work.</del>
                   <add place="sublinear" xml:id="c57-0075__main__d4e14787">
-                     <metamark ana="start" function="insert"/>^<metamark ana="end"/>
+                     <metamark function="insert">^</metamark>
                   </add>
                   <add place="superlinear" xml:id="c57-0075__main__d4e14793">success </add>
                </mod>
                <mod xml:id="c57-0075__main__d4e14798">
                   <add place="sublinear" xml:id="c57-0075__main__d4e14800">
-                     <metamark ana="start" function="insert"/>^<metamark ana="end"/>
+                     <metamark function="insert">^</metamark>
                   </add>
                   <add place="superlinear" xml:id="c57-0075__main__d4e14806">and </add>
-               </mod> I <del xmlns:mith="http://mith.umd.edu/sc/ns1#"
-                     xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-                     xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-                     ana="start"
-                     rend="strikethrough"
-                     xml:id="c57-0075__main__d4e14810"
-                     n=""/>thought<del ana="end"/>
+               </mod> I <del rend="strikethrough" xml:id="c57-0075__main__d4e14810">thought</del>
                <delSpan rend="strikethrough" spanTo="#c57-0075.03"/>of writing <lb n="c57-0075__main__8"/>som <delSpan anchor="c57-0075.03"/>etimes <mod xml:id="c57-0075__main__d4e14819">
                   <add place="sublinear" xml:id="c57-0075__main__d4e14821">
-                     <metamark ana="start" function="insert"/>^<metamark ana="end"/>
+                     <metamark function="insert">^</metamark>
                   </add>
                   <add place="superlinear" xml:id="c57-0075__main__d4e14827">thought </add>
                </mod> of obtainting my fathers consent <lb n="c57-0075__main__9"/>
                <damage type="tear"/>to visit England for this purpose but <lb n="c57-0075__main__10"/>
                <damage type="tear"/>I clung to <mod xml:id="c57-0075__main__d4e14840">
-                  <del xmlns:mith="http://mith.umd.edu/sc/ns1#"
-                        xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-                        xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-                        ana="start"
-                        rend="strikethrough"
-                        xml:id="c57-0075__main__d4e14842"
-                        n=""/>this<del ana="end"/>
+                  <del rend="strikethrough" xml:id="c57-0075__main__d4e14842">this</del>
                   <add hand="#pbs" place="superlinear" xml:id="c57-0075__main__d4e14845">every </add>
                </mod> pretence of delay &amp; could <lb n="c57-0075__main__11"/>
                <damage type="tear"/>not resolve to interrupt my return<lb n="c57-0075__main__12"/>
@@ -266,28 +156,16 @@
             <w ana="start"/>dissi<lb n="c57-0081__main__3"/>pate<w ana="end"/>.</seg> Tell  <seg xml:id="C24_app92-fMS">me therefore</seg> whether you object to an <w ana="start"/>imme<lb n="c57-0081__main__4"/>diate<w ana="end"/>
          <seg xml:id="C24_app94-fMS">solemnization</seg> of the marriage. We have been  <seg xml:id="C24_app96-fMS">
             <w ana="start"/>unfor<lb n="c57-0081__main__5"/>
-            <del xmlns:mith="http://mith.umd.edu/sc/ns1#"
-                  xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-                  xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-                  ana="start"
-                  rend="smear"
-                  xml:id="c57-0081__main__d4e14889"
-                  n=""/>tunate<del ana="end"/>
+            <del rend="smear" xml:id="c57-0081__main__d4e14889">tunate</del>
             <lb n="c57-0081__main__6"/>tunate<w ana="end"/>,</seg> and recent events have drawn us from that  <seg xml:id="C24_app98-fMS">
             <lb n="c57-0081__main__7"/>every day</seg> tranquillity  <seg xml:id="C24_app100-fMS">
-            <del xmlns:mith="http://mith.umd.edu/sc/ns1#"
-                  xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-                  xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-                  ana="start"
-                  rend="strikethrough"
-                  xml:id="c57-0081__main__d4e14899"
-                  n=""/>so necess<del ana="end"/> befitting my years and <lb n="c57-0081__main__8"/>infirmities. You are</seg>
+            <del rend="strikethrough" xml:id="c57-0081__main__d4e14899">so necess</del> befitting my years and <lb n="c57-0081__main__8"/>infirmities. You are</seg>
          <seg xml:id="C24_app101-fMS">younger</seg> yet I do not suppose, <w ana="start"/>possess<lb n="c57-0081__main__9"/>ed<w ana="end"/> as you are of a competent <seg xml:id="C24_app103-fMS">fortune</seg> that an early <lb n="c57-0081__main__10"/>marriage would at all interfere with any future plans <lb n="c57-0081__main__11"/>of honour and utility <seg part="I" xml:id="C24_app105-fMS__I">
             </seg>
          <mod xml:id="c57-0081__main__d4e14915">
             <seg part="M" xml:id="C24_app105-fMS__M">
                <add place="sublinear" xml:id="c57-0081__main__d4e14917">
-                  <metamark ana="start" function="insert"/>^<metamark ana="end"/>
+                  <metamark function="insert">^</metamark>
                </add>
                <add hand="#pbs" place="superlinear" xml:id="c57-0081__main__d4e14923">that </add>
             </seg>
@@ -296,19 +174,13 @@
                <seg part="I" xml:id="C24_app106-fMS__I">formed </seg>
             </add>
          </mod>
-         <seg part="F" xml:id="C24_app106-fMS__F"> . <del xmlns:mith="http://mith.umd.edu/sc/ns1#"
-                  xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-                  xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-                  ana="start"
-                  rend="strikethrough"
-                  xml:id="c57-0081__main__d4e14930"
-                  n=""/>Yet<del ana="end"/>
+         <seg part="F" xml:id="C24_app106-fMS__F"> . <del rend="strikethrough" xml:id="c57-0081__main__d4e14930">Yet</del>
          </seg> Do not  <seg xml:id="C24_app108-fMS">suppose however</seg> that <lb n="c57-0081__main__12"/>I wish to dictate happiness to <seg xml:id="C24_app110-fMS">you</seg> or that a <lb n="c57-0081__main__13"/>delay on your part would cause me any <seg part="I" xml:id="C24_app112-fMS__I">
             </seg>
          <mod xml:id="c57-0081__main__d4e14938">
             <seg part="M" xml:id="C24_app112-fMS__M">
                <add place="sublinear" xml:id="c57-0081__main__d4e14940">
-                  <metamark ana="start" function="insert"/>^<metamark ana="end"/>
+                  <metamark function="insert">^</metamark>
                </add>
             </seg>
             <add hand="#pbs" place="superlinear" xml:id="c57-0081__main__d4e14946">
@@ -319,7 +191,7 @@
          </mod>
          <seg part="F" xml:id="C24_app113-fMS__F">
             <w ana="start"/>uneasi<lb n="c57-0081__main__14"/>ness<w ana="end"/>; Interp <mod xml:id="c57-0081__main__d4e14957">
-               <mdel ana="start"/>er<mdel ana="end"/>
+               <mdel>er</mdel>
                <add place="intralinear" xml:id="c57-0081__main__d4e14961">e </add>
             </mod> et</seg> my words with  <seg xml:id="C24_app115-fMS">candour</seg> and answer  <seg xml:id="C24_app117-fMS">
             <lb n="c57-0081__main__15"/>me</seg> I conjure  <seg xml:id="C24_app119-fMS">you</seg> with confidence and  <seg xml:id="C24_app121-fMS">sincerity.</seg>
@@ -331,7 +203,7 @@
          <mod xml:id="c57-0081__main__d4e14973">
             <seg part="M" xml:id="C24_app125-fMS__M">
                <add place="sublinear" xml:id="c57-0081__main__d4e14975">
-                  <metamark ana="start" function="insert"/>^<metamark ana="end"/>
+                  <metamark function="insert">^</metamark>
                </add>
             </seg>
             <add place="superlinear" xml:id="c57-0081__main__d4e14981">
@@ -342,57 +214,27 @@
          </mod>
          <seg part="F" xml:id="C24_app126-fMS__F"> sometime without</seg> offering any reply. I revolved <lb n="c57-0081__main__18"/>rapidly in my mind a multitude of <seg xml:id="C24_app128-fMS">
             <mod xml:id="c57-0081__main__d4e14988">
-               <del xmlns:mith="http://mith.umd.edu/sc/ns1#"
-                     xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-                     xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-                     ana="start"
-                     rend="strikethrough"
-                     xml:id="c57-0081__main__d4e14990"
-                     n=""/>ideas<del ana="end"/>
+               <del rend="strikethrough" xml:id="c57-0081__main__d4e14990">ideas</del>
                <add place="superlinear" xml:id="c57-0081__main__d4e14993">thoughts </add>
             </mod>
          </seg> and  <seg xml:id="C24_app130-fMS">
             <lb n="c57-0081__main__19"/>
-            <del xmlns:mith="http://mith.umd.edu/sc/ns1#"
-                  xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-                  xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-                  ana="start"
-                  rend="strikethrough"
-                  xml:id="c57-0081__main__d4e14999"
-                  n=""/>d<del ana="end"/> endeavoured to</seg>
+            <del rend="strikethrough" xml:id="c57-0081__main__d4e14999">d</del> endeavoured to</seg>
          <seg xml:id="C24_app131-fMS">come to</seg> some conclusion. Alas! <lb n="c57-0081__main__20"/>to me the idea of an immediate union with my <seg xml:id="C24_app133-fMS">
             <lb n="c57-0081__main__21"/>cousin</seg> was one of horror and dismay. I was bound by <lb n="c57-0081__main__22"/>a solemn <seg xml:id="C24_app135-fMS">promise</seg> which I had not yet  <seg xml:id="C24_app137-fMS">fufilled</seg> and <lb n="c57-0081__main__23"/>dared not break; <seg xml:id="C24_app139-fMS">or</seg> if I  <seg xml:id="C24_app141-fMS">did</seg> what manifold <w ana="start"/>mise<lb n="c57-0081__main__24"/>ries<w ana="end"/> might not impend over me and <seg xml:id="C24_app143-fMS">
             <w ana="start"/>my devo<lb n="c57-0081__main__25"/>ted<w ana="end"/>
          </seg> family!  <seg xml:id="C24_app145-fMS">
-            <del xmlns:mith="http://mith.umd.edu/sc/ns1#"
-                  xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-                  xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-                  ana="start"
-                  rend="strikethrough"
-                  xml:id="c57-0081__main__d4e15024"
-                  n=""/>And<del ana="end"/> could I enter into a festival with <lb n="c57-0081__main__26"/>this deadly weight yet hanging round my</seg>
+            <del rend="strikethrough" xml:id="c57-0081__main__d4e15024">And</del> could I enter into a festival with <lb n="c57-0081__main__26"/>this deadly weight yet hanging round my</seg>
          <seg xml:id="C24_app146-fMS">neck</seg> and <lb n="c57-0081__main__27"/>bowing me to the ground. <seg part="I" xml:id="C24_app148-fMS__I">
             <delSpan rend="strikethrough" spanTo="#c57-0081.02"/>No, <mod xml:id="c57-0081__main__d4e15034">
                <add place="sublinear" xml:id="c57-0081__main__d4e15036">
-                  <metamark ana="start" function="insert"/>^<metamark ana="end"/>
+                  <metamark function="insert">^</metamark>
                </add>
-               <del xmlns:mith="http://mith.umd.edu/sc/ns1#"
-                     xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-                     xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-                     ana="start"
-                     rend="strikethrough"
-                     xml:id="c57-0081__main__d4e15042"
-                     n=""/>
-               <add hand="#pbs" place="superlinear" xml:id="c57-0081__main__d4e15044">that </add>
-               <del ana="end"/>
+               <del rend="strikethrough" xml:id="c57-0081__main__d4e15042">
+                  <add hand="#pbs" place="superlinear" xml:id="c57-0081__main__d4e15044">that </add>
+               </del>
             </mod> I could not endure <lb n="c57-0081__main__28"/>that <delSpan anchor="c57-0081.02"/>
-            <del xmlns:mith="http://mith.umd.edu/sc/ns1#"
-                  xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-                  xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-                  ana="start"
-                  rend="strikethrough"
-                  xml:id="c57-0081__main__d4e15053"
-                  n=""/>and therefore resolved to<del ana="end"/>
+            <del rend="strikethrough" xml:id="c57-0081__main__d4e15053">and therefore resolved to</del>
          </seg>
          <add hand="#pbs" place="superlinear" xml:id="c57-0081__main__d4e15056">
             <seg part="F" xml:id="C24_app148-fMS__F">I must</seg>
@@ -402,13 +244,7 @@
             <lb n="c57-0082__main__1"/>before</seg> I allowed myself to enjoy the delight of  <seg part="I" xml:id="C24_app155-fMS__I">a <lb n="c57-0082__main__2"/>union, </seg>
          <mod xml:id="c57-0082__main__d4e15076">
             <seg part="F" xml:id="C24_app155-fMS__F">
-               <del xmlns:mith="http://mith.umd.edu/sc/ns1#"
-                     xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-                     xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-                     ana="start"
-                     rend="strikethrough"
-                     xml:id="c57-0082__main__d4e15078"
-                     n=""/>I should otherwise eagerly expect<del ana="end"/>
+               <del rend="strikethrough" xml:id="c57-0082__main__d4e15078">I should otherwise eagerly expect</del>
             </seg>
             <add hand="#pbs" place="superlinear" xml:id="c57-0082__main__d4e15081">from which I expected <seg part="I" xml:id="C24_app157-fMS__I">
                   </seg>
@@ -422,51 +258,27 @@
             </seg>
          <mod xml:id="c57-0082__main__d4e15091">
             <seg part="M" xml:id="C24_app164-fMS__M">
-               <del xmlns:mith="http://mith.umd.edu/sc/ns1#"
-                     xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-                     xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-                     ana="start"
-                     rend="strikethrough"
-                     xml:id="c57-0082__main__d4e15093"
-                     n=""/>going<del ana="end"/>
+               <del rend="strikethrough" xml:id="c57-0082__main__d4e15093">going</del>
             </seg>
             <add hand="#pbs" place="superlinear" xml:id="c57-0082__main__d4e15096">
                <seg part="F" xml:id="C24_app164-fMS__F">journeying</seg>
             </add>
          </mod>to <seg xml:id="C24_app166-fMS">England</seg>
          <lb n="c57-0082__main__4"/>or entering into a long correspondence with <seg part="I" xml:id="C24_app168-fMS__I">th <mod xml:id="c57-0082__main__d4e15102">
-               <del xmlns:mith="http://mith.umd.edu/sc/ns1#"
-                     xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-                     xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-                     ana="start"
-                     rend="overwritten"
-                     xml:id="c57-0082__main__d4e15104"
-                     n=""/>ose<del ana="end"/>
+               <del rend="overwritten" xml:id="c57-0082__main__d4e15104">ose</del>
                <add place="intralinear" xml:id="c57-0082__main__d4e15107">e </add>
             </mod>
             <lb n="c57-0082__main__5"/>
          </seg>
          <mod xml:id="c57-0082__main__d4e15113">
             <seg part="F" xml:id="C24_app168-fMS__F">
-               <del xmlns:mith="http://mith.umd.edu/sc/ns1#"
-                     xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-                     xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-                     ana="start"
-                     rend="strikethrough"
-                     xml:id="c57-0082__main__d4e15115"
-                     n=""/>men<del ana="end"/>
+               <del rend="strikethrough" xml:id="c57-0082__main__d4e15115">men</del>
             </seg>
             <add hand="#pbs" place="superlinear" xml:id="c57-0082__main__d4e15118">philosophers </add>
          </mod>of that <seg xml:id="C24_app171-fMS">country</seg> whose knowledge and <w ana="start"/>discove<lb n="c57-0082__main__6"/>ries<w ana="end"/>
          <mod xml:id="c57-0082__main__d4e15129">
             <seg part="I" xml:id="C24_app173-fMS__I">
-               <del xmlns:mith="http://mith.umd.edu/sc/ns1#"
-                     xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-                     xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-                     ana="start"
-                     rend="strikethrough"
-                     xml:id="c57-0082__main__d4e15131"
-                     n=""/>might<del ana="end"/>
+               <del rend="strikethrough" xml:id="c57-0082__main__d4e15131">might</del>
             </seg>
             <add hand="#pbs" place="superlinear" xml:id="c57-0082__main__d4e15134">
                <seg part="F" xml:id="C24_app173-fMS__F">were</seg>
@@ -478,13 +290,7 @@
             </seg>
          <mod xml:id="c57-0082__main__d4e15138">
             <seg part="M" xml:id="C24_app175-fMS__M">
-               <del xmlns:mith="http://mith.umd.edu/sc/ns1#"
-                     xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-                     xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-                     ana="start"
-                     rend="strikethrough"
-                     xml:id="c57-0082__main__d4e15140"
-                     n=""/>inestimable<del ana="end"/>
+               <del rend="strikethrough" xml:id="c57-0082__main__d4e15140">inestimable</del>
             </seg>
             <add hand="#pbs" place="superlinear" xml:id="c57-0082__main__d4e15143">
                <seg part="F" xml:id="C24_app175-fMS__F">indispensable</seg>
@@ -494,22 +300,16 @@
          </mod>
          <seg part="F" xml:id="C24_app176-fMS__F">
             <mod xml:id="c57-0082__main__d4e15147">
-               <del xmlns:mith="http://mith.umd.edu/sc/ns1#"
-                     xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-                     xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-                     ana="start"
-                     rend="strikethrough"
-                     xml:id="c57-0082__main__d4e15155"
-                     n=""/>
-               <add hand="#pbs" place="superlinear" xml:id="c57-0082__main__d4e15157">necess </add>
-               <del ana="end"/>
+               <del rend="strikethrough" xml:id="c57-0082__main__d4e15155">
+                  <add hand="#pbs" place="superlinear" xml:id="c57-0082__main__d4e15157">necess </add>
+               </del>
             </mod>
          </seg> to me  <seg part="I" xml:id="C24_app178-fMS__I">
             </seg>
          <mod xml:id="c57-0082__main__d4e15162">
             <seg part="M" xml:id="C24_app178-fMS__M">
                <add place="sublinear" xml:id="c57-0082__main__d4e15164">
-                  <metamark ana="start" function="insert"/>^<metamark ana="end"/>
+                  <metamark function="insert">^</metamark>
                </add>
             </seg>
             <add place="superlinear" xml:id="c57-0082__main__d4e15170">
@@ -528,22 +328,10 @@
          <seg xml:id="C24_app188-fMS">and I was delighted with the <lb n="c57-0082__main__10"/>idea of spending a year or two</seg>
          <seg part="I" xml:id="C24_app189-fMS__I">
             <mod xml:id="c57-0082__main__d4e15188">
-               <del xmlns:mith="http://mith.umd.edu/sc/ns1#"
-                     xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-                     xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-                     ana="start"
-                     rend="strikethrough"
-                     xml:id="c57-0082__main__d4e15190"
-                     n=""/>away from<del ana="end"/>
-               <del xmlns:mith="http://mith.umd.edu/sc/ns1#"
-                     xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-                     xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-                     ana="start"
-                     rend="strikethrough"
-                     xml:id="c57-0082__main__d4e15193"
-                     n=""/>
-               <add hand="#pbs" place="superlinear" xml:id="c57-0082__main__d4e15195">in absence from </add>
-               <del ana="end"/>
+               <del rend="strikethrough" xml:id="c57-0082__main__d4e15190">away from</del>
+               <del rend="strikethrough" xml:id="c57-0082__main__d4e15193">
+                  <add hand="#pbs" place="superlinear" xml:id="c57-0082__main__d4e15195">in absence from </add>
+               </del>
             </mod>
             <delSpan rend="strikethrough" spanTo="#c57-0082.02"/>my<w ana="start"/>fami<lb n="c57-0082__main__11"/>ly<w ana="end"/>
             <delSpan anchor="c57-0082.02"/>
@@ -557,86 +345,38 @@
          </add>
          <seg part="F" xml:id="C24_app194-fMS__F">
             <anchor xml:id="c57-0082.01"/>during which</seg>
-         <seg xml:id="C24_app195-fMS">time <del xmlns:mith="http://mith.umd.edu/sc/ns1#"
-                  xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-                  xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-                  ana="start"
-                  rend="strikethrough"
-                  xml:id="c57-0082__main__d4e15216"
-                  n=""/>during this<del ana="end"/>
-            <del xmlns:mith="http://mith.umd.edu/sc/ns1#"
-                  xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-                  xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-                  ana="start"
-                  rend="strikethrough"
-                  xml:id="c57-0082__main__d4e15219"
-                  n=""/>time<del ana="end"/>
-            <del xmlns:mith="http://mith.umd.edu/sc/ns1#"
-                  xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-                  xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-                  ana="start"
-                  rend="strikethrough"
-                  xml:id="c57-0082__main__d4e15222"
-                  n=""/>which<del ana="end"/>
+         <seg xml:id="C24_app195-fMS">time <del rend="strikethrough" xml:id="c57-0082__main__d4e15216">during this</del>
+            <del rend="strikethrough" xml:id="c57-0082__main__d4e15219">time</del>
+            <del rend="strikethrough" xml:id="c57-0082__main__d4e15222">which</del>
             <lb n="c57-0082__main__12"/>
-            <del xmlns:mith="http://mith.umd.edu/sc/ns1#"
-                  xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-                  xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-                  ana="start"
-                  rend="strikethrough"
-                  xml:id="c57-0082__main__d4e15228"
-                  n=""/>time<del ana="end"/>
+            <del rend="strikethrough" xml:id="c57-0082__main__d4e15228">time</del>
          </seg>
          <seg xml:id="C24_app196-fMS">some event might happen which would <lb n="c57-0082__main__13"/>restore me to them</seg> in peace and  <seg xml:id="C24_app198-fMS">happiness.</seg> My <lb n="c57-0082__main__14"/>promise <seg xml:id="C24_app200-fMS">might be</seg> fulfilled,  <seg xml:id="C24_app202-fMS">and</seg> the monster  <seg xml:id="C24_app204-fMS">
             <lb n="c57-0082__main__15"/> have departed</seg> or  <seg xml:id="C24_app206-fMS">some</seg>
          <seg xml:id="C24_app207-fMS">
-            <del xmlns:mith="http://mith.umd.edu/sc/ns1#"
-                  xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-                  xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-                  ana="start"
-                  rend="strikethrough"
-                  xml:id="c57-0082__main__d4e15237"
-                  n=""/>other<del ana="end"/> accident might</seg>
+            <del rend="strikethrough" xml:id="c57-0082__main__d4e15237">other</del> accident might</seg>
          <seg xml:id="C24_app208-fMS">
             <lb n="c57-0082__main__16"/>occur to destroy</seg>
          <seg xml:id="C24_app209-fMS">him</seg> and put  <seg xml:id="C24_app211-fMS">a <add place="sublinear" xml:id="c57-0082__main__d4e15243">n </add>
-            <del xmlns:mith="http://mith.umd.edu/sc/ns1#"
-                  xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-                  xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-                  ana="start"
-                  rend="strikethrough"
-                  xml:id="c57-0082__main__d4e15246"
-                  n=""/>f<del ana="end"/>
+            <del rend="strikethrough" xml:id="c57-0082__main__d4e15246">f</del>
          </seg> end to my <lb n="c57-0082__main__17"/>slavery for <seg xml:id="C24_app213-fMS">ever—These</seg> feelings dictated my <w ana="start"/>an<lb n="c57-0082__main__18"/>swer<w ana="end"/> to my father. I <seg part="I" xml:id="C24_app215-fMS__I">
             </seg>
          <mod xml:id="c57-0082__main__d4e15258">
             <seg part="M" xml:id="C24_app215-fMS__M">
-               <del xmlns:mith="http://mith.umd.edu/sc/ns1#"
-                     xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-                     xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-                     ana="start"
-                     rend="strikethrough"
-                     xml:id="c57-0082__main__d4e15260"
-                     n=""/>said I<del ana="end"/>
+               <del rend="strikethrough" xml:id="c57-0082__main__d4e15260">said I</del>
             </seg>
             <add place="superlinear" xml:id="c57-0082__main__d4e15263">
                <seg part="F" xml:id="C24_app215-fMS__F">expressed</seg>
                <seg xml:id="C24_app216-fMS">
-                  <mdel ana="start"/>my<mdel ana="end"/> a</seg>
+                  <mdel>my</mdel> a</seg>
             </add>
          </mod>wish <seg xml:id="C24_app218-fMS">
-            <del xmlns:mith="http://mith.umd.edu/sc/ns1#"
-                  xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-                  xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-                  ana="start"
-                  rend="strikethrough"
-                  xml:id="c57-0082__main__d4e15269"
-                  n=""/>ed<del ana="end"/> to visit</seg>
+            <del rend="strikethrough" xml:id="c57-0082__main__d4e15269">ed</del> to visit</seg>
          <seg xml:id="C24_app219-fMS">England <lb n="c57-0082__main__19"/>but</seg> concealing  <seg part="I" xml:id="C24_app221-fMS__I">
             </seg>
          <mod xml:id="c57-0082__main__d4e15274">
             <seg part="M" xml:id="C24_app221-fMS__M">
-               <mdel ana="start"/>my<mdel ana="end"/>
+               <mdel>my</mdel>
             </seg>
             <add hand="#pbs" place="superlinear" xml:id="c57-0082__main__d4e15278">
                <seg part="F" xml:id="C24_app221-fMS__F">the</seg>
@@ -645,14 +385,8 @@
             </seg>
          <mod xml:id="c57-0082__main__d4e15282">
             <seg part="M" xml:id="C24_app223-fMS__M">
-               <del xmlns:mith="http://mith.umd.edu/sc/ns1#"
-                     xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-                     xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-                     ana="start"
-                     rend="strikethrough"
-                     xml:id="c57-0082__main__d4e15284"
-                     n=""/>for<del ana="end"/>
-               <mdel ana="start"/>my<mdel ana="end"/>
+               <del rend="strikethrough" xml:id="c57-0082__main__d4e15284">for</del>
+               <mdel>my</mdel>
             </seg>
             <add hand="#pbs" place="superlinear" xml:id="c57-0082__main__d4e15289">
                <seg part="F" xml:id="C24_app223-fMS__F">of this</seg>
@@ -660,14 +394,9 @@
                   </seg>
             </add>
          </mod>
-         <seg part="F" xml:id="C24_app224-fMS__F"> request</seg> I <lb n="c57-0082__main__20"/>clothed my desires under <seg xml:id="C24_app226-fMS">the guise of <del xmlns:mith="http://mith.umd.edu/sc/ns1#"
-                  xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-                  xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-                  ana="start"
-                  instant="true"
+         <seg part="F" xml:id="C24_app224-fMS__F"> request</seg> I <lb n="c57-0082__main__20"/>clothed my desires under <seg xml:id="C24_app226-fMS">the guise of <del instant="true"
                   rend="strikethrough"
-                  xml:id="c57-0082__main__d4e15296"
-                  n=""/>wh<del ana="end"/>wishing to <lb n="c57-0082__main__21"/>travel and see the world before I sat down <lb n="c57-0082__main__22"/>for life within the walls of my native town.<milestone unit="tei:p-END"/>
+                  xml:id="c57-0082__main__d4e15296">wh</del>wishing to <lb n="c57-0082__main__21"/>travel and see the world before I sat down <lb n="c57-0082__main__22"/>for life within the walls of my native town.<milestone unit="tei:p-END"/>
          </seg>
          <seg xml:id="C24_app227-fMS">
             <milestone unit="tei:p-START"/>
@@ -676,13 +405,7 @@
             </seg>
          <mod xml:id="c57-0082__main__d4e15307">
             <seg part="M" xml:id="C24_app228-fMS__M">
-               <del xmlns:mith="http://mith.umd.edu/sc/ns1#"
-                     xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-                     xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-                     ana="start"
-                     rend="strikethrough"
-                     xml:id="c57-0082__main__d4e15309"
-                     n=""/>request<del ana="end"/>
+               <del rend="strikethrough" xml:id="c57-0082__main__d4e15309">request</del>
             </seg>
             <add hand="#pbs" place="superlinear" xml:id="c57-0082__main__d4e15312">
                <seg part="F" xml:id="C24_app228-fMS__F">entreaty</seg>
@@ -697,13 +420,7 @@
             </seg>
          <mod xml:id="c57-0082__main__d4e15319">
             <seg part="M" xml:id="C24_app232-fMS__M">
-               <del xmlns:mith="http://mith.umd.edu/sc/ns1#"
-                     xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-                     xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-                     ana="start"
-                     rend="strikethrough"
-                     xml:id="c57-0082__main__d4e15321"
-                     n=""/>grant it<del ana="end"/>
+               <del rend="strikethrough" xml:id="c57-0082__main__d4e15321">grant it</del>
             </seg>
             <add place="superlinear" xml:id="c57-0082__main__d4e15324">
                <seg part="F" xml:id="C24_app232-fMS__F">comply;</seg>
@@ -712,20 +429,8 @@
             </add>
          </mod>
          <seg part="F" xml:id="C24_app233-fMS__F"> for a <lb n="c57-0082__main__25"/>
-            <del xmlns:mith="http://mith.umd.edu/sc/ns1#"
-                  xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-                  xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-                  ana="start"
-                  rend="strikethrough"
-                  xml:id="c57-0082__main__d4e15330"
-                  n=""/>man<del ana="end"/> more indulgent <mod xml:id="c57-0082__main__d4e15333">
-               <del xmlns:mith="http://mith.umd.edu/sc/ns1#"
-                     xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-                     xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-                     ana="start"
-                     rend="strikethrough"
-                     xml:id="c57-0082__main__d4e15335"
-                     n=""/>and<del ana="end"/>
+            <del rend="strikethrough" xml:id="c57-0082__main__d4e15330">man</del> more indulgent <mod xml:id="c57-0082__main__d4e15333">
+               <del rend="strikethrough" xml:id="c57-0082__main__d4e15335">and</del>
                <add hand="#pbs" place="superlinear" xml:id="c57-0082__main__d4e15338">or a </add>
             </mod>
          </seg>
@@ -738,13 +443,7 @@
          <seg xml:id="C24_app240-fMS">our principal stay would be in England.</seg>
          <seg xml:id="C24_app241-fMS">
             <lb n="c57-0084__main__8"/>We should return by</seg>
-         <seg xml:id="C24_app242-fMS">France –&amp; <del xmlns:mith="http://mith.umd.edu/sc/ns1#"
-                  xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-                  xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-                  ana="start"
-                  rend="strikethrough"
-                  xml:id="c57-0084__main__d4e15377"
-                  n=""/>and<del ana="end"/>
+         <seg xml:id="C24_app242-fMS">France –&amp; <del rend="strikethrough" xml:id="c57-0084__main__d4e15377">and</del>
          </seg>
          <seg xml:id="C24_app243-fMS">it</seg>
          <seg xml:id="C24_app244-fMS">
@@ -775,22 +474,10 @@
          <seg xml:id="C24_app266-fMS">and neither hopes <lb n="c57-0084__main__21"/>or fears arise to disturb our <w ana="start"/>domes<lb n="c57-0084__main__22"/>tic<w ana="end"/>
          </seg>
          <seg xml:id="C24_app267-fMS">
-            <del xmlns:mith="http://mith.umd.edu/sc/ns1#"
-                  xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-                  xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-                  ana="start"
-                  rend="strikethrough"
-                  xml:id="c57-0084__main__d4e15429"
-                  n=""/>
-            <retrace ana="start" cause="unclear"/>felicity<retrace ana="end"/>
-            <del ana="end"/>
-            <del xmlns:mith="http://mith.umd.edu/sc/ns1#"
-                  xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-                  xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-                  ana="start"
-                  rend="unmarked"
-                  xml:id="c57-0084__main__d4e15435"
-                  n=""/>.<del ana="end"/> calm.</seg>
+            <del rend="strikethrough" xml:id="c57-0084__main__d4e15429">
+               <retrace cause="unclear">felicity</retrace>
+            </del>
+            <del rend="unmarked" xml:id="c57-0084__main__d4e15435">.</del> calm.</seg>
          <seg xml:id="C24_app268-fMS">
             <milestone unit="tei:p-END"/>
             <milestone unit="tei:p-START"/>
@@ -808,7 +495,7 @@
          <mod xml:id="c57-0084__main__d4e15447">
             <seg part="M" xml:id="C24_app275-fMS__M">
                <add place="sublinear" xml:id="c57-0084__main__d4e15449">
-                  <metamark ana="start" function="insert"/>^<metamark ana="end"/>
+                  <metamark function="insert">^</metamark>
                </add>
             </seg>
             <add place="superlinear" xml:id="c57-0084__main__d4e15455">
@@ -819,13 +506,7 @@
          </mod>
          <seg part="F" xml:id="C24_app276-fMS__F">have</seg>
          <seg xml:id="C24_app277-fMS">
-            <del xmlns:mith="http://mith.umd.edu/sc/ns1#"
-                  xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-                  xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-                  ana="start"
-                  rend="strikethrough"
-                  xml:id="c57-0084__main__d4e15459"
-                  n=""/>both<del ana="end"/> become</seg>
+            <del rend="strikethrough" xml:id="c57-0084__main__d4e15459">both</del> become</seg>
          <seg xml:id="C24_app278-fMS">wiser</seg>
          <seg xml:id="C24_app279-fMS">
             <lb n="c57-0084__main__26"/>and I hope</seg>
@@ -836,7 +517,7 @@
          <mod xml:id="c57-0084__main__d4e15465">
             <seg part="M" xml:id="C24_app282-fMS__M">
                <add xml:id="c57-0084__main__d4e15467">
-                  <metamark ana="start"/>^<metamark ana="end"/>
+                  <metamark>^</metamark>
                </add>
             </seg>
             <add xml:id="c57-0084__main__d4e15472">
@@ -845,13 +526,7 @@
                   </seg>
             </add>
          </mod>
-         <seg part="F" xml:id="C24_app283-fMS__F"> are <del xmlns:mith="http://mith.umd.edu/sc/ns1#"
-                  xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-                  xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-                  ana="start"
-                  rend="strikethrough"
-                  xml:id="c57-0084__main__d4e15475"
-                  n=""/>now<del ana="end"/>
+         <seg part="F" xml:id="C24_app283-fMS__F"> are <del rend="strikethrough" xml:id="c57-0084__main__d4e15475">now</del>
          </seg>
          <seg xml:id="C24_app284-fMS">
             <lb n="c57-0085__main__1"/>I</seg>
@@ -859,13 +534,7 @@
          <seg xml:id="C24_app286-fMS">but my father kindly forbore</seg>
          <seg xml:id="C24_app287-fMS">
             <lb n="c57-0085__main__2"/>
-            <del xmlns:mith="http://mith.umd.edu/sc/ns1#"
-                  xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-                  xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-                  ana="start"
-                  rend="strikethrough"
-                  xml:id="c57-0085__main__d4e15491"
-                  n=""/>to me que<del ana="end"/>
+            <del rend="strikethrough" xml:id="c57-0085__main__d4e15491">to me que</del>
          </seg>
          <seg part="I" xml:id="C24_app288-fMS__I">question me </seg>
          <add hand="#pbs" place="superlinear" xml:id="c57-0085__main__d4e15494">
@@ -889,45 +558,21 @@
             </seg>
          <mod xml:id="c57-0085__main__d4e15513">
             <seg part="M" xml:id="C24_app298-fMS__M">
-               <del xmlns:mith="http://mith.umd.edu/sc/ns1#"
-                     xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-                     xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-                     ana="start"
-                     rend="strikethrough"
-                     xml:id="c57-0085__main__d4e15515"
-                     n=""/>arranged<del ana="end"/>
+               <del rend="strikethrough" xml:id="c57-0085__main__d4e15515">arranged</del>
             </seg>
             <add hand="#pbs" place="superlinear" xml:id="c57-0085__main__d4e15518">
                <seg part="F" xml:id="C24_app298-fMS__F">made arrangements</seg>
             </add>
          </mod>for my <seg xml:id="C24_app300-fMS">journey</seg>
          <lb n="c57-0085__main__7"/>but one feeling haunted <seg xml:id="C24_app302-fMS">me</seg> which <lb n="c57-0085__main__8"/>filled <seg xml:id="C24_app304-fMS">
-            <del xmlns:mith="http://mith.umd.edu/sc/ns1#"
-                  xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-                  xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-                  ana="start"
-                  rend="strikethrough"
-                  xml:id="c57-0085__main__d4e15526"
-                  n=""/>w<del ana="end"/> me with fear and agitation. <lb n="c57-0085__main__9"/>During my absence I should leave my <lb n="c57-0085__main__10"/>friends unconscious of the existence <lb n="c57-0085__main__11"/>of their enemy, and unprotected from <lb n="c57-0085__main__12"/>his attacks,</seg>
+            <del rend="strikethrough" xml:id="c57-0085__main__d4e15526">w</del> me with fear and agitation. <lb n="c57-0085__main__9"/>During my absence I should leave my <lb n="c57-0085__main__10"/>friends unconscious of the existence <lb n="c57-0085__main__11"/>of their enemy, and unprotected from <lb n="c57-0085__main__12"/>his attacks,</seg>
          <seg xml:id="C24_app305-fMS">
-            <del xmlns:mith="http://mith.umd.edu/sc/ns1#"
-                  xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-                  xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-                  ana="start"
-                  rend="strikethrough"
-                  xml:id="c57-0085__main__d4e15538"
-                  n=""/>and<del ana="end"/> exasperated as he <lb n="c57-0085__main__13"/>might be by my departure. But he <lb n="c57-0085__main__14"/>had promised to follow me wherever <lb n="c57-0085__main__15"/>I might</seg>
+            <del rend="strikethrough" xml:id="c57-0085__main__d4e15538">and</del> exasperated as he <lb n="c57-0085__main__13"/>might be by my departure. But he <lb n="c57-0085__main__14"/>had promised to follow me wherever <lb n="c57-0085__main__15"/>I might</seg>
          <seg xml:id="C24_app306-fMS">go</seg> and would he not <w ana="start"/>accom<lb n="c57-0085__main__16"/>pany<w ana="end"/> me to England? This <seg part="I" xml:id="C24_app308-fMS__I">
             </seg>
          <mod xml:id="c57-0085__main__d4e15554">
             <seg part="M" xml:id="C24_app308-fMS__M">
-               <del xmlns:mith="http://mith.umd.edu/sc/ns1#"
-                     xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-                     xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-                     ana="start"
-                     rend="strikethrough"
-                     xml:id="c57-0085__main__d4e15556"
-                     n=""/>idea<del ana="end"/>
+               <del rend="strikethrough" xml:id="c57-0085__main__d4e15556">idea</del>
             </seg>
             <add hand="#pbs" place="superlinear" xml:id="c57-0085__main__d4e15559">
                <seg part="F" xml:id="C24_app308-fMS__F">imagination</seg>
@@ -937,27 +582,15 @@
          <mod xml:id="c57-0085__main__d4e15568">
             <seg part="M" xml:id="C24_app314-fMS__M">
                <add place="sublinear" xml:id="c57-0085__main__d4e15570">
-                  <metamark ana="start" function="insert"/>^<metamark ana="end"/>
+                  <metamark function="insert">^</metamark>
                </add>
             </seg>
             <add hand="#pbs" place="superlinear" xml:id="c57-0085__main__d4e15576">
                <seg part="F" xml:id="C24_app314-fMS__F">it supposed the safety of</seg>
             </add>
-         </mod>my <seg xml:id="C24_app316-fMS">friends <delSpan spanTo="#c57-0085.01"/>would be <lb n="c57-0085__main__19"/>in safety <delSpan anchor="c57-0085.01"/>. <del xmlns:mith="http://mith.umd.edu/sc/ns1#"
-                  xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-                  xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-                  ana="start"
-                  rend="strikethrough"
-                  xml:id="c57-0085__main__d4e15586"
-                  n=""/>Yet<del ana="end"/>
+         </mod>my <seg xml:id="C24_app316-fMS">friends <delSpan spanTo="#c57-0085.01"/>would be <lb n="c57-0085__main__19"/>in safety <delSpan anchor="c57-0085.01"/>. <del rend="strikethrough" xml:id="c57-0085__main__d4e15586">Yet</del>
          </seg> I was  <seg xml:id="C24_app318-fMS">agonized</seg> with  <seg part="I" xml:id="C24_app320-fMS__I">
-            <del xmlns:mith="http://mith.umd.edu/sc/ns1#"
-                  xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-                  xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-                  ana="start"
-                  rend="strikethrough"
-                  xml:id="c57-0085__main__d4e15589"
-                  n=""/>e<del ana="end"/>
+            <del rend="strikethrough" xml:id="c57-0085__main__d4e15589">e</del>
             <lb n="c57-0085__main__20"/>the </seg>
          <add hand="#pbs" place="superlinear" xml:id="c57-0085__main__d4e15595">
             <seg part="F" xml:id="C24_app320-fMS__F">idea of</seg>
@@ -965,113 +598,53 @@
          </add>
          <seg part="F" xml:id="C24_app321-fMS__F">
             </seg> possibility that the reverse <lb n="c57-0085__main__21"/>of this might happen. <seg xml:id="C24_app323-fMS">Bu <mod xml:id="c57-0085__main__d4e15600">
-               <mdel ana="start"/>r<mdel ana="end"/>
+               <mdel>r</mdel>
                <add place="intralinear" xml:id="c57-0085__main__d4e15604">t </add>
-               <del xmlns:mith="http://mith.umd.edu/sc/ns1#"
-                     xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-                     xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-                     ana="start"
-                     rend="strikethrough"
-                     xml:id="c57-0085__main__d4e15607"
-                     n=""/>ing<del ana="end"/>
+               <del rend="strikethrough" xml:id="c57-0085__main__d4e15607">ing</del>
             </mod>
-            <del xmlns:mith="http://mith.umd.edu/sc/ns1#"
-                  xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-                  xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-                  ana="start"
-                  rend="strikethrough"
-                  xml:id="c57-0085__main__d4e15611"
-                  n=""/>du<del ana="end"/>
+            <del rend="strikethrough" xml:id="c57-0085__main__d4e15611">du</del>
          </seg>
          <lb n="c57-0085__main__22"/>through the whole period during <lb n="c57-0085__main__23"/>which I was the slave of my <seg xml:id="C24_app325-fMS">
             <w ana="start"/>crea<lb n="c57-0085__main__24"/>ture<w ana="end"/>
          </seg> I allowed myself to be  <seg xml:id="C24_app327-fMS">govern<lb n="c57-0086__main__1"/>by</seg> the impulses of the  <seg xml:id="C24_app329-fMS">moment</seg> and my  <seg xml:id="C24_app331-fMS">
             <lb n="c57-0086__main__2"/>
-            <del xmlns:mith="http://mith.umd.edu/sc/ns1#"
-                  xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-                  xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-                  ana="start"
-                  rend="strikethrough"
-                  xml:id="c57-0086__main__d4e15637"
-                  n=""/>sensa<del ana="end"/> present sensations strongly <lb n="c57-0086__main__3"/>intimated</seg>
+            <del rend="strikethrough" xml:id="c57-0086__main__d4e15637">sensa</del> present sensations strongly <lb n="c57-0086__main__3"/>intimated</seg>
          <seg xml:id="C24_app332-fMS">that the fiend would follow <lb n="c57-0086__main__4"/>me and <mod xml:id="c57-0086__main__d4e15645">
-               <del xmlns:mith="http://mith.umd.edu/sc/ns1#"
-                     xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-                     xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-                     ana="start"
-                     rend="strikethrough"
-                     xml:id="c57-0086__main__d4e15647"
-                     n=""/>free<del ana="end"/>
+               <del rend="strikethrough" xml:id="c57-0086__main__d4e15647">free</del>
                <add hand="#pbs" place="superlinear" xml:id="c57-0086__main__d4e15650">exempt </add>
             </mod> my <mod xml:id="c57-0086__main__d4e15654">
-               <del xmlns:mith="http://mith.umd.edu/sc/ns1#"
-                     xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-                     xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-                     ana="start"
-                     rend="strikethrough"
-                     xml:id="c57-0086__main__d4e15656"
-                     n=""/>friends<del ana="end"/>
+               <del rend="strikethrough" xml:id="c57-0086__main__d4e15656">friends</del>
                <add hand="#pbs" place="superlinear" xml:id="c57-0086__main__d4e15659">family </add>
             </mod> from the <lb n="c57-0086__main__5"/>
-            <del xmlns:mith="http://mith.umd.edu/sc/ns1#"
-                  xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-                  xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-                  ana="start"
-                  rend="strikethrough"
-                  xml:id="c57-0086__main__d4e15665"
-                  n=""/>possibility of<del ana="end"/> danger <add hand="#pbs" place="superlinear" xml:id="c57-0086__main__d4e15668">of his machinations </add>. <delSpan rend="strikethrough" spanTo="#c57-0086.01"/>Thinking thus <lb n="c57-0086__main__6"/>I prepared for my journey with <lb n="c57-0086__main__7"/> alarcrity. <delSpan anchor="c57-0086.01"/>
+            <del rend="strikethrough" xml:id="c57-0086__main__d4e15665">possibility of</del> danger <add hand="#pbs" place="superlinear" xml:id="c57-0086__main__d4e15668">of his machinations </add>. <delSpan rend="strikethrough" spanTo="#c57-0086.01"/>Thinking thus <lb n="c57-0086__main__6"/>I prepared for my journey with <lb n="c57-0086__main__7"/> alarcrity. <delSpan anchor="c57-0086.01"/>
             <lb n="c57-0087__main__1"/>dreary imaginations I passed th <mod xml:id="c57-0087__main__d4e15690">
                <add place="sublinear" xml:id="c57-0087__main__d4e15692">
-                  <metamark ana="start" function="insert"/>^<metamark ana="end"/>
+                  <metamark function="insert">^</metamark>
                </add>
                <add place="superlinear" xml:id="c57-0087__main__d4e15698">r </add>
             </mod> ough</seg>
          <add place="intralinear" xml:id="c57-0087__main__d4e15702">many </add>
          <lb n="c57-0087__main__2"/>beautiful &amp; majestic <seg xml:id="C24_app338-fMS">scenes</seg> but my eyes <lb n="c57-0087__main__3"/>were fixed &amp; <seg xml:id="C24_app340-fMS">unobserving;</seg> I  <seg xml:id="C24_app342-fMS">
-            <del xmlns:mith="http://mith.umd.edu/sc/ns1#"
-                  xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-                  xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-                  ana="start"
-                  rend="strikethrough"
-                  xml:id="c57-0087__main__d4e15710"
-                  n=""/>co<del ana="end"/> could only</seg>
+            <del rend="strikethrough" xml:id="c57-0087__main__d4e15710">co</del> could only</seg>
          <seg xml:id="C24_app343-fMS">
             <lb n="c57-0087__main__4"/>thin <mod xml:id="c57-0087__main__d4e15715">
-               <mdel ana="start"/>g<mdel ana="end"/>
+               <mdel>g</mdel>
                <add place="intralinear" xml:id="c57-0087__main__d4e15719">k </add>
             </mod>
          </seg> of the bourne of my  <seg xml:id="C24_app345-fMS">travels</seg> &amp; the <lb n="c57-0087__main__5"/>work which was to occupy me whilst <lb n="c57-0087__main__6"/>they endured. After some days <seg xml:id="C24_app349-fMS">spen <mod xml:id="c57-0087__main__d4e15727">
-               <mdel ana="start"/>d<mdel ana="end"/>
+               <mdel>d</mdel>
                <add place="intralinear" xml:id="c57-0087__main__d4e15731">t </add>
             </mod>
          </seg> in <lb n="c57-0087__main__7"/>listless <seg xml:id="C24_app351-fMS">indolence</seg> during which I  <seg xml:id="C24_app353-fMS">
-            <del xmlns:mith="http://mith.umd.edu/sc/ns1#"
-                  xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-                  xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-                  ana="start"
-                  rend="strikethrough"
-                  xml:id="c57-0087__main__d4e15738"
-                  n=""/>travere<del ana="end"/>
+            <del rend="strikethrough" xml:id="c57-0087__main__d4e15738">travere</del>
             <lb n="c57-0087__main__8"/>traversed many</seg>
          <seg xml:id="C24_app354-fMS">leagues</seg> I arrived at  <seg xml:id="C24_app356-fMS">
-            <lb n="c57-0087__main__9"/>Strasburgh</seg> where I waited two days <lb n="c57-0087__main__10"/>for Clerval. He <seg xml:id="C24_app358-fMS">came; <del xmlns:mith="http://mith.umd.edu/sc/ns1#"
-                  xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-                  xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-                  ana="start"
-                  rend="strikethrough"
-                  xml:id="c57-0087__main__d4e15747"
-                  n=""/>&amp;<del ana="end"/>
+            <lb n="c57-0087__main__9"/>Strasburgh</seg> where I waited two days <lb n="c57-0087__main__10"/>for Clerval. He <seg xml:id="C24_app358-fMS">came; <del rend="strikethrough" xml:id="c57-0087__main__d4e15747">&amp;</del>
          </seg> alas, how great <lb n="c57-0087__main__11"/>was the contrast between <seg xml:id="C24_app360-fMS">us.</seg> He was <lb n="c57-0087__main__12"/>alive to every new scene; joyful when <lb n="c57-0087__main__13"/>he saw the beauties of <seg part="I" xml:id="C24_app362-fMS__I">
             </seg>
          <mod xml:id="c57-0087__main__d4e15757">
             <seg part="M" xml:id="C24_app362-fMS__M">
-               <del xmlns:mith="http://mith.umd.edu/sc/ns1#"
-                     xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-                     xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-                     ana="start"
-                     rend="strikethrough"
-                     xml:id="c57-0087__main__d4e15759"
-                     n=""/>sun<del ana="end"/>
+               <del rend="strikethrough" xml:id="c57-0087__main__d4e15759">sun</del>
             </seg>
             <add place="superlinear" xml:id="c57-0087__main__d4e15762">
                <seg part="F" xml:id="C24_app362-fMS__F">the</seg>
@@ -1082,20 +655,14 @@
          <seg part="F" xml:id="C24_app363-fMS__F"> set <mod xml:id="c57-0087__main__d4e15766">
                <add place="intralinear" xml:id="c57-0087__main__d4e15768">ting </add>
                <add place="sublinear" xml:id="c57-0087__main__d4e15771">
-                  <metamark ana="start" function="insert"/>^<metamark ana="end"/>
+                  <metamark function="insert">^</metamark>
                </add>
                <add place="superlinear" xml:id="c57-0087__main__d4e15777">sun </add>
             </mod>
          </seg> and <lb n="c57-0087__main__14"/>more happy when he <seg xml:id="C24_app365-fMS">saw</seg> it  <seg xml:id="C24_app367-fMS">rise &amp;<lb n="c57-0087__main__15"/>recommence</seg> a new day. He pointed <lb n="c57-0087__main__16"/>out to me the shifting colours <seg xml:id="C24_app369-fMS">
-            <del xmlns:mith="http://mith.umd.edu/sc/ns1#"
-                  xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-                  xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-                  ana="start"
-                  rend="strikethrough"
-                  xml:id="c57-0087__main__d4e15788"
-                  n=""/>
-            <unclear ana="start"/>l<unclear ana="end"/>
-            <del ana="end"/> of the</seg>
+            <del rend="strikethrough" xml:id="c57-0087__main__d4e15788">
+               <unclear>l</unclear>
+            </del> of the</seg>
          <seg xml:id="C24_app370-fMS">
             <lb n="c57-0087__main__17"/>landscape</seg> &amp; the appearances of the <lb n="c57-0087__main__18"/>sky. <seg xml:id="C24_app372-fMS">
             <mod xml:id="c57-0087__main__d4e15797">
@@ -1105,13 +672,7 @@
             </seg>
          <mod xml:id="c57-0087__main__d4e15818">
             <seg part="M" xml:id="C24_app380-fMS__M">
-               <del xmlns:mith="http://mith.umd.edu/sc/ns1#"
-                     xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-                     xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-                     ana="start"
-                     rend="strikethrough"
-                     xml:id="c57-0087__main__d4e15820"
-                     n=""/>are<del ana="end"/>
+               <del rend="strikethrough" xml:id="c57-0087__main__d4e15820">are</del>
             </seg>
             <add hand="#pbs" place="superlinear" xml:id="c57-0087__main__d4e15823">
                <seg part="F" xml:id="C24_app380-fMS__F">wherefore are you</seg>
@@ -1120,19 +681,13 @@
             </seg>
          <mod xml:id="c57-0087__main__d4e15834">
             <seg part="M" xml:id="C24_app388-fMS__M">
-               <del xmlns:mith="http://mith.umd.edu/sc/ns1#"
-                     xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-                     xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-                     ana="start"
-                     rend="strikethrough"
-                     xml:id="c57-0087__main__d4e15836"
-                     n=""/>rise<del ana="end"/>
+               <del rend="strikethrough" xml:id="c57-0087__main__d4e15836">rise</del>
             </seg>
             <add place="superlinear" xml:id="c57-0087__main__d4e15839">
                <seg part="F" xml:id="C24_app388-fMS__F">descent</seg>
             </add>
          </mod>of the evening <seg xml:id="C24_app390-fMS">star</seg> nor the <lb n="c57-0087__main__24"/>golden <seg xml:id="C24_app392-fMS">sun <mod xml:id="c57-0087__main__d4e15845">
-               <mdel ana="start"/>s<mdel ana="end"/>
+               <mdel>s</mdel>
                <add place="intralinear" xml:id="c57-0087__main__d4e15849">r </add>
             </mod> ise</seg> reflected in the  <seg xml:id="C24_app394-fMS">Rhine; <lb n="c57-0087__main__25"/>and</seg> you, my friend, would be far more <lb n="c57-0087__main__26"/>amused with the journal of <seg xml:id="C24_app396-fMS">Clerval</seg>
          <lb n="c57-0087__main__27"/>who observed the scenery with an <lb n="c57-0087__main__28"/>eye of feeling &amp; delight, than <seg xml:id="C24_app398-fMS">to listen</seg>
@@ -1140,73 +695,31 @@
          <lb n="c57-0087__main__30"/>haunted by a curse that shut up every <lb n="c57-0087__main__31"/>avenue to enjoyment. <milestone unit="tei:p-END"/>
          <milestone unit="tei:p-START"/>
          <lb n="c57-0087__main__32"/>We had agreed to <seg xml:id="C24_app404-fMS">go down</seg> the Rhine <lb n="c57-0087__main__33"/>in a boat from <seg xml:id="C24_app406-fMS">Strasbourgh</seg> to  <seg xml:id="C24_app408-fMS">Rotterdam <lb n="c57-0088__main__1"/>
-            <del xmlns:mith="http://mith.umd.edu/sc/ns1#"
-                  xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-                  xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-                  ana="start"
-                  rend="strikethrough"
-                  xml:id="c57-0088__main__d4e15885"
-                  n=""/>from<del ana="end"/>
+            <del rend="strikethrough" xml:id="c57-0088__main__d4e15885">from</del>
          </seg> whence we might take shipping for <lb n="c57-0088__main__2"/>London. During this <seg xml:id="C24_app410-fMS">voyage</seg> we passed  <seg xml:id="C24_app412-fMS">by</seg>
          <lb n="c57-0088__main__3"/>many willowy <seg xml:id="C24_app414-fMS">islands</seg> &amp; saw several beautiful <lb n="c57-0088__main__4"/>towns. We <seg xml:id="C24_app416-fMS">staid</seg> a day at Manheim,  <seg xml:id="C24_app418-fMS">
             <mod xml:id="c57-0088__main__d4e15895">
-               <mdel ana="start"/>on<mdel ana="end"/>
+               <mdel>on</mdel>
                <add hand="#pbs" place="superlinear" xml:id="c57-0088__main__d4e15899">&amp;</add>
             </mod>
          </seg> on <lb n="c57-0088__main__5"/>the fifth from our departure from <seg xml:id="C24_app420-fMS">
             <w ana="start"/>Stras<lb n="c57-0088__main__6"/>bourgh<w ana="end"/>,</seg> arrived at Mayence. The course of <lb n="c57-0088__main__7"/>the Rhine below Mayence becomes much <lb n="c57-0088__main__8"/>more picturesque. The river descends <seg xml:id="C24_app422-fMS">
             <w ana="start"/>rapid<lb n="c57-0088__main__9"/>ly<w ana="end"/>
          </seg> and winds between  <seg xml:id="C24_app424-fMS">hills</seg> not  <seg xml:id="C24_app426-fMS">high</seg> but  <seg xml:id="C24_app428-fMS">
-            <lb n="c57-0088__main__10"/>steep</seg> and of beautiful forms. We saw <lb n="c57-0088__main__11"/>many ruined <seg xml:id="C24_app430-fMS">cast <del xmlns:mith="http://mith.umd.edu/sc/ns1#"
-                  xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-                  xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-                  ana="start"
-                  rend="strikethrough"
-                  xml:id="c57-0088__main__d4e15927"
-                  n=""/>l<del ana="end"/> les</seg> standing on the edges  <seg xml:id="C24_app432-fMS">
-            <lb n="c57-0088__main__12"/>of preci <del xmlns:mith="http://mith.umd.edu/sc/ns1#"
-                  xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-                  xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-                  ana="start"
-                  rend="strikethrough"
-                  xml:id="c57-0088__main__d4e15932"
-                  n=""/>s<del ana="end"/> pieces <delSpan rend="strikethrough" spanTo="#c57-0088.01"/>&amp; the sl green slopes of</seg>
+            <lb n="c57-0088__main__10"/>steep</seg> and of beautiful forms. We saw <lb n="c57-0088__main__11"/>many ruined <seg xml:id="C24_app430-fMS">cast <del rend="strikethrough" xml:id="c57-0088__main__d4e15927">l</del> les</seg> standing on the edges  <seg xml:id="C24_app432-fMS">
+            <lb n="c57-0088__main__12"/>of preci <del rend="strikethrough" xml:id="c57-0088__main__d4e15932">s</del> pieces <delSpan rend="strikethrough" spanTo="#c57-0088.01"/>&amp; the sl green slopes of</seg>
          <seg xml:id="C24_app433-fMS">
             <lb n="c57-0088__main__13"/>the hills <delSpan anchor="c57-0088.01"/>
          </seg> surrounded by black  <seg xml:id="C24_app435-fMS">woods</seg>
          <lb n="c57-0088__main__14"/>high &amp; inaccessible. This part of the <seg xml:id="C24_app437-fMS">Rhine <lb n="c57-0088__main__15"/>indeed</seg> presents a  <seg xml:id="C24_app439-fMS">
-            <del xmlns:mith="http://mith.umd.edu/sc/ns1#"
-                  xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-                  xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-                  ana="start"
-                  rend="strikethrough"
-                  xml:id="c57-0088__main__d4e15946"
-                  n=""/>wonderfully<del ana="end"/> singularly <lb n="c57-0088__main__16"/>variegated</seg>
-         <seg xml:id="C24_app440-fMS">lanscape.</seg> In <add place="superlinear" xml:id="c57-0088__main__d4e15951">one </add>spot you view <lb n="c57-0088__main__17"/>rugged hills, ruined <seg xml:id="C24_app443-fMS">castl <del xmlns:mith="http://mith.umd.edu/sc/ns1#"
-                  xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-                  xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-                  ana="start"
-                  rend="strikethrough"
-                  xml:id="c57-0088__main__d4e15957"
-                  n=""/>l<del ana="end"/> es</seg> overlooking <lb n="c57-0088__main__18"/>tremendous <seg xml:id="C24_app445-fMS">precipieces</seg> with the dark <lb n="c57-0088__main__19"/>Rhine rushing <seg xml:id="C24_app447-fMS">beneath. And</seg> on the <lb n="c57-0088__main__20"/>sudden turn of a <seg xml:id="C24_app449-fMS">
-            <del xmlns:mith="http://mith.umd.edu/sc/ns1#"
-                  xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-                  xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-                  ana="start"
-                  rend="strikethrough"
-                  xml:id="c57-0088__main__d4e15966"
-                  n=""/>p<del ana="end"/> promontory</seg>
+            <del rend="strikethrough" xml:id="c57-0088__main__d4e15946">wonderfully</del> singularly <lb n="c57-0088__main__16"/>variegated</seg>
+         <seg xml:id="C24_app440-fMS">lanscape.</seg> In <add place="superlinear" xml:id="c57-0088__main__d4e15951">one </add>spot you view <lb n="c57-0088__main__17"/>rugged hills, ruined <seg xml:id="C24_app443-fMS">castl <del rend="strikethrough" xml:id="c57-0088__main__d4e15957">l</del> es</seg> overlooking <lb n="c57-0088__main__18"/>tremendous <seg xml:id="C24_app445-fMS">precipieces</seg> with the dark <lb n="c57-0088__main__19"/>Rhine rushing <seg xml:id="C24_app447-fMS">beneath. And</seg> on the <lb n="c57-0088__main__20"/>sudden turn of a <seg xml:id="C24_app449-fMS">
+            <del rend="strikethrough" xml:id="c57-0088__main__d4e15966">p</del> promontory</seg>
          <w ana="start"/>flou<lb n="c57-0088__main__21"/>rishing<w ana="end"/>
          <seg xml:id="C24_app451-fMS">vineyards &amp; populous towns <lb n="c57-0088__main__22"/>
             <milestone corresp="#c57-0088.03" spanTo="#c57-0088.02" unit="tei:seg"/>
          </seg> with green sloping  <seg xml:id="C24_app453-fMS">
-            <del xmlns:mith="http://mith.umd.edu/sc/ns1#"
-                  xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-                  xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-                  ana="start"
-                  rend="strikethrough"
-                  xml:id="c57-0088__main__d4e15980"
-                  n=""/>me<del ana="end"/> banks</seg>
+            <del rend="strikethrough" xml:id="c57-0088__main__d4e15980">me</del> banks</seg>
          <anchor xml:id="c57-0088.02"/>&amp; a <lb n="c57-0088__main__23"/>meandering <seg xml:id="C24_app455-fMS">river <anchor xml:id="c57-0088.03"/>
          </seg> occupy the scene. <lb n="c57-0088__main__24"/>We travelled at the time of the <seg xml:id="C24_app460-fMS">vintage</seg>
          <lb n="c57-0088__main__25"/>and heard the song of the <seg xml:id="C24_app462-fMS">labourers</seg>
@@ -1216,7 +729,7 @@
          <mod xml:id="c57-0088__main__d4e16012">
             <seg part="M" xml:id="C24_app472-fMS__M">
                <add place="sublinear" xml:id="c57-0088__main__d4e16014">
-                  <metamark ana="start" function="insert"/>^<metamark ana="end"/>
+                  <metamark function="insert">^</metamark>
                </add>
             </seg>
             <add place="superlinear" xml:id="c57-0088__main__d4e16020">
@@ -1226,7 +739,7 @@
             </add>
          </mod>
          <seg part="F" xml:id="C24_app473-fMS__F"> dr <mod xml:id="c57-0088__main__d4e16024">
-               <mdel ana="start"/>a<mdel ana="end"/>
+               <mdel>a</mdel>
                <add place="intralinear" xml:id="c57-0088__main__d4e16028">i </add>
             </mod> nk</seg> in a tranquillity to <lb n="c57-0088__main__32"/>which I had long been a stranger. <lb n="c57-0088__main__33"/>And if these were my <seg xml:id="C24_app475-fMS">sensations</seg> who <lb n="c57-0088__main__34"/>can describe those of <seg xml:id="C24_app477-fMS">Henry.</seg> He felt as <lb n="c57-0088__main__35"/>if he had been transported to <seg xml:id="C24_app479-fMS">fairy land</seg>
          <lb n="c57-0089__main__1"/>and enjoyed a happiness seldom tasted <lb n="c57-0089__main__2"/>by man. <seg xml:id="C24_app481-fMS">I</seg> have  <seg xml:id="C24_app483-fMS">seen,</seg> he said,  <seg xml:id="C24_app485-fMS">the</seg> most <lb n="c57-0089__main__3"/>beautiful scenes of my own <seg xml:id="C24_app487-fMS">country.</seg> I <lb n="c57-0089__main__4"/>have <seg xml:id="C24_app489-fMS">been on</seg> the lakes of Lucerne &amp;  <seg xml:id="C24_app491-fMS">Uri</seg>
@@ -1236,15 +749,9 @@
             </seg>
          <mod xml:id="c57-0089__main__d4e16069">
             <seg part="M" xml:id="C24_app497-fMS__M">
-               <del xmlns:mith="http://mith.umd.edu/sc/ns1#"
-                     xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-                     xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-                     ana="start"
-                     rend="strikethrough"
-                     xml:id="c57-0089__main__d4e16071"
-                     n=""/>cast<del ana="end"/>
+               <del rend="strikethrough" xml:id="c57-0089__main__d4e16071">cast</del>
                <add place="sublinear" xml:id="c57-0089__main__d4e16074">
-                  <metamark ana="start" function="insert"/>^<metamark ana="end"/>
+                  <metamark function="insert">^</metamark>
                </add>
             </seg>
             <add place="superlinear" xml:id="c57-0089__main__d4e16080">
@@ -1255,47 +762,23 @@
          <lb n="c57-0089__main__13"/>when the wind tore up whirlwinds <lb n="c57-0089__main__14"/>of <seg xml:id="C24_app505-fMS">water</seg> and gave you an idea of <lb n="c57-0089__main__15"/>what the <seg xml:id="C24_app507-fMS">waterspout</seg> must be on <lb n="c57-0089__main__16"/>the great <seg xml:id="C24_app509-fMS">ocean–and</seg> the waves dash <lb n="c57-0089__main__17"/>with fury <seg xml:id="C24_app511-fMS">
             <add hand="#pbs" place="superlinear" xml:id="c57-0089__main__d4e16104">on </add> the</seg>
          <seg xml:id="C24_app512-fMS">
-            <del xmlns:mith="http://mith.umd.edu/sc/ns1#"
-                  xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-                  xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-                  ana="start"
-                  rend="strikethrough"
-                  xml:id="c57-0089__main__d4e16107"
-                  n=""/>th<del ana="end"/>
+            <del rend="strikethrough" xml:id="c57-0089__main__d4e16107">th</del>
             <mod xml:id="c57-0089__main__d4e16110">
-               <del xmlns:mith="http://mith.umd.edu/sc/ns1#"
-                     xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-                     xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-                     ana="start"
-                     rend="strikethrough"
-                     xml:id="c57-0089__main__d4e16112"
-                     n=""/>foot<del ana="end"/>
+               <del rend="strikethrough" xml:id="c57-0089__main__d4e16112">foot</del>
                <add hand="#pbs" place="superlinear" xml:id="c57-0089__main__d4e16115">base</add>
             </mod> of the</seg>
          <seg xml:id="C24_app513-fMS">mountain</seg>
          <lb n="c57-0089__main__18"/>where the priest &amp; his mistress <lb n="c57-0089__main__19"/>were overwhelmed by an <seg xml:id="C24_app515-fMS">avelanche,</seg>
          <lb n="c57-0089__main__20"/>&amp; where their dying voices are still <lb n="c57-0089__main__21"/>said to be heard amid the pauses <lb n="c57-0089__main__22"/>of the <seg xml:id="C24_app517-fMS">night wind.</seg> I have seen the  <seg xml:id="C24_app519-fMS">
             <lb n="c57-0089__main__23"/>
-            <del xmlns:mith="http://mith.umd.edu/sc/ns1#"
-                  xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-                  xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-                  ana="start"
-                  rend="strikethrough"
-                  xml:id="c57-0089__main__d4e16135"
-                  n=""/>lovely<del ana="end"/> mountains of la</seg>
+            <del rend="strikethrough" xml:id="c57-0089__main__d4e16135">lovely</del> mountains of la</seg>
          <seg xml:id="C24_app520-fMS">Valais</seg> &amp; the <lb n="c57-0089__main__24"/>pays de <seg xml:id="C24_app522-fMS">Vaud;</seg> But this country, Victor, <lb n="c57-0089__main__25"/>pleases me more than all those wonders. <lb n="c57-0089__main__26"/>The Mountains of Switzerland are <lb n="c57-0089__main__27"/>more majestic &amp; <seg xml:id="C24_app524-fMS">strange</seg> but there <lb n="c57-0089__main__28"/>is a charm in the banks of this divine <seg xml:id="C24_app526-fMS">
             <lb n="c57-0089__main__29"/>river</seg> that I never before saw equalled. <lb n="c57-0089__main__30"/>Look at that castle which overhangs <seg part="I" xml:id="C24_app528-fMS__I">
             <lb n="c57-0089__main__31"/>
          </seg>
          <mod xml:id="c57-0089__main__d4e16155">
             <seg part="M" xml:id="C24_app528-fMS__M">
-               <del xmlns:mith="http://mith.umd.edu/sc/ns1#"
-                     xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-                     xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-                     ana="start"
-                     rend="strikethrough"
-                     xml:id="c57-0089__main__d4e16157"
-                     n=""/>that<del ana="end"/>
+               <del rend="strikethrough" xml:id="c57-0089__main__d4e16157">that</del>
             </seg>
             <add hand="#pbs" place="superlinear" xml:id="c57-0089__main__d4e16160">
                <seg part="F" xml:id="C24_app528-fMS__F">yon</seg>
@@ -1305,15 +788,9 @@
          </mod>
          <seg part="F" xml:id="C24_app529-fMS__F"> precipiece;</seg> and that also on <lb n="c57-0089__main__32"/>the <seg xml:id="C24_app531-fMS">island</seg> almost concealed  <seg xml:id="C24_app533-fMS">among</seg>
          <lb n="c57-0089__main__33"/>the foliage of those lovely <seg xml:id="C24_app535-fMS">trees–and</seg> now <lb n="c57-0090__main__1"/>that group of <seg xml:id="C24_app537-fMS">laboures</seg> coming from among <lb n="c57-0090__main__2"/>their vines; &amp; that village <seg xml:id="C24_app539-fMS">half hid</seg> in the <lb n="c57-0090__main__3"/>recess of the mountain. <seg xml:id="C24_app541-fMS">Oh Surely</seg> the <w ana="start"/>spi<lb n="c57-0090__main__4"/>rit<w ana="end"/> that inhabits &amp; guards this place <lb n="c57-0090__main__5"/>has a soul more in <seg part="I" xml:id="C24_app543-fMS__I">
-            <del xmlns:mith="http://mith.umd.edu/sc/ns1#"
-                  xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-                  xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-                  ana="start"
-                  rend="strikethrough"
-                  xml:id="c57-0090__main__d4e16191"
-                  n=""/>sympathy<del ana="end"/>
+            <del rend="strikethrough" xml:id="c57-0090__main__d4e16191">sympathy</del>
             <add place="sublinear" xml:id="c57-0090__main__d4e16194">
-               <metamark ana="start" function="insert"/>^<metamark ana="end"/>
+               <metamark function="insert">^</metamark>
             </add>
          </seg>
          <add place="superlinear" xml:id="c57-0090__main__d4e16200">
@@ -1324,13 +801,7 @@
          <seg xml:id="C24_app565-fMS">
             <milestone unit="tei:p-START"/>
             <lb n="c57-0090__main__9"/>I smiled at the enthusiasm of my <lb n="c57-0090__main__10"/>friend and remembered with a sigh the <lb n="c57-0090__main__11"/>period when my eyes would have glistened <lb n="c57-0090__main__12"/>with joy to behold the scenes <mod xml:id="c57-0090__main__d4e16221">
-               <del xmlns:mith="http://mith.umd.edu/sc/ns1#"
-                     xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-                     xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-                     ana="start"
-                     rend="strikethrough"
-                     xml:id="c57-0090__main__d4e16223"
-                     n=""/>that<del ana="end"/>
+               <del rend="strikethrough" xml:id="c57-0090__main__d4e16223">that</del>
                <add hand="#pbs" place="superlinear" xml:id="c57-0090__main__d4e16226">which </add>
             </mod> I now <lb n="c57-0090__main__13"/>viewed. But the recollection of those days <lb n="c57-0090__main__14"/>was too painful; I must shut out all <lb n="c57-0090__main__15"/>thought to enjoy tranquillity, &amp; that <lb n="c57-0090__main__16"/>reflection alone is sufficient to poison <lb n="c57-0090__main__17"/>every pleasure.<milestone unit="tei:p-END"/>
          </seg>
@@ -1338,20 +809,15 @@
             <anchor type="collate" xml:id="C25"/>
             <milestone unit="tei:p-START"/>
             <add place="intralinear" xml:id="c57-0090__main__d4e16243">
-               <metamark ana="start" function="paragraph"/>[<metamark ana="end"/>
+               <metamark function="paragraph">[</metamark>
             </add>
          </seg>
          <seg xml:id="C25_app2-fMS">At Cologne we descended <lb n="c57-0090__main__18"/>to the plains of Holland</seg> &amp; we resolved to <lb n="c57-0090__main__19"/>post the remainder of our <seg xml:id="C25_app4-fMS">way</seg> for <lb n="c57-0090__main__20"/>the wind was <seg xml:id="C25_app6-fMS">contrary</seg> &amp; the stream of <lb n="c57-0090__main__21"/>the river was too gentle to aid us. <seg xml:id="C25_app8-fMS">We now <lb n="c57-0090__main__22"/>arrived at very different country. The <lb n="c57-0090__main__23"/>soil was sandy and the wheels sunk deep <lb n="c57-0090__main__24"/>in it. The towns of th <mod xml:id="c57-0090__main__d4e16264">
-               <mdel ana="start"/>e<mdel ana="end"/>
+               <mdel>e</mdel>
                <add place="intralinear" xml:id="c57-0090__main__d4e16268">is </add>
-            </mod> country are the <lb n="c57-0090__main__25"/>most pleasing part of the scene. The <lb n="c57-0090__main__26"/>Dutch are extremely neat but there is <lb n="c57-0090__main__27"/>an awkwardness in their contrivances <lb n="c57-0090__main__28"/>that often surprised us. In one place, <lb n="c57-0090__main__29"/>I remember, a wind mill was <del xmlns:mith="http://mith.umd.edu/sc/ns1#"
-                  xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-                  xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-                  ana="start"
-                  instant="true"
+            </mod> country are the <lb n="c57-0090__main__25"/>most pleasing part of the scene. The <lb n="c57-0090__main__26"/>Dutch are extremely neat but there is <lb n="c57-0090__main__27"/>an awkwardness in their contrivances <lb n="c57-0090__main__28"/>that often surprised us. In one place, <lb n="c57-0090__main__29"/>I remember, a wind mill was <del instant="true"
                   rend="strikethrough"
-                  xml:id="c57-0090__main__d4e16283"
-                  n=""/>placed<del ana="end"/>
+                  xml:id="c57-0090__main__d4e16283">placed</del>
             <lb n="c57-0090__main__30"/>situated in such a manner that the <lb n="c57-0090__main__31"/>postillion was obliged to guide the <w ana="start"/>car<lb n="c57-0090__main__32"/>riage<w ana="end"/> close to the opposite side of the <lb n="c57-0090__main__33"/>road to escape from the sweep of its <lb n="c57-0090__main__34"/>sails. The way often led between two <w ana="start"/>ca<lb n="c57-0090__main__35"/>nals<w ana="end"/> where the road was only broard</seg>
          <lb n="c57-0091__main__16"/>From <seg xml:id="C25_app10-fMS">Rotterdam</seg> we  <seg xml:id="C25_app12-fMS">went</seg>
          <lb n="c57-0091__main__17"/>by sea to England. It was on a clear <seg xml:id="C25_app14-fMS">
@@ -1361,26 +827,14 @@
          <mod xml:id="c57-0091__main__d4e16381">
             <seg part="M" xml:id="C25_app19-fMS__M">
                <add place="sublinear" xml:id="c57-0091__main__d4e16383">
-                  <metamark ana="start" function="insert"/>^<metamark ana="end"/>
+                  <metamark function="insert">^</metamark>
                </add>
             </seg>
             <add place="superlinear" xml:id="c57-0091__main__d4e16389">
                <seg part="F" xml:id="C25_app19-fMS__F">of the</seg>
             </add>
-         </mod>Thames presented <lb n="c57-0091__main__21"/>a new scene; they were <seg xml:id="C25_app21-fMS">flat</seg> but  <seg xml:id="C25_app23-fMS">fertile <lb n="c57-0091__main__22"/> &amp; almost every town was marked by <lb n="c57-0091__main__23"/>some story. <del xmlns:mith="http://mith.umd.edu/sc/ns1#"
-                  xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-                  xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-                  ana="start"
-                  rend="strikethrough"
-                  xml:id="c57-0091__main__d4e16400"
-                  n=""/>Th<del ana="end"/>
-         </seg> We saw Tilbury  <seg xml:id="C25_app25-fMS">Fort &amp;<lb n="c57-0091__main__24"/>remembered</seg> the Spanish Armada; <lb n="c57-0091__main__25"/>Gravesend, Woolwich, <seg xml:id="C25_app27-fMS">Greenwich</seg> places <lb n="c57-0091__main__26"/>which I had heard of even in my <lb n="c57-0091__main__27"/>country. At length we saw the <w ana="start"/>nume<lb n="c57-0091__main__28"/>rous<w ana="end"/> steeples of <seg xml:id="C25_app31-fMS">London; <del xmlns:mith="http://mith.umd.edu/sc/ns1#"
-                  xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-                  xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-                  ana="start"
-                  rend="strikethrough"
-                  xml:id="c57-0091__main__d4e16418"
-                  n=""/>&amp;<del ana="end"/> St Pauls <lb n="c57-0091__main__29"/>towerering</seg> above  <seg xml:id="C25_app33-fMS">all</seg> &amp; the Tower famed <lb n="c57-0091__main__30"/>in English History. <lb n="c57-0092__main__1"/>
+         </mod>Thames presented <lb n="c57-0091__main__21"/>a new scene; they were <seg xml:id="C25_app21-fMS">flat</seg> but  <seg xml:id="C25_app23-fMS">fertile <lb n="c57-0091__main__22"/> &amp; almost every town was marked by <lb n="c57-0091__main__23"/>some story. <del rend="strikethrough" xml:id="c57-0091__main__d4e16400">Th</del>
+         </seg> We saw Tilbury  <seg xml:id="C25_app25-fMS">Fort &amp;<lb n="c57-0091__main__24"/>remembered</seg> the Spanish Armada; <lb n="c57-0091__main__25"/>Gravesend, Woolwich, <seg xml:id="C25_app27-fMS">Greenwich</seg> places <lb n="c57-0091__main__26"/>which I had heard of even in my <lb n="c57-0091__main__27"/>country. At length we saw the <w ana="start"/>nume<lb n="c57-0091__main__28"/>rous<w ana="end"/> steeples of <seg xml:id="C25_app31-fMS">London; <del rend="strikethrough" xml:id="c57-0091__main__d4e16418">&amp;</del> St Pauls <lb n="c57-0091__main__29"/>towerering</seg> above  <seg xml:id="C25_app33-fMS">all</seg> &amp; the Tower famed <lb n="c57-0091__main__30"/>in English History. <lb n="c57-0092__main__1"/>
       </body>
    </text>
 </TEI>

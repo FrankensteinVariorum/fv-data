@@ -1,8 +1,5 @@
 <?xml version="1.1" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-      xmlns:fv="https://frankensteinvariorum.github.io"
-      xmlns:tei="http://www.tei-c.org/ns/1.0"
-      xmlns:var="https://frankensteinvariorum.github.io">
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -20,7 +17,7 @@
          <sourceDesc>
             <p>Produced from a corpus of collation output files for
                                                 the Frankenstein Variorum digital edition on
-                                                  2023-08-10T06:06:09.361347-04:00.</p>
+                                                  2023-08-13T15:57:48.023766-04:00.</p>
          </sourceDesc>
       </fileDesc>
    </teiHeader>
@@ -30,26 +27,21 @@
          <seg xml:id="C05_app1-fThomas">
             <anchor type="collate" xml:id="C05"/>
             <milestone unit="letter" type="start" n="4"/>
-            <head ana="start"/>LETTER IV.<head ana="end"/>
+            <head>LETTER IV.</head>
          </seg>
          <seg xml:id="C05_app2-fThomas">
-            <head ana="start"/>
-            <ab xml:id="novel1_letter4_div4_head2_ab1">
-               <hi xml:id="novel1_letter4_div4_head2_ab1_hi1">To Mrs.</hi> S<hi xml:id="novel1_letter4_div4_head2_ab1_hi2">AVILLE</hi>, <hi xml:id="novel1_letter4_div4_head2_ab1_hi3">England.</hi>
-            </ab>
-            <head ana="end"/>
+            <head>
+               <ab xml:id="novel1_letter4_div4_head2_ab1">
+                  <hi xml:id="novel1_letter4_div4_head2_ab1_hi1">To Mrs.</hi> S<hi xml:id="novel1_letter4_div4_head2_ab1_hi2">AVILLE</hi>, <hi xml:id="novel1_letter4_div4_head2_ab1_hi3">England.</hi>
+               </ab>
+            </head>
          </seg>
          <seg part="I" xml:id="C05_app3-fThomas__I">
             <p xml:id="novel1_letter4_div4_p1"> August 5th, 17—. </p>
          </seg>
          <p xml:id="novel1_letter4_div4_p2">
             <seg part="F" xml:id="C05_app3-fThomas__F"> So strange an accident has happened to us, that I cannot forbear recording</seg>
-            <seg xml:id="C05_app4-fThomas">it <add xmlns:mith="http://mith.umd.edu/sc/ns1#"
-                     xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-                     xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-                     ana="start"
-                     place="margin"
-                     n="021"/>in writing<add ana="end"/> ,</seg>
+            <seg xml:id="C05_app4-fThomas">it <add place="margin" n="021">in writing</add> ,</seg>
             <seg part="I" xml:id="C05_app5-fThomas__I">although it is very probable that you will see me before these papers can come into your possession. </seg>
          </p>
          <p xml:id="novel1_letter4_div4_p3">
@@ -60,23 +52,13 @@
          <p xml:id="novel1_letter4_div4_p4">
             <seg part="F" xml:id="C05_app7-fThomas__F"> About two o’clock the mist cleared away, and we beheld, stretched out in every direction, vast and irregular</seg>
             <seg xml:id="C05_app8-fThomas">
-               <add xmlns:mith="http://mith.umd.edu/sc/ns1#"
-                     xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-                     xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-                     ana="start"
-                     place="margin"
-                     n="022"/>mountains &amp; <add ana="end"/> plains of ice,</seg>
+               <add place="margin" n="022">mountains &amp; </add> plains of ice,</seg>
             <seg part="I" xml:id="C05_app9-fThomas__I">which seemed to have no end. Some of my comrades groaned, and my own mind began to grow watchful with anxious thoughts, when a strange sight suddenly attracted our attention, and diverted our solicitude from our own situation. We perceived a low carriage, fixed on a sledge and drawn by dogs, pass on towards the north, at the distance of half a mile: a being which had the shape of a man, but apparently of gigantic stature, sat in the sledge, and guided the dogs. We watched the rapid progress of the traveller with our telescopes, until he was lost among the distant inequalities of the ice. </seg>
          </p>
          <p xml:id="novel1_letter4_div4_p5">
             <seg part="F" xml:id="C05_app9-fThomas__F">
                <pb xml:id="F1818_v1_035" n="023"/>This appearance excited our unqualified wonder. We were, as we believed, many hundred miles from any land; but this apparition seemed to denote that it was not, in reality, so distant as we had supposed. Shut in, however, by ice, it was impossible to follow his track,</seg>
-            <seg xml:id="C05_app10-fThomas">which we had observed with the greatest attention. <add xmlns:mith="http://mith.umd.edu/sc/ns1#"
-                     xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-                     xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-                     ana="start"
-                     place="bottom"
-                     n="023"/>Are we then near land, and is this unknown wast inhabited by giants, of which the being we saw is a specimen? Such an idea is contrary to all experience, but if what we saw was an optical delusion, it was the most perfect and wonderful recorded in the history of nature.<add ana="end"/>
+            <seg xml:id="C05_app10-fThomas">which we had observed with the greatest attention. <add place="bottom" n="023">Are we then near land, and is this unknown wast inhabited by giants, of which the being we saw is a specimen? Such an idea is contrary to all experience, but if what we saw was an optical delusion, it was the most perfect and wonderful recorded in the history of nature.</add>
             </seg>
             <seg part="I" xml:id="C05_app11-fThomas__I">
                </seg>
@@ -131,16 +113,8 @@
             <seg xml:id="C05_app26-fThomas">the stranger seemed very eager</seg>
             <seg xml:id="C05_app27-fThomas">to be upon deck, to watch for the sledge which had before appeared; but I have persuaded him to remain in the cabin, for he is far too weak to sustain the rawness of the atmosphere.</seg>
             <seg xml:id="C05_app28-fThomas">
-               <del xmlns:mith="http://mith.umd.edu/sc/ns1#"
-                     xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-                     xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-                     ana="start"
-                     n="029"/>But<del ana="end"/>
-               <add xmlns:mith="http://mith.umd.edu/sc/ns1#"
-                     xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-                     xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-                     ana="start"
-                     n="029"/>And<add ana="end"/>
+               <del n="029">But</del>
+               <add n="029">And</add>
             </seg>
             <seg part="I" xml:id="C05_app29-fThomas__I">I have promised that some one should watch for him, and give him instant notice if any new object should appear in sight. </seg>
          </p>
@@ -159,11 +133,7 @@
             <seg xml:id="C06_app2-fThomas">misery</seg>
             <seg xml:id="C06_app3-fThomas">without feeling the most poignant grief? He is so gentle, yet so wise; his mind is so cultivated; and when he speaks,</seg>
             <seg part="I" xml:id="C06_app4-fThomas__I">
-               <add xmlns:mith="http://mith.umd.edu/sc/ns1#"
-                     xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-                     xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-                     ana="start"
-                     n="031"/>in his native language which is French, <add ana="end"/> although his words are culled with the choicest art, yet they flow with rapidity and unparalleled eloquence. </seg>
+               <add n="031">in his native language which is French, </add> although his words are culled with the choicest art, yet they flow with rapidity and unparalleled eloquence. </seg>
          </p>
          <p xml:id="novel1_letter4_div4_p27">
             <seg part="F" xml:id="C06_app4-fThomas__F"> He is now much recovered from his illness, and is continually on the deck, apparently watching for the sledge that preceded his own. Yet, although un<pb xml:id="F1818_v1_044" n="032"/>happy, he is not so utterly occupied by his own misery, but that he interests himself deeply in the</seg>
@@ -171,25 +141,12 @@
             <seg xml:id="C06_app6-fThomas">of others. He has</seg>
             <seg xml:id="C06_app7-fThomas">asked me many questions concerning my design; and I have related my little history frankly to him. He appeared pleased with the confidence, and suggested several alterations in my plan, which I shall find exceedingly useful. There is no pedantry in his manner; but all he does appears to spring solely from the interest he instinctively takes in the welfare of those who surround him. He is often overcome by</seg>
             <seg xml:id="C06_app8-fThomas">
-               <add xmlns:mith="http://mith.umd.edu/sc/ns1#"
-                     xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-                     xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-                     ana="start"
-                     n="032"/>a<add ana="end"/>
+               <add n="032">a</add>
             </seg>
             <seg xml:id="C06_app9-fThomas">gloom,</seg>
             <seg xml:id="C06_app10-fThomas">
-               <del xmlns:mith="http://mith.umd.edu/sc/ns1#"
-                     xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-                     xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-                     ana="start"
-                     rend="strikethrough"
-                     n="032"/>and then he sits by himself, and tries to overcome all that is sullen or unsocial in his humour. These paroxysms pass from him like a cloud from before the sun, though his dejection never leaves him.<del ana="end"/>
-               <add xmlns:mith="http://mith.umd.edu/sc/ns1#"
-                     xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-                     xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-                     ana="start"
-                     n="032"/>Which veils his countenance like deep night—he neither speaks or notices anything around him, but sitting on a gun will gaze on the sea and I have sometimes observed his dark eyelash wet with a tear which falls <del-INNER ana="start" rend="strikethrough"/>silently<del-INNER ana="end"/> silently in the deep. This unobtrusive sorrow excites in me the most painful interest, and he will at times reward my sympathy by throwing aside this veil of mortal woe, and then his ardent looks, his deep toned voice and powerful eloquence entrance me with delight.<add ana="end"/>
+               <del rend="strikethrough" n="032">and then he sits by himself, and tries to overcome all that is sullen or unsocial in his humour. These paroxysms pass from him like a cloud from before the sun, though his dejection never leaves him.</del>
+               <add n="032">Which veils his countenance like deep night—he neither speaks or notices anything around him, but sitting on a gun will gaze on the sea and I have sometimes observed his dark eyelash wet with a tear which falls <del-INNER rend="strikethrough">silently</del-INNER> silently in the deep. This unobtrusive sorrow excites in me the most painful interest, and he will at times reward my sympathy by throwing aside this veil of mortal woe, and then his ardent looks, his deep toned voice and powerful eloquence entrance me with delight.</add>
             </seg>
             <seg part="I" xml:id="C06_app11-fThomas__I">I have endeavoured to win his confidence; and I trust that I have suc<pb xml:id="F1818_v1_045" n="033"/>ceeded. One day I mentioned to him the desire I had always felt of finding a friend who might sympathize with me, and direct me by his counsel. I said, I did not belong to that class of men who are offended by advice. “I am self-educated, and perhaps I hardly rely sufficiently upon my own powers. I wish therefore that my companion should be wiser and more experienced than myself, to confirm and support me; nor have I believed it impossible to find a true friend.”</seg>
          </p>
@@ -253,13 +210,7 @@
             <seg xml:id="C06_app36-fThomas">to record, as nearly as possible in his own words, what he has related during the day. If I should be engaged, I will at least make notes. This manuscript will doubtless afford you the greatest</seg>
             <seg xml:id="C06_app37-fThomas">
                <hi xml:id="novel1_letter4_div4_p36_hi1">pleasure</hi>
-               <note xmlns:mith="http://mith.umd.edu/sc/ns1#"
-                      xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-                      xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-                      ana="start"
-                      place="below"
-                      resp="#MWS"
-                      n="037"/>impossible<note ana="end"/> :</seg>
+               <note place="below" resp="#MWS" n="037">impossible</note> :</seg>
             <seg xml:id="C06_app38-fThomas">but to me, <pb xml:id="F1818_v1_050" n="038"/>who know him, and who hear it from his own lips, with what interest and sympathy shall I read it in some future day!</seg>
             <seg part="I" xml:id="C06_app39-fThomas__I">
                </seg>
@@ -268,10 +219,10 @@
             </seg>
          <seg xml:id="C06_app40-fThomas">
             <pb xml:id="F1818_v1_051" n="039"/>
-            <head ana="start"/>FRANKENSTEIN;<head ana="end"/>
-            <head ana="start"/>
-            <hi xml:id="novel1_letter4_div4_head4_hi1">OR</hi>,<head ana="end"/>
-            <head ana="start"/>THE MODERN PROMETHEUS.<head ana="end"/>
+            <head>FRANKENSTEIN;</head>
+            <head>
+               <hi xml:id="novel1_letter4_div4_head4_hi1">OR</hi>,</head>
+            <head>THE MODERN PROMETHEUS.</head>
          </seg>
       </body>
    </text>

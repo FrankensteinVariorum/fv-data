@@ -1,8 +1,5 @@
 <?xml version="1.1" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-      xmlns:fv="https://frankensteinvariorum.github.io"
-      xmlns:tei="http://www.tei-c.org/ns/1.0"
-      xmlns:var="https://frankensteinvariorum.github.io">
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -20,7 +17,7 @@
          <sourceDesc>
             <p>Produced from a corpus of collation output files for
                                                 the Frankenstein Variorum digital edition on
-                                                  2023-08-10T06:06:09.361347-04:00.</p>
+                                                  2023-08-13T15:57:48.023766-04:00.</p>
          </sourceDesc>
       </fileDesc>
    </teiHeader>
@@ -30,7 +27,7 @@
          <milestone unit="chapter" type="start" n="13"/>
          <pb xml:id="F1818_v2_088" n="084"/>
          <seg part="I" xml:id="C20_app3-fThomas__I">
-            <head ana="start"/>CHAPTER VI.<head ana="end"/>
+            <head>CHAPTER VI.</head>
          </seg>
          <p xml:id="novel1_letter4_chapter13_div4_div14_p1">
             <seg part="F" xml:id="C20_app3-fThomas__F"> “S<hi xml:id="novel1_letter4_chapter13_div4_div14_p1_hi1">OME</hi> time</seg> elapsed before I  <seg xml:id="C20_app5-fThomas">learned</seg> the history of my friends. It was one   <seg xml:id="C20_app7-fThomas">which could not fail to impress itself deeply</seg>
@@ -109,12 +106,7 @@
             <seg xml:id="C20_app159-fThomas">Turk,</seg>
             <seg xml:id="C20_app160-fThomas">that if the lat<pb xml:id="F1818_v2_097" n="093"/>ter should find a favourable opportunity for escape before Felix could return to Italy, Safie should remain as a boarder at a convent at Leghorn; and then, quitting the lovely Arabian, he hastened to Paris, and delivered himself up to the vengeance of the law, hoping to free De Lacey and Agatha by this proceeding.</seg>
             <seg xml:id="C20_app161-fThomas">
-               <note xmlns:mith="http://mith.umd.edu/sc/ns1#"
-                      xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-                      xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-                      ana="start"
-                      resp="#ebb"
-                      n="093"/>Thomas copy: pencil mark joins paragraphs.<note ana="end"/>
+               <note resp="#ebb" n="093">Thomas copy: pencil mark joins paragraphs.</note>
             </seg>
             <seg part="I" xml:id="C20_app162-fThomas__I">“He did not succeed. They remained confined for five months before the trial took place; the result of which deprived them of their fortune, and condemned them to a perpetual exile from their native country. </seg>
          </p>
@@ -141,12 +133,7 @@
                <pb xml:id="F1818_v2_099" n="095"/>lover, but to prepare to return with him to her native country.</seg> The generous nature of Safie was outraged by this  <seg xml:id="C20_app177-fThomas">command; she</seg> attempted to expostulate with her  <seg xml:id="C20_app179-fThomas">father,</seg> but he left  <seg xml:id="C20_app181-fThomas">her</seg>
             <seg xml:id="C20_app182-fThomas">angrily,</seg> reiterating his tyrannical  <seg xml:id="C20_app184-fThomas">mandate.</seg>
             <seg xml:id="C20_app185-fThomas">
-               <note xmlns:mith="http://mith.umd.edu/sc/ns1#"
-                      xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-                      xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-                      ana="start"
-                      resp="#ebb"
-                      n="095"/>Thomas copy: pencil mark joins paragraphs.<note ana="end"/>
+               <note resp="#ebb" n="095">Thomas copy: pencil mark joins paragraphs.</note>
             </seg>
             <seg xml:id="C20_app186-fThomas">“A</seg> few days  <seg xml:id="C20_app188-fThomas">after,</seg> the Turk entered his  <seg xml:id="C20_app190-fThomas">daughter’s apartment,</seg> and told her  <seg xml:id="C20_app192-fThomas">hastily,</seg> that he had reason to believe that his residence  <seg xml:id="C20_app194-fThomas">at</seg> Leghorn had been  <seg xml:id="C20_app196-fThomas">divulged,</seg> and that he  <seg xml:id="C20_app198-fThomas">should</seg>
             <seg xml:id="C20_app199-fThomas">speedily be delivered</seg>

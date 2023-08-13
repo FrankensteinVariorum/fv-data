@@ -1,8 +1,5 @@
 <?xml version="1.1" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-      xmlns:fv="https://frankensteinvariorum.github.io"
-      xmlns:tei="http://www.tei-c.org/ns/1.0"
-      xmlns:var="https://frankensteinvariorum.github.io">
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -20,7 +17,7 @@
          <sourceDesc>
             <p>Produced from a corpus of collation output files for
                                                 the Frankenstein Variorum digital edition on
-                                                  2023-08-10T06:06:09.361347-04:00.</p>
+                                                  2023-08-13T15:57:48.023766-04:00.</p>
          </sourceDesc>
       </fileDesc>
    </teiHeader>
@@ -30,7 +27,7 @@
          <milestone unit="chapter" type="start" n="3"/>
          <pb xml:id="F1818_v1_090" n="078"/>
          <seg xml:id="C09_app3-fThomas">
-            <head ana="start"/>CHAPTER III.<head ana="end"/>
+            <head>CHAPTER III.</head>
          </seg>
          <seg part="I" xml:id="C09_app4-fThomas__I">
             </seg>
@@ -95,12 +92,7 @@
             <seg xml:id="C09_app175-fThomas">those branches</seg> of natural philosophy which  <seg xml:id="C09_app177-fThomas">relate to</seg>
             <seg xml:id="C09_app178-fThomas">physiology.</seg>
             <seg xml:id="C09_app179-fThomas">
-               <add xmlns:mith="http://mith.umd.edu/sc/ns1#"
-                     xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-                     xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-                     ana="start"
-                     place="margin"
-                     n="082"/>The event of these enquiries interested my understanding, I may say my imagination, until I was exalted to a kind of transport. And indeed <add ana="end"/> Unless I had been animated by an almost supernatural enthusiasm, my application to this study would have been</seg>
+               <add place="margin" n="082">The event of these enquiries interested my understanding, I may say my imagination, until I was exalted to a kind of transport. And indeed </add> Unless I had been animated by an almost supernatural enthusiasm, my application to this study would have been</seg>
             <seg xml:id="C09_app180-fThomas">irksome,</seg> and almost intolerable. To examine the causes of  <seg xml:id="C09_app182-fThomas">life,</seg> we must first have  <seg xml:id="C09_app184-fThomas">recourse to death.</seg>
             <seg xml:id="C09_app185-fThomas">I became acquainted with the science of</seg>
             <seg xml:id="C09_app186-fThomas">anatomy:</seg> but this was not  <seg xml:id="C09_app188-fThomas">sufficient;</seg> I must also observe the natural decay and corruption of the human body. In my education my father had taken the <pb xml:id="F1818_v1_095" n="083"/>greatest precautions that my mind should <seg xml:id="C09_app190-fThomas">be impressed</seg>
@@ -217,17 +209,8 @@
             <seg xml:id="C09_app717-fThomas">more particularly than before. Winter, spring,</seg> and summer passed away during my  <seg xml:id="C09_app719-fThomas">labours;</seg> but I did not watch the blossom or the expanding leaves—sights which before  <seg xml:id="C09_app721-fThomas">always yielded</seg> me supreme  <seg xml:id="C09_app723-fThomas">delight, so</seg> deeply was I   <seg xml:id="C09_app726-fThomas">engrossed in</seg> my occupation. The leaves of that year   <seg xml:id="C09_app728-fThomas">had withered before my work drew near to</seg> a  <seg xml:id="C09_app730-fThomas">close;</seg> and now every day  <seg xml:id="C09_app732-fThomas">shewed</seg> me more plainly how well I had  <seg xml:id="C09_app734-fThomas">succeeded.</seg> But my enthusiasm was checked by my  <seg xml:id="C09_app736-fThomas">anxiety,</seg> and I appeared rather like one doomed by slavery to toil in the  <seg xml:id="C09_app738-fThomas">mines,</seg> or any other  <seg xml:id="C09_app740-fThomas">unwholesome trade,</seg> than an artist occupied  <seg xml:id="C09_app742-fThomas">by</seg> his favourite employment. Every  <seg xml:id="C09_app744-fThomas">night</seg>
             <seg xml:id="C09_app745-fThomas">I was oppressed by a slow fever,</seg> and I became  <seg xml:id="C09_app747-fThomas">nervous</seg> to a   <seg xml:id="C09_app749-fThomas">most painful degree;</seg>
             <seg xml:id="C09_app750-fThomas">
-               <del xmlns:mith="http://mith.umd.edu/sc/ns1#"
-                     xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-                     xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-                     ana="start"
-                     rend="strikethrough"
-                     n="095"/>a disease that I regretted the more because I had hitherto en<pb xml:id="F1818_v1_108" n="096"/>joyed most excellent health, and had always boasted of the firmness of my nerves.<del ana="end"/>
-               <add xmlns:mith="http://mith.umd.edu/sc/ns1#"
-                     xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-                     xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-                     ana="start"
-                     n="096"/>my voice became broken, my trembling hands almost refused to accomplish their task; I became as timid as a love-sick girl, and alternate tremor and passionate ardour took the place of wholesome sensation and regulated ambition.<add ana="end"/> But</seg> I believed that exercise and amusement would  <seg xml:id="C09_app752-fThomas">soon</seg>
+               <del rend="strikethrough" n="095">a disease that I regretted the more because I had hitherto en<pb xml:id="F1818_v1_108" n="096"/>joyed most excellent health, and had always boasted of the firmness of my nerves.</del>
+               <add n="096">my voice became broken, my trembling hands almost refused to accomplish their task; I became as timid as a love-sick girl, and alternate tremor and passionate ardour took the place of wholesome sensation and regulated ambition.</add> But</seg> I believed that exercise and amusement would  <seg xml:id="C09_app752-fThomas">soon</seg>
             <seg xml:id="C09_app753-fThomas">drive away</seg>
             <seg xml:id="C09_app754-fThomas">such symptoms;</seg> and I promised myself both of  <seg xml:id="C09_app756-fThomas">these,</seg> when my creation should be  <seg part="I" xml:id="C09_app758-fThomas__I">complete. </seg>
          </p>

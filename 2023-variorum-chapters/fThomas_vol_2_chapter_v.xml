@@ -1,8 +1,5 @@
 <?xml version="1.1" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-      xmlns:fv="https://frankensteinvariorum.github.io"
-      xmlns:tei="http://www.tei-c.org/ns/1.0"
-      xmlns:var="https://frankensteinvariorum.github.io">
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -20,7 +17,7 @@
          <sourceDesc>
             <p>Produced from a corpus of collation output files for
                                                 the Frankenstein Variorum digital edition on
-                                                  2023-08-10T06:06:09.361347-04:00.</p>
+                                                  2023-08-13T15:57:48.023766-04:00.</p>
          </sourceDesc>
       </fileDesc>
    </teiHeader>
@@ -32,7 +29,7 @@
             <pb xml:id="F1818_v2_073" n="069"/>
          </seg>
          <seg xml:id="C19_app3-fThomas">
-            <head ana="start"/>CHAPTER V.<head ana="end"/>
+            <head>CHAPTER V.</head>
          </seg>
          <seg part="I" xml:id="C19_app4-fThomas__I">
             </seg>
@@ -83,12 +80,7 @@
             <seg xml:id="C19_app21-fThomas">treatment as</seg>
             <seg xml:id="C19_app22-fThomas">I had formerly endured in the first village which I entered.</seg>
             <seg part="I" xml:id="C19_app23-fThomas__I">
-               <add xmlns:mith="http://mith.umd.edu/sc/ns1#"
-                     xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-                     xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-                     ana="start"
-                     place="bottom_and_bottom_of_next_page"
-                     n="076"/>Nay if by moonlight I saw a human form, with a beating heart I squatted down amid the bushes fearful of discovery. And think you that it was with no bitterness of heart that I did this? It was in intercourse with man alone that I could hope <pb n="077"/> for any pleasurable sensations and I was obliged to avoid it—Oh truly, I am grateful to thee my Creator for the gift of life, which was but pain, and to thy tender mercy which deserted me on life’s threshold—to suffer—all that man can inflict<add ana="end"/>
+               <add place="bottom_and_bottom_of_next_page" n="076">Nay if by moonlight I saw a human form, with a beating heart I squatted down amid the bushes fearful of discovery. And think you that it was with no bitterness of heart that I did this? It was in intercourse with man alone that I could hope <pb n="077"/> for any pleasurable sensations and I was obliged to avoid it—Oh truly, I am grateful to thee my Creator for the gift of life, which was but pain, and to thy tender mercy which deserted me on life’s threshold—to suffer—all that man can inflict</add>
             </seg>
          </p>
          <seg part="M" xml:id="C19_app23-fThomas__M">
@@ -133,12 +125,7 @@
             <seg xml:id="C19_app43-fThomas">their’s.</seg>
             <seg xml:id="C19_app44-fThomas">When I looked around, I saw and heard of none like me. Was I then a monster, a blot upon the earth, from which all men fled, and whom all men disowned?</seg>
             <seg xml:id="C19_app45-fThomas">
-               <note xmlns:mith="http://mith.umd.edu/sc/ns1#"
-                      xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-                      xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-                      ana="start"
-                      resp="#ebb"
-                      n="080"/>Thomas copy: pencil mark joins paragraphs.<note ana="end"/>
+               <note resp="#ebb" n="080">Thomas copy: pencil mark joins paragraphs.</note>
             </seg>
             <seg xml:id="C19_app46-fThomas">“I cannot describe to you the agony that these reflections inflicted upon</seg>
             <seg xml:id="C19_app47-fThomas">me;</seg>

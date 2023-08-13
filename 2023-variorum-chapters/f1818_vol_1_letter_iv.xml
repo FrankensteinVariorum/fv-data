@@ -1,8 +1,5 @@
 <?xml version="1.1" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-      xmlns:fv="https://frankensteinvariorum.github.io"
-      xmlns:tei="http://www.tei-c.org/ns/1.0"
-      xmlns:var="https://frankensteinvariorum.github.io">
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -20,7 +17,7 @@
          <sourceDesc>
             <p>Produced from a corpus of collation output files for
                                                 the Frankenstein Variorum digital edition on
-                                                  2023-08-10T06:06:09.361347-04:00.</p>
+                                                  2023-08-13T15:57:48.023766-04:00.</p>
          </sourceDesc>
       </fileDesc>
    </teiHeader>
@@ -30,14 +27,14 @@
          <seg xml:id="C05_app1-f1818">
             <anchor type="collate" xml:id="C05"/>
             <milestone unit="letter" type="start" n="4"/>
-            <head ana="start"/>LETTER IV.<head ana="end"/>
+            <head>LETTER IV.</head>
          </seg>
          <seg xml:id="C05_app2-f1818">
-            <head ana="start"/>
-            <ab xml:id="novel1_letter4_div4_head2_ab1">
-               <hi xml:id="novel1_letter4_div4_head2_ab1_hi1">To Mrs.</hi> S<hi xml:id="novel1_letter4_div4_head2_ab1_hi2">AVILLE</hi>, <hi xml:id="novel1_letter4_div4_head2_ab1_hi3">England.</hi>
-            </ab>
-            <head ana="end"/>
+            <head>
+               <ab xml:id="novel1_letter4_div4_head2_ab1">
+                  <hi xml:id="novel1_letter4_div4_head2_ab1_hi1">To Mrs.</hi> S<hi xml:id="novel1_letter4_div4_head2_ab1_hi2">AVILLE</hi>, <hi xml:id="novel1_letter4_div4_head2_ab1_hi3">England.</hi>
+               </ab>
+            </head>
          </seg>
          <seg part="I" xml:id="C05_app3-f1818__I">
             <p xml:id="novel1_letter4_div4_p1"> August 5th, 17—. </p>
@@ -208,10 +205,10 @@
             </seg>
          <seg xml:id="C06_app40-f1818">
             <pb xml:id="F1818_v1_051" n="039"/>
-            <head ana="start"/>FRANKENSTEIN;<head ana="end"/>
-            <head ana="start"/>
-            <hi xml:id="novel1_letter4_div4_head4_hi1">OR</hi>,<head ana="end"/>
-            <head ana="start"/>THE MODERN PROMETHEUS.<head ana="end"/>
+            <head>FRANKENSTEIN;</head>
+            <head>
+               <hi xml:id="novel1_letter4_div4_head4_hi1">OR</hi>,</head>
+            <head>THE MODERN PROMETHEUS.</head>
          </seg>
       </body>
    </text>

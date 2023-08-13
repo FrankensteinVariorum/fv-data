@@ -1,8 +1,5 @@
 <?xml version="1.1" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-      xmlns:fv="https://frankensteinvariorum.github.io"
-      xmlns:tei="http://www.tei-c.org/ns/1.0"
-      xmlns:var="https://frankensteinvariorum.github.io">
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -20,7 +17,7 @@
          <sourceDesc>
             <p>Produced from a corpus of collation output files for
                                                 the Frankenstein Variorum digital edition on
-                                                  2023-08-10T06:06:09.361347-04:00.</p>
+                                                  2023-08-13T15:57:48.023766-04:00.</p>
          </sourceDesc>
       </fileDesc>
    </teiHeader>
@@ -29,7 +26,7 @@
          <anchor type="semantic" subtype="start" xml:id="fThomas_vol_1_chapter_iv"/>
          <milestone unit="chapter" type="start" n="4"/>
          <seg xml:id="C10_app3-fThomas">
-            <head ana="start"/>CHAPTER IV.<head ana="end"/>
+            <head>CHAPTER IV.</head>
          </seg>
          <p xml:id="novel1_letter4_chapter4_div4_div4_p1">
             <seg xml:id="C10_app5-fThomas">I<hi xml:id="novel1_letter4_chapter4_div4_div4_p1_hi1">T</hi>
@@ -43,21 +40,11 @@
             <seg xml:id="C10_app44-fThomas">black,</seg> and  <seg xml:id="C10_app46-fThomas">flowing;</seg> his teeth of a pearly  <seg xml:id="C10_app48-fThomas">whiteness;</seg> but these  <seg xml:id="C10_app50-fThomas">luxuriances</seg> only  <seg xml:id="C10_app52-fThomas">formed a more horrid contrast with his</seg>
             <seg xml:id="C10_app53-fThomas">watery eyes,</seg> that seemed almost of the same colour as the dun white sockets in which they were set, his shrivelled  <seg xml:id="C10_app55-fThomas">complexion,</seg>
             <seg xml:id="C10_app56-fThomas">
-               <del xmlns:mith="http://mith.umd.edu/sc/ns1#"
-                     xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-                     xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-                     ana="start"
-                     rend="strikethrough"
-                     n="098"/>and<del ana="end"/>
+               <del rend="strikethrough" n="098">and</del>
             </seg>
             <seg xml:id="C10_app57-fThomas">straight</seg> black lips.  <seg part="I" xml:id="C10_app59-fThomas__I">
-               <add xmlns:mith="http://mith.umd.edu/sc/ns1#"
-                     xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-                     xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-                     ana="start"
-                     place="margin"
-                     n="098"/>And the contortions that ever and anon con<del-INNER ana="start"/>puls<del-INNER ana="end"/>
-               <add-INNER ana="start" place="overtop"/>vuls<add-INNER ana="end"/>ed &amp; deformed his un-human features.<add ana="end"/>
+               <add place="margin" n="098">And the contortions that ever and anon con<del-INNER>puls</del-INNER>
+                  <add-INNER place="overtop">vuls</add-INNER>ed &amp; deformed his un-human features.</add>
             </seg>
          </p>
          <p xml:id="novel1_letter4_chapter4_div4_div4_p3">
@@ -130,13 +117,8 @@
                <seg part="F" xml:id="C10_app286-fThomas__F">
                   </seg>
                <seg xml:id="C10_app287-fThomas">
-                  <note xmlns:mith="http://mith.umd.edu/sc/ns1#"
-                         xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-                         xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-                         ana="start"
-                         xml:id="novel1_letter4_chapter4_div4_div4_p8_cit1_note1"
-                         n="103"/>* <bibl/>Coleridge’s “Ancient Mariner.”<bibl/>
-                  <note ana="end"/>
+                  <note xml:id="novel1_letter4_chapter4_div4_div4_p8_cit1_note1" n="103">* <bibl/>Coleridge’s “Ancient Mariner.”<bibl/>
+                  </note>
                </seg>
             </cit>
             <seg part="I" xml:id="C10_app289-fThomas__I">
@@ -195,16 +177,8 @@
             <seg xml:id="C10_app604-fThomas">grief by</seg>
             <seg xml:id="C10_app605-fThomas">concealing</seg>
             <seg xml:id="C10_app606-fThomas">
-               <del xmlns:mith="http://mith.umd.edu/sc/ns1#"
-                     xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-                     xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-                     ana="start"
-                     n="110"/>the extent of my disorder.<del ana="end"/>
-               <add xmlns:mith="http://mith.umd.edu/sc/ns1#"
-                     xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-                     xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse"
-                     ana="start"
-                     n="110"/>the violence of the attack.<add ana="end"/>
+               <del n="110">the extent of my disorder.</del>
+               <add n="110">the violence of the attack.</add>
             </seg> He knew that I could not have a more kind and attentive nurse than  <seg xml:id="C10_app608-fThomas">himself; and,</seg> firm in the hope he  <seg xml:id="C10_app610-fThomas">felt</seg> of my  <seg xml:id="C10_app612-fThomas">recovery,</seg> he did not doubt  <seg xml:id="C10_app614-fThomas">that,</seg> instead of doing  <seg xml:id="C10_app616-fThomas">harm,</seg> he performed the kindest action that he could towards them. </p>
          <p xml:id="novel1_letter4_chapter4_div4_div4_p20"> But I was in reality very <seg xml:id="C10_app618-fThomas">ill; and surely</seg> nothing but the unbounded  <seg xml:id="C10_app620-fThomas">and unremitting attentions of my friend could have restored me to life. The form of the</seg>
             <seg xml:id="C10_app621-fThomas">monster</seg> on whom I had bestowed  <seg xml:id="C10_app623-fThomas">existence</seg> was for ever before <pb xml:id="F1818_v1_123" n="111"/>my eyes, and I raved <seg xml:id="C10_app625-fThomas">incessantly concerning him. Doubtless my words</seg>
