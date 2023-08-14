@@ -17,7 +17,7 @@
          <sourceDesc>
             <p>Produced from a corpus of collation output files for
                                                 the Frankenstein Variorum digital edition on
-                                                  2023-08-14T01:33:57.638374-04:00.</p>
+                                                  2023-08-14T15:37:53.415799-04:00.</p>
          </sourceDesc>
       </fileDesc>
    </teiHeader>
@@ -433,13 +433,16 @@
             <del rend="strikethrough" xml:id="c57-0019__main__d4e4013">often</del> percieved
         </seg> 
     that <lb n="c57-0019__main__23"/>the words they spoke 
-        <seg part="I" xml:id="C18_app265-fMS__I">
-            </seg>
-         <mod xml:id="c57-0019__main__d4e4022">
-            <seg part="F" xml:id="C18_app265-fMS__F">
-               </seg>
-         </mod>produced 
-        <seg xml:id="C18_app267-fMS">
+        <seg xml:id="C18_app265-fMS">
+            <mod xml:id="c57-0019__main__d4e4022">
+               <add place="sublinear" xml:id="c57-0019__main__d4e4024">
+                  <metamark function="insert">^</metamark>
+               </add>
+               <add place="superlinear" xml:id="c57-0019__main__d4e4030">sometimes</add>
+            </mod>
+         </seg> 
+    produced 
+         <seg xml:id="C18_app267-fMS">
         plea<lb n="c57-0019__main__24"/>sure
         </seg> 
     pain, smiles or 

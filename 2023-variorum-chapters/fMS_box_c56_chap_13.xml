@@ -17,7 +17,7 @@
          <sourceDesc>
             <p>Produced from a corpus of collation output files for
                                                 the Frankenstein Variorum digital edition on
-                                                  2023-08-14T01:33:57.638374-04:00.</p>
+                                                  2023-08-14T15:37:53.415799-04:00.</p>
          </sourceDesc>
       </fileDesc>
    </teiHeader>
@@ -162,9 +162,14 @@
         </seg>
          <lb n="c56-0108__main__23"/>description<mod xml:id="c56-0108__main__d5e22625">
             <add place="sublinear" xml:id="c56-0108__main__d5e22627">
-               <metamark function="insert">^</metamark>
+               <seg part="I" xml:id="C15_app42-fMS__I">
+                  <metamark function="insert">^</metamark>
+               </seg>
             </add>
-            <add place="superlinear" xml:id="c56-0108__main__d5e22633">horrible, </add>
+            <add place="superlinear" xml:id="c56-0108__main__d5e22633">
+               <seg part="F" xml:id="C15_app42-fMS__F">horrible,
+        </seg>
+            </add>
          </mod>and 
         <seg xml:id="C15_app44-fMS">
             <del rend="smear" xml:id="c56-0108__main__d5e22637">
@@ -681,7 +686,7 @@
          <mod xml:id="c56-0111__main__d5e23219">
             <seg part="M" xml:id="C15_app219-fMS__M">
                <add place="sublinear" xml:id="c56-0111__main__d5e23221">
-                  <metamark function="insert">&gt;^</metamark>
+                  <metamark function="insert">&amp;gt;^</metamark>
                </add>
             </seg>
             <add hand="#pbs" place="superlinear" xml:id="c56-0111__main__d5e23227">
@@ -837,7 +842,7 @@
             <seg part="F" xml:id="C15_app269-fMS__F">
                <metamark function="displacement" xml:id="c56-0112.02">X</metamark>
                <lb n="c56-0112__left_margin__1"/>
-               <metamark function="displacement"/> There was <lb n="c56-0112__left_margin__2"/>always scope <lb n="c56-0112__left_margin__3"/>for
+               <metamark function="displacement"> </metamark> There was <lb n="c56-0112__left_margin__2"/>always scope <lb n="c56-0112__left_margin__3"/>for
         </seg>
             <seg xml:id="C15_app270-fMS">
         fear
@@ -1085,7 +1090,7 @@
                <seg part="F" xml:id="C15_app349-fMS__F">
                   <metamark function="displacement" xml:id="c56-0113.06">X</metamark>
                   <lb n="c56-0113__left_margin__1"/>
-                  <metamark function="displacement"/>
+                  <metamark function="displacement"> </metamark>
                </seg> 
     At least they <lb n="c56-0113__left_margin__2"/>were remote, <lb n="c56-0113__left_margin__3"/>and more <lb n="c56-0113__left_margin__4"/>familiar to 
         <seg xml:id="C15_app351-fMS">

@@ -17,7 +17,7 @@
          <sourceDesc>
             <p>Produced from a corpus of collation output files for
                                                 the Frankenstein Variorum digital edition on
-                                                  2023-08-14T01:33:57.638374-04:00.</p>
+                                                  2023-08-14T15:37:53.415799-04:00.</p>
          </sourceDesc>
       </fileDesc>
    </teiHeader>
@@ -238,9 +238,14 @@
         </seg> 
     &amp;<mod xml:id="c57-0117__main__d4e21617">
             <add place="sublinear" xml:id="c57-0117__main__d4e21619">
-               <metamark function="insert">^</metamark>
+               <seg part="I" xml:id="C27_app88-fMS__I">
+                  <metamark function="insert">^</metamark>
+               </seg>
             </add>
-            <add place="superlinear" xml:id="c57-0117__main__d4e21625">even </add>
+            <add place="superlinear" xml:id="c57-0117__main__d4e21625">
+               <seg part="F" xml:id="C27_app88-fMS__F">even
+        </seg>
+            </add>
          </mod>that the body <lb n="c57-0117__main__34"/>was not 
         <seg xml:id="C27_app90-fMS">
         yet
@@ -1861,11 +1866,7 @@
          <seg xml:id="C27_app714-fMS">
             <lb n="c57-0126__main__24"/>My father, said,
         </seg> 
-    I, while every 
-         <seg xml:id="C27_app716-fMS">
-            <w ana="start"/>fea<lb n="c57-0126__main__25"/>ture<w ana="end"/>&amp;
-        </seg> 
-    every muscle was relaxed from <lb n="c57-0126__main__26"/>anguish to 
+    I, while every <w ana="start"/>fea<lb n="c57-0126__main__25"/>ture<w ana="end"/>&amp; every muscle was relaxed from <lb n="c57-0126__main__26"/>anguish to 
         <seg xml:id="C27_app718-fMS">
         pleasure – Is
         </seg> 

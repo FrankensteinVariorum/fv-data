@@ -17,7 +17,7 @@
          <sourceDesc>
             <p>Produced from a corpus of collation output files for
                                                 the Frankenstein Variorum digital edition on
-                                                  2023-08-14T01:33:57.638374-04:00.</p>
+                                                  2023-08-14T15:37:53.415799-04:00.</p>
          </sourceDesc>
       </fileDesc>
    </teiHeader>
@@ -743,9 +743,14 @@
         </seg> 
     &amp;<mod xml:id="c57-0111__main__d4e20464">
             <add place="sublinear" xml:id="c57-0111__main__d4e20466">
-               <metamark function="insert">^</metamark>
+               <seg part="I" xml:id="C26_app677-fMS__I">
+                  <metamark function="insert">^</metamark>
+               </seg>
             </add>
-            <add place="superlinear" xml:id="c57-0111__main__d4e20472">I </add>
+            <add place="superlinear" xml:id="c57-0111__main__d4e20472">
+               <seg part="F" xml:id="C26_app677-fMS__F">I
+        </seg>
+            </add>
          </mod>took <w ana="start"/>advan<lb n="c57-0111__main__33"/>tage<w ana="end"/> of the moment of 
         <seg xml:id="C26_app679-fMS">
         darkness
@@ -1330,8 +1335,10 @@
         </seg>
          <lb n="c57-0114__main__16"/>which I entered, my heart bounding with <lb n="c57-0114__main__17"/>joy at my unexpected escape. <milestone unit="tei:p-END"/>
          <milestone unit="tei:p-START"/>
-         <metamark function="paragraph">[</metamark>As I 
-        <seg xml:id="C26_app897-fMS">
+         <seg xml:id="C26_app896-fMS">
+            <metamark function="paragraph">[</metamark> As I
+        </seg>
+         <seg xml:id="C26_app897-fMS">
             <del rend="strikethrough" xml:id="c57-0114__main__d4e20986">fi</del> was <lb n="c57-0114__main__18"/>occupied in fixing the boat and
         </seg>
          <seg xml:id="C26_app898-fMS">

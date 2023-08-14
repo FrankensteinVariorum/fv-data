@@ -17,7 +17,7 @@
          <sourceDesc>
             <p>Produced from a corpus of collation output files for
                                                 the Frankenstein Variorum digital edition on
-                                                  2023-08-14T01:33:57.638374-04:00.</p>
+                                                  2023-08-14T15:37:53.415799-04:00.</p>
          </sourceDesc>
       </fileDesc>
    </teiHeader>
@@ -3528,9 +3528,9 @@
          <seg xml:id="C33_app798-fMS">
         stature –
         </seg> 
-    yet 
-         <seg xml:id="C33_app800-fMS">
-            <w ana="start"/>un<lb n="c57-0181__main__25"/>couth<w ana="end"/>&amp; distorted – his face was hid as he <lb n="c57-0181__main__26"/>hung over the coffin
+    yet <w ana="start"/>un<lb n="c57-0181__main__25"/>couth<w ana="end"/>&amp; 
+        <seg xml:id="C33_app800-fMS">
+        distorted – his face was hid as he <lb n="c57-0181__main__26"/>hung over the coffin
         </seg> 
     by long 
          <seg xml:id="C33_app802-fMS">
@@ -3711,7 +3711,7 @@
          </seg>
          <add hand="#pbs" place="superlinear" xml:id="c57-0182__main__d4e36565">
             <seg part="F" xml:id="C33_app871-fMS__F">
-               <metamark function="transpose" target="#c57-0182.03"/>
+               <metamark function="transpose" target="#c57-0182.03"> </metamark>
             </seg>
          </add>
          <lb n="c57-0182__main__18"/>in his ugliness. I attempted to 

@@ -65,9 +65,9 @@
                                     maximum of these values in the <att>n</att> attribute on each <gi>app</gi>
                                     element.</p>
             <p>Produced from collation output prepared in batch file processing
-                                    on  2023-08-10 05:16:38.996137 .</p>
+                                    on  2023-08-14 19:19:28.126415 .</p>
             <p>Edited to correct alignments and prepared for the Frankenstein
-                                    Variorum spine on 2023-08-14T01:32:24.815998-04:00.</p>
+                                    Variorum spine on 2023-08-14T15:36:32.322696-04:00.</p>
          </editorialDecl>
          <appInfo>
             <application ident="collateX" version="1.7.1">
@@ -270,7 +270,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C28_app9" n="6">
+            <app xml:id="C28_app9" n="7">
                <rdgGrp xml:id="C28_app9_rg_empty">
                   <rdg wit="#f1831"/>
                </rdgGrp>
@@ -285,7 +285,7 @@
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fThomas_vol_3_chapter_v.xml#C28_app9-fThomas"/>
                   </rdg>
                </rdgGrp>
-               <rdgGrp n="['', '&lt;del&gt;to go&lt;/del&gt;', '', '', 'to']" xml:id="C28_app9_rg2">
+               <rdgGrp n="['', '&lt;del&gt;to go&lt;/del&gt;', '', '^', 'to']" xml:id="C28_app9_rg2">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c57_chap_15.xml#C28_app9-fMS__I"/>
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c57_chap_15.xml#C28_app9-fMS__M"/>
@@ -517,11 +517,11 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C28_app17" n="13">
+            <app xml:id="C28_app17" n="14">
                <rdgGrp xml:id="C28_app17_rg_empty">
                   <rdg wit="#f1831"/>
                </rdgGrp>
-               <rdgGrp n="['cl', '', '&lt;mdel&gt;ai&lt;/mdel&gt;', '', '', 'e', '', 'rval', '–', 'and']"
+               <rdgGrp n="['cl', '', '&lt;mdel&gt;ai&lt;/mdel&gt;', '', '^', 'e', '', 'rval', '–', 'and']"
                         xml:id="C28_app17_rg1">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c57_chap_15.xml#C28_app17-fMS"/>
@@ -1250,7 +1250,8 @@
                <rdgGrp xml:id="C28_app43_rg_empty">
                   <rdg wit="#f1831"/>
                </rdgGrp>
-               <rdgGrp n="['&lt;w ana=&#34;start&#34;/&gt;o', 'bs', 'ti', 'nate']" xml:id="C28_app43_rg1">
+               <rdgGrp n="['&lt;w ana=&#34;start&#34;/&gt;o', 'bs', 'ti', 'nate&lt;w ana=&#34;end&#34;/&gt;']"
+                        xml:id="C28_app43_rg1">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c57_chap_15.xml#C28_app43-fMS"/>
                      <witDetail wit="#fMS" target="sga:c57/#/p132">
@@ -2181,8 +2182,8 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C28_app100" n="0">
-               <rdgGrp n="['convalescence .', '&lt;del&gt;i&lt;/del&gt;']" xml:id="C28_app100_rg1">
+            <app xml:id="C28_app100" n="1">
+               <rdgGrp n="['convalescence', '&lt;del&gt;i&lt;/del&gt;']" xml:id="C28_app100_rg1">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c57_chap_15.xml#C28_app100-fMS"/>
                      <witDetail wit="#fMS" target="sga:c57/#/p133">
@@ -3912,7 +3913,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C28_app197" n="2">
+            <app xml:id="C28_app197" n="3">
                <rdgGrp xml:id="C28_app197_rg_empty">
                   <rdg wit="#f1831"/>
                </rdgGrp>
@@ -3927,7 +3928,7 @@
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fThomas_vol_3_chapter_v.xml#C28_app197-fThomas"/>
                   </rdg>
                </rdgGrp>
-               <rdgGrp n="['', '', 'us']" xml:id="C28_app197_rg2">
+               <rdgGrp n="['', '^', 'us']" xml:id="C28_app197_rg2">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c57_chap_15.xml#C28_app197-fMS__I"/>
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c57_chap_15.xml#C28_app197-fMS__M"/>

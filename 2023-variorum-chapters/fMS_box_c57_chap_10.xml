@@ -17,7 +17,7 @@
          <sourceDesc>
             <p>Produced from a corpus of collation output files for
                                                 the Frankenstein Variorum digital edition on
-                                                  2023-08-14T01:33:57.638374-04:00.</p>
+                                                  2023-08-14T15:37:53.415799-04:00.</p>
          </sourceDesc>
       </fileDesc>
    </teiHeader>
@@ -114,9 +114,14 @@
         </seg> 
     &amp;<mod xml:id="c57-0074__main__d4e14603">
             <add place="sublinear" xml:id="c57-0074__main__d4e14605">
-               <metamark function="insert">^</metamark>
+               <seg part="I" xml:id="C24_app37-fMS__I">
+                  <metamark function="insert">^</metamark>
+               </seg>
             </add>
-            <add hand="#pbs" place="superlinear" xml:id="c57-0074__main__d4e14611">listening to </add>
+            <add hand="#pbs" place="superlinear" xml:id="c57-0074__main__d4e14611">
+               <seg part="F" xml:id="C24_app37-fMS__F">listening to
+        </seg>
+            </add>
          </mod>the 
         <seg part="I" xml:id="C24_app39-fMS__I">
         ripp </seg>
@@ -148,9 +153,14 @@
         </seg> 
     &amp;<mod xml:id="c57-0074__main__d4e14651">
             <add place="sublinear" xml:id="c57-0074__main__d4e14653">
-               <metamark function="insert">^</metamark>
+               <seg part="I" xml:id="C24_app48-fMS__I">
+                  <metamark function="insert">^</metamark>
+               </seg>
             </add>
-            <add hand="#pbs" place="superlinear" xml:id="c57-0074__main__d4e14659">a </add>
+            <add hand="#pbs" place="superlinear" xml:id="c57-0074__main__d4e14659">
+               <seg part="F" xml:id="C24_app48-fMS__F">a
+        </seg>
+            </add>
          </mod>more cheerful 
         <seg xml:id="C24_app50-fMS">
         heart
@@ -1640,15 +1650,12 @@
                <add hand="#pbs" place="superlinear" xml:id="c57-0090__main__d4e16226">which </add>
             </mod> I now <lb n="c57-0090__main__13"/>viewed. But the recollection of those days <lb n="c57-0090__main__14"/>was too painful; I must shut out all <lb n="c57-0090__main__15"/>thought to enjoy tranquillity, &amp; that <lb n="c57-0090__main__16"/>reflection alone is sufficient to poison <lb n="c57-0090__main__17"/>every pleasure.<milestone unit="tei:p-END"/>
          </seg>
-         <seg xml:id="C25_app1-fMS">
-            <anchor type="collate" xml:id="C25"/>
-            <milestone unit="tei:p-START"/>
+         <anchor type="collate" xml:id="C25"/>
+         <milestone unit="tei:p-START"/>
+         <seg xml:id="C25_app2-fMS">
             <add place="intralinear" xml:id="c57-0090__main__d4e16243">
                <metamark function="paragraph">[</metamark>
-            </add>
-         </seg>
-         <seg xml:id="C25_app2-fMS">
-        At Cologne we descended <lb n="c57-0090__main__18"/>to the plains of Holland
+            </add> At Cologne we descended <lb n="c57-0090__main__18"/>to the plains of Holland
         </seg> 
     &amp; we resolved to <lb n="c57-0090__main__19"/>post the remainder of our 
         <seg xml:id="C25_app4-fMS">

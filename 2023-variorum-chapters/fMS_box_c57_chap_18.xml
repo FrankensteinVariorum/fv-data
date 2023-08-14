@@ -17,7 +17,7 @@
          <sourceDesc>
             <p>Produced from a corpus of collation output files for
                                                 the Frankenstein Variorum digital edition on
-                                                  2023-08-14T01:33:57.638374-04:00.</p>
+                                                  2023-08-14T15:37:53.415799-04:00.</p>
          </sourceDesc>
       </fileDesc>
    </teiHeader>
@@ -597,9 +597,14 @@
         </seg> 
     &amp;<mod xml:id="c57-0158__main__d4e30202">
             <add place="sublinear" xml:id="c57-0158__main__d4e30204">
-               <metamark function="insert">^</metamark>
+               <seg part="I" xml:id="C31_app175-fMS__I">
+                  <metamark function="insert">^</metamark>
+               </seg>
             </add>
-            <add hand="#pbs" place="superlinear" xml:id="c57-0158__main__d4e30210">tread the </add>
+            <add hand="#pbs" place="superlinear" xml:id="c57-0158__main__d4e30210">
+               <seg part="F" xml:id="C31_app175-fMS__F">tread the
+        </seg>
+            </add>
          </mod>green herbage of 
         <seg xml:id="C31_app177-fMS">
         earth
@@ -1432,20 +1437,13 @@
             <w ana="start"/>dæ<lb n="c57-0161__main__21"/>mon<w ana="end"/>
          </seg> 
     more as a task enjoined by heaven, 
-         <seg part="I" xml:id="C31_app491-fMS__I">
-            </seg>
-         <add xml:id="c57-0161__main__d4e31067">
-            <seg part="F" xml:id="C31_app491-fMS__F">
+         <seg xml:id="C31_app491-fMS">
+            <add xml:id="c57-0161__main__d4e31067">
                <metamark function="displacement" xml:id="c57-0161.05">X</metamark>
                <lb n="c57-0161__left_margin__1"/>
-               <metamark function="displacement">X</metamark> as the mechanical <lb n="c57-0161__left_margin__2"/>impulse of <lb n="c57-0161__left_margin__3"/>some power of which <lb n="c57-0161__left_margin__4"/>I was
-        </seg>
-            <seg part="I" xml:id="C31_app492-fMS__I">
-               <w ana="start"/>uncon<lb n="c57-0161__left_margin__5"/>scious,<w ana="end"/>
+               <metamark function="displacement">X</metamark> as the mechanical <lb n="c57-0161__left_margin__2"/>impulse of <lb n="c57-0161__left_margin__3"/>some power of which <lb n="c57-0161__left_margin__4"/>I was <w ana="start"/>uncon<lb n="c57-0161__left_margin__5"/>scious,<w ana="end"/>
                <anchor xml:id="c57-0161.06"/>
-            </seg>
-         </add>
-         <seg part="F" xml:id="C31_app492-fMS__F">
+            </add>
             <lb n="c57-0161__main__22"/>than
         </seg> 
     the ardent desire of my soul. <milestone unit="tei:p-END"/>
@@ -1717,12 +1715,8 @@
                <add place="intralinear" xml:id="c57-0162__main__d4e31405">red</add>
             </mod>"
         </seg> 
-    My 
-         <seg xml:id="C31_app580-fMS">
-            <w ana="start"/>cou<lb n="c57-0162__main__27"/>rage<w ana="end"/>&amp;
-        </seg> 
-    perseverance were 
-         <seg xml:id="C31_app582-fMS">
+    My <w ana="start"/>cou<lb n="c57-0162__main__27"/>rage<w ana="end"/>&amp; perseverance were 
+        <seg xml:id="C31_app582-fMS">
         inspired with <lb n="c57-0162__main__28"/>new strength
         </seg> 
     by these 
