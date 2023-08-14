@@ -3,8 +3,7 @@
       xmlns:mith="http://mith.umd.edu/sc/ns1#"
       xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
       xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse">
-   <teiHeader xmlns:cx="http://interedition.eu/collatex/ns/1.0"
-               xmlns:fv="https://github.com/FrankensteinVariorum">
+   <teiHeader xmlns:fv="https://github.com/FrankensteinVariorum">
       <fileDesc>
          <titleStmt>
             <title>Spine: Collation unit C10</title>
@@ -68,7 +67,7 @@
             <p>Produced from collation output prepared in batch file processing
                                     on  2023-08-10 04:25:48.010446 .</p>
             <p>Edited to correct alignments and prepared for the Frankenstein
-                                    Variorum spine on 2023-08-13T15:56:26.205192-04:00.</p>
+                                    Variorum spine on 2023-08-14T01:32:24.815998-04:00.</p>
          </editorialDecl>
          <appInfo>
             <application ident="collateX" version="1.7.1">
@@ -91,8 +90,7 @@
          </listPrefixDef>
       </encodingDesc>
    </teiHeader>
-   <text xmlns:cx="http://interedition.eu/collatex/ns/1.0"
-          xmlns:fv="https://github.com/FrankensteinVariorum">
+   <text xmlns:fv="https://github.com/FrankensteinVariorum">
       <body>
          <listApp>
             <app xml:id="C10_app1" n="1">
@@ -9292,7 +9290,8 @@
                </rdgGrp>
                <rdgGrp n="['the']" xml:id="C10_app557_rg2">
                   <rdg wit="#fMS">
-                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c56_chapter_7.xml#C10_app557-fMS"/>
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c56_chapter_7.xml#C10_app557-fMS__I"/>
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c56_chapter_7.xml#C10_app557-fMS__F"/>
                      <witDetail wit="#fMS" target="sga:c56/#/p53">
                         <ref type="page"
                               target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0053.xml">
