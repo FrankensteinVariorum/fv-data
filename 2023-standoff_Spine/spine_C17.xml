@@ -65,9 +65,9 @@
                                     maximum of these values in the <att>n</att> attribute on each <gi>app</gi>
                                     element.</p>
             <p>Produced from collation output prepared in batch file processing
-                                    on  2023-08-15 05:38:03.546145 .</p>
+                                    on  2023-08-17 04:10:30.044088 .</p>
             <p>Edited to correct alignments and prepared for the Frankenstein
-                                    Variorum spine on 2023-08-15T08:11:25.334055-04:00.</p>
+                                    Variorum spine on 2023-08-17T08:02:58.271012-04:00.</p>
          </editorialDecl>
          <appInfo>
             <application ident="collateX" version="1.7.1">
@@ -3427,11 +3427,24 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C17_app213" n="1">
-               <rdgGrp xml:id="C17_app213_rg_empty">
-                  <rdg wit="#fMS"/>
+            <app xml:id="C17_app213" n="0">
+               <rdgGrp n="['me. sometimes']" xml:id="C17_app213_rg1">
+                  <rdg wit="#fMS">
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c57_vol_ii_chap_i.xml#C17_app213-fMS"/>
+                     <witDetail wit="#fMS" target="sga:c57/#/p4">
+                        <ref type="page"
+                              target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0004.xml">
+                           <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0004.xml#string-range(//tei:surface[@xml:id='ox-ms_abinger_c57-0004']/tei:zone[@type='main']//tei:line[17],33,47)"/>
+                           <fv:line_text>( overspeaed my dwelling canopied) me.–sometimes</fv:line_text>
+                           <fv:resolved_text>me.–some</fv:resolved_text>
+                           <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0004.xml#string-range(//tei:surface[@xml:id='ox-ms_abinger_c57-0004']/tei:zone[@type='main']//tei:line[18],0,6)"/>
+                           <fv:line_text>times</fv:line_text>
+                           <fv:resolved_text>times</fv:resolved_text>
+                        </ref>
+                     </witDetail>
+                  </rdg>
                </rdgGrp>
-               <rdgGrp n="['me.']" xml:id="C17_app213_rg1">
+               <rdgGrp n="['me.', 'sometimes']" xml:id="C17_app213_rg2">
                   <rdg wit="#f1818">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1818_vol_2_chapter_iii.xml#C17_app213-f1818"/>
                   </rdg>
@@ -8075,11 +8088,8 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C17_app496" n="1">
-               <rdgGrp xml:id="C17_app496_rg_empty">
-                  <rdg wit="#fMS"/>
-               </rdgGrp>
-               <rdgGrp n="['and']" xml:id="C17_app496_rg1">
+            <app xml:id="C17_app496" n="0">
+               <rdgGrp n="['and', 'divine']" xml:id="C17_app496_rg1">
                   <rdg wit="#f1818">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1818_vol_2_chapter_iii.xml#C17_app496-f1818"/>
                   </rdg>
@@ -8093,6 +8103,25 @@
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1831_chapter_xi.xml#C17_app496-f1831"/>
                   </rdg>
                </rdgGrp>
+               <rdgGrp n="['anddivine']" xml:id="C17_app496_rg2">
+                  <rdg wit="#fMS">
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c57_vol_ii_chap_i.xml#C17_app496-fMS"/>
+                     <witDetail wit="#fMS" target="sga:c57/#/p7 sga:c57/#/p8">
+                        <ref type="page"
+                              target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0007.xml">
+                           <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0007.xml#string-range(//tei:surface[@xml:id='ox-ms_abinger_c57-0007']/tei:zone[@type='main']//tei:line[31],32,40)"/>
+                           <fv:line_text>(asheavenly and divine exquisite) &amp;divine</fv:line_text>
+                           <fv:resolved_text>e &amp; di</fv:resolved_text>
+                        </ref>
+                        <ref type="page"
+                              target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0008.xml">
+                           <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0008.xml#string-range(//tei:surface[@xml:id='ox-ms_abinger_c57-0008']/tei:zone[@type='main']//tei:line[1],0,5)"/>
+                           <fv:line_text>vine</fv:line_text>
+                           <fv:resolved_text>vine</fv:resolved_text>
+                        </ref>
+                     </witDetail>
+                  </rdg>
+               </rdgGrp>
             </app>
             <app xml:id="C17_app498" n="1">
                <rdgGrp n="['pandemonium']" xml:id="C17_app498_rg1">
@@ -8101,9 +8130,9 @@
                      <witDetail wit="#fMS" target="sga:c57/#/p8">
                         <ref type="page"
                               target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0008.xml">
-                           <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0008.xml#string-range(//tei:surface[@xml:id='ox-ms_abinger_c57-0008']/tei:zone[@type='main']//tei:line[1],18,30)"/>
-                           <fv:line_text>(vine a retreat as) Pandemonium</fv:line_text>
-                           <fv:resolved_text> Pandemonium</fv:resolved_text>
+                           <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0008.xml#string-range(//tei:surface[@xml:id='ox-ms_abinger_c57-0008']/tei:zone[@type='main']//tei:line[1],17,29)"/>
+                           <fv:line_text>(vinea retreat as) Pandemonium</fv:line_text>
+                           <fv:resolved_text>s Pandemoniu</fv:resolved_text>
                         </ref>
                      </witDetail>
                   </rdg>
@@ -9212,7 +9241,7 @@
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1831_chapter_xi.xml#C17_app569-f1831"/>
                   </rdg>
                </rdgGrp>
-               <rdgGrp n="['children', 'women']" xml:id="C17_app569_rg2">
+               <rdgGrp n="['&lt;del&gt;children&lt;/del&gt;', 'women']" xml:id="C17_app569_rg2">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c57_vol_ii_chap_i.xml#C17_app569-fMS"/>
                      <witDetail wit="#fMS" target="sga:c57/#/p8">

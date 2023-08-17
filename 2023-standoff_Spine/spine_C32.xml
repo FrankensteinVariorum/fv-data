@@ -65,9 +65,9 @@
                                     maximum of these values in the <att>n</att> attribute on each <gi>app</gi>
                                     element.</p>
             <p>Produced from collation output prepared in batch file processing
-                                    on  2023-08-15 11:47:30.252858 .</p>
+                                    on  2023-08-17 04:52:48.712397 .</p>
             <p>Edited to correct alignments and prepared for the Frankenstein
-                                    Variorum spine on 2023-08-15T08:11:25.334055-04:00.</p>
+                                    Variorum spine on 2023-08-17T08:02:58.271012-04:00.</p>
          </editorialDecl>
          <appInfo>
             <application ident="collateX" version="1.7.1">
@@ -1441,8 +1441,8 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C32_app81" n="5">
-               <rdgGrp n="['surpri', '', '&lt;mdel&gt;z&lt;/mdel&gt;', 's', '', 'e', 'admiration']"
+            <app xml:id="C32_app81" n="1">
+               <rdgGrp n="['surpri', '', '&lt;mdel&gt;z&lt;/mdel&gt;', 's', '', 'e', 'andadmiration.']"
                         xml:id="C32_app81_rg1">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c57_walton_in_continuation.xml#C32_app81-fMS"/>
@@ -3890,7 +3890,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C32_app223" n="39">
+            <app xml:id="C32_app223" n="14">
                <rdgGrp n="['&#34;i believed myself destined for some great enterprise.']"
                         xml:id="C32_app223_rg1">
                   <rdg wit="#f1823">
@@ -3909,7 +3909,8 @@
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fThomas_vol_3_chapter_vii.xml#C32_app223-fThomas"/>
                   </rdg>
                </rdgGrp>
-               <rdgGrp n="['destined']" xml:id="C32_app223_rg3">
+               <rdgGrp n="['i felt as if i was destined for some great enterprize.']"
+                        xml:id="C32_app223_rg3">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c57_walton_in_continuation.xml#C32_app223-fMS"/>
                      <witDetail wit="#fMS" target="sga:c57/#/p170">
@@ -3987,8 +3988,8 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C32_app229" n="16">
-               <rdgGrp n="['&lt;del&gt;gr', '', '&lt;mdel&gt;an&lt;/mdel&gt;', 'eat', '', '&lt;mdel&gt;d&lt;/mdel&gt;', 'enterprises', 'atchievements', '.']"
+            <app xml:id="C32_app229" n="20">
+               <rdgGrp n="['&lt;del&gt;gr', '', '&lt;mdel&gt;an&lt;/mdel&gt;', 'eat', '', '&lt;mdel&gt;d&lt;/mdel&gt;', 'enterprises&lt;/del&gt;illustrious', 'atchievements', '.']"
                         xml:id="C32_app229_rg1">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c57_walton_in_continuation.xml#C32_app229-fMS"/>

@@ -65,9 +65,9 @@
                                     maximum of these values in the <att>n</att> attribute on each <gi>app</gi>
                                     element.</p>
             <p>Produced from collation output prepared in batch file processing
-                                    on  2023-08-15 11:27:18.395060 .</p>
+                                    on  2023-08-17 04:33:03.354958 .</p>
             <p>Edited to correct alignments and prepared for the Frankenstein
-                                    Variorum spine on 2023-08-15T08:11:25.334055-04:00.</p>
+                                    Variorum spine on 2023-08-17T08:02:58.271012-04:00.</p>
          </editorialDecl>
          <appInfo>
             <application ident="collateX" version="1.7.1">
@@ -5316,7 +5316,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C26_app327" n="11">
+            <app xml:id="C26_app327" n="10">
                <rdgGrp n="['detestation and scorn. man! you may hate;']"
                         xml:id="C26_app327_rg1">
                   <rdg wit="#f1823">
@@ -5335,7 +5335,7 @@
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fThomas_vol_3_chapter_iii.xml#C26_app327-fThomas"/>
                   </rdg>
                </rdgGrp>
-               <rdgGrp n="['detestation', 'man', 'you', 'may', 'hate,']"
+               <rdgGrp n="['detestation.', 'man', 'you', 'may', 'hate,']"
                         xml:id="C26_app327_rg3">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c57_chap_2.xml#C26_app327-fMS"/>
@@ -5968,8 +5968,22 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C26_app370" n="2">
-               <rdgGrp n="['inexorable']" xml:id="C26_app370_rg1">
+            <app xml:id="C26_app370" n="1">
+               <rdgGrp n="['inexorable.&#34;']" xml:id="C26_app370_rg1">
+                  <rdg wit="#f1818">
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1818_vol_3_chapter_iii.xml#C26_app370-f1818"/>
+                  </rdg>
+                  <rdg wit="#f1823">
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1823_vol_2_chapter_viii.xml#C26_app370-f1823"/>
+                  </rdg>
+                  <rdg wit="#fThomas">
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fThomas_vol_3_chapter_iii.xml#C26_app370-fThomas"/>
+                  </rdg>
+                  <rdg wit="#f1831">
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1831_chapter_xx.xml#C26_app370-f1831"/>
+                  </rdg>
+               </rdgGrp>
+               <rdgGrp n="['inexorable.']" xml:id="C26_app370_rg2">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c57_chap_2.xml#C26_app370-fMS"/>
                      <witDetail wit="#fMS" target="sga:c57/#/p107">
@@ -5983,20 +5997,6 @@
                            <fv:resolved_text>rable.</fv:resolved_text>
                         </ref>
                      </witDetail>
-                  </rdg>
-               </rdgGrp>
-               <rdgGrp n="['inexorable.&#34;']" xml:id="C26_app370_rg2">
-                  <rdg wit="#f1818">
-                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1818_vol_3_chapter_iii.xml#C26_app370-f1818"/>
-                  </rdg>
-                  <rdg wit="#f1823">
-                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1823_vol_2_chapter_viii.xml#C26_app370-f1823"/>
-                  </rdg>
-                  <rdg wit="#fThomas">
-                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fThomas_vol_3_chapter_iii.xml#C26_app370-fThomas"/>
-                  </rdg>
-                  <rdg wit="#f1831">
-                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1831_chapter_xx.xml#C26_app370-f1831"/>
                   </rdg>
                </rdgGrp>
             </app>
@@ -6059,7 +6059,7 @@
                </rdgGrp>
             </app>
             <app xml:id="C26_app376" n="1">
-               <rdgGrp n="['remember']" xml:id="C26_app376_rg1">
+               <rdgGrp n="['remember!']" xml:id="C26_app376_rg1">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c57_chap_2.xml#C26_app376-fMS"/>
                      <witDetail wit="#fMS" target="sga:c57/#/p107">
@@ -11696,8 +11696,22 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C26_app727" n="4">
-               <rdgGrp n="['north-east']" xml:id="C26_app727_rg1">
+            <app xml:id="C26_app727" n="1">
+               <rdgGrp n="['was', 'north-east,']" xml:id="C26_app727_rg1">
+                  <rdg wit="#f1818">
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1818_vol_3_chapter_iii.xml#C26_app727-f1818"/>
+                  </rdg>
+                  <rdg wit="#f1823">
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1823_vol_2_chapter_viii.xml#C26_app727-f1823"/>
+                  </rdg>
+                  <rdg wit="#fThomas">
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fThomas_vol_3_chapter_iii.xml#C26_app727-fThomas"/>
+                  </rdg>
+                  <rdg wit="#f1831">
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1831_chapter_xx.xml#C26_app727-f1831"/>
+                  </rdg>
+               </rdgGrp>
+               <rdgGrp n="['wasnorth-east']" xml:id="C26_app727_rg2">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c57_chapter_13.xml#C26_app727-fMS"/>
                      <witDetail wit="#fMS" target="sga:c57/#/p112">
@@ -11711,20 +11725,6 @@
                            <fv:resolved_text>east</fv:resolved_text>
                         </ref>
                      </witDetail>
-                  </rdg>
-               </rdgGrp>
-               <rdgGrp n="['was', 'north-east,']" xml:id="C26_app727_rg2">
-                  <rdg wit="#f1818">
-                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1818_vol_3_chapter_iii.xml#C26_app727-f1818"/>
-                  </rdg>
-                  <rdg wit="#f1823">
-                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1823_vol_2_chapter_viii.xml#C26_app727-f1823"/>
-                  </rdg>
-                  <rdg wit="#fThomas">
-                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fThomas_vol_3_chapter_iii.xml#C26_app727-fThomas"/>
-                  </rdg>
-                  <rdg wit="#f1831">
-                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1831_chapter_xx.xml#C26_app727-f1831"/>
                   </rdg>
                </rdgGrp>
             </app>
@@ -16577,8 +16577,22 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C26_app1023" n="4">
-               <rdgGrp n="['magistrate']" xml:id="C26_app1023_rg1">
+            <app xml:id="C26_app1023" n="1">
+               <rdgGrp n="['magistrate;', 'and']" xml:id="C26_app1023_rg1">
+                  <rdg wit="#f1818">
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1818_vol_3_chapter_iii.xml#C26_app1023-f1818"/>
+                  </rdg>
+                  <rdg wit="#f1823">
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1823_vol_2_chapter_viii.xml#C26_app1023-f1823"/>
+                  </rdg>
+                  <rdg wit="#fThomas">
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fThomas_vol_3_chapter_iii.xml#C26_app1023-fThomas"/>
+                  </rdg>
+                  <rdg wit="#f1831">
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1831_chapter_xx.xml#C26_app1023-f1831"/>
+                  </rdg>
+               </rdgGrp>
+               <rdgGrp n="['magistrateand']" xml:id="C26_app1023_rg2">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c57_chapter_13.xml#C26_app1023-fMS"/>
                      <witDetail wit="#fMS" target="sga:c57/#/p115">
@@ -16592,20 +16606,6 @@
                            <fv:resolved_text>trate </fv:resolved_text>
                         </ref>
                      </witDetail>
-                  </rdg>
-               </rdgGrp>
-               <rdgGrp n="['magistrate;', 'and']" xml:id="C26_app1023_rg2">
-                  <rdg wit="#f1818">
-                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1818_vol_3_chapter_iii.xml#C26_app1023-f1818"/>
-                  </rdg>
-                  <rdg wit="#f1823">
-                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1823_vol_2_chapter_viii.xml#C26_app1023-f1823"/>
-                  </rdg>
-                  <rdg wit="#fThomas">
-                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fThomas_vol_3_chapter_iii.xml#C26_app1023-fThomas"/>
-                  </rdg>
-                  <rdg wit="#f1831">
-                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1831_chapter_xx.xml#C26_app1023-f1831"/>
                   </rdg>
                </rdgGrp>
             </app>
