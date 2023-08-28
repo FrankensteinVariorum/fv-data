@@ -68,6 +68,7 @@
         <moduleRef key="msdescription"/>
         <moduleRef key="textcrit"
           include="app lacunaEnd lacunaStart lem listApp listWit rdg rdgGrp variantEncoding wit witDetail witEnd witStart witness"/>
+        <moduleRef key="tagdocs"/>
         <elementSpec ident="sourceDesc" mode="replace">
           <desc versionDate="2023-08-28" xml:lang="en">describes the source(s) from which an electronic text was derived or generated, typically a
             bibliographic description in the case of a digitized text, or a phrase such as "born digital"
@@ -97,6 +98,7 @@
                   maxOccurs="unbounded">
                   <classRef key="model.global"
                     minOccurs="0" maxOccurs="unbounded"/>
+                  <elementRef key="listApp" minOccurs="0" maxOccurs="1"/>
                   <classRef key="model.pLike" minOccurs="0" maxOccurs="unbounded"/>
                   <classRef key="model.divTop" minOccurs="0" maxOccurs="unbounded"/>
                   <classRef key="model.divGenLike" minOccurs="0" maxOccurs="unbounded"/>
@@ -306,30 +308,20 @@
             ></attDef>
         </attList>
       </elementSpec>
-        
-        <elementSpec ident="witDetail" mode="replace">
-          <desc versionDate="2023-08-28" xml:lang="en">gives further information about a particular witness, or
-          witnesses, to a particular reading. In this customization, we are including elements in the Frankenstein Variorum namespace that 
-          provide information about pointer resolution to the Shelley-Godwin Archive manuscript notebook files.</desc>
-          <classes>
-            <memberOf key="att.global"/>
-            <memberOf key="model.global.edit"/>
-            <memberOf key="att.placement"/>
-            <memberOf key="att.pointing"/>
-            <memberOf key="att.typed"/>
-          </classes>
+        <elementSpec ident="ref" mode="change">
+          <desc versionDate="2023-08-28" xml:lang="en">defines a reference to another location, possibly modified by additional text or comment. 
+            In this customization, we are including elements in the Frankenstein Variorum namespace that 
+            provide information about pointer resolution to the Shelley-Godwin Archive manuscript notebook files.
+          </desc>
           <content>
-            <alternate maxOccurs="unbounded" minOccurs="0">
-              <textNode/>
-              <elementRef key="line_text"/>
-              <elementRef key="resolved_text"/>
-              <classRef key="model.gLike"/>
-              <classRef key="model.phrase"/>
-              <classRef key="model.global"/>
-              <elementRef key="bibl"/>
-            </alternate>
+           <alternate minOccurs="1" maxOccurs="unbounded"> 
+             <macroRef key="macro.paraContent"/>
+             <elementRef key="line_text"/>
+             <elementRef key="resolved_text"/>
+           </alternate>
           </content>
         </elementSpec>
+        
         <elementSpec ident="line_text" ns="https://github.com/FrankensteinVariorum" mode="add"
           module="textcrit">
           <desc versionDate="2023-08-28" xml:lang="en">This element stores text from the

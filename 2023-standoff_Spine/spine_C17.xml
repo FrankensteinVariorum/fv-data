@@ -1,4 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../FV_ODD/out/FV_ODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../FV_ODD/out/FV_ODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
       xmlns:fv="https://github.com/FrankensteinVariorum">
    <teiHeader>
@@ -65,7 +67,7 @@
             <p>Produced from collation output prepared in batch file processing
                                     on  2023-08-17 04:10:30.044088 .</p>
             <p>Edited to correct alignments and prepared for the Frankenstein
-                                    Variorum spine on 2023-08-27T22:00:14.345525-04:00.</p>
+                                    Variorum spine on 2023-08-28T03:20:00.540411-04:00.</p>
          </editorialDecl>
          <appInfo>
             <application ident="collateX" version="1.7.1">

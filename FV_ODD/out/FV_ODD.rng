@@ -5,7 +5,7 @@
          xmlns:xlink="http://www.w3.org/1999/xlink"
          datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes"
          ns="http://www.tei-c.org/ns/1.0"><!--
-Schema generated from ODD source 2023-08-28T07:01:32Z. .
+Schema generated from ODD source 2023-08-28T07:44:46Z. .
 TEI Edition: Version 4.4.0. Last updated on
         19th April 2022, revision ff9cc28b0
 TEI Edition Location: https://www.tei-c.org/Vault/P5/Version 4.4.0/
@@ -94,6 +94,104 @@ TEI Edition Location: https://www.tei-c.org/Vault/P5/Version 4.4.0/
             </choice>
          </zeroOrMore>
       </element>
+   </define>
+   <define name="anyElement-egXML">
+      <element>
+         <anyName>
+            <except>
+               <nsName ns="http://www.tei-c.org/ns/1.0"/>
+               <name ns="http://www.tei-c.org/ns/Examples">egXML</name>
+            </except>
+         </anyName>
+         <zeroOrMore>
+            <attribute>
+               <anyName/>
+            </attribute>
+         </zeroOrMore>
+         <zeroOrMore>
+            <choice>
+               <text/>
+               <ref name="anyElement-egXML"/>
+            </choice>
+         </zeroOrMore>
+      </element>
+   </define>
+   <define name="anyElement-content">
+      <element>
+         <anyName>
+            <except>
+               <nsName ns="http://www.tei-c.org/ns/1.0"/>
+               <name ns="http://www.tei-c.org/ns/Examples">egXML</name>
+            </except>
+         </anyName>
+         <zeroOrMore>
+            <attribute>
+               <anyName/>
+            </attribute>
+         </zeroOrMore>
+         <zeroOrMore>
+            <choice>
+               <text/>
+               <ref name="anyElement-content"/>
+            </choice>
+         </zeroOrMore>
+      </element>
+      <pattern xmlns="http://purl.oclc.org/dsdl/schematron" id="d10e92396-constraint">
+         <rule context="tei:content">
+            <report test="descendant::*[not(namespace-uri(.) =               ('http://relaxng.org/ns/compatibility/annotations/1.0', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', 'http://relaxng.org/ns/structure/1.0', 'http://www.tei-c.org/ns/1.0'))]">content descendants must be in the
+              namespaces
+              'http://relaxng.org/ns/compatibility/annotations/1.0', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', 'http://relaxng.org/ns/structure/1.0', 'http://www.tei-c.org/ns/1.0'</report>
+         </rule>
+      </pattern>
+   </define>
+   <define name="anyElement-constraint">
+      <element>
+         <anyName>
+            <except>
+               <nsName ns="http://www.tei-c.org/ns/1.0"/>
+               <name ns="http://www.tei-c.org/ns/Examples">egXML</name>
+            </except>
+         </anyName>
+         <zeroOrMore>
+            <attribute>
+               <anyName/>
+            </attribute>
+         </zeroOrMore>
+         <zeroOrMore>
+            <choice>
+               <text/>
+               <ref name="anyElement-constraint"/>
+            </choice>
+         </zeroOrMore>
+      </element>
+   </define>
+   <define name="anyElement-datatype">
+      <element>
+         <anyName>
+            <except>
+               <nsName ns="http://www.tei-c.org/ns/1.0"/>
+               <name ns="http://www.tei-c.org/ns/Examples">egXML</name>
+            </except>
+         </anyName>
+         <zeroOrMore>
+            <attribute>
+               <anyName/>
+            </attribute>
+         </zeroOrMore>
+         <zeroOrMore>
+            <choice>
+               <text/>
+               <ref name="anyElement-datatype"/>
+            </choice>
+         </zeroOrMore>
+      </element>
+      <pattern xmlns="http://purl.oclc.org/dsdl/schematron" id="d10e93690-constraint">
+         <rule context="tei:datatype">
+            <report test="descendant::*[not(namespace-uri(.) =               ('http://relaxng.org/ns/structure/1.0', 'http://www.tei-c.org/ns/1.0'))]">datatype descendants must be in the
+              namespaces
+              'http://relaxng.org/ns/structure/1.0', 'http://www.tei-c.org/ns/1.0'</report>
+         </rule>
+      </pattern>
    </define>
    <define name="tei_att.anchoring.attributes">
       <ref name="tei_att.anchoring.attribute.anchored"/>
@@ -1845,6 +1943,8 @@ Suggested values include: 1] volume (volume); 2] issue; 3] page (page); 4] line;
          <ref name="tei_gloss"/>
          <ref name="tei_term"/>
          <ref name="tei_title"/>
+         <ref name="tei_code"/>
+         <ref name="tei_ident"/>
       </choice>
    </define>
    <define name="tei_model.emphLike_alternation">
@@ -1857,6 +1957,8 @@ Suggested values include: 1] volume (volume); 2] issue; 3] page (page); 4] line;
          <ref name="tei_gloss"/>
          <ref name="tei_term"/>
          <ref name="tei_title"/>
+         <ref name="tei_code"/>
+         <ref name="tei_ident"/>
       </choice>
    </define>
    <define name="tei_model.emphLike_sequence">
@@ -1868,6 +1970,8 @@ Suggested values include: 1] volume (volume); 2] issue; 3] page (page); 4] line;
       <ref name="tei_gloss"/>
       <ref name="tei_term"/>
       <ref name="tei_title"/>
+      <ref name="tei_code"/>
+      <ref name="tei_ident"/>
    </define>
    <define name="tei_model.emphLike_sequenceOptional">
       <optional>
@@ -1893,6 +1997,12 @@ Suggested values include: 1] volume (volume); 2] issue; 3] page (page); 4] line;
       </optional>
       <optional>
          <ref name="tei_title"/>
+      </optional>
+      <optional>
+         <ref name="tei_code"/>
+      </optional>
+      <optional>
+         <ref name="tei_ident"/>
       </optional>
    </define>
    <define name="tei_model.emphLike_sequenceOptionalRepeatable">
@@ -1920,6 +2030,12 @@ Suggested values include: 1] volume (volume); 2] issue; 3] page (page); 4] line;
       <zeroOrMore>
          <ref name="tei_title"/>
       </zeroOrMore>
+      <zeroOrMore>
+         <ref name="tei_code"/>
+      </zeroOrMore>
+      <zeroOrMore>
+         <ref name="tei_ident"/>
+      </zeroOrMore>
    </define>
    <define name="tei_model.emphLike_sequenceRepeatable">
       <oneOrMore>
@@ -1945,6 +2061,12 @@ Suggested values include: 1] volume (volume); 2] issue; 3] page (page); 4] line;
       </oneOrMore>
       <oneOrMore>
          <ref name="tei_title"/>
+      </oneOrMore>
+      <oneOrMore>
+         <ref name="tei_code"/>
+      </oneOrMore>
+      <oneOrMore>
+         <ref name="tei_ident"/>
       </oneOrMore>
    </define>
    <define name="tei_model.highlighted">
@@ -2125,22 +2247,44 @@ Suggested values include: 1] volume (volume); 2] issue; 3] page (page); 4] line;
       </oneOrMore>
    </define>
    <define name="tei_model.egLike">
-      <notAllowed/>
+      <choice>
+         <ref name="tei_eg"/>
+         <ref name="tei_egXML"/>
+      </choice>
    </define>
    <define name="tei_model.egLike_alternation">
-      <notAllowed/>
+      <choice>
+         <ref name="tei_eg"/>
+         <ref name="tei_egXML"/>
+      </choice>
    </define>
    <define name="tei_model.egLike_sequence">
-      <empty/>
+      <ref name="tei_eg"/>
+      <ref name="tei_egXML"/>
    </define>
    <define name="tei_model.egLike_sequenceOptional">
-      <empty/>
+      <optional>
+         <ref name="tei_eg"/>
+      </optional>
+      <optional>
+         <ref name="tei_egXML"/>
+      </optional>
    </define>
    <define name="tei_model.egLike_sequenceOptionalRepeatable">
-      <empty/>
+      <zeroOrMore>
+         <ref name="tei_eg"/>
+      </zeroOrMore>
+      <zeroOrMore>
+         <ref name="tei_egXML"/>
+      </zeroOrMore>
    </define>
    <define name="tei_model.egLike_sequenceRepeatable">
-      <notAllowed/>
+      <oneOrMore>
+         <ref name="tei_eg"/>
+      </oneOrMore>
+      <oneOrMore>
+         <ref name="tei_egXML"/>
+      </oneOrMore>
    </define>
    <define name="tei_model.graphicLike">
       <choice>
@@ -2573,6 +2717,7 @@ Suggested values include: 1] volume (volume); 2] issue; 3] page (page); 4] line;
       <choice>
          <ref name="tei_ptr"/>
          <ref name="tei_ref"/>
+         <ref name="tei_listRef"/>
       </choice>
    </define>
    <define name="tei_model.lPart">
@@ -2611,28 +2756,151 @@ Suggested values include: 1] volume (volume); 2] issue; 3] page (page); 4] line;
       <notAllowed/>
    </define>
    <define name="tei_model.oddDecl">
-      <notAllowed/>
+      <choice>
+         <ref name="tei_moduleSpec"/>
+         <ref name="tei_specGrp"/>
+         <ref name="tei_specGrpRef"/>
+         <ref name="tei_elementSpec"/>
+         <ref name="tei_classSpec"/>
+         <ref name="tei_dataSpec"/>
+         <ref name="tei_macroSpec"/>
+         <ref name="tei_outputRendition"/>
+         <ref name="tei_constraintSpec"/>
+      </choice>
    </define>
    <define name="tei_model.oddDecl_alternation">
-      <notAllowed/>
+      <choice>
+         <ref name="tei_moduleSpec"/>
+         <ref name="tei_specGrp"/>
+         <ref name="tei_specGrpRef"/>
+         <ref name="tei_elementSpec"/>
+         <ref name="tei_classSpec"/>
+         <ref name="tei_dataSpec"/>
+         <ref name="tei_macroSpec"/>
+         <ref name="tei_outputRendition"/>
+         <ref name="tei_constraintSpec"/>
+      </choice>
    </define>
    <define name="tei_model.oddDecl_sequence">
-      <empty/>
+      <ref name="tei_moduleSpec"/>
+      <ref name="tei_specGrp"/>
+      <ref name="tei_specGrpRef"/>
+      <ref name="tei_elementSpec"/>
+      <ref name="tei_classSpec"/>
+      <ref name="tei_dataSpec"/>
+      <ref name="tei_macroSpec"/>
+      <ref name="tei_outputRendition"/>
+      <ref name="tei_constraintSpec"/>
    </define>
    <define name="tei_model.oddDecl_sequenceOptional">
-      <empty/>
+      <optional>
+         <ref name="tei_moduleSpec"/>
+      </optional>
+      <optional>
+         <ref name="tei_specGrp"/>
+      </optional>
+      <optional>
+         <ref name="tei_specGrpRef"/>
+      </optional>
+      <optional>
+         <ref name="tei_elementSpec"/>
+      </optional>
+      <optional>
+         <ref name="tei_classSpec"/>
+      </optional>
+      <optional>
+         <ref name="tei_dataSpec"/>
+      </optional>
+      <optional>
+         <ref name="tei_macroSpec"/>
+      </optional>
+      <optional>
+         <ref name="tei_outputRendition"/>
+      </optional>
+      <optional>
+         <ref name="tei_constraintSpec"/>
+      </optional>
    </define>
    <define name="tei_model.oddDecl_sequenceOptionalRepeatable">
-      <empty/>
+      <zeroOrMore>
+         <ref name="tei_moduleSpec"/>
+      </zeroOrMore>
+      <zeroOrMore>
+         <ref name="tei_specGrp"/>
+      </zeroOrMore>
+      <zeroOrMore>
+         <ref name="tei_specGrpRef"/>
+      </zeroOrMore>
+      <zeroOrMore>
+         <ref name="tei_elementSpec"/>
+      </zeroOrMore>
+      <zeroOrMore>
+         <ref name="tei_classSpec"/>
+      </zeroOrMore>
+      <zeroOrMore>
+         <ref name="tei_dataSpec"/>
+      </zeroOrMore>
+      <zeroOrMore>
+         <ref name="tei_macroSpec"/>
+      </zeroOrMore>
+      <zeroOrMore>
+         <ref name="tei_outputRendition"/>
+      </zeroOrMore>
+      <zeroOrMore>
+         <ref name="tei_constraintSpec"/>
+      </zeroOrMore>
    </define>
    <define name="tei_model.oddDecl_sequenceRepeatable">
-      <notAllowed/>
+      <oneOrMore>
+         <ref name="tei_moduleSpec"/>
+      </oneOrMore>
+      <oneOrMore>
+         <ref name="tei_specGrp"/>
+      </oneOrMore>
+      <oneOrMore>
+         <ref name="tei_specGrpRef"/>
+      </oneOrMore>
+      <oneOrMore>
+         <ref name="tei_elementSpec"/>
+      </oneOrMore>
+      <oneOrMore>
+         <ref name="tei_classSpec"/>
+      </oneOrMore>
+      <oneOrMore>
+         <ref name="tei_dataSpec"/>
+      </oneOrMore>
+      <oneOrMore>
+         <ref name="tei_macroSpec"/>
+      </oneOrMore>
+      <oneOrMore>
+         <ref name="tei_outputRendition"/>
+      </oneOrMore>
+      <oneOrMore>
+         <ref name="tei_constraintSpec"/>
+      </oneOrMore>
+   </define>
+   <define name="tei_model.oddRef">
+      <choice>
+         <ref name="tei_classRef"/>
+         <ref name="tei_elementRef"/>
+         <ref name="tei_macroRef"/>
+         <ref name="tei_moduleRef"/>
+         <ref name="tei_dataRef"/>
+      </choice>
    </define>
    <define name="tei_model.phrase.xml">
-      <notAllowed/>
+      <choice>
+         <ref name="tei_att"/>
+         <ref name="tei_gi"/>
+         <ref name="tei_tag"/>
+         <ref name="tei_val"/>
+      </choice>
    </define>
    <define name="tei_model.specDescLike">
-      <notAllowed/>
+      <choice>
+         <ref name="tei_specList"/>
+         <ref name="tei_specDesc"/>
+      </choice>
    </define>
    <define name="tei_model.biblLike">
       <choice>
@@ -3321,6 +3589,13 @@ Suggested values include: 1] volume (volume); 2] issue; 3] page (page); 4] line;
          <ref name="tei_desc"/>
       </choice>
    </define>
+   <define name="tei_model.glossLike">
+      <choice>
+         <ref name="tei_gloss"/>
+         <ref name="tei_equiv"/>
+         <ref name="tei_altIdent"/>
+      </choice>
+   </define>
    <define name="tei_model.quoteLike">
       <choice>
          <ref name="tei_quote"/>
@@ -3734,6 +4009,7 @@ Suggested values include: 1] volume (volume); 2] issue; 3] page (page); 4] line;
          <ref name="tei_listBibl"/>
          <ref name="tei_divGen"/>
          <ref name="tei_titlePage"/>
+         <ref name="tei_schemaSpec"/>
       </choice>
    </define>
    <define name="tei_model.addrPart">
@@ -3885,6 +4161,7 @@ Suggested values include: 1] volume (volume); 2] issue; 3] page (page); 4] line;
          <ref name="tei_unitDecl"/>
          <ref name="tei_appInfo"/>
          <ref name="tei_variantEncoding"/>
+         <ref name="tei_schemaSpec"/>
       </choice>
    </define>
    <define name="tei_model.editorialDeclPart">
@@ -4310,6 +4587,7 @@ Suggested values include: 1] spoken (spoken); 2] thought (thought); 3] written (
             </sch:rule>
          </pattern>
          <ref name="tei_att.global.attributes"/>
+         <ref name="tei_att.translatable.attributes"/>
          <ref name="tei_att.typed.attribute.subtype"/>
          <optional>
             <attribute name="type">
@@ -4334,6 +4612,7 @@ Suggested values include: 1] deprecationInfo (deprecation information)</a:docume
          <ref name="tei_macro.phraseSeq"/>
          <ref name="tei_att.global.attributes"/>
          <ref name="tei_att.declaring.attributes"/>
+         <ref name="tei_att.translatable.attributes"/>
          <ref name="tei_att.typed.attributes"/>
          <ref name="tei_att.pointing.attributes"/>
          <ref name="tei_att.cReferencing.attributes"/>
@@ -4935,8 +5214,14 @@ attributes @target and @cRef may be supplied on <name/>.</report>
    </define>
    <define name="tei_ref">
       <element name="ref">
-         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(reference) defines a reference to another location, possibly modified by additional text or comment. [3.7. Simple Links and Cross-References 16.1. Links]</a:documentation>
-         <ref name="tei_macro.paraContent"/>
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(reference) defines a reference to another location, possibly modified by additional text or comment. In this customization, we are including elements in the Frankenstein Variorum namespace that provide information about pointer resolution to the Shelley-Godwin Archive manuscript notebook files.  [3.7. Simple Links and Cross-References 16.1. Links]</a:documentation>
+         <oneOrMore>
+            <choice>
+               <ref name="tei_macro.paraContent"/>
+               <ref name="tei_line_text"/>
+               <ref name="tei_resolved_text"/>
+            </choice>
+         </oneOrMore>
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
                   id="FV_ODD-ref-refAtts-constraint-report-10">
             <rule context="tei:ref">
@@ -6930,6 +7215,7 @@ Sample values include: 1] book; 2] chapter; 3] entry; 4] poem; 5] letter; 6] lin
                   <oneOrMore>
                      <choice>
                         <ref name="tei_model.descLike"/>
+                        <ref name="tei_equiv"/>
                         <ref name="tei_gloss"/>
                      </choice>
                   </oneOrMore>
@@ -6966,6 +7252,7 @@ Sample values include: 1] book; 2] chapter; 3] entry; 4] poem; 5] letter; 6] lin
                <zeroOrMore>
                   <choice>
                      <ref name="tei_model.descLike"/>
+                     <ref name="tei_equiv"/>
                      <ref name="tei_gloss"/>
                   </choice>
                </zeroOrMore>
@@ -7860,6 +8147,7 @@ You must supply at least two values for @target on <name/>
          <group>
             <zeroOrMore>
                <choice>
+                  <ref name="tei_equiv"/>
                   <ref name="tei_gloss"/>
                   <ref name="tei_model.descLike"/>
                </choice>
@@ -8203,6 +8491,9 @@ You must supply at least two values for @target on <name/>
                <zeroOrMore>
                   <ref name="tei_model.global"/>
                </zeroOrMore>
+               <optional>
+                  <ref name="tei_listApp"/>
+               </optional>
                <zeroOrMore>
                   <ref name="tei_model.pLike"/>
                </zeroOrMore>
@@ -8344,6 +8635,7 @@ You must supply at least two values for @target on <name/>
                         <oneOrMore>
                            <group>
                               <choice>
+                                 <ref name="tei_schemaSpec"/>
                                  <ref name="tei_model.common"/>
                               </choice>
                               <zeroOrMore>
@@ -8433,6 +8725,7 @@ You must supply at least two values for @target on <name/>
                         <oneOrMore>
                            <group>
                               <choice>
+                                 <ref name="tei_schemaSpec"/>
                                  <ref name="tei_model.common"/>
                               </choice>
                               <zeroOrMore>
@@ -8499,6 +8792,7 @@ You must supply at least two values for @target on <name/>
                         <oneOrMore>
                            <group>
                               <choice>
+                                 <ref name="tei_schemaSpec"/>
                                  <ref name="tei_model.common"/>
                               </choice>
                               <zeroOrMore>
@@ -8565,6 +8859,7 @@ You must supply at least two values for @target on <name/>
                         <oneOrMore>
                            <group>
                               <choice>
+                                 <ref name="tei_schemaSpec"/>
                                  <ref name="tei_model.common"/>
                               </choice>
                               <zeroOrMore>
@@ -8631,6 +8926,7 @@ You must supply at least two values for @target on <name/>
                         <oneOrMore>
                            <group>
                               <choice>
+                                 <ref name="tei_schemaSpec"/>
                                  <ref name="tei_model.common"/>
                               </choice>
                               <zeroOrMore>
@@ -8697,6 +8993,7 @@ You must supply at least two values for @target on <name/>
                         <oneOrMore>
                            <group>
                               <choice>
+                                 <ref name="tei_schemaSpec"/>
                                  <ref name="tei_model.common"/>
                               </choice>
                               <zeroOrMore>
@@ -8763,6 +9060,7 @@ You must supply at least two values for @target on <name/>
                         <oneOrMore>
                            <group>
                               <choice>
+                                 <ref name="tei_schemaSpec"/>
                                  <ref name="tei_model.common"/>
                               </choice>
                               <zeroOrMore>
@@ -8816,6 +9114,7 @@ You must supply at least two values for @target on <name/>
                   <oneOrMore>
                      <group>
                         <choice>
+                           <ref name="tei_schemaSpec"/>
                            <ref name="tei_model.common"/>
                         </choice>
                         <zeroOrMore>
@@ -13997,12 +14296,10 @@ Sample values include: 1] homeoteleuton; 2] homeoarchy; 3] paleographicConfusion
    </define>
    <define name="tei_witDetail">
       <element name="witDetail">
-         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">gives further information about a particular witness, or witnesses, to a particular reading. In this customization, we are including elements in the Frankenstein Variorum namespace that provide information about pointer resolution to the Shelley-Godwin Archive manuscript notebook files.</a:documentation>
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(witness detail) gives further information about a particular witness, or witnesses, to a particular reading. [12.1. The Apparatus Entry, Readings, and Witnesses]</a:documentation>
          <zeroOrMore>
             <choice>
                <text/>
-               <ref name="tei_line_text"/>
-               <ref name="tei_resolved_text"/>
                <ref name="tei_model.gLike"/>
                <ref name="tei_model.phrase"/>
                <ref name="tei_model.global"/>
@@ -14012,7 +14309,25 @@ Sample values include: 1] homeoteleuton; 2] homeoarchy; 3] paleographicConfusion
          <ref name="tei_att.global.attributes"/>
          <ref name="tei_att.placement.attributes"/>
          <ref name="tei_att.pointing.attributes"/>
-         <ref name="tei_att.typed.attributes"/>
+         <ref name="tei_att.typed.attribute.subtype"/>
+         <optional>
+            <attribute name="type">
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">describes the type of information given about the witness.</a:documentation>
+               <data type="token">
+                  <param name="pattern">[^\p{C}\p{Z}]+</param>
+               </data>
+            </attribute>
+         </optional>
+         <attribute name="wit">
+            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(witnesses) indicates the sigil or sigla identifying the witness or witnesses to which the detail refers.</a:documentation>
+            <list>
+               <oneOrMore>
+                  <data type="anyURI">
+                     <param name="pattern">\S+</param>
+                  </data>
+               </oneOrMore>
+            </list>
+         </attribute>
          <empty/>
       </element>
    </define>
@@ -14136,6 +14451,2195 @@ Sample values include: 1] homeoteleuton; 2] homeoarchy; 3] paleographicConfusion
               parallel-segmentation method of apparatus markup.</sch:assert>
             </sch:rule>
          </pattern>
+         <empty/>
+      </element>
+   </define>
+   <define name="tei_att.translatable.attributes">
+      <ref name="tei_att.translatable.attribute.versionDate"/>
+   </define>
+   <define name="tei_att.translatable.attribute.versionDate">
+      <optional>
+         <attribute name="versionDate">
+            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">specifies the date on which the source text was extracted and sent to the translator</a:documentation>
+            <choice>
+               <data type="date">
+                  <param name="pattern">(19[789][0-9]|[2-9][0-9]{3}).*</param>
+               </data>
+               <data type="dateTime">
+                  <param name="pattern">(19[789][0-9]|[2-9][0-9]{3}).*</param>
+               </data>
+            </choice>
+         </attribute>
+      </optional>
+   </define>
+   <define name="tei_att.predicate.attributes">
+      <ref name="tei_att.predicate.attribute.predicate"/>
+   </define>
+   <define name="tei_att.predicate.attribute.predicate">
+      <optional>
+         <attribute name="predicate">
+            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">the condition under which the element bearing this attribute applies, given as an XPath predicate expression.</a:documentation>
+            <text/>
+         </attribute>
+      </optional>
+   </define>
+   <define name="tei_att.repeatable.attributes">
+      <ref name="tei_att.repeatable.attribute.minOccurs"/>
+      <ref name="tei_att.repeatable.attribute.maxOccurs"/>
+   </define>
+   <define name="tei_att.repeatable.attribute.minOccurs">
+      <optional>
+         <attribute xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"
+                    name="minOccurs"
+                    a:defaultValue="1">
+            <a:documentation>(minimum number of occurences) indicates the smallest number of times this component may occur.</a:documentation>
+            <data type="nonNegativeInteger"/>
+         </attribute>
+      </optional>
+   </define>
+   <define name="tei_att.repeatable.attribute.maxOccurs">
+      <optional>
+         <attribute xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"
+                    name="maxOccurs"
+                    a:defaultValue="1">
+            <a:documentation>(maximum number of occurences) indicates the largest number of times this component may occur.</a:documentation>
+            <choice>
+               <data type="nonNegativeInteger"/>
+               <choice>
+                  <value>unbounded</value>
+                  <a:documentation/>
+               </choice>
+            </choice>
+         </attribute>
+      </optional>
+   </define>
+   <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
+            id="FV_ODD-att.repeatable-MINandMAXoccurs-constraint-rule-18">
+      <sch:rule xmlns="http://www.tei-c.org/ns/1.0"
+                xmlns:rng="http://relaxng.org/ns/structure/1.0"
+                xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+                xmlns:xi="http://www.w3.org/2001/XInclude"
+                context="*[ @minOccurs  and  @maxOccurs ]">
+         <sch:let name="min" value="@minOccurs cast as xs:integer"/>
+         <sch:let name="max"
+                  value="if ( normalize-space( @maxOccurs ) eq 'unbounded')                         then -1                         else @maxOccurs cast as xs:integer"/>
+         <sch:assert test="$max eq -1  or  $max ge $min">@maxOccurs should be greater than or equal to @minOccurs</sch:assert>
+      </sch:rule>
+      <sch:rule xmlns="http://www.tei-c.org/ns/1.0"
+                xmlns:rng="http://relaxng.org/ns/structure/1.0"
+                xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+                xmlns:xi="http://www.w3.org/2001/XInclude"
+                context="*[ @minOccurs  and  not( @maxOccurs ) ]">
+         <sch:assert test="@minOccurs cast as xs:integer lt 2">When @maxOccurs is not specified, @minOccurs must be 0 or 1</sch:assert>
+      </sch:rule>
+   </pattern>
+   <define name="tei_model.contentPart">
+      <choice>
+         <ref name="tei_classRef"/>
+         <ref name="tei_elementRef"/>
+         <ref name="tei_macroRef"/>
+         <ref name="tei_sequence"/>
+         <ref name="tei_alternate"/>
+         <ref name="tei_dataRef"/>
+         <ref name="tei_textNode"/>
+         <ref name="tei_anyElement"/>
+         <ref name="tei_empty"/>
+      </choice>
+   </define>
+   <define name="tei_att.combinable.attributes">
+      <ref name="tei_att.deprecated.attributes"/>
+      <ref name="tei_att.combinable.attribute.mode"/>
+   </define>
+   <define name="tei_att.combinable.attribute.mode">
+      <optional>
+         <attribute xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"
+                    name="mode"
+                    a:defaultValue="add">
+            <a:documentation>specifies the effect of this declaration on its parent object.</a:documentation>
+            <choice>
+               <value>add</value>
+               <a:documentation>this declaration is part of the current definitions.</a:documentation>
+               <value>delete</value>
+               <a:documentation>the object with the same identifier (and namespace in the case of an element or attribute) as the current one is no longer part of the current definitions</a:documentation>
+               <value>change</value>
+               <a:documentation>this declaration changes the object of the same identifier (and namespace in the case of an element or attribute) in the current definition</a:documentation>
+               <value>replace</value>
+               <a:documentation>this declaration replaces the object with the same identifier (and namespace in the case of an element or attribute) in the current definition.</a:documentation>
+            </choice>
+         </attribute>
+      </optional>
+   </define>
+   <define name="tei_att.identified.attributes">
+      <ref name="tei_att.combinable.attributes"/>
+      <ref name="tei_att.identified.attribute.ident"/>
+      <ref name="tei_att.identified.attribute.predeclare"/>
+      <ref name="tei_att.identified.attribute.module"/>
+   </define>
+   <define name="tei_att.identified.attribute.ident">
+      <attribute name="ident">
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">supplies the identifier by which this element may be referenced.</a:documentation>
+         <data type="Name"/>
+      </attribute>
+   </define>
+   <define name="tei_att.identified.attribute.predeclare">
+      <optional>
+         <attribute xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"
+                    name="predeclare"
+                    a:defaultValue="false">
+            <a:documentation>says whether this object should be predeclared in the tei infrastructure module.</a:documentation>
+            <data type="boolean"/>
+         </attribute>
+      </optional>
+   </define>
+   <define name="tei_att.identified.attribute.module">
+      <optional>
+         <attribute name="module">
+            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">supplies a name for the module in which this object is to be declared.</a:documentation>
+            <data type="NCName"/>
+         </attribute>
+      </optional>
+   </define>
+   <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
+            id="FV_ODD-att.identified-spec-in-module-constraint-rule-20">
+      <rule xmlns:rng="http://relaxng.org/ns/structure/1.0"
+            xmlns:xi="http://www.w3.org/2001/XInclude"
+            context="tei:elementSpec[@module]|tei:classSpec[@module]|tei:macroSpec[@module]">
+         <assert test="         (not(ancestor::tei:schemaSpec | ancestor::tei:TEI | ancestor::tei:teiCorpus)) or         (not(@module) or          (not(//tei:moduleSpec) and not(//tei:moduleRef))  or         (//tei:moduleSpec[@ident = current()/@module]) or          (//tei:moduleRef[@key = current()/@module]))         ">
+        Specification <value-of select="@ident"/>: the value of the module attribute ("<value-of select="@module"/>") 
+should correspond to an existing module, via a moduleSpec or
+      moduleRef</assert>
+      </rule>
+   </pattern>
+   <define name="tei_att.deprecated.attributes">
+      <ref name="tei_att.deprecated.attribute.validUntil"/>
+   </define>
+   <define name="tei_att.deprecated.attribute.validUntil">
+      <optional>
+         <attribute name="validUntil">
+            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">provides a date before which the construct being defined will not be removed.</a:documentation>
+            <data type="date"/>
+         </attribute>
+      </optional>
+   </define>
+   <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
+            id="FV_ODD-att.deprecated-validUntil-deprecation-two-month-warning-constraint-rule-21">
+      <sch:rule xmlns="http://www.tei-c.org/ns/1.0"
+                xmlns:rng="http://relaxng.org/ns/structure/1.0"
+                xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+                xmlns:xi="http://www.w3.org/2001/XInclude"
+                context="tei:*[@validUntil]">
+         <sch:let name="advance_warning_period"
+                  value="current-date() + xs:dayTimeDuration('P60D')"/>
+         <sch:let name="me_phrase"
+                  value="if (@ident)                                                then concat('The ', @ident )                                                else concat('This ',                                                            local-name(.),                                                            ' of ',                                                            ancestor::tei:*[@ident][1]/@ident )"/>
+         <sch:assert test="@validUntil cast as xs:date  ge  current-date()">
+            <sch:value-of select="                  concat( $me_phrase,                          ' construct is outdated (as of ',                          @validUntil,                          '); ODD processors may ignore it, and its use is no longer supported'                        )"/>
+         </sch:assert>
+         <sch:assert role="nonfatal"
+                     test="@validUntil cast as xs:date  ge  $advance_warning_period">
+            <sch:value-of select="concat( $me_phrase, ' construct becomes outdated on ', @validUntil )"/>
+         </sch:assert>
+      </sch:rule>
+   </pattern>
+   <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
+            id="FV_ODD-att.deprecated-validUntil-deprecation-should-be-explained-constraint-rule-22">
+      <sch:rule xmlns="http://www.tei-c.org/ns/1.0"
+                xmlns:rng="http://relaxng.org/ns/structure/1.0"
+                xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+                xmlns:xi="http://www.w3.org/2001/XInclude"
+                context="tei:*[@validUntil][ not( self::valDesc | self::valList | self::defaultVal )]">
+         <sch:assert test="child::tei:desc[ @type eq 'deprecationInfo']">
+              A deprecated construct should include, whenever possible, an explanation, but this <sch:value-of select="name(.)"/> does not have a child &lt;desc type="deprecationInfo"&gt;</sch:assert>
+      </sch:rule>
+   </pattern>
+   <define name="tei_att.namespaceable.attributes">
+      <ref name="tei_att.namespaceable.attribute.ns"/>
+   </define>
+   <define name="tei_att.namespaceable.attribute.ns">
+      <optional>
+         <attribute xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"
+                    name="ns"
+                    a:defaultValue="http://www.tei-c.org/ns/1.0">
+            <a:documentation>(namespace) specifies the namespace to which this element belongs</a:documentation>
+            <data type="anyURI">
+               <param name="pattern">\S*</param>
+            </data>
+         </attribute>
+      </optional>
+   </define>
+   <define name="tei_att">
+      <element name="att">
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(attribute) contains the name of an attribute appearing within running text. [22. Documentation Elements]</a:documentation>
+         <data type="Name"/>
+         <ref name="tei_att.global.attributes"/>
+         <optional>
+            <attribute xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"
+                       name="scheme"
+                       a:defaultValue="TEI">
+               <a:documentation>(scheme) supplies an identifier for the scheme in which this name is defined.
+Sample values include: 1] TEI (Text Encoding Initiative); 2] DBK (Docbook); 3] XX (unknown); 4] imaginary (imaginary); 5] XHTML (XHTML); 6] XML (XML); 7] XI (XI)</a:documentation>
+               <data type="token">
+                  <param name="pattern">[^\p{C}\p{Z}]+</param>
+               </data>
+            </attribute>
+         </optional>
+         <empty/>
+      </element>
+   </define>
+   <define name="tei_code">
+      <element name="code">
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">contains literal code from some formal language such as a programming language. [22.1.1. Phrase Level Terms]</a:documentation>
+         <text/>
+         <ref name="tei_att.global.attributes"/>
+         <optional>
+            <attribute name="lang">
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(formal language) a name identifying the formal language in which the code is expressed</a:documentation>
+               <data type="token">
+                  <param name="pattern">[^\p{C}\p{Z}]+</param>
+               </data>
+            </attribute>
+         </optional>
+         <empty/>
+      </element>
+   </define>
+   <define name="tei_eg">
+      <element name="eg">
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(example) contains any kind of illustrative example. [22.5. Element Specifications 22.5.3. Attribute List Specification]</a:documentation>
+         <ref name="tei_macro.phraseSeq"/>
+         <ref name="tei_att.global.attributes"/>
+         <empty/>
+      </element>
+   </define>
+   <define name="tei_egXML">
+      <element name="egXML" ns="http://www.tei-c.org/ns/Examples">
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(example of XML) a single XML fragment demonstrating the use of some XML, such as elements, attributes, or processing instructions, etc., in which the <code xmlns="http://www.w3.org/1999/xhtml">&lt;egXML&gt;</code> element functions as the root element. [22.1.1. Phrase Level Terms]</a:documentation>
+         <zeroOrMore>
+            <choice>
+               <text/>
+               <ref name="anyElement-egXML"/>
+            </choice>
+         </zeroOrMore>
+         <ref name="tei_att.global.attributes"/>
+         <optional>
+            <attribute xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"
+                       name="valid"
+                       a:defaultValue="true">
+               <a:documentation>indicates the intended validity of the example with respect to a schema.</a:documentation>
+               <choice>
+                  <value>true</value>
+                  <a:documentation>the example is intended to be fully valid, assuming that its root element, or a provided root element, could have been used as a possible root element in the schema concerned.</a:documentation>
+                  <value>feasible</value>
+                  <a:documentation>the example could be transformed into a valid document by inserting any number of valid attributes and child elements anywhere within it; or it is valid against a version of the schema concerned in which the provision of character data, list, element, or attribute values has been made optional.</a:documentation>
+                  <value>false</value>
+                  <a:documentation>the example is not intended to be valid, and contains deliberate errors.</a:documentation>
+               </choice>
+            </attribute>
+         </optional>
+         <empty/>
+      </element>
+   </define>
+   <define name="tei_gi">
+      <element name="gi">
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(element name) contains the name (generic identifier) of an element. [22. Documentation Elements 22.5. Element Specifications]</a:documentation>
+         <data type="Name"/>
+         <ref name="tei_att.global.attributes"/>
+         <optional>
+            <attribute xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"
+                       name="scheme"
+                       a:defaultValue="TEI">
+               <a:documentation>supplies the name of the scheme in which this name is defined.
+Sample values include: 1] TEI; 2] DBK (docbook); 3] XX (unknown); 4] Schematron; 5] HTML</a:documentation>
+               <data type="token">
+                  <param name="pattern">[^\p{C}\p{Z}]+</param>
+               </data>
+            </attribute>
+         </optional>
+         <empty/>
+      </element>
+   </define>
+   <define name="tei_ident">
+      <element name="ident">
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(identifier) contains an identifier or name for an object of some kind in a formal language. <code xmlns="http://www.w3.org/1999/xhtml">&lt;ident&gt;</code> is used for tokens such as variable names, class names, type names, function names etc. in formal programming languages. [22.1.1. Phrase Level Terms]</a:documentation>
+         <text/>
+         <ref name="tei_att.global.attributes"/>
+         <ref name="tei_att.typed.attributes"/>
+         <empty/>
+      </element>
+   </define>
+   <define name="tei_tag">
+      <element name="tag">
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(tag) contains text of a complete start- or end-tag, possibly including attribute specifications, but excluding the opening and closing markup delimiter characters. [22. Documentation Elements]</a:documentation>
+         <text/>
+         <ref name="tei_att.global.attributes"/>
+         <ref name="tei_att.typed.attribute.subtype"/>
+         <optional>
+            <attribute name="type">
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">indicates the type of XML tag intended</a:documentation>
+               <choice>
+                  <value>start</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">a start-tag, with delimiters &lt; and &gt; is intended</a:documentation>
+                  <value>end</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">an end-tag, with delimiters &lt;/ and &gt; is intended</a:documentation>
+                  <value>empty</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">an empty tag, with delimiters &lt; and /&gt; is intended</a:documentation>
+                  <value>pi</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">a pi (processing instruction), with delimiters &lt;? and ?&gt; is intended</a:documentation>
+                  <value>comment</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">a comment, with delimiters &lt;!-- and --&gt; is intended</a:documentation>
+                  <value>ms</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">a marked-section, with delimiters &lt;[CDATA[ and ]]&gt; is intended</a:documentation>
+               </choice>
+            </attribute>
+         </optional>
+         <optional>
+            <attribute xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"
+                       name="scheme"
+                       a:defaultValue="TEI">
+               <a:documentation>supplies the name of the schema in which this tag is defined.
+Sample values include: 1] TEI (text encoding initiative); 2] DBK (docbook); 3] XX (unknown); 4] Schematron; 5] HTML</a:documentation>
+               <data type="token">
+                  <param name="pattern">[^\p{C}\p{Z}]+</param>
+               </data>
+            </attribute>
+         </optional>
+         <empty/>
+      </element>
+   </define>
+   <define name="tei_val">
+      <element name="val">
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(value) contains a single attribute value. [22. Documentation Elements 22.5.3. Attribute List Specification]</a:documentation>
+         <text/>
+         <ref name="tei_att.global.attributes"/>
+         <empty/>
+      </element>
+   </define>
+   <define name="tei_specList">
+      <element name="specList">
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(specification list) marks where a list of descriptions is to be inserted into the prose documentation. [22.1.2. Element and Attribute Descriptions]</a:documentation>
+         <oneOrMore>
+            <ref name="tei_specDesc"/>
+         </oneOrMore>
+         <ref name="tei_att.global.attributes"/>
+         <empty/>
+      </element>
+   </define>
+   <define name="tei_specDesc">
+      <element name="specDesc">
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(specification description) indicates that a description of the specified element, class, or macro should be included at this point within a document. [22.1.2. Element and Attribute Descriptions]</a:documentation>
+         <empty/>
+         <ref name="tei_att.global.attributes"/>
+         <attribute name="key">
+            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(identifier) supplies the identifier of the documentary element or class for which a description is to be obtained.</a:documentation>
+            <data type="Name"/>
+         </attribute>
+         <optional>
+            <attribute name="atts">
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(attributes) supplies attribute names for which descriptions should additionally be obtained.</a:documentation>
+               <list>
+                  <zeroOrMore>
+                     <data type="Name"/>
+                  </zeroOrMore>
+               </list>
+            </attribute>
+         </optional>
+         <empty/>
+      </element>
+   </define>
+   <define name="tei_classRef">
+      <element name="classRef">
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">points to the specification for an attribute or model class which is to be included in a schema [22.6. Class Specifications]</a:documentation>
+         <empty/>
+         <ref name="tei_att.global.attributes"/>
+         <ref name="tei_att.repeatable.attributes"/>
+         <attribute name="key">
+            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">the identifier used for the required class within the source indicated.</a:documentation>
+            <data type="NCName"/>
+         </attribute>
+         <optional>
+            <attribute name="expand">
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">indicates how references to this class within a content model should be interpreted.</a:documentation>
+               <choice>
+                  <value>alternation</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">any one member of the class may appear</a:documentation>
+                  <value>sequence</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">a single occurrence of all members of the class may appear in sequence</a:documentation>
+                  <value>sequenceOptional</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">a single occurrence of one or more members of the class may appear in sequence </a:documentation>
+                  <value>sequenceOptionalRepeatable</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">one or more occurrences of one or more members of the class may appear in sequence. </a:documentation>
+                  <value>sequenceRepeatable</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">one or more occurrences of all members of the class may appear in sequence</a:documentation>
+               </choice>
+            </attribute>
+         </optional>
+         <choice>
+            <optional>
+               <attribute name="include">
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">supplies a list of class members which are to be included in the schema being defined.</a:documentation>
+                  <list>
+                     <zeroOrMore>
+                        <data type="NCName"/>
+                     </zeroOrMore>
+                  </list>
+               </attribute>
+            </optional>
+            <optional>
+               <attribute name="except">
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">supplies a list of class members which are to be excluded from the schema being defined.</a:documentation>
+                  <list>
+                     <zeroOrMore>
+                        <data type="NCName"/>
+                     </zeroOrMore>
+                  </list>
+               </attribute>
+            </optional>
+         </choice>
+         <empty/>
+      </element>
+   </define>
+   <define name="tei_elementRef">
+      <element name="elementRef">
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">points to the specification for some element which is to be included in a schema [22.2. Modules and Schemas]</a:documentation>
+         <empty/>
+         <ref name="tei_att.global.attributes"/>
+         <ref name="tei_att.repeatable.attributes"/>
+         <attribute name="key">
+            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">the identifier used for the required element within the source indicated.</a:documentation>
+            <data type="NCName"/>
+         </attribute>
+         <empty/>
+      </element>
+   </define>
+   <define name="tei_macroRef">
+      <element name="macroRef">
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">points to the specification for some pattern which is to be included in a schema [22.7. Macro Specifications]</a:documentation>
+         <empty/>
+         <ref name="tei_att.global.attributes"/>
+         <attribute name="key">
+            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">the identifier used for the required pattern within the source indicated.</a:documentation>
+            <data type="NCName"/>
+         </attribute>
+         <empty/>
+      </element>
+   </define>
+   <define name="tei_moduleRef">
+      <element name="moduleRef">
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(module reference) references a module which is to be incorporated into a schema. [22.2. Modules and Schemas]</a:documentation>
+         <optional>
+            <ref name="tei_content"/>
+         </optional>
+         <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
+                  id="FV_ODD-moduleRef-modref-constraint-rule-23">
+            <rule xmlns:rng="http://relaxng.org/ns/structure/1.0"
+                  xmlns:xi="http://www.w3.org/2001/XInclude"
+                  context="tei:moduleRef">
+               <report test="* and @key">
+Child elements of <name/> are only allowed when an external module is being loaded
+        </report>
+            </rule>
+         </pattern>
+         <ref name="tei_att.global.attributes"/>
+         <optional>
+            <attribute name="prefix">
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">specifies a default prefix which will be prepended to all patterns from the imported module</a:documentation>
+               <data type="NCName"/>
+            </attribute>
+         </optional>
+         <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
+                  id="FV_ODD-moduleRef-prefix-not-same-prefix-constraint-rule-24">
+            <rule xmlns:rng="http://relaxng.org/ns/structure/1.0"
+                  xmlns:xi="http://www.w3.org/2001/XInclude"
+                  context="tei:moduleRef">
+               <report test="//*[ not( generate-id(.) eq generate-id(      current() ) ) ]/@prefix = @prefix">The prefix attribute
+	    of <name/> should not match that of any other
+	    element (it would defeat the purpose)</report>
+            </rule>
+         </pattern>
+         <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
+                  id="FV_ODD-moduleRef-prefix-not-except-and-include-constraint-rule-25">
+            <rule xmlns:rng="http://relaxng.org/ns/structure/1.0"
+                  xmlns:xi="http://www.w3.org/2001/XInclude"
+                  context="tei:moduleRef">
+               <report test="@except and @include">It is an error to supply both the @include and @except attributes</report>
+            </rule>
+         </pattern>
+         <choice>
+            <optional>
+               <attribute name="include">
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">supplies a list of the elements which are to be copied from the specified module into the schema being defined.</a:documentation>
+                  <list>
+                     <zeroOrMore>
+                        <data type="NCName"/>
+                     </zeroOrMore>
+                  </list>
+               </attribute>
+            </optional>
+            <optional>
+               <attribute name="except">
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">supplies a list of the elements which are not to be copied from the specified module into the schema being defined.</a:documentation>
+                  <list>
+                     <zeroOrMore>
+                        <data type="NCName"/>
+                     </zeroOrMore>
+                  </list>
+               </attribute>
+            </optional>
+         </choice>
+         <choice>
+            <optional>
+               <attribute name="key">
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">the name of a TEI module</a:documentation>
+                  <data type="NCName"/>
+               </attribute>
+            </optional>
+            <optional>
+               <attribute name="url">
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(uniform resource locator) refers to a non-TEI module of RELAX NG code by external location</a:documentation>
+                  <data type="anyURI">
+                     <param name="pattern">\S+</param>
+                  </data>
+               </attribute>
+            </optional>
+         </choice>
+         <empty/>
+      </element>
+   </define>
+   <define name="tei_moduleSpec">
+      <element name="moduleSpec">
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(module specification) documents the structure, content, and purpose of a single module, i.e. a named and externally visible group of declarations. [22.2. Modules and Schemas]</a:documentation>
+         <group>
+            <zeroOrMore>
+               <choice>
+                  <ref name="tei_model.glossLike"/>
+                  <ref name="tei_idno"/>
+                  <ref name="tei_model.descLike"/>
+               </choice>
+            </zeroOrMore>
+            <zeroOrMore>
+               <ref name="tei_exemplum"/>
+            </zeroOrMore>
+            <optional>
+               <ref name="tei_remarks"/>
+            </optional>
+            <zeroOrMore>
+               <ref name="tei_listRef"/>
+            </zeroOrMore>
+         </group>
+         <ref name="tei_att.global.attributes"/>
+         <ref name="tei_att.identified.attributes"/>
+         <ref name="tei_att.typed.attributes"/>
+         <empty/>
+      </element>
+   </define>
+   <define name="tei_schemaSpec">
+      <element name="schemaSpec">
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(schema specification) generates a TEI-conformant schema and documentation for it. [2.3. The Encoding Description 22.2. Modules and Schemas 23.5.1. Making a Unified ODD]</a:documentation>
+         <group>
+            <zeroOrMore>
+               <choice>
+                  <ref name="tei_model.glossLike"/>
+                  <ref name="tei_model.descLike"/>
+               </choice>
+            </zeroOrMore>
+            <zeroOrMore>
+               <choice>
+                  <ref name="tei_model.oddRef"/>
+                  <ref name="tei_model.oddDecl"/>
+                  <ref name="tei_listRef"/>
+               </choice>
+            </zeroOrMore>
+         </group>
+         <ref name="tei_att.global.attributes"/>
+         <ref name="tei_att.identified.attributes"/>
+         <ref name="tei_att.namespaceable.attributes"/>
+         <ref name="tei_att.docStatus.attributes"/>
+         <optional>
+            <attribute xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"
+                       name="start"
+                       a:defaultValue="TEI">
+               <a:documentation>specifies entry points to the schema, i.e. which patterns may be used as the root of documents conforming to it.</a:documentation>
+               <list>
+                  <oneOrMore>
+                     <data type="Name"/>
+                  </oneOrMore>
+               </list>
+            </attribute>
+         </optional>
+         <optional>
+            <attribute name="prefix">
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">specifies a default prefix which will be prepended to all patterns relating to TEI elements, unless otherwise stated.</a:documentation>
+               <data type="NCName"/>
+            </attribute>
+         </optional>
+         <optional>
+            <attribute name="targetLang">
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(target language) specifies which language to use when creating the objects in a schema if names for elements or attributes are available in more than one language</a:documentation>
+               <choice>
+                  <data type="language"/>
+                  <choice>
+                     <value/>
+                     <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+                  </choice>
+               </choice>
+            </attribute>
+         </optional>
+         <optional>
+            <attribute name="docLang">
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(documentation language) specifies which languages to use when creating documentation if the description for an element, attribute, class or macro is available in more than one language</a:documentation>
+               <list>
+                  <oneOrMore>
+                     <choice>
+                        <data type="language"/>
+                        <choice>
+                           <value/>
+                           <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+                        </choice>
+                     </choice>
+                  </oneOrMore>
+               </list>
+            </attribute>
+         </optional>
+         <optional>
+            <attribute xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"
+                       name="defaultExceptions"
+                       a:defaultValue="http://www.tei-c.org/ns/1.0 teix:egXML">
+               <a:documentation>(default namespace
+      exclusions) provides a list of namespaces and/or prefixed element names to be excluded by default from anyName in RELAX NG schemas</a:documentation>
+               <list>
+                  <oneOrMore>
+                     <choice>
+                        <data type="anyURI">
+                           <param name="pattern">[^/\s]+:\S*</param>
+                        </data>
+                        <data type="Name">
+                           <param name="pattern">.+:.+</param>
+                        </data>
+                     </choice>
+                  </oneOrMore>
+               </list>
+            </attribute>
+         </optional>
+         <empty/>
+      </element>
+   </define>
+   <define name="tei_specGrp">
+      <element name="specGrp">
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(specification group) contains any convenient grouping of specifications for use within the current module. [22.2. Modules and Schemas]</a:documentation>
+         <zeroOrMore>
+            <choice>
+               <ref name="tei_model.oddDecl"/>
+               <ref name="tei_model.oddRef"/>
+               <ref name="tei_model.divPart"/>
+               <ref name="tei_listRef"/>
+            </choice>
+         </zeroOrMore>
+         <ref name="tei_att.global.attributes"/>
+         <empty/>
+      </element>
+   </define>
+   <define name="tei_specGrpRef">
+      <element name="specGrpRef">
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(reference to a specification group) indicates that the declarations contained by the <code xmlns="http://www.w3.org/1999/xhtml">&lt;specGrp&gt;</code> referenced should be inserted at this point. [22.2. Modules and Schemas]</a:documentation>
+         <empty/>
+         <ref name="tei_att.global.attributes"/>
+         <attribute name="target">
+            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">points at the specification group which logically belongs here.</a:documentation>
+            <data type="anyURI">
+               <param name="pattern">\S+</param>
+            </data>
+         </attribute>
+         <empty/>
+      </element>
+   </define>
+   <define name="tei_elementSpec">
+      <element name="elementSpec">
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(element specification) documents the structure, content, and purpose of a single element type. [22.5. Element Specifications 22. Documentation Elements]</a:documentation>
+         <group>
+            <zeroOrMore>
+               <choice>
+                  <ref name="tei_model.glossLike"/>
+                  <ref name="tei_model.descLike"/>
+               </choice>
+            </zeroOrMore>
+            <optional>
+               <ref name="tei_classes"/>
+            </optional>
+            <optional>
+               <ref name="tei_content"/>
+            </optional>
+            <optional>
+               <ref name="tei_valList"/>
+            </optional>
+            <zeroOrMore>
+               <ref name="tei_constraintSpec"/>
+            </zeroOrMore>
+            <optional>
+               <ref name="tei_attList"/>
+            </optional>
+            <zeroOrMore>
+               <choice>
+                  <ref name="tei_model"/>
+                  <ref name="tei_modelGrp"/>
+                  <ref name="tei_modelSequence"/>
+               </choice>
+            </zeroOrMore>
+            <zeroOrMore>
+               <ref name="tei_exemplum"/>
+            </zeroOrMore>
+            <zeroOrMore>
+               <ref name="tei_remarks"/>
+            </zeroOrMore>
+            <zeroOrMore>
+               <ref name="tei_listRef"/>
+            </zeroOrMore>
+         </group>
+         <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
+                  id="FV_ODD-elementSpec-child-constraint-based-on-mode-constraint-rule-26">
+            <sch:rule xmlns="http://www.tei-c.org/ns/1.0"
+                      xmlns:rng="http://relaxng.org/ns/structure/1.0"
+                      xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+                      xmlns:xi="http://www.w3.org/2001/XInclude"
+                      context="tei:elementSpec[ @mode eq 'delete' ]">
+               <sch:report test="child::*">This elementSpec element has a mode= of "delete" even though it has child elements. Change the mode= to "add", "change", or "replace", or remove the child elements.</sch:report>
+            </sch:rule>
+            <sch:rule xmlns="http://www.tei-c.org/ns/1.0"
+                      xmlns:rng="http://relaxng.org/ns/structure/1.0"
+                      xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+                      xmlns:xi="http://www.w3.org/2001/XInclude"
+                      context="tei:elementSpec[ @mode = ('add','change','replace') ]">
+               <sch:assert test="child::* | (@* except (@mode, @ident))">This elementSpec element has a mode= of "<sch:value-of select="@mode"/>", but does not have any child elements or schema-changing attributes. Specify child elements, use validUntil=, predeclare=, ns=, or prefix=, or change the mode= to "delete".</sch:assert>
+            </sch:rule>
+         </pattern>
+         <ref name="tei_att.global.attributes"/>
+         <ref name="tei_att.identified.attributes"/>
+         <ref name="tei_att.namespaceable.attributes"/>
+         <optional>
+            <attribute name="prefix">
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">specifies a default prefix which will be prepended to all patterns relating to the element, unless otherwise stated.</a:documentation>
+               <data type="NCName"/>
+            </attribute>
+         </optional>
+         <empty/>
+      </element>
+   </define>
+   <define name="tei_classSpec">
+      <element name="classSpec">
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(class specification) contains reference information for a TEI element class; that is a group of elements which appear together in content models, or which share some common attribute, or both. [22.3. Specification Elements 22.6. Class Specifications]</a:documentation>
+         <group>
+            <zeroOrMore>
+               <choice>
+                  <ref name="tei_model.glossLike"/>
+                  <ref name="tei_model.descLike"/>
+               </choice>
+            </zeroOrMore>
+            <optional>
+               <ref name="tei_classes"/>
+            </optional>
+            <zeroOrMore>
+               <ref name="tei_constraintSpec"/>
+            </zeroOrMore>
+            <optional>
+               <ref name="tei_attList"/>
+            </optional>
+            <zeroOrMore>
+               <ref name="tei_exemplum"/>
+            </zeroOrMore>
+            <zeroOrMore>
+               <ref name="tei_remarks"/>
+            </zeroOrMore>
+            <zeroOrMore>
+               <ref name="tei_listRef"/>
+            </zeroOrMore>
+         </group>
+         <ref name="tei_att.global.attributes"/>
+         <ref name="tei_att.identified.attributes"/>
+         <ref name="tei_att.typed.attribute.subtype"/>
+         <attribute name="type">
+            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">indicates whether this is a model class or an attribute class</a:documentation>
+            <choice>
+               <value>model</value>
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(content model) members of this class appear in the same content models</a:documentation>
+               <value>atts</value>
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(attributes) members of this class share common attributes</a:documentation>
+            </choice>
+         </attribute>
+         <optional>
+            <attribute name="generate">
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">indicates which alternation and sequence instantiations of a model class may be referenced. By default, all variations are permitted.</a:documentation>
+               <list>
+                  <choice>
+                     <value>alternation</value>
+                     <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">members of the class are alternatives</a:documentation>
+                     <value>sequence</value>
+                     <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">members of the class are to be provided in sequence</a:documentation>
+                     <value>sequenceOptional</value>
+                     <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">members of the class may be provided, in sequence, but are optional</a:documentation>
+                     <value>sequenceOptionalRepeatable</value>
+                     <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">members of the class may be provided one or more times, in sequence, but are optional.</a:documentation>
+                     <value>sequenceRepeatable</value>
+                     <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">members of the class may be provided one or more times, in sequence</a:documentation>
+                  </choice>
+                  <optional>
+                     <choice>
+                        <value>alternation</value>
+                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">members of the class are alternatives</a:documentation>
+                        <value>sequence</value>
+                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">members of the class are to be provided in sequence</a:documentation>
+                        <value>sequenceOptional</value>
+                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">members of the class may be provided, in sequence, but are optional</a:documentation>
+                        <value>sequenceOptionalRepeatable</value>
+                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">members of the class may be provided one or more times, in sequence, but are optional.</a:documentation>
+                        <value>sequenceRepeatable</value>
+                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">members of the class may be provided one or more times, in sequence</a:documentation>
+                     </choice>
+                  </optional>
+                  <optional>
+                     <choice>
+                        <value>alternation</value>
+                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">members of the class are alternatives</a:documentation>
+                        <value>sequence</value>
+                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">members of the class are to be provided in sequence</a:documentation>
+                        <value>sequenceOptional</value>
+                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">members of the class may be provided, in sequence, but are optional</a:documentation>
+                        <value>sequenceOptionalRepeatable</value>
+                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">members of the class may be provided one or more times, in sequence, but are optional.</a:documentation>
+                        <value>sequenceRepeatable</value>
+                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">members of the class may be provided one or more times, in sequence</a:documentation>
+                     </choice>
+                  </optional>
+                  <optional>
+                     <choice>
+                        <value>alternation</value>
+                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">members of the class are alternatives</a:documentation>
+                        <value>sequence</value>
+                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">members of the class are to be provided in sequence</a:documentation>
+                        <value>sequenceOptional</value>
+                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">members of the class may be provided, in sequence, but are optional</a:documentation>
+                        <value>sequenceOptionalRepeatable</value>
+                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">members of the class may be provided one or more times, in sequence, but are optional.</a:documentation>
+                        <value>sequenceRepeatable</value>
+                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">members of the class may be provided one or more times, in sequence</a:documentation>
+                     </choice>
+                  </optional>
+                  <optional>
+                     <choice>
+                        <value>alternation</value>
+                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">members of the class are alternatives</a:documentation>
+                        <value>sequence</value>
+                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">members of the class are to be provided in sequence</a:documentation>
+                        <value>sequenceOptional</value>
+                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">members of the class may be provided, in sequence, but are optional</a:documentation>
+                        <value>sequenceOptionalRepeatable</value>
+                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">members of the class may be provided one or more times, in sequence, but are optional.</a:documentation>
+                        <value>sequenceRepeatable</value>
+                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">members of the class may be provided one or more times, in sequence</a:documentation>
+                     </choice>
+                  </optional>
+               </list>
+            </attribute>
+         </optional>
+         <empty/>
+      </element>
+   </define>
+   <define name="tei_dataSpec">
+      <element name="dataSpec">
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(datatype specification) documents a datatype. [22.3. Specification Elements 22.7. Macro Specifications]</a:documentation>
+         <group>
+            <zeroOrMore>
+               <choice>
+                  <ref name="tei_model.glossLike"/>
+                  <ref name="tei_model.descLike"/>
+               </choice>
+            </zeroOrMore>
+            <optional>
+               <choice>
+                  <ref name="tei_content"/>
+                  <ref name="tei_valList"/>
+               </choice>
+            </optional>
+            <zeroOrMore>
+               <ref name="tei_constraintSpec"/>
+            </zeroOrMore>
+            <zeroOrMore>
+               <ref name="tei_exemplum"/>
+            </zeroOrMore>
+            <zeroOrMore>
+               <ref name="tei_remarks"/>
+            </zeroOrMore>
+            <zeroOrMore>
+               <ref name="tei_listRef"/>
+            </zeroOrMore>
+         </group>
+         <ref name="tei_att.global.attributes"/>
+         <ref name="tei_att.identified.attributes"/>
+         <empty/>
+      </element>
+   </define>
+   <define name="tei_macroSpec">
+      <element name="macroSpec">
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(macro specification) documents the function and implementation of a pattern. [22.3. Specification Elements 22.7. Macro Specifications]</a:documentation>
+         <group>
+            <zeroOrMore>
+               <choice>
+                  <ref name="tei_model.glossLike"/>
+                  <ref name="tei_model.descLike"/>
+               </choice>
+            </zeroOrMore>
+            <optional>
+               <choice>
+                  <ref name="tei_content"/>
+                  <ref name="tei_valList"/>
+               </choice>
+            </optional>
+            <zeroOrMore>
+               <ref name="tei_constraintSpec"/>
+            </zeroOrMore>
+            <zeroOrMore>
+               <ref name="tei_exemplum"/>
+            </zeroOrMore>
+            <zeroOrMore>
+               <ref name="tei_remarks"/>
+            </zeroOrMore>
+            <zeroOrMore>
+               <ref name="tei_listRef"/>
+            </zeroOrMore>
+         </group>
+         <ref name="tei_att.global.attributes"/>
+         <ref name="tei_att.identified.attributes"/>
+         <empty/>
+      </element>
+   </define>
+   <define name="tei_remarks">
+      <element name="remarks">
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(remarks) contains any commentary or discussion about the usage of an element, attribute, class, or entity not otherwise documented within the containing element. [22.5. Element Specifications 22.5.3. Attribute List Specification 22.6. Class Specifications 22.7. Macro Specifications]</a:documentation>
+         <oneOrMore>
+            <ref name="tei_model.pLike"/>
+         </oneOrMore>
+         <ref name="tei_att.global.attributes"/>
+         <ref name="tei_att.combinable.attributes"/>
+         <ref name="tei_att.translatable.attributes"/>
+         <optional>
+            <attribute name="ident">
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">specifies the remark concerned.</a:documentation>
+               <data type="string"/>
+            </attribute>
+         </optional>
+         <empty/>
+      </element>
+   </define>
+   <define name="tei_listRef">
+      <element name="listRef">
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(list of references) supplies a list of significant references in the current document or elsewhere.</a:documentation>
+         <group>
+            <zeroOrMore>
+               <ref name="tei_desc"/>
+            </zeroOrMore>
+            <oneOrMore>
+               <ref name="tei_model.ptrLike"/>
+            </oneOrMore>
+         </group>
+         <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
+                  id="FV_ODD-listRef-TagDocsNestinglistRef-constraint-rule-28">
+            <sch:rule xmlns="http://www.tei-c.org/ns/1.0"
+                      xmlns:rng="http://relaxng.org/ns/structure/1.0"
+                      xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+                      xmlns:xi="http://www.w3.org/2001/XInclude"
+                      context="( tei:classSpec | tei:dataSpec | tei:elementSpec | tei:macroSpec | tei:moduleSpec | tei:schemaSpec | tei:specGrp )/tei:listRef">
+               <sch:report test="tei:listRef">In the context of tagset documentation, the listRef element must not self-nest.</sch:report>
+            </sch:rule>
+         </pattern>
+         <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
+                  id="FV_ODD-listRef-TagDocslistRefChildren-constraint-rule-29">
+            <sch:rule xmlns="http://www.tei-c.org/ns/1.0"
+                      xmlns:rng="http://relaxng.org/ns/structure/1.0"
+                      xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+                      xmlns:xi="http://www.w3.org/2001/XInclude"
+                      context="( tei:classSpec | tei:dataSpec | tei:elementSpec | tei:macroSpec | tei:moduleSpec | tei:schemaSpec | tei:specGrp )/tei:listRef/tei:ptr                        | ( tei:classSpec | tei:dataSpec | tei:elementSpec | tei:macroSpec | tei:moduleSpec | tei:schemaSpec | tei:specGrp )/tei:listRef/tei:ref">
+               <sch:assert test="@target and not( matches( @target,'\s') )">In the context of tagset documentation, each ptr or ref element inside a listRef must have a target attribute with only 1 pointer as its value.</sch:assert>
+            </sch:rule>
+         </pattern>
+         <ref name="tei_att.global.attributes"/>
+         <ref name="tei_att.typed.attributes"/>
+         <empty/>
+      </element>
+   </define>
+   <define name="tei_exemplum">
+      <element name="exemplum">
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(exemplum) groups an example demonstrating the use of an element along with optional paragraphs of commentary. [22.5. Element Specifications]</a:documentation>
+         <group>
+            <zeroOrMore>
+               <ref name="tei_model.pLike"/>
+            </zeroOrMore>
+            <choice>
+               <ref name="tei_egXML"/>
+               <ref name="tei_eg"/>
+            </choice>
+            <zeroOrMore>
+               <ref name="tei_model.pLike"/>
+            </zeroOrMore>
+         </group>
+         <ref name="tei_att.global.attributes"/>
+         <ref name="tei_att.typed.attributes"/>
+         <ref name="tei_att.translatable.attributes"/>
+         <empty/>
+      </element>
+   </define>
+   <define name="tei_classes">
+      <element name="classes">
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(classes) specifies all the classes of which the documented element or class is a member or subclass. [22.5. Element Specifications 22.6. Class Specifications]</a:documentation>
+         <zeroOrMore>
+            <ref name="tei_memberOf"/>
+         </zeroOrMore>
+         <ref name="tei_att.global.attributes"/>
+         <optional>
+            <attribute xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"
+                       name="mode"
+                       a:defaultValue="replace">
+               <a:documentation>specifies the effect of this declaration on its parent module.</a:documentation>
+               <choice>
+                  <value>change</value>
+                  <a:documentation>this declaration changes the declaration of the same name in the current definition</a:documentation>
+                  <value>replace</value>
+                  <a:documentation>this declaration replaces the declaration of the same name in the current definition</a:documentation>
+               </choice>
+            </attribute>
+         </optional>
+         <empty/>
+      </element>
+   </define>
+   <define name="tei_memberOf">
+      <element name="memberOf">
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">specifies class membership of the documented element or class. [22.4.3. Classification of Components]</a:documentation>
+         <ref name="tei_macro.xtext"/>
+         <ref name="tei_att.global.attributes"/>
+         <optional>
+            <attribute name="key">
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">specifies the identifier for a class of which the documented element or class is a member or subclass</a:documentation>
+               <data type="Name"/>
+            </attribute>
+         </optional>
+         <optional>
+            <attribute xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"
+                       name="mode"
+                       a:defaultValue="add">
+               <a:documentation>specifies the effect of this declaration on its parent module.</a:documentation>
+               <choice>
+                  <value>add</value>
+                  <a:documentation>this declaration is added to the current definitions</a:documentation>
+                  <value>delete</value>
+                  <a:documentation>this declaration and all of its children are removed from the current setup</a:documentation>
+               </choice>
+            </attribute>
+         </optional>
+         <optional>
+            <attribute name="max">
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">supplies the maximum number of times the element can occur in elements which use this model class in their content model</a:documentation>
+               <choice>
+                  <data type="double"/>
+                  <data type="token">
+                     <param name="pattern">(\-?[\d]+/\-?[\d]+)</param>
+                  </data>
+                  <data type="decimal"/>
+               </choice>
+            </attribute>
+         </optional>
+         <optional>
+            <attribute name="min">
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">supplies the minumum number of times the element must occur in elements which use this model class in their content model</a:documentation>
+               <choice>
+                  <data type="double"/>
+                  <data type="token">
+                     <param name="pattern">(\-?[\d]+/\-?[\d]+)</param>
+                  </data>
+                  <data type="decimal"/>
+               </choice>
+            </attribute>
+         </optional>
+         <empty/>
+      </element>
+   </define>
+   <define name="tei_equiv">
+      <element name="equiv">
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(equivalent) specifies a component which is considered equivalent to the parent element, either by co-reference, or by external link. [3.4.1. Terms and Glosses 22.4.1. Description of Components]</a:documentation>
+         <empty/>
+         <ref name="tei_att.global.attributes"/>
+         <ref name="tei_att.internetMedia.attributes"/>
+         <ref name="tei_att.predicate.attributes"/>
+         <optional>
+            <attribute name="name">
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">a single word which follows the rules defining a legal XML name (see ), naming the underlying concept of which the parent is a representation.</a:documentation>
+               <data type="Name"/>
+            </attribute>
+         </optional>
+         <optional>
+            <attribute name="uri">
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(uniform resource identifier) references the underlying concept of which the parent is a representation by means of some external identifier</a:documentation>
+               <data type="anyURI">
+                  <param name="pattern">\S+</param>
+               </data>
+            </attribute>
+         </optional>
+         <optional>
+            <attribute name="filter">
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">references an external script which contains a method to transform instances of this element to canonical TEI</a:documentation>
+               <data type="anyURI">
+                  <param name="pattern">\S+</param>
+               </data>
+            </attribute>
+         </optional>
+         <empty/>
+      </element>
+   </define>
+   <define name="tei_altIdent">
+      <element name="altIdent">
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(alternate identifier) supplies the recommended XML name for an element, class, attribute, etc. in some language. [3.4.1. Terms and Glosses 22.4.1. Description of Components]</a:documentation>
+         <text/>
+         <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
+                  id="FV_ODD-altIdent-deprecate_altIdent_in_non-ODD_places-constraint-report-36">
+            <rule context="tei:altIdent">
+               <sch:report xmlns="http://www.tei-c.org/ns/1.0"
+                           xmlns:rng="http://relaxng.org/ns/structure/1.0"
+                           xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+                           xmlns:xi="http://www.w3.org/2001/XInclude"
+                           test="  parent::tei:model                         | parent::tei:modelGrp                         | parent::tei:modelSequence                         | parent::tei:paramSpec                         | parent::tei:schemaSpec"
+                           role="nonfatal">
+        Use of &lt;altIdent&gt; as a child of &lt;<sch:value-of select="name(..)"/>&gt; is
+        deprecated, and will no longer be valid after 2022-07-14.
+      </sch:report>
+               <sch:report xmlns="http://www.tei-c.org/ns/1.0"
+                           xmlns:rng="http://relaxng.org/ns/structure/1.0"
+                           xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+                           xmlns:xi="http://www.w3.org/2001/XInclude"
+                           test="parent::tei:moduleSpec"
+                           role="nonfatal">
+        Use of &lt;altIdent&gt; to declare the FPI of a module is
+        deprecated, and will no longer be valid after 2022-07-14;
+        please use &lt;idno type="FPI"&gt; instead.
+      </sch:report>
+            </rule>
+         </pattern>
+         <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
+                  id="FV_ODD-altIdent-altIdent_usually_an_NCName-constraint-rule-30">
+            <sch:rule xmlns="http://www.tei-c.org/ns/1.0"
+                      xmlns:rng="http://relaxng.org/ns/structure/1.0"
+                      xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+                      xmlns:xi="http://www.w3.org/2001/XInclude"
+                      context="tei:altIdent[ not( parent::tei:moduleSpec or @type eq 'FPI' ) ]">
+               <sch:assert test=". castable as xs:NCName">
+          The content of this 'altIdent' element (<sch:value-of select="normalize-space(.)"/>)
+          should conform to teidata.xmlName.
+        </sch:assert>
+            </sch:rule>
+         </pattern>
+         <ref name="tei_att.global.attributes"/>
+         <ref name="tei_att.typed.attributes"/>
+         <empty/>
+      </element>
+   </define>
+   <define name="tei_model">
+      <element name="model">
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">describes the processing intended for a specified element. [22.5.4.1. The TEI processing model]</a:documentation>
+         <group>
+            <zeroOrMore>
+               <choice>
+                  <ref name="tei_model.glossLike"/>
+                  <ref name="tei_model.descLike"/>
+               </choice>
+            </zeroOrMore>
+            <zeroOrMore>
+               <ref name="tei_param"/>
+            </zeroOrMore>
+            <zeroOrMore>
+               <ref name="tei_outputRendition"/>
+            </zeroOrMore>
+         </group>
+         <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
+                  id="FV_ODD-model-no_dup_default_models-constraint-rule-31">
+            <sch:rule xmlns="http://www.tei-c.org/ns/1.0"
+                      xmlns:rng="http://relaxng.org/ns/structure/1.0"
+                      xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+                      xmlns:xi="http://www.w3.org/2001/XInclude"
+                      context="tei:model[ not( parent::tei:modelSequence ) ][ not( @predicate ) ]">
+               <sch:let name="output" value="normalize-space( @output )"/>
+               <sch:report test="following-sibling::tei:model                             [ not( @predicate )]                             [ normalize-space( @output ) eq $output ]">
+          There are 2 (or more) 'model' elements in this '<sch:value-of select="local-name(..)"/>'
+          that have no predicate, but are targeted to the same output
+          ("<sch:value-of select="( $output, parent::modelGrp/@output, 'all')[1]"/>")</sch:report>
+            </sch:rule>
+         </pattern>
+         <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
+                  id="FV_ODD-model-no_dup_models-constraint-rule-32">
+            <sch:rule xmlns="http://www.tei-c.org/ns/1.0"
+                      xmlns:rng="http://relaxng.org/ns/structure/1.0"
+                      xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+                      xmlns:xi="http://www.w3.org/2001/XInclude"
+                      context="tei:model[ not( parent::tei:modelSequence ) ][ @predicate ]">
+               <sch:let name="predicate" value="normalize-space( @predicate )"/>
+               <sch:let name="output" value="normalize-space( @output )"/>
+               <sch:report test="following-sibling::tei:model                             [ normalize-space( @predicate ) eq $predicate ]                             [ normalize-space( @output ) eq $output ]">
+          There are 2 (or more) 'model' elements in this
+          '<sch:value-of select="local-name(..)"/>' that have
+          the same predicate, and are targeted to the same output
+          ("<sch:value-of select="( $output, parent::modelGrp/@output, 'all')[1]"/>")</sch:report>
+            </sch:rule>
+         </pattern>
+         <ref name="tei_att.global.attributes"/>
+         <ref name="tei_att.predicate.attributes"/>
+         <attribute name="behaviour">
+            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">names the process or function which this processing model uses in order to produce output.
+Suggested values include: 1] alternate; 2] anchor; 3] block; 4] body; 5] break; 6] cell; 7] cit; 8] document; 9] figure; 10] glyph; 11] graphic; 12] heading; 13] index; 14] inline; 15] link; 16] list; 17] listItem; 18] metadata; 19] note; 20] omit; 21] paragraph; 22] row; 23] section; 24] table; 25] text; 26] title</a:documentation>
+            <choice>
+               <value>alternate</value>
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">support display of alternative visualisations, for example by displaying the preferred content, by displaying both in parallel, or by toggling between the two.</a:documentation>
+               <value>anchor</value>
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">create an identifiable anchor point in the output.</a:documentation>
+               <value>block</value>
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">create a block structure</a:documentation>
+               <value>body</value>
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">create the body of a document.</a:documentation>
+               <value>break</value>
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">create a line, column, or page break according to the value of type</a:documentation>
+               <value>cell</value>
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">create a table cell</a:documentation>
+               <value>cit</value>
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">show the content, with an indication of the source</a:documentation>
+               <value>document</value>
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">start a new output document</a:documentation>
+               <value>figure</value>
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">make a figure with the title as caption</a:documentation>
+               <value>glyph</value>
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">show a character by looking up reference to a chardesc at the given URI</a:documentation>
+               <value>graphic</value>
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">if url is present, uses it to display graphic, else display a placeholder image.</a:documentation>
+               <value>heading</value>
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">creates a heading. </a:documentation>
+               <value>index</value>
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">generate list according to type.</a:documentation>
+               <value>inline</value>
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">creates inline element out of content</a:documentation>
+               <value>link</value>
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">create hyperlink</a:documentation>
+               <value>list</value>
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">create a list. </a:documentation>
+               <value>listItem</value>
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">create a list item.</a:documentation>
+               <value>metadata</value>
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">create metadata section</a:documentation>
+               <value>note</value>
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">create a note, often out of line, depending on the value of place; could be margin, footnote, endnote, inline</a:documentation>
+               <value>omit</value>
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">do nothing, do not process children</a:documentation>
+               <value>paragraph</value>
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">create a paragraph out of content.</a:documentation>
+               <value>row</value>
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">create a table row</a:documentation>
+               <value>section</value>
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">create a new section of the output document</a:documentation>
+               <value>table</value>
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">create a table</a:documentation>
+               <value>text</value>
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">create literal text</a:documentation>
+               <value>title</value>
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">create document title</a:documentation>
+               <data type="token">
+                  <param name="pattern">[^\p{C}\p{Z}]+</param>
+               </data>
+            </choice>
+         </attribute>
+         <optional>
+            <attribute name="useSourceRendition">
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">whether to obey any rendition attribute that is present.</a:documentation>
+               <data type="boolean"/>
+            </attribute>
+         </optional>
+         <optional>
+            <attribute name="output">
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">the intended output.
+Sample values include: 1] web; 2] print; 3] plain</a:documentation>
+               <data type="token">
+                  <param name="pattern">[^\p{C}\p{Z}]+</param>
+               </data>
+            </attribute>
+         </optional>
+         <optional>
+            <attribute name="cssClass">
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">the name of a CSS class which should be associated with this element</a:documentation>
+               <list>
+                  <oneOrMore>
+                     <data type="Name"/>
+                  </oneOrMore>
+               </list>
+            </attribute>
+         </optional>
+         <empty/>
+      </element>
+   </define>
+   <define name="tei_modelSequence">
+      <element name="modelSequence">
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">any sequence of model or <code xmlns="http://www.w3.org/1999/xhtml">&lt;modelSequence&gt;</code> elements which is to be processed as a single set of actions [22.5.4.7. Model sequence]</a:documentation>
+         <group>
+            <zeroOrMore>
+               <choice>
+                  <ref name="tei_model.glossLike"/>
+                  <ref name="tei_model.descLike"/>
+               </choice>
+            </zeroOrMore>
+            <group>
+               <ref name="tei_model"/>
+               <ref name="tei_model"/>
+               <zeroOrMore>
+                  <ref name="tei_model"/>
+               </zeroOrMore>
+            </group>
+         </group>
+         <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
+                  id="FV_ODD-modelSequence-no_outputs_nor_predicates_4_my_kids-constraint-report-40">
+            <rule context="tei:modelSequence">
+               <sch:report xmlns="http://www.tei-c.org/ns/1.0"
+                           xmlns:rng="http://relaxng.org/ns/structure/1.0"
+                           xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+                           xmlns:xi="http://www.w3.org/2001/XInclude"
+                           test="tei:model[@output]"
+                           role="warning">The 'model' children
+      of a 'modelSequence' element inherit the @output attribute of the
+      parent 'modelSequence', and thus should not have their own</sch:report>
+            </rule>
+         </pattern>
+         <ref name="tei_att.global.attributes"/>
+         <optional>
+            <attribute name="predicate">
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">the condition under which this model applies given as an XPath Predicate Expression</a:documentation>
+               <text/>
+            </attribute>
+         </optional>
+         <optional>
+            <attribute name="useSourceRendition">
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">whether to obey any rendition attribute that is present</a:documentation>
+               <data type="boolean"/>
+            </attribute>
+         </optional>
+         <optional>
+            <attribute name="output">
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">the intended output method
+Suggested values include: 1] web; 2] print; 3] plaintext</a:documentation>
+               <choice>
+                  <value>web</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">the output is intended for presentation in a web format</a:documentation>
+                  <value>print</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">the output is intended for presentation in a print format</a:documentation>
+                  <value>plaintext</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">the output is intended for presentation in a plain text format</a:documentation>
+                  <data type="token">
+                     <param name="pattern">[^\p{C}\p{Z}]+</param>
+                  </data>
+               </choice>
+            </attribute>
+         </optional>
+         <empty/>
+      </element>
+   </define>
+   <define name="tei_modelGrp">
+      <element name="modelGrp">
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">any grouping of <code xmlns="http://www.w3.org/1999/xhtml">&lt;model&gt;</code> or <code xmlns="http://www.w3.org/1999/xhtml">&lt;modelSequence&gt;</code> elements with a common output method [22.5.4.4. Model Contexts and Outputs]</a:documentation>
+         <group>
+            <zeroOrMore>
+               <choice>
+                  <ref name="tei_model.glossLike"/>
+                  <ref name="tei_model.descLike"/>
+               </choice>
+            </zeroOrMore>
+            <optional>
+               <ref name="tei_outputRendition"/>
+            </optional>
+            <oneOrMore>
+               <choice>
+                  <ref name="tei_modelSequence"/>
+                  <ref name="tei_model"/>
+               </choice>
+            </oneOrMore>
+         </group>
+         <ref name="tei_att.global.attributes"/>
+         <optional>
+            <attribute name="useSourceRendition">
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">whether to obey any rendition attribute which is present</a:documentation>
+               <data type="boolean"/>
+            </attribute>
+         </optional>
+         <optional>
+            <attribute name="output">
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">the intended output method
+Suggested values include: 1] web; 2] print; 3] plaintext</a:documentation>
+               <choice>
+                  <value>web</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">the output is intended for presentation in a web format</a:documentation>
+                  <value>print</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">the output is intended for presentation in a print format</a:documentation>
+                  <value>plaintext</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">the output is intended for presentation in a plain text format</a:documentation>
+                  <data type="token">
+                     <param name="pattern">[^\p{C}\p{Z}]+</param>
+                  </data>
+               </choice>
+            </attribute>
+         </optional>
+         <empty/>
+      </element>
+   </define>
+   <define name="tei_outputRendition">
+      <element name="outputRendition">
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">describes the rendering or appearance intended for all occurrences of an element in a specified context for a specified type of output.</a:documentation>
+         <text/>
+         <ref name="tei_att.global.attributes"/>
+         <optional>
+            <attribute name="scope">
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">provides a way of defining pseudo-elements, that is, styling rules applicable to specific sub-portions of an element.
+Sample values include: 1] first-line; 2] first-letter; 3] before; 4] after</a:documentation>
+               <data type="token">
+                  <param name="pattern">[^\p{C}\p{Z}]+</param>
+               </data>
+            </attribute>
+         </optional>
+         <empty/>
+      </element>
+   </define>
+   <define name="tei_paramList">
+      <element name="paramList">
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">list of parameter specifications</a:documentation>
+         <zeroOrMore>
+            <ref name="tei_paramSpec"/>
+         </zeroOrMore>
+         <ref name="tei_att.global.attributes"/>
+         <empty/>
+      </element>
+   </define>
+   <define name="tei_paramSpec">
+      <element name="paramSpec">
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">supplies specification for one parameter of a model behaviour [22.5.4.8. Defining a processing model]</a:documentation>
+         <zeroOrMore>
+            <choice>
+               <ref name="tei_model.glossLike"/>
+               <ref name="tei_model.descLike"/>
+            </choice>
+         </zeroOrMore>
+         <ref name="tei_att.global.attributes"/>
+         <ref name="tei_att.identified.attributes"/>
+         <empty/>
+      </element>
+   </define>
+   <define name="tei_param">
+      <element name="param">
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">provides a parameter for a model behaviour by supplying its name and an XPath expression identifying the location of its content. [22.5.4.5. Behaviours and their parameters]</a:documentation>
+         <empty/>
+         <ref name="tei_att.global.attributes"/>
+         <attribute name="name">
+            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">a name for the parameter being supplied
+Suggested values include: 1] alternate; 2] default; 3] height; 4] id; 5] label; 6] level; 7] link; 8] place; 9] type; 10] url; 11] width</a:documentation>
+            <choice>
+               <value>alternate</value>
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">when used with behaviour alternate, a parameter of this name supplies one of the pair of possible values; for example the regularized form rather than the original form within a <code xmlns="http://www.w3.org/1999/xhtml">&lt;choice&gt;</code> element.</a:documentation>
+               <value>default</value>
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">when used with behaviour alternate, a parameter of this name supplies one of the pair of possible values; for example the original form rather than the regularized form within a <code xmlns="http://www.w3.org/1999/xhtml">&lt;choice&gt;</code> element.</a:documentation>
+               <value>height</value>
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">when used with behaviour graphic, a parameter of this name supplies a value for the height of the graphic e.g. "300px", "50%".</a:documentation>
+               <value>id</value>
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">a parameter of this name should supply a unique identifier for the element being processed; as for example with the anchor behaviour</a:documentation>
+               <value>label</value>
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">a parameter of this name should supply an expression to be used to label something, for example `concat('Page ', @n)` for a page break or `@n` for a footnote reference; typically used with the note or break behaviours</a:documentation>
+               <value>level</value>
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">when used with the heading behaviour, a parameter of this name supplies a positive integer indicating the hierarchic level of a heading.</a:documentation>
+               <value>link</value>
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">when used with the link behaviour, a parameter of this name should supply a URL to be used as the target of a link.</a:documentation>
+               <value>place</value>
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">when used with the note behaviour, a parameter of this name should provide a string which describes the intended placement of some text; typical values include "margin", "footnote", "endnote", "inline", "bottom"</a:documentation>
+               <value>type</value>
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">a parameter of this name can be used to categorize the specified behaviour in any way; for example the kind of break (when used with the break behaviour) or the kind of index to be generated (if used with the index behaviour) etc.</a:documentation>
+               <value>url</value>
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">when used with behaviour graphic, a parameter of this name supplies a a URL indicating the graphic intended.</a:documentation>
+               <value>width</value>
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">when used with behaviour graphic, a parameter of this name supplies a value for the width of the graphic e.g. "400px", "70%".</a:documentation>
+               <data type="token">
+                  <param name="pattern">[^\p{C}\p{Z}]+</param>
+               </data>
+            </choice>
+         </attribute>
+         <attribute name="value">
+            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">supplies an XPath expression which when evaluated provides the value for the parameter</a:documentation>
+            <text/>
+         </attribute>
+         <empty/>
+      </element>
+   </define>
+   <define name="tei_content">
+      <element name="content">
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(content model) contains a declaration of the intended content model for the element (or other construct) being specified. [22.5. Element Specifications]</a:documentation>
+         <choice>
+            <ref name="tei_valList"/>
+            <oneOrMore>
+               <ref name="tei_model.contentPart"/>
+            </oneOrMore>
+            <oneOrMore>
+               <ref name="anyElement-content"/>
+            </oneOrMore>
+         </choice>
+         <ref name="tei_att.global.attributes"/>
+         <optional>
+            <attribute xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"
+                       name="autoPrefix"
+                       a:defaultValue="true">
+               <a:documentation>controls whether or not pattern names generated in the corresponding RELAX NG schema source are automatically prefixed to avoid potential nameclashes.</a:documentation>
+               <choice>
+                  <value>true</value>
+                  <a:documentation>Each name referenced in e.g. an <code xmlns="http://www.w3.org/1999/xhtml">&lt;rng:ref&gt;</code> element within a content model is automatically prefixed by the value of the <code xmlns="http://www.w3.org/1999/xhtml">@prefix</code> attribute on the current <code xmlns="http://www.w3.org/1999/xhtml">&lt;schemaSpec&gt;</code>
+                  </a:documentation>
+                  <value>false</value>
+                  <a:documentation>No prefixes are added: any prefix required by the value of the <code xmlns="http://www.w3.org/1999/xhtml">@prefix</code> attribute on the current <code xmlns="http://www.w3.org/1999/xhtml">&lt;schemaSpec&gt;</code> must therefore be supplied explicitly, as appropriate.</a:documentation>
+               </choice>
+            </attribute>
+         </optional>
+         <empty/>
+      </element>
+   </define>
+   <define name="tei_sequence">
+      <element name="sequence">
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">indicates that the constructs referenced by its children form a sequence [22.5.1. Defining Content Models]</a:documentation>
+         <oneOrMore>
+            <ref name="tei_model.contentPart"/>
+         </oneOrMore>
+         <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
+                  id="FV_ODD-sequence-sequencechilden-constraint-assert-38">
+            <rule context="tei:sequence">
+               <sch:assert xmlns="http://www.tei-c.org/ns/1.0"
+                           xmlns:rng="http://relaxng.org/ns/structure/1.0"
+                           xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+                           xmlns:xi="http://www.w3.org/2001/XInclude"
+                           test="count(*)&gt;1">The sequence element must have at least two child elements</sch:assert>
+            </rule>
+         </pattern>
+         <ref name="tei_att.global.attributes"/>
+         <ref name="tei_att.repeatable.attributes"/>
+         <optional>
+            <attribute name="preserveOrder">
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">if true, indicates that the order in which component elements of a sequence appear in a document must correspond to the order in which they are given in the content model.</a:documentation>
+               <data type="boolean"/>
+            </attribute>
+         </optional>
+         <empty/>
+      </element>
+   </define>
+   <define name="tei_alternate">
+      <element name="alternate">
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">indicates that the constructs referenced by its children form an alternation [22.5.1. Defining Content Models]</a:documentation>
+         <oneOrMore>
+            <choice>
+               <ref name="tei_valList"/>
+               <ref name="tei_model.contentPart"/>
+            </choice>
+         </oneOrMore>
+         <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
+                  id="FV_ODD-alternate-alternatechilden-constraint-assert-39">
+            <rule context="tei:alternate">
+               <sch:assert xmlns="http://www.tei-c.org/ns/1.0"
+                           xmlns:rng="http://relaxng.org/ns/structure/1.0"
+                           xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+                           xmlns:xi="http://www.w3.org/2001/XInclude"
+                           test="count(*)&gt;1">The alternate element must have at least two child elements</sch:assert>
+            </rule>
+         </pattern>
+         <ref name="tei_att.global.attributes"/>
+         <ref name="tei_att.repeatable.attributes"/>
+         <empty/>
+      </element>
+   </define>
+   <define name="tei_constraint">
+      <element name="constraint">
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(constraint rules) the formal rules of a constraint [22.5. Element Specifications]</a:documentation>
+         <zeroOrMore>
+            <choice>
+               <text/>
+               <ref name="anyElement-constraint"/>
+            </choice>
+         </zeroOrMore>
+         <ref name="tei_att.global.attributes"/>
+         <empty/>
+      </element>
+   </define>
+   <define name="tei_constraintSpec">
+      <element name="constraintSpec">
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(constraint on schema) contains a formal constraint, typically expressed in a rule-based schema language, to which a construct must conform in order to be considered valid [22.5. Element Specifications]</a:documentation>
+         <group>
+            <zeroOrMore>
+               <choice>
+                  <ref name="tei_model.glossLike"/>
+                  <ref name="tei_model.descLike"/>
+               </choice>
+            </zeroOrMore>
+            <optional>
+               <ref name="tei_constraint"/>
+            </optional>
+         </group>
+         <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
+                  id="FV_ODD-constraintSpec-empty-based-on-mode-constraint-rule-33">
+            <sch:rule xmlns="http://www.tei-c.org/ns/1.0"
+                      xmlns:rng="http://relaxng.org/ns/structure/1.0"
+                      xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+                      xmlns:xi="http://www.w3.org/2001/XInclude"
+                      context="tei:constraintSpec[ @mode eq 'delete']">
+               <sch:report test="child::*">This constraintSpec element has a mode= of "delete" even though it has child elements. Change the mode= to "add", "change", or "replace", or remove the child elements.</sch:report>
+            </sch:rule>
+            <sch:rule xmlns="http://www.tei-c.org/ns/1.0"
+                      xmlns:rng="http://relaxng.org/ns/structure/1.0"
+                      xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+                      xmlns:xi="http://www.w3.org/2001/XInclude"
+                      context="tei:constraintSpec[ @mode eq 'change']">
+               <sch:assert test="child::*">This constraintSpec element has a mode= of "change", but does not have any child elements. Specify child elements, or change the mode= to "delete".</sch:assert>
+            </sch:rule>
+            <sch:rule xmlns="http://www.tei-c.org/ns/1.0"
+                      xmlns:rng="http://relaxng.org/ns/structure/1.0"
+                      xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+                      xmlns:xi="http://www.w3.org/2001/XInclude"
+                      context="tei:constraintSpec[ @mode = ('add','replace') ]">
+               <sch:assert test="child::tei:constraint">This constraintSpec element has a mode= of "<sch:value-of select="@mode"/>", but does not have a child 'constraint' element. Use a child 'constraint' element or change the mode= to "delete" or "change".</sch:assert>
+            </sch:rule>
+         </pattern>
+         <sch:ns xmlns="http://www.tei-c.org/ns/1.0"
+                 xmlns:rng="http://relaxng.org/ns/structure/1.0"
+                 xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+                 xmlns:xi="http://www.w3.org/2001/XInclude"
+                 prefix="s"
+                 uri="http://www.ascc.net/xml/schematron"/>
+         <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
+                  id="FV_ODD-constraintSpec-sch_no_more-constraint-report-42">
+            <rule context="tei:constraintSpec">
+               <sch:report xmlns="http://www.tei-c.org/ns/1.0"
+                           xmlns:rng="http://relaxng.org/ns/structure/1.0"
+                           xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+                           xmlns:xi="http://www.w3.org/2001/XInclude"
+                           test="tei:constraint/s:*  and  @scheme = ('isoschematron','schematron')">Rules
+        in the Schematron 1.* language must be inside a constraintSpec
+        with a value other than 'schematron' or 'isoschematron' on the
+        scheme attribute</sch:report>
+            </rule>
+         </pattern>
+         <sch:ns xmlns="http://www.tei-c.org/ns/1.0"
+                 xmlns:rng="http://relaxng.org/ns/structure/1.0"
+                 xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+                 xmlns:xi="http://www.w3.org/2001/XInclude"
+                 prefix="sch"
+                 uri="http://purl.oclc.org/dsdl/schematron"/>
+         <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
+                  id="FV_ODD-constraintSpec-isosch-constraint-report-43">
+            <rule context="tei:constraintSpec">
+               <sch:report xmlns="http://www.tei-c.org/ns/1.0"
+                           xmlns:rng="http://relaxng.org/ns/structure/1.0"
+                           xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+                           xmlns:xi="http://www.w3.org/2001/XInclude"
+                           test="tei:constraint/sch:*  and  not( @scheme eq 'schematron')">Rules
+        in the ISO Schematron language must be inside a constraintSpec
+        with the value 'schematron' on the scheme attribute</sch:report>
+            </rule>
+         </pattern>
+         <sch:ns xmlns="http://www.tei-c.org/ns/1.0"
+                 xmlns:rng="http://relaxng.org/ns/structure/1.0"
+                 xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+                 xmlns:xi="http://www.w3.org/2001/XInclude"
+                 prefix="sch"
+                 uri="http://purl.oclc.org/dsdl/schematron"/>
+         <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
+                  id="FV_ODD-constraintSpec-needrules-constraint-rule-36">
+            <sch:rule xmlns="http://www.tei-c.org/ns/1.0"
+                      xmlns:rng="http://relaxng.org/ns/structure/1.0"
+                      xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+                      xmlns:xi="http://www.w3.org/2001/XInclude"
+                      context="tei:macroSpec/tei:constraintSpec[@scheme eq 'schematron']/tei:constraint">
+               <sch:report test="sch:assert|sch:report">An ISO Schematron constraint specification for a macro should not
+        have an 'assert' or 'report' element without a parent 'rule' element</sch:report>
+            </sch:rule>
+         </pattern>
+         <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
+                  id="FV_ODD-constraintSpec-unique-constraintSpec-ident-constraint-rule-37">
+            <sch:rule xmlns="http://www.tei-c.org/ns/1.0"
+                      xmlns:rng="http://relaxng.org/ns/structure/1.0"
+                      xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+                      xmlns:xi="http://www.w3.org/2001/XInclude"
+                      context="tei:constraintSpec[ @mode eq 'add'  or  not( @mode ) ]">
+               <sch:let name="myIdent" value="normalize-space(@ident)"/>
+               <sch:report test="preceding::tei:constraintSpec[ normalize-space(@ident) eq $myIdent ]">
+        The @ident of 'constraintSpec' should be unique; this one (<sch:value-of select="$myIdent"/>) is the same as that of a previous 'constraintSpec'.
+        </sch:report>
+            </sch:rule>
+         </pattern>
+         <ref name="tei_att.global.attributes"/>
+         <ref name="tei_att.identified.attributes"/>
+         <ref name="tei_att.typed.attribute.subtype"/>
+         <optional>
+            <attribute name="type">
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">characterizes the <code xmlns="http://www.w3.org/1999/xhtml">&lt;constraintSpec&gt;</code> element in some sense; used to indicate when a <code xmlns="http://www.w3.org/1999/xhtml">&lt;constraintSpec&gt;</code> warns about a deprecated construct.
+Suggested values include: 1] deprecationWarning</a:documentation>
+               <choice>
+                  <value>deprecationWarning</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Indicates that this constraint specification warns that some other construct in the schema is deprecated.</a:documentation>
+                  <data type="token">
+                     <param name="pattern">[^\p{C}\p{Z}]+</param>
+                  </data>
+               </choice>
+            </attribute>
+         </optional>
+         <attribute name="scheme">
+            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">supplies the name of the language in which the constraints are defined
+Suggested values include: 1] schematron (ISO Schematron)</a:documentation>
+            <choice>
+               <value>schematron</value>
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(ISO Schematron) </a:documentation>
+               <data type="token">
+                  <param name="pattern">[^\p{C}\p{Z}]+</param>
+               </data>
+            </choice>
+         </attribute>
+         <empty/>
+      </element>
+   </define>
+   <define name="tei_attList">
+      <element name="attList">
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(attribute list) contains documentation for all the attributes associated with this element, as a series of <code xmlns="http://www.w3.org/1999/xhtml">&lt;attDef&gt;</code> elements. [22.5. Element Specifications 22.6. Class Specifications]</a:documentation>
+         <oneOrMore>
+            <choice>
+               <ref name="tei_attRef"/>
+               <ref name="tei_attDef"/>
+               <ref name="tei_attList"/>
+            </choice>
+         </oneOrMore>
+         <ref name="tei_att.global.attributes"/>
+         <optional>
+            <attribute xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"
+                       name="org"
+                       a:defaultValue="group">
+               <a:documentation>(organization) specifies whether all the attributes in the list are available (org="group") or only one of them (org="choice")</a:documentation>
+               <choice>
+                  <value>group</value>
+                  <a:documentation>grouped</a:documentation>
+                  <value>choice</value>
+                  <a:documentation>alternated</a:documentation>
+               </choice>
+            </attribute>
+         </optional>
+         <empty/>
+      </element>
+   </define>
+   <define name="tei_attDef">
+      <element name="attDef">
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(attribute definition) contains the definition of a single attribute. [22.5.3. Attribute List Specification]</a:documentation>
+         <group>
+            <zeroOrMore>
+               <choice>
+                  <ref name="tei_model.glossLike"/>
+                  <ref name="tei_model.descLike"/>
+               </choice>
+            </zeroOrMore>
+            <optional>
+               <ref name="tei_datatype"/>
+            </optional>
+            <zeroOrMore>
+               <ref name="tei_constraintSpec"/>
+            </zeroOrMore>
+            <optional>
+               <ref name="tei_defaultVal"/>
+            </optional>
+            <optional>
+               <choice>
+                  <ref name="tei_valList"/>
+                  <oneOrMore>
+                     <ref name="tei_valDesc"/>
+                  </oneOrMore>
+               </choice>
+            </optional>
+            <zeroOrMore>
+               <ref name="tei_exemplum"/>
+            </zeroOrMore>
+            <zeroOrMore>
+               <ref name="tei_remarks"/>
+            </zeroOrMore>
+         </group>
+         <ns xmlns="http://purl.oclc.org/dsdl/schematron"
+             xmlns:rng="http://relaxng.org/ns/structure/1.0"
+             xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+             xmlns:xi="http://www.w3.org/2001/XInclude"
+             prefix="teix"
+             uri="http://www.tei-c.org/ns/Examples"/>
+         <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
+                  id="FV_ODD-attDef-attDefContents-constraint-assert-44">
+            <rule context="tei:attDef">
+               <assert xmlns:rng="http://relaxng.org/ns/structure/1.0"
+                       xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+                       xmlns:xi="http://www.w3.org/2001/XInclude"
+                       test="ancestor::teix:egXML[@valid='feasible'] or @mode eq 'change' or @mode eq 'delete' or tei:datatype or tei:valList[@type='closed']">Attribute: the definition of the @<value-of select="@ident"/> attribute in the <value-of select="ancestor::*[@ident][1]/@ident"/>
+                  <value-of select="' '"/>
+                  <value-of select="local-name(ancestor::*[@ident][1])"/> should have a closed valList or a datatype</assert>
+            </rule>
+         </pattern>
+         <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
+                  id="FV_ODD-attDef-noDefault4Required-constraint-rule-38">
+            <sch:rule xmlns="http://www.tei-c.org/ns/1.0"
+                      xmlns:rng="http://relaxng.org/ns/structure/1.0"
+                      xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+                      xmlns:xi="http://www.w3.org/2001/XInclude"
+                      context="tei:attDef[@usage eq 'req']">
+               <sch:report test="tei:defaultVal">Since the @<sch:value-of select="@ident"/> attribute is required, it will always be specified. Thus the default value (of "<sch:value-of select="normalize-space(tei:defaultVal)"/>") will never be used. Either change the definition of the attribute so it is not required ("rec" or "opt"), or remove the defaultVal element.</sch:report>
+            </sch:rule>
+         </pattern>
+         <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
+                  id="FV_ODD-attDef-defaultIsInClosedList-twoOrMore-constraint-rule-39">
+            <sch:rule xmlns="http://www.tei-c.org/ns/1.0"
+                      xmlns:rng="http://relaxng.org/ns/structure/1.0"
+                      xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+                      xmlns:xi="http://www.w3.org/2001/XInclude"
+                      context="tei:attDef[   tei:defaultVal   and   tei:valList[@type eq 'closed']   and   tei:datatype[    @maxOccurs &gt; 1    or    @minOccurs &gt; 1    or    @maxOccurs = 'unbounded'    ]   ]">
+               <sch:assert test="     tokenize(normalize-space(tei:defaultVal),' ')     =     tei:valList/tei:valItem/@ident">In the <sch:value-of select="local-name(ancestor::*[@ident][1])"/> defining
+        <sch:value-of select="ancestor::*[@ident][1]/@ident"/> the default value of the
+        @<sch:value-of select="@ident"/> attribute is not among the closed list of possible
+        values</sch:assert>
+            </sch:rule>
+         </pattern>
+         <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
+                  id="FV_ODD-attDef-defaultIsInClosedList-one-constraint-rule-40">
+            <sch:rule xmlns="http://www.tei-c.org/ns/1.0"
+                      xmlns:rng="http://relaxng.org/ns/structure/1.0"
+                      xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+                      xmlns:xi="http://www.w3.org/2001/XInclude"
+                      context="tei:attDef[   tei:defaultVal   and   tei:valList[@type eq 'closed']   and   tei:datatype[    not(@maxOccurs)    or (    if ( @maxOccurs castable as xs:integer )     then ( @maxOccurs cast as xs:integer eq 1 )     else false()    )]   ]">
+               <sch:assert test="string(tei:defaultVal)      =      tei:valList/tei:valItem/@ident">In the <sch:value-of select="local-name(ancestor::*[@ident][1])"/> defining
+        <sch:value-of select="ancestor::*[@ident][1]/@ident"/> the default value of the
+        @<sch:value-of select="@ident"/> attribute is not among the closed list of possible
+        values</sch:assert>
+            </sch:rule>
+         </pattern>
+         <ref name="tei_att.global.attributes"/>
+         <ref name="tei_att.identified.attributes"/>
+         <optional>
+            <attribute xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"
+                       name="usage"
+                       a:defaultValue="opt">
+               <a:documentation>specifies the optionality of the attribute.</a:documentation>
+               <choice>
+                  <value>req</value>
+                  <a:documentation>(required) </a:documentation>
+                  <value>rec</value>
+                  <a:documentation>(recommended ) </a:documentation>
+                  <value>opt</value>
+                  <a:documentation>(optional ) </a:documentation>
+               </choice>
+            </attribute>
+         </optional>
+         <optional>
+            <attribute name="ns">
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(namespace) specifies the namespace to which this attribute belongs</a:documentation>
+               <data type="anyURI">
+                  <param name="pattern">\S*</param>
+               </data>
+            </attribute>
+         </optional>
+         <empty/>
+      </element>
+   </define>
+   <define name="tei_attRef">
+      <element name="attRef">
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(attribute pointer) points to the definition of an attribute or group of attributes. [22.2. Modules and Schemas]</a:documentation>
+         <empty/>
+         <ref name="tei_att.global.attributes"/>
+         <optional>
+            <attribute name="class">
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">the name of the attribute class</a:documentation>
+               <data type="token">
+                  <param name="pattern">[^\p{C}\p{Z}]+</param>
+               </data>
+            </attribute>
+         </optional>
+         <optional>
+            <attribute name="name">
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">the name of the attribute</a:documentation>
+               <data type="Name"/>
+            </attribute>
+         </optional>
+         <empty/>
+      </element>
+   </define>
+   <define name="tei_datatype">
+      <element name="datatype">
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(datatype) specifies the declared value for an attribute, by referring to any datatype defined by the chosen schema language. [1.4.2. Datatype Specifications 22.5.3. Attribute List Specification]</a:documentation>
+         <choice>
+            <ref name="tei_dataRef"/>
+            <ref name="anyElement-datatype"/>
+         </choice>
+         <ref name="tei_att.global.attributes"/>
+         <optional>
+            <attribute xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"
+                       name="minOccurs"
+                       a:defaultValue="1">
+               <a:documentation>(minimum number of occurences) indicates the minimum number of times this datatype may occur in an instance of the attribute being defined</a:documentation>
+               <data type="nonNegativeInteger"/>
+            </attribute>
+         </optional>
+         <optional>
+            <attribute xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"
+                       name="maxOccurs"
+                       a:defaultValue="1">
+               <a:documentation>(maximum number of occurences) indicates the maximum number of times this datatype may occur in an instance of the attribute being defined</a:documentation>
+               <choice>
+                  <data type="nonNegativeInteger"/>
+                  <choice>
+                     <value>unbounded</value>
+                     <a:documentation/>
+                  </choice>
+               </choice>
+            </attribute>
+         </optional>
+         <empty/>
+      </element>
+   </define>
+   <define name="tei_dataRef">
+      <element name="dataRef">
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">identifies the datatype of an attribute value, either by referencing an item in an externally defined datatype library, or by pointing to a TEI-defined data specification [22.5.3.1. Datatypes]</a:documentation>
+         <zeroOrMore>
+            <ref name="tei_dataFacet"/>
+         </zeroOrMore>
+         <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
+                  id="FV_ODD-dataRef-restrictDataFacet-constraint-rule-41">
+            <sch:rule xmlns="http://www.tei-c.org/ns/1.0"
+                      xmlns:rng="http://relaxng.org/ns/structure/1.0"
+                      xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+                      xmlns:xi="http://www.w3.org/2001/XInclude"
+                      context="tei:dataRef[tei:dataFacet]">
+               <sch:assert test="@name" role="nonfatal">Data facets can only be specified for references to datatypes specified by
+          XML Schemas: Part 2: Datatypes</sch:assert>
+            </sch:rule>
+         </pattern>
+         <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
+                  id="FV_ODD-dataRef-restrictAttRestriction-constraint-rule-42">
+            <sch:rule xmlns="http://www.tei-c.org/ns/1.0"
+                      xmlns:rng="http://relaxng.org/ns/structure/1.0"
+                      xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+                      xmlns:xi="http://www.w3.org/2001/XInclude"
+                      context="tei:dataRef[tei:dataFacet]">
+               <sch:report test="@restriction" role="nonfatal">The attribute restriction cannot be used when dataFacet elements are present.</sch:report>
+            </sch:rule>
+         </pattern>
+         <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
+                  id="FV_ODD-dataRef-restrictAttResctrictionName-constraint-rule-43">
+            <sch:rule xmlns="http://www.tei-c.org/ns/1.0"
+                      xmlns:rng="http://relaxng.org/ns/structure/1.0"
+                      xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+                      xmlns:xi="http://www.w3.org/2001/XInclude"
+                      context="tei:dataRef">
+               <sch:report test="@restriction and not(@name)" role="fatal">The attribute restriction can only be used with a name attribute.</sch:report>
+            </sch:rule>
+         </pattern>
+         <ref name="tei_att.global.attributes"/>
+         <choice>
+            <optional>
+               <attribute name="key">
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">the identifier used for this datatype specification</a:documentation>
+                  <data type="NCName"/>
+               </attribute>
+            </optional>
+            <optional>
+               <attribute name="name">
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">the name of a datatype in the list provided by <a xmlns="http://www.w3.org/1999/xhtml" href="#XSD2">XML Schemas: Part 2: Datatypes</a>
+                  </a:documentation>
+                  <data type="NCName"/>
+               </attribute>
+            </optional>
+            <optional>
+               <attribute name="ref">
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">a pointer to a datatype defined in some datatype library</a:documentation>
+                  <data type="anyURI">
+                     <param name="pattern">\S+</param>
+                  </data>
+               </attribute>
+            </optional>
+         </choice>
+         <optional>
+            <attribute name="restriction">
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">supplies a string representing a regular expression providing additional constraints on the strings used to represent values of this datatype</a:documentation>
+               <data type="token"/>
+            </attribute>
+         </optional>
+         <empty/>
+      </element>
+   </define>
+   <define name="tei_dataFacet">
+      <element name="dataFacet">
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Restricts the value of the strings used to represent values of a datatype, according to <a xmlns="http://www.w3.org/1999/xhtml" href="#XSD2">XML Schemas: Part 2: Datatypes</a>. [22.5.3.1. Datatypes]</a:documentation>
+         <empty/>
+         <ref name="tei_att.global.attributes"/>
+         <attribute name="name">
+            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">the name of the facet.</a:documentation>
+            <choice>
+               <value>length</value>
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+               <value>minLength</value>
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+               <value>maxLength</value>
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+               <value>pattern</value>
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+               <value>enumeration</value>
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+               <value>whiteSpace</value>
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+               <value>maxInclusive</value>
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+               <value>minInclusive</value>
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+               <value>maxExclusive</value>
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+               <value>minExclusive</value>
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+               <value>totalDigits</value>
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+               <value>fractionDigits</value>
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+            </choice>
+         </attribute>
+         <attribute name="value">
+            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">the facet value.</a:documentation>
+            <data type="string"/>
+         </attribute>
+         <empty/>
+      </element>
+   </define>
+   <define name="tei_defaultVal">
+      <element name="defaultVal">
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(default value) specifies the default declared value for an attribute. [22.5.3. Attribute List Specification]</a:documentation>
+         <text/>
+         <ref name="tei_att.global.attributes"/>
+         <ref name="tei_att.combinable.attributes"/>
+         <empty/>
+      </element>
+   </define>
+   <define name="tei_valDesc">
+      <element name="valDesc">
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(value description) specifies any semantic or syntactic constraint on the value that an attribute may take, additional to the information carried by the <code xmlns="http://www.w3.org/1999/xhtml">&lt;datatype&gt;</code> element. [22.5.3. Attribute List Specification]</a:documentation>
+         <ref name="tei_macro.phraseSeq.limited"/>
+         <ref name="tei_att.global.attributes"/>
+         <ref name="tei_att.translatable.attributes"/>
+         <ref name="tei_att.combinable.attributes"/>
+         <empty/>
+      </element>
+   </define>
+   <define name="tei_valItem">
+      <element name="valItem">
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">documents a single value in a predefined list of values. [22.5.3. Attribute List Specification]</a:documentation>
+         <group>
+            <zeroOrMore>
+               <ref name="tei_model.glossLike"/>
+            </zeroOrMore>
+            <optional>
+               <group>
+                  <oneOrMore>
+                     <ref name="tei_model.descLike"/>
+                  </oneOrMore>
+                  <zeroOrMore>
+                     <group>
+                        <ref name="tei_model.glossLike"/>
+                        <zeroOrMore>
+                           <ref name="tei_model.descLike"/>
+                        </zeroOrMore>
+                     </group>
+                  </zeroOrMore>
+                  <zeroOrMore>
+                     <ref name="tei_remarks"/>
+                  </zeroOrMore>
+               </group>
+            </optional>
+            <optional>
+               <ref name="tei_paramList"/>
+            </optional>
+         </group>
+         <ref name="tei_att.global.attributes"/>
+         <ref name="tei_att.combinable.attributes"/>
+         <attribute name="ident">
+            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">specifies the value concerned.</a:documentation>
+            <data type="string"/>
+         </attribute>
+         <empty/>
+      </element>
+   </define>
+   <define name="tei_valList">
+      <element name="valList">
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(value list) contains one or more <code xmlns="http://www.w3.org/1999/xhtml">&lt;valItem&gt;</code> elements defining possible values. [22.5.3. Attribute List Specification]</a:documentation>
+         <zeroOrMore>
+            <ref name="tei_valItem"/>
+         </zeroOrMore>
+         <ref name="tei_att.global.attributes"/>
+         <ref name="tei_att.combinable.attributes"/>
+         <optional>
+            <attribute xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"
+                       name="type"
+                       a:defaultValue="open">
+               <a:documentation>specifies the extensibility of the list of values specified.</a:documentation>
+               <choice>
+                  <value>closed</value>
+                  <a:documentation>only the values specified are permitted.</a:documentation>
+                  <value>semi</value>
+                  <a:documentation>(semi-open) all the values specified should be supported, but other values are legal and software should have appropriate fallback processing for them.</a:documentation>
+                  <value>open</value>
+                  <a:documentation>the values specified are sample values only.</a:documentation>
+               </choice>
+            </attribute>
+         </optional>
+         <empty/>
+      </element>
+   </define>
+   <define name="tei_textNode">
+      <element name="textNode">
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">indicates the presence of a text node in a content model [22. Documentation Elements]</a:documentation>
+         <empty/>
+         <ref name="tei_att.global.attributes"/>
+         <empty/>
+      </element>
+   </define>
+   <define name="tei_anyElement">
+      <element name="anyElement">
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">indicates the presence of any elements in a content model [22. Documentation Elements]</a:documentation>
+         <empty/>
+         <ref name="tei_att.global.attributes"/>
+         <ref name="tei_att.repeatable.attributes"/>
+         <optional>
+            <attribute name="require">
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">supplies a list of namespaces to one of which the permitted elements must belong. </a:documentation>
+               <list>
+                  <oneOrMore>
+                     <data type="anyURI">
+                        <param name="pattern">\S*</param>
+                     </data>
+                  </oneOrMore>
+               </list>
+            </attribute>
+         </optional>
+         <optional>
+            <attribute name="except">
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">supplies a list of namespaces or prefixed element names which are not permitted.</a:documentation>
+               <list>
+                  <oneOrMore>
+                     <choice>
+                        <data type="anyURI">
+                           <param name="pattern">[^/\s]+:\S*</param>
+                        </data>
+                        <data type="Name">
+                           <param name="pattern">.+:.+</param>
+                        </data>
+                     </choice>
+                  </oneOrMore>
+               </list>
+            </attribute>
+         </optional>
+         <empty/>
+      </element>
+   </define>
+   <define name="tei_empty">
+      <element name="empty">
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">indicates the presence of an empty node within a content model [22. Documentation Elements]</a:documentation>
+         <empty/>
+         <ref name="tei_att.global.attributes"/>
          <empty/>
       </element>
    </define>
