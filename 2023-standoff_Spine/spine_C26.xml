@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
-      xmlns:mith="http://mith.umd.edu/sc/ns1#"
-      xmlns:pitt="https://github.com/ebeshero/Pittsburgh_Frankenstein"
-      xmlns:th="http://www.blackmesatech.com/2017/nss/trojan-horse">
-   <teiHeader xmlns:fv="https://github.com/FrankensteinVariorum">
+      xmlns:fv="https://github.com/FrankensteinVariorum">
+   <teiHeader>
       <fileDesc>
          <titleStmt>
             <title>Spine: Collation unit C26</title>
@@ -67,7 +65,7 @@
             <p>Produced from collation output prepared in batch file processing
                                     on  2023-08-17 04:33:03.354958 .</p>
             <p>Edited to correct alignments and prepared for the Frankenstein
-                                    Variorum spine on 2023-08-27T20:54:01.74716-04:00.</p>
+                                    Variorum spine on 2023-08-27T22:00:14.345525-04:00.</p>
          </editorialDecl>
          <appInfo>
             <application ident="collateX" version="1.7.1">
@@ -90,7 +88,7 @@
          </listPrefixDef>
       </encodingDesc>
    </teiHeader>
-   <text xmlns:fv="https://github.com/FrankensteinVariorum">
+   <text>
       <body>
          <listApp>
             <app xml:id="C26_app1" n="1">
