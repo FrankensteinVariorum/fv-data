@@ -65,9 +65,9 @@
                                     maximum of these values in the <att>n</att> attribute on each <gi>app</gi>
                                     element.</p>
             <p>Produced from collation output prepared in batch file processing
-                                    on  2023-08-17 04:14:52.108916 .</p>
+                                    on  2023-10-07 21:27:09.569226 .</p>
             <p>Edited to correct alignments and prepared for the Frankenstein
-                                    Variorum spine on 2023-08-28T03:20:00.540411-04:00.</p>
+                                    Variorum spine on 2023-10-07T18:40:17.85615-04:00.</p>
          </editorialDecl>
          <appInfo>
             <application ident="collateX" version="1.7.1">
@@ -150,8 +150,8 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C18_app6" n="1">
-               <rdgGrp n="['&#34;i', '&lt;hi&gt;lay&lt;/hi&gt;']" xml:id="C18_app6_rg1">
+            <app xml:id="C18_app6" n="3">
+               <rdgGrp n="['%q%i', '&lt;hi&gt;lay&lt;/hi&gt;']" xml:id="C18_app6_rg1">
                   <rdg wit="#f1818">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1818_vol_2_chapter_iv.xml#C18_app6-f1818"/>
                   </rdg>
@@ -718,8 +718,8 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C18_app43" n="3">
-               <rdgGrp n="['&#34;the']" xml:id="C18_app43_rg1">
+            <app xml:id="C18_app43" n="5">
+               <rdgGrp n="['%q%the']" xml:id="C18_app43_rg1">
                   <rdg wit="#f1818">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1818_vol_2_chapter_iv.xml#C18_app43-f1818"/>
                   </rdg>
@@ -841,8 +841,8 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C18_app51" n="31">
-               <rdgGrp n="['departed', 'after', 'the', 'first', 'meal.', '&lt;p-end/&gt;', '&lt;p-start/&gt;', '&#34;this']"
+            <app xml:id="C18_app51" n="32">
+               <rdgGrp n="['departed', 'after', 'the', 'first', 'meal.', '&lt;p-end/&gt;', '&lt;p-start/&gt;', '%q%this']"
                         xml:id="C18_app51_rg1">
                   <rdg wit="#f1818">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1818_vol_2_chapter_iv.xml#C18_app51-f1818__I"/>
@@ -1431,8 +1431,8 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C18_app83" n="1">
-               <rdgGrp n="['&#34;they']" xml:id="C18_app83_rg1">
+            <app xml:id="C18_app83" n="3">
+               <rdgGrp n="['%q%they']" xml:id="C18_app83_rg1">
                   <rdg wit="#f1818">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1818_vol_2_chapter_iv.xml#C18_app83-f1818"/>
                   </rdg>
@@ -2478,7 +2478,7 @@
                </rdgGrp>
             </app>
             <app xml:id="C18_app148" n="52">
-               <rdgGrp n="['enigmatic.', '&lt;p-end/&gt;', '&lt;p-start/&gt;', '&#34;a']"
+               <rdgGrp n="['enigmatic.', '&lt;p-end/&gt;', '&lt;p-start/&gt;', '%q%a']"
                         xml:id="C18_app148_rg1">
                   <rdg wit="#f1818">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1818_vol_2_chapter_iv.xml#C18_app148-f1818__I"/>
@@ -2497,7 +2497,7 @@
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1831_chapter_xii.xml#C18_app148-f1831__F"/>
                   </rdg>
                </rdgGrp>
-               <rdgGrp n="['seemed', '', '&lt;del&gt;igmmatic&lt;/del&gt;', 'enigmatic', '', '.', '&lt;note resp=&#34;#pbs&#34;&gt;o you pretty pecksie!&lt;/note&gt;', '', '', 'chap. 3', '', '&lt;del&gt;it was some time&lt;/del&gt;', '', '^', 'a']"
+               <rdgGrp n="['seemed', '', '&lt;del&gt;igmmatic&lt;/del&gt;', 'enigmatic', '', '.', '&lt;note resp=%q%#pbs%q%&gt;o you pretty pecksie!&lt;/note&gt;', '', '', 'chap. 3', '', '&lt;del&gt;it was some time&lt;/del&gt;', '', '^', 'a']"
                         xml:id="C18_app148_rg2">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c57_chap_3.xml#C18_app148-fMS__I"/>
@@ -3233,7 +3233,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C18_app190" n="7">
+            <app xml:id="C18_app190" n="9">
                <rdgGrp n="['&lt;del&gt;their&lt;/del&gt;', 'themselves', '–this']" xml:id="C18_app190_rg1">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c57_chap_3.xml#C18_app190-fMS"/>
@@ -3247,7 +3247,7 @@
                      </witDetail>
                   </rdg>
                </rdgGrp>
-               <rdgGrp n="['themselves.', '&lt;p-end/&gt;', '&lt;p-start/&gt;', '&#34;this']"
+               <rdgGrp n="['themselves.', '&lt;p-end/&gt;', '&lt;p-start/&gt;', '%q%this']"
                         xml:id="C18_app190_rg2">
                   <rdg wit="#f1818">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1818_vol_2_chapter_iv.xml#C18_app190-f1818__I"/>
@@ -3447,7 +3447,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C18_app204" n="37">
+            <app xml:id="C18_app204" n="38">
                <rdgGrp n="['', 'i   &lt;del&gt;found&lt;/del&gt;  ^  discovered', '']"
                         xml:id="C18_app204_rg1">
                   <rdg wit="#fMS">
@@ -3463,13 +3463,13 @@
                      </witDetail>
                   </rdg>
                </rdgGrp>
-               <rdgGrp n="['&lt;note resp=&#34;#ebb&#34;&gt;thomas copy: pencil mark joins paragraphs.&lt;/note&gt; &#34;i discovered']"
+               <rdgGrp n="['&lt;note resp=%q%#ebb%q%&gt;thomas copy: pencil mark joins paragraphs.&lt;/note&gt; %q%i discovered']"
                         xml:id="C18_app204_rg2">
                   <rdg wit="#fThomas">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fThomas_vol_2_chapter_iv.xml#C18_app204-fThomas"/>
                   </rdg>
                </rdgGrp>
-               <rdgGrp n="['&lt;p-end/&gt;', '&lt;p-start/&gt;', '&#34;i', 'discovered']"
+               <rdgGrp n="['&lt;p-end/&gt;', '&lt;p-start/&gt;', '%q%i', 'discovered']"
                         xml:id="C18_app204_rg3">
                   <rdg wit="#f1818">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1818_vol_2_chapter_iv.xml#C18_app204-f1818__I"/>
@@ -3821,8 +3821,8 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C18_app225" n="2">
-               <rdgGrp n="['&#34;i', 'remember,']" xml:id="C18_app225_rg1">
+            <app xml:id="C18_app225" n="4">
+               <rdgGrp n="['%q%i', 'remember,']" xml:id="C18_app225_rg1">
                   <rdg wit="#f1818">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1818_vol_2_chapter_iv.xml#C18_app225-f1818"/>
                   </rdg>
@@ -4295,7 +4295,7 @@
                </rdgGrp>
             </app>
             <app xml:id="C18_app257" n="42">
-               <rdgGrp n="['&#34;by', 'degrees', 'i', 'made', 'a', 'discovery', 'of', 'still', 'greater', 'moment.', 'i', 'found']"
+               <rdgGrp n="['%q%by', 'degrees', 'i', 'made', 'a', 'discovery', 'of', 'still', 'greater', 'moment.', 'i', 'found']"
                         xml:id="C18_app257_rg1">
                   <rdg wit="#f1818">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1818_vol_2_chapter_iv.xml#C18_app257-f1818"/>
@@ -5836,8 +5836,8 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C18_app349" n="1">
-               <rdgGrp n="['&#34;i']" xml:id="C18_app349_rg1">
+            <app xml:id="C18_app349" n="3">
+               <rdgGrp n="['%q%i']" xml:id="C18_app349_rg1">
                   <rdg wit="#f1818">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1818_vol_2_chapter_iv.xml#C18_app349-f1818"/>
                   </rdg>
@@ -6574,7 +6574,7 @@
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1831_chapter_xii.xml#C18_app392-f1831"/>
                   </rdg>
                </rdgGrp>
-               <rdgGrp n="['', '&lt;metamark function=&#34;displacement&#34; xml:id=&#34;c57-0021.02&#34;/&gt;', 'she', 'endeavoured', 'to', 'wipe']"
+               <rdgGrp n="['', '&lt;metamark function=%q%displacement%q% xml:id=%q%c57-0021.02%q%/&gt;', 'she', 'endeavoured', 'to', 'wipe']"
                         xml:id="C18_app392_rg2">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c57_chap_3.xml#C18_app392-fMS"/>
@@ -6921,8 +6921,8 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C18_app413" n="1">
-               <rdgGrp n="['&#34;i']" xml:id="C18_app413_rg1">
+            <app xml:id="C18_app413" n="3">
+               <rdgGrp n="['%q%i']" xml:id="C18_app413_rg1">
                   <rdg wit="#f1818">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1818_vol_2_chapter_iv.xml#C18_app413-f1818"/>
                   </rdg>
@@ -7900,8 +7900,8 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C18_app467" n="1">
-               <rdgGrp n="['&lt;p-end/&gt;', '&lt;p-start/&gt;', '&#34;this']" xml:id="C18_app467_rg1">
+            <app xml:id="C18_app467" n="3">
+               <rdgGrp n="['&lt;p-end/&gt;', '&lt;p-start/&gt;', '%q%this']" xml:id="C18_app467_rg1">
                   <rdg wit="#f1818">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1818_vol_2_chapter_iv.xml#C18_app467-f1818__I"/>
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1818_vol_2_chapter_iv.xml#C18_app467-f1818__F"/>
@@ -8108,8 +8108,8 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C18_app481" n="1015">
-               <rdgGrp n="['longed  to &lt;del&gt;understand&lt;/del&gt;^comprehend  these &lt;del&gt;&lt;unclear&gt;b&lt;/unclear&gt;&lt;/del&gt; also; but how was', '&lt;surface eid=&#34;ox-ms_abinger_c57-0022&#34;/&gt;']"
+            <app xml:id="C18_app481" n="1019">
+               <rdgGrp n="['longed  to &lt;del&gt;understand&lt;/del&gt;^comprehend  these &lt;del&gt;&lt;unclear&gt;b&lt;/unclear&gt;&lt;/del&gt; also; but how was', '&lt;surface eid=%q%ox-ms_abinger_c57-0022%q%/&gt;']"
                         xml:id="C18_app481_rg1">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c57_chap_3.xml#C18_app481-fMS"/>
@@ -8126,7 +8126,7 @@
                      </witDetail>
                   </rdg>
                </rdgGrp>
-               <rdgGrp n="['longed', 'to', 'comprehend', 'these', 'also;', 'but', 'how', 'was', 'that', 'possible,', 'when', 'i', 'did', 'not', 'even', 'understand', 'the', 'sounds', 'for', 'which', 'they', 'stood', 'as', 'signs?', 'i', 'improved,', 'however,', 'sensibly', 'in', 'this', 'science,', 'but', 'not', 'sufficiently', 'to', 'follow', 'up', 'any', 'kind', 'of', 'conversation,', 'although', 'i', 'applied', 'my', 'whole', 'mind', 'to', 'the', 'endeavour:', 'for', 'i', 'easily', 'perceived', 'that,', 'although', 'i', 'eagerly', 'longed', 'to', 'discover', 'myself', 'to', 'the', 'cottagers,', 'i', 'ought', 'not', 'to', 'make', 'the', 'attempt', 'until', 'i', 'had', 'first', 'become', 'master', 'of', 'their', 'language;', 'which', 'knowledge', 'might', 'enable', 'me', 'to', 'make', 'them', 'overlook', 'the', 'deformity', 'of', 'my', 'figure;', 'for', 'with', 'this', 'also', 'the', 'contrast', 'perpetually', 'presented', 'to', 'my', 'eyes', 'had', 'made', 'me', 'acquainted.', '&lt;p-end/&gt;', '&lt;p-start/&gt;', '&#34;i', 'had', 'admired', 'the', 'perfect', 'forms', 'of', 'my', 'cottagers—their', 'grace,', 'beauty,', 'and', 'delicate', 'complexions:', 'but', 'how', 'was', 'i', 'terrified,', 'when', 'i', 'viewed', 'myself', 'in', 'a', 'transparent', 'pool!', 'at', 'first', 'i', 'started', 'back,', 'unable', 'to', 'believe', 'that', 'it', 'was', 'indeed', 'i', 'who', 'was', 'reflected', 'in', 'the', 'mirror;', 'and', 'when', 'i', 'became', 'fully', 'convinced', 'that', 'i', 'was', 'in', 'reality', 'the', 'monster', 'that', 'i', 'am,', 'i', 'was', 'filled', 'with', 'the', 'bitterest', 'sensations', 'of', 'despondence', 'and', 'mortification.', 'alas!', 'i', 'did', 'not', 'yet', 'entirely', 'know', 'the', 'fatal', 'effects', 'of', 'this', 'miserable', 'deformity.', '&lt;p-end/&gt;', '&lt;p-start/&gt;', '&#34;as', 'the', 'sun', 'became', 'warmer,', 'and', 'the', 'light', 'of', 'day', 'longer,', 'the', 'snow', 'vanished,', 'and', 'i', 'beheld', 'the', 'bare', 'trees', 'and', 'the', 'black', 'earth.', 'from', 'this', 'time', 'felix', 'was', 'more']"
+               <rdgGrp n="['longed', 'to', 'comprehend', 'these', 'also;', 'but', 'how', 'was', 'that', 'possible,', 'when', 'i', 'did', 'not', 'even', 'understand', 'the', 'sounds', 'for', 'which', 'they', 'stood', 'as', 'signs?', 'i', 'improved,', 'however,', 'sensibly', 'in', 'this', 'science,', 'but', 'not', 'sufficiently', 'to', 'follow', 'up', 'any', 'kind', 'of', 'conversation,', 'although', 'i', 'applied', 'my', 'whole', 'mind', 'to', 'the', 'endeavour:', 'for', 'i', 'easily', 'perceived', 'that,', 'although', 'i', 'eagerly', 'longed', 'to', 'discover', 'myself', 'to', 'the', 'cottagers,', 'i', 'ought', 'not', 'to', 'make', 'the', 'attempt', 'until', 'i', 'had', 'first', 'become', 'master', 'of', 'their', 'language;', 'which', 'knowledge', 'might', 'enable', 'me', 'to', 'make', 'them', 'overlook', 'the', 'deformity', 'of', 'my', 'figure;', 'for', 'with', 'this', 'also', 'the', 'contrast', 'perpetually', 'presented', 'to', 'my', 'eyes', 'had', 'made', 'me', 'acquainted.', '&lt;p-end/&gt;', '&lt;p-start/&gt;', '%q%i', 'had', 'admired', 'the', 'perfect', 'forms', 'of', 'my', 'cottagers—their', 'grace,', 'beauty,', 'and', 'delicate', 'complexions:', 'but', 'how', 'was', 'i', 'terrified,', 'when', 'i', 'viewed', 'myself', 'in', 'a', 'transparent', 'pool!', 'at', 'first', 'i', 'started', 'back,', 'unable', 'to', 'believe', 'that', 'it', 'was', 'indeed', 'i', 'who', 'was', 'reflected', 'in', 'the', 'mirror;', 'and', 'when', 'i', 'became', 'fully', 'convinced', 'that', 'i', 'was', 'in', 'reality', 'the', 'monster', 'that', 'i', 'am,', 'i', 'was', 'filled', 'with', 'the', 'bitterest', 'sensations', 'of', 'despondence', 'and', 'mortification.', 'alas!', 'i', 'did', 'not', 'yet', 'entirely', 'know', 'the', 'fatal', 'effects', 'of', 'this', 'miserable', 'deformity.', '&lt;p-end/&gt;', '&lt;p-start/&gt;', '%q%as', 'the', 'sun', 'became', 'warmer,', 'and', 'the', 'light', 'of', 'day', 'longer,', 'the', 'snow', 'vanished,', 'and', 'i', 'beheld', 'the', 'bare', 'trees', 'and', 'the', 'black', 'earth.', 'from', 'this', 'time', 'felix', 'was', 'more']"
                         xml:id="C18_app481_rg2">
                   <rdg wit="#f1818">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1818_vol_2_chapter_iv.xml#C18_app481-f1818__I"/>
@@ -8175,7 +8175,7 @@
                <rdgGrp xml:id="C18_app483_rg_empty">
                   <rdg wit="#fMS"/>
                </rdgGrp>
-               <rdgGrp n="['and', 'the', 'heart-moving', 'indications', 'of', 'impending', 'famine', 'disappeared.', 'their', 'food,', 'as', 'i', 'afterwards', 'found,', 'was', 'coarse,', 'but', 'it', 'was', 'wholesome;', 'and', 'they', 'procured', 'a', 'sufficiency', 'of', 'it.', 'several', 'new', 'kinds', 'of', 'plants', 'sprung', 'up', 'in', 'the', 'garden,', 'which', 'they', 'dressed;', 'and', 'these', 'signs', 'of', 'comfort', 'increased', 'daily', 'as', 'the', 'season', 'advanced.', '&lt;p-end/&gt;', '&lt;p-start/&gt;', '&#34;the', 'old', 'man,', 'leaning', 'on', 'his', 'son,', 'walked', 'each', 'day', 'at', 'noon,', 'when', 'it', 'did', 'not', 'rain,', 'as', 'i', 'found', 'it', 'was', 'called', 'when', 'the', 'heavens', 'poured', 'forth', 'its', 'waters.', 'this', 'frequently', 'took', 'place;', 'but', 'a', 'high', 'wind', 'quickly', 'dried', 'the', 'earth,', 'and', 'the', 'season', 'became', 'far', 'more', 'pleasant', 'than', 'it', 'had', 'been.', '&lt;p-end/&gt;', '&lt;p-start/&gt;', '&#34;my', 'mode', 'of', 'life', 'in', 'my', 'hovel', 'was', 'uniform.', 'during', 'the']"
+               <rdgGrp n="['and', 'the', 'heart-moving', 'indications', 'of', 'impending', 'famine', 'disappeared.', 'their', 'food,', 'as', 'i', 'afterwards', 'found,', 'was', 'coarse,', 'but', 'it', 'was', 'wholesome;', 'and', 'they', 'procured', 'a', 'sufficiency', 'of', 'it.', 'several', 'new', 'kinds', 'of', 'plants', 'sprung', 'up', 'in', 'the', 'garden,', 'which', 'they', 'dressed;', 'and', 'these', 'signs', 'of', 'comfort', 'increased', 'daily', 'as', 'the', 'season', 'advanced.', '&lt;p-end/&gt;', '&lt;p-start/&gt;', '%q%the', 'old', 'man,', 'leaning', 'on', 'his', 'son,', 'walked', 'each', 'day', 'at', 'noon,', 'when', 'it', 'did', 'not', 'rain,', 'as', 'i', 'found', 'it', 'was', 'called', 'when', 'the', 'heavens', 'poured', 'forth', 'its', 'waters.', 'this', 'frequently', 'took', 'place;', 'but', 'a', 'high', 'wind', 'quickly', 'dried', 'the', 'earth,', 'and', 'the', 'season', 'became', 'far', 'more', 'pleasant', 'than', 'it', 'had', 'been.', '&lt;p-end/&gt;', '&lt;p-start/&gt;', '%q%my', 'mode', 'of', 'life', 'in', 'my', 'hovel', 'was', 'uniform.', 'during', 'the']"
                         xml:id="C18_app483_rg1">
                   <rdg wit="#f1818">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1818_vol_2_chapter_iv.xml#C18_app483-f1818__I"/>
@@ -8224,7 +8224,7 @@
                <rdgGrp xml:id="C18_app485_rg_empty">
                   <rdg wit="#fMS"/>
                </rdgGrp>
-               <rdgGrp n="['i', 'attended', 'the', 'motions', 'of', 'the', 'cottagers;', 'and', 'when', 'they', 'were', 'dispersed', 'in', 'various', 'occupations,', 'i', 'slept:', 'the', 'remainder', 'of', 'the', 'day', 'was', 'spent', 'in', 'observing', 'my', 'friends.', 'when', 'they', 'had', 'retired', 'to', 'rest,', 'if', 'there', 'was', 'any', 'moon,', 'or', 'the', 'night', 'was', 'star-light,', 'i', 'went', 'into', 'the', 'woods,', 'and', 'collected', 'my', 'own', 'food', 'and', 'fuel', 'for', 'the', 'cottage.', 'when', 'i', 'returned,', 'as', 'often', 'as', 'it', 'was', 'necessary,', 'i', 'cleared', 'their', 'path', 'from', 'the', 'snow,', 'and', 'performed', 'those', 'offices', 'that', 'i', 'had', 'seen', 'done', 'by', 'felix.', 'i', 'afterwards', 'found', 'that', 'these', 'labours,', 'performed', 'by', 'an', 'invisible', 'hand,', 'greatly', 'astonished', 'them;', 'and', 'once', 'or', 'twice', 'i', 'heard', 'them,', 'on', 'these', 'occasions,', 'utter', 'the', 'words', '&lt;hi&gt;good', 'spirit&lt;/hi&gt;,', '&lt;hi&gt;wonderful&lt;/hi&gt;;', 'but', 'i', 'did', 'not', 'then', 'understand', 'the', 'signification', 'of', 'these', 'terms.', '&lt;p-end/&gt;', '&lt;p-start/&gt;', '&#34;my', 'thoughts', 'now', 'became', 'more', 'active,', 'and', 'i', 'longed', 'to', 'discover', 'the', 'motives', 'and', 'feelings', 'of', 'these', 'lovely', 'creatures;', 'i', 'was', 'inquisitive', 'to', 'know', 'why', 'felix', 'appeared', 'so', 'miserable,', 'and', 'agatha', 'so', 'sad.', 'i', 'thought', '(foolish', 'wretch!)', 'that', 'it', 'might', 'be', 'in', 'my', 'power', 'to', 'restore', 'happiness', 'to', 'these', 'deserving', 'people.', 'when', 'i', 'slept,', 'or', 'was', 'absent,', 'the', 'forms', 'of', 'the', 'venerable', 'blind', 'father,', 'the', 'gentle', 'agatha,', 'and', 'the', 'excellent', 'felix,', 'flitted', 'before', 'me.', 'i', 'looked', 'upon', 'them', 'as', 'superior', 'beings,', 'who', 'would', 'be', 'the', 'arbiters', 'of', 'my', 'future', 'destiny.', 'i', 'formed', 'in', 'my', 'imagination', 'a', 'thousand', 'pictures', 'of', 'presenting', 'myself', 'to', 'them,', 'and', 'their', 'reception', 'of', 'me.', 'i', 'imagined', 'that', 'they', 'would', 'be', 'disgusted,', 'until,', 'by', 'my', 'gentle', 'demeanour', 'and', 'conciliating', 'words,', 'i', 'should', 'first', 'win', 'their', 'favour,', 'and', 'afterwards', 'their', 'love.', '&lt;p-end/&gt;', '&lt;p-start/&gt;', '&#34;these', 'thoughts', 'exhilarated', 'me,', 'and', 'led', 'me', 'to', 'apply', 'with', 'fresh', 'ardour', 'to', 'the', 'acquiring', 'the', 'art', 'of', 'language.', 'my', 'organs', 'were', 'indeed', 'harsh,', 'but', 'supple;', 'and', 'although', 'my', 'voice', 'was', 'very', 'unlike', 'the', 'soft', 'music', 'of', 'their', 'tones,', 'yet', 'i', 'pronounced', 'such', 'words', 'as', 'i', 'understood', 'with', 'tolerable', 'ease.', 'it', 'was', 'as', 'the', 'ass', 'and', 'the', 'lap-dog;', 'yet', 'surely', 'the', 'gentle']"
+               <rdgGrp n="['i', 'attended', 'the', 'motions', 'of', 'the', 'cottagers;', 'and', 'when', 'they', 'were', 'dispersed', 'in', 'various', 'occupations,', 'i', 'slept:', 'the', 'remainder', 'of', 'the', 'day', 'was', 'spent', 'in', 'observing', 'my', 'friends.', 'when', 'they', 'had', 'retired', 'to', 'rest,', 'if', 'there', 'was', 'any', 'moon,', 'or', 'the', 'night', 'was', 'star-light,', 'i', 'went', 'into', 'the', 'woods,', 'and', 'collected', 'my', 'own', 'food', 'and', 'fuel', 'for', 'the', 'cottage.', 'when', 'i', 'returned,', 'as', 'often', 'as', 'it', 'was', 'necessary,', 'i', 'cleared', 'their', 'path', 'from', 'the', 'snow,', 'and', 'performed', 'those', 'offices', 'that', 'i', 'had', 'seen', 'done', 'by', 'felix.', 'i', 'afterwards', 'found', 'that', 'these', 'labours,', 'performed', 'by', 'an', 'invisible', 'hand,', 'greatly', 'astonished', 'them;', 'and', 'once', 'or', 'twice', 'i', 'heard', 'them,', 'on', 'these', 'occasions,', 'utter', 'the', 'words', '&lt;hi&gt;good', 'spirit&lt;/hi&gt;,', '&lt;hi&gt;wonderful&lt;/hi&gt;;', 'but', 'i', 'did', 'not', 'then', 'understand', 'the', 'signification', 'of', 'these', 'terms.', '&lt;p-end/&gt;', '&lt;p-start/&gt;', '%q%my', 'thoughts', 'now', 'became', 'more', 'active,', 'and', 'i', 'longed', 'to', 'discover', 'the', 'motives', 'and', 'feelings', 'of', 'these', 'lovely', 'creatures;', 'i', 'was', 'inquisitive', 'to', 'know', 'why', 'felix', 'appeared', 'so', 'miserable,', 'and', 'agatha', 'so', 'sad.', 'i', 'thought', '(foolish', 'wretch!)', 'that', 'it', 'might', 'be', 'in', 'my', 'power', 'to', 'restore', 'happiness', 'to', 'these', 'deserving', 'people.', 'when', 'i', 'slept,', 'or', 'was', 'absent,', 'the', 'forms', 'of', 'the', 'venerable', 'blind', 'father,', 'the', 'gentle', 'agatha,', 'and', 'the', 'excellent', 'felix,', 'flitted', 'before', 'me.', 'i', 'looked', 'upon', 'them', 'as', 'superior', 'beings,', 'who', 'would', 'be', 'the', 'arbiters', 'of', 'my', 'future', 'destiny.', 'i', 'formed', 'in', 'my', 'imagination', 'a', 'thousand', 'pictures', 'of', 'presenting', 'myself', 'to', 'them,', 'and', 'their', 'reception', 'of', 'me.', 'i', 'imagined', 'that', 'they', 'would', 'be', 'disgusted,', 'until,', 'by', 'my', 'gentle', 'demeanour', 'and', 'conciliating', 'words,', 'i', 'should', 'first', 'win', 'their', 'favour,', 'and', 'afterwards', 'their', 'love.', '&lt;p-end/&gt;', '&lt;p-start/&gt;', '%q%these', 'thoughts', 'exhilarated', 'me,', 'and', 'led', 'me', 'to', 'apply', 'with', 'fresh', 'ardour', 'to', 'the', 'acquiring', 'the', 'art', 'of', 'language.', 'my', 'organs', 'were', 'indeed', 'harsh,', 'but', 'supple;', 'and', 'although', 'my', 'voice', 'was', 'very', 'unlike', 'the', 'soft', 'music', 'of', 'their', 'tones,', 'yet', 'i', 'pronounced', 'such', 'words', 'as', 'i', 'understood', 'with', 'tolerable', 'ease.', 'it', 'was', 'as', 'the', 'ass', 'and', 'the', 'lap-dog;', 'yet', 'surely', 'the', 'gentle']"
                         xml:id="C18_app485_rg1">
                   <rdg wit="#f1818">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1818_vol_2_chapter_iv.xml#C18_app485-f1818__I"/>
@@ -8273,7 +8273,7 @@
                <rdgGrp xml:id="C18_app487_rg_empty">
                   <rdg wit="#fMS"/>
                </rdgGrp>
-               <rdgGrp n="['whose', 'intentions', 'were', 'affectionate,', 'although', 'his', 'manners', 'were', 'rude,', 'deserved', 'better', 'treatment', 'than', 'blows', 'and', 'execration.', '&lt;p-end/&gt;', '&lt;p-start/&gt;', '&#34;the', 'pleasant', 'showers', 'and', 'genial', 'warmth', 'of', 'spring', 'greatly', 'altered', 'the', 'aspect', 'of', 'the', 'earth.', 'men,', 'who']"
+               <rdgGrp n="['whose', 'intentions', 'were', 'affectionate,', 'although', 'his', 'manners', 'were', 'rude,', 'deserved', 'better', 'treatment', 'than', 'blows', 'and', 'execration.', '&lt;p-end/&gt;', '&lt;p-start/&gt;', '%q%the', 'pleasant', 'showers', 'and', 'genial', 'warmth', 'of', 'spring', 'greatly', 'altered', 'the', 'aspect', 'of', 'the', 'earth.', 'men,', 'who']"
                         xml:id="C18_app487_rg1">
                   <rdg wit="#f1818">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1818_vol_2_chapter_iv.xml#C18_app487-f1818__I"/>
@@ -8308,7 +8308,7 @@
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1831_chapter_xii.xml#C18_app488-f1831"/>
                   </rdg>
                </rdgGrp>
-               <rdgGrp n="['bfore', '&lt;note resp=&#34;fv-team-ebb&#34;&gt;printer error: misses the &#34;e&#34; in before.&lt;/note&gt;']"
+               <rdgGrp n="['bfore', '&lt;note resp=%q%fv-team-ebb%q%&gt;printer error: misses the &#34;e&#34; in before.&lt;/note&gt;']"
                         xml:id="C18_app488_rg2">
                   <rdg wit="#f1823">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1823_vol_1_chapter_xi.xml#C18_app488-f1823"/>
@@ -8335,11 +8335,11 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C18_app490" n="5">
+            <app xml:id="C18_app490" n="7">
                <rdgGrp xml:id="C18_app490_rg_empty">
                   <rdg wit="#fMS"/>
                </rdgGrp>
-               <rdgGrp n="['joy.&#34;']" xml:id="C18_app490_rg1">
+               <rdgGrp n="['joy.%q%']" xml:id="C18_app490_rg1">
                   <rdg wit="#f1823">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1823_vol_1_chapter_xi.xml#C18_app490-f1823"/>
                   </rdg>
