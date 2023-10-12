@@ -65,9 +65,9 @@
                                     maximum of these values in the <att>n</att> attribute on each <gi>app</gi>
                                     element.</p>
             <p>Produced from collation output prepared in batch file processing
-                                    on  2023-08-17 04:22:12.043501 .</p>
+                                    on  2023-10-07 21:35:00.565567 .</p>
             <p>Edited to correct alignments and prepared for the Frankenstein
-                                    Variorum spine on 2023-08-28T03:20:00.540411-04:00.</p>
+                                    Variorum spine on 2023-10-07T18:40:17.85615-04:00.</p>
          </editorialDecl>
          <appInfo>
             <application ident="collateX" version="1.7.1">
@@ -135,8 +135,8 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C22_app5" n="1">
-               <rdgGrp n="['&#34;c&lt;hi&gt;ursed&lt;/hi&gt;,']" xml:id="C22_app5_rg1">
+            <app xml:id="C22_app5" n="3">
+               <rdgGrp n="['%q%c&lt;hi&gt;ursed&lt;/hi&gt;,']" xml:id="C22_app5_rg1">
                   <rdg wit="#f1818">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1818_vol_2_chapter_viii.xml#C22_app5-f1818"/>
                   </rdg>
@@ -380,7 +380,7 @@
                      </witDetail>
                   </rdg>
                </rdgGrp>
-               <rdgGrp n="['&lt;p-end/&gt;', '&lt;p-start/&gt;', '&#34;when']" xml:id="C22_app21_rg2">
+               <rdgGrp n="['&lt;p-end/&gt;', '&lt;p-start/&gt;', '%q%when']" xml:id="C22_app21_rg2">
                   <rdg wit="#f1818">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1818_vol_2_chapter_viii.xml#C22_app21-f1818__I"/>
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1818_vol_2_chapter_viii.xml#C22_app21-f1818__F"/>
@@ -1099,7 +1099,7 @@
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1831_chapter_xvi.xml#C22_app66-f1831"/>
                   </rdg>
                </rdgGrp>
-               <rdgGrp n="['&lt;del&gt; &lt;unclear extent=&#34;1&#34; unit=&#34;chars&#34;/&gt; &lt;/del&gt;', 'spread']"
+               <rdgGrp n="['&lt;del&gt; &lt;unclear extent=%q%1%q% unit=%q%chars%q%/&gt; &lt;/del&gt;', 'spread']"
                         xml:id="C22_app66_rg2">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c57_chap_7.xml#C22_app66-fMS"/>
@@ -1210,8 +1210,8 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C22_app75" n="1">
-               <rdgGrp n="['&#34;but']" xml:id="C22_app75_rg1">
+            <app xml:id="C22_app75" n="3">
+               <rdgGrp n="['%q%but']" xml:id="C22_app75_rg1">
                   <rdg wit="#f1818">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1818_vol_2_chapter_viii.xml#C22_app75-f1818"/>
                   </rdg>
@@ -1664,8 +1664,8 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C22_app104" n="1">
-               <rdgGrp n="['&#34;the']" xml:id="C22_app104_rg1">
+            <app xml:id="C22_app104" n="3">
+               <rdgGrp n="['%q%the']" xml:id="C22_app104_rg1">
                   <rdg wit="#f1818">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1818_vol_2_chapter_viii.xml#C22_app104-f1818"/>
                   </rdg>
@@ -1842,8 +1842,8 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C22_app116" n="2">
-               <rdgGrp n="['situation.', '&lt;p-end/&gt;', '&lt;p-start/&gt;', '&#34;the']"
+            <app xml:id="C22_app116" n="4">
+               <rdgGrp n="['situation.', '&lt;p-end/&gt;', '&lt;p-start/&gt;', '%q%the']"
                         xml:id="C22_app116_rg1">
                   <rdg wit="#f1818">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1818_vol_2_chapter_viii.xml#C22_app116-f1818__I"/>
@@ -2509,8 +2509,8 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C22_app163" n="1">
-               <rdgGrp n="['&#34;these']" xml:id="C22_app163_rg1">
+            <app xml:id="C22_app163" n="3">
+               <rdgGrp n="['%q%these']" xml:id="C22_app163_rg1">
                   <rdg wit="#f1818">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1818_vol_2_chapter_viii.xml#C22_app163-f1818"/>
                   </rdg>
@@ -2673,7 +2673,7 @@
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1831_chapter_xvi.xml#C22_app172-f1831"/>
                   </rdg>
                </rdgGrp>
-               <rdgGrp n="['of', 'peaceful', 'dreams', '&lt;del&gt;for ever&lt;/del&gt;', 'the', '&lt;w ana=&#34;start&#34;/&gt;hor ri', '', '&lt;mdel&gt;d&lt;/mdel&gt;', 'ble', '&lt;w ana=&#34;end&#34;/&gt;']"
+               <rdgGrp n="['of', 'peaceful', 'dreams', '&lt;del&gt;for ever&lt;/del&gt;', 'the', '&lt;w ana=%q%start%q%/&gt;hor ri', '', '&lt;mdel&gt;d&lt;/mdel&gt;', 'ble', '&lt;w ana=%q%end%q%/&gt;']"
                         xml:id="C22_app172_rg2">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c57_chap_7.xml#C22_app172-fMS"/>
@@ -2996,7 +2996,7 @@
                      </witDetail>
                   </rdg>
                </rdgGrp>
-               <rdgGrp n="['&lt;p-end/&gt;', '&lt;p-start/&gt;', '&#34;when']" xml:id="C22_app193_rg2">
+               <rdgGrp n="['&lt;p-end/&gt;', '&lt;p-start/&gt;', '%q%when']" xml:id="C22_app193_rg2">
                   <rdg wit="#f1818">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1818_vol_2_chapter_viii.xml#C22_app193-f1818__I"/>
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1818_vol_2_chapter_viii.xml#C22_app193-f1818__F"/>
@@ -3204,7 +3204,7 @@
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1831_chapter_xvi.xml#C22_app207-f1831"/>
                   </rdg>
                </rdgGrp>
-               <rdgGrp n="['', '&lt;del&gt; &lt;unclear extent=&#34;1&#34; unit=&#34;chars&#34;/&gt; &lt;/del&gt;', 'past,']"
+               <rdgGrp n="['', '&lt;del&gt; &lt;unclear extent=%q%1%q% unit=%q%chars%q%/&gt; &lt;/del&gt;', 'past,']"
                         xml:id="C22_app207_rg2">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c57_chapt_8.xml#C22_app207-fMS__I"/>
@@ -3430,8 +3430,8 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C22_app221" n="1">
-               <rdgGrp n="['&#34;presently']" xml:id="C22_app221_rg1">
+            <app xml:id="C22_app221" n="3">
+               <rdgGrp n="['%q%presently']" xml:id="C22_app221_rg1">
                   <rdg wit="#f1818">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1818_vol_2_chapter_viii.xml#C22_app221-f1818"/>
                   </rdg>
@@ -3879,7 +3879,7 @@
                </rdgGrp>
             </app>
             <app xml:id="C22_app250" n="1">
-               <rdgGrp n="['&#34;do']" xml:id="C22_app250_rg1">
+               <rdgGrp n="['%q%do']" xml:id="C22_app250_rg1">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c57_chapt_8.xml#C22_app250-fMS"/>
                      <witDetail wit="#fMS" target="sga:c57/#/p54">
@@ -3892,7 +3892,7 @@
                      </witDetail>
                   </rdg>
                </rdgGrp>
-               <rdgGrp n="['&lt;p-end/&gt;', '&lt;p-start/&gt;', '&#34;‘do']" xml:id="C22_app250_rg2">
+               <rdgGrp n="['&lt;p-end/&gt;', '&lt;p-start/&gt;', '%q%‘do']" xml:id="C22_app250_rg2">
                   <rdg wit="#f1818">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1818_vol_2_chapter_viii.xml#C22_app250-f1818__I"/>
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1818_vol_2_chapter_viii.xml#C22_app250-f1818__F"/>
@@ -3911,8 +3911,8 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C22_app252" n="1">
-               <rdgGrp n="['consider,', '&#34;said']" xml:id="C22_app252_rg1">
+            <app xml:id="C22_app252" n="3">
+               <rdgGrp n="['consider,', '%q%said']" xml:id="C22_app252_rg1">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c57_chapt_8.xml#C22_app252-fMS"/>
                      <witDetail wit="#fMS" target="sga:c57/#/p54">
@@ -3972,8 +3972,8 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C22_app256" n="1">
-               <rdgGrp n="['&#34;will']" xml:id="C22_app256_rg1">
+            <app xml:id="C22_app256" n="3">
+               <rdgGrp n="['%q%will']" xml:id="C22_app256_rg1">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c57_chapt_8.xml#C22_app256-fMS"/>
                      <witDetail wit="#fMS" target="sga:c57/#/p54">
@@ -4001,8 +4001,8 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C22_app258" n="2">
-               <rdgGrp n="['months', 'rent', '&#34;and']" xml:id="C22_app258_rg1">
+            <app xml:id="C22_app258" n="4">
+               <rdgGrp n="['months', 'rent', '%q%and']" xml:id="C22_app258_rg1">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c57_chapt_8.xml#C22_app258-fMS"/>
                      <witDetail wit="#fMS" target="sga:c57/#/p54">
@@ -4033,8 +4033,8 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C22_app260" n="6">
-               <rdgGrp n="['garden.', '&#34;', '&lt;del&gt;cons&lt;/del&gt;']" xml:id="C22_app260_rg1">
+            <app xml:id="C22_app260" n="8">
+               <rdgGrp n="['garden.', '%q%', '&lt;del&gt;cons&lt;/del&gt;']" xml:id="C22_app260_rg1">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c57_chapt_8.xml#C22_app260-fMS"/>
                      <witDetail wit="#fMS" target="sga:c57/#/p54">
@@ -4219,8 +4219,8 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C22_app270" n="2">
-               <rdgGrp n="['&#34;‘it']" xml:id="C22_app270_rg1">
+            <app xml:id="C22_app270" n="4">
+               <rdgGrp n="['%q%‘it']" xml:id="C22_app270_rg1">
                   <rdg wit="#f1818">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1818_vol_2_chapter_viii.xml#C22_app270-f1818"/>
                   </rdg>
@@ -4719,8 +4719,8 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C22_app302" n="1">
-               <rdgGrp n="['&#34;felix']" xml:id="C22_app302_rg1">
+            <app xml:id="C22_app302" n="3">
+               <rdgGrp n="['%q%felix']" xml:id="C22_app302_rg1">
                   <rdg wit="#f1818">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1818_vol_2_chapter_viii.xml#C22_app302-f1818"/>
                   </rdg>
@@ -4915,7 +4915,7 @@
                </rdgGrp>
             </app>
             <app xml:id="C22_app312" n="8">
-               <rdgGrp n="['&#34;i']" xml:id="C22_app312_rg1">
+               <rdgGrp n="['%q%i']" xml:id="C22_app312_rg1">
                   <rdg wit="#f1818">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1818_vol_2_chapter_viii.xml#C22_app312-f1818"/>
                   </rdg>
@@ -5780,8 +5780,8 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C22_app364" n="1">
-               <rdgGrp n="['&lt;p-end/&gt;', '&lt;p-start/&gt;', '&#34;as']" xml:id="C22_app364_rg1">
+            <app xml:id="C22_app364" n="3">
+               <rdgGrp n="['&lt;p-end/&gt;', '&lt;p-start/&gt;', '%q%as']" xml:id="C22_app364_rg1">
                   <rdg wit="#f1818">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1818_vol_2_chapter_viii.xml#C22_app364-f1818__I"/>
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1818_vol_2_chapter_viii.xml#C22_app364-f1818__F"/>
@@ -6830,7 +6830,7 @@
                      </witDetail>
                   </rdg>
                </rdgGrp>
-               <rdgGrp n="['tongues.', '&lt;p-end/&gt;', '&lt;p-start/&gt;', '&#34;as']"
+               <rdgGrp n="['tongues.', '&lt;p-end/&gt;', '&lt;p-start/&gt;', '%q%as']"
                         xml:id="C22_app421_rg2">
                   <rdg wit="#f1818">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1818_vol_2_chapter_viii.xml#C22_app421-f1818__I"/>
@@ -6971,8 +6971,8 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C22_app430" n="3">
-               <rdgGrp n="['&#34;and', 'now,']" xml:id="C22_app430_rg1">
+            <app xml:id="C22_app430" n="5">
+               <rdgGrp n="['%q%and', 'now,']" xml:id="C22_app430_rg1">
                   <rdg wit="#f1818">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1818_vol_2_chapter_viii.xml#C22_app430-f1818"/>
                   </rdg>
@@ -7509,8 +7509,8 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C22_app462" n="1">
-               <rdgGrp n="['&#34;but']" xml:id="C22_app462_rg1">
+            <app xml:id="C22_app462" n="3">
+               <rdgGrp n="['%q%but']" xml:id="C22_app462_rg1">
                   <rdg wit="#f1818">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1818_vol_2_chapter_viii.xml#C22_app462-f1818"/>
                   </rdg>
@@ -7855,7 +7855,7 @@
                </rdgGrp>
             </app>
             <app xml:id="C22_app484" n="20">
-               <rdgGrp n="['', '&lt;del&gt;the&lt;/del&gt;', '&lt;w ana=&#34;start&#34;/&gt;senti ment', '', '&lt;del&gt;s&lt;w ana=&#34;end&#34;/&gt; of&lt;/del&gt;', '&lt;del&gt;detestatio&lt;/del&gt;', '&lt;mdel&gt;n&lt;/mdel&gt;', 'that']"
+               <rdgGrp n="['', '&lt;del&gt;the&lt;/del&gt;', '&lt;w ana=%q%start%q%/&gt;senti ment', '', '&lt;del&gt;s&lt;w ana=%q%end%q%/&gt; of&lt;/del&gt;', '&lt;del&gt;detestatio&lt;/del&gt;', '&lt;mdel&gt;n&lt;/mdel&gt;', 'that']"
                         xml:id="C22_app484_rg1">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c57_chapt_8.xml#C22_app484-fMS__I"/>
@@ -8195,8 +8195,8 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C22_app502" n="1">
-               <rdgGrp n="['&#34;my']" xml:id="C22_app502_rg1">
+            <app xml:id="C22_app502" n="3">
+               <rdgGrp n="['%q%my']" xml:id="C22_app502_rg1">
                   <rdg wit="#f1818">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1818_vol_2_chapter_viii.xml#C22_app502-f1818"/>
                   </rdg>
@@ -9303,8 +9303,8 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C22_app573" n="1">
-               <rdgGrp n="['&#34;i']" xml:id="C22_app573_rg1">
+            <app xml:id="C22_app573" n="3">
+               <rdgGrp n="['%q%i']" xml:id="C22_app573_rg1">
                   <rdg wit="#f1818">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1818_vol_2_chapter_viii.xml#C22_app573-f1818"/>
                   </rdg>
@@ -9378,7 +9378,7 @@
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1831_chapter_xvi.xml#C22_app577-f1831"/>
                   </rdg>
                </rdgGrp>
-               <rdgGrp n="['', '&lt;del&gt; &lt;unclear extent=&#34;2&#34; unit=&#34;chars&#34;/&gt; &lt;/del&gt;', 'one']"
+               <rdgGrp n="['', '&lt;del&gt; &lt;unclear extent=%q%2%q% unit=%q%chars%q%/&gt; &lt;/del&gt;', 'one']"
                         xml:id="C22_app577_rg2">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c57_chapt_8.xml#C22_app577-fMS"/>
@@ -10140,8 +10140,8 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C22_app621" n="1">
-               <rdgGrp n="['&#34;i']" xml:id="C22_app621_rg1">
+            <app xml:id="C22_app621" n="3">
+               <rdgGrp n="['%q%i']" xml:id="C22_app621_rg1">
                   <rdg wit="#f1818">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1818_vol_2_chapter_viii.xml#C22_app621-f1818"/>
                   </rdg>
@@ -11494,8 +11494,8 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C22_app705" n="7">
-               <rdgGrp n="['&#34;this was then']" xml:id="C22_app705_rg1">
+            <app xml:id="C22_app705" n="9">
+               <rdgGrp n="['%q%this was then']" xml:id="C22_app705_rg1">
                   <rdg wit="#f1818">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1818_vol_2_chapter_viii.xml#C22_app705-f1818"/>
                   </rdg>
@@ -12017,8 +12017,8 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C22_app736" n="1">
-               <rdgGrp n="['&#34;for']" xml:id="C22_app736_rg1">
+            <app xml:id="C22_app736" n="3">
+               <rdgGrp n="['%q%for']" xml:id="C22_app736_rg1">
                   <rdg wit="#f1818">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1818_vol_2_chapter_viii.xml#C22_app736-f1818"/>
                   </rdg>
@@ -12440,8 +12440,8 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C22_app761" n="1">
-               <rdgGrp n="['&#34;after']" xml:id="C22_app761_rg1">
+            <app xml:id="C22_app761" n="3">
+               <rdgGrp n="['%q%after']" xml:id="C22_app761_rg1">
                   <rdg wit="#f1818">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1818_vol_2_chapter_viii.xml#C22_app761-f1818"/>
                   </rdg>
@@ -12647,7 +12647,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C22_app775" n="18">
+            <app xml:id="C22_app775" n="20">
                <rdgGrp n="['enjoyment.', 'but', 'my', '', '&lt;del&gt;journey&lt;/del&gt;']"
                         xml:id="C22_app775_rg1">
                   <rdg wit="#fMS">
@@ -12666,7 +12666,7 @@
                      </witDetail>
                   </rdg>
                </rdgGrp>
-               <rdgGrp n="['the', 'enjoyment', 'of', 'pleasure.', '&lt;p-end/&gt;', '&lt;p-start/&gt;', '&#34;but', 'my']"
+               <rdgGrp n="['the', 'enjoyment', 'of', 'pleasure.', '&lt;p-end/&gt;', '&lt;p-start/&gt;', '%q%but', 'my']"
                         xml:id="C22_app775_rg2">
                   <rdg wit="#f1818">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1818_vol_2_chapter_viii.xml#C22_app775-f1818__I"/>
@@ -12811,8 +12811,8 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C22_app784" n="1">
-               <rdgGrp n="['&#34;it']" xml:id="C22_app784_rg1">
+            <app xml:id="C22_app784" n="3">
+               <rdgGrp n="['%q%it']" xml:id="C22_app784_rg1">
                   <rdg wit="#f1818">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1818_vol_2_chapter_viii.xml#C22_app784-f1818"/>
                   </rdg>
@@ -13076,8 +13076,8 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C22_app800" n="1">
-               <rdgGrp n="['&lt;p-end/&gt;', '&lt;p-start/&gt;', '&#34;at']" xml:id="C22_app800_rg1">
+            <app xml:id="C22_app800" n="3">
+               <rdgGrp n="['&lt;p-end/&gt;', '&lt;p-start/&gt;', '%q%at']" xml:id="C22_app800_rg1">
                   <rdg wit="#f1818">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1818_vol_2_chapter_viii.xml#C22_app800-f1818__I"/>
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1818_vol_2_chapter_viii.xml#C22_app800-f1818__F"/>
@@ -13590,7 +13590,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C22_app832" n="2">
+            <app xml:id="C22_app832" n="3">
                <rdgGrp n="['&lt;del&gt;un&lt;/del&gt;', 'urged']" xml:id="C22_app832_rg1">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c57_the_same_chap_9.xml#C22_app832-fMS"/>
@@ -13604,7 +13604,7 @@
                      </witDetail>
                   </rdg>
                </rdgGrp>
-               <rdgGrp n="['&lt;p-end/&gt;', '&lt;p-start/&gt;', '&#34;urged']" xml:id="C22_app832_rg2">
+               <rdgGrp n="['&lt;p-end/&gt;', '&lt;p-start/&gt;', '%q%urged']" xml:id="C22_app832_rg2">
                   <rdg wit="#f1818">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1818_vol_2_chapter_viii.xml#C22_app832-f1818__I"/>
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1818_vol_2_chapter_viii.xml#C22_app832-f1818__F"/>
@@ -13887,7 +13887,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C22_app852" n="2">
+            <app xml:id="C22_app852" n="4">
                <rdgGrp n="['me.', 'he']" xml:id="C22_app852_rg1">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c57_the_same_chap_9.xml#C22_app852-fMS"/>
@@ -13901,7 +13901,7 @@
                      </witDetail>
                   </rdg>
                </rdgGrp>
-               <rdgGrp n="['me.’', '&lt;p-end/&gt;', '&lt;p-start/&gt;', '&#34;he']" xml:id="C22_app852_rg2">
+               <rdgGrp n="['me.’', '&lt;p-end/&gt;', '&lt;p-start/&gt;', '%q%he']" xml:id="C22_app852_rg2">
                   <rdg wit="#f1818">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1818_vol_2_chapter_viii.xml#C22_app852-f1818__I"/>
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1818_vol_2_chapter_viii.xml#C22_app852-f1818__F"/>
@@ -14174,7 +14174,7 @@
                      </witDetail>
                   </rdg>
                </rdgGrp>
-               <rdgGrp n="['papa.’', '&lt;p-end/&gt;', '&lt;p-start/&gt;', '&#34;‘boy,']"
+               <rdgGrp n="['papa.’', '&lt;p-end/&gt;', '&lt;p-start/&gt;', '%q%‘boy,']"
                         xml:id="C22_app870_rg2">
                   <rdg wit="#f1818">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1818_vol_2_chapter_viii.xml#C22_app870-f1818__I"/>
@@ -14241,7 +14241,7 @@
                      </witDetail>
                   </rdg>
                </rdgGrp>
-               <rdgGrp n="['me.’', '&lt;p-end/&gt;', '&lt;p-start/&gt;', '&#34;‘hideous', 'monster!']"
+               <rdgGrp n="['me.’', '&lt;p-end/&gt;', '&lt;p-start/&gt;', '%q%‘hideous', 'monster!']"
                         xml:id="C22_app874_rg2">
                   <rdg wit="#f1818">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1818_vol_2_chapter_viii.xml#C22_app874-f1818__I"/>
@@ -14390,7 +14390,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C22_app884" n="11">
+            <app xml:id="C22_app884" n="13">
                <rdgGrp n="['me', '', '&lt;mdel&gt;!&lt;/mdel&gt;', '.', '', 'frankenstein', 'cried', 'i', '—']"
                         xml:id="C22_app884_rg1">
                   <rdg wit="#fMS">
@@ -14405,7 +14405,7 @@
                      </witDetail>
                   </rdg>
                </rdgGrp>
-               <rdgGrp n="['me.’', '&lt;p-end/&gt;', '&lt;p-start/&gt;', '&#34;‘frankenstein!']"
+               <rdgGrp n="['me.’', '&lt;p-end/&gt;', '&lt;p-start/&gt;', '%q%‘frankenstein!']"
                         xml:id="C22_app884_rg2">
                   <rdg wit="#f1818">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1818_vol_2_chapter_viii.xml#C22_app884-f1818__I"/>
@@ -14483,7 +14483,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C22_app890" n="2">
+            <app xml:id="C22_app890" n="4">
                <rdgGrp n="['victim.', 'the']" xml:id="C22_app890_rg1">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c57_the_same_chap_9.xml#C22_app890-fMS"/>
@@ -14497,7 +14497,7 @@
                      </witDetail>
                   </rdg>
                </rdgGrp>
-               <rdgGrp n="['victim.’', '&lt;p-end/&gt;', '&lt;p-start/&gt;', '&#34;the']"
+               <rdgGrp n="['victim.’', '&lt;p-end/&gt;', '&lt;p-start/&gt;', '%q%the']"
                         xml:id="C22_app890_rg2">
                   <rdg wit="#f1818">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1818_vol_2_chapter_viii.xml#C22_app890-f1818__I"/>
@@ -14670,8 +14670,8 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C22_app901" n="1">
-               <rdgGrp n="['&#34;i']" xml:id="C22_app901_rg1">
+            <app xml:id="C22_app901" n="3">
+               <rdgGrp n="['%q%i']" xml:id="C22_app901_rg1">
                   <rdg wit="#f1818">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1818_vol_2_chapter_viii.xml#C22_app901-f1818"/>
                   </rdg>
@@ -14975,7 +14975,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C22_app919" n="2">
+            <app xml:id="C22_app919" n="4">
                <rdgGrp n="['him.', 'as']" xml:id="C22_app919_rg1">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c57_the_same_chap_9.xml#C22_app919-fMS"/>
@@ -14992,7 +14992,8 @@
                      </witDetail>
                   </rdg>
                </rdgGrp>
-               <rdgGrp n="['him.’', '&lt;p-end/&gt;', '&lt;p-start/&gt;', '&#34;as']" xml:id="C22_app919_rg2">
+               <rdgGrp n="['him.’', '&lt;p-end/&gt;', '&lt;p-start/&gt;', '%q%as']"
+                        xml:id="C22_app919_rg2">
                   <rdg wit="#f1818">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1818_vol_2_chapter_viii.xml#C22_app919-f1818__I"/>
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1818_vol_2_chapter_viii.xml#C22_app919-f1818__F"/>
@@ -15041,7 +15042,7 @@
                </rdgGrp>
             </app>
             <app xml:id="C22_app923" n="0">
-               <rdgGrp n="['&lt;w ana=&#34;start&#34;/&gt;some', 'thing&lt;w ana=&#34;end&#34;/&gt;']"
+               <rdgGrp n="['&lt;w ana=%q%start%q%/&gt;some', 'thing&lt;w ana=%q%end%q%/&gt;']"
                         xml:id="C22_app923_rg1">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c57_the_same_chap_9.xml#C22_app923-fMS"/>
@@ -15522,8 +15523,8 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C22_app953" n="1">
-               <rdgGrp n="['&#34;can']" xml:id="C22_app953_rg1">
+            <app xml:id="C22_app953" n="3">
+               <rdgGrp n="['%q%can']" xml:id="C22_app953_rg1">
                   <rdg wit="#f1818">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1818_vol_2_chapter_viii.xml#C22_app953-f1818"/>
                   </rdg>
@@ -15667,8 +15668,8 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C22_app962" n="1">
-               <rdgGrp n="['&#34;while']" xml:id="C22_app962_rg1">
+            <app xml:id="C22_app962" n="3">
+               <rdgGrp n="['%q%while']" xml:id="C22_app962_rg1">
                   <rdg wit="#f1818">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1818_vol_2_chapter_viii.xml#C22_app962-f1818"/>
                   </rdg>
@@ -16196,7 +16197,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C22_app994" n="507">
+            <app xml:id="C22_app994" n="513">
                <rdgGrp n="['me', '', '&lt;del&gt;but&lt;/del&gt;']" xml:id="C22_app994_rg1">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c57_the_same_chap_9.xml#C22_app994-fMS"/>
@@ -16213,7 +16214,7 @@
                      </witDetail>
                   </rdg>
                </rdgGrp>
-               <rdgGrp n="['me.', 'and then i bent over her, and whispered &#34;awake, fairest, thy lover is near—he who would give his life but to obtain one look of affection from thine eyes: my beloved, awake!&#34;&lt;p-end/&gt;&lt;p-start/&gt;&#34;the sleeper stirred; a thrill of terror ran through me. should she indeed awake, andsee me, and curse me, and denounce the murderer? thus would she assuredly act, if her darkened eyes opened, and she beheld me. the thought was madness; it stirred the fiend within me—not i, but she shall suffer: the murder i have committed because i am for ever robbed of all that she could give me, she shall atone. the crime had its source in her: be hers the punishment!']"
+               <rdgGrp n="['me.', 'and then i bent over her, and whispered %q%awake, fairest, thy lover is near—he who would give his life but to obtain one look of affection from thine eyes: my beloved, awake!%q%&lt;p-end/&gt;&lt;p-start/&gt;%q%the sleeper stirred; a thrill of terror ran through me. should she indeed awake, andsee me, and curse me, and denounce the murderer? thus would she assuredly act, if her darkened eyes opened, and she beheld me. the thought was madness; it stirred the fiend within me—not i, but she shall suffer: the murder i have committed because i am for ever robbed of all that she could give me, she shall atone. the crime had its source in her: be hers the punishment!']"
                         xml:id="C22_app994_rg2">
                   <rdg wit="#f1831">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1831_chapter_xvi.xml#C22_app994-f1831__I"/>
@@ -16470,8 +16471,8 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C22_app1008" n="1">
-               <rdgGrp n="['&#34;for']" xml:id="C22_app1008_rg1">
+            <app xml:id="C22_app1008" n="3">
+               <rdgGrp n="['%q%for']" xml:id="C22_app1008_rg1">
                   <rdg wit="#f1818">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1818_vol_2_chapter_viii.xml#C22_app1008-f1818"/>
                   </rdg>
@@ -17015,7 +17016,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C22_app1046" n="1">
+            <app xml:id="C22_app1046" n="3">
                <rdgGrp n="['create', '.']" xml:id="C22_app1046_rg1">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c57_the_same_chap_9.xml#C22_app1046-fMS__I"/>
@@ -17030,7 +17031,7 @@
                      </witDetail>
                   </rdg>
                </rdgGrp>
-               <rdgGrp n="['create.&#34;', '&lt;p-end/&gt;']" xml:id="C22_app1046_rg2">
+               <rdgGrp n="['create.%q%', '&lt;p-end/&gt;']" xml:id="C22_app1046_rg2">
                   <rdg wit="#f1818">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1818_vol_2_chapter_viii.xml#C22_app1046-f1818__I"/>
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1818_vol_2_chapter_viii.xml#C22_app1046-f1818__F"/>

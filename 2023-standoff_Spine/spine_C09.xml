@@ -65,9 +65,9 @@
                                     maximum of these values in the <att>n</att> attribute on each <gi>app</gi>
                                     element.</p>
             <p>Produced from collation output prepared in batch file processing
-                                    on  2023-08-17 03:53:04.227652 .</p>
+                                    on  2023-10-07 21:04:20.289069 .</p>
             <p>Edited to correct alignments and prepared for the Frankenstein
-                                    Variorum spine on 2023-08-28T03:20:00.540411-04:00.</p>
+                                    Variorum spine on 2023-10-07T18:40:17.85615-04:00.</p>
          </editorialDecl>
          <appInfo>
             <application ident="collateX" version="1.7.1">
@@ -2824,7 +2824,7 @@
                </rdgGrp>
             </app>
             <app xml:id="C09_app141" n="95">
-               <rdgGrp n="['ha', '', '&lt;mdel&gt;v&lt;/mdel&gt;', 'd', '', '&lt;mdel&gt;ng&lt;/mdel&gt;', '', 'learned', 'all', 'the', 'professors', 'at', 'ingolstadt', 'were', 'qualified', 'to', 'teach', '', '&lt;del&gt;that&lt;/del&gt;', 'm', '', '&lt;mdel&gt; &lt;/mdel&gt;', 'y', '', 'residence', '&lt;del&gt;at &lt;w ana=&#34;start&#34;/&gt;in&lt;/del&gt;', '', '&lt;del&gt;golstadt&lt;w ana=&#34;end&#34;/&gt; was&lt;/del&gt;']"
+               <rdgGrp n="['ha', '', '&lt;mdel&gt;v&lt;/mdel&gt;', 'd', '', '&lt;mdel&gt;ng&lt;/mdel&gt;', '', 'learned', 'all', 'the', 'professors', 'at', 'ingolstadt', 'were', 'qualified', 'to', 'teach', '', '&lt;del&gt;that&lt;/del&gt;', 'm', '', '&lt;mdel&gt; &lt;/mdel&gt;', 'y', '', 'residence', '&lt;del&gt;at &lt;w ana=%q%start%q%/&gt;in&lt;/del&gt;', '', '&lt;del&gt;golstadt&lt;w ana=%q%end%q%/&gt; was&lt;/del&gt;']"
                         xml:id="C09_app141_rg1">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c56_chap_5.xml#C09_app141-fMS"/>
@@ -11129,8 +11129,8 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C09_app604" n="1">
-               <rdgGrp n="['&#34;you']" xml:id="C09_app604_rg1">
+            <app xml:id="C09_app604" n="3">
+               <rdgGrp n="['%q%you']" xml:id="C09_app604_rg1">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c56_chapter_6.xml#C09_app604-fMS"/>
                      <witDetail wit="#fMS" target="sga:c56/#/p42">
@@ -11187,8 +11187,8 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C09_app608" n="6">
-               <rdgGrp n="['&#34;will', '&lt;del&gt;thing&lt;/del&gt;']" xml:id="C09_app608_rg1">
+            <app xml:id="C09_app608" n="8">
+               <rdgGrp n="['%q%will', '&lt;del&gt;thing&lt;/del&gt;']" xml:id="C09_app608_rg1">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c56_chapter_6.xml#C09_app608-fMS"/>
                      <witDetail wit="#fMS" target="sga:c56/#/p42">
@@ -11216,8 +11216,8 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C09_app610" n="1">
-               <rdgGrp n="['affection', '&#34;and']" xml:id="C09_app610_rg1">
+            <app xml:id="C09_app610" n="3">
+               <rdgGrp n="['affection', '%q%and']" xml:id="C09_app610_rg1">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c56_chapter_6.xml#C09_app610-fMS"/>
                      <witDetail wit="#fMS" target="sga:c56/#/p42">
@@ -11248,8 +11248,8 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C09_app612" n="4">
-               <rdgGrp n="['&#34;you.', 'and']" xml:id="C09_app612_rg1">
+            <app xml:id="C09_app612" n="6">
+               <rdgGrp n="['%q%you.', 'and']" xml:id="C09_app612_rg1">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c56_chapter_6.xml#C09_app612-fMS"/>
                      <witDetail wit="#fMS" target="sga:c56/#/p42">
@@ -11306,8 +11306,8 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C09_app615" n="1">
-               <rdgGrp n="['&#34;if']" xml:id="C09_app615_rg1">
+            <app xml:id="C09_app615" n="3">
+               <rdgGrp n="['%q%if']" xml:id="C09_app615_rg1">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c56_chapter_6.xml#C09_app615-fMS"/>
                      <witDetail wit="#fMS" target="sga:c56/#/p42">
@@ -11364,8 +11364,8 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C09_app618" n="1">
-               <rdgGrp n="['&#34;in']" xml:id="C09_app618_rg1">
+            <app xml:id="C09_app618" n="3">
+               <rdgGrp n="['%q%in']" xml:id="C09_app618_rg1">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c56_chapter_6.xml#C09_app618-fMS"/>
                      <witDetail wit="#fMS" target="sga:c56/#/p42">
@@ -11422,8 +11422,8 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C09_app622" n="1">
-               <rdgGrp n="['&#34;that']" xml:id="C09_app622_rg1">
+            <app xml:id="C09_app622" n="3">
+               <rdgGrp n="['%q%that']" xml:id="C09_app622_rg1">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c56_chapter_6.xml#C09_app622-fMS"/>
                      <witDetail wit="#fMS" target="sga:c56/#/p42">
@@ -11483,7 +11483,7 @@
                </rdgGrp>
             </app>
             <app xml:id="C09_app626" n="1">
-               <rdgGrp n="['neglected&#34;']" xml:id="C09_app626_rg1">
+               <rdgGrp n="['neglected%q%']" xml:id="C09_app626_rg1">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c56_chapter_6.xml#C09_app626-fMS"/>
                      <witDetail wit="#fMS" target="sga:c56/#/p42">
@@ -11496,7 +11496,7 @@
                      </witDetail>
                   </rdg>
                </rdgGrp>
-               <rdgGrp n="['neglected.&#34;', '&lt;p-end/&gt;', '&lt;p-start/&gt;']" xml:id="C09_app626_rg2">
+               <rdgGrp n="['neglected.%q%', '&lt;p-end/&gt;', '&lt;p-start/&gt;']" xml:id="C09_app626_rg2">
                   <rdg wit="#f1818">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1818_vol_1_chapter_iii.xml#C09_app626-f1818__I"/>
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1818_vol_1_chapter_iii.xml#C09_app626-f1818__F"/>
@@ -12760,7 +12760,7 @@
                </rdgGrp>
             </app>
             <app xml:id="C09_app701" n="1">
-               <rdgGrp n="['&lt;w ana=&#34;start&#34;/&gt;gradua', 'l', 'ly&lt;w ana=&#34;end&#34;/&gt;,']"
+               <rdgGrp n="['&lt;w ana=%q%start%q%/&gt;gradua', 'l', 'ly&lt;w ana=%q%end%q%/&gt;,']"
                         xml:id="C09_app701_rg1">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c56_chapter_6.xml#C09_app701-fMS"/>
@@ -13664,67 +13664,50 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C09_app752" n="4">
-               <rdgGrp n="['comple', '', '&lt;mdel&gt;et&lt;/mdel&gt;', 'te', '', '&lt;mdel&gt;ed&lt;/mdel&gt;']"
-                        xml:id="C09_app752_rg1">
+            <app xml:id="C09_app751" n="93">
+               <rdgGrp n="['when my creation should be  comple  &lt;mdel&gt;et&lt;/mdel&gt; te  &lt;mdel&gt;ed&lt;/mdel&gt;  . &lt;del&gt;i had had t  then determined to  go to geneva as soon as this should be  done and a in the midst of my  family find eve &lt;/del&gt;', '&lt;surface eid=%q%ox-ms_abinger_c56-0044%q%/&gt;']"
+                        xml:id="C09_app751_rg1">
                   <rdg wit="#fMS">
-                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c56_chapter_6.xml#C09_app752-fMS__I"/>
-                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c56_chapter_6.xml#C09_app752-fMS__F"/>
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c56_chapter_6.xml#C09_app751-fMS"/>
                      <witDetail wit="#fMS" target="sga:c56/#/p44">
                         <ref type="page"
                               target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0044.xml">
-                           <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0044.xml#string-range(//tei:surface[@xml:id='ox-ms_abinger_c56-0044']/tei:zone[@type='main']//tei:line[22],0,18)"/>
-                           <fv:line_text>comple  et te  ed</fv:line_text>
-                           <fv:resolved_text>comple et te ed .</fv:resolved_text>
+                           <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0044.xml#string-range(//tei:surface[@xml:id='ox-ms_abinger_c56-0044']/tei:zone[@type='main']//tei:line[21],8,176)"/>
+                           <fv:line_text>(ofthese) when my creation should be comple  et te  ed  . I had had t  then determined to go to Geneva as soon as this should be done and a in the midst of my family find eve   </fv:line_text>
+                           <fv:resolved_text>e when my creation should be</fv:resolved_text>
+                           <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0044.xml#string-range(//tei:surface[@xml:id='ox-ms_abinger_c56-0044']/tei:zone[@type='main']//tei:line[22],0,53)"/>
+                           <fv:line_text>comple  et te  ed  . I had had t  then determined to</fv:line_text>
+                           <fv:resolved_text>comple et te ed . I hadhad t then determined to</fv:resolved_text>
+                           <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0044.xml#string-range(//tei:surface[@xml:id='ox-ms_abinger_c56-0044']/tei:zone[@type='main']//tei:line[23],0,39)"/>
+                           <fv:line_text>go to Geneva as soon as this should be</fv:line_text>
+                           <fv:resolved_text>go to Geneva as soon as this should be</fv:resolved_text>
+                           <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0044.xml#string-range(//tei:surface[@xml:id='ox-ms_abinger_c56-0044']/tei:zone[@type='main']//tei:line[24],0,30)"/>
+                           <fv:line_text>done and a in the midst of my</fv:line_text>
+                           <fv:resolved_text>done and a in the midst of my</fv:resolved_text>
+                           <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0044.xml#string-range(//tei:surface[@xml:id='ox-ms_abinger_c56-0044']/tei:zone[@type='main']//tei:line[25],0,19)"/>
+                           <fv:line_text>family find eve   </fv:line_text>
+                           <fv:resolved_text>family find eve</fv:resolved_text>
                         </ref>
                      </witDetail>
                   </rdg>
                </rdgGrp>
-               <rdgGrp n="['complete.', '&lt;p-end/&gt;']" xml:id="C09_app752_rg2">
+               <rdgGrp n="['when', 'my', 'creation', 'should', 'be', 'complete.', '&lt;p-end/&gt;', '']"
+                        xml:id="C09_app751_rg2">
                   <rdg wit="#f1818">
-                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1818_vol_1_chapter_iii.xml#C09_app752-f1818__I"/>
-                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1818_vol_1_chapter_iii.xml#C09_app752-f1818__F"/>
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1818_vol_1_chapter_iii.xml#C09_app751-f1818__I"/>
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1818_vol_1_chapter_iii.xml#C09_app751-f1818__F"/>
                   </rdg>
                   <rdg wit="#f1823">
-                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1823_vol_1_chapter_iii.xml#C09_app752-f1823__I"/>
-                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1823_vol_1_chapter_iii.xml#C09_app752-f1823__F"/>
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1823_vol_1_chapter_iii.xml#C09_app751-f1823__I"/>
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1823_vol_1_chapter_iii.xml#C09_app751-f1823__F"/>
                   </rdg>
                   <rdg wit="#fThomas">
-                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fThomas_vol_1_chapter_iii.xml#C09_app752-fThomas__I"/>
-                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fThomas_vol_1_chapter_iii.xml#C09_app752-fThomas__F"/>
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fThomas_vol_1_chapter_iii.xml#C09_app751-fThomas__I"/>
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fThomas_vol_1_chapter_iii.xml#C09_app751-fThomas__F"/>
                   </rdg>
                   <rdg wit="#f1831">
-                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1831_chapter_iv.xml#C09_app752-f1831__I"/>
-                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1831_chapter_iv.xml#C09_app752-f1831__F"/>
-                  </rdg>
-               </rdgGrp>
-            </app>
-            <app xml:id="C09_app754" n="9">
-               <rdgGrp n="['']" xml:id="C09_app754_rg1">
-                  <rdg wit="#f1818">
-                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1818_vol_1_chapter_iii.xml#C09_app754-f1818"/>
-                  </rdg>
-                  <rdg wit="#f1823">
-                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1823_vol_1_chapter_iii.xml#C09_app754-f1823"/>
-                  </rdg>
-                  <rdg wit="#fThomas">
-                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fThomas_vol_1_chapter_iii.xml#C09_app754-fThomas"/>
-                  </rdg>
-                  <rdg wit="#f1831">
-                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1831_chapter_iv.xml#C09_app754-f1831"/>
-                  </rdg>
-               </rdgGrp>
-               <rdgGrp n="['.', '&lt;del&gt;i', 'had', 'had', 't', '']" xml:id="C09_app754_rg2">
-                  <rdg wit="#fMS">
-                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c56_chapter_6.xml#C09_app754-fMS"/>
-                     <witDetail wit="#fMS" target="sga:c56/#/p44">
-                        <ref type="page"
-                              target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0044.xml">
-                           <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0044.xml#string-range(//tei:surface[@xml:id='ox-ms_abinger_c56-0044']/tei:zone[@type='main']//tei:line[22],18,33)"/>
-                           <fv:line_text>(comple  et te  ed) . I had had t </fv:line_text>
-                           <fv:resolved_text> I hadhad t the</fv:resolved_text>
-                        </ref>
-                     </witDetail>
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1831_chapter_iv.xml#C09_app751-f1831__I"/>
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1831_chapter_iv.xml#C09_app751-f1831__F"/>
                   </rdg>
                </rdgGrp>
             </app>
