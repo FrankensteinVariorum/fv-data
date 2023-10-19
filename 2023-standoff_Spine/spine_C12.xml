@@ -65,9 +65,9 @@
                                     maximum of these values in the <att>n</att> attribute on each <gi>app</gi>
                                     element.</p>
             <p>Produced from collation output prepared in batch file processing
-                                    on  2023-10-07 21:09:39.671550 .</p>
+                                    on  2023-10-19 21:22:33.713192 .</p>
             <p>Edited to correct alignments and prepared for the Frankenstein
-                                    Variorum spine on 2023-10-07T18:40:17.85615-04:00.</p>
+                                    Variorum spine on 2023-10-19T17:47:14.485704-04:00.</p>
          </editorialDecl>
          <appInfo>
             <application ident="collateX" version="1.7.1">
@@ -2753,16 +2753,16 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C12_app148" n="4">
-               <rdgGrp n="['', '&#34;us all– ay']" xml:id="C12_app148_rg1">
+            <app xml:id="C12_app148" n="6">
+               <rdgGrp n="['', '%q%us all– ay']" xml:id="C12_app148_rg1">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c56_chap_8.xml#C12_app148-fMS"/>
                      <witDetail wit="#fMS" target="sga:c56/#/p68">
                         <ref type="page"
                               target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0068.xml">
-                           <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0068.xml#string-range(//tei:surface[@xml:id='ox-ms_abinger_c56-0068']/tei:zone[@type='main']//tei:line[8],0,13)"/>
-                           <fv:line_text> "us all– ay</fv:line_text>
-                           <fv:resolved_text>"us all– ay </fv:resolved_text>
+                           <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0068.xml#string-range(//tei:surface[@xml:id='ox-ms_abinger_c56-0068']/tei:zone[@type='main']//tei:line[8],0,15)"/>
+                           <fv:line_text> %q%us all– ay</fv:line_text>
+                           <fv:resolved_text>"us all– ay st</fv:resolved_text>
                         </ref>
                      </witDetail>
                   </rdg>
@@ -2791,9 +2791,9 @@
                      <witDetail wit="#fMS" target="sga:c56/#/p68">
                         <ref type="page"
                               target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0068.xml">
-                           <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0068.xml#string-range(//tei:surface[@xml:id='ox-ms_abinger_c56-0068']/tei:zone[@type='main']//tei:line[8],25,32)"/>
-                           <fv:line_text>( "us all– aystare if you) please</fv:line_text>
-                           <fv:resolved_text> please</fv:resolved_text>
+                           <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0068.xml#string-range(//tei:surface[@xml:id='ox-ms_abinger_c56-0068']/tei:zone[@type='main']//tei:line[8],27,34)"/>
+                           <fv:line_text>( %q%us all– aystare if you) please</fv:line_text>
+                           <fv:resolved_text>lease b</fv:resolved_text>
                         </ref>
                      </witDetail>
                   </rdg>
@@ -3225,16 +3225,16 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C12_app175" n="6">
-               <rdgGrp n="['&#34;of countenance.—aye, aye,']" xml:id="C12_app175_rg1">
+            <app xml:id="C12_app175" n="8">
+               <rdgGrp n="['%q%of countenance.—aye, aye,']" xml:id="C12_app175_rg1">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c56_chap_8.xml#C12_app175-fMS"/>
                      <witDetail wit="#fMS" target="sga:c56/#/p68">
                         <ref type="page"
                               target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0068.xml">
-                           <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0068.xml#string-range(//tei:surface[@xml:id='ox-ms_abinger_c56-0068']/tei:zone[@type='main']//tei:line[15],0,27)"/>
-                           <fv:line_text>"of countenance.—Aye, Aye,</fv:line_text>
-                           <fv:resolved_text>"of countenance.—Aye, Aye,</fv:resolved_text>
+                           <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0068.xml#string-range(//tei:surface[@xml:id='ox-ms_abinger_c56-0068']/tei:zone[@type='main']//tei:line[15],0,29)"/>
+                           <fv:line_text>%q%of countenance.—Aye, Aye,</fv:line_text>
+                           <fv:resolved_text>"of countenance.—Aye, Aye, c</fv:resolved_text>
                         </ref>
                      </witDetail>
                   </rdg>
@@ -3492,19 +3492,19 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C12_app192" n="2">
-               <rdgGrp n="['know', 'm', '&#34;']" xml:id="C12_app192_rg1">
+            <app xml:id="C12_app192" n="4">
+               <rdgGrp n="['know', 'm', '%q%']" xml:id="C12_app192_rg1">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c56_chap_8.xml#C12_app192-fMS"/>
                      <witDetail wit="#fMS" target="sga:c56/#/p68">
                         <ref type="page"
                               target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0068.xml">
-                           <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0068.xml#string-range(//tei:surface[@xml:id='ox-ms_abinger_c56-0068']/tei:zone[@type='main']//tei:line[20],26,36)"/>
-                           <fv:line_text>("diffidentofthemselvesyou) know M  "</fv:line_text>
-                           <fv:resolved_text>you know M</fv:resolved_text>
-                           <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0068.xml#string-range(//tei:surface[@xml:id='ox-ms_abinger_c56-0068']/tei:zone[@type='main']//tei:line[21],0,2)"/>
-                           <fv:line_text>"</fv:line_text>
-                           <fv:resolved_text>"</fv:resolved_text>
+                           <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0068.xml#string-range(//tei:surface[@xml:id='ox-ms_abinger_c56-0068']/tei:zone[@type='main']//tei:line[20],26,38)"/>
+                           <fv:line_text>("diffidentofthemselvesyou) know M  %q%</fv:line_text>
+                           <fv:resolved_text>you know Mr</fv:resolved_text>
+                           <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0068.xml#string-range(//tei:surface[@xml:id='ox-ms_abinger_c56-0068']/tei:zone[@type='main']//tei:line[21],0,4)"/>
+                           <fv:line_text>%q%</fv:line_text>
+                           <fv:resolved_text>"Cl</fv:resolved_text>
                         </ref>
                      </witDetail>
                   </rdg>
@@ -3545,9 +3545,9 @@
                      <witDetail wit="#fMS" target="sga:c56/#/p68">
                         <ref type="page"
                               target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0068.xml">
-                           <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0068.xml#string-range(//tei:surface[@xml:id='ox-ms_abinger_c56-0068']/tei:zone[@type='main']//tei:line[21],2,11)"/>
-                           <fv:line_text>(") Clerval;</fv:line_text>
-                           <fv:resolved_text>Clerval; </fv:resolved_text>
+                           <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0068.xml#string-range(//tei:surface[@xml:id='ox-ms_abinger_c56-0068']/tei:zone[@type='main']//tei:line[21],4,13)"/>
+                           <fv:line_text>(%q%) Clerval;</fv:line_text>
+                           <fv:resolved_text>erval; I </fv:resolved_text>
                         </ref>
                      </witDetail>
                   </rdg>
@@ -3560,9 +3560,9 @@
                      <witDetail wit="#fMS" target="sga:c56/#/p68">
                         <ref type="page"
                               target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0068.xml">
-                           <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0068.xml#string-range(//tei:surface[@xml:id='ox-ms_abinger_c56-0068']/tei:zone[@type='main']//tei:line[21],27,33)"/>
-                           <fv:line_text>("Clerval;I was myself when) young</fv:line_text>
-                           <fv:resolved_text>n youn</fv:resolved_text>
+                           <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0068.xml#string-range(//tei:surface[@xml:id='ox-ms_abinger_c56-0068']/tei:zone[@type='main']//tei:line[21],29,35)"/>
+                           <fv:line_text>(%q%Clerval;I was myself when) young</fv:line_text>
+                           <fv:resolved_text>young </fv:resolved_text>
                         </ref>
                      </witDetail>
                   </rdg>

@@ -65,9 +65,9 @@
                                     maximum of these values in the <att>n</att> attribute on each <gi>app</gi>
                                     element.</p>
             <p>Produced from collation output prepared in batch file processing
-                                    on  2023-10-07 21:06:47.974233 .</p>
+                                    on  2023-10-19 21:12:46.649229 .</p>
             <p>Edited to correct alignments and prepared for the Frankenstein
-                                    Variorum spine on 2023-10-07T18:40:17.85615-04:00.</p>
+                                    Variorum spine on 2023-10-19T17:47:14.485704-04:00.</p>
          </editorialDecl>
          <appInfo>
             <application ident="collateX" version="1.7.1">
@@ -4901,7 +4901,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C10_app286" n="27">
+            <app xml:id="C10_app286" n="22">
                <rdgGrp n="['tread*.', '&lt;l/&gt;', '&lt;lg/&gt;', '', '&lt;note&gt;* coleridge’s %q%ancient mariner.%q% &lt;/note&gt;']"
                         xml:id="C10_app286_rg1">
                   <rdg wit="#f1818">
@@ -4921,7 +4921,7 @@
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1831_chapter_v.xml#C10_app286-f1831__F"/>
                   </rdg>
                </rdgGrp>
-               <rdgGrp n="['tread.%q%', &#34;*   _______________  *coleridge's &#34;ancient mariner.&#34;&#34;]"
+               <rdgGrp n="['tread.%q%', &#34;*   _______________  *coleridge's %q%ancient mariner.%q%&#34;]"
                         xml:id="C10_app286_rg2">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c56_chapter_7.xml#C10_app286-fMS__I"/>
@@ -4929,8 +4929,8 @@
                      <witDetail wit="#fMS" target="sga:c56/#/p49">
                         <ref type="page"
                               target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0049.xml">
-                           <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0049.xml#string-range(//tei:surface[@xml:id='ox-ms_abinger_c56-0049']/tei:zone[@type='main']//tei:line[22],22,84)"/>
-                           <fv:line_text>("dothclose behind him) tread." *   _______________  *Coleridge's "Ancient Mariner." </fv:line_text>
+                           <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0049.xml#string-range(//tei:surface[@xml:id='ox-ms_abinger_c56-0049']/tei:zone[@type='main']//tei:line[22],22,88)"/>
+                           <fv:line_text>("dothclose behind him) tread." *   _______________  *Coleridge's %q%Ancient Mariner.%q% </fv:line_text>
                            <fv:resolved_text>m tread."*</fv:resolved_text>
                         </ref>
                      </witDetail>
@@ -5993,7 +5993,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C10_app353" n="9">
+            <app xml:id="C10_app353" n="7">
                <rdgGrp n="['%q%how', 'great']" xml:id="C10_app353_rg1">
                   <rdg wit="#f1818">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1818_vol_1_chapter_iv.xml#C10_app353-f1818"/>
@@ -6008,14 +6008,14 @@
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1831_chapter_v.xml#C10_app353-f1831"/>
                   </rdg>
                </rdgGrp>
-               <rdgGrp n="['&lt;del&gt;&#34;that&lt;/del&gt;', '%q%it']" xml:id="C10_app353_rg2">
+               <rdgGrp n="['&lt;del&gt;%q%that&lt;/del&gt;', '%q%it']" xml:id="C10_app353_rg2">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c56_chapter_7.xml#C10_app353-fMS"/>
                      <witDetail wit="#fMS" target="sga:c56/#/p50">
                         <ref type="page"
                               target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0050.xml">
-                           <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0050.xml#string-range(//tei:surface[@xml:id='ox-ms_abinger_c56-0050']/tei:zone[@type='main']//tei:line[24],27,37)"/>
-                           <fv:line_text>("You maybelieve," said he,) "that "it</fv:line_text>
+                           <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0050.xml#string-range(//tei:surface[@xml:id='ox-ms_abinger_c56-0050']/tei:zone[@type='main']//tei:line[24],27,39)"/>
+                           <fv:line_text>("You maybelieve," said he,) %q%that "it</fv:line_text>
                            <fv:resolved_text>, "that</fv:resolved_text>
                            <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0050.xml#string-range(//tei:surface[@xml:id='ox-ms_abinger_c56-0050']/tei:zone[@type='main']//tei:line[25],0,4)"/>
                            <fv:line_text>"it</fv:line_text>

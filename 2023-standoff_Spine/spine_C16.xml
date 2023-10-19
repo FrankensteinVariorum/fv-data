@@ -65,9 +65,9 @@
                                     maximum of these values in the <att>n</att> attribute on each <gi>app</gi>
                                     element.</p>
             <p>Produced from collation output prepared in batch file processing
-                                    on  2023-10-07 21:20:44.419056 .</p>
+                                    on  2023-10-19 21:33:38.017399 .</p>
             <p>Edited to correct alignments and prepared for the Frankenstein
-                                    Variorum spine on 2023-10-07T18:40:17.85615-04:00.</p>
+                                    Variorum spine on 2023-10-19T17:47:14.485704-04:00.</p>
          </editorialDecl>
          <appInfo>
             <application ident="collateX" version="1.7.1">
@@ -7238,16 +7238,16 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C16_app399" n="13">
-               <rdgGrp n="['&lt;del&gt;and&lt;/del&gt;', '&lt;del&gt;re&lt;/del&gt;', 'and', 'contempt', '– &#34;devil&#34;']"
+            <app xml:id="C16_app399" n="17">
+               <rdgGrp n="['&lt;del&gt;and&lt;/del&gt;', '&lt;del&gt;re&lt;/del&gt;', 'and', 'contempt', '– %q%devil%q%']"
                         xml:id="C16_app399_rg1">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c56_chap_14.xml#C16_app399-fMS"/>
                      <witDetail wit="#fMS" target="sga:c56/#/p124">
                         <ref type="page"
                               target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0124.xml">
-                           <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0124.xml#string-range(//tei:surface[@xml:id='ox-ms_abinger_c56-0124']/tei:zone[@type='main']//tei:line[14],12,42)"/>
-                           <fv:line_text>(detestation) and re and contempt – "Devil"</fv:line_text>
+                           <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0124.xml#string-range(//tei:surface[@xml:id='ox-ms_abinger_c56-0124']/tei:zone[@type='main']//tei:line[14],12,46)"/>
+                           <fv:line_text>(detestation) and re and contempt – %q%Devil%q%</fv:line_text>
                            <fv:resolved_text> and re and contempt – "Devil"</fv:resolved_text>
                         </ref>
                      </witDetail>
