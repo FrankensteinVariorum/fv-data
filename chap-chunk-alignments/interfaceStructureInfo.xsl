@@ -69,7 +69,7 @@
                     "chunks": [<xsl:for-each select="$chunks"><xsl:variable name="currentChunk" select="replace(current(), '\D+', '')" as="xs:string+"/>
                         {
                             "label": "<xsl:value-of select="current()"/>",
-                            "apps": [<xsl:value-of select="($currentEd//seg/@xml:id [substring-after(., 'C') ! substring-before(., '_app') = $currentChunk] ! substring-after(., 'app') ! substring-before(., '-'))[1]"/>, <xsl:value-of select="($currentEd//seg/@xml:id [substring-after(., 'C') ! substring-before(., '_app') = $currentChunk] ! substring-after(., 'app') ! substring-before(., '-'))[last()-1]"/>]
+                            "apps": [<xsl:value-of select="($currentEd//seg/@xml:id [substring-after(., 'C') ! substring-before(., '_app') = $currentChunk] ! substring-after(., 'app') ! substring-before(., '-'))[1]"/>, <xsl:value-of select="($currentEd//seg/@xml:id [substring-after(., 'C') ! substring-before(., '_app') = $currentChunk] ! substring-after(., 'app') ! substring-before(., '-'))[last()]"/>]
                         }<xsl:if test="position() != last()">,</xsl:if></xsl:for-each>
                     ]
                 }<xsl:if test="position() != last()">,</xsl:if></xsl:for-each>
