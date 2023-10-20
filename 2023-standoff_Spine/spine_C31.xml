@@ -65,9 +65,9 @@
                                     maximum of these values in the <att>n</att> attribute on each <gi>app</gi>
                                     element.</p>
             <p>Produced from collation output prepared in batch file processing
-                                    on  2023-10-07 22:03:02.694455 .</p>
+                                    on  2023-10-20 05:45:50.559058 .</p>
             <p>Edited to correct alignments and prepared for the Frankenstein
-                                    Variorum spine on 2023-10-19T17:47:14.485704-04:00.</p>
+                                    Variorum spine on 2023-10-20T02:19:32.040234-04:00.</p>
          </editorialDecl>
          <appInfo>
             <application ident="collateX" version="1.7.1">
@@ -8845,7 +8845,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C31_app528" n="19">
+            <app xml:id="C31_app528" n="17">
                <rdgGrp n="['must you endure until that period shall arrive.%q%']"
                         xml:id="C31_app528_rg1">
                   <rdg wit="#f1831">
@@ -8864,18 +8864,18 @@
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fThomas_vol_3_chapter_vii.xml#C31_app528-fThomas"/>
                   </rdg>
                </rdgGrp>
-               <rdgGrp n="['will you spend  untill that period arrives&#34;—']"
+               <rdgGrp n="['will you spend  untill that period arrives%q%—']"
                         xml:id="C31_app528_rg3">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c57_chap_18.xml#C31_app528-fMS"/>
                      <witDetail wit="#fMS" target="sga:c57/#/p162">
                         <ref type="page"
                               target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0162.xml">
-                           <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0162.xml#string-range(//tei:surface[@xml:id='ox-ms_abinger_c57-0162']/tei:zone[@type='main']//tei:line[2],23,67)"/>
-                           <fv:line_text>(hard &amp; miserable hours) will you spend untill that period arrives"—</fv:line_text>
+                           <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0162.xml#string-range(//tei:surface[@xml:id='ox-ms_abinger_c57-0162']/tei:zone[@type='main']//tei:line[2],23,69)"/>
+                           <fv:line_text>(hard &amp; miserable hours) will you spend untill that period arrives%q%—</fv:line_text>
                            <fv:resolved_text> will you spend</fv:resolved_text>
-                           <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0162.xml#string-range(//tei:surface[@xml:id='ox-ms_abinger_c57-0162']/tei:zone[@type='main']//tei:line[3],0,29)"/>
-                           <fv:line_text>untill that period arrives"—</fv:line_text>
+                           <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0162.xml#string-range(//tei:surface[@xml:id='ox-ms_abinger_c57-0162']/tei:zone[@type='main']//tei:line[3],0,31)"/>
+                           <fv:line_text>untill that period arrives%q%—</fv:line_text>
                            <fv:resolved_text>untill that period arrives"—</fv:resolved_text>
                         </ref>
                      </witDetail>

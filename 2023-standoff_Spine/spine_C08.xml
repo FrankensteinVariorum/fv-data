@@ -65,9 +65,9 @@
                                     maximum of these values in the <att>n</att> attribute on each <gi>app</gi>
                                     element.</p>
             <p>Produced from collation output prepared in batch file processing
-                                    on  2023-10-07 20:59:37.989974 .</p>
+                                    on  2023-10-20 04:41:02.529560 .</p>
             <p>Edited to correct alignments and prepared for the Frankenstein
-                                    Variorum spine on 2023-10-19T17:47:14.485704-04:00.</p>
+                                    Variorum spine on 2023-10-20T02:19:32.040234-04:00.</p>
          </editorialDecl>
          <appInfo>
             <application ident="collateX" version="1.7.1">
@@ -13191,32 +13191,32 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C08_app553" n="79">
-               <rdgGrp n="['myself. &#34;my  &#34;children said she it was on your  &#34;union that my firmest hopes of  &#34;future happiness were placed. it  &#34;will now be the consolation of  &#34;your &lt;del&gt;fathor&lt;/del&gt; father.&lt;del&gt; alone  &lt;/del&gt;']"
+            <app xml:id="C08_app553" n="82">
+               <rdgGrp n="['myself. %q%my  %q%children said she it was on your  %q%union that my firmest hopes of  %q%future happiness were placed. it  %q%will now be the consolation of  %q%your &lt;del&gt;fathor&lt;/del&gt; father.&lt;del&gt; alone  &lt;/del&gt;']"
                         xml:id="C08_app553_rg1">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c56_chapter_3.xml#C08_app553-fMS"/>
                      <witDetail wit="#fMS" target="sga:c56/#/p18">
                         <ref type="page"
                               target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0018.xml">
-                           <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0018.xml#string-range(//tei:surface[@xml:id='ox-ms_abinger_c56-0018']/tei:zone[@type='main']//tei:line[9],23,196)"/>
-                           <fv:line_text>(hands of Elizabeth and) myself. "My "children said she it was on your "union that my firmest hopes of "future happiness were placed. It "will now be the consolation of "your fathor father. alone  </fv:line_text>
+                           <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0018.xml#string-range(//tei:surface[@xml:id='ox-ms_abinger_c56-0018']/tei:zone[@type='main']//tei:line[9],23,208)"/>
+                           <fv:line_text>(hands of Elizabeth and) myself. %q%My %q%children said she it was on your %q%union that my firmest hopes of %q%future happiness were placed. It %q%will now be the consolation of %q%your fathor father. alone  </fv:line_text>
                            <fv:resolved_text> myself. "My</fv:resolved_text>
-                           <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0018.xml#string-range(//tei:surface[@xml:id='ox-ms_abinger_c56-0018']/tei:zone[@type='main']//tei:line[10],0,34)"/>
-                           <fv:line_text>"children said she it was on your</fv:line_text>
+                           <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0018.xml#string-range(//tei:surface[@xml:id='ox-ms_abinger_c56-0018']/tei:zone[@type='main']//tei:line[10],0,36)"/>
+                           <fv:line_text>%q%children said she it was on your</fv:line_text>
                            <fv:resolved_text>"children said she it was on your</fv:resolved_text>
-                           <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0018.xml#string-range(//tei:surface[@xml:id='ox-ms_abinger_c56-0018']/tei:zone[@type='main']//tei:line[11],0,32)"/>
-                           <fv:line_text>"union that my firmest hopes of</fv:line_text>
+                           <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0018.xml#string-range(//tei:surface[@xml:id='ox-ms_abinger_c56-0018']/tei:zone[@type='main']//tei:line[11],0,34)"/>
+                           <fv:line_text>%q%union that my firmest hopes of</fv:line_text>
                            <fv:resolved_text>"union that my firmest hopes of</fv:resolved_text>
-                           <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0018.xml#string-range(//tei:surface[@xml:id='ox-ms_abinger_c56-0018']/tei:zone[@type='main']//tei:line[12],0,34)"/>
-                           <fv:line_text>"future happiness were placed. It</fv:line_text>
+                           <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0018.xml#string-range(//tei:surface[@xml:id='ox-ms_abinger_c56-0018']/tei:zone[@type='main']//tei:line[12],0,36)"/>
+                           <fv:line_text>%q%future happiness were placed. It</fv:line_text>
                            <fv:resolved_text>"future happiness were placed. It</fv:resolved_text>
-                           <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0018.xml#string-range(//tei:surface[@xml:id='ox-ms_abinger_c56-0018']/tei:zone[@type='main']//tei:line[13],0,32)"/>
-                           <fv:line_text>"will now be the consolation of</fv:line_text>
+                           <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0018.xml#string-range(//tei:surface[@xml:id='ox-ms_abinger_c56-0018']/tei:zone[@type='main']//tei:line[13],0,34)"/>
+                           <fv:line_text>%q%will now be the consolation of</fv:line_text>
                            <fv:resolved_text>"will now be the consolation of</fv:resolved_text>
-                           <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0018.xml#string-range(//tei:surface[@xml:id='ox-ms_abinger_c56-0018']/tei:zone[@type='main']//tei:line[14],0,29)"/>
-                           <fv:line_text>"your fathor father. alone  </fv:line_text>
-                           <fv:resolved_text>"your fathor father.alone El</fv:resolved_text>
+                           <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0018.xml#string-range(//tei:surface[@xml:id='ox-ms_abinger_c56-0018']/tei:zone[@type='main']//tei:line[14],0,31)"/>
+                           <fv:line_text>%q%your fathor father. alone  </fv:line_text>
+                           <fv:resolved_text>"your fathor father.alone Eliz</fv:resolved_text>
                         </ref>
                      </witDetail>
                   </rdg>
@@ -13269,20 +13269,20 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C08_app557" n="22">
-               <rdgGrp n="['&lt;del&gt;the other&lt;/del&gt;  &#34;your young &lt;del&gt;cons&lt;/del&gt; cousins.']"
+            <app xml:id="C08_app557" n="24">
+               <rdgGrp n="['&lt;del&gt;the other&lt;/del&gt;  %q%your young &lt;del&gt;cons&lt;/del&gt; cousins.']"
                         xml:id="C08_app557_rg1">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c56_chapter_3.xml#C08_app557-fMS"/>
                      <witDetail wit="#fMS" target="sga:c56/#/p18">
                         <ref type="page"
                               target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0018.xml">
-                           <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0018.xml#string-range(//tei:surface[@xml:id='ox-ms_abinger_c56-0018']/tei:zone[@type='main']//tei:line[15],25,61)"/>
-                           <fv:line_text>("love,supply my place to) the other "your young cons cousins.</fv:line_text>
+                           <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0018.xml#string-range(//tei:surface[@xml:id='ox-ms_abinger_c56-0018']/tei:zone[@type='main']//tei:line[15],25,63)"/>
+                           <fv:line_text>("love,supply my place to) the other %q%your young cons cousins.</fv:line_text>
                            <fv:resolved_text>o the other</fv:resolved_text>
-                           <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0018.xml#string-range(//tei:surface[@xml:id='ox-ms_abinger_c56-0018']/tei:zone[@type='main']//tei:line[16],0,26)"/>
-                           <fv:line_text>"your young cons cousins.</fv:line_text>
-                           <fv:resolved_text>"your young cons cousins.</fv:resolved_text>
+                           <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0018.xml#string-range(//tei:surface[@xml:id='ox-ms_abinger_c56-0018']/tei:zone[@type='main']//tei:line[16],0,28)"/>
+                           <fv:line_text>%q%your young cons cousins.</fv:line_text>
+                           <fv:resolved_text>"your young cons cousins. A</fv:resolved_text>
                         </ref>
                      </witDetail>
                   </rdg>
@@ -18358,22 +18358,22 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C08_app802" n="47">
-               <rdgGrp n="['stared.', '&lt;del&gt;i', 'said', 'that', 'i', 'did', 'not', 'mention', 'these', '&lt;/del&gt;%q%have', 'you', 'really%q%', 'said', '&lt;del&gt;&#34;&lt;/del&gt;', 'he', '%q%spent', '%q%your']"
+            <app xml:id="C08_app802" n="46">
+               <rdgGrp n="['stared.', '&lt;del&gt;i', 'said', 'that', 'i', 'did', 'not', 'mention', 'these', '&lt;/del&gt;%q%have', 'you', 'really%q%', 'said', '&lt;del&gt;%q%&lt;/del&gt;', 'he', '%q%spent', '%q%your']"
                         xml:id="C08_app802_rg1">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c56_chap_4.xml#C08_app802-fMS"/>
                      <witDetail wit="#fMS" target="sga:c56/#/p24">
                         <ref type="page"
                               target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0024.xml">
-                           <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0024.xml#string-range(//tei:surface[@xml:id='ox-ms_abinger_c56-0024']/tei:zone[@type='main']//tei:line[15],23,108)"/>
-                           <fv:line_text>(subjects.The professor) stared. I said that I did not mention these "Have you really" said " he "spent "your</fv:line_text>
+                           <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0024.xml#string-range(//tei:surface[@xml:id='ox-ms_abinger_c56-0024']/tei:zone[@type='main']//tei:line[15],23,110)"/>
+                           <fv:line_text>(subjects.The professor) stared. I said that I did not mention these "Have you really" said %q% he "spent "your</fv:line_text>
                            <fv:resolved_text>r stared. I said</fv:resolved_text>
                            <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0024.xml#string-range(//tei:surface[@xml:id='ox-ms_abinger_c56-0024']/tei:zone[@type='main']//tei:line[16],0,30)"/>
                            <fv:line_text>that I did not mention these </fv:line_text>
                            <fv:resolved_text>that I did not mention these</fv:resolved_text>
-                           <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0024.xml#string-range(//tei:surface[@xml:id='ox-ms_abinger_c56-0024']/tei:zone[@type='main']//tei:line[17],0,35)"/>
-                           <fv:line_text>"Have you really" said " he "spent</fv:line_text>
+                           <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0024.xml#string-range(//tei:surface[@xml:id='ox-ms_abinger_c56-0024']/tei:zone[@type='main']//tei:line[17],0,37)"/>
+                           <fv:line_text>"Have you really" said %q% he "spent</fv:line_text>
                            <fv:resolved_text>"Have you really" said" he "spent</fv:resolved_text>
                            <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0024.xml#string-range(//tei:surface[@xml:id='ox-ms_abinger_c56-0024']/tei:zone[@type='main']//tei:line[18],0,6)"/>
                            <fv:line_text>"your</fv:line_text>
@@ -22342,16 +22342,16 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C08_app1040" n="3">
-               <rdgGrp n="['&#34;the heavens; –']" xml:id="C08_app1040_rg1">
+            <app xml:id="C08_app1040" n="5">
+               <rdgGrp n="['%q%the heavens; –']" xml:id="C08_app1040_rg1">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c56_chap_4.xml#C08_app1040-fMS"/>
                      <witDetail wit="#fMS" target="sga:c56/#/p28">
                         <ref type="page"
                               target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0028.xml">
-                           <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0028.xml#string-range(//tei:surface[@xml:id='ox-ms_abinger_c56-0028']/tei:zone[@type='main']//tei:line[2],0,16)"/>
-                           <fv:line_text>"the heavens; –</fv:line_text>
-                           <fv:resolved_text>"the heavens;– </fv:resolved_text>
+                           <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0028.xml#string-range(//tei:surface[@xml:id='ox-ms_abinger_c56-0028']/tei:zone[@type='main']//tei:line[2],0,18)"/>
+                           <fv:line_text>%q%the heavens; –</fv:line_text>
+                           <fv:resolved_text>"the heavens;– th</fv:resolved_text>
                         </ref>
                      </witDetail>
                   </rdg>
@@ -22380,9 +22380,9 @@
                      <witDetail wit="#fMS" target="sga:c56/#/p28">
                         <ref type="page"
                               target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0028.xml">
-                           <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0028.xml#string-range(//tei:surface[@xml:id='ox-ms_abinger_c56-0028']/tei:zone[@type='main']//tei:line[2],25,35)"/>
-                           <fv:line_text>("the heavens; –they have) discoverd</fv:line_text>
-                           <fv:resolved_text> discoverd</fv:resolved_text>
+                           <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0028.xml#string-range(//tei:surface[@xml:id='ox-ms_abinger_c56-0028']/tei:zone[@type='main']//tei:line[2],27,37)"/>
+                           <fv:line_text>(%q%the heavens; –they have) discoverd</fv:line_text>
+                           <fv:resolved_text>iscoverd h</fv:resolved_text>
                         </ref>
                      </witDetail>
                   </rdg>

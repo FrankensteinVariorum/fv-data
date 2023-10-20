@@ -65,9 +65,9 @@
                                     maximum of these values in the <att>n</att> attribute on each <gi>app</gi>
                                     element.</p>
             <p>Produced from collation output prepared in batch file processing
-                                    on  2023-10-07 21:31:07.254911 .</p>
+                                    on  2023-10-20 05:12:55.918456 .</p>
             <p>Edited to correct alignments and prepared for the Frankenstein
-                                    Variorum spine on 2023-10-19T17:47:14.485704-04:00.</p>
+                                    Variorum spine on 2023-10-20T02:19:32.040234-04:00.</p>
          </editorialDecl>
          <appInfo>
             <application ident="collateX" version="1.7.1">
@@ -14368,7 +14368,7 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C21_app844" n="22">
+            <app xml:id="C21_app844" n="24">
                <rdgGrp n="['germans?’', '&lt;p-end/&gt;', '&lt;p-start/&gt;', '%q%‘no,', 'they', 'are', 'french.', 'but']"
                         xml:id="C21_app844_rg1">
                   <rdg wit="#f1818">
@@ -14388,19 +14388,19 @@
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1831_chapter_xv.xml#C21_app844-f1831__F"/>
                   </rdg>
                </rdgGrp>
-               <rdgGrp n="['germans&#34;– &lt;del&gt; &lt;unclear extent=%q%1%q% unit=%q%chars%q%/&gt; &lt;/del&gt; asked  de lacey – &lt;del&gt;know&lt;/del&gt;&#34;no –they are', 'french', '–but']"
+               <rdgGrp n="['germans%q%– &lt;del&gt; &lt;unclear extent=%q%1%q% unit=%q%chars%q%/&gt; &lt;/del&gt; asked  de lacey – &lt;del&gt;know&lt;/del&gt;%q%no –they are', 'french', '–but']"
                         xml:id="C21_app844_rg2">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c57_chap_7.xml#C21_app844-fMS"/>
                      <witDetail wit="#fMS" target="sga:c57/#/p47">
                         <ref type="page"
                               target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0047.xml">
-                           <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0047.xml#string-range(//tei:surface[@xml:id='ox-ms_abinger_c57-0047']/tei:zone[@type='main']//tei:line[16],22,82)"/>
-                           <fv:line_text>(somehopes." "Arethese) Germans"–    Asked De Lacey – know"No –They are french –But</fv:line_text>
+                           <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0047.xml#string-range(//tei:surface[@xml:id='ox-ms_abinger_c57-0047']/tei:zone[@type='main']//tei:line[16],22,86)"/>
+                           <fv:line_text>(somehopes." "Arethese) Germans%q%–    Asked De Lacey – know%q%No –They are french –But</fv:line_text>
                            <fv:resolved_text>se Germans"– Asked</fv:resolved_text>
-                           <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0047.xml#string-range(//tei:surface[@xml:id='ox-ms_abinger_c57-0047']/tei:zone[@type='main']//tei:line[17],0,41)"/>
-                           <fv:line_text>De Lacey – know"No –They are french –But</fv:line_text>
-                           <fv:resolved_text>De Lacey – know"No –They are french –But</fv:resolved_text>
+                           <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0047.xml#string-range(//tei:surface[@xml:id='ox-ms_abinger_c57-0047']/tei:zone[@type='main']//tei:line[17],0,43)"/>
+                           <fv:line_text>De Lacey – know%q%No –They are french –But</fv:line_text>
+                           <fv:resolved_text>De Lacey – know"No –They are french –But l</fv:resolved_text>
                         </ref>
                      </witDetail>
                   </rdg>
