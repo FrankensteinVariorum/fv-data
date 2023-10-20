@@ -307,25 +307,21 @@
             </td>
             <td>
                <ul>
-                  <li>vol_1_chapter_iv.xml</li>
                   <li>vol_1_chapter_v.xml</li>
                </ul>
             </td>
             <td>
                <ul>
-                  <li>vol_1_chapter_iv.xml</li>
                   <li>vol_1_chapter_v.xml</li>
                </ul>
             </td>
             <td>
                <ul>
-                  <li>vol_1_chapter_iv.xml</li>
                   <li>vol_1_chapter_v.xml</li>
                </ul>
             </td>
             <td>
                <ul>
-                  <li>chapter_v.xml</li>
                   <li>chapter_vi.xml</li>
                </ul>
             </td>
@@ -735,6 +731,7 @@
                <ul>
                   <li>box_c57_chap_10.xml</li>
                   <li>box_c57_chap_2.xml</li>
+                  <li>box_c57_chap_12.xml</li>
                </ul>
             </td>
             <td>
@@ -766,7 +763,7 @@
             <td>C26</td>
             <td>
                <ul>
-                  <li>box_c57_chap_2.xml</li>
+                  <li>box_c57_chap_12.xml</li>
                   <li>box_c57_chapter_13.xml</li>
                </ul>
             </td>
