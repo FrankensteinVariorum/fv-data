@@ -1,4 +1,4 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" n="testms">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:sch="http://purl.oclc.org/dsdl/schematron" xml:lang="en" n="testms">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -189,7 +189,7 @@
         </elementSpec>
         <elementSpec ident="delSpan" mode="replace">
           <desc versionDate="2023-08-28" xml:lang="en">In the Shelley-Godwin Archive, <gi>delSpan</gi> elements point to <gi>anchor</gi> elements over uneven overlapping hierarchies in the text. In the Frankenstein Variorum
-          project, we needed to create matching start and end tags to display these passages properly as deletions in the reading interface. So e created a variation in which the 
+          project, we needed to create matching start and end tags to display these passages properly as deletions in the reading interface. So we created a variation in which the 
           <gi>delSpan</gi> element may be given a special <att>anchor</att> attribute to mark the endpoint for a deletion.</desc>
           
           <classes>
@@ -202,8 +202,8 @@
           </classes>
           <content><empty/></content>
           <attList>
-            <attDef ident="delSpan" usage="opt" mode="replace">
-              <datatype><dataRef key="teidata.text"/></datatype>
+            <attDef ident="spanTo" usage="opt" mode="replace">
+              <datatype><dataRef key="teidata.pointer"/></datatype>
             </attDef>
             <attDef ident="anchor" usage="opt">
               <datatype><dataRef key="ID"/></datatype>
@@ -395,6 +395,30 @@
             <macroRef key="macro.paraContent"/>
           </content>
         </elementSpec>
+        
+        <classSpec type="atts" ident="att.spanning" mode="replace">
+          <desc xml:lang="en" versionDate="2018-07-06">The @spanTo attribute must point to an element following the
+            current element. The Frankenstein Variorum project has modified this to point to an element with an @anchor attribute.</desc>         
+          <attList>
+            <attDef ident="spanTo" usage="opt">
+              <desc versionDate="2005-10-10" xml:lang="en">indicates the end of a span initiated by the element
+                bearing this attribute.</desc>
+              <datatype><dataRef key="teidata.pointer"/></datatype>
+              <constraintSpec ident="spanTo-points-to-following" scheme="schematron">
+                <desc xml:lang="en" versionDate="2018-07-06">The @spanTo attribute must point to an element following the
+                  current element</desc>
+                <constraint>
+                  <sch:rule context="tei:*[@spanTo]">
+                    <sch:assert test="following::*[@*[name() = 'anchor' or name() = 'xml:id']=substring(current()/@spanTo,2)]">
+                      The element indicated by @spanTo (<sch:value-of select="@spanTo"/>) must follow the current element <sch:name/>
+                    </sch:assert>
+                  </sch:rule>
+                </constraint>
+              </constraintSpec>
+            </attDef>
+          </attList>
+
+        </classSpec>
       </schemaSpec>
     </body>
   </text>
