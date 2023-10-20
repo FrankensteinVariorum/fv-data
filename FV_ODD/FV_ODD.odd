@@ -52,6 +52,11 @@
         </application>
       </appInfo>
     </encodingDesc>
+    <revisionDesc>
+      <listChange>
+        <change when="2023-10-19" resp="#ebb">Added customization of att.spanning so that @spanTo attributes now match to either @anchor or @xml:id attributes.</change>
+      </listChange>
+    </revisionDesc>
   </teiHeader>
   <text>
     <body>
@@ -397,7 +402,7 @@
         </elementSpec>
         
         <classSpec type="atts" ident="att.spanning" mode="replace">
-          <desc xml:lang="en" versionDate="2018-07-06">The @spanTo attribute must point to an element following the
+          <desc xml:lang="en" versionDate="2023-10-19">The @spanTo attribute must point to an element following the
             current element. The Frankenstein Variorum project has modified this to point to an element with an @anchor attribute.</desc>         
           <attList>
             <attDef ident="spanTo" usage="opt">
