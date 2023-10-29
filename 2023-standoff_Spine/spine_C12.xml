@@ -6,7 +6,18 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Spine: Collation unit C12</title>
+            <title>Spine: Collation unit C07</title>
+            <principal>Elisa Beshero-Bondar</principal>
+            <editor>Raffaele Viglianti</editor>
+            <editor>Yuying Jin</editor>
+            <respStmt>
+               <resp>Assisted in <date>2017-2019</date> by <name>Rikk Mulligan</name>, <name>Scott Weingart</name>, <name>Matthew Lincoln</name>, <name>Jon Klancher</name>, <name>Avery Wiscomb</name>, and <name>John Quirk</name> from</resp>
+               <orgName>Carnegie Mellon University.</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Assisted in 2020 - 2023 by <name>Nathan Hammer</name>, <name>Rachel Gerzevske</name>, <name>Jacqueline Chan</name> and <name>Mia Borgia</name> from</resp>
+               <orgName>Penn State Erie: The Behrend College.</orgName>
+            </respStmt>
          </titleStmt>
          <publicationStmt>
             <authority>Frankenstein Variorum Project</authority>
@@ -17,20 +28,30 @@
             </availability>
          </publicationStmt>
          <sourceDesc>
-            <p>This project digitally compares five versions of the novel <title level="m">Frankenstein</title> prepared between 1816 and 1831.
-                                <abbr>fMS</abbr> refers to the manuscript notebooks dated roughly 1816 to 1818 and stored in three boxes at the Bodleian library in Oxford.
+            <p>This <title level="m">Frankenstein Variorum</title> digitally compares five versions of the novel <title level="m">Frankenstein</title> prepared between 1816 and 1831.
+                                <abbr>fMS</abbr> refers to the manuscript notebooks dated roughly 1816 to 1818 and stored in three boxes at the Bodleian library in Oxford, of which our collation represents the material in boxes c56 and c57, representing most of the novel with some gaps.
                                     <abbr>f1818</abbr> refers to the first anonymous publication of Frankenstein in 1818. <abbr>fThomas</abbr> refers to a copy of the 1818 edition left by 
                                     Mary Shelley with her friend Mrs. Thomas in Italy before she left for England after the death of Percy Shelley. This copy contains 
                                     handwritten marginalia indicating edits she would make if there were ever a new edition, and apparently was not available for Mary Shelley to consult later.
                                     <abbr>f1823</abbr> refes to the published edition prepared by William Godwin, the first to feature Mary Wollstonecraft Godwin Shelley’s name as the author. 
-                                    <abbr>f1831</abbr> refers to a heavily revised version prepared by Mary Shelley in 1831 for Bentley's Standard Series of novels. 
-                                    This edition was bound together in one volume with <bibl>Friedrich von Schiller’s <title level="m">The Ghost Seer</title>
+                                    <abbr>f1831</abbr> refers to a heavily revised version prepared by Mary Shelley in 1831 for Bentley’s Standard series of novels. 
+                                    This edition was bound together in one volume with <bibl>
+                  <author>Friedrich von Schiller</author>’s <title level="m">The Ghost Seer</title>
                </bibl>.
                                 </p>
             <listBibl>
-               <bibl/>
-               <bibl/>
-               <bibl/>
+               <bibl xml:id="fMS">
+                  <author>Mary Wollstonecraft Shelley</author>, <title level="m">Frankenstein, or the Modern Prometheus</title>. <edition source="digital">Draft Bodleain MS, Abinger c.56 and c.57</edition> in <title>Shelley-Godwin Archive</title>, ed. <editor>Neil Fraistat</editor>, <editor>Elizabeth Denlinger</editor>, <editor>Raffaele Viglianti</editor>. <date from="2013">2013—present</date>, <ptr target="http://shelleygodwinarchive.org/contents/frankenstein/"/>.</bibl>
+               <bibl xml:id="f1818">
+                  <title level="m">Frankenstein; or, the Modern Prometheus</title>. <edition source="print">In three volumes</edition>, <pubPlace>London</pubPlace>: 
+                                        <publisher>Printed for Lackington, Hughes, Harding, Mavor, &amp; Jones</publisher>, <date when="1818">1818</date>. <edition source="digital">The Pennsylvania Electronic Edition</edition>, ed. <editor>Stuart Curran</editor> and <editor>Jack Lynch</editor>, <date from="1995">1995—present</date>, <ptr target="http://knarf.english.upenn.edu/"/>.</bibl>
+               <bibl xml:id="fThomas">
+                  <title level="m">The Thomas Copy</title>: Marginalia in the form of additions, deletions, and notes hand-written on a single copy of <bibl corresp="#f1818">the 1818 edition</bibl>.</bibl>
+               <bibl xml:id="f1823">
+                  <author>Mary Wollstonecraft Shelley</author>, <title level="m">Frankenstein: or, the Modern Prometheus</title>. <edition>In two volumes</edition>, <pubPlace>London</pubPlace>: <publisher>Printed for G. and W. B. Whittaker</publisher>, <date when="1823">1823</date>.</bibl>
+               <bibl xml:id="f1831">
+                  <author>Mary W. Shelley</author>. <title level="m">Frankenstein: or, the Modern Prometheus</title>. <series>Bentley Standard Novels, No. 9</series>, <pubPlace>London</pubPlace>: 
+                                        <publisher>Henry Colburn and Richard Bentley</publisher>, <date when="1818">1831</date>. <edition source="digital">The Pennsylvania Electronic Edition</edition>, ed. <editor>Stuart Curran</editor> and <editor>Jack Lynch</editor>, <date from="1995">1995—present</date>, <ptr target="http://knarf.english.upenn.edu/"/>.</bibl>
             </listBibl>
          </sourceDesc>
       </fileDesc>
@@ -45,12 +66,12 @@
                                     develop a normalization algorithm, to indicate that some strings, like <q>&amp;</q>
                                     should be read as <q>and</q> by the software. The normalization mechanism afforded by
                                     collateX permits us to compare markup of chapter and paragraph boundaries in simpler
-                                    forms. For example, it allows for TEI surface-and-zone markup of paragraphs in
+                                    forms. For example, it allows for TEI <q>surface-and-zone</q> markup of paragraphs in
                                     <gi>milestone</gi> elements to be normalized as identical with <gi>p</gi> elements
                                     used in other editions. We have developed a very complex, lengthy series of
-                                    normalizations
-                                    , and
-                                    we want to expose them in our TEI representation of the comparison data in our
+                                    normalizations in <ref target="https://github.com/FrankensteinVariorum/collationWorkspace/blob/main/python-collation/collate.py">our Python script</ref> to prepare our digital edition files for collation.
+                                    
+                                   The <q>spine</q> files reveal the normalized strings in order to share the comparison data we rely on for our
                                     project.</p>
             <p>Our output of this spine file is not standard for collateX because we are
                                     purposefully sharing an array of normalized tokens in an <att>n</att> attribute on
@@ -65,9 +86,9 @@
                                     maximum of these values in the <att>n</att> attribute on each <gi>app</gi>
                                     element.</p>
             <p>Produced from collation output prepared in batch file processing
-                                    on  2023-10-20 04:51:15.148679 .</p>
+                                    on  2023-10-29 20:06:53.986300 .</p>
             <p>Edited to correct alignments and prepared for the Frankenstein
-                                    Variorum spine on 2023-10-20T02:19:32.040234-04:00.</p>
+                                    Variorum spine on 2023-10-29T17:29:44.70941-04:00.</p>
          </editorialDecl>
          <appInfo>
             <application ident="collateX" version="1.7.1">
@@ -838,7 +859,7 @@
                </rdgGrp>
             </app>
             <app xml:id="C12_app45" n="14">
-               <rdgGrp n="['&lt;del&gt;brought', 'on', 'again', '&lt;/del&gt;renewed', '']"
+               <rdgGrp n="['&lt;delspanstart/&gt;brought', 'on', 'again', '&lt;delspanend/&gt;renewed', '']"
                         xml:id="C12_app45_rg1">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c56_chap_8.xml#C12_app45-fMS"/>
@@ -1815,7 +1836,7 @@
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1831_chapter_vi.xml#C12_app94-f1831"/>
                   </rdg>
                </rdgGrp>
-               <rdgGrp n="['&lt;del&gt;k&lt;/del&gt;', '&lt;del&gt;kind', 'friend', 'he', 'tortured', 'me', 'without', '&lt;/del&gt;&lt;del&gt;but', 'it', '&lt;/del&gt;', '&lt;del&gt;how cruel is&lt;/del&gt;', 'what', 'could', 'i', 'do?', 'he', 'meant', 'to']"
+               <rdgGrp n="['&lt;del&gt;k&lt;/del&gt;', '&lt;delspanstart/&gt;kind', 'friend', 'he', 'tortured', 'me', 'without', '&lt;delspanend/&gt;&lt;delspanstart/&gt;but', 'it', '&lt;delspanend/&gt;', '&lt;del&gt;how cruel is&lt;/del&gt;', 'what', 'could', 'i', 'do?', 'he', 'meant', 'to']"
                         xml:id="C12_app94_rg2">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c56_chap_8.xml#C12_app94-fMS"/>
@@ -2490,7 +2511,7 @@
                </rdgGrp>
             </app>
             <app xml:id="C12_app134" n="9">
-               <rdgGrp n="['', 'docile', '&lt;del&gt;yet&lt;/del&gt;', 'and&lt;del&gt;weak', 'as']"
+               <rdgGrp n="['', 'docile', '&lt;del&gt;yet&lt;/del&gt;', 'and&lt;delspanstart/&gt;weak', 'as']"
                         xml:id="C12_app134_rg1">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c56_chap_8.xml#C12_app134-fMS__I"/>
@@ -2538,7 +2559,7 @@
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1831_chapter_vi.xml#C12_app136-f1831"/>
                   </rdg>
                </rdgGrp>
-               <rdgGrp n="['illness', 'had', 'made', 'me', '&lt;/del&gt;in', 'my', 'then', 'condition']"
+               <rdgGrp n="['illness', 'had', 'made', 'me', '&lt;delspanend/&gt;in', 'my', 'then', 'condition']"
                         xml:id="C12_app136_rg2">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c56_chap_8.xml#C12_app136-fMS"/>
@@ -2760,9 +2781,9 @@
                      <witDetail wit="#fMS" target="sga:c56/#/p68">
                         <ref type="page"
                               target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0068.xml">
-                           <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0068.xml#string-range(//tei:surface[@xml:id='ox-ms_abinger_c56-0068']/tei:zone[@type='main']//tei:line[8],0,15)"/>
-                           <fv:line_text> %q%us all– ay</fv:line_text>
-                           <fv:resolved_text>"us all– ay st</fv:resolved_text>
+                           <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0068.xml#string-range(//tei:surface[@xml:id='ox-ms_abinger_c56-0068']/tei:zone[@type='main']//tei:line[8],0,13)"/>
+                           <fv:line_text> "us all– ay</fv:line_text>
+                           <fv:resolved_text>"us all– ay </fv:resolved_text>
                         </ref>
                      </witDetail>
                   </rdg>
@@ -2791,9 +2812,9 @@
                      <witDetail wit="#fMS" target="sga:c56/#/p68">
                         <ref type="page"
                               target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0068.xml">
-                           <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0068.xml#string-range(//tei:surface[@xml:id='ox-ms_abinger_c56-0068']/tei:zone[@type='main']//tei:line[8],27,34)"/>
-                           <fv:line_text>( %q%us all– aystare if you) please</fv:line_text>
-                           <fv:resolved_text>lease b</fv:resolved_text>
+                           <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0068.xml#string-range(//tei:surface[@xml:id='ox-ms_abinger_c56-0068']/tei:zone[@type='main']//tei:line[8],25,32)"/>
+                           <fv:line_text>( "us all– aystare if you) please</fv:line_text>
+                           <fv:resolved_text> please</fv:resolved_text>
                         </ref>
                      </witDetail>
                   </rdg>
@@ -3232,9 +3253,9 @@
                      <witDetail wit="#fMS" target="sga:c56/#/p68">
                         <ref type="page"
                               target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0068.xml">
-                           <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0068.xml#string-range(//tei:surface[@xml:id='ox-ms_abinger_c56-0068']/tei:zone[@type='main']//tei:line[15],0,29)"/>
-                           <fv:line_text>%q%of countenance.—Aye, Aye,</fv:line_text>
-                           <fv:resolved_text>"of countenance.—Aye, Aye, c</fv:resolved_text>
+                           <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0068.xml#string-range(//tei:surface[@xml:id='ox-ms_abinger_c56-0068']/tei:zone[@type='main']//tei:line[15],0,27)"/>
+                           <fv:line_text>"of countenance.—Aye, Aye,</fv:line_text>
+                           <fv:resolved_text>"of countenance.—Aye, Aye,</fv:resolved_text>
                         </ref>
                      </witDetail>
                   </rdg>
@@ -3499,12 +3520,12 @@
                      <witDetail wit="#fMS" target="sga:c56/#/p68">
                         <ref type="page"
                               target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0068.xml">
-                           <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0068.xml#string-range(//tei:surface[@xml:id='ox-ms_abinger_c56-0068']/tei:zone[@type='main']//tei:line[20],26,38)"/>
-                           <fv:line_text>("diffidentofthemselvesyou) know M  %q%</fv:line_text>
-                           <fv:resolved_text>you know Mr</fv:resolved_text>
-                           <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0068.xml#string-range(//tei:surface[@xml:id='ox-ms_abinger_c56-0068']/tei:zone[@type='main']//tei:line[21],0,4)"/>
-                           <fv:line_text>%q%</fv:line_text>
-                           <fv:resolved_text>"Cl</fv:resolved_text>
+                           <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0068.xml#string-range(//tei:surface[@xml:id='ox-ms_abinger_c56-0068']/tei:zone[@type='main']//tei:line[20],26,36)"/>
+                           <fv:line_text>("diffidentofthemselvesyou) know M  "</fv:line_text>
+                           <fv:resolved_text>you know M</fv:resolved_text>
+                           <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0068.xml#string-range(//tei:surface[@xml:id='ox-ms_abinger_c56-0068']/tei:zone[@type='main']//tei:line[21],0,2)"/>
+                           <fv:line_text>"</fv:line_text>
+                           <fv:resolved_text>"</fv:resolved_text>
                         </ref>
                      </witDetail>
                   </rdg>
@@ -3545,9 +3566,9 @@
                      <witDetail wit="#fMS" target="sga:c56/#/p68">
                         <ref type="page"
                               target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0068.xml">
-                           <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0068.xml#string-range(//tei:surface[@xml:id='ox-ms_abinger_c56-0068']/tei:zone[@type='main']//tei:line[21],4,13)"/>
-                           <fv:line_text>(%q%) Clerval;</fv:line_text>
-                           <fv:resolved_text>erval; I </fv:resolved_text>
+                           <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0068.xml#string-range(//tei:surface[@xml:id='ox-ms_abinger_c56-0068']/tei:zone[@type='main']//tei:line[21],2,11)"/>
+                           <fv:line_text>(") Clerval;</fv:line_text>
+                           <fv:resolved_text>Clerval; </fv:resolved_text>
                         </ref>
                      </witDetail>
                   </rdg>
@@ -3560,9 +3581,9 @@
                      <witDetail wit="#fMS" target="sga:c56/#/p68">
                         <ref type="page"
                               target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0068.xml">
-                           <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0068.xml#string-range(//tei:surface[@xml:id='ox-ms_abinger_c56-0068']/tei:zone[@type='main']//tei:line[21],29,35)"/>
-                           <fv:line_text>(%q%Clerval;I was myself when) young</fv:line_text>
-                           <fv:resolved_text>young </fv:resolved_text>
+                           <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0068.xml#string-range(//tei:surface[@xml:id='ox-ms_abinger_c56-0068']/tei:zone[@type='main']//tei:line[21],27,33)"/>
+                           <fv:line_text>("Clerval;I was myself when) young</fv:line_text>
+                           <fv:resolved_text>n youn</fv:resolved_text>
                         </ref>
                      </witDetail>
                   </rdg>
@@ -6912,7 +6933,7 @@
                </rdgGrp>
             </app>
             <app xml:id="C12_app386" n="7">
-               <rdgGrp n="['senses', '', '.', '&lt;del&gt;and', 'now', '&lt;/del&gt;']"
+               <rdgGrp n="['senses', '', '.', '&lt;delspanstart/&gt;and', 'now', '&lt;delspanend/&gt;']"
                         xml:id="C12_app386_rg1">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c56_chap_8.xml#C12_app386-fMS__I"/>
@@ -7065,7 +7086,7 @@
                </rdgGrp>
             </app>
             <app xml:id="C12_app395" n="46">
-               <rdgGrp n="['happy', '', '&lt;mdel&gt;so&lt;/mdel&gt;', '&lt;mdel&gt; &lt;/mdel&gt;', '&lt;del&gt;soul', 'was', 'more', 'fitted', 'than', 'mine', 'for', 'feeling', 'delight', '&lt;/del&gt;', '&lt;del&gt;in&lt;/del&gt;']"
+               <rdgGrp n="['happy', '', '&lt;mdel&gt;so&lt;/mdel&gt;', '&lt;mdel&gt; &lt;/mdel&gt;', '&lt;delspanstart/&gt;soul', 'was', 'more', 'fitted', 'than', 'mine', 'for', 'feeling', 'delight', '&lt;delspanend/&gt;', '&lt;del&gt;in&lt;/del&gt;']"
                         xml:id="C12_app395_rg1">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c56_chap_8.xml#C12_app395-fMS"/>
@@ -7874,7 +7895,7 @@
                </rdgGrp>
             </app>
             <app xml:id="C12_app443" n="46">
-               <rdgGrp n="['astonishing.', '&lt;del&gt;as', 'we', 'rested', 'during', 'the', 'sultry', 'heat', 'of', 'noon', 'he', 'invented', '&lt;/del&gt;his']"
+               <rdgGrp n="['astonishing.', '&lt;delspanstart/&gt;as', 'we', 'rested', 'during', 'the', 'sultry', 'heat', 'of', 'noon', 'he', 'invented', '&lt;delspanend/&gt;his']"
                         xml:id="C12_app443_rg1">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c56_chap_8.xml#C12_app443-fMS"/>
@@ -8357,7 +8378,7 @@
                </rdgGrp>
             </app>
             <app xml:id="C12_app473" n="17">
-               <rdgGrp n="['&lt;del&gt;hilarity&lt;/del&gt;', '&lt;del&gt;unbound', 'ed', '&lt;/del&gt;unbridled', '']"
+               <rdgGrp n="['&lt;del&gt;hilarity&lt;/del&gt;', '&lt;delspanstart/&gt;unbound', 'ed', '&lt;delspanend/&gt;unbridled', '']"
                         xml:id="C12_app473_rg1">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c56_chap_8.xml#C12_app473-fMS"/>

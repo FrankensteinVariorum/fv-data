@@ -6,7 +6,18 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Spine: Collation unit C15</title>
+            <title>Spine: Collation unit C07</title>
+            <principal>Elisa Beshero-Bondar</principal>
+            <editor>Raffaele Viglianti</editor>
+            <editor>Yuying Jin</editor>
+            <respStmt>
+               <resp>Assisted in <date>2017-2019</date> by <name>Rikk Mulligan</name>, <name>Scott Weingart</name>, <name>Matthew Lincoln</name>, <name>Jon Klancher</name>, <name>Avery Wiscomb</name>, and <name>John Quirk</name> from</resp>
+               <orgName>Carnegie Mellon University.</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Assisted in 2020 - 2023 by <name>Nathan Hammer</name>, <name>Rachel Gerzevske</name>, <name>Jacqueline Chan</name> and <name>Mia Borgia</name> from</resp>
+               <orgName>Penn State Erie: The Behrend College.</orgName>
+            </respStmt>
          </titleStmt>
          <publicationStmt>
             <authority>Frankenstein Variorum Project</authority>
@@ -17,20 +28,30 @@
             </availability>
          </publicationStmt>
          <sourceDesc>
-            <p>This project digitally compares five versions of the novel <title level="m">Frankenstein</title> prepared between 1816 and 1831.
-                                <abbr>fMS</abbr> refers to the manuscript notebooks dated roughly 1816 to 1818 and stored in three boxes at the Bodleian library in Oxford.
+            <p>This <title level="m">Frankenstein Variorum</title> digitally compares five versions of the novel <title level="m">Frankenstein</title> prepared between 1816 and 1831.
+                                <abbr>fMS</abbr> refers to the manuscript notebooks dated roughly 1816 to 1818 and stored in three boxes at the Bodleian library in Oxford, of which our collation represents the material in boxes c56 and c57, representing most of the novel with some gaps.
                                     <abbr>f1818</abbr> refers to the first anonymous publication of Frankenstein in 1818. <abbr>fThomas</abbr> refers to a copy of the 1818 edition left by 
                                     Mary Shelley with her friend Mrs. Thomas in Italy before she left for England after the death of Percy Shelley. This copy contains 
                                     handwritten marginalia indicating edits she would make if there were ever a new edition, and apparently was not available for Mary Shelley to consult later.
                                     <abbr>f1823</abbr> refes to the published edition prepared by William Godwin, the first to feature Mary Wollstonecraft Godwin Shelley’s name as the author. 
-                                    <abbr>f1831</abbr> refers to a heavily revised version prepared by Mary Shelley in 1831 for Bentley's Standard Series of novels. 
-                                    This edition was bound together in one volume with <bibl>Friedrich von Schiller’s <title level="m">The Ghost Seer</title>
+                                    <abbr>f1831</abbr> refers to a heavily revised version prepared by Mary Shelley in 1831 for Bentley’s Standard series of novels. 
+                                    This edition was bound together in one volume with <bibl>
+                  <author>Friedrich von Schiller</author>’s <title level="m">The Ghost Seer</title>
                </bibl>.
                                 </p>
             <listBibl>
-               <bibl/>
-               <bibl/>
-               <bibl/>
+               <bibl xml:id="fMS">
+                  <author>Mary Wollstonecraft Shelley</author>, <title level="m">Frankenstein, or the Modern Prometheus</title>. <edition source="digital">Draft Bodleain MS, Abinger c.56 and c.57</edition> in <title>Shelley-Godwin Archive</title>, ed. <editor>Neil Fraistat</editor>, <editor>Elizabeth Denlinger</editor>, <editor>Raffaele Viglianti</editor>. <date from="2013">2013—present</date>, <ptr target="http://shelleygodwinarchive.org/contents/frankenstein/"/>.</bibl>
+               <bibl xml:id="f1818">
+                  <title level="m">Frankenstein; or, the Modern Prometheus</title>. <edition source="print">In three volumes</edition>, <pubPlace>London</pubPlace>: 
+                                        <publisher>Printed for Lackington, Hughes, Harding, Mavor, &amp; Jones</publisher>, <date when="1818">1818</date>. <edition source="digital">The Pennsylvania Electronic Edition</edition>, ed. <editor>Stuart Curran</editor> and <editor>Jack Lynch</editor>, <date from="1995">1995—present</date>, <ptr target="http://knarf.english.upenn.edu/"/>.</bibl>
+               <bibl xml:id="fThomas">
+                  <title level="m">The Thomas Copy</title>: Marginalia in the form of additions, deletions, and notes hand-written on a single copy of <bibl corresp="#f1818">the 1818 edition</bibl>.</bibl>
+               <bibl xml:id="f1823">
+                  <author>Mary Wollstonecraft Shelley</author>, <title level="m">Frankenstein: or, the Modern Prometheus</title>. <edition>In two volumes</edition>, <pubPlace>London</pubPlace>: <publisher>Printed for G. and W. B. Whittaker</publisher>, <date when="1823">1823</date>.</bibl>
+               <bibl xml:id="f1831">
+                  <author>Mary W. Shelley</author>. <title level="m">Frankenstein: or, the Modern Prometheus</title>. <series>Bentley Standard Novels, No. 9</series>, <pubPlace>London</pubPlace>: 
+                                        <publisher>Henry Colburn and Richard Bentley</publisher>, <date when="1818">1831</date>. <edition source="digital">The Pennsylvania Electronic Edition</edition>, ed. <editor>Stuart Curran</editor> and <editor>Jack Lynch</editor>, <date from="1995">1995—present</date>, <ptr target="http://knarf.english.upenn.edu/"/>.</bibl>
             </listBibl>
          </sourceDesc>
       </fileDesc>
@@ -45,12 +66,12 @@
                                     develop a normalization algorithm, to indicate that some strings, like <q>&amp;</q>
                                     should be read as <q>and</q> by the software. The normalization mechanism afforded by
                                     collateX permits us to compare markup of chapter and paragraph boundaries in simpler
-                                    forms. For example, it allows for TEI surface-and-zone markup of paragraphs in
+                                    forms. For example, it allows for TEI <q>surface-and-zone</q> markup of paragraphs in
                                     <gi>milestone</gi> elements to be normalized as identical with <gi>p</gi> elements
                                     used in other editions. We have developed a very complex, lengthy series of
-                                    normalizations
-                                    , and
-                                    we want to expose them in our TEI representation of the comparison data in our
+                                    normalizations in <ref target="https://github.com/FrankensteinVariorum/collationWorkspace/blob/main/python-collation/collate.py">our Python script</ref> to prepare our digital edition files for collation.
+                                    
+                                   The <q>spine</q> files reveal the normalized strings in order to share the comparison data we rely on for our
                                     project.</p>
             <p>Our output of this spine file is not standard for collateX because we are
                                     purposefully sharing an array of normalized tokens in an <att>n</att> attribute on
@@ -65,9 +86,9 @@
                                     maximum of these values in the <att>n</att> attribute on each <gi>app</gi>
                                     element.</p>
             <p>Produced from collation output prepared in batch file processing
-                                    on  2023-10-20 05:00:30.979246 .</p>
+                                    on  2023-10-29 20:15:52.705054 .</p>
             <p>Edited to correct alignments and prepared for the Frankenstein
-                                    Variorum spine on 2023-10-20T02:19:32.040234-04:00.</p>
+                                    Variorum spine on 2023-10-29T17:29:44.70941-04:00.</p>
          </editorialDecl>
          <appInfo>
             <application ident="collateX" version="1.7.1">
@@ -259,7 +280,7 @@
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1831_chapter_ix.xml#C15_app10-f1831"/>
                   </rdg>
                </rdgGrp>
-               <rdgGrp n="['events,&lt;del&gt;for', 'a']" xml:id="C15_app10_rg2">
+               <rdgGrp n="['events,&lt;delspanstart/&gt;for', 'a']" xml:id="C15_app10_rg2">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c56_chap_13.xml#C15_app10-fMS"/>
                      <witDetail wit="#fMS" target="sga:c56/#/p108">
@@ -317,7 +338,7 @@
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1831_chapter_ix.xml#C15_app14-f1831"/>
                   </rdg>
                </rdgGrp>
-               <rdgGrp n="['inaction', 'and', 'certainty', 'to', '&lt;/del&gt;of', 'inaction', 'and', 'certainty']"
+               <rdgGrp n="['inaction', 'and', 'certainty', 'to', '&lt;delspanend/&gt;of', 'inaction', 'and', 'certainty']"
                         xml:id="C15_app14_rg2">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c56_chap_13.xml#C15_app14-fMS"/>
@@ -618,7 +639,7 @@
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1831_chapter_ix.xml#C15_app32-f1831"/>
                   </rdg>
                </rdgGrp>
-               <rdgGrp n="['remove–&lt;del&gt;our', 'house', 'was', 'a', 'house', 'of', 'mourning–', 'my', 'fathers', 'health', 'was', 'deeply', 'shaken', 'by', 'the', 'horror', 'of', 'the', 'recent', 'events;elizabeth', 'was', 'sad', 'and', 'desponding–', 'she', 'no', 'longer', 'took', 'delight', 'in', 'her', 'ordinary', 'occupations', 'all', 'pleasure', 'seemed', 'to', 'her', 'sacriledge', 'towards', 'the', 'dead—', 'eternal', 'woe', 'and', 'tears', 'she', 'then', 'thought', 'was', 'the', 'just', 'tribute', 'she', 'ought', 'to', 'pay', 'to', 'innocence', 'thus', 'blasted', 'and', '&lt;del&gt;destroyed&lt;/del&gt;', '&lt;/del&gt;sleep']"
+               <rdgGrp n="['remove–&lt;delspanstart/&gt;our', 'house', 'was', 'a', 'house', 'of', 'mourning–', 'my', 'fathers', 'health', 'was', 'deeply', 'shaken', 'by', 'the', 'horror', 'of', 'the', 'recent', 'events;elizabeth', 'was', 'sad', 'and', 'desponding–', 'she', 'no', 'longer', 'took', 'delight', 'in', 'her', 'ordinary', 'occupations', 'all', 'pleasure', 'seemed', 'to', 'her', 'sacriledge', 'towards', 'the', 'dead—', 'eternal', 'woe', 'and', 'tears', 'she', 'then', 'thought', 'was', 'the', 'just', 'tribute', 'she', 'ought', 'to', 'pay', 'to', 'innocence', 'thus', 'blasted', 'and', '&lt;del&gt;destroyed&lt;/del&gt;', '&lt;delspanend/&gt;sleep']"
                         xml:id="C15_app32_rg2">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c56_chap_13.xml#C15_app32-fMS"/>
@@ -1316,7 +1337,7 @@
                </rdgGrp>
             </app>
             <app xml:id="C15_app75" n="60">
-               <rdgGrp n="['hopes', '&lt;del&gt;like', 'gay-sweet-smelling', 'flowers', 'to', 'spring', 'up', 'with', 'regard', 'to', 'futurity', '&lt;/del&gt;.']"
+               <rdgGrp n="['hopes', '&lt;delspanstart/&gt;like', 'gay-sweet-smelling', 'flowers', 'to', 'spring', 'up', 'with', 'regard', 'to', 'futurity', '&lt;delspanend/&gt;.']"
                         xml:id="C15_app75_rg1">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c56_chap_13.xml#C15_app75-fMS"/>
@@ -2406,7 +2427,7 @@
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1831_chapter_ix.xml#C15_app140-f1831"/>
                   </rdg>
                </rdgGrp>
-               <rdgGrp n="['&lt;del&gt;not', 'to', 'add', 'to', 'the', 'grief', 'of', '&lt;/del&gt;', '&lt;del&gt;owed&lt;/del&gt;', 'to', 'the']"
+               <rdgGrp n="['&lt;delspanstart/&gt;not', 'to', 'add', 'to', 'the', 'grief', 'of', '&lt;delspanend/&gt;', '&lt;del&gt;owed&lt;/del&gt;', 'to', 'the']"
                         xml:id="C15_app140_rg2">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c56_chap_13.xml#C15_app140-fMS"/>
@@ -4404,7 +4425,7 @@
                </rdgGrp>
             </app>
             <app xml:id="C15_app256" n="37">
-               <rdgGrp n="['fear', '&lt;del&gt;that', 'the', 'dæmon', '&lt;/del&gt;&lt;del&gt;of', 'some', 'new', 'wickedness', 'which', '&lt;/del&gt;let', '']"
+               <rdgGrp n="['fear', '&lt;delspanstart/&gt;that', 'the', 'dæmon', '&lt;delspanend/&gt;&lt;delspanstart/&gt;of', 'some', 'new', 'wickedness', 'which', '&lt;delspanend/&gt;let', '']"
                         xml:id="C15_app256_rg1">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c56_chap_13.xml#C15_app256-fMS"/>
@@ -4874,7 +4895,7 @@
                </rdgGrp>
             </app>
             <app xml:id="C15_app285" n="33">
-               <rdgGrp n="['moderation', '&lt;del&gt;i', 'wished', 'but', 'to', 'see', 'him', 'again', 'that', 'i', 'might', '&lt;/del&gt;']"
+               <rdgGrp n="['moderation', '&lt;delspanstart/&gt;i', 'wished', 'but', 'to', 'see', 'him', 'again', 'that', 'i', 'might', '&lt;delspanend/&gt;']"
                         xml:id="C15_app285_rg1">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c56_chap_13.xml#C15_app285-fMS"/>
@@ -5435,7 +5456,7 @@
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1831_chapter_ix.xml#C15_app319-f1831"/>
                   </rdg>
                </rdgGrp>
-               <rdgGrp n="['had', &#34;&lt;del&gt;–  &lt;del&gt;' who&lt;/del&gt; had   &lt;/del&gt;&#34;, 'wandered', 'with']"
+               <rdgGrp n="['had', &#34;&lt;del&gt;–  &lt;del-inner rend=%q%overwritten%q% xml:id=%q%c56-0113__main__d5e23573%q%&gt;' who&lt;/del-inner&gt; had   &lt;/del&gt;&#34;, 'wandered', 'with']"
                         xml:id="C15_app319_rg2">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c56_chap_13.xml#C15_app319-fMS"/>
@@ -6119,7 +6140,7 @@
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1831_chapter_ix.xml#C15_app351-f1831"/>
                   </rdg>
                </rdgGrp>
-               <rdgGrp n="['&lt;del&gt;the', 'beli', '&lt;/del&gt;', 'reason', 'than', 'to']"
+               <rdgGrp n="['&lt;delspanstart/&gt;the', 'beli', '&lt;delspanend/&gt;', 'reason', 'than', 'to']"
                         xml:id="C15_app351_rg2">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c56_chap_13.xml#C15_app351-fMS"/>
@@ -9745,7 +9766,7 @@
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fThomas_vol_2_chapter_i.xml#C15_app517-fThomas"/>
                   </rdg>
                </rdgGrp>
-               <rdgGrp n="['', &#34;&lt;del&gt;amused&lt;del&gt;' .&lt;/del&gt; &lt;/del&gt;&#34;, 'lulled,']"
+               <rdgGrp n="['', &#34;&lt;del&gt;amused&lt;del-inner rend=%q%unmarked%q% xml:id=%q%c56-0116__main__d5e24233%q%&gt;' .&lt;/del-inner&gt; &lt;/del&gt;&#34;, 'lulled,']"
                         xml:id="C15_app517_rg2">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c56_chap_13.xml#C15_app517-fMS__I"/>
@@ -10970,7 +10991,7 @@
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1831_chapter_ix.xml#C15_app576-f1831__F"/>
                   </rdg>
                </rdgGrp>
-               <rdgGrp n="['beings&lt;del&gt;', 'soon&lt;del&gt;e&lt;/del&gt; after we entered the valley of  chamounix. this valley is more &lt;del&gt; beautiful &lt;/del&gt;     &lt;del&gt; wondeful  &lt;/del&gt;', 'and sublime but not so beau', '&lt;/del&gt;we']"
+               <rdgGrp n="['beings&lt;delspanstart/&gt;', 'soon&lt;del&gt;e&lt;/del&gt; after we entered the valley of  chamounix. this valley is more &lt;delspanstart/&gt; beautiful &lt;delspanend/&gt;     &lt;del&gt; wondeful  &lt;/del&gt;', 'and sublime but not so beau', '&lt;delspanend/&gt;we']"
                         xml:id="C15_app576_rg2">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c56_chap_13.xml#C15_app576-fMS"/>
@@ -11601,7 +11622,7 @@
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1831_chapter_ix.xml#C15_app616-f1831"/>
                   </rdg>
                </rdgGrp>
-               <rdgGrp n="['&lt;del&gt;beautiful&lt;/del&gt;', 'supreme', 'and', 'magnificent']"
+               <rdgGrp n="['&lt;delspanstart/&gt;beautiful&lt;delspanend/&gt;', 'supreme', 'and', 'magnificent']"
                         xml:id="C15_app616_rg2">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c56_chap_13.xml#C15_app616-fMS__I"/>

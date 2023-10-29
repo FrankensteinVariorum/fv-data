@@ -6,7 +6,18 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Spine: Collation unit C08</title>
+            <title>Spine: Collation unit C07</title>
+            <principal>Elisa Beshero-Bondar</principal>
+            <editor>Raffaele Viglianti</editor>
+            <editor>Yuying Jin</editor>
+            <respStmt>
+               <resp>Assisted in <date>2017-2019</date> by <name>Rikk Mulligan</name>, <name>Scott Weingart</name>, <name>Matthew Lincoln</name>, <name>Jon Klancher</name>, <name>Avery Wiscomb</name>, and <name>John Quirk</name> from</resp>
+               <orgName>Carnegie Mellon University.</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Assisted in 2020 - 2023 by <name>Nathan Hammer</name>, <name>Rachel Gerzevske</name>, <name>Jacqueline Chan</name> and <name>Mia Borgia</name> from</resp>
+               <orgName>Penn State Erie: The Behrend College.</orgName>
+            </respStmt>
          </titleStmt>
          <publicationStmt>
             <authority>Frankenstein Variorum Project</authority>
@@ -17,20 +28,30 @@
             </availability>
          </publicationStmt>
          <sourceDesc>
-            <p>This project digitally compares five versions of the novel <title level="m">Frankenstein</title> prepared between 1816 and 1831.
-                                <abbr>fMS</abbr> refers to the manuscript notebooks dated roughly 1816 to 1818 and stored in three boxes at the Bodleian library in Oxford.
+            <p>This <title level="m">Frankenstein Variorum</title> digitally compares five versions of the novel <title level="m">Frankenstein</title> prepared between 1816 and 1831.
+                                <abbr>fMS</abbr> refers to the manuscript notebooks dated roughly 1816 to 1818 and stored in three boxes at the Bodleian library in Oxford, of which our collation represents the material in boxes c56 and c57, representing most of the novel with some gaps.
                                     <abbr>f1818</abbr> refers to the first anonymous publication of Frankenstein in 1818. <abbr>fThomas</abbr> refers to a copy of the 1818 edition left by 
                                     Mary Shelley with her friend Mrs. Thomas in Italy before she left for England after the death of Percy Shelley. This copy contains 
                                     handwritten marginalia indicating edits she would make if there were ever a new edition, and apparently was not available for Mary Shelley to consult later.
                                     <abbr>f1823</abbr> refes to the published edition prepared by William Godwin, the first to feature Mary Wollstonecraft Godwin Shelley’s name as the author. 
-                                    <abbr>f1831</abbr> refers to a heavily revised version prepared by Mary Shelley in 1831 for Bentley's Standard Series of novels. 
-                                    This edition was bound together in one volume with <bibl>Friedrich von Schiller’s <title level="m">The Ghost Seer</title>
+                                    <abbr>f1831</abbr> refers to a heavily revised version prepared by Mary Shelley in 1831 for Bentley’s Standard series of novels. 
+                                    This edition was bound together in one volume with <bibl>
+                  <author>Friedrich von Schiller</author>’s <title level="m">The Ghost Seer</title>
                </bibl>.
                                 </p>
             <listBibl>
-               <bibl/>
-               <bibl/>
-               <bibl/>
+               <bibl xml:id="fMS">
+                  <author>Mary Wollstonecraft Shelley</author>, <title level="m">Frankenstein, or the Modern Prometheus</title>. <edition source="digital">Draft Bodleain MS, Abinger c.56 and c.57</edition> in <title>Shelley-Godwin Archive</title>, ed. <editor>Neil Fraistat</editor>, <editor>Elizabeth Denlinger</editor>, <editor>Raffaele Viglianti</editor>. <date from="2013">2013—present</date>, <ptr target="http://shelleygodwinarchive.org/contents/frankenstein/"/>.</bibl>
+               <bibl xml:id="f1818">
+                  <title level="m">Frankenstein; or, the Modern Prometheus</title>. <edition source="print">In three volumes</edition>, <pubPlace>London</pubPlace>: 
+                                        <publisher>Printed for Lackington, Hughes, Harding, Mavor, &amp; Jones</publisher>, <date when="1818">1818</date>. <edition source="digital">The Pennsylvania Electronic Edition</edition>, ed. <editor>Stuart Curran</editor> and <editor>Jack Lynch</editor>, <date from="1995">1995—present</date>, <ptr target="http://knarf.english.upenn.edu/"/>.</bibl>
+               <bibl xml:id="fThomas">
+                  <title level="m">The Thomas Copy</title>: Marginalia in the form of additions, deletions, and notes hand-written on a single copy of <bibl corresp="#f1818">the 1818 edition</bibl>.</bibl>
+               <bibl xml:id="f1823">
+                  <author>Mary Wollstonecraft Shelley</author>, <title level="m">Frankenstein: or, the Modern Prometheus</title>. <edition>In two volumes</edition>, <pubPlace>London</pubPlace>: <publisher>Printed for G. and W. B. Whittaker</publisher>, <date when="1823">1823</date>.</bibl>
+               <bibl xml:id="f1831">
+                  <author>Mary W. Shelley</author>. <title level="m">Frankenstein: or, the Modern Prometheus</title>. <series>Bentley Standard Novels, No. 9</series>, <pubPlace>London</pubPlace>: 
+                                        <publisher>Henry Colburn and Richard Bentley</publisher>, <date when="1818">1831</date>. <edition source="digital">The Pennsylvania Electronic Edition</edition>, ed. <editor>Stuart Curran</editor> and <editor>Jack Lynch</editor>, <date from="1995">1995—present</date>, <ptr target="http://knarf.english.upenn.edu/"/>.</bibl>
             </listBibl>
          </sourceDesc>
       </fileDesc>
@@ -45,12 +66,12 @@
                                     develop a normalization algorithm, to indicate that some strings, like <q>&amp;</q>
                                     should be read as <q>and</q> by the software. The normalization mechanism afforded by
                                     collateX permits us to compare markup of chapter and paragraph boundaries in simpler
-                                    forms. For example, it allows for TEI surface-and-zone markup of paragraphs in
+                                    forms. For example, it allows for TEI <q>surface-and-zone</q> markup of paragraphs in
                                     <gi>milestone</gi> elements to be normalized as identical with <gi>p</gi> elements
                                     used in other editions. We have developed a very complex, lengthy series of
-                                    normalizations
-                                    , and
-                                    we want to expose them in our TEI representation of the comparison data in our
+                                    normalizations in <ref target="https://github.com/FrankensteinVariorum/collationWorkspace/blob/main/python-collation/collate.py">our Python script</ref> to prepare our digital edition files for collation.
+                                    
+                                   The <q>spine</q> files reveal the normalized strings in order to share the comparison data we rely on for our
                                     project.</p>
             <p>Our output of this spine file is not standard for collateX because we are
                                     purposefully sharing an array of normalized tokens in an <att>n</att> attribute on
@@ -65,9 +86,9 @@
                                     maximum of these values in the <att>n</att> attribute on each <gi>app</gi>
                                     element.</p>
             <p>Produced from collation output prepared in batch file processing
-                                    on  2023-10-20 04:41:02.529560 .</p>
+                                    on  2023-10-29 19:56:44.732699 .</p>
             <p>Edited to correct alignments and prepared for the Frankenstein
-                                    Variorum spine on 2023-10-20T02:19:32.040234-04:00.</p>
+                                    Variorum spine on 2023-10-29T17:29:44.70941-04:00.</p>
          </editorialDecl>
          <appInfo>
             <application ident="collateX" version="1.7.1">
@@ -162,7 +183,7 @@
                <rdgGrp xml:id="C08_app4_rg_empty">
                   <rdg wit="#f1831"/>
                </rdgGrp>
-               <rdgGrp n="['make', 'it always through', '', '&lt;del&gt;the&lt;/del&gt;', 'her', '', 'intercession &lt;del&gt;of  elizabeth', '&lt;/del&gt;', '&lt;del&gt; for me i loved he&lt;/del&gt;', '&lt;del&gt;we', 'agreed', 'perfectly', 'although', 'there', 'were', 'many', '&lt;/del&gt;', '&lt;metamark function=%q%displacement%q% spanto=%q%#c56-0011.06%q% xml:id=%q%c56-0011.07%q%/&gt;', '', 'x']"
+               <rdgGrp n="['make', 'it always through', '', '&lt;del&gt;the&lt;/del&gt;', 'her', '', 'intercession &lt;delspanstart/&gt;of  elizabeth', '&lt;delspanend/&gt;', '&lt;del&gt; for me i loved he&lt;/del&gt;', '&lt;delspanstart/&gt;we', 'agreed', 'perfectly', 'although', 'there', 'were', 'many', '&lt;delspanend/&gt;', '&lt;metamark function=%q%displacement%q% spanto=%q%#c56-0011.06%q% xml:id=%q%c56-0011.07%q%/&gt;', '', 'x']"
                         xml:id="C08_app4_rg1">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c56_from_chapter_1.xml#C08_app4-fMS"/>
@@ -709,7 +730,7 @@
                <rdgGrp xml:id="C08_app21_rg_empty">
                   <rdg wit="#f1831"/>
                </rdgGrp>
-               <rdgGrp n="['', '&lt;del&gt;lasted&lt;/del&gt;', 'endured', '&lt;del&gt;my', 'amusements', 'were', 'studying', 'old', 'books', 'of', 'chemistry', 'and', 'natural', 'magic', 'those', 'of', 'elizabeth', 'were', 'drawing', 'and', 'music.', '&lt;/del&gt;', 'x', '', 'x']"
+               <rdgGrp n="['', '&lt;del&gt;lasted&lt;/del&gt;', 'endured', '&lt;delspanstart/&gt;my', 'amusements', 'were', 'studying', 'old', 'books', 'of', 'chemistry', 'and', 'natural', 'magic', 'those', 'of', 'elizabeth', 'were', 'drawing', 'and', 'music.', '&lt;delspanend/&gt;', 'x', '', 'x']"
                         xml:id="C08_app21_rg1">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c56_from_chapter_1.xml#C08_app21-fMS"/>
@@ -1639,7 +1660,7 @@
                </rdgGrp>
             </app>
             <app xml:id="C08_app57" n="875">
-               <rdgGrp n="['chivalry and romance', 'and   ^  when very young, i can  remember that   we used to  act plays composed by him out of  th  &lt;mdel&gt;is&lt;/mdel&gt; ese    &lt;del&gt;favourite&lt;/del&gt; books, the principal   &lt;del&gt;car&lt;/del&gt;characters of which were orlando  robin hood, amadis and st. george–', 'no', 'youth', 'could', 'could be more happy  &lt;surface eid=%q%ox-ms_abinger_c56-0011%q%/&gt; &lt;surface lrx=%q%5364%q% lry=%q%7104%q% partof=%q%#ox-frankenstein_volume_i%q% ulx=%q%0%q% uly=%q%0%q% folio=%q%4v%q% shelfmark=%q%ms. abinger c. 56%q% base=%q%ox-ms_abinger_c56/ox-ms_abinger_c56-0012.xml%q% id=%q%ox-ms_abinger_c56-0012%q% sid=%q%ox-ms_abinger_c56-0012%q%/&gt; &lt;graphic url=%q%http://shelleygodwinarchive.org/images/ox/ms_abinger_c56/ms_abinger_c56-0012.jp2%q%/&gt;   than mine. –  &lt;del&gt;our&lt;/del&gt; my   parents were indulgent, and my companions amiable.   &lt;del&gt;and our stud&lt;/del&gt; our studies were never  forced, and by some means we always had an end placed in view which  excited us to ardour.   ^  in the prosecution of them.   it was by this  &lt;mdel&gt;and&lt;/mdel&gt; method     not by emulation that we were  urged. elizabeth was not told to apply  herself to drawing  &lt;mdel&gt;or&lt;/mdel&gt; that   her companions    &lt;del&gt;would&lt;/del&gt; might not   outstrip her, but &lt;del&gt;she&lt;/del&gt; by  &lt;del&gt;was&lt;/del&gt; the      desire of', '&lt;del&gt;knew how&lt;/del&gt;  pleas  &lt;mdel&gt;ed&lt;/mdel&gt; ing   her aunt &lt;del&gt;would  be &lt;/del&gt; by  &lt;del&gt;a painting&lt;/del&gt; the representation   of some &lt;del&gt;of her&lt;/del&gt;  favourite scene&lt;del&gt;s&lt;/del&gt; done by her own  hand. &lt;del&gt;latin&lt;/del&gt; we learned latin and  english  &lt;mdel&gt;to&lt;/mdel&gt; that we might   read the writ  &lt;del&gt;ers&lt;/del&gt; ings     &lt;mdel&gt;of&lt;/mdel&gt; in   those  languages and so far from study  begin rendered odious &lt;del&gt;by&lt;/del&gt; to us th^rough  punishment, we loved application  and our amusements  &lt;del&gt;were&lt;/del&gt; would have been   the  labours of other children. perhaps  we did not read so many books  or learn &lt;del&gt;a&lt;/del&gt; languages so quickly  as  &lt;del&gt;another child&lt;/del&gt; those who are disciplined according to the ordinary  method,   but what we  learned was impressed the more deeply  on our  memory.   x      x', 'in', '', '&lt;del&gt;this&lt;/del&gt;', 'the']"
+               <rdgGrp n="['chivalry and romance', 'and   ^  when very young, i can  remember that   we used to  act plays composed by him out of  th  &lt;mdel&gt;is&lt;/mdel&gt; ese    &lt;del&gt;favourite&lt;/del&gt; books, the principal   &lt;del&gt;car&lt;/del&gt;characters of which were orlando  robin hood, amadis and st. george–', 'no', 'youth', 'could', 'could be more happy  &lt;surface eid=%q%ox-ms_abinger_c56-0011%q%/&gt; &lt;surface lrx=%q%5364%q% lry=%q%7104%q% partof=%q%#ox-frankenstein_volume_i%q% ulx=%q%0%q% uly=%q%0%q% folio=%q%4v%q% shelfmark=%q%ms. abinger c. 56%q% base=%q%ox-ms_abinger_c56/ox-ms_abinger_c56-0012.xml%q% id=%q%ox-ms_abinger_c56-0012%q% sid=%q%ox-ms_abinger_c56-0012%q%/&gt; &lt;graphic url=%q%http://shelleygodwinarchive.org/images/ox/ms_abinger_c56/ms_abinger_c56-0012.jp2%q%/&gt;   than mine. –  &lt;del&gt;our&lt;/del&gt; my   parents were indulgent, and my companions amiable.   &lt;del&gt;and our stud&lt;/del&gt; our studies were never  forced, and by some means we always had an end placed in view which  excited us to ardour.   ^  in the prosecution of them.   it was by this  &lt;mdel&gt;and&lt;/mdel&gt; method     not by emulation that we were  urged. elizabeth was not told to apply  herself to drawing  &lt;mdel&gt;or&lt;/mdel&gt; that   her companions    &lt;del&gt;would&lt;/del&gt; might not   outstrip her, but &lt;del&gt;she&lt;/del&gt; by  &lt;del&gt;was&lt;/del&gt; the      desire of', '&lt;del&gt;knew how&lt;/del&gt;  pleas  &lt;mdel&gt;ed&lt;/mdel&gt; ing   her aunt &lt;delspanstart/&gt;would  be &lt;delspanend/&gt; by  &lt;del&gt;a painting&lt;/del&gt; the representation   of some &lt;del&gt;of her&lt;/del&gt;  favourite scene&lt;del&gt;s&lt;/del&gt; done by her own  hand. &lt;del&gt;latin&lt;/del&gt; we learned latin and  english  &lt;mdel&gt;to&lt;/mdel&gt; that we might   read the writ  &lt;del&gt;ers&lt;/del&gt; ings     &lt;mdel&gt;of&lt;/mdel&gt; in   those  languages and so far from study  begin rendered odious &lt;del&gt;by&lt;/del&gt; to us th^rough  punishment, we loved application  and our amusements  &lt;del&gt;were&lt;/del&gt; would have been   the  labours of other children. perhaps  we did not read so many books  or learn &lt;del&gt;a&lt;/del&gt; languages so quickly  as  &lt;del&gt;another child&lt;/del&gt; those who are disciplined according to the ordinary  method,   but what we  learned was impressed the more deeply  on our  memory.   x      x', 'in', '', '&lt;del&gt;this&lt;/del&gt;', 'the']"
                         xml:id="C08_app57_rg1">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c56_from_chapter_1.xml#C08_app57-fMS__I"/>
@@ -2352,7 +2373,7 @@
                </rdgGrp>
             </app>
             <app xml:id="C08_app78" n="713">
-               <rdgGrp n="['&lt;del&gt;&lt;del&gt;', 'in this account of my early  youth i wish particularly to mention     &lt;del&gt; record  &lt;/del&gt;', 'those circumstances&lt;/del&gt; which  led to and nourished my taste  for that science which was  the principal amusement of my  boyish days and in &lt;del&gt;the end decided my destiny&lt;/del&gt;.', &#34;i mentioned before  my taste for old books of chemistry and natural magic and i remember very well that i learned latin  principally that i might read  pliny's natural history my father  refusing to allow me to read a  translation. i used when very young  to attend lectures of chemistry  given in geneva and athough  i did not understand them the  experiments never failed to  attract my attention. &lt;/del&gt; &lt;del&gt;i reme   ^  m   ber&lt;/del&gt;   &lt;del&gt;also&lt;/del&gt;&#34;, '', '', 'chapt. 2', '', 'those events which materially influence our future destinies &lt;del&gt;are&lt;/del&gt; often  &lt;del&gt;caused&lt;/del&gt; &lt;del&gt;by slight or&lt;/del&gt; derive thier origin from a    trivial occurence&lt;del&gt;s&lt;/del&gt;. &lt;del&gt;strange as the&lt;/del&gt;   ^  &lt;del&gt; statement of the  &lt;/del&gt;   &lt;del&gt;simple fact&lt;/del&gt;   &lt;del&gt;may appear my fate had been&lt;/del&gt; &lt;del&gt;chemist&lt;/del&gt;']"
+               <rdgGrp n="['&lt;delspanstart/&gt;&lt;delspanstart/&gt;', 'in this account of my early  youth i wish particularly to mention     &lt;del&gt; record  &lt;/del&gt;', 'those circumstances&lt;delspanend/&gt; which  led to and nourished my taste  for that science which was  the principal amusement of my  boyish days and in &lt;delspanstart/&gt;the end decided my destiny&lt;delspanend/&gt;.', &#34;i mentioned before  my taste for old books of chemistry and natural magic and i remember very well that i learned latin  principally that i might read  pliny's natural history my father  refusing to allow me to read a  translation. i used when very young  to attend lectures of chemistry  given in geneva and athough  i did not understand them the  experiments never failed to  attract my attention. &lt;delspanend/&gt; &lt;del&gt;i reme   ^  m   ber&lt;/del&gt;   &lt;del&gt;also&lt;/del&gt;&#34;, '', '', 'chapt. 2', '', 'those events which materially influence our future destinies &lt;del&gt;are&lt;/del&gt; often  &lt;del&gt;caused&lt;/del&gt; &lt;del&gt;by slight or&lt;/del&gt; derive thier origin from a    trivial occurence&lt;del&gt;s&lt;/del&gt;. &lt;del&gt;strange as the&lt;/del&gt;   ^  &lt;del&gt; statement of the  &lt;/del&gt;   &lt;del&gt;simple fact&lt;/del&gt;   &lt;del&gt;may appear my fate had been&lt;/del&gt; &lt;del&gt;chemist&lt;/del&gt;']"
                         xml:id="C08_app78_rg1">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c56_chapt_2.xml#C08_app78-fMS"/>
@@ -7190,7 +7211,8 @@
                </rdgGrp>
             </app>
             <app xml:id="C08_app313" n="16">
-               <rdgGrp n="['jura', '&lt;del&gt;and', 'the', '&lt;/del&gt;']" xml:id="C08_app313_rg1">
+               <rdgGrp n="['jura', '&lt;delspanstart/&gt;and', 'the', '&lt;delspanend/&gt;']"
+                        xml:id="C08_app313_rg1">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c56_chapt_2.xml#C08_app313-fMS"/>
                      <witDetail wit="#fMS" target="sga:c56/#/p14">
@@ -7236,7 +7258,7 @@
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1831_chapter_ii.xml#C08_app315-f1831"/>
                   </rdg>
                </rdgGrp>
-               <rdgGrp n="['&lt;del&gt;was', 'heard', 'at', 'once', 'from', '&lt;/del&gt;', '&lt;del&gt;the &lt;unclear&gt;d&lt;/unclear&gt; &lt;/del&gt;', '&lt;del&gt;', '&lt;del&gt;several quarte&lt;/del&gt;', '&lt;del&gt;rs&lt;/del&gt;', 'of', 'the', 'heavens', 'and', '&lt;/del&gt;', 'burst', 'at', 'once']"
+               <rdgGrp n="['&lt;delspanstart/&gt;was', 'heard', 'at', 'once', 'from', '&lt;delspanend/&gt;', '&lt;del&gt;the &lt;unclear&gt;d&lt;/unclear&gt; &lt;/del&gt;', '&lt;delspanstart/&gt;', '&lt;del&gt;several quarte&lt;/del&gt;', '&lt;del&gt;rs&lt;/del&gt;', 'of', 'the', 'heavens', 'and', '&lt;delspanend/&gt;', 'burst', 'at', 'once']"
                         xml:id="C08_app315_rg2">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c56_chapt_2.xml#C08_app315-fMS__I"/>
@@ -7351,7 +7373,7 @@
                </rdgGrp>
             </app>
             <app xml:id="C08_app322" n="44">
-               <rdgGrp n="['&lt;del&gt;witnessed', 'th', '', '&lt;mdel&gt;is&lt;/mdel&gt;', 'e', 'elemental', '&lt;/del&gt;', '&lt;del&gt;storm with pleasure&lt;/del&gt;', 'and', 'remained']"
+               <rdgGrp n="['&lt;delspanstart/&gt;witnessed', 'th', '', '&lt;mdel&gt;is&lt;/mdel&gt;', 'e', 'elemental', '&lt;delspanend/&gt;', '&lt;del&gt;storm with pleasure&lt;/del&gt;', 'and', 'remained']"
                         xml:id="C08_app322_rg1">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c56_chapt_2.xml#C08_app322-fMS"/>
@@ -8225,7 +8247,7 @@
                <rdgGrp xml:id="C08_app365_rg_empty">
                   <rdg wit="#f1831"/>
                </rdgGrp>
-               <rdgGrp n="['astonishment', '&lt;del&gt; &lt;del&gt;and&lt;/del&gt;  &lt;del&gt;caused&lt;/del&gt;  ^  induced    &lt;del&gt;me to aply wi&lt;/del&gt; &lt;del&gt;ith&lt;/del&gt;   &lt;del&gt;fresh di&lt;/del&gt;ligence to the study of    &lt;del&gt;chemistry&lt;/del&gt; natural philosophy   which promised an exclamatioplanation of th  &lt;mdel&gt;e&lt;/mdel&gt; i   se sort of &lt;/del&gt;', '&lt;surface eid=%q%ox-ms_abinger_c56-0014%q%/&gt; &lt;surface lrx=%q%5364%q% lry=%q%7104%q% partof=%q%#ox-frankenstein_volume_i%q% ulx=%q%0%q% uly=%q%0%q% folio=%q%6r%q% shelfmark=%q%ms. abinger c. 56%q% base=%q%ox-ms_abinger_c56/ox-ms_abinger_c56-0015.xml%q% id=%q%ox-ms_abinger_c56-0015__pt1%q% sid=%q%ox-ms_abinger_c56-0015__pt1%q%/&gt; &lt;graphic url=%q%http://shelleygodwinarchive.org/images/ox/ms_abinger_c56/ms_abinger_c56-0015.jp2%q%/&gt;  &lt;del&gt;  phænonema. on elizabeth and  clerval it produced a &lt;del&gt;di&lt;/del&gt; very different  effect. they admired the beauty  of the storm without wishing to  analyze its causes. henry said that  the fairies and giants were at  war and elizabeth attempted  a picture of it. &lt;/del&gt; &lt;p-end/&gt; &lt;p-start/&gt; &lt;del&gt;  as i grew older my attempts  in science were of a higher nature.  i &lt;del&gt;endeavou&lt;/del&gt; produced little earthquakes  and tried every kind of combination  of gasses &lt;del&gt;to&lt;/del&gt; and elements to ascertain  the results. &lt;/del&gt;', '&lt;surface eid=%q%ox-ms_abinger_c56-0015__pt1%q%/&gt; &lt;surface lrx=%q%5088%q% lry=%q%7082%q% partof=%q%#ox-frankenstein_volume_i%q% ulx=%q%0%q% uly=%q%0%q% folio=%q%3r%q% shelfmark=%q%ms. abinger c. 56%q% base=%q%ox-ms_abinger_c56/ox-ms_abinger_c56-0009.xml%q% id=%q%ox-ms_abinger_c56-0009__pt2%q% sid=%q%ox-ms_abinger_c56-0009__pt2%q%/&gt; &lt;graphic url=%q%http://shelleygodwinarchive.org/images/ox/ms_abinger_c56/ms_abinger_c56-0009.jp2%q%/&gt;   &lt;p-end/&gt; &lt;p-start/&gt;    &lt;mdel&gt;an&lt;/mdel&gt; &lt;mdel&gt;d&lt;/mdel&gt;  ^  among other questions suggested by natural objects', '']"
+               <rdgGrp n="['astonishment', '&lt;delspanstart/&gt; &lt;del&gt;and&lt;/del&gt;  &lt;del&gt;caused&lt;/del&gt;  ^  induced    &lt;del&gt;me to aply wi&lt;/del&gt; &lt;del&gt;ith&lt;/del&gt;   &lt;del&gt;fresh di&lt;/del&gt;ligence to the study of    &lt;del&gt;chemistry&lt;/del&gt; natural philosophy   which promised an exclamatioplanation of th  &lt;mdel&gt;e&lt;/mdel&gt; i   se sort of &lt;delspanend/&gt;', '&lt;surface eid=%q%ox-ms_abinger_c56-0014%q%/&gt; &lt;surface lrx=%q%5364%q% lry=%q%7104%q% partof=%q%#ox-frankenstein_volume_i%q% ulx=%q%0%q% uly=%q%0%q% folio=%q%6r%q% shelfmark=%q%ms. abinger c. 56%q% base=%q%ox-ms_abinger_c56/ox-ms_abinger_c56-0015.xml%q% id=%q%ox-ms_abinger_c56-0015__pt1%q% sid=%q%ox-ms_abinger_c56-0015__pt1%q%/&gt; &lt;graphic url=%q%http://shelleygodwinarchive.org/images/ox/ms_abinger_c56/ms_abinger_c56-0015.jp2%q%/&gt;  &lt;delspanstart/&gt;  phænonema. on elizabeth and  clerval it produced a &lt;del&gt;di&lt;/del&gt; very different  effect. they admired the beauty  of the storm without wishing to  analyze its causes. henry said that  the fairies and giants were at  war and elizabeth attempted  a picture of it. &lt;delspanend/&gt; &lt;p-end/&gt; &lt;p-start/&gt; &lt;delspanstart/&gt;  as i grew older my attempts  in science were of a higher nature.  i &lt;del&gt;endeavou&lt;/del&gt; produced little earthquakes  and tried every kind of combination  of gasses &lt;del&gt;to&lt;/del&gt; and elements to ascertain  the results. &lt;delspanend/&gt;', '&lt;surface eid=%q%ox-ms_abinger_c56-0015__pt1%q%/&gt; &lt;surface lrx=%q%5088%q% lry=%q%7082%q% partof=%q%#ox-frankenstein_volume_i%q% ulx=%q%0%q% uly=%q%0%q% folio=%q%3r%q% shelfmark=%q%ms. abinger c. 56%q% base=%q%ox-ms_abinger_c56/ox-ms_abinger_c56-0009.xml%q% id=%q%ox-ms_abinger_c56-0009__pt2%q% sid=%q%ox-ms_abinger_c56-0009__pt2%q%/&gt; &lt;graphic url=%q%http://shelleygodwinarchive.org/images/ox/ms_abinger_c56/ms_abinger_c56-0009.jp2%q%/&gt;   &lt;p-end/&gt; &lt;p-start/&gt;    &lt;mdel&gt;an&lt;/mdel&gt; &lt;mdel&gt;d&lt;/mdel&gt;  ^  among other questions suggested by natural objects', '']"
                         xml:id="C08_app365_rg1">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c56_chapt_2.xml#C08_app365-fMS"/>
@@ -9257,7 +9279,7 @@
                <rdgGrp xml:id="C08_app397_rg_empty">
                   <rdg wit="#f1831"/>
                </rdgGrp>
-               <rdgGrp n="['', '^', '', 'cheerfully   consented', &#34;&lt;del&gt;and   &lt;del&gt;one evening &lt;/del&gt; that i spent in town at the  house of clerval's father i &lt;del&gt;heard that  mr — was lef at &lt;/del&gt; met m. &lt;del&gt;o p&lt;/del&gt; a proficient  in chemistry who left the company at  an early hour to &lt;del&gt;h&lt;/del&gt; give his lecture upon   thant   science enquiring as he went out &lt;/del&gt;&#34;, '', '&lt;del&gt;if any one would &lt;unclear extent=%q%5%q% unit=%q%chars%q%/&gt; &lt;unclear&gt;him&lt;/unclear&gt; i went&lt;/del&gt;', '&lt;del&gt;but&lt;/del&gt;']"
+               <rdgGrp n="['', '^', '', 'cheerfully   consented', &#34;&lt;delspanstart/&gt;and   &lt;delspanstart/&gt;one evening &lt;delspanend/&gt; that i spent in town at the  house of clerval's father i &lt;delspanstart/&gt;heard that  mr — was lef at &lt;delspanend/&gt; met m. &lt;del&gt;o p&lt;/del&gt; a proficient  in chemistry who left the company at  an early hour to &lt;del&gt;h&lt;/del&gt; give his lecture upon   thant   science enquiring as he went out &lt;delspanend/&gt;&#34;, '', '&lt;del&gt;if any one would &lt;unclear extent=%q%5%q% unit=%q%chars%q%/&gt; &lt;unclear&gt;him&lt;/unclear&gt; i went&lt;/del&gt;', '&lt;del&gt;but&lt;/del&gt;']"
                         xml:id="C08_app397_rg1">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c56_chapt_2.xml#C08_app397-fMS"/>
@@ -10449,7 +10471,7 @@
                </rdgGrp>
             </app>
             <app xml:id="C08_app436" n="986">
-               <rdgGrp n="['', '&lt;del&gt;as i before mentioned my brothers  were much younger than myself.  ernest the second of our family was five &lt;/del&gt; &lt;p-end/&gt; &lt;p-start/&gt;  another task', '', '&lt;del&gt;soon&lt;/del&gt;', '', '^']"
+               <rdgGrp n="['', '&lt;delspanstart/&gt;as i before mentioned my brothers  were much younger than myself.  ernest the second of our family was five &lt;delspanend/&gt; &lt;p-end/&gt; &lt;p-start/&gt;  another task', '', '&lt;del&gt;soon&lt;/del&gt;', '', '^']"
                         xml:id="C08_app436_rg1">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c56_chapt_2.xml#C08_app436-fMS__I"/>
@@ -12395,7 +12417,7 @@
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1831_chapter_iii.xml#C08_app514-f1831"/>
                   </rdg>
                </rdgGrp>
-               <rdgGrp n="['misery&lt;del&gt;if', 'i', 'should', 'prosecute', 'my', 'journey.', '&lt;/del&gt;']"
+               <rdgGrp n="['misery&lt;delspanstart/&gt;if', 'i', 'should', 'prosecute', 'my', 'journey.', '&lt;delspanend/&gt;']"
                         xml:id="C08_app514_rg2">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c56_chapter_3.xml#C08_app514-fMS"/>
@@ -13199,24 +13221,24 @@
                      <witDetail wit="#fMS" target="sga:c56/#/p18">
                         <ref type="page"
                               target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0018.xml">
-                           <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0018.xml#string-range(//tei:surface[@xml:id='ox-ms_abinger_c56-0018']/tei:zone[@type='main']//tei:line[9],23,208)"/>
-                           <fv:line_text>(hands of Elizabeth and) myself. %q%My %q%children said she it was on your %q%union that my firmest hopes of %q%future happiness were placed. It %q%will now be the consolation of %q%your fathor father. alone  </fv:line_text>
+                           <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0018.xml#string-range(//tei:surface[@xml:id='ox-ms_abinger_c56-0018']/tei:zone[@type='main']//tei:line[9],23,196)"/>
+                           <fv:line_text>(hands of Elizabeth and) myself. "My "children said she it was on your "union that my firmest hopes of "future happiness were placed. It "will now be the consolation of "your fathor father. alone  </fv:line_text>
                            <fv:resolved_text> myself. "My</fv:resolved_text>
-                           <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0018.xml#string-range(//tei:surface[@xml:id='ox-ms_abinger_c56-0018']/tei:zone[@type='main']//tei:line[10],0,36)"/>
-                           <fv:line_text>%q%children said she it was on your</fv:line_text>
+                           <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0018.xml#string-range(//tei:surface[@xml:id='ox-ms_abinger_c56-0018']/tei:zone[@type='main']//tei:line[10],0,34)"/>
+                           <fv:line_text>"children said she it was on your</fv:line_text>
                            <fv:resolved_text>"children said she it was on your</fv:resolved_text>
-                           <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0018.xml#string-range(//tei:surface[@xml:id='ox-ms_abinger_c56-0018']/tei:zone[@type='main']//tei:line[11],0,34)"/>
-                           <fv:line_text>%q%union that my firmest hopes of</fv:line_text>
+                           <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0018.xml#string-range(//tei:surface[@xml:id='ox-ms_abinger_c56-0018']/tei:zone[@type='main']//tei:line[11],0,32)"/>
+                           <fv:line_text>"union that my firmest hopes of</fv:line_text>
                            <fv:resolved_text>"union that my firmest hopes of</fv:resolved_text>
-                           <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0018.xml#string-range(//tei:surface[@xml:id='ox-ms_abinger_c56-0018']/tei:zone[@type='main']//tei:line[12],0,36)"/>
-                           <fv:line_text>%q%future happiness were placed. It</fv:line_text>
+                           <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0018.xml#string-range(//tei:surface[@xml:id='ox-ms_abinger_c56-0018']/tei:zone[@type='main']//tei:line[12],0,34)"/>
+                           <fv:line_text>"future happiness were placed. It</fv:line_text>
                            <fv:resolved_text>"future happiness were placed. It</fv:resolved_text>
-                           <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0018.xml#string-range(//tei:surface[@xml:id='ox-ms_abinger_c56-0018']/tei:zone[@type='main']//tei:line[13],0,34)"/>
-                           <fv:line_text>%q%will now be the consolation of</fv:line_text>
+                           <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0018.xml#string-range(//tei:surface[@xml:id='ox-ms_abinger_c56-0018']/tei:zone[@type='main']//tei:line[13],0,32)"/>
+                           <fv:line_text>"will now be the consolation of</fv:line_text>
                            <fv:resolved_text>"will now be the consolation of</fv:resolved_text>
-                           <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0018.xml#string-range(//tei:surface[@xml:id='ox-ms_abinger_c56-0018']/tei:zone[@type='main']//tei:line[14],0,31)"/>
-                           <fv:line_text>%q%your fathor father. alone  </fv:line_text>
-                           <fv:resolved_text>"your fathor father.alone Eliz</fv:resolved_text>
+                           <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0018.xml#string-range(//tei:surface[@xml:id='ox-ms_abinger_c56-0018']/tei:zone[@type='main']//tei:line[14],0,29)"/>
+                           <fv:line_text>"your fathor father. alone  </fv:line_text>
+                           <fv:resolved_text>"your fathor father.alone El</fv:resolved_text>
                         </ref>
                      </witDetail>
                   </rdg>
@@ -13277,12 +13299,12 @@
                      <witDetail wit="#fMS" target="sga:c56/#/p18">
                         <ref type="page"
                               target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0018.xml">
-                           <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0018.xml#string-range(//tei:surface[@xml:id='ox-ms_abinger_c56-0018']/tei:zone[@type='main']//tei:line[15],25,63)"/>
-                           <fv:line_text>("love,supply my place to) the other %q%your young cons cousins.</fv:line_text>
+                           <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0018.xml#string-range(//tei:surface[@xml:id='ox-ms_abinger_c56-0018']/tei:zone[@type='main']//tei:line[15],25,61)"/>
+                           <fv:line_text>("love,supply my place to) the other "your young cons cousins.</fv:line_text>
                            <fv:resolved_text>o the other</fv:resolved_text>
-                           <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0018.xml#string-range(//tei:surface[@xml:id='ox-ms_abinger_c56-0018']/tei:zone[@type='main']//tei:line[16],0,28)"/>
-                           <fv:line_text>%q%your young cons cousins.</fv:line_text>
-                           <fv:resolved_text>"your young cons cousins. A</fv:resolved_text>
+                           <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0018.xml#string-range(//tei:surface[@xml:id='ox-ms_abinger_c56-0018']/tei:zone[@type='main']//tei:line[16],0,26)"/>
+                           <fv:line_text>"your young cons cousins.</fv:line_text>
+                           <fv:resolved_text>"your young cons cousins.</fv:resolved_text>
                         </ref>
                      </witDetail>
                   </rdg>
@@ -14334,7 +14356,7 @@
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1831_chapter_iii.xml#C08_app617-f1831"/>
                   </rdg>
                </rdgGrp>
-               <rdgGrp n="['&lt;del&gt;had', 'some', 'dear', 'connection', 'rent', 'away', 'by', '&lt;/del&gt;', 'that', 'rude', 'hand', 'rent', 'away', 'some', 'dear']"
+               <rdgGrp n="['&lt;delspanstart/&gt;had', 'some', 'dear', 'connection', 'rent', 'away', 'by', '&lt;delspanend/&gt;', 'that', 'rude', 'hand', 'rent', 'away', 'some', 'dear']"
                         xml:id="C08_app617_rg2">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c56_chapter_3.xml#C08_app617-fMS"/>
@@ -14721,7 +14743,7 @@
                </rdgGrp>
             </app>
             <app xml:id="C08_app640" n="105">
-               <rdgGrp n="['rest', '&lt;del&gt;and bless god if nothing&lt;/del&gt;', '', '&lt;del&gt;else&lt;/del&gt;', '', '^', '', '&lt;del&gt; worse  &lt;/del&gt;', '&lt;del&gt;happens&lt;/del&gt;', '&lt;del&gt;.&lt;/del&gt;', '&lt;del&gt; and the idleness generated by grief would  &lt;/del&gt;', '&lt;del&gt; become a bad habit if further indulged  &lt;/del&gt;']"
+               <rdgGrp n="['rest', '&lt;del&gt;and bless god if nothing&lt;/del&gt;', '', '&lt;del&gt;else&lt;/del&gt;', '', '^', '', '&lt;del&gt; worse  &lt;/del&gt;', '&lt;delspanstart/&gt;happens&lt;delspanend/&gt;', '&lt;del&gt;.&lt;/del&gt;', '&lt;del&gt; and the idleness generated by grief would  &lt;/del&gt;', '&lt;del&gt; become a bad habit if further indulged  &lt;/del&gt;']"
                         xml:id="C08_app640_rg1">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c56_chapter_3.xml#C08_app640-fMS"/>
@@ -14768,7 +14790,7 @@
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1831_chapter_iii.xml#C08_app642-f1831"/>
                   </rdg>
                </rdgGrp>
-               <rdgGrp n="['ourselvesfortunate,', '&lt;del&gt;if', 'no', 'more', '&lt;/del&gt;']"
+               <rdgGrp n="['ourselvesfortunate,', '&lt;delspanstart/&gt;if', 'no', 'more', '&lt;delspanend/&gt;']"
                         xml:id="C08_app642_rg2">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c56_chapter_3.xml#C08_app642-fMS"/>
@@ -15917,7 +15939,7 @@
                </rdgGrp>
             </app>
             <app xml:id="C08_app687" n="101">
-               <rdgGrp n="['beheld her so enchanting as at this  time when she &lt;del&gt;sar sacrifised every  minut &lt;/del&gt; &lt;del&gt;e&lt;/del&gt; &lt;del&gt;of her time&lt;/del&gt; &lt;del&gt;to others&lt;/del&gt;   ^  was     continually endeavouring to contribute to the  happiness of others entirely forgetful', '&lt;surface eid=%q%ox-ms_abinger_c56-0020%q%/&gt; &lt;surface lrx=%q%5364%q% lry=%q%7104%q% partof=%q%#ox-frankenstein_volume_i%q% ulx=%q%0%q% uly=%q%0%q% folio=%q%9r%q% shelfmark=%q%ms. abinger c. 56%q% base=%q%ox-ms_abinger_c56/ox-ms_abinger_c56-0021.xml%q% id=%q%ox-ms_abinger_c56-0021%q% sid=%q%ox-ms_abinger_c56-0021%q%/&gt; &lt;graphic url=%q%http://shelleygodwinarchive.org/images/ox/ms_abinger_c56/ms_abinger_c56-0021.jp2%q%/&gt;   of &lt;del&gt;hels&lt;/del&gt; herself.']"
+               <rdgGrp n="['beheld her so enchanting as at this  time when she &lt;delspanstart/&gt;sar sacrifised every  minut &lt;delspanend/&gt; &lt;del&gt;e&lt;/del&gt; &lt;del&gt;of her time&lt;/del&gt; &lt;del&gt;to others&lt;/del&gt;   ^  was     continually endeavouring to contribute to the  happiness of others entirely forgetful', '&lt;surface eid=%q%ox-ms_abinger_c56-0020%q%/&gt; &lt;surface lrx=%q%5364%q% lry=%q%7104%q% partof=%q%#ox-frankenstein_volume_i%q% ulx=%q%0%q% uly=%q%0%q% folio=%q%9r%q% shelfmark=%q%ms. abinger c. 56%q% base=%q%ox-ms_abinger_c56/ox-ms_abinger_c56-0021.xml%q% id=%q%ox-ms_abinger_c56-0021%q% sid=%q%ox-ms_abinger_c56-0021%q%/&gt; &lt;graphic url=%q%http://shelleygodwinarchive.org/images/ox/ms_abinger_c56/ms_abinger_c56-0021.jp2%q%/&gt;   of &lt;del&gt;hels&lt;/del&gt; herself.']"
                         xml:id="C08_app687_rg1">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c56_chapter_3.xml#C08_app687-fMS"/>
@@ -16516,7 +16538,7 @@
                </rdgGrp>
             </app>
             <app xml:id="C08_app706" n="466">
-               <rdgGrp n="[&#34;had a refined mind   &lt;del&gt;and a&lt;/del&gt; he  &lt;del&gt;did not wish&lt;/del&gt; had no desire   to be idle  and was well pleased to become &lt;del&gt;the  partner &lt;/del&gt; &lt;del&gt;of&lt;/del&gt; his father's   ^  partner   but he believed  that a man might be a very good  trader and yet  &lt;del&gt;have&lt;/del&gt; posess   a cultivated    &lt;del&gt;mind.&lt;/del&gt; understanding.&#34;]"
+               <rdgGrp n="[&#34;had a refined mind   &lt;del&gt;and a&lt;/del&gt; he  &lt;del&gt;did not wish&lt;/del&gt; had no desire   to be idle  and was well pleased to become &lt;delspanstart/&gt;the  partner &lt;delspanend/&gt; &lt;del&gt;of&lt;/del&gt; his father's   ^  partner   but he believed  that a man might be a very good  trader and yet  &lt;del&gt;have&lt;/del&gt; posess   a cultivated    &lt;del&gt;mind.&lt;/del&gt; understanding.&#34;]"
                         xml:id="C08_app706_rg1">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c56_chapter_3.xml#C08_app706-fMS"/>
@@ -16548,7 +16570,7 @@
                      </witDetail>
                   </rdg>
                </rdgGrp>
-               <rdgGrp n="['&lt;del&gt;had a refined mind; he had no desire to be idle, and was well pleased to become his father’s partner, but he believed that a man might be a very good trader, and yet possess a cultivated understanding.&lt;/del&gt;', 'loved poetry and his mind was filled with the imagery and sublime sentiments of the masters of that art. a poet himself, he turned with &lt;del&gt;y&lt;/del&gt; disgust from the details of ordinary life. his own &lt;del&gt;soul&lt;/del&gt; mind was all the possession that he prized, beautiful and majestic thoughts the only wealth he coveted—daring as the eagle and as free, common laws could not be applied to him; and while you gazed on him you felt his soul’s spark was more divine—more truly stolen from apollo’s sacred fire, than the glimmering ember that animates other men.']"
+               <rdgGrp n="['&lt;del&gt;had a refined mind; he had no desire to be idle, and was well pleased to become his father’s partner, but he believed that a man might be a very good trader, and yet possess a cultivated understanding.&lt;/del&gt;', 'loved poetry and his mind was filled with the imagery and sublime sentiments of the masters of that art. a poet himself, he turned with &lt;del-inner&gt;y&lt;/del-inner&gt; disgust from the details of ordinary life. his own &lt;del-inner&gt;soul&lt;/del-inner&gt; mind was all the possession that he prized, beautiful and majestic thoughts the only wealth he coveted—daring as the eagle and as free, common laws could not be applied to him; and while you gazed on him you felt his soul’s spark was more divine—more truly stolen from apollo’s sacred fire, than the glimmering ember that animates other men.']"
                         xml:id="C08_app706_rg2">
                   <rdg wit="#fThomas">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fThomas_vol_1_chapter_ii.xml#C08_app706-fThomas"/>
@@ -17636,7 +17658,7 @@
                </rdgGrp>
             </app>
             <app xml:id="C08_app764" n="9">
-               <rdgGrp n="['place', '&lt;del&gt;all', 'my', 'life', '&lt;/del&gt;']"
+               <rdgGrp n="['place', '&lt;delspanstart/&gt;all', 'my', 'life', '&lt;delspanend/&gt;']"
                         xml:id="C08_app764_rg1">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c56_chapter_3.xml#C08_app764-fMS"/>
@@ -18359,21 +18381,21 @@
                </rdgGrp>
             </app>
             <app xml:id="C08_app802" n="46">
-               <rdgGrp n="['stared.', '&lt;del&gt;i', 'said', 'that', 'i', 'did', 'not', 'mention', 'these', '&lt;/del&gt;%q%have', 'you', 'really%q%', 'said', '&lt;del&gt;%q%&lt;/del&gt;', 'he', '%q%spent', '%q%your']"
+               <rdgGrp n="['stared.', '&lt;delspanstart/&gt;i', 'said', 'that', 'i', 'did', 'not', 'mention', 'these', '&lt;delspanend/&gt;%q%have', 'you', 'really%q%', 'said', '&lt;del&gt;%q%&lt;/del&gt;', 'he', '%q%spent', '%q%your']"
                         xml:id="C08_app802_rg1">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c56_chap_4.xml#C08_app802-fMS"/>
                      <witDetail wit="#fMS" target="sga:c56/#/p24">
                         <ref type="page"
                               target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0024.xml">
-                           <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0024.xml#string-range(//tei:surface[@xml:id='ox-ms_abinger_c56-0024']/tei:zone[@type='main']//tei:line[15],23,110)"/>
-                           <fv:line_text>(subjects.The professor) stared. I said that I did not mention these "Have you really" said %q% he "spent "your</fv:line_text>
+                           <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0024.xml#string-range(//tei:surface[@xml:id='ox-ms_abinger_c56-0024']/tei:zone[@type='main']//tei:line[15],23,108)"/>
+                           <fv:line_text>(subjects.The professor) stared. I said that I did not mention these "Have you really" said " he "spent "your</fv:line_text>
                            <fv:resolved_text>r stared. I said</fv:resolved_text>
                            <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0024.xml#string-range(//tei:surface[@xml:id='ox-ms_abinger_c56-0024']/tei:zone[@type='main']//tei:line[16],0,30)"/>
                            <fv:line_text>that I did not mention these </fv:line_text>
                            <fv:resolved_text>that I did not mention these</fv:resolved_text>
-                           <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0024.xml#string-range(//tei:surface[@xml:id='ox-ms_abinger_c56-0024']/tei:zone[@type='main']//tei:line[17],0,37)"/>
-                           <fv:line_text>"Have you really" said %q% he "spent</fv:line_text>
+                           <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0024.xml#string-range(//tei:surface[@xml:id='ox-ms_abinger_c56-0024']/tei:zone[@type='main']//tei:line[17],0,35)"/>
+                           <fv:line_text>"Have you really" said " he "spent</fv:line_text>
                            <fv:resolved_text>"Have you really" said" he "spent</fv:resolved_text>
                            <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0024.xml#string-range(//tei:surface[@xml:id='ox-ms_abinger_c56-0024']/tei:zone[@type='main']//tei:line[18],0,6)"/>
                            <fv:line_text>"your</fv:line_text>
@@ -20473,7 +20495,7 @@
                </rdgGrp>
             </app>
             <app xml:id="C08_app927" n="39">
-               <rdgGrp n="['', '&lt;del&gt;all&lt;/del&gt;', 'changed.&lt;del&gt;', '&lt;del&gt;t and the expulsion&lt;/del&gt;', 'of', 'chimera', 'overthrew', 'at']"
+               <rdgGrp n="['', '&lt;del&gt;all&lt;/del&gt;', 'changed.&lt;delspanstart/&gt;', '&lt;del&gt;t and the expulsion&lt;/del&gt;', 'of', 'chimera', 'overthrew', 'at']"
                         xml:id="C08_app927_rg1">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c56_chap_4.xml#C08_app927-fMS"/>
@@ -20522,7 +20544,7 @@
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fThomas_vol_1_chapter_ii.xml#C08_app929-fThomas"/>
                   </rdg>
                </rdgGrp>
-               <rdgGrp n="['same', 'time', 'all', '', '&lt;del&gt;greatness in the science&lt;/del&gt;', '&lt;del&gt; those  &lt;/del&gt;', '&lt;/del&gt;the', '&lt;del&gt;utmost&lt;/del&gt;', 'ambition of  enquirer']"
+               <rdgGrp n="['same', 'time', 'all', '', '&lt;del&gt;greatness in the science&lt;/del&gt;', '&lt;del&gt; those  &lt;/del&gt;', '&lt;delspanend/&gt;the', '&lt;del&gt;utmost&lt;/del&gt;', 'ambition of  enquirer']"
                         xml:id="C08_app929_rg3">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c56_chap_4.xml#C08_app929-fMS"/>
@@ -21388,7 +21410,7 @@
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1831_chapter_iii.xml#C08_app981-f1831"/>
                   </rdg>
                </rdgGrp>
-               <rdgGrp n="['&lt;del&gt;remark-ed&lt;/del&gt;', 'the', 'various', 'improvements']"
+               <rdgGrp n="['&lt;delspanstart/&gt;remark-ed&lt;delspanend/&gt;', 'the', 'various', 'improvements']"
                         xml:id="C08_app981_rg2">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c56_chap_4.xml#C08_app981-fMS"/>
@@ -21407,7 +21429,7 @@
                </rdgGrp>
             </app>
             <app xml:id="C08_app982" n="24">
-               <rdgGrp n="['', '^', '', '&lt;del&gt; and discoveries  &lt;/del&gt;', '&lt;del&gt;different&lt;/del&gt;made']"
+               <rdgGrp n="['', '^', '', '&lt;del&gt; and discoveries  &lt;/del&gt;', '&lt;delspanstart/&gt;different&lt;delspanend/&gt;made']"
                         xml:id="C08_app982_rg1">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c56_chap_4.xml#C08_app982-fMS__I"/>
@@ -22349,9 +22371,9 @@
                      <witDetail wit="#fMS" target="sga:c56/#/p28">
                         <ref type="page"
                               target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0028.xml">
-                           <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0028.xml#string-range(//tei:surface[@xml:id='ox-ms_abinger_c56-0028']/tei:zone[@type='main']//tei:line[2],0,18)"/>
-                           <fv:line_text>%q%the heavens; –</fv:line_text>
-                           <fv:resolved_text>"the heavens;– th</fv:resolved_text>
+                           <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0028.xml#string-range(//tei:surface[@xml:id='ox-ms_abinger_c56-0028']/tei:zone[@type='main']//tei:line[2],0,16)"/>
+                           <fv:line_text>"the heavens; –</fv:line_text>
+                           <fv:resolved_text>"the heavens;– </fv:resolved_text>
                         </ref>
                      </witDetail>
                   </rdg>
@@ -22380,9 +22402,9 @@
                      <witDetail wit="#fMS" target="sga:c56/#/p28">
                         <ref type="page"
                               target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0028.xml">
-                           <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0028.xml#string-range(//tei:surface[@xml:id='ox-ms_abinger_c56-0028']/tei:zone[@type='main']//tei:line[2],27,37)"/>
-                           <fv:line_text>(%q%the heavens; –they have) discoverd</fv:line_text>
-                           <fv:resolved_text>iscoverd h</fv:resolved_text>
+                           <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0028.xml#string-range(//tei:surface[@xml:id='ox-ms_abinger_c56-0028']/tei:zone[@type='main']//tei:line[2],25,35)"/>
+                           <fv:line_text>("the heavens; –they have) discoverd</fv:line_text>
+                           <fv:resolved_text> discoverd</fv:resolved_text>
                         </ref>
                      </witDetail>
                   </rdg>
@@ -23122,7 +23144,7 @@
                </rdgGrp>
             </app>
             <app xml:id="C08_app1086" n="19">
-               <rdgGrp n="['knowledge', '&lt;del&gt;it', 'is', 'not', 'a', 'meaner', 'task', '&lt;/del&gt;they', '^']"
+               <rdgGrp n="['knowledge', '&lt;delspanstart/&gt;it', 'is', 'not', 'a', 'meaner', 'task', '&lt;delspanend/&gt;they', '^']"
                         xml:id="C08_app1086_rg1">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c56_chap_4.xml#C08_app1086-fMS__I"/>
@@ -24474,7 +24496,7 @@
                </rdgGrp>
             </app>
             <app xml:id="C08_app1173" n="111">
-               <rdgGrp n="['philosophy', '&lt;del&gt;and&lt;/del&gt;', '%q%mathematics.%q%', '&lt;p-end/&gt;', '&lt;p-start/&gt;', '&lt;del&gt;he', 'then', 'gave', 'me', 'the', 'list', 'i', 'had', 'requested', 'and', 'mentioned', 'a', 'few', 'machines', 'that', 'i', 'ought', 'to', 'procure', 'and', 'promising', 'that', 'when', 'i', 'should', 'have', '&lt;/del&gt;']"
+               <rdgGrp n="['philosophy', '&lt;del&gt;and&lt;/del&gt;', '%q%mathematics.%q%', '&lt;p-end/&gt;', '&lt;p-start/&gt;', '&lt;delspanstart/&gt;he', 'then', 'gave', 'me', 'the', 'list', 'i', 'had', 'requested', 'and', 'mentioned', 'a', 'few', 'machines', 'that', 'i', 'ought', 'to', 'procure', 'and', 'promising', 'that', 'when', 'i', 'should', 'have', '&lt;delspanend/&gt;']"
                         xml:id="C08_app1173_rg1">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c56_chap_4.xml#C08_app1173-fMS"/>
@@ -24629,7 +24651,7 @@
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1831_chapter_iii.xml#C08_app1182-f1831"/>
                   </rdg>
                </rdgGrp>
-               <rdgGrp n="['machines&lt;del&gt;tel', 'ling', 'me', '&lt;/del&gt;']"
+               <rdgGrp n="['machines&lt;delspanstart/&gt;tel', 'ling', 'me', '&lt;delspanend/&gt;']"
                         xml:id="C08_app1182_rg2">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c56_chap_4.xml#C08_app1182-fMS__I"/>
