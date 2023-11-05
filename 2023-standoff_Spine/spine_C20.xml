@@ -88,7 +88,7 @@
             <p>Produced from collation output prepared in batch file processing
                                     on  2023-10-29 20:26:29.546616 .</p>
             <p>Edited to correct alignments and prepared for the Frankenstein
-                                    Variorum spine on 2023-11-05T00:12:07.46948-04:00.</p>
+                                    Variorum spine on 2023-11-05T01:49:29.942521-04:00.</p>
          </editorialDecl>
          <appInfo>
             <application ident="collateX" version="1.7.1">
@@ -2451,16 +2451,16 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C20_app137" n="123">
-               <rdgGrp n="['', '&lt;del&gt; offer  &lt;/del&gt; &lt;restore type=%q%smear_strikethrough%q%&gt;', '&lt;/restore&gt; offer   yet  he looked forward to the probability of  that event as the consummation of  his happiness.', '&lt;p-end/&gt;&lt;p-start/&gt;  the turk informed safie of his  intentions and  _________________________', 'and rank', '', '&lt;del&gt;her father&lt;/del&gt;', 'the merchant   commander   &lt;del&gt;her&lt;/del&gt; his daughter']"
+            <app xml:id="C20_app137" n="10">
+               <rdgGrp n="['', '&lt;del&gt; offer  &lt;/del&gt; &lt;restore type=%q%smear_strikethroug'h%q%&gt;', '&lt;/restore&gt; offer   yet  he looked forward to the probability of  that event as the consummation of  his happiness.&lt;p-end/&gt;']"
                         xml:id="C20_app137_rg1">
                   <rdg wit="#fMS">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c57_another_chapter.xml#C20_app137-fMS"/>
                      <witDetail wit="#fMS" target="sga:c57/#/p33">
                         <ref type="page"
                               target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0033.xml">
-                           <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0033.xml#string-range(//tei:surface[@xml:id='ox-ms_abinger_c57-0033']/tei:zone[@type='main']//tei:line[5],33,283)"/>
-                           <fv:line_text>(Felix was too delicate to accept)   offer     offer   yet he looked forward to the probability of that event as the consummation of his happiness.  The Turk informed Safie of his intentions and _________________________ and rank  her father the merchant   commander  her his daughter</fv:line_text>
+                           <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0033.xml#string-range(//tei:surface[@xml:id='ox-ms_abinger_c57-0033']/tei:zone[@type='main']//tei:line[5],33,147)"/>
+                           <fv:line_text>(Felix was too delicate to accept)   offer     offer   yet he looked forward to the probability of that event as the consummation of his happiness. </fv:line_text>
                            <fv:resolved_text> offer this offer yet</fv:resolved_text>
                            <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0033.xml#string-range(//tei:surface[@xml:id='ox-ms_abinger_c57-0033']/tei:zone[@type='main']//tei:line[6],0,40)"/>
                            <fv:line_text>he looked forward to the probability of</fv:line_text>
@@ -2471,21 +2471,6 @@
                            <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0033.xml#string-range(//tei:surface[@xml:id='ox-ms_abinger_c57-0033']/tei:zone[@type='main']//tei:line[8],0,16)"/>
                            <fv:line_text>his happiness. </fv:line_text>
                            <fv:resolved_text>his happiness.</fv:resolved_text>
-                           <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0033.xml#string-range(//tei:surface[@xml:id='ox-ms_abinger_c57-0033']/tei:zone[@type='main']//tei:line[9],0,31)"/>
-                           <fv:line_text>The Turk informed Safie of his</fv:line_text>
-                           <fv:resolved_text>The Turk informed Safie of his</fv:resolved_text>
-                           <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0033.xml#string-range(//tei:surface[@xml:id='ox-ms_abinger_c57-0033']/tei:zone[@type='main']//tei:line[10],0,15)"/>
-                           <fv:line_text>intentions and</fv:line_text>
-                           <fv:resolved_text>intentions and</fv:resolved_text>
-                           <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0033.xml#string-range(//tei:surface[@xml:id='ox-ms_abinger_c57-0033']/tei:zone[@type='main']//tei:line[11],0,26)"/>
-                           <fv:line_text>_________________________</fv:line_text>
-                           <fv:resolved_text>_________________________</fv:resolved_text>
-                           <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0033.xml#string-range(//tei:surface[@xml:id='ox-ms_abinger_c57-0033']/tei:zone[@type='main']//tei:line[12],0,47)"/>
-                           <fv:line_text> and rank  her father the merchant   commander</fv:line_text>
-                           <fv:resolved_text>and rank her father the merchant commander</fv:resolved_text>
-                           <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0033.xml#string-range(//tei:surface[@xml:id='ox-ms_abinger_c57-0033']/tei:zone[@type='main']//tei:line[13],0,18)"/>
-                           <fv:line_text> her his daughter</fv:line_text>
-                           <fv:resolved_text>her his daughter </fv:resolved_text>
                         </ref>
                      </witDetail>
                   </rdg>
@@ -3175,12 +3160,38 @@
                   </rdg>
                </rdgGrp>
             </app>
-            <app xml:id="C20_app170" n="1">
-               <rdgGrp xml:id="C20_app170_rg_empty">
-                  <rdg wit="#fMS"/>
+            <app xml:id="C20_app170" n="190">
+               <rdgGrp n="['&lt;p-start/&gt;  the turk informed safie of his  intentions and  _________________________', 'and rank', '', '&lt;del&gt;her father&lt;/del&gt;', 'the merchant   commander   &lt;del&gt;her&lt;/del&gt; his daughter']"
+                        xml:id="C20_app170_rg1">
+                  <rdg wit="#fMS">
+                     <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/fMS_box_c57_another_chapter.xml#C20_app170-fMS"/>
+                     <witDetail wit="#fMS" target="sga:c57/#/p33">
+                        <ref type="page"
+                              target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0033.xml">
+                           <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0033.xml#string-range(//tei:surface[@xml:id='ox-ms_abinger_c57-0033']/tei:zone[@type='main']//tei:line[8],16,153)"/>
+                           <fv:line_text>(his happiness. )  The Turk informed Safie of his intentions and _________________________ and rank  her father the merchant   commander  her his daughter</fv:line_text>
+                           <fv:resolved_text/>
+                           <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0033.xml#string-range(//tei:surface[@xml:id='ox-ms_abinger_c57-0033']/tei:zone[@type='main']//tei:line[9],0,31)"/>
+                           <fv:line_text>The Turk informed Safie of his</fv:line_text>
+                           <fv:resolved_text>The Turk informed Safie of his</fv:resolved_text>
+                           <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0033.xml#string-range(//tei:surface[@xml:id='ox-ms_abinger_c57-0033']/tei:zone[@type='main']//tei:line[10],0,15)"/>
+                           <fv:line_text>intentions and</fv:line_text>
+                           <fv:resolved_text>intentions and</fv:resolved_text>
+                           <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0033.xml#string-range(//tei:surface[@xml:id='ox-ms_abinger_c57-0033']/tei:zone[@type='main']//tei:line[11],0,26)"/>
+                           <fv:line_text>_________________________</fv:line_text>
+                           <fv:resolved_text>_________________________</fv:resolved_text>
+                           <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0033.xml#string-range(//tei:surface[@xml:id='ox-ms_abinger_c57-0033']/tei:zone[@type='main']//tei:line[12],0,47)"/>
+                           <fv:line_text> and rank  her father the merchant   commander</fv:line_text>
+                           <fv:resolved_text>and rank her father the merchant commander</fv:resolved_text>
+                           <ptr target="https://raw.githubusercontent.com/umd-mith/sga/6b935237972957b28b843f8d6d9f939b9a95dcb5/data/tei/ox/ox-ms_abinger_c57/ox-ms_abinger_c57-0033.xml#string-range(//tei:surface[@xml:id='ox-ms_abinger_c57-0033']/tei:zone[@type='main']//tei:line[13],0,18)"/>
+                           <fv:line_text> her his daughter</fv:line_text>
+                           <fv:resolved_text>her his daughter </fv:resolved_text>
+                        </ref>
+                     </witDetail>
+                  </rdg>
                </rdgGrp>
                <rdgGrp n="['gloried', 'in', 'it:', 'but', 'the', 'ingratitude', 'of', 'the', 'turk,', 'and', 'the', 'loss', 'of', 'his', 'beloved', 'safie,', 'were', 'misfortunes', 'more', 'bitter', 'and', 'irreparable.', 'the', 'arrival', 'of', 'the', 'arabian', 'now', 'infused', 'new', 'life', 'into', 'his', 'soul.', '&lt;p-end/&gt;', '&lt;p-start/&gt;', '%q%when', 'the', 'news', 'reached', 'leghorn,', 'that', 'felix', 'was', 'deprived', 'of', 'his', 'wealth', 'and', 'rank,', 'the merchant commanded his daughter']"
-                        xml:id="C20_app170_rg1">
+                        xml:id="C20_app170_rg2">
                   <rdg wit="#f1818">
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1818_vol_2_chapter_vi.xml#C20_app170-f1818__I"/>
                      <ptr target="https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f1818_vol_2_chapter_vi.xml#C20_app170-f1818__F"/>
