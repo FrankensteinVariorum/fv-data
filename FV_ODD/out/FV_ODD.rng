@@ -5,7 +5,7 @@
          xmlns:xlink="http://www.w3.org/1999/xlink"
          datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes"
          ns="http://www.tei-c.org/ns/1.0"><!--
-Schema generated from ODD source 2023-10-20T01:37:46Z. .
+Schema generated from ODD source 2023-11-05T16:08:32Z. .
 TEI Edition: Version 4.4.0. Last updated on
         19th April 2022, revision ff9cc28b0
 TEI Edition Location: https://www.tei-c.org/Vault/P5/Version 4.4.0/
@@ -136,7 +136,7 @@ TEI Edition Location: https://www.tei-c.org/Vault/P5/Version 4.4.0/
             </choice>
          </zeroOrMore>
       </element>
-      <pattern xmlns="http://purl.oclc.org/dsdl/schematron" id="d10e92316-constraint">
+      <pattern xmlns="http://purl.oclc.org/dsdl/schematron" id="d10e92325-constraint">
          <rule context="tei:content">
             <report test="descendant::*[not(namespace-uri(.) =               ('http://relaxng.org/ns/compatibility/annotations/1.0', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', 'http://relaxng.org/ns/structure/1.0', 'http://www.tei-c.org/ns/1.0'))]">content descendants must be in the
               namespaces
@@ -185,7 +185,7 @@ TEI Edition Location: https://www.tei-c.org/Vault/P5/Version 4.4.0/
             </choice>
          </zeroOrMore>
       </element>
-      <pattern xmlns="http://purl.oclc.org/dsdl/schematron" id="d10e93610-constraint">
+      <pattern xmlns="http://purl.oclc.org/dsdl/schematron" id="d10e93619-constraint">
          <rule context="tei:datatype">
             <report test="descendant::*[not(namespace-uri(.) =               ('http://relaxng.org/ns/structure/1.0', 'http://www.tei-c.org/ns/1.0'))]">datatype descendants must be in the
               namespaces
@@ -1663,9 +1663,9 @@ Suggested values include: 1] top; 2] bottom; 3] margin; 4] opposite; 5] overleaf
       <sch:rule xmlns="http://www.tei-c.org/ns/1.0"
                 xmlns:sch="http://purl.oclc.org/dsdl/schematron"
                 context="tei:*[@spanTo]">
-         <sch:assert test="following::*[@*[name() = 'anchor' or name() = 'xml:id']=substring(current()/@spanTo,2)]">
-                      The element indicated by @spanTo (<sch:value-of select="@spanTo"/>) must follow the current element <sch:name/>
-         </sch:assert>
+         <sch:assert test="following::*[@*[name() = 'anchor' or name() = 'xml:id']=substring-after(@spanTo, '#')]">
+                      In the FV project, an element indicated by @spanTo (<sch:value-of select="@spanTo"/>) must follow the current element <sch:name/>.
+                    </sch:assert>
       </sch:rule>
    </pattern>
    <define name="tei_att.styleDef.attributes">

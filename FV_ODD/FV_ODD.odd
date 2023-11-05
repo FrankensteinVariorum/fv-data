@@ -414,8 +414,8 @@
                   current element</desc>
                 <constraint>
                   <sch:rule context="tei:*[@spanTo]">
-                    <sch:assert test="following::*[@*[name() = 'anchor' or name() = 'xml:id']=substring(current()/@spanTo,2)]">
-                      The element indicated by @spanTo (<sch:value-of select="@spanTo"/>) must follow the current element <sch:name/>
+                    <sch:assert test="following::*[@*[name() = 'anchor' or name() = 'xml:id']=substring-after(@spanTo, '#')]">
+                      In the FV project, an element indicated by @spanTo (<sch:value-of select="@spanTo"/>) must follow the current element <sch:name/>.
                     </sch:assert>
                   </sch:rule>
                 </constraint>
