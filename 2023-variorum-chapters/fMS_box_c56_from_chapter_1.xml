@@ -28,7 +28,7 @@
          <sourceDesc>
             <p>This file is developed from a process of collating five distinct editions for
                                                 the <title level="m">Frankenstein Variorum</title> digital edition on
-                                                  2023-11-02T18:07:33.353758-04:00.</p>
+                                                  2023-11-05T00:13:27.597221-04:00.</p>
             <p>The <title level="m">Frankenstein Variorum</title> digitally compares five versions of the novel <title level="m">Frankenstein</title> prepared between 1816 and 1831.
                                                 <abbr>fMS</abbr> refers to the manuscript notebooks dated roughly 1816 to 1818 and stored in three boxes at the Bodleian library in Oxford.
                                                 <abbr>f1818</abbr> refers to the first anonymous publication of Frankenstein in 1818. <abbr>fThomas</abbr> refers to a copy of the 1818 edition left by 
@@ -298,7 +298,7 @@
         </seg> 
     in </add>
          </mod>books of 
-        <seg part="I" xml:id="C08_app57-fMS__I">
+        <seg xml:id="C08_app57-fMS">
             <w ana="start"/>chi<lb n="c56-0011__main__29"/>valry<w ana="end"/> &amp; romance and <mod xml:id="c56-0011__main__d5e371">
                <add place="sublinear" xml:id="c56-0011__main__d5e373">
                   <metamark function="insert">^</metamark>
@@ -313,85 +313,132 @@
             <add hand="#pbs" place="intralinear" xml:id="c56-0011__main__d5e392">ese </add>
             </mod>
             <del rend="strikethrough" xml:id="c56-0011__main__d5e395">favourite</del> books, the principal <lb n="c56-0011__main__32"/>
-            <del instant="true" rend="strikethrough" xml:id="c56-0011__main__d5e401">car</del>characters of which were Orlando <lb n="c56-0011__main__33"/>Robin Hood, Amadis and St. George– <lb n="c56-0011__main__34"/>No youth could could be more happy </seg>
-         <mod xml:id="c56-0012__left_margin__d5e674">
-            <seg part="M" xml:id="C08_app57-fMS__M">
-               <del rend="strikethrough" xml:id="c56-0012__left_margin__d5e676">this</del>
-            </seg>
-            <add hand="#pbs"
-                  place="superlinear"
-                  xml:id="c56-0012__left_margin__d5e679">the
-        <seg part="F" xml:id="C08_app57-fMS__F">the
+            <del instant="true" rend="strikethrough" xml:id="c56-0011__main__d5e401">car</del>characters of which were Orlando <lb n="c56-0011__main__33"/>Robin Hood, Amadis and St. George–
         </seg>
-               <seg part="I" xml:id="C08_app62-fMS__I">
-                  </seg>
-            </add>
-         </mod>
-         <seg part="F" xml:id="C08_app62-fMS__F">
-            <addSpan spanTo="#c56-0012.06"/>
-            <lb n="c56-0012__left_margin__1"/>
-            <add hand="#pbs"
-                  place="superlinear"
-                  xml:id="c56-0012__left_margin__d5e668">
-               <metamark function="displacement">X</metamark>
-            </add> In <mod xml:id="c56-0012__left_margin__d5e674">
-               <del rend="strikethrough" xml:id="c56-0012__left_margin__d5e676">this</del>
-               <add hand="#pbs"
-                     place="superlinear"
-                     xml:id="c56-0012__left_margin__d5e679">the
-        </add>
+         <seg xml:id="C08_app59-fMS">
+            <lb n="c56-0011__main__34"/>No youth could could be more happy <lb n="c56-0012__main__1"/>than mine. – <mod xml:id="c56-0012__main__d5e418">
+               <del rend="strikethrough" xml:id="c56-0012__main__d5e420">Our</del>
+               <add hand="#pbs" place="superlinear" xml:id="c56-0012__main__d5e423">My </add>
+            </mod> parents were <w ana="start"/>indul<lb n="c56-0012__main__2"/>gent<w ana="end"/>, and my companions amiable. <lb n="c56-0012__main__3"/>
+            <del rend="strikethrough" xml:id="c56-0012__main__d5e436">and our stud</del> Our studies were never <lb n="c56-0012__main__4"/>forced, and by some means we <w ana="start"/>al<lb n="c56-0012__main__5"/>ways<w ana="end"/> had an end placed in view which <lb n="c56-0012__main__6"/>excited us to ardour. <mod xml:id="c56-0012__main__d5e450">
+               <add place="sublinear" xml:id="c56-0012__main__d5e452">
+                  <metamark function="insert">^</metamark>
+               </add>
+               <add hand="#pbs" place="superlinear" xml:id="c56-0012__main__d5e458">in the prosecution of them. </add>
+            </mod> It was by this <mod xml:id="c56-0012__main__d5e462">
+               <mdel>&amp;</mdel>
+               <add hand="#pbs" place="superlinear" xml:id="c56-0012__main__d5e466">method </add>
             </mod>
-            <w ana="start"/>descrip<lb n="c56-0012__left_margin__2"/>tion<w ana="end"/> of our <w ana="start"/>do<lb n="c56-0012__left_margin__3"/>mestic<w ana="end"/> circle
+            <lb n="c56-0012__main__7"/>not by emulation that we were <lb n="c56-0012__main__8"/>urged. Elizabeth was not told to apply <lb n="c56-0012__main__9"/>herself to drawing <mod xml:id="c56-0012__main__d5e477">
+               <mdel>or</mdel>
+               <add hand="#pbs" place="superlinear" xml:id="c56-0012__main__d5e481">that </add>
+            </mod> her companions <lb n="c56-0012__main__10"/>
+            <mod xml:id="c56-0012__main__d5e487">
+               <del rend="strikethrough" xml:id="c56-0012__main__d5e489">would</del>
+               <add hand="#pbs" place="superlinear" xml:id="c56-0012__main__d5e492">might not </add>
+            </mod> outstrip her, but <del type="overwritten" xml:id="c56-0012__main__d5e496">she</del>
+            <add hand="#pbs" place="intralinear" xml:id="c56-0012__main__d5e499">by </add>
+            <del next="#c56-0012.02"
+                  rend="strikethrough"
+                  xml:id="c56-0012__main__d5e502">was</del>
+            <add hand="#pbs" place="superlinear" xml:id="c56-0012__main__d5e506">the </add>
+            <anchor xml:id="c56-0012.03"/>
+            <zone corresp="#c56-0012.03"
+                   type="left_margin"
+                   xml:id="c56-0012.03__left_margin">
+               <lb n="c56-0012__left_margin__1"/>
+               <add hand="#pbs" xml:id="c56-0012__left_margin__d5e515">desire of </add>
+            </zone>
+            <lb n="c56-0012__main__11"/>
+            <del rend="strikethrough" xml:id="c56-0012__main__d5e521">knew how</del>
+            <anchor xml:id="c56-0012.01"/> pleas <mod xml:space="preserve" xml:id="c56-0012__main__d5e527">
+            <mdel>ed</mdel>
+            <add hand="#pbs" place="intralinear" xml:id="c56-0012__main__d5e529">ing </add>
+            </mod> her Aunt <delSpan rend="strikethrough" spanTo="#c56-0012.04"/>would <lb n="c56-0012__main__12"/>be <delSpan anchor="c56-0012.04"/> by <mod xml:id="c56-0012__main__d5e538">
+               <del rend="strikethrough" xml:id="c56-0012__main__d5e540">a painting</del>
+               <add hand="#pbs" place="superlinear" xml:id="c56-0012__main__d5e543">the representation </add>
+            </mod> of some <del rend="strikethrough" xml:id="c56-0012__main__d5e547">of her</del>
+            <lb n="c56-0012__main__13"/>favourite scene<del rend="strikethrough" xml:id="c56-0012__main__d5e553">s</del> done by her own <lb n="c56-0012__main__14"/>hand. <del rend="strikethrough" xml:id="c56-0012__main__d5e558">Latin</del> We learned Latin &amp; <lb n="c56-0012__main__15"/>English <mod xml:id="c56-0012__main__d5e563">
+               <mdel>to</mdel>
+               <add hand="#pbs" place="superlinear" xml:id="c56-0012__main__d5e567">that we might </add>
+            </mod> read the writ <mod xml:space="preserve" xml:id="c56-0012__main__d5e572">
+            <del type="overwritten" xml:id="c56-0012__main__d5e573">ers</del>
+            <add hand="#pbs" place="intralinear" xml:id="c56-0012__main__d5e575">ings </add>
+            </mod>
+            <mod xml:id="c56-0012__main__d5e578">
+               <mdel>of</mdel>
+               <add hand="#pbs" place="superlinear" xml:id="c56-0012__main__d5e582">in </add>
+            </mod> those <lb n="c56-0012__main__16"/>languages and so far from study <lb n="c56-0012__main__17"/>begin rendered odious <del rend="strikethrough" xml:id="c56-0012__main__d5e590">by</del> to us <w ana="start"/>th<mod xml:id="c56-0012__main__d5e596">
+               <add place="sublinear" xml:id="c56-0012__main__d5e598">
+                  <metamark function="insert">^</metamark>
+               </add>
+               <add place="superlinear" xml:id="c56-0012__main__d5e604">r </add>
+            </mod> ough<w ana="end"/>
+            <lb n="c56-0012__main__18"/>punishment, we loved application <lb n="c56-0012__main__19"/>and our amusements <mod xml:id="c56-0012__main__d5e614">
+               <del rend="strikethrough" xml:id="c56-0012__main__d5e616">were</del>
+               <add hand="#pbs" place="superlinear" xml:id="c56-0012__main__d5e619">would have been </add>
+            </mod> the <lb n="c56-0012__main__20"/>labours of other children. perhaps <lb n="c56-0012__main__21"/>we did not read so many books <lb n="c56-0012__main__22"/>or learn <del rend="strikethrough" xml:id="c56-0012__main__d5e630">a</del> languages so quickly <lb n="c56-0012__main__23"/>as <mod xml:id="c56-0012__main__d5e635">
+               <del rend="strikethrough" xml:id="c56-0012__main__d5e637">another child</del>
+               <add hand="#pbs" place="superlinear" xml:id="c56-0012__main__d5e640">those who are disciplined according to the ordinary </add>
+               <add hand="#pbs" place="sublinear" xml:id="c56-0012__main__d5e643">method, </add>
+            </mod> but what we <lb n="c56-0012__main__24"/>learned was impressed <add hand="#pbs" place="superlinear" xml:id="c56-0012__main__d5e650">the more deeply </add> on our <lb n="c56-0012__main__25"/>memory.
         </seg>
-         <seg xml:id="C08_app63-fMS">
-            <lb n="c56-0012__left_margin__4"/>I include <anchor xml:id="c56-0012.06"/>
+         <seg xml:id="C08_app61-fMS">
+            <mod xml:id="c56-0012__main__d5e655">
+               <add hand="#pbs" place="superlinear" xml:id="c56-0012__main__d5e657">
+                  <metamark function="displacement" xml:id="c56-0012.05">X</metamark>
+                  <zone corresp="#c56-0012.05"
+                         type="left_margin"
+                         xml:id="c56-0012.05__left_margin">
+                     <addSpan spanTo="#c56-0012.06"/>
+                     <lb n="c56-0012__left_margin__1"/>
+                     <add hand="#pbs"
+                           place="superlinear"
+                           xml:id="c56-0012__left_margin__d5e668">
+                        <metamark function="displacement">X</metamark>
+                     </add> In <mod xml:id="c56-0012__left_margin__d5e674">
+                        <del rend="strikethrough" xml:id="c56-0012__left_margin__d5e676">this</del>
+                        <add hand="#pbs"
+                              place="superlinear"
+                              xml:id="c56-0012__left_margin__d5e679">the </add>
+                     </mod>
+                     <w ana="start"/>descrip<lb n="c56-0012__left_margin__2"/>tion<w ana="end"/> of our <w ana="start"/>do<lb n="c56-0012__left_margin__3"/>mestic<w ana="end"/> circle <lb n="c56-0012__left_margin__4"/>I include <anchor xml:id="c56-0012.06"/>
+                  </zone>
+               </add>
+               <del rend="strikethrough" xml:id="c56-0012__main__d5e703">I include</del>
+            </mod>
             <del rend="strikethrough" xml:id="c56-0012__main__d5e707">Hen</del> Henry <del next="#c56-0012.08"
                   rend="strikethrough"
                   xml:id="c56-0012__main__d5e710">Carignan</del>
             <add place="superlinear" xml:id="c56-0012__main__d5e713">Clerval, </add>
             <lb n="c56-0012__main__26"/>
             <del rend="strikethrough" xml:id="c56-0012__main__d5e719">in this account</del>
-            <anchor xml:id="c56-0012.07"/>
-         </seg>
-         <seg xml:id="C08_app64-fMS">
-        for
-        </seg>
-         <seg part="I" xml:id="C08_app65-fMS__I">
-            </seg>
-         <mod xml:id="c56-0012__main__d5e724">
-            <seg part="M" xml:id="C08_app65-fMS__M">
+            <anchor xml:id="c56-0012.07"/> for <mod xml:id="c56-0012__main__d5e724">
                <add place="sublinear" xml:id="c56-0012__main__d5e726">
                   <metamark function="insert">^</metamark>
                </add>
-            </seg>
-            <add place="superlinear" xml:id="c56-0012__main__d5e732">
-               <seg part="F" xml:id="C08_app65-fMS__F">he
+               <add place="superlinear" xml:id="c56-0012__main__d5e732">he </add>
+            </mod>was
         </seg>
-               <seg part="I" xml:id="C08_app66-fMS__I">
-                  </seg>
-            </add>
-         </mod>
-         <seg part="F" xml:id="C08_app66-fMS__F">was
-        </seg>
-         <seg xml:id="C08_app67-fMS">
+         <seg xml:id="C08_app62-fMS">
             <del rend="strikethrough" xml:id="c56-0012__main__d5e736">con</del> constantly <lb n="c56-0012__main__27"/>with us. he went to
         </seg>
-         <seg xml:id="C08_app68-fMS">
+         <seg xml:id="C08_app63-fMS">
             <del rend="strikethrough" xml:id="c56-0012__main__d5e742">sho</del> school <lb n="c56-0012__main__28"/>with
         </seg>
-         <seg xml:id="C08_app69-fMS">
+         <seg xml:id="C08_app64-fMS">
         me
         </seg>
-         <seg xml:id="C08_app70-fMS">
+         <seg xml:id="C08_app65-fMS">
         and generally passed <lb n="c56-0012__main__29"/>the afternoon at our
         </seg>
-         <seg xml:id="C08_app71-fMS">
+         <seg xml:id="C08_app66-fMS">
         house
         </seg>
-         <seg xml:id="C08_app72-fMS">
+         <seg xml:id="C08_app67-fMS">
         for <lb n="c56-0013__Pt1__main__1"/>being an only child, and <w ana="start"/>desti<lb n="c56-0013__Pt1__main__2"/>tute<w ana="end"/> of companions at home,
         </seg>
-         <seg xml:id="C08_app73-fMS">
+         <seg xml:id="C08_app68-fMS">
         h <mod xml:id="c56-0013__Pt1__main__d5e765">
                <mdel/>
                <add hand="#pbs"
@@ -403,13 +450,13 @@
                <unclear>to</unclear>
             </del> father was pleased
         </seg>
-         <seg xml:id="C08_app74-fMS">
+         <seg xml:id="C08_app69-fMS">
         that he <lb n="c56-0013__Pt1__main__4"/>should find associates at our
         </seg>
-         <seg xml:id="C08_app75-fMS">
+         <seg xml:id="C08_app70-fMS">
             <lb n="c56-0013__Pt1__main__5"/>house
         </seg>
-         <seg xml:id="C08_app76-fMS">
+         <seg xml:id="C08_app71-fMS">
         and we were never <w ana="start"/>com<lb n="c56-0013__Pt1__main__6"/>pletely<w ana="end"/> happy when Clerval was <lb n="c56-0013__Pt1__main__7"/>absent. <milestone unit="tei:p-END"/>
          </seg>
          <milestone unit="tei:p-START"/>
