@@ -576,7 +576,7 @@
             <td>C20</td>
             <td>
                <ul>
-                  <li>box_c57_chap_3.xml</li>
+                 <!-- <li>box_c57_chap_3.xml</li> -->
                   <li>box_c57_another_chapter.xml</li>
                </ul>
             </td>
